@@ -7,21 +7,26 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '158'
 ht-degree: 1%
 
 ---
 
 # Bekende beperkingen
 
-* Campagne v8 is nog niet beschikbaar voor on-premise/hybride plaatsingen - slechts vrijgegeven als Adobe Beheerde Cloud Service
+Bekende beperkingen identificeren mogelijkheden, architectuur, of processen die niet door deze versie van het product worden gesteund, of die niet correct met het interoperate. Controleer deze beperkingen zorgvuldig.
+
+Voor Adobe Campaign v8 gelden de volgende beperkingen:
+
+* Adobe Campaign v8 is niet beschikbaar voor on-premise/hybride implementaties - alleen vrijgegeven als Adobe Beheerde Cloud Service
 * Bestaande klanten kunnen niet migreren van een bestaande Adobe Campaign-omgeving naar Adobe Campaign v8
-* Geen bidirectionele gegevensreplicatie, alleen van de lokale database Campagne naar de Cloud-database
-* De mogelijkheden die [in deze sectie worden vermeld](capability-matrix.md#gs-unavailable-features) zijn nog niet beschikbaar in Campagne v8
-* Bepaalde tijdelijke niet-beschikbare of verwijderde functies zijn nog steeds zichtbaar in de gebruikersinterface
-* Kan ingebouwde pakketten niet installeren, zelfs niet met beheerdersmachtigingen
+* Geen tweerichtingsgegevensreplicatie: replicatie vindt alleen plaats vanuit de lokale Campagne-database naar de Cloud-database
+* De mogelijkheden die [in deze sectie worden vermeld](capability-matrix.md#gs-unavailable-features) zijn niet beschikbaar in de huidige Campagne v8 bouwstijl
+* Sommige niet-beschikbare of verwijderde functies zijn nog steeds zichtbaar in de gebruikersinterface
+* De mechanismen Abonnement (opt-in) en Abonnement (opt-out) en Mobiele registratie zijn asynchrone processen. De verzoeken worden verwerkt elk uur door een specifieke technische werkschema. [Meer informatie](../config/replication.md#tech-wf)
+* ID-beheer - duplicaten - ter bevestiging + details
 * REGEL - ter bevestiging + details
 * Latentie - ter bevestiging + details
 
