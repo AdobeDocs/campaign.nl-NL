@@ -7,10 +7,10 @@ description: Campagne v8-documentatie
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
 hide: true
-source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
+source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 31%
+source-wordcount: '197'
+ht-degree: 30%
 
 ---
 
@@ -73,6 +73,7 @@ ht-degree: 31%
    + [Campagne + Analyse](connect/ac-aa.md)
    + [Campagne + Experience Manager](connect/ac-aem.md)
    + [Campagne + Doel](connect/ac-at.md)
+   + [Campagne + Experience Cloud-triggers](connect/ac-triggers.md)
    + [Campagne + RTCDP](connect/ac-rtcdp.md)
    + [Campagne + Twitter](connect/ac-tw.md)
    + [Campagne + externe database](connect/fda.md)
