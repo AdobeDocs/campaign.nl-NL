@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Best practices voor het datamodel
 description: Meer informatie over tips en trucs voor extensies van Campagne-gegevensmodellen
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2681'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Een veld moet in een tabel worden opgeslagen als het een doel of een doel voor p
 
 ### Keuze van toetsen {#choice-of-keys}
 
-Naast de **autouuid** die standaard in de meeste tabellen is gedefinieerd, kunt u ook enkele logische of zakelijke sleutels (accountnummer, clientnummer, enzovoort) toevoegen. Het kan later worden gebruikt voor invoer/verzoening of gegevenspakketten. Zie [Identifiers](#identifiers) voor meer informatie.
+Naast de **autouuid** en **automatische controles** die standaard in de meeste tabellen worden gedefinieerd, zou u moeten nadenken toevoegend sommige logische of bedrijfssleutels (rekeningsaantal, cliëntaantal, etc.). Het kan later worden gebruikt voor invoer/verzoening of gegevenspakketten. Zie [Identifiers](#identifiers) voor meer informatie.
 
 Efficiënte toetsen zijn essentieel voor de prestaties. Met Snowflake kunt u numerieke of op tekenreeks gebaseerde gegevenstypen invoegen als toetsen voor tabellen.
 
@@ -110,7 +110,7 @@ Deze aangepaste sleutel is de werkelijke primaire sleutel van de record in het e
 
 Bij het maken van een aangepaste tabel hebt u twee opties:
 * Een combinatie van automatisch gegenereerde sleutel (id) en interne sleutel (aangepast). Deze optie is interessant als uw systeemsleutel een samengestelde sleutel of niet een geheel is. Met Snowflake, gehelen of op koord-gebaseerde sleutels zullen hogere prestaties in grote lijsten en het aansluiten bij andere lijsten verstrekken.
-* De primaire sleutel gebruiken als de primaire sleutel van het externe systeem. Deze oplossing heeft doorgaans de voorkeur, omdat deze de aanpak van het importeren en exporteren van gegevens vereenvoudigt, met een consistente sleutel tussen verschillende systemen. Automatische invoer moet worden uitgeschakeld als de sleutel de naam &#39;id&#39; heeft en moet worden gevuld met externe waarden (niet automatisch gegenereerd).
+* De primaire sleutel gebruiken als de primaire sleutel van het externe systeem. Deze oplossing heeft doorgaans de voorkeur, omdat deze de aanpak van het importeren en exporteren van gegevens vereenvoudigt, met een consistente sleutel tussen verschillende systemen. **De optie** Automatisch uitschakelen moet worden uitgeschakeld als de sleutel de naam &quot;id&quot; heeft en moet worden gevuld met externe waarden (niet automatisch gegenereerd).
 
 >[!CAUTION]
 >
@@ -123,7 +123,7 @@ Bij het maken van een aangepaste tabel hebt u twee opties:
 
 Let op de &#39;eigen&#39; integriteit voor grote tabellen. Het schrappen van verslagen die grote lijsten in &quot;eigen&quot;integriteit hebben kan de instantie potentieel tegenhouden. De tabel is vergrendeld en de verwijderingen worden een voor een gemaakt. Het is dus beter om &quot;neutrale&quot;integriteit op kindlijsten te gebruiken die grote volumes hebben.
 
-Het declareren van een koppeling als externe verbinding is niet geschikt voor de prestaties. De nul-id verslag emuleert de externe aansluit zich aan bij functionaliteit. Het is niet nodig om externe verbindingen te verklaren als de verbinding autouuid gebruikt.
+Het declareren van een koppeling als externe verbinding is niet geschikt voor de prestaties. De nul-id verslag emuleert de externe aansluit zich aan bij functionaliteit. Het is niet noodzakelijk om externe verbindingen te verklaren als de verbinding **autouuid** gebruikt.
 
 Hoewel het mogelijk is om zich bij om het even welke lijst in een werkschema aan te sluiten, adviseert Adobe het bepalen van gemeenschappelijke verbindingen tussen middelen direct in de definitie van de gegevensstructuur.
 
