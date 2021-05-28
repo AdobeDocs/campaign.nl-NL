@@ -6,7 +6,7 @@ description: Meer informatie over het maken van aanbiedingsruimten
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
@@ -70,7 +70,7 @@ De status van het voorstel varieert afhankelijk van de interactie met de doelpop
 
 >[!NOTE]
 >
->De update van de status is een asynchroon proces. Deze wordt uitgevoerd door de workflow voor het bijhouden van gegevens, die elk uur wordt geactiveerd.
+>De update van de status is een **asynchroon** proces. Deze wordt uitgevoerd door de workflow voor het bijhouden van gegevens, die elk uur wordt geactiveerd.
 
 ### Statuslijst aanbod {#status-list}
 
