@@ -7,10 +7,10 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 93ab81f60c96a44ca702cfc278b87903a977763c
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 1%
+source-wordcount: '331'
+ht-degree: 2%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 1%
 * in Scripts - in workflows [!DNL Adobe Campaign]
 * via API&#39;s - van externe systemen
 
-U kunt Javascript APIs gebruiken om in de wolkengegevensbestand van de Campagne te schrijven of van het gegevensbestand te lezen:
+U kunt JavaScript API&#39;s gebruiken om te schrijven in de Campagnecloud-database of om te lezen vanuit de database:
 
-* Bedrijfs specifieke APIs die u op elk voorwerp laten handelen: leveringen, workflows, abonnementen, enz. Meer informatie vindt u in de [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html).
-* Algemene gegevens krijgen toegang tot API&#39;s voor het opvragen van gegevens in het datamodel. Meer informatie vindt u in de [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html).
+* Bedrijfsspecifieke API&#39;s waarmee u op elk object kunt reageren: leveringen, workflows, abonnementen enzovoort. Meer informatie vindt u in de [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html).
+* Algemene API&#39;s voor gegevenstoegang voor het opvragen van gegevens van het gegevensmodel. Meer informatie vindt u in de [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html).
 
 Campagne v8 werkt met twee databases: een lokale database voor de gebruikersinterface voor realtime berichten en eenheidquery&#39;s en schrijven via API&#39;s, en een Cloud-database voor het uitvoeren van campagnes, rapportage, gegevensinvoer, batchquery&#39;s en het uitvoeren van workflows.
 
@@ -37,14 +37,14 @@ Campagne v8 werkt met twee databases: een lokale database voor de gebruikersinte
 
 Voordat u API&#39;s van [!DNL Adobe Campaign] gebruikt, moet u vertrouwd zijn met de volgende onderwerpen:
 
-* Javascript
+* JavaScript
 * SOAP-protocol
 * [!DNL Adobe Campaign] datamodel
 
-Als u API&#39;s wilt gebruiken en wilt communiceren met [!DNL Adobe Campaign], moet u ook bekend zijn met uw datamodel.
+Als u API&#39;s wilt gebruiken en wilt communiceren met [!DNL Adobe Campaign], moet u ook bekend zijn met uw gegevensmodel.
 
 >[!NOTE]
->U kunt een volledige beschrijving van uw datamodel genereren. Meer informatie vindt u op [deze pagina](datamodel.md).
+>U kunt een volledige beschrijving van uw gegevensmodel genereren. Meer informatie vindt u op [deze pagina](datamodel.md).
 
 ## [!DNL Campaign] API-staging
 
@@ -54,10 +54,10 @@ Met [!DNL Campaign] Cloud-database worden unitaire aanroepen niet aanbevolen van
 
 ## Nieuwe API&#39;s
 
-Er zijn nieuwe API&#39;s beschikbaar voor het beheer van gegevenssynchronisatie tussen de lokale database van [!DNL Campaign] en de Cloud-database. Er is ook een nieuw mechanisme geïntroduceerd om API-aanroepen op lokaal databaseniveau af te handelen om latentie te voorkomen en de algehele prestaties te verbeteren
+Er zijn nieuwe API&#39;s beschikbaar voor het beheer van gegevenssynchronisatie tussen de lokale database van [!DNL Campaign] en de Cloud-database. Er is ook een nieuw mechanisme geïntroduceerd om API-aanroepen op lokaal databaseniveau af te handelen om latentie te voorkomen en de algehele prestaties te verbeteren.
 
 [!DNL :bulb:] [Nieuwe API&#39;s worden in deze pagina beschreven](new-apis.md)
 
 **Verwante onderwerpen**
 
-* [Aanbevolen werkwijzen voor DataModel](datamodel-best-practices.md)
+* [Best practices voor het datamodel](datamodel-best-practices.md)
