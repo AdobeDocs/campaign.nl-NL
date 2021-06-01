@@ -1,9 +1,8 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Best practices voor het datamodel
 description: Meer informatie over tips en trucs voor extensies van Campagne-gegevensmodellen
-source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '2681'
 ht-degree: 4%
