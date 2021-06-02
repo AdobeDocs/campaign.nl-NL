@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Belangrijk beheer in campagne '
 description: Aan de slag met sleutelbeheer
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ In Campagne v8 is de primaire sleutel een Universally Unique IDentifier (UUID), 
 
 Adobe-campagne v8 wordt geleverd met Snowflake als de kerndatabase. De verdeelde architectuur van het gegevensbestand van Snowflake verstrekt geen mechanismen om de eenheid van een sleutel binnen een lijst te beheren: eindgebruikers zijn verantwoordelijk voor het waarborgen van consistentie van sleutels binnen de Adobe Campaign-database.
 
-Om de consistentie van relationele databases te behouden, is het verplicht duplicaten van sleutels, en met name van primaire sleutels, te voorkomen. Duplicaten op primaire sleutels leiden tot problemen met de werkstroomactiviteiten voor gegevensbeheer, zoals Query, Verzoening, Update en meer.
+Om de consistentie van relationele databases te behouden, is het verplicht duplicaten van sleutels, en met name van primaire sleutels, te voorkomen. Duplicaten op primaire sleutels leiden tot problemen met de werkstroomactiviteiten voor gegevensbeheer, zoals **Query**, **Afstemming**, **Gegevens bijwerken** en meer.
 
-Adobe Campaign stelt krachtige hulpmiddelen voor gegevensbeheer voor om de gegevens te combineren, ervoor te zorgen dat gegevens worden ingevoegd of bijgewerkt afhankelijk van de aanwezigheid ervan in de database (Afstemming) en duplicaten te verwijderen voordat gegevens worden ingevoerd (Deduplicatie). Als beste praktijken, adviseert Adobe het goedkeuren van een [Detect](#detect-duplicates) en [Correct](#correct-duplicates) strategie als deel van uw algemeen proces van het Beheer van Gegevens, voor het geval dat de gedupliceerde sleutels in het gegevensbestand zijn geladen.
+Adobe Campaign stelt krachtige hulpmiddelen voor gegevensbeheer voor om de gegevens met elkaar te verzoenen, ervoor te zorgen dat gegevens worden ingevoegd of bijgewerkt afhankelijk van de aanwezigheid ervan in de database (**Verzoening**) en duplicaten te verwijderen voordat gegevens worden ingevoerd (**Deduplicatie**). Als beste praktijken, adviseert Adobe het goedkeuren van een [Detect](#detect-duplicates) en [Correct](#correct-duplicates) strategie als deel van uw algemeen proces van het Beheer van Gegevens, voor het geval dat de gedupliceerde sleutels in het gegevensbestand zijn geladen.
 
 ## Duplicaten detecteren{#detect-duplicates}
 
 Campagne wordt geleverd met een nieuwe hulplijn die automatisch gedupliceerde UUID&#39;s uit een publiek verwijdert tijdens de voorbereiding van de levering. Dit nieuwe mechanisme voorkomt dat er een fout optreedt bij het voorbereiden van een levering.
 
-Als eindgebruiker, kunt u deze informatie in de Logboeken van de Levering controleren: sommige ontvangers kunnen van het hoofddoel worden uitgesloten vanwege een gedupliceerde sleutel. In dat geval wordt de volgende waarschuwing weergegeven: `Exclusion of duplicates (based on the primary key or targeted records)`.
+Als eindgebruiker, kunt u deze informatie in de leveringslogboeken controleren: sommige ontvangers kunnen van het hoofddoel worden uitgesloten vanwege een gedupliceerde sleutel. In dat geval wordt de volgende waarschuwing weergegeven: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
 ![](assets/delivery-log-duplicates.png)
 
@@ -81,4 +81,4 @@ and urecipientid = 'c04d93f2-6012-4668-b523-88db1262cd46';
 
 ![](assets/sql-data-management.png)
 
-Zodra de geselecteerde rij met nieuwe UUID wordt bijgewerkt dan kunt u de bijgewerkte rij van de interface controleren en opmerken UUID zoals verwacht is bijgewerkt. U kunt ook duplicaten in de database detecteren door de workflow [Detecteren van duplicaten uit te voeren, zoals hier wordt uitgelegd](#detect-duplicates).
+Zodra de geselecteerde rij met nieuwe UUID wordt bijgewerkt dan kunt u de bijgewerkte rij van de interface controleren en opmerken UUID zoals verwacht is bijgewerkt. U kunt ook duplicaten in de database detecteren door de **workflow [Detecteren van duplicaten** uit te voeren, zoals hier wordt uitgelegd](#detect-duplicates).
