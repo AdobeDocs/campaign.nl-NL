@@ -6,7 +6,7 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 7%
@@ -30,16 +30,16 @@ U kunt instellen:
 
 Gebruik Adobe Campaign-workflows om de snelheid en schaal van elk aspect van uw marketingcampagnes te verbeteren, van het maken van segmenten en het voorbereiden van berichten tot de levering.
 
-Leer hoe u workflows ontwerpt in deze[gebruiksgevallen van begin tot eind](#end-to-end-uc).
+Leer hoe u workflows ontwerpt in deze [gebruiksgevallen van begin tot eind](#end-to-end-uc).
 
 Meer informatie over de gebruikersinterface en uitvoering van workflows vindt u in de Campaign Classic v7-documentatie:
 
 [!DNL :arrow_upper_right:]  [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
 * Workflowactiviteiten:
-   * [Doelactiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html): query, read list, enrichment, union en nog veel meer
-   * [Stroombeheeractiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html): planner, vork, alarm, extern signaal, en meer
-   * [Actie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html): cross-channel leveringen, Javascript-code, CRM-activiteiten, aggregaat bijwerken en meer
-   * [Gebeurtenisactiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html): bestandsoverdracht, webdownload en meer
+   * [Doelactiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html): Query, lijst Lezen, Verrijking, Vereniging en meer
+   * [Stroombeheeractiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html): Planner, Fork, Alert, Extern signaal, en meer
+   * [Actie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html): Kanaalleveringen, JavaScript-code, CRM-activiteiten, aggregaat bijwerken en meer
+   * [Gebeurtenisactiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html): Bestandsoverdracht, webdownload en meer
       [!DNL :arrow_upper_right:]  [Een publiek maken in een workflow voor een marketingcampagne](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
 
       [!DNL :arrow_upper_right:]  [Best practices voor workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
