@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Werken met campagne-schema's
 description: Aan de slag met schema's
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 4%
 
 ---
@@ -135,7 +135,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ## Toetsen {#keys}
 
-Elke lijst moet minstens één sleutel hebben, en vaak wordt het automatisch gevestigd in het belangrijkste element van het schema door **@autouuid=true** attributen te gebruiken die aan &quot;waar&quot;worden geplaatst.
+Elke lijst moet minstens één sleutel hebben, en vaak wordt het automatisch gevestigd in het belangrijkste element van het schema door **@autouuid** en **de attributen van de automatische controle** te gebruiken die aan **true** worden geplaatst.
 
 De primaire sleutel kan ook worden bepaald gebruikend het **internal** attribuut.
 
