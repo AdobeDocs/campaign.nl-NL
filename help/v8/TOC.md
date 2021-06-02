@@ -6,10 +6,10 @@ description: Campagne v8-documentatie
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
 hide: true
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 30%
+source-wordcount: '201'
+ht-degree: 29%
 
 ---
 
@@ -83,6 +83,7 @@ ht-degree: 30%
    + [Datamodel](dev/datamodel.md)
    + Schema&#39;s en formulieren {#shemas-forms}
       + [Werken met schema&#39;s](dev/schemas.md)
+      + [Sleutelbeheer en eenheid](dev/keys.md)
       + [Schema&#39;s maken](dev/create-schema.md)
       + [Schema&#39;s uitbreiden](dev/extend-schema.md)
       + [Schemastructuur](dev/schema-structure.md)
