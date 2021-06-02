@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '601'
 ht-degree: 4%
 
 ---
@@ -41,11 +41,11 @@ Nadat u het bericht hebt gemaakt en de inhoud ervan hebt ontworpen en getest, ku
 
 * Handmatig berichten verzenden naar het hoofddoel
    [!DNL :arrow_upper_right:] [Leer hoe berichten worden verzonden](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
-* Verzend berichten verbonden aan een [marketing campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html)
+* Verzend berichten verbonden aan een [marketing campagne](campaigns.md)
    [!DNL :arrow_upper_right:] [Leer hoe u berichten verzendt in het kader van een campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html).
-* Berichten verzenden via een [workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html)
+* Berichten verzenden via een [workflow](../config/workflows.md)
    [!DNL :arrow_upper_right:] [Meer informatie over het automatiseren van e-mailleveringen](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
-* [Berichten ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html) uit een gebeurtenis activeren
+* [Berichten ](../send/transactional.md) uit een gebeurtenis activeren
    [!DNL :arrow_upper_right:] [Hoofdlettergebruik: leren hoe u een transactie-e-mail met een bijlage kunt verzenden](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
 * Uw berichten plannen
    [!DNL :arrow_upper_right:] [Hoofdlettergebruik: leren plannen en een verjaardagsbericht verzenden](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?)
