@@ -5,9 +5,9 @@ description: Aan de slag met e-mails in Campagne
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5762e58aafb11932d0e28d87df84704974c09564
+source-git-commit: dc99c00f68e53a308f8c869f07aa93baed3a5129
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -24,71 +24,58 @@ Maak persoonlijke en contextafhankelijke e-mails die consistent zijn met de rest
 
 ![](assets/new-email-content.png)
 
-[!DNL :arrow_upper_right:] [Leer hoe u een e-maillevering kunt maken in Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
 
+In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Campaign die gepersonaliseerde gegevens, koppelingen naar een externe URL en een koppeling naar de spiegelpagina bevat.
 
-In het volgende voorbeeld leert u hoe u in Adobe Campaign een e-maillevering ontwerpt die gepersonaliseerde gegevens, koppelingen naar een externe URL, een koppeling naar de spiegel en een koppeling naar een webformulier bevat.
-
-1. De levering maken
+1. **De levering maken**
 
    Als u een nieuwe levering wilt maken, bladert u naar het tabblad **Campagnes**, klikt u op **Leveringen** en klikt u op de knop **Maken** boven de lijst met bestaande leveringen.
 
    ![](assets/delivery_step_1.png)
 
-1. Selecteer de sjabloon
+1. **Selecteer de sjabloon**
 
    Selecteer een leveringssjabloon en geef uw levering een naam. Deze naam is alleen zichtbaar voor gebruikers van de Adobe Campaign-console en niet voor uw ontvangers. Deze kop wordt echter wel weergegeven in uw lijst met leveringen. Klik op **[!UICONTROL Continue]**.
 
    ![](assets/dce_delivery_model.png)
 
-1. Uw inhoud importeren
+1. **Uw inhoud importeren**
 
    Klik op het tabblad **Bron** om uw HTML-inhoud te plakken.
 
    ![](assets/paste-content.png)
 
 
-1. Je bericht personaliseren
+1. **Je bericht personaliseren**
 
 
-   * De eerste en tweede naam van de ontvangers weergeven
+   * Voeg de eerste en laatste namen van uw ontvangers toe
 
-      Als u de eerste en tweede naam van de ontvangers wilt invoegen in een tekstveld in de aflevering, klikt u op het gekozen tekstveld en plaatst u de cursor op de gewenste positie. Klik op het eerste pictogram op de pop-upwerkbalk en klik vervolgens op **[!UICONTROL Personalization block]**. Selecteer **[!UICONTROL Greetings]** en klik vervolgens op **[!UICONTROL OK]**.
+      Als u de eerste en laatste naam van de doelprofielen in de inhoud van het bericht wilt invoegen, plaatst u de cursor op de plaats waar u deze wilt invoegen en klikt u op het laatste pictogram op de werkbalk. Klik vervolgens op **[!UICONTROL Include]** en selecteer **[!UICONTROL Greetings]**.
 
-   * Een koppeling invoegen in een afbeelding
+      ![](assets/include-greetings.png)
 
-      Als u ontvangers voor levering via een afbeelding naar een extern adres wilt sturen, klikt u op de desbetreffende afbeelding om de pop-upwerkbalk weer te geven. Plaats de cursor op het eerste pictogram en klik vervolgens op **[!UICONTROL Link to an external URL]**.
+      Blader naar het tabblad Voorbeeld om de personalisatie te controleren door een ontvanger te selecteren.
+
+      ![](assets/perso-check.png)
+
+   * Een bijgehouden koppeling invoegen
+
+      Als u ontvangers voor levering via een afbeelding of tekst naar een extern adres wilt sturen, selecteert u de afbeelding of tekst en klikt u op het pictogram **[!UICONTROL Add a link]** op de werkbalk.
 
       Voer de URL voor de koppeling in het veld **URL** in met de volgende notatie **https://www.myURL.com** en bevestig vervolgens de URL.
 
-      U kunt de koppeling op elk gewenst moment wijzigen met de sectie rechts van het venster.
-
-   * Koppelingen in tekst invoegen
-
-      Als u een externe koppeling wilt integreren in de tekst in uw bestelling, selecteert u een stuk tekst of een blok tekst en klikt u op het eerste pictogram in de pop-upwerkbalk. Klik **[!UICONTROL Link to an external URL]**, ga het verbindingsadres in **[!UICONTROL URL]** gebied in.
-
-      U kunt de koppeling op elk gewenst moment wijzigen met de sectie rechts van het venster.
+      ![](assets/add-a-link.png)
 
    * Een spiegelpagina toevoegen
 
-      Om uw ontvangers toe te staan om uw leveringsinhoud in browser van het Web te bekijken, kunt u een verbinding aan een spiegelpagina in uw levering integreren.
+      Als u wilt dat de ontvangers de inhoud van de levering in een webbrowser kunnen bekijken, voegt u een koppeling toe naar de spiegelpagina van het bericht.
 
-      Klik op het tekstveld waarin u de koppeling wilt plaatsen. Klik op het eerste pictogram op de pop-upwerkbalk, selecteer **[!UICONTROL Personalization block]** en **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Klik **[!UICONTROL Save]** om te bevestigen.
-
-   * Een koppeling naar een webtoepassing integreren
-
-      Met de Digital Content Editor kunt u koppelingen naar webtoepassingen integreren vanuit uw Adobe Campaign-console, zoals een openingspagina of een formulierpagina.
-
-      Selecteer een tekstveld voor de koppeling naar een webtoepassing en klik op het eerste pictogram. Kies **[!UICONTROL Link to a Web application]**, dan selecteer de gewenste toepassing door het pictogram aan het eind van **Web Application** te klikken gebied.
-
-1. Berichten verzenden
-
-   Wanneer de inhoud is geïntegreerd, slaat u de levering op door op **Opslaan** te klikken. Het wordt nu weergegeven in de lijst met leveringen op het tabblad **[!UICONTROL Campaigns > Deliveries]**.
+      Plaats de cursor op de plaats waar u deze koppeling wilt invoegen en klik op het laatste pictogram op de werkbalk. Klik vervolgens op **[!UICONTROL Include]** en selecteer **[!UICONTROL link to mirror page]**.
+   Als de inhoud gereed is, klikt u op **Opslaan**: het wordt nu weergegeven in uw lijst met leveringen op het tabblad **[!UICONTROL Campaigns > Deliveries]**. Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
 
 
-## Inhoud maken en publiek selecteren
-
-U kunt rechtstreeks in Campagne creëren of uw publiek, evenals uw e-mailinhoud invoeren. Gebruik de onderstaande koppelingen voor meer informatie:
+Meer informatie vindt u in de volgende secties van de Campaign Classic v7-documentatie:
 
 * Een e-mail ontwerpen in Campagne
    [!DNL :arrow_upper_right:] [Leer hoe u een e-mail ontwerpt](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
