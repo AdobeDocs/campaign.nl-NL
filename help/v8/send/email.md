@@ -5,9 +5,9 @@ description: Aan de slag met e-mails in Campagne
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: d1e96b1311d9de24ceb918230186cd3cad609ab2
+source-git-commit: 5762e58aafb11932d0e28d87df84704974c09564
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '790'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ In het volgende voorbeeld leert u hoe u in Adobe Campaign een e-maillevering ont
 
    * Een koppeling naar een webtoepassing integreren
 
-      Met de Digital Content Editor kunt u koppelingen naar webtoepassingen integreren vanuit uw Adobe Campaign-console, zoals een openingspagina of een formulierpagina. Voor meer op dit, verwijs naar [Verbinding aan een toepassing van het Web](../../web/using/editing-content.md#link-to-a-web-application).
+      Met de Digital Content Editor kunt u koppelingen naar webtoepassingen integreren vanuit uw Adobe Campaign-console, zoals een openingspagina of een formulierpagina.
 
       Selecteer een tekstveld voor de koppeling naar een webtoepassing en klik op het eerste pictogram. Kies **[!UICONTROL Link to a Web application]**, dan selecteer de gewenste toepassing door het pictogram aan het eind van **Web Application** te klikken gebied.
 
