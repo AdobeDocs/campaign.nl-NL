@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Belangrijk beheer in campagne '
 description: Aan de slag met sleutelbeheer
-source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
+source-git-commit: 9a1c44f74f6558f0397617353f3e78186fb15717
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Adobe-campagne v8 wordt geleverd met Snowflake als de kerndatabase. De verdeelde
 
 Om de consistentie van relationele databases te behouden, is het verplicht duplicaten van sleutels, en met name van primaire sleutels, te voorkomen. Duplicaten op primaire sleutels leiden tot problemen met de werkstroomactiviteiten voor gegevensbeheer, zoals **Query**, **Afstemming**, **Gegevens bijwerken** en meer.
 
-Adobe Campaign stelt krachtige hulpmiddelen voor gegevensbeheer voor om de gegevens met elkaar te verzoenen, ervoor te zorgen dat gegevens worden ingevoegd of bijgewerkt afhankelijk van de aanwezigheid ervan in de database (**Verzoening**) en duplicaten te verwijderen voordat gegevens worden ingevoerd (**Deduplicatie**). Als beste praktijken, adviseert Adobe het goedkeuren van een [Detect](#detect-duplicates) en [Correct](#correct-duplicates) strategie als deel van uw algemeen proces van het Beheer van Gegevens, voor het geval dat de gedupliceerde sleutels in het gegevensbestand zijn geladen.
+Als beste praktijken, adviseert Adobe het goedkeuren van een [Detect](#detect-duplicates) en [Correct](#correct-duplicates) strategie als deel van uw algemeen proces van het Beheer van Gegevens, voor het geval dat de gedupliceerde sleutels in het gegevensbestand zijn geladen.
 
 ## Duplicaten detecteren{#detect-duplicates}
 
