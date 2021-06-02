@@ -1,14 +1,14 @@
 ---
 product: Adobe Campaign
 title: Werken met campagne en Adobe Analytics
-description: Leer hoe u kunt werken met Campagne en Adobe Analytics
+description: Leer hoe u campagne en analyse kunt integreren
 feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 7bb480eb69aa92e8876acaf2322e532dbb2f1f96
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -19,22 +19,15 @@ U kunt Adobe Analytics configureren om Campagne en Analytics te integreren.
 
 Dankzij deze integratie kunnen Adobe Campaign en Adobe Analytics communiceren via de **Web Analytics-connectors** add-on. Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
 
+[!DNL :speech_balloon:] Als gebruiker van Beheerde Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. Adobe Identity Management Service (IMS) moet voor uw instantie worden geïmplementeerd. [Meer informatie](../start/connect.md#connect-ims). De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
+
 Met Adobe Analytics Connector kan Adobe Campaign het internetpubliek meten (Web Analytics). Met de hulpprogramma&#39;s voor webanalyse kan Adobe Campaign indicatoren en campagnerekenmerken doorsturen naar Analytics.
 
 De actieomtrek van elk gereedschap is als volgt:
 
-* **Adobe Analytics**
+* **Adobe** Analytici markeert de e-mailcampagnes die zijn gestart met Adobe Campaign
 
-   * markeert de e-mailcampagnes die met Adobe Campaign zijn gestart
-   * bespaart ontvankelijk gedrag, op de plaats zij na het klikken van campagne e-mail, in de vorm van segmenten doorbladeden. Segmenten houden verband met verlaten producten (bekeken maar niet toegevoegd aan het winkelwagentje of aangeschaft), aankopen of winkelen.
-
-* **Adobe Campaign**
-
-   * verzendt de indicatoren en campagnerekenmerken naar de schakelaar, die hen aan het analytische hulpmiddel van het Web terugstuurt
-   * herstelt en analyseert segmenten
-   * leidt tot een hermarketing campagne
-
-[!DNL :speech_balloon:]  Als gebruiker van Beheerde Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om de Schakelaar van Adobe Analytics met Campagne te integreren. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
+* **Adobe** Campaignsend de indicatoren en campagneattributen naar de schakelaar, die hen aan het hulpmiddel van de Analyse van het Web beurtelings door:sturen
 
 
 >[!CAUTION]
@@ -47,7 +40,7 @@ Als u de verbinding Campagne-Analytics wilt instellen, moet u de volgende bewerk
 1. [Conversievariabelen en Succesgebeurtenissen configureren](#configure-conversion-success)
 1. [Uw externe account configureren in Adobe Campaign](#external-account-ac)
 
-## Uw rapportsuite maken in Adobe Analytics {#report-suite-analytics}
+## Maak uw analyserapportsuite {#report-suite-analytics}
 
 Voer de onderstaande stappen uit om uw **[!UICONTROL Report suite]** in [!DNL Adobe Analytics] te maken:
 
@@ -122,7 +115,7 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
 
 Wanneer uw rapportreeks wordt gevormd, zult u **[!UICONTROL External accounts]** in Adobe Campaign moeten vormen.
 
-## Uw externe account configureren in Adobe Campaign {#external-account-ac}
+## Uw externe account voor campagne configureren {#external-account-ac}
 
 U moet nu uw **[!UICONTROL Web Analytics]** externe rekening in Adobe Campaign vormen om de synchronisatie tussen de twee oplossingen toe te laten.
 
@@ -192,7 +185,7 @@ Raadpleeg voor meer informatie hierover de pagina [Productprofielen voor Adobe A
 >
 >Als u verschillende publiekmeetgereedschappen gebruikt, kunt u **[!UICONTROL Other]** in de vervolgkeuzelijst **[!UICONTROL Partners]** selecteren wanneer u de externe account maakt. U mag slechts naar één externe account verwijzen in de leveringseigenschappen: u moet daarom de formule van bijgehouden URL&#39;s aanpassen door de parameters toe te voegen die door de Adobe en alle andere gebruikte meetinstrumenten worden verwacht.
 
-## Technische workflows van webanalyseprocessen {#technical-workflows-of-web-analytics-processes}
+## Technische workflow van webanalyseprocessen {#technical-workflows-of-web-analytics-processes}
 
 De gegevensuitwisseling tussen Adobe Campaign en Adobe Analytics wordt afgehandeld door een technische workflow die als achtergrondtaak wordt uitgevoerd.
 
@@ -232,7 +225,7 @@ De verzonden kenmerken zijn als volgt:
 * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
 * **[!UICONTROL Contact date]** (planning/@contactDate)
 
-## Leveringen bijhouden in Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
+## Leveringen bijhouden {#tracking-deliveries-in-adobe-campaign}
 
 Als u wilt dat de Adobe Experience Cloud de activiteit op de sites kan volgen wanneer de levering door Adobe Campaign wordt verzonden, moet u in de leveringseigenschappen verwijzen naar de bijbehorende connector. Hiervoor voert u de volgende stappen uit:
 
@@ -246,46 +239,6 @@ Als u wilt dat de Adobe Experience Cloud de activiteit op de sites kan volgen wa
    ![](assets/webanalytics_delivery_properties_002.png)
 
 1. Je kunt nu je levering verzenden en je rapport bekijken in Adobe Analytics.
-
-## Nieuwe marketingcampagne maken {#creating-a-re-marketing-campaign}
-
-Om uw re-marketing campagne voor te bereiden, creeer eenvoudig leveringsmalplaatjes die voor re-marketing typecampagnes worden gebruikt. Dan vorm uw re-marketing campagne en verbind het met een segment. Elk segment moet een andere hermarketingcampagne voeren.
-
-Nieuwe marketingcampagnes worden automatisch gestart zodra Adobe Campaign de segmenten heeft hersteld waarin het gedrag wordt geanalyseerd van de mensen die voor de eerste campagne zijn geselecteerd. In het geval van het verlaten van het winkelwagentje of het bekijken van een product zonder een aankoop, wordt een levering verzonden naar de betrokken ontvangers zodat hun site eindigt met een aankoop.
-
-Adobe Campaign biedt persoonlijke leveringssjablonen die u kunt gebruiken of zelf kunt databaseren om campagnes voor te bereiden.
-
-1. Ga in **[!UICONTROL Explorer]** naar **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** in de Adobe Campaign-structuur.
-
-1. Dupliceer de **[!UICONTROL Email delivery (re-marketing)]** malplaatje of de re-marketing malplaatjevoorbeelden die door Adobe Campaign worden aangeboden.
-
-   ![](assets/webanalytics_delivery_model.png)
-
-1. Pas de sjabloon aan uw wensen aan en sla deze op.
-
-1. Maak een nieuwe campagne en selecteer de sjabloon **[!UICONTROL Re-marketing campaign]** in de vervolgkeuzelijst.
-
-   ![](assets/webanalytics_remarketing_campaign_002.png)
-
-1. Klik op de koppeling **[!UICONTROL Configure...]** om het segment en de leveringssjabloon op te geven die aan de campagne zijn gekoppeld.
-
-1. Selecteer de eerder geconfigureerde externe account.
-
-   ![](assets/webanalytics_remarketing_campaign_003.png)
-
-1. Selecteer het desbetreffende segment.
-
-   ![](assets/webanalytics_remarketing_campaign_005.png)
-
-1. Selecteer het leveringsmalplaatje voor deze re-marketing campagne moet worden gebruikt, dan klik **[!UICONTROL Finish]** om het venster te sluiten.
-
-   ![](assets/webanalytics_remarketing_campaign_006.png)
-
-1. Klik **[!UICONTROL OK]** om het campagnevenster te sluiten.
-
-Het **[!UICONTROL Re-marketing efficiency]** rapport wordt betreden via de globale rapportpagina. Het laat u het aantal geconverteerde contacten (d.w.z. het hebben van iets gekocht) met betrekking tot het aantal kartverlaten na de Adobe Campaign hermarketing campagne bekijken. De conversiesnelheid wordt berekend per week, maand of sinds het begin van de synchronisatie tussen Adobe Campaign- en Web-analyseprogramma&#39;s.
-
-![](assets/webanalytics_reporting.png)
 
 
 **Verwante onderwerpen**
