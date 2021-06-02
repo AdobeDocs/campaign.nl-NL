@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
+source-git-commit: 38ea3e82fca6299b067d6843424d4ccb92213d00
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '158'
 ht-degree: 3%
 
 ---
@@ -26,5 +26,4 @@ Voor Adobe Campaign v8 gelden de volgende beperkingen:
 * Sommige niet-beschikbare of verwijderde functies zijn nog steeds zichtbaar in de gebruikersinterface
 * De mechanismen Abonnement (opt-in) en Abonnement (opt-out) en Mobiele registratie zijn asynchrone processen. De verzoeken worden verwerkt elk uur door een specifieke technische werkschema. [Meer informatie](../config/replication.md#tech-wf)
 * Duplicaten moeten handmatig door eindgebruikers worden afgehandeld. [Meer informatie](../dev/keys.md)
-* REGEL - ter bevestiging + details
 * Latentie - ter bevestiging + details
