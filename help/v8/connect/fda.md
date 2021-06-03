@@ -5,7 +5,7 @@ description: Leer hoe u kunt werken met Campagne en externe databases
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Specifieke **toestemmingen** worden vereist op [!DNL Adobe Campaign] en op het e
 Om toegang tot een extern gegevensbestand met FDA te plaatsen, zijn de configuratiestappen:
 
 1. Als gebruiker van de Diensten van Adobe Beheerde, contacteer Adobe om de bestuurders op uw instantie van de Campagne te installeren.
-1. Als stuurprogramma&#39;s zijn geïnstalleerd, stelt u de externe account in die overeenkomt met uw database op de Adobe Campaign-server en test u de externe account. [Meer informatie](#fda-external-account).
+1. Als stuurprogramma&#39;s zijn geïnstalleerd, stelt u de externe account in die overeenkomt met uw database op de Adobe Campaign-server en test u de externe account. [Meer informatie](#fda-external-account)
 1. Maak het schema van de externe database in Adobe Campaign. Hierdoor kunt u de gegevensstructuur van de externe database identificeren. [Meer informatie](#create-data-schema)
 1. Indien nodig, creeer een nieuwe doelafbeelding van het eerder gecreeerd schema. Dit is vereist als de ontvangers van uw leveringen afkomstig zijn uit de externe database. Deze implementatie omvat beperkingen met betrekking tot berichtpersonalisatie. [Meer informatie](#define-data-mapping)
 
