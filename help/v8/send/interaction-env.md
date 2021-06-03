@@ -5,7 +5,7 @@ description: Beheerders van aanbiedingen maken
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Campagne wordt standaard geleverd met een **[!UICONTROL Design]**-omgeving en ee
 
 ![](assets/offer_environments_overview_002.png)
 
-Leveringsmanagers kunnen alleen de **[!UICONTROL Live]**-omgeving en de hefboomfuncties bekijken om deze te leveren. De managers van de aanbieding kunnen het **[!UICONTROL Design]** milieu bekijken en gebruiken, en het **[!UICONTROL Live]** milieu bekijken. [Meer informatie](interaction-operators.md).
+Leveringsmanagers kunnen alleen de **[!UICONTROL Live]**-omgeving en de hefboomfuncties bekijken om deze te leveren. De managers van de aanbieding kunnen het **[!UICONTROL Design]** milieu bekijken en gebruiken, en het **[!UICONTROL Live]** milieu bekijken. [Meer informatie](interaction-operators.md)
 
 ## Een aanbiedingsomgeving maken {#creating-an-offer-environment}
 
