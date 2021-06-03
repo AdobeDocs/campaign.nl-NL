@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Campagne-schema's uitbreiden
 description: Meer informatie over het uitbreiden van Campagne-schema's
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ De belangrijkste stappen om het datamodel van de Campagne aan te passen zijn:
 >[!CAUTION]
 >Ingebouwd schema mag niet rechtstreeks worden gewijzigd. Als u een ingebouwd schema moet aanpassen, moet u het uitbreiden.
 
-[!DNL :bulb:] Raadpleeg  [deze pagina](datamodel.md) voor een beter begrip van ingebouwde tabellen en hun interactie voor campagnes.
+[!DNL :bulb:] Raadpleeg  [deze pagina](datamodel.md) voor een beter begrip van ingebouwde tabellen en hun interactie voor campagnes. Zie ook aanbevelingen wanneer het creëren van een nieuw schema in [deze pagina](create-schema.md).
 
 Voer de volgende stappen uit om een schema uit te breiden:
 
@@ -43,7 +43,7 @@ Voer de volgende stappen uit om een schema uit te breiden:
 
    ![](assets/extend-schema-edit.png)
 
-   In het onderstaande voorbeeld voegen we het kenmerk MembershipYear toe, zetten we een lengtelimiet voor achternaam (deze limiet overschrijft de standaardwaarde) en verwijderen we de geboortedatum uit het ingebouwde schema.
+   In het onderstaande voorbeeld voegen we het kenmerk **MembershipYear** toe, plaatsen we een lengtelimiet voor achternaam (deze limiet overschrijft de standaardwaarde) en verwijderen we de geboortedatum uit het ingebouwde schema.
 
    ![](assets/extend-schema-sample.png)
 
