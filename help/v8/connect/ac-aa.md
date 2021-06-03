@@ -6,7 +6,7 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 7bb480eb69aa92e8876acaf2322e532dbb2f1f96
+source-git-commit: a7309c9ec735f958f038c6ea4e702c99c726f8bd
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
@@ -135,10 +135,13 @@ Raadpleeg voor meer informatie hierover de pagina [Productprofielen voor Adobe A
 
 1. Wijs in het venster **[!UICONTROL Configure Analytics integration]** uw externe account toe met de eerder gemaakte rapportsuite die de volgende informatie bevat:
 
+   ![](assets/analytics_connector_0.png)
+
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**
    * **[!UICONTROL Analytics Company]**
    * **[!UICONTROL Report Suite]**
+
 
 1. Wijs in de categorie **[!UICONTROL eVars]** de twee **[!UICONTROL Conversion variables]** die zijn geconfigureerd in [!DNL Adobe Analytics] toe.
 
