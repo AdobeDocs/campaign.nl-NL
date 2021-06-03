@@ -5,21 +5,21 @@ description: Stapelmechanisme voor campagne-API
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 3%
+source-wordcount: '312'
+ht-degree: 2%
 
 ---
 
 # Stapelmechanisme voor campagne-API
 
-Met de Campaign Cloud-database worden algemene aanroepen niet aanbevolen vanwege de prestaties (latentie en gelijktijdige uitvoering). Batchbewerking heeft altijd de voorkeur. Om optimale prestaties van APIs te waarborgen, blijft de Campagne API vraag op het lokale gegevensbestandniveau behandelen.
+Met de Campaign Cloud-database wordt het opblazen van unitaire oproepen niet aanbevolen voor wat betreft prestaties (latentie en gelijktijdige uitvoering). Batchbewerking heeft altijd de voorkeur. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
 
-Het het opvoeren van de campagne mechanisme is beschikbaar voor zowel ingebouwde als douanetabel en brengt de volgende voordelen:
+De het opvoeren van de campagne capaciteit wordt toegelaten door gebrek op sommige ingebouwde schema&#39;s. Wij kunnen het op om het even welk douaneschema ook toelaten. Staging mechanisme in een notendop:
 
-* De structuur van het gegevensschema wordt herhaald in de lokale het opvoeren lijst
-* Nieuwe API&#39;s voor inname vloeien rechtstreeks over naar de testtabel. [Meer informatie](new-apis.md)
+* De structuur van het gegevensschema wordt gedupliceerd in de lokale het opvoeren lijst
+* Nieuwe API&#39;s die zijn toegewezen aan gegevensinvoer vloeien rechtstreeks over naar de lokale staging-tabel. [Meer informatie](new-apis.md)
 * Een geplande workflow activeert elk uur en synchroniseert gegevens weer naar de Cloud Database. [Meer informatie](../config/replication.md).
 
 Sommige ingebouwde schema&#39;s zijn standaard gefaseerd, zoals nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
@@ -28,7 +28,13 @@ API&#39;s voor Campaign Classic v7 zijn nog steeds beschikbaar, maar kunnen niet
 
 >[!CAUTION]
 >
->Met dit nieuwe mechanisme is gegevenssynchronisatie voor abonnementen, abonnementen of mobiele registratie nu **asynchroon**.
+>* Met dit nieuwe mechanisme is gegevenssynchronisatie voor kanaaloptie, abonnementen, abonnementen of mobiele registratie nu **asynchroon**.
+   >
+   >
+* Staging is alleen van toepassing op schema&#39;s die zijn opgeslagen in de cloud-database. Laat het opvoeren op herhaalde schema&#39;s niet toe. Schakel Staging niet in voor lokale schema&#39;s. Staging niet inschakelen in een schema met werkstadia
+
+>
+
 
 
 ## Implementatiestappen{#implement-staging}
