@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Nieuw schema maken in campagne
 description: Leer hoe u een nieuw schema maakt in Campagne
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Op het tabblad **[!UICONTROL Edit]** wordt de XML-inhoud van een schema weergege
 
 >[!NOTE]
 >
->Met het besturingselement &#39;Naam&#39; kunt u de schemasleutel invoeren die bestaat uit de naam en naamruimte. De kenmerken &quot;name&quot; en &quot;namespace&quot; van het hoofdelement van het schema worden automatisch bijgewerkt in de XML-bewerkingszone van het schema. Sommige naamruimten zijn alleen intern. [Meer informatie](schemas.md#reserved-namespaces).
+>Met het besturingselement &#39;Naam&#39; kunt u de schemasleutel invoeren die bestaat uit de naam en naamruimte. De kenmerken &quot;name&quot; en &quot;namespace&quot; van het hoofdelement van het schema worden automatisch bijgewerkt in de XML-bewerkingszone van het schema. Sommige naamruimten zijn alleen intern. [Meer informatie](schemas.md#reserved-namespaces)
 
 Het **[!UICONTROL Preview]** lusje produceert automatisch het uitgebreide schema:
 
