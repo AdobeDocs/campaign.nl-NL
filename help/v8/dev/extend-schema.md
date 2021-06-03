@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Campagne-schema's uitbreiden
 description: Meer informatie over het uitbreiden van Campagne-schema's
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Voer de volgende stappen uit om een schema uit te breiden:
 
    ![](assets/extend-schema-select.png)
 
-   Door overeenkomst, noem het uitbreidingsschema het zelfde als het ingebouwde schema, en gebruik een douanenamespace.  Sommige naamruimten zijn alleen intern. [Meer informatie](schemas.md#reserved-namespaces).
+   Door overeenkomst, noem het uitbreidingsschema het zelfde als het ingebouwde schema, en gebruik een douanenamespace.  Sommige naamruimten zijn alleen intern. [Meer informatie](schemas.md#reserved-namespaces)
 
    ![](assets/extend-schema-validate.png)
 
