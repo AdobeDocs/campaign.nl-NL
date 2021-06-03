@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Belangrijk beheer in campagne '
 description: Aan de slag met sleutelbeheer
-source-git-commit: 9a1c44f74f6558f0397617353f3e78186fb15717
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Als beste praktijken, adviseert Adobe het goedkeuren van een [Detect](#detect-du
 ## Duplicaten detecteren{#detect-duplicates}
 
 Campagne wordt geleverd met een nieuwe hulplijn die automatisch gedupliceerde UUID&#39;s uit een publiek verwijdert tijdens de voorbereiding van de levering. Dit nieuwe mechanisme voorkomt dat er een fout optreedt bij het voorbereiden van een levering.
+
+>[!CAUTION]
+>
+>Gedupliceerde toetsen zijn niet beperkt tot UUID&#39;s. Dit kan gebeuren in combinatie met id&#39;s, inclusief aangepaste sleutels die in aangepaste tabellen zijn gemaakt.
 
 Als eindgebruiker, kunt u deze informatie in de leveringslogboeken controleren: sommige ontvangers kunnen van het hoofddoel worden uitgesloten vanwege een gedupliceerde sleutel. In dat geval wordt de volgende waarschuwing weergegeven: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
