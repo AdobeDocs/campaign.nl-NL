@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 38ea3e82fca6299b067d6843424d4ccb92213d00
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '805'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Als [!DNL Campaign Classic] gebruiker, merk op dat de meeste [!DNL Campaign Clas
 
 Dit is een fundamentele verandering in de softwarearchitectuur. Gegevens zijn nu extern en de campagne bevat alle gegevens, inclusief profielen. [!DNL Campaign] processen worden nu van begin tot eind geschaald, van het richten tot berichtuitvoering: gegevensinvoer, segmentatie, doelgerichtheid, query&#39;s, leveringen worden nu doorgaans in minuten uitgevoerd. Deze nieuwe versie lost de hele uitdaging van het schrapen op terwijl het handhaven van het zelfde niveau van flexibiliteit &amp; rekbaarheid. Het aantal profielen is bijna onbeperkt en het bewaren van gegevens kan worden uitgebreid.
 
-Cloudopslag wordt uitgevoerd in **[!DNL Snowflake]**: een nieuwe ingebouwde **externe account** zorgt voor connectiviteit met de Cloud Database. Het wordt gevormd door Adobe en moet niet worden gewijzigd. [Meer informatie](../config/external-accounts.md).
+Cloudopslag wordt uitgevoerd in **[!DNL Snowflake]**: een nieuwe ingebouwde **externe account** zorgt voor connectiviteit met de Cloud Database. Het wordt gevormd door Adobe en moet niet worden gewijzigd. [Meer informatie](../config/external-accounts.md)
 
 Om het even welke ingebouwde schema/lijst die in het Gegevensbestand van de Wolk moet worden bewogen of worden herhaald komt met een ingebouwde schemauitbreiding onder **xxl** namespace. Die extensies bevatten alle wijzigingen die nodig zijn om ingebouwde schema&#39;s van de [!DNL Campaign] lokale database naar de [!DNL Snowflake] Cloud-database te verplaatsen en hun structuur dienovereenkomstig aan te passen: nieuwe UUID, bijgewerkte koppelingen enz.
 
@@ -66,8 +66,7 @@ Deze id is gebaseerd op een tekenreeks en is niet opeenvolgend. De primaire sleu
 
 In Campaign Classic v7 en eerdere versies wordt de uniciteit van een sleutel binnen een schema (dat wil zeggen tabel) op het niveau van de database-engine verwerkt. Meer in het algemeen, omvatten de Klassieke motoren van het Gegevensbestand zoals PostSQL, Oracle, of SQL Server een inheems mechanisme om het opnemen van gedupliceerde rijen te verhinderen die op een kolom of een reeks kolommen via primaire sleutels en/of unieke indexen worden gebaseerd. De gedupliceerde identiteitskaart bestaat niet in deze versies wanneer de juiste index en de primaire sleutels op het niveau van het Gegevensbestand worden geplaatst.
 
-Adobe-campagne v8 wordt geleverd met Snowflake als de kerndatabase. Aangezien het dramatisch de schaal van vragen verhoogt, verstrekt de verdeelde architectuur van het gegevensbestand van Snowflake dergelijke mechanismen om dan de eenheid van een sleutel binnen een lijst te beheren te dwingen. Als gevolg hiervan verhindert niets met Adobe Campaign v8 de inname van dubbele sleutels in een tabel. Eindgebruikers zijn nu verantwoordelijk voor de consistentie van Toetsen in de Adobe Campaign-database. [Meer informatie](../dev/keys.md).
-
+Adobe-campagne v8 wordt geleverd met Snowflake als de kerndatabase. Aangezien het dramatisch de schaal van vragen verhoogt, verstrekt de verdeelde architectuur van het gegevensbestand van Snowflake dergelijke mechanismen om dan de eenheid van een sleutel binnen een lijst te beheren te dwingen. Als gevolg hiervan verhindert niets met Adobe Campaign v8 de inname van dubbele sleutels in een tabel. Eindgebruikers zijn nu verantwoordelijk voor de consistentie van Toetsen in de Adobe Campaign-database. [Meer informatie](../dev/keys.md)
 
 ### Vereenvoudigd onderhoud
 
@@ -84,6 +83,7 @@ Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze ee
 * Responsbeheer
 * Hybride/on-premise plaatsingsmodellen
 * REGELS
+* Campaign-configuratiescherm
 
 >[!CAUTION]
 >
