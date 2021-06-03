@@ -5,7 +5,7 @@ description: Aan de slag met het beheer van aanbiedingen
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -28,19 +28,19 @@ De belangrijkste stappen die moeten worden gestart worden hieronder weergegeven.
 
 Voordat u begint, moet u als beheerder **Beheerder** de volgende taken uitvoeren in ontwerpomgevingen:
 
-1. Gebruikersprofielen maken. [Meer informatie](interaction-operators.md).
+1. Gebruikersprofielen maken. [Meer informatie](interaction-operators.md)
 1. (optioneel) Maak een aanbiedingsomgeving voor elke doeldimensie. [Meer informatie](interaction-env.md)
-1. Maak typologische regels voor elke omgeving. [Meer informatie](interaction-offer.md#offer-presentation).
-1. Maak aanbiedingsruimten voor elke omgeving en configureer renderfuncties. [Meer informatie](interaction-offer-spaces.md).
-Als de ruimte door een eenheidkanaal op bepaalde wijze wordt bepaald, moet u de geavanceerde parameters voor deze ruimte specificeren.
+1. Maak typologische regels voor elke omgeving. [Meer informatie](interaction-offer.md#offer-presentation)
+1. Maak aanbiedingsruimten voor elke omgeving en configureer renderfuncties. [Leer ](interaction-offer-spaces.md)
+meerAls de ruimte wordt gedefinieerd door één kanaal in de opgegeven modus, moet u de geavanceerde parameters voor deze ruimte opgeven.
 
 ### De aanbiedingscatalogus maken en publiceren {#managing-the-offer-catalog-}
 
 Als **Manager van de aanbieding** moet u de volgende taken uitvoeren:
 
-1. Aanbiedingscategorieën maken in ontwerpomgevingen. [Meer informatie](interaction-offer-catalog.md#creating-offer-categories).
-1. Aanbiedingen maken in ontwerpomgevingen. [Meer informatie](interaction-offer.md).
-1. Aanbiedingen goedkeuren en publiceren op een of meerdere ruimten om deze beschikbaar te maken in live omgevingen voor de leveringsmanager. [Meer informatie](interaction-offer.md#approve-offers).
+1. Aanbiedingscategorieën maken in ontwerpomgevingen. [Meer informatie](interaction-offer-catalog.md#creating-offer-categories)
+1. Aanbiedingen maken in ontwerpomgevingen. [Meer informatie](interaction-offer.md)
+1. Aanbiedingen goedkeuren en publiceren op een of meerdere ruimten om deze beschikbaar te maken in live omgevingen voor de leveringsmanager. [Meer informatie](interaction-offer.md#approve-offers)
 
 ### Gebruik de aanbiedingencatalogus {#using-the-offer-catalog-}
 
