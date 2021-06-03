@@ -5,9 +5,9 @@ description: Aan de slag met Transactionele berichten
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
@@ -219,7 +219,7 @@ Zodra een berichtmalplaatje op de uitvoeringsinstanties wordt gepubliceerd, kan 
 
 Volg onderstaande stappen om de publicatie van een transactiemalplaatje ongedaan te maken.
 
-1. Ga voor de besturingsinstantie naar de map **[!UICONTROL Message Center > Transactional message templates]** van de boomstructuur.
+1. Blader in de besturingsinstantie naar de map **[!UICONTROL Message Center > Transactional message templates]**.
 1. Selecteer de sjabloon die u wilt verwijderen.
 1. Klik op **[!UICONTROL Unpublish]**.
 1. Klik op **[!UICONTROL Start]**.
