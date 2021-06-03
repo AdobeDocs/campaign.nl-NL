@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -68,17 +68,17 @@ In deze specifieke architectuur, wordt de uitvoeringscel gescheiden van de contr
 
 ![](assets/messagecenter_diagram.png)
 
-[!DNL :arrow_upper_right:] De architectuur van het Centrum van het bericht wordt beschreven in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
+[!DNL :arrow_upper_right:] De architectuur van het Centrum van het bericht wordt beschreven in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture.html)
 
 ### Verificatie
 
 Om deze mogelijkheden te gebruiken, de gebruikers van Adobe Campaign login aan de controleinstantie om transactionele berichtmalplaatjes tot stand te brengen, de berichtvoorproef te produceren gebruikend een zaadlijst, vertoningsrapporten en controle uitvoeringsinstantie(s).
 
-* Eén uitvoerinstantie
+* Eén uitvoeringsinstantie
 Wanneer het in wisselwerking staan met een Adobe ontvangen de uitvoeringsinstantie van het Centrum van het Bericht, kan een extern systeem een zittingsteken eerst terugwinnen (dat door gebrek in 24 uren) verloopt, door een api vraag aan de methode van de zittingsopening van een sessieopening van een sessie te maken, gebruikend een verstrekt rekeningslogin en wachtwoord.
 Dan, met sessionToken die door de uitvoeringsinstantie in antwoord op de bovengenoemde vraag wordt verstrekt, kan de externe toepassing BEEP api aanroepen (rtEvents of batchEvents) maken om mededelingen te verzenden, zonder de behoefte om in elke vraag van de ZEEP de rekeningslogin en het wachtwoord te omvatten.
 
 * Meerdere uitvoeringen
 In een multi-cel uitvoeringsarchitectuur met veelvoudige uitvoeringsinstanties achter een ladingsverdelingsmechanisme, gaat de openings van een sessiemethode die door de externe toepassing wordt aangehaald door het taakverdelingsmechanisme: daarom kan een tokengebaseerde verificatie niet worden gebruikt. Een op gebruiker/wachtwoord-gebaseerde authentificatie wordt vereist.
 
-[!DNL :arrow_upper_right:] Meer informatie over Transactionele berichtengebeurtenissen in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)
+[!DNL :arrow_upper_right:] Meer informatie over Transactionele berichtengebeurtenissen in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)
