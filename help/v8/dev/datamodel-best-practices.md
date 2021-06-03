@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Best practices voor het datamodel
 description: Meer informatie over tips en trucs voor extensies van Campagne-gegevensmodellen
-source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2683'
 ht-degree: 4%
 
 ---
@@ -93,7 +93,7 @@ In de volgende tabel worden deze id&#39;s en hun doel beschreven.
 | Naam (of interne naam) | <ul><li>Deze informatie is een unieke id van een record in een tabel. Deze waarde kan handmatig worden bijgewerkt, meestal met een gegenereerde naam.</li><li>Deze id behoudt zijn waarde wanneer deze wordt geïmplementeerd in een andere instantie van Adobe Campaign en mag niet leeg zijn.</li></ul> | <ul><li>Wijzig de naam van de record die wordt gegenereerd door Adobe Campaign als het object moet worden geïmplementeerd vanuit een omgeving naar een andere.</li><li>Wanneer een voorwerp een namespace attribuut (*schema* bijvoorbeeld) heeft, zal deze gemeenschappelijke namespace over alle gemaakte douanevoorwerpen leveraged worden. Bepaalde gereserveerde naamruimten mogen niet worden gebruikt: *nms*, *xtk*, enz.  Sommige naamruimten zijn alleen intern. [Meer informatie](schemas.md#reserved-namespaces).</li><li>Wanneer een object geen naamruimte heeft (*workflow* of *delivery* bijvoorbeeld), wordt dit naamruimtebegrip toegevoegd als voorvoegsel van een intern naamobject: *namespaceMyObjectName*.</li><li>Gebruik geen speciale tekens zoals spatie &quot;&quot;, puntkolom &quot;:&quot; of afbreekstreepje &quot;-&quot;. Al deze tekens worden vervangen door een onderstrepingsteken &quot;_&quot; (toegestaan teken). &quot;abc-def&quot; en &quot;abc:def&quot; worden bijvoorbeeld opgeslagen als &quot;abc_def&quot; en worden elkaar overschreven.</li></ul> |
 | Label | <ul><li>Het label is de bedrijfsidentificatie van een object of record in Adobe Campaign.</li><li>Voor dit object zijn spaties en speciale tekens toegestaan.</li><li>Het garandeert niet dat een record uniek is.</li></ul> | <ul><li>Het wordt aanbevolen een structuur voor de objectlabels te bepalen.</li><li>Dit is de meest gebruikersvriendelijke oplossing om een record of object voor een Adobe Campaign-gebruiker te identificeren.</li></ul> |
 
-Adobe Campaign primaire sleutel is een automatisch gegenereerde UUID voor alle ingebouwde tabellen. Een UUID kan ook worden gebruikt voor aangepaste tabellen.
+Adobe Campaign primaire sleutel is een automatisch gegenereerde UUID voor alle ingebouwde tabellen. Een UUID kan ook worden gebruikt voor aangepaste tabellen. [Meer informatie](keys.md)
 
 Zelfs als het aantal id&#39;s oneindig is, moet u de grootte van uw database in acht nemen om optimale prestaties te garanderen. Om problemen te voorkomen, moet u de instellingen voor het opschonen van de instantie aanpassen. Zie [deze sectie](#data-retention)voor meer informatie.
 
