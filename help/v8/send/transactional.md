@@ -5,7 +5,7 @@ description: Aan de slag met Transactionele berichten
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
+source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Transactieberichten worden gebruikt voor het verzenden van:
 
 Elke gebeurtenis kan een gepersonaliseerd bericht teweegbrengen. Hiervoor moet u een berichtsjabloon maken die overeenkomt met elk gebeurtenistype. De malplaatjes bevatten de noodzakelijke informatie voor het personaliseren van het transactiebericht. U kunt malplaatjes ook gebruiken om de berichtvoorproef te testen en proeven te verzenden gebruikend zaadadressen alvorens aan het definitieve doel te leveren.
 
-## De sjabloon maken
+### De sjabloon maken
 
 Volg onderstaande stappen om een berichtsjabloon te maken:
 
@@ -54,7 +54,7 @@ Volg onderstaande stappen om een berichtsjabloon te maken:
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Gebeurtenistypen die bestemd zijn om door Adobe Campaign te worden verwerkt, moeten in de besturingsinstantie door Adobe worden gemaakt.
+   Gebeurtenistypen die bestemd zijn om door Adobe Campaign te worden verwerkt, moeten op de besturingsinstantie door Adobe worden gemaakt.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Volg onderstaande stappen om een berichtsjabloon te maken:
 
 1. Ga een aard en een beschrijving in, dan klik **[!UICONTROL Continue]** om het berichtlichaam tot stand te brengen. Zie [Berichtinhoud maken](#create-message-content).
 
-## De inhoud maken{#create-message-content}
+### De inhoud maken{#create-message-content}
 
 De definitie van de inhoud van het transactiebericht is hetzelfde als voor alle leveringen in Adobe Campaign. U kunt bijvoorbeeld voor een e-maillevering inhoud in HTML- of tekstindeling maken, bijlagen toevoegen of het bezorgingsobject aanpassen. Raadpleeg [deze sectie](../start/create-message.md) voor meer informatie.
 
@@ -92,7 +92,7 @@ Voer de volgende stappen uit om personalisatietags in te voegen in de tekst van 
 
    ![](assets/messagecenter_create_custo_2.png)
 
-## Seedadressen toevoegen{#add-seeds}
+### Seedadressen toevoegen{#add-seeds}
 
 Een zaadadres laat u een voorproef van uw bericht tonen, een proef, en de personalisatie van het testbericht verzenden alvorens het bericht te verzenden. De zaadadressen zijn verbonden met de levering en kunnen niet voor andere leveringen worden gebruikt.
 
@@ -118,7 +118,7 @@ Een zaadadres laat u een voorproef van uw bericht tonen, een proef, en de person
 
 Zodra de adressen worden gecreeerd, kunt u tot hun voorproef en verpersoonlijking toegang hebben.
 
-## Aanpassingsgegevens toevoegen{#personalization-data}
+### Aanpassingsgegevens toevoegen{#personalization-data}
 
 U kunt gegevens in het berichtmalplaatje toevoegen om transactionele berichtverpersoonlijking te testen. Op deze manier kunt u een voorbeeld genereren of een proefdruk verzenden. Als u de **Deliverability** module installeert, staat dit gegeven u toe om een teruggave van de berichten voor diverse Desktop, Web of mobiele cliënten te tonen.
 
@@ -133,7 +133,7 @@ Met deze informatie kunt u de inhoud van berichten personaliseren met personalis
 
    ![](assets/messagecenter_create_custo_3.png)
 
-## Bekijk uw transactiebericht{#transactional-message-preview}
+### Geef een voorvertoning van uw transactiebericht weer{#transactional-message-preview}
 
 Zodra u één of meerdere zaadadressen en het berichtlichaam hebt gecreeerd, kunt u voorproef het bericht en zijn verpersoonlijking controleren.
 
@@ -145,7 +145,7 @@ Zodra u één of meerdere zaadadressen en het berichtlichaam hebt gecreeerd, kun
 
    ![](assets/messagecenter_create_seed_7.png)
 
-## Een proef verzenden
+### Een proef verzenden
 
 U kunt berichtlevering testen door een bewijs naar een eerder gecreeerd zaadadres te verzenden.
 
