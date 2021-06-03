@@ -5,7 +5,7 @@ description: Meer weten over het maken van een aanbieding?
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 3%
@@ -50,7 +50,7 @@ Klik hiertoe op de koppeling **[!UICONTROL Edit query]** en selecteer het filter
 
 ![](assets/offer_eligibility_create_003.png)
 
-Als er al vooraf gedefinieerde filters zijn gemaakt, kunt u deze selecteren in de lijst met gebruikersfilters. [Meer informatie](interaction-predefined-filters.md).
+Als er al vooraf gedefinieerde filters zijn gemaakt, kunt u deze selecteren in de lijst met gebruikersfilters. [Meer informatie](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -64,7 +64,7 @@ Bijvoorbeeld, kan een aanbieding een gewicht van A voor contacten hebben tussen 
 
 >[!NOTE]
 >
->Het toegewezen gewicht kan tijdelijk worden gewijzigd op basis van de parameters van de categorie waartoe de aanbieding behoort. [Meer informatie](interaction-offer-catalog.md#creating-offer-categories).
+>Het toegewezen gewicht kan tijdelijk worden gewijzigd op basis van de parameters van de categorie waartoe de aanbieding behoort. [Meer informatie](interaction-offer-catalog.md#creating-offer-categories)
 
 Voer de volgende stappen uit om een dikte in een aanbieding te maken:
 
@@ -140,7 +140,7 @@ Gebruik het tabblad **[!UICONTROL Content]** om de inhoud van de aanbieding te d
 
    ![](assets/offer_content_create_002.png)
 
-   Om de vereiste gebieden te vinden aangezien zij tijdens de configuratie van de aanbiedingsruimte werden bepaald, klik **[!UICONTROL Content definitions]** verbinding om de lijst te tonen. [Meer informatie](interaction-offer-spaces.md).
+   Om de vereiste gebieden te vinden aangezien zij tijdens de configuratie van de aanbiedingsruimte werden bepaald, klik **[!UICONTROL Content definitions]** verbinding om de lijst te tonen. [Meer informatie](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
