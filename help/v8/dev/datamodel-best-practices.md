@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Best practices voor het datamodel
 description: Meer informatie over tips en trucs voor extensies van Campagne-gegevensmodellen
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
 source-wordcount: '2681'
 ht-degree: 4%
@@ -66,7 +66,6 @@ Volg de onderstaande aanbevolen procedures om gegevens in te stellen in Adobe Ca
 ### Keuze van velden {#choice-of-fields}
 
 Een veld moet in een tabel worden opgeslagen als het een doel of een doel voor personalisatie heeft. Met andere woorden, als een gebied niet wordt gebruikt om een gepersonaliseerde e-mail te verzenden of als criterium in een vraag wordt gebruikt, zal het onnodig schijfruimte opnemen.
-
 
 ### Keuze van toetsen {#choice-of-keys}
 
