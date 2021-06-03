@@ -5,9 +5,9 @@ description: Meer informatie over het maken van aanbiedingsruimten
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '611'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ Volg onderstaande stappen om een nieuwe aanbiedingsruimte te maken:
 
    Deze functies worden gebruikt om aanbiedingsvertegenwoordiging op een aanbiedingsruimte te produceren. Er zijn verschillende mogelijke indelingen: HTML of tekst.
 
-   **Opmerking** : de XML-indeling is beperkt tot binnenkomende interacties die tijdelijk niet beschikbaar zijn. [Meer informatie](../start/capability-matrix.md#gs-unavailable-features)
+   **Opmerking** : XML-indeling is beperkt tot binnenkomende interacties die niet beschikbaar zijn in deze versie van het product. [Meer informatie](../start/capability-matrix.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
