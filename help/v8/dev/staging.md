@@ -5,7 +5,7 @@ description: Stapelmechanisme voor campagne-API
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 2%
@@ -20,7 +20,7 @@ De het opvoeren van de campagne capaciteit wordt toegelaten door gebrek op sommi
 
 * De structuur van het gegevensschema wordt gedupliceerd in de lokale het opvoeren lijst
 * Nieuwe API&#39;s die zijn toegewezen aan gegevensinvoer vloeien rechtstreeks over naar de lokale staging-tabel. [Meer informatie](new-apis.md)
-* Een geplande workflow activeert elk uur en synchroniseert gegevens weer naar de Cloud Database. [Meer informatie](../config/replication.md).
+* Een geplande workflow activeert elk uur en synchroniseert gegevens weer naar de Cloud Database. [Meer informatie](../config/replication.md)
 
 Sommige ingebouwde schema&#39;s zijn standaard gefaseerd, zoals nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
