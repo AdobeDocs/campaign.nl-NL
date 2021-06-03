@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Nieuw schema maken in campagne
 description: Leer hoe u een nieuw schema maakt in Campagne
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '408'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ Als u de schema&#39;s wilt bewerken, maken en configureren, klikt u op het knoop
 
 >[!NOTE]
 >
->Ingebouwde gegevensschema&#39;s kunnen alleen worden verwijderd door een beheerder van uw Adobe Campaign Classic-console.
+>Ingebouwde gegevensschema&#39;s kunnen alleen worden verwijderd door een beheerder van uw Adobe Campaign-console.
 
 ![](assets/schema_navtree.png)
 
@@ -60,7 +60,9 @@ Hiervoor moet u het schema van de tabel maken en de databasestructuur bijwerken 
 
    ![](assets/create_new_content.png)
 
-1. Definieer de instellingen voor de tabel met contracten:
+1. Definieer de instellingen voor de tabel met contracten.
+
+   Als beste praktijken, creeer de lijst in het gegevensbestand van de Wolk door het `dataSource="nms:extAccount:ffda"` attribuut toe te voegen. Dit kenmerk wordt standaard toegevoegd bij het maken van een nieuwe tabel.
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
