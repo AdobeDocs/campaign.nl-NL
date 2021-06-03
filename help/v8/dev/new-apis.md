@@ -5,7 +5,7 @@ description: Nieuwe API's voor campagne v8
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 4%
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Nieuwe campagne-API&#39;s{#gs-new-api}
 
-Campagne v8 wordt geleverd met twee nieuwe API&#39;s voor het beheer van gegevens tussen de lokale database van Campagne en de Cloud-database. De voorwaarden om hen te gebruiken moeten het het opvoeren mechanisme op het schema toelaten. [Meer informatie](staging.md).
+Campagne v8 wordt geleverd met twee nieuwe API&#39;s voor het beheer van gegevens tussen de lokale database van Campagne en de Cloud-database. De voorwaarden om hen te gebruiken moeten het het opvoeren mechanisme op het schema toelaten. [Meer informatie](staging.md)
 
 * Ingestie-API: **xtk.session.ingest**
 
