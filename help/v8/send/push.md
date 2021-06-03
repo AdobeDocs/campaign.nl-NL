@@ -5,7 +5,7 @@ description: Aan de slag met pushmeldingen in Campagne
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 1%
@@ -54,4 +54,4 @@ U moet de instellingen voor iOS- en Android-apps definiëren in Adobe Campaign.
 
 >[!CAUTION]
 >
->Met Campagne v8 mobile registration is now **asynchroon**. [Meer informatie](../dev/staging.md).
+>Met Campagne v8 mobile registration is now **asynchroon**. [Meer informatie](../dev/staging.md)
