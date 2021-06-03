@@ -5,7 +5,7 @@ description: Leer hoe u een aanbiedingencatalogus maakt
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 2%
@@ -40,11 +40,11 @@ Volg onderstaande stappen om voorstellen voor aanbiedingen in te voegen in een l
 
    ![](assets/offer_delivery_005.png)
 
-1. Selecteer indien nodig de optie **[!UICONTROL Exclude non-eligible recipients]**. [Meer informatie](#parameters-for-calling-offer-engine).
+1. Selecteer indien nodig de optie **[!UICONTROL Exclude non-eligible recipients]**. [Meer informatie](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. Selecteer zo nodig de optie **[!UICONTROL Do not display anything if no offers are selected]**. [Meer informatie](#parameters-for-calling-offer-engine).
+1. Selecteer zo nodig de optie **[!UICONTROL Do not display anything if no offers are selected]**. [Meer informatie](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -110,7 +110,7 @@ Na het vormen van uw **Vraag** activiteit:
 
       ![](assets/int_enrichment_offer4.png)
 
-1. Dan vorm een leveringsactiviteit die aan uw gekozen kanaal beantwoordt. [Meer informatie](#offer-into-a-delivery).
+1. Dan vorm een leveringsactiviteit die aan uw gekozen kanaal beantwoordt. [Meer informatie](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -132,7 +132,7 @@ Volg de onderstaande stappen om dit te doen:
 
    ![](assets/int_enrichment_link2.png)
 
-1. Dan vorm een leveringsactiviteit die aan uw gekozen kanaal beantwoordt. [Meer informatie](#offer-into-a-delivery).
+1. Dan vorm een leveringsactiviteit die aan uw gekozen kanaal beantwoordt. [Meer informatie](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ Wanneer een **Verrijking**-activiteit wordt gebruikt om aanbiedingen te leveren,
 
 U kunt deze gegevens echter als volgt opslaan:
 
-1. Creeer een vraag aan de aanbiedingsmotor in een verrijkingsactiviteit die na een vraag en vóór een leveringsactiviteit wordt geplaatst. [Meer informatie](#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Creeer een vraag aan de aanbiedingsmotor in een verrijkingsactiviteit die na een vraag en vóór een leveringsactiviteit wordt geplaatst. [Meer informatie](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. Selecteer **[!UICONTROL Edit additional data...]** in het hoofdvenster van de activiteit.
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -182,7 +182,7 @@ Na het vormen van uw **Vraag** activiteit:
 
    ![](assets/int_offerengine_activity1.png)
 
-1. Dan vorm een leveringsactiviteit die aan uw gekozen kanaal beantwoordt. [Meer informatie](#inserting-an-offer-proposition-into-a-delivery).
+1. Dan vorm een leveringsactiviteit die aan uw gekozen kanaal beantwoordt. [Meer informatie](#inserting-an-offer-proposition-into-a-delivery)
 
 ### Aanbiedingen per cel {#offers-by-cell}
 
