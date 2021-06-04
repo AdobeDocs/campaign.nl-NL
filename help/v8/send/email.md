@@ -5,9 +5,9 @@ description: Aan de slag met e-mails in Campagne
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: dc99c00f68e53a308f8c869f07aa93baed3a5129
+source-git-commit: e65750c4e9ebd0367f0430455cac2cc6502ade7e
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ U kunt:
 
 ## Uw e-mailberichten controleren
 
-Zodra verzonden, controleer uw leveringsstatus in het Dashboard van de Levering en de logboeken van de toegangslevering en de rapporten bevestigen berichten correct werden verzonden.
+Zodra verzonden, controleer uw leveringsstatus in het dashboard van de Levering en toegangsleveringslogboeken en rapporten om berichten te bevestigen correct werden verzonden.
 
 [!DNL :arrow_upper_right:] [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 
