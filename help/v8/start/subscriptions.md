@@ -5,9 +5,9 @@ description: Leer hoe u abonnementen en abonnementen beheert in Campagne v8
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: f69d318b4ea767c44f8c19bf0cf45fb1b7001b11
+source-git-commit: 4cdf1b30584088d1c5de301d89c6d09bf5429ca1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,13 @@ Als u een profiel wilt abonneren (aanmelden) op een service, zijn de volgende op
 
    [!DNL :arrow_upper_right:] Meer informatie in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
-* Schrijf automatisch een reeks ontvangers aan de dienst in. De lijst met ontvangers kan afkomstig zijn van een filterbewerking, een groep, een map, een importbewerking of een directe handmatige selectie. Als u zich op deze ontvangers wilt abonneren, selecteert u de profielen en klikt u met de rechtermuisknop. Selecteer **[!UICONTROL Actions > Subscribe selection to a service...]**, selecteer de betrokken service en start de bewerking.
+* Schrijf automatisch een reeks ontvangers aan de dienst in. De lijst met ontvangers kan afkomstig zijn van een filterbewerking, een groep, een map, een importbewerking of een directe handmatige selectie. Als u zich op deze ontvangers wilt abonneren, selecteert u de profielen en klikt u met de rechtermuisknop. Selecteer **[!UICONTROL Actions > Subscribe selection to a service...]**.
+
+   ![](assets/subscribe-selection.png)
+
+   Selecteer de desbetreffende service en start de bewerking.
+
+   ![](assets/subscribe-confirm.png)
 
    [!DNL :arrow_upper_right:] Meer informatie in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
@@ -37,13 +43,20 @@ Als u een profiel wilt abonneren (aanmelden) op een service, zijn de volgende op
 
 * Gebruik een webformulier zodat ontvangers zich op een service kunnen abonneren.
 
+   ![](assets/opt-in-webapp.png)
+
+   Campagne wordt geleverd met een standaardwebformulier voor het beheren van aanmeldingsgegevens. U kunt het personaliseren en de profielgegevens in kaart brengen.
+
+   ![](assets/web-app.png)
+
    [!DNL :arrow_upper_right:] Meer informatie in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
 
 
 * Maak een doelworkflow en gebruik een **[!UICONTROL Subscription service]**-activiteit.
 
-   [!DNL :arrow_upper_right:] Meer informatie in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
+   ![](assets/wf-subscription.png)
 
+   [!DNL :arrow_upper_right:] Meer informatie in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
 
 Als u een profiel wilt afmelden bij een service, kunt u het volgende doen:
 
@@ -56,7 +69,7 @@ Als u een profiel wilt afmelden bij een service, kunt u het volgende doen:
 **Automatisch uitschakelen**
 
 * Geef een maximumduur voor de informatiedienst op: de ontvangers worden automatisch afgemeld wanneer de geldigheidsperiode is verlopen . Deze periode wordt opgegeven op het tabblad Bewerken van de service-eigenschappen. Het wordt uitgedrukt in dagen.
-* Een workflow zonder abonnement instellen voor een populatie
+* Stel een workflow voor abonnementen in voor een populatie.
 
 [!DNL :arrow_upper_right:] Meer informatie in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
 
