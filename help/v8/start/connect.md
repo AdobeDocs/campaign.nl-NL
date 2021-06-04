@@ -6,9 +6,9 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 03585f0c1514a80b0b0cba5a2d05fa3f44398405
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '799'
 ht-degree: 4%
 
 ---
@@ -117,6 +117,16 @@ Adobe Campaign kan zo worden geconfigureerd dat de gebruiker toegang krijgt tot 
 Bepaalde delen van de toepassing zijn via een eenvoudige webbrowser toegankelijk via een HTML-gebruikersinterface: Campagne-dashboard, kubusrapportage, Instance Monitoring en meer.
 
 [!DNL :arrow_upper_right:] Meer informatie over webtoegang in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+
+De toegang van het Web verstrekt een interface die aan de console, maar met een gereduceerde reeks functionaliteiten gelijkaardig is.
+
+Bijvoorbeeld, voor een bepaalde exploitant, zal een campagne met de volgende opties in de console verschijnen:
+
+![](assets/campaign-from-console.png)
+
+Terwijl met de toegang van het Web, de opties hoofdzakelijk het bekijken zullen toelaten:
+
+![](assets/campaign-from-web.png)
 
 De toegang van het Web wordt ook gebruikt aan in het bevestigingsproces: operators kunnen klikken op de goedkeuringsaanvraag per e-mail en via hun webbrowser verbinding maken met Campagne om een leveringsinhoud of -budget te valideren of af te wijzen.
 
