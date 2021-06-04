@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
+source-git-commit: 6a22bdd563bb0be26df12ce8d2b6da266d16f2e3
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -157,9 +157,9 @@ Raadpleeg voor meer informatie hierover de pagina [Productprofielen voor Adobe A
 
    ![](assets/analytics_connnector_12.png)
 
-1. Indien nodig, kunt u segmenten toevoegen of verwijderen uit **[!UICONTROL Update Segments]** Lusje.
-
-   ![](assets/analytics_connnector_12a.png)
+   >[!NOTE]
+   >
+   > U kunt geen segmenten toevoegen of verwijderen in deze versie van Campagne v8.
 
 1. Klik in uw **[!UICONTROL External account]** op de koppeling **[!UICONTROL Enrich the formula...]** om de URL-berekeningsformule te wijzigen en de integratiegegevens van het hulpprogramma Webanalyse (campagne-id&#39;s) en de domeinen van de sites op te geven waarvan de activiteit moet worden bijgehouden.
 
