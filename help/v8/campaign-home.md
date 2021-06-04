@@ -3,9 +3,9 @@ keywords: Campaign Classic;home;populaire onderwerpen
 description: Campagne v8 Help Center
 title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: f266172e6b0e14aedd0029025260c42977cf467f
+source-git-commit: efb236fe47653ddd45f8a5a08e0595b9f6287b7d
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '95'
 ht-degree: 15%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 * **[Implementatierichtlijnen](start/implement.md)**   - Leer hoe u uw implementatie kunt starten
 
-* **[Van v7 naar v8](start/capability-matrix.md)**  - Overstappen van Campaign Classic v7 naar Campaign v8? Belangrijkste verschillen leren
+* **[Van v7 naar v8](start/capability-matrix.md)**  - Overstappen van Campaign Classic v7 naar v8? Belangrijkste verschillen leren
 
 ## Aan de slag
 
@@ -65,4 +65,4 @@ ht-degree: 15%
 * [Maatregel en track](start/reporting.md)
 * [Verbinding maken met andere oplossingen](connect/integration.md)
 * [Veelgestelde vragen over campagne v8](start/campaign-faq.md)
-* [Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
+* [Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
