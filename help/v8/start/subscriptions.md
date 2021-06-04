@@ -5,9 +5,9 @@ description: Leer hoe u abonnementen en abonnementen beheert in Campagne v8
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: f69d318b4ea767c44f8c19bf0cf45fb1b7001b11
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Met Adobe Campaign kunt u informatieservices zoals nieuwsbrieven maken en contro
 Als u een profiel wilt abonneren (aanmelden) op een service, zijn de volgende opties beschikbaar:
 
 * Voeg de service handmatig toe aan het profiel van de ontvanger: om dit te doen, van **[!UICONTROL Subscriptions]** lusje van hun profiel, klik **[!UICONTROL Add]** en selecteer de betrokken informatiedienst.
+
+   ![](assets/subscribe-to-a-service.png)
 
    [!DNL :arrow_upper_right:] Meer informatie in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
