@@ -6,10 +6,10 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
+source-git-commit: 9ecd0af7a6e8e173a89106c84a78de8b2311fef7
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,14 +40,26 @@ Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen:
 Nadat u het bericht hebt gemaakt en de inhoud ervan hebt ontworpen en getest, kunt u kiezen hoe u het bericht wilt verzenden. De campagne biedt een reeks mogelijkheden aan:
 
 * Handmatig berichten verzenden naar het hoofddoel
+
+   ![](assets/send-email.png)
+
    [!DNL :arrow_upper_right:] [Leer hoe berichten worden verzonden](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
 * Verzend berichten verbonden aan een [marketing campagne](campaigns.md)
+
+   ![](assets/deliveries-in-a-campaign.png)
+
    [!DNL :arrow_upper_right:] [Leer hoe u berichten verzendt in het kader van een campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html).
 * Berichten verzenden via een [workflow](../config/workflows.md)
+
+   ![](assets/send-in-a-wf.png)
+
    [!DNL :arrow_upper_right:] [Meer informatie over het automatiseren van e-mailleveringen](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
 * [Berichten ](../send/transactional.md) uit een gebeurtenis activeren
    [!DNL :arrow_upper_right:] [Hoofdlettergebruik: leren hoe u een transactie-e-mail met een bijlage kunt verzenden](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
 * Uw berichten plannen
+
+   ![](assets/schedule-send.png)
+
    [!DNL :arrow_upper_right:] [Hoofdlettergebruik: leren plannen en een verjaardagsbericht verzenden](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?)
 
 
