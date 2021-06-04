@@ -6,10 +6,10 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 03cc90222cc8f64e820856382a00c92bf3f92c41
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 12%
+source-wordcount: '358'
+ht-degree: 11%
 
 ---
 
@@ -27,8 +27,12 @@ Moderniseer uw implementatie en gebruik alle Adobe Experience Cloud-mogelijkhede
 
 Campagne v8 kan verbinding maken met:
 
-* [Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)
-* [Real-time CDP](../connect/ac-rtcdp.md)
+
+* [Adobe Experience Cloud Real-Time CDP](../connect/ac-rtcdp.md)
+* [Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en).
+
+   Zie het het gebruiksgeval van begin tot eind [hier](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html).
+
 * [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
 * [Adobe Experience Cloud-triggers](../connect/ac-triggers.md)
