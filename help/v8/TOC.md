@@ -2,21 +2,20 @@
 product: Adobe Campaign
 audience: end-user
 user-guide-title: Campagne v8
-description: Campagne v8-documentatie
+description: Documentatie voor Campaign v8
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
-hide: true
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: 35814053bff993d0b130bf598c8601c3f5adc407
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
 
 # Adobe Campaign v8-documentatie {#campaign-v8}
 
-+ [Campagne v8-documentatie](campaign-home.md)
++ [Documentatie voor Campaign v8](campaign-home.md)
 + Nieuwe functies? {#start}
    + [Belangrijkste mogelijkheden](start/whats-new.md)
    + [Release-opmerkingen](start/release-notes.md)
