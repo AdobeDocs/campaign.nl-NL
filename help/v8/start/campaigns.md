@@ -6,7 +6,7 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 032bee3b58948b558efe50796efa789a046ff5e4
+source-git-commit: efb236fe47653ddd45f8a5a08e0595b9f6287b7d
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 7%
@@ -70,11 +70,15 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    U kunt het publiek in een werkschema bouwen of een bestaande groep, zoals een ontvankelijke lijst, abonnees van een nieuwsbrief, ontvangers van een vorige levering, of om het even welke het filtreren voorwaarde selecteren.
 
+   ![](assets/campaign-wf.png)
+
    [!DNL :arrow_upper_right:] Leer hoe u het publiek van uw berichten in de documentatie van  [Campaign Classic v7 definieert](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)
 
 1. **Leveringen maken**
 
    Selecteer kanalen, definieer de inhoud van het bericht en start de leveringen.
+
+   ![](assets/campaign-dashboard.png)
 
    [!DNL :arrow_upper_right:] Meer informatie over het maken en starten van marketingcampagneleveringen in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)
 
