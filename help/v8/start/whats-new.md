@@ -6,7 +6,7 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Campagne v8 biedt end-to-end schaal bij elke stap van het proces, van het richte
 
 ## Vereenvoudiging en prestatieverbetering
 
-Campagne v8 brengt het concept van **Volledige Federated Data Access** (FDA): alle gegevens bevinden zich nu op afstand in de cloud-database.
+Campagne v8 brengt het concept van **Volledige Federated Data Access** (FFDA): alle gegevens bevinden zich nu op afstand in de cloud-database.
 
 Met deze nieuwe architectuur vereenvoudigt Campagne v8 gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten.
 
@@ -54,7 +54,7 @@ De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieni
 
 ## Geïntegreerd ecosysteem
 
-U kunt Campagne met een reeks krachtige oplossingen van Adobe integreren, zoals: Adobe Analytics, Workfront, Journey Orchestration, Real-Time CDP en meer.
+U kunt Campagne met een reeks krachtige oplossingen van Adobe integreren, zoals: Adobe Analytics, Adobe Journey Orchestration, Real-Time CDP en meer.
 
 U kunt ook voorspellende optimalisatie van de verzendtijd en voorspellende betrokkenheidsscoring configureren met Journey AI en de openingssnelheden verhogen, klikken en inkomsten verhogen.
 
