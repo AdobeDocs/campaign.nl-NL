@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;populaire onderwerpen
 description: Campagne v8 Help Center
 title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: efb236fe47653ddd45f8a5a08e0595b9f6287b7d
+source-git-commit: 58632224858391f673dfdc87b49417d65b2f9b09
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 15%
+source-wordcount: '93'
+ht-degree: 16%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 15%
 
 ## Meer bronnen
 
-* [Bekende problemen en beperkingen](start/known-limitations.md)
+* [Bekende beperkingen](start/known-limitations.md)
 * [Architectuur](dev/architecture.md)
 * [Maatregel en track](start/reporting.md)
 * [Verbinding maken met andere oplossingen](connect/integration.md)
