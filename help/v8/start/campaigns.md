@@ -6,7 +6,7 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 032bee3b58948b558efe50796efa789a046ff5e4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 7%
@@ -22,6 +22,8 @@ De campagnes omvatten acties (leveringen) en processen (het invoeren of het hale
 ## Kanaaloverschrijdende orkestrering van campagnes
 
 Met Adobe Campaign kunt u doelgerichte en gepersonaliseerde campagnes ontwerpen en organiseren op meerdere kanalen: e-mail, direct mail, sms, pushmelding. Eén enkele interface voorziet u van alle functies die vereist zijn om al uw campagnes en communicatie te plannen, te organiseren, te configureren, te personaliseren, te automatiseren, uit te voeren en te meten.
+
+![](assets/campaign-tab.png)
 
 ### Basisbegrippen
 
@@ -42,6 +44,8 @@ Voordat u marketingcampagnes gaat implementeren, moet u vertrouwd zijn met de vo
 ## Werkruimte voor marketingcampagne
 
 Adobe Campaign laat u alle marketing campagnes van een verenigd controlecentrum tot stand brengen, vormen, uitvoeren en analyseren.
+
+![](assets/calendar.png)
 
 [!DNL :arrow_upper_right:] Ontdek hoe u marketingcampagnes kunt openen en implementeren in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
 
