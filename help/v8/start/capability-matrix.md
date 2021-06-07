@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -71,6 +71,10 @@ Adobe-campagne v8 wordt geleverd met Snowflake als de kerndatabase. Aangezien he
 ### Vereenvoudigd onderhoud
 
 Campagnegebruikers hoeven geen databasedeskundigen te zijn: er is niet langer behoefte aan complexe onderhoudsbewerkingen van databases of complexe indexering van tabellen.
+
+## Rapportage
+
+Opmerking: Adobe Campaign-rapporten zijn geoptimaliseerd en bieden betere schaalmogelijkheden dan Campaign Classic v7. Bestaande beperkingen op kubussen zijn niet van toepassing.
 
 ## Niet-beschikbare functies{#gs-unavailable-features}
 
