@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
+source-git-commit: 983b3cfc2f1569cd071848805e6b6b3411b4d6c6
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -47,13 +47,13 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
 * **Kubussen**
 
-   Analyseer en meet gegevens, bereken statistieken, vereenvoudig en optimaliseer rapportverwezenlijking en berekening met Kubussen.  U kunt de mogelijkheden van de gegevensbestandexploratie en analyse uitbreiden terwijl het gemakkelijker maken voor eind - gebruikers om rapporten en lijsten te vormen: alles wat zij moeten doen is een bestaande (volledig gevormde) kubus selecteren wanneer het creëren van hun rapport of lijst om berekeningen, maatregelen en statistieken te verwerken.
+   Analyseer en meet gegevens, bereken statistieken, vereenvoudig en optimaliseer rapportverwezenlijking en berekening met Kubussen.  U kunt de capaciteit van de gegevensbestandexploratie en analyse uitbreiden en het voor eind - gebruikers gemakkelijker maken om rapporten en lijsten te vormen. Zij moeten allen doen een bestaande (volledig gevormde) kubus selecteren wanneer het creëren van hun rapport of lijst om berekeningen, maatregelen en statistieken te verwerken.
 
    ![](assets/create-a-report.png)
 
    Afhankelijk van de complexiteit van de query&#39;s, berekeningen en volumes, kunnen de gegevens die in deze rapporten worden geanalyseerd, worden verzameld via een query en vooraf worden samengevoegd in een lijst (werkstroom voor gegevensbeheer) of in een kubus (met behulp van Marketing Analytics). De afbeelding wordt weergegeven in de vorm van een draaitabel of een groeplijst.
 
-   [!DNL :arrow_upper_right:] Leer hoe u een kubussen maakt in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html)
+   [!DNL :arrow_upper_right:] Leer hoe u kubussen maakt in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html)
 
 
 Opmerking: Adobe Campaign-rapporten zijn geoptimaliseerd en bieden betere schaalmogelijkheden dan Campaign Classic v7. Bestaande beperkingen op kubussen zijn niet van toepassing.
