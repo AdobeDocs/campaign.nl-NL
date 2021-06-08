@@ -1,5 +1,5 @@
 ---
-source-git-commit: 098bb2252708f4c59e2ee186d4c3d0074ebec1fd
+source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -36,7 +36,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Belangrijke wijzigingen van Adobe-medewerkers
 
-Als u een technisch schrijver, programmamanager of ontwikkelaar van het productteam voor een Adobe Experience Cloud-oplossing bent en het uw taak is om bij te dragen aan technische artikelen of deze te schrijven, gebruikt u de privérepository via `https://git.corp.adobe.com/AdobeDocs`.
+Als u een technisch schrijver, programmamanager of ontwikkelaar van het productteam voor een Adobe Experience Cloud-oplossing bent en het uw taak is om bij te dragen aan technische artikelen of deze te schrijven, gebruikt u de privérepository via `https://git.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
