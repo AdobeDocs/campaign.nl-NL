@@ -1,15 +1,15 @@
 ---
 product: Adobe Campaign
 title: Aan de slag met campagne v8
-description: Leer meer over belangrijke functies, de gebruikersinterface en algemene richtlijnen
+description: Nieuw bij campagne? Ontdek hoe u aan de slag kunt
 feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: bf2c44adc560d2be700a27b02ab35f6630192d00
+source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 42%
+source-wordcount: '894'
+ht-degree: 41%
 
 ---
 
@@ -119,3 +119,8 @@ De taal wordt geselecteerd tijdens het installatieproces.
 
 Datums en tijdnotaties worden beïnvloed door de taal. Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time) voor meer informatie.
 
+**Zie ook**
+
+* [Compatibiliteitsmatrix voor campagne v8](compatibility-matrix.md)
+* [Verbinding maken met Campaign](connect.md)
+* [Veelgestelde vragen](campaign-faq.md)
