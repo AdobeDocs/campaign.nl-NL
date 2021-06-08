@@ -5,7 +5,7 @@ description: Aan de slag met pushmeldingen in Campagne
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 09979331284757527fc9a24479a53d2d488f4649
+source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -51,7 +51,7 @@ U moet de instellingen voor iOS- en Android-apps definiëren in Adobe Campaign.
 
 In deze sectie worden de elementen beschreven die specifiek zijn voor de levering van iOS- en Android-berichten.
 
-[!DNL :arrow_upper_right:] Alle stappen voor het maken van pushmeldingen worden beschreven in de documentatie bij  [Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
+[!DNL :arrow_upper_right:] Alle stappen voor het maken van pushmeldingen worden beschreven in de documentatie bij  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ Als u een nieuwe levering wilt maken, bladert u naar het tabblad **[!UICONTROL C
 
    <!--![](assets/push-android-preview.png)-->
 
-[!DNL :arrow_upper_right:] Alle gedetailleerde stappen voor het maken en verzenden van pushberichten op Android worden beschreven in de documentatie bij  [Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
+[!DNL :arrow_upper_right:] Alle gedetailleerde stappen voor het maken en verzenden van pushberichten op Android worden beschreven in de documentatie bij  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
 
 ## Uw pushmeldingen testen, verzenden en controleren
 
@@ -135,12 +135,12 @@ Als u een bewijs wilt verzenden en de uiteindelijke levering wilt verzenden, geb
    [!DNL :arrow_upper_right:] [Belangrijke stappen om een levering te valideren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
 * Bevestig en verzend de levering
-   [!DNL :arrow_upper_right:] [Leer de belangrijkste stappen om een levering te verzenden](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
+   [!DNL :arrow_upper_right:] [Leer de belangrijkste stappen om een levering te verzenden](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
 
 Nadat u berichten hebt verzonden, kunt u de leveringen controleren en volgen. Meer informatie in de Campaign Classic v7-documentatie:
 
 * Push notification quarantines
-   [!DNL :arrow_upper_right:] [Meer informatie over quarantines voor pushmeldingen](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
+   [!DNL :arrow_upper_right:] [Meer informatie over quarantines voor pushmeldingen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
 
 * Problemen oplossen
-   [!DNL :arrow_upper_right:] [Leer hoe u problemen met uw pushmeldingen kunt oplossen](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
+   [!DNL :arrow_upper_right:] [Leer hoe u problemen met uw pushmeldingen kunt oplossen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
