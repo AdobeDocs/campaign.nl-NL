@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
+source-git-commit: afc624ffdcc3c537bdfa23989c1ed95271edabdb
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Gebruik de campagne-SDK&#39;s voor iOS en Android om de integratie van uw mobiele toepassing in het Adobe Campaign-platform te vergemakkelijken.
 
-Ondersteunde versies voor Android en iOS, en compatibele versies voor Campagne SDK&#39;s voor Campagne v8 worden vermeld in [Compatibiliteitsmatrix](../../rn/using/compatibility-matrix.md#MobileSDK).
+Ondersteunde versies voor Android en iOS, en compatibele versies voor Campagne SDK&#39;s voor Campagne v8 worden vermeld in [Compatibiliteitsmatrix](../start/compatibility-matrix.md#MobileSDK).
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    De `IntegrationKey` moet overeenkomen met de &#39;IntegrationKey&#39;-set in de Adobe Campaign Mobile-toepassing die is gekoppeld aan deze Android-toepassing.
 
-2. **Het mobiele apparaat registreren op de Adobe Campaign-server**
+1. **Het mobiele apparaat registreren op de Adobe Campaign-server**
 
    Met de registratiefunctie kunt u:
 
@@ -422,9 +422,10 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 >
 > Vergelijkbaar beheer moet worden uitgevoerd als de gebruiker de optie `click_action` binnen de doelactiviteit gebruikt.
 
+
 1. **Tracking ontvangen voor gegevensberichten**
 
-   Voor gegevensberichten, wordt het volgen ontvangen op `onMessageReceived` vraagniveau. De functie &#39;notifyReceive&#39; moet worden aangeroepen.
+   Voor gegevensberichten, wordt het volgen ontvangen op het `onMessageReceived` vraagniveau. De functie &#39;notifyReceive&#39; moet worden aangeroepen.
 
    YourApplicationMessagingService.java
 
@@ -552,8 +553,6 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
        }
    }
    ```
-
-
 
 
 ## iOS SDK integreren
