@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: ee0ea4c1e086ee579e63e391683cc8e896d09f0b
+source-git-commit: 170a80942aff9951859646942657938e206959fe
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de function
 
 * **In Android**:
 
-   ```
+   ```sql
    Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
    Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
    Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
@@ -49,7 +49,7 @@ Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de function
 
 * **In iOS**:
 
-   ```
+   ```sql
    Neolane_SDK *nl = [Neolane_SDK getInstance];
    [nl setMarketingHost:strMktHost];
    [nl setTrackingHost:strTckHost];
@@ -84,7 +84,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    Voordat u de Android-SDK kunt gebruiken, moet u deze initialiseren. De SDK-initialisatie kan worden uitgevoerd in de functie `onCreate` van een activiteit.
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
    @Override
    public void onCreate(Bundle savedInstanceState)
@@ -112,7 +112,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    U moet uw apparaat registreren bij Adobe Campaign, bij de initialisatie van de app of bij actie van de gebruiker. Het kan gemakkelijk worden gedaan gebruikend de `registerDevice` methode.
 
-   ```
+   ```sql
    public void onClick(View v)
    {
    SharedPreferences settings = this.context.getSharedPreferences(YourApplicationActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
@@ -127,7 +127,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    YourApplicationActivity.java
 
-   ```
+   ```sql
    public static void registerOnNeolane(final Context ctx, String registrationId, String userKey)
    {
        NeolaneAsyncRunner neolaneAs = new NeolaneAsyncRunner(Neolane.getInstance());
@@ -188,7 +188,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    YourApplicationFirebaseInstanceIDService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -225,7 +225,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    YourApplicationMessagingService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -270,7 +270,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    Voor Campagne Android SDK v1.1.1
 
-   ```
+   ```sql
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras)
    {
        if( message == null ) message = "No Content";
@@ -330,7 +330,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    Voor Campagne Android SDK v1.1.1
 
-   ```
+   ```sql
    public class NotificationActivity extends Activity {
        public void onCreate(Bundle savedBundle) {
            [...]
@@ -359,12 +359,13 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
            }
        }
    }
-   
+   ```
+
 1. **Het spoor opent en klikt op berichtberichten**
 
    Voor berichtberichten, moet open/klik het volgen met de `notifyOpening` functie binnen de toepassingslanceringsactiviteit worden gedaan, zoals hieronder:
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
    @Override
    public void onCreate(Bundle savedInstanceState)
@@ -373,7 +374,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
    
        SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
    
-       // initialize Neolane sdk
+       // initialize Campaign SDK
        Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
        Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
        Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
@@ -429,7 +430,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    YourApplicationMessagingService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -472,7 +473,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
    }
    ```
 
-   ```
+   ```sql
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras){
        .....
        .....
@@ -500,7 +501,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    U dient dit op hetzelfde moment te doen als klikken en openen.
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
        @Override
        public void onCreate(Bundle savedInstanceState)
@@ -564,7 +565,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
    * Stuur de bericht-id of push-id (deviceToken voor iOS en registrationID voor Android) naar Adobe Campaign.
    * de afstemmingssleutel of de gebruikersnaam herstellen (bijvoorbeeld e-mail- of accountnummer)
 
-   ```
+   ```sql
    // Callback called on successful registration to the APNs
     - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
    {
@@ -576,18 +577,18 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
 1. **Functie voor bijhouden inschakelen**
 
-Met de functie voor bijhouden kunt u bijhouden wanneer meldingen zijn geactiveerd (wordt geopend).
+   Met de functie voor bijhouden kunt u bijhouden wanneer meldingen zijn geactiveerd (wordt geopend).
 
-```
-(void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
-fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-{
-if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
-*nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
-...  
-completionHandler(UIBackgroundFetchResultNoData);
-}
-```
+   ```sql
+   (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
+   fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+   {
+   if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
+   *nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
+   ...  
+   completionHandler(UIBackgroundFetchResultNoData);
+   }
+   ```
 
 1. **Beheer van stille meldingen**
 
@@ -595,7 +596,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    Volg het onderstaande voorbeeld om je melding op te volgen:
 
-   ```
+   ```sql
    // AppDelegate.m
    ...
    ...
@@ -610,7 +611,7 @@ completionHandler(UIBackgroundFetchResultNoData);
    if (launchOptions) NSLog(@"IN launchOptions: %@", [launchOptions description]);
    NSLog(@"Application state: %ld", (long)application.applicationState);
    
-   // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user doesn't have click/open the notification)
+   // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user does not have click/open the notification)
    if ([launchOptions[@"aps"][@"content-available"] intValue] == 1 )
        {
    NSLog(@"Silent Push Notification");
@@ -629,13 +630,13 @@ completionHandler(UIBackgroundFetchResultNoData);
    }
    ```
 
-1. Registratiestatus configureren
+1. **Registratiestatus configureren**
 
    Het gedelegeerde protocol staat u toe om het resultaat van **registerDevice** vraag te krijgen en kan worden gebruikt om te weten of een fout tijdens registratie voorkwam.
 
    Het prototype **registerDeviceStatus** is:
 
-   ```
+   ```sql
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
@@ -687,7 +688,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    **De definitie van Neolane_** SDKDelegateprotocol en  **** registerDeviceStatusdelegate ziet er als volgt uit:
 
-   ```
+   ```sql
    //  Neolane_SDK.h
    //  Campaign SDK
    ..
@@ -721,7 +722,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. Implementeer **setDelegate** tijdens de SDK-initialisatie.
 
-      ```
+      ```sql
       // AppDelegate.m
       ...
       ... 
@@ -750,7 +751,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. Voeg het protocol in **@interface** van uw klasse toe.
 
-      ```
+      ```sql
       //  AppDelegate.h
       
       #import <UIKit/UIKit.h>
@@ -772,7 +773,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. Voer de afgevaardigde in **AppDelegate** uit.
 
-      ```
+      ```sql
       //  AppDelegate.m
       
       #import "AppDelegate.h"
@@ -832,7 +833,7 @@ Hieronder ziet u een voorbeeld van een code waarmee een mobiele toepassing toege
 
 * **In Android**:
 
-   ```
+   ```sql
    public void onReceive(Context context, Intent intent) {
         ...
        String event = intent.getStringExtra("VAR");
@@ -842,7 +843,7 @@ Hieronder ziet u een voorbeeld van een code waarmee een mobiele toepassing toege
 
 * **In iOS**:
 
-   ```
+   ```sql
    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
    {
        ....
@@ -880,7 +881,7 @@ Hieronder ziet u een voorbeeld van een code waarmee een mobiele toepassing toege
 
 De media moeten worden gedownload op het niveau van de berichtdienst uitbreiding.
 
-```
+```sql
 #import "NotificationService.h"
 
 @interface NotificationService ()
@@ -926,7 +927,7 @@ Op dit niveau moet u:
 
    U moet code toevoegen om de mediagegevens aan de widget te kunnen doorgeven. Hier volgt een voorbeeld van code voor een afbeelding:
 
-   ```
+   ```sql
    #import "NotificationViewController.h"
    #import <UserNotifications/UserNotifications.h>
    #import <UserNotificationsUI/UserNotificationsUI.h>
