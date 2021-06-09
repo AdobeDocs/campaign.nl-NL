@@ -5,9 +5,9 @@ description: Campagne Transactionele overseinenmontages
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Als u nieuwe gebruikers wilt maken voor de uitvoering van Message Center-bericht
 
 Alle schemauitbreidingen die op de schema&#39;s worden gemaakt door **technische werkschema&#39;s van het Centrum van het Bericht** op of controle of uitvoeringsinstanties worden gebruikt moeten op de andere instanties worden gedupliceerd die door de transactionele overseinenmodule van Adobe Campaign worden gebruikt.
 
-[!DNL :arrow_upper_right:] Meer informatie over technische workflows in het Berichtencentrum in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)
+[!DNL :arrow_upper_right:] Meer informatie over technische workflows in het Berichtencentrum in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## Transactie-pushmeldingen verzenden
 
