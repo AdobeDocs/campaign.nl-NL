@@ -5,9 +5,9 @@ description: Meer weten over het maken van een aanbieding?
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
@@ -196,4 +196,4 @@ Met de module Simulatie kunt u de distributie testen van aanbiedingen die tot ee
 
 Bij de simulatie wordt rekening gehouden met de context en de subsidiabiliteitsregels die eerder op de aanbiedingen van toepassing waren, en met hun presentatieregels. Dit laat u diverse versies van uw aanbiedingsvoorstel testen en verfijnen zonder eigenlijk een aanbieding of over/onder het eisen van een doel te gebruiken, aangezien de simulatie geen effect op de gerichte ontvangers heeft.
 
-[!DNL :arrow_upper_right:] Raadpleeg de  [Campaign Classic v7-documentatie voor meer informatie over de simulatie van aanbiedingen](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
+[!DNL :arrow_upper_right:] Raadpleeg de  [Campaign Classic v7-documentatie voor meer informatie over de simulatie van aanbiedingen](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
