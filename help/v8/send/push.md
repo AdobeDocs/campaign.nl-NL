@@ -5,9 +5,9 @@ description: Aan de slag met pushmeldingen in Campagne
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
+source-git-commit: 42a83fefb9c4ae3cea906c5dce8ecf725909b4eb
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Als u pushberichten wilt verzenden in Adobe Campaign, moet u:
 ### Campagne SDK integreren
 
 De campagne-SDK vereenvoudigt de integratie van uw mobiele toepassing in het Adobe Campaign-platform.
+
+De compatibele versies van SDK zijn vermeld in [Matrix van de Verenigbaarheid van de campagne](../start/compatibility-matrix.md#MobileSDK).
 
 [!DNL :arrow_upper_right:] Leer hoe u de Campagne SDK kunt integreren met uw app in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en#loading-campaign-sdk)
 
