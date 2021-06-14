@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 673d2d3ace355a9552ecf54a3cab0104943e6a99
+source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,10 @@ Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de function
 Android SDK is een jar-bibliotheek geschreven in JAVA. Zo kunnen Android-ontwikkelaars integreren met Adobe Campaign: registreert een nieuw apparaat, koppelt het apparaat met een gebruiker, volgt gedrag, en meer.
 
 In deze sectie leert u hoe u de Android-SDK kunt gebruiken in een Android-toepassing die [FCM (Firebase Cloud Messaging)](https://firebase.google.com/docs/cloud-messaging/) van Google implementeert.
+
+>[!CAUTION]
+>
+> Voor Campagne v8 gebruikt u Campagne Android SDK v1.1.1.
 
 ### FCM configureren
 
@@ -268,7 +272,6 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
        }   
    ```
 
-   Voor Campagne Android SDK v1.1.1
 
    ```sql
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras)
@@ -327,8 +330,6 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 1. **Het spoor opent gegevensberichten**
 
    Voor gegevensberichten, kunt u volgen wanneer een gebruiker op een bericht klikt om het te openen, gebruikend de functie `notifyOpening`. De meldingsactiviteit zal worden gecreeerd wanneer de gebruiker op het bericht klikt (die tijdens `onMessageReceived`functievraag wordt gecreeerd)
-
-   Voor Campagne Android SDK v1.1.1
 
    ```sql
    public class NotificationActivity extends Activity {
@@ -403,7 +404,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
                toastMessage( "error", getString(R.string.open_track_ok));
            }
            });
-           nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+           nas.notifyReceive(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() {
            public void onNeolaneException(NeolaneException arg0, Object arg1) {
                toastMessage( "error", getString(R.string.rec_track_sdk_error) + arg0.getErrorCode());
            }
@@ -484,7 +485,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
            Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
    
            NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
-           nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+           nas.notifyReceive(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() {
                public void onNeolaneException(NeolaneException arg0, Object arg1) {}
                public void onIOException(IOException arg0, Object arg1) {}
                public void onComplete(String arg0, Object arg1){}
@@ -539,7 +540,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
                toastMessage( "error", getString(R.string.open_track_ok));
            }
            });
-           nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+           nas.notifyReceive(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() {
            public void onNeolaneException(NeolaneException arg0, Object arg1) {
                toastMessage( "error", getString(R.string.rec_track_sdk_error) + arg0.getErrorCode());
            }
