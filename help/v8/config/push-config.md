@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: eec769a09d59034dde59983bd0a53a4ac4fddde5
+source-git-commit: 9f05209e47f35c91720f68d56593812115726817
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 1%
@@ -644,7 +644,6 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    * **** ErrorReasonBiedt u meer informatie over de fouten die voorkwamen. Raadpleeg de onderstaande tabel voor meer informatie over beschikbare fouten en beschrijvingen.
 
-
 | Status | Beschrijving | ErrorReason |
 | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
 | ACCRegisterDeviceStatusSuccess | Registratie voltooid | LEEG |
@@ -653,7 +652,6 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 | ACCRegisterDeviceStatusFailedConnectionIssue | Verbindingsprobleem met ACC | Meer informatie (in huidige taal van besturingssysteem) |
 | ACCRegisterDeviceStatusFailedUnknownUID | De opgegeven UUID (integratiesleutel) is onbekend. | LEEG |
 | ACCRegisterDeviceStatusFailedUnexpectedError | Onverwachte fout die aan server ACC is teruggekeerd. | The error message returned to ACC. |
-
 
 {style=&quot;table-layout:auto&quot;}
 
