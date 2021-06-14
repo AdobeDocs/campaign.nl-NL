@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 9f05209e47f35c91720f68d56593812115726817
+source-git-commit: 673d2d3ace355a9552ecf54a3cab0104943e6a99
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
@@ -644,152 +644,153 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    * **** ErrorReasonBiedt u meer informatie over de fouten die voorkwamen. Raadpleeg de onderstaande tabel voor meer informatie over beschikbare fouten en beschrijvingen.
 
-| Status | Beschrijving | ErrorReason |
-| ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-| ACCRegisterDeviceStatusSuccess | Registratie voltooid | LEEG |
-| ACCRegisterDeviceStatusFailedMarketingServerHostnameEmpty | De hostnaam van de ACC-marketingserver is leeg of niet ingesteld. | LEEG |
-| ACCRegisterDeviceStatusFailedIntegrationKeyEmpty | De integratietoets is leeg of niet ingesteld. | LEEG |
-| ACCRegisterDeviceStatusFailedConnectionIssue | Verbindingsprobleem met ACC | Meer informatie (in huidige taal van besturingssysteem) |
-| ACCRegisterDeviceStatusFailedUnknownUID | De opgegeven UUID (integratiesleutel) is onbekend. | LEEG |
-| ACCRegisterDeviceStatusFailedUnexpectedError | Onverwachte fout die aan server ACC is teruggekeerd. | The error message returned to ACC. |
+   | Status | Beschrijving | ErrorReason |
+   | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+   | ACCRegisterDeviceStatusSuccess | Registratie voltooid | LEEG |
+   | ACCRegisterDeviceStatusFailedMarketingServerHostnameEmpty | De hostnaam van de ACC-marketingserver is leeg of niet ingesteld. | LEEG |
+   | ACCRegisterDeviceStatusFailedIntegrationKeyEmpty | De integratietoets is leeg of niet ingesteld. | LEEG |
+   | ACCRegisterDeviceStatusFailedConnectionIssue | Verbindingsprobleem met ACC | Meer informatie (in huidige taal van besturingssysteem) |
+   | ACCRegisterDeviceStatusFailedUnknownUID | De opgegeven UUID (integratiesleutel) is onbekend. | LEEG |
+   | ACCRegisterDeviceStatusFailedUnexpectedError | Onverwachte fout die aan server ACC is teruggekeerd. | The error message returned to ACC. |
 
-{style=&quot;table-layout:auto&quot;}
+   {style=&quot;table-layout:auto&quot;}
 
-    **Neolane_SDKDelegate** protocol en **registerDeviceStatus** gedelegeerde definitie is als volgt:
-    
-    &quot;sql
-    // Neolane_SDK.h
-    // Campagne SDK
-    ..
-    ..
-    // Apparaatstatus registreren 
-    Enumtypedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
-    ACCRegisterDeviceStatusSuccess, // Resistration 
-    SucceedACCRegisterDeviceStatusFailedMarketingServerHostnameEmpty, // De hostnaam van de campagne-marketingserver is leeg of niet 
-    setACCRegisterDeviceStatusFailedIntegrationKeyEmpty, // De integratietoets is leeg of niet 
-    setACCRegisterDeviceFailedConnectionIssue, // Probleem met verbinding met campagne, meer informatie in 
-    errorReasonACCRegisterDeviceStatusFailedUnknownUID, // De ingevoerde UUID (integratie)) is 
-    unknownACCRegisterDeviceStatusFailedUnexpectedError // Unexpected error returned by Campagne server, more information in errorReason
-    };
-    // definieer het protocol voor het registerDeviceStatus-gedelegeerde
-      &lt;nsobject>
-     
-    @protocol Neolane_SDKDelegate@optionalDeviceStatus(void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
-    @end
-    @interface Neolane_SDK: NSObject {
-    }
-    ..
-    ...
-    // registerDeviceStatus gedelegeerde
-    @eigenschap (niet-atomisch, zwak) id- &lt;neolane_sdkdelegate> gedelegeerde;
-    ..
-    ...
-    @end
-    &quot;
-    
-    Om **registerDeviceStatus** afgevaardigde uit te voeren, volg deze stappen:
-    
-    1. Voer **setDelegate** tijdens de initialisering van SDK uit.
-    
-    &quot;sql
-    // AppDelegate.m
-    ...
-    ...
-    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-    {
-    ..
-    ...
-    // Get the stored 
-    
-    settingsNSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    NSString *strMktHost = [defaults objectForKey:@&quot;mktHost&quot;];
-    NSString *strTckHost = [defaults objectForKey:@ tckHost&quot;];
-    NSString *strIntegrationKey = [defaults objectForKey:@&quot;integrationKey&quot;];
-    userKey = [defaults objectForKey:@&quot;userKey&quot;];
-    
-    // Configure Campagne SDK on first 
-    launchNeolane_SDK *nl = [Neolane_SDK getInstance];
-     [nl setMarketingHost:strMktHost];
-    [nl setTrackingHost:strTckHost];
-     
-    [nl setIntegrationKey:strIntegrationKey];[nl setDelegate:self]; // HIER
-    ...
-    ...
-    }
-    &quot;
-    
-    1. Voeg het protocol toe in de **@interface** van uw klasse.
-    
-    &quot;sql
-    // AppDelegate.h
-    
-    #import  &lt;uikit>
-    #import  &lt;corelocation>
-    #import &quot;Neolane_SDK.h&quot;
-    
-    @class LandingPageViewController;
-    
-    @interface AppDelegate: UIResponder  &lt;uiapplicationdelegate> {
-    CLLocationManager *locationManager;
-    NSString *userKey;
-    NSString *mktServerUrl;
-    NSString *trackServerUrl;
-    NSString *homeURL;
-    NSString *strLandingPageUrl;
-    NST imer *timer;
-    }
-     
-    
-    &quot;1. Voer de afgevaardigde in **AppDelegate** uit.
-    
-    &quot;sql
-    // AppDelegate.m
-    
-    #import &quot;AppDelegate.h&quot;
-    #import &quot;Neolane_SDK.h&quot;
-    #import &quot;LandingPageViewController.h&quot;
-    #import &quot;RootViewController.h&quot;
-    ..
-    ...
-    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason
-    {
-    NSLog(@&quot;registerStatus: %lu&quot;,status);
-    
-    if (errorReason != nil )
-    NSLog(@&quot;errorReason: %@&quot;,errorReason);
-    
-    if( status == ACCRegisterDeviceStatusSuccess )
-    {
-    // Registratie geslaagd
-    ..
-    ..
-    }
-    else { // An error occurred
-    NSString *message;
-    switch ( status ){
-    case ACCRegisterDeviceFailedUnknownUID:
-    message = @&quot;Unknown IntegrationKey (UUID)&quot;;
-    break;
-    case ACCRegisterDeviceStatusFailedMarketingServerHostnameEmpty:
-    message = @&quot;Marketing URL not set or Empty&quot;;
-    break;
-    case ACCRegisterDeviceStatusFailedIntegrationKeyEmpty:
-    message = @&quot;Integration Key not set or empty&quot;;
-    break;
-    case ACCRegisterDeviceStatusFailedConnectionIssue:
-    message = [NSString stringWithFormat:@&quot;%@ %@&quot;,@&quot;Connection issue:&quot;,errorReason];
-    break;
-    case ACCRegisterDeviceStatusFailedUnexpectedError:
-    default:
-    message = [NSString stringWithFormat:@&quot;%@ %@&quot;,@&quot;Unexpected Error&quot;,errorReason];
-    break;
-    }
-    ...
-    ...
-    }
-    }
-    @end
-    &quot;
+   **De definitie van Neolane_** SDKDelegateprotocol en  **** registerDeviceStatusdelegate ziet er als volgt uit:
+
+   ```sql
+   //  Neolane_SDK.h
+   //  Campaign SDK
+   ..
+   .. 
+   // Register Device Status Enum
+   typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
+   ACCRegisterDeviceStatusSuccess,                               // Resistration Succeed
+   ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty,   // The Campaign marketing server hostname is Empty or not set
+   ACCRegisterDeviceStatusFailureIntegrationKeyEmpty,            // The integration key is empty or not set
+   ACCRegisterDeviceStatusFailureConnectionIssue,                // Connection issue with Campaign, more information in errorReason
+   ACCRegisterDeviceStatusFailureUnknownUUID,                    // The provided UUID (integration key) is unknown
+   ACCRegisterDeviceStatusFailureUnexpectedError                 // Unexpected error returned by Campaign server, more information in errorReason
+   };
+   // define the protocol for the registerDeviceStatus delegate
+   @protocol Neolane_SDKDelegate <NSObject>
+   @optional
+   - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason;
+   @end
+   @interface Neolane_SDK: NSObject {
+   } 
+   ...
+   ...
+   // registerDeviceStatus delegate
+   @property (nonatomic, weak) id <Neolane_SDKDelegate> delegate;
+   ...
+   ...
+   @end
+   ```
+
+   Ga als volgt te werk om **registerDeviceStatus**-gedelegeerde te implementeren:
+
+   1. Implementeer **setDelegate** tijdens de SDK-initialisatie.
+
+      ```sql
+      // AppDelegate.m
+      ...
+      ... 
+      - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+      {
+      ...
+      ...
+          // Get the stored settings
+      
+          NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+          NSString *strMktHost = [defaults objectForKey:@"mktHost"];
+          NSString *strTckHost = [defaults objectForKey:@"tckHost"];
+          NSString *strIntegrationKey = [defaults objectForKey:@"integrationKey"];
+          userKey = [defaults objectForKey:@"userKey"];
+      
+          // Configure Campaign SDK on first launch
+          Neolane_SDK *nl = [Neolane_SDK getInstance];
+          [nl setMarketingHost:strMktHost];
+          [nl setTrackingHost:strTckHost];
+          [nl setIntegrationKey:strIntegrationKey];
+          [nl setDelegate:self];    // HERE
+      ...
+      ...
+      }
+      ```
+
+   1. Voeg het protocol in **@interface** van uw klasse toe.
+
+      ```sql
+      //  AppDelegate.h
+      
+      #import <UIKit/UIKit.h>
+      #import <CoreLocation/CoreLocation.h>
+      #import "Neolane_SDK.h"
+      
+      @class LandingPageViewController;
+      
+      @interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate, Neolane_SDKDelegate> {
+          CLLocationManager *locationManager;
+          NSString *userKey;
+          NSString *mktServerUrl;
+          NSString *tckServerUrl;
+          NSString *homeURL;
+          NSString *strLandingPageUrl;
+          NSTimer *timer;
+      }
+      ```
+
+   1. Voer de afgevaardigde in **AppDelegate** uit.
+
+      ```sql
+      //  AppDelegate.m
+      
+      #import "AppDelegate.h"
+      #import "Neolane_SDK.h"
+      #import "LandingPageViewController.h"
+      #import "RootViewController.h"
+      ...
+      ...
+      - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason
+      {
+          NSLog(@"registerStatus: %lu",status);
+      
+          if ( errorReason != nil )
+              NSLog(@"errorReason: %@",errorReason);
+      
+          if( status == ACCRegisterDeviceStatusSuccess )
+          {
+              // Registration successful
+              ...
+              ...
+          }
+          else { // An error occurred
+              NSString *message;
+              switch ( status ){
+                  case ACCRegisterDeviceStatusFailureUnknownUUID:
+                      message = @"Unkown IntegrationKey (UUID)";
+                      break;
+                  case ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty:
+                      message = @"Marketing URL not set or Empty";
+                      break;
+                  case ACCRegisterDeviceStatusFailureIntegrationKeyEmpty:
+                      message = @"Integration Key not set or empty";
+                      break;
+                  case ACCRegisterDeviceStatusFailureConnectionIssue:
+                      message = [NSString stringWithFormat:@"%@ %@",@"Connection issue:",errorReason];
+                      break;
+                  case ACCRegisterDeviceStatusFailureUnexpectedError:
+                  default:
+                      message = [NSString stringWithFormat:@"%@ %@",@"Unexpected Error",errorReason];
+                      break;
+              }
+          ...
+          ...
+          }
+      }
+      @end
+      ```
+
 
 ## Variabelen {#variables}
 
