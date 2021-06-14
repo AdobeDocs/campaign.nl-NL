@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 170a80942aff9951859646942657938e206959fe
+source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1346'
 ht-degree: 1%
 
 ---
@@ -419,9 +419,9 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
    }
    ```
 
->[!NOTE]
->
-> Vergelijkbaar beheer moet worden uitgevoerd als de gebruiker de optie `click_action` binnen de doelactiviteit gebruikt.
+   >[!NOTE]
+   >
+   > Vergelijkbaar beheer moet worden uitgevoerd als de gebruiker de optie `click_action` binnen de doelactiviteit gebruikt.
 
 
 1. **Tracking ontvangen voor gegevensberichten**
@@ -644,6 +644,15 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    * **** ErrorReasonBiedt u meer informatie over de fouten die voorkwamen. Raadpleeg de onderstaande tabel voor meer informatie over beschikbare fouten en beschrijvingen.
 
+
+      | Status | Beschrijving | ErrorReason |
+      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+      | ACCRegisterDeviceStatusSuccess | Registratie voltooid | LEEG |
+      | ACCRegisterDeviceStatusFailedMarketingServerHostnameEmpty | De hostnaam van de ACC-marketingserver is leeg of niet ingesteld. | LEEG |
+      | ACCRegisterDeviceStatusFailedIntegrationKeyEmpty | De integratietoets is leeg of niet ingesteld. | LEEG |
+      | ACCRegisterDeviceStatusFailedConnectionIssue | Verbindingsprobleem met ACC | Meer informatie (in huidige taal van besturingssysteem) |
+      | ACCRegisterDeviceStatusFailedUnknownUID | De opgegeven UUID (integratiesleutel) is onbekend. | LEEG |
+      | ACCRegisterDeviceStatusFailedUnexpectedError | Onverwachte fout die aan server ACC is teruggekeerd. | The error message returned to ACC. |
    <table> 
     <thead>
     <tr>
