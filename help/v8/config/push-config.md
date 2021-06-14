@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
+source-git-commit: 35fcedd8e4d44bb6c5a97b2a48ff55aa2632947d
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---
@@ -644,56 +644,15 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    * **** ErrorReasonBiedt u meer informatie over de fouten die voorkwamen. Raadpleeg de onderstaande tabel voor meer informatie over beschikbare fouten en beschrijvingen.
 
+   | Status | Beschrijving | ErrorReason |
+   | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+   | ACCRegisterDeviceStatusSuccess | Registratie voltooid | LEEG |
+   | ACCRegisterDeviceStatusFailedMarketingServerHostnameEmpty | De hostnaam van de ACC-marketingserver is leeg of niet ingesteld. | LEEG |
+   | ACCRegisterDeviceStatusFailedIntegrationKeyEmpty | De integratietoets is leeg of niet ingesteld. | LEEG |
+   | ACCRegisterDeviceStatusFailedConnectionIssue | Verbindingsprobleem met ACC | Meer informatie (in huidige taal van besturingssysteem) |
+   | ACCRegisterDeviceStatusFailedUnknownUID | De opgegeven UUID (integratiesleutel) is onbekend. | LEEG |
+   | ACCRegisterDeviceStatusFailedUnexpectedError | Onverwachte fout die aan server ACC is teruggekeerd. | The error message returned to ACC. |
 
-      | Status | Beschrijving | ErrorReason |
-      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-      | ACCRegisterDeviceStatusSuccess | Registratie voltooid | LEEG |
-      | ACCRegisterDeviceStatusFailedMarketingServerHostnameEmpty | De hostnaam van de ACC-marketingserver is leeg of niet ingesteld. | LEEG |
-      | ACCRegisterDeviceStatusFailedIntegrationKeyEmpty | De integratietoets is leeg of niet ingesteld. | LEEG |
-      | ACCRegisterDeviceStatusFailedConnectionIssue | Verbindingsprobleem met ACC | Meer informatie (in huidige taal van besturingssysteem) |
-      | ACCRegisterDeviceStatusFailedUnknownUID | De opgegeven UUID (integratiesleutel) is onbekend. | LEEG |
-      | ACCRegisterDeviceStatusFailedUnexpectedError | Onverwachte fout die aan server ACC is teruggekeerd. | The error message returned to ACC. |
-   <table> 
-    <thead>
-    <tr>
-    <th> Status<br /> </th>
-    <th> Beschrijving<br /> </th>
-    <th> ErrorReason<br /> </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td> ACCRegisterDeviceStatusSuccess <br /> </td>
-    <td> Registratie geslaagd<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailedMarketingServerHostnameEmpty <br /> </td>
-    <td> De hostnaam van de ACC-marketingserver is leeg of niet ingesteld.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailedIntegrationKeyEmpty <br /> </td>
-    <td> De integratiesleutel is leeg of niet ingesteld.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailedConnectionIssue<br /> </td>
-    <td> Verbindingsprobleem met ACC<br /> </td>
-    <td> Meer informatie (in de huidige taal van het besturingssysteem)<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailedUnknownUID<br /> </td>
-    <td> De opgegeven UUID (integratiesleutel) is onbekend.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailedUnexpectedError<br /> </td>
-    <td> Onverwachte fout geretourneerd naar ACC-server.<br /> </td>
-    <td> Het foutbericht dat wordt geretourneerd aan ACC.<br /> </td>
-    </tr>
-    </tbody>
-    </table>
 
    **De definitie van Neolane_** SDKDelegateprotocol en  **** registerDeviceStatusdelegate ziet er als volgt uit:
 
@@ -830,6 +789,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
       }
       @end
       ```
+
 
 
 ## Variabelen {#variables}
