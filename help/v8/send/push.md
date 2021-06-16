@@ -5,10 +5,10 @@ description: Aan de slag met pushmeldingen in Campagne
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
+source-git-commit: aa3f2f17981ad10221771b3a22c76f7a445b94c9
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,10 @@ De campagne-SDK vereenvoudigt de integratie van uw mobiele toepassing in het Ado
 
 De compatibele versies van SDK zijn vermeld in [Matrix van de Verenigbaarheid van de campagne](../start/compatibility-matrix.md#MobileSDK).
 
-[!DNL :arrow_upper_right:] In  [deze sectie vindt u informatie over het integreren van Campagne-Android- en iOS-SDK&#39;s in uw app](../config/push-config.md)
+<!--
+[!DNL :arrow_upper_right:] Learn how to integrate Campaign Android and iOS SDKs with your app in [this section](../config/push-config.md)
+-->
+
 
 ### Campagneextensie configureren in Launch
 
