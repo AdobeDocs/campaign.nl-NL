@@ -6,10 +6,10 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 1f3af0a9ea29506296710024791511ceafddc824
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 40%
+source-wordcount: '658'
+ht-degree: 36%
 
 ---
 
@@ -39,19 +39,19 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    E-maillevering, een essentieel onderdeel van het succes van het marketingprogramma van elke afzender, wordt gekenmerkt door voortdurend veranderende criteria en regels. Voor een effectieve navigatie in deze digitale wereld is een regelmatige afstemming van uw e-mailstrategie vereist, waarbij rekening wordt gehouden met belangrijke ontwikkelingen op het gebied van de leverbaarheid, zodat uw publiek het beste kan bereiken.
 
-   [!DNL :arrow_upper_right:] Raadpleeg deze handleiding voor meer informatie over best practices voor  [aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl).
+   [!DNL :arrow_upper_right:] Raadpleeg deze handleiding voor meer informatie over best practices voor  [aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] Leer hoe u  [in deze handleiding de prestaties implementeert in Campagne](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
+   [!DNL :arrow_upper_right:] Leer hoe te om leverbaarheid in Campagne  [in deze gids](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html) uit te voeren {target=&quot;_blank&quot;}
 
 1. **Hoe kan ik ervoor zorgen dat mijn levering zonder fouten wordt verzonden?**
 
    Adobe Campaign wordt geleverd met een reeks dashboards en tools om uw e-mailleveringen te controleren.
 
-   [Lees uit Campaign Classic v7 documentatie om te ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) leren hoe te ervoor zorgen uw berichten worden verzonden, de uitvoering controleren en actie aangaan als een fout voorkomt.
+   [Lees uit Campaign Classic v7 documentatie om {target=&quot;_blank&quot;} te leren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) hoe te om ervoor te zorgen uw berichten worden verzonden, de uitvoering te controleren en actie in werking te stellen als een fout voorkomt.
 
 1. **Kan ik de uitvoering van de workflow controleren?**
 
-   [!DNL :arrow_upper_right:] Begrijp hoe te om de werkschemauitvoering van de Campagne  [in Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html) te controleren.
+   [!DNL :arrow_upper_right:] Begrijp hoe te om de werkschemauitvoering van de Campagne  [in Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html) te controleren {target=&quot;_blank&quot;}
 
 1. **Met welke systemen en componenten is Campagne v8 compatibel?**
 
@@ -71,19 +71,19 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    U kunt het installatieprogramma en de cliëntconsole van het Centrum van de Download van Adobe krijgen.
 
-   [Klik ](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) hier voor toegang tot de softwaredistributie van Experience Cloud.
+   [Klik hier](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) {target=&quot;_blank&quot;} om toegang te krijgen tot de Experience Cloud Software Distribution.
 
-   Meer informatie over het Distribution Center [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
+   Leer meer over het Centrum [in deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target=&quot;_blank&quot;}.
 
 1. **Kan ik contact opnemen met campagneexperts?**
 
-   Deelnemen aan campagnegemeenschap: zoeken naar antwoorden in bestaande vragen of de deskundigen vragen. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+   Deelnemen aan campagnegemeenschap: zoeken naar antwoorden in bestaande vragen of de deskundigen vragen. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target=&quot;_blank&quot;}
 
 
 1. **Hoe kan ik een probleem registreren?**
 
    U kunt een ticket maken om contact op te nemen met de Adobe-klantenondersteuning voor problemen die u ondervindt in Adobe-producten. In de Adobe Admin Console kunt u chatten met de Adobe-klantenondersteuning om uw problemen op te lossen.
 
-   Als u een probleem wilt melden of een chatsessie wilt starten in dat nieuwe systeem, maakt u verbinding met de [Adobe Admin Console](https://adminConsole.adobe.com/overview).
+   Om een kwestie te registreren of een praatjezitting in dat nieuwe systeem te beginnen, verbind met [Adobe Admin Console](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;}.
 
-   Dit systeem vereist individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u zich niet kunt aanmelden met uw Adobe ID, kunt u om toegang vragen via de Experience League. De klantenservice helpt u dan zo snel mogelijk. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+   Dit systeem vereist individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u zich niet kunt aanmelden met uw Adobe ID, kunt u om toegang vragen via de Experience League. De klantenservice helpt u dan zo snel mogelijk. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}
