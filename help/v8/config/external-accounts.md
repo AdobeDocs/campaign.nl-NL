@@ -5,9 +5,9 @@ description: Campagne voeren over externe rekeningen
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: ff2c49a2b4f22cde7ebb798d9f565e133c0268fc
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1013'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
    Met de externe account **Bounce mails** wordt de externe POP3-account opgegeven die moet worden gebruikt om verbinding te maken met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
-   [!DNL :arrow_upper_right:] Meer informatie over inkomende e-mails vindt u in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)
+   [!DNL :arrow_upper_right:] Meer informatie over binnenkomende e-mails in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}
 
 * **Routering**
 
@@ -145,7 +145,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
 Deze externe accounts kunnen worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]**-workflowactiviteit.
 
-[!DNL :arrow_upper_right:] Meer informatie over bestandsoverdracht in workflows in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
+[!DNL :arrow_upper_right:] Meer informatie over bestandsoverdracht in workflows in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target=&quot;_blank&quot;}
 
 * **FTP en SFTP**
 
