@@ -6,10 +6,10 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 4%
+source-wordcount: '803'
+ht-degree: 3%
 
 ---
 
@@ -116,7 +116,7 @@ Adobe Campaign kan zo worden geconfigureerd dat de gebruiker toegang krijgt tot 
 
 Bepaalde delen van de toepassing zijn via een eenvoudige webbrowser toegankelijk via een HTML-gebruikersinterface: Campagne-dashboard, kubusrapportage, Instance Monitoring en meer.
 
-[!DNL :arrow_upper_right:] Meer informatie over webtoegang in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+[!DNL :arrow_upper_right:] Meer informatie over webtoegang in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;}
 
 De toegang van het Web verstrekt een interface die aan de console, maar met een gereduceerde reeks functionaliteiten gelijkaardig is.
 
@@ -130,4 +130,4 @@ Terwijl met de toegang van het Web, de opties hoofdzakelijk het bekijken zullen 
 
 De toegang van het Web wordt ook gebruikt aan in het bevestigingsproces: operators kunnen klikken op de goedkeuringsaanvraag per e-mail en via hun webbrowser verbinding maken met Campagne om een leveringsinhoud of -budget te valideren of af te wijzen.
 
-[!DNL :arrow_upper_right:] Leer hoe u goedkeuringen instelt en beheert in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
+[!DNL :arrow_upper_right:] Leer hoe u goedkeuringen instelt en beheert in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target=&quot;_blank&quot;}
