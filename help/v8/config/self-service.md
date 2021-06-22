@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 58%
+source-wordcount: '374'
+ht-degree: 54%
 
 ---
 
@@ -43,16 +43,16 @@ In het configuratiescherm kunt u werken met alle SFTP-servers die verbonden zijn
 ## Subdomeinen en certificaten
 
 U kunt de subdomeinen en de bijbehorende certificaten controleren. Meer informatie:
-* [Branding van subdomein](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [Een nieuw subdomein instellen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [SSL-certificaten controleren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
+* [Branding van subdomein](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl){target=&quot;_blank&quot;}
+* [Een nieuw subdomein](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) instellen {target=&quot;_blank&quot;}
+* [SSL-certificaten](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html) controleren{target=&quot;_blank&quot;}
 
 ## Versie-instellingen
 
 Leer hoe u de instellingen voor de campagneinstanties in het Configuratiescherm beheert.
-* [IP op de lijst van gewenste personen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
-* [URL-machtigingen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
-* [Instantiedetails](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
-* [Beheer van GPG-sleutels](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
+* [IP op de lijst van gewenste personen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html){target=&quot;_blank&quot;}
+* [URL-machtigingen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html){target=&quot;_blank&quot;}
+* [Instantiedetails](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html){target=&quot;_blank&quot;}
+* [Beheer](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html) GPG-sleutels {target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] Ontdek alle mogelijkheden van het Configuratiescherm in  [deze documentatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
+[!DNL :arrow_upper_right:] Ontdek alle mogelijkheden van het Configuratiescherm in  [deze documentatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target=&quot;_blank&quot;}
