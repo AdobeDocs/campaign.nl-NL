@@ -5,9 +5,9 @@ description: Aan de slag met Transactionele berichten
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
@@ -151,7 +151,7 @@ U kunt berichtlevering testen door een bewijs naar een eerder gecreeerd zaadadre
 
 Bij het verzenden van een bewijs wordt hetzelfde proces gebruikt als bij elke levering.
 
-[!DNL :arrow_upper_right:] Meer informatie over proefdrukken vindt u in  [Campaign Classic v7-documentatie]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))
+[!DNL :arrow_upper_right:] Meer informatie over proefdrukken in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
 
 Als u echter een bewijs van een transactiebericht wilt verzenden, moet u de volgende bewerkingen uitvoeren:
 
