@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '900'
 ht-degree: 41%
 
 ---
@@ -92,9 +92,9 @@ De werkruimte van de campagne is beschikbaar door [Clientconsole](../dev/general
 
 De campagnewerkruimte kan afhankelijk van uw behoeften worden aangepast.
 
-[!DNL :arrow_upper_right:]  Leer hoe u de Campagne-werkruimte kunt gebruiken in de documentatie van  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
+[!DNL :arrow_upper_right:]  Leer hoe u de Campagne-werkruimte kunt gebruiken in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:]  Leer hoe u lijsten kunt aanpassen in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
+[!DNL :arrow_upper_right:]  Leer hoe u lijsten kunt aanpassen in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html){target=&quot;_blank&quot;}
 
 U hebt ook toegang tot bepaalde functies via het web.
 
@@ -117,7 +117,7 @@ De taal wordt geselecteerd tijdens het installatieproces.
 >
 >De taal kan na het maken van de instantie niet meer worden gewijzigd.
 
-Datums en tijdnotaties worden beïnvloed door de taal. Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time) voor meer informatie.
+Datums en tijdnotaties worden beïnvloed door de taal. Voor meer op dit, verwijs naar [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time){target=&quot;_blank&quot;}.
 
 **Zie ook**
 
