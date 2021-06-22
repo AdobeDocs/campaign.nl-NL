@@ -5,10 +5,10 @@ description: Instellingen voor e-mailkanalen voor campagne
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 3%
+source-wordcount: '290'
+ht-degree: 2%
 
 ---
 
@@ -41,14 +41,14 @@ Zodra e-mail BCC wordt gevormd, zorg ervoor de eigenschap in het leveringsmalpla
 **Verwante** onderwerpen in Campaign Classic v7 documentatie:
 
 
-[!DNL :arrow_upper_right:] [De spiegelpagina genereren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page)
+[!DNL :arrow_upper_right:] [De spiegelpagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page) genereren{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [E-mailindeling selecteren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats)
+[!DNL :arrow_upper_right:] [E-mailindeling](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats) selecteren{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Tekencodering selecteren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding)
+[!DNL :arrow_upper_right:] [Tekencodering](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding) selecteren{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Het e-mailadres voor stuiteren instellen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails)
+[!DNL :arrow_upper_right:] [Stel het e-mailadres](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails) voor de stuiterende waarde in {target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Sjablonen voor e-mailbezorging gebruiken](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+[!DNL :arrow_upper_right:] [E-mailleveringssjablonen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html) gebruiken{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Leveringsfouten begrijpen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
+[!DNL :arrow_upper_right:] [Uitleveringsfouten](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html) begrijpen {target=&quot;_blank&quot;}
