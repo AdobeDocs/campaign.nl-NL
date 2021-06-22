@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1214'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Adobe Campaign wordt geleverd met processen en instellingen waarmee u Campagne k
 
 * **Gebruikerstoestemming en gegevensbewaring**: Leer hoe u toestemming van de gebruiker krijgt, dubbele opt-in-abonnementsmechanismen instelt, de opt-out faciliteert en gegevensbewaring configureert in de privacydocumentatie van  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
 
-* **Privacy- en gegevensbeschermingsvoorschriften**: Raadpleeg de  [Campaign Classic privacy-](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) documentatie voor informatie over de algemene gegevensbeschermingsverordening van de Europese Unie (GDPR), de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Campaign.
+* **Privacy- en gegevensbeschermingsvoorschriften**: raadpleeg de privacydocumentatie [ van ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html)Campaign Classic {target=&quot;_blank&quot;} voor informatie over de algemene gegevensbeschermingsverordening (GDPR) van de Europese Unie, de California Consumer Privacy Act (CCPA) en andere internationale privacyvereisten, en hoe deze regels van invloed zijn op uw organisatie en Adobe Campaign.
 
 ### Beveiliging
 
@@ -52,7 +52,7 @@ Leer beveiligingsrichtlijnen en -beginselen met Adobe Campaign in [Controlelijst
 
 U kunt gebruikers handmatig toevoegen aan Campagne en deze koppelen aan groepen, uitgelijnd op uw rolhiërarchie. De gebruikers zullen dan login en tot de gegevens en de toestemmingen kunnen toegang hebben die voor hen aangewezen zijn.
 
-[!DNL :arrow_upper_right:] Leer hoe u in  [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started) gebruikers aan Adobe Campaign kunt toevoegen.
+[!DNL :arrow_upper_right:] Leer hoe u in  [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started) gebruikers aan Adobe Campaign kunt toevoegen {target=&quot;_blank&quot;}.
 
 ### Campagne-clientconsole installeren
 
@@ -78,17 +78,17 @@ Voordat u begint met het verzenden van berichten en het maken van marketingcampa
 
    Campagnes, leveringen, taken of workflows zijn allemaal gebaseerd op een sjabloon waarin de belangrijkste instellingen en mogelijkheden zijn opgeslagen. Een ingebouwde sjabloon wordt geleverd voor elke component, waarvoor geen specifieke configuratie is gedefinieerd. U moet malplaatjes vormen en aanpassen aan uw behoeften en hen ter beschikking stellen aan eindgebruikers.
 
-   [!DNL :arrow_upper_right:] [Meer informatie over e-mailsjablonen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   [!DNL :arrow_upper_right:] [Meer informatie over e-mailsjablonen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] Meer informatie over het werken met campagnesjablonen op  [deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Meer informatie over het werken met campagnesjablonen in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] Leer hoe u een werkstroomsjabloon op  [deze pagina configureert](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates)
+   [!DNL :arrow_upper_right:] Leer hoe u een werkstroomsjabloon kunt configureren in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates){target=&quot;_blank&quot;}
 
 1. Typologische regels configureren
 
    De typologieregels van de Campagne van de hefboomwerking aan filter, controle en monitorlevering die verzenden. Zo regelt u met vermoeidheidsregels de regelfrequentie en de hoeveelheid berichten om overmatige aansporing van ontvangers te voorkomen. Na implementatie worden de typologische regels vermeld in leveringen.
 
-   [!DNL :arrow_upper_right:] [Meer informatie over typologieën en vermoeidheidsbeheer](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Meer informatie over typologieën en vermoeidheidsbeheer in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns){target=&quot;_blank&quot;}
 
 1. Krijg vertrouwd met het ingebouwde gegevensmodel van de Campagne
 
