@@ -6,9 +6,9 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 4bd67cd3e4e88015d8044f07ca95927b6d7867f3
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -27,14 +27,14 @@ Rechten verlenen machtigingen aan:
 De knop **Analyseren** in de leveringseditor wordt bijvoorbeeld geactiveerd voor leden van de groep **Leveringsoperator** die de **Aflevering voorbereiden** Benoemd rechts hebben
 
 * Toegang tot mappen
-Lidmaatschap van groepen met operatoren kan toegangsrechten verlenen of beperken tot mappen door de beveiligingsinstellingen voor mappen te wijzigen. [Meer informatie vindt u in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder). Het kan bijvoorbeeld invloed hebben op: **Schrijf toegang** om nieuwe entiteiten te maken (zoals leveringen, profielen, enz.), **Leestoegang** om entiteiten te gebruiken, **Verwijder toegang** om entiteiten te verwijderen.
+Lidmaatschap van groepen met operatoren kan toegangsrechten verlenen of beperken tot mappen door de beveiligingsinstellingen voor mappen te wijzigen. [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}. Het kan bijvoorbeeld invloed hebben op: **Schrijf toegang** om nieuwe entiteiten te maken (zoals leveringen, profielen, enz.), **Leestoegang** om entiteiten te gebruiken, **Verwijder toegang** om entiteiten te verwijderen.
 
 **Meer informatie over** Campaign Classic v7-documentatie:
 
-[!DNL :arrow_upper_right:] [Ingebouwde rechten met naam](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html)
+[!DNL :arrow_upper_right:] [Ingebouwde benoemde rechten](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Geïntegreerde operatorgroepen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups)
+[!DNL :arrow_upper_right:] [Geïntegreerde operatorgroepen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Stappen voor instelmachtigingen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html)
+[!DNL :arrow_upper_right:] [Stappen voor het instellen van machtigingen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Beveiligingsinstellingen voor mappen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder).
+[!DNL :arrow_upper_right:] [Beveiligingsinstellingen voor mappen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}
