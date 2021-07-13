@@ -6,7 +6,7 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
    ![](assets/built-in-reports.png)
 
-   [!DNL :arrow_upper_right:] Ingebouwde campagnerapporten worden weergegeven in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html){target=&quot;_blank&quot;}
+   ↗️ ingebouwde rapporten van de Campagne worden voorgesteld in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html){target=&quot;_blank&quot;}
 
 * **Beschrijvende gegevensanalyse**
 
@@ -37,13 +37,13 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
    ![](assets/desc-analysis-report.png)
 
-   [!DNL :arrow_upper_right:] Rapportage over beschrijvende campagneanalyses wordt weergegeven in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}
+   ↗️ wordt de Omschrijvende analyse van de Campagne rapportering voorgesteld in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}
 
 * **Persoonlijke rapporten**
 
    Gebruik Adobe Campaign om rapporten te maken over de gegevens in de database. Als deze eenmaal zijn gecreëerd, moet u ze in de juiste context toegankelijk maken.
 
-   [!DNL :arrow_upper_right:] De stappen om een rapport tot stand te brengen zijn gedetailleerd in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html) {target= &quot;_blank&quot;}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.
+   ↗️ de Stappen om een rapport tot stand te brengen zijn gedetailleerd in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target=&quot;_blank&quot;}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.
 
 * **Kubussen**
 
@@ -53,7 +53,7 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
    Afhankelijk van de complexiteit van de query&#39;s, berekeningen en volumes, kunnen de gegevens die in deze rapporten worden geanalyseerd, worden verzameld via een query en vooraf worden samengevoegd in een lijst (werkstroom voor gegevensbeheer) of in een kubus (met behulp van Marketing Analytics). De afbeelding wordt weergegeven in de vorm van een draaitabel of een groeplijst.
 
-   [!DNL :arrow_upper_right:] Leer hoe u kubussen maakt in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;}
+   ↗️ leren hoe u kubussen kunt maken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;
 
 
 Opmerking: Adobe Campaign-rapporten zijn geoptimaliseerd en bieden betere schaalmogelijkheden dan Campaign Classic v7. Bestaande beperkingen op kubussen zijn niet van toepassing.
