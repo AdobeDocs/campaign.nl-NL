@@ -5,7 +5,7 @@ description: Aan de slag met Transactionele berichten
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. Deze berichten worden geproduceerd van gebeurtenissen die van informatiesystemen teweeggebracht worden, en kunnen zijn: factuur, bevestiging van bestelling, bevestiging van verzending, wijziging van wachtwoord, kennisgeving van onbeschikbaarheid van product, rekeningoverzicht of het maken van websiteaccount, bijvoorbeeld.
 
-[!DNL :speech_balloon:] Als Beheerde gebruiker van Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
+?? Als Beheerde gebruiker van Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
 
 Transactieberichten worden gebruikt voor het verzenden van:
 
@@ -24,9 +24,9 @@ Transactieberichten worden gebruikt voor het verzenden van:
 * een individuele reactie in real time op een klantenactie
 * niet-promotionele inhoud
 
-[!DNL :bulb:] De instellingen voor het transactiebericht worden in  [deze sectie](../config/transactional-msg-settings.md) beschreven.
+?? De instellingen voor Transactieberichten worden beschreven in [deze sectie](../config/transactional-msg-settings.md).
 
-[!DNL :bulb:] Begrijp transactie overseinenarchitectuur in  [deze pagina](../dev/architecture.md).
+?? Begrijp transactie overseinenarchitectuur in [deze pagina](../dev/architecture.md).
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ Met deze informatie kunt u de inhoud van berichten personaliseren met personalis
 
    ![](assets/messagecenter_create_custo_3.png)
 
-### Geef een voorvertoning van uw transactiebericht weer{#transactional-message-preview}
+### Je transactiebericht bekijken{#transactional-message-preview}
 
 Zodra u één of meerdere zaadadressen en het berichtlichaam hebt gecreeerd, kunt u voorproef het bericht en zijn verpersoonlijking controleren.
 
@@ -151,7 +151,7 @@ U kunt berichtlevering testen door een bewijs naar een eerder gecreeerd zaadadre
 
 Bij het verzenden van een bewijs wordt hetzelfde proces gebruikt als bij elke levering.
 
-[!DNL :arrow_upper_right:] Meer informatie over proefdrukken in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+↗️ meer informatie over proefdrukken in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;
 
 Als u echter een bewijs van een transactiebericht wilt verzenden, moet u de volgende bewerkingen uitvoeren:
 
