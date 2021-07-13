@@ -6,7 +6,7 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 36%
@@ -23,13 +23,13 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Deze regelmatige updates zijn bedoeld om u het nieuwste en beste in handen te geven, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Daarom is het zo belangrijk dat u met de meest recente versie van Adobe Campaign werkt.
 
-   [!DNL :speech_balloon:] Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Adobe met elke nieuwe versie.
+   ?? Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Adobe met elke nieuwe versie.
 
 1. **Hoe kan ik verbinding maken met Campaign v8?**
 
    U moet Campagne Client Console downloaden en installeren om verbinding te maken met Adobe Campaign.
 
-   [!DNL :bulb:] [Klik hier voor meer informatie](connect.md).
+   ?? [Klik hier voor meer informatie](connect.md).
 
 1. **Kan Campagne v8 worden geïnstalleerd op een bedrijfs- of hybride omgeving?**
 
@@ -39,9 +39,9 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    E-maillevering, een essentieel onderdeel van het succes van het marketingprogramma van elke afzender, wordt gekenmerkt door voortdurend veranderende criteria en regels. Voor een effectieve navigatie in deze digitale wereld is een regelmatige afstemming van uw e-mailstrategie vereist, waarbij rekening wordt gehouden met belangrijke ontwikkelingen op het gebied van de leverbaarheid, zodat uw publiek het beste kan bereiken.
 
-   [!DNL :arrow_upper_right:] Raadpleeg deze handleiding voor meer informatie over best practices voor  [aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target=&quot;_blank&quot;}
+   ↗️ Verwijs naar deze gids om [Aankoopbaarheid Beste praktijken ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target=&quot;_blank&quot; te leren
 
-   [!DNL :arrow_upper_right:] Leer hoe te om leverbaarheid in Campagne  [in deze gids](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html) uit te voeren {target=&quot;_blank&quot;}
+   ↗️ Leer hoe te om leverbaarheid in Campagne [in deze gids ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target=&quot;_blank&quot; uit te voeren
 
 1. **Hoe kan ik ervoor zorgen dat mijn levering zonder fouten wordt verzonden?**
 
@@ -51,7 +51,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
 1. **Kan ik de uitvoering van de workflow controleren?**
 
-   [!DNL :arrow_upper_right:] Begrijp hoe te om de werkschemauitvoering van de Campagne  [in Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html) te controleren {target=&quot;_blank&quot;}
+   ↗️ begrijpen hoe te om de werkschemauitvoering van de Campagne [in Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html){target=&quot;_blank&quot; te controleren
 
 1. **Met welke systemen en componenten is Campagne v8 compatibel?**
 
@@ -61,7 +61,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 
-   [!DNL :speech_balloon:] Als Beheerde gebruiker van Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om uw subdomeinen aan Adobe te delegeren.
+   ?? Als Beheerde gebruiker van Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om uw subdomeinen aan Adobe te delegeren.
 
 1. **Mag ik als Campaign Classic v7-gebruiker migreren naar Campaign v8?**
 
