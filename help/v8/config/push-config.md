@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Ondersteunde versies voor Android en iOS, en compatibele versies voor Campagne S
 >Als beheerder van de Campagne, kunt u Campagne SDKs van [de Distributie van de Software van de Experience Cloud downloaden ](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html). Neem voor meer informatie contact op met de [klantenservice van Adobe](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
-## Integratie-instellingen {#declaring-integration-settings} declareren
+## Integratie-instellingen declareren {#declaring-integration-settings}
 
 Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de functionele beheerder de ontwikkelaar de volgende informatie geven:
 
@@ -797,7 +797,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
 Met de variabelen kunt u het gedrag van mobiele toepassingen definiëren nadat u een melding hebt ontvangen. Deze variabelen moeten worden gedefinieerd in de mobiele toepassingscode en in de Adobe Campaign-console, op het tabblad **[!UICONTROL Variables]** in de speciale service voor mobiele toepassingen.
 
-[!DNL :arrow_upper_right:] Meer informatie in  **Campaign Classic v7-** documentatie over mobiele app:  [Configuratiestappen voor iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} en  [configuratiestappen voor Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
+↗️ Meer informatie in **Campaign Classic v7-documentatie** op mobiele app: [Configuratiestappen voor iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} en [Configuratiestappen voor Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
 
 Hieronder ziet u een voorbeeld van een code waarmee een mobiele toepassing toegevoegde variabelen in een melding kan verzamelen. In ons voorbeeld gebruiken we de variabele &quot;VAR&quot;.
 
@@ -845,7 +845,7 @@ Hieronder ziet u een voorbeeld van een code waarmee een mobiele toepassing toege
 >
 >Adobe raadt u aan korte variabelenamen te kiezen, omdat de berichtgrootte voor iOS en Android beperkt is tot 4 kB.
 
-## Uitbreiding meldingsservice {#notification-service-extension}
+## Meldingsservice-extensie {#notification-service-extension}
 
 **Voor iOS**
 
