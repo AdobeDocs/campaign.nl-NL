@@ -5,7 +5,7 @@ description: Beheerders van aanbiedingen maken
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -20,11 +20,11 @@ Twee typen operatoren kunnen Campagne-interactie gebruiken: **Bied managers** en
 * Met **[!UICONTROL Offer manager]** worden aanbiedingen gemaakt en onderhouden.
 * De **[!UICONTROL Delivery manager]** keurt en gebruikt aanbiedingen goed
 
-## Creeer een manager van de Aanbieding exploitant{#offer-manager}
+## Een beheerder van een voorstel maken{#offer-manager}
 
 1. Maak een nieuwe operator.
 
-   [!DNL :arrow_upper_right:] De stappen om een exploitant in Campagne tot stand te brengen zijn gedetailleerd in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ↗️ stappen om een exploitant in Campagne tot stand te brengen zijn gedetailleerd in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Ga naar het **[!UICONTROL Groups and named rights]** venster, klik **[!UICONTROL Add]** en selecteer **[!UICONTROL Offer manager]** groep.
 
@@ -44,11 +44,11 @@ Als aanbiedingen worden gebruikt in een workflow, moet de operator worden toegev
 >
 >Een **Aanbiedingsmanager** kan alleen een aanbieding goedkeuren als er geen controleur is opgegeven of als hij/zij is gedeclareerd als controleur in de aanbiedingstemplate waarop de aanbieding was gebaseerd.
 
-## Een leveringsbeheeroperator {#delivery-manager} maken
+## Een leveringsmanager-operator maken {#delivery-manager}
 
 1. Maak een nieuwe operator.
 
-   [!DNL :arrow_upper_right:] De stappen om een exploitant in Campagne tot stand te brengen zijn gedetailleerd in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ↗️ stappen om een exploitant in Campagne tot stand te brengen zijn gedetailleerd in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Ga naar het **[!UICONTROL Groups and named rights]** venster, klik **[!UICONTROL Add]** en selecteer **[!UICONTROL Delivery manager]** groep.
 
@@ -62,7 +62,7 @@ De aan de leveringsmanager toegewezen rechten zijn/laten hen toe om de volgende 
    >
    >Een **Leveringsmanager** kan een aanbieding slechts goedkeuren als hij/zij als recensent tijdens de aanbiedingsconfiguratie is verklaard.
 
-## Machtigingsmatrix per interactieoperator {#recap-of-rights-according-to-operator}
+## Machtigingsmatrix per interactie-operator {#recap-of-rights-according-to-operator}
 
 <table> 
  <tbody> 
