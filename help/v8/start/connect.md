@@ -6,9 +6,9 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 136209f05cf302a1e73a2aa18c051260edeb0762
+source-git-commit: a468597714e3974c85e4ada3b6c2ee405717106a
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Nadat de clientconsole is geïnstalleerd, voert u de onderstaande stappen uit om
 
    U kunt bijvoorbeeld de URL van het type [`https://<machine>.<domain>.com`](https://myserver.adobe.com) gebruiken.
 
-1. Als Adobe Identity Management System (IMS) is geconfigureerd voor uw organisatie, controleert u de optie **[!UICONTROL Connect with an Adobe ID]**.
+1. Schakel de optie  in **[!UICONTROL Connect with an Adobe ID]**.
 
 1. Klik **[!UICONTROL Ok]** om uw montages te bewaren.
 
