@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Werken met campagne-schema's
 description: Aan de slag met schema's
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 4%
@@ -97,11 +97,11 @@ De identificatiesleutel van een schema is een tekenreeks die is opgebouwd met be
 
 Als u een veld of ander element wilt toevoegen aan een van de kerngegevensschema&#39;s in Campagne, zoals de ontvangende tabel (nms:ontvanger), moet u dat schema uitbreiden.
 
-[!DNL :bulb:] Voor meer op dit, verwijs naar  [breid een schema](extend-schema.md) uit.
+?? Voor meer op dit, verwijs naar [breid een schema](extend-schema.md) uit.
 
 Als u een geheel nieuw type gegevens wilt toevoegen dat niet bestaat in Adobe Campaign (bijvoorbeeld een contracttabel), kunt u rechtstreeks een aangepast schema maken.
 
-[!DNL :bulb:] Raadpleeg  [Een nieuw schema](create-schema.md) maken voor meer informatie.
+?? Voor meer op dit, verwijs naar [creeer een nieuw schema](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -153,7 +153,7 @@ In dit voorbeeld, in plaats van het laten **@autouuid** attribuut een standaard 
 >
 >Wanneer het creëren van een nieuw schema of tijdens een schemauitbreiding, moet u de zelfde primaire zeer belangrijke opeenvolgingswaarde (@pkSequence) voor het volledige schema houden.
 
-[!DNL :bulb:] Meer informatie over toetsen vindt u in  [deze sectie](database-mapping.md#management-of-keys).
+?? Meer informatie over toetsen vindt u in [deze sectie](database-mapping.md#management-of-keys).
 
 ## Attributen (velden) {#attributes--fields-}
 
@@ -163,7 +163,7 @@ Met kenmerken kunt u de velden definiëren waaruit het gegevensobject bestaat. U
 
 De volledige lijst met kenmerken is beschikbaar in de `<attribute>`-elementsectie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Hier volgen enkele van de meer gebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **a13/>,**@length **,**@name **,**@notNull **,**@required **,**@ref 23/>, **@xml**, **@type**.****
 
-[!DNL :arrow_upper_right:] Voor meer informatie over elk attribuut, verwijs naar de beschrijving van Attributen in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
+↗️ Voor meer informatie over elk attribuut, verwijs naar de beschrijving van Attributen in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
 ### Voorbeelden {#examples}
 
