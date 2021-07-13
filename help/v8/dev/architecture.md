@@ -6,7 +6,7 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Drie soorten omgevingen beschikbaar met Campagne Cloud Service:
 
 U kunt pakketten van de ene omgeving naar de andere exporteren en importeren.
 
-[!DNL :arrow_upper_right:] Meer informatie over pakketten in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
+↗️ Meer informatie over pakketten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## Midsourcingimplementatie{#mid-sourcing-deployment}
 
@@ -46,11 +46,11 @@ De algemene communicatie tussen servers en processen wordt uitgevoerd volgens he
 > Campagne v8 is gebaseerd op een hybride architectuur. Als u van Campaign Classic v7 overgaat, merk op dat alle leveringen door de midsourcingserver gaan.
 > Als gevolg hiervan is de interne routering **niet mogelijk** in Campagne v8 en is de externe account dienovereenkomstig uitgeschakeld.
 
-## Berichtencentrumarchitectuur{#transac-msg-archi}
+## Berichtencentrum{#transac-msg-archi}
 
 Transactioneel overseinen (het Centrum van het Bericht) is de module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen.
 
-[!DNL :bulb:] Leer hoe u transactiemeldingen verzendt in  [deze sectie](../send/transactional.md).
+?? Leer hoe te om transactieberichten in [deze sectie](../send/transactional.md) te verzenden.
 
 Als reactie op een actie van een klant op een website, wordt een gebeurtenis verzonden Campagne door REST API, en het berichtmalplaatje wordt bevolkt met de informatie of de gegevens die door de API vraag worden verstrekt, en een transactiebericht wordt verzonden in real time naar de klant. Deze berichten kunnen individueel of in partijen via e-mail, SMS of push-berichten worden verzonden.
 
@@ -58,7 +58,7 @@ In deze specifieke architectuur, wordt de uitvoeringscel gescheiden van de contr
 
 * De **Control-instantie** (of marketinginstantie) wordt door marketers en IT-teams gebruikt om berichtsjablonen te maken, te configureren en te publiceren. Deze instantie centraliseert ook gebeurteniscontrole en geschiedenis.
 
-   [!DNL :bulb:] Leer hoe u berichtsjablonen maakt en publiceert in  [deze sectie](../send/transactional.md).
+   ?? Leer hoe te om berichtmalplaatjes in [deze sectie te creëren en te publiceren](../send/transactional.md).
 
 * Met de **uitvoeringsinstantie** worden binnenkomende gebeurtenissen opgehaald (bijvoorbeeld opnieuw instellen van wachtwoord of bestellingen van een website) en worden persoonlijke berichten verzonden. Er kunnen meer dan één uitvoeringsinstantie zijn om berichten te verwerken via het taakverdelingsmechanisme en het aantal gebeurtenissen te schalen dat moet worden uitgevoerd voor maximale beschikbaarheid.
 
@@ -79,4 +79,4 @@ Dan, met sessionToken die door de uitvoeringsinstantie in antwoord op de bovenge
 * Meerdere uitvoeringen
 In een multi-cel uitvoeringsarchitectuur met veelvoudige uitvoeringsinstanties achter een ladingsverdelingsmechanisme, gaat de openings van een sessiemethode die door de externe toepassing wordt aangehaald door het taakverdelingsmechanisme: daarom kan een tokengebaseerde verificatie niet worden gebruikt. Een op gebruiker/wachtwoord-gebaseerde authentificatie wordt vereist.
 
-[!DNL :arrow_upper_right:] Meer informatie over Transactionele berichtengebeurtenissen in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)
+↗️ Meer informatie over Transactionele berichtengebeurtenissen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)
