@@ -1,15 +1,15 @@
 ---
 product: Adobe Campaign
-title: Best practices voor het datamodel
+title: Best practices voor het gegevensmodel
 description: Meer informatie over tips en trucs voor extensies van Campagne-gegevensmodellen
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '2683'
 ht-degree: 4%
 
 ---
 
-# Best practices voor het datamodel{#data-model-best-practices}
+# Best practices voor het gegevensmodel{#data-model-best-practices}
 
 Dit document bevat belangrijke aanbevelingen bij het ontwerpen van uw Adobe Campaign-gegevensmodel.
 
@@ -17,15 +17,15 @@ Het Adobe Campaign-systeem is zeer flexibel en kan verder worden uitgebreid dan 
 
 Raadpleeg [deze sectie](datamodel.md) voor een beter begrip van geïntegreerde tabellen voor campagnes en hoe deze zich op elkaar verhouden.
 
-[!DNL :bulb:] Lees  [deze ](schemas.md) sectie om aan de slag te gaan met de schema&#39;s van de Campagne.
+?? Lees [deze sectie](schemas.md) uit om met de schema&#39;s van de Campagne te beginnen.
 
-[!DNL :bulb:] Leer hoe te om uitbreidingsschema&#39;s te vormen om het conceptuele gegevensmodel van het gegevensbestand van Adobe Campaign in  [deze pagina](extend-schema.md) uit te breiden.
+?? Leer hoe te om uitbreidingsschema&#39;s te vormen om het conceptuele gegevensmodel van het gegevensbestand van Adobe Campaign in [deze pagina](extend-schema.md) uit te breiden.
 
-## Architectuur van gegevensmodellen {#data-model-architecture}
+## Gegevensmodelarchitectuur {#data-model-architecture}
 
 Adobe Campaign is een krachtig campagnebeheersysteem voor meerdere kanalen waarmee u uw online- en offlinestrategieën kunt uitlijnen en persoonlijke ervaringen voor klanten kunt creëren.
 
-### Klantgerichte benadering {#customer-centric-approach}
+### klantgerichte benadering {#customer-centric-approach}
 
 Hoewel de meeste e-mailserviceproviders via een lijstgerichte aanpak communiceren met klanten, vertrouwt Adobe Campaign op een relationele database om een bredere visie op de klanten en hun kenmerken te kunnen gebruiken.
 
@@ -67,7 +67,7 @@ Volg de onderstaande aanbevolen procedures om gegevens in te stellen in Adobe Ca
 
 Een veld moet in een tabel worden opgeslagen als het een doel of een doel voor personalisatie heeft. Met andere woorden, als een gebied niet wordt gebruikt om een gepersonaliseerde e-mail te verzenden of als criterium in een vraag wordt gebruikt, zal het onnodig schijfruimte opnemen.
 
-### Keuze van toetsen {#choice-of-keys}
+### Keuze van sleutels {#choice-of-keys}
 
 Naast de **autouuid** en **automatische controles** die standaard in de meeste tabellen worden gedefinieerd, zou u moeten nadenken toevoegend sommige logische of bedrijfssleutels (rekeningsaantal, cliëntaantal, etc.). Het kan later worden gebruikt voor invoer/verzoening of gegevenspakketten. Zie [Identifiers](#identifiers) voor meer informatie.
 
@@ -90,7 +90,7 @@ In de volgende tabel worden deze id&#39;s en hun doel beschreven.
 | Id | Beschrijving | Best practices |
 |--- |--- |--- |
 | Id | <ul><li>De id is de fysieke primaire sleutel van een Adobe Campaign-tabel. Voor ingebouwde lijsten, is het een universeel Unieke identiteitskaart (UUID)</li><li>Deze id moet uniek zijn. </li><li>Een UUID kan in een schemadefinitie zichtbaar zijn.</li></ul> | <ul><li>Automatisch gegenereerde id&#39;s mogen niet worden gebruikt als een referentie in een workflow of in een pakketdefinitie.</li><li>De id in een tabel is een UUID en dit type mag niet worden gewijzigd.</li></ul> |
-| Naam (of interne naam) | <ul><li>Deze informatie is een unieke id van een record in een tabel. Deze waarde kan handmatig worden bijgewerkt, meestal met een gegenereerde naam.</li><li>Deze id behoudt zijn waarde wanneer deze wordt geïmplementeerd in een andere instantie van Adobe Campaign en mag niet leeg zijn.</li></ul> | <ul><li>Wijzig de naam van de record die wordt gegenereerd door Adobe Campaign als het object moet worden geïmplementeerd vanuit een omgeving naar een andere.</li><li>Wanneer een voorwerp een namespace attribuut (*schema* bijvoorbeeld) heeft, zal deze gemeenschappelijke namespace over alle gemaakte douanevoorwerpen leveraged worden. Bepaalde gereserveerde naamruimten mogen niet worden gebruikt: *nms*, *xtk*, enz.  Sommige naamruimten zijn alleen intern. [Meer informatie](schemas.md#reserved-namespaces).</li><li>Wanneer een object geen naamruimte heeft (*workflow* of *delivery* bijvoorbeeld), wordt dit naamruimtebegrip toegevoegd als voorvoegsel van een intern naamobject: *namespaceMyObjectName*.</li><li>Gebruik geen speciale tekens zoals spatie &quot;&quot;, puntkolom &quot;:&quot; of afbreekstreepje &quot;-&quot;. Al deze tekens worden vervangen door een onderstrepingsteken &quot;_&quot; (toegestaan teken). &quot;abc-def&quot; en &quot;abc:def&quot; worden bijvoorbeeld opgeslagen als &quot;abc_def&quot; en worden elkaar overschreven.</li></ul> |
+| Naam (of interne naam) | <ul><li>Deze informatie is een unieke id van een record in een tabel. Deze waarde kan handmatig worden bijgewerkt, meestal met een gegenereerde naam.</li><li>Deze id behoudt zijn waarde wanneer deze wordt geïmplementeerd in een andere instantie van Adobe Campaign en mag niet leeg zijn.</li></ul> | <ul><li>Wijzig de naam van de record die wordt gegenereerd door Adobe Campaign als het object moet worden geïmplementeerd vanuit een omgeving naar een andere.</li><li>Wanneer een voorwerp een namespace attribuut (*schema* bijvoorbeeld) heeft, zal deze gemeenschappelijke namespace over alle gemaakte douanevoorwerpen leveraged worden. Bepaalde gereserveerde naamruimten mogen niet worden gebruikt: *nms*, *xtk*, enz.  Sommige naamruimten zijn alleen intern. [Meer info](schemas.md#reserved-namespaces).</li><li>Wanneer een object geen naamruimte heeft (*workflow* of *delivery* bijvoorbeeld), wordt dit naamruimtebegrip toegevoegd als voorvoegsel van een intern naamobject: *namespaceMyObjectName*.</li><li>Gebruik geen speciale tekens zoals spatie &quot;&quot;, puntkolom &quot;:&quot; of afbreekstreepje &quot;-&quot;. Al deze tekens worden vervangen door een onderstrepingsteken &quot;_&quot; (toegestaan teken). &quot;abc-def&quot; en &quot;abc:def&quot; worden bijvoorbeeld opgeslagen als &quot;abc_def&quot; en worden elkaar overschreven.</li></ul> |
 | Label | <ul><li>Het label is de bedrijfsidentificatie van een object of record in Adobe Campaign.</li><li>Voor dit object zijn spaties en speciale tekens toegestaan.</li><li>Het garandeert niet dat een record uniek is.</li></ul> | <ul><li>Het wordt aanbevolen een structuur voor de objectlabels te bepalen.</li><li>Dit is de meest gebruikersvriendelijke oplossing om een record of object voor een Adobe Campaign-gebruiker te identificeren.</li></ul> |
 
 Adobe Campaign primaire sleutel is een automatisch gegenereerde UUID voor alle ingebouwde tabellen. Een UUID kan ook worden gebruikt voor aangepaste tabellen. [Meer informatie](keys.md)
@@ -145,7 +145,7 @@ Als de omgekeerde verbinding niet aan de gebruiker zichtbaar zou moeten zijn, ku
 
 Koppelingen die een externe verbinding (1-0..1) uitvoeren, moeten met de nodige voorzichtigheid worden gebruikt omdat dit van invloed is op de systeemprestaties.
 
-## Dataretentie {#data-retention}
+## Gegevensretentie {#data-retention}
 
 Adobe Campaign is geen data-entrepot of rapportageinstrument. Om goede prestaties van de oplossing van Adobe Campaign te verzekeren, zou de gegevensbestandgroei daarom onder controle moeten blijven. Om dit te bereiken, kan het volgen van een aantal van de onderstaande beste praktijken helpen.
 
@@ -175,7 +175,7 @@ Er zijn een paar oplossingen om de behoefte aan verslagen in Adobe Campaign te m
 
 U kunt het kenmerk &quot;deleteStatus&quot; in een schema declareren. Het is efficiënter om het verslag te merken zoals geschrapt, dan de schrapping in de schoonmaakbeurt uit te stellen taak.
 
-[!DNL :speech_balloon:] Als Beheerde gebruiker van Cloud Services, bereik aan de consultants van Adobe of technische beheerders om meer over behoud te leren of als u behoud voor douanetabellen moet plaatsen.
+?? Als Beheerde gebruiker van Cloud Services, bereik aan de consultants van Adobe of technische beheerders om meer over behoud te leren of als u behoud voor douanetabellen moet plaatsen.
 
 ## Prestaties {#performance}
 
