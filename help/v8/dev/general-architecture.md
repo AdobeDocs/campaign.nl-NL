@@ -3,7 +3,7 @@ product: Adobe Campaign
 title: Algemene architectuur
 description: Meer informatie over campagnearchitectuur en -componenten
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 0%
@@ -26,23 +26,23 @@ De gebruikelijke Adobe Campaign-implementatie van oplossingen bestaat uit de vol
 
    Op basis van relationele databasetechnologie slaat de Adobe Campaign Cloud-database alle klantgegevens, campagnecomponenten, aanbiedingen en workflows op, evenals de campagneresultaten in databasecontainers van de klant.
 
-## Gepersonaliseerde clientomgeving {#client-env}
+## Persoonlijke clientomgeving {#client-env}
 
 De toepassing kan op verschillende manieren worden benaderd: Rich client-, thin client- of API-integratie.
 
 * **Clientconsole**: De hoofdgebruikersinterface van de toepassing is een native toepassing (in Windows) die communiceert met de Adobe Campaign-toepassingsserver met standaard internetprotocollen (SOAP, HTTP, enz.). Adobe Campaign Client Console biedt geweldige gebruiksvriendelijkheid voor productiviteit, gebruikt zeer weinig bandbreedte (door het gebruik van een lokale cache) en is ontworpen voor eenvoudige implementatie. Deze console kan vanuit een internetbrowser worden geïmplementeerd, kan automatisch worden bijgewerkt en vereist geen specifieke netwerkconfiguratie omdat alleen HTTP(S)-verkeer wordt gegenereerd.
 
-   [!DNL :bulb:] [Meer informatie over de Campagne-clientconsole](../start/connect.md).
+   ?? [Meer informatie over Campagne-clientconsole](../start/connect.md).
 
 * **Webtoegang**: delen van de toepassing zijn toegankelijk via een eenvoudige webbrowser met behulp van een HTML-gebruikersinterface, zoals de rapportmodule, de goedkeuringsfasen voor levering, de controle van instanties, enz.
 
-   [!DNL :bulb:] [Meer weten over Campagne Web Access](../start/connect.md)?
+   ?? [Meer informatie over de Toegang van het Web van de Campagne](../start/connect.md).
 
 * **Campagne-API&#39;s**: In bepaalde gevallen, kan het systeem van externe toepassing worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van de ZEEP worden blootgesteld.
 
-   [!DNL :bulb:] [Meer informatie over campagne-API&#39;s](../dev/api.md).
+   ?? [Meer informatie over campagne-API&#39;s](../dev/api.md).
 
-## Ontwikkelomgeving {#dev-env}
+## Ontwikkelingsomgeving {#dev-env}
 
 Adobe Campaign is één platform met verschillende toepassingen voor het maken van een open en schaalbare architectuur. Het Adobe Campaign-platform is geschreven op een flexibele toepassingslaag en kan eenvoudig worden geconfigureerd om aan uw bedrijfsbehoeften te voldoen. De verdeelde architectuur verzekert lineaire systeemscalability die van duizenden berichten aan miljoenen berichten schrapt.
 
