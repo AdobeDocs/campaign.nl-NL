@@ -5,7 +5,7 @@ description: Aan de slag met pushmeldingen in Campagne
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 3aed82c4c054b45b7e1d90082dee6af7ba02ea69
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Als u pushberichten wilt verzenden in Adobe Campaign, moet u:
 1. Voeg de iOS- en Android-versies van de toepassing toe aan deze service.
 1. Maak een levering voor zowel iOS als Android.
 
-[!DNL :arrow_upper_right:] Leer hoe u aan de slag gaat met de mobiele app in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}
+↗️ Leer hoe u aan de slag kunt met de mobiele app in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;
 
 ## Integreren met Adobe SDK
 
@@ -33,21 +33,21 @@ De campagne-SDK vereenvoudigt de integratie van uw mobiele toepassing in het Ado
 
 De compatibele versies van SDK zijn vermeld in [Matrix van de Verenigbaarheid van de campagne](../start/compatibility-matrix.md#MobileSDK).
 
-[!DNL :bulb:] In  [deze sectie vindt u informatie over het integreren van Campagne-Android- en iOS-SDK&#39;s in uw app](../config/push-config.md)
+?? In [deze sectie](../config/push-config.md) vindt u informatie over de integratie van Campagne-Android- en iOS-SDK&#39;s met uw app
 
 ### Campagneextensie configureren in Launch
 
 U kunt Adobe Experience Platform Launch SDK integreren met Campagne door de extensie Campaign Classic te gebruiken.
 
-[!DNL :arrow_upper_right:] Meer informatie in de  [Adobe Mobile SDK-documentatie](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
+↗️ Meer informatie in [Adobe Mobile SDK documentatie](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;
 
 ## Uw toepassingsinstellingen configureren in Campagne
 
 U moet de instellingen voor iOS- en Android-apps definiëren in Adobe Campaign.
 
-[!DNL :arrow_upper_right:] De configuratierichtlijnen voor iOS worden beschreven in de  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+↗️ de Richtlijnen van de Configuratie voor iOS zijn gedetailleerd in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] De configuratierichtlijnen voor Android worden beschreven in de  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+↗️ de Richtlijnen van de Configuratie voor Android zijn gedetailleerd in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target=&quot;_blank&quot;
 
 ## Uw eerste pushmelding maken
 
@@ -61,7 +61,7 @@ Als u een nieuwe levering wilt maken, bladert u naar het tabblad **[!UICONTROL C
 
 ![](assets/delivery_step_1.png)
 
-[!DNL :arrow_upper_right:] Raadpleeg de  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot; voor algemene informatie over het maken van een levering.
+↗️ voor globale informatie over hoe te om een levering tot stand te brengen, verwijs naar [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 ### Meldingen verzenden op iOS {#send-notifications-on-ios}
 
@@ -129,15 +129,15 @@ Als u een nieuwe levering wilt maken, bladert u naar het tabblad **[!UICONTROL C
 Als u een bewijs wilt verzenden en de uiteindelijke levering wilt verzenden, gebruikt u hetzelfde proces als voor e-mailleveringen. Meer informatie in de Campaign Classic v7-documentatie:
 
 * Een levering valideren en proefdrukken verzenden
-   [!DNL :arrow_upper_right:] [Leer belangrijke stappen om een levering](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html) te bevestigen {target=&quot;_blank&quot;}
+↗️ [Leer belangrijkste stappen om levering ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot; te bevestigen
 
 * Bevestig en verzend de levering
-   [!DNL :arrow_upper_right:] [Leer de belangrijkste stappen om een levering](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en) te verzenden {target=&quot;_blank&quot;}
+↗️ [Leer belangrijkste stappen om levering te verzenden](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;}
 
 Nadat u berichten hebt verzonden, kunt u de leveringen controleren en volgen. Meer informatie in de Campaign Classic v7-documentatie:
 
 * Push notification quarantines
-   [!DNL :arrow_upper_right:] [Meer informatie over quarantines voor pushmeldingen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target=&quot;_blank&quot;}
+↗️ [Meer informatie over pushmelding quarantines](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target=&quot;_blank&quot;}
 
 * Problemen oplossen
-   [!DNL :arrow_upper_right:] [Leer hoe u problemen met uw pushmeldingen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en) kunt oplossen {target=&quot;_blank&quot;}
+↗️ [Leer hoe te om uw dupberichten ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en){target= &quot;_blank&quot; problemen op te lossen
