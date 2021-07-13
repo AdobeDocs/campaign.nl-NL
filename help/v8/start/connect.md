@@ -6,10 +6,10 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: a468597714e3974c85e4ada3b6c2ee405717106a
+source-git-commit: 44ddce019de74be96a955eefbc940e41e060a6d3
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 0%
+source-wordcount: '685'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ Wanneer u voor het eerst campagne gebruikt of wanneer u een upgrade naar een nie
 
 Er zijn twee opties beschikbaar:
 
-1. Als beheerder van de Campagne, verbind met Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/encampaign.html) en download het de installatieprogramma van de Console van de Cliënt. U kunt de toepassing vervolgens op uw lokale computer installeren.
+1. Als beheerder van de Campagne, verbind met Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) en download het de installatieprogramma van de Console van de Cliënt. U kunt de toepassing vervolgens op uw lokale computer installeren.
 
 1. Als eindgebruiker, kan Adobe de Console voor u opstellen: zodra de Console is bijgewerkt, wordt u gevraagd om de nieuwste versie van de Client Console te downloaden in een pop-upvenster.
 
