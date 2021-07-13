@@ -6,10 +6,10 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 3%
+source-wordcount: '731'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Voordat u begint, moet u:
 
 * Controleer de compatibiliteit van uw systeem en gereedschappen met Adobe Campaign in de [Compatibiliteitsmatrix](compatibility-matrix.md)
 * URL van campagneserver ophalen
-* Je gebruikersgegevens ophalen
+* Adobe ID maken of je gebruikersnaam van je bedrijf ophalen
 
 ## De clientconsole downloaden en installeren
 
@@ -69,18 +69,15 @@ Volg onderstaande stappen om u aan te melden bij een bestaande instantie:
 
 1. Klik op de koppeling in de rechterbovenhoek van de aanmeldingsvelden om het venster voor de verbindingsconfiguratie te openen.
 
+   ![](assets/connectToCampaign.png)
+
 1. Selecteer de instantie Campagne waaraan u zich moet aanmelden.
 
 1. Klik op **[!UICONTROL Ok]**.
 
-1. Voer uw aanmeldingsgegevens voor de gebruiker in en klik op **[!UICONTROL LOG IN]**.
+1. U kunt zich dan aanmelden bij Campagne.
 
-   ![](assets/sign-in-v8.png)
-
-Afhankelijk van uw configuratie, kunnen uw geloofsbrieven zijn:
-
-* verstrekt door uw beheerder van de Campagne die u toegang verleende
-* Adobe ID
+   ![](assets/adobeID.png)
 
 ## Toegang verlenen aan gebruikers
 
@@ -96,27 +93,15 @@ Als campagnebeheerder bent u verantwoordelijk voor het maken van de operatoren e
 
 ## Verbinden met Campagne met uw Adobe ID{#connect-ims}
 
-Campagnegebruikers kunnen verbinding maken met de Adobe Campaign-console via hun Adobe ID, via Adobe Identity Management System (IMS). Deze implementatie biedt de volgende voordelen:
+Campagnegebruikers maken via hun Adobe ID verbinding met de Adobe Campaign-console via het Adobe Identity Management System (IMS). Ze kunnen dezelfde id gebruiken voor alle Adobe-oplossingen. De verbinding wordt bewaard wanneer het gebruiken van Adobe Campaign met andere oplossingen.
 
-* Dezelfde id kan voor alle Experience Cloud-oplossingen worden gebruikt.
-* De verbinding wordt onthouden bij het gebruik van Adobe Campaign met verschillende integraties.
-* Meer beleid voor wachtwoordbeheer.
-* Gebruik van Federated ID-accounts (externe id-provider).
-
-[!DNL :speech_balloon:] Als Beheerde gebruiker van Cloud Services,  [contacteer ](campaign-faq.md#support) Adobe om Adobe IMS met Campagne uit te voeren.
-
-## Verbinden met Campagne met uw login LDAP
-
-Adobe Campaign kan zo worden geconfigureerd dat de gebruiker toegang krijgt tot het platform via de LDAP-verificatie.
-
-[!DNL :speech_balloon:] Als gebruiker van Beheerde Cloud Services,  [contacteer ](campaign-faq.md#support) Adobe om LDAP integratie met Campagne te vormen.
-
+Meer informatie over Adobe IMS in [deze pagina](https://helpx.adobe.com/enterprise/using/identity.html).
 
 ## Webtoegang{#web-access}
 
 Bepaalde delen van de toepassing zijn via een eenvoudige webbrowser toegankelijk via een HTML-gebruikersinterface: Campagne-dashboard, kubusrapportage, Instance Monitoring en meer.
 
-[!DNL :arrow_upper_right:] Meer informatie over webtoegang in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;}
+↗️ Meer informatie over webtoegang in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;
 
 De toegang van het Web verstrekt een interface die aan de console, maar met een gereduceerde reeks functionaliteiten gelijkaardig is.
 
@@ -130,4 +115,4 @@ Terwijl met de toegang van het Web, de opties hoofdzakelijk het bekijken zullen 
 
 De toegang van het Web wordt ook gebruikt aan in het bevestigingsproces: operators kunnen klikken op de goedkeuringsaanvraag per e-mail en via hun webbrowser verbinding maken met Campagne om een leveringsinhoud of -budget te valideren of af te wijzen.
 
-[!DNL :arrow_upper_right:] Leer hoe u goedkeuringen instelt en beheert in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target=&quot;_blank&quot;}
+↗️ leren hoe u goedkeuringen kunt instellen en beheren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target=&quot;_blank&quot;
