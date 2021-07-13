@@ -5,9 +5,9 @@ description: Campagne voeren over externe rekeningen
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1001'
 ht-degree: 4%
 
 ---
@@ -35,13 +35,13 @@ U kunt externe accounts openen vanuit Adobe Campaign **[!UICONTROL Explorer]**: 
 
 Adobe Campaign gebruikt de volgende technische accounts om specifieke processen in te schakelen en uit te voeren.
 
-[!DNL :speech_balloon:] Als Beheerde gebruiker van Cloud Services, vormt Adobe alle campagne-specifieke externe rekeningen voor u.
+?? Als Beheerde gebruiker van Cloud Services, vormt Adobe alle campagne-specifieke externe rekeningen voor u.
 
 * **Stuitberichten (POP3)**
 
    Met de externe account **Bounce mails** wordt de externe POP3-account opgegeven die moet worden gebruikt om verbinding te maken met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
-   [!DNL :arrow_upper_right:] Meer informatie over binnenkomende e-mails in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}
+   ↗️ meer informatie over binnenkomende e-mails in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;
 
 * **Routering**
 
@@ -55,7 +55,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
    In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbonden met de controleinstantie en hen verbinden. Transactionele berichtmalplaatjes worden opgesteld aan de uitvoeringsinstantie.
 
-   [!DNL :bulb:] Meer informatie over de architectuur van het Centrum van het Bericht in  [deze pagina](../dev/architecture.md#transac-msg-archi).
+   ?? Meer informatie over de architectuur van het Centrum van het Bericht in [deze pagina](../dev/architecture.md#transac-msg-archi).
 
 ## Toegang tot externe rekeningen van externe systemen
 
@@ -65,32 +65,30 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
    Externe databases die compatibel zijn met Adobe Campaign v8, worden vermeld in de [Compatibility matrix](../start/compatibility-matrix.md)
 
-   [!DNL :bulb:] Meer informatie over de FDA-optie (Federated Data Access) vindt u in  [deze sectie](../connect/fda.md).
+   ?? Meer informatie over de optie Federated Data Access (FDA) in [deze sectie](../connect/fda.md).
 
 ## Externe accounts voor integratie van Adobe-oplossingen
 
 * **Adobe Experience Cloud**
 
-   Als u verbinding wilt maken met de Adobe Campaign-console met een Adobe ID, moet u de externe account **[!UICONTROL Adobe Experience Cloud]** configureren.
+   De externe **[!UICONTROL Adobe Experience Cloud]**-account wordt gebruikt om Adobe IMS te implementeren voor verbinding met de Adobe Campaign-console met behulp van een Adobe ID.
 
-   [!DNL :bulb:] Meer informatie over Adobe Identity Management Service (IMS) vindt u in  [deze sectie](../start/connect.md#connect-ims).
-
-   [!DNL :speech_balloon:] Als Beheerde gebruiker van Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om Adobe IMS met Campagne uit te voeren.
+   ?? Meer informatie over Adobe Identity Management Service (IMS) vindt u in [deze sectie](../start/connect.md#connect-ims).
 
 * **Web Analytics**
 
    Met de externe **[!UICONTROL Web Analytics (Adobe Analytics)]**-account kunt u gegevensoverdracht van Adobe Analytics naar Adobe Campaign configureren.
 
-   [!DNL :bulb:] Meer weten over de integratie van Adobe Campaign en Adobe Analytics in  [deze pagina](../connect/ac-aa.md)?
+   ?? Meer informatie over Adobe Campaign - Adobe Analytics integratie in [deze pagina](../connect/ac-aa.md).
 
-   [!DNL :speech_balloon:] Als gebruiker van Beheerde Cloud Services  [neemt u contact op met ](../start/campaign-faq.md#support) Adobe om Adobe Analytics te integreren met Campagne.
+   ?? Als Beheerde gebruiker van Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om Adobe Analytics met Campagne te integreren.
 
    * **Adobe Experience Manager**
    Met de externe account **[!UICONTROL AEM]** kunt u de inhoud van uw e-mailleveringen en uw formulieren rechtstreeks in Adobe Experience Manager beheren.
 
-   [!DNL :bulb:] Meer weten over de integratie van Adobe Campaign en Adobe Analytics in  [deze pagina](../connect/ac-aem.md)?
+   ?? Meer informatie over Adobe Campaign - Adobe Analytics integratie in [deze pagina](../connect/ac-aem.md).
 
-   [!DNL :speech_balloon:] Als gebruiker van Beheerde Cloud Services  [neemt u contact op met ](../start/campaign-faq.md#support) Adobe om Adobe Experience Manager te integreren met Adobe Campaign.
+   ?? Als Beheerde gebruiker van Cloud Services, [contacteer Adobe](../start/campaign-faq.md#support) om Adobe Experience Manager met Adobe Campaign te integreren.
 
 
 ## Externe CRM-connectorrekeningen
@@ -99,7 +97,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
    Met de externe account **[!UICONTROL Microsoft Dynamics CRM]** kunt u Microsoft Dynamics-gegevens importeren en exporteren naar Adobe Campaign.
 
-   [!DNL :bulb:] Meer informatie over de integratie van Adobe Campaign - Microsoft Dynamics CRM in  [deze pagina](../connect/crm.md).
+   ?? Meer informatie over de integratie van Adobe Campaign - Microsoft Dynamics CRM in [deze pagina](../connect/crm.md).
 
    Met **[!UICONTROL Web API]** plaatsingstype en **[!UICONTROL Password credentials]** authentificatie, moet u de volgende details verstrekken:
 
@@ -145,7 +143,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
 Deze externe accounts kunnen worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]**-workflowactiviteit.
 
-[!DNL :arrow_upper_right:] Meer informatie over bestandsoverdracht in workflows in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target=&quot;_blank&quot;}
+↗️ Meer informatie over bestandsoverdracht in workflows in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target=&quot;_blank&quot;
 
 * **FTP en SFTP**
 
