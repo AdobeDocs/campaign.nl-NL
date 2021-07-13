@@ -5,7 +5,7 @@ description: Meer weten over het maken van een aanbieding?
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 3%
@@ -34,7 +34,7 @@ U kunt nu de tab **[!UICONTROL Eligibility]** gebruiken om te definiëren:
 * Filters op de doelpopulatie van de aanbieding. [Meer informatie](#filters-on-the-target)
 * Het gewicht van het voorstel. [Meer informatie](#offer-weight)
 
-### Geschiktheidsperiode bieden{#eligibility-period}
+### verkiesbaarheidsperiode voorstellen{#eligibility-period}
 
 Definieer op het tabblad **[!UICONTROL Eligibility]** van de aanbieding de toelatingsperiode voor de aanbieding. gebruikt u de vervolgkeuzelijsten om een begin- en einddatum in de kalender te selecteren.
 
@@ -54,7 +54,7 @@ Als er al vooraf gedefinieerde filters zijn gemaakt, kunt u deze selecteren in d
 
 ![](assets/offer_eligibility_create_004.png)
 
-### Aanbiedingsgewicht {#offer-weight} instellen
+### Het gewicht van de aanbieding instellen {#offer-weight}
 
 Om de motor in staat te stellen tussen verscheidene aanbiedingen te beslissen dat het doel verkiesbaar is, moet u één of meerdere gewichten aan de aanbieding toewijzen. U kunt filters op het doel indien nodig ook toepassen of de aanbiedingsruimte beperken waarop het gewicht van toepassing is. Een aanbod met een groter gewicht krijgt de voorkeur boven een aanbod met minder gewicht.
 
@@ -100,7 +100,7 @@ Voer de volgende stappen uit om een dikte in een aanbieding te maken:
    >
    >Als een doel in aanmerking komt voor meerdere gewichten voor een geselecteerde aanbieding, behoudt de motor het beste (hoogste) gewicht. Bij het oproepen van de aanbiedingsmotor, wordt een aanbieding een maximum van eens per contact geselecteerd.
 
-### Overzicht van de regels voor het in aanmerking komen voor aanbiedingen {#a-summary-of-offer-eligibility-rules}
+### Samenvatting van de regels inzake de subsidiabiliteit van aanbiedingen {#a-summary-of-offer-eligibility-rules}
 
 Zodra de configuratie is voltooid, zal een samenvatting van de subsidiabiliteitsregels beschikbaar zijn op het biederdashboard.
 
@@ -108,7 +108,7 @@ Klik op de koppeling **[!UICONTROL Schedule and eligibility rules]** om deze wee
 
 ![](assets/offer_eligibility_create_005.png)
 
-## De aanbiedingsinhoud maken {#creating-the-offer-content}
+## De inhoud van het voorstel maken {#creating-the-offer-content}
 
 Gebruik het tabblad **[!UICONTROL Content]** om de inhoud van de aanbieding te definiëren.
 
@@ -146,7 +146,7 @@ Gebruik het tabblad **[!UICONTROL Content]** om de inhoud van de aanbieding te d
 
    In dit voorbeeld moet de aanbieding een titel, een afbeelding, HTML-inhoud en een doel-URL bevatten.
 
-## Voorvertoning van de aanbieding {#previewing-the-offer}
+## Voorbeeld van aanbieding bekijken {#previewing-the-offer}
 
 Zodra de aanbiedingsinhoud wordt gevormd, kunt u voorproef de aanbieding zoals het voor zijn ontvanger zal verschijnen.
 
@@ -182,13 +182,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 U kunt de aanbieding nu goedkeuren en activeren om deze beschikbaar te maken in de **Live**-omgeving.
 
-[!DNL :arrow_upper_right:] Raadpleeg de  [Campaign Classic v7-documentatie voor meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content) voor meer informatie
 
 ## Presentatie van aanbieding beheren{#offer-presentation}
 
 Met Campagne kunt u de stroom van aanbiedingsvoorstellen bepalen aan de hand van presentatieregels. Deze regels, die specifiek zijn voor Campagne Interaction, zijn **typologische regels**. Hiermee kunt u aanbiedingen uitsluiten op basis van de geschiedenis van voorstellen die al aan een ontvanger zijn gedaan. Er wordt naar verwezen in de omgeving.
 
-[!DNL :arrow_upper_right:] Raadpleeg de  [Campaign Classic v7-documentatie voor meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
+↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers) voor meer informatie
 
 ## Aanbiedingssimulatie
 
@@ -196,4 +196,4 @@ Met de module Simulatie kunt u de distributie testen van aanbiedingen die tot ee
 
 Bij de simulatie wordt rekening gehouden met de context en de subsidiabiliteitsregels die eerder op de aanbiedingen van toepassing waren, en met hun presentatieregels. Dit laat u diverse versies van uw aanbiedingsvoorstel testen en verfijnen zonder eigenlijk een aanbieding of over/onder het eisen van een doel te gebruiken, aangezien de simulatie geen effect op de gerichte ontvangers heeft.
 
-[!DNL :arrow_upper_right:] Raadpleeg de  [Campaign Classic v7-documentatie voor meer informatie over de simulatie van aanbiedingen](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
+↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en) voor meer informatie over de simulatie van aanbiedingen
