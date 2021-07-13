@@ -6,7 +6,7 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Adobe Campaign wordt geleverd met een reeks ingebouwde technische workflows. Tec
 
 Deze werkschema&#39;s voeren onderhoudsverrichtingen op het gegevensbestand uit, hefboomwerking de volgende informatie in de leveringslogboeken, creeer terugkomende campagnes, en meer.
 
-[!DNL :arrow_upper_right:] De volledige lijst van technische werkschema&#39;s is gedetailleerd in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) {target=&quot;_blank&quot;}
+↗️ De volledige lijst van technische werkschema&#39;s is gedetailleerd in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
 
 
 Naast deze technische workflows is Campagne v8 gebaseerd op specifieke technische workflows voor het beheer van [gegevensreplicatie](#data-replication).
@@ -68,6 +68,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Verwante onderwerpen**
 
-[!DNL :arrow_upper_right:] Leer hoe u aan de slag kunt gaan met workflows in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+↗️ leren hoe u aan de slag kunt gaan met werkstromen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;
 
-[!DNL :bulb:] Punten voor gegevensbewaring in  [deze sectie](../dev/datamodel-best-practices.md#data-retention)
+?? Toegang tot bewaarperioden voor gegevens in [deze sectie](../dev/datamodel-best-practices.md#data-retention)
