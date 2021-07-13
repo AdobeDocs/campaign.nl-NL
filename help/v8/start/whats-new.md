@@ -6,10 +6,10 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -59,5 +59,5 @@ U kunt Campagne met een reeks krachtige oplossingen van Adobe integreren, zoals:
 
 U kunt ook voorspellende optimalisatie van de verzendtijd en voorspellende betrokkenheidsscoring configureren met Journey AI en de openingssnelheden verhogen, klikken en inkomsten verhogen.
 
-[!DNL :bulb:] [Meer informatie over de integratie van campagnes](../connect/integration.md)
+?? [Meer informatie over de integratie van campagnes](../connect/integration.md)
 
