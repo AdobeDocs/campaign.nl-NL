@@ -5,7 +5,7 @@ description: Stapelmechanisme voor campagne-API
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 2%
@@ -56,7 +56,7 @@ Voer de volgende stappen uit om het staging-mechanisme voor campagnes op een spe
    </srcSchema>
    ```
 
-   [!DNL :bulb:] Meer informatie over het maken van aangepaste schema&#39;s vindt u op  [deze pagina](create-schema.md).
+   ?? Meer informatie over het maken van een aangepast schema vindt u op [deze pagina](create-schema.md).
 
 1. Sla de databasestructuur op en werk deze bij.  [Meer informatie](update-database-structure.md)
 
