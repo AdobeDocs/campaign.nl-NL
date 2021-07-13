@@ -5,7 +5,7 @@ description: Campagne Transactionele overseinenmontages
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Transactionele berichtinstellingen
 
-[!DNL :speech_balloon:] Als Beheerde gebruiker van Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
+?? Als Beheerde gebruiker van Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
 
-[!DNL :bulb:] Transactionele berichtenmogelijkheden worden beschreven in  [deze sectie](../send/transactional.md).
+?? Transactionele berichtenmogelijkheden worden beschreven in [deze sectie](../send/transactional.md).
 
-[!DNL :bulb:] Begrijp transactie overseinenarchitectuur in  [deze pagina](../dev/architecture.md).
+?? Begrijp transactie overseinenarchitectuur in [deze pagina](../dev/architecture.md).
 
 ## Machtigingen definiëren
 
@@ -28,13 +28,13 @@ Als u nieuwe gebruikers wilt maken voor de uitvoering van Message Center-bericht
 
 Alle schemauitbreidingen die op de schema&#39;s worden gemaakt door **technische werkschema&#39;s van het Centrum van het Bericht** op of controle of uitvoeringsinstanties worden gebruikt moeten op de andere instanties worden gedupliceerd die door de transactionele overseinenmodule van Adobe Campaign worden gebruikt.
 
-[!DNL :arrow_upper_right:] Meer informatie over technische workflows in het Berichtencentrum in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+↗️ Meer informatie over technische workflows in Berichtencentrum in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## Transactie-pushmeldingen verzenden
 
 In combinatie met de module Mobiele toepassingskanalen kunt u met transactiemeldingen transactionele berichten verzenden via meldingen op mobiele apparaten.
 
-[!DNL :arrow_upper_right:] Het kanaal van de Mobiele app is gedetailleerd in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+↗️ Het mobiele toepassingskanaal wordt beschreven in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
 
 Als u pushmeldingen over transacties wilt verzenden, moet u de volgende configuraties uitvoeren:
 
