@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 1%
@@ -22,5 +22,5 @@ ht-degree: 1%
 
 De LIJN is een toepassing voor vrij Onmiddellijk overseinen, stem en videovraag, beschikbaar op alle mobiele apparaten en op PC. Met Adobe Campaign kunt u LIJNberichten verzenden.
 
-[!DNL :arrow_upper_right:] Meer informatie in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html){target=&quot;_blank&quot;}
+↗️ meer informatie in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html){target=&quot;_blank&quot;}
 
