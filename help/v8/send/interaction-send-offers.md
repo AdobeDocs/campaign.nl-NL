@@ -5,7 +5,7 @@ description: Leer hoe u een aanbiedingencatalogus maakt
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Om een aanbieding door de aanbiedingsmotor te selecteren, is het goedgekeurd en 
 
 Aanbiedingspresentatie via een uitgaand communicatiekanaal wordt uitgevoerd via direct mail, e-mail of mobiele leveringen. U kunt de eenheidswijze met Transactieoverseinen (het Centrum van het Bericht) ook gebruiken.
 
-## Een aanbieding invoegen in een levering {#offer-into-a-delivery}
+## Een voorstel invoegen in een levering {#offer-into-a-delivery}
 
 Volg onderstaande stappen om voorstellen voor aanbiedingen in te voegen in een levering:
 
@@ -78,7 +78,7 @@ Met behulp van verschillende workflowactiviteiten kunt u bepalen hoe aanbiedinge
 
 Met de activiteit **Verrijking** kunt u aanbiedingen of koppelingen naar aanbiedingen voor leveringsontvangers toevoegen.
 
-[!DNL :arrow_upper_right:] Raadpleeg de documentatie bij  [Campaign Classic v7 voor meer informatie over verrijkingsactiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
+↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html) voor meer informatie over de verrijkingsactiviteit.
 
 Bijvoorbeeld, kunt u de gegevens voor een ontvankelijke vraag vóór een levering verrijken.
 
@@ -89,7 +89,7 @@ Er zijn twee methoden om voorstellen voor aanbiedingen op te geven.
 * Het specificeren van een aanbieding of een vraag van de aanbiedingsmotor.
 * Verwijzen naar een koppeling naar een aanbieding.
 
-#### Een aanbieding of een vraag aan de aanbiedingsmotor {#specifying-an-offer-or-a-call-to-the-offer-engine} specificeren
+#### Een aanbieding of een oproep aan de aanbiedingsmotor opgeven {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
 Na het vormen van uw **Vraag** activiteit:
 
@@ -116,7 +116,7 @@ Na het vormen van uw **Vraag** activiteit:
    >
    >Het aantal voorstellen dat beschikbaar is voor de voorvertoning is afhankelijk van de configuratie die wordt uitgevoerd in de verrijkingsactiviteit in plaats van een mogelijke configuratie die rechtstreeks in de levering wordt uitgevoerd.
 
-#### Verwijzen naar een koppeling naar een aanbieding {#referencing-a-link-to-an-offer}
+#### Verwijzen naar een link naar een aanbieding {#referencing-a-link-to-an-offer}
 
 U kunt ook naar een koppeling verwijzen naar een aanbieding in een **Verrijking**-activiteit.
 
@@ -138,7 +138,7 @@ Volg de onderstaande stappen om dit te doen:
    >
    >Het aantal voorvertoningen dat beschikbaar is voor de voorvertoning, is afhankelijk van de configuratie die in de levering wordt uitgevoerd.
 
-#### Waarden en gewichten voor winkelaanbiedingen {#storing-offer-rankings-and-weights}
+#### Opslagaanbiedingen en -gewichten {#storing-offer-rankings-and-weights}
 
 Wanneer een **Verrijking**-activiteit wordt gebruikt om aanbiedingen te leveren, worden de rangschikking en het gewicht van de aanbiedingen standaard niet opgeslagen in de tabel met profielen.
 
@@ -165,7 +165,7 @@ De levering slaat automatisch de rangschikking en het gewicht van de aanbiedinge
 
 De **[!UICONTROL Offer engine]** activiteit laat u ook een vraag aan de aanbiedingsmotor vóór de levering specificeren.
 
-[!DNL :arrow_upper_right:] Raadpleeg de documentatie bij  **Campaign Classic v7 voor meer informatie over** de  [Offerteactiviteit](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
+↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html) voor meer informatie over de **Aanbiedingsengine**-activiteit
 
 Deze activiteit werkt volgens hetzelfde principe als de **Verrijking** activiteit met een motoraanroep, door de binnenkomende bevolkingsgegevens te verrijken met een aanbod dat door de motor wordt berekend, vóór een levering.
 
@@ -188,7 +188,7 @@ Na het vormen van uw **Vraag** activiteit:
 
 De **[!UICONTROL Offers by cell]** activiteit laat u de binnenkomende bevolking (van een vraag bijvoorbeeld) in verscheidene segmenten verdelen en een aanbieding specificeren om voor elk van deze segmenten voor te stellen.
 
-[!DNL :arrow_upper_right:] Raadpleeg de documentatie bij  **Campaign Classic v7 voor meer informatie over het** aanbod per  [mobiele telefoon](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
+↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html) voor meer informatie over de **Aanbieding per cel**-activiteit.
 
 Hiervoor gebruikt u het volgende proces:
 
