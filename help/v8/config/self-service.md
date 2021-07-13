@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 54%
@@ -55,4 +55,4 @@ Leer hoe u de instellingen voor de campagneinstanties in het Configuratiescherm 
 * [Instantiedetails](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html){target=&quot;_blank&quot;}
 * [Beheer](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html) GPG-sleutels {target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] Ontdek alle mogelijkheden van het Configuratiescherm in  [deze documentatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target=&quot;_blank&quot;}
+↗️ Ontdek alle mogelijkheden van het Controlebord in [deze documentatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target=&quot;_blank&quot;}
