@@ -6,10 +6,10 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 2%
+source-wordcount: '873'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ Belangrijkste wijzigingen:
 
 Als [!DNL Campaign Classic] gebruiker, merk op dat de meeste [!DNL Campaign Classic] v7 eigenschappen beschikbaar met [!DNL Campaign] v8, behalve een kleine reeks van hen, die in [deze sectie](#gs-removed) worden vermeld. Andere zullen in toekomstige versies worden vrijgegeven. [Meer informatie in deze sectie](#gs-unavailable-features)
 
-[!DNL :bulb:] Meer informatie over  [!DNL Campaign] v8-architectuur vindt u op  [deze pagina](../dev/architecture.md).
+?? Meer informatie over [!DNL Campaign] v8-architectuur in [deze pagina](../dev/architecture.md).
 
 ## Wijzigingen in productconfiguratie
 
@@ -72,6 +72,12 @@ Adobe-campagne v8 wordt geleverd met Snowflake als de kerndatabase. Aangezien he
 
 Campagnegebruikers hoeven geen databasedeskundigen te zijn: er is niet langer behoefte aan complexe onderhoudsbewerkingen van databases of complexe indexering van tabellen.
 
+## Verbinding maken met campagne
+
+Campagnegebruikers maken verbinding via hun Adobe ID. Dezelfde Adobe ID wordt gebruikt om al uw Adobe-plannen en -producten voor één account te bewaren.
+
+?? Leer hoe u in [deze pagina](connect.md) verbinding maakt met [!DNL Campaign].
+
 ## Rapportage
 
 Opmerking: Adobe Campaign-rapporten zijn geoptimaliseerd en bieden betere schaalmogelijkheden dan Campaign Classic v7. Bestaande beperkingen op kubussen zijn niet van toepassing.
@@ -106,4 +112,5 @@ Om zich aan te passen aan het nieuwe architectuur en implementatiemodel van Camp
 * Enquêtes
 * Social marketing
 * ACS Connector (primaire aanbieding)
-
+* Integratie met LDAP
+* Gebruiker/wachtwoord aanmelden
