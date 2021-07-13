@@ -6,7 +6,7 @@ feature: Profielen
 role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 Met de campagne kunt u contactpersonen toevoegen aan de Cloud-database. U kunt een dossier laden, veelvoudige contactupdates plannen en automatiseren, gegevens op het Web verzamelen, of profielinformatie direct in de ontvankelijke lijst ingaan.
 
-[!DNL :bulb:] Aan de slag met  [](audiences.md)
-[!DNL :bulb:] publiekBegrijpen, campagne  [datamodel](../dev/datamodel.md)
+?? Aan de slag met [publiek](audiences.md)
+?? Campagne [datamodel](../dev/datamodel.md) begrijpen
 
 ## Profielen importeren in een workflow
 
@@ -28,11 +28,11 @@ De invoer van het profiel wordt gevormd in specifieke malplaatjes die door werks
 
 Meer informatie in de Campaign Classic v7-documentatie:
 
-[!DNL :arrow_upper_right:] [Aan de slag met importeren en exporteren](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html){target=&quot;_blank&quot;}
+↗️ [Aan de slag met importeren en exporteren](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Beste werkwijzen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html) importeren en exporteren {target=&quot;_blank&quot;}
+↗️ [Beste werkwijzen importeren en exporteren](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Een import](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html) {target=&quot;_blank&quot; configureren en uitvoeren
+↗️ [Een import](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html){target=&quot;_blank&quot; configureren en uitvoeren
 
 ## Eenheidsimporten uitvoeren
 
@@ -40,7 +40,7 @@ Maak en voer een generieke importtaak voor gegevens uit om contactpersonen in de
 
 ![](assets/new-import.png)
 
-[!DNL :arrow_upper_right:] Leer hoe u taken voor unitaire import uitvoert om uw database te voeden in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target=&quot;_blank&quot;}.
+↗️ Leer hoe te om unitaire de invoerbanen in werking te stellen om uw gegevensbestand in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target=&quot;_blank&quot;} te voeren.
 
 ## Profielen verzamelen via webtoepassingen
 
@@ -48,7 +48,7 @@ Met Campagne kunt u webformulieren maken en profielgegevens eenvoudig en effici�
 
 ![](assets/web-form-page.png)
 
-[!DNL :arrow_upper_right:] Leer hoe u webformulieren maakt in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target=&quot;_blank&quot;}.
+↗️ Leer hoe te om Webvormen in [Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target=&quot;_blank&quot;} tot stand te brengen.
 
 **Verwante onderwerpen**
 
