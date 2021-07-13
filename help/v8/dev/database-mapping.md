@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Toewijzing van Campagne-database
 description: Toewijzing van Campagne-database
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -256,7 +256,7 @@ Voor join-relaties met gebruik van Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Kardinaliteit 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Kardinaliteit 1-N
 
-[!DNL :bulb:] Raadpleeg  [Federated Data Access](../connect/fda.md) voor meer informatie over FDA-tabellen.
+?? Raadpleeg [Federated Data Access](../connect/fda.md) voor meer informatie over FDA-tabellen.
 
 Een koppeling moet worden gedeclareerd in het schema met de externe sleutel van de tabel die is gekoppeld via het hoofdelement:
 
