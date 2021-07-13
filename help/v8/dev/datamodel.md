@@ -6,14 +6,14 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
-# Begin met het gegevensmodel van de Campagne{#gs-ac-datamodel}
+# Aan de slag met het gegevensmodel van de campagne{#gs-ac-datamodel}
 
 Adobe Campaign bevat een vooraf gedefinieerd datamodel. In deze sectie vindt u enkele details over de ingebouwde tabellen van het Adobe Campaign-gegevensmodel en de interactie ervan. Adobe Campaign vertrouwt op een Cloud-database die tabellen bevat die aan elkaar zijn gekoppeld.
 
@@ -21,7 +21,7 @@ De basisstructuur van het Adobe Campaign-gegevensmodel kan als volgt worden besc
 
 * **Ontvangertabel**: Het gegevensmodel is gebaseerd op een hoofdtabel die standaard de tabel Ontvanger is (nmsRecipient). In deze tabel kunt u alle marketingprofielen opslaan.
 
-   [!DNL :bulb:] Zie  [deze sectie](#ootb-profiles) voor meer informatie over de tabel Ontvanger.
+   ?? Zie [deze sectie](#ootb-profiles) voor meer informatie over de tabel Ontvanger.
 
 * **Afleveringstabel**: Het gegevensmodel bevat ook een deel dat is gewijd aan de opslag van alle marketingactiviteiten. Meestal is dit de afleveringstabel (NmsDelivery). Elke record in deze tabel vertegenwoordigt een leveringsactie of een leveringssjabloon. Het bevat alle parameters die nodig zijn voor het uitvoeren van leveringen, zoals doel, inhoud, enz.
 
@@ -44,7 +44,7 @@ U kunt de standaard Ontvanger lijst met de uit-van-de-doos gebieden gebruiken, z
 * [Een bestaande ](extend-schema.md) tabel uitbreiden met nieuwe velden. U kunt bijvoorbeeld een nieuw veld Loyalty toevoegen aan de tabel Ontvanger.
 * [Maak een nieuwe tabel](create-schema.md), bijvoorbeeld een tabel met aankopen die alle aankopen bevat die door elk profiel van de database zijn gedaan, en koppel deze aan de tabel met ontvangers.
 
-[!DNL :bulb:] Ontdek beste praktijken wanneer het werken met het datamodel van de Campagne in  [deze sectie](datamodel-best-practices.md).
+?? Ontdek beste praktijken wanneer het werken met het datamodel van de Campagne in [deze sectie](datamodel-best-practices.md).
 
 ## Ingebouwde profielentabel {#ootb-profiles}
 
@@ -59,9 +59,9 @@ De voordelen van de standaardtabel voor ontvangers zijn:
 
 Het is mogelijk de tabel voor ontvangers uit te breiden, maar niet om het aantal velden of koppelingen in de tabel te verminderen.
 
-[!DNL :bulb:] Leer hoe u een bestaand schema in  [deze sectie](extend-schema.md) kunt uitbreiden.
+?? Leer hoe te om een bestaand schema in [deze sectie](extend-schema.md) uit te breiden.
 
-[!DNL :arrow_upper_right:] Voorbeelden van ingebouwde tabelextensies voor ontvangers ontdekken in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+↗️ Ontdek voorbeelden van ingebouwde ontvankelijke lijstuitbreidingen in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 U kunt een verschillende ontvankelijke lijst ook gebruiken om met uw zaken of functionele vereisten beter te passen. Deze methode wordt geleverd met beperkingen en wordt beschreven in [deze sectie](custom-recipient.md).
 
@@ -69,9 +69,9 @@ U kunt een verschillende ontvankelijke lijst ook gebruiken om met uw zaken of fu
 
 Voor een beter begrip van lijstbeheer in Campagne v8, merk op dat de lijsten tussen Campagne en zijn gegevensbestand van de Snowflake Cloud worden herhaald.
 
-[!DNL :bulb:] Meer informatie over replicatiestrategie en mechanismen in  [deze sectie](../config/replication.md).
+?? Meer informatie over replicatiestrategie en mechanismen in [deze sectie](../config/replication.md).
 
 **Verwante onderwerpen**
 
-[!DNL :bulb:] Ontdek hoe u profielen in  [deze ](../start/import.md)
-[!DNL :bulb:] sectie kunt importerenMeer informatie over campagnedoelgroepen in  [deze sectie](../start/audiences.md)
+?? Ontdek hoe u profielen kunt importeren in [deze sectie](../start/import.md)
+?? Meer informatie over campagnepubliek vindt u in [deze sectie](../start/audiences.md)
