@@ -6,7 +6,7 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Deze integratie helpt u om gebruiksgevallen als volgt uit te voeren: wanneer een
 >[!NOTE]
 >De integratie ondersteunt alleen statische afbeeldingen. De andere typen inhoud kunnen niet worden gepersonaliseerd.
 
-[!DNL :speech_balloon:] Als Beheerde gebruiker van Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om de trekkers van Experience Cloud met Campagne uit te voeren.
+?? Als Beheerde gebruiker van Cloud Services, [contacteer Adobe](../start/campaign-faq.md#support) om de trekkers van Experience Cloud met Campagne uit te voeren.
 
 Adobe Target kan de volgende gegevenstypen gebruiken:
 
@@ -52,7 +52,7 @@ In Adobe Campaign en Adobe Target moeten de volgende stappen worden gezet:
 1. [Een ervaring maken die gericht is op activiteiten](#creating-targeting-activity)
 1. [Het bericht voorvertonen en verzenden](#preview-send-email)
 
-### Voeg de dynamische aanbieding in een e-mail {#inserting-dynamic-offer} in
+### De dynamische aanbieding in een e-mail invoegen {#inserting-dynamic-offer}
 
 Definieer in Adobe Campaign het doel en de inhoud van uw e-mail. U kunt een dynamische afbeelding invoegen vanuit Adobe Target.
 
@@ -79,7 +79,7 @@ Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt
 
 ![](assets/target_13.png)
 
-### Omleidingsaanbiedingen maken {#create-redirect-offers}
+### Omleidingsvoorstellen maken {#create-redirect-offers}
 
 In Adobe Target kunt u verschillende versies van uw voorstel maken. Afhankelijk van elke gebruikerservaring kan een omleidingsaanbod worden gemaakt en kunt u opgeven welke afbeelding wordt weergegeven.
 
@@ -97,7 +97,7 @@ In ons geval hebben we twee doorgifteaanbiedingen nodig, de derde (de standaard)
 
 1. Volg dezelfde procedure voor het resterende doorleidingsaanbod. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=en#experiences) voor meer informatie.
 
-### Soorten publiek {#audiences-target} maken
+### Soorten publiek maken {#audiences-target}
 
 In Adobe Target moet u de twee soorten publiek maken waarin de personen die uw aanbieding bezoeken, worden ingedeeld voor de verschillende inhoud die moet worden geleverd. Voor elk publiek, voeg een regel toe om te bepalen wie de aanbieding zal kunnen zien.
 
@@ -113,7 +113,7 @@ In Adobe Target moet u de twee soorten publiek maken waarin de personen die uw a
 
 1. Volg dezelfde procedure voor het resterende publiek.
 
-### Een ervaring maken die gericht is op activiteit {#creating-targeting-activity}
+### Een ervaring maken die gericht is op activiteiten {#creating-targeting-activity}
 
 In Adobe Target moeten we een Experience Targeting-activiteit creëren, de verschillende ervaringen definiëren en ze koppelen aan de overeenkomstige aanbiedingen.
 
@@ -161,7 +161,7 @@ In de sectie **[!UICONTROL Reporting Settings]** kunt u een handeling selecteren
 
 ![](assets/target_experience_2.png)
 
-## Het bericht {#preview-send-email} voorvertonen en verzenden
+## Het bericht voorvertonen en verzenden {#preview-send-email}
 
 In Adobe Campaign kunt u nu een voorbeeld van uw e-mail bekijken en de weergave ervan testen op verschillende ontvangers.
 
