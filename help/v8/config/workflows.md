@@ -6,7 +6,7 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%
@@ -34,37 +34,33 @@ Leer hoe u workflows ontwerpt in deze [gebruiksgevallen van begin tot eind](#end
 
 Meer informatie over de gebruikersinterface en uitvoering van workflows vindt u in de Campaign Classic v7-documentatie:
 
-[!DNL :arrow_upper_right:]  [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+↗️ [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 * Workflowactiviteiten:
    * [Doelactiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}: Query, lijst Lezen, Verrijking, Vereniging en meer
    * [Stroombeheeractiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html){target=&quot;_blank&quot;}: Planner, Fork, Alert, Extern signaal, en meer
    * [Handelingactiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: Kanaalleveringen, JavaScript-code, CRM-activiteiten, aggregaat bijwerken en meer
-   * [Gebeurtenisactiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: Bestandsoverdracht, webdownload en meer
-      [!DNL :arrow_upper_right:]  [Een publiek maken in een workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow) voor marketingcampagnes {target=&quot;_blank&quot;}
-      [!DNL :arrow_upper_right:]  [Best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html) workflow {target=&quot;_blank&quot;}
-      [!DNL :arrow_upper_right:] [Ingebouwde technische workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
-      [!DNL :arrow_upper_right:] [Uitvoering](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) van workflows controleren{target=&quot;_blank&quot;}
+   * [Gebeurtenisactiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: Bestandsoverdracht, webdownload en meer ↗️   [Maak een publiek in een marketingcampagneworkflow](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;} ↗️ best practices  [ voor ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)workflow {target=&quot;_blank&quot;} ↗️  [ingebouwde technische werkschema](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;} ↗️  [Workflows uitvoeren](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
 
 
 ## Herhalende campagnes instellen
 
 Regelterugkerende workflows ontwerpen en telkens wanneer de workflow wordt uitgevoerd, een nieuwe leveringsinstantie maken. Als uw workflow bijvoorbeeld eenmaal per week wordt uitgevoerd, levert dat na één jaar 52 leveringen op. Dit betekent ook dat de logboeken door elke leveringsinstantie zullen worden gescheiden.
 
-[!DNL :arrow_upper_right:] Leer hoe u een terugkerende campagne maakt in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}
+↗️ Leer hoe te om een terugkomende campagne in [Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot; te creëren
 
 
 ## Hefboomtriggergebeurtenissen
 
 Het Transactionele overseinen van de Campagne van het gebruik om berichten te automatiseren die van gebeurtenissen worden geproduceerd die van informatiesystemen worden teweeggebracht. Deze transactiemeldingen kunnen bijvoorbeeld bestaan uit facturen, orderbevestiging, bevestiging van verzending, wijziging van het wachtwoord, kennisgeving van onbeschikbaarheid van het product, rekeningafschriften of het maken van websiteaccounts. Deze berichten kunnen individueel of in partij via e-mail, SMS of push berichten worden verzonden.
 
-[!DNL :bulb:] Meer informatie over mogelijkheden voor transactieberichten vindt u in  [deze sectie](../send/transactional.md).
+?? Meer informatie over mogelijkheden voor transactioneel overseinen vindt u in [deze sectie](../send/transactional.md).
 
 Verbind Adobe Campaign en Adobe Analytics om gebruikersacties terug te winnen en dichtbij real-time gepersonaliseerde berichten te verzenden.
 
-[!DNL :bulb:] Leer hoe u campagne kunt integreren met andere oplossingen in  [deze sectie](../start/connect.md)
+?? Leer hoe te om Campagne met andere oplossingen in [deze sectie](../start/connect.md) te integreren
 
 
-## Gebruiksscenario&#39;s van begin tot eind van het werkschema{#end-to-end-uc}
+## Gebruiksgevallen van end-to-end werkstroom{#end-to-end-uc}
 
 In deze sectie vindt u verschillende gebruiksgevallen waarbij gebruik wordt gemaakt van de mogelijkheden van de campagne-workflows. Deze gebruiksgevallen zijn ingebouwd in Adobe Campaign Classic v7 en zijn van toepassing op Adobe Campaign v8.
 
