@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Campagne-schema's uitbreiden
 description: Meer informatie over het uitbreiden van Campagne-schema's
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -22,7 +22,7 @@ De belangrijkste stappen om het datamodel van de Campagne aan te passen zijn:
 >[!CAUTION]
 >Ingebouwd schema mag niet rechtstreeks worden gewijzigd. Als u een ingebouwd schema moet aanpassen, moet u het uitbreiden.
 
-[!DNL :bulb:] Raadpleeg  [deze pagina](datamodel.md) voor een beter begrip van ingebouwde tabellen en hun interactie voor campagnes. Zie ook aanbevelingen wanneer het creëren van een nieuw schema in [deze pagina](create-schema.md).
+?? Raadpleeg [deze pagina](datamodel.md) voor een beter begrip van geïntegreerde tabellen en hun interactie voor campagnes. Zie ook aanbevelingen wanneer het creëren van een nieuw schema in [deze pagina](create-schema.md).
 
 Voer de volgende stappen uit om een schema uit te breiden:
 
