@@ -6,14 +6,14 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 19%
 
 ---
 
-# Aan de slag met publiek{#gs-ac-audiences}
+# Aan de slag met het publiek{#gs-ac-audiences}
 
 ## Werken met profielen{#gs-ac-profiles}
 
@@ -36,34 +36,34 @@ Als u campagne wilt vullen met profielgegevens, kunt u:
 ![](assets/create-profile.png)
 
 
-[!DNL :arrow_upper_right:] Leer hoe u profielen beheert in  [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html){target=&quot;_blank&quot;}.
+↗️ Leer hoe te om profielen in [Adobe Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html){target=&quot;_blank&quot;} te beheren.
 
 
 ## Privacy en toestemming
 
 Adobe Campaign is een krachtig instrument voor het verzamelen en verwerken van grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens. Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en gevoelige informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
 
-[!DNL :arrow_upper_right:] Leer hoe u privacy en toestemming beheert in  [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;}.
+↗️ Leer hoe te om privacy en toestemming in [Adobe Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;} te beheren.
 
 ## Lijsten maken
 
 Een lijst is een statische set profielen die kan worden gebruikt voor leveringsacties of die kan worden bijgewerkt tijdens importbewerkingen of tijdens workflowuitvoering. Een populatie die via een query uit de database is geëxtraheerd, kan bijvoorbeeld een lijst leveren.
 
-[!DNL :arrow_upper_right:] Leer hoe u lijsten maakt en beheert in  [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html){target=&quot;_blank&quot;}.
+↗️ Leer hoe te om lijsten in [Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html){target= &quot;_blank&quot;} tot stand te brengen en te beheren.
 
 ## De database opvragen
 
 Gebruik **Query** activiteit in een werkschema om uw gegevensbestand te vragen, gegevens te segmenteren en complexe publiek te bouwen.
 
-[!DNL :arrow_upper_right:] Meer informatie over Campagne-query&#39;s vindt u in de  [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html){target=&quot;_blank&quot;}.
+↗️ meer over de vragen van de Campagne in [Adobe Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html){target=&quot;_blank&quot;}.
 
-[!DNL :arrow_upper_right:] Alle doelactiviteiten worden vermeld in  [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}.
+↗️ Alle gerichte activiteiten worden vermeld in [Adobe Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}.
 
 ## Een publiek maken in een workflow
 
 Het richten kan door een combinatie vragen in een grafische opeenvolging in een werkschema worden gecreeerd. U kunt een publiek maken dat afhankelijk van uw vereisten als doelgroep wordt gebruikt. Als u de werkstroomeditor wilt weergeven, klikt u op het tabblad **[!UICONTROL Targeting and workflows]** in het campagnedashboard.
 
-[!DNL :arrow_upper_right:] Leer hoe u een publiek kunt maken in een campagneworkflow in  [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}.
+↗️ Leer hoe te om een publiek in een campagnewerkschema in [Adobe Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;} te bouwen.
 
 
 ## Actieve profielen{#active-profiles}
@@ -75,13 +75,13 @@ Volgens uw contract worden al uw Campaign-instanties ingericht met een specifiek
 <!--
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
 
-[!DNL :arrow_upper_right:] For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+↗️ For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
 **Verwante** onderwerpen in Campaign Classic v7 documentatie:
 
-[!DNL :arrow_upper_right:] [Een campagnespecifieke workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html) ontwerpen en uitvoeren {target=&quot;_blank&quot;}
+↗️ [Een campagespecifieke workflow ontwerpen en uitvoeren](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Leer hoe u het publiek van een campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html) selecteert {target=&quot;_blank&quot;}
+↗️ [Leer hoe te om het publiek van een campagne te selecteren](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target=&quot;_blank&quot;}
+↗️ [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target=&quot;_blank&quot;}
