@@ -6,9 +6,9 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 13f3122a830c723fa940290689c8e3a1baa0443a
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -99,11 +99,9 @@ Meer informatie over Adobe IMS in [deze pagina](https://helpx.adobe.com/enterpri
 
 ## Webtoegang{#web-access}
 
-Bepaalde delen van de toepassing zijn via een eenvoudige webbrowser toegankelijk via een HTML-gebruikersinterface: Campagne-dashboard, kubusrapportage, Instance Monitoring en meer.
+Bepaalde delen van de toepassing zijn toegankelijk via een webbrowser via een HTML-gebruikersinterface: rapportage, goedkeuring van levering, controle van instanties, en meer.
 
-↗️ Meer informatie over webtoegang in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;
-
-De toegang van het Web verstrekt een interface die aan de console, maar met een gereduceerde reeks functionaliteiten gelijkaardig is.
+De toegang van het Web verstrekt een interface die aan de console maar met een verminderde reeks functionaliteiten gelijkaardig is.
 
 Bijvoorbeeld, voor een bepaalde exploitant, zal een campagne met de volgende opties in de console verschijnen:
 
@@ -115,4 +113,4 @@ Terwijl met de toegang van het Web, de opties hoofdzakelijk het bekijken zullen 
 
 De toegang van het Web wordt ook gebruikt aan in het bevestigingsproces: operators kunnen klikken op de goedkeuringsaanvraag per e-mail en via hun webbrowser verbinding maken met Campagne om een leveringsinhoud of -budget te valideren of af te wijzen.
 
-↗️ leren hoe u goedkeuringen kunt instellen en beheren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target=&quot;_blank&quot;
+De URL is:  `https://<your adobe campaign server>:<port number>/view/home`.
