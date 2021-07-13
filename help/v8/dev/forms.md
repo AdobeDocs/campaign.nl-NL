@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Invoerformulieren voor campagnes
 description: Leer hoe u invoerformulieren kunt aanpassen
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Het bewerkingsbesturingselement past zich automatisch aan het overeenkomstige ge
 
 Elk veld wordt standaard weergegeven op één regel en neemt alle beschikbare ruimte in beslag, afhankelijk van het type gegevens.
 
-[!DNL :arrow_upper_right:] Alle formulierkenmerken worden vermeld in  [Campaign Classic v7-documentatie](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
+↗️ Alle formulierkenmerken worden vermeld in [Campaign Classic v7-documentatie](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
 
 ## Opmaak {#formatting}
 
@@ -268,7 +268,7 @@ Met deze container kunt u een set gegevens in- of uitschakelen vanuit een dynami
 
 Een toelatende container wordt bepaald door het **type=&quot;enabledGroup&quot;** attribuut. Het **enabledIf** attribuut bevat de activeringsvoorwaarde.
 
-## Een koppeling {#editing-a-link} bewerken
+## Een koppeling bewerken {#editing-a-link}
 
 Vergeet niet dat een koppeling als volgt in het gegevensschema wordt gedeclareerd:
 
@@ -374,7 +374,7 @@ Filteren en sorteren kan worden toegepast wanneer de lijst wordt geladen:
 </input>
 ```
 
-## Een relatietabel {#relationship-table} definiëren
+## Een relatietabel definiëren {#relationship-table}
 
 Met een relatietabel kunt u twee tabellen koppelen aan N-N-kardinaliteit. De relatietabel bevat alleen de koppelingen naar de twee tabellen.
 
@@ -406,7 +406,7 @@ Met het kenmerk **xpathChoiceTarget** kunt u een selectievorm starten vanuit de 
 >
 >Met het kenmerk **xpathEditTarget** kunt u het bewerken van de geselecteerde regel op de ingevoerde koppeling forceren.
 
-### Lijsteigenschappen {#list-properties}
+### Eigenschappen van List {#list-properties}
 
 * **noToolbar**: verbergt de werkbalk (met de waarde &quot;true&quot;)
 * **toolbarCaption**: Hiermee wordt het werkbalklabel overbelast
@@ -453,7 +453,7 @@ De werkbalkknoppen kunnen horizontaal worden uitgelijnd:
 
 Het **toolbarCaption** attribuut dwingt de horizontale groepering van de toolbar af en gaat de titel boven de lijst in.
 
-### Inzoomen inschakelen in lijst {#zoom-in-a-list}
+### Inzoomen in een lijst inschakelen {#zoom-in-a-list}
 
 U kunt de gegevens in een lijst invoegen en bewerken in een afzonderlijk bewerkingsformulier.
 
@@ -475,7 +475,7 @@ Het bewerkingsformulier wordt ingevuld vanuit het element `<form>` onder lijstde
 >
 >Als u het kenmerk **zoomOnAdd=&quot;true&quot;** toevoegt, moet het bewerkingsformulier worden opgevraagd wanneer een lijstelement wordt ingevoegd.
 
-### Lijsteigenschappen {#list-properties-1}
+### Eigenschappen van List {#list-properties-1}
 
 * **noToolbar**: verbergt de werkbalk (met de waarde &quot;true&quot;)
 * **toolbarCaption**: Hiermee wordt het werkbalklabel overbelast
@@ -499,7 +499,7 @@ Voorbeeld op het veld &quot;Geslacht&quot;:
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## Keuzerondje {#radio-button} toevoegen
+## Keuzerondje toevoegen {#radio-button}
 
 Met een keuzerondje kunt u kiezen uit verschillende opties. De **`<input>`** markeringen worden gebruikt om van de mogelijke opties een lijst te maken, en het **checkedValue** attribuut specificeert de waarde verbonden aan de keus.
 
@@ -524,7 +524,7 @@ Een selectievakje geeft een Booleaanse status weer (geselecteerd of niet). Dit b
 
 ![](assets/do-not-localize/form_exemple20.png)
 
-## Navigatiehiërarchie {#navigation-hierarchy-edit} bewerken
+## Navigatiehiërarchie bewerken {#navigation-hierarchy-edit}
 
 Deze controle bouwt een boom op een reeks gebieden om uit te geven.
 
@@ -545,7 +545,7 @@ De besturingselementen die moeten worden bewerkt, worden gegroepeerd in een **`<
 
 ![](assets/do-not-localize/form_exemple18.png)
 
-## Een expressieveld {#expression-field} toevoegen
+## Een expressieveld toevoegen {#expression-field}
 
 Een expressieveld werkt een veld dynamisch bij vanuit een expressie. De **`<input>`**-tag wordt gebruikt met een **xpath**-kenmerk om het pad in te voeren van het veld dat moet worden bijgewerkt en een **expr**-kenmerk met de update-expressie.
 
@@ -559,7 +559,7 @@ Een expressieveld werkt een veld dynamisch bij vanuit een expressie. De **`<inpu
 
 Door het uitvoeren van een invoerformulier wordt een XML-document geïnitialiseerd dat de gegevens bevat van de entiteit die wordt bewerkt. Dit document vertegenwoordigt de context van het formulier en kan als werkruimte worden gebruikt.
 
-### De context {#updating-the-context} bijwerken
+### De context bijwerken {#updating-the-context}
 
 Als u de context van het formulier wilt wijzigen, gebruikt u de tag `<set expr="<value>" xpath="<field>"/>`, waarbij `<field>` het doelveld is en `<value>` de update-expressie of -waarde.
 
