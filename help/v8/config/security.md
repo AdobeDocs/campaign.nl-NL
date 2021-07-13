@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Tips en trucs voor beveiliging
 description: Ga aan de slag met best practices voor Campagne-beveiliging
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -24,7 +24,7 @@ De configuratie van de privacy en het verharden is een zeer belangrijk element v
 * Controleer of gecodeerde wachtwoorden beperkt zijn
 * Protect de pagina&#39;s die persoonlijke gegevens kunnen bevatten, zoals spiegelpagina&#39;s, webtoepassingen, enz.
 
-[!DNL :speech_balloon:] Als Beheerde gebruiker van Cloud Services, zal Adobe met u werken om deze configuraties op uw milieu uit te voeren.
+?? Als Beheerde gebruiker van Cloud Services, zal Adobe met u werken om deze configuraties op uw milieu uit te voeren.
 
 ## Personalisatie
 
@@ -99,7 +99,7 @@ Met deze beperking kunt u wachtwoordvelden verwijderen, maar de externe account 
    >U kunt `$(loginId) = 0 or $(login) = 'admin'` door `hasNamedRight('admin')` vervangen om alle gebruikers met het juiste admin deze wachtwoorden te laten zien.
 
 
-## Toegangscontrole
+## Toegangsbeheer
 
 Toegangsbeheer is een belangrijk onderdeel van de beveiliging. Hier volgen enkele van de belangrijkste aanbevolen procedures:
 
@@ -107,7 +107,7 @@ Toegangsbeheer is een belangrijk onderdeel van de beveiliging. Hier volgen enkel
 * Controleren of elke operator de juiste toegangsrechten heeft
 * Vermijd het gebruik van de beheeroperator en vermijd het gebruik van te veel operatoren in de beheergroep
 
-[!DNL :arrow_upper_right:] Meer informatie in  [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+↗️ Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
 
 ## Codeerrichtlijnen
 
@@ -119,4 +119,4 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **Hoofdletters toevoegen in webtoepassingen**: Voeg hoofdletters toe aan uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
 
-[!DNL :arrow_upper_right:] Meer informatie in  [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+↗️ Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
