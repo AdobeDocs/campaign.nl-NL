@@ -6,7 +6,7 @@ feature: Doelgroepen
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 1%
@@ -31,10 +31,10 @@ Lidmaatschap van groepen met operatoren kan toegangsrechten verlenen of beperken
 
 **Meer informatie over** Campaign Classic v7-documentatie:
 
-[!DNL :arrow_upper_right:] [Ingebouwde benoemde rechten](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html){target=&quot;_blank&quot;}
+↗️ [Ingebouwde benoemde rechten](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Geïntegreerde operatorgroepen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
+↗️ [Geïntegreerde groepen met operatoren](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Stappen voor het instellen van machtigingen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html){target=&quot;_blank&quot;}
+↗️ [Stappen aan opstellingstoestemmingen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Beveiligingsinstellingen voor mappen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}
+↗️ [Beveiligingsinstellingen op mappen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}
