@@ -6,10 +6,10 @@ description: Leer hoe u machtigingen verleent aan Campagne v8
 feature: Doelgroepen
 role: Data Engineer
 level: Beginner
-source-git-commit: a57855556751e85e7a1f7751a103ca157f434a8a
+source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 1%
+source-wordcount: '383'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Elke exploitant moet met een streek worden verbonden om aan een geval te login e
 
 Operatoren zijn verbonden met een beveiligingszone vanuit het profiel in de console, toegankelijk via het knooppunt **[!UICONTROL Administration > Access management > Operators]**.
 
-?? Als Beheerde gebruiker van Cloud Services, plaatst Adobe de veiligheidsstreken voor u. Voor meer informatie, [contact Adobe](support.md#support).
+?? Als Beheerde gebruiker van Cloud Services, plaatst Adobe de veiligheidsstreken voor u. Voor meer informatie, [contact Adobe](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 **Meer informatie in de Campaign Classic v7-documentatie**
 
