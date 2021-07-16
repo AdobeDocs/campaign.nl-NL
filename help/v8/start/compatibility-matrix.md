@@ -6,7 +6,7 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 610a818c1f5d8a43ea55659a3c5b46676405415d
+source-git-commit: f51c36ed426d200a4636290eb4fa1be6b077f976
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 29%
@@ -15,13 +15,9 @@ ht-degree: 29%
 
 # Compatibiliteitsmatrix voor campagne v8
 
-Dit document bevat een lijst met alle systemen en onderdelen die worden ondersteund voor de nieuwste build van **Adobe Campaign v8**. Producten en versies die geen deel uitmaken van deze lijst, zijn niet compatibel met Adobe Campaign.
+Dit document bevat een lijst met alle systemen en onderdelen die worden ondersteund voor de nieuwste build van **Adobe Campaign v8**. Tenzij anders vermeld worden alle kleine releases ondersteund. Producten en versies die geen deel uitmaken van deze lijst, zijn niet compatibel met Adobe Campaign.
 
->[!CAUTION]
->
->* Tenzij anders vermeld worden alle kleine releases ondersteund.
->* Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het einde van de levensduur (EOL) bereiken, is Adobe Campaign niet meer compatibel met die versies en worden ze verwijderd uit deze compatibiliteitsmatrix. Zorg ervoor dat u ondersteunde versies van alle systemen in de compatibiliteitsmatrix gebruikt om problemen te voorkomen.
-
+Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het einde van de levensduur (EOL) bereiken, is Adobe Campaign niet meer compatibel met die versies en worden ze verwijderd uit deze compatibiliteitsmatrix. Zorg ervoor dat u ondersteunde versies van alle systemen in de compatibiliteitsmatrix gebruikt om problemen te voorkomen.
 
 ## Clientconsole{#ClientConsoleoperatingsystems}
 
