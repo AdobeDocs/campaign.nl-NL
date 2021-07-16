@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 36%
 
 ---
@@ -61,7 +61,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 
-   ?? Als Beheerde gebruiker van Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om uw subdomeinen aan Adobe te delegeren.
+   ?? Als Beheerde gebruiker van Cloud Services, contacteer Adobe om uw subdomeinen aan Adobe te delegeren.
 
 1. **Mag ik als Campaign Classic v7-gebruiker migreren naar Campaign v8?**
 
@@ -71,7 +71,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    U kunt het installatieprogramma en de cliëntconsole van het Centrum van de Download van Adobe krijgen.
 
-   [Klik hier](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) {target=&quot;_blank&quot;} om toegang te krijgen tot de Experience Cloud Software Distribution.
+   Als Admin-gebruiker hebt u toegang tot Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target=&quot;_blank&quot;} om Adobe Campaign te downloaden.
 
    Leer meer over het Centrum [in deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target=&quot;_blank&quot;}.
 
