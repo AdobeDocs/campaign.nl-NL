@@ -5,10 +5,10 @@ user-guide-title: Campagne v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
-source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
+source-git-commit: 6a3dc9579a8002876ff3c38a5920236d4e18ce7f
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 32%
    + [Instellingen voor mobiele apps](config/push-config.md)
    + [Externe accounts](config/external-accounts.md)
 + {#connect} verbinden
-   + [Verbinding maken met andere oplossingen](connect/integration.md)
+   + [Verbinden met andere oplossingen](connect/integration.md)
    + [Campagne + Analyse](connect/ac-aa.md)
    + [Campagne + Experience Manager](connect/ac-aem.md)
    + [Campagne + Doel](connect/ac-at.md)
@@ -80,7 +80,7 @@ ht-degree: 32%
 + Bronnen voor ontwikkelaars {#architecture}
    + [Algemene beginselen](dev/general-architecture.md)
    + [Architectuur](dev/architecture.md)
-   + [Datamodel](dev/datamodel.md)
+   + [Gegevensmodel](dev/datamodel.md)
    + Schema&#39;s en formulieren {#shemas-forms}
       + [Werken met schema&#39;s](dev/schemas.md)
       + [Sleutelbeheer en eenheid](dev/keys.md)
