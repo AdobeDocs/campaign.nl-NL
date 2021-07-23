@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '916'
 ht-degree: 3%
 
 ---
@@ -81,6 +81,14 @@ Campagnegebruikers maken verbinding via hun Adobe ID. Dezelfde Adobe ID wordt ge
 ## Rapportage
 
 Opmerking: Adobe Campaign-rapporten zijn geoptimaliseerd en bieden betere schaalmogelijkheden dan Campaign Classic v7. Bestaande beperkingen op kubussen zijn niet van toepassing.
+
+## Workflow {#workflow}
+
+Campagne v8 biedt een extra activiteit voor een doelgerichte workflow: **[!UICONTROL Change data source]**.
+
+Met de activiteit **[!UICONTROL Change data source]** kunt u de gegevensbron van een werkstroom **[!UICONTROL Working table]** veranderen om gegevens over verschillende gegevensbronnen zoals FDA, FFDA en lokale gegevensbestand te beheren.
+
+?? Meer informatie over de **[!UICONTROL Change data source]** activiteit in [deze pagina](../config/workflows.md#change-data-source-activity).
 
 ## Niet-beschikbare functies{#gs-unavailable-features}
 
