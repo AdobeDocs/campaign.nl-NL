@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 5d266b22661be2817e06ea71c1b0bec7f44a152d
+source-git-commit: 328f1bca11f8554def6ad4ccb741a86695481e98
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 4%
+source-wordcount: '312'
+ht-degree: 5%
 
 ---
 
@@ -50,14 +50,13 @@ _23 juli 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Het lijnkanaal is nu beschikbaar met Campagne v8. De volgende verbeteringen zijn aangebracht bij het gebruik van LIJN met Berichtencentrum:
-</p>
+<td> <p>Het <a href="../send/line.md">LINE kanaal</a> is nu beschikbaar met Campagne v8, met inbegrip van de volgende verhogingen wanneer gecombineerd met <a href="../send/transactional.md">transactional overseinen</a> module:
 <ul> 
 <li><p>Probleem verholpen waardoor bezoekers zich niet konden richten op een lijnlevering. 
 </p></li>
 <li><p>Probleem verholpen waarbij fouten konden optreden bij het ophalen van bezoekers van de uitvoeringsinstantie naar de marketinginstantie.
 </p></li>
-<li><p>Oplossing voor problemen tijdens de verwerking van real-time gebeurtenissen in de context van lijnleveringen met behulp van Message Center.</p></li>
+<li><p>Problemen verholpen tijdens het verwerken van real-time gebeurtenissen.</p></li>
 </ul>
 </td> 
 </tr> 
