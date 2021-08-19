@@ -5,10 +5,10 @@ description: Aan de slag met het configuratiescherm voor campagnes
 feature: Overzicht
 role: Data Engineer
 level: Beginner
-source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+source-git-commit: 8415bfce30948104840a92d1be0d72e07c8e29ee
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 50%
+source-wordcount: '337'
+ht-degree: 52%
 
 ---
 
@@ -24,7 +24,7 @@ Belangrijkste voordelen:
 
 U kunt ook Campagne Control Panel gebruiken om uw instantie-instellingen te configureren, zoals IP, maken vermelding, URL-machtigingen en ophalen informatie over uw instantie mogelijk.
 
-↗️ meer in [de documentatie van het Controlebord van de Campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html){target= &quot;_blank&quot;}.
+↗️ meer in [de documentatie van het Controlebord van de Campagne](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target= &quot;_blank&quot;}.
 
 >[!CAUTION]
 > De volgende mogelijkheden worden nog niet ondersteund in Campagne v8:
