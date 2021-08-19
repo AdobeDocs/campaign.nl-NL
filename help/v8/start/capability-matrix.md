@@ -6,9 +6,9 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
+source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '910'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ Om het even welke ingebouwde schema/lijst die in het Gegevensbestand van de Wolk
 
 Er zijn specifieke API&#39;s beschikbaar voor het beheer van gegevens tussen de lokale en de clouddatabase. Leer hoe deze nieuwe APIs werken en hoe te om hen in [deze pagina ](../dev/new-apis.md) te gebruiken.
 
-### Gegevensreplicatie
+### Datareplicatie
 
 Een specifieke technische workflow behandelt de replicatie van tabellen die aan beide zijden aanwezig moeten zijn (Campagne maken van lokale database en Cloud-database). Deze workflow wordt elke uur geactiveerd en is afhankelijk van een nieuwe ingebouwde JavaScript-bibliotheek.
 
@@ -80,7 +80,7 @@ Campagnegebruikers maken verbinding via hun Adobe ID. Dezelfde Adobe ID wordt ge
 
 ## Rapportage
 
-Opmerking: Adobe Campaign-rapporten zijn geoptimaliseerd en bieden betere schaalmogelijkheden dan Campaign Classic v7. Bestaande beperkingen op kubussen zijn niet van toepassing.
+Opmerking: Adobe Campaign-rapporten zijn geoptimaliseerd en bieden betere schaalmogelijkheden dan Campaign Classic v7. Beperkingen op kubussen zijn niet van toepassing.
 
 ## Workflow {#workflow}
 
@@ -100,8 +100,6 @@ Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze ee
 * Campagnes optimaliseren
 * Responsbeheer
 * Hybride/on-premise plaatsingsmodellen
-* REGELS
-* Campaign-configuratiescherm
 
 >[!CAUTION]
 >
