@@ -6,10 +6,10 @@ feature: Overzicht
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 6334178f6e5d0ad0a33975838be6cf663862d892
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 1%
+source-wordcount: '392'
+ht-degree: 2%
 
 ---
 
@@ -39,9 +39,16 @@ Deze technische werkschema&#39;s zijn beschikbaar bij de **[!UICONTROL Administr
 
 Indien nodig kunt u de gegevenssynchronisatie handmatig starten. Om dit uit te voeren, klik op **Planner** activiteit met de rechtermuisknop aan en selecteer **Voer hangende taak(en) nu uit**.
 
-## Gegevensreplicatie{#data-replication}
+## Datareplicatie{#data-replication}
 
 Sommige ingebouwde tabellen worden gerepliceerd van de lokale database van Campagne naar de Cloud-database via speciale workflows die hierboven worden beschreven.[!DNL Snowflake]
+
+Begrijp welke gegevensbestanden Adobe Campaign v8 gebruikt, waarom gegevens worden herhaald, welke gegevens worden herhaald en hoe het replicatieproces werkt.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
+
+
+### Beleid voor gegevensreplicatie
 
 Het replicatiebeleid is gebaseerd op de grootte van de tabellen. Sommige tabellen worden in real-time gerepliceerd, andere worden per uur gerepliceerd. Sommige tabellen hebben incrementele updates wanneer andere worden vervangen.
 
@@ -65,6 +72,8 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 ```
 
 ![](assets/nlmodule.png)
+
+
 
 **Verwante onderwerpen**
 
