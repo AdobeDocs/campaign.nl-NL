@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: Bekende beperkingen voor campagne v8
 description: Bekende beperkingen
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: cf00895f988514fc029d0060d7404bdef0c8b30e
+exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '176'
 ht-degree: 2%
 
 ---
@@ -27,5 +27,3 @@ Voor Adobe Campaign v8 gelden de volgende beperkingen:
 * De mechanismen Abonnement (opt-in) en Abonnement (opt-out) en Mobiele registratie zijn asynchrone processen. De verzoeken worden verwerkt elk uur door een specifieke technische werkschema. [Meer informatie](../config/replication.md#tech-wf)
 * Duplicaten moeten handmatig door eindgebruikers worden afgehandeld. [Meer informatie](../dev/keys.md)
 * Adobe Campaign v8 biedt geen ondersteuning voor uitgebreide doorvoer op API- en webtoepassingen. Neem contact op met Adobe voor hulp bij specifieke behoeften.
-
-

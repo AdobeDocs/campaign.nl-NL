@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: Instellingen voor e-mailkanalen voor campagne
 description: Instellingen voor e-mailkanalen voor campagne
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 2%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 

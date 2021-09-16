@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Werken met campagne en Adobe Analytics
 description: Leer hoe u campagne en analyse kunt integreren
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1083'
 ht-degree: 75%
 
 ---
@@ -38,7 +37,7 @@ Als u de verbinding Campagne-Analytics wilt instellen, moet u de volgende bewerk
 
 1. [Uw rapportsuite maken in Adobe Analytics](#report-suite-analytics)
 1. [Conversievariabelen en succesgebeurtenissen configureren](#configure-conversion-success)
-1. [Uw externe account configureren in Adobe Campaign](#external-account-ac)
+1. [Externe account configureren in Adobe Campaign](#external-account-ac)
 
 ## Uw analyserapportsuite maken {#report-suite-analytics}
 

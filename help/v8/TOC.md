@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 audience: end-user
-user-guide-title: Campagne v8
+user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
-source-git-commit: 5d266b22661be2817e06ea71c1b0bec7f44a152d
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 34%
+ht-degree: 36%
 
 ---
 

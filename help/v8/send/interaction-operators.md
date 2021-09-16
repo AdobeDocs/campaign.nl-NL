@@ -1,17 +1,16 @@
 ---
-product: Adobe Campaign
 title: Operatoren voor Campagne-interactie
 description: Beheerders van aanbiedingen maken
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
-
 
 # Operatorprofielen {#operator-profiles}
 
@@ -107,7 +106,7 @@ De aan de leveringsmanager toegewezen rechten zijn/laten hen toe om de volgende 
    <td> Lezen<br /> </td> 
   </tr> 
   <tr> 
-   <td> Typologieregels<br /> </td> 
+   <td> Typologische regels<br /> </td> 
    <td> Lezen/Schrijven<br /> </td> 
    <td> Lezen<br /> </td> 
   </tr> 
@@ -167,7 +166,7 @@ De aan de leveringsmanager toegewezen rechten zijn/laten hen toe om de volgende 
    <td> Lezen<br /> </td> 
   </tr> 
   <tr> 
-   <td> Typologieregels<br /> </td> 
+   <td> Typologische regels<br /> </td> 
    <td> </td> 
    <td> Lezen<br /> </td> 
   </tr> 

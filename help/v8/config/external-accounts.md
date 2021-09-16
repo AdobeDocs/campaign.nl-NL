@@ -1,17 +1,16 @@
 ---
-product: Adobe Campaign
 title: Campagne voeren over externe rekeningen
 description: Campagne voeren over externe rekeningen
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1000'
 ht-degree: 4%
 
 ---
-
 
 # Externe accounts configureren
 
@@ -173,4 +172,3 @@ Hiertoe geeft u in deze externe account het adres en de referenties op die worde
    * **[!UICONTROL Encryption]**: Type codering tussen  **[!UICONTROL None]** of  **[!UICONTROL SSL]**.
 
    * **[!UICONTROL Access key]**: Leer hoe u  **[!UICONTROL Access key]** in de documentatie [ van ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)Microsoft kunt vinden.
-

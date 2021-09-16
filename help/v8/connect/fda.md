@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Werken met campagnes en externe databases (FDA)
 description: Leer hoe u kunt werken met Campagne en externe databases
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1843'
 ht-degree: 3%
 
 ---
@@ -121,7 +121,7 @@ Voer de volgende stappen uit om het schema van de externe database in Adobe Camp
 
 1. Klik op **[!UICONTROL Save]** om het maken te bevestigen.
 
-## Bepaal de doelafbeelding{#define-data-mapping}
+## De doeltoewijzing definiëren{#define-data-mapping}
 
 U kunt een toewijzing van de gegevens in een externe lijst bepalen.
 

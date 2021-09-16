@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Campagneschemastructuur
 description: Campagneschemastructuur
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 1%
@@ -236,7 +236,7 @@ Deze waarden worden weergegeven in een vervolgkeuzelijst van het invoerformulier
 >
 >In de Adobe Campaign-clientconsole wordt het knooppunt **[!UICONTROL Administration > Enumerations]** gebruikt om opsommingen te beheren.
 
-#### Opsomming {#set-enumeration} instellen
+#### Opsomming instellen {#set-enumeration}
 
 Met de eigenschap **enum** kunt u een vaste opsomming definiëren die wordt gebruikt wanneer de lijst met mogelijke waarden van tevoren bekend is.
 
@@ -270,7 +270,7 @@ De opsommingswaarden worden gedeclareerd in het element **`<value>`** met de vol
 * **naam**: naam van de intern opgeslagen waarde;
 * **label**: label dat via de grafische interface wordt weergegeven.
 
-#### dbenumopsomming {#dbenum-enumeration}
+#### dbenum-opsomming {#dbenum-enumeration}
 
 * Met de eigenschap **dbenum** kunt u een opsomming definiëren waarvan de eigenschappen overeenkomen met die van de eigenschap **enum**.
 
@@ -352,7 +352,6 @@ Elementen worden aangeduid met hun naam en kenmerken worden aangeduid met de naa
 >
 
 
-
 Het is ook mogelijk complexe expressies te definiëren, zoals de volgende rekenkundige bewerkingen:
 
 * **@gender+1**: voegt 1 toe aan de inhoud van het  **** genderkenmerk;
@@ -370,7 +369,7 @@ U hebt toegang tot de lijst met beschikbare functies via een expressie-editor in
 * **Jaar (@gemaakt)**: retourneert het jaar van de datum in het kenmerk &quot;created&quot;.
 * **GetEmailDomain(@email)**: retourneert het domein van het e-mailadres.
 
-## Een tekenreeks maken via de compute tekenreeks {#building-a-string-via-the-compute-string}
+## Een tekenreeks samenstellen via de compute string {#building-a-string-via-the-compute-string}
 
 Een **Berekende tekenreeks** is een XPath-expressie die wordt gebruikt om een tekenreeks samen te stellen die een record vertegenwoordigt in een tabel die is gekoppeld aan het schema. **Compute** stringt wordt vooral gebruikt in de grafische interface om het label van een geselecteerde record weer te geven.
 

@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Werken met campagne-schema's
 description: Aan de slag met schema's
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 4%
@@ -250,4 +250,3 @@ Raadpleeg [deze sectie](update-database-structure.md) voor meer informatie.
 >[!NOTE]
 >
 >Wanneer de wijzigingen niet de gegevensbestandstructuur beïnvloeden, moet u enkel schema&#39;s regenereren. Selecteer hiertoe de schema&#39;s die u wilt bijwerken, klik met de rechtermuisknop en kies **[!UICONTROL Actions > Regenerate selected schemas...]**.
-

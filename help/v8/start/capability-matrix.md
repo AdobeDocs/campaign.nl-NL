@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign Classic v7 - Capaciteitsmatrix voor campagne v8
 description: De verschillen tussen Campaign Classic v7 en Campagne v8 begrijpen
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '909'
 ht-degree: 3%
 
 ---
@@ -43,7 +42,6 @@ Om het even welke ingebouwde schema/lijst die in het Gegevensbestand van de Wolk
 >
 > Klantgegevens worden niet opgeslagen in de lokale [!DNL Campaign]-database. Daarom moet elke aangepaste tabel worden gemaakt in de Cloud-database.
 
-
 Er zijn specifieke API&#39;s beschikbaar voor het beheer van gegevens tussen de lokale en de clouddatabase. Leer hoe deze nieuwe APIs werken en hoe te om hen in [deze pagina ](../dev/new-apis.md) te gebruiken.
 
 ### Datareplicatie
@@ -54,7 +52,6 @@ Een specifieke technische workflow behandelt de replicatie van tabellen die aan 
 >
 > Er zijn meerdere replicatiebeleid gemaakt op basis van de grootte van de tabel (XS, XL, enz.).
 > Sommige tabellen worden in real-time gerepliceerd, andere worden per uur gerepliceerd. Sommige tabellen bevatten incrementele updates, andere worden volledig bijgewerkt.
-
 
 [Meer informatie over gegevensreplicatie](../config/replication.md)
 

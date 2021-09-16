@@ -1,15 +1,15 @@
 ---
-product: Adobe Campaign
 title: Nieuw schema maken in campagne
 description: Leer hoe u een nieuw schema maakt in Campagne
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
 
 ---
 
-# Nieuw schema maken{#create-new-schema}
+# Een nieuw schema maken{#create-new-schema}
 
 Als u de schema&#39;s wilt bewerken, maken en configureren, klikt u op het knooppunt **[!UICONTROL Administration > Configuration > Data schemas]** van de Adobe Campaign-clientconsole.
 
@@ -37,7 +37,7 @@ Het **[!UICONTROL Preview]** lusje produceert automatisch het uitgebreide schema
 
 Als u de volledige structuur van een schema moet controleren, kunt u **[!UICONTROL Preview]** tabel gebruiken. Als het schema is uitgebreid, zult u al zijn uitbreidingen dan kunnen visualiseren. Als aanvulling, toont **[!UICONTROL Documentation]** lusje alle schemakenmerken en elementen, en hun eigenschappen (SQL Gebied, type/lengte, etiket, beschrijving). Het tabblad **[!UICONTROL Documentation]** is alleen van toepassing op gegenereerde schema&#39;s.
 
-## Hoofdlettergebruik: een contracttabel {#example--creating-a-contract-table} maken
+## Hoofdlettergebruik: een contracttabel maken {#example--creating-a-contract-table}
 
 In het volgende voorbeeld, creeert u een nieuwe lijst voor **contracten** in het gegevensbestand. In deze tabel kunt u voor elk contract de voor- en achternaam en het e-mailadres van de houder en de medehouder opslaan.
 
@@ -111,4 +111,3 @@ Hiervoor moet u het schema van de tabel maken en de databasestructuur bijwerken 
    ![](assets/configuration_structure.png)
 
 1. Werk de databasestructuur bij om de tabel te maken waarnaar het schema wordt gekoppeld. Raadpleeg [deze sectie](update-database-structure.md) voor meer informatie.
-

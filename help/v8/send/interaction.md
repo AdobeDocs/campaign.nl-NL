@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campagne-interactie - Aanbiedingsbeheer
 description: Aan de slag met het beheer van aanbiedingen
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Als **Manager van de aanbieding** moet u de volgende taken uitvoeren:
 Als **Leveringsmanager** moet u de volgende taken uitvoeren:
 
 1. Een campagne maken.
-1. Verwijs naar een aanbod in de campagne of de levering. [Meer informatie](interaction-send-offers.md).
+1. Verwijs naar een aanbod in de campagne of de levering. [Meer info](interaction-send-offers.md).
 
 
 ## Concepten en terminologie
@@ -85,4 +85,3 @@ Er zijn twee soorten omgevingen:
 * De **Voorvertoning** van de aanbieding toont de aanbieding aangezien deze in zijn omslag wordt getoond. Het is toegankelijk vanuit het venster met aanbiedingsinstellingen of het contactprofiel.
 * **De vooraf bepaalde filters** zijn het filtreren regels kunnen rekening met aanbiedingsparameters (bijvoorbeeld, een aanbiedingscode) houden. Ze kunnen opnieuw worden gebruikt nadat voorstellen zijn gemaakt.
 * Een **aanbiedingsvertegenwoordiging** is een informatie die door het kanaal wordt gebruikt om de aanbieding te tonen. De aanbiedingsvertegenwoordiging kan van de teruggevende functie van de ruimte worden geconstrueerd waarop de aanbieding wordt vertegenwoordigd of direct in de interface (bijvoorbeeld, in het blok van HTML) ingegaan. Een aanbieding kan door de ruimte worden vertegenwoordigd.
-

@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: Campaign-configuratiescherm
 description: Aan de slag met het configuratiescherm voor campagnes
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
+exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 46%
+source-wordcount: '344'
+ht-degree: 50%
 
 ---
 
@@ -35,7 +35,6 @@ U kunt ook Campagne Control Panel gebruiken om uw instantie-instellingen te conf
 >
 
 
-
 ## Hoe kan ik het configuratiescherm openen?
 
 U kunt het configuratiescherm rechtstreeks openen vanuit Adobe Experience Cloud. Het is alleen toegankelijk voor gebruikers met beheerdersrechten. [Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html){target=&quot;_blank&quot;} voor meer informatie.
@@ -55,4 +54,3 @@ Leer hoe u de instellingen voor de campagneinstanties in het Configuratiescherm 
 * [URL-machtigingen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html){target=&quot;_blank&quot;}
 * [Instantiedetails](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html){target=&quot;_blank&quot;}
 * [Beheer](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html) GPG-sleutels {target=&quot;_blank&quot;}
-

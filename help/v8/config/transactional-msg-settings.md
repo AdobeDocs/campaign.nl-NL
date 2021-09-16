@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campagne Transactionele overseinenmontages
 description: Campagne Transactionele overseinenmontages
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 2899f627-696d-422c-ae49-c1e293b283af
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -75,4 +75,3 @@ Hier volgt een voorbeeld van een gebeurtenis die deze informatie bevat:
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
-

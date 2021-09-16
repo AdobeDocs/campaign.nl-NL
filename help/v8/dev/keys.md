@@ -1,15 +1,15 @@
 ---
-product: Adobe Campaign
-title: 'Belangrijk beheer in campagne '
+title: Belangrijk beheer in campagne
 description: Aan de slag met sleutelbeheer
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
 
 ---
 
-# Belangrijk beheer en eenheid {#key-management}
+# Sleutelbeheer en eenheid {#key-management}
 
 In Campagne v8 is de primaire sleutel een Universally Unique IDentifier (UUID), die een tekenreeks op tekens is. Om deze UUID tot stand te brengen, moet het belangrijkste element van het schema **autouuid** en **Automatische Auto** attributen bevatten die aan **true** worden geplaatst.
 
@@ -71,7 +71,7 @@ Nu lijkt het of er verschillende profielen zijn en dat u beide wilt behouden in 
 
 Afhankelijk van uw verzachtingsstrategie kunt u altijd een query uitvoeren op de lijst in een andere workflow en de update toepassen op basis van uw behoefte. Neem contact op met Adobe voor meer informatie.
 
-### Deduplicatiemonster{#deduplicate-sample}
+### Voorbeeld van deduplicatie{#deduplicate-sample}
 
 Bij gedupliceerde ontvangers kunt u beide records in de Campagne-database bewaren. In dat geval moet u een van de UUID&#39;s bijwerken met een nieuwe UUID.
 

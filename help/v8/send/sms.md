@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: SMS verzenden met Adobe Campaign
 description: Aan de slag met SMS in de campagne
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 1%
+source-wordcount: '610'
+ht-degree: 0%
 
 ---
 

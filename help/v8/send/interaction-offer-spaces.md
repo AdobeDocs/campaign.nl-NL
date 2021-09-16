@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Spaties voor aanbiedingen voor Campagne
 description: Meer informatie over het maken van aanbiedingsruimten
-feature: Overzicht
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ Volg onderstaande stappen om een nieuwe aanbiedingsruimte te maken:
 
    ![](assets/offer_space_create_007.png)
 
-## De status van de aanbieding {#offer-proposition-statuses}
+## Voorzettingsstatussen voorstellen {#offer-proposition-statuses}
 
 De status van het voorstel varieert afhankelijk van de interactie met de doelpopulatie. De module van de Interactie van de campagne komt met een reeks waarden die op het aanbiedingsvoorstel tijdens zijn levenscyclus kunnen worden toegepast. U moet het platform vormen zodat de status verandert wanneer het aanbiedingsvoorstel wordt gecreeerd en wordt goedgekeurd.
 
@@ -71,7 +71,7 @@ De status van het voorstel varieert afhankelijk van de interactie met de doelpop
 >
 >De update van de status is een **asynchroon** proces. Deze wordt uitgevoerd door de workflow voor het bijhouden van gegevens, die elk uur wordt geactiveerd.
 
-### Statuslijst aanbod {#status-list}
+### Statuslijst voorstel {#status-list}
 
 De volgende statussen zijn beschikbaar voor aanbiedingen:
 
@@ -88,7 +88,7 @@ Deze waarden worden niet standaard toegepast: zij moeten worden gevormd.
 >
 >De status van een aanbiedingsvoorstel wordt automatisch gewijzigd in &quot;Presenteerd&quot; als de aanbieding gekoppeld is aan een levering met de status &quot;Verzonden&quot;.
 
-### De status van de aanbieding wanneer het voorstel {#configuring-the-status-when-the-proposition-is-created} wordt gecreeerd
+### De status van de aanbieding wanneer het voorstel wordt gecreeerd {#configuring-the-status-when-the-proposition-is-created}
 
 Wanneer een aanbiedingsvoorstel **gecreeerd** is, wordt zijn status bijgewerkt.
 
@@ -101,7 +101,7 @@ Volg de onderstaande stappen om dit te doen:
 
    ![](assets/offer_update_status_001.png)
 
-### De status van de aanbieding wanneer het voorstel {#configuring-the-status-when-the-proposition-is-accepted} wordt goedgekeurd
+### De status van de aanbieding wanneer het voorstel wordt aanvaard {#configuring-the-status-when-the-proposition-is-accepted}
 
 Zodra een aanbiedingsvoorstel **toegelaten** is, gebruik één van de waarden die door gebrek worden verstrekt om de nieuwe status van het voorstel te vormen. De update wordt toegepast wanneer een ontvanger op een koppeling in de aanbieding klikt.
 
@@ -144,7 +144,7 @@ U kunt de status **[!UICONTROL Interested]** automatisch toepassen op een aanbie
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
 ```
 
-## Voorvertoning per spatie {#offer-preview-per-space}
+## Voorvertoning aanbod per ruimte {#offer-preview-per-space}
 
 Op het tabblad **[!UICONTROL Preview]** kunt u de aanbiedingen bekijken waarvoor de ontvanger in aanmerking komt via een gekozen methode. In het onderstaande voorbeeld komt de begunstigde in aanmerking voor drie voorstellen per post.
 
