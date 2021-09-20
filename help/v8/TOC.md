@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 36%
+source-wordcount: '207'
+ht-degree: 35%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 36%
    + [Gegevens beheren](config/replication.md)
    + [E-mailinstellingen](config/email-settings.md)
    + [Transactionele berichtinstellingen](config/transactional-msg-settings.md)
-   + [Instellingen voor mobiele apps](config/push-config.md)
+   + [SDK&#39;s voor campagnes integreren met uw app](config/push-config.md)
    + [Externe accounts](config/external-accounts.md)
 + {#connect} verbinden
    + [Verbinden met andere oplossingen](connect/integration.md)
