@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 873e7df79d60e5c897d09312939bbb1d91f194b2
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -89,7 +89,7 @@ Met de activiteit **[!UICONTROL Change data source]** kunt u de gegevensbron van
 
 ## Niet-beschikbare functies{#gs-unavailable-features}
 
-Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze eerste versie, zoals:
+Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze versie van Campagne, zoals:
 
 * Marketing Resource Management
 * Gedistribueerde marketing
@@ -97,6 +97,7 @@ Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze ee
 * Campagnes optimaliseren
 * Responsbeheer
 * Hybride/on-premise plaatsingsmodellen
+* Twitter-kanaal
 
 >[!CAUTION]
 >
@@ -106,14 +107,18 @@ Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze ee
 >
 >Als u niet zeker bent van uw implementatiemodel of een vraag hebt, neemt u contact op met uw accountteam.
 
-## Verwijderde functies{#gs-removed}
+## Niet-ondersteunde functies{#gs-removed}
 
-Om zich aan te passen aan het nieuwe architectuur en implementatiemodel van Campagne v8, zijn sommige historische Campaign Classic v7 mogelijkheden niet meer beschikbaar in Campaign v8.
+Om zich aan het nieuwe architectuur en plaatsingsmodel van Campagne v8 aan te sluiten, worden sommige historische Campaign Classic v7 mogelijkheden niet meer gesteund met Campagne v8, zoals:
 
 * Coupons
 * Webtracking
 * Enquêtes
-* Social marketing
+* Sociale marketing met Facebook
 * ACS Connector (primaire aanbieding)
 * Integratie met LDAP
 * Gebruiker/wachtwoord aanmelden
+
+>[!NOTE]
+>
+>Sommige niet-beschikbare of niet-ondersteunde functies zijn mogelijk nog wel zichtbaar in de gebruikersinterface.
