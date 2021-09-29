@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 873e7df79d60e5c897d09312939bbb1d91f194b2
+source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 3%
@@ -101,11 +101,12 @@ Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze ve
 
 >[!CAUTION]
 >
->Momenteel is Campagne v8 alleen **beschikbaar als beheerde Cloud Service en kan deze niet worden geïmplementeerd op een locatie of in een hybride omgeving.**
+>* Momenteel is Campagne v8 alleen **beschikbaar als beheerde Cloud Service en kan deze niet worden geïmplementeerd op een locatie of in een hybride omgeving.**
 >
->Migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
+>* Migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
 >
->Als u niet zeker bent van uw implementatiemodel of een vraag hebt, neemt u contact op met uw accountteam.
+>* Als u niet zeker bent van uw implementatiemodel of een vraag hebt, neemt u contact op met uw accountteam.
+
 
 ## Niet-ondersteunde functies{#gs-removed}
 
