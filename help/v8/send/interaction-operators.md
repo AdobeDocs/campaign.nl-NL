@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: bda1fc37181396d295ee23a7161053d839d9cfc7
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Als aanbiedingen worden gebruikt in een workflow, moet de operator worden toegev
 
 >[!NOTE]
 >
->Een **Aanbiedingsmanager** kan alleen een aanbieding goedkeuren als er geen controleur is opgegeven of als hij/zij is gedeclareerd als controleur in de aanbiedingstemplate waarop de aanbieding was gebaseerd.
+>**Aanbiedingsmanagers** kunnen een aanbieding alleen goedkeuren als er geen controleur is opgegeven of als deze in de aanbiedingstemplate als controleurs is gedeclareerd.
 
 ## Een leveringsmanager-operator maken {#delivery-manager}
 
@@ -51,15 +51,15 @@ Als aanbiedingen worden gebruikt in een workflow, moet de operator worden toegev
 
 1. Ga naar het **[!UICONTROL Groups and named rights]** venster, klik **[!UICONTROL Add]** en selecteer **[!UICONTROL Delivery manager]** groep.
 
-De aan de leveringsmanager toegewezen rechten zijn/laten hen toe om de volgende taken uit te voeren:
+Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uitvoeren:
 
 * Geef **[!UICONTROL Live]** omgevingen weer.
 * Categorieën voorstellen weergeven en wijzigen.
-* Aanbiedingen goedkeuren als s/he is opgegeven als een van de controleurs.
+* Aanbiedingen goedkeuren als ze revisoren zijn.
 
    >[!NOTE]
    >
-   >Een **Leveringsmanager** kan een aanbieding slechts goedkeuren als hij/zij als recensent tijdens de aanbiedingsconfiguratie is verklaard.
+   >**De** manager van de levering kan slechts een aanbieding goedkeuren als zij als recensent in de aanbiedingsconfiguratie zijn verklaard.
 
 ## Machtigingsmatrix per interactie-operator {#recap-of-rights-according-to-operator}
 
