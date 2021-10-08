@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 2%
@@ -54,9 +54,9 @@ De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieni
 
 ## Geïntegreerd ecosysteem
 
-U kunt Campagne met een reeks krachtige oplossingen van Adobe integreren, zoals: Adobe Analytics, Adobe Journey Orchestration, Real-Time CDP en meer.
+U kunt Campagne met een reeks krachtige oplossingen van Adobe integreren, zoals: Adobe Analytics, Adobe Journey Orchestration, Real-Time CDP en nog veel meer.
 
 U kunt ook voorspellende optimalisatie van de verzendtijd en voorspellende betrokkenheidsscoring configureren met Journey AI en de openingssnelheden verhogen, klikken en inkomsten verhogen.
 
-?? [Meer informatie over de integratie van campagnes](../connect/integration.md)
+![](../assets/do-not-localize/glass.png) [Meer informatie over de integratie van campagnes](../connect/integration.md)
 

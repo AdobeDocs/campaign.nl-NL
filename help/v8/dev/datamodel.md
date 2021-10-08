@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -20,7 +20,7 @@ De basisstructuur van het Adobe Campaign-gegevensmodel kan als volgt worden besc
 
 * **Ontvangertabel**: Het gegevensmodel is gebaseerd op een hoofdtabel die standaard de tabel Ontvanger is (nmsRecipient). In deze tabel kunt u alle marketingprofielen opslaan.
 
-   ?? Zie [deze sectie](#ootb-profiles) voor meer informatie over de tabel Ontvanger.
+   ![](../assets/do-not-localize/glass.png) Zie  [deze sectie](#ootb-profiles) voor meer informatie over de tabel Ontvanger.
 
 * **Afleveringstabel**: Het gegevensmodel bevat ook een deel dat is gewijd aan de opslag van alle marketingactiviteiten. Meestal is dit de afleveringstabel (NmsDelivery). Elke record in deze tabel vertegenwoordigt een leveringsactie of een leveringssjabloon. Het bevat alle parameters die nodig zijn voor het uitvoeren van leveringen, zoals doel, inhoud, enz.
 
@@ -43,7 +43,7 @@ U kunt de standaard Ontvanger lijst met de uit-van-de-doos gebieden gebruiken, z
 * [Een bestaande ](extend-schema.md) tabel uitbreiden met nieuwe velden. U kunt bijvoorbeeld een nieuw veld Loyalty toevoegen aan de tabel Ontvanger.
 * [Maak een nieuwe tabel](create-schema.md), bijvoorbeeld een tabel met aankopen die alle aankopen bevat die door elk profiel van de database zijn gedaan, en koppel deze aan de tabel met ontvangers.
 
-?? Ontdek beste praktijken wanneer het werken met het datamodel van de Campagne in [deze sectie](datamodel-best-practices.md).
+![](../assets/do-not-localize/glass.png) Ontdek beste praktijken wanneer het werken met het datamodel van de Campagne in  [deze sectie](datamodel-best-practices.md).
 
 ## Ingebouwde profielentabel {#ootb-profiles}
 
@@ -58,9 +58,9 @@ De voordelen van de standaardtabel voor ontvangers zijn:
 
 Het is mogelijk de tabel voor ontvangers uit te breiden, maar niet om het aantal velden of koppelingen in de tabel te verminderen.
 
-?? Leer hoe te om een bestaand schema in [deze sectie](extend-schema.md) uit te breiden.
+![](../assets/do-not-localize/glass.png) Leer hoe u een bestaand schema in  [deze sectie](extend-schema.md) kunt uitbreiden.
 
-↗️ Ontdek voorbeelden van ingebouwde ontvankelijke lijstuitbreidingen in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+![](../assets/do-not-localize/book.png) Voorbeelden van ingebouwde tabelextensies voor ontvangers ontdekken in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 U kunt een verschillende ontvankelijke lijst ook gebruiken om met uw zaken of functionele vereisten beter te passen. Deze methode wordt geleverd met beperkingen en wordt beschreven in [deze sectie](custom-recipient.md).
 
@@ -68,9 +68,9 @@ U kunt een verschillende ontvankelijke lijst ook gebruiken om met uw zaken of fu
 
 Voor een beter begrip van lijstbeheer in Campagne v8, merk op dat de lijsten tussen Campagne en zijn gegevensbestand van de Snowflake Cloud worden herhaald.
 
-?? Meer informatie over replicatiestrategie en mechanismen in [deze sectie](../config/replication.md).
+![](../assets/do-not-localize/glass.png) Meer informatie over replicatiestrategie en mechanismen in  [deze sectie](../config/replication.md).
 
 **Verwante onderwerpen**
 
-?? Ontdek hoe u profielen kunt importeren in [deze sectie](../start/import.md)
-?? Meer informatie over campagnepubliek vindt u in [deze sectie](../start/audiences.md)
+![](../assets/do-not-localize/glass.png) Ontdek hoe u profielen in  [deze ](../start/import.md)
+![](../assets/do-not-localize/glass.png) sectie kunt importerenMeer informatie over campagnedoelgroepen in  [deze sectie](../start/audiences.md)

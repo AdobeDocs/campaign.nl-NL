@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 3%
@@ -119,7 +119,7 @@ Gebruik het tabblad **[!UICONTROL Content]** om de inhoud van de aanbieding te d
    * **[!UICONTROL Title]** : Geef de titel op die je wilt maken en die je in je voorstel wilt opnemen. Waarschuwing: dit verwijst niet naar het label van de aanbieding, dat in **[!UICONTROL General]** tabel wordt bepaald.
    * **[!UICONTROL Destination URL]** : Geef de URL van je voorstel op. Het moet beginnen met &quot;http://&quot; of &quot;https://&quot;.
    * **[!UICONTROL Image URL]** : Geef een URL of een toegangspad op naar de afbeelding van uw aanbieding.
-   * **[!UICONTROL HTML content]** /  **[!UICONTROL Text content]** : Voer de tekst van je voorstel in op het tabblad dat je wilt. Voor het genereren van tekstspatiëring moet de **[!UICONTROL HTML content]** bestaan uit HTML-elementen die kunnen worden ingesloten in een tekstelement `<div>`. Het resultaat van een element `<table>` in de HTML-pagina is bijvoorbeeld als volgt:
+   * **[!UICONTROL HTML content]** /  **[!UICONTROL Text content]** : Voer de tekst van je voorstel in op het tabblad dat je wilt. Om het volgen te produceren, moet **[!UICONTROL HTML content]** uit HTML elementen worden samengesteld die in een `<div>` typeelement kunnen worden ingesloten. Het resultaat van een element `<table>` op de pagina HTML is bijvoorbeeld als volgt:
 
    ```
       <div> 
@@ -182,13 +182,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 U kunt de aanbieding nu goedkeuren en activeren om deze beschikbaar te maken in de **Live**-omgeving.
 
-↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content) voor meer informatie
+![](../assets/do-not-localize/book.png) Raadpleeg de  [Campaign Classic v7-documentatie voor meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
 ## Presentatie van aanbieding beheren{#offer-presentation}
 
 Met Campagne kunt u de stroom van aanbiedingsvoorstellen bepalen aan de hand van presentatieregels. Deze regels, die specifiek zijn voor Campagne Interaction, zijn **typologische regels**. Hiermee kunt u aanbiedingen uitsluiten op basis van de geschiedenis van voorstellen die al aan een ontvanger zijn gedaan. Er wordt naar verwezen in de omgeving.
 
-↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers) voor meer informatie
+![](../assets/do-not-localize/book.png) Raadpleeg de  [Campaign Classic v7-documentatie voor meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
 
 ## Aanbiedingssimulatie
 
@@ -196,4 +196,4 @@ Met de module Simulatie kunt u de distributie testen van aanbiedingen die tot ee
 
 Bij de simulatie wordt rekening gehouden met de context en de subsidiabiliteitsregels die eerder op de aanbiedingen van toepassing waren, en met hun presentatieregels. Dit laat u diverse versies van uw aanbiedingsvoorstel testen en verfijnen zonder eigenlijk een aanbieding of over/onder het eisen van een doel te gebruiken, aangezien de simulatie geen effect op de gerichte ontvangers heeft.
 
-↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en) voor meer informatie over de simulatie van aanbiedingen
+![](../assets/do-not-localize/book.png) Raadpleeg de  [Campaign Classic v7-documentatie voor meer informatie over de simulatie van aanbiedingen](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)

@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 2%
@@ -78,7 +78,7 @@ Met behulp van verschillende workflowactiviteiten kunt u bepalen hoe aanbiedinge
 
 Met de activiteit **Verrijking** kunt u aanbiedingen of koppelingen naar aanbiedingen voor leveringsontvangers toevoegen.
 
-↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html) voor meer informatie over de verrijkingsactiviteit.
+![](../assets/do-not-localize/book.png) Raadpleeg de documentatie bij  [Campaign Classic v7 voor meer informatie over verrijkingsactiviteiten](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
 
 Bijvoorbeeld, kunt u de gegevens voor een ontvankelijke vraag vóór een levering verrijken.
 
@@ -165,7 +165,7 @@ De levering slaat automatisch de rangschikking en het gewicht van de aanbiedinge
 
 De **[!UICONTROL Offer engine]** activiteit laat u ook een vraag aan de aanbiedingsmotor vóór de levering specificeren.
 
-↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html) voor meer informatie over de **Aanbiedingsengine**-activiteit
+![](../assets/do-not-localize/book.png) Raadpleeg de documentatie bij  **Campaign Classic v7 voor meer informatie over** de  [Offerteactiviteit](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
 
 Deze activiteit werkt volgens hetzelfde principe als de **Verrijking** activiteit met een motoraanroep, door de binnenkomende bevolkingsgegevens te verrijken met een aanbod dat door de motor wordt berekend, vóór een levering.
 
@@ -188,7 +188,7 @@ Na het vormen van uw **Vraag** activiteit:
 
 De **[!UICONTROL Offers by cell]** activiteit laat u de binnenkomende bevolking (van een vraag bijvoorbeeld) in verscheidene segmenten verdelen en een aanbieding specificeren om voor elk van deze segmenten voor te stellen.
 
-↗️ Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html) voor meer informatie over de **Aanbieding per cel**-activiteit.
+![](../assets/do-not-localize/book.png) Raadpleeg de documentatie bij  **Campaign Classic v7 voor meer informatie over het** aanbod per  [mobiele telefoon](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
 
 Hiervoor gebruikt u het volgende proces:
 

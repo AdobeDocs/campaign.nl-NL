@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 36%
@@ -28,7 +28,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    U moet Campagne Client Console downloaden en installeren om verbinding te maken met Adobe Campaign.
 
-   ?? [Klik hier voor meer informatie](connect.md).
+   ![](../assets/do-not-localize/glass.png) [Klik hier voor meer informatie](connect.md).
 
 1. **Kan Campagne v8 worden geïnstalleerd op een bedrijfs- of hybride omgeving?**
 
@@ -38,9 +38,9 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    E-maillevering, een essentieel onderdeel van het succes van het marketingprogramma van elke afzender, wordt gekenmerkt door voortdurend veranderende criteria en regels. Voor een effectieve navigatie in deze digitale wereld is een regelmatige afstemming van uw e-mailstrategie vereist, waarbij rekening wordt gehouden met belangrijke ontwikkelingen op het gebied van de leverbaarheid, zodat uw publiek het beste kan bereiken.
 
-   ↗️ Verwijs naar deze gids om [Aankoopbaarheid Beste praktijken ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target=&quot;_blank&quot; te leren
+   ![](../assets/do-not-localize/book.png) Raadpleeg deze handleiding voor meer informatie over best practices voor  [aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target=&quot;_blank&quot;}
 
-   ↗️ Leer hoe te om leverbaarheid in Campagne [in deze gids ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target=&quot;_blank&quot; uit te voeren
+   ![](../assets/do-not-localize/book.png) Leer hoe te om leverbaarheid in Campagne  [in deze gids](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html) uit te voeren {target=&quot;_blank&quot;}
 
 1. **Hoe kan ik ervoor zorgen dat mijn levering zonder fouten wordt verzonden?**
 
@@ -50,7 +50,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
 1. **Kan ik de uitvoering van de workflow controleren?**
 
-   ↗️ begrijpen hoe te om de werkschemauitvoering van de Campagne [in Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html){target=&quot;_blank&quot; te controleren
+   ![](../assets/do-not-localize/book.png) Begrijp hoe te om de werkschemauitvoering van de Campagne  [in Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html) te controleren {target=&quot;_blank&quot;}
 
 1. **Met welke systemen en componenten is Campagne v8 compatibel?**
 

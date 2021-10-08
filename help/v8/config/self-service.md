@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 50%
@@ -24,7 +24,7 @@ Belangrijkste voordelen:
 
 U kunt ook Campagne Control Panel gebruiken om uw instantie-instellingen te configureren, zoals IP, maken vermelding, URL-machtigingen en ophalen informatie over uw instantie mogelijk.
 
-↗️ meer in [de documentatie van het Controlebord van de Campagne](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target= &quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Meer informatie in de documentatie [ van het Configuratiescherm van de ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)Campagne {target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 > De volgende mogelijkheden worden nog niet ondersteund in Campagne v8:

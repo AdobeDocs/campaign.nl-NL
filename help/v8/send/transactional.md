@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 1%
@@ -24,13 +24,13 @@ Transactieberichten worden gebruikt voor het verzenden van:
 * een individuele reactie in real time op een klantenactie
 * niet-promotionele inhoud
 
-?? De instellingen voor Transactieberichten worden beschreven in [deze sectie](../config/transactional-msg-settings.md).
+![](../assets/do-not-localize/glass.png) De instellingen voor het transactiebericht worden in  [deze sectie](../config/transactional-msg-settings.md) beschreven.
 
-?? Begrijp transactie overseinenarchitectuur in [deze pagina](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur in  [deze pagina](../dev/architecture.md).
 
 >[!CAUTION]
 >
->Voor Transactioneel overseinen is een specifieke licentie vereist. Controleer uw licentieovereenkomst.
+>Voor Transactioneel overseinen is een specifieke licentie vereist. Controleer hiervoor uw licentieovereenkomst.
 
 ## Transactieberichtsjablonen definiëren
 
@@ -64,7 +64,7 @@ Volg onderstaande stappen om een berichtsjabloon te maken:
 
 ### De inhoud maken{#create-message-content}
 
-De definitie van de inhoud van het transactiebericht is hetzelfde als voor alle leveringen in Adobe Campaign. U kunt bijvoorbeeld voor een e-maillevering inhoud in HTML- of tekstindeling maken, bijlagen toevoegen of het bezorgingsobject aanpassen. Raadpleeg [deze sectie](../start/create-message.md) voor meer informatie.
+De definitie van de inhoud van het transactiebericht is hetzelfde als voor alle leveringen in Adobe Campaign. Voor een e-maillevering kunt u bijvoorbeeld inhoud in HTML- of tekstindeling maken, bijlagen toevoegen of het bezorgingsobject aanpassen. Raadpleeg [deze sectie](../start/create-message.md) voor meer informatie.
 
 >[!CAUTION]
 >
@@ -151,7 +151,7 @@ U kunt berichtlevering testen door een bewijs naar een eerder gecreeerd zaadadre
 
 Bij het verzenden van een bewijs wordt hetzelfde proces gebruikt als bij elke levering.
 
-↗️ meer informatie over proefdrukken in [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;
+![](../assets/do-not-localize/book.png) Meer informatie over proefdrukken in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
 
 Als u echter een bewijs van een transactiebericht wilt verzenden, moet u de volgende bewerkingen uitvoeren:
 

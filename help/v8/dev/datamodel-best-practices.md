@@ -2,7 +2,7 @@
 title: Best practices voor het gegevensmodel
 description: Meer informatie over tips en trucs voor extensies van Campagne-gegevensmodellen
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '2683'
 ht-degree: 4%
@@ -17,9 +17,9 @@ Het Adobe Campaign-systeem is zeer flexibel en kan verder worden uitgebreid dan 
 
 Raadpleeg [deze sectie](datamodel.md) voor een beter begrip van geïntegreerde tabellen voor campagnes en hoe deze zich op elkaar verhouden.
 
-?? Lees [deze sectie](schemas.md) uit om met de schema&#39;s van de Campagne te beginnen.
+![](../assets/do-not-localize/glass.png) Lees  [deze ](schemas.md) sectie om aan de slag te gaan met de schema&#39;s van de Campagne.
 
-?? Leer hoe te om uitbreidingsschema&#39;s te vormen om het conceptuele gegevensmodel van het gegevensbestand van Adobe Campaign in [deze pagina](extend-schema.md) uit te breiden.
+![](../assets/do-not-localize/glass.png) Leer hoe te om uitbreidingsschema&#39;s te vormen om het conceptuele gegevensmodel van het gegevensbestand van Adobe Campaign in  [deze pagina](extend-schema.md) uit te breiden.
 
 ## Gegevensmodelarchitectuur {#data-model-architecture}
 
@@ -108,7 +108,7 @@ Deze aangepaste sleutel is de werkelijke primaire sleutel van de record in het e
 
 Bij het maken van een aangepaste tabel hebt u twee opties:
 * Een combinatie van automatisch gegenereerde sleutel (id) en interne sleutel (aangepast). Deze optie is interessant als uw systeemsleutel een samengestelde sleutel of niet een geheel is. Met Snowflake, gehelen of op koord-gebaseerde sleutels zullen hogere prestaties in grote lijsten en het aansluiten bij andere lijsten verstrekken.
-* De primaire sleutel gebruiken als de primaire sleutel van het externe systeem. Deze oplossing heeft doorgaans de voorkeur, omdat deze de aanpak van het importeren en exporteren van gegevens vereenvoudigt, met een consistente sleutel tussen verschillende systemen. **De optie** Automatisch uitschakelen moet worden uitgeschakeld als de sleutel de naam &quot;id&quot; heeft en moet worden gevuld met externe waarden (niet automatisch gegenereerd).
+* De primaire sleutel gebruiken als de primaire sleutel van het externe systeem. Deze oplossing heeft doorgaans de voorkeur, omdat deze de aanpak van het importeren en exporteren van gegevens vereenvoudigt, met een consistente sleutel tussen verschillende systemen. **** De automatische modus moet worden uitgeschakeld als de sleutel de naam &quot;id&quot; heeft en moet worden gevuld met externe waarden (niet automatisch gegenereerd).
 
 >[!CAUTION]
 >

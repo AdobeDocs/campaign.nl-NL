@@ -2,7 +2,7 @@
 title: Algemene architectuur
 description: Meer informatie over campagnearchitectuur en -componenten
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 0%
@@ -31,15 +31,15 @@ De toepassing kan op verschillende manieren worden benaderd: Rich client-, thin 
 
 * **Clientconsole**: De hoofdgebruikersinterface van de toepassing is een native toepassing (in Windows) die communiceert met de Adobe Campaign-toepassingsserver met standaard internetprotocollen (SOAP, HTTP, enz.). Adobe Campaign Client Console biedt geweldige gebruiksvriendelijkheid voor productiviteit, gebruikt zeer weinig bandbreedte (door het gebruik van een lokale cache) en is ontworpen voor eenvoudige implementatie. Deze console kan vanuit een internetbrowser worden geïmplementeerd, kan automatisch worden bijgewerkt en vereist geen specifieke netwerkconfiguratie omdat alleen HTTP(S)-verkeer wordt gegenereerd.
 
-   ?? [Meer informatie over Campagne-clientconsole](../start/connect.md).
+   ![](../assets/do-not-localize/glass.png) [Meer informatie over de Campagne-clientconsole](../start/connect.md).
 
-* **Webtoegang**: delen van de toepassing zijn toegankelijk via een eenvoudige webbrowser met behulp van een HTML-gebruikersinterface, zoals de rapportmodule, de goedkeuringsfasen voor levering, de controle van instanties, enz.
+* **Webtoegang**: delen van de toepassing zijn toegankelijk via een eenvoudige webbrowser die een HTML-gebruikersinterface gebruikt, zoals de rapportmodule, de goedkeuringsfasen voor levering, de controle van instanties, enz.
 
-   ?? [Meer informatie over de Toegang van het Web van de Campagne](../start/connect.md).
+   ![](../assets/do-not-localize/glass.png) [Meer weten over Campagne Web Access](../start/connect.md)?
 
 * **Campagne-API&#39;s**: In bepaalde gevallen, kan het systeem van externe toepassing worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van de ZEEP worden blootgesteld.
 
-   ?? [Meer informatie over campagne-API&#39;s](../dev/api.md).
+   ![](../assets/do-not-localize/glass.png) [Meer informatie over campagne-API&#39;s](../dev/api.md).
 
 ## Ontwikkelingsomgeving {#dev-env}
 

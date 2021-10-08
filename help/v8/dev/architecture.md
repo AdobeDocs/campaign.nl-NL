@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Drie soorten omgevingen beschikbaar met Campagne Cloud Service:
 
 U kunt pakketten van de ene omgeving naar de andere exporteren en importeren.
 
-↗️ Meer informatie over pakketten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
+![](../assets/do-not-localize/book.png) Meer informatie over pakketten in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## Midsourcingimplementatie{#mid-sourcing-deployment}
 
@@ -49,7 +49,7 @@ De algemene communicatie tussen servers en processen wordt uitgevoerd volgens he
 
 Transactioneel overseinen (het Centrum van het Bericht) is de module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen.
 
-?? Leer hoe te om transactieberichten in [deze sectie](../send/transactional.md) te verzenden.
+![](../assets/do-not-localize/glass.png) Leer hoe u transactiemeldingen verzendt in  [deze sectie](../send/transactional.md).
 
 Als reactie op een actie van een klant op een website, wordt een gebeurtenis verzonden Campagne door REST API, en het berichtmalplaatje wordt bevolkt met de informatie of de gegevens die door de API vraag worden verstrekt, en een transactiebericht wordt verzonden in real time naar de klant. Deze berichten kunnen individueel of in partijen via e-mail, SMS of push-berichten worden verzonden.
 
@@ -57,7 +57,7 @@ In deze specifieke architectuur, wordt de uitvoeringscel gescheiden van de contr
 
 * De **Control-instantie** (of marketinginstantie) wordt door marketers en IT-teams gebruikt om berichtsjablonen te maken, te configureren en te publiceren. Deze instantie centraliseert ook gebeurteniscontrole en geschiedenis.
 
-   ?? Leer hoe te om berichtmalplaatjes in [deze sectie te creëren en te publiceren](../send/transactional.md).
+   ![](../assets/do-not-localize/glass.png) Leer hoe u berichtsjablonen maakt en publiceert in  [deze sectie](../send/transactional.md).
 
 * Met de **uitvoeringsinstantie** worden binnenkomende gebeurtenissen opgehaald (bijvoorbeeld opnieuw instellen van wachtwoord of bestellingen van een website) en worden persoonlijke berichten verzonden. Er kunnen meer dan één uitvoeringsinstantie zijn om berichten te verwerken via het taakverdelingsmechanisme en het aantal gebeurtenissen te schalen dat moet worden uitgevoerd voor maximale beschikbaarheid.
 
@@ -78,4 +78,4 @@ Dan, met sessionToken die door de uitvoeringsinstantie in antwoord op de bovenge
 * Meerdere uitvoeringen
 In een multi-cel uitvoeringsarchitectuur met veelvoudige uitvoeringsinstanties achter een ladingsverdelingsmechanisme, gaat de openings van een sessiemethode die door de externe toepassing wordt aangehaald door het taakverdelingsmechanisme: daarom kan een tokengebaseerde verificatie niet worden gebruikt. Een op gebruiker/wachtwoord-gebaseerde authentificatie wordt vereist.
 
-↗️ Meer informatie over Transactionele berichtengebeurtenissen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)
+![](../assets/do-not-localize/book.png) Meer informatie over Transactionele berichtengebeurtenissen in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)

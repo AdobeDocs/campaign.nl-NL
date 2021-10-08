@@ -2,7 +2,7 @@
 title: Campagne-schema's uitbreiden
 description: Meer informatie over het uitbreiden van Campagne-schema's
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -22,7 +22,7 @@ De belangrijkste stappen om het datamodel van de Campagne aan te passen zijn:
 >[!CAUTION]
 >Ingebouwd schema mag niet rechtstreeks worden gewijzigd. Als u een ingebouwd schema moet aanpassen, moet u het uitbreiden.
 
-?? Raadpleeg [deze pagina](datamodel.md) voor een beter begrip van geïntegreerde tabellen en hun interactie voor campagnes. Zie ook aanbevelingen wanneer het creëren van een nieuw schema in [deze pagina](create-schema.md).
+![](../assets/do-not-localize/glass.png) Raadpleeg  [deze pagina](datamodel.md) voor een beter begrip van ingebouwde tabellen en hun interactie voor campagnes. Zie ook aanbevelingen wanneer het creëren van een nieuw schema in [deze pagina](create-schema.md).
 
 Voer de volgende stappen uit om een schema uit te breiden:
 

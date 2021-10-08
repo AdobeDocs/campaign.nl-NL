@@ -4,8 +4,7 @@ description: Leer hoe u kunt werken met Campagne en externe databases
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 3%
@@ -166,8 +165,8 @@ Eerst, zodat de gebruiker verrichtingen op een extern gegevensbestand via FDA ka
 1. Voer de naam van het benoemde recht in de volgende notatie in **user:base@server**, waarbij:
 
    * **** gebruiker is de naam van de gebruiker in het externe gegevensbestand
-   * **De naam van de externe database** baseren
-   * **De** server is de naam van de externe databaseserver
+   * **** baseert de naam van de externe database
+   * **** server is de naam van de externe databaseserver
 
 1. Sparen het Benoemde recht en verbind het met uw gekozen exploitant van de **[!UICONTROL Administration > Access Management > Operators]** knoop van de ontdekkingsreiziger van Adobe Campaign.
 

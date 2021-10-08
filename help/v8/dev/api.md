@@ -4,8 +4,7 @@ description: Aan de slag met campagne-API's
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 2%
@@ -47,13 +46,13 @@ Als u API&#39;s wilt gebruiken en wilt communiceren met [!DNL Adobe Campaign], m
 
 Met [!DNL Campaign] Cloud-database worden unitaire aanroepen niet aanbevolen vanwege de prestaties (latentie en gelijktijdige uitvoering). Batchbewerking heeft altijd de voorkeur. Om optimale prestaties van APIs te waarborgen, blijft de Campagne API vraag op het lokale gegevensbestandniveau behandelen.
 
-?? [API-staging wordt beschreven in deze pagina](staging.md)
+![](../assets/do-not-localize/glass.png) [Het mechanisme voor API-staging wordt in deze pagina beschreven](staging.md)
 
 ## Nieuwe API&#39;s
 
 Er zijn nieuwe API&#39;s beschikbaar voor het beheer van gegevenssynchronisatie tussen de lokale database van [!DNL Campaign] en de Cloud-database. Er is ook een nieuw mechanisme geïntroduceerd om API-aanroepen op lokaal databaseniveau af te handelen om latentie te voorkomen en de algehele prestaties te verbeteren.
 
-?? [Nieuwe API&#39;s worden in deze pagina beschreven](new-apis.md)
+![](../assets/do-not-localize/glass.png) [Nieuwe API&#39;s worden in deze pagina beschreven](new-apis.md)
 
 **Verwante onderwerpen**
 

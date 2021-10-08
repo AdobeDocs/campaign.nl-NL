@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 3%
@@ -24,7 +24,7 @@ Belangrijkste wijzigingen:
 
 Als [!DNL Campaign Classic] gebruiker, merk op dat de meeste [!DNL Campaign Classic] v7 eigenschappen beschikbaar met [!DNL Campaign] v8, behalve een kleine reeks van hen, die in [deze sectie](#gs-removed) worden vermeld. Andere zullen in toekomstige versies worden vrijgegeven. [Meer informatie in deze sectie](#gs-unavailable-features)
 
-?? Meer informatie over [!DNL Campaign] v8-architectuur in [deze pagina](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Meer informatie over  [!DNL Campaign] v8-architectuur vindt u op  [deze pagina](../dev/architecture.md).
 
 ## Wijzigingen in productconfiguratie
 
@@ -73,7 +73,7 @@ Campagnegebruikers hoeven geen databasedeskundigen te zijn: er is niet langer be
 
 Campagnegebruikers maken verbinding via hun Adobe ID. Dezelfde Adobe ID wordt gebruikt om al uw Adobe-plannen en -producten voor één account te bewaren.
 
-?? Leer hoe u in [deze pagina](connect.md) verbinding maakt met [!DNL Campaign].
+![](../assets/do-not-localize/glass.png) Leer hoe u verbinding maakt  [!DNL Campaign] op  [deze pagina](connect.md).
 
 ## Rapportage
 
@@ -85,7 +85,7 @@ Campagne v8 biedt een extra activiteit voor een doelgerichte workflow: **[!UICON
 
 Met de activiteit **[!UICONTROL Change data source]** kunt u de gegevensbron van een werkstroom **[!UICONTROL Working table]** veranderen om gegevens over verschillende gegevensbronnen zoals FDA, FFDA en lokale gegevensbestand te beheren.
 
-?? Meer informatie over de **[!UICONTROL Change data source]** activiteit in [deze pagina](../config/workflows.md#change-data-source-activity).
+![](../assets/do-not-localize/glass.png) Meer informatie over de  **[!UICONTROL Change data source]** activiteiten op  [deze pagina](../config/workflows.md#change-data-source-activity).
 
 ## Niet-beschikbare functies{#gs-unavailable-features}
 

@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 0%
@@ -33,19 +33,19 @@ Leer hoe u workflows ontwerpt in deze [gebruiksgevallen van begin tot eind](#end
 
 Meer informatie over de gebruikersinterface en uitvoering van workflows vindt u in de Campaign Classic v7-documentatie:
 
-↗️ [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+* [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
-↗️ [Workflow best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;}
+* [Best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html) workflow {target=&quot;_blank&quot;}
 
-↗️ [Ingebouwde technische werkbladen](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
+* [Ingebouwde technische workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
 
-↗️ [Uitvoering van workflows controleren](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
+* [Uitvoering](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) van workflows controleren{target=&quot;_blank&quot;}
 
-↗️ [Bouw een publiek in een marketing campagnewerkschema](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
+* [Een publiek maken in een workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow) voor marketingcampagnes {target=&quot;_blank&quot;}
 
 ## Workflowactiviteiten {#wf-activities}
 
-↗️ Meer informatie over de beschikbare workflowactiviteiten [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;
+![](../assets/do-not-localize/book.png) Meer informatie over de beschikbare workflowactiviteiten vindt u in de  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}
 
 Workflowactiviteiten worden gegroepeerd op categorie. De vier categorieën activiteiten zijn beschikbaar:
 
@@ -92,18 +92,18 @@ De **[!UICONTROL Change Data Source]**-activiteit gebruiken:
 
 Regelterugkerende workflows ontwerpen en telkens wanneer de workflow wordt uitgevoerd, een nieuwe leveringsinstantie maken. Als uw workflow bijvoorbeeld eenmaal per week wordt uitgevoerd, levert dat na één jaar 52 leveringen op. Dit betekent ook dat de logboeken door elke leveringsinstantie zullen worden gescheiden.
 
-↗️ Leer hoe te om een terugkomende campagne in [Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot; te creëren
+![](../assets/do-not-localize/book.png) Leer hoe u een terugkerende campagne maakt in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}
 
 
 ## Hefboomtriggergebeurtenissen
 
 Het Transactionele overseinen van de Campagne van het gebruik om berichten te automatiseren die van gebeurtenissen worden geproduceerd die van informatiesystemen worden teweeggebracht. Deze transactiemeldingen kunnen bijvoorbeeld bestaan uit facturen, orderbevestiging, bevestiging van verzending, wijziging van het wachtwoord, kennisgeving van onbeschikbaarheid van het product, rekeningafschriften of het maken van websiteaccounts. Deze berichten kunnen individueel of in partij via e-mail, SMS of push berichten worden verzonden.
 
-?? Meer informatie over mogelijkheden voor transactioneel overseinen vindt u in [deze sectie](../send/transactional.md).
+![](../assets/do-not-localize/glass.png) Meer informatie over mogelijkheden voor transactieberichten vindt u in  [deze sectie](../send/transactional.md).
 
 Verbind Adobe Campaign en Adobe Analytics om gebruikersacties terug te winnen en dichtbij real-time gepersonaliseerde berichten te verzenden.
 
-?? Leer hoe te om Campagne met andere oplossingen in [deze sectie](../start/connect.md) te integreren
+![](../assets/do-not-localize/glass.png) Leer hoe u campagne kunt integreren met andere oplossingen in  [deze sectie](../start/connect.md)
 
 
 ## Gebruiksgevallen van end-to-end werkstroom{#end-to-end-uc}
@@ -122,7 +122,7 @@ In deze sectie vindt u verschillende gebruiksgevallen waarbij gebruik wordt gema
 
    In dit geval wordt beschreven hoe u een terugkerende e-mail naar een lijst met ontvangers op de dag van hun geboortedatum wilt sturen.
 
-* [Inhoud](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html) voor levering laden {target=&quot;_blank&quot;} Wanneer uw leveringsinhoud beschikbaar is in een HTML-bestand op een externe server, kunt u deze inhoud gemakkelijk laden in Adobe Campaign-leveringen.
+* [Inhoud](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html) voor levering laden {target=&quot;_blank&quot;} Wanneer uw leveringsinhoud beschikbaar is in een HTML-bestand op een externe server, kunt u deze inhoud eenvoudig laden in Adobe Campaign-leveringen.
 
 * [Workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/cross-channel-delivery-workflow.html) voor levering tussen kanalen{target=&quot;_blank&quot;}
 
@@ -143,7 +143,7 @@ In deze sectie vindt u verschillende gebruiksgevallen waarbij gebruik wordt gema
 
 * [Een rapport naar een lijst](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html) verzenden{target=&quot;_blank&quot;}
 
-   Leer hoe u maandelijks een ingebouwd traceringsindicatoren genereert in PDF-indeling en deze naar een lijst met campagneoperatoren verzendt.
+   Leer hoe u maandelijks een ingebouwd traceringsindicatoren genereert in de indeling PDF en deze naar een lijst met campagneoperatoren verzendt.
 
 * [Uw workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/supervising-workflows.html) controleren{target=&quot;_blank&quot;}
 

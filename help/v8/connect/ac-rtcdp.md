@@ -1,22 +1,22 @@
 ---
-title: Werken met Campagne en Real-Time Platform van de Gegevens van de Klant
-description: Leer hoe te met Campagne en het Platform van de Gegevens van de Klant in real time te werken
+title: Werken met campagne en Real-time Customer Data Platform
+description: Leer hoe u kunt werken met Campagne en Real-time Customer Data Platform
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 3205b492552afc0aa0514f8995f508439a7a9a0b
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
-# Werken met Campagne en Real-Time Platform van de Gegevens van de Klant
+# Werken met campagne en Real-time Customer Data Platform
 
-Met **Adobe Experience Platform**, kunt u gegevens tussen Campagne en Adobe Real-time Platform van de Gegevens van de Klant (RTCDP) delen. Dit staat u toe om het publiek van Adobe Experience Platform in uw werkschema&#39;s van de Campagne te richten, dan terug naar de gegevens van het Platform van de Gegevens van de Klant van de Adobe in real time met betrekking tot deze doelgroepen zoals verzendt, opent, en klikt.
+Met **Adobe Experience Platform** kunt u gegevens delen tussen Campagne en Adobe Real-time Customer Data Platform (RTCDP). Op deze manier kunt u Adobe Experience Platform-doelgroepen in uw campagneworkflows gebruiken en vervolgens gegevens naar Adobe Real-time Customer Data Platform sturen die betrekking hebben op deze doelgroepen, zoals verzenden, openen en klikken.
 
-↗️ Meer informatie over RTCDP in [deze sectie](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=en)
+![](../assets/do-not-localize/book.png) Meer informatie over RTCDP in  [deze sectie](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=en)
 
-↗️ Leer hoe u RTCDP met Campagne implementeert en gebruikt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) Meer informatie over het implementeren en gebruiken van RTCDP met Campagne in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ?? Als Beheerde gebruiker van Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om RTCDP en Campagne te verbinden.

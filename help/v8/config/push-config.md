@@ -1,12 +1,12 @@
 ---
 title: SDK's voor campagnes integreren met uw app
-description: Meer informatie over het integreren van Campagne-Android- en iOS-SDK's in uw app
+description: Leer hoe u de SDK's van Campagne Android en iOS integreert met uw app
 version: v8
 feature: Push
 role: Developer
 level: Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Gebruik de campagne-SDK&#39;s voor iOS en Android om de integratie van uw mobiele toepassing in het Adobe Campaign-platform te vergemakkelijken.
 
-Ondersteunde versies voor Android en iOS, en compatibele versies voor Campagne SDK&#39;s voor Campagne v8 worden vermeld in [Compatibiliteitsmatrix](../start/compatibility-matrix.md#MobileSDK).
+Door Android en iOS ondersteunde versies en met Campagne compatibele versies van SDK&#39;s voor Campagne v8 zijn opgenomen in de [Compatibiliteitsmatrix](../start/compatibility-matrix.md#MobileSDK).
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de function
 
 Android SDK is een jar-bibliotheek geschreven in JAVA. Zo kunnen Android-ontwikkelaars integreren met Adobe Campaign: registreert een nieuw apparaat, koppelt het apparaat met een gebruiker, volgt gedrag, en meer.
 
-In deze sectie leert u hoe u de Android-SDK kunt gebruiken in een Android-toepassing die [FCM (Firebase Cloud Messaging)](https://firebase.google.com/docs/cloud-messaging/) van Google implementeert.
+In deze sectie leert u hoe u de Android-SDK gebruikt in een Android-toepassing die [Google Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/) implementeert.
 
 >[!CAUTION]
 >
@@ -590,7 +590,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
 1. **Beheer van stille meldingen**
 
-   Met iOS kunt u geen meldingen verzenden, een melding of gegevens die rechtstreeks naar een mobiele toepassing worden verzonden zonder deze weer te geven. Met Adobe Campaign kun je ze volgen.
+   Met iOS kunt u meldingen op de achtergrond verzenden, een melding of gegevens die rechtstreeks naar een mobiele toepassing worden verzonden zonder deze weer te geven. Met Adobe Campaign kun je ze volgen.
 
    Volg het onderstaande voorbeeld om je melding op te volgen:
 
@@ -638,9 +638,9 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
-   * **Met** Status kunt u weten of een registratie is geslaagd of dat een fout is opgetreden.
+   * **** Met Status kunt u zien of een registratie is geslaagd of dat een fout is opgetreden.
 
-   * **** ErrorReasonBiedt u meer informatie over de fouten die voorkwamen. Raadpleeg de onderstaande tabel voor meer informatie over beschikbare fouten en beschrijvingen.
+   * **** ErrorReasonprovided u van meer informatie over de fouten die voorkwamen. Raadpleeg de onderstaande tabel voor meer informatie over beschikbare fouten en beschrijvingen.
 
    | Status | Beschrijving | ErrorReason |
    | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
@@ -794,7 +794,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
 Met de variabelen kunt u het gedrag van mobiele toepassingen definiëren nadat u een melding hebt ontvangen. Deze variabelen moeten worden gedefinieerd in de mobiele toepassingscode en in de Adobe Campaign-console, op het tabblad **[!UICONTROL Variables]** in de speciale service voor mobiele toepassingen.
 
-↗️ Meer informatie in **Campaign Classic v7-documentatie** op mobiele app: [Configuratiestappen voor iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} en [Configuratiestappen voor Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Meer informatie in  **Campaign Classic v7-** documentatie over mobiele app:  [Configuratiestappen voor iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} en  [configuratiestappen voor Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
 
 Hieronder ziet u een voorbeeld van een code waarmee een mobiele toepassing toegevoegde variabelen in een melding kan verzamelen. In ons voorbeeld gebruiken we de variabele &quot;VAR&quot;.
 

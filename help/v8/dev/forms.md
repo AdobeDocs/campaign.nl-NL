@@ -2,9 +2,9 @@
 title: Invoerformulieren voor campagnes
 description: Leer hoe u invoerformulieren kunt aanpassen
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2552'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,11 @@ Het bewerkingsbesturingselement past zich automatisch aan het overeenkomstige ge
 
 Elk veld wordt standaard weergegeven op één regel en neemt alle beschikbare ruimte in beslag, afhankelijk van het type gegevens.
 
-↗️ Alle formulierkenmerken worden vermeld in [Campaign Classic v7-documentatie](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
+![](../assets/do-not-localize/book.png) Alle formulierkenmerken worden vermeld in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html).
 
 ## Opmaak {#formatting}
 
-De lay-out van de besturingselementen lijkt op de lay-out die wordt gebruikt in HTML-tabellen, met de mogelijkheid om een besturingselement te verdelen in meerdere kolommen, elementen te interliniëren of de bezetting van de beschikbare ruimte op te geven. Houd er echter rekening mee dat u met de opmaak het gebied alleen door verhoudingen kunt opsplitsen. u kunt geen vaste afmetingen opgeven voor een object.
+De lay-out van de controles kijkt als lay-out die in HTML lijsten wordt gebruikt, met de mogelijkheid om een controle in verscheidene kolommen te verdelen, interliniërende elementen, of het specificeren van de bezetting van beschikbare ruimte. Houd er echter rekening mee dat u met de opmaak het gebied alleen door verhoudingen kunt opsplitsen. u kunt geen vaste afmetingen opgeven voor een object.
 
 De besturingselementen van het bovenstaande voorbeeld in twee kolommen weergeven:
 

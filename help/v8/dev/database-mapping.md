@@ -2,7 +2,7 @@
 title: Toewijzing van Campagne-database
 description: Toewijzing van Campagne-database
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -91,13 +91,13 @@ Als u een veld in XML wilt vullen, moet u het **xml**-kenmerk met de waarde &quo
    <element name="comment" xml="true" type="memo" label="Comment"/>
    ```
 
-* Beschrijving van gegevens in HTML-indeling:
+* Beschrijving van de gegevens in HTML-formaat:
 
    ```
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   Met het type &quot;html&quot; kunt u de HTML-inhoud opslaan in een CDATA-tag en een speciale HTML-bewerkingscontrole weergeven in de Adobe Campaign-clientinterface.
+   Met het type &quot;html&quot; kunt u de HTML-inhoud opslaan in een CDATA-tag en een speciale controle voor het bewerken van HTML weergeven in de Adobe Campaign-clientinterface.
 
 Met XML-velden kunt u velden toevoegen zonder dat u de fysieke structuur van de database hoeft te wijzigen. Een ander voordeel is dat u minder bronnen gebruikt (grootte die is toegewezen aan SQL-velden, beperking van het aantal velden per tabel, enzovoort).
 
@@ -256,7 +256,7 @@ Voor join-relaties met gebruik van Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Kardinaliteit 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Kardinaliteit 1-N
 
-?? Raadpleeg [Federated Data Access](../connect/fda.md) voor meer informatie over FDA-tabellen.
+![](../assets/do-not-localize/glass.png) Raadpleeg  [Federated Data Access](../connect/fda.md) voor meer informatie over FDA-tabellen.
 
 Een koppeling moet worden gedeclareerd in het schema met de externe sleutel van de tabel die is gekoppeld via het hoofdelement:
 
