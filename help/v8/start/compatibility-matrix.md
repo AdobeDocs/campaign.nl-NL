@@ -5,24 +5,22 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 83874f4d124d7892f99e973684b1e8ee571f31e0
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 29%
+source-wordcount: '343'
+ht-degree: 27%
 
 ---
 
 # Compatibiliteitsmatrix voor campagne v8
 
-Dit document bevat een lijst met alle systemen en onderdelen die worden ondersteund voor de nieuwste build van **Adobe Campaign v8**. Tenzij anders vermeld worden alle kleine releases ondersteund. Producten en versies die geen deel uitmaken van deze lijst, zijn niet compatibel met Adobe Campaign.
+Dit document bevat een lijst met alle systemen en onderdelen die worden ondersteund voor de nieuwste versie van **Adobe Campaign v8**. Tenzij anders vermeld worden alle kleine releases ondersteund. Producten en versies die niet in deze lijst staan, zijn niet compatibel met Adobe Campaign.
 
 Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het einde van de levensduur (EOL) bereiken, is Adobe Campaign niet meer compatibel met die versies en worden ze verwijderd uit deze compatibiliteitsmatrix. Zorg ervoor dat u ondersteunde versies van alle systemen in de compatibiliteitsmatrix gebruikt om problemen te voorkomen.
 
 ## Clientconsole{#ClientConsoleoperatingsystems}
 
->[!CAUTION]
->
-> De volgende besturingssystemen en browser zijn vereist om de Campaign Client Console te gebruiken.
+De volgende besturingssystemen en browser zijn vereist om de Campaign Client Console te gebruiken. [Meer info](connect.md).
 
 ### Besturingssystemen
 
@@ -33,12 +31,20 @@ Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het ei
 
 **Microsoft Internet Explorer** 11
 
+>[!NOTE]
+>
+>Adobe Campaign Server en Client Console moeten dezelfde versie hebben. [Leer hoe u uw versie](#version) kunt controleren.
+
 ## CRM-connectoren{#CRMconnectors}
 
+Hieronder vindt u CRM-systemen (Customer Relationship Management) die compatibel zijn met Adobe Campaign. [Meer info](../connect/crm.md).
+
 * **** Salesforceconnector API versie 49
-* **Microsoft** DynamicConnector, Web API: Dynamics 365 On-premise en Online
+* **Microsoft** Dynamicsconnector, Web API: Dynamics 365 On-premise en Online
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
+
+Externe databases die compatibel zijn met de module Adobe Campaign Federated Data Access (FDA) worden hieronder weergegeven. [Meer info](../connect/fda.md).
 
 * **Amazon Redshift**
 * **[!DNL Google Big Query]**
@@ -47,18 +53,20 @@ Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het ei
 
 ## Mobiele SDK{#MobileSDK}
 
+Met Campagne kunt u [pushmeldingen](../send/push.md) verzenden naar de hieronder vermelde besturingssystemen met de bijbehorende mobiele SDK.
+
 * **Android** 7.x, 8.x, 9.0 met Campagne Android SDK build 1.1.1.
-* **Apple iOS** 9 - 14 met Campagne iOS SDK build 1.0.26, compatibel met 32- en 64-bits versies.
+* **Apple iOS** 9 - 14 met Campaign iOS SDK build 1.0.26, compatibel met 32- en 64-bits versies.
 
 ## Webtoegang
 
-De volgende browsers zijn compatibel met Campaign voor toegang tot internet.
+De volgende browsers zijn compatibel met Campagne voor [Toegang van het Web](connect.md#web-access).
 
 * **Microsoft Edge**,  **Mozilla Firefox**,  **Google Chrome**,  **Safari**  (nieuwste versies)
 
 * **Internet Explorer** 11
 
-## Hoe te om uw versie van de Campagne te controleren en te bouwen
+## Hoe te om uw versie van de Campagne te controleren en te bouwen{#version}
 
 Open het menu **Help > Info..** om uw versie te controleren.
 
