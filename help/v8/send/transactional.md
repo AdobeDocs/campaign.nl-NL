@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. Deze berichten worden geproduceerd van gebeurtenissen die van informatiesystemen teweeggebracht worden, en kunnen zijn: factuur, bevestiging van bestelling, bevestiging van verzending, wijziging van wachtwoord, kennisgeving van onbeschikbaarheid van product, rekeningoverzicht of het maken van websiteaccount, bijvoorbeeld.
 
-?? Als Beheerde gebruiker van Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
+![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
 
 Transactieberichten worden gebruikt voor het verzenden van:
 

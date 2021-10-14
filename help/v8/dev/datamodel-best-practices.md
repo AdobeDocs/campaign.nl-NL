@@ -2,7 +2,7 @@
 title: Best practices voor het gegevensmodel
 description: Meer informatie over tips en trucs voor extensies van Campagne-gegevensmodellen
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '2683'
 ht-degree: 4%
@@ -175,7 +175,7 @@ Er zijn een paar oplossingen om de behoefte aan verslagen in Adobe Campaign te m
 
 U kunt het kenmerk &quot;deleteStatus&quot; in een schema declareren. Het is efficiënter om het verslag te merken zoals geschrapt, dan de schrapping in de schoonmaakbeurt uit te stellen taak.
 
-?? Als Beheerde gebruiker van Cloud Services, bereik aan de consultants van Adobe of technische beheerders om meer over behoud te leren of als u behoud voor douanetabellen moet plaatsen.
+![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, bereik aan de consultants van Adobe of technische beheerders om meer over behoud te leren of als u behoud voor douanetabellen moet plaatsen.
 
 ## Prestaties {#performance}
 

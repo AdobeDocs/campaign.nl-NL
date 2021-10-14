@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 36%
@@ -22,7 +22,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Deze regelmatige updates zijn bedoeld om u het nieuwste en beste in handen te geven, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Daarom is het zo belangrijk dat u met de meest recente versie van Adobe Campaign werkt.
 
-   ?? Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Adobe met elke nieuwe versie.
+   ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Adobe met elke nieuwe versie.
 
 1. **Hoe kan ik verbinding maken met Campaign v8?**
 
@@ -60,7 +60,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 
-   ?? Als Beheerde gebruiker van Cloud Services, contacteer Adobe om uw subdomeinen aan Adobe te delegeren.
+   ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, contacteer Adobe om uw subdomeinen aan Adobe te delegeren.
 
 1. **Mag ik als Campaign Classic v7-gebruiker migreren naar Campaign v8?**
 

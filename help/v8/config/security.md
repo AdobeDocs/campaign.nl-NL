@@ -2,7 +2,7 @@
 title: Tips en trucs voor beveiliging
 description: Ga aan de slag met best practices voor Campagne-beveiliging
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -24,7 +24,7 @@ De configuratie van de privacy en het verharden is een zeer belangrijk element v
 * Controleer of gecodeerde wachtwoorden beperkt zijn
 * Protect de pagina&#39;s die persoonlijke gegevens kunnen bevatten, zoals spiegelpagina&#39;s, webtoepassingen, enz.
 
-?? Als Beheerde gebruiker van Cloud Services, zal Adobe met u werken om deze configuraties op uw milieu uit te voeren.
+![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, zal Adobe met u werken om deze configuraties op uw milieu uit te voeren.
 
 ## Personalisatie
 

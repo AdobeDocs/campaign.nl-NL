@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 11%
@@ -22,7 +22,7 @@ Adobe Campaign wordt geleverd met verschillende connectors waarmee u kunt commun
 
 Moderniseer uw implementatie en gebruik alle Adobe Experience Cloud-mogelijkheden.
 
-?? Als Beheerde gebruiker van Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden.
 
 Campagne v8 kan verbinding maken met:
 

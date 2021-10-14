@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 4%
@@ -34,7 +34,7 @@ U kunt externe accounts openen vanuit Adobe Campaign **[!UICONTROL Explorer]**: 
 
 Adobe Campaign gebruikt de volgende technische accounts om specifieke processen in te schakelen en uit te voeren.
 
-?? Als Beheerde gebruiker van Cloud Services, vormt Adobe alle campagne-specifieke externe rekeningen voor u.
+![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, vormt Adobe alle campagne-specifieke externe rekeningen voor u.
 
 * **Stuitberichten (POP3)**
 
@@ -80,14 +80,14 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
    ![](../assets/do-not-localize/glass.png) Meer weten over de integratie van Adobe Campaign en Adobe Analytics in  [deze pagina](../connect/ac-aa.md)?
 
-   ?? Als Beheerde gebruiker van Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om Adobe Analytics met Campagne te integreren.
+   ![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services  [neemt u contact op met ](../start/campaign-faq.md#support) Adobe om Adobe Analytics te integreren met Campagne.
 
    * **Adobe Experience Manager**
    Met de externe account **[!UICONTROL AEM]** kunt u de inhoud van uw e-mailleveringen en uw formulieren rechtstreeks in Adobe Experience Manager beheren.
 
    ![](../assets/do-not-localize/glass.png) Meer weten over de integratie van Adobe Campaign en Adobe Analytics in  [deze pagina](../connect/ac-aem.md)?
 
-   ?? Als Beheerde gebruiker van Cloud Services, [contacteer Adobe](../start/campaign-faq.md#support) om Adobe Experience Manager met Adobe Campaign te integreren.
+   ![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services  [neemt u contact op met ](../start/campaign-faq.md#support) Adobe om Adobe Experience Manager te integreren met Adobe Campaign.
 
 
 ## Externe CRM-connectorrekeningen

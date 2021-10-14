@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Let op:
 
 * Er wordt alleen rekening gehouden met e-mailberichten die zijn verzonden, maar met bedragen.
 
-?? Als Beheerde gebruiker van Cloud Services, [contacteer Adobe](../start/campaign-faq.md#support) om E-mail BCC in Campagne te activeren. Het BCC e-mailadres van uw keus moet aan het team van de Adobe worden verstrekt die het voor u zal vormen.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services  [neemt u contact op met ](../start/campaign-faq.md#support) Adobe om e-mail-BCC te activeren in Campagne. Het BCC e-mailadres van uw keus moet aan het team van de Adobe worden verstrekt die het voor u zal vormen.
 
 Zodra e-mail BCC wordt gevormd, zorg ervoor de eigenschap in het leveringsmalplaatje of in de levering door de **e-mailBCC** optie wordt toegelaten.
 

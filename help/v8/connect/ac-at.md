@@ -4,7 +4,8 @@ description: Leer hoe u kunt werken met Campagne en Adobe Target
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 1%
@@ -20,7 +21,7 @@ Deze integratie helpt u om gebruiksgevallen als volgt uit te voeren: wanneer een
 >[!NOTE]
 >De integratie ondersteunt alleen statische afbeeldingen. De andere typen inhoud kunnen niet worden gepersonaliseerd.
 
-?? Als Beheerde gebruiker van Cloud Services, [contacteer Adobe](../start/campaign-faq.md#support) om de trekkers van Experience Cloud met Campagne uit te voeren.
+![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om de trekkers van Experience Cloud met Campagne uit te voeren.
 
 Adobe Target kan de volgende gegevenstypen gebruiken:
 

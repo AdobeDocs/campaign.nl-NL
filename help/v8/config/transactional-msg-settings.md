@@ -5,28 +5,28 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
-# Transactionele berichtinstellingen
+# Transactional messaging settings
 
-?? Als Beheerde gebruiker van Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
 
 ![](../assets/do-not-localize/glass.png) Transactionele berichtenmogelijkheden worden beschreven in  [deze sectie](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur in  [deze pagina](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture in [this page](../dev/architecture.md).
 
-## Machtigingen definiëren
+## Define permissions
 
-Als u nieuwe gebruikers wilt maken voor de uitvoering van Message Center-berichten die worden gehost op Adobe Cloud, dient u contact op te nemen met de klantenservice van Adobe. De gebruikers van het Centrum van het bericht zijn specifieke exploitanten die specifieke toestemmingen vereisen om tot omslagen &quot;In real time gebeurtenissen&quot; (nmsRtEvent) toegang te hebben.
+Als u nieuwe gebruikers wilt maken voor de uitvoering van Message Center-berichten die worden gehost op Adobe Cloud, dient u contact op te nemen met de klantenservice van Adobe. Message Center users are specific operators that require dedicated permissions to access ‘Real time events’ (nmsRtEvent) folders.
 
 ## Schema-extensies
 
-Alle schemauitbreidingen die op de schema&#39;s worden gemaakt door **technische werkschema&#39;s van het Centrum van het Bericht** op of controle of uitvoeringsinstanties worden gebruikt moeten op de andere instanties worden gedupliceerd die door de transactionele overseinenmodule van Adobe Campaign worden gebruikt.
+All schema extensions made on the schemas used by **Message Center technical workflows** on either control or execution instances need to be duplicated on the other instances used by Adobe Campaign transactional messaging module.
 
 ![](../assets/do-not-localize/book.png) Meer informatie over technische workflows in het Berichtencentrum in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
@@ -38,20 +38,20 @@ In combinatie met de module Mobiele toepassingskanalen kunt u met transactiemeld
 
 Als u pushmeldingen over transacties wilt verzenden, moet u de volgende configuraties uitvoeren:
 
-1. Installeer het **Mobile App Channel**-pakket op de controle- en uitvoeringsinstanties.
+1. Install the **Mobile App Channel** package onto the control and execution instances.
 
    >[!CAUTION]
    >
-   >Controleer uw licentieovereenkomst voordat u een nieuw ingebouwd pakket voor de campagne installeert.
+   >Check your license agreement before installing a new Campaign built-in package.
 
-1. Repliceer de **Mobiele toepassing**-service en de bijbehorende mobiele toepassingen op de uitvoeringsinstanties.
+1. Replicate the **Mobile application** service and the associated mobile applications on the execution instances.
 
 Campagne kan alleen transactionele pushmeldingen verzenden als de gebeurtenis de volgende elementen bevat:
 
-* De mobiele apparaat-id: **registrationId** voor Android en **deviceToken** voor iOS. Deze ID vertegenwoordigt het &quot;adres&quot;dat het bericht zal worden verzonden naar.
+* De mobiele apparaat-id: **registrationId** voor Android en **deviceToken** voor iOS. This ID represents the &quot;address&quot; that the notification will be sent to.
 * De koppeling naar de mobiele toepassing of integratietoets (**uuid**) waarmee u verbindingsgegevens kunt ophalen die specifiek zijn voor de toepassing.
-* Het kanaal waarnaar de melding wordt verzonden (**wishedChannel**): 41 voor iOS en 42 voor Android.
-* Andere gegevens die kunnen worden gebruikt voor personalisatie.
+* The channel to which the notification will be sent (**wishedChannel**): 41 for iOS and 42 for Android.
+* Other data to leverage for personalization.
 
 Hier volgt een voorbeeld van een gebeurtenis die deze informatie bevat:
 
