@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: ca4adc12700f0507e6cc43a104e0cf2987aa5883
+source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1574'
 ht-degree: 29%
 
 ---
@@ -68,7 +68,6 @@ _28 oktober 2021_
 **Verbeteringen**
 
 * De Snowflake-aansluiting is verbeterd op het gebied van prestaties.
-* In het serverconfiguratiebestand (serverConf.xml) kunt u nu een wachttijd per schema instellen tussen updates en replicaties uitvoeren.
 * Voor toezicht- en testdoeleinden worden de auditlogboeken van de **[!UICONTROL Replicate Staging data]** De workflow bevat nu het aantal records dat naar de FFDA-database (Full Federated Data Access) is verzonden.
 * Met de SQL-codeactiviteit kunt u nu kiezen in welke database het SQL-script wordt opgeslagen: de standaardgegevensbron of een gekozen actieve externe FDA-rekening.
 * Er is nu een set vooraf gedefinieerde entrepots beschikbaar die kan worden gebruikt om verschillende query&#39;s parallel uit te voeren, zoals segmentatie, ETL of pieken. [Meer informatie](../config/workflows.md)
