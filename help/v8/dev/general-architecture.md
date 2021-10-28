@@ -2,7 +2,7 @@
 title: Algemene architectuur
 description: Meer informatie over campagnearchitectuur en -componenten
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 0%
@@ -31,11 +31,11 @@ De toepassing kan op verschillende manieren worden benaderd: Rich client-, thin 
 
 * **Clientconsole**: De hoofdgebruikersinterface van de toepassing is een native toepassing (in Windows) die communiceert met de Adobe Campaign-toepassingsserver met standaard internetprotocollen (SOAP, HTTP, enz.). Adobe Campaign Client Console biedt geweldige gebruiksvriendelijkheid voor productiviteit, gebruikt zeer weinig bandbreedte (door het gebruik van een lokale cache) en is ontworpen voor eenvoudige implementatie. Deze console kan vanuit een internetbrowser worden geïmplementeerd, kan automatisch worden bijgewerkt en vereist geen specifieke netwerkconfiguratie omdat alleen HTTP(S)-verkeer wordt gegenereerd.
 
-   ![](../assets/do-not-localize/glass.png) [Meer informatie over de Campagne-clientconsole](../start/connect.md).
+   ![](../assets/do-not-localize/glass.png) [Meer informatie over Campagne Client Console](../start/connect.md).
 
 * **Webtoegang**: delen van de toepassing zijn toegankelijk via een eenvoudige webbrowser die een HTML-gebruikersinterface gebruikt, zoals de rapportmodule, de goedkeuringsfasen voor levering, de controle van instanties, enz.
 
-   ![](../assets/do-not-localize/glass.png) [Meer weten over Campagne Web Access](../start/connect.md)?
+   ![](../assets/do-not-localize/glass.png) [Meer informatie over Campagne Web Access](../start/connect.md).
 
 * **Campagne-API&#39;s**: In bepaalde gevallen, kan het systeem van externe toepassing worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van de ZEEP worden blootgesteld.
 
@@ -49,17 +49,17 @@ Sommige modules van de Campagne werken onophoudelijk, terwijl anderen af en toe 
 
 Er zijn drie typen Adobe Campaign-modules:
 
-* **Modules** met meerdere instanties: er wordt één proces voor alle instanties uitgevoerd. Dit geldt voor de volgende modules: web, syslogd, trackinglogd en waakhond.
+* **Modules met meerdere instanties**: er wordt één proces voor alle instanties uitgevoerd. Dit geldt voor de volgende modules: web, syslogd, trackinglogd en waakhond.
 * **Monoinstantiemodules**: één proces wordt per instantie uitgevoerd. Dit geldt voor de volgende modules: mta, wfserver, inMail, sms en stat.
-* **Hulpprogrammamodules**: dit zijn modules die af en toe in werking worden gesteld om af en toe of terugkerende verrichtingen (schoonmaak, config, het downloaden het volgen logboeken, enz.) uit te voeren.
+* **Hulpmodules**: dit zijn modules die af en toe in werking worden gesteld om af en toe of terugkerende verrichtingen (schoonmaak, config, het downloaden het volgen logboeken, enz.) uit te voeren.
 
 De belangrijkste processen zijn:
 
-**Toepassingsserver**  (extern web)
+**Toepassingsserver** (nlserver-web)
 
 Dit proces stelt de volledige waaier van de functionaliteit van Adobe Campaign via de APIs van de Diensten van het Web (ZEEP / HTTP + XML) bloot. Bovendien kan het de Web-pagina&#39;s dynamisch produceren die voor op HTML-Gebaseerde toegang (rapporten, de vormen van het Web, enz.) worden gebruikt. Hiertoe bevat dit proces een Apache Tomcat JSP-server. Dit is het proces waarmee de Console verbinding maakt.
 
-**Workflow-engine**  (nlserver wfserver)
+**Workflow-engine** (nlserver wfserver)
 
 Het voert de werkschemaprocessen uit die in de toepassing worden bepaald.
 
@@ -69,13 +69,13 @@ Het behandelt ook periodiek uitgevoerde technische werkschema&#39;s, die omvatte
 * **Overbodig verwijderen**: Database reinigen. Wordt gebruikt om oude records leeg te maken en te voorkomen dat de database exponentieel groeit.
 * **Facturering**: Automatisch verzenden van een activiteitenverslag voor het platform (databasegrootte, aantal marketingacties, enz.).
 
-**Leveringsserver**  (nlserver-mta)
+**Leveringsserver** (nlserver mta)
 
 Adobe Campaign heeft native functionaliteit voor e-mailuitzending. Dit proces functioneert als SMTP agent van de postoverdracht (MTA). Het voert &quot;één-op-één&quot;verpersoonlijking van berichten uit en behandelt hun fysieke levering. Het werkt met leveringstaken en verwerkt automatische pogingen. Wanneer reeksspatiëring is ingeschakeld, worden de URL&#39;s automatisch vervangen, zodat ze naar de omleidingsserver verwijzen.
 
 Dit proces kan de aanpassing en het automatische verzenden naar een derderouter voor SMS, fax en directe post behandelen.
 
-**Redirection server**  (nlserver webmdl)
+**Redirection-server** (nlserver-webmdl)
 
 Voor e-mail, behandelt Adobe Campaign automatisch open en klikt het volgen (transactie het volgen op het niveau van de Website is een verdere mogelijkheid). Hiertoe worden de URL&#39;s die in de e-mailberichten zijn opgenomen, herschreven zodat ze naar deze module verwijzen. Deze module registreert het doorgeven van de internetgebruiker voordat deze naar de vereiste URL wordt doorgestuurd.
 
@@ -83,39 +83,39 @@ Om de hoogste beschikbaarheid te garanderen, is dit proces volledig onafhankelij
 
 Er zijn ook andere meer technische processen beschikbaar:
 
-**Bounce-e-mailberichten**  beheren (nlserver inMail)
+**Bounce-e-mails beheren** (nlserver inMail)
 
 Dit proces laat u toe om e-mail van brievenbussen automatisch op te nemen die worden gevormd om teruggestuurde berichten te ontvangen die in het geval van leveringsmislukking zijn teruggekeerd. Deze berichten worden dan op regel-gebaseerde verwerking ondergaan om de redenen voor niet levering (onbekende ontvanger, quota overschreden, etc.) te bepalen en de leveringsstatus in de database bij te werken.
 
 Al deze verrichtingen zijn volledig automatisch en vooraf gevormd.
 
-**Leveringsstatus**  van SMS (nlserver sms)
+**Status van SMS-verzending** (nlserver sms)
 
 Dit proces pollt de router van SMS om vooruitgangsstatus te verzamelen en het gegevensbestand bij te werken.
 
-**Logberichten**  schrijven (nlserver-syslogd)
+**Logboekberichten schrijven** (nlserver-syslogd)
 
 Dit technische proces vangt logboekberichten en sporen die door de andere processen worden geproduceerd en schrijft hen aan de harde schijf. Dit maakt ruime informatie beschikbaar voor diagnose in het geval van problemen.
 
-**Logboeken**  voor het bijhouden van gegevens schrijven (logd voor reeksspatiëring)
+**Logbestanden voor bijhouden schrijven** (nlserver trackinglogd)
 
 Dit proces bewaart aan schijf de volgende logboeken die door het omleidingsproces worden geproduceerd.
 
-**Inbound-gebeurtenissen**  schrijven (nlserver-interactie)
+**Inkomende gebeurtenissen schrijven** (Nlserver-interactief)
 
 Dit proces verzekert de opname aan de schijf van binnenkomende gebeurtenissen, binnen het kader van Interactie.
 
-**Controlemodules**  (nlserver watchdog)
+**Toezichtmodules** (nlserver waakhond)
 
 Dit technische proces fungeert als een primair proces dat de anderen voortbrengt. Het bewaakt ze ook en start ze automatisch opnieuw in geval van incidenten, zodat het systeem maximaal uptime kan blijven.
 
-**Statistische server**  (nlserver stat)
+**Statistische server** (nlserver-status)
 
 Dit proces handhaaft statistieken over het aantal verbindingen, de berichten die voor elke postserver worden verzonden die berichten worden verzonden naar, evenals hun beperkingen (hoogste aantal gelijktijdige verbindingen, berichten per uur/en of verbinding). Het laat u ook verscheidene instanties of machines federeren als zij de zelfde openbare IP adressen delen.
 
 ## Databasecontainers {#db-containers}
 
-De Adobe Campaign Cloud-database is gebaseerd op [!DNL Snowflake], die de functionele gegevens (profielen, abonnementen, inhoud, enz.), de technische gegevens (taken en logbestanden voor levering, logbestanden bijhouden, enz.) bevat en de werkgegevens (aankopen, leads) voor de oplossing, en alle Adobe Campaign-componenten communiceren met de database om hun specifieke taken uit te voeren.
+De Adobe Campaign Cloud-database is afhankelijk van [!DNL Snowflake] die de functionele gegevens (profielen, abonnementen, inhoud, enz.), de technische gegevens (leverings- en logboekgegevens, trackinglogboeken enz.) bevat en de werkgegevens (aankopen, leads) voor de oplossing, en alle Adobe Campaign-componenten communiceren met de database om hun specifieke taken uit te voeren.
 
 Klanten kunnen Adobe Campaign implementeren met behulp van de vooraf gedefinieerde database en schema&#39;s en indien nodig kan deze vooraf gedefinieerde omgeving worden uitgebreid. Alle gegevens binnen de datamarkt worden betreden door Adobe Campaign via SQL vraag. Adobe Campaign biedt ook een volledige aanvulling op de ETL-gereedschappen (Extract Transform and Load) voor het importeren en exporteren van gegevens naar en vanuit het systeem.
 
@@ -124,6 +124,6 @@ Klanten kunnen Adobe Campaign implementeren met behulp van de vooraf gedefinieer
 
 >[!CAUTION]
 >
->Met **Beheerde Cloud Services van de Campagne**, zijn uw milieu en aanvankelijke configuratie geplaatst door Adobe, volgens de termijnen van uw vergunningsovereenkomst. U mag geïnstalleerde ingebouwde pakketten, ingebouwde schema&#39;s of rapporten niet wijzigen.
+>Met **Door campagne beheerde Cloud Services**, uw omgeving en initiële configuratie zijn ingesteld door Adobe, volgens de bepalingen van uw licentieovereenkomst. U mag geïnstalleerde ingebouwde pakketten, ingebouwde schema&#39;s of rapporten niet wijzigen.
 >
->Als u een toe:voegen-op van de Campagne of een specifiek vermogen moet gebruiken dat niet voor u is provisioned, moet u **Adobe de Zorg van de Klant** contacteren.
+>Als u een toe:voegen-op van de Campagne of een specifiek vermogen moet gebruiken dat niet voor u is provisioned, moet u contact opnemen **Adobe Klantenservice**.

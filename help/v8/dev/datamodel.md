@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -18,9 +18,9 @@ Adobe Campaign bevat een vooraf gedefinieerd datamodel. In deze sectie vindt u e
 
 De basisstructuur van het Adobe Campaign-gegevensmodel kan als volgt worden beschreven:
 
-* **Ontvangertabel**: Het gegevensmodel is gebaseerd op een hoofdtabel die standaard de tabel Ontvanger is (nmsRecipient). In deze tabel kunt u alle marketingprofielen opslaan.
+* **Ontvangertabel**: Het gegevensmodel is gebaseerd op een hoofdtabel die standaard de tabel Ontvanger is (nmsRecipient). In deze tabel worden alle marketingprofielen opgeslagen.
 
-   ![](../assets/do-not-localize/glass.png) Zie  [deze sectie](#ootb-profiles) voor meer informatie over de tabel Ontvanger.
+   ![](../assets/do-not-localize/glass.png) Voor meer informatie over de tabel Ontvanger raadpleegt u [deze sectie](#ootb-profiles).
 
 * **Afleveringstabel**: Het gegevensmodel bevat ook een deel dat is gewijd aan de opslag van alle marketingactiviteiten. Meestal is dit de afleveringstabel (NmsDelivery). Elke record in deze tabel vertegenwoordigt een leveringsactie of een leveringssjabloon. Het bevat alle parameters die nodig zijn voor het uitvoeren van leveringen, zoals doel, inhoud, enz.
 
@@ -34,20 +34,20 @@ Logbestanden voor aflevering en tracering worden na een bepaalde periode verwijd
 
 >[!NOTE]
 >
->Om tot de beschrijving van elke lijst toegang te hebben, ga naar Admin > Configuratie > de schema&#39;s van Gegevens, selecteer een middel van de lijst en klik **Documentatie** tabel.
+>Ga naar Beheer > Configuratie > Gegevensschema&#39;s om de beschrijving van elke tabel te openen, selecteer een bron in de lijst en klik op de knop **Documentatie** tab.
 
 Wanneer u begint met Adobe Campaign, moet u het standaardgegevensmodel beoordelen om te controleren welke tabel het meest geschikt is om uw marketinggegevens op te slaan.
 
-U kunt de standaard Ontvanger lijst met de uit-van-de-doos gebieden gebruiken, zoals die in [deze sectie](#ootb-profiles) worden beschreven. Indien nodig kunt u het uitbreiden met twee mechanismen:
+U kunt de standaardtabel Ontvanger gebruiken voor de velden buiten het vak, zoals wordt beschreven in [deze sectie](#ootb-profiles). Indien nodig kunt u het uitbreiden met twee mechanismen:
 
-* [Een bestaande ](extend-schema.md) tabel uitbreiden met nieuwe velden. U kunt bijvoorbeeld een nieuw veld Loyalty toevoegen aan de tabel Ontvanger.
-* [Maak een nieuwe tabel](create-schema.md), bijvoorbeeld een tabel met aankopen die alle aankopen bevat die door elk profiel van de database zijn gedaan, en koppel deze aan de tabel met ontvangers.
+* [Een bestaande tabel uitbreiden](extend-schema.md) met nieuwe velden. U kunt bijvoorbeeld een nieuw veld Loyalty toevoegen aan de tabel Ontvanger.
+* [Een nieuwe tabel maken](create-schema.md), bijvoorbeeld een tabel met alle aankopen die door elk profiel van de database zijn gedaan, en koppel deze aan de tabel Ontvanger.
 
-![](../assets/do-not-localize/glass.png) Ontdek beste praktijken wanneer het werken met het datamodel van de Campagne in  [deze sectie](datamodel-best-practices.md).
+![](../assets/do-not-localize/glass.png) Ontdek beste praktijken wanneer het werken met het datamodel van de Campagne in [deze sectie](datamodel-best-practices.md).
 
 ## Ingebouwde profielentabel {#ootb-profiles}
 
-De ingebouwde ontvankelijke lijst (nmsreceiver) in Adobe Campaign verstrekt een goed uitgangspunt voor de bouw van uw gegevensmodel. Het heeft een aantal vooraf bepaalde gebieden en lijstverbindingen die gemakkelijk kunnen worden uitgebreid. Dit is met name nuttig wanneer u zich vooral richt op ontvangers, omdat het een eenvoudig ontvanger-centric gegevensmodel past.
+De ingebouwde ontvankelijke lijst (nmsreceiver) in Adobe Campaign verstrekt een goed uitgangspunt voor de bouw van uw gegevensmodel. Het bevat een aantal vooraf gedefinieerde velden en tabelkoppelingen die gemakkelijk kunnen worden uitgebreid. Dit is met name nuttig wanneer u zich vooral richt op ontvangers, omdat het een eenvoudig ontvanger-centric gegevensmodel past.
 
 De voordelen van de standaardtabel voor ontvangers zijn:
 
@@ -58,19 +58,19 @@ De voordelen van de standaardtabel voor ontvangers zijn:
 
 Het is mogelijk de tabel voor ontvangers uit te breiden, maar niet om het aantal velden of koppelingen in de tabel te verminderen.
 
-![](../assets/do-not-localize/glass.png) Leer hoe u een bestaand schema in  [deze sectie](extend-schema.md) kunt uitbreiden.
+![](../assets/do-not-localize/glass.png) Leer hoe u een bestaand schema kunt uitbreiden in [deze sectie](extend-schema.md).
 
-![](../assets/do-not-localize/book.png) Voorbeelden van ingebouwde tabelextensies voor ontvangers ontdekken in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+![](../assets/do-not-localize/book.png) Voorbeelden van ingebouwde tabelextensies voor ontvangers ontdekken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table){target=&quot;_blank&quot;}
 
-U kunt een verschillende ontvankelijke lijst ook gebruiken om met uw zaken of functionele vereisten beter te passen. Deze methode wordt geleverd met beperkingen en wordt beschreven in [deze sectie](custom-recipient.md).
+U kunt een verschillende ontvankelijke lijst ook gebruiken om met uw zaken of functionele vereisten beter te passen. Deze methode heeft beperkingen en wordt beschreven in [deze sectie](custom-recipient.md).
 
 ## Campagnetabellen en Cloud-database
 
 Voor een beter begrip van lijstbeheer in Campagne v8, merk op dat de lijsten tussen Campagne en zijn gegevensbestand van de Snowflake Cloud worden herhaald.
 
-![](../assets/do-not-localize/glass.png) Meer informatie over replicatiestrategie en mechanismen in  [deze sectie](../config/replication.md).
+![](../assets/do-not-localize/glass.png) Meer informatie over replicatiestrategie en -mechanismen in [deze sectie](../config/replication.md).
 
 **Verwante onderwerpen**
 
-![](../assets/do-not-localize/glass.png) Ontdek hoe u profielen in  [deze ](../start/import.md)
-![](../assets/do-not-localize/glass.png) sectie kunt importerenMeer informatie over campagnedoelgroepen in  [deze sectie](../start/audiences.md)
+![](../assets/do-not-localize/glass.png) Ontdek hoe u profielen kunt importeren in [deze sectie](../start/import.md)
+![](../assets/do-not-localize/glass.png) Meer informatie over campagnepubliek in [deze sectie](../start/audiences.md)

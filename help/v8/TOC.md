@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
-source-git-commit: e0faeda87d5b84309524a72d9f021c381ac4619e
+source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 35%
+source-wordcount: '236'
+ht-degree: 32%
 
 ---
 
@@ -30,26 +30,28 @@ ht-degree: 35%
    + [Track &amp; monitor](start/tracking.md)
    + [Metriek en rapporten](start/reporting.md)
    + [Veelgestelde vragen](start/campaign-faq.md)
-+ {#implement} implementeren
++ Implementeren {#implement}
    + [Implementatiestappen](start/implement.md)
    + [Instantie aanpassen](dev/customize.md)
    + [Beveiligingsrichtlijnen](config/security.md)
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
    + [Aanbevolen werkwijzen voor DataModel](dev/datamodel-best-practices.md)
-+ {#deploy} implementeren
++ Implementeren {#deploy}
    + [Compatibiliteitsmatrix](start/compatibility-matrix.md)
    + [Verbinding maken met Campaign](start/connect.md)
    + [Machtigingen](start/permissions.md)
    + [Configuratiescherm ](config/self-service.md)
-+ {#send} verzenden
++ Verzenden {#send}
    + [E-mails](send/email.md)
    + [Sms](send/sms.md)
    + [Pushmeldingen](send/push.md)
    + [REGELS](send/line.md)
    + [Direct mail](send/direct-mail.md)
    + [Transactionele berichten](send/transactional.md)
-   + Aanbiedingen toevoegen{#interaction}
-      + [Aan de slag met interactie](send/interaction.md)
+   + Aanbiedingen beheren met Campagne-interactie{#interaction}
+      + [Aan de slag met realtime interactie](send/interaction.md)
+      + [Milieu en architectuur](send/interaction-architecture.md)
+      + [Best practices](send/interaction-best-practices.md)
       + Instellingen definiëren{#interaction}
          + [Operatoren maken](send/interaction-operators.md)
          + [Omgevingen maken](send/interaction-env.md)
@@ -57,7 +59,12 @@ ht-degree: 35%
          + [Plaatsingen voor aanbiedingen maken](send/interaction-offer-spaces.md)
       + [Een aanbiedingencatalogus maken](send/interaction-offer-catalog.md)
       + [Een aanbieding maken](send/interaction-offer.md)
-      + [Een voorstel verzenden](send/interaction-send-offers.md)
+      + [Een voorstel verzenden (uitgaand)](send/interaction-send-offers.md)
+      + Een aanbieding presenteren (binnenkomend){#inbound}
+         + [Context](send/interaction-present-offers.md)
+         + [Een aanbieding bellen op een webpagina](send/interaction-integration.md)
+         + [Anonieme interacties beheren](send/anonymous-interactions.md)
+      + [Rapporten en geschiedenis](send/interaction-tracking.md)
       + [Gebruiksscenario’s](send/interaction-use-cases.md)
 + Configureren {#config}
    + [Automatiseren met workflows](config/workflows.md)
@@ -66,7 +73,7 @@ ht-degree: 35%
    + [Transactionele berichtinstellingen](config/transactional-msg-settings.md)
    + [SDK&#39;s voor campagnes integreren met uw app](config/push-config.md)
    + [Externe accounts](config/external-accounts.md)
-+ {#connect} verbinden
++ Verbinden {#connect}
    + [Verbinden met andere oplossingen](connect/integration.md)
    + [Campagne + Analyse](connect/ac-aa.md)
    + [Campagne + Experience Manager](connect/ac-aem.md)

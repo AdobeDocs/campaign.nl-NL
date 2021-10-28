@@ -5,20 +5,20 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# Vooraf gedefinieerde filters maken{#creating-predefined-filters}
+# Vooraf gedefinieerde filters maken{#creating-pre-defined-filters}
 
-Maak vooraf gedefinieerde filters om de subsidiabiliteitsregels voor de doelpopulatie te definiëren die eenvoudig opnieuw kunnen worden gebruikt tijdens het maken van aanbiedingen. Zij zijn specifiek voor elke milieu en houden rekening met de aanbiedingsparameters.
+Vooraf gedefinieerde filters maken om de subsidiabiliteitsregels voor de doelpopulatie te definiëren die gemakkelijk opnieuw kunnen worden gebruikt tijdens het maken van aanbiedingen. Zij zijn specifiek voor elke milieu en houden rekening met de aanbiedingsparameters.
 
 Pas het volgende proces toe om een vooraf gedefinieerd filter te maken:
 
-1. Blader naar de map **[!UICONTROL Administration]** en selecteer **[!UICONTROL Pre-defined offer filters]**.
+1. Bladeren naar de **[!UICONTROL Administration]** map en selecteer **[!UICONTROL Pre-defined offer filters]**.
 
    ![](assets/offer_filter_create_005.png)
 
@@ -38,6 +38,6 @@ Pas het volgende proces toe om een vooraf gedefinieerd filter te maken:
 
    ![](assets/offer_filter_create_004.png)
 
-1. Klik **[!UICONTROL Preview]** om het resultaat van de filter te bekijken.
+1. Klikken **[!UICONTROL Preview]** om het resultaat van het filter weer te geven.
 
    ![](assets/offer_filter_create_006.png)

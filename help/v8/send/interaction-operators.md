@@ -4,61 +4,62 @@ description: Beheerders van aanbiedingen maken
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
 
 # Operatorprofielen {#operator-profiles}
 
-Twee typen operatoren kunnen Campagne-interactie gebruiken: **Bied managers** en **Leveringsmanagers** aan. Elk van hen heeft specifieke toestemmingen en beperkingen. Meer informatie over campagneoperatoren en -machtigingen vindt u op [deze pagina](../start/permissions.md).
+Twee typen operatoren kunnen Campagne-interactie gebruiken: **Aanbiedingsmanagers** en **Leveringsmanagers**. Elk van hen heeft specifieke toestemmingen en beperkingen. Meer informatie over campagneoperatoren en -machtigingen in [deze pagina](../start/permissions.md).
 
-* Met **[!UICONTROL Offer manager]** worden aanbiedingen gemaakt en onderhouden.
-* De **[!UICONTROL Delivery manager]** keurt en gebruikt aanbiedingen goed
+* De **[!UICONTROL Offer manager]** aanbiedingen maken en onderhouden.
+* De **[!UICONTROL Delivery manager]** goedkeurt en gebruikt voorstellen
 
 ## Een beheerder van een voorstel maken{#offer-manager}
 
 1. Maak een operator.
 
-   ![](../assets/do-not-localize/book.png) De stappen om een exploitant in Campagne tot stand te brengen zijn gedetailleerd in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) De stappen om een exploitant in Campagne tot stand te brengen zijn gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
-1. Ga naar het **[!UICONTROL Groups and named rights]** venster, klik **[!UICONTROL Add]** en selecteer **[!UICONTROL Offer manager]** groep.
+1. Ga naar de **[!UICONTROL Groups and named rights]** venster, klikt u op **[!UICONTROL Add]** en selecteert u de **[!UICONTROL Offer manager]** groep.
 
 De aan de Offertenbeheerder toegekende rechten stellen hen in staat de volgende taken uit te voeren:
 
-* Wijzig **[!UICONTROL Design]** milieu&#39;s.
-* **[!UICONTROL Live]**-omgevingen weergeven.
-* Vorm beleidsfuncties (vooraf bepaalde ruimten en filters).
+* Wijzigen **[!UICONTROL Design]** omgevingen.
+* Weergave **[!UICONTROL Live]** omgevingen.
+* Configureer beheerfuncties (vooraf gedefinieerde spaties en filters).
 * Categorieën maken en wijzigen.
 * Maak voorstellen.
 * Geschiktheid van aanbieding configureren.
 * Voorstel goedkeuren.
 
-Als aanbiedingen in een werkstroom worden gebruikt, moet de exploitant aan **[!UICONTROL Administrator]** of **[!UICONTROL Offer managers]** exploitantgroep worden toegevoegd om het werkschema uit te voeren.
+Als aanbiedingen in een workflow worden gebruikt, moet de operator aan de **[!UICONTROL Administrator]** of **[!UICONTROL Offer managers]** groep met operatoren om de workflow uit te voeren.
 
 >[!NOTE]
 >
->**Aanbiedingsmanagers** kunnen een aanbieding alleen goedkeuren als er geen controleur is opgegeven of als deze in de aanbiedingstemplate als controleurs is gedeclareerd.
+>**Aanbiedingsmanagers** kan een aanbieding alleen goedkeuren als er geen controleur is opgegeven of als deze in de aanbiedingstemplate als controleurs is gedeclareerd.
 
 ## Een leveringsmanager-operator maken {#delivery-manager}
 
 1. Maak een operator.
 
-   ![](../assets/do-not-localize/book.png) De stappen om een exploitant in Campagne tot stand te brengen zijn gedetailleerd in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) De stappen om een exploitant in Campagne tot stand te brengen zijn gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
-1. Ga naar het **[!UICONTROL Groups and named rights]** venster, klik **[!UICONTROL Add]** en selecteer **[!UICONTROL Delivery manager]** groep.
+1. Ga naar de **[!UICONTROL Groups and named rights]** venster, klikt u op **[!UICONTROL Add]** en selecteert u de **[!UICONTROL Delivery manager]** groep.
 
 Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uitvoeren:
 
-* Geef **[!UICONTROL Live]** omgevingen weer.
+* Weergave **[!UICONTROL Live]** omgevingen.
 * Categorieën voorstellen weergeven en wijzigen.
 * Aanbiedingen goedkeuren als ze revisoren zijn.
 
    >[!NOTE]
    >
-   >**De** manager van de levering kan slechts een aanbieding goedkeuren als zij als recensent in de aanbiedingsconfiguratie zijn verklaard.
+   >**Leveringsmanagers** kan een aanbieding alleen goedkeuren als deze in de aanbiedingsconfiguratie als controleur is gedeclareerd.
 
 ## Machtigingsmatrix per interactie-operator {#recap-of-rights-according-to-operator}
 
@@ -80,7 +81,7 @@ Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uit
    <td> Lezen<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ontvanger - Omgeving<br /> </td> 
+   <td> Ontvanger - Milieu<br /> </td> 
    <td> Lezen/Schrijven<br /> </td> 
    <td> Lezen<br /> </td> 
   </tr> 
@@ -95,7 +96,7 @@ Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uit
    <td> Lezen<br /> </td> 
   </tr> 
   <tr> 
-   <td> Vooraf gedefinieerde aanbiedingsfilters<br /> </td> 
+   <td> vooraf gedefinieerde aanbiedingsfilters<br /> </td> 
    <td> Lezen/Schrijven<br /> </td> 
    <td> Lezen<br /> </td> 
   </tr> 
@@ -110,7 +111,7 @@ Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uit
    <td> Lezen<br /> </td> 
   </tr> 
   <tr> 
-   <td> Catalogus aanbod<br /> </td> 
+   <td> Aanbiedingscatalogus<br /> </td> 
    <td> Lezen/Schrijven<br /> </td> 
    <td> Lezen<br /> </td> 
   </tr> 
@@ -140,7 +141,7 @@ Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uit
    <td> Lezen<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ontvanger - Omgeving<br /> </td> 
+   <td> Ontvanger - Milieu<br /> </td> 
    <td> </td> 
    <td> Lezen<br /> </td> 
   </tr> 
@@ -155,7 +156,7 @@ Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uit
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Vooraf gedefinieerde aanbiedingsfilters<br /> </td> 
+   <td> vooraf gedefinieerde aanbiedingsfilters<br /> </td> 
    <td> Lezen<br /> </td> 
    <td> Lezen<br /> </td> 
   </tr> 
@@ -170,7 +171,7 @@ Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uit
    <td> Lezen<br /> </td> 
   </tr> 
   <tr> 
-   <td> Catalogus aanbod<br /> </td> 
+   <td> Aanbiedingscatalogus<br /> </td> 
    <td> Lezen<br /> </td> 
    <td> Lezen<br /> </td> 
   </tr> 
