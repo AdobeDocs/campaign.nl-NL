@@ -1,7 +1,8 @@
 ---
 title: Filtercampagne-schema's
 description: Leer hoe u campagnereschema's kunt filteren
-source-git-commit: e0faeda87d5b84309524a72d9f021c381ac4619e
+exl-id: e8ad021c-ce2e-4a74-b9bf-a989d8879fd1
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 ## Systeemfilters {#system-filters}
 
-U kunt de schematoegang tot specifieke gebruikers, afhankelijk van hun toestemmingen filtreren. Met systeemfilters kunt u de lees- en schrijfmachtigingen beheren van entiteiten die in schema&#39;s worden beschreven, met behulp van de parameters **readAccess** en **writeAccess**.
+U kunt de schematoegang tot specifieke gebruikers, afhankelijk van hun toestemmingen filtreren. Met systeemfilters kunt u de lees- en schrijfmachtigingen beheren van entiteiten die in schema&#39;s zijn beschreven, met **readAccess** en **writeAccess** parameters.
 
 >[!NOTE]
 >
@@ -20,11 +21,11 @@ U kunt de schematoegang tot specifieke gebruikers, afhankelijk van hun toestemmi
 
 * **readAccess**: biedt alleen-lezen toegang tot schemagegevens.
 
-   **Waarschuwing** : alle gekoppelde tabellen moeten met dezelfde beperking zijn ingesteld. Deze configuratie kan van invloed zijn op prestaties.
+   **Waarschuwing** - Alle gekoppelde tabellen moeten met dezelfde beperking worden ingesteld. Deze configuratie kan van invloed zijn op prestaties.
 
 * **writeAccess**: biedt schrijftoegang tot schemagegevens.
 
-Deze filters zijn ingegaan op het belangrijkste **element** niveau van de schema&#39;s en, zoals aangetoond in de volgende voorbeelden, kunnen worden gevormd om toegang te beperken.
+Deze filters worden ingevoerd bij de hoofdmap **element** niveau van de regelingen en, zoals in de volgende voorbeelden wordt getoond, kan worden gevormd om toegang te beperken.
 
 * SCHRIJFmachtigingen beperken
 
@@ -38,7 +39,7 @@ Deze filters zijn ingegaan op het belangrijkste **element** niveau van de schema
 
 * Rechten voor LEZEN EN SCHRIJVEN beperken:
 
-   Hier, wordt de filter gebruikt om zowel LEZEN als SCHRIJVEN toestemmingen op het schema voor alle exploitanten toe te staan. Alleen de **internal**-account, vertegenwoordigd door de expressie &quot;$(loginId)!=0&quot;, heeft deze toestemmingen.
+   Hier, wordt de filter gebruikt om zowel LEZEN als SCHRIJVEN toestemmingen op het schema voor alle exploitanten toe te staan. Alleen de **internal** account, weergegeven door de expressie &quot;$(loginId)!=0&quot;, heeft deze toestemmingen.
 
    ```
    <sysFilter name="readAccess"> 
@@ -50,7 +51,7 @@ Deze filters zijn ingegaan op het belangrijkste **element** niveau van de schema
    </sysFilter>
    ```
 
-   Mogelijke **expr** kenmerkwaarden die worden gebruikt om de voorwaarde te definiëren, zijn TRUE of FALSE.
+   Mogelijk **expr** de kenmerkwaarden die worden gebruikt om de voorwaarde te definiëren, zijn TRUE of FALSE.
 
 >[!NOTE]
 >
@@ -93,7 +94,7 @@ Door gebrek, zijn de ingebouwde schema&#39;s slechts toegankelijk met SCHRIJVEN 
 
 >[!CAUTION]
 >
->De LEZEN en SCHRIJVEN toestemmingen voor het **xtk:sessionInfo** schema zijn slechts toegankelijk door de interne rekening van een instantie van Adobe Campaign.
+>Rechten voor LEZEN en SCHRIJVEN voor de **xtk:sessionInfo** schema&#39;s zijn alleen toegankelijk via de interne account van een Adobe Campaign-exemplaar.
 
 ## Systeemfilters van ingebouwde schema&#39;s wijzigen
 
@@ -102,5 +103,5 @@ Ingebouwde schema&#39;s zijn beveiligd om compatibiliteitsproblemen met oudere v
 In specifieke gevallen moet u echter mogelijk de systeemfilters van de ingebouwde schema&#39;s wijzigen. Volg onderstaande stappen om dit te doen:
 
 1. Maak een extensie voor het ingebouwde schema of open een bestaande extensie.
-1. Voeg een kindelement **`<sysfilter name="<filter name>" _operation="delete"/>`** in het belangrijkste element toe om de filter onder het zelfde in het ingebouwde schema te negeren.
-1. U kunt een nieuw filter toevoegen, zoals beschreven in de sectie [Systeemfilters](#system-filters).
+1. Een onderliggend element toevoegen **`<sysfilter name="<filter name>" _operation="delete"/>`** in het hoofdelement om het filter onder het zelfde in het ingebouwde schema te negeren.
+1. U kunt een nieuw filter toevoegen, zoals wordt beschreven in het dialoogvenster [Systeemfilters](#system-filters) sectie.

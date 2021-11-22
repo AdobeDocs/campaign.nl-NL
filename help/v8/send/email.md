@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Met e-mailleveringen kunt u persoonlijke e-mails sturen naar de doelgroep.
 
-![](../assets/do-not-localize/book.png) Meer informatie vindt u in de  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
+![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
 
 ## Uw eerste e-maillevering maken
 
@@ -29,7 +29,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 1. **De levering maken**
 
-   Als u een nieuwe levering wilt maken, bladert u naar het tabblad **Campagnes**, klikt u op **Leveringen** en klikt u op de knop **Maken** boven de lijst met bestaande leveringen.
+   Blader naar de **Campagnes** tabblad, klikt u op **Leveringen** en klik op de knop **Maken** boven de lijst met bestaande leveringen.
 
    ![](assets/delivery_step_1.png)
 
@@ -41,7 +41,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 1. **Uw inhoud importeren**
 
-   Klik op het tabblad **Bron** om uw HTML-inhoud te plakken.
+   Klik op de knop **Bron** om uw HTML-inhoud te plakken.
 
    ![](assets/paste-content.png)
 
@@ -51,7 +51,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
    * Voeg de eerste en laatste namen van uw ontvangers toe
 
-      Als u de eerste en laatste naam van de doelprofielen in de inhoud van het bericht wilt invoegen, plaatst u de cursor op de plaats waar u deze wilt invoegen en klikt u op het laatste pictogram op de werkbalk. Klik vervolgens op **[!UICONTROL Include]** en selecteer **[!UICONTROL Greetings]**.
+      Als u de voor- en achternamen van de doelprofielen wilt invoegen in de inhoud van het bericht, plaatst u de cursor op de plaats waar u deze wilt invoegen en klikt u op het laatste pictogram op de werkbalk. Klik vervolgens op **[!UICONTROL Include]** en selecteert u **[!UICONTROL Greetings]**.
 
       ![](assets/include-greetings.png)
 
@@ -61,9 +61,9 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
    * Een bijgehouden koppeling invoegen
 
-      Als u ontvangers voor levering via een afbeelding of tekst naar een extern adres wilt sturen, selecteert u de afbeelding of tekst en klikt u op het pictogram **[!UICONTROL Add a link]** op de werkbalk.
+      Als u ontvangers voor levering via een afbeelding of tekst naar een extern adres wilt sturen, selecteert u de gewenste ontvanger en klikt u op de knop **[!UICONTROL Add a link]** in de werkbalk.
 
-      Voer de URL voor de koppeling in het veld **URL** in met de volgende notatie **https://www.myURL.com** en bevestig vervolgens de URL.
+      Voer de URL voor de koppeling in het dialoogvenster **URL** veld met de volgende notatie **https://www.myURL.com**, bevestig vervolgens.
 
       ![](assets/add-a-link.png)
 
@@ -71,8 +71,8 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
       Als u wilt dat de ontvangers de inhoud van de levering in een webbrowser kunnen bekijken, voegt u een koppeling toe naar de spiegelpagina van het bericht.
 
-      Plaats de cursor op de plaats waar u deze koppeling wilt invoegen en klik op het laatste pictogram op de werkbalk. Klik vervolgens op **[!UICONTROL Include]** en selecteer **[!UICONTROL link to mirror page]**.
-   Als de inhoud gereed is, klikt u op **Opslaan**: het wordt nu weergegeven in uw lijst met leveringen op het tabblad **[!UICONTROL Campaigns > Deliveries]**. Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
+      Plaats de cursor op de plaats waar u deze koppeling wilt invoegen, klik op het laatste pictogram op de werkbalk en klik vervolgens op **[!UICONTROL Include]** en selecteert u **[!UICONTROL link to mirror page]**.
+   Als de inhoud gereed is, klikt u op **Opslaan**: het wordt nu weergegeven in uw lijst met leveringen, in de **[!UICONTROL Campaigns > Deliveries]** tab. Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
 
 
 Meer informatie vindt u in de volgende secties van de Campaign Classic v7-documentatie:
@@ -87,7 +87,7 @@ Meer informatie vindt u in de volgende secties van de Campaign Classic v7-docume
    ![](../assets/do-not-localize/book.png) [Leer hoe u de doelpopulatie definieert](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * Een levering valideren en proefdrukken verzenden
    ![](../assets/do-not-localize/book.png) [Belangrijke stappen om een levering te valideren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
-* [zaadadressen toevoegen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
+* Toevoegen [zaadadressen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
 
 ## Uw e-mails testen en valideren
 

@@ -28,13 +28,13 @@ Met een speciale ingebouwde workflow worden de gegevens in de cloud-database ges
 
 ## Gegevens invoegen{#data-insert-api}
 
-De **xtk.session.ingest**-API is alleen bedoeld voor het invoegen van gegevens. Geen update/verwijdering.
+De **xtk.session.ingest** API is alleen bestemd voor gegevensinvoer. Geen update/verwijdering.
 
 ### Invoegen zonder afstemming
 
 **In een workflow**
 
-Gebruik de volgende code in een **Javascript code** activiteit om gegevens in het gegevensbestand van de Wolk zonder aanpassing op te nemen:
+Gebruik de volgende code in een **Javascript-code** activiteit om gegevens in het gegevensbestand van de Wolk zonder aanpassing op te nemen:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -91,7 +91,7 @@ Hierdoor wordt de testtabel op de verwachte manier gevoed.
 
 **In een workflow**
 
-Gebruik de volgende code in een **Javascript code** activiteit om gegevens in het gegevensbestand van de Wolk met verenigbaarheid op te nemen:
+Gebruik de volgende code in een **Javascript-code** activiteit om gegevens in het gegevensbestand van de Wolk met verenigbaarheid op te nemen:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -147,13 +147,13 @@ Hierdoor wordt de testtabel op de verwachte manier gevoed.
 
 ## Gegevens bijwerken of verwijderen{#data-update-api}
 
-De API **xtk.session.IngestExt** is geoptimaliseerd voor het bijwerken/verwijderen van gegevens. Alleen voor invoegen: geef de voorkeur **xtk.session.ingest**. Invoegen werkt of de recordsleutel zich niet in de testtabel bevindt.
+De **xtk.session.IngestExt** API is geoptimaliseerd voor bijwerken/verwijderen van gegevens. Alleen invoegen, voorkeur **xtk.session.ingest**. Invoegen werkt of de recordsleutel zich niet in de testtabel bevindt.
 
 ### Invoegen/bijwerken
 
 **In een workflow**
 
-Gebruik de volgende code in een **Javascript-code**-activiteit om gegevens in de Cloud-database bij te werken:
+Gebruik de volgende code in een **Javascript-code** activiteit om gegevens in het gegevensbestand van de Wolk bij te werken:
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -208,7 +208,7 @@ Dientengevolge, wordt het opvoeren lijst bijgewerkt zoals verwacht.
 
 Abonnementsbeheer in campagne wordt beschreven in [deze pagina](../start/subscriptions.md).
 
-De toevoeging van abonnement en unsubscription-gegevens is afhankelijk van het [Staging-mechanisme](staging.md) in de lokale database van Campagne. De informatie van de abonnee is tijdelijk opgeslagen in het opvoeren van lijsten in het lokale gegevensbestand, en het synchronisatiewerkschema verzendt deze gegevens van het lokale gegevensbestand naar het gegevensbestand van de Wolk. Als gevolg hiervan zijn abonnements- en disabonnementsprocessen **asynchroon**. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt via een specifieke technische workflow. [Meer informatie](../config/replication.md#tech-wf)
+Het invoegen van abonnements- en abonnementsgegevens is afhankelijk van de [Stapelmechanisme](staging.md) in de lokale database van Campagne. De informatie van de abonnee is tijdelijk opgeslagen in het opvoeren van lijsten in het lokale gegevensbestand, en het synchronisatiewerkschema verzendt deze gegevens van het lokale gegevensbestand naar het gegevensbestand van de Wolk. Als gevolg hiervan zijn inschrijvings- en uitstapprocessen **asynchroon**. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt via een specifieke technische workflow. [Meer informatie](../config/replication.md#tech-wf)
 
 
 **Verwante onderwerpen**

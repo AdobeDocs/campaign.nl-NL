@@ -36,7 +36,7 @@ U kunt nu de opdracht **[!UICONTROL Eligibility]** te definiëren tab:
 
 ### verkiesbaarheidsperiode voorstellen{#eligibility-period}
 
-In de **[!UICONTROL Eligibility]** van de aanbieding, de subsidiabiliteitsperiode van de aanbieding bepalen. gebruikt u de vervolgkeuzelijsten om een begin- en einddatum in de kalender te selecteren.
+In de **[!UICONTROL Eligibility]** van de aanbieding, de subsidiabiliteitsperiode van de aanbieding bepalen. gebruikt u de vervolgkeuzelijsten om een begin- en een einddatum in de kalender te selecteren.
 
 ![](assets/offer_eligibility_create_002.png)
 

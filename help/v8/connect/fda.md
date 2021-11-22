@@ -4,7 +4,8 @@ description: Leer hoe u kunt werken met Campagne en externe databases
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 3%
@@ -13,21 +14,21 @@ ht-degree: 3%
 
 # Federated Data Access (FDA){#gs-fda}
 
-Gebruik de Schakelaar FDA (Federated Data Access) om Campagne met één of meerdere **externe gegevensbestanden** te verbinden en informatie te verwerken die in hen wordt opgeslagen zonder uw gegevens van het Gegevensbestand van de Wolk van de Campagne te beïnvloeden. U kunt externe gegevens vervolgens openen zonder de structuur van Adobe Campaign-gegevens te wijzigen.
+Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten op een of meer **externe databases** en procesgegevens die in deze bestanden zijn opgeslagen, zonder dat dit van invloed is op de gegevens van de Campagne Cloud Database. U kunt externe gegevens vervolgens openen zonder de structuur van Adobe Campaign-gegevens te wijzigen.
 
 >[!NOTE]
 >
->Compatibele databases voor FDA worden vermeld in de [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
+>De compatibele gegevensbestanden voor FDA zijn vermeld in [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
 
 De optie FDA van de campagne staat u toe om uw gegevensmodel in een derdegegevensbestand uit te breiden. Het zal automatisch de structuur van de gerichte lijsten ontdekken en gegevens van de SQL bronnen gebruiken.
 
-Specifieke **toestemmingen** worden vereist op [!DNL Adobe Campaign] en op het externe gegevensbestand om samen in wisselwerking te staan. Meer informatie vindt u in [deze sectie](#fda-permissions).
+Specifiek **machtigingen** zijn vereist op [!DNL Adobe Campaign] en op de externe database om samen te werken. Meer informatie in [deze sectie](#fda-permissions).
 
 ## Best practices en beperkingen
 
 * **E-mailpersonalisatie optimaliseren met externe gegevens**
 
-   U kunt berichtpersonalisatie vooraf verwerken in een specifieke workflow. Om dit uit te voeren, gebruik **[!UICONTROL Prepare the personalization data with a workflow]** optie, beschikbaar op **[!UICONTROL Analysis]** lusje van de leveringseigenschappen.
+   U kunt berichtpersonalisatie vooraf verwerken in een specifieke workflow. Om dit uit te voeren, gebruik **[!UICONTROL Prepare the personalization data with a workflow]** beschikbaar in het dialoogvenster **[!UICONTROL Analysis]** tabblad van de leveringseigenschappen.
 
    Tijdens de leveringsanalyse, leidt deze optie automatisch tot en voert een werkschema uit dat alle gegevens met betrekking tot het doel in een tijdelijke lijst, met inbegrip van gegevens van lijsten verbonden in een extern gegevensbestand opslaat.
 
@@ -63,15 +64,15 @@ U moet een specifieke externe rekening tot stand brengen om uw instantie van de 
 
 Volg onderstaande stappen om dit te bereiken:
 
-1. Blader vanuit Campagne **[!UICONTROL Explorer]** naar **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**.
+1. Van campagne **[!UICONTROL Explorer]**, blader naar **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**.
 
 1. Klik op **[!UICONTROL New]**.
 
    >[!NOTE]
    >
-   > Als u actief wilt zijn, moet de optie **[!UICONTROL Enabled]** zijn ingeschakeld. Schakel indien nodig deze optie uit om toegang tot deze database uit te schakelen zonder de configuratie ervan te verwijderen.
+   > Om actief te zijn, **[!UICONTROL Enabled]** Deze optie moet zijn ingeschakeld. Schakel indien nodig deze optie uit om toegang tot deze database uit te schakelen zonder de configuratie ervan te verwijderen.
 
-1. Selecteer **[!UICONTROL External database]** als **[!UICONTROL Type]** van uw externe rekening.
+1. Selecteren **[!UICONTROL External database]** als externe account **[!UICONTROL Type]**.
 
 1. Kies de externe database in de vervolgkeuzelijst en configureer de externe account. U moet opgeven:
 
@@ -85,15 +86,15 @@ Volg onderstaande stappen om dit te bereiken:
 
       ![](assets/snowflake.png)
 
-1. Klik op de tab **[!UICONTROL Parameters]** en vervolgens op de knop **[!UICONTROL Deploy functions]** om functies te maken.
+1. Klik op de knop **[!UICONTROL Parameters]** dan de **[!UICONTROL Deploy functions]** om functies te maken.
 
-1. Nadat de parameters zijn ingevoerd, klikt u op de knop **[!UICONTROL Test the connection]** om deze goed te keuren.
+1. Wanneer de parameters zijn ingevoerd, klikt u op de knop **[!UICONTROL Test the connection]** om deze goed te keuren.
 
-1. Als u Adobe Campaign toegang wilt geven tot deze database, moet u de SQL-functies implementeren. Klik op het tabblad **[!UICONTROL Parameters]** en vervolgens op de knop **[!UICONTROL Deploy functions]**.
+1. Als u Adobe Campaign toegang wilt geven tot deze database, moet u de SQL-functies implementeren. Klik op de knop **[!UICONTROL Parameters]** dan de **[!UICONTROL Deploy functions]** knop.
 
-U kunt specifieke werktabelruimten definiëren voor de tabellen en voor de index op het tabblad **[!UICONTROL Parameters]**.
+U kunt specifieke werktabelruimten definiëren voor de tabellen en voor de index in het dialoogvenster **[!UICONTROL Parameters]** tab.
 
-Voor [!DNL Snowflake], steunt de schakelaar de volgende opties:
+Voor [!DNL Snowflake], ondersteunt de connector de volgende opties:
 
 | Option | Beschrijving |
 |---|---|
@@ -116,9 +117,9 @@ Voer de volgende stappen uit om het schema van de externe database in Adobe Camp
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. Klik **[!UICONTROL OK]** om te bevestigen. Adobe Campaign detecteert automatisch de structuur van de geselecteerde tabel en genereert het logische schema. Adobe Campaign genereert geen koppelingen.
+1. Klikken **[!UICONTROL OK]** ter bevestiging. Adobe Campaign detecteert automatisch de structuur van de geselecteerde tabel en genereert het logische schema. Adobe Campaign genereert geen koppelingen.
 
-1. Klik op **[!UICONTROL Save]** om het maken te bevestigen.
+1. Klikken **[!UICONTROL Save]** om de aanmaak te bevestigen.
 
 ## De doeltoewijzing definiëren{#define-data-mapping}
 
@@ -128,7 +129,7 @@ Om dit te doen, zodra het schema van de externe lijst is gecreeerd, moet u een n
 
 Ga als volgt te werk om dit te doen:
 
-1. Blader naar **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** van Adobe Campaign Explorer.
+1. Bladeren naar **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** van Adobe Campaign Explorer.
 
 1. Creeer een nieuwe doelafbeelding en selecteer het schema u enkel als het richten afmeting creeerde.
 
@@ -143,44 +144,44 @@ Ga als volgt te werk om dit te doen:
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   U kunt kiezen of om uitsluitingen (**excludelog**), met berichten (**broadlog**) of in een afzonderlijke lijst op te slaan.
+   U kunt kiezen of u uitsluitingen wilt opslaan (**excludelog**), met berichten (**uitzenden**) of in een aparte tabel.
 
-   U kunt ook kiezen of het volgen voor deze leveringsafbeelding (**trackinglog**) te beheren.
+   U kunt ook kiezen of u het bijhouden van gegevens voor deze leveringstoewijzing wilt beheren (**trackinglog**).
 
 1. Selecteer vervolgens de extensies waarmee u rekening wilt houden. Het extensietype is afhankelijk van de parameters en opties van uw platform (uw licentiecontract weergeven).
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   Klik op de knop **[!UICONTROL Save]** om het maken van de leveringstoewijzing te starten: alle gekoppelde tabellen worden automatisch gemaakt op basis van de geselecteerde parameters.
+   Klik op de knop **[!UICONTROL Save]** knop voor het maken van de toewijzing van levering: alle gekoppelde tabellen worden automatisch gemaakt op basis van de geselecteerde parameters.
 
 
 ## Machtigingen{#fda-permissions}
 
-Specifieke **toestemmingen** worden vereist op [!DNL Adobe Campaign] en op het externe gegevensbestand om samen in wisselwerking te staan.
+Specifiek **machtigingen** zijn vereist op [!DNL Adobe Campaign] en op de externe database om samen te werken.
 
-Eerst, zodat de gebruiker verrichtingen op een extern gegevensbestand via FDA kan uitvoeren, moet de exploitant een specifiek genoemd recht in [!DNL Adobe Campaign] hebben.
+Ten eerste, zodat de gebruiker bewerkingen kan uitvoeren op een externe database via FDA, moet de exploitant een specifiek benoemd recht hebben in [!DNL Adobe Campaign].
 
-1. Selecteer de **[!UICONTROL Administration > Access Management > Named Rights]** knoop in de ontdekkingsreiziger van Adobe Campaign.
+1. Selecteer **[!UICONTROL Administration > Access Management > Named Rights]** in de Adobe Campaign Explorer.
 1. Maak een nieuw recht door het gekozen label op te geven.
-1. Voer de naam van het benoemde recht in de volgende notatie in **user:base@server**, waarbij:
+1. Voer de naam van het benoemde recht in de volgende notatie in **gebruiker:base@server**, waarbij:
 
-   * **** gebruiker is de naam van de gebruiker in het externe gegevensbestand
-   * **** baseert de naam van de externe database
-   * **** server is de naam van de externe databaseserver
+   * **user** is de naam van de gebruiker in de externe database
+   * **basis** is de naam van de externe database
+   * **server** is de naam van de externe databaseserver
 
-1. Sparen het Benoemde recht en verbind het met uw gekozen exploitant van de **[!UICONTROL Administration > Access Management > Operators]** knoop van de ontdekkingsreiziger van Adobe Campaign.
+1. Sla het recht Benoemd op en koppel het aan de door u gekozen operator vanuit het menu **[!UICONTROL Administration > Access Management > Operators]** knooppunt van de Adobe Campaign Explorer.
 
 Als u vervolgens de gegevens in een externe database wilt verwerken, moet de Adobe Campaign-operator ten minste de machtiging Schrijven voor de database hebben om werktabellen te kunnen maken. Deze tabellen worden automatisch verwijderd door Adobe Campaign.
 
 De volgende machtigingen zijn vereist:
 
 * **CONNECT**: verbinding met de externe database
-* **LEESgegevens**: read-only toegang tot lijsten die klantengegevens bevatten
-* **&#39;MetaData&#39;** LEZEN: toegang tot de catalogi van servergegevens om de lijststructuur te verkrijgen
+* **Gegevens LEZEN**: read-only toegang tot lijsten die klantengegevens bevatten
+* **&#39;MetaData&#39; LEZEN**: toegang tot de catalogi van servergegevens om de lijststructuur te verkrijgen
 * **LADEN**: massa-belasting in werktabellen (vereist bij het werken aan verzamelingen en verbindingen)
-* **CREATE/** DROPfor  **TABLE/INDEX/PROCEDURE/FUNCTION**  (only for worktables generated by Adobe Campaign)
-* **EXPLAIN**  (aanbevolen): voor de bewaking van prestaties in geval van een probleem
-* **SCHRIJF Gegevens**  (afhankelijk van het integratiescenario)
+* **MAKEN/NEERZETTEN** for **TABEL/INDEX/PROCEDURE/FUNCTIE** (alleen voor werktabellen die door Adobe Campaign worden gegenereerd)
+* **VERKLAREN** (aanbevolen): voor de bewaking van prestaties in geval van een probleem
+* **Gegevens SCHRIJVEN** (afhankelijk van het integratiescenario)
 
 De databasebeheerder moet ervoor zorgen dat deze rechten overeenkomen met de specifieke rechten voor elke database-engine, zoals hieronder wordt beschreven.
 
@@ -205,13 +206,13 @@ Zodra het gegevensschema wordt gecreeerd, kunnen de gegevens in de werkschema&#3
 
 Met meerdere activiteiten kunt u werken met gegevens uit een externe database:
 
-* **Filter op externe gegevens**  - Met de  **[!UICONTROL Query]** activiteit kunt u externe gegevens toevoegen en gebruiken in de gedefinieerde filterconfiguraties.
+* **Filter op externe gegevens** - de **[!UICONTROL Query]** Met activiteit kunt u externe gegevens toevoegen en gebruiken in de gedefinieerde filterconfiguraties.
 
-* **Subsets**  maken - Met de  **[!UICONTROL Split]** activiteit kunt u subsets maken. U kunt externe gegevens gebruiken om de filtercriteria te bepalen aan gebruik.
+* **Subsets maken** - de **[!UICONTROL Split]** kunt u subsets maken. U kunt externe gegevens gebruiken om de filtercriteria te bepalen aan gebruik.
 
-* **Externe database**  laden - U kunt de externe gegevens in de  **[!UICONTROL Data loading (RDBMS)]** activiteit gebruiken.
+* **Externe database laden** - U kunt externe gegevens gebruiken in het dialoogvenster **[!UICONTROL Data loading (RDBMS)]** activiteit.
 
-* **Informatie en koppelingen**  toevoegen - Met de  **[!UICONTROL Enrichment]** activiteit kunt u aanvullende gegevens toevoegen aan de werktabel van de werkstroom en koppelingen naar een externe tabel. In deze context kan het gegevens uit een externe database gebruiken.
+* **Informatie en koppelingen toevoegen** - de **[!UICONTROL Enrichment]** Met activiteit kunt u aanvullende gegevens toevoegen aan de werktabel van de werkstroom en koppelingen maken naar een externe tabel. In deze context kan het gegevens uit een externe database gebruiken.
 
 
 U kunt ook rechtstreeks een verbinding met een externe database definiëren vanuit deze workflowactiviteiten, voor een tijdelijk gebruik. In dit geval bevindt het bestand zich in een lokale externe database die is gereserveerd voor gebruik in een huidige workflow: het wordt niet opgeslagen op de externe accounts.
@@ -220,14 +221,14 @@ U kunt ook rechtstreeks een verbinding met een externe database definiëren vanu
 >
 >Dit type van configuratie moet slechts tijdelijk worden gebruikt om gegevens te verzamelen. De configuratie van de externe account verdient de voorkeur voor elk ander gebruik.
 
-In de activiteit **[!UICONTROL Query]** kunt u bijvoorbeeld als volgt een tijdelijke verbinding met een externe database definiëren:
+In het dialoogvenster **[!UICONTROL Query]** activiteit, kunt u een tijdelijke verbinding aan een extern gegevensbestand als volgt bepalen:
 
-1. Open de activiteit en klik **[!UICONTROL Add data...]**
-1. Selecteer de **[!UICONTROL External data]** opties
-1. Selecteer de optie **[!UICONTROL Locally defining the data source]**
+1. Open de activiteit en klik op **[!UICONTROL Add data...]**
+1. Selecteer **[!UICONTROL External data]** opties
+1. Selecteer **[!UICONTROL Locally defining the data source]** option
 1. Selecteer de doeldatabase-engine in de vervolgkeuzelijst. Voer de naam van de server in en geef de verificatieparameters op. Geef ook de naam van de externe database op.
 1. Selecteer de tabel waarin de gegevens zijn opgeslagen. U kunt de naam van de tabel rechtstreeks in het desbetreffende veld invoeren of op het pictogram Bewerken klikken om de lijst met databasetabellen te openen.
-1. Klik op de knop **[!UICONTROL Add]** om een of meerdere afstemmingsvelden te definiëren tussen de externe databasegegevens en de gegevens in de Adobe Campaign-database. Met de pictogrammen **[!UICONTROL Edit expression]** van **[!UICONTROL Remote field]** en **[!UICONTROL Local field]** hebt u toegang tot de lijst met velden van elk van de tabellen.
+1. Klik op de knop **[!UICONTROL Add]** om een of meer afstemmingsvelden te definiëren tussen de externe databasegegevens en de gegevens in de Adobe Campaign-database. De **[!UICONTROL Edit expression]** pictogrammen van de **[!UICONTROL Remote field]** en **[!UICONTROL Local field]** geeft u toegang tot de lijst van gebieden van elk van de lijsten.
 1. Geef zo nodig een filtervoorwaarde en de gegevenssorteermodus op.
-1. Selecteer de aanvullende gegevens die in de externe database moeten worden verzameld. Dubbelklik hiertoe op de velden die u wilt toevoegen om deze weer te geven in de **[!UICONTROL Output columns]**.
-1. Klik **[!UICONTROL Finish]** om deze configuratie te bevestigen.
+1. Selecteer de aanvullende gegevens die in de externe database moeten worden verzameld. Dubbelklik hiertoe op de velden die u wilt toevoegen om deze weer te geven in het dialoogvenster **[!UICONTROL Output columns]**.
+1. Klikken **[!UICONTROL Finish]** om deze configuratie te bevestigen.

@@ -6,7 +6,8 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 **NOG NIET BESCHIKBAAR**
 
-Met de optie **Sociale netwerken beheren (Sociale marketing)** kunt u via Twitter communiceren met klanten en vooruitzichten.
+Gebruik de **Beheer van sociale netwerken (sociale marketing)** optie om via Twitter met klanten en vooruitzichten te communiceren.
 
 * Berichten verzenden - Gebruik Adobe Campaign Social Marketing om berichten te verzenden op Twitter. Met Adobe Campaign kun je berichten rechtstreeks op je twitter-account plaatsen. U kunt ook directe berichten verzenden naar al uw volgers.
 

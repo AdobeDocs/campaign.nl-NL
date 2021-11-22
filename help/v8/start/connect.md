@@ -28,43 +28,43 @@ Wanneer u voor het eerst campagne gebruikt of wanneer u een upgrade naar een nie
 
 Er zijn twee opties beschikbaar:
 
-1. Als beheerder van de Campagne, verbind met Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) en download het de installatieprogramma van de Console van de Cliënt. U kunt de toepassing vervolgens op uw lokale computer installeren.
+1. Als beheerder van de Campagne, verbind met Adobe [Softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) en download het installatieprogramma van de clientconsole. U kunt de toepassing vervolgens op uw lokale computer installeren.
 
 1. Als eindgebruiker, kan Adobe de Console voor u opstellen: zodra de Console is bijgewerkt, wordt u gevraagd om de nieuwste versie van de Client Console te downloaden in een pop-upvenster.
 
 >[!CAUTION]
 >
->Adobe raadt u aan de optie **[!UICONTROL No longer ask this question]** uit te schakelen om ervoor te zorgen dat alle gebruikers worden gewaarschuwd wanneer een nieuwe versie van de console beschikbaar is.  Als deze optie is geselecteerd, wordt de gebruiker niet op de hoogte gesteld van nieuwe beschikbare versies.
+>Adobe raadt u aan deze optie te laten **[!UICONTROL No longer ask this question]** niet geselecteerd om ervoor te zorgen dat alle gebruikers worden gewaarschuwd wanneer een nieuwe versie van de Console beschikbaar is.  Als deze optie is geselecteerd, wordt de gebruiker niet op de hoogte gesteld van nieuwe beschikbare versies.
 
 ## Verbinding maken
 
 Nadat de clientconsole is geïnstalleerd, voert u de onderstaande stappen uit om de verbinding met de toepassingsserver tot stand te brengen:
 
-1. Start de console vanuit het menu Windows **[!UICONTROL Start]** in de programmagroep **Adobe Campaign**.
+1. De console starten vanuit Windows **[!UICONTROL Start]** in het menu **Adobe Campaign** programmagroep.
 
 1. Klik op de koppeling in de rechterbovenhoek van de aanmeldingsvelden om het venster voor de verbindingsconfiguratie te openen.
 
-1. Klik op **[!UICONTROL Add > Connection]** en voer het label en de URL van de Adobe Campaign-toepassingsserver in.
+1. Klikken **[!UICONTROL Add > Connection]** en voert u het label en de URL van de Adobe Campaign-toepassingsserver in.
 
 1. Geef een verbinding met uw Adobe Campaign-toepassingsserver op via een URL. Gebruik of DNS of een alias van de machine, of uw IP adres.
 
-   U kunt bijvoorbeeld de URL van het type [`https://<machine>.<domain>.com`](https://myserver.adobe.com) gebruiken.
+   U kunt bijvoorbeeld de opdracht [`https://<machine>.<domain>.com`](https://myserver.adobe.com) type URL.
 
 1. Schakel de optie  in **[!UICONTROL Connect with an Adobe ID]**.
 
-1. Klik **[!UICONTROL Ok]** om uw montages te bewaren.
+1. Klikken **[!UICONTROL Ok]** om uw instellingen op te slaan.
 
 U kunt zo veel verbindingen toevoegen als u nodig hebt om bijvoorbeeld verbinding te maken met uw test-, stage- en productieomgeving.
 
 >[!NOTE]
 >
->Met de knop **[!UICONTROL Add]** kunt u **[!UICONTROL folders]** maken om al uw verbindingen te organiseren. U hoeft alleen elke verbinding naar een map te slepen.
+>De **[!UICONTROL Add]** knop laat u maken **[!UICONTROL folders]** om al uw verbindingen te organiseren. U hoeft alleen elke verbinding naar een map te slepen.
 
 ## Aanmelden bij Adobe Campaign
 
 Volg onderstaande stappen om u aan te melden bij een bestaande instantie:
 
-1. Start de console vanuit het menu Windows **[!UICONTROL Start]** in de programmagroep **Adobe Campaign**.
+1. De console starten vanuit Windows **[!UICONTROL Start]** in het menu **Adobe Campaign** programmagroep.
 
 1. Klik op de koppeling in de rechterbovenhoek van de aanmeldingsvelden om het venster voor de verbindingsconfiguratie te openen.
 
@@ -74,7 +74,7 @@ Volg onderstaande stappen om u aan te melden bij een bestaande instantie:
 
 1. Klik op **[!UICONTROL Ok]**.
 
-1. U kunt zich dan aanmelden bij Campagne met [uw Adobe ID](#connect-ims).
+1. U kunt zich dan aanmelden bij Campagne met [Adobe ID](#connect-ims).
 
    ![](assets/adobeID.png)
 
@@ -86,7 +86,7 @@ Met Adobe Campaign kunt u de rechten definiëren en beheren die aan de verschill
 * Toegang tot bepaalde elementen
 * Elementen maken, wijzigen en/of verwijderen (levering, contactpersonen, campagnes, groepen, enz.).
 
-Leer meer over gebruikers en hoe te om hun toestemmingen in [dit sectie](permissions.md) te bepalen.
+Meer informatie over gebruikers en het definiëren van hun machtigingen vindt u in [deze sectie](permissions.md).
 
 Als campagnebeheerder bent u verantwoordelijk voor het maken van de operatoren en het delen van hun referenties met de gebruikers.
 

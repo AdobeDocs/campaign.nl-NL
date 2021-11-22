@@ -16,13 +16,13 @@ ht-degree: 20%
 
 ## Nieuwe functies
 
-* **[Wat is [!DNL Adobe Campaign]](start/get-started.md)**  - Zeer belangrijke mogelijkheden en gebruiksgevallen
+* **[Wat is [!DNL Adobe Campaign]](start/get-started.md)** - Belangrijkste mogelijkheden en gebruiksgevallen
 
-* **[Nieuwe functies in v8](start/whats-new.md)**  - Mogelijkheden voor Campagne v8 ontdekken
+* **[Nieuwe functies in v8](start/whats-new.md)** - Mogelijkheden van Campagne v8 ontdekken
 
-* **[Implementatierichtlijnen](start/implement.md)**   - Leer hoe u uw implementatie kunt starten
+* **[Uitvoeringsrichtsnoeren](start/implement.md)**  - Leer hoe u uw implementatie kunt starten
 
-* **[Van v7 naar v8](start/capability-matrix.md)**  - Overstappen van Campaign Classic v7 naar v8? Belangrijkste verschillen leren
+* **[Van v7 naar v8](start/capability-matrix.md)** - Overstappen van Campaign Classic v7 naar v8? Belangrijkste verschillen leren
 
 ## Aan de slag
 

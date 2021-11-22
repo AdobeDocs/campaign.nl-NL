@@ -38,23 +38,23 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    E-maillevering, een essentieel onderdeel van het succes van het marketingprogramma van elke afzender, wordt gekenmerkt door voortdurend veranderende criteria en regels. Voor een effectieve navigatie in deze digitale wereld is een regelmatige afstemming van uw e-mailstrategie vereist, waarbij rekening wordt gehouden met belangrijke ontwikkelingen op het gebied van de leverbaarheid, zodat uw publiek het beste kan bereiken.
 
-   ![](../assets/do-not-localize/book.png) Raadpleeg deze handleiding voor meer informatie over best practices voor  [aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Raadpleeg deze handleiding voor meer informatie [Aanbevolen werkwijzen voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target=&quot;_blank&quot;}
 
-   ![](../assets/do-not-localize/book.png) Leer hoe te om leverbaarheid in Campagne  [in deze gids](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html) uit te voeren {target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Leer hoe u de prestaties implementeert in Campagne [in deze handleiding](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target=&quot;_blank&quot;}
 
 1. **Hoe kan ik ervoor zorgen dat mijn levering zonder fouten wordt verzonden?**
 
    Adobe Campaign wordt geleverd met een reeks dashboards en tools om uw e-mailleveringen te controleren.
 
-   [Lees uit Campaign Classic v7 documentatie om {target=&quot;_blank&quot;} te leren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) hoe te om ervoor te zorgen uw berichten worden verzonden, de uitvoering te controleren en actie in werking te stellen als een fout voorkomt.
+   [Lees de Campaign Classic v7-documentatie voor meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target=&quot;_blank&quot;} hoe te om ervoor te zorgen dat uw berichten worden verzonden, de uitvoering te controleren en actie in werking te stellen als een fout voorkomt.
 
 1. **Kan ik de uitvoering van de workflow controleren?**
 
-   ![](../assets/do-not-localize/book.png) Begrijp hoe te om de werkschemauitvoering van de Campagne  [in Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html) te controleren {target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Begrijp hoe te om de werkschemauitvoering van de Campagne te controleren [in Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html){target=&quot;_blank&quot;}
 
 1. **Met welke systemen en componenten is Campagne v8 compatibel?**
 
-   U kunt de lijst van alle systemen en componenten krijgen die voor de recentste bouw van Campagne in [de matrijs van de Verenigbaarheid van Adobe Campaign](compatibility-matrix.md) worden gesteund.
+   U kunt de lijst met alle systemen en componenten krijgen die voor de recentste bouw van Campagne binnen worden gesteund [Adobe Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
 
 1. **Wat is de procedure voor domeindelegatie?**
 
@@ -70,9 +70,9 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    U kunt het installatieprogramma en de cliëntconsole van het Centrum van de Download van Adobe krijgen.
 
-   Als Admin-gebruiker hebt u toegang tot Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target=&quot;_blank&quot;} om Adobe Campaign te downloaden.
+   Als Admin-gebruiker hebt u toegang tot Adobe [Softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target=&quot;_blank&quot;} om Adobe Campaign te downloaden.
 
-   Leer meer over het Centrum [in deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target=&quot;_blank&quot;}.
+   Meer informatie over het Distribution Center [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target=&quot;_blank&quot;}.
 
 1. **Kan ik contact opnemen met campagneexperts?**
 
@@ -83,6 +83,6 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    U kunt een ticket maken om contact op te nemen met de Adobe-klantenondersteuning voor problemen die u ondervindt in Adobe-producten. In de Adobe Admin Console kunt u chatten met de Adobe-klantenondersteuning om uw problemen op te lossen.
 
-   Om een kwestie te registreren of een praatjezitting in dat nieuwe systeem te beginnen, verbind met [Adobe Admin Console](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;}.
+   Als u een probleem wilt registreren of een chatsessie wilt starten op dat nieuwe systeem, maakt u verbinding met [Adobe Admin Console](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;}.
 
    Dit systeem vereist individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u zich niet kunt aanmelden met uw Adobe ID, kunt u om toegang vragen via de Experience League. De klantenservice helpt u dan zo snel mogelijk. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}

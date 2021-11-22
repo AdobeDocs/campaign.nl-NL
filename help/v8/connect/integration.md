@@ -22,7 +22,7 @@ Adobe Campaign wordt geleverd met verschillende connectors waarmee u kunt commun
 
 Moderniseer uw implementatie en gebruik alle Adobe Experience Cloud-mogelijkheden.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden.
 
 Campagne v8 kan verbinding maken met:
 
@@ -30,31 +30,31 @@ Campagne v8 kan verbinding maken met:
 * [Adobe Experience Cloud Real-Time CDP](../connect/ac-rtcdp.md)
 * [Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en).
 
-   Zie het het gebruiksgeval van begin tot eind [hier](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=nl).
+   Zie het gebruiksgeval van begin tot eind [hier](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=nl).
 
 * [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
 * [Adobe Experience Cloud-triggers](../connect/ac-triggers.md)
 * [Adobe Target](../connect/ac-at.md)
 
-U kunt ook uw **publiek** en **middelen** combineren over Experience Cloud oplossingen met mogelijkheden voor het delen van middelen en het delen van het publiek.
+U kunt ook uw **publiek** en **elementen** voor Experience Cloud-oplossingen met mogelijkheden voor het delen van bedrijfsmiddelen en het delen van doelgroepen.
 
-![](../assets/do-not-localize/book.png) Meer informatie over het delen van  **publiek** tussen de oplossingen van de Campagne en van de Experience Cloud in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) Meer informatie over **Delen van publiek** tussen Campagne- en Experience Cloud-oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/book.png) Meer informatie over het  **delen van** middelen tussen de oplossingen van de Campagne en van de Experience Cloud in  [Campaign Classic v7 documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) Meer informatie over **Elementen delen** tussen Campagne- en Experience Cloud-oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ## CRM-connectoren{#gs-crm-connectors}
 
-U kunt uw Adobe Campaign-platform aansluiten op uw **CRM-systemen van derden** en gegevens synchroniseren: contacten, rekeningen, aankopen enz.
+U kunt uw Adobe Campaign-platform verbinden met uw **CRM-systemen van derden** en gegevens synchroniseren: contacten, rekeningen, aankopen enz.
 
 Activeer uw CRM-gegevens voor kanaalcommunicatie: Leer hoe te om contacten van uw systeem van CRM aan Adobe Campaign over te brengen, en campagnegegevens terug van Adobe Campaign aan uw systeem van CRM te delen.
 CRM-connectors maken snelle en eenvoudige gegevensintegratie mogelijk: Adobe Campaign verstrekt een specifieke medewerker voor het verzamelen van en het selecteren van uit de lijsten beschikbaar in CRM. Dit garandeert tweerichtingssynchronisatie om ervoor te zorgen dat de data altijd up-to-date zijn in alle systemen.
 
-![](../assets/do-not-localize/glass.png) Leer hoe u Campagne kunt integreren met Microsoft Dynamics 365 en Salesforce.com op  [deze pagina](crm.md)
+![](../assets/do-not-localize/glass.png) Leer hoe u Campagne kunt integreren met Microsoft Dynamics 365 en Salesforce.com in [deze pagina](crm.md)
 
 ## Federated Data Access (FDA){#gs-fda}
 
-Gebruik de Schakelaar FDA (Federated Data Access) om Campagne met één of meerdere **externe gegevensbestanden** te verbinden en informatie te verwerken die in hen wordt opgeslagen zonder uw gegevens van het Gegevensbestand van de Wolk van de Campagne te beïnvloeden.
+Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten op een of meer **externe databases** en procesgegevens die in deze bestanden zijn opgeslagen, zonder dat dit van invloed is op de gegevens van de Campagne Cloud Database.
 
 ![](../assets/do-not-localize/glass.png)[ Meer informatie vindt u op deze pagina](fda.md)
 

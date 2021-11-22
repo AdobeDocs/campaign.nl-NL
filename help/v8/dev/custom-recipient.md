@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Een aangepaste tabel voor ontvangers gebruiken{#gs-ac-custom-recipient}
 
-Adobe Campaign wordt geleverd met een ingebouwde profielentabel: **nmsRecipient**. Deze tabel bevat een aantal vooraf gedefinieerde velden en tabellen die u eenvoudig kunt uitbreiden. Meer informatie over deze tabel vindt u in [deze pagina](datamodel.md#ootb-profiles).
+Adobe Campaign wordt geleverd met een ingebouwde tabel met profielen: **nmsRecipient**. Deze tabel bevat een aantal vooraf gedefinieerde velden en tabellen die u eenvoudig kunt uitbreiden. Meer informatie over deze tabel vindt u in [deze pagina](datamodel.md#ootb-profiles).
 
 De ingebouwde tabeluitbreiding biedt flexibiliteit, maar het is niet toegestaan om enkele ongebruikte velden of koppelingen te verwijderen. Als gevolg hiervan kan het gebruik van een aangepaste ontvankelijke tabel een goede optie zijn wanneer uw datamodel sterk afwijkt van de geïntegreerde tabelstructuur van de campagne voor ontvangers of wanneer u een groot aantal profielen hebt.  Deze methode vereist echter bepaalde voorzorgsmaatregelen bij de toepassing ervan.
 

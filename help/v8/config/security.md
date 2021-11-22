@@ -20,7 +20,7 @@ Bovendien helpen onze samenwerking met partners, toonaangevende onderzoekers, in
 De configuratie van de privacy en het verharden is een zeer belangrijk element van veiligheidsoptimalisering. Hier volgen enkele aanbevolen procedures voor privacy:
 
 * Protect uw klant Personal Information (PI) via HTTPS in plaats van HTTP
-* Gebruik [PI-weergavebeperking](../dev/restrict-pi-view.md) om privacy te beschermen en te voorkomen dat gegevens worden misbruikt
+* Gebruiken [Beperking van PI-weergave](../dev/restrict-pi-view.md) om de privacy te beschermen en te voorkomen dat gegevens worden misbruikt
 * Controleer of gecodeerde wachtwoorden beperkt zijn
 * Protect de pagina&#39;s die persoonlijke gegevens kunnen bevatten, zoals spiegelpagina&#39;s, webtoepassingen, enz.
 
@@ -28,7 +28,7 @@ De configuratie van de privacy en het verharden is een zeer belangrijk element v
 
 ## Personalisatie
 
-Wanneer u persoonlijke koppelingen toevoegt aan uw inhoud, moet u altijd geen persoonlijke instellingen opgeven in het gedeelte hostnaam van de URL om mogelijke hiaten in de beveiliging te voorkomen. De volgende voorbeelden mogen nooit worden gebruikt in alle URL-kenmerken &lt;`a href="">` of `<img src="">`:
+Wanneer u persoonlijke koppelingen toevoegt aan uw inhoud, moet u altijd geen persoonlijke instellingen opgeven in het gedeelte hostnaam van de URL om mogelijke hiaten in de beveiliging te voorkomen. De volgende voorbeelden mogen nooit in alle URL-kenmerken worden gebruikt &lt;`a href="">` of `<img src="">`:
 
 * `<%= url >`
 * `https://<%= url >`
@@ -38,19 +38,19 @@ Wanneer u persoonlijke koppelingen toevoegt aan uw inhoud, moet u altijd geen pe
 
 ## Gegevensbeperking
 
-U moet ervoor zorgen dat de gecodeerde wachtwoorden niet toegankelijk zijn voor gebruikers met lage bevoegdheden. Daarvoor zijn er twee manieren: de toegang tot wachtwoordvelden alleen of tot de gehele entiteit beperken.
+U moet ervoor zorgen dat de gecodeerde wachtwoorden niet toegankelijk zijn voor gebruikers met lage bevoegdheden. Daarvoor zijn er twee manieren: de toegang tot wachtwoordvelden of tot de gehele entiteit beperken.
 
-Met deze beperking kunt u wachtwoordvelden verwijderen, maar de externe account blijft toegankelijk vanuit de interface voor alle gebruikers. Meer informatie vindt u op [deze pagina](../dev/restrict-pi-view.md).
+Met deze beperking kunt u wachtwoordvelden verwijderen, maar de externe account blijft toegankelijk vanuit de interface voor alle gebruikers. Meer informatie in [deze pagina](../dev/restrict-pi-view.md).
 
-1. Ga in **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
+1. Ingaan **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
-1. Maak een nieuwe **[!UICONTROL Extension of a schema]**.
+1. Een nieuwe **[!UICONTROL Extension of a schema]**.
 
 1. Kies **[!UICONTROL External Account]** (extAccount).
 
 1. In het laatste scherm, kunt u uw nieuw srcSchema uitgeven om toegang tot alle wachtwoordgebieden te beperken:
 
-   U kunt het hoofdelement (`<element name="extAccount" ... >`) vervangen door:
+   U kunt het hoofdelement (`<element name="extAccount" ... >`) door:
 
    ```
    <element name="extAccount">
@@ -96,7 +96,7 @@ Met deze beperking kunt u wachtwoordvelden verwijderen, maar de externe account 
 
    >[!NOTE]
    >
-   >U kunt `$(loginId) = 0 or $(login) = 'admin'` door `hasNamedRight('admin')` vervangen om alle gebruikers met het juiste admin deze wachtwoorden te laten zien.
+   >U kunt `$(loginId) = 0 or $(login) = 'admin'` door `hasNamedRight('admin')` om alle gebruikers met het juiste admin te laten deze wachtwoorden zien.
 
 
 ## Toegangsbeheer
@@ -107,16 +107,16 @@ Toegangsbeheer is een belangrijk onderdeel van de beveiliging. Hier volgen enkel
 * Controleren of elke operator de juiste toegangsrechten heeft
 * Vermijd het gebruik van de beheeroperator en vermijd het gebruik van te veel operatoren in de beheergroep
 
-![](../assets/do-not-localize/book.png) Meer informatie in  [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
 
 ## Codeerrichtlijnen
 
 Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) altijd de volgende richtlijnen:
 
-* **Scripting**: Probeer SQL-instructies te vermijden, gebruik parameterized functies in plaats van tekenreekssamenvoeging en vermijd SQL-injectie door de SQL-functies toe te voegen die u aan de lijst van gewenste personen wilt gebruiken.
+* **Scripts**: Probeer SQL-instructies te vermijden, gebruik parameterized functies in plaats van tekenreekssamenvoeging en vermijd SQL-injectie door de SQL-functies toe te voegen die u aan de lijst van gewenste personen wilt gebruiken.
 
-* **Beveilig het gegevensmodel**: gebruik genoemde rechten om exploitatoracties te beperken, systeemfilters toe te voegen (sysFilter)
+* **Het gegevensmodel beveiligen**: gebruik genoemde rechten om exploitatoracties te beperken, systeemfilters toe te voegen (sysFilter)
 
-* **Hoofdletters toevoegen in webtoepassingen**: Voeg hoofdletters toe aan uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
+* **Hoofdletters toevoegen aan webtoepassingen**: Voeg hoofdletters toe aan uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
 
-![](../assets/do-not-localize/book.png) Meer informatie in  [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}

@@ -14,29 +14,29 @@ ht-degree: 1%
 
 # Een aanbiedingencatalogus maken
 
-Als **Manager van de aanbieding**, bent u verantwoordelijk voor het creëren van de aanbiedingscatalogus.
+Als **Aanbiedingsmanager**, bent u verantwoordelijk voor het maken van de aanbiedingencatalogus.
 
 Een aanbiedingscatalogus is gekoppeld aan één bestaande omgeving. Aanbiedingen in deze catalogus kunnen alleen worden gekoppeld aan de ruimten die in dezelfde omgeving zijn opgegeven.
 
-Voordat u uw aanbiedingen maakt, moet u eerst een [omgeving](interaction-env.md) opgeven die alle kenmerken (geschiktheid, beperkingen op het doel, presentatieregels) van een reeks aanbiedingen bevat, gesorteerd in categorieën, en de lijst met de bijbehorende ruimten.
+Voordat u uw aanbiedingen maakt, moet u eerst een [milieu](interaction-env.md) die alle kenmerken (subsidiabiliteit, beperkingen van het doel, presentatieregels) van een reeks aanbiedingen bevat, uitgesplitst in categorieën, alsmede de lijst van de ruimten waarin zij voorkomen.
 
 ## Aanbiedingscategorieën maken{#creating-offer-categories}
 
-De aanbieding is ingedeeld in categorieën/subcategorieën. Categorieën worden gemaakt in de **[!UICONTROL Design]**-omgeving en worden automatisch geïmplementeerd in de **[!UICONTROL Live]**-omgeving (d.w.z. beschikbaar gesteld) wanneer de aanbiedingen die ze bevatten, worden goedgekeurd. De **[!UICONTROL Design]**-omgeving bevat een standaardcategorie voor het ontvangen van alle aanbiedingen. U kunt subcategorieën maken om een hiërarchie toe te voegen aan de catalogusaanbiedingen.
+De aanbieding is ingedeeld in categorieën/subcategorieën. De categorieën worden gecreeerd in **[!UICONTROL Design]** en automatisch in de **[!UICONTROL Live]** milieu (d.w.z. beschikbaar gesteld) wanneer de aanbiedingen die zij bevatten, worden goedgekeurd. De **[!UICONTROL Design]** omgeving bevat een standaardcategorie voor het ontvangen van alle aanbiedingen. U kunt subcategorieën maken om een hiërarchie toe te voegen aan de catalogusaanbiedingen.
 
-Voor elke categorie, kunt u **toelatingsdata** bepalen, die de periode is waarin de aanbiedingen in de categorie aan hun doel kunnen worden voorgesteld. U kunt ook het gewicht van een categorie aanpassen om voorrang te geven aan de aanbiedingspresentatie.
+Voor elke categorie kunt u definiëren **toelatingsdata**, de periode waarin de aanbiedingen in de categorie aan hun doel kunnen worden voorgelegd. U kunt ook het gewicht van een categorie aanpassen om voorrang te geven aan de aanbiedingspresentatie.
 
 Ga als volgt te werk om een nieuwe categorie te maken:
 
-1. Browser aan de **[!UICONTROL Offer catalog]** omslag.
+1. Browser naar de **[!UICONTROL Offer catalog]** map.
 
    ![](assets/offer_cat_create_001.png)
 
-1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Create a new "Offer category" folder]** in de vervolgkeuzelijst.
+1. Klikken met rechtermuisknop en selecteren **[!UICONTROL Create a new "Offer category" folder]** in de vervolgkeuzelijst.
 
    ![](assets/offer_cat_create_002.png)
 
-1. Geef de categorie een nieuwe naam. U kunt het label later bewerken met het tabblad **[!UICONTROL General]**.
+1. Geef de categorie een nieuwe naam. U kunt het label later bewerken met de **[!UICONTROL General]** tab.
 
    ![](assets/offer_cat_create_003.png)
 
@@ -46,13 +46,13 @@ Ga als volgt te werk om een nieuwe categorie te maken:
 
    Daarna kunt u zo nodig:
 
-   * Wijs toelatingsdata van **[!UICONTROL Eligibility]** tabel toe.
+   * Toepassingsdata toewijzen vanaf de **[!UICONTROL Eligibility]** tab.
 
       ![](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL Edit query]** om filters op het aanbiedingsdoel toe te passen.
 
-   * Een overzicht van de geschiktheidsregels. Klik op de koppeling **[!UICONTROL Schedule and eligibility rules of the offer]** om deze weer te geven.
+   * Een overzicht van de subsidiabiliteitsregels. Klik op de knop **[!UICONTROL Schedule and eligibility rules of the offer]** koppeling.
 
 ## Een terugvalcategorie toevoegen
 
@@ -65,7 +65,7 @@ Bovendien mag er geen presentatieregel worden toegepast op deze aanbiedingen om 
 Volg onderstaande stappen om een fallback-categorie op te nemen in de aanbevelingen:
 
 1. Blader naar de catalogus met aanbiedingen.
-1. Klik op de tab **[!UICONTROL Eligibility]** en selecteer de optie **[!UICONTROL Always include this category in the recommendations]**.
+1. Klik op de knop **[!UICONTROL Eligibility]** en selecteert u de **[!UICONTROL Always include this category in the recommendations]** optie.
 1. Klik op **[!UICONTROL Save]**.
 
    ![](assets/offer_cat_default_001.png)

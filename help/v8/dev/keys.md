@@ -11,13 +11,13 @@ ht-degree: 0%
 
 # Sleutelbeheer en eenheid {#key-management}
 
-In Campagne v8 is de primaire sleutel een Universally Unique IDentifier (UUID), die een tekenreeks op tekens is. Om deze UUID tot stand te brengen, moet het belangrijkste element van het schema **autouuid** en **Automatische Auto** attributen bevatten die aan **true** worden geplaatst.
+In Campagne v8 is de primaire sleutel een Universally Unique IDentifier (UUID), die een tekenreeks op tekens is. Als u deze UUID wilt maken, moet het hoofdelement van het schema het volgende bevatten: **autouuid** en **automatische** kenmerken ingesteld op **true**.
 
 Adobe-campagne v8 wordt geleverd met Snowflake als de kerndatabase. De verdeelde architectuur van het gegevensbestand van Snowflake verstrekt geen mechanismen om de eenheid van een sleutel binnen een lijst te beheren: eindgebruikers zijn verantwoordelijk voor het waarborgen van consistentie van sleutels binnen de Adobe Campaign-database.
 
-Om de consistentie van relationele databases te behouden, is het verplicht duplicaten van sleutels, en met name van primaire sleutels, te voorkomen. Duplicaten op primaire sleutels leiden tot problemen met de werkstroomactiviteiten voor gegevensbeheer, zoals **Query**, **Afstemming**, **Gegevens bijwerken** en meer.
+Om de consistentie van relationele databases te behouden, is het verplicht duplicaten van sleutels, en met name van primaire sleutels, te voorkomen. Duplicaties op primaire sleutels leiden tot problemen met de werkstroomactiviteiten voor gegevensbeheer, zoals **Query**, **Verzoening**, **Gegevens bijwerken** en meer.
 
-Als beste praktijken, adviseert Adobe het goedkeuren van een [Detect](#detect-duplicates) en [Correct](#correct-duplicates) strategie als deel van uw algemeen proces van het Beheer van Gegevens, voor het geval dat de gedupliceerde sleutels in het gegevensbestand zijn geladen.
+Adobe beveelt aan een [Detecteren](#detect-duplicates) en [Juist](#correct-duplicates) strategie als onderdeel van uw algemene proces voor gegevensbeheer, in het geval dat dubbele sleutels in de database zijn geladen.
 
 ## Duplicaten detecteren{#detect-duplicates}
 
@@ -37,12 +37,12 @@ Wanneer dit gebeurt, kunt u een werkschema tot stand brengen om de dubbele sleut
 
    ![](assets/new-wf.png)
 
-1. Een **Query**-activiteit toevoegen
-1. Selecteer de tabel **Ontvanger**
+1. Voeg een **Query** activiteit
+1. Selecteer **Ontvanger** table
 
    ![](assets/add-query-on-rcp.png)
 
-1. Voeg een **Deduplicatie** activiteit toe en dedupliceer op de primaire sleutel (UUID). Houd slechts één duplicaat en controleer **Generate Complement** optie om een uitgaande overgang voor duplicaten tot stand te brengen.
+1. Voeg een **Deduplicatie** activiteit en dedupliceren op de primaire sleutel (UUID). Houd slechts één duplicaat en controleer de  **Complement genereren** optie om een uitgaande overgang te maken voor de duplicaten.
 
    ![](assets/deduplicate.png)
 
@@ -63,11 +63,10 @@ Voor het corrigeren van duplicaten moeten klanten Campagnegegevens bijwerken. He
 
 Bijvoorbeeld:
 
-* **Case 1**  - Gedupliceerde ontvangers met dezelfde UUID en dezelfde profielgegevens (zelfde e-mail, voornaam, enz.) : de ontvangers zien er als &quot;echte&quot; duplicaten uit en de verzachting zou kunnen zijn om slechts één van de duplicaten te verwijderen.
+* **Zaak 1** - Gedupliceerde ontvangers met dezelfde UUID en dezelfde profielgegevens (zelfde e-mail, voornaam, enz.) : de ontvangers zien er als &quot;echte&quot; duplicaten uit en de verzachting zou kunnen zijn om slechts één van de duplicaten te verwijderen.
 Een andere manier zou kunnen zijn om informatie van één ontvanger in andere te verenigen.
 
-* **Case 2**  - Gedupliceerde ontvangers met dezelfde UUID maar andere profielgegevens (andere e-mail, voornaam, enz.):
-Nu lijkt het of er verschillende profielen zijn en dat u beide wilt behouden in de Campagne-database. Dit betekent dat we liever alleen een van de duplicaten bijwerken die een nieuwe UUID genereren. [Meer weten in dit voorbeeld](#deduplicate-sample)?
+* **Zaak 2** - Gedupliceerde ontvangers met dezelfde UUID maar andere profielgegevens (andere e-mail, voornaam enz.): Nu lijkt het of er verschillende profielen zijn en dat u beide wilt behouden in de Campagne-database. Dit betekent dat we liever alleen een van de duplicaten bijwerken die een nieuwe UUID genereren. [Meer informatie in dit voorbeeld](#deduplicate-sample).
 
 Afhankelijk van uw verzachtingsstrategie kunt u altijd een query uitvoeren op de lijst in een andere workflow en de update toepassen op basis van uw behoefte. Neem contact op met Adobe voor meer informatie.
 
@@ -75,7 +74,7 @@ Afhankelijk van uw verzachtingsstrategie kunt u altijd een query uitvoeren op de
 
 Bij gedupliceerde ontvangers kunt u beide records in de Campagne-database bewaren. In dat geval moet u een van de UUID&#39;s bijwerken met een nieuwe UUID.
 
-Zo kunt u een SQL updatequery op het Gegevensbestand van de Wolk in werking stellen u **SQL gegevensbeheer** werkschemaactiviteit gebruiken en de volgende SQL update uitvoeren:
+Zo kunt u een SQL-updatequery uitvoeren op de Cloud Database met de opdracht **SQL-gegevensbeheer** workflowactiviteit en voer de volgende SQL-update uit:
 
 ```sql
 update nmsrecipient set urecipientid = uuid_string()
@@ -85,4 +84,4 @@ and urecipientid = 'c04d93f2-6012-4668-b523-88db1262cd46';
 
 ![](assets/sql-data-management.png)
 
-Zodra de geselecteerde rij met nieuwe UUID wordt bijgewerkt dan kunt u de bijgewerkte rij van de interface controleren en opmerken UUID zoals verwacht is bijgewerkt. U kunt ook duplicaten in de database detecteren door de **workflow [Detecteren van duplicaten** uit te voeren, zoals hier wordt uitgelegd](#detect-duplicates).
+Zodra de geselecteerde rij met nieuwe UUID wordt bijgewerkt dan kunt u de bijgewerkte rij van de interface controleren en opmerken UUID zoals verwacht is bijgewerkt. U kunt ook duplicaten in de database detecteren door de opdracht **Duplicaten detecteren** werkstroom [zoals hier uitgelegd](#detect-duplicates).

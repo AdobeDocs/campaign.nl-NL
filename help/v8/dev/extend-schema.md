@@ -22,12 +22,12 @@ De belangrijkste stappen om het datamodel van de Campagne aan te passen zijn:
 >[!CAUTION]
 >Ingebouwd schema mag niet rechtstreeks worden gewijzigd. Als u een ingebouwd schema moet aanpassen, moet u het uitbreiden.
 
-![](../assets/do-not-localize/glass.png) Raadpleeg  [deze pagina](datamodel.md) voor een beter begrip van ingebouwde tabellen en hun interactie voor campagnes. Zie ook aanbevelingen wanneer het creëren van een nieuw schema in [deze pagina](create-schema.md).
+![](../assets/do-not-localize/glass.png) Voor een beter inzicht in ingebouwde lijsten van de Campagne en hun interactie, verwijs naar [deze pagina](datamodel.md). Zie ook aanbevelingen wanneer het creëren van een nieuw schema in [deze pagina](create-schema.md).
 
 Voer de volgende stappen uit om een schema uit te breiden:
 
-1. Navigeer naar de map **[!UICONTROL Administration > Configuration > Data schemas]** in de Verkenner.
-1. Klik op de knop **Nieuw** en selecteer **[!UICONTROL Extend the data in a table using an extension schema]**.
+1. Ga naar de **[!UICONTROL Administration > Configuration > Data schemas]** in de Verkenner.
+1. Klik op de knop **Nieuw** en selecteert u **[!UICONTROL Extend the data in a table using an extension schema]**.
 
    ![](assets/extend-schema-option.png)
 
@@ -43,7 +43,7 @@ Voer de volgende stappen uit om een schema uit te breiden:
 
    ![](assets/extend-schema-edit.png)
 
-   In het onderstaande voorbeeld voegen we het kenmerk **MembershipYear** toe, plaatsen we een lengtelimiet voor achternaam (deze limiet overschrijft de standaardwaarde) en verwijderen we de geboortedatum uit het ingebouwde schema.
+   In het onderstaande voorbeeld voegen we de **LidmaatschapJaar** -kenmerk, een lengtelimiet voor achternaam instellen (deze limiet overschrijft de standaardwaarde) en de geboortedatum uit het ingebouwde schema verwijderen.
 
    ![](assets/extend-schema-sample.png)
 
@@ -59,7 +59,7 @@ Voer de volgende stappen uit om een schema uit te breiden:
    </srcSchema>
    ```
 
-1. Verbinding met Campagne verbreken en opnieuw verbinden om de update van de schemastructuur op het tabblad **[!UICONTROL Structure]** te controleren.
+1. Maak en maak opnieuw verbinding met Campagne om de update van de schemastructuur te controleren in het dialoogvenster **[!UICONTROL Structure]** tab.
 
    ![](assets/extend-schema-structure.png)
 

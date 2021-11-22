@@ -11,7 +11,7 @@ ht-degree: 2%
 
 # Een nieuw schema maken{#create-new-schema}
 
-Als u de schema&#39;s wilt bewerken, maken en configureren, klikt u op het knooppunt **[!UICONTROL Administration > Configuration > Data schemas]** van de Adobe Campaign-clientconsole.
+Als u de schema&#39;s wilt bewerken, maken en configureren, klikt u op de knop **[!UICONTROL Administration > Configuration > Data schemas]** knooppunt van de Adobe Campaign-clientconsole.
 
 >[!NOTE]
 >
@@ -19,7 +19,7 @@ Als u de schema&#39;s wilt bewerken, maken en configureren, klikt u op het knoop
 
 ![](assets/schema_navtree.png)
 
-Op het tabblad **[!UICONTROL Edit]** wordt de XML-inhoud van een schema weergegeven:
+De **[!UICONTROL Edit]** wordt de XML-inhoud van een schema weergegeven:
 
 ![](assets/schema_edition.png)
 
@@ -27,7 +27,7 @@ Op het tabblad **[!UICONTROL Edit]** wordt de XML-inhoud van een schema weergege
 >
 >Met het besturingselement &#39;Naam&#39; kunt u de schemasleutel invoeren die bestaat uit de naam en naamruimte. De kenmerken &quot;name&quot; en &quot;namespace&quot; van het hoofdelement van het schema worden automatisch bijgewerkt in de XML-bewerkingszone van het schema. Sommige naamruimten zijn alleen intern. [Meer informatie](schemas.md#reserved-namespaces)
 
-Het **[!UICONTROL Preview]** lusje produceert automatisch het uitgebreide schema:
+De **[!UICONTROL Preview]** tab genereert automatisch het uitgebreide schema:
 
 ![](assets/schema_edition2.png)
 
@@ -35,16 +35,16 @@ Het **[!UICONTROL Preview]** lusje produceert automatisch het uitgebreide schema
 >
 >Wanneer het bronschema wordt opgeslagen, wordt het genereren van het uitgebreide schema automatisch gestart.
 
-Als u de volledige structuur van een schema moet controleren, kunt u **[!UICONTROL Preview]** tabel gebruiken. Als het schema is uitgebreid, zult u al zijn uitbreidingen dan kunnen visualiseren. Als aanvulling, toont **[!UICONTROL Documentation]** lusje alle schemakenmerken en elementen, en hun eigenschappen (SQL Gebied, type/lengte, etiket, beschrijving). Het tabblad **[!UICONTROL Documentation]** is alleen van toepassing op gegenereerde schema&#39;s.
+Als u de volledige structuur van een schema moet controleren, kunt u gebruiken **[!UICONTROL Preview]** tab. Als het schema is uitgebreid, zult u al zijn uitbreidingen dan kunnen visualiseren. Als aanvulling op **[!UICONTROL Documentation]** worden alle schemakenmerken en -elementen en hun eigenschappen (SQL-veld, type/lengte, label, beschrijving) weergegeven. De **[!UICONTROL Documentation]** is alleen van toepassing op gegenereerde schema&#39;s.
 
 ## Hoofdlettergebruik: een contracttabel maken {#example--creating-a-contract-table}
 
-In het volgende voorbeeld, creeert u een nieuwe lijst voor **contracten** in het gegevensbestand. In deze tabel kunt u voor elk contract de voor- en achternaam en het e-mailadres van de houder en de medehouder opslaan.
+In het volgende voorbeeld maakt u een nieuwe tabel voor **contracten** in de database. In deze tabel kunt u voor elk contract de voor- en achternaam en het e-mailadres van de houder en de medehouder opslaan.
 
 Hiervoor moet u het schema van de tabel maken en de databasestructuur bijwerken om de bijbehorende tabel te genereren. De gedetailleerde stappen worden hieronder vermeld.
 
-1. Bewerk het knooppunt **[!UICONTROL Administration > Configuration > Data schemas]** van de Adobe Campaign-structuur en klik op **[!UICONTROL New]**.
-1. Kies de optie **[!UICONTROL Create a new table in the data template]** en klik **[!UICONTROL Next]**.
+1. Bewerk de **[!UICONTROL Administration > Configuration > Data schemas]** knoop van de boom van Adobe Campaign en klik **[!UICONTROL New]**.
+1. Kies de optie **[!UICONTROL Create a new table in the data template]** en klik op **[!UICONTROL Next]** .
 
    ![](assets/create_new_schema.png)
 
@@ -54,15 +54,15 @@ Hiervoor moet u het schema van de tabel maken en de databasestructuur bijwerken 
 
    >[!NOTE]
    >
-   >Standaard worden schema&#39;s die door gebruikers worden gemaakt, opgeslagen in de naamruimte &#39;cus&#39;. Voor meer op dit, verwijs naar [Identificatie van een schema](extend-schema.md#identification-of-a-schema).
+   >Standaard worden schema&#39;s die door gebruikers worden gemaakt, opgeslagen in de naamruimte &#39;cus&#39;. Raadpleeg voor meer informatie hierover [Identificatie van een schema](extend-schema.md#identification-of-a-schema).
 
-1. Maak de inhoud van de tabel. Wij adviseren gebruikend de specifieke medewerker om ervoor te zorgen geen montages ontbreken. Klik hiertoe op de knop **[!UICONTROL Insert]** en kies het type instelling dat u wilt toevoegen.
+1. Maak de inhoud van de tabel. Wij adviseren gebruikend de specifieke medewerker om ervoor te zorgen geen montages ontbreken. Om dit te doen, klik **[!UICONTROL Insert]** en kiest u het type instelling dat u wilt toevoegen.
 
    ![](assets/create_new_content.png)
 
 1. Definieer de instellingen voor de tabel met contracten.
 
-   Als beste praktijken, creeer de lijst in het gegevensbestand van de Wolk door het `dataSource="nms:extAccount:ffda"` attribuut toe te voegen. Dit kenmerk wordt standaard toegevoegd bij het maken van een nieuwe tabel.
+   U kunt de tabel het beste maken in de Cloud-database door de opdracht `dataSource="nms:extAccount:ffda"` kenmerk. Dit kenmerk wordt standaard toegevoegd bij het maken van een nieuwe tabel.
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
@@ -106,7 +106,7 @@ Hiervoor moet u het schema van de tabel maken en de databasestructuur bijwerken 
    </srcSchema>
    ```
 
-1. Sla het schema op en klik op het tabblad **[!UICONTROL Structure]** om de structuur te genereren:
+1. Sla het schema op en klik op de knop **[!UICONTROL Structure]** tabblad om de structuur te genereren:
 
    ![](assets/configuration_structure.png)
 

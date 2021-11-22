@@ -20,21 +20,21 @@ Deze connectors maken snelle en eenvoudige gegevensintegratie mogelijk: Adobe Ca
 
 >[!NOTE]
 >
->Deze functie is beschikbaar in Adobe Campaign via het speciale pakket **CRM-connectors**.
+>Deze functie is beschikbaar in Adobe Campaign via de **CRM-connectors** toegewezen pakket.
 
 ## Compatibele systemen {#compatible-crm-systems-and-limitations}
 
-Ondersteunde CRM&#39;s en versies worden beschreven in Campagne [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
+Ondersteunde CRM&#39;s en versies worden in de campagne gedetailleerd weergegeven [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
 
 ![](../assets/do-not-localize/speech.png)  De CRM-connectors werken alleen met een beveiligde URL (https).
 
 ## Implementatiestappen {#crm-implementation-steps}
 
-![](../assets/do-not-localize/book.png) Leer geleidelijke procedure om Campagne en de Dynamica van Microsoft in  [Campaign Classic v7 documentatie aan te sluiten](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
+![](../assets/do-not-localize/book.png) Leer geleidelijke procedure om Campagne en de Dynamica van Microsoft in te verbinden [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
 
-![](../assets/do-not-localize/book.png) Leer geleidelijke procedure om Campagne en Salesforce in  [Campaign Classic v7 documentatie aan te sluiten](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
+![](../assets/do-not-localize/book.png) Leer geleidelijke procedure om Campagne en Salesforce in aan te sluiten [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
 
 
 Gegevenssynchronisatie tussen Adobe Campaign en de CRM wordt uitgevoerd via een specifieke workflowactiviteit. Bouw uw werkschema&#39;s om synchronisatie tussen Campagne en uw CRM te automatiseren. U kunt een werkschema tot stand brengen dat de contacten via de Dynamica van Microsoft invoert, hen synchroniseert met de bestaande gegevens van Adobe Campaign, dubbele contacten schrapt, en dan het gegevensbestand van Adobe Campaign bijwerkt.
 
-![](../assets/do-not-localize/book.png) Meer informatie in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
+![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)

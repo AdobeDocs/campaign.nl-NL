@@ -2,7 +2,8 @@
 product: campaign
 title: Aanbevolen procedures voor Adobe Campaign-interactie
 description: Aanbevolen aanpak voor het beheer van de Interactiemodule in Adobe Campaign
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -70,7 +71,7 @@ Wanneer u het voorstel selecteert, wordt de waarde van de optie **[!UICONTROL vi
 * &quot;rendering/html&quot;: html-rendering. De renderfunctie HTML wordt gebruikt.
 * &quot;aanbieding/weergave/html&quot;: html-inhoud. De renderfunctie HTML wordt niet gebruikt. Het bevat alleen het veld HTML.
 
-Wanneer u meerdere aanbiedingsruimten opneemt in één e-mailbestelling en sommige daarvan renderingfuncties hebben en andere niet, moet u onthouden welke functies spaties bieden en welke ruimten renderfuncties bieden.
+Wanneer u meerdere aanbiedingsruimten opneemt in één e-mailbestelling en sommige daarvan renderingfuncties hebben en andere niet, moet u onthouden welke functies ruimtes bieden en welke ruimten renderfuncties bieden.
 
 Daarom wordt u aangeraden voor alle aanbiedingsruimten een renderfunctie voor HTML te definiëren, zelfs als voor uw aanbiedingsruimte alleen HTML-inhoud is vereist.
 

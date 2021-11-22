@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. Deze berichten worden geproduceerd van gebeurtenissen die van informatiesystemen teweeggebracht worden, en kunnen zijn: factuur, bevestiging van bestelling, bevestiging van verzending, wijziging van wachtwoord, kennisgeving van onbeschikbaarheid van product, rekeningoverzicht of het maken van websiteaccount, bijvoorbeeld.
 
-![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
 
 Transactieberichten worden gebruikt voor het verzenden van:
 
@@ -24,9 +24,9 @@ Transactieberichten worden gebruikt voor het verzenden van:
 * een individuele reactie in real time op een klantenactie
 * niet-promotionele inhoud
 
-![](../assets/do-not-localize/glass.png) De instellingen voor het transactiebericht worden in  [deze sectie](../config/transactional-msg-settings.md) beschreven.
+![](../assets/do-not-localize/glass.png) De instellingen voor Transactieberichten worden gedetailleerd in [deze sectie](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur in  [deze pagina](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur in [deze pagina](../dev/architecture.md).
 
 >[!CAUTION]
 >
@@ -40,8 +40,8 @@ Elke gebeurtenis kan een gepersonaliseerd bericht teweegbrengen. Hiervoor moet u
 
 Volg onderstaande stappen om een berichtsjabloon te maken:
 
-1. Ga naar de **[!UICONTROL Message Center >Transactional message templates]** omslag in de boom van Adobe Campaign.
-1. Klik in de lijst met transactiemalplaatjes met de rechtermuisknop en selecteer **[!UICONTROL New]** in het vervolgkeuzemenu of klik op de knop **[!UICONTROL New]** boven de lijst met transactionele berichtsjablonen.
+1. Ga naar de **[!UICONTROL Message Center >Transactional message templates]** in de Adobe Campaign-structuur.
+1. Klik in de lijst met transactiemalesjablonen met de rechtermuisknop en selecteer **[!UICONTROL New]** in het vervolgkeuzemenu of klik op de knop **[!UICONTROL New]** boven de lijst met transactiemalusjablonen voor berichten.
 
    ![](assets/messagecenter_create_model_001.png)
 
@@ -60,7 +60,7 @@ Volg onderstaande stappen om een berichtsjabloon te maken:
    >
    >Een gebeurtenistype mag nooit aan meerdere sjablonen worden gekoppeld.
 
-1. Ga een aard en een beschrijving in, dan klik **[!UICONTROL Continue]** om het berichtlichaam tot stand te brengen. Zie [Berichtinhoud maken](#create-message-content).
+1. Voer een aard en beschrijving in en klik vervolgens op **[!UICONTROL Continue]** om de berichttekst te maken. Zie [Berichtinhoud maken](#create-message-content).
 
 ### De inhoud maken{#create-message-content}
 
@@ -69,7 +69,7 @@ De definitie van de inhoud van het transactiebericht is hetzelfde als voor alle 
 >[!CAUTION]
 >
 >Afbeeldingen in het bericht moeten openbaar toegankelijk zijn. Adobe Campaign biedt geen mechanisme voor het uploaden van afbeeldingen voor transactieberichten.\
->In tegenstelling tot JSSP of webApp heeft `<%=` geen standaardescaping.
+>In tegenstelling tot JSSP of webApp, `<%=` heeft geen standaardescape.
 >
 >U moet alle gegevens die uit de gebeurtenis komen, op de juiste wijze verwijderen. Deze escape is afhankelijk van de manier waarop dit veld wordt gebruikt. Gebruik in een URL bijvoorbeeld encodeURIComponent. U kunt escapeXMLString gebruiken om in de HTML te worden weergegeven.
 
@@ -84,11 +84,11 @@ Voer de volgende stappen uit om personalisatietags in te voegen in de tekst van 
 
 1. Klik in de berichtsjabloon op het tabblad dat overeenkomt met de e-mailindeling (HTML of tekst).
 1. Voer de tekst van het bericht in.
-1. Voeg de tag in de tekst in met de menu&#39;s **[!UICONTROL Real time events>Event XML]**.
+1. Voeg in de tekst de tag in met behulp van de **[!UICONTROL Real time events>Event XML]** menu&#39;s.
 
    ![](assets/messagecenter_create_custo_1.png)
 
-1. Vul de tag in met de volgende syntaxis: **elementnaam**.@**kenmerknaam** zoals hieronder getoond.
+1. Vul de tag in met de volgende syntaxis: **elementnaam**.@**kenmerknaam** zoals hieronder weergegeven.
 
    ![](assets/messagecenter_create_custo_2.png)
 
@@ -96,7 +96,7 @@ Voer de volgende stappen uit om personalisatietags in te voegen in de tekst van 
 
 Een zaadadres laat u een voorproef van uw bericht tonen, een proef, en de personalisatie van het testbericht verzenden alvorens het bericht te verzenden. De zaadadressen zijn verbonden met de levering en kunnen niet voor andere leveringen worden gebruikt.
 
-1. Klik in de transactiemalplaatje van het bericht, op **[!UICONTROL Seed addresses]** tabel, dan klik **[!UICONTROL Add]** knoop.
+1. Klik in de sjabloon Transactiebericht op de knop **[!UICONTROL Seed addresses]** en klikt u op de knop **[!UICONTROL Add]** knop.
 
    ![](assets/messagecenter_create_seed_1.png)
 
@@ -110,7 +110,7 @@ Een zaadadres laat u een voorproef van uw bericht tonen, een proef, en de person
 
    ![](assets/messagecenter_create_custo_3.png)
 
-1. Klik **[!UICONTROL Ok]** om de verwezenlijking van het zaadadres te bevestigen.
+1. Klikken **[!UICONTROL Ok]** ter bevestiging van de oprichting van het zaadadres.
 
 1. Herhaal dit proces om zoveel adressen te maken als u nodig hebt.
 
@@ -120,7 +120,7 @@ Zodra de adressen worden gecreeerd, kunt u tot hun voorproef en verpersoonlijkin
 
 ### Aanpassingsgegevens toevoegen{#personalization-data}
 
-U kunt gegevens in het berichtmalplaatje toevoegen om transactionele berichtverpersoonlijking te testen. Op deze manier kunt u een voorbeeld genereren of een proefdruk verzenden. Als u de **Deliverability** module installeert, staat dit gegeven u toe om een teruggave van de berichten voor diverse Desktop, Web of mobiele cliënten te tonen.
+U kunt gegevens in het berichtmalplaatje toevoegen om transactionele berichtverpersoonlijking te testen. Op deze manier kunt u een voorbeeld genereren of een proefdruk verzenden. Als u de **Leverbaarheid** met deze gegevens kunt u een weergave van de berichten voor verschillende desktops, het web of mobiele clients weergeven.
 
 Het doel van deze gegevens is om uw berichten vóór hun definitieve levering te testen. Deze berichten vallen niet samen met werkelijke gegevens die door Message Center moeten worden verwerkt. De XML-structuur moet echter gelijk zijn aan die van de gebeurtenis die in de uitvoeringsinstantie is opgeslagen, zoals hieronder wordt weergegeven.
 
@@ -128,7 +128,7 @@ Het doel van deze gegevens is om uw berichten vóór hun definitieve levering te
 
 Met deze informatie kunt u de inhoud van berichten personaliseren met personalisatietags.
 
-1. Klik in de berichtsjabloon op het tabblad **[!UICONTROL Seed addresses]**.
+1. Klik in de berichtsjabloon op de knop **[!UICONTROL Seed addresses]** tab.
 1. Voer in de inhoud van de gebeurtenis de testinformatie in XML-indeling in.
 
    ![](assets/messagecenter_create_custo_3.png)
@@ -137,7 +137,7 @@ Met deze informatie kunt u de inhoud van berichten personaliseren met personalis
 
 Zodra u één of meerdere zaadadressen en het berichtlichaam hebt gecreeerd, kunt u voorproef het bericht en zijn verpersoonlijking controleren.
 
-1. Klik in de berichtsjabloon op de tab **[!UICONTROL Preview]** en selecteer **[!UICONTROL A seed address]** in de vervolgkeuzelijst.
+1. Klik in de berichtsjabloon op de knop **[!UICONTROL Preview]** tab, dan selecteren **[!UICONTROL A seed address]** in de vervolgkeuzelijst.
 
    ![](assets/messagecenter_preview_1.png)
 
@@ -151,11 +151,11 @@ U kunt berichtlevering testen door een bewijs naar een eerder gecreeerd zaadadre
 
 Bij het verzenden van een bewijs wordt hetzelfde proces gebruikt als bij elke levering.
 
-![](../assets/do-not-localize/book.png) Meer informatie over proefdrukken in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Meer informatie over proefdrukken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
 
 Als u echter een bewijs van een transactiebericht wilt verzenden, moet u de volgende bewerkingen uitvoeren:
 
-* Creeer één of meerdere [zaadadressen](#add-seeds) met de gegevens van de verpersoonlijkingstest
+* Een of meer maken [zaadadressen](#add-seeds) met gegevens van een personalisatietest
 * Berichtinhoud maken
 
 Het bewijs verzenden:
@@ -170,7 +170,7 @@ Het bewijs verzenden:
 
    ![](assets/messagecenter_send_proof_002.png)
 
-In elke sjabloon kunt u proefdrukken openen via het tabblad **[!UICONTROL Audit]**.
+In elke sjabloon zijn proefdrukken toegankelijk via de **[!UICONTROL Audit]** tab.
 
 ![](assets/messagecenter_send_proof_003.png)
 
@@ -188,13 +188,13 @@ Met Publicatie kunt u automatisch twee berichtsjablonen maken op de uitvoeringsi
 >
 >Wanneer u om het even welke veranderingen in een malplaatje aanbrengt, zorg ervoor u het voor deze veranderingen opnieuw publiceert om tijdens de levering van het transactiemelding van berichten effectief te zijn.
 
-1. Ga voor de besturingsinstantie naar de map **[!UICONTROL Message Center > Transactional message templates]** van de boomstructuur.
+1. Ga in de besturingsinstantie naar de knop **[!UICONTROL Message Center > Transactional message templates]** map van de structuur.
 1. Selecteer de sjabloon die u op de uitvoeringsinstanties wilt publiceren.
 1. Klik op **[!UICONTROL Publish]**.
 
    ![](assets/messagecenter_publish_template.png)
 
-Wanneer de publicatie is voltooid, worden zowel berichtsjablonen die moeten worden toegepast op batchgebeurtenissen als realtime-typegebeurtenissen gemaakt in de structuur van de productieinstantie in de map **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]**.
+Wanneer de publicatie is voltooid, worden zowel berichtsjablonen die moeten worden toegepast op batchgebeurtenissen als realtime-typegebeurtenissen gemaakt in de structuur van de productieinstantie in het dialoogvenster **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** map.
 
 ![](assets/messagecenter_deployed_model.png)
 
@@ -215,25 +215,25 @@ Zodra een berichtmalplaatje op de uitvoeringsinstanties wordt gepubliceerd, kan 
 
    U hebt bijvoorbeeld een berichtsjabloon gepubliceerd die u alleen gebruikt voor kerstcampagnes. Misschien wilt u de publicatie ongedaan maken nadat de kerstperiode is afgelopen en deze volgend jaar opnieuw publiceren.
 
-* U kunt ook geen transactiemalplaatje verwijderen dat de status **[!UICONTROL Published]** heeft. U moet eerst de publicatie ongedaan maken.
+* U kunt ook geen transactiemalplaatje verwijderen dat de **[!UICONTROL Published]** status. U moet eerst de publicatie ongedaan maken.
 
 Volg onderstaande stappen om de publicatie van een transactiemalplaatje ongedaan te maken.
 
-1. Blader in de besturingsinstantie naar de map **[!UICONTROL Message Center > Transactional message templates]**.
+1. Blader in de besturingsinstantie naar de knop **[!UICONTROL Message Center > Transactional message templates]** map.
 1. Selecteer de sjabloon die u wilt verwijderen.
 1. Klik op **[!UICONTROL Unpublish]**.
 1. Klik op **[!UICONTROL Start]**.
 
 ![](assets/message-center-unpublish.png)
 
-De status van de transactioneleberichtsjabloon verandert weer van **[!UICONTROL Published]** in **[!UICONTROL Being edited]**.
+De status van de transactiemalplaatje verandert terug van **[!UICONTROL Published]** tot **[!UICONTROL Being edited]**.
 
 Zodra de publicatie is voltooid:
 
 * Beide berichtmalplaatjes (die op partij en real-time typegebeurtenissen worden toegepast) worden geschrapt van elke uitvoeringsinstantie.
 
-   Zij verschijnen niet meer in **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** omslag.
+   Ze verschijnen niet meer in het dialoogvenster **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** map.
 
 * Zodra een malplaatje unpublished is, kunt u het van de controleinstantie schrappen.
 
-   Selecteer dit in de lijst en klik op de knop **[!UICONTROL Delete]** rechtsboven in het scherm.
+   Selecteer dit in de lijst en klik op de knop **[!UICONTROL Delete]** op de rechterbovenhoek van het scherm.

@@ -28,7 +28,7 @@ API&#39;s voor Campaign Classic v7 zijn nog steeds beschikbaar, maar kunnen niet
 
 >[!CAUTION]
 >
->* Met dit nieuwe mechanisme is gegevenssynchronisatie voor kanaaloptie, abonnementen, abonnementen of mobiele registratie nu **asynchroon**.
+>* Met dit nieuwe mechanisme is de gegevenssynchronisatie voor kanaaloptout, abonnementen, abonnementen of mobiele registratie nu **asynchroon**.
 >
 >* Staging is alleen van toepassing op schema&#39;s die zijn opgeslagen in de cloud-database. Laat het opvoeren op herhaalde schema&#39;s niet toe. Schakel Staging niet in voor lokale schema&#39;s. Staging niet inschakelen in een schema met werkstadia
 
@@ -54,11 +54,11 @@ Voer de volgende stappen uit om het staging-mechanisme voor campagnes op een spe
    </srcSchema>
    ```
 
-   ![](../assets/do-not-localize/glass.png) Meer informatie over het maken van aangepaste schema&#39;s vindt u op  [deze pagina](create-schema.md).
+   ![](../assets/do-not-localize/glass.png) Meer informatie over het maken van aangepaste schema&#39;s vindt u in [deze pagina](create-schema.md).
 
 1. Sla de databasestructuur op en werk deze bij.  [Meer informatie](update-database-structure.md)
 
-1. Laat het het opvoeren mechanisme in de schemadefinitie toe door **autoStg=&quot;waar&quot;** parameter toe te voegen.
+1. Laat het opvoeren mechanisme in de schemadefinitie toe door toe te voegen **autoStg=&quot;true&quot;** parameter.
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"

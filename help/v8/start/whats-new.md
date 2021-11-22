@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Nieuwe functies in Adobe Campaign v8? {#ac-gs-what-is-new}
 
-Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Door gebruik te maken van [[!DNL Snowflake]](https://www.snowflake.com/), een clouddatabasetechnologie, verbetert Adobe Campaign aanzienlijk de schaal en snelheid ervan, met de mogelijkheid om een groter aantal klantprofielen te beheren, evenals veel hogere leveringspercentages en transacties per uur.
+Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Door gebruik te maken van [[!DNL Snowflake]](https://www.snowflake.com/), een clouddatabasetechnologie, verbetert Adobe Campaign de schaal en snelheid aanzienlijk, met de mogelijkheid om een groter aantal klantprofielen te beheren, alsook veel hogere leveringspercentages en transacties per uur.
 
 De belangrijkste mogelijkheden omvatten:
 
@@ -26,7 +26,7 @@ De belangrijkste mogelijkheden omvatten:
 
 >[!CAUTION]
 >
->Momenteel is Campagne v8 alleen **beschikbaar als beheerde Cloud Service en kan deze niet worden geïmplementeerd op een locatie of in een hybride omgeving.**
+>Momenteel is Campagne v8 **alleen** beschikbaar als Beheerde Cloud Service, en kan niet op een ongebouw of hybride milieu&#39;s worden opgesteld.
 >
 >Migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
 >
@@ -44,7 +44,7 @@ Campagne v8 biedt end-to-end schaal bij elke stap van het proces, van het richte
 
 ## Vereenvoudiging en prestatieverbetering
 
-Campagne v8 brengt het concept van **Volledige Federated Data Access** (FFDA): alle gegevens bevinden zich nu op afstand in de cloud-database.
+Campagne v8 brengt het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens bevinden zich nu op afstand in de cloud-database.
 
 Met deze nieuwe architectuur vereenvoudigt Campagne v8 gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten.
 

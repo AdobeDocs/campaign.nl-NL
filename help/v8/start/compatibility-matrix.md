@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: 83874f4d124d7892f99e973684b1e8ee571f31e0
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 27%
+ht-degree: 33%
 
 ---
 
@@ -20,11 +20,11 @@ Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het ei
 
 ## Clientconsole{#ClientConsoleoperatingsystems}
 
-De volgende besturingssystemen en browser zijn vereist om de Campaign Client Console te gebruiken. [Meer info](connect.md).
+De volgende besturingssystemen en browsers zijn vereist om de Campaign-clientconsole te gebruiken. [Meer info](connect.md).
 
 ### Besturingssystemen
 
-* **Microsoft Windows Server**  2016, 2012
+* **Microsoft Windows Server** 2016, 2012
 * **Microsoft Windows** 8, 10 (aanbevolen voor Japanse instanties)
 
 ### Browser
@@ -33,14 +33,14 @@ De volgende besturingssystemen en browser zijn vereist om de Campaign Client Con
 
 >[!NOTE]
 >
->Adobe Campaign Server en Client Console moeten dezelfde versie hebben. [Leer hoe u uw versie](#version) kunt controleren.
+>Adobe Campaign Server en Client Console moeten dezelfde versie hebben. [Leer hoe u uw versie kunt controleren](#version).
 
 ## CRM-connectoren{#CRMconnectors}
 
-Hieronder vindt u CRM-systemen (Customer Relationship Management) die compatibel zijn met Adobe Campaign. [Meer info](../connect/crm.md).
+Hieronder vindt u de Customer Relationship Management-systemen (CRM) die compatibel zijn met Adobe Campaign. [Meer info](../connect/crm.md).
 
-* **** Salesforceconnector API versie 49
-* **Microsoft** Dynamicsconnector, Web API: Dynamics 365 On-premise en Online
+* **Salesforce** connector API versie 49
+* **Microsoft Dynamics** connector, web-API: Dynamics 365 On-premise en Online
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
@@ -53,28 +53,28 @@ Externe databases die compatibel zijn met de module Adobe Campaign Federated Dat
 
 ## Mobiele SDK{#MobileSDK}
 
-Met Campagne kunt u [pushmeldingen](../send/push.md) verzenden naar de hieronder vermelde besturingssystemen met de bijbehorende mobiele SDK.
+U kunt Campagne gebruiken om te verzenden [pushmeldingen](../send/push.md) op de hieronder vermelde besturingssystemen, met behulp van de bijbehorende mobiele SDK.
 
 * **Android** 7.x, 8.x, 9.0 met Campagne Android SDK build 1.1.1.
-* **Apple iOS** 9 - 14 met Campaign iOS SDK build 1.0.26, compatibel met 32- en 64-bits versies.
+* **Apple iOS** 9 - 14 met Campagne iOS SDK build 1.0.26, compatibel met 32- en 64-bits versies.
 
 ## Webtoegang
 
-De volgende browsers zijn compatibel met Campagne voor [Toegang van het Web](connect.md#web-access).
+De volgende browsers zijn compatibel met Campaign voor [toegang tot internet](connect.md#web-access).
 
-* **Microsoft Edge**,  **Mozilla Firefox**,  **Google Chrome**,  **Safari**  (nieuwste versies)
+* **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (nieuwste versies)
 
 * **Internet Explorer** 11
 
 ## Hoe te om uw versie van de Campagne te controleren en te bouwen{#version}
 
-Open het menu **Help > Info..** om uw versie te controleren.
+Toegang krijgen tot **Help > Info...** om uw versie te controleren.
 
 ![](assets/ac-version.png)
 
 U hebt toegang tot de volgende informatie:
 
-* Het **versienummer** van uw clientconsole en toepassingsserver. In het bovenstaande voorbeeld is de versie 8.1.5 voor zowel de clientconsole als de toepassingsserver.
+* De **versie** nummer van uw clientconsole en toepassingsserver. In het bovenstaande voorbeeld is de versie 8.1.5 voor zowel de clientconsole als de toepassingsserver.
 * Het SHA-getal tussen haakjes.
 * Een koppeling om contact op te nemen met de klantenservice van Adobe.
 * Koppelingen naar het privacybeleid van Adobe, de Gebruiksvoorwaarden en het Cookies-beleid.

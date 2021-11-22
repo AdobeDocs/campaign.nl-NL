@@ -16,11 +16,11 @@ ht-degree: 1%
 
 Gebruik Adobe Campaign om persoonlijke SMS-berichten te verzenden.
 
-![](../assets/do-not-localize/book.png) Leer hoe u aan de slag gaat met SMS-kanaal in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Leer hoe u aan de slag kunt met SMS-kanaal in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html){target=&quot;_blank&quot;}
 
 >[!NOTE]
 >
->Met Adobe Campaign kunt u ook pushmeldingen verzenden voor mobiele apparaten via de optie **Adobe Campaign Mobile App Channel (NMAC)**. Meer informatie vindt u in [deze sectie](push.md).
+>Met Adobe Campaign kunt u ook pushmeldingen verzenden via mobiele apparaten **Adobe Campaign Mobile App Channel (NMAC)** optie. Meer informatie in [deze sectie](push.md).
 
 ## Sms-kanaal configureren
 
@@ -30,36 +30,36 @@ Als u naar een mobiele telefoon wilt verzenden, hebt u het volgende nodig:
 
 * Een leveringssjabloon waarin naar deze externe account wordt verwezen.
 
-![](../assets/do-not-localize/book.png)  Leer hoe u een SMS-kanaal configureert in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png)  Leer hoe u een SMS-kanaal configureert in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 Voordat u begint met het verzenden van SMS:
 
 * Zorg ervoor dat de ontvangende profielen minstens een mobiele telefoon in hun profiel bevatten.
-* Bekijk de Adobe Campaign Classic [Best practices voor levering](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages){target=&quot;_blank&quot;} die ook van toepassing zijn op Campagne v8.
+* De Adobe Campaign Classic bekijken [Best practices voor levering](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages){target=&quot;_blank&quot;} die ook van toepassing zijn op Campagne v8.
 
-Bovendien moet u met het protocol en de montages van SMS vertrouwd zijn. Doorloop de verbindingsopstelling tussen Adobe Campaign en een leverancier SMPP in [dit document](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
+Bovendien moet u met het protocol en de montages van SMS vertrouwd zijn. Doorloop de verbindingsinstelling tussen Adobe Campaign en een SMPP-provider in [dit document](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
 
 ## Je eerste SMS-levering maken
 
-1. Als u een nieuwe levering wilt maken, bladert u naar het tabblad **[!UICONTROL Campaigns]**, klikt u op **[!UICONTROL Deliveries]** en klikt u op de knop **[!UICONTROL Create]** boven de lijst met bestaande leveringen.
+1. Blader naar de **[!UICONTROL Campaigns]** tabblad, klikt u op **[!UICONTROL Deliveries]** en klik op de knop **[!UICONTROL Create]** boven de lijst met bestaande leveringen.
 
    ![](assets/delivery_step_1.png)
 
-   ![](../assets/do-not-localize/book.png) Raadpleeg de  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot;} voor algemene informatie over het maken van een levering.
+   ![](../assets/do-not-localize/book.png) Voor globale informatie over hoe te om een levering tot stand te brengen, verwijs naar [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
 
 1. Selecteer een leveringssjabloon die verwijst naar de relevante externe account om SMS-leveringen te verzenden.
 
    ![](assets/sms-template-list.png)
 
-   ![](../assets/do-not-localize/book.png) Leer hoe u een externe SMPP-account kunt maken in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Leer hoe u een SMPP-externe account kunt maken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account){target=&quot;_blank&quot;}
 
-   ![](../assets/do-not-localize/book.png) Leer hoe u een leveringssjabloon kunt maken voor mobiele apparaten in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Leer hoe u een leveringssjabloon maakt voor levering aan mobiele telefoons in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template){target=&quot;_blank&quot;}
 
 1. Identificeer uw levering met een etiket, code, en beschrijving.
 
-1. Klik **[!UICONTROL Continue]** om het venster van de berichtconfiguratie te bevestigen en te tonen.
+1. Klikken **[!UICONTROL Continue]** om het venster van de berichtconfiguratie te bevestigen en te tonen.
 
-1. Typ de inhoud van het bericht in de sectie **[!UICONTROL Text content]** van de wizard, inclusief de velden voor het aanpassen van de inhoud.
+1. Voer de inhoud van het bericht in het dialoogvenster **[!UICONTROL Text content]** van de wizard, met inbegrip van personalisatievelden zoals nodig.
 
    ![](assets/sms-content.png)
 
@@ -69,28 +69,28 @@ De belangrijkste stappen om een SMS te creëren en te ontwerpen zijn gedetaillee
 
 * Een sms maken
 
-   ![](../assets/do-not-localize/book.png) [Leer hoe u een SMS-levering](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages) maakt {target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Meer informatie over het maken van een SMS-verzending](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 * De SMS-inhoud ontwerpen
 
-   ![](../assets/do-not-localize/book.png) [Leer hoe u de SMS-inhoud](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content) definieert {target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Leer hoe u de SMS-inhoud definieert](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content){target=&quot;_blank&quot;}
 
 * Selecteer het publiek van uw e-mail
 
-   ![](../assets/do-not-localize/book.png) [Leer hoe u de doelpopulatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html) definieert {target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Leer hoe u de doelpopulatie definieert](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target=&quot;_blank&quot;}
 
-![](../assets/do-not-localize/glass.png) De stappen om een publiek te bepalen zijn gedetailleerd op  [deze pagina](../start/audiences.md).
+![](../assets/do-not-localize/glass.png) Stappen voor het definiëren van een publiek worden gedetailleerd weergegeven op [deze pagina](../start/audiences.md).
 
 ## Je SMS testen
 
-Als u de weergave van het bericht met de bijbehorende personalisatie wilt bekijken, klikt u op **[!UICONTROL Preview]** en selecteert u een ontvanger.
+Als u de weergave van het bericht met de bijbehorende personalisatie wilt bekijken, klikt u op **[!UICONTROL Preview]** en selecteer een ontvanger.
 
 ![](assets/sms-preview.png)
 
 Raadpleeg de volgende secties van de Campaign Classic v7-documentatie voor het verzenden van een proefdruk:
 
 * Een levering valideren en proefdrukken verzenden
-   ![](../assets/do-not-localize/book.png) [Leer belangrijke stappen om een levering](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html) te bevestigen {target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Belangrijke stappen om een levering te valideren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
 * Seedadressen toevoegen
    ![](../assets/do-not-localize/book.png) [Meer informatie over zaadadressen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
 
@@ -104,4 +104,4 @@ De belangrijkste stappen om een SMS te verzenden en te controleren zijn gedetail
 
 * Problemen met SMS-leveringen oplossen
 
-   ![](../assets/do-not-localize/book.png) [Meer informatie over SMS-probleemoplossing](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Meer informatie over probleemoplossing via SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages){target=&quot;_blank&quot;}

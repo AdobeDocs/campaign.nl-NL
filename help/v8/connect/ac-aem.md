@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dankzij de integratie tussen Adobe Campaign en Adobe Experience Manager kunt u de inhoud van uw e-mailleveringen en uw formulieren direct in Adobe Experience Manager beheren.
 
-U kunt ook rechtstreeks elementen vanuit de Adobe Experience Manager Assets Library invoegen tijdens het bewerken van een e-mail- of landingspagina in Adobe Campaign. Deze functionaliteit wordt beschreven in de Elementen [hoofdstuk](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html) van Adobe Experience Manager.
+U kunt ook rechtstreeks elementen vanuit de Adobe Experience Manager Assets Library invoegen tijdens het bewerken van een e-mail- of landingspagina in Adobe Campaign. Deze functionaliteit wordt beschreven in de Adobe Experience Manager Assets [hoofdstuk](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html).
 
 Dit betekent dat u zowel de Adobe Experience Manager-mogelijkheden voor het bewerken van inhoud als de Adobe Campaign-leveringsmogelijkheden optimaal kunt benutten.
 
@@ -24,4 +24,4 @@ Dit betekent dat u zowel de Adobe Experience Manager-mogelijkheden voor het bewe
 
 ![](../assets/do-not-localize/book.png) [Ontdek deze integratie in dit end-to-end voorbeeld](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services  [neemt u contact op met ](../start/campaign-faq.md#support) Adobe om Adobe Experience Manager te integreren met Campagne.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om Adobe Experience Manager te integreren met Campagne.

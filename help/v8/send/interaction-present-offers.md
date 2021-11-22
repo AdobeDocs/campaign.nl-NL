@@ -2,7 +2,8 @@
 product: campaign
 title: Een aanbieding presenteren (binnenkomende interactie)
 description: Leer hoe u de beste aanbieding presenteert met de module Campagne Interaction
-source-git-commit: 9712d72dd08291673490b42967fd469353fca67a
+exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 4%
@@ -19,7 +20,7 @@ Om een aanbieding door de motor van de Aanbieding te kunnen selecteren, moet het
 
 ![](../assets/do-not-localize/book.png) Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
-In de context van een binnenkomende contactpersoon kan de gebruiker die door de pagina bladert door de website worden geïdentificeerd of niet. De engine voor aanbiedingen biedt verschillende aanbiedingen voor geïdentificeerde profielen en voor anonieme profielen.
+In de context van een binnenkomende contactpersoon kan de gebruiker die door de pagina bladert door de website worden geïdentificeerd of niet. De engine voor aanbiedingen biedt verschillende aanbiedingen voor bepaalde profielen en voor anonieme profielen.
 
 Alvorens aanbiedingen op een binnenkomend kanaal te kunnen voorstellen, moet u de de motorvraag van de Aanbieding vormen waar u de aanbiedingen wilt worden voorgesteld. In de meeste gevallen voor een binnenkomende interactie, is dit de Web-pagina.
 

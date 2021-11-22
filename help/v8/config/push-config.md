@@ -17,11 +17,11 @@ ht-degree: 1%
 
 Gebruik de campagne-SDK&#39;s voor iOS en Android om de integratie van uw mobiele toepassing in het Adobe Campaign-platform te vergemakkelijken.
 
-Door Android en iOS ondersteunde versies en met Campagne compatibele versies van SDK&#39;s voor Campagne v8 zijn opgenomen in de [Compatibiliteitsmatrix](../start/compatibility-matrix.md#MobileSDK).
+Ondersteunde versies voor Android en iOS en compatibele versies voor Campagne-SDK&#39;s voor Campagne v8 worden weergegeven in de [Compatibiliteitsmatrix](../start/compatibility-matrix.md#MobileSDK) .
 
 >[!NOTE]
 >
->Als beheerder van de Campagne, kunt u Campagne SDKs van [de Distributie van de Software van de Experience Cloud downloaden ](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html). Neem voor meer informatie contact op met de [klantenservice van Adobe](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Als Campagnebeheerder kunt u Campagne-SDK&#39;s downloaden van de [Experience Cloud-softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html). Neem voor meer informatie contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## Integratie-instellingen declareren {#declaring-integration-settings}
@@ -32,9 +32,9 @@ Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de function
 
    >[!NOTE]
    >
-   >Deze integratietoets wordt ingevoerd in de Adobe Campaign-console, op het tabblad **[!UICONTROL Information]** van de service die is toegewezen aan de mobiele toepassing. Raadpleeg [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app).
+   >Deze integratiesleutel wordt ingevoerd in de Adobe Campaign-console, in de **[!UICONTROL Information]** servicetabblad voor de mobiele toepassing. Zie [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app).
 
-* **Een URL** voor bijhouden: die overeenkomt met het adres van de Adobe Campaign-trackingserver.
+* **Een URL voor bijhouden**: die overeenkomt met het adres van de Adobe Campaign-trackingserver.
 * **Een marketing-URL**: om de inzameling van abonnementen toe te laten.
 
 * **In Android**:
@@ -58,7 +58,7 @@ Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de function
 
 Android SDK is een jar-bibliotheek geschreven in JAVA. Zo kunnen Android-ontwikkelaars integreren met Adobe Campaign: registreert een nieuw apparaat, koppelt het apparaat met een gebruiker, volgt gedrag, en meer.
 
-In deze sectie leert u hoe u de Android-SDK gebruikt in een Android-toepassing die [Google Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/) implementeert.
+In deze sectie leert u hoe u de Android-SDK kunt gebruiken in een Android-toepassing die [Google Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/).
 
 >[!CAUTION]
 >
@@ -66,24 +66,24 @@ In deze sectie leert u hoe u de Android-SDK gebruikt in een Android-toepassing d
 
 ### FCM configureren
 
-Als u de pushmelding wilt gebruiken op Android, moet u een FCM-account hebben, uw Android-toepassing configureren om uw melding te ontvangen en uw toepassing aan de FCM-account te koppelen. Meer informatie vindt u in [Google-documentatie](https://firebase.google.com/docs/cloud-messaging/).
+Als u de pushmelding wilt gebruiken op Android, moet u een FCM-account hebben, uw Android-toepassing configureren om uw melding te ontvangen en uw toepassing aan de FCM-account te koppelen. Meer informatie in [Google-documentatie](https://firebase.google.com/docs/cloud-messaging/).
 
-Raadpleeg [Google-documentatie](https://firebase.google.com/docs/android/setup) om Firebase aan uw Android-project toe te voegen.
+Zie [Google-documentatie](https://firebase.google.com/docs/android/setup) om Firebase toe te voegen aan uw Android-project.
 
-Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://firebase.google.com/docs/android/setup).
+Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](https://firebase.google.com/docs/android/setup).
 
 >[!NOTE]
 >
 > * Vergeet niet google-services.json aan uw project te downloaden en toe te voegen.
 >
-> * De `apiKey` moet overeenkomen met de `projectKey`-set in de Adobe Campaign Mobile-toepassing die is gekoppeld aan deze Android-toepassing.
+> * De `apiKey` moet overeenkomen met de `projectKey` ingesteld in de Adobe Campaign Mobile-toepassing die is gekoppeld aan deze Android-toepassing.
 
 
 ### Android-SDK configureren
 
 1. **De SDK initialiseren**
 
-   Voordat u de Android-SDK kunt gebruiken, moet u deze initialiseren. De SDK-initialisatie kan worden uitgevoerd in de functie `onCreate` van een activiteit.
+   Voordat u de Android-SDK kunt gebruiken, moet u deze initialiseren. De SDK-initialisatie kan worden uitgevoerd in het dialoogvenster `onCreate` functie van een activiteit.
 
    ```sql
    /** Called when the activity is first created. */
@@ -102,7 +102,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
    }
    ```
 
-   De `IntegrationKey` moet overeenkomen met de &#39;IntegrationKey&#39;-set in de Adobe Campaign Mobile-toepassing die is gekoppeld aan deze Android-toepassing.
+   De `IntegrationKey` moet overeenkomen met de integratiesleutel die is ingesteld in de Adobe Campaign Mobile-toepassing die is gekoppeld aan deze Android-toepassing.
 
 1. **Het mobiele apparaat registreren op de Adobe Campaign-server**
 
@@ -111,7 +111,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
    * Stuur de bericht-id of push-id (deviceToken voor iOS en registrationID voor Android) naar Adobe Campaign.
    * de afstemmingssleutel of de gebruikersnaam herstellen (bijvoorbeeld e-mail- of accountnummer)
 
-   U moet uw apparaat registreren bij Adobe Campaign, bij de initialisatie van de app of bij actie van de gebruiker. Het kan gemakkelijk worden gedaan gebruikend de `registerDevice` methode.
+   U moet uw apparaat registreren bij Adobe Campaign, bij de initialisatie van de app of bij actie van de gebruiker. Het kan gemakkelijk worden gedaan gebruikend `registerDevice` methode.
 
    ```sql
    public void onClick(View v)
@@ -183,7 +183,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
 1. **Campagne waarschuwen wanneer het token van het mobiele apparaat van de gebruiker verandert**
 
-   We raden u aan de functie `registerDevice` te gebruiken wanneer u de functie `onTokenRefresh` aanroept om Adobe Campaign op de hoogte te stellen van de wijziging in het token voor mobiele apparaten van de gebruiker.
+   We raden u aan de `registerDevice` functie wanneer het roepen van `onTokenRefresh` om Adobe Campaign op de hoogte te brengen van de wijziging in het token voor mobiele apparaten van de gebruiker.
 
    Bijvoorbeeld:
 
@@ -222,7 +222,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
 1. **Firebase Messaging Service configureren**
 
-   Breid `FirebaseMessagingService` in `onMessageReceived` callback uit om berichten te ontvangen. Wij adviseren u om de `notifyReceive` functie te roepen wanneer `onMessageReceived` callback wordt geroepen om het volgen van de berichtontvangst op het mobiele apparaat toe te laten. In Adobe Campaign heet dit **print** bericht: Deze functie moet worden aangeroepen vlak voordat het besturingssysteem wordt gevraagd het bericht weer te geven.
+   Breid uit `FirebaseMessagingService` in de `onMessageReceived` callback om berichten te ontvangen. We raden u aan de `notifyReceive` wanneer de `onMessageReceived` callback wordt geroepen om het volgen van de berichtontvangst op het mobiele apparaat toe te laten. In Adobe Campaign heet dit **afdrukken** melding: Deze functie moet worden aangeroepen vlak voordat het besturingssysteem wordt gevraagd het bericht weer te geven.
 
    YourApplicationMessagingService.java
 
@@ -326,7 +326,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
 1. **Het spoor opent gegevensberichten**
 
-   Voor gegevensberichten, kunt u volgen wanneer een gebruiker op een bericht klikt om het te openen, gebruikend de functie `notifyOpening`. De meldingsactiviteit zal worden gecreeerd wanneer de gebruiker op het bericht klikt (die tijdens `onMessageReceived`functievraag wordt gecreeerd)
+   Voor gegevensberichten kunt u bijhouden wanneer een gebruiker op een melding klikt om het bericht te openen met de knop `notifyOpening` functie. De meldingsactiviteit wordt gemaakt wanneer de gebruiker op het bericht klikt (gemaakt tijdens `onMessageReceived`functieaanroep)
 
    ```sql
    public class NotificationActivity extends Activity {
@@ -361,7 +361,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
 1. **Het spoor opent en klikt op berichtberichten**
 
-   Voor berichtberichten, moet open/klik het volgen met de `notifyOpening` functie binnen de toepassingslanceringsactiviteit worden gedaan, zoals hieronder:
+   Voor berichtberichten moet het openen/klikken het volgen met `notifyOpening` functie binnen de startactiviteit van de toepassing, zoals hieronder:
 
    ```sql
    /** Called when the activity is first created. */
@@ -419,12 +419,12 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    >[!NOTE]
    >
-   > Vergelijkbaar beheer moet worden uitgevoerd als de gebruiker de optie `click_action` binnen de doelactiviteit gebruikt.
+   > Vergelijkbaar beheer moet worden uitgevoerd als de gebruiker `click_action` in de doelactiviteit.
 
 
 1. **Tracking ontvangen voor gegevensberichten**
 
-   Voor gegevensberichten, wordt het volgen ontvangen op het `onMessageReceived` vraagniveau. De functie &#39;notifyReceive&#39; moet worden aangeroepen.
+   Voor gegevensberichten, wordt het volgen ontvangen bij `onMessageReceived` oproepniveau. De functie &#39;notifyReceive&#39; moet worden aangeroepen.
 
    YourApplicationMessagingService.java
 
@@ -495,7 +495,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
    Voor berichtberichten, moet de volgende ontvangst op twee niveau worden gevormd:
 
    * `onMessageReceived` (niet op de achtergrond): de uitvoering heeft plaatsgevonden in het vorige deel
-   * `onCreate` van de opstarthandeling (of de doelactiviteit indien de  `click_action`functie wordt gebruikt). (Toepassing niet op de achtergrond).
+   * `onCreate` van de lanceeractiviteit (of de doelactiviteit indien `click_action`functie wordt gebruikt.) (Toepassing niet op de achtergrond).
 
    U dient dit op hetzelfde moment te doen als klikken en openen.
 
@@ -630,17 +630,17 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
 1. **Registratiestatus configureren**
 
-   Het gedelegeerde protocol staat u toe om het resultaat van **registerDevice** vraag te krijgen en kan worden gebruikt om te weten of een fout tijdens registratie voorkwam.
+   Het afgevaardigde protocol staat u toe om het resultaat van te krijgen **registerDevice** vraag en kan worden gebruikt om te weten of een fout tijdens registratie voorkwam.
 
-   Het prototype **registerDeviceStatus** is:
+   De **registerDeviceStatus** prototype is:
 
    ```sql
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
-   * **** Met Status kunt u zien of een registratie is geslaagd of dat een fout is opgetreden.
+   * **Status** Hiermee kunt u zien of een registratie is geslaagd of dat een fout is opgetreden.
 
-   * **** ErrorReasonprovided u van meer informatie over de fouten die voorkwamen. Raadpleeg de onderstaande tabel voor meer informatie over beschikbare fouten en beschrijvingen.
+   * **ErrorReason** biedt u meer informatie over de fouten die zijn opgetreden. Raadpleeg de onderstaande tabel voor meer informatie over beschikbare fouten en beschrijvingen.
 
    | Status | Beschrijving | ErrorReason |
    | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
@@ -653,7 +653,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
    {style=&quot;table-layout:auto&quot;}
 
-   **De definitie van Neolane_** SDKDelegateprotocol en  **** registerDeviceStatusdelegate ziet er als volgt uit:
+   **Neolane_SDKDelegate** protocol en **registerDeviceStatus** gedelegeerde definitie is als volgt:
 
    ```sql
    //  Neolane_SDK.h
@@ -685,9 +685,9 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
    @end
    ```
 
-   Ga als volgt te werk om **registerDeviceStatus**-gedelegeerde te implementeren:
+   Om **registerDeviceStatus** afgevaardigde, volg deze stappen:
 
-   1. Implementeer **setDelegate** tijdens de SDK-initialisatie.
+   1. Implementeer de **setDelegate** tijdens de SDK-initialisatie.
 
       ```sql
       // AppDelegate.m
@@ -716,7 +716,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
       }
       ```
 
-   1. Voeg het protocol in **@interface** van uw klasse toe.
+   1. Voeg het protocol in toe **@interface** van uw klas.
 
       ```sql
       //  AppDelegate.h
@@ -738,7 +738,7 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
       }
       ```
 
-   1. Voer de afgevaardigde in **AppDelegate** uit.
+   1. Voer de afgevaardigde in uit **AppDelegate**.
 
       ```sql
       //  AppDelegate.m
@@ -792,9 +792,9 @@ Leer hoe u FCM in uw toepassing implementeert in [Google-documentatie](https://f
 
 ## Variabelen {#variables}
 
-Met de variabelen kunt u het gedrag van mobiele toepassingen definiëren nadat u een melding hebt ontvangen. Deze variabelen moeten worden gedefinieerd in de mobiele toepassingscode en in de Adobe Campaign-console, op het tabblad **[!UICONTROL Variables]** in de speciale service voor mobiele toepassingen.
+Met de variabelen kunt u het gedrag van mobiele toepassingen definiëren nadat u een melding hebt ontvangen. Deze variabelen moeten worden gedefinieerd in de mobiele toepassingscode en in de Adobe Campaign-console, in het **[!UICONTROL Variables]** in de speciale service voor mobiele toepassingen.
 
-![](../assets/do-not-localize/book.png) Meer informatie in  **Campaign Classic v7-** documentatie over mobiele app:  [Configuratiestappen voor iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} en  [configuratiestappen voor Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Meer informatie in **Campaign Classic v7-documentatie** op mobiele app: [Configuratiestappen voor iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} en [Configuratiestappen voor Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
 
 Hieronder ziet u een voorbeeld van een code waarmee een mobiele toepassing toegevoegde variabelen in een melding kan verzamelen. In ons voorbeeld gebruiken we de variabele &quot;VAR&quot;.
 
@@ -884,7 +884,7 @@ Op dit niveau moet u:
 
 * Wijs de extensie van de inhoud toe aan de categorie die door Adobe Campaign is verzonden:
 
-   Als u wilt dat uw mobiele toepassing een afbeelding weergeeft, kunt u de categoriewaarde instellen op &quot;image&quot; in Adobe Campaign en in uw mobiele toepassing, maakt u een meldingsextensie met de parameter **UNNotificationExtensionCategory** ingesteld op &quot;image&quot;. Wanneer het pushbericht op het apparaat wordt ontvangen, wordt de extensie aangeroepen op basis van de gedefinieerde categoriewaarde.
+   Als u een afbeelding wilt weergeven in uw mobiele toepassing, kunt u de categoriewaarde instellen op &quot;image&quot; in Adobe Campaign en in uw mobiele toepassing, maakt u een meldingsextensie met de optie **UNNotificationExtensionCategory** parameter ingesteld op &quot;image&quot;. Wanneer het pushbericht op het apparaat wordt ontvangen, wordt de extensie aangeroepen op basis van de gedefinieerde categoriewaarde.
 
 * De lay-out voor uw melding definiëren
 

@@ -44,7 +44,7 @@ De SQL-naamgevingsregels zijn als volgt:
 
 * tabel: samenvoeging van de naamruimte en naam van het schema
 
-   In ons voorbeeld, is de naam van de lijst ingegaan via het belangrijkste element van het schema in **sqltable** attribuut:
+   In ons voorbeeld wordt de naam van de tabel ingevoerd via het hoofdelement van het schema in het dialoogvenster **sqltable** kenmerk:
 
    ```
    <element name="recipient" sqltable="CusRecipient">
@@ -52,7 +52,7 @@ De SQL-naamgevingsregels zijn als volgt:
 
 * veld: naam van het element, voorafgegaan door een voorvoegsel dat is gedefinieerd volgens het type (&#39;i&#39; voor geheel getal, &#39;d&#39; voor dubbel, &#39;s&#39; voor tekenreeks, &#39;ts&#39; voor datums, enz.)
 
-   De veldnaam wordt ingevoerd via het **sqlname**-attribuut voor elk getypt **`<attribute>`** en **`<element>`**:
+   De veldnaam wordt ingevoerd via het dialoogvenster **sqlname** kenmerk voor elk type **`<attribute>`** en **`<element>`**:
 
    ```
    <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -79,9 +79,9 @@ De beperkingen voor het SQL-veld zijn als volgt:
 
 ## XML-velden {#xml-fields}
 
-Standaard worden getypte **`<attribute>`**- en **`<element>`**-elementen toegewezen aan een SQL-veld van de tabel met het gegevensschema. U kunt echter naar dit veld verwijzen in XML in plaats van naar SQL, wat betekent dat de gegevens worden opgeslagen in een geheugenveld (&quot;mData&quot;) van de tabel dat de waarden van alle XML-velden bevat. De opslag van deze gegevens is een XML-document dat de schemastructuur in acht neemt.
+Standaard worden alle getypte **`<attribute>`** en **`<element>`** element wordt in kaart gebracht op een SQL gebied van de lijst van het gegevensschema. U kunt echter naar dit veld verwijzen in XML in plaats van naar SQL, wat betekent dat de gegevens worden opgeslagen in een geheugenveld (&quot;mData&quot;) van de tabel dat de waarden van alle XML-velden bevat. De opslag van deze gegevens is een XML-document dat de schemastructuur in acht neemt.
 
-Als u een veld in XML wilt vullen, moet u het **xml**-kenmerk met de waarde &quot;true&quot; toevoegen aan het desbetreffende element.
+Als u een veld in XML wilt vullen, voegt u de opdracht **xml** kenmerk met de waarde &quot;true&quot; aan het betrokken element.
 
 **Voorbeeld**: Hier volgen twee voorbeelden van het gebruik van XML-velden.
 
@@ -118,7 +118,7 @@ Een sleutel wordt verklaard van het belangrijkste element van het gegevensschema
 Toetsen houden zich aan de volgende regels:
 
 * Een toets kan naar een of meer velden in de tabel verwijzen.
-* Een sleutel is gekend als &quot;primair&quot;(of &quot;prioriteit&quot;) wanneer het eerste in het te vullen schema is of als het **internal** attribuut met de waarde &quot;waar&quot; bevat.
+* Een sleutel wordt &#39;primair&#39; (of &#39;prioriteit&#39;) genoemd wanneer deze de eerste sleutel in het schema is die moet worden ingevuld of wanneer deze de **internal** kenmerk met de waarde &quot;true&quot;.
 
 **Voorbeeld**:
 
@@ -198,7 +198,7 @@ Toetsen houden zich aan de volgende regels:
 
 ### Primaire sleutel - Id
 
-De primaire sleutel van Adobe Campaign-tabellen is een **Universal Unique ID (UUID)** die automatisch wordt gegenereerd door de database-engine. De sleutelwaarde is uniek in het volledige gegevensbestand. De inhoud van de toets wordt automatisch gegenereerd wanneer de record wordt ingevoegd.
+De primaire sleutel van Adobe Campaign-tabellen is een **Universally Unique ID (UUID)** automatisch gegenereerd door de database-engine. De sleutelwaarde is uniek in het volledige gegevensbestand. De inhoud van de toets wordt automatisch gegenereerd wanneer de record wordt ingevoegd.
 
 **Voorbeeld**
 
@@ -256,7 +256,7 @@ Voor join-relaties met gebruik van Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Kardinaliteit 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Kardinaliteit 1-N
 
-![](../assets/do-not-localize/glass.png) Raadpleeg  [Federated Data Access](../connect/fda.md) voor meer informatie over FDA-tabellen.
+![](../assets/do-not-localize/glass.png) Raadpleeg voor meer informatie over FDA-tabellen [Federale gegevenstoegang](../connect/fda.md).
 
 Een koppeling moet worden gedeclareerd in het schema met de externe sleutel van de tabel die is gekoppeld via het hoofdelement:
 
@@ -272,26 +272,26 @@ Koppelingen voldoen aan de volgende regels:
 
 * De definitie van een koppeling wordt ingevoerd op een **link**-type **`<element>`** met de volgende kenmerken:
 
-   * **naam**: naam van de koppeling uit de brontabel;
-   * **doel**: naam van het doelschema;
+   * **name**: naam van de koppeling uit de brontabel;
+   * **target**: naam van het doelschema;
    * **label**: koppelingslabel,
-   * **revLink**  (optioneel): naam van de omgekeerde koppeling van het doelschema (standaard automatisch afgetrokken);
-   * **integriteit**  (optioneel): de referentiële integriteit van het voorkomen van de bronlijst aan het voorkomen van de doellijst. Mogelijke waarden zijn:
+   * **revLink** (optioneel): naam van de omgekeerde koppeling van het doelschema (standaard automatisch afgetrokken);
+   * **integriteit** (optioneel): de referentiële integriteit van het voorkomen van de bronlijst aan het voorkomen van de doellijst. Mogelijke waarden zijn:
 
       * **definiëren**: het is mogelijk om de bron-instantie te verwijderen als er niet langer naar wordt verwezen door een doelinstantie;
       * **normaal**: als u de broninstantie verwijdert, worden de sleutels van de koppeling naar de doelinstantie (standaardmodus) geïnitialiseerd, worden met dit type integriteit alle externe toetsen geïnitialiseerd.
       * **eigen**: het verwijderen van de broninstantie leidt tot het verwijderen van de doelinstantie;
-      * **kopie**: hetzelfde als  **eigen**  (in geval van verwijdering) of een duplicaat van de voorvallen (in geval van duplicatie);
+      * **owncopy**: dezelfde **eigen** (in geval van verwijdering) of dupliceert de voorvallen (in geval van duplicatie),
       * **neutraal**: doet niets.
-   * **revIntegrity**  (optioneel): integriteit in het doelschema (optioneel, standaard &quot;normaal&quot;);
-   * **revCardinality**  (optioneel): met waarde &quot;single&quot; wordt kardinaliteit gevuld met type 1-1 (standaard 1-N).
-   * **externalJoin**  (optioneel): forceert de buitenste verbinding
-   * **revExternalJoin**  (optioneel): Hiermee wordt de buitenste verbinding op de omgekeerde koppeling gedwongen
+   * **revIntegrity** (optioneel): integriteit in het doelschema (optioneel, standaard &quot;normaal&quot;);
+   * **revCardinality** (optioneel): met waarde &quot;single&quot; wordt kardinaliteit gevuld met type 1-1 (standaard 1-N).
+   * **externalJoin** (optioneel): forceert de buitenste verbinding
+   * **revExternalJoin** (optioneel): Hiermee wordt de buitenste verbinding op de omgekeerde koppeling gedwongen
 
 
-* Een koppeling verwijst naar een of meer velden van de brontabel naar de doeltabel. De velden waaruit de samenvoeging bestaat ( `<join>` element) hoeven niet te worden gevuld omdat ze standaard automatisch worden afgetrokken met de interne sleutel van het doelschema.
+* Een koppeling verwijst naar een of meer velden van de brontabel naar de doeltabel. De velden waaruit de verbinding bestaat ( `<join>`  -element) hoeft niet te worden gevuld omdat deze automatisch worden afgetrokken met de interne sleutel van het doelschema.
 * Een verbinding bestaat uit twee half-verbindingen, waar het eerste van het bronschema wordt verklaard en het tweede automatisch in het uitgebreide schema van het doelschema wordt gecreeerd.
-* Een samenvoeging kan een buitenste samenvoeging zijn als het **externalJoin** attribuut wordt toegevoegd, met de waarde &quot;true&quot; (ondersteund in PostSQL).
+* Een samenvoeging kan een buitenste samenvoeging zijn als de **externalJoin** wordt toegevoegd, met de waarde &quot;true&quot; (wordt ondersteund in PostSQL).
 
 >[!NOTE]
 >
@@ -348,10 +348,10 @@ Uitgebreid schema van het doel (&quot;cus:company&quot;):
 
 Er is een omgekeerde koppeling naar de tabel &quot;cus:receiving&quot; toegevoegd met de volgende parameters:
 
-* **naam**: automatisch afgetrokken van de naam van het bronschema (kan met het &quot;revLink&quot;attribuut in de verbindingsdefinitie op het bronschema worden gedwongen)
+* **name**: automatisch afgetrokken van de naam van het bronschema (kan met het &quot;revLink&quot;attribuut in de verbindingsdefinitie op het bronschema worden gedwongen)
 * **revLink**: naam van de omgekeerde koppeling
-* **doel**: sleutel van gekoppeld schema (&quot;focus:ontvanger&quot;-schema)
-* **niet geconsolideerd**: de koppeling wordt gedeclareerd als een verzamelingselement voor een kardinaliteit van 1 N (standaard)
+* **target**: sleutel van gekoppeld schema (&quot;focus:ontvanger&quot;-schema)
+* **ongebonden**: de koppeling wordt gedeclareerd als een verzamelingselement voor een kardinaliteit van 1 N (standaard)
 * **integriteit**: &quot;define&quot;door gebrek (kan met het &quot;revIntegrity&quot;attribuut in de verbindingsdefinitie op het bronschema worden gedwongen).
 
 ### Voorbeeld 2 {#example-2}
@@ -389,7 +389,7 @@ De standaardwaarde retourneert de id van het eerste toepasselijke parametertype-
 
 ### Voorbeeld 5 {#example-5}
 
-In dit voorbeeld willen wij een sleutel op een verbinding (&quot;bedrijf&quot;aan &quot;focus:bedrijf&quot;schema) met het **xlink** attribuut en een gebied van de (&quot;e-mail&quot;) lijst tot stand brengen:
+In dit voorbeeld willen we een sleutel maken op een koppeling (&quot;bedrijf&quot; naar het schema &quot;cus:bedrijf&quot;) met het **xlink** -kenmerk en een veld in de tabel (&quot;email&quot;):
 
 ```
 <srcSchema name="recipient" namespace="cus">

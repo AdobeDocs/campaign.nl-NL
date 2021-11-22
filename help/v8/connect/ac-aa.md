@@ -16,17 +16,17 @@ ht-degree: 75%
 
 U kunt Adobe Analytics configureren om Campagne en Analytics te integreren.
 
-Dankzij deze integratie kunnen Adobe Campaign en Adobe Analytics communiceren via de **Web Analytics-connectors** add-on. Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
+Dankzij deze integratie kunnen Adobe Campaign en Adobe Analytics via de **Webanalytische connectors** invoegtoepassing. Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services,  [contacteer ](../start/campaign-faq.md#support) Adobe om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
 
 Met Adobe Analytics Connector kan Adobe Campaign de internetdoelgroep meten (Web Analytics). Met de hulpprogramma&#39;s voor webanalyse kan Adobe Campaign indicatoren en campagnerekenmerken doorsturen naar Analytics.
 
 De actieomtrek van elk gereedschap is als volgt:
 
-* **Adobe** Analytici markeert de e-mailcampagnes die zijn gestart met Adobe Campaign
+* **Adobe Analytics** markeert de e-mailcampagnes die met Adobe Campaign zijn gestart
 
-* **Adobe** Campaignsend de indicatoren en campagneattributen naar de schakelaar, die hen aan het hulpmiddel van de Analyse van het Web beurtelings door:sturen
+* **Adobe Campaign** verzendt de indicatoren en campagnerekenmerken naar de schakelaar, die hen aan het analytische hulpmiddel van het Web terugstuurt
 
 
 >[!CAUTION]
@@ -41,7 +41,7 @@ Als u de verbinding Campagne-Analytics wilt instellen, moet u de volgende bewerk
 
 ## Uw analyserapportsuite maken {#report-suite-analytics}
 
-Voer de onderstaande stappen uit om uw **[!UICONTROL Report suite]** in [!DNL Adobe Analytics] te maken:
+Om uw **[!UICONTROL Report suite]** in [!DNL Adobe Analytics]volgt u de onderstaande stappen:
 
 1. Selecteer vanuit [!DNL Adobe Analytics] het **[!UICONTROL Admin tab]** en klik vervolgens op **[!UICONTROL All admin]**.
 
@@ -112,7 +112,7 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
 
 1. Klik op **[!UICONTROL Save]** wanneer u klaar bent.
 
-Wanneer uw rapportreeks wordt gevormd, zult u **[!UICONTROL External accounts]** in Adobe Campaign moeten vormen.
+Wanneer uw rapportreeks wordt gevormd, zult u moeten vormen **[!UICONTROL External accounts]** in Adobe Campaign.
 
 ## Uw externe account voor campagne configureren {#external-account-ac}
 
@@ -191,11 +191,11 @@ Raadpleeg voor meer informatie hierover de pagina [Productprofielen voor Adobe A
 
 De gegevensuitwisseling tussen Adobe Campaign en Adobe Analytics wordt afgehandeld door een technische workflow die als achtergrondtaak wordt uitgevoerd.
 
-Deze workflow is beschikbaar in de boomstructuur Campagne Explorer onder **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]**.
+Deze workflow is beschikbaar in de boomstructuur van Campagne Explorer, onder de **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** map.
 
 ![](assets/webanalytics_workflows.png)
 
-Met de **[!UICONTROL Sending of indicators and campaign attributes]**-workflow kunt u e-mailcampagne-indicatoren via Adobe Campaign naar de Adobe Experience Cloud verzenden via Adobe Analytics Connector. Deze workflow wordt elke dag om 04.00 uur gestart en het kan 24 uur duren voordat de gegevens naar Analytics worden verzonden.
+De **[!UICONTROL Sending of indicators and campaign attributes]** Met de workflow kunt u via Adobe Campaign e-mailcampagneindicatoren naar de Adobe Experience Cloud verzenden via Adobe Analytics Connector. Deze workflow wordt elke dag om 04.00 uur gestart en het kan 24 uur duren voordat de gegevens naar Analytics worden verzonden.
 
 Deze workflow moet niet opnieuw worden gestart, anders worden alle eerdere gegevens opnieuw verzonden, waardoor de resultaten van Analytics kunnen worden scheefgetrokken.
 
