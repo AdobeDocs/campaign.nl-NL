@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: acb3b60c8b390bf91acdfd568a57899594659c7e
+source-git-commit: 89d3ffc7928e1416744f3c54a306b3d39008f2af
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 36%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +23,11 @@ _2 februari 2021_
 
 **Patches**
 
-* Probleem verholpen waarbij de voorbereiding van de levering mislukte als het maximum aantal berichten, gedefinieerd in de typologieregel, is bereikt. (NEO-40062)
-* Probleem verholpen tijdens de configuratie van de Adobe Analytics-connector toen het e-mailadres een &#39;s&#39;-teken bevatte. (NEO-39082)
-* Probleem verholpen tijdens de postupgrade, die ertoe kan leiden dat de tabel deliveryMapping gegevens uit een aangepaste leveringstoewijzing verliest. (NEO-40133)
+* Probleem opgelost waarbij de voorbereiding van de levering mislukte als het maximum aantal berichten, dat in de typologieregel is gedefinieerd, is bereikt.
+* Probleem verholpen tijdens de configuratie van de Adobe Analytics-connector toen het e-mailadres een &#39;s&#39;-teken bevatte.
+* Probleem verholpen tijdens postupgrade die ertoe kon leiden dat de tabel deliveryMapping gegevens uit een aangepaste leveringstoewijzing verliest.
 * Probleem verholpen waarbij ontvangers hetzelfde bericht meerdere keren kregen voor dezelfde levering wanneer het e-mailadres één aanhalingsteken (&#39;) bevatte. Dit teken is nu beschermd. (NEO-41198)
-* Probleem met genereren van id verholpen bij het verzenden van proefdrukken met zaden of substitutieadressen. (NEO-42670)
+* Probleem met genereren van id verholpen bij het verzenden van proefdrukken met zaden of substitutieadressen. (NEO-42637)
 * Probleem verholpen waardoor proofs niet meer kunnen worden verzonden door middel van de methode Adres. (NEO-40417)
 * Probleem verholpen waardoor u het LINE-pakket niet kon installeren. (NEO-42503)
 
