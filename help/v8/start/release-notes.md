@@ -6,16 +6,30 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
+source-git-commit: acb3b60c8b390bf91acdfd568a57899594659c7e
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 29%
+source-wordcount: '1717'
+ht-degree: 36%
 
 ---
 
-# Laatste release{#latest-release}
+# Nieuwste release{#latest-release}
 
-Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd bij de **nieuwste release Campagne v8**.
+Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd met de **nieuwste versie van Campaign v8**.
+
+## Release 8.2.10 {#release-8-2-10}
+
+_2 februari 2021_
+
+**Patches**
+
+* Probleem verholpen waarbij de voorbereiding van de levering mislukte als het maximum aantal berichten, gedefinieerd in de typologieregel, is bereikt. (NEO-40062)
+* Probleem verholpen tijdens de configuratie van de Adobe Analytics-connector toen het e-mailadres een &#39;s&#39;-teken bevatte. (NEO-39082)
+* Probleem verholpen tijdens de postupgrade, die ertoe kan leiden dat de tabel deliveryMapping gegevens uit een aangepaste leveringstoewijzing verliest. (NEO-40133)
+* Probleem verholpen waarbij ontvangers hetzelfde bericht meerdere keren kregen voor dezelfde levering wanneer het e-mailadres één aanhalingsteken (&#39;) bevatte. Dit teken is nu beschermd. (NEO-41198)
+* Probleem met genereren van id verholpen bij het verzenden van proefdrukken met zaden of substitutieadressen. (NEO-42670)
+* Probleem verholpen waardoor proofs niet meer kunnen worden verzonden door middel van de methode Adres. (NEO-40417)
+* Probleem verholpen waardoor u het LINE-pakket niet kon installeren. (NEO-42503)
 
 ## Release 8.2.8 {#release-8-2-8}
 
@@ -86,21 +100,21 @@ _28 oktober 2021_
 * Probleem verholpen waarbij het importeren van pakketten trager kon worden.
 * Probleem opgelost waarbij e-mailleveringen met zaadadressen niet konden worden verzonden.
 * Probleem verholpen waardoor voorstellen niet konden worden opgeslagen in de tabel met aanbiedingsvoorstellen.
-* Probleem verholpen waarbij problemen met de netwerktime-out onjuist werden geregistreerd als problemen met scriptonderbreking in plaats van netwerkfouten. Dit probleem is opgetreden in het geval van HTTP-aanvragen die in JavaScript-activiteiten zijn opgenomen.
+* Er is een probleem opgelost waarbij netwerktime-outproblemen ten onrechte werden vastgelegd als scriptonderbrekingsproblemen in plaats van netwerkfouten. Dit probleem deed zich voor in het geval van HTTP-verzoeken die waren opgenomen in JavaScript-activiteiten.
 * Probleem verholpen waarbij aanbiedingen niet konden worden gerepliceerd naar de live aanbiedingsomgeving op Snowflake.
 * Probleem verholpen waarbij het kenmerk &#39;autoStg&#39; voor niet-uitgebreide ingebouwde schema&#39;s werd genegeerd.
 * Probleem verholpen waardoor gebruikers niet de **[!UICONTROL Country/Region]** koppelen bij voorvertonen van een profiel.
 * Probleem verholpen waarbij de datepicker in aangepaste rapporten tot een scriptfout leidde. (NEO-36345)
 * Probleem verholpen waarbij het systeem vastliep bij het opnieuw genereren van configuratie in geval van slechte configuratiebestanden.
 * Probleem verholpen waardoor de upgrade van de marketing- en besturingsinstanties is mislukt.
-* Probleem verholpen waarbij de factureringsworkflow vastliep bij marketinginstanties.
+* Er is een probleem opgelost waardoor de factureringsworkflow kon crashen op marketinginstanties.
 * Probleem verholpen dat tot dubbele sleutels in FFDA Snowflake out-of-the-box lijsten kon leiden. (NEO-38583)
 * Probleem verholpen waarbij tijdelijke workflowschema&#39;s verloren zouden kunnen gaan wanneer twee deduplicatieactiviteiten achterelkaar werden bewerkt. (NEO-34063)
-* Probleem verholpen waarbij onjuiste resultaten werden geretourneerd tijdens het uitvoeren van de functies Amazon Redshift HoursDiff en MinutesDiff tijdens het uitpakken van de tijdcomponent.(NEO-31673)
+* Er is een probleem opgelost dat onjuiste resultaten opleverde bij het uitvoeren van de Amazon Redshift HoursDiff- en MinutesDiff-functies tijdens het extraheren van de tijdcomponent.(NEO-31673)
 * Probleem verholpen waardoor gebruikers zich niet konden aanmelden bij de console vanwege een probleem met de proxyconfiguratie. (NEO-38388)
-* Het probleem van de regressie dat de **Map wissen** werkt niet correct. (NEO-37459)
-* Probleem verholpen waardoor u geen voorvertoning kunt weergeven van mobiele leveringen die aan een workflow waren gekoppeld.
-* Het probleem dat de **Leeslijst** workflowactiviteit vanaf het moment dat de lijst in de database werd geïdentificeerd met een negatieve id. (NEO-39607)
+* Er is een regressieprobleem opgelost waardoor de functie **Map opschonen** niet correct werkte. (NEO-37459)
+* Er is een probleem opgelost waardoor u geen voorbeeld van mobiele leveringen kon bekijken die aan een workflow waren gekoppeld.
+* Er is een probleem opgelost waardoor de werkstroomactiviteit **Leeslijst** niet werkte wanneer de lijst in de database werd geïdentificeerd met een negatieve ID. (NEO-39607)
 
 ## Release 8.1.20 {#release-8-1-20}
 
