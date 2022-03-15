@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: d21dc1adc46121e5c015deed7ddb84ec6a4ec76f
+source-git-commit: 8417b1b4b7370e2a2eed76e9f1ac395eccf0ac66
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 1%
@@ -92,7 +92,7 @@ Als u de opdracht **[!UICONTROL Change Data Source]** activiteit:
 
 Nadat u de workflow hebt gemaakt, hebt u toegang tot extra opties via de **[!UICONTROL Properties]** voor verdere configuratie.
 
-![](../assets/do-not-localize/book.png) Meer informatie over **Workflow-eigenschappen** in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Meer informatie over **Workflow-eigenschappen** in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=nl){target=&quot;_blank&quot;}
 
 Van de **[!UICONTROL Execution]** tabblad van de workflow **[!UICONTROL Properties]**, kunt u uw workflow koppelen aan verschillende opslagruimten en het werklastbeheer optimaliseren. Voor meer informatie over **Waresthuizen**, verwijst u naar de [Snowflake-documentatie](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
 

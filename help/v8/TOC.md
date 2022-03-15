@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+source-git-commit: a6182d37e6b839c8b67c25364b4c35aa7fdde7dc
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 32%
+source-wordcount: '235'
+ht-degree: 34%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 32%
 # Adobe Campaign v8-documentatie {#campaign-v8}
 
 + [Documentatie voor Campaign v8](campaign-home.md)
-+ Nieuwe functies? {#start}
++ Nieuwe functies? {#new}
    + [Belangrijkste mogelijkheden](start/whats-new.md)
-   + [Release-opmerkingen](start/release-notes.md)
+   + [Aanvullende informatie](start/release-notes.md)
    + [Bekende beperkingen](start/known-limitations.md)
    + [Klassiek v7 naar v8](start/capability-matrix.md)
 + Starten {#start}
@@ -47,25 +47,26 @@ ht-degree: 32%
    + [Pushmeldingen](send/push.md)
    + [REGELS](send/line.md)
    + [Direct mail](send/direct-mail.md)
+   + [Sociale marketing](send/twitter.md)
    + [Transactionele berichten](send/transactional.md)
-   + Aanbiedingen beheren met Campagne-interactie{#interaction}
-      + [Aan de slag met realtime interactie](send/interaction.md)
-      + [Milieu en architectuur](send/interaction-architecture.md)
-      + [Best practices](send/interaction-best-practices.md)
-      + Instellingen definiëren{#interaction}
-         + [Operatoren maken](send/interaction-operators.md)
-         + [Omgevingen maken](send/interaction-env.md)
-         + [Vooraf gedefinieerde filters maken](send/interaction-predefined-filters.md)
-         + [Plaatsingen voor aanbiedingen maken](send/interaction-offer-spaces.md)
-      + [Een aanbiedingencatalogus maken](send/interaction-offer-catalog.md)
-      + [Een aanbieding maken](send/interaction-offer.md)
-      + [Een voorstel verzenden (uitgaand)](send/interaction-send-offers.md)
-      + Een aanbieding presenteren (binnenkomend){#inbound}
-         + [Context](send/interaction-present-offers.md)
-         + [Een aanbieding bellen op een webpagina](send/interaction-integration.md)
-         + [Anonieme interacties beheren](send/anonymous-interactions.md)
-      + [Rapporten en geschiedenis](send/interaction-tracking.md)
-      + [Gebruiksscenario’s](send/interaction-use-cases.md)
++ Interactie in realtime{#interaction}
+   + [Aan de slag met realtime interactie](interaction/interaction.md)
+   + [Milieu en architectuur](interaction/interaction-architecture.md)
+   + [Best practices](interaction/interaction-best-practices.md)
+   + Instellingen definiëren{#interaction-settings}
+      + [Operatoren maken](interaction/interaction-operators.md)
+      + [Omgevingen maken](interaction/interaction-env.md)
+      + [Vooraf gedefinieerde filters maken](interaction/interaction-predefined-filters.md)
+      + [Plaatsingen voor aanbiedingen maken](interaction/interaction-offer-spaces.md)
+   + [Een aanbiedingencatalogus maken](interaction/interaction-offer-catalog.md)
+   + [Een aanbieding maken](interaction/interaction-offer.md)
+   + [Een voorstel verzenden (uitgaand)](interaction/interaction-send-offers.md)
+   + Een aanbieding presenteren (binnenkomend){#inbound}
+      + [Context](interaction/interaction-present-offers.md)
+      + [Een aanbieding bellen op een webpagina](interaction/interaction-integration.md)
+      + [Anonieme interacties beheren](interaction/anonymous-interactions.md)
+   + [Rapporten en geschiedenis](interaction/interaction-tracking.md)
+   + [Gebruiksscenario’s](interaction/interaction-use-cases.md)
 + Configureren {#config}
    + [Automatiseren met workflows](config/workflows.md)
    + [Gegevens beheren](config/replication.md)
@@ -102,4 +103,4 @@ ht-degree: 32%
    + API&#39;s {#api}
       + [Aan de slag](dev/api.md)
       + [Nieuwe API&#39;s](dev/new-apis.md)
-      + [API-staging](dev/staging.md)
+      + [API-stagingmechanisme](dev/staging.md)
