@@ -5,11 +5,11 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: false
-exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: b7db9597aa6b4ca4fb2e1e13f8b7b718f4840031
+exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
+source-git-commit: 9283f1e857706455c169eb1da93cd0d04df80da0
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 36%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ _28 oktober 2021_
 <tr>
 <td>
 <p>Interactiebeheer in real time is nu beschikbaar voor binnenkomende kanalen. De module van de Interactie van de Campagne van het gebruik binnenkomende om de beste aanbieding aan uw klanten voor te stellen aangezien zij uw website bezoeken of uit naar uw vraagcentrum bereiken. Dit vermogen komt met Campagne v8 als optie en vereist specifieke configuratie op uw instantie. Bereid uit aan uw vertegenwoordiger van de Adobe om toegang tot de Binnenkomende module van de Interactie te hebben.</p>
-<p>Raadpleeg de <a href="../send/interaction-architecture.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../interaction/interaction-architecture.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
