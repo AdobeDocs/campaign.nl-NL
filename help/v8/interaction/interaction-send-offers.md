@@ -1,18 +1,18 @@
 ---
-title: Catalogus aanbieding voor campagneinteractie
-description: Leer hoe u een aanbiedingencatalogus maakt
+title: Een voorstel verzenden met Campagne-interactie
+description: Meer weten over het verzenden van een voorstel?
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: c19ac91fe7b4b825f75ec096320efabc3e78328c
+source-git-commit: 213a10fea36b3b08c1dd8525084d212e191b2fc7
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Een voorstel verzenden
+# Een voorstel verzenden{#send}
 
 Om een voorstel door de motor van de Aanbieding te selecteren, heeft het goedgekeurd en beschikbaar in **Live** milieu. [Meer informatie](interaction-offer.md#approve-offers)
 
