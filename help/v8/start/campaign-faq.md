@@ -20,7 +20,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Adobe Campaign wordt regelmatig bijgewerkt. Kleine versies worden elk jaar uitgebracht met nieuwe functies, verbeteringen en oplossingen. Bovendien brengen wij periodiek versies uit met uitsluitend cumulatieve oplossingen.
 
-   Deze regelmatige updates zijn bedoeld om u het nieuwste en beste in handen te geven, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Daarom is het zo belangrijk dat u met de meest recente versie van Adobe Campaign werkt.
+   Deze regelmatige frequentie van updates is bedoeld om u het nieuwste en beste in handen te geven, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Daarom is het zo belangrijk dat u met de meest recente versie van Adobe Campaign werkt.
 
    ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Adobe met elke nieuwe versie.
 

@@ -20,7 +20,7 @@ Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het ei
 
 ## Clientconsole{#ClientConsoleoperatingsystems}
 
-De volgende besturingssystemen en browsers zijn vereist om de Campaign-clientconsole te gebruiken. [Meer info](connect.md).
+De volgende besturingssystemen en browsers zijn vereist om de Campaign-clientconsole te gebruiken. [Meer informatie](connect.md).
 
 ### Besturingssystemen
 
@@ -37,14 +37,14 @@ De volgende besturingssystemen en browsers zijn vereist om de Campaign-clientcon
 
 ## CRM-connectoren{#CRMconnectors}
 
-Hieronder vindt u de Customer Relationship Management-systemen (CRM) die compatibel zijn met Adobe Campaign. [Meer info](../connect/crm.md).
+Hieronder vindt u de Customer Relationship Management-systemen (CRM) die compatibel zijn met Adobe Campaign. [Meer informatie](../connect/crm.md).
 
 * **Salesforce** connector API versie 49
 * **Microsoft Dynamics** connector, web-API: Dynamics 365 On-premise en Online
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
-Externe databases die compatibel zijn met de module Adobe Campaign Federated Data Access (FDA) worden hieronder weergegeven. [Meer info](../connect/fda.md).
+Externe databases die compatibel zijn met de module Adobe Campaign Federated Data Access (FDA) worden hieronder weergegeven. [Meer informatie](../connect/fda.md).
 
 * **Amazon Redshift**
 * **[!DNL Google Big Query]**

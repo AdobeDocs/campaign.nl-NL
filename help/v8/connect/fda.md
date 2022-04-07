@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
+source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1841'
 ht-degree: 3%
 
 ---
@@ -140,7 +140,7 @@ Ga als volgt te werk om dit te doen:
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. Specificeer de parameters voor informatieopslag, met inbegrip van het achtervoegsel van de uitbreidingsregelingen om hen gemakkelijk identificeerbaar te zijn.
+1. Specificeer de parameters voor informatieopslag, met inbegrip van het achtervoegsel van de uitbreidingsregelingen voor hen om gemakkelijk identificeerbaar te zijn.
 
    ![](assets/wf_new_mapping_define_names.png)
 
@@ -169,7 +169,7 @@ Ten eerste, zodat de gebruiker bewerkingen kan uitvoeren op een externe database
    * **basis** is de naam van de externe database
    * **server** is de naam van de externe databaseserver
 
-1. Sla het recht Benoemd op en koppel het aan de door u gekozen operator vanuit het menu **[!UICONTROL Administration > Access Management > Operators]** knooppunt van de Adobe Campaign Explorer.
+1. Sla het recht Benoemd op en koppel het aan de door u gekozen operator vanuit het menu **[!UICONTROL Administration > Access Management > Operators]** knooppunt van de Adobe Campaign-verkenner.
 
 Als u vervolgens de gegevens in een externe database wilt verwerken, moet de Adobe Campaign-operator ten minste de machtiging Schrijven voor de database hebben om werktabellen te kunnen maken. Deze tabellen worden automatisch verwijderd door Adobe Campaign.
 

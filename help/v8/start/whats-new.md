@@ -5,16 +5,18 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: def9714448ef5fdde39cee070088615e8f50e522
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 2%
+source-wordcount: '568'
+ht-degree: 6%
 
 ---
 
 # Nieuwe functies in Adobe Campaign v8? {#ac-gs-what-is-new}
 
 Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Door gebruik te maken van [[!DNL Snowflake]](https://www.snowflake.com/), een clouddatabasetechnologie, verbetert Adobe Campaign de schaal en snelheid aanzienlijk, met de mogelijkheid om een groter aantal klantprofielen te beheren, alsook veel hogere leveringspercentages en transacties per uur.
+
+## Belangrijkste mogelijkheden{#key-capabilities}
 
 De belangrijkste mogelijkheden omvatten:
 
@@ -34,7 +36,7 @@ De belangrijkste mogelijkheden omvatten:
 
 ![](assets/home-page.png)
 
-## Schalen
+## Schalen{#scale}
 
 Campagne v8 biedt end-to-end schaal bij elke stap van het proces, van het richten tot de definitieve rapportering:
 
@@ -42,7 +44,23 @@ Campagne v8 biedt end-to-end schaal bij elke stap van het proces, van het richte
 * Schaal de prestaties van vragen voor segmentatie en het richten maar ook gegevensopname en uitgang
 * De voorbereiding van de levering schalen (van uren tot minuten)
 
-## Vereenvoudiging en prestatieverbetering
+## Self-service admin interface{#self-service-admin}
+
+Als productbeheerder kunt u instellingen beheren en het gebruik van elk van uw Campagne v8-instanties bijhouden met **Campagne**.
+
+Via een intuïtieve gebruikersinterface kunnen beheerders het gebruik van belangrijke elementen controleren, geavanceerde taken uitvoeren, zoals IP-adressen, maken vermelding, SFTP-opslagcontrole, sleutelbeheer en meer mogelijk. Deze zelfbedieningsinterface biedt u meer flexibiliteit en helpt u:
+
+* Breng snel zelf wijzigingen aan in de instellingen zonder dat u hiervoor Adobe Support nodig hebt
+* Configureer instellingen op basis van uw verschillende bedrijfsbehoeften op verschillende momenten
+* Verbeter de beveiliging door toegangsinstellingen op basis van behoefte te controleren
+
+![](assets/subdomain1.png)
+
+![](../assets/do-not-localize/glass.png) [Meer informatie over het configuratiescherm voor campagnes](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target=&quot;_blank&quot;}
+
+
+
+## Vereenvoudiging en prestatieverbetering{#simplification-and-perf-increase}
 
 Campagne v8 brengt het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens bevinden zich nu op afstand in de cloud-database.
 

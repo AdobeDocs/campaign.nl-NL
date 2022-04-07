@@ -28,7 +28,7 @@ Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen:
 
 * **Mobiel kanaal**: Met leveringen op mobiele kanalen kunt u persoonlijke SMS naar de doelgroep sturen.  Meer informatie in [deze pagina](../send/sms.md)
 
-* **Mobiel toepassingskanaal**: Met levering voor mobiele apps kunt u meldingen verzenden naar iOS- en Android-systemen.  Meer informatie in [deze pagina](../send/push.md)
+* **Mobile-toepassingskanaal**: Met levering voor mobiele apps kunt u meldingen verzenden naar iOS- en Android-systemen.  Meer informatie in [deze pagina](../send/push.md)
 
 <!--
 * **LINE channel**: LINE deliveries let you send messages on LINE, an instant messaging application available on all smartphones. Learn more in [this page](../send/line.md)

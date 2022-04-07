@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 9283f1e857706455c169eb1da93cd0d04df80da0
+source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '920'
+ht-degree: 3%
 
 ---
 
@@ -63,7 +63,7 @@ Deze id is gebaseerd op een tekenreeks en is niet opeenvolgend. De primaire sleu
 
 In Campaign Classic v7 en eerdere versies wordt de uniciteit van een sleutel binnen een schema (dat wil zeggen tabel) op het niveau van de database-engine verwerkt. Meer in het algemeen, omvatten de Klassieke motoren van het Gegevensbestand zoals PostSQL, Oracle, of SQL Server een inheems mechanisme om het opnemen van gedupliceerde rijen te verhinderen die op een kolom of een reeks kolommen via primaire sleutels en/of unieke indexen worden gebaseerd. De gedupliceerde identiteitskaart bestaat niet in deze versies wanneer de juiste index en de primaire sleutels op het niveau van het Gegevensbestand worden geplaatst.
 
-Adobe-campagne v8 wordt geleverd met Snowflake als de kerndatabase. Aangezien het dramatisch de schaal van vragen verhoogt, verstrekt de verdeelde architectuur van het gegevensbestand van Snowflake dergelijke mechanismen om dan de eenheid van een sleutel binnen een lijst te beheren te dwingen. Als gevolg hiervan verhindert niets met Adobe Campaign v8 de inname van dubbele sleutels in een tabel. Eindgebruikers zijn nu verantwoordelijk voor de consistentie van Toetsen in de Adobe Campaign-database. [Meer informatie](../dev/keys.md)
+Adobe Campaign v8 wordt geleverd met Snowflake als de kerndatabase. Aangezien het dramatisch de schaal van vragen verhoogt, verstrekt de verdeelde architectuur van het gegevensbestand van Snowflake dergelijke mechanismen om dan de eenheid van een sleutel binnen een lijst te beheren te dwingen. Als gevolg hiervan verhindert niets met Adobe Campaign v8 de inname van dubbele sleutels in een tabel. Eindgebruikers zijn nu verantwoordelijk voor de consistentie van Toetsen in de Adobe Campaign-database. [Meer informatie](../dev/keys.md)
 
 ### Vereenvoudigd onderhoud
 
@@ -95,7 +95,6 @@ Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze ve
 * Gedistribueerde marketing
 * Responsbeheer
 * Hybride/on-premise plaatsingsmodellen
-* Twitter-kanaal
 
 >[!CAUTION]
 >

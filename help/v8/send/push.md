@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Pushmeldingen maken en verzenden
 
-Met de levering van mobiele apps kunt u meldingen verzenden naar iOS- en Android-systemen.
+Met Mobile-app-leveringen kunt u meldingen verzenden naar iOS- en Android-systemen.
 
 Als u pushberichten wilt verzenden in Adobe Campaign, moet u:
 
 1. De Campagneomgeving configureren
-1. Maak een informatieservice voor mobiele toepassingen van het type Mobiele toepassing.
+1. Maak een Mobile-service met informatie over het type toepassing voor uw mobiele toepassing.
 1. Voeg de iOS- en Android-versies van de toepassing toe aan deze service.
 1. Maak een levering voor zowel iOS als Android.
 

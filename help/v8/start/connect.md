@@ -5,7 +5,7 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Voordat u begint, moet u:
 * URL van campagneserver ophalen
 * Adobe ID maken of je gebruikersnaam van je bedrijf ophalen
 
-## De clientconsole downloaden en installeren
+## De clientconsole downloaden en installeren{#download-ac-console}
 
 Wanneer u voor het eerst campagne gebruikt of wanneer u een upgrade naar een nieuwere versie moet uitvoeren, moet u de clientconsole downloaden en installeren.
 
@@ -36,7 +36,7 @@ Er zijn twee opties beschikbaar:
 >
 >Adobe raadt u aan deze optie te laten **[!UICONTROL No longer ask this question]** niet geselecteerd om ervoor te zorgen dat alle gebruikers worden gewaarschuwd wanneer een nieuwe versie van de Console beschikbaar is.  Als deze optie is geselecteerd, wordt de gebruiker niet op de hoogte gesteld van nieuwe beschikbare versies.
 
-## Verbinding maken
+## Verbinding maken{#create-your-connection}
 
 Nadat de clientconsole is geïnstalleerd, voert u de onderstaande stappen uit om de verbinding met de toepassingsserver tot stand te brengen:
 
@@ -60,7 +60,7 @@ U kunt zo veel verbindingen toevoegen als u nodig hebt om bijvoorbeeld verbindin
 >
 >De **[!UICONTROL Add]** knop laat u maken **[!UICONTROL folders]** om al uw verbindingen te organiseren. U hoeft alleen elke verbinding naar een map te slepen.
 
-## Aanmelden bij Adobe Campaign
+## Aanmelden bij Adobe Campaign {#logon-to-ac}
 
 Volg onderstaande stappen om u aan te melden bij een bestaande instantie:
 
@@ -78,7 +78,7 @@ Volg onderstaande stappen om u aan te melden bij een bestaande instantie:
 
    ![](assets/adobeID.png)
 
-## Toegang verlenen aan gebruikers
+## Toegang verlenen aan gebruikers{#grant-access}
 
 Met Adobe Campaign kunt u de rechten definiëren en beheren die aan de verschillende operatoren zijn toegewezen. Dit zijn een reeks rechten en beperkingen die autoriseren of weigeren:
 

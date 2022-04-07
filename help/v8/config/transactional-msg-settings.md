@@ -32,19 +32,19 @@ Alle schemauitbreidingen die op de schema&#39;s worden gemaakt door worden gebru
 
 ## Transactie-pushmeldingen verzenden
 
-In combinatie met de module Mobiele toepassingskanalen kunt u met transactiemeldingen transactionele berichten verzenden via meldingen op mobiele apparaten.
+In combinatie met de Mobile-app Channel-module kunt u via transactiemeldingen berichten verzenden via berichten op mobiele apparaten.
 
-![](../assets/do-not-localize/book.png) Het mobiele toepassingskanaal wordt gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+![](../assets/do-not-localize/book.png) Het Mobile-toepassingskanaal wordt beschreven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
 
 Als u pushmeldingen over transacties wilt verzenden, moet u de volgende configuraties uitvoeren:
 
-1. Installeer de **Mobiel App-kanaal** verpakken op de controle en uitvoeringsinstanties.
+1. Installeer de **Mobile App Channel** verpakken op de controle en uitvoeringsinstanties.
 
    >[!CAUTION]
    >
    >Controleer uw licentieovereenkomst voordat u een nieuw ingebouwd pakket voor de campagne installeert.
 
-1. Repliceer de **Mobiele toepassing** en de bijbehorende mobiele toepassingen op de uitvoeringsinstanties.
+1. Repliceer de **Mobile-toepassing** en de bijbehorende mobiele toepassingen op de uitvoeringsinstanties.
 
 Campagne kan alleen transactionele pushmeldingen verzenden als de gebeurtenis de volgende elementen bevat:
 

@@ -31,7 +31,6 @@ API&#39;s voor Campaign Classic v7 zijn nog steeds beschikbaar, maar kunnen niet
 >* Met dit nieuwe mechanisme is de gegevenssynchronisatie voor kanaaloptout, abonnementen, abonnementen of mobiele registratie nu **asynchroon**.
 >
 >* Staging is alleen van toepassing op schema&#39;s die zijn opgeslagen in de cloud-database. Laat het opvoeren op herhaalde schema&#39;s niet toe. Schakel Staging niet in voor lokale schema&#39;s. Staging niet inschakelen in een schema met werkstadia
-
 >
 
 

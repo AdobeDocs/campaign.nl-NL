@@ -2,7 +2,7 @@
 title: Belangrijk beheer in campagne
 description: Aan de slag met sleutelbeheer
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 In Campagne v8 is de primaire sleutel een Universally Unique IDentifier (UUID), die een tekenreeks op tekens is. Als u deze UUID wilt maken, moet het hoofdelement van het schema het volgende bevatten: **autouuid** en **automatische** kenmerken ingesteld op **true**.
 
-Adobe-campagne v8 wordt geleverd met Snowflake als de kerndatabase. De verdeelde architectuur van het gegevensbestand van Snowflake verstrekt geen mechanismen om de eenheid van een sleutel binnen een lijst te beheren: eindgebruikers zijn verantwoordelijk voor het waarborgen van consistentie van sleutels binnen de Adobe Campaign-database.
+Adobe Campaign v8 wordt geleverd met Snowflake als de kerndatabase. De verdeelde architectuur van het gegevensbestand van Snowflake verstrekt geen mechanismen om de eenheid van een sleutel binnen een lijst te beheren: eindgebruikers zijn verantwoordelijk voor het waarborgen van consistentie van sleutels binnen de Adobe Campaign-database.
 
 Om de consistentie van relationele databases te behouden, is het verplicht duplicaten van sleutels, en met name van primaire sleutels, te voorkomen. Duplicaties op primaire sleutels leiden tot problemen met de werkstroomactiviteiten voor gegevensbeheer, zoals **Query**, **Verzoening**, **Gegevens bijwerken** en meer.
 

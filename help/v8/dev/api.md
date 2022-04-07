@@ -8,7 +8,7 @@ exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Voor het gebruik van API&#39;s en interactie met [!DNL Adobe Campaign], moet u o
 >[!NOTE]
 >U kunt een volledige beschrijving van uw gegevensmodel genereren. Meer informatie in [deze pagina](datamodel.md).
 
-## [!DNL Campaign] API-staging
+## [!DNL Campaign] API-stagingmechanisme
 
 Met [!DNL Campaign] Cloud-database, unitaire oproepen worden niet aanbevolen vanwege prestaties (latentie en gelijktijdige uitvoering). Batchbewerking heeft altijd de voorkeur. Om optimale prestaties van APIs te waarborgen, blijft de Campagne API vraag op het lokale gegevensbestandniveau behandelen.
 

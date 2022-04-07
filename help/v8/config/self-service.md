@@ -46,7 +46,7 @@ Leer hoe u uw subdomeinen en de bijbehorende certificaten kunt bewaken.
 * [Een nieuw subdomein instellen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html){target=&quot;_blank&quot;}
 * [De SSL-certificaten van uw subdomeinen controleren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html){target=&quot;_blank&quot;}
 
-## Prestatiecontrole
+## Prestatiebewaking
 
 Het Configuratiescherm biedt verschillende functies waarmee u uw instanties kunt controleren en optimale prestaties kunt garanderen. [Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl){target=&quot;_blank&quot;}
 

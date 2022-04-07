@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
-source-git-commit: a6182d37e6b839c8b67c25364b4c35aa7fdde7dc
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 34%
+source-wordcount: '307'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,11 @@ ht-degree: 34%
    + [Klassiek v7 naar v8](start/capability-matrix.md)
 + Starten {#start}
    + [Aan de slag](start/get-started.md)
-   + [Profielen en soorten publiek](start/audiences.md)
+   + [Onderdelen en processen](start/ac-components.md)
+   + Campagne-interface {#ac-ui}
+      + [Campagne-interface detecteren](start/campaign-ui.md)
+      + [Campagne-interface aanpassen](start/customize-ui.md)
+   + [Werken met het publiek](start/audiences.md)
    + [Gegevens importeren](start/import.md)
    + [Campagnes maken](start/campaigns.md)
    + [Berichten verzenden](start/create-message.md)
@@ -41,7 +45,20 @@ ht-degree: 34%
    + [Verbinding maken met Campaign](start/connect.md)
    + [Machtigingen](start/permissions.md)
    + [Configuratiescherm ](config/self-service.md)
-+ Verzenden {#send}
++ Profielen en soorten publiek {#profiles-and-audiences}
+   + [Aan de slag](audiences/gs-audiences.md)
+   + [Toegangsprofielen](audiences/view-profiles.md)
+   + Profielen toevoegen {#add-profiles}
+      + [Profielen handmatig maken](audiences/create-profiles.md)
+      + [Profielen importeren uit een bestand](audiences/import-profiles.md)
+      + [Werken met externe profielen](audiences/external-profiles.md)
+      + [Profielgegevens verzamelen in webformulieren](audiences/collect-profiles.md)
+   + Soorten publiek maken {#create-audiences}
+      + [Een lijst met contactpersonen maken](audiences/create-audiences.md)
+      + [Filters maken en beheren](audiences/create-filters.md)
+   + [Mappen en weergaven beheren](audiences/folders-and-views.md)
+   + [Best practices](audiences/audiences-best-practices.md)
++ Berichten verzenden{#send}
    + [E-mails](send/email.md)
    + [Sms](send/sms.md)
    + [Pushmeldingen](send/push.md)
@@ -49,10 +66,13 @@ ht-degree: 34%
    + [Direct mail](send/direct-mail.md)
    + [Sociale marketing](send/twitter.md)
    + [Transactionele berichten](send/transactional.md)
+   + Mislukking, stort en quarantaine{#failures}
+      + [Quarantines](send/quarantines.md)
+      + [Leveringsfouten](send/delivery-failures.md)
 + Interactie in realtime{#interaction}
    + [Aan de slag met realtime interactie](interaction/interaction.md)
    + [Milieu en architectuur](interaction/interaction-architecture.md)
-   + [Best practices](interaction/interaction-best-practices.md)
+   + [Aanbevolen procedures](interaction/interaction-best-practices.md)
    + Instellingen definiëren{#interaction-settings}
       + [Operatoren maken](interaction/interaction-operators.md)
       + [Omgevingen maken](interaction/interaction-env.md)
@@ -104,3 +124,4 @@ ht-degree: 34%
       + [Aan de slag](dev/api.md)
       + [Nieuwe API&#39;s](dev/new-apis.md)
       + [API-stagingmechanisme](dev/staging.md)
++ [Campaign-configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)

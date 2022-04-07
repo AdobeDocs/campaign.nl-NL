@@ -3,10 +3,10 @@ title: Berichten op Twitter plaatsen met Adobe Campaign
 description: Leer hoe u de Adobe Campaign Social Marketing-module kunt gebruiken om berichten op Twitter te plaatsen en contactgegevens te verzamelen
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
 hide: true
+hidefromtoc: true
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: da6e585a789749ae0302f048940d104a36e2b477
+source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 1%
@@ -22,7 +22,6 @@ Zodra de integratie wordt gevormd, kunt u:
 
 * Berichten verzenden op Twitter: Met Adobe Campaign kun je berichten rechtstreeks op je twitter-account plaatsen. U kunt ook directe berichten verzenden naar al uw volgers.
 * Nieuwe contactpersonen verzamelen: Adobe Campaign kan de profielgegevens automatisch herstellen, waarmee u doelgerichte campagnes kunt uitvoeren en, waar mogelijk, kanaalstrategieën kunt implementeren. Voor deze handeling is toestemming van de gebruiker vereist.
-
 
 De configuratiestappen voor de integratie van uw Twitter-account met Adobe Campaign worden beschreven in [deze pagina](../connect/ac-tw.md).
 

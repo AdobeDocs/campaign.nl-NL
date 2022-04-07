@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 41%
+source-wordcount: '853'
+ht-degree: 39%
 
 ---
 
@@ -26,7 +26,7 @@ Campagne gebruiken om:
 
 ## Geïntegreerd klantprofiel {#integrated-customer-profile}
 
-Profielen worden gecentraliseerd in een krachtige cloud-database. Er zijn vele mogelijke mechanismen om profielen te verwerven en deze database op te bouwen: online verzameling via webformulieren, handmatig of automatisch importeren van tekstbestanden, replicatie met bedrijfsdatabases of andere informatiesystemen. Met Adobe Campaign kunt u de marketinggeschiedenis, aankoopdata, voorkeuren, CRM-data en alle relevante PII-data in een geconsolideerde weergave opnemen om te analyseren en actie te ondernemen.
+Profielen worden gecentraliseerd in een krachtige cloud-database. Er zijn vele mogelijke mechanismen om profielen te verwerven en dit gegevensbestand op te bouwen: online verzameling via webformulieren, handmatige of automatische import van tekstbestanden, replicatie met bedrijfsdatabases of andere informatiesystemen. Met Adobe Campaign kunt u de marketinggeschiedenis, aankoopdata, voorkeuren, CRM-data en alle relevante PII-data in een geconsolideerde weergave opnemen om te analyseren en actie te ondernemen.
 
 In Adobe Campaign zijn ontvangers de standaardprofielen voor het verzenden van leveringen (e-mails, sms’en, enzovoort). Dankzij de ontvangerdata die in de database worden opgeslagen, kunt u het doel filteren dat een bepaalde levering zal ontvangen en personalisatiedata in uw leveringscontent toevoegen. De database bevat andere typen profielen. Ze zijn ontworpen voor verschillende applicaties. Seed-profielen worden bijvoorbeeld gemaakt om de leveringen te testen voordat ze naar het uiteindelijke doel worden verzonden.
 
@@ -67,6 +67,11 @@ Workflows kunnen in verschillende contexten worden gebruikt, zoals:
 
 Met Adobe Campaign kunt u het gedrag van uw klanten volgen en interpreteren door hun data en profielen geleidelijk te verrijken. Met de rapportage- en analysetools kunt u profiteren van elke nieuwe campagne, uw marketinginitiatieven beter richten en hun impact en rendement op investeringen optimaliseren.
 
+Naast krachtige, out-of-the box rapporteringsmalplaatjes, kunt Adobe Campaign u douanerapporten op een levering, een campagne, een gebruiker, of een segmentniveau tot stand brengen. Maak een beschrijvende analyse, vat ROI samen of exporteer gegevens naar Adobe Analytics en andere oplossingen voor verdere gegevensvisualisatie en -analyse.
+
+Met de functie voor campagnerapportage kunt u dynamische rapporten maken. U kunt variabelen voor slepen en neerzetten gebruiken om uw rapporten aan te passen en het succes van uw campagnes te analyseren. Afhankelijk van de complexiteit van uw query&#39;s en berekeningen, kunnen de gegevens worden samengevoegd in een lijstweergave of worden geopend in een indeling waarmee het eenvoudig is om marketinganalytische rapporten te genereren.
+
+
 ![](../assets/do-not-localize/glass.png) Meer informatie over rapporten en traceringsmogelijkheden vindt u in [deze sectie](reporting.md).
 
 ## Adobe Experience Cloud-integraties {#adobe-experience-cloud-integrations}
@@ -81,45 +86,9 @@ Adobe Campaign biedt een aantal mogelijkheden om u te helpen de functionaliteit 
 
 ![](../assets/do-not-localize/glass.png) Ben je al bekend met Campaign Classic? Leer belangrijke verschillen tussen Campaign Classic en Campagne v8 in [deze pagina](capability-matrix.md).
 
-## Werkruimte en aanpassing
-
-De Campagne-werkruimte is beschikbaar via [Clientconsole](../dev/general-architecture.md).
-
-![](assets/home-page.png)
-
-![](../assets/do-not-localize/glass.png) [Meer informatie over Campagne Client Console](../start/connect.md).
-
-De campagnewerkruimte kan afhankelijk van uw behoeften worden aangepast.
-
-![](../assets/do-not-localize/book.png)  Leer hoe u de Campagne-werkruimte kunt gebruiken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html){target=&quot;_blank&quot;}
-
-![](../assets/do-not-localize/book.png)  Leer hoe u lijsten kunt aanpassen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html){target=&quot;_blank&quot;}
-
-U hebt ook toegang tot bepaalde functies via het web.
-
-![](../assets/do-not-localize/glass.png) [Meer informatie over Campagne Web Access](../start/connect.md#web-access).
-
-
-## Talen
-
-De gebruikersinterface van Campagne v8 is beschikbaar in de volgende talen:
-
-* Engels (VK)
-* Engels (VS)
-* Frans
-* Duits
-* Japans
-
-De taal wordt geselecteerd tijdens het installatieproces.
-
->[!CAUTION]
->
->De taal kan na het maken van de instantie niet meer worden gewijzigd.
-
-Datums en tijdnotaties worden beïnvloed door de taal. Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time){target=&quot;_blank&quot;}.
-
 **Zie ook**
 
+* [Campagne, werkruimte](campaign-ui.md)
 * [Compatibiliteitsmatrix voor campagne v8](compatibility-matrix.md)
 * [Verbinding maken met Campaign](connect.md)
 * [Veelgestelde vragen](campaign-faq.md)

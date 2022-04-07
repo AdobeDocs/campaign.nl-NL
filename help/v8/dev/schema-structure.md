@@ -348,7 +348,6 @@ Elementen worden aangeduid met hun naam en kenmerken worden aangeduid met de naa
 >
 >* **location/@city** niet geldig is; gebruiken **`[location/@city]`**
 >* **`[@email]`** en **@email** gelijkwaardig
-
 >
 
 

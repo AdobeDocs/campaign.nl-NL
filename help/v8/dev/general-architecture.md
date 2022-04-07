@@ -2,9 +2,9 @@
 title: Algemene architectuur
 description: Meer informatie over campagnearchitectuur en -componenten
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+source-git-commit: 9f375f8349140885cd4b6bcc206669a264cdbc9d
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -23,23 +23,13 @@ De gebruikelijke Adobe Campaign-implementatie van oplossingen bestaat uit de vol
 
 * **Databasecontainers**
 
-   Op basis van relationele databasetechnologie slaat de Adobe Campaign Cloud-database alle klantgegevens, campagnecomponenten, aanbiedingen en workflows op, evenals de campagneresultaten in databasecontainers van de klant.
+   Op basis van relationele databasetechnologie slaat de Adobe Campaign Cloud-database alle informatie, campagnecomponenten, aanbiedingen, workflows en campagneresultaten op in databasecontainers.
 
 ## Persoonlijke clientomgeving {#client-env}
 
-De toepassing kan op verschillende manieren worden benaderd: Rich client-, thin client- of API-integratie.
+De toepassing kan op verschillende manieren worden benaderd: Rich client, thin client of API-integratie.
 
-* **Clientconsole**: De hoofdgebruikersinterface van de toepassing is een native toepassing (in Windows) die communiceert met de Adobe Campaign-toepassingsserver met standaard internetprotocollen (SOAP, HTTP, enz.). Adobe Campaign Client Console biedt geweldige gebruiksvriendelijkheid voor productiviteit, gebruikt zeer weinig bandbreedte (door het gebruik van een lokale cache) en is ontworpen voor eenvoudige implementatie. Deze console kan vanuit een internetbrowser worden geïmplementeerd, kan automatisch worden bijgewerkt en vereist geen specifieke netwerkconfiguratie omdat alleen HTTP(S)-verkeer wordt gegenereerd.
-
-   ![](../assets/do-not-localize/glass.png) [Meer informatie over Campagne Client Console](../start/connect.md).
-
-* **Webtoegang**: delen van de toepassing zijn toegankelijk via een eenvoudige webbrowser die een HTML-gebruikersinterface gebruikt, zoals de rapportmodule, de goedkeuringsfasen voor levering, de controle van instanties, enz.
-
-   ![](../assets/do-not-localize/glass.png) [Meer informatie over Campagne Web Access](../start/connect.md).
-
-* **Campagne-API&#39;s**: In bepaalde gevallen, kan het systeem van externe toepassing worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van de ZEEP worden blootgesteld.
-
-   ![](../assets/do-not-localize/glass.png) [Meer informatie over campagne-API&#39;s](../dev/api.md).
+![](../assets/do-not-localize/glass.png) [Meer informatie over de presentatielaag voor campagnes](../start/ac-components.md).
 
 ## Ontwikkelingsomgeving {#dev-env}
 
@@ -65,9 +55,9 @@ Het voert de werkschemaprocessen uit die in de toepassing worden bepaald.
 
 Het behandelt ook periodiek uitgevoerde technische werkschema&#39;s, die omvatten:
 
-* **Tekstspatiëring**: Trackinglogboeken herstellen en consolideren. Het laat u de logboeken van de omleidingsserver terugwinnen en de gezamenlijke indicatoren creëren die door de rapporteringsmodule worden gebruikt.
-* **Overbodig verwijderen**: Database reinigen. Wordt gebruikt om oude records leeg te maken en te voorkomen dat de database exponentieel groeit.
-* **Facturering**: Automatisch verzenden van een activiteitenverslag voor het platform (databasegrootte, aantal marketingacties, enz.).
+* **Tekstspatiëring**: Herstelt en consolideert het volgen logboeken, zodat u de logboeken van de omleidingsserver kunt terugwinnen en de gezamenlijke indicatoren creëren die door de rapportmodule worden gebruikt.
+* **Overbodig verwijderen**: Hiermee wist u de database, wist u oude records en voorkomt u dat de database exponentieel toeneemt.
+* **Facturering**: Hiermee wordt een activiteitenrapport voor het platform verzonden (grootte van de database, aantal marketingacties, enz.).
 
 **Leveringsserver** (nlserver mta)
 
@@ -117,7 +107,7 @@ Dit proces handhaaft statistieken over het aantal verbindingen, de berichten die
 
 De Adobe Campaign Cloud-database is afhankelijk van [!DNL Snowflake] die de functionele gegevens (profielen, abonnementen, inhoud, enz.), de technische gegevens (leverings- en logboekgegevens, trackinglogboeken enz.) bevat en de werkgegevens (aankopen, leads) voor de oplossing, en alle Adobe Campaign-componenten communiceren met de database om hun specifieke taken uit te voeren.
 
-Klanten kunnen Adobe Campaign implementeren met behulp van de vooraf gedefinieerde database en schema&#39;s en indien nodig kan deze vooraf gedefinieerde omgeving worden uitgebreid. Alle gegevens binnen de datamarkt worden betreden door Adobe Campaign via SQL vraag. Adobe Campaign biedt ook een volledige aanvulling op de ETL-gereedschappen (Extract Transform and Load) voor het importeren en exporteren van gegevens naar en vanuit het systeem.
+U kunt Adobe Campaign implementeren met behulp van de vooraf gedefinieerde database en schema&#39;s en indien nodig kan deze vooraf gedefinieerde omgeving worden uitgebreid. Alle gegevens binnen de datamarkt worden betreden door Adobe Campaign via SQL vraag. Adobe Campaign biedt ook een volledige aanvulling op de ETL-gereedschappen (Extract Transform and Load) voor het importeren en exporteren van gegevens naar en vanuit het systeem.
 
 ![](assets/data-flow-diagram.png)
 
