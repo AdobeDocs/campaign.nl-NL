@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
-source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
+source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 31%
+source-wordcount: '325'
+ht-degree: 29%
 
 ---
 
@@ -103,7 +103,11 @@ ht-degree: 31%
    + [Campagne + RTCDP](connect/ac-rtcdp.md)
    + [Campagne + Twitter](connect/ac-tw.md)
    + [Campagne + externe database](connect/fda.md)
-   + [Campagne + uw CRM](connect/crm.md)
+   + Campagne + uw CRM {#ac-crm}
+      + [Aan de slag met CRM-connectors](connect/crm.md)
+      + [Werken met campagne en SFDC](connect/ac-sfdc.md)
+      + [Werken met Campagne en Microsoft Dynamics](connect/ac-ms-dyn.md)
+      + [Gegevens synchroniseren](connect/crm-data-sync.md)
 + Bronnen voor ontwikkelaars {#architecture}
    + [Algemene beginselen](dev/general-architecture.md)
    + [Architectuur](dev/architecture.md)
