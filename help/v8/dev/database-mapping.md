@@ -2,9 +2,9 @@
 title: Toewijzing van Campagne-database
 description: Toewijzing van Campagne-database
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -196,9 +196,9 @@ Toetsen houden zich aan de volgende regels:
    </schema>
    ```
 
-### Primaire sleutel - Id
+### Primaire sleutel - Id{#primary-key}
 
-De primaire sleutel van Adobe Campaign-tabellen is een **Universally Unique ID (UUID)** automatisch gegenereerd door de database-engine. De sleutelwaarde is uniek in het volledige gegevensbestand. De inhoud van de toets wordt automatisch gegenereerd wanneer de record wordt ingevoegd.
+In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md)is de primaire sleutel van Adobe Campaign-tabellen een **Universally Unique ID (UUID)** automatisch gegenereerd door de database-engine. De sleutelwaarde is uniek in het volledige gegevensbestand. De inhoud van de toets wordt automatisch gegenereerd wanneer de record wordt ingevoegd.
 
 **Voorbeeld**
 
@@ -353,6 +353,8 @@ Er is een omgekeerde koppeling naar de tabel &quot;cus:receiving&quot; toegevoeg
 * **target**: sleutel van gekoppeld schema (&quot;focus:ontvanger&quot;-schema)
 * **ongebonden**: de koppeling wordt gedeclareerd als een verzamelingselement voor een kardinaliteit van 1 N (standaard)
 * **integriteit**: &quot;define&quot;door gebrek (kan met het &quot;revIntegrity&quot;attribuut in de verbindingsdefinitie op het bronschema worden gedwongen).
+
+De `autouuid="true"`wordt toegepast in de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md) alleen.
 
 ### Voorbeeld 2 {#example-2}
 

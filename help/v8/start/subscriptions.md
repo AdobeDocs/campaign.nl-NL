@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Als u een profiel wilt afmelden bij een service, kunt u het volgende doen:
 
 >[!CAUTION]
 >
->Abonnementen en abonnementen zijn **asynchroon** processen. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt. [Meer informatie](../dev/new-apis.md#sub-apis)
+>In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md), abonnementen en abonnementen zijn **asynchroon** processen. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt. [Meer informatie](../architecture/new-apis.md#sub-apis)
 
 U kunt uw leveringsontvangers ook toelaten om berichten aan een vriend door:sturen. Om dit te doen, neem de relevante verbindingen in uw levering op. U kunt dit deelproces dan volgen evenals het aantal bezoeken aan de betrokken pagina&#39;s.
 

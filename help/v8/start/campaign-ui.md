@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: b54a39ee6d106d68446878815c068571e310aaa3
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Interface voor toegangscampagne
 
-De Campagne-werkruimte is beschikbaar via [Clientconsole](../dev/general-architecture.md).
+De Campagne-werkruimte is beschikbaar via [Clientconsole](../architecture/general-architecture.md).
 
 Leer om de Console van de Cliënt van de Campagne in te installeren en te vormen [deze sectie](../start/connect.md).
 

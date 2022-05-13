@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: 9457652f62810eb401c4010acd9b5da42d88d796
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1086'
+ht-degree: 5%
 
 ---
 
@@ -25,10 +25,8 @@ U kunt externe accounts openen vanuit Adobe Campaign **[!UICONTROL Explorer]**: 
 
 >[!CAUTION]
 >
->Een specifieke **[!UICONTROL Full FDA]** (ffd bis) externe account beheert verbinding tussen lokale database voor campagne en Cloud-database ([!DNL Snowflake]).
->
->Als Beheerde gebruiker van Cloud Services, wordt deze externe rekening gevormd voor uw instantie door Adobe. Het mag niet gewijzigd worden.
-
+>In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md)een specifieke **[!UICONTROL Full FDA]** (ffd bis) externe account beheert verbinding tussen lokale database voor campagne en Cloud-database ([!DNL Snowflake]).
+></br>Als Beheerde gebruiker van Cloud Services, wordt deze externe rekening gevormd voor uw instantie door Adobe. Het mag niet gewijzigd worden.
 
 ## Campagne-specifieke externe rekeningen
 
@@ -36,25 +34,84 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
 ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, vormt Adobe alle campagne-specifieke externe rekeningen voor u.
 
-* **Stuitberichten (POP3)**
+### Niet bezorgde mails {#bounce-mails-external-account}
 
-   De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
+>[!NOTE]
+>
+>De Microsoft Exchange Online OAuth 2.0-verificatie voor POP3-mogelijkheden is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-   ![](../assets/do-not-localize/book.png) Meer informatie over inkomende e-mails in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}
+De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
-* **Routering**
+![](../assets/do-not-localize/book.png) Meer informatie over inkomende e-mails in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}
 
-   De **[!UICONTROL Routing]** met een externe account kunt u elk kanaal dat beschikbaar is in Adobe Campaign configureren, afhankelijk van de geïnstalleerde pakketten.
+![](assets/bounce_external_1.png)
 
-   >[!CAUTION]
-   >
-   >De **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) externe account **mogen** moet zijn ingeschakeld in Adobe Campaign v8.
+Om het **[!UICONTROL Bounce mails (defaultPopAccount)]** externe rekening:
 
-* **Uitvoeringsinstantie**
+* **[!UICONTROL Server]**
 
-   In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbonden met de controleinstantie en hen verbinden. Transactionele berichtmalplaatjes worden opgesteld aan de uitvoeringsinstantie.
+   URL van de POP3-server.
 
-   ![](../assets/do-not-localize/glass.png) Meer informatie over de architectuur van Message Center in [deze pagina](../dev/architecture.md#transac-msg-archi).
+* **[!UICONTROL Port]**
+
+   POP3-poortnummer van verbinding. De standaardpoort is 110.
+
+* **[!UICONTROL Account]**
+
+   Naam van de gebruiker.
+
+* **[!UICONTROL Password]**
+
+   Wachtwoord voor gebruikersaccount.
+
+* **[!UICONTROL Encryption]**
+
+   Type gekozen codering tussen **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** of **[!UICONTROL POP3S]**.
+De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
+
+* **[!UICONTROL Function]**
+
+   Binnenkomende e-mail of SOAP-router
+
+![](assets/bounce_external_2.png)
+
+>[!IMPORTANT]
+>
+>Voordat u uw POP3-externe account configureert met Microsoft OAuth 2.0, moet u uw toepassing eerst registreren in de Azure-portal. Raadpleeg [deze pagina](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) voor meer informatie.
+
+Om POP3 extern te vormen gebruikend Microsoft OAuth 2.0, controleer **[!UICONTROL Microsoft OAuth 2.0]** en vult de volgende velden in:
+
+* **[!UICONTROL Azure tenant]**
+
+   Azure ID (of Directory (huurder) ID) is te vinden in de **Essentiële elementen** vervolgkeuzelijst van het overzicht van uw toepassing in de Azure-portal.
+
+* **[!UICONTROL Azure Client ID]**
+
+   Client-id (of toepassings-id (client)) is te vinden in de **Essentiële elementen** vervolgkeuzelijst van het overzicht van uw toepassing in de Azure-portal.
+
+* **[!UICONTROL Azure Client secret]**:
+
+   Identiteitskaart van het geheim van de cliënt kan in worden gevonden **Clientgegevens** uit de **Certificaten en geheimen** in het Azure-portaal.
+
+* **[!UICONTROL Azure Redirect URL]**:
+
+   De omleidings-URL vindt u in het dialoogvenster **Verificatie** in het Azure-portaal. Het moet eindigen met de volgende syntaxis `nl/jsp/oauth.jsp`, bijvoorbeeld `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+
+Nadat u de andere gegevens hebt ingevoerd, kunt u op **[!UICONTROL Setup the connection]** om de configuratie van uw externe account te voltooien.
+
+### Routering {#routing}
+
+De **[!UICONTROL Routing]** met een externe account kunt u elk kanaal dat beschikbaar is in Adobe Campaign configureren, afhankelijk van de geïnstalleerde pakketten.
+
+>[!CAUTION]
+>
+>De **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) externe account **mogen** moet zijn ingeschakeld in Adobe Campaign v8.
+
+### Uitvoeringsinstantie {#execution-instance}
+
+In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbonden met de controleinstantie en hen verbinden. Transactionele berichtmalplaatjes worden opgesteld aan de uitvoeringsinstantie.
+
+![](../assets/do-not-localize/glass.png) Meer informatie over de architectuur van Message Center in [deze pagina](../architecture/architecture.md#transac-msg-archi).
 
 ## Toegang tot externe rekeningen van externe systemen
 
@@ -90,53 +147,19 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
    ![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) Adobe Experience Manager integreren met Adobe Campaign.
 
 
-## Externe CRM-connectorrekeningen
+## CRM-connector externe accounts
 
 * **Microsoft Dynamics CRM**
 
    De **[!UICONTROL Microsoft Dynamics CRM]** Met een externe account kunt u Microsoft Dynamics-gegevens importeren en exporteren naar Adobe Campaign.
 
-   ![](../assets/do-not-localize/glass.png) Meer informatie over de integratie van Adobe Campaign - Microsoft Dynamics CRM in [deze pagina](../connect/crm.md).
-
-   Met **[!UICONTROL Web API]** implementatietype en **[!UICONTROL Password credentials]** de authentificatie, moet u de volgende details verstrekken:
-
-   * **[!UICONTROL Account]**: Account gebruikt om u aan te melden bij Microsoft CRM.
-
-   * **[!UICONTROL Server]**: URL van uw Microsoft CRM-server.
-
-   * **[!UICONTROL Client identifier]**: Client ID, te vinden op de Microsoft Azure-beheerportal in het **[!UICONTROL Update your code]** categorie, **[!UICONTROL Client ID]** veld.
-
-   * **[!UICONTROL CRM version]**: Versie van de CRM tussen **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** of **[!UICONTROL Dynamics CRM 2016]**.
-   Met **[!UICONTROL Web API]** implementatietype en **[!UICONTROL Certificate]** de authentificatie, moet u de volgende details verstrekken:
-
-   * **[!UICONTROL Server]**: URL van uw Microsoft CRM-server.
-
-   * **[!UICONTROL Private Key (Base64 encoded)]**: Persoonlijke sleutel die aan Base64 wordt gecodeerd
-
-   * **[!UICONTROL Custom Key identifier]**
-
-   * **[!UICONTROL Key ID]**
-
-   * **[!UICONTROL Client identifier]**: Client ID, te vinden op de Microsoft Azure-beheerportal in het **[!UICONTROL Update your code]** categorie, **[!UICONTROL Client ID]** veld.
-
-   * **[!UICONTROL CRM version]**: Versie van de CRM tussen **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** of **[!UICONTROL Dynamics CRM 2016]**.
-
+   ![](../assets/do-not-localize/glass.png) Meer informatie over de integratie van Adobe Campaign - Microsoft Dynamics CRM in [deze pagina](../connect/ac-ms-dyn.md).
 
 * **Salesforce.com**
 
    De **[!UICONTROL Salesforce CRM]** Met een externe account kunt u Salesforce-gegevens importeren en exporteren naar Adobe Campaign.
 
-   Om de externe rekening van Salesforce CRM te vormen om met Adobe Campaign te werken, moet u de volgende details verstrekken:
-
-   * **[!UICONTROL Account]**: Account gebruikt om u aan te melden bij Salesforce CRM.
-
-   * **[!UICONTROL Password]**: Wachtwoord gebruikt om u aan te melden bij Salesforce CRM.
-
-   * **[!UICONTROL Client identifier]**: Leer hoe u uw client-id kunt vinden in [deze pagina](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
-
-   * **[!UICONTROL Security token]**: Leer hoe u uw beveiligingstoken kunt vinden in [deze pagina](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
-
-   * **[!UICONTROL API version]**: Selecteer de versie van de API. Voor deze externe rekening, moet u u Salesforce CRM met de configuratietovenaar vormen.
+   ![](../assets/do-not-localize/glass.png) Meer informatie over de integratie van Adobe Campaign - Salesforce.com CRM in [deze pagina](../connect/ac-sfdc.md).
 
 ## Externe rekeningen voor gegevensoverdracht
 
@@ -165,7 +188,7 @@ Hiertoe geeft u in deze externe account het adres en de referenties op die worde
 
 * **Azure Blob Storage**
 
-   De **Azure** een externe account kan worden gebruikt om gegevens naar Adobe Campaign te importeren of te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Om het **Azure** voor externe accounts kunt u met Adobe Campaign werken. Hiervoor moet u de volgende gegevens opgeven:
+   De **Azure** een externe account kan worden gebruikt om gegevens naar Adobe Campaign te importeren of te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Om het **Azure** Als u met Adobe Campaign wilt werken, moet u de volgende gegevens opgeven:
 
    * **[!UICONTROL Server]**: URL van uw Azure Blob-opslagserver.
 

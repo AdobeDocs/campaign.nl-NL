@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '655'
 ht-degree: 1%
 
 ---
@@ -66,9 +66,9 @@ U kunt een verschillende ontvankelijke lijst ook gebruiken om met uw zaken of fu
 
 ## Campagnetabellen en Cloud-database
 
-Voor een beter begrip van lijstbeheer in Campagne v8, merk op dat de lijsten tussen Campagne en zijn gegevensbestand van de Snowflake Cloud worden herhaald.
+Voor een beter begrip van het tabelbeheer in Campaign v8, merk op dat, in de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md), worden tabellen gerepliceerd tussen Campagne en de bijbehorende Snowflake Cloud-database.
 
-![](../assets/do-not-localize/glass.png) Meer informatie over replicatiestrategie en -mechanismen in [deze sectie](../config/replication.md).
+![](../assets/do-not-localize/glass.png) Meer informatie over replicatiestrategie en -mechanismen in [deze sectie](../architecture/replication.md).
 
 **Verwante onderwerpen**
 

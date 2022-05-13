@@ -5,41 +5,67 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: 9457652f62810eb401c4010acd9b5da42d88d796
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 1%
+source-wordcount: '466'
+ht-degree: 3%
 
 ---
 
 # Instellingen voor e-mailkanalen voor campagne
 
-## BCC e-mailen
-
-U kunt Adobe Campaign zo configureren dat een kopie van de e-mails die u van uw platform hebt ontvangen, bewaard blijft.
+## Email BCC {#email-bcc}
 
 >[!NOTE]
->BCC-functionaliteit voor e-mail is optioneel. Controleer hiervoor uw licentieovereenkomst.
+>
+>Deze mogelijkheid is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-Adobe Campaign zelf beheert gearchiveerde bestanden niet. Het laat u toe om de berichten van uw keus naar een specifiek adres te verzenden, van waar zij kunnen worden verwerkt en worden gearchiveerd gebruikend een extern systeem.
+You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 
-Hiervoor worden .eml-bestanden die overeenkomen met de verzonden e-mails, overgebracht naar een externe server, zoals een SMTP-e-mailserver. De archiveringsbestemming is een BCC e-mailadres (onzichtbaar voor de leverende ontvangers) dat u moet specificeren.
+Adobe Campaign zelf beheert gearchiveerde bestanden niet. Hiermee kunt u de berichten van uw keuze naar een specifiek BCC-e-mailadres (blinde koolstofkopie) sturen, vanwaar ze via een extern systeem kunnen worden verwerkt en gearchiveerd. De .eml-bestanden die overeenkomen met de verzonden e-mails kunnen vervolgens worden overgebracht naar een externe server, zoals een SMTP-e-mailserver.
 
-Let op:
+>[!CAUTION]
+>
+>Om privacyredenen moeten BCC-e-mails worden verwerkt door een archiveringssysteem dat veilig identificeerbare informatie (PII) kan opslaan.
 
-* U kunt alleen **één** BCC e-mailadres.
+The archiving destination is the BCC email address of your choice, which will remain invisible to the delivery recipients.
 
-* Er wordt alleen rekening gehouden met e-mailberichten die zijn verzonden, maar met bedragen.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support){target=&quot;_blank&quot;} om het BCC-e-mailadres door te geven dat moet worden gebruikt voor archivering.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om e-mailBCC in Campagne te activeren. Het BCC e-mailadres van uw keus moet aan het team van de Adobe worden verstrekt die het voor u zal vormen.
+Zodra het BCC e-mailadres wordt bepaald, moet u de specifieke optie op het leveringsniveau toelaten.
 
-Zodra e-mail BCC wordt gevormd, zorg ervoor de eigenschap in het leveringsmalplaatje of in de levering door wordt toegelaten **BCC e-mailen** optie.
+>[!CAUTION]
+>
+>When creating a new delivery or delivery template, **[!UICONTROL Email BCC]** is not enabled by default. You need to enable it manually in the email delivery or delivery template.
 
-![](assets/email-bcc.png)
 
+Volg de onderstaande stappen om dit te doen:
 
-**Verwante onderwerpen** in Campaign Classic v7-documentatie:
+1. Ga naar **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]**, of **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Select the delivery of your choice or duplicate the out-of-the-box **[!UICONTROL Email delivery]** template, then select the duplicated template.
+1. Klik op de knop **[!UICONTROL Properties]**.
+1. Selecteer het tabblad **[!UICONTROL Delivery]**. 
+1. Schakel de optie **[!UICONTROL Email BCC]** in.
 
+   ![](assets/email-bcc.png)
+
+1. Selecteer **[!UICONTROL Ok]**.
+
+Een kopie van alle verzonden berichten voor elke levering op basis van deze sjabloon wordt verzonden naar het e-mailadres BCC dat is geconfigureerd.
+
+Note the following specificities and recommendations:
+
+* U kunt slechts één BCC-e-mailadres gebruiken.
+
+* Controleer of het BCC-adres voldoende ontvangstcapaciteit heeft om alle verzonden e-mails te archiveren.
+
+* BCC e-mailen <!--with Enhanced MTA--> levert aan het BCC e-mailadres alvorens aan de ontvangers te leveren, wat in BCC berichten kan resulteren die worden verzonden alhoewel de originele leveringen kunnen hebben teruggestuurd. Voor meer informatie over grenzen raadpleegt u [Uitvoeren van fouten begrijpen](../send/delivery-failures.md).
+
+* Als de e-mails die naar het BCC-adres worden verzonden worden geopend en als hierop wordt geklikt, wordt hiermee rekening gehouden in het dialoogvenster **[!UICONTROL Total opens]** en **[!UICONTROL Clicks]** van de send analyse, die sommige misberekeningen zou kunnen veroorzaken.
+
+<!--Only successfully sent emails are taken in account, bounces are not.-->
+
+**Meer informatie in de Campaign Classic v7-documentatie**
 
 * [De spiegelpagina genereren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;}
 
@@ -51,4 +77,4 @@ Zodra e-mail BCC wordt gevormd, zorg ervoor de eigenschap in het leveringsmalpla
 
 * [Sjablonen voor e-mailbezorging gebruiken](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
 
-* [Uitvoeren van fouten begrijpen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}
+* [Understand delivery failures](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}

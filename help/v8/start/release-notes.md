@@ -6,16 +6,108 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
+source-git-commit: d3137e75bfc4986e1d6badf32f21fda4c4353c8b
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 36%
+source-wordcount: '2240'
+ht-degree: 32%
 
 ---
 
 # Nieuwste release{#latest-release}
 
 Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd met de **nieuwste versie van Campaign v8**.
+
+## Release 8.3.7 {#release-8-3-7}
+
+_16 mei 2022_
+
+**Nieuwe functies**
+
+<table>
+<thead>
+<tr>
+<th><strong>Responsbeheer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het Campagne Response Management kunt u het succes en het rendement van uw marketingcampagnes meten of via alle kanalen voorstellen doen: e-mail, mobiel, direct mail, enz.</p>
+<p>Raadpleeg de <a href="../start/campaigns.md#response-manager-add-on">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Gedistribueerde marketing</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>De campagne verdeelde Marketing laat u samenwerkingscampagnes tussen centrale entiteiten (hoofdkwartier, marketing afdelingen, enz.) uitvoeren en lokale entiteiten (verkooppunten, regionale agentschappen, enz.). Via een gedeelde werkruimte (campagne-pakketten) kunt u campagnemalplaatjes maken en deze aan uw lokale entiteiten voorstellen.</p>
+<p>Raadpleeg de <a href="../start/campaigns.md#distributed-marketing-add-on">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Tijdgevoelige meldingen</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Met iOS 15 heeft Apple een concept van gevoelige meldingen toegevoegd dat de ontwikkelaar van de app de mogelijkheid geeft om de modus Focus te omzeilen wanneer een melding als gevoelig wordt beschouwd en de gebruiker in real-time moet bereiken.</p>
+<p>Raadpleeg de <a href="../send/push.md#send-notifications-on-ios">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Integratie van kernPrivacys Service</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campagne v8 kan nu worden geïntegreerd met de Adobe Privacy Core Service. Verzoeken om toegang tot persoonsgegevens die van de Privacy-kernservice naar alle Experience Cloud-oplossingen worden gepusht, worden door Campaign automatisch behandeld via een speciale workflow.</p>
+<p>Raadpleeg de <a href="privacy.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Compatibiliteitsupdates**
+
+* De campagne v8 SDK ondersteunt nu Android 12 en iOS 15 voor pushberichten.
+* Campagne v8 is nu compatibel met Windows 11.
+
+Raadpleeg de [Campaign-compatibiliteitsmatrix](capability-matrix.md).
+
+**Verbeteringen**
+
+* Microsoft Exchange Online OAuth 2.0-verificatie voor POP3 wordt nu ondersteund in Campagne. [Meer informatie](../config/external-accounts.md#bounce-mails-external-account)
+* Er zijn kritieke oplossingen aangebracht voor de web-API van Microsoft Dynamics Connector.
+* De nieuwe operator en het groepsschema schrijven (operatorWrite) naar rechts is toegevoegd om gebruikers toe te staan operatorschema&#39;s (xtk:operator) en groepen operatoren (xtk:group) in te voegen, bij te werken en te verwijderen.
+* U kunt nu de mogelijkheid voor e-mail-BCC (blinde koolstofkopie) inschakelen om e-mails die door Campagne zijn verzonden op leveringsniveau op te slaan via de speciale optie in de leveringseigenschappen. [Meer informatie](../config/email-settings.md#email-bcc)
+* Om betere prestaties te verzekeren, wordt een nieuwe &quot;Gesplitste&quot;optie nu geactiveerd door gebrek in de Verpletterende externe rekening. Met deze optie kunnen berichten automatisch worden gesplitst in de tussenliggende broninstanties, zodat deze sneller aan de ontvangers worden bezorgd. KOPPELING
+* Voor lijnleveringen bij instellingen voor midsourcing kunnen nu meerdere actieve accounts van hetzelfde type halverwege bestaan.
+* Het aantal standaardverbindingen voor het webproces is verhoogd van 50 naar 150.
+* De campagne wordt geleverd met een reeks nieuwe gidsen om toevoeging van dubbele sleutels in gegevensbestand te verhinderen Snowflake. [Meer informatie](../architecture/keys.md)
+
+**Patches**
+
+* Probleem verholpen dat optrad bij het gebruik van zaden en controlegroepen in dezelfde terugkerende levering. (NEO-41197)
+* Probleem met FFDA verholpen waarbij het verzenden van e-mail werd geblokkeerd voor alle ontvangers die tot dezelfde bezorging behoorden tijdens het verzendproces (maximaal 256) wanneer personalisatieklokken een van de volgende tekens bevatten: `' & < > "`. Deze tekens worden nu ondersteund in aanpassingsblokken (bijvoorbeeld: firstname=&quot;Brian O&#39;Neil&quot;). (NEO-43184)
+* Probleem verholpen waardoor de workflow voor bijhouden kon mislukken wanneer een aangepast schema als doeltoewijzing werd gebruikt. Wij zorgen nu ervoor dat het type van de buitenlandse verbinding aan een douane gericht schema correct is wanneer het produceren van schema wideLog via de tovenaar van de doelafbeelding. (NEO-43506)
+* Probleem opgelost waarbij de implementatieworkflows van de FFDA zouden kunnen mislukken voor andere talen dan het Engels. (NEO-44561)
 
 ## Release 8.2.10 {#release-8-2-10}
 
@@ -76,7 +168,9 @@ _28 oktober 2021_
 <tr> 
 <td> <p>Unicity Service is een nieuwe Cloud Database Manager-component. Hiermee kunnen gebruikers de integriteit van unieke sleutelbeperkingen in Cloud Database-tabellen behouden en controleren. Hierdoor kunt u het risico van het invoegen van dubbele toetsen verkleinen.
 <p>Aangezien de Gegevensbestand van de Wolk uniciteitsbeperkingen niet afdwingt, introduceert de Dienst van de Uniciteit op toepassingsniveau, <b>een reeks nieuwe instructies</b> bij het beheer van de gegevens met Adobe Campaign het risico op het invoegen van duplicaten verminderen.</p> 
-<p>De Dienst van Unicity stelt een nieuwe ingebouwde werkschema in werking genoemd <b>ffdaUnicity</b> om uniciteitsbeperkingen en alarm te controleren wanneer de duplicaten worden ontdekt.</p></td> </tr> 
+<p>De Dienst van Unicity stelt een nieuwe ingebouwde werkschema in werking genoemd <b>ffdaUnicity</b> om uniciteitsbeperkingen en alarm te controleren wanneer de duplicaten worden ontdekt.</p>
+<p>Raadpleeg de <a href="../architecture/keys.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td> </tr> 
 </tbody> 
 </table>
 

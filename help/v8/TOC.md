@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
-source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
+source-git-commit: d7e0635c6fccd70ed012a5b8148258383a1f6766
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '352'
 ht-degree: 29%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 29%
       + [Campagne-interface detecteren](start/campaign-ui.md)
       + [Campagne-interface aanpassen](start/customize-ui.md)
    + [Werken met het publiek](start/audiences.md)
+   + [Privacyverzoeken beheren](start/privacy.md)
    + [Gegevens importeren](start/import.md)
    + [Campagnes maken](start/campaigns.md)
    + [Berichten verzenden](start/create-message.md)
@@ -34,6 +35,18 @@ ht-degree: 29%
    + [Track &amp; monitor](start/tracking.md)
    + [Metriek en rapporten](start/reporting.md)
    + [Veelgestelde vragen](start/campaign-faq.md)
++ Architectuur {#architecture}
+   + [Algemene beginselen](architecture/general-architecture.md)
+   + [Architectuur](architecture/architecture.md)
+   + FDA Snowflake-implementatie {#fda}
+      + [Wat is FDA-Snowflake?](architecture/fda-deployment.md)
+   + Implementatie van ondernemingen (FFDA) {#ffda}
+      + [Wat is Campagne FDA?](architecture/enterprise-deployment.md)
+      + Kenmerken {#ffda-characteristics}
+         + [Sleutelbeheer en eenheid](architecture/keys.md)
+         + [Nieuwe API&#39;s](architecture/new-apis.md)
+         + [API-stagingmechanisme](architecture/staging.md)
+         + [Replicatiemechanisme](architecture/replication.md)
 + Implementeren {#implement}
    + [Implementatiestappen](start/implement.md)
    + [Instantie aanpassen](dev/customize.md)
@@ -59,7 +72,9 @@ ht-degree: 29%
    + [Mappen en weergaven beheren](audiences/folders-and-views.md)
    + [Best practices](audiences/audiences-best-practices.md)
 + Berichten verzenden{#send}
-   + [E-mails](send/email.md)
+   + E-mails {#emails}
+      + [E-mails ontwerpen en verzenden](send/email.md)
+      + [Verzenden met de Enhanced MTA](send/enhanced-mta.md)
    + [Sms](send/sms.md)
    + [Pushmeldingen](send/push.md)
    + [REGELS](send/line.md)
@@ -89,7 +104,6 @@ ht-degree: 29%
    + [Gebruiksscenario’s](interaction/interaction-use-cases.md)
 + Configureren {#config}
    + [Automatiseren met workflows](config/workflows.md)
-   + [Gegevens beheren](config/replication.md)
    + [E-mailinstellingen](config/email-settings.md)
    + [Transactionele berichtinstellingen](config/transactional-msg-settings.md)
    + [SDK&#39;s voor campagnes integreren met uw app](config/push-config.md)
@@ -108,13 +122,10 @@ ht-degree: 29%
       + [Werken met campagne en SFDC](connect/ac-sfdc.md)
       + [Werken met Campagne en Microsoft Dynamics](connect/ac-ms-dyn.md)
       + [Gegevens synchroniseren](connect/crm-data-sync.md)
-+ Bronnen voor ontwikkelaars {#architecture}
-   + [Algemene beginselen](dev/general-architecture.md)
-   + [Architectuur](dev/architecture.md)
-   + [Gegevensmodel](dev/datamodel.md)
++ Bronnen voor ontwikkelaars {#developer}
+   + [Campaign datamodel](dev/datamodel.md)
    + Schema&#39;s en formulieren {#shemas-forms}
       + [Werken met schema&#39;s](dev/schemas.md)
-      + [Sleutelbeheer en eenheid](dev/keys.md)
       + [Schema&#39;s maken](dev/create-schema.md)
       + [Schema&#39;s uitbreiden](dev/extend-schema.md)
       + [Filterschema&#39;s](dev/filter-schema.md)
@@ -124,8 +135,6 @@ ht-degree: 29%
       + [Een aangepaste tabel voor ontvangers gebruiken](dev/custom-recipient.md)
       + [De database bijwerken](dev/update-database-structure.md)
       + [Invoerformulieren](dev/forms.md)
-   + API&#39;s {#api}
-      + [Aan de slag](dev/api.md)
-      + [Nieuwe API&#39;s](dev/new-apis.md)
-      + [API-stagingmechanisme](dev/staging.md)
+   + [Campaign-API&#39;s](dev/api.md)
 + [Campaign-configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
+

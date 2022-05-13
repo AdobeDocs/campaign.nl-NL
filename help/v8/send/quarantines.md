@@ -5,30 +5,30 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: c316da3c431e42860c46b5a23c73a7c129abf3ac
+source-git-commit: 1ff06c69a4118afa228522d580dd5caa36a69275
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1093'
 ht-degree: 5%
 
 ---
 
-# Quarantines {#quarantine-management}
+# Quarantine {#quarantine-management}
 
 Adobe Campaign beheert een lijst met in quarantaine geplaatste adressen voor onlinekanalen (e-mail, SMS, pushmelding). Sommige internetproviders beschouwen e-mails automatisch als spam als de snelheid van ongeldige adressen te hoog is. Met quarantaine kunt u dus voorkomen dat u door deze providers aan de lijst van gewezen personen wordt toegevoegd. Bovendien zijn de verzendkosten voor sms-berichten lager doordat onjuiste telefoonnummers van de levering worden uitgesloten.
 
-Wanneer hun adres of telefoonaantal quarantined is, worden de ontvangers uitgesloten van het doel tijdens leveringsanalyse: u kunt geen marketingberichten, waaronder automatische workflow-e-mails, naar die contactpersonen sturen. Als die quarantined adressen ook in lijsten aanwezig zijn, zullen zij wanneer het verzenden naar die lijsten worden uitgesloten. Een e-mailadres kan in quarantaine worden geplaatst, bijvoorbeeld wanneer de brievenbus volledig is, als het adres niet bestaat, of als de e-mailserver bijvoorbeeld niet beschikbaar is.
+Wanneer hun adres of telefoonaantal quarantined is, worden de ontvangers uitgesloten van het doel tijdens leveringsanalyse: u kunt geen marketingberichten, waaronder automatische workflow-e-mails, naar die contactpersonen sturen. Als die quarantined adressen ook in lijsten aanwezig zijn, zullen zij wanneer het verzenden naar die lijsten worden uitgesloten. Een e-mailadres kan in quarantaine worden geplaatst, bijvoorbeeld wanneer de brievenbus volledig is, als het adres niet bestaat, of als de e-mailserver niet beschikbaar is.
 
 <!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
 
 **Quarantine** alleen van toepassing op een **adres**, **telefoonnummer** of een **apparaattoken**, maar niet aan het profiel zelf. Een profiel waarvan het e-mailadres in quarantaine is geplaatst, kan bijvoorbeeld zijn profiel bijwerken en een nieuw adres invoeren. Dit profiel kan dan opnieuw worden geactiveerd door leveringsacties. Eveneens, als twee profielen gebeuren om het zelfde telefoonaantal te hebben, zullen zij allebei worden beïnvloed als het aantal quarantined is. De in quarantaine geplaatste adressen of telefoonaantallen worden getoond in [uitsluitingslogboeken](#delivery-quarantines) (voor levering) of in de [quarantainelijst](#non-deliverable-bounces) (voor het gehele platform).
 
-Aan de andere kant kunnen profielen worden ingesteld op **lijst van gewezen personen** zoals na een abonnement (opt-out), voor een bepaald kanaal: dit houdt in dat zij niet langer het doelwit zijn van wie dan ook . Als een profiel op de lijst van gewezen personen voor het e-mailkanaal twee e-mailadressen heeft, worden beide adressen daarom uitgesloten van levering. U kunt controleren of een profiel op de lijst van gewezen personen voor een of meer kanalen in het dialoogvenster **[!UICONTROL No longer contact]** van het profiel **[!UICONTROL General]** tab. [Meer informatie](../audiences/view-profiles.md).
+Aan de andere kant kunnen profielen worden ingesteld op **lijst van gewezen personen** zoals na een abonnement (opt-out), voor een bepaald kanaal: dit houdt in dat zij niet langer het doelwit zijn van wie dan ook . Als een profiel op de lijst van gewezen personen voor het e-mailkanaal twee e-mailadressen heeft, worden beide adressen daarom uitgesloten van levering. U kunt controleren of een profiel op de lijst van gewezen personen voor een of meer kanalen in het dialoogvenster **[!UICONTROL No longer contact]** van het profiel **[!UICONTROL General]** tab. [Meer informatie](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
 >Wanneer de ontvangers uw bericht als spam melden of op een bericht van SMS met een sleutelwoord zoals &quot;STOP&quot;antwoorden, wordt hun adres of telefoonaantal quarantaine geplaatst zoals **[!UICONTROL Denylisted]**. Hun profiel wordt dienovereenkomstig bijgewerkt.
->
-> Voor het e-mailkanaal worden e-mailadressen in quarantaine geplaatst. Voor het mobiele app-kanaal worden apparaattokens in quarantaine geplaatst. Voor het kanaal van SMS, zijn de telefoonaantallen quarantined.
+
+<!--For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.?-->
 
 ## Waarom wordt een e-mail, telefoon of apparaat verzonden naar quarantaine {#quarantine-reason}
 
@@ -37,8 +37,7 @@ Adobe Campaign beheert quarantaine op basis van het type leveringsfout en de oor
 Er kunnen twee typen of fouten worden vastgelegd:
 
 * **Harde fout**: het e-mailadres, telefoonnummer of apparaat wordt onmiddellijk naar quarantaine verzonden.
-* **Zachte fout**: de zachte fouten verhogen een foutenteller, en zouden een e-mail, telefoonaantal of apparatenteken in quarantaine kunnen plaatsen. Campagne [opnieuw](delivery-failures.md#retries).: wanneer de foutenteller de grensdrempel bereikt, wordt het adres, het telefoonaantal of het apparatenteken quarantined. [Meer informatie](delivery-failures.md#retries).
-
+* **Zachte fout**: de zachte fouten verhogen een foutenteller, en zouden een e-mail, telefoonaantal of apparatenteken in quarantaine kunnen plaatsen. Campagne voert uit [opnieuw](delivery-failures.md#retries): wanneer de foutenteller de grensdrempel bereikt, wordt het adres, het telefoonaantal of het apparatenteken quarantined. [Meer informatie](delivery-failures.md#retries).
 
 In de lijst van quarantined adressen, **[!UICONTROL Error reason]** geeft aan waarom het geselecteerde adres in quarantaine is geplaatst. [Meer informatie](#identifying-quarantined-addresses-for-the-entire-platform).
 

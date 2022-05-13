@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/glass.png) Transactionele berichtenmogelijkheden zijn gedetailleerd in [deze sectie](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur in [deze pagina](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur in [deze pagina](../architecture/architecture.md).
 
 ## Machtigingen definiëren
 
@@ -32,19 +32,19 @@ Alle schemauitbreidingen die op de schema&#39;s worden gemaakt door worden gebru
 
 ## Transactie-pushmeldingen verzenden
 
-In combinatie met de Mobile-app Channel-module kunt u via transactiemeldingen berichten verzenden via berichten op mobiele apparaten.
+In combinatie met de module Mobiele toepassingskanalen kunt u met transactiemeldingen transactionele berichten verzenden via meldingen op mobiele apparaten.
 
-![](../assets/do-not-localize/book.png) Het Mobile-toepassingskanaal wordt beschreven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+![](../assets/do-not-localize/book.png) Het mobiele toepassingskanaal wordt gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
 
 Als u pushmeldingen over transacties wilt verzenden, moet u de volgende configuraties uitvoeren:
 
-1. Installeer de **Mobile App Channel** verpakken op de controle en uitvoeringsinstanties.
+1. Installeer de **Mobiel App-kanaal** verpakken op de controle en uitvoeringsinstanties.
 
    >[!CAUTION]
    >
    >Controleer uw licentieovereenkomst voordat u een nieuw ingebouwd pakket voor de campagne installeert.
 
-1. Repliceer de **Mobile-toepassing** en de bijbehorende mobiele toepassingen op de uitvoeringsinstanties.
+1. Repliceer de **Mobiele toepassing** en de bijbehorende mobiele toepassingen op de uitvoeringsinstanties.
 
 Campagne kan alleen transactionele pushmeldingen verzenden als de gebeurtenis de volgende elementen bevat:
 

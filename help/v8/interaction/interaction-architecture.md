@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: dafdf471fcaf2b6c6e3e8d5028cd65e35e7df3eb
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Zodra een aanbieding kan of moet worden ingediend (volgens de uitgevoerde config
 
 ## Verdeelde architectuur
 
-Om scalability te kunnen steunen en de dienst 24/7 op het binnenkomende kanaal te verlenen, **Interactie** wordt uitgevoerd in een verdeelde architectuur. Dit type architectuur wordt al gebruikt met [Berichtencentrum](../dev/architecture.md#transac-msg-archi) en bestaat uit verschillende gevallen:
+Om scalability te kunnen steunen en de dienst 24/7 op het binnenkomende kanaal te verlenen, **Interactie** wordt uitgevoerd in een verdeelde architectuur. Dit type architectuur wordt al gebruikt met [Berichtencentrum](../architecture/architecture.md#transac-msg-archi) en bestaat uit verschillende gevallen:
 
 * één of meerdere controleinstanties gewijd aan het uitgaande kanaal en die de marketing en de basis van het milieuontwerp bevatten
 * één of meerdere uitvoeringsinstanties specifiek voor het binnenkomende kanaal

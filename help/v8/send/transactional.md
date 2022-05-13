@@ -5,18 +5,18 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: ec044d6176b4d00302d7a7e24520b97669bede49
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1827'
 ht-degree: 1%
 
 ---
 
 # Aan de slag met Transactioneel overseinen{#send-transactional-messages}
 
-Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. Deze berichten worden geproduceerd van gebeurtenissen die van informatiesystemen teweeggebracht worden, en kunnen zijn: factuur, bevestiging van bestelling, bevestiging van verzending, wijziging van wachtwoord, kennisgeving van onbeschikbaarheid van product, rekeningoverzicht of het maken van websiteaccount, bijvoorbeeld.
+Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. Deze meldingen worden gegenereerd op basis van gebeurtenissen die worden geactiveerd via informatiesystemen en kunnen: factuur, bevestiging van bestelling, bevestiging van verzending, wijziging van wachtwoord, kennisgeving van onbeschikbaarheid van product, rekeningoverzicht, aanmaken van websiteaccount, enz.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support){target=&quot;_blank&quot;} om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
 
 Transactieberichten worden gebruikt voor het verzenden van:
 
@@ -26,13 +26,58 @@ Transactieberichten worden gebruikt voor het verzenden van:
 
 ![](../assets/do-not-localize/glass.png) De instellingen voor Transactieberichten worden gedetailleerd in [deze sectie](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur in [deze pagina](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur op [deze pagina](../architecture/architecture.md).
 
->[!CAUTION]
+## Werkingsprincipe voor transactieberichten {#transactional-messaging-operating-principle}
+
+De module van het Overseinen van Adobe Campaign Transactional integreert in een informatiesysteem dat gebeurtenissen terugkeert die in gepersonaliseerde transactionele berichten moeten worden veranderd. Deze berichten kunnen individueel of in partijen via e-mail, SMS of push-berichten worden verzonden.
+
+Stel dat u een bedrijf bent met een website waar uw klanten producten kunnen kopen.
+
+Met Adobe Campaign kunt u een meldingsbericht verzenden naar klanten die producten aan hun winkelwagentje hebben toegevoegd. Wanneer een van hen uw website verlaat zonder door te gaan met hun aankopen (externe gebeurtenis die een Campagne-gebeurtenis activeert), wordt er automatisch een e-mailbericht over het verlaten van de winkelwagen naar hen verzonden (levering van transactiemeldingen).
+
+De belangrijkste stappen om dit in werking te stellen zijn hieronder beschreven:
+
+1. [Een gebeurtenistype maken](#create-event-types).
+1. [De berichtsjabloon maken en ontwerpen](#create-message-template). Tijdens deze stap moet u een gebeurtenis koppelen aan uw bericht.
+1. [Het bericht testen](#test-message-template).
+1. [Publiceer de berichtsjabloon](#publish-message-template).
+
+Zodra u het transactionele berichtmalplaatje ontwierp en publiceerde, als een overeenkomstige gebeurtenis wordt teweeggebracht, worden de relevante gegevens verzonden naar Campagne via PushEvent en PushEvents [SOAP-methoden](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target=&quot;_blank&quot;} en de levering wordt naar de beoogde ontvangers verzonden.
+
+## Gebeurtenistypen maken {#create-event-types}
+
+Om ervoor te zorgen dat elke gebeurtenis in een gepersonaliseerd bericht kan worden veranderd, moet u eerst creëren **gebeurtenistypen**.
+
+Wanneer [een berichtsjabloon maken](#create-message-template), selecteert u het type gebeurtenis dat overeenkomt met het bericht dat u wilt verzenden.
+
+>[!IMPORTANT]
 >
->Voor Transactioneel overseinen is een specifieke licentie vereist. Controleer hiervoor uw licentieovereenkomst.
+>U moet gebeurtenistypen creëren alvorens hen in berichtmalplaatjes te kunnen gebruiken.
 
-## Transactieberichtsjablonen definiëren
+Voer de volgende stappen uit om gebeurtenistypen te maken die door Adobe Campaign worden verwerkt:
+
+1. Aanmelden bij de **besturingsinstantie**.
+
+1. Ga naar de **[!UICONTROL Administration > Platform > Enumerations]** map van de structuur.
+
+1. Selecteren **[!UICONTROL Event type]** in de lijst.
+
+1. Klikken **[!UICONTROL Add]** om een opsommingswaarde te maken. Dit kan een bevestiging zijn van de bestelling, een wijziging van het wachtwoord, een wijziging in de levering van de bestelling, enzovoort.
+
+   <!--![](assets/messagecenter_eventtype_enum_001.png)-->
+
+   >[!IMPORTANT]
+   >
+   >Elk gebeurtenistype moet overeenkomen met een waarde in het dialoogvenster **[!UICONTROL Event type]** opsomming.
+
+1. Nadat de gespecificeerde lijstwaarden zijn gecreeerd, logoff en terug op uw geval voor de verwezenlijking om efficiënt te zijn.
+
+>[!NOTE]
+>
+>Meer informatie over gespecificeerde lijsten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+
+## Een transactiemalplaatje definiëren {#create-message-template}
 
 Elke gebeurtenis kan een gepersonaliseerd bericht teweegbrengen. Hiervoor moet u een berichtsjabloon maken die overeenkomt met elk gebeurtenistype. De malplaatjes bevatten de noodzakelijke informatie voor het personaliseren van het transactiebericht. U kunt malplaatjes ook gebruiken om de berichtvoorproef te testen en proeven te verzenden gebruikend zaadadressen alvorens aan het definitieve doel te leveren.
 
@@ -54,9 +99,9 @@ Volg onderstaande stappen om een berichtsjabloon te maken:
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Gebeurtenistypen die bestemd zijn om door Adobe Campaign te worden verwerkt, moeten op de besturingsinstantie door Adobe worden gemaakt.
+   Gebeurtenistypen die bestemd zijn om door Adobe Campaign te worden verwerkt, moeten vooraf worden gemaakt.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Een gebeurtenistype mag nooit aan meerdere sjablonen worden gekoppeld.
 
@@ -91,6 +136,8 @@ Voer de volgende stappen uit om personalisatietags in te voegen in de tekst van 
 1. Vul de tag in met de volgende syntaxis: **elementnaam**.@**kenmerknaam** zoals hieronder weergegeven.
 
    ![](assets/messagecenter_create_custo_2.png)
+
+## Test het transactiemalplaatje van het berichtbericht {#test-message-template}
 
 ### Seedadressen toevoegen{#add-seeds}
 
@@ -174,7 +221,7 @@ In elke sjabloon zijn proefdrukken toegankelijk via de **[!UICONTROL Audit]** ta
 
 ![](assets/messagecenter_send_proof_003.png)
 
-### De sjabloon publiceren
+## De sjabloon publiceren {#publish-message-template}
 
 Wanneer het berichtmalplaatje op de controleinstantie wordt gecreeerd volledig is, kunt u het publiceren. Dit proces zal het op alle uitvoeringsinstanties ook publiceren.
 
@@ -206,8 +253,7 @@ Zodra een malplaatje wordt gepubliceerd, als de overeenkomstige gebeurtenis word
 >
 >Als u echter een niet-lege waarde toevoegt, wordt het desbetreffende veld op de gebruikelijke wijze na de volgende publicatie bijgewerkt.
 
-
-### Publicatie van een sjabloon ongedaan maken
+## Publicatie van een sjabloon ongedaan maken
 
 Zodra een berichtmalplaatje op de uitvoeringsinstanties wordt gepubliceerd, kan het unpublished.
 

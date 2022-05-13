@@ -5,16 +5,18 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: c316da3c431e42860c46b5a23c73a7c129abf3ac
+source-git-commit: 1ff06c69a4118afa228522d580dd5caa36a69275
 workflow-type: tm+mt
-source-wordcount: '3106'
+source-wordcount: '2849'
 ht-degree: 5%
 
 ---
 
-# Leveringsfouten begrijpen{#delivery-failures}
+# Leveringsfouten begrijpen {#delivery-failures}
 
-De grenzen zijn het resultaat van een leveringspoging en mislukking waar ISP achtermislukkingsberichten verstrekt. De verwerking van de stuitbehandeling is een kritiek deel van lijsthygiëne. Nadat een bepaalde e-mail meerdere keren achter elkaar is teruggestuurd, wordt deze tijdens dit proces gemarkeerd voor onderdrukking. Hierdoor wordt voorkomen dat systemen ongeldige e-mailadressen blijven verzenden. De grenzen zijn één van de belangrijkste stukken van gegevens die ISPs gebruikt om IP reputatie te bepalen. Het is belangrijk om deze maatstaf in de gaten te houden. &quot;Geleverd&quot; versus &quot;teruggestort&quot; is waarschijnlijk de meest gebruikelijke manier om de levering van marketingberichten te meten: hoe hoger het geleverde percentage is , hoe beter .
+De grenzen zijn het resultaat van een leveringspoging en mislukking waar ISP achtermislukkingsberichten verstrekt. De verwerking van de stuitbehandeling is een kritiek deel van lijsthygiëne. Nadat een bepaalde e-mail meerdere keren achter elkaar is teruggestuurd, wordt deze tijdens dit proces gemarkeerd voor onderdrukking.
+
+Hierdoor wordt voorkomen dat systemen ongeldige e-mailadressen blijven verzenden. De grenzen zijn één van de belangrijkste stukken van gegevens die ISPs gebruikt om IP reputatie te bepalen. Het is belangrijk om deze maatstaf in de gaten te houden. &quot;Geleverd&quot; versus &quot;teruggestort&quot; is waarschijnlijk de meest gebruikelijke manier om de levering van marketingberichten te meten: hoe hoger het geleverde percentage is , hoe beter .
 
 Als een bericht niet naar een profiel kan worden verzonden, verzendt de externe server automatisch een foutbericht naar Adobe Campaign. Deze fout is gekwalificeerd om te bepalen of het e-mailadres, het telefoonnummer of het apparaat in quarantaine moet worden geplaatst. Zie [Bounce mail management](#bounce-mail-qualification).
 
@@ -24,66 +26,21 @@ Wanneer een e-mailadres in quarantaine wordt geplaatst, of als een profiel op li
 
 ## Waarom is de berichtlevering mislukt {#delivery-failure-reasons}
 
-Er zijn twee typen fouten wanneer een bericht mislukt. Elk fouttype bepaalt of een adres wordt verzonden naar [quarantaine](quarantines.md#quarantine-reason) of niet.
-
+Er zijn twee typen fouten wanneer een bericht mislukt. Elk type van leveringsmislukking bepaalt als een adres wordt verzonden naar [quarantaine](quarantines.md#quarantine-reason) of niet.
 
 * **Harde vlekken**
-De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP een postingspoging aan een abonneeadres als niet te leveren niet bepaalt. In Adobe Campaign worden harde golven die als niet-leverbaar zijn gecategoriseerd, aan de quarantaine toegevoegd, wat betekent dat ze niet opnieuw zouden worden geplaatst. In sommige gevallen wordt een harde stuit genegeerd als de oorzaak van de fout onbekend is.
+De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP een postingspoging aan een abonneeadres als niet te leveren niet bepaalt. In Adobe Campaign worden harde golven die als niet-leverbaar zijn gecategoriseerd, toegevoegd aan de quarantainelijst, wat betekent dat ze niet opnieuw zouden worden gemaskeerd. In sommige gevallen wordt een harde stuit genegeerd als de oorzaak van de fout onbekend is.
 
    Hier volgen enkele voorbeelden van harde grenzen: Adres bestaat niet, Account uitgeschakeld, onjuiste syntaxis, onjuist domein
 
-
 * **Zachte golven**
-De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. Zachte mislukkingen zullen veelvoudige tijden (met variantie afhankelijk van gebruik van douane of uit-van-doos leveringsmontages) opnieuw proberen om een succesvolle levering te proberen. Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren.
+De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. Zachte fouten zullen [opnieuw proberen](#retries) meerdere keren (met variantie afhankelijk van het gebruik van aangepaste of kant-en-klare leveringsinstellingen) om te proberen de levering te voltooien. Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren.
 
    Tot de meest voorkomende oorzaken van zachte grenzen behoren: Brievenbus volledig, Ontvangend e-mailserver neer, de kwesties van de de reputatie van de Afzender
 
-
 De  **Genegeerd** Het type fout is bekend als tijdelijk, zoals &quot;Buiten kantoor&quot;, of een technische fout, bijvoorbeeld als het type afzender &quot;postmaster&quot; is.
 
-
-
-### Kwalificatie van niet-bezorgde e-mails {#bounce-mail-qualification}
-
-De regels die door Campagne worden gebruikt om leveringsmislukkingen te kwalificeren zijn vermeld in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knooppunt. Het is niet-limitatief en wordt regelmatig door Adobe Campaign bijgewerkt en kan ook door de gebruiker worden beheerd.
-
-![](assets/delivery-log-qualification.png)
-
-De stuiterende kwalificaties in de **[!UICONTROL Delivery log qualification]** tabel wordt niet gebruikt voor **synchroon** foutberichten over leveringsfout. Momentum bepaalt het stuitertype en de kwalificatie, en stuurt die informatie terug naar Campaign.
-
-**Asynchroon** De grenzen worden gekwalificeerd door het inMail proces door **[!UICONTROL Inbound email]** regels.
-
-Het bericht dat door de externe server wordt geretourneerd bij de eerste instantie van dit fouttype, wordt weergegeven in het dialoogvenster **[!UICONTROL First text]** kolom van de **[!UICONTROL Audit]** tab.
-
-![](assets/delivery-log-first-txt.png)
-
-Adobe Campaign filtert dit bericht om de variabele inhoud (zoals id&#39;s, datums, e-mailadressen, telefoonnummers, enz.) te verwijderen. en geeft het gefilterde resultaat weer in de **[!UICONTROL Text]** kolom. De variabelen worden vervangen door **`#xxx#`**, behalve adressen die worden vervangen door **`*`**.
-
-Dit proces staat toe om alle mislukkingen van het zelfde type samen te brengen en veelvoudige ingangen voor gelijkaardige fouten in de de kwalificatielijst van het Logboek van de Levering te vermijden.
-
->[!NOTE]
->
->De **[!UICONTROL Number of occurrences]** wordt het aantal exemplaren van het bericht in de lijst weergegeven. Het is beperkt tot 100 000 voorvallen. U kunt het veld bewerken als u het bijvoorbeeld opnieuw wilt instellen.
-
-Stuitberichten kunnen de volgende kwalificatiestatus hebben:
-
-* **[!UICONTROL To qualify]** : de stuiterende post kon niet worden gekwalificeerd. De kwalificatie moet aan het leveringsteam worden toegewezen om efficiënte platformleverantie te waarborgen. Zolang het niet wordt gekwalificeerd, wordt de stuiterende post niet gebruikt om de lijst van e-mailbeheerregels te verrijken.
-* **[!UICONTROL Keep]** : de stuiterende post werd gekwalificeerd en zal door **Vernieuwen voor leverbaarheid** te vergelijken met de bestaande regels voor e-mailbeheer en de lijst te verrijken.
-* **[!UICONTROL Ignore]** : de stuiterende post wordt genegeerd, betekenend dat deze stuit nooit het adres van de ontvanger zal veroorzaken om in quarantined te zijn. Het wordt niet gebruikt door de **Vernieuwen voor leverbaarheid** en wordt niet naar clientinstanties verzonden.
-
-![](assets/delivery-log-status.png)
-
-
->[!NOTE]
->
->In het geval van een stroomonderbreking van ISP, zullen de e-mails die door Campaign worden verzonden verkeerd als stegels worden gemerkt. U moet de stuiterkwalificatie bijwerken om dit te corrigeren.
-
-
-## Opnieuw beheren {#retries}
-
-Als de berichtlevering mislukt na een tijdelijke fout (**Zacht** of **Genegeerd**), probeert CAmpaign opnieuw te verzenden. Deze pogingen kunnen tot het eind aan de leveringsduur worden uitgevoerd. Het aantal en de frequentie van pogingen worden opstelling door Momentum, die op het type en de strengheid van de stuiteringsreacties wordt gebaseerd die terug van ISP van het bericht komen.
-
-In de standaardconfiguratie worden vijf pogingen gedefinieerd met een interval van een uur, gevolgd door één poging per dag gedurende vier dagen. Het aantal pogingen kan globaal of voor elke levering of leveringsmalplaatje worden veranderd. Neem contact op met de Adobe Support als u de leveringsduur en het opnieuw proberen wilt aanpassen.
+De feedbacklus werkt als stuiterende e-mails: wanneer een gebruiker een e-mail als spam kwalificeert, kunt u e-mailregels in Adobe Campaign configureren om alle leveringen aan deze gebruiker te blokkeren. De adressen van deze gebruikers worden gevoegd op lijst van gewenste personen alhoewel zij niet de unsubscription verbinding klikten. Adressen worden toegevoegd aan de **NmsAddress**) quarantainetabel en niet de (**NmsRecipient**) tabel met ontvangers met de **[!UICONTROL Denylisted]** status. Meer informatie over feedbacklusmechanismen vindt u in het dialoogvenster [Adobe Handleiding voor beste praktijken voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
 
 ## Synchrone en asynchrone fouten {#synchronous-and-asynchronous-errors}
 
@@ -91,17 +48,58 @@ Een berichtlevering kan onmiddellijk ontbreken, in dat geval kwalificeren wij di
 
 Deze soorten fouten worden als volgt beheerd:
 
-* **Synchrone fout**: Als de externe server waarmee contact is opgenomen door de Adobe Campaign-leveringsserver onmiddellijk een foutbericht retourneert, mag de levering niet naar de server van het profiel worden verzonden. Adobe Campaign kwalificeert elke fout om te bepalen of de e-mailadressen in kwestie quarantined zouden moeten zijn. Zie [Kwalificatie van niet-bezorgde e-mails](#bounce-mail-qualification).
+* **Synchrone fout**: de externe server waarmee contact wordt opgenomen door de Adobe Campaign-leveringsserver, retourneert onmiddellijk een foutbericht. De levering mag niet naar de server van het profiel worden verzonden. Verbeterde MTA bepaalt het stuittype en kwalificeert de fout, en stuurt die informatie terug naar Campagne om te bepalen of de e-mailadressen in kwestie zouden moeten worden quarantined. Zie [Kwalificatie van niet-bezorgde e-mails](#bounce-mail-qualification).
 
 * **Asynchrone fout**: een stuiterende post of een SR wordt teruggestuurd later door de ontvangende server. Deze fout is gekwalificeerd met een label dat gerelateerd is aan de fout. Asynchrone fouten kunnen optreden tot een week nadat een levering is verzonden.
 
-   >[!NOTE]
-   >
-   >Als gebruiker van Managed Services, wordt de configuratie van de stuiterende brievenbus uitgevoerd door Adobe.
+>[!NOTE]
+>
+>Als gebruiker van Managed Services, wordt de configuratie van de stuiterende brievenbus uitgevoerd door Adobe.
 
-   De feedbacklus werkt als stuiterende e-mails: wanneer een gebruiker een e-mail als spam kwalificeert, kunt u e-mailregels in Adobe Campaign configureren om alle leveringen aan deze gebruiker te blokkeren. De adressen van deze gebruikers zijn op lijst van gewezen personen alhoewel zij niet de unsubscription verbinding klikten. De adressen zijn in lijst van gewezen personen in (**NmsAddress**) quarantainetabel en niet in de (**NmsRecipient**) tabel met ontvangers. Meer informatie over feedbacklusmechanismen vindt u in [Adobe Handleiding voor beste praktijken voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+## Kwalificatie van niet-bezorgde e-mails {#bounce-mail-qualification}
+
+<!--NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+
+![](assets/delivery-log-qualification.png)-->
+
+Op dit moment is de manier waarop de kwalificatie voor stuiterende berichten wordt verwerkt in Adobe Campaign afhankelijk van het fouttype:
+
+* **Synchrone fouten**: Verbeterde MTA bepaalt het stuittype en de kwalificatie, en stuurt die informatie terug naar Campagne. De stuiterende kwalificaties in de **[!UICONTROL Delivery log qualification]** tabel wordt niet gebruikt voor **synchroon** foutberichten over leveringsfout.
+
+* **Asynchrone fouten**: De regels die door Campagne worden gebruikt om asynchrone leveringsmislukkingen te kwalificeren zijn vermeld in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knooppunt. Asynchrone stuiteringen worden gekwalificeerd door het inMail-proces via het **[!UICONTROL Inbound email]** regels. Raadpleeg voor meer informatie hierover [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}.
+
+<!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
+
+![](assets/delivery-log-first-txt.png)
+
+Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
+
+This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
+  
+>[!NOTE]
+>
+>The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
+
+Bounce mails can have the following qualification status:
+
+* **[!UICONTROL To qualify]** : the bounce mail could not be qualified. Qualification must be assigned to the Deliverability team to guarantee efficient platform deliverability. As long as it is not qualified, the bounce mail is not used to enrich the list of email management rules.
+* **[!UICONTROL Keep]** : the bounce mail was qualified and will be used by the **Refresh for deliverability** workflow to be compared to existing email management rules and enrich the list.
+* **[!UICONTROL Ignore]** : the bounce mail is ignored, meaning that this bounce will never cause the recipient's address to be quarantined. It will not be used by the **Refresh for deliverability** workflow and it will not be sent to client instances.
+
+![](assets/delivery-log-status.png)
+
+>[!NOTE]
+>
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.-->
 
 
+## Opnieuw beheren {#retries}
+
+Als de berichtlevering mislukt na een tijdelijke fout (**Zacht** of **Genegeerd**), probeert de campagne opnieuw te verzenden. Deze pogingen kunnen tot het eind aan de leveringsduur worden uitgevoerd.
+
+Het aantal en de frequentie van pogingen worden opstelling door Verbeterde MTA, die op het type en de strengheid van de stuiteringsreacties wordt gebaseerd die terug van ISP van het bericht komen.
+
+<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
 
 ## Typen e-mailfouten {#email-error-types}
 

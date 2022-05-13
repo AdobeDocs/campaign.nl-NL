@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
+source-git-commit: 355b9219ffd9d481d15d2d0982d49923842cc27b
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1699'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,11 @@ Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten o
 
 >[!NOTE]
 >
->De compatibele gegevensbestanden voor FDA zijn vermeld in [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
+>* De compatibele gegevensbestanden voor FDA zijn vermeld in [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
+>
+>* In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md), is er een specifieke externe account beschikbaar voor het beheer van de communicatie tussen de lokale database van Campagne en de cloud-database van Snowflake. Deze externe account wordt voor u ingesteld door Adobe en mag niet worden gewijzigd.
+>
+
 
 De optie FDA van de campagne staat u toe om uw gegevensmodel in een derdegegevensbestand uit te breiden. Het zal automatisch de structuur van de gerichte lijsten ontdekken en gegevens van de SQL bronnen gebruiken.
 
@@ -56,7 +60,12 @@ Om toegang tot een extern gegevensbestand met FDA te plaatsen, zijn de configura
 1. Als gebruiker van de Diensten van Adobe Beheerde, contacteer Adobe om de bestuurders op uw instantie van de Campagne te installeren.
 1. Als stuurprogramma&#39;s zijn geïnstalleerd, stelt u de externe account in die overeenkomt met uw database op de Adobe Campaign-server en test u de externe account. [Meer informatie](#fda-external-account)
 1. Maak het schema van de externe database in Adobe Campaign. Hierdoor kunt u de gegevensstructuur van de externe database identificeren. [Meer informatie](#create-data-schema)
-1. Indien nodig, creeer een nieuwe doelafbeelding van het eerder gecreeerd schema. Dit is vereist als de ontvangers van uw leveringen afkomstig zijn uit de externe database. Deze implementatie omvat beperkingen met betrekking tot berichtpersonalisatie. [Meer informatie](#define-data-mapping)
+
+<!--
+1. If needed, create a new target mapping from the previously created schema. This is required if the recipients of your deliveries come from the external database. This implementation comes with limitations related to message personalization. [Learn more](#define-data-mapping)
+-->
+
+Houd er rekening mee dat met Campagne [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md)kunt u geen doelafbeelding maken van een schema dat is opgeslagen in een externe database die wordt geopend door FDA. Dientengevolge, kunnen de ontvangers van uw leveringen niet uit het externe gegevensbestand komen.
 
 ## Externe externe database-account{#fda-external-account}
 
@@ -121,39 +130,40 @@ Voer de volgende stappen uit om het schema van de externe database in Adobe Camp
 
 1. Klikken **[!UICONTROL Save]** om de aanmaak te bevestigen.
 
-## De doeltoewijzing definiëren{#define-data-mapping}
+<!-- 
+## Define the target mapping{#define-data-mapping}
 
-U kunt een toewijzing van de gegevens in een externe lijst bepalen.
+You can define a mapping on the data in an external table.
 
-Om dit te doen, zodra het schema van de externe lijst is gecreeerd, moet u een nieuwe leveringsafbeelding tot stand brengen om de gegevens in deze lijst als leveringsdoel te gebruiken.
+To do this, once the schema of the external table has been created, you need to create a new delivery mapping to use the data in this table as a delivery target.
 
-Ga als volgt te werk om dit te doen:
+To do this, follow these steps:
 
-1. Bladeren naar **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** van Adobe Campaign Explorer.
+1. Browse to **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** from Adobe Campaign explorer.
 
-1. Creeer een nieuwe doelafbeelding en selecteer het schema u enkel als het richten afmeting creeerde.
+1. Create a new target mapping and select the schema you just created as the targeting dimension.
 
    ![](assets/new-target-mapping.png)
 
 
-1. Geef de velden op waarin de leveringsgegevens zijn opgeslagen (achternaam, voornaam, e-mail, adres, enz.).
+1. Indicate the fields where the delivery information is stored (last name, first name, email, address, etc.).
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. Specificeer de parameters voor informatieopslag, met inbegrip van het achtervoegsel van de uitbreidingsregelingen voor hen om gemakkelijk identificeerbaar te zijn.
+1. Specify the parameters for information storage, including the suffix of the extension schemas for them to be easily identifiable.
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   U kunt kiezen of u uitsluitingen wilt opslaan (**excludelog**), met berichten (**uitzenden**) of in een aparte tabel.
+   You can choose whether to store exclusions (**excludelog**), with messages (**broadlog**) or in a separate table.
 
-   U kunt ook kiezen of u het bijhouden van gegevens voor deze leveringstoewijzing wilt beheren (**trackinglog**).
+   You can also choose whether to manage tracking for this delivery mapping (**trackinglog**).
 
-1. Selecteer vervolgens de extensies waarmee u rekening wilt houden. Het extensietype is afhankelijk van de parameters en opties van uw platform (uw licentiecontract weergeven).
+1. Then select the extensions to be taken into account. The extension type depends on your platform's parameters and options (view your license contract).
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   Klik op de knop **[!UICONTROL Save]** knop voor het maken van de toewijzing van levering: alle gekoppelde tabellen worden automatisch gemaakt op basis van de geselecteerde parameters.
-
+   Click the **[!UICONTROL Save]** button to launch delivery mapping creation: all linked tables are created automatically based on the selected parameters.
+-->
 
 ## Machtigingen{#fda-permissions}
 
