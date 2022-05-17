@@ -1,6 +1,6 @@
 ---
-title: Gebruiksscenario's voor Campagne
-description: Gebruiksscenario's voor interactie
+title: Campaign Interaction use cases
+description: Interaction Use Cases
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 De mogelijkheden van de Interactie van de Campagne van de hefboomwerking door deze geleidelijke gebruiksgevallen beschikbaar in Campaign Classic v7 documentatie:
 
-![](../assets/do-not-localize/book.png) [Een presentatieregel maken en toepassen](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [Create and apply a presentation rule](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target=&quot;_blank&quot;}
 
 ![](../assets/do-not-localize/book.png) [Verstuur een e-mailaanbieding](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target=&quot;_blank&quot;}
 

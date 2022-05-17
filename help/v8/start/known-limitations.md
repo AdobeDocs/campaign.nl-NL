@@ -24,7 +24,7 @@ Voor Adobe Campaign v8 gelden de volgende beperkingen:
 * Geen tweerichtingsgegevensreplicatie: replicatie vindt alleen plaats vanuit de lokale Campagne-database naar de Cloud-database
 * Opgegeven mogelijkheden [in deze sectie](capability-matrix.md#gs-unavailable-features) zijn niet beschikbaar in de huidige versie van Campagne v8
 * Sommige niet-beschikbare of verwijderde functies zijn nog steeds zichtbaar in de gebruikersinterface
-* De mechanismen Abonnement (opt-in) en Abonnement (opt-out) en Mobiele registratie zijn asynchrone processen. De verzoeken worden verwerkt elk uur door een specifieke technische werkschema. [Meer informatie](../config/replication.md#tech-wf)
+* De mechanismen voor abonnementen (opt-in) en het opzeggen (opt-out) en Mobile-registratie zijn asynchrone processen. De verzoeken worden verwerkt elk uur door een specifieke technische werkschema. [Meer informatie](../config/replication.md#tech-wf)
 * Duplicaten moeten handmatig door eindgebruikers worden afgehandeld. [Meer informatie](../dev/keys.md)
 * Adobe Campaign v8 biedt geen ondersteuning voor uitgebreide doorvoer op API- en webtoepassingen. Neem contact op met Adobe voor hulp bij specifieke behoeften.
 * In de optimalisatiemodule voor Adobe Campaign-campagnes wordt geen rekening gehouden met geplande leveringen in de regels voor de druktypologie. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=en#setting-the-period).

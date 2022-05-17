@@ -20,7 +20,7 @@ Als een bericht niet naar een profiel kan worden verzonden, verzendt de externe 
 
 Zodra een bericht wordt verzonden, kunt u de leveringsstatus voor elk profiel en het bijbehorende mislukkingstype en de reden in de leveringslogboeken bekijken.
 
-Wanneer een e-mailadres in quarantaine wordt geplaatst, of als een profiel op lijst van gewezen personen is, wordt de ontvanger uitgesloten bij de stap van de leveringsvoorbereiding. Uitgesloten berichten worden vermeld in het leveringsdashboard.
+When an email address is quarantined, or if a profile is on denylist, the recipient is excluded at the delivery preparation step. Uitgesloten berichten worden vermeld in het leveringsdashboard.
 
 ## Waarom is de berichtlevering mislukt {#delivery-failure-reasons}
 
@@ -34,9 +34,9 @@ De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP 
 
 
 * **Zachte golven**
-De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. Zachte mislukkingen zullen veelvoudige tijden (met variantie afhankelijk van gebruik van douane of uit-van-doos leveringsmontages) opnieuw proberen om een succesvolle levering te proberen. Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren.
+De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. Zachte mislukkingen zullen veelvoudige tijden (met variantie afhankelijk van gebruik van douane of uit-van-doos leveringsmontages) opnieuw proberen om een succesvolle levering te proberen. Addresses that continually soft bounce will not be added to quarantine until the maximum number of retries has been attempted (which again vary depending on settings).
 
-   Tot de meest voorkomende oorzaken van zachte grenzen behoren: Brievenbus volledig, Ontvangend e-mailserver neer, de kwesties van de de reputatie van de Afzender
+   Some common causes of soft bounces include the following: Mailbox full, Receiving email server down, Sender reputation issues
 
 
 De  **Genegeerd** Het type fout is bekend als tijdelijk, zoals &quot;Buiten kantoor&quot;, of een technische fout, bijvoorbeeld als het type afzender &quot;postmaster&quot; is.
@@ -209,11 +209,11 @@ Voor het e-mailkanaal worden hieronder mogelijke oorzaken van een leveringsfout 
    <td> Geweigerd </td> 
    <td> Zacht/Hard </td> 
    <td> 20 </td> 
-   <td> Het adres is in quarantaine geplaatst toe te schrijven aan een veiligheid terugkoppelt als spamrapport. Volgens de fout, zal het adres opnieuw worden geprobeerd tot de foutenteller 5 bereikt, of het zal direct naar quarantines worden verzonden.<br /> </td> 
+   <td> The address has been placed in quarantine due to a security feedback as a spam report. Volgens de fout, zal het adres opnieuw worden geprobeerd tot de foutenteller 5 bereikt, of het zal direct naar quarantines worden verzonden.<br /> </td> 
   </tr> 
   <tr> 
    <td> Beperkte doelgrootte </td> 
-   <td> Genegeerd </td> 
+   <td> Ignored </td> 
    <td> 17 </td> 
    <td> De maximale leveringsgrootte is bereikt voor de ontvanger.<br /> </td> 
   </tr> 
@@ -319,7 +319,7 @@ Synchroon, als APNs een &quot;unregistered&quot;status voor een bericht terugkee
   <tr> 
    <td> APNs-berichtafwijzing: Registratie ongedaan maken<br /> de gebruiker de toepassing heeft verwijderd of het token is verlopen<br /> </td> 
    <td> Mislukt<br /> </td> 
-   <td> Niet geregistreerd<br /> </td> 
+   <td> Unregistered<br /> </td> 
    <td> Hard<br /> </td> 
    <td> Gebruiker onbekend<br /> </td> 
    <td> Nee<br /> </td> 

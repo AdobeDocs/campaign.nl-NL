@@ -165,7 +165,7 @@ Hiertoe geeft u in deze externe account het adres en de referenties op die worde
 
 * **Azure Blob Storage**
 
-   De **Azure** een externe account kan worden gebruikt om gegevens naar Adobe Campaign te importeren of te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Om het **Azure** Als u met Adobe Campaign wilt werken, moet u de volgende gegevens opgeven:
+   De **Azure** een externe account kan worden gebruikt om gegevens naar Adobe Campaign te importeren of te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Om het **Azure** voor externe accounts kunt u met Adobe Campaign werken. Hiervoor moet u de volgende gegevens opgeven:
 
    * **[!UICONTROL Server]**: URL van uw Azure Blob-opslagserver.
 

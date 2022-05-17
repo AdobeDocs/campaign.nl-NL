@@ -44,7 +44,7 @@ Als u pushmeldingen over transacties wilt verzenden, moet u de volgende configur
    >
    >Controleer uw licentieovereenkomst voordat u een nieuw ingebouwd pakket voor de campagne installeert.
 
-1. Repliceer de **Mobile-toepassing** en de bijbehorende mobiele toepassingen op de uitvoeringsinstanties.
+1. Repliceer de **Mobiele toepassing** en de bijbehorende mobiele toepassingen op de uitvoeringsinstanties.
 
 Campagne kan alleen transactionele pushmeldingen verzenden als de gebeurtenis de volgende elementen bevat:
 
