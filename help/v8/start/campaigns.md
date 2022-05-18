@@ -5,7 +5,7 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: fc0be5fe82ba11e54851a8f612ece0b310447cdd
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 6%
@@ -102,7 +102,7 @@ Adobe Campaign biedt een **Distributed Marketing** add-on voor de uitvoering van
 
 [](../assets/do-not-localize/book.png) Leer hoe te om de Verdeelde Mogelijkheden van de Marketing van de Campagne te vormen en te gebruiken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html){target=&quot;_blank&quot;}
 
-## Distributed Marketing Add-on{#response-manager-add-on}
+## Invoegtoepassing responsbeheer{#response-manager-add-on}
 
 Adobe Campaign biedt een **Responsbeheer** toe:voegen die u het succes en de rentabiliteit van marketing campagnes laat meten of voorstellen over communicatiekanalen aanbiedt: e-mail, mobiel, direct mail, enz.
 
