@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '2849'
-ht-degree: 5%
+source-wordcount: '3009'
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ Een berichtlevering kan onmiddellijk ontbreken, in dat geval kwalificeren wij di
 
 Deze soorten fouten worden als volgt beheerd:
 
-* **Synchrone fout**: de externe server waarmee contact wordt opgenomen door de Adobe Campaign-leveringsserver, retourneert onmiddellijk een foutbericht. De levering mag niet naar de server van het profiel worden verzonden. Verbeterde MTA bepaalt het stuittype en kwalificeert de fout, en stuurt die informatie terug naar Campagne om te bepalen of de e-mailadressen in kwestie zouden moeten worden quarantined. Zie [Kwalificatie van niet-bezorgde e-mails](#bounce-mail-qualification).
+* **Synchrone fout**: de externe server waarmee contact wordt opgenomen door de Adobe Campaign-leveringsserver, retourneert onmiddellijk een foutbericht. De levering mag niet naar de server van het profiel worden verzonden. De agent van de Overdracht van de Post (MTA) bepaalt het stuittype en kwalificeert de fout, en verzendt die informatie terug naar Campagne om te bepalen of de e-mailadressen in kwestie zouden moeten worden quarantined. Zie [Kwalificatie van niet-bezorgde e-mails](#bounce-mail-qualification).
 
 * **Asynchrone fout**: een stuiterende post of een SR wordt teruggestuurd later door de ontvangende server. Deze fout is gekwalificeerd met een label dat gerelateerd is aan de fout. Asynchrone fouten kunnen optreden tot een week nadat een levering is verzonden.
 
@@ -64,7 +64,7 @@ Deze soorten fouten worden als volgt beheerd:
 
 Op dit moment is de manier waarop de kwalificatie voor stuiterende berichten wordt verwerkt in Adobe Campaign afhankelijk van het fouttype:
 
-* **Synchrone fouten**: Verbeterde MTA bepaalt het stuittype en de kwalificatie, en stuurt die informatie terug naar Campagne. De stuiterende kwalificaties in de **[!UICONTROL Delivery log qualification]** tabel wordt niet gebruikt voor **synchroon** foutberichten over leveringsfout.
+* **Synchrone fouten**: MTA bepaalt het stuittype en de kwalificatie, en stuurt die informatie terug naar Campaign. De stuiterende kwalificaties in de **[!UICONTROL Delivery log qualification]** tabel wordt niet gebruikt voor **synchroon** foutberichten over leveringsfout.
 
 * **Asynchrone fouten**: De regels die door Campagne worden gebruikt om asynchrone leveringsmislukkingen te kwalificeren zijn vermeld in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knooppunt. Asynchrone stuiteringen worden gekwalificeerd door het inMail-proces via het **[!UICONTROL Inbound email]** regels. Raadpleeg voor meer informatie hierover [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}.
 
@@ -97,9 +97,22 @@ Bounce mails can have the following qualification status:
 
 Als de berichtlevering mislukt na een tijdelijke fout (**Zacht** of **Genegeerd**), probeert de campagne opnieuw te verzenden. Deze pogingen kunnen tot het eind aan de leveringsduur worden uitgevoerd.
 
-Het aantal en de frequentie van pogingen worden opstelling door Verbeterde MTA, die op het type en de strengheid van de stuiteringsreacties wordt gebaseerd die terug van ISP van het bericht komen.
+De zachte stuitpogingen en de tijdsduur tussen hen worden bepaald door MTA gebaseerd op het type en de strengheid van de stuiteringsreacties die van het e-maildomein van het bericht terugkomen.
 
-<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
+>[!NOTE]
+>
+>De retry-instellingen in de leveringseigenschappen worden niet gebruikt door Campagne.
+
+## Geldigheidsperiode
+
+De geldigheidsperiode die u instelt in uw campagneleveringen is beperkt tot **3,5 dagen of minder**. Als u voor een levering een waarde opgeeft die hoger is dan 3,5 dagen in Campagne, wordt hiermee geen rekening gehouden.
+
+Bijvoorbeeld, als de geldigheidsperiode aan de standaardwaarde van 5 dagen in Campagne wordt geplaatst, zullen de zachte-stuiterende berichten in de MTA hertry rij gaan en slechts 3.5 dagen vanaf toen dat bericht MTA bereikte opnieuw worden geprobeerd. In dat geval wordt de waarde die is ingesteld in Campaign niet gebruikt.
+
+Wanneer een bericht gedurende 3,5 dagen in de wachtrij van de MTA heeft gestaan en niet is geleverd, treedt er een time-out op en zal de status van het bericht worden bijgewerkt van **[!UICONTROL Sent]** naar **[!UICONTROL Failed]** in de leveringslogboeken.
+
+Voor meer informatie over de geldigheidsperiode raadpleegt u de [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}.
+
 
 ## Typen e-mailfouten {#email-error-types}
 
@@ -195,7 +208,7 @@ Voor het e-mailkanaal worden hieronder mogelijke oorzaken van een leveringsfout 
    <td> Niet gedefinieerd </td> 
    <td> Niet gedefinieerd </td> 
    <td> 0 </td> 
-   <td> Het adres is in kwalificatie omdat de fout nog niet is verhoogd. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als deze opnieuw voorkomt, zal de foutenteller stijgen en worden de technische teams gewaarschuwd. Vervolgens kunnen ze een berichtenanalyse uitvoeren en deze fout kwalificeren via de <span class="uicontrol">Beheer</span> / <span class="uicontrol">Campagnebeheer</span> / <span class="uicontrol">Beheer van niet-te leveren items</span> knooppunt in de boomstructuur.<br /> </td> 
+   <td> Het adres is in kwalificatie omdat de fout nog niet is verhoogd. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als deze opnieuw voorkomt, zal de foutenteller stijgen en worden de technische teams gewaarschuwd. Vervolgens kunnen ze een berichtenanalyse uitvoeren en deze fout kwalificeren via de <span class="uicontrol">Beheer</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Beheer van niet-te leveren items</span> knooppunt in de boomstructuur.<br /> </td> 
   </tr> 
   <tr> 
    <td> Niet in aanmerking komend voor de voorstellen </td> 
