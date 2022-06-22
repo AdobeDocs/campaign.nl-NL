@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b88ca57858efbfec6467452677620d59e9c9e32
+source-git-commit: fe425f9309af31a13b52695b103d530a6b89e3b1
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Deze pagina bevat een lijst met bekende problemen die zijn geïdentificeerd in h
 >
 >Adobe publiceert deze lijst met bekende problemen naar eigen goeddunken. Het is gebaseerd op het aantal klantenrapporten, de strengheid, en de tijdelijke beschikbaarheid. Als een probleem dat u tegenkomt niet in de lijst voorkomt, voldoet het mogelijk niet aan de criteria voor publicatie op deze pagina.
 
-## Probleem met gegevensbronactiviteit wijzigen {#issue-1}
+## Probleem met gegevensbronactiviteit wijzigen #1 {#issue-1}
 
 ### Beschrijving{#issue-1-desc}
 
@@ -57,7 +57,7 @@ Referentie: NEO-45549
 
 
 
-## Activiteit van gegevensbron wijzigen is mislukt als gevolg van een backslash {#issue-2}
+## Probleem met gegevensbronactiviteit wijzigen #2 {#issue-2}
 
 ### Beschrijving{#issue-2-desc}
 
