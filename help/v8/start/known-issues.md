@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e82ae1158926fb6335380626158089c6394377a1
+source-git-commit: 2705e9b23f9f8a61f799381434f7e94a226de1b9
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ De **Gegevensbron wijzigen** De activiteit ontbreekt wanneer het overbrengen van
 
 ### Foutbericht{#issue-1-error}
 
-```
+```sql
 04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
 04/13/2022 10:00:18 AM              Starting 1 connection(s) on pool 'nms:extAccount:ffda tractorsupply_mkt_stage8' (Snowflake, server='adobe-acc_tractorsupply_us_west_2_aws.snowflakecomputing.com', login='tractorsupply_stage8_MKT:tractorsupply_stage8')
 04/13/2022 10:00:26 AM              ODB-240000 ODBC error: {*}Numeric value '{*}******{*}{{*}}' is not recognized\{*}   File 'wkf1285541_13_1_0_47504750#458318uploadPart0.chunk.gz', line 1, character 10140   Row 279, column "WKF1285541_13_1_0"["BICUST_ID":1]   If you would like to continue loading when a
@@ -61,9 +61,9 @@ Referentie: NEO-45549
 
 ### Beschrijving{#issue-2-desc}
 
-Wanneer u gegevens in de Snowflake-cloud-database injecteert met een campagne-laadactiviteit, kan het proces mislukken omdat het bronbestand een backslash-teken bevat. De tekenreeks wordt niet beschermd en gegevens worden niet correct verwerkt op Snowflake.
+Wanneer u gegevens in de Snowflake-cloud-database injecteert met een activiteit voor het laden van een campagne, mislukt het proces wanneer een backslash-teken aanwezig is in het bronbestand. De tekenreeks wordt niet beschermd en gegevens worden niet correct verwerkt op Snowflake.
 
-Dit probleem treedt alleen op als de backslash aan het einde van een tekenreeks staat, bijvoorbeeld: &quot;Barker\&quot;.
+Dit probleem doet zich alleen voor als de backslash aan het einde van een tekenreeks staat, bijvoorbeeld: `Barker\`.
 
 
 ### Reproductiestappen{#issue-2-repro}
@@ -76,7 +76,7 @@ Dit probleem treedt alleen op als de backslash aan het einde van een tekenreeks 
 
 ### Foutbericht{#issue-2-error}
 
-```
+```sql
 Error:
 04/21/2022 4:01:58 PM     loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client. SQLState: 22000
 04/21/2022 4:01:58 PM    ODB-240000 ODBC error: String '100110668547' is too long and would be truncated   File 'wkf1656797_21_1_3057430574#458516uploadPart0.chunk.gz', line 1, character 0   Row 90058, column "WKF1656797_21_1"["SCARRIER_ROUTE":13]   If you would like to continue
@@ -84,7 +84,7 @@ Error:
 
 ### Workaround{#issue-2-workaround}
 
-Als tussenoplossing exporteert u de bestanden met dubbele aanhalingstekens rond de waarden zoals &quot;Barker\&quot; en neemt u een bestandsindelingoptie op FIELD_OPTIONALLY_ENCLOSED_BY = &#39;&quot;&#39;
+Als tussenoplossing kunt u de bestanden met dubbele aanhalingstekens exporteren rond de problematische waarden (zoals `Barker\`) en neemt u een optie voor de bestandsindeling op `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
 
 ### Interne referentie{#issue-2-ref}
 
