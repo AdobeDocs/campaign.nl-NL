@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2705e9b23f9f8a61f799381434f7e94a226de1b9
+source-git-commit: 1b88ca57858efbfec6467452677620d59e9c9e32
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,11 @@ Referentie: NEO-45549
 
 
 
-## Actie voor het laden van gegevens (bestand) is mislukt door een backslash {#issue-2}
+## Activiteit van gegevensbron wijzigen is mislukt als gevolg van een backslash {#issue-2}
 
 ### Beschrijving{#issue-2-desc}
 
-Wanneer u gegevens in de Snowflake-cloud-database injecteert met een activiteit voor het laden van een campagne, mislukt het proces wanneer een backslash-teken aanwezig is in het bronbestand. De tekenreeks wordt niet beschermd en gegevens worden niet correct verwerkt op Snowflake.
+Bij het injecteren van gegevens in de Snowflake cloud-database met een campagne **Query** en **Gegevensbron wijzigen** activiteit, ontbreekt het proces wanneer een backslash karakter in de gegevens aanwezig is. De brontekenreeks wordt niet beschermd en gegevens worden niet correct verwerkt op Snowflake.
 
 Dit probleem doet zich alleen voor als de backslash aan het einde van een tekenreeks staat, bijvoorbeeld: `Barker\`.
 
@@ -69,8 +69,9 @@ Dit probleem doet zich alleen voor als de backslash aan het einde van een tekenr
 ### Reproductiestappen{#issue-2-repro}
 
 1. Maak verbinding met de clientconsole en maak een workflow.
-1. Voeg een **Gegevens laden (bestand)** activiteit en vorm het.
-1. Selecteer een lokaal bestand met de hierboven beschreven kenmerken.
+1. Voeg een **Query** activiteit en vorm het.
+1. Selecteer gegevens met de hierboven beschreven kenmerken.
+1. Voeg een **Gegevensbron wijzigen** en configureer deze om de Snowflake cloud-database te selecteren.
 1. Voer de workflow uit en controleer de logboeken van de workflow om de fout te zien.
 
 
