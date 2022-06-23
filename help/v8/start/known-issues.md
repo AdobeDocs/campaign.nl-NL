@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0d1d20f9692ffa7b7ea7a8fb1161ebd19f533bab
+source-git-commit: 2c9455a09d6b557d525b1af5da9374a1d59201d7
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ Deze pagina bevat een lijst met bekende problemen die zijn geïdentificeerd in h
 >
 >Adobe publiceert deze lijst met bekende problemen naar eigen goeddunken. Het is gebaseerd op het aantal klantenrapporten, de strengheid, en de tijdelijke beschikbaarheid. Als een probleem dat u tegenkomt niet in de lijst voorkomt, voldoet het mogelijk niet aan de criteria voor publicatie op deze pagina.
 
-## Probleem met gegevensbronactiviteit wijzigen #1 {#issue-1}
+<!--
+## Change Data Source activity issue #1 {#issue-1}
 
-### Beschrijving{#issue-1-desc}
+### Description{#issue-1-desc}
 
-De **Gegevensbron wijzigen** De activiteit ontbreekt wanneer het overbrengen van gegevens van lokale gegevensbestand van de Campagne aan Snowflake wolkengegevensbestand. Wanneer het schakelen van richtingen, kan de activiteit kwesties produceren.
+The **Change Data Source** activity is failing when transfering data from Campaign local database to Snowflake cloud database. When switching directions, the activity can generate issues.
 
-### Reproductiestappen{#issue-1-repro}
+### Reproduction steps{#issue-1-repro}
 
-1. Maak verbinding met de clientconsole en maak een workflow.
-1. Voeg een **Query** en **Gegevensbron wijzigen** activiteit.
-1. Definieer een query op het tabblad **email**, wat een tekenreeks is.
-1. Voer de workflow uit en klik met de rechtermuisknop op de overgang om de populatie weer te geven: de e-mailrecords worden vervangen door `****`.
-1. Controleer de workflowlogboeken: de **Gegevensbron wijzigen** activiteit interpreteert deze verslagen als numerieke waarden.
+1. Connect to the client console and create a workflow.
+1. Add a **Query** activity and a **Change Data Source** activity.
+1. Define a query on the **email**, which is a string.
+1. Run the workflow and right-click the transition to view the population: the email records are displayed replaced by `****`.
+1. Check the workflow logs: the **Change Data Source** activity interprets these records as numeric values.
 
-### Foutbericht{#issue-1-error}
+### Error message{#issue-1-error}
 
 ```sql
 04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
@@ -49,21 +50,21 @@ De **Gegevensbron wijzigen** De activiteit ontbreekt wanneer het overbrengen van
 
 ### Workaround{#issue-1-workaround}
 
-Om de gegevens te hebben die van de de wolkengegevensbestand van Snowflake naar de lokale gegevensbestand van de Campagne en terug naar Snowflake worden overgebracht, moet u twee verschillende gebruiken **Gegevensbron wijzigen** activiteiten.
+To have the data transfered from Snowflake cloud database to Campaign local database and back to Snowflake, you must use two different **Change Data Source** activities.
 
-### Interne referentie{#issue-1-ref}
+### Internal reference{#issue-1-ref}
 
-Referentie: NEO-45549
+Reference: NEO-45549 
+-->
 
 
-
-## Probleem met gegevensbronactiviteit wijzigen #2 {#issue-2}
+## Probleem met gegevensbronactiviteit wijzigen {#issue-2}
 
 ### Beschrijving{#issue-2-desc}
 
 Bij het injecteren van gegevens in de Snowflake cloud-database met een campagne **Query** en **Gegevensbron wijzigen** activiteit, ontbreekt het proces wanneer een backslash karakter in de gegevens aanwezig is. De brontekenreeks wordt niet beschermd en gegevens worden niet correct verwerkt op Snowflake.
 
-Dit probleem doet zich alleen voor als de backslash aan het einde van een tekenreeks staat, bijvoorbeeld: `Barker\`.
+Dit probleem doet zich alleen voor als de backslash het einde van een tekenreeks is, bijvoorbeeld: `Barker\`.
 
 
 ### Reproductiestappen{#issue-2-repro}
@@ -85,7 +86,11 @@ Error:
 
 ### Workaround{#issue-2-workaround}
 
-Als tussenoplossing kunt u de bestanden met dubbele aanhalingstekens exporteren rond de problematische waarden (zoals `Barker\`) en neemt u een optie voor de bestandsindeling op `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+Als tussenoplossing kunt u gegevens uitsluiten die backslash-tekens bevatten aan het einde van een tekenreeks of deze verwijderen uit het bronbestand.
+
+<!--
+As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+-->
 
 ### Interne referentie{#issue-2-ref}
 
@@ -113,7 +118,13 @@ Het proces eindigt nooit.
 
 ### Workaround{#issue-3-workaround}
 
-Gebruik een oudere clientconsole om het bestand op de server te kunnen uploaden.
+De oplossing is om een oudere cliëntconsole te gebruiken. Vervolgens kunt u het bestand uploaden naar de server.
+
+Als beheerder kunt u de clientconsole van Campagne versie 8.3.1 downloaden in [Adobe Distribution Service](https://experience.adobe.com/downloads).
+
+Leer hoe u toegang krijgt tot de Adobe Distribution Service [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html)
+
+Leer hoe u uw clientconsole kunt upgraden [op deze pagina](connect.md)
 
 ### Interne referentie{#issue-3-ref}
 
