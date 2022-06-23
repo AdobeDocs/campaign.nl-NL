@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2c9455a09d6b557d525b1af5da9374a1d59201d7
+source-git-commit: 5fe921e83f36675837b72ca282315692151dcf67
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ Het proces eindigt nooit.
 
 De oplossing is om een oudere cliëntconsole te gebruiken. Vervolgens kunt u het bestand uploaden naar de server.
 
-Als beheerder kunt u de clientconsole van Campagne versie 8.3.1 downloaden in [Adobe Distribution Service](https://experience.adobe.com/downloads).
+Als beheerder van de Campagne kunt u Campagne v8.3.1 cliëntconsole in downloaden [Adobe Distribution Service](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;layout by.sort=desc=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}.
 
-Leer hoe u toegang krijgt tot de Adobe Distribution Service [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html)
+Leer hoe u toegang krijgt tot de Adobe Distribution Service [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target=&quot;_blank&quot;}.
 
 Leer hoe u uw clientconsole kunt upgraden [op deze pagina](connect.md)
 
