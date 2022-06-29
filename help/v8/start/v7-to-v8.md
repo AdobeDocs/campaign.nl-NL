@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
+source-git-commit: 70ad2603d299c3a848382503eb31571acae0ae48
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '635'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Als voormalig [!DNL Campaign Classic] v7 gebruiker, zou u geen grote verstoring 
 
 Adobe Campaign v8 is beschikbaar als een **Beheerde Cloud Service**.
 
-Adobe Campaign Managed Cloud Services biedt een Managed Services-platform voor het ontwerpen van ervaringen met klanten over meerdere kanalen en biedt een omgeving voor visuele campagneorchestratie, realtime interactiebeheer en uitvoering via meerdere kanalen. Meer informatie over Cloud Services van Campagne Managed in de [productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}..
+Adobe Campaign Managed Cloud Services biedt een Managed Services-platform voor het ontwerpen van ervaringen met klanten over meerdere kanalen en biedt een omgeving voor visuele campagneorchestratie, realtime interactiebeheer en uitvoering via meerdere kanalen. Meer informatie over Cloud Services van Campagne Managed in de [productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}.
 
 Het nieuwe aanbod combineert services van topklasse met proactief toezicht en tijdige waarschuwingen, waarbij de nadruk ligt op drie gebieden:
 
@@ -36,7 +36,7 @@ Het nieuwe aanbod combineert services van topklasse met proactief toezicht en ti
 * **Serviceervaring** — proactieve beschikbaarheid, capaciteit, en prestatiescontrole en reactie om verstoringen te voorkomen, incidenten sneller op te lossen, en de dienst regelmatig voor voortdurende verbetering te herzien.
 * **Expertise in diepe campagne** — service met hoge affiniteit van deskundige Customer Engineering-teams om te voldoen aan de behoeften op het gebied van functionaliteit, techniek of leverbaarheid, het implementatierisico te beperken en wijzigingsbeheer te verbeteren.
 
-Als voormalig [!DNL Campaign Classic] gebruiker, merk op dat het grootste deel van [!DNL Campaign Classic] v7-functies zijn beschikbaar via [!DNL Campaign] v8, met uitzondering van een kleine set, die worden vermeld in [deze sectie](#gs-removed). Andere zullen in toekomstige versies worden vrijgegeven. [Meer informatie in deze sectie](#gs-unavailable-features)
+Als voormalig [!DNL Campaign Classic] gebruiker, merk op dat het grootste deel van [!DNL Campaign Classic] v7-functies zijn beschikbaar via [!DNL Campaign] v8, met uitzondering van een kleine set, die worden vermeld in [deze sectie](#gs-removed).
 
 >[!NOTE]
 >
