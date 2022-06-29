@@ -1,22 +1,36 @@
 ---
-title: Campaign Classic v7 - Capaciteitsmatrix voor campagne v8
+title: Overgang van Campaign Classic v7 naar Campagne v8
 description: De verschillen tussen Campaign Classic v7 en Campagne v8 begrijpen
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 0c01b0a597e54ae93dd581ccba6f19b2ff13f956
+source-git-commit: 6198d78928db495bd8a931e0407ba09d3cce10f4
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 4%
+source-wordcount: '646'
+ht-degree: 3%
 
 ---
 
-# [!DNL Campaign Classic] v7 - [!DNL Campaign] v8-mogelijkheden{#gs-matrix}
+# Overgang van [!DNL Campaign Classic] v7 naar [!DNL Campaign] v8{#gs-matrix}
 
 Als voormalig [!DNL Campaign Classic] v7 gebruiker, zou u geen grote verstoring in de manier moeten verwachten u gewoonlijk met [!DNL Adobe Campaign]. De meeste wijzigingen in v8 zijn niet zichtbaar, behalve kleine wijzigingen die in de gebruikersinterface en configuratiestappen worden doorgevoerd.
 
-Adobe Campaign v8 is beschikbaar als een **Beheerde Cloud Service**. Het nieuwe aanbod combineert services van topklasse met proactief toezicht en tijdige waarschuwingen, waarbij de nadruk ligt op drie gebieden:
+>[!AVAILABILITY]
+>
+>* Momenteel is Campagne v8 **alleen** beschikbaar als Beheerde Cloud Service, en kan niet op een ongebouw of hybride milieu&#39;s worden opgesteld. [Meer informatie](#cloud-services)
+>
+>* Migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
+
+
+
+## Beheerde Cloud Services{#cloud-services}
+
+Adobe Campaign v8 is beschikbaar als een **Beheerde Cloud Service**.
+
+Adobe Campaign Managed Cloud Services biedt een Managed Services-platform voor het ontwerpen van ervaringen met klanten over meerdere kanalen en biedt een omgeving voor visuele campagneorchestratie, realtime interactiebeheer en uitvoering via meerdere kanalen. Meer informatie over Cloud Services van Campagne Managed in de [productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}..
+
+Het nieuwe aanbod combineert services van topklasse met proactief toezicht en tijdige waarschuwingen, waarbij de nadruk ligt op drie gebieden:
 
 * **Wolkenbehendigheid** — automatisering door Adobe, met geoptimaliseerde, gestandaardiseerde cloudimplementaties voor meer voorspelbare prestaties, grotere flexibiliteit en verbeterde zelfbedieningsproductiviteit.
 * **Serviceervaring** — proactieve beschikbaarheid, capaciteit, en prestatiescontrole en reactie om verstoringen te voorkomen, incidenten sneller op te lossen, en de dienst regelmatig voor voortdurende verbetering te herzien.
@@ -33,14 +47,18 @@ Als voormalig [!DNL Campaign Classic] gebruiker, merk op dat het grootste deel v
 
 ## [!DNL Campaign] en [!DNL Snowflake] {#ac-gs-snowflake}
 
-Campagne v8 werkt met [!DNL Snowflake]. Er zijn twee implementatiemodellen beschikbaar.
+Campagne v8 werkt met [!DNL Snowflake].
+
+In haar [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee databases: een lokale [!DNL Campaign] database voor realtime berichten en eenheidquery&#39;s in de gebruikersinterface en schrijven via API&#39;s en een cloud [!DNL Snowflake] database voor de uitvoering van campagnes, batchquery&#39;s en workflowuitvoering.
+
+Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens bevinden zich nu op afstand in de cloud-database. Met deze nieuwe architectuur vereenvoudigt de implementatie van Campaign v8 Enterprise (FFDA) het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
 
 ![](../assets/do-not-localize/glass.png) Meer informatie over [!DNL Campaign] v8-architectuur in [deze pagina](../architecture/architecture.md).
 
 
 ## Adobe ID gebruiken om verbinding te maken met campagne{#adobe-id}
 
-Campagnegebruikers maken verbinding via hun Adobe ID. Dezelfde Adobe ID wordt gebruikt om al uw Adobe-plannen en -producten voor één account te bewaren, voor alle Adobe Experience Cloud-oplossingen.
+Campagnegebruikers maken alleen verbinding via hun Adobe ID. Dezelfde Adobe ID wordt gebruikt om al uw Adobe-plannen en -producten voor één account te bewaren, voor alle Adobe Experience Cloud-oplossingen.
 
 ![](../assets/do-not-localize/glass.png) Leer hoe u verbinding kunt maken met [!DNL Campaign] in [deze pagina](connect.md).
 
@@ -50,28 +68,12 @@ Met de module Marketing Analytics kunt u gegevens analyseren en meten, statistie
 
 Adobe Campaign-kubusrapporten zijn geoptimaliseerd en bieden betere schaalmogelijkheden dan Campaign Classic v7. Voormalige beperkingen op kubussen zijn niet van toepassing in Campaign v8.
 
-## Databron wijzigen {#change-data-source}
-
-Campagne v8 biedt een extra activiteit voor een doelgerichte workflow: **[!UICONTROL Change data source]**.
-
-De **[!UICONTROL Change data source]** activiteit staat u toe om de gegevensbron van een werkschema te veranderen **[!UICONTROL Working table]** gegevens over verschillende gegevensbronnen te beheren, zoals FDA, FFDA en de lokale gegevensbank.
-
-![](../assets/do-not-localize/glass.png) Meer informatie over de **[!UICONTROL Change data source]** activiteit in [deze pagina](../config/workflows.md#change-data-source-activity).
-
 ## Niet-beschikbare functies{#gs-unavailable-features}
 
 Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze versie van Campagne, zoals:
 
 * Marketing Resource Management
 * Hybride/on-premise plaatsingsmodellen
-
->[!CAUTION]
->
->* Momenteel is Campagne v8 **alleen** beschikbaar als Beheerde Cloud Service, en kan niet op een ongebouw of hybride milieu&#39;s worden opgesteld.
->
->* Migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
->
->* Als u niet zeker bent van uw implementatiemodel of een vraag hebt, neemt u contact op met uw Adobe-accountmanager.
 
 
 ## Niet-ondersteunde functies{#gs-removed}
