@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;populaire onderwerpen
 description: Campagne v8 Help Center
 title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 14%
@@ -22,7 +22,7 @@ ht-degree: 14%
 
 * **[Uitvoeringsrichtsnoeren](start/implement.md)**  - Leer hoe u uw implementatie kunt starten
 
-* **[Van v7 naar v8](start/capability-matrix.md)** - Overstappen van Campaign Classic v7 naar v8? Belangrijkste verschillen leren
+* **[Van v7 naar v8](start/v7-to-v8.html)** - Overstappen van Campaign Classic v7 naar v8? Belangrijkste verschillen leren
 
 * **[Configuratiescherm voor campagne v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target=&quot;_blank&quot;}** - Beheerderstaken zelfstandig uitvoeren met het Configuratiescherm van campagne
 
