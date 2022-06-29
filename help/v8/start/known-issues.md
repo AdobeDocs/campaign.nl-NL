@@ -6,7 +6,8 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c803c13c6d433d2c6730f32f43209c8effab1fde
+exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
+source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Bekende problemen{#known-issues}
 
-Deze pagina bevat een lijst met bekende problemen die zijn geïdentificeerd in het dialoogvenster **nieuwste release Campagne v8**. Bovendien worden de beperkingen die bij Campagne v8 worden geleverd, vermeld [op deze pagina](known-limitations.md).
+Deze pagina bevat een lijst met bekende problemen die zijn geïdentificeerd in het dialoogvenster **nieuwste release Campagne v8**. Bovendien worden de beperkingen die bij Campagne v8 worden geleverd, vermeld [op deze pagina](ac-guardrails.md).
 
 
 >[!NOTE]

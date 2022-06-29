@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: a460c1b4-4266-46ff-8cca-748050afd579
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe Campaign integreert een grafische module voor het definiëren en publiceren **Webformulieren** om pagina&#39;s te maken die invoer- en selectievelden bevatten en die gegevens in de database kunnen bevatten. Zo kunt u webpagina&#39;s ontwerpen en plaatsen die gebruikers kunnen openen om informatie weer te geven of in te voeren.
 
-![](../assets/do-not-localize/book.png) Leer webformulieren maken en publiceren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=en#designing-content)
+![](../assets/do-not-localize/book.png) Leer webformulieren maken en publiceren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=en#designing-content){target=&quot;_blank&quot;}
 
 ![](assets/sample.png)
 
@@ -24,4 +24,4 @@ Met Adobe Campaign kunt u ook dynamische en interactieve **Webtoepassingen** met
 
 U kunt pagina&#39;s maken, zoals een bewerkingsformulier op een extranet, of meldingsformulieren, inclusief gegevens uit de database met tabellen, grafieken, invoerformulieren enzovoort. Met deze functionaliteit kunt u webpagina&#39;s ontwerpen en plaatsen waar gebruikers informatie kunnen opzoeken of invoeren.
 
-![](../assets/do-not-localize/book.png) Leer hoe u webtoepassingen kunt maken en publiceren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=en#designing-content)
+![](../assets/do-not-localize/book.png) Leer hoe u webtoepassingen kunt maken en publiceren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=en#designing-content){target=&quot;_blank&quot;}

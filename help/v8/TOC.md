@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Campagne v8
 title: Campagne v8 docs
-source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
+source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 + Nieuwe functies? {#new}
    + [Belangrijkste mogelijkheden](start/whats-new.md)
    + [Aanvullende informatie](start/release-notes.md)
-   + [Bekende beperkingen](start/known-limitations.md)
+   + [Guardrails](start/ac-guardrails.md)
    + [Bekende problemen](start/known-issues.md)
    + [Klassiek v7 naar v8](start/v7-to-v8.md)
 + Starten {#start}

@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '3009'
+source-wordcount: '3008'
 ht-degree: 6%
 
 ---
@@ -62,7 +62,7 @@ Deze soorten fouten worden als volgt beheerd:
 
 ![](assets/delivery-log-qualification.png)-->
 
-Op dit moment is de manier waarop de kwalificatie voor stuiterende berichten wordt verwerkt in Adobe Campaign afhankelijk van het fouttype:
+De manier waarop de postkwalificatie van de stuiterende in Adobe Campaign wordt behandeld hangt van het foutentype af:
 
 * **Synchrone fouten**: MTA bepaalt het stuittype en de kwalificatie, en stuurt die informatie terug naar Campaign. De stuiterende kwalificaties in de **[!UICONTROL Delivery log qualification]** tabel wordt niet gebruikt voor **synchroon** foutberichten over leveringsfout.
 

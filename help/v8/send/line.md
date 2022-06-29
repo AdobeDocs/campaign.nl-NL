@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ De LIJN is een toepassing voor vrij Onmiddellijk overseinen, stem en videovraag,
 
 ![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html){target=&quot;_blank&quot;}.
 
-![](../assets/do-not-localize/book.png) Zie dit [end-to-end sample](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message) in Campaign Classic v7 documentatie om uw eerste levering van de LIJN tot stand te brengen en te verzenden.
+![](../assets/do-not-localize/book.png) Zie dit [end-to-end sample](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message){target=&quot;_blank&quot;} in Campaign Classic v7-documentatie om uw eerste lijnlevering te maken en te verzenden.
