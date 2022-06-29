@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 70ad2603d299c3a848382503eb31571acae0ae48
+source-git-commit: 6f9f3ed4d2eef28b6683bf04b81431fd6a3e3dba
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 3%
+source-wordcount: '636'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Als voormalig [!DNL Campaign Classic] v7 gebruiker, zou u geen grote verstoring 
 >
 >* Momenteel is Campagne v8 **alleen** beschikbaar als Beheerde Cloud Service, en kan niet op een ongebouw of hybride milieu&#39;s worden opgesteld. [Meer informatie](#cloud-services)
 >
->* Migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
+>* Geautomatiseerde migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
 
 
 
