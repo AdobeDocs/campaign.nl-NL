@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 39%
@@ -84,7 +84,7 @@ U kunt de leveringsfuncties en functies voor geavanceerd campagnebeheer van Adob
 
 Adobe Campaign biedt een aantal mogelijkheden om u te helpen de functionaliteit voor marketing van gesprekken te implementeren en te optimaliseren, afhankelijk van uw behoeften en architectuur. Sommige zijn kernmogelijkheden en sommige hangen van de installatie van een pakket op uw configuratie af. Hier vindt u een gedetailleerde productbeschrijving: [Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
-![](../assets/do-not-localize/glass.png) Ben je al bekend met Campaign Classic? Leer belangrijke verschillen tussen Campaign Classic en Campagne v8 in [deze pagina](v7-to-v8.html).
+![](../assets/do-not-localize/glass.png) Ben je al bekend met Campaign Classic? Leer belangrijke verschillen tussen Campaign Classic en Campagne v8 in [deze pagina](v7-to-v8.md).
 
 **Zie ook**
 

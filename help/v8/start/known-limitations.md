@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Voor Adobe Campaign v8 gelden de volgende beperkingen:
 * Adobe Campaign v8 is niet beschikbaar voor on-premise/hybride implementaties - alleen vrijgegeven als Adobe Managed Cloud Service.
 * Bestaande klanten kunnen niet migreren van een bestaande Adobe Campaign-omgeving naar Adobe Campaign v8
 * In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md)Er is geen bidirectionele gegevensreplicatie beschikbaar: replicatie vindt alleen plaats vanuit de lokale Campagne-database naar de Cloud-database
-* Opgegeven mogelijkheden [in deze sectie](v7-to-v8.html#gs-unavailable-features) zijn niet beschikbaar in de huidige versie van Campagne v8
+* Opgegeven mogelijkheden [in deze sectie](v7-to-v8.md#gs-unavailable-features) zijn niet beschikbaar in de huidige versie van Campagne v8
 * Sommige niet-beschikbare of verwijderde functies zijn nog steeds zichtbaar in de gebruikersinterface
 * In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md), de mechanismen voor abonnementen (opt-in) en abonnementen (opt-out) en mobiele registratie zijn asynchrone processen. De verzoeken worden verwerkt elk uur door een specifieke technische werkschema. [Meer informatie](../architecture/replication.md#tech-wf)
 * Duplicaten moeten handmatig door eindgebruikers worden afgehandeld. [Meer informatie](../architecture/keys.md)
