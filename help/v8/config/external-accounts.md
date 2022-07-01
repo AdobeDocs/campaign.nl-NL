@@ -1,11 +1,11 @@
 ---
 title: Campagne voeren over externe rekeningen
 description: Campagne voeren over externe rekeningen
-feature: Overview
+feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 5%
@@ -188,7 +188,7 @@ Hiertoe geeft u in deze externe account het adres en de referenties op die worde
 
 * **Azure Blob Storage**
 
-   De **Azure** een externe account kan worden gebruikt om gegevens naar Adobe Campaign te importeren of te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Om het **Azure** Als u met Adobe Campaign wilt werken, moet u de volgende gegevens opgeven:
+   De **Azure** een externe account kan worden gebruikt om gegevens naar Adobe Campaign te importeren of te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Om het **Azure** voor externe accounts kunt u met Adobe Campaign werken. Hiervoor moet u de volgende gegevens opgeven:
 
    * **[!UICONTROL Server]**: URL van uw Azure Blob-opslagserver.
 

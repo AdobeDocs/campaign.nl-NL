@@ -1,11 +1,11 @@
 ---
 title: Instantie aanpassen
 description: Leer hoe u uw exemplaar kunt aanpassen
-feature: Overview
+feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Instantie aanpassen{#gs-ac-custom}
 
-Leer hoe u **Aanpassen van uw Campagne-instantie**
+Leer hoe u **Aanpassen van uw Campagne-instantie**.
 
 >[!CAUTION]
 >
