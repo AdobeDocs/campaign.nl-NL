@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 39edd6c60c220118f34cd476b887194e1e7763e4
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 32%
+source-wordcount: '2160'
+ht-degree: 36%
 
 ---
 
@@ -32,7 +32,7 @@ _18 mei 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Met iOS 15 heeft Apple een concept van gevoelige meldingen toegevoegd dat de ontwikkelaar van de app de mogelijkheid geeft om de modus Focus te omzeilen wanneer een melding als gevoelig wordt beschouwd en de gebruiker in real-time moet bereiken.</p>
+<td> <p>Met iOS 15 heeft Apple een concept van gevoelige meldingen toegevoegd dat de ontwikkelaar van de app de mogelijkheid geeft om de modus Focus te omzeilen wanneer een melding als gevoelig wordt beschouwd en de gebruiker in real time moet bereiken.</p>
 <p>Raadpleeg de <a href="../send/push.md#send-notifications-on-ios">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td> 
 </tr> 
@@ -95,7 +95,7 @@ Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
 
 **Verbeteringen**
 
-* Microsoft Exchange Online OAuth 2.0-verificatie voor POP3 wordt nu ondersteund in Campagne. [Meer informatie](../config/external-accounts.md#bounce-mails-external-account)
+* Microsoft Exchange Online OAuth 2.0-verificatie voor POP3 wordt nu ondersteund in Campaign. [Meer informatie](../config/external-accounts.md#bounce-mails-external-account)
 * Er zijn kritieke oplossingen aangebracht voor de web-API van Microsoft Dynamics Connector.
 * De nieuwe operator en het groepsschema schrijven (operatorWrite) naar rechts is toegevoegd om gebruikers toe te staan operatorschema&#39;s (xtk:operator) en groepen operatoren (xtk:group) in te voegen, bij te werken en te verwijderen.
 
@@ -155,7 +155,7 @@ _28 oktober 2021_
 <tbody> 
 <tr> 
 <td> <p>De module Campagne optimaliseren is nu beschikbaar. Met deze module kunt u het verzenden van leveringen beheren, filteren en controleren. Om conflicten tussen campagnes te vermijden kan Adobe Campaign diverse combinaties testen door specifieke beperkingsregels toe te passen. Dit garandeert dat de verzonden berichten voldoen aan de behoeften en verwachtingen van klanten en het communicatiebeleid van het bedrijf.</p>
-<p>Raadpleeg de verwante bronnen voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html">Campaign Classic v7-documentatie</a>.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=en#campaign-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -227,7 +227,7 @@ _28 oktober 2021_
 * Probleem verholpen waarbij het kenmerk &#39;autoStg&#39; voor niet-uitgebreide ingebouwde schema&#39;s werd genegeerd.
 * Probleem verholpen waardoor gebruikers niet de **[!UICONTROL Country/Region]** koppelen bij voorvertonen van een profiel.
 * Probleem verholpen waarbij de datepicker in aangepaste rapporten tot een scriptfout leidde. (NEO-36345)
-* Probleem verholpen waarbij het systeem vastliep bij het opnieuw genereren van configuratie in geval van slechte configuratiebestanden.
+* Er is een probleem opgelost waardoor het systeem crashte bij het opnieuw genereren van de configuratie in geval van beschadigde configuratiebestanden.
 * Probleem verholpen waardoor de upgrade van de marketing- en besturingsinstanties is mislukt.
 * Er is een probleem opgelost waardoor de factureringsworkflow kon crashen op marketinginstanties.
 * Probleem verholpen dat tot dubbele sleutels in FFDA Snowflake out-of-the-box lijsten kon leiden. (NEO-38583)

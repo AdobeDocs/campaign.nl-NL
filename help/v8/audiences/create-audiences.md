@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '785'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ In het onderstaande voorbeeld maakt u een lijst met alle ontvangers tussen 25 en
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Leer hoe u een query maakt in een workflow in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query){target=&quot;_blank&quot;}
+   Leer hoe u een query maakt in een workflow in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
 
 1. Voeg een label voor deze query toe en sla uw wijzigingen op.
 1. Voeg een **[!UICONTROL List update]** en bewerken.
@@ -124,7 +124,7 @@ In het onderstaande voorbeeld maakt u een lijst met alle ontvangers tussen 25 en
 
    ![](assets/access-new-list.png)
 
-   U kunt deze werkstroom terugkomen door een planner aan het werkschema toe te voegen. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target=&quot;_blank&quot;}.
+   U kunt deze werkstroom terugkomen door een planner aan het werkschema toe te voegen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html).
 
 ## Een profiel uit een lijst verwijderen {#remove-a-profile-from-a-list}
 

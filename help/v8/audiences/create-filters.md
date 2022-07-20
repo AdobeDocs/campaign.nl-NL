@@ -5,14 +5,14 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
 
-# Create and manage filters{#create-filters}
+# Filters maken en beheren{#create-filters}
 
 Het filtreren van gegevens is het proces om een kleiner deel van uw gegevensreeks, slechts die verslagen te selecteren die bepaalde criteria aanpassen, en die ondergroep voor specifieke acties (updates, publieksverwezenlijking) of analyse te gebruiken.
 
@@ -24,9 +24,9 @@ Met de filterconfiguratie kunt u gegevens uit een lijst selecteren **[!UICONTROL
 
 >[!NOTE]
 >
->De de configuratiemontages van de gebruikersinterface worden plaatselijk bepaald op het apparatenniveau. It may sometimes be necessary to clean up this data, particularly if problems arise when refreshing data. Om dit te doen, gebruik **[!UICONTROL File > Clear the local cache]** -menu.
+>De de configuratiemontages van de gebruikersinterface worden plaatselijk bepaald op het apparatenniveau. Soms kan het nodig zijn deze gegevens op te schonen, vooral als zich problemen voordoen bij het vernieuwen van gegevens. Om dit te doen, gebruik **[!UICONTROL File > Clear the local cache]** -menu.
 
-The following types of filter are available in Adobe Campaign:
+De volgende filtertypen zijn beschikbaar in Adobe Campaign:
 
 ## Vooraf gedefinieerde filters{#predefined-filters}
 
@@ -40,7 +40,7 @@ U hebt toegang tot de filterdetails in het dialoogvenster **[!UICONTROL Profiles
 
 >[!NOTE]
 >
->For all other lists of data, predefined filters are stored in the  **[!UICONTROL Administration > Configuration > Predefined filters]** node.
+>Voor alle andere gegevenslijsten worden vooraf gedefinieerde filters opgeslagen in de  **[!UICONTROL Administration > Configuration > Predefined filters]** knooppunt.
 
 Selecteer een filter om de definitie ervan weer te geven.
 
@@ -101,7 +101,7 @@ Ingebouwde vooraf gedefinieerde filters zijn:
   </tr> 
   <tr> 
    <td> Niet geopend en niet geklikt<br /> </td> 
-   <td> Selects recipients who have not opened a delivery, or clicked in a delivery.<br /> </td> 
+   <td> Hiermee selecteert u ontvangers die geen levering hebben geopend of op een levering hebben geklikt.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nieuwe ontvangers (dagen)<br /> </td> 
@@ -132,7 +132,7 @@ Ingebouwde vooraf gedefinieerde filters zijn:
    <td> Hiermee selecteert u ontvangers op aanmaakdatum, over een periode van X maanden (huidige datum min n maanden) tot Y maanden (huidige datum min n maanden).<br /> </td> 
   </tr> 
   <tr> 
-   <td> By list<br /> </td> 
+   <td> Op lijst<br /> </td> 
    <td> Hiermee selecteert u ontvangers op lijst.<br /> </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ Ingebouwde vooraf gedefinieerde filters zijn:
   </tr> 
   <tr> 
    <td> Op aantal ontvangen berichten<br /> </td> 
-   <td> Selects recipients according to the number of messages that they received.<br /> </td> 
+   <td> Hiermee selecteert u ontvangers op basis van het aantal berichten dat ze hebben ontvangen.<br /> </td> 
   </tr> 
   <tr> 
    <td> Op aantal wordt geopend<br /> </td> 
@@ -149,17 +149,17 @@ Ingebouwde vooraf gedefinieerde filters zijn:
   </tr> 
   <tr> 
    <td> Op naam of e-mail<br /> </td> 
-   <td> Selects recipients according to their name or email.<br /> </td> 
+   <td> Hiermee selecteert u ontvangers op basis van hun naam of e-mail.<br /> </td> 
   </tr> 
   <tr> 
-   <td> By age range<br /> </td> 
+   <td> Op leeftijdbereik<br /> </td> 
    <td> Hiermee worden ontvangers geselecteerd op basis van hun leeftijd.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 
-### Default filters{#default-filters}
+### Standaardfilters{#default-filters}
 
 Met de velden boven elke lijst kunt u de **vooraf gedefinieerd standaardfilter** voor deze lijst. In de lijst met ontvangers kunt u standaard op de naam en het e-mailadres filteren.
 
@@ -168,7 +168,7 @@ Met de velden boven elke lijst kunt u de **vooraf gedefinieerd standaardfilter**
 
 >[!NOTE]
 >
->De **%** vervangen van tekenreeksen. For example, enter `%@gmail.com` in the Email field to display all the profiles with a Gmail address. Enter `%@L` in het veld Achternaam om alle profielen met een L in hun achternaam weer te geven.
+>De **%** vervangen van tekenreeksen. Voer bijvoorbeeld `%@gmail.com` in het veld E-mail om alle profielen met een Gmail-adres weer te geven. Enter `%@L` in het veld Achternaam om alle profielen met een L in hun achternaam weer te geven.
 
 Als u het standaardfilter voor een lijst met ontvangers wilt wijzigen, bladert u naar de knop **[!UICONTROL Profiles and Targets > Predefined filters]** knooppunt.
 
@@ -176,7 +176,7 @@ Voor alle andere soorten gegevens, vorm de standaardfilter via **[!UICONTROL Adm
 
 Voer de volgende stappen uit:
 
-1. Select the filter you want to be used by default.
+1. Selecteer het filter dat u standaard wilt gebruiken.
 1. Klik op de knop **[!UICONTROL Parameters]** en selecteert u **[!UICONTROL Default filter for the associated document type]**.
 
    ![](assets/change-default-filter.png)
@@ -214,7 +214,7 @@ Als u een **snelfilter** Voer de volgende stappen uit:
    ![](assets/add-filter-above-the-list.png)
 
 
-If you need to filer on a field which is not available in the form, it in the columns, and filter on that column. Dit doet u als volgt,
+Als u wilt filteren op een veld dat niet beschikbaar is in het formulier, ziet u dit in de kolommen en filtert u op die kolom. Dit doet u als volgt,
 
 1. Klik op de knop **[!UICONTROL Configure list]** pictogram.
 
@@ -255,7 +255,7 @@ Definieer de filtervoorwaarden. In het onderstaande voorbeeld filtert u op ontva
 
    ![](assets/select-operator.png)
 
-1. Selecteer een verwachte waarde in het menu **[!UICONTROL Value]** kolom. You can combine several filters to refine your query. Als u een filtervoorwaarde wilt toevoegen, klikt u op **[!UICONTROL Add]**.
+1. Selecteer een verwachte waarde in het menu **[!UICONTROL Value]** kolom. U kunt verschillende filters combineren om de query te verfijnen. Als u een filtervoorwaarde wilt toevoegen, klikt u op **[!UICONTROL Add]**.
 
    ![](assets/add-an-exp.png)
 
@@ -287,7 +287,7 @@ Volg onderstaande stappen om een geavanceerd filter op te slaan:
 
    ![](assets/save-as-filter.png)
 
-1. Enter a name for this filter and save it.
+1. Voer een naam voor dit filter in en sla het op.
 
    ![](assets/application-filter-save.png)
 
@@ -301,36 +301,36 @@ Het filter wordt toegevoegd aan de [vooraf gedefinieerde filters](#predefined-fi
 
 
 
-This filter is also available from the predefined filters of the recipient list.
+Dit filter is ook beschikbaar bij de vooraf gedefinieerde filters in de lijst met ontvangers.
 
 ![](assets/access-to-new-predefined-filter.png)
 
 
 
-### Use a filter to define a segment {#filter-as-segment}
+### Een filter gebruiken om een segment te definiëren {#filter-as-segment}
 
 U kunt filters gebruiken en combineren om een doelpopulatiesegment tot stand te brengen.
 
-Once saved, advanced filters are available when selecting the target population of a message, in the **[!UICONTROL User filters]** section.
+Als de bestanden eenmaal zijn opgeslagen, zijn er geavanceerde filters beschikbaar wanneer u de doelpopulatie van een bericht selecteert, in het dialoogvenster **[!UICONTROL User filters]** sectie.
 
 ![](assets/adv-filter-target-type.png)
 
 
 >[!NOTE]
 >
->Use the **[!UICONTROL Exclude recipients from this segment]** to target only contacts who do not match the filter criteria.
+>Gebruik de **[!UICONTROL Exclude recipients from this segment]** om slechts contacten te richten die niet de filtercriteria aanpassen.
 
 
-### Use functions to build advanced filters{#use-functions-adv-filters}
+### Functies gebruiken om geavanceerde filters te maken{#use-functions-adv-filters}
 
-To perform advanced filtering capabilities, use functions to define the content of the filter. The Advanced filter editor leverages all capabilities of Campaign query editor.
+Voor geavanceerde filtermogelijkheden gebruikt u functies om de inhoud van het filter te definiëren. De geavanceerde filterredacteur gebruikt alle mogelijkheden van de vraagredacteur van de Campagne.
 
-Learn how to build advanced queries in Adobe Campaign Classic v7 documentation. Bijvoorbeeld:
+Leer hoe te om geavanceerde vragen in deze steekproeven van begin tot eind te bouwen:
 
-* Learn how to target on simple recipient attributes in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=en#example--targeting-on-simple-recipient-attributes){target=&quot;_blank&quot;}.
-* Learn how to filter on recipients not contacted during the last 7 days in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html){target=&quot;_blank&quot;}.
-* Leer hoe u de lijst met operatoren kunt herstellen door Active-accounts in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/creating-a-filter.html){target=&quot;_blank&quot;}.
-* Learn how to build a birthday email audience in  [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=en#identifying-recipients-whose-birthday-it-is){target=&quot;_blank&quot;}.
+* Leer hoe u zich kunt richten op eenvoudige kenmerken voor ontvangers in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+* Leer hoe u kunt filteren op ontvangers die de afgelopen 7 dagen geen contact hebben gehad in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
+* Leer hoe u de lijst met operatoren kunt herstellen door Active-accounts in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
+* Leer hoe u een e-mailpubliek voor uw verjaardag maakt in  [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html).
 
 
 ### Geavanceerde parameters voor vooraf gedefinieerde filters {#param-for-data-filters}
@@ -351,4 +351,4 @@ Geavanceerde parameters zijn beschikbaar voor vooraf gedefinieerde filters. Blad
 * De **[!UICONTROL Advanced parameters]** Met de koppeling kunt u aanvullende instellingen definiëren.
 
    * U kunt een SQL-tabel aan het filter koppelen om deze te gebruiken voor alle editors die de tabel delen.
-   * Als u wilt voorkomen dat een gebruiker het filter overschrijft, selecteert u de optie **[!UICONTROL Do not restrict the filter]** optie. Deze optie is bijvoorbeeld actief voor de filters &quot;Ontvangers van een levering&quot; en &quot;Ontvangers van leveringen die tot een map behoren&quot; die beschikbaar zijn in de wizard voor levering. These filters cannot be overloaded.
+   * Als u wilt voorkomen dat een gebruiker het filter overschrijft, selecteert u de optie **[!UICONTROL Do not restrict the filter]** optie. Deze optie is bijvoorbeeld actief voor de filters &quot;Ontvangers van een levering&quot; en &quot;Ontvangers van leveringen die tot een map behoren&quot; die beschikbaar zijn in de wizard voor levering. Deze filters kunnen niet worden overbelast.

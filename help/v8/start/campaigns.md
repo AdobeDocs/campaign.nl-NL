@@ -5,9 +5,9 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: fc0be5fe82ba11e54851a8f612ece0b310447cdd
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '840'
 ht-degree: 6%
 
 ---
@@ -46,8 +46,7 @@ Adobe Campaign laat u alle marketing campagnes van een verenigd controlecentrum 
 
 ![](assets/calendar.png)
 
-![](../assets/do-not-localize/book.png) Ontdek hoe u marketingcampagnes kunt openen en implementeren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns){target=&quot;_blank&quot;}
-
+![](../assets/do-not-localize/book.png) Ontdek hoe u marketingcampagnes kunt openen en implementeren in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html).
 
 ## Belangrijkste stappen om te beginnen{#gs-ac-start}
 
@@ -57,13 +56,13 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    Definieer hiërarchie en planning, stel het budget in, voeg bronnen toe en selecteer operatoren.
 
-   ![](../assets/do-not-localize/book.png) Leer hoe u een marketingplan maakt en campagnes configureert in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Leer hoe u een marketingplan maakt en campagnes configureert in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html).
 
    Alle marketingcampagnes zijn gebaseerd op een sjabloon waarin de belangrijkste instellingen en mogelijkheden worden opgeslagen. Een ingebouwde sjabloon wordt geleverd om een campagne te maken waarvoor geen specifieke configuratie is gedefinieerd. U kunt uw campagnemalplaatjes tot stand brengen en vormen en dan campagnes van deze malplaatjes tot stand brengen.
 
-   ![](../assets/do-not-localize/book.png) Meer informatie over het werken met campagnemasjablonen vindt u in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns){target=&quot;_blank&quot;}
+   Meer informatie over het werken met campagnemasjablonen vindt u in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 
-   ![](../assets/do-not-localize/book.png) Ontdek terugkomende campagnes en hoe te om hen te vormen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}
+   Ontdek terugkomende campagnes en hoe te om hen te vormen in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html).
 
 1. **Soorten publiek definiëren**
 
@@ -71,7 +70,7 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    ![](assets/campaign-wf.png)
 
-   ![](../assets/do-not-localize/book.png) Leer hoe u het publiek van uw berichten kunt definiëren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns){target=&quot;_blank&quot;}
+   Leer hoe u het publiek van uw berichten kunt definiëren in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html).
 
 1. **Leveringen maken**
 
@@ -79,17 +78,17 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    ![](assets/campaign-dashboard.png)
 
-   ![](../assets/do-not-localize/book.png) Meer informatie over het maken en starten van marketingcampagneleveringen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Meer informatie over het maken en starten van marketingcampagneleveringen in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html).
 
    U kunt verschillende documenten aan een campagne koppelen: rapport, foto, webpagina, diagram, enz.
 
-   ![](../assets/do-not-localize/book.png) Meer informatie over gekoppelde documenten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Meer informatie over gekoppelde documenten in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html).
 
 1. **Goedkeuringsprocedure instellen**
 
    Met Adobe Campaign kunt u gezamenlijke goedkeuringsprocessen instellen voor de belangrijkste fasen van de marketingcampagne. Voor elke campagne kunt u het leveringsdoel, de inhoud, en de kosten goedkeuren. Adobe Campaign-operatoren die met de goedkeuring zijn belast, kunnen via e-mail op de hoogte worden gesteld en kunnen goedkeuring van de console of via een webverbinding accepteren of afwijzen.
 
-   ![](../assets/do-not-localize/book.png) Leer hoe u goedkeuringen instelt en beheert in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target=&quot;_blank&quot;}
+   Leer hoe u goedkeuringen instelt en beheert in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=en#campaign-orchestration).
 
 
 ## Distributed Marketing Add-on{#distributed-marketing-add-on}
@@ -100,7 +99,7 @@ Adobe Campaign biedt een **Distributed Marketing** add-on voor de uitvoering van
 >
 >Deze mogelijkheid is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) Leer hoe te om de Verdeelde Mogelijkheden van de Marketing van de Campagne te vormen en te gebruiken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html){target=&quot;_blank&quot;}
+Leer hoe te om de Verdeelde Mogelijkheden van de Marketing van de Campagne te vormen en te gebruiken in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html)
 
 ## Invoegtoepassing responsbeheer{#response-manager-add-on}
 
