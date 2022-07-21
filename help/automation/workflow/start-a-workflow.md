@@ -1,0 +1,112 @@
+---
+product: campaign
+title: Een workflow starten
+description: Leer hoe u een workflow start en werkstroomhandelingen ontdekt op de werkbalk en met de rechtermuisknop op het menu klikt
+feature: Workflows
+exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 0%
+
+---
+
+# Een workflow starten {#starting-a-workflow}
+
+Een workflow wordt altijd handmatig gestart. Wanneer begonnen, kan het echter inactief afhankelijk van de informatie blijven die via een planner wordt gespecificeerd (zie [Planner](scheduler.md)) of activiteiten plannen.
+
+Acties die betrekking hebben op het uitvoeren van de workflow (starten, stoppen, pauzeren, enz.) zijn **asynchroon** processen: de bestelling wordt opgenomen en is van kracht zodra de server beschikbaar is om deze toe te passen.
+
+Met de werkbalk kunt u de uitvoering van de workflow starten en volgen.
+
+De lijst met opties in het dialoogvenster **[!UICONTROL Actions]** en het contextmenu worden hieronder beschreven.
+
+>[!IMPORTANT]
+>
+>Houd er rekening mee dat wanneer een operator een handeling uitvoert op een werkstroom (starten, stoppen, pauzeren, enz.), de handeling niet direct wordt uitgevoerd, maar in plaats daarvan in een wachtrij wordt geplaatst om te worden verwerkt door de werkstroommodule.
+
+## Werkbalk Handelingen {#actions-toolbar}
+
+De werkbalkknoppen worden in dit hoofdstuk beschreven. De **[!UICONTROL Actions]** geeft u toegang tot extra uitvoeringsopties voor het werken met geselecteerde workflows. U kunt ook de opdracht **[!UICONTROL File > Actions]** of klikt u met de rechtermuisknop op een workflow en selecteert u **[!UICONTROL Actions]**.
+
+![](assets/purge_historique.png)
+
+* **[!UICONTROL Start]**
+
+   Met deze actie kunt u de uitvoering van een workflow starten: een workflow die **Voltooid**, **Wordt bewerkt** of **Gepauzeerd** wijzigt status in **Gestart**. De workflow-engine handelt vervolgens de uitvoering van deze workflow af. Als de werkstroom is gepauzeerd, wordt deze hervat, anders wordt de werkstroom van het begin gestart en worden de initiële activiteiten geactiveerd.
+
+   De aanvang is een asynchroon proces: Het verzoek wordt opgeslagen en zo snel mogelijk verwerkt door een workflowserver.
+
+* **[!UICONTROL Pause]**
+
+   Met deze handeling wordt de status van de workflow ingesteld op **Gepauzeerd**. Er worden geen activiteiten geactiveerd totdat de werkstroom wordt hervat; de lopende bewerkingen worden echter niet gepauzeerd .
+
+* **[!UICONTROL Stop]**
+
+   Met deze handeling wordt een workflow gestopt die momenteel wordt uitgevoerd. De status van de instantie is ingesteld op **Voltooid**. Bewerkingen die worden uitgevoerd, worden indien mogelijk gestopt. Importeren en SQL-query&#39;s worden onmiddellijk geannuleerd.
+
+   >[!IMPORTANT]
+   >
+   >Een werkstroom stoppen is een asynchroon proces: Het verzoek is geregistreerd en vervolgens worden bewerkingen door de workflowserver of servers geannuleerd. Het stoppen van een werkstroominstantie kan daarom tijd in beslag nemen, vooral als de werkstroom op meerdere servers wordt uitgevoerd, die elk de controle moeten krijgen om de actieve taken te annuleren. U voorkomt problemen door te wachten tot de stopbewerking is voltooid en geen meerdere stopaanvragen uit te voeren in dezelfde workflow.
+
+* **[!UICONTROL Restart]**
+
+   Deze actie stopt en start de workflow opnieuw. Doorgaans kunt u sneller opnieuw opstarten. Het is ook nuttig om opnieuw beginnen te automatiseren wanneer het tegenhouden een bepaalde hoeveelheid tijd neemt: De reden hiervoor is dat de opdracht Stoppen niet beschikbaar is wanneer de workflow wordt gestopt.
+
+   De **.
+
+* **[!UICONTROL Purge history]**
+
+   Met deze handeling kunt u de historie van de workflow wissen. Raadpleeg voor meer informatie hierover [De logbestanden leegmaken](monitor-workflow-execution.md#purging-the-logs).
+
+* **[!UICONTROL Start in simulation mode]**
+
+   Met deze optie kunt u de workflow starten in de simulatiemodus in plaats van in de echte modus. Dit betekent dat wanneer u deze modus inschakelt, alleen activiteiten worden uitgevoerd die geen invloed hebben op de database of het bestandssysteem (bijvoorbeeld **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, enz.). Activiteiten die wel van invloed zijn (bv. **[!UICONTROL Export]**, **[!UICONTROL Import]**, enz.) en de volgende opdrachten (in dezelfde vertakking) niet worden uitgevoerd.
+
+* **[!UICONTROL Execute pending tasks now]**
+
+   Met deze handeling kunt u alle lopende taken zo snel mogelijk starten. Als u een specifieke taak wilt starten, klikt u met de rechtermuisknop op de desbetreffende activiteit en selecteert u **[!UICONTROL Execute pending task(s) now]**.
+
+* **[!UICONTROL Unconditional stop]**
+
+   Met deze optie wijzigt u de workflowstatus in **[!UICONTROL Finished]**. Deze handeling mag alleen als laatste redmiddel worden gebruikt als het normale stopproces na enkele minuten mislukt. Gebruik de onvoorwaardelijke stop alleen als u zeker weet dat er geen werkstroomtaken worden uitgevoerd.
+
+   >[!CAUTION]
+   >
+   >Deze optie is gereserveerd voor professionele gebruikers.
+
+* **[!UICONTROL Save as template]**
+
+   Met deze actie maakt u een nieuw werkstroomsjabloon op basis van de geselecteerde workflow. U moet de map opgeven waarin deze wordt opgeslagen (in het dialoogvenster **[!UICONTROL Folder]** veld).
+
+   De **.
+
+## Klikken met rechtermuisknop {#right-click-menu}
+
+Wanneer een of meer workflowactiviteiten zijn geselecteerd, kunt u met de rechtermuisknop klikken om op uw selectie te reageren.
+
+![](assets/contextual_menu.png)
+
+De volgende opties zijn beschikbaar in het klikmenu met de rechtermuisknop:
+
+**[!UICONTROL Open]**: met deze optie hebt u toegang tot de eigenschappen van de activiteit.
+
+**[!UICONTROL Display logs:]** met deze optie kunt u het logboek voor taakuitvoering weergeven voor de geselecteerde activiteit. Zie [Logboeken weergeven](monitor-workflow-execution.md#displaying-logs).
+
+**[!UICONTROL Execute pending task(s) now:]** met deze actie kunt u taken die in behandeling zijn zo snel mogelijk starten.
+
+**[!UICONTROL Workflow restart from a task:]** met deze optie kunt u de workflow opnieuw starten met de resultaten die eerder voor deze activiteit zijn opgeslagen.
+
+**[!UICONTROL Cut/Copy/Paste/Delete:]** Met deze opties kunt u activiteiten knippen, kopiëren, plakken en verwijderen.
+
+**[!UICONTROL Copy as bitmap:]** met deze optie kunt u een screenshot maken van alle activiteiten.
+
+**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** deze opties zijn ook beschikbaar in het gedeelte **[!UICONTROL Advanced]** tabblad van de eigenschappen van de activiteit. Deze worden in [Uitvoering](advanced-parameters.md#execution).
+
+**[!UICONTROL Save / Cancel:]** Hiermee kunt u de wijzigingen in een workflow opslaan of annuleren.
+
+>[!NOTE]
+>
+>U kunt een groep activiteiten selecteren en er een van deze opdrachten op toepassen.
+
+Het contextmenu wordt ook in dit gedeelte beschreven.
