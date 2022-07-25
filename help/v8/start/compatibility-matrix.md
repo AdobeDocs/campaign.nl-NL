@@ -5,16 +5,16 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 50b6c9c8f55bb870e95c91bd1de22e3392e732dd
+source-git-commit: 93d990509af2f7c917775217e95ba40dd407d0c1
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 25%
+source-wordcount: '356'
+ht-degree: 33%
 
 ---
 
 # Compatibiliteitsmatrix voor campagne v8
 
-In dit document worden alle systemen en componenten weergegeven die worden ondersteund voor de **nieuwste build van Adobe Campaign v8**. Tenzij anders vermeld worden alle kleine releases ondersteund. Producten en versies die niet in deze lijst staan, zijn niet compatibel met Adobe Campaign.
+Dit document bevat een lijst met alle systemen en onderdelen die worden ondersteund voor de nieuwste versie van **Adobe Campaign v8**. Tenzij anders vermeld worden alle kleine releases ondersteund. Producten en versies die niet in deze lijst staan, zijn niet compatibel met Adobe Campaign.
 
 Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het einde van de levensduur (EOL) bereiken, is Adobe Campaign niet meer compatibel met die versies en worden ze verwijderd uit deze compatibiliteitsmatrix. Zorg ervoor dat u ondersteunde versies van alle systemen in de compatibiliteitsmatrix gebruikt om problemen te voorkomen.
 
@@ -24,14 +24,20 @@ Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het ei
 
 ## Clientconsole{#ClientConsoleoperatingsystems}
 
-Als u de Campagne Client Console wilt gebruiken, is een van de volgende besturingssystemen vereist. [Meer informatie](connect.md).
+De volgende besturingssystemen en browsers zijn vereist om de Campaign-clientconsole te gebruiken. [Meer informatie](connect.md).
+
+### Besturingssystemen
 
 * **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11 (startcampagne v8.3), 10, 8
+* **Microsoft Windows** 11 (startcampagne v8.3), 10, 8,
 
 >[!NOTE]
 >
 >Microsoft Windows 10 wordt aanbevolen voor Japanse instanties.
+
+### Browser
+
+**Microsoft Internet Explorer** 11
 
 ## CRM-connectoren{#CRMconnectors}
 
