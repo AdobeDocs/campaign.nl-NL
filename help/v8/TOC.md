@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 docs
-source-git-commit: a41bebfeb352b2f81f81b46c39b5f9b64431455b
+source-git-commit: 2c79ee6ae79355fba2a5f269076cf90a683a6070
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '365'
 ht-degree: 26%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 26%
       + [Profielen importeren uit een bestand](audiences/import-profiles.md)
       + [Werken met externe profielen](audiences/external-profiles.md)
       + [Profielgegevens verzamelen in webformulieren](audiences/collect-profiles.md)
-      + [Doeltoewijzingen](audiences/target-mappings.md)
+      + [Werken met doeltoewijzingen](audiences/target-mappings.md)
    + Soorten publiek maken {#create-audiences}
       + [Een lijst met contactpersonen maken](audiences/create-audiences.md)
       + [Filters maken en beheren](audiences/create-filters.md)
