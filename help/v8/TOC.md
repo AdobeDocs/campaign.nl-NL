@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 docs
-source-git-commit: 2c79ee6ae79355fba2a5f269076cf90a683a6070
+source-git-commit: fdaf107fd22f439a728f32ceb8cfc13a8c5bc1ad
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '368'
 ht-degree: 26%
 
 ---
@@ -83,6 +83,7 @@ ht-degree: 26%
    + [Direct mail](send/direct-mail.md)
    + [Sociale marketing](send/twitter.md)
    + [Transactionele berichten](send/transactional.md)
+   + [Tijdoptimalisatie verzenden](send/predictive.md)
    + Mislukking, stort en quarantaine{#failures}
       + [Quarantines](send/quarantines.md)
       + [Leveringsfouten](send/delivery-failures.md)
