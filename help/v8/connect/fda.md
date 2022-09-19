@@ -5,9 +5,9 @@ feature: Federated Data Access
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: bb03c804c1c65322d275d0a2ca1db0bfe974636d
+source-git-commit: ca9275017e36dae2f0152e0ff365541d7cab96de
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten op een of meer **externe databases** en procesgegevens die in deze bestanden zijn opgeslagen, zonder dat dit van invloed is op de gegevens van de Campagne Cloud Database. U kunt externe gegevens vervolgens openen zonder de structuur van Adobe Campaign-gegevens te wijzigen.
 
-![](../assets/do-not-localize/speech.png)   Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om Experience Cloud-triggers te implementeren met Campagne.
+![](../assets/do-not-localize/speech.png)   Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om uw externe database(s) te verbinden met Campagne.
 
 
 >[!NOTE]
