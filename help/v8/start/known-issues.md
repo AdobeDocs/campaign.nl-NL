@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 3d84bb9493251afa7b7e89a07469d299ff412c24
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -56,28 +56,28 @@ To have the data transfered from Snowflake cloud database to Campaign local data
 ### Internal reference{#issue-1-ref}
 
 Reference: NEO-45549 
--->
 
 
-## Probleem met gegevensbronactiviteit wijzigen {#issue-2}
 
-### Beschrijving{#issue-2-desc}
+## Change Data Source activity issue {#issue-2}
 
-Bij het injecteren van gegevens in de Snowflake cloud-database met een campagne **Query** en **Gegevensbron wijzigen** activiteit, ontbreekt het proces wanneer een backslash karakter in de gegevens aanwezig is. De brontekenreeks wordt niet beschermd en gegevens worden niet correct verwerkt op Snowflake.
+### Description{#issue-2-desc}
 
-Dit probleem doet zich alleen voor als de backslash het einde van een tekenreeks is, bijvoorbeeld: `Barker\`.
+When injecting data into Snowflake cloud database with a Campaign **Query** and a **Change Data Source** activity, the process fails when a backslash character is present in the data. The source string is not escaped, and data is not processed correctly on Snowflake.
 
-
-### Reproductiestappen{#issue-2-repro}
-
-1. Maak verbinding met de clientconsole en maak een workflow.
-1. Voeg een **Query** activiteit en vorm het.
-1. Selecteer gegevens met de hierboven beschreven kenmerken.
-1. Voeg een **Gegevensbron wijzigen** en configureer deze om de Snowflake cloud-database te selecteren.
-1. Voer de workflow uit en controleer de logboeken van de workflow om de fout te zien.
+This issue only happens if the backslash character is at the end of string, for example: `Barker\`.
 
 
-### Foutbericht{#issue-2-error}
+### Reproduction steps{#issue-2-repro}
+
+1. Connect to the client console and create a workflow.
+1. Add a **Query** activity and configure it.
+1. Select data with the characteristics described above.
+1. Add a **Change Data Source** activity and configure it to select Snowflake cloud database.
+1. Run the workflow and check the workflow logs to see the error.
+
+
+### Error message{#issue-2-error}
 
 ```sql
 Error:
@@ -87,46 +87,44 @@ Error:
 
 ### Workaround{#issue-2-workaround}
 
-Als tussenoplossing kunt u gegevens uitsluiten die backslash-tekens bevatten aan het einde van een tekenreeks of deze verwijderen uit het bronbestand.
-
-<!--
-As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
--->
-
-### Interne referentie{#issue-2-ref}
-
-Referentie: NEO-45549
+Workaround is to exclude data containing backslash character at the end of string, or remove it from the source file.
 
 
-## Actie voor het laden van gegevens (bestand) is mislukt. Bestand wordt geüpload naar de server {#issue-3}
+### Internal reference{#issue-2-ref}
 
-### Beschrijving{#issue-3-desc}
-
-Wanneer u een bestand uploadt naar een Campagneserver met een **Gegevens laden (bestand)** het proces stopt bij 100% maar eindigt nooit.
-
-### Reproductiestappen{#issue-3-repro}
-
-1. Maak verbinding met de clientconsole en maak een workflow.
-1. Voeg een **Gegevens laden (bestand)** activiteit en vorm het.
-1. Selecteer **Uploaden op server** optie.
-1. Selecteer het bestand op uw lokale computer.
-1. Klikken **Uploaden**
+Reference: NEO-45549
 
 
-### Foutbericht{#issue-3-error}
+## Data loading (file) activity failed to Upload file on server {#issue-3}
 
-Het proces eindigt nooit.
+### Description{#issue-3-desc}
+
+When uploading a file on Campaign server with a **Data loading (file)** activity, the process stops at 100% but never ends.
+
+### Reproduction steps{#issue-3-repro}
+
+1. Connect to the client console and create a workflow.
+1. Add a **Data loading (file)** activity and configure it.
+1. Select the **Upload on server** option.
+1. Select the file on your local machine,
+1. Click **Upload**
+
+
+### Error message{#issue-3-error}
+
+The process never ends.
 
 ### Workaround{#issue-3-workaround}
 
-De oplossing is om een oudere cliëntconsole te gebruiken. Vervolgens kunt u het bestand uploaden naar de server.
+The workaround is to use an older client console. You will then be able to upload the file on the server.
 
-Als beheerder van de Campagne kunt u Campagne v8.3.1 cliëntconsole in downloaden [Adobe-softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;layout by.sort=desc=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}.
+As a Campaign administrator, you can download Campaign v8.3.1 client console in [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}.
 
-Leer hoe u toegang krijgt tot Adobe Software Distribution [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target=&quot;_blank&quot;}.
+Learn how to access Adobe Software Distribution [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
-Leer hoe u uw clientconsole kunt upgraden [op deze pagina](connect.md)
+Learn how to upgrade your client console [in this page](connect.md)
 
-### Interne referentie{#issue-3-ref}
+### Internal reference{#issue-3-ref}
 
-Referentie: NEO-47269
+Reference: NEO-47269
+-->

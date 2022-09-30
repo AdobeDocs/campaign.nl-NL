@@ -1,11 +1,11 @@
 ---
 title: Aan de slag met de implementatie van Campagne-FFDA
 description: Aan de slag met de implementatie van Campagne-FFDA
-feature: Overview
-role: Data Engineer
-level: Beginner
+feature: Architecture, FFDA
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -92,7 +92,7 @@ Er zijn nieuwe API&#39;s beschikbaar voor het beheer van gegevenssynchronisatie 
 ![](../assets/do-not-localize/glass.png) [Nieuwe API&#39;s worden in deze pagina beschreven](new-apis.md)
 
 
-### Datareplicatie{#data-replication}
+### Gegevensreplicatie{#data-replication}
 
 Een specifieke technische workflow behandelt de replicatie van tabellen die aan beide zijden aanwezig moeten zijn (Campagne maken van lokale database en Cloud-database). Deze workflow wordt elke uur geactiveerd en is afhankelijk van een nieuwe ingebouwde JavaScript-bibliotheek.
 

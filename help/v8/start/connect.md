@@ -1,14 +1,14 @@
 ---
 title: Verbinding maken met Campagne v8
 description: Leer hoe u verbinding maakt met Campagne v8
-feature: Audiences
-role: Data Engineer
+feature: Client Console
+role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '832'
+ht-degree: 2%
 
 ---
 
@@ -21,6 +21,13 @@ Voordat u begint, moet u:
 * Controleer de compatibiliteit van uw systeem en gereedschappen met Adobe Campaign in de [Compatibiliteitsmatrix](compatibility-matrix.md)
 * URL van campagneserver ophalen
 * Adobe ID maken of je gebruikersnaam van je bedrijf ophalen
+* Installeer de Microsoft Edge Webview2-runtime op uw systeem (van de Campaign Classic 8.4-versie). [Meer informatie](#webview)
+
+## Installatie van de Microsoft Edge Webview2-runtime {#webview}
+
+Vanuit de Campaign Classic 8.4-build-versie is de installatie van de Microsoft Edge Webview 2-runtime vereist voor elke consoleinstallatie.
+
+De webweergave wordt standaard geïnstalleerd als onderdeel van het besturingssysteem Windows 11. Als dit nog niet het geval is op uw systeem, wordt u gevraagd het programma te downloaden van [Microsoft Developer-website](http://www.adobe.com/go/acc-ms-webview2-runtime-download). De downloadkoppeling werkt niet in Internet Explorer 11, omdat Microsoft de ondersteuning heeft vervangen. Zorg ervoor dat u een andere browser gebruikt om de koppeling te openen.
 
 ## De clientconsole downloaden en installeren{#download-ac-console}
 
@@ -77,6 +84,10 @@ Volg onderstaande stappen om u aan te melden bij een bestaande instantie:
 1. U kunt zich dan aanmelden bij Campagne met [Adobe ID](#connect-ims).
 
    ![](assets/adobeID.png)
+
+>[!NOTE]
+>
+>Voor campagne klassieke 8.4 bouwt versies, kan de cliëntconsole van Adobe Campaign om volmachtsgeloofsbrieven tweemaal tijdens volmachtsauthentificatie vragen. Dit komt doordat Microsoft Edge Webview2 in tegenstelling tot Internet Explorer geen proxygegevens in de cache-/wachtwoordwinkel opslaat.
 
 ## Toegang verlenen aan gebruikers{#grant-access}
 

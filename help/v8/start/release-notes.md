@@ -2,14 +2,14 @@
 title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 36%
+source-wordcount: '2758'
+ht-degree: 30%
 
 ---
 
@@ -17,12 +17,87 @@ ht-degree: 36%
 
 Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd met de **nieuwste versie van Campaign v8**.
 
+## Release 8.4.0 {#release-8-4-0}
+
+_28 september 2022_
+
+**Nieuwe functies**
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Adobe Campaign-integratie met Adobe Experience Platform</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td><p>Er zijn nu nieuwe bestemmings- en bronconnectors beschikbaar voor naadloze integratie tussen Adobe Campaign en Adobe Experience Platform:</p>
+<ul><li>Gebruik de Adobe Campaign Managed Cloud Sources-connector om Experience Platforms segmenten naar Adobe Campaign te sturen voor activering.</li>
+<li>Gebruik de Adobe Campaign Managed Cloud Destination-connector om Adobe Campaign-bezorgings- en trackinglogbestanden naar Adobe Experience Platform te verzenden.</li>
+</ul>
+<p>Raadpleeg de <a href="privacy.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Twitter-kanaalbeschikbaarheid</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>De <a href="../send/twitter.md">Twitter social channel</a> is nu beschikbaar met Campagne v8. U kunt:</p>
+<ul> 
+<li><p>Berichten verzenden op Twitter: Met Adobe Campaign kun je berichten rechtstreeks op je twitter-account plaatsen. U kunt ook directe berichten verzenden naar al uw volgers.
+</p></li>
+<li><p>Nieuwe contactpersonen verzamelen: Adobe Campaign kan de profielgegevens automatisch herstellen, zodat u doelgerichte campagnes kunt uitvoeren en kanaalstrategieën kunt implementeren.
+</p></li>
+</ul>
+<p>Leer hoe u Campagne en Twitter kunt verbinden met <a href="../connect/ac-tw.md">gedetailleerde documentatie</a>.</p>
+<p>Leer hoe u tweets kunt plaatsen en directe berichten kunt verzenden met Campagne in <a href="../connect/ac-tw.md">deze pagina</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Verbeteringen**
+
+* Na het einde van de levensduur van Microsoft Internet Explorer 11 wordt de HTML-renderingengine in de console nu gebruikt **Microsoft Edge Chromium**. Bovendien, installatie van **Microsoft Edge WebView 2** runtime is nu vereist voor elke installatie van de clientconsole. Meer informatie
+* Verbeterde workflowuitvoering met een hoge beschikbaarheid van de workflow waardoor u gelijktijdige workflows kunt uitvoeren over verschillende containers om te voorkomen dat de workflowservice verloren gaat en gerelateerde uitvoeringsfouten te voorkomen. **Opmerking**: Deze nieuwe mogelijkheid wordt alleen vrijgegeven in Beperkte beschikbaarheid voor een set klanten.
+* De verzoeken van de privacy worden nu uitgevoerd in partij voor een bepaalde privacy namespace. Deze verbetering verhoogt de uitvoeringstijd voor aanvragen voor GDPR/privacy-verwijdering. Meer informatie
+
+**Compatibiliteitsupdates**
+
+* De campagne v8 SDK ondersteunt nu iOS 16 voor pushberichten.
+
+Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
+
+**Patches**
+
+* Probleem verholpen dat invloed had op de statusupdates van het leveringslogboek voor de MID-instantie toen de optie FeatureFlag_GZIP_Compression was ingeschakeld. (NEO-49183)
+* Probleem verholpen waarbij leveringen konden blijven **In behandeling** ook als de contactdatum is bereikt. (NEO-48079)
+* Probleem verholpen in workflows waardoor bestanden niet konden worden bijgewerkt op de server wanneer de **Gegevens laden (bestand)** activiteit. Het proces is gestopt bij 100%, maar is nooit beëindigd. (NEO-47269)
+* Probleem verholpen tijdens naupgrade op japanse omgevingen. (NEO-46640)
+* Probleem verholpen dat zich kon voordoen als een levering een exacte grootte bereikte tijdens het MTA-proces. (NEO-46097)
+* Probleem verholpen waarbij het bijhouden van logbestanden gegevens met betrekking tot de browser van de ontvanger niet kon retourneren. (NEO-46612)
+* Probleem verholpen dat tot personalisatieproblemen leidde bij het verzenden van SMS-berichten via een externe leveringsmodus. (NEO-46415)
+* Probleem verholpen waarbij duplicaten konden worden gegenereerd in trackinglogboeken. (NEO-46409)
+* Het probleem dat de **[!UICONTROL Replicate Staging data]** De technische workflow (ffdaReplicateStagingData) kan niet worden gestopt, zelfs als er een fout is opgetreden tijdens de uitvoering. (NEO-46280)
+* Probleem verholpen dat zich kon voordoen als een levering een exacte grootte bereikte tijdens het MTA-proces. (NEO-46097)
+* Om vertraging te verhinderen wanneer het verzenden van bewijs naar zaadadressen, worden alle opeenvolgende replicaties van zaadleden nu gegroepeerd aan één replicatieverzoek. (NEO-44844)
+* Probleem verholpen waarbij een fout werd weergegeven tijdens een voorvertoning van een levering in een gearchiveerde gebeurtenis in het Message Center. (NEO-43620)
+* Probleem verholpen bij het injecteren van gegevens in de Snowflake cloud-database met een campagne **Query** en **Gegevensbron wijzigen** activiteit: het proces mislukte wanneer een backslash-teken in de gegevens aanwezig was. De brontekenreeks is niet gevonden en gegevens zijn niet correct verwerkt op Snowflake. (NEO-45549)
+* Probleem verholpen tijdens het gebruik van de **Query** en een tabel filteren. Wanneer een kolomnaam het woord &quot;Update&quot;bevatte, kwam een compilatiefout met een ongeldige herkenningsteken en het volgende bericht voor: &quot;aantal bijgewerkte rijen&quot;. (NEO-46485)
+
+
 ## Release 8.3.8 {#release-8-3-8}
 
 _18 mei 2022_
 
 **Nieuwe functies**
-
 
 <table> 
 <thead>
@@ -53,7 +128,6 @@ _18 mei 2022_
 </tr> 
 </tbody> 
 </table>
-
 
 <table>
 <thead>
@@ -177,29 +251,6 @@ _28 oktober 2021_
 </tbody> 
 </table>
 
-<!--
-<table> 
-<thead>
-<tr> 
-<th> <strong>Twitter channel availability</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>The <a href="../send/twitter.md">Twitter social channel</a> is now available with Campaign v8. You can:</p>
-<ul> 
-<li><p>Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
-</p></li>
-<li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
-</p></li>
-</ul>
-<p>Learn how to connect Campaign and Twitter in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
-<p>Learn how to post tweets and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
--->
 
 **Verbeteringen**
 

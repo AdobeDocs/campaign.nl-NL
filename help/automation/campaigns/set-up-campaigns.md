@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Aan de slag met marketingcampagnes
+title: Uw eerste campagne maken
 description: Leer hoe u begint met marketingcampagnes
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
-# Aan de slag met marketingcampagnes{#gs-marketing-campaigns}
+# Uw eerste campagne maken{#gs-marketing-campaigns}
 
 Met Adobe Campaign kunt u communicatie- en marketingcampagnes definiëren, optimaliseren, uitvoeren en analyseren. Adobe Campaign fungeert als een gemeenschappelijk centrum voor bestellingen en uitvoering voor marketingstrategieën. Beheer veelvoudige gegevensbronnen, bepaal uw publiekssegmenten, en plan en voer multi-stap, kanaalcampagnes door een belemmering-en-dalings visuele werkschemainterface uit.
 

@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 docs
-source-git-commit: fdaf107fd22f439a728f32ceb8cfc13a8c5bc1ad
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '369'
 ht-degree: 26%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 26%
    + [Pushmeldingen](send/push.md)
    + [REGELS](send/line.md)
    + [Direct mail](send/direct-mail.md)
-   + [Sociale marketing](send/twitter.md)
+   + [Twitter](send/twitter.md)
    + [Transactionele berichten](send/transactional.md)
    + [Tijdoptimalisatie verzenden](send/predictive.md)
    + Mislukking, stort en quarantaine{#failures}
@@ -113,11 +113,11 @@ ht-degree: 26%
    + [Externe accounts](config/external-accounts.md)
 + Verbinden {#connect}
    + [Verbinden met andere oplossingen](connect/integration.md)
+   + [Campagne + Adobe Experience Platform](connect/ac-aep.md)
    + [Campagne + Analyse](connect/ac-aa.md)
    + [Campagne + Experience Manager](connect/ac-aem.md)
    + [Campagne + Doel](connect/ac-at.md)
    + [Campagne + Experience Cloud-triggers](connect/ac-triggers.md)
-   + [Campagne + RTCDP](connect/ac-rtcdp.md)
    + [Campagne + Twitter](connect/ac-tw.md)
    + [Campagne + externe database](connect/fda.md)
    + Campagne + uw CRM {#ac-crm}

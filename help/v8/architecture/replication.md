@@ -1,11 +1,11 @@
 ---
 title: Technische workflows en gegevensreplicatie
 description: Technische workflows en gegevensreplicatie
-feature: Workflows
-role: Data Engineer
-level: Beginner
+feature: Workflows, FFDA
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 2%
@@ -37,7 +37,7 @@ Deze technische workflows zijn beschikbaar via de **[!UICONTROL Administration >
 
 Indien nodig kunt u de gegevenssynchronisatie handmatig starten. Klik met de rechtermuisknop op de knop **Planner** activiteit en selecteer **Taak/taken in behandeling nu uitvoeren**.
 
-## Datareplicatie{#data-replication}
+## Gegevensreplicatie{#data-replication}
 
 Sommige ingebouwde tabellen worden gerepliceerd van de lokale database van Campagne naar [!DNL Snowflake] Cloud-database via speciale workflows die hierboven zijn beschreven.
 

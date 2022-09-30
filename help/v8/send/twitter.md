@@ -1,14 +1,12 @@
 ---
 title: Berichten op Twitter plaatsen met Adobe Campaign
-description: Leer hoe u de Adobe Campaign Social Marketing-module kunt gebruiken om berichten op Twitter te plaatsen en contactgegevens te verzamelen
-role: Data Engineer
-level: Beginner
-hide: true
-hidefromtoc: true
+description: Leer hoe je de Adobe Campaign Social Marketing-module gebruikt om berichten op Twitter te plaatsen en directe berichten naar je volgers te sturen
+role: User
+level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -20,7 +18,8 @@ Adobe Campaign wordt geleverd met een **Sociale marketing** -module waarmee u vi
 
 Zodra de integratie wordt gevormd, kunt u:
 
-* Berichten verzenden op Twitter: Met Adobe Campaign kun je berichten rechtstreeks op je twitter-account plaatsen. U kunt ook directe berichten verzenden naar al uw volgers.
+* Berichten verzenden op Twitter: Met Adobe Campaign kunt u directe berichten sturen naar uw volgers.
+* Post tweets: Adobe Campaign gebruiken om tweets op je Twitter-account te plaatsen.
 * Nieuwe contactpersonen verzamelen: Adobe Campaign kan de profielgegevens automatisch herstellen, waarmee u doelgerichte campagnes kunt uitvoeren en, waar mogelijk, kanaalstrategieën kunt implementeren. Voor deze handeling is toestemming van de gebruiker vereist.
 
 De configuratiestappen voor de integratie van uw Twitter-account met Adobe Campaign worden beschreven in [deze pagina](../connect/ac-tw.md).
@@ -33,9 +32,13 @@ Voer de onderstaande stappen uit om een bericht op je Twitter-account te plaatse
 
    Maak een nieuwe levering op basis van de **[!UICONTROL Tweet (twitter)]** leveringssjabloon.
 
+   ![](assets/tw-new-delivery.png)
+
 1. Selecteer het hoofddoel
 
    Selecteer de account(s) waarnaar u tweets wilt verzenden.
+
+   ![](assets/tw-define-target.png)
 
    1. Klik op de koppeling **[!UICONTROL To]**.
    1. Klik op de knop **[!UICONTROL Add]**.
@@ -46,7 +49,7 @@ Voer de onderstaande stappen uit om een bericht op je Twitter-account te plaatse
 
    De **[!UICONTROL Target of the proofs]** kunt u de Twitter-account definiëren die u voor testleveringen wilt gebruiken voordat de levering is voltooid.
 
-   Zoals in het [configuratiestappen](../connect/ac-tw.md#tw-test-account), moet u een persoonlijke Twitter-account maken die proefdrukken verzendt.
+   Zoals in het [configuratiestappen](../connect/ac-tw.md#tw-test-account), moet u een Twitter-account voor een privétest maken voor het verzenden van proefdrukken.
 
    >[!NOTE]
    >
@@ -55,6 +58,8 @@ Voer de onderstaande stappen uit om een bericht op je Twitter-account te plaatse
 1. De inhoud van je bericht definiëren
 
    Voer de inhoud van je advertentie in in het dialoogvenster **[!UICONTROL Content]** tab.
+
+   ![](assets/tw-delivery-content.png)
 
    >[!CAUTION]
    >
@@ -68,18 +73,15 @@ Voer de onderstaande stappen uit om een bericht op je Twitter-account te plaatse
 
    Bladeren in het dialoogvenster **[!UICONTROL Preview]** om de weergave van uw advertentie te controleren.
 
+   ![](assets/tw-delivery-preview.png)
+
    1. Klik op de knop **[!UICONTROL Preview]** tab.
    1. Klik op de knop **[!UICONTROL Test personalization]** vervolgkeuzelijst en selecteert u **[!UICONTROL Service]**.
    1. In de **[!UICONTROL Folder]** , selecteert u de servicemap die uw Twitter-account bevat.
-   1. Kies de Twitter-account waarmee u de voorvertoning wilt testen.
 
 1. Een proef verzenden
 
    Voordat u uw tweet publiceert, moet u controleren of de tweet is gevalideerd door een bewijs van uw publicatie te verzenden: u kunt de publicatie vervolgens op een persoonlijke Twitter-testpagina op exacte wijze weergeven.
-
-   Voor meer informatie over het maken van een particuliere Twitter-account raadpleegt u [deze sectie](../connect/ac-tw.md#tw-test-account).
-
-   ![](../assets/do-not-localize/book.png) [Belangrijke stappen om een levering te valideren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
 
 1. Bericht verzenden
 
@@ -87,7 +89,6 @@ Voer de onderstaande stappen uit om een bericht op je Twitter-account te plaatse
    1. Selecteren **[!UICONTROL Deliver as soon as possible]** en klik op de knop **[!UICONTROL Analyze]** knop.
    1. Controleer het resultaat als de analyse is voltooid.
    1. Klikken **[!UICONTROL Confirm delivery]** en klik vervolgens op **[!UICONTROL Yes]**.
-
 
 ## Directe berichten verzenden naar volgers {#direct-tw-messages}
 
@@ -99,38 +100,44 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
 1. Selecteer het hoofddoel
 
-1. Selecteer **[!UICONTROL To]** en de **[!UICONTROL Add]** knop.
+   ![](assets/tw-dm-define-target.png)
 
-1. Selecteer een doeltype
+   1. Selecteer **[!UICONTROL To]** en de **[!UICONTROL Add]** knop.
 
-   * Selecteren **[!UICONTROL Twitter subscribers]** om een rechtstreeks bericht naar al uw volgers te sturen.
+   1. Kies een doeltype
 
-   * Selecteren **[!UICONTROL Filter conditions]** om een vraag te bepalen en zijn resultaat te bekijken. Deze optie is hetzelfde als voor e-mailleveringen. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/creating-queries/defining-filter-conditions.html){target=&quot;_blank&quot;}.
+      * Selecteren **[!UICONTROL Twitter subscribers]** om een rechtstreeks bericht naar al uw volgers te sturen.
 
-1. Van de **[!UICONTROL Target of the proofs]** selecteert u de volgende persoon die de proefdruk van uw directe bericht ontvangt.
+      * Selecteren **[!UICONTROL Filter conditions]** om een vraag te bepalen en zijn resultaat te bekijken. Leer hoe u een filter maakt in [deze sectie](../audiences/create-filters.md#advanced-filters).
+
+1. Selecteer het proefdrukdoel in het menu **[!UICONTROL Target of the proofs]** tab: dit account ontvangt het bewijs van je directe bericht.
+
+   Zoals in het [configuratiestappen](../connect/ac-tw.md#tw-test-account), moet u een Twitter-account voor een privétest maken voor het verzenden van proefdrukken.
+
 
    >[!NOTE]
    >
-   >Als u al uw directe-berichtproefdrukken naar dezelfde Twitter-volger wilt verzenden, kunt u het proefdrukdoel opslaan in het dialoogvenster **[!UICONTROL Tweet (Direct Message)]** leveringssjabloon, toegankelijk via **[!UICONTROL Resources > Templates > Delivery templates]** knooppunt.
+   >Als u al uw directe-berichtproefdrukken naar dezelfde Twitter-account wilt verzenden, kunt u het proefdrukdoel opslaan in het dialoogvenster **[!UICONTROL Tweet (Direct Message)]** leveringssjabloon, toegankelijk via **[!UICONTROL Resources > Templates > Delivery templates]** knooppunt.
 
 1. Voer de inhoud van het bericht in het dialoogvenster **[!UICONTROL Content]** tab.
 
-   Velden voor persoonlijke voorkeur kunnen op dezelfde manier worden gebruikt als voor e-mailleveringen, bijvoorbeeld om de naam van de volgende persoon toe te voegen aan de hoofdtekst van het bericht. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/about-personalization.html){target=&quot;_blank&quot;}.
+   ![](assets/tw-dm-content.png)
+
+   Velden voor persoonlijke voorkeur kunnen op dezelfde manier worden gebruikt als voor e-mailleveringen, bijvoorbeeld om de naam van de volgende persoon toe te voegen aan de hoofdtekst van het bericht. Meer informatie in [deze sectie](../start/create-message.md#personalization).
 
 1. Een voorbeeld van uw bericht bekijken
 
    Bladeren in het dialoogvenster **[!UICONTROL Preview]** om de weergave van uw advertentie te controleren.
 
+   ![](assets/tw-dm-preview.png)
+
    1. Klik op de knop **[!UICONTROL Preview]** tab.
-   1. Klik op de knop **[!UICONTROL Test personalization]** vervolgkeuzelijst en selecteert u **[!UICONTROL Service]**.
-   1. In de **[!UICONTROL Folder]** , selecteert u de servicemap die uw Twitter-account bevat.
-   1. Kies de Twitter-account waarmee u de voorvertoning wilt testen.
+   1. Klik op de knop **[!UICONTROL Test personalization]** vervolgkeuzelijst en selecteert u **[!UICONTROL Visitor Subscription]**.
+   1. Kies een Twitter-account waarmee u de voorvertoning wilt testen.
 
 1. Een proef verzenden
 
    Voordat u uw bericht verzendt, moet u controleren of het is gevalideerd door een proefdruk naar een testaccount te verzenden: u kunt dan een nauwkeurige weergave van het bericht op een privé Twitter-account krijgen en de inhoud en personalisatie controleren.
-
-   Voor meer informatie over het maken van een particuliere Twitter-account raadpleegt u [deze sectie](../connect/ac-tw.md#tw-test-account).
 
    ![](../assets/do-not-localize/book.png) [Belangrijke stappen om een levering te valideren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
 

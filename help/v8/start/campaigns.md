@@ -1,18 +1,18 @@
 ---
-title: Aan de slag met marketingcampagnes
-description: Aan de slag met marketingcampagnes
+title: Aan de slag met campagnes
+description: Aan de slag met campagnes
 feature: Audiences
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 6%
+source-wordcount: '837'
+ht-degree: 5%
 
 ---
 
-# Aan de slag met marketingcampagnes{#gs-ac-campaigns}
+# Aan de slag met campagnes{#gs-ac-campaigns}
 
 Adobe Campaign biedt een reeks oplossingen die u helpen campagnes op al uw online en offline kanalen aan te passen en te leveren. U kunt marketingcampagnes maken, configureren, uitvoeren en analyseren. Alle marketing campagnes kunnen van een verenigd controlecentrum worden beheerd. Ontdek in deze sectie hoe u door marketingcampagnes kunt bladeren en deze kunt maken.
 
