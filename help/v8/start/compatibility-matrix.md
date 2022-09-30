@@ -5,7 +5,7 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 0fd798fd21d781f7c0bf75ecb1838f891350bff6
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 37%
@@ -79,7 +79,7 @@ Externe databases die compatibel zijn met de module Adobe Campaign Federated Dat
 U kunt Campagne gebruiken om te verzenden [pushmeldingen](../send/push.md) op de hieronder vermelde besturingssystemen, met behulp van de bijbehorende mobiele SDK.
 
 * **Android** 12 (startcampagne v8.3), 9.0, 8.x, 7.x, met Campagne Android SDK build 1.1.1.
-* **Apple iOS** 9 - 16 met Campagne iOS SDK build 1.0.26, compatibel met 32- en 64-bits versies. iOS 16 wordt ondersteund vanaf Campaign v8.3.
+* **Apple iOS** 9 - 16 met Campagne iOS SDK build 1.0.26, compatibel met 32- en 64-bits versies. iOS 16 wordt ondersteund vanaf Campaign v8.4.
 
 ## Webtoegang
 
