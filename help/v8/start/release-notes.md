@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d0cabf4d5b8d177f1ff0a1be6163e9abe65c57d6
+source-git-commit: c1a5dd3fcad5d377acb2f9df3a090897ed3b533e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2754'
+ht-degree: 29%
 
 ---
 
@@ -65,9 +65,9 @@ _30 september 2022_
 
 **Verbeteringen**
 
-* Na het einde van de levensduur van Microsoft Internet Explorer 11 wordt de HTML-renderingengine in de console nu gebruikt **Microsoft Edge Chromium**. Bovendien, installatie van **Microsoft Edge WebView 2** runtime is nu vereist voor elke installatie van de clientconsole. Meer informatie
+* Na het einde van de levensduur van Microsoft Internet Explorer 11 wordt de HTML-renderingengine in de console nu gebruikt **Microsoft Edge Chromium**. Bovendien, installatie van **Microsoft Edge WebView 2** runtime is nu vereist voor elke installatie van de clientconsole.
 * Verbeterde workflowuitvoering met een hoge beschikbaarheid van de workflow waardoor u gelijktijdige workflows kunt uitvoeren over verschillende containers om te voorkomen dat de workflowservice verloren gaat en gerelateerde uitvoeringsfouten te voorkomen. **Opmerking**: Deze nieuwe mogelijkheid wordt alleen vrijgegeven in Beperkte beschikbaarheid voor een set klanten.
-* De verzoeken van de privacy worden nu uitgevoerd in partij voor een bepaalde privacy namespace. Deze verbetering verhoogt de uitvoeringstijd voor aanvragen voor GDPR/privacy-verwijdering. Meer informatie
+* De verzoeken van de privacy worden nu uitgevoerd in partij voor een bepaalde privacy namespace. Deze verbetering verhoogt de uitvoeringstijd voor aanvragen voor GDPR/privacy-verwijdering.
 
 **Compatibiliteitsupdates**
 
