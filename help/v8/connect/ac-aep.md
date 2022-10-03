@@ -4,9 +4,9 @@ description: Leer hoe u kunt werken met Campagne en Adobe Experience Platform
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 27705fc85794611d1207fe7f3eac3010601b0dc5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 De Adobe Campaign Managed Cloud Service bestemmings en bronschakelaars staan naadloze integratie tussen Adobe Campaign en Adobe Experience Platform toe:
 
-* Gebruiken **Verbinding met Adobe Campaign Managed Cloud Sources** de segmenten van het Experience Platform ter activering naar Adobe Campaign te sturen;
+* Gebruiken **Adobe Campaign Managed Cloud Services** doelverbinding voor het verzenden van Experience Platform-segmenten naar Adobe Campaign voor activering;
 
    ![](assets/aep-destination.png)
 
-* Gebruiken **Adobe Campaign Managed Cloud Destination-connector** om Adobe Campaign-leverings- en trackinglogboeken naar Adobe Experience Platform te verzenden.
+* Gebruiken **Adobe Campaign Managed Cloud Services** bronverbinding voor het verzenden van Adobe Campaign-bezorgings- en trackinglogboeken naar Adobe Experience Platform.
 
    ![](assets/aep-logs.png)
 
