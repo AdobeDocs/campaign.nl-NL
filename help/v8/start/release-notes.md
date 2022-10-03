@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c1a5dd3fcad5d377acb2f9df3a090897ed3b533e
+source-git-commit: dfe675ca0f15050a9159172be3d8d8de7e8bf848
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2833'
 ht-degree: 29%
 
 ---
@@ -62,6 +62,18 @@ _30 september 2022_
 </tr> 
 </tbody> 
 </table>
+
+**Beveiligingsverbetering**
+
+Om de beveiliging te optimaliseren, zijn beveiligingstokens verwijderd uit URL&#39;s die zijn gegenereerd door Campagne:
+
+* Deze wijziging geldt alleen voor GET-URL&#39;s. Andere typen, zoals POST-URL&#39;s, worden niet beïnvloed.
+* Als u aangepaste code gebruikt, worden beveiligingstokens niet meer opgehaald uit de beveiligingstoken-parameter GET URL. U moet een nieuw veiligheidstoken produceren gebruikend de volgende code JSSP:
+
+   ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+
+   U kunt ook de API voor aanmelding gebruiken om beveiligingstokens op te halen.
+* Er is geen verandering in het beheer van het zittingstoken.
 
 **Verbeteringen**
 
