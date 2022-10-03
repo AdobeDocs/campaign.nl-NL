@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: dfe675ca0f15050a9159172be3d8d8de7e8bf848
+source-git-commit: c9a4110b8ea2d7ad3571da6f7e506c639dfaaf50
 workflow-type: tm+mt
-source-wordcount: '2833'
+source-wordcount: '2835'
 ht-degree: 29%
 
 ---
@@ -32,8 +32,8 @@ _30 september 2022_
 <tbody> 
 <tr> 
 <td><p>Er zijn nu nieuwe bestemmings- en bronconnectors beschikbaar voor naadloze integratie tussen Adobe Campaign en Adobe Experience Platform:</p>
-<ul><li>Gebruik de Adobe Campaign Managed Cloud Sources-connector om Experience Platforms segmenten naar Adobe Campaign te sturen voor activering.</li>
-<li>Gebruik de Adobe Campaign Managed Cloud Destination-connector om Adobe Campaign-bezorgings- en trackinglogbestanden naar Adobe Experience Platform te verzenden.</li>
+<ul><li>Gebruik Adobe Campaign Managed Cloud Services-doelconnector om Experience Platforms segmenten naar Adobe Campaign te sturen voor activering.</li>
+<li>Gebruik de Adobe Campaign Managed Cloud Service source-connector om Adobe Campaign-bezorgings- en trackinglogboeken naar Adobe Experience Platform te verzenden.</li>
 </ul>
 <p>Raadpleeg de <a href="../connect/ac-aep.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td> 
