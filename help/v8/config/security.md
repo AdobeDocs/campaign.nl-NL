@@ -5,9 +5,9 @@ feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 864f2179384d3e3cfcf310fcd04fe02240bfbefa
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,30 @@ De configuratie van de privacy en het verharden is een zeer belangrijk element v
 * Protect de pagina&#39;s die persoonlijke gegevens kunnen bevatten, zoals spiegelpagina&#39;s, webtoepassingen, enz.
 
 ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, zal Adobe met u werken om deze configuraties op uw milieu uit te voeren.
+
+
+## Toegangsbeheer
+
+Toegangsbeheer is een belangrijk onderdeel van de beveiliging. Hier volgen enkele van de belangrijkste aanbevolen procedures:
+
+* Maak genoeg beveiligingsgroepen
+* Controleren of elke operator de juiste toegangsrechten heeft
+* Vermijd het gebruik van de beheeroperator en vermijd het gebruik van te veel operatoren in de beheergroep
+
+![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+
+## Codeerrichtlijnen
+
+Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) altijd de volgende richtlijnen:
+
+* **Scripts**: Probeer SQL-instructies te vermijden, gebruik parameterized functies in plaats van tekenreekssamenvoeging en vermijd SQL-injectie door de SQL-functies toe te voegen die u aan de lijst van gewenste personen wilt gebruiken.
+
+* **Het gegevensmodel beveiligen**: gebruik genoemde rechten om exploitatoracties te beperken, systeemfilters toe te voegen (sysFilter)
+
+* **Hoofdletters toevoegen aan webtoepassingen**: Voeg hoofdletters toe aan uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
+
+![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+
 
 ## Personalisatie
 

@@ -5,16 +5,16 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '841'
 ht-degree: 2%
 
 ---
 
 # Verbinding maken met Adobe Campaign v8{#gs-ac-connect}
 
-De Console van de Cliënt van de campagne is een rijke cliënt die u toelaat om met uw de toepassingsserver(s) van de Campagne te verbinden.
+De Console van de Cliënt van de campagne is een rijke cliënt die u toelaat om met uw de toepassingsserver(s) van de Campagne te verbinden. Meer informatie over Campagne Client Console [op deze pagina](ac-components.md#presentation-layer).
 
 Voordat u begint, moet u:
 

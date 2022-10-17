@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ De betrouwbaarheid van de database is van het grootste belang omdat de meeste Ad
 
 De logische toepassingslaag van de campagne is gemakkelijk configureerbaar om aan complexe bedrijfsbehoeften te voldoen. U kunt Campagne als één enkel platform met verschillende toepassingen gebruiken die combineren om een open en scalable architectuur tot stand te brengen. Elke Campagneinstantie is een inzameling van processen in de toepassingslaag, waarvan sommige worden gedeeld en wat specifiek zijn.
 
-## Campagne Managed Services{#ac-managed-services}
+## Door campagne beheerde Cloud Services{#ac-managed-services}
 
 Adobe Campaign v8 is as a Managed Service geïmplementeerd: alle componenten van Adobe Campaign, inclusief de gebruikersinterface, de uitvoeringsbeheerengine en Campagne-databases, worden volledig door Adobe gehost, inclusief e-mailuitvoering, spiegelpagina&#39;s, traceringsserver en extern opvallende webcomponenten, zoals pagina-/voorkeurscentrum voor afmelden en bestemmingspagina&#39;s.
 

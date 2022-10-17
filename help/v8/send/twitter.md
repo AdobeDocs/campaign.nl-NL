@@ -4,7 +4,7 @@ description: Leer hoe je de Adobe Campaign Social Marketing-module gebruikt om b
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 9f74e3bbff5bcbebf4f5a0ecf4ed7e458b9e38ed
+source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 1%
@@ -21,6 +21,7 @@ Zodra de integratie wordt gevormd, kunt u:
 * Verzend directe berichten naar uw volgers
 * Tweets op je Twitter-account plaatsen
 * Verzamel nieuwe contacten door de profielgegevens terug te krijgen, die u toelaat om het richten campagnes uit te voeren en, waar mogelijk, om kanaalstrategieën uit te voeren. Voor deze handeling is toestemming van de gebruiker vereist.
+
 
 De configuratiestappen voor de integratie van uw Twitter-account met Adobe Campaign worden beschreven in [deze pagina](../connect/ac-tw.md).
 

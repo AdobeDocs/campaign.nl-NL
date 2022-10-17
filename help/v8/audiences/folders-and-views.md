@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Application Settings
 role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Een weergave is een specifieke map die geen gegevens bevat, maar die gegevens we
 
 U kunt machtigingen toewijzen aan mappen om de toegang tot bepaalde gegevens te beperken. [Meer informatie](#restrict-access-to-a-folder)
 
-## Tips en trucs bij het werken met mappen
+## Tips en trucs bij het werken met mappen{#best-practices-folders}
 
 * **Ingebouwde mappen gebruiken** om het voor elke persoon die bij het project betrokken is gemakkelijker te maken om de toepassing te gebruiken, te handhaven en problemen op te lossen. Maak geen aangepaste mapstructuren voor ontvangers, lijsten, leveringen, enz., maar gebruik de standaardmappen, zoals **Beheer**, **Profielen en doelen**, **Campagnebeheer**.
 

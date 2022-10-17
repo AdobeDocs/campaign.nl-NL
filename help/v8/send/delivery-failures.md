@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3009'
 ht-degree: 6%
 
 ---
@@ -54,7 +54,7 @@ Deze soorten fouten worden als volgt beheerd:
 
 >[!NOTE]
 >
->Als gebruiker van Managed Services, wordt de configuratie van de stuiterende brievenbus uitgevoerd door Adobe.
+>Als Beheerde gebruiker van Cloud Services, wordt de configuratie van de stuiterbrievenbus uitgevoerd door Adobe.
 
 ## Kwalificatie van niet-bezorgde e-mails {#bounce-mail-qualification}
 

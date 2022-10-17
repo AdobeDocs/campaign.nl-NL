@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 docs
-source-git-commit: e7772364ab46673695f498911e2246056a04790e
+source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '433'
+ht-degree: 25%
 
 ---
 
@@ -15,53 +15,45 @@ ht-degree: 0%
 # Adobe Campaign v8-documentatie {#campaign-v8}
 
 + [Documentatie voor Campaign v8](campaign-home.md)
-+ Nieuwe functies? {#new}
-   + [Belangrijkste mogelijkheden](start/whats-new.md)
++ releases en nieuwste updates {#releases}
    + [Vroege aanvullende informatie](start/e-release-notes.md)
    + [Aanvullende informatie ](start/release-notes.md)
    + [Guardrails](start/ac-guardrails.md)
    + [Bekende problemen](start/known-issues.md)
-   + [Klassiek v7 naar v8](start/v7-to-v8.md)
-+ Starten {#start}
-   + [Aan de slag](start/get-started.md)
+   + [Compatibiliteitsmatrix](start/compatibility-matrix.md)
++ Aan de slag {#start}
+   + [Aan de slag met Adobe Campaign](start/get-started.md)
+   + [Belangrijkste mogelijkheden](start/whats-new.md)
    + [Onderdelen en processen](start/ac-components.md)
+   + [Verbinding maken met Campaign](start/connect.md)
    + Campagne-interface {#ac-ui}
       + [Campagne-interface detecteren](start/campaign-ui.md)
       + [Campagne-interface aanpassen](start/customize-ui.md)
-   + [Werken met het publiek](start/audiences.md)
-   + [Privacyverzoeken beheren](start/privacy.md)
-   + [Gegevens importeren](start/import.md)
-   + [Campagnes maken](start/campaigns.md)
-   + [Berichten verzenden](start/create-message.md)
-   + [Lidmaatschappen beheren](start/subscriptions.md)
-   + [Track &amp; monitor](start/tracking.md)
-   + [Metriek en rapporten](start/reporting.md)
+      + [Mappen en weergaven beheren](audiences/folders-and-views.md)
+   + [Van Classic v7 naar v8](start/v7-to-v8.md)
    + [Veelgestelde vragen](start/campaign-faq.md)
-+ Architectuur {#architecture}
-   + [Algemene beginselen](architecture/general-architecture.md)
-   + [Architectuur](architecture/architecture.md)
-   + FDA Snowflake-implementatie {#fda}
-      + [Wat is FDA-Snowflake?](architecture/fda-deployment.md)
-   + Implementatie van ondernemingen (FFDA) {#ffda}
-      + [Wat is Campagne FDA?](architecture/enterprise-deployment.md)
-      + Kenmerken {#ffda-characteristics}
-         + [Sleutelbeheer en eenheid](architecture/keys.md)
-         + [Nieuwe API&#39;s](architecture/new-apis.md)
-         + [API-stagingmechanisme](architecture/staging.md)
-         + [Replicatiemechanisme](architecture/replication.md)
-+ Implementeren {#implement}
-   + [Implementatiestappen](start/implement.md)
-   + [Instantie aanpassen](dev/customize.md)
-   + [Beveiligingsrichtlijnen](config/security.md)
-   + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
-   + [Aanbevolen werkwijzen voor DataModel](dev/datamodel-best-practices.md)
-+ Implementeren {#deploy}
-   + [Compatibiliteitsmatrix](start/compatibility-matrix.md)
-   + [Verbinding maken met Campaign](start/connect.md)
-   + [Machtigingen](start/permissions.md)
-   + [Configuratiescherm ](config/self-service.md)
-+ Profielen en soorten publiek {#profiles-and-audiences}
-   + [Aan de slag](audiences/gs-audiences.md)
++ Campaign Management {#campaigns}
+   + [Aan de slag met campagnes](start/campaigns.md)
+   + [Documentatie over campagneorchestratie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
+   + Berichten verzenden{#send}
+      + [Aan de slag met berichten](start/create-message.md)
+      + E-mails {#emails}
+         + [E-mails ontwerpen en valideren](send/email.md)
+         + [E-mails verzenden en controleren](send/send.md)
+      + [Sms](send/sms.md)
+      + [Pushmeldingen](send/push.md)
+      + [REGELS](send/line.md)
+      + [Direct mail](send/direct-mail.md)
+      + [Twitter](send/twitter.md)
+      + [Transactionele berichten](send/transactional.md)
+      + Mislukking, stort en quarantaine{#failures}
+         + [Quarantines](send/quarantines.md)
+         + [Leveringsfouten](send/delivery-failures.md)
+      + [Tijdoptimalisatie verzenden](send/predictive.md)
+      + [Lidmaatschappen beheren](start/subscriptions.md)
++ Profiel- en publieksbeheer {#audience}
+   + [Aan de slag met profielen en doelgroepen](audiences/gs-audiences.md)
+   + [Werken met het publiek](start/audiences.md)
    + [Toegangsprofielen](audiences/view-profiles.md)
    + Profielen toevoegen {#add-profiles}
       + [Profielen handmatig maken](audiences/create-profiles.md)
@@ -72,23 +64,14 @@ ht-degree: 0%
    + Soorten publiek maken {#create-audiences}
       + [Een lijst met contactpersonen maken](audiences/create-audiences.md)
       + [Filters maken en beheren](audiences/create-filters.md)
-   + [Mappen en weergaven beheren](audiences/folders-and-views.md)
+   + [Stimulering delen met Adobe-oplossingen](start/shared-audiences.md)
    + [Best practices](audiences/audiences-best-practices.md)
-+ Berichten verzenden{#send}
-   + E-mails {#emails}
-      + [E-mails ontwerpen en valideren](send/email.md)
-      + [E-mails verzenden en controleren](send/send.md)
-   + [Sms](send/sms.md)
-   + [Pushmeldingen](send/push.md)
-   + [REGELS](send/line.md)
-   + [Direct mail](send/direct-mail.md)
-   + [Twitter](send/twitter.md)
-   + [Transactionele berichten](send/transactional.md)
-   + [Tijdoptimalisatie verzenden](send/predictive.md)
-   + Mislukking, stort en quarantaine{#failures}
-      + [Quarantines](send/quarantines.md)
-      + [Leveringsfouten](send/delivery-failures.md)
-+ Interactie in realtime{#interaction}
++ Contentmanagement {#content}
+   + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
++ Privacy- en beveiligingsbeheer {#privacy}
+   + [Privacyverzoeken beheren](start/privacy.md)
+   + [Beveiligingsrichtlijnen](config/security.md)
++ Beslissingsbeheer {#offers}
    + [Aan de slag met realtime interactie](interaction/interaction.md)
    + [Milieu en architectuur](interaction/interaction-architecture.md)
    + [Aanbevolen procedures](interaction/interaction-best-practices.md)
@@ -106,15 +89,17 @@ ht-degree: 0%
       + [Anonieme interacties beheren](interaction/anonymous-interactions.md)
    + [Rapporten en geschiedenis](interaction/interaction-tracking.md)
    + [Gebruiksscenario’s](interaction/interaction-use-cases.md)
-+ Configureren {#config}
-   + [Automatiseren met workflows](config/workflows.md)
-   + [E-mailinstellingen](config/email-settings.md)
-   + [Transactionele berichtinstellingen](config/transactional-msg-settings.md)
-   + [SDK&#39;s voor campagnes integreren met uw app](config/push-config.md)
-   + [Externe accounts](config/external-accounts.md)
-+ Verbinden {#connect}
-   + [Verbinden met andere oplossingen](connect/integration.md)
-   + [Campagne + Adobe Experience Platform](connect/ac-aep.md)
++ Rapportage en analyse {#analytics}
+   + [Track &amp; monitor](start/tracking.md)
+   + [Metriek en rapporten](start/reporting.md)
++ Data management {#data}
+   + [Aan de slag met workflows](config/workflows.md)
+   + [Gegevens importeren](start/import.md)
+   + [Workflowdocumentatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
++ Integraties {#connect}
+   + [Campagne verbinden met andere oplossingen](connect/integration.md)
+   + [Campagne + Experience Platform](connect/ac-aep.md)
+   + [Campagne + Journey Optimizer](connect/ac-ajo.md)
    + [Campagne + Analyse](connect/ac-aa.md)
    + [Campagne + Experience Manager](connect/ac-aem.md)
    + [Campagne + Doel](connect/ac-at.md)
@@ -126,6 +111,31 @@ ht-degree: 0%
       + [Werken met campagne en SFDC](connect/ac-sfdc.md)
       + [Werken met Campagne en Microsoft Dynamics](connect/ac-ms-dyn.md)
       + [Gegevens synchroniseren](connect/crm-data-sync.md)
++ Beheer {#admin}
+   + [Machtigingen](start/permissions.md)
+   + [Configuratiescherm ](config/self-service.md)
++ Architectuur en configuratie {#config}
+   + Architectuur {#architecture}
+      + [Algemene beginselen](architecture/general-architecture.md)
+      + [Architectuur](architecture/architecture.md)
+      + FDA Snowflake-implementatie {#fda}
+         + [Wat is FDA-Snowflake?](architecture/fda-deployment.md)
+      + Implementatie van ondernemingen (FFDA) {#ffda}
+         + [Wat is Campagne FDA?](architecture/enterprise-deployment.md)
+         + Kenmerken {#ffda-characteristics}
+            + [Sleutelbeheer en eenheid](architecture/keys.md)
+            + [Nieuwe API&#39;s](architecture/new-apis.md)
+            + [API-stagingmechanisme](architecture/staging.md)
+            + [Replicatiemechanisme](architecture/replication.md)
+   + Implementatie {#implement}
+      + [Implementatiestappen](start/implement.md)
+      + [Instantie aanpassen](dev/customize.md)
+      + [Aanbevolen werkwijzen voor DataModel](dev/datamodel-best-practices.md)
+   + Configuratie {#configuration}
+      + [E-mailinstellingen](config/email-settings.md)
+      + [Transactionele berichtinstellingen](config/transactional-msg-settings.md)
+      + [SDK&#39;s voor campagnes integreren met uw app](config/push-config.md)
+      + [Externe accounts](config/external-accounts.md)
 + Bronnen voor ontwikkelaars {#developer}
    + [Campaign datamodel](dev/datamodel.md)
    + Schema&#39;s en formulieren {#shemas-forms}

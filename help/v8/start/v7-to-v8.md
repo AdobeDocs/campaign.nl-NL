@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 1%
+source-wordcount: '637'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Als voormalig [!DNL Campaign Classic] v7 gebruiker, zou u geen grote verstoring 
 
 Adobe Campaign v8 is beschikbaar als een **Beheerde Cloud Service**.
 
-Adobe Campaign Managed Cloud Services biedt een Managed Services-platform voor het ontwerpen van ervaringen met klanten over meerdere kanalen en biedt een omgeving voor visuele campagneorchestratie, realtime interactiebeheer en uitvoering via meerdere kanalen. Meer informatie over Cloud Services van Campagne Managed in de [productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}.
+Adobe Campaign Managed Cloud Services biedt een platform van Beheerde Cloud Services voor het ontwerpen van klantervaringen over verschillende kanalen en biedt een omgeving voor visuele campagneorchestratie, interactiebeheer in real time en uitvoering over meerdere kanalen. Meer informatie over Cloud Services van Campagne Managed in de [productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}.
 
 Het nieuwe aanbod combineert services van topklasse met proactief toezicht en tijdige waarschuwingen, waarbij de nadruk ligt op drie gebieden:
 
