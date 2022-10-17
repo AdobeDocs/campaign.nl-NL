@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,27 +66,28 @@ Campagnegebruikers maken alleen verbinding via hun Adobe ID. Dezelfde Adobe ID w
 
 Met de module Marketing Analytics kunt u gegevens analyseren en meten, statistieken berekenen, het maken en berekenen van rapporten vereenvoudigen en optimaliseren. Daarnaast kunt u rapporten maken en doelgroepen opbouwen: zodra ze zijn geïdentificeerd, worden ze opgeslagen in lijsten die in Adobe Campaign kunnen worden gebruikt (gericht, segmentatie, enz.).
 
-Adobe Campaign-kubusrapporten zijn geoptimaliseerd en bieden betere schaalmogelijkheden dan Campaign Classic v7. Voormalige beperkingen op kubussen zijn niet van toepassing in Campaign v8.
+Met [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md)Adobe Campaign-kubusrapporten zijn geoptimaliseerd en bieden meer mogelijkheden op schaal dan Campaign Classic v7. In dat specifieke implementatiemodel zijn eerdere beperkingen op kubussen niet van toepassing in Campaign v8.
 
 ## Niet-beschikbare functies{#gs-unavailable-features}
 
 Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze versie van Campagne, zoals:
 
 * Marketing Resource Management
-* Hybride/on-premise plaatsingsmodellen
+* Coupons
+* Webtracking
+* Enquêtes
 
 
 ## Niet-ondersteunde functies{#gs-removed}
 
-Om zich aan het nieuwe architectuur en plaatsingsmodel van Campagne v8 aan te sluiten, worden sommige historische Campaign Classic v7 mogelijkheden niet meer gesteund met Campagne v8, zoals:
+Sommige historische Campaign Classic v7-mogelijkheden worden niet meer ondersteund met Campagne v8, zoals:
 
-* Coupons
-* Webtracking
-* Enquêtes
-* Social marketing
+* Sociale marketing met Facebook
 * ACS Connector (primaire aanbieding)
 * Integratie met LDAP
 * Gebruiker/wachtwoord aanmelden
+* Hybride/on-premise plaatsingsmodellen
+
 
 >[!NOTE]
 >
