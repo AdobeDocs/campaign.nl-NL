@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 0d9acc431efddc500701996996f846132eeafcdb
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 3%
+source-wordcount: '877'
+ht-degree: 4%
 
 ---
 
@@ -73,7 +73,7 @@ De belangrijkste mogelijkheden omvatten:
 >
 >* Campagne v8 is **alleen** beschikbaar als Beheerde Cloud Service, en kan niet op een ongebouw of hybride milieu&#39;s worden opgesteld.
 >
->* Migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
+>* Geautomatiseerde migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
 
 
 
