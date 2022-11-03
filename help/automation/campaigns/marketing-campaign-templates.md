@@ -4,9 +4,9 @@ title: Sjablonen voor marketingcampagnes
 description: Sjablonen voor marketingcampagnes
 feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -166,10 +166,9 @@ Wanneer u een campagnemalplaatje creeert, moet u de volgende informatie ingaan:
 
 * Voer de **label** van de template: het etiket is verplicht en is het standaardetiket voor alle campagnes die op dit malplaatje worden gebaseerd.
 * Selecteer de campagne **aard** in de vervolgkeuzelijst. De waarden in deze lijst zijn opgeslagen in **[!UICONTROL natureOp]** opsomming.
-   <!--
-  >[!NOTE]
-  >
-  >For more information on enumerations, refer to the [Getting Started](../../platform/using/managing-enumerations.md) section.-->
+
+Leer hoe te om tot uw opsommingen toegang te hebben en te vormen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+
 
 * Selecteer **type campagne**: uniek, terugkerend of periodiek. Standaard worden campagnemasjablonen toegepast op unieke campagnes. Recursieve en periodieke campagnes worden beschreven in [deze sectie](recurring-periodic-campaigns.md).
 * Geef de duur van de campagne op, d.w.z. het aantal dagen waarop de campagne zal plaatsvinden. Wanneer u een campagne maakt op basis van deze sjabloon, worden de begin- en einddatums van de campagne automatisch ingevuld.

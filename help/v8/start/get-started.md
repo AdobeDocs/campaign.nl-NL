@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 39%
@@ -72,7 +72,7 @@ Naast krachtige, out-of-the box rapporteringsmalplaatjes, kunt Adobe Campaign u 
 Met de functie voor campagnerapportage kunt u dynamische rapporten maken. U kunt variabelen voor slepen en neerzetten gebruiken om uw rapporten aan te passen en het succes van uw campagnes te analyseren. Afhankelijk van de complexiteit van uw query&#39;s en berekeningen, kunnen de gegevens worden samengevoegd in een lijstweergave of worden geopend in een indeling waarmee het eenvoudig is om marketinganalytische rapporten te genereren.
 
 
-![](../assets/do-not-localize/glass.png) Meer informatie over rapporten en traceringsmogelijkheden vindt u in [deze sectie](reporting.md).
+![](../assets/do-not-localize/glass.png) Meer informatie over rapporten en traceringsmogelijkheden vindt u in [deze sectie](../reporting/gs-reporting.md).
 
 ## Adobe Experience Cloud-integraties {#adobe-experience-cloud-integrations}
 

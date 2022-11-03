@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 docs
-source-git-commit: f3090d1da1aaec1a50452bcfbf89e65e2669fc5c
+source-git-commit: 863793e11b29f8f522e47d5158b64eacc0d2acb5
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '471'
 ht-degree: 25%
 
 ---
@@ -91,7 +91,19 @@ ht-degree: 25%
    + [Gebruiksscenario’s](interaction/interaction-use-cases.md)
 + Rapportage en analyse {#analytics}
    + [Track &amp; monitor](start/tracking.md)
-   + [Metriek en rapporten](start/reporting.md)
+   + Werken met rapporten{#reports}
+      + [Aan de slag met rapporten](reporting/gs-reporting.md)
+      + Kubussen maken{#cubes}
+         + [Aan de slag met kubussen](reporting/gs-cubes.md)
+         + [Een kubus maken](reporting/cube-indicators.md)
+         + [Kubussen gebruiken om rapporten te maken](reporting/cube-tables.md)
+         + [Aanbevolen procedures voor kubussen](reporting/cube-best-practices.md)
+      + Ingebouwde rapporten{#ac-reports}
+         + [Lijst met ingebouwde rapporten](reporting/built-in-reports.md)
+         + [Algemene rapporten](reporting/global-reports.md)
+         + [Leveringsrapporten](reporting/delivery-reports.md)
+         + [Berekening van ingebouwde metriek](reporting/metrics-calculation.md)
+      + [Aangepaste rapporten](reporting/custom-reports.md)
 + Data management {#data}
    + [Aan de slag met workflows](config/workflows.md)
    + [Gegevens importeren](start/import.md)
