@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 docs
-source-git-commit: b9928cc3bda0c0a1a0d5a43b2604615d7472b419
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -97,7 +97,7 @@ ht-degree: 0%
          + [Aan de slag met kubussen](reporting/gs-cubes.md)
          + [Een kubus maken](reporting/cube-indicators.md)
          + [Kubussen gebruiken om rapporten te maken](reporting/cube-tables.md)
-         + [Kubussen aanpassen](reporting/cube-best-practices.md)
+         + [Kubussen aanpassen](reporting/customize-cubes.md)
       + Ingebouwde rapporten{#ac-reports}
          + [Lijst met ingebouwde rapporten](reporting/built-in-reports.md)
          + [Algemene rapporten](reporting/global-reports.md)

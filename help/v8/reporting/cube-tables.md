@@ -3,10 +3,10 @@ product: campaign
 title: Kubussen gebruiken om rapporten over gegevens te maken
 description: Leer hoe u kubussen kunt gebruiken om rapporten te maken
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ De **[!UICONTROL Add]** met de knoppen op elke as kunt u dimensies toevoegen.
 
    Deze parameters zijn afhankelijk van het gegevenstype van de geselecteerde dimensie.
 
-   Voor datums kunnen bijvoorbeeld verschillende niveaus beschikbaar zijn. Raadpleeg voor meer informatie hierover [Weergavemetingen](cube-best-practices.md#display-measures).
+   Voor datums kunnen bijvoorbeeld verschillende niveaus beschikbaar zijn. Raadpleeg voor meer informatie hierover [Weergavemetingen](customize-cubes.md#display-measures).
 
    In dat geval zijn de volgende opties beschikbaar:
 
@@ -102,7 +102,7 @@ Volg onderstaande stappen om maatregelen toe te voegen en te configureren:
 
    ![](assets/cube-pivot-table-config.png)
 
-   Vervolgens kunt u kiezen of u maatlabels wilt weergeven of niet. [Meer informatie](cube-best-practices.md#configure-the-display).
+   Vervolgens kunt u kiezen of u maatlabels wilt weergeven of niet. [Meer informatie](customize-cubes.md#configure-the-display).
 
 1. U kunt nieuwe maatregelen bouwen die op bestaande worden gebaseerd. Klik op **[!UICONTROL Create a measure]** en configureren.
 

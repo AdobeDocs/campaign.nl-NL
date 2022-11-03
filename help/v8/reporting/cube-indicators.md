@@ -4,10 +4,10 @@ description: Leer hoe u kubussen maakt
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ Voer de volgende stappen uit om een kubus te maken:
 1. Selecteer de werktabel. [Meer informatie](#select-the-work-table).
 1. Definieer de afmetingen. [Meer informatie](#define-dimensions).
 1. Bepaal maatregelen. [Meer informatie](#build-indicators).
-1. Maak aggregaten (optioneel). [Meer informatie](cube-best-practices.md#calculate-and-use-aggregates).
+1. Maak aggregaten (optioneel). [Meer informatie](customize-cubes.md#calculate-and-use-aggregates).
 
 In het onderstaande voorbeeld leert u hoe u snel een eenvoudige kubus maakt in een rapport om de bijbehorende maatregelen te exporteren.
 
@@ -90,7 +90,7 @@ Volg onderstaande stappen om afmetingen te maken:
 
 1. In dit voorbeeld selecteren we de ontvanger **Leeftijd**. Voor dit gebied, kunt u het binden aan groepspagina&#39;s bepalen en informatie het lezen gemakkelijker maken. We raden u aan binden te gebruiken wanneer er meerdere afzonderlijke waarden mogelijk zijn.
 
-Om dit te doen, controleer **[!UICONTROL Enable binning]** optie. [Meer informatie](cube-best-practices.md#data-binning).
+Om dit te doen, controleer **[!UICONTROL Enable binning]** optie. [Meer informatie](customize-cubes.md#data-binning).
 
 1. Voeg een **Datum** typedimensie. Hier willen we datums weergeven waarop het ontvangende profiel is gemaakt. Klik op **[!UICONTROL Add]** en selecteert u de **[!UICONTROL Creation date]** in de tabel met ontvangers.
 U kunt de modus voor datumweergave aanpassen. Selecteer hiervoor de hiërarchie die u wilt gebruiken en de niveaus die u wilt genereren:
@@ -109,7 +109,7 @@ Selecteer de opsomming in de vervolgkeuzelijst. Deze opsomming moet worden gedef
 
 Alleen de waarden in de opsomming worden weergegeven. De overige worden gegroepeerd onder het label dat is gedefinieerd in het dialoogvenster **[!UICONTROL Label of the other values]** veld.
 
-Raadpleeg [deze sectie](cube-best-practices.md#dynamically-manage-bins) voor meer informatie.
+Raadpleeg [deze sectie](customize-cubes.md#dynamically-manage-bins) voor meer informatie.
 
 ### Indicatoren samenstellen {#build-indicators}
 
@@ -124,7 +124,7 @@ Volg onderstaande stappen om indicatoren te maken:
 
    ![](assets/cube-new-measure.png)
 
-   Gebruik de **[!UICONTROL Filter the measure data...]** link naar alleen vrouwen. [Meer informatie](cube-best-practices.md#define-measures).
+   Gebruik de **[!UICONTROL Filter the measure data...]** link naar alleen vrouwen. [Meer informatie](customize-cubes.md#define-measures).
 
    ![](assets/cube-filter-measure-data.png)
 
