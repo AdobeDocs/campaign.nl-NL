@@ -4,7 +4,7 @@ description: Het succes van uw campagnes meten en het gebruikersgedrag analysere
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: d8dd91453c035703b4ffd5c8b9816f27392874d6
+source-git-commit: 8fb1f57b82ce3b99dabf584a6434d9111dc8b5af
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 4%
@@ -15,7 +15,6 @@ ht-degree: 4%
 # Aan de slag met rapportage{#gs-ac-reports}
 
 Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt vermeld.
-
 
 * **Kubussen**
 
