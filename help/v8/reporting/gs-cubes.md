@@ -4,10 +4,10 @@ description: Leer hoe u kubussen maakt
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: cc7195e90c38489f8e3946d6abd190effd41941a
+source-git-commit: bd39a18178edec2730707f0323a19c9d1c80cd76
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 13%
 
 ---
 
@@ -18,6 +18,13 @@ Adobe Campaign wordt geleverd met een intuïtief hulpprogramma voor gegevensverk
 Gebruik de mogelijkheden voor marketinganalyses om gegevens te analyseren en te meten, statistieken te berekenen, het maken en berekenen van rapporten te vereenvoudigen en te optimaliseren. U kunt rapporten creëren en doelpopulaties bouwen en hen opslaan in lijsten die in Adobe Campaign voor het richten of segmenteren van taken kunnen worden gebruikt.
 
 U kunt de mogelijkheden van databaseverkenning en -analyse uitbreiden terwijl het voor eindgebruikers gemakkelijker wordt om rapporten en tabellen te configureren. Alles wat gebruikers moeten doen is een bestaande (volledig geconfigureerde) kubus selecteren bij het maken van hun rapport of tabel om berekeningen, metingen en statistieken te verwerken.
+
+De kubussen worden gebruikt voor het produceren van bepaalde ingebouwde rapporten, met inbegrip van [leveringsrapporten](delivery-reports.md) (levering het volgen, klikt, opent, etc.).
+
+>[!CAUTION]
+>
+>In een [[!DNL Snowflake] Implementatie van FDA (standaard)](../architecture/fda-deployment.md)Op kubussen gebaseerde rapporten mogen alleen worden gebruikt voor gegevensvolumes onder 5 miljoen feitenlijnen.
+
 
 Zodra kubussen zijn gemaakt en geconfigureerd, worden ze gebruikt in vakken voor rapportquery’s en webapplicaties. Ze kunnen worden gebruikt en bewerkt binnen draaitabellen.
 
