@@ -3,16 +3,14 @@ product: campaign
 title: SQL Data Management
 description: Meer informatie over de workflowactiviteit van SQL Data Management
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 2%
+source-wordcount: '366'
+ht-degree: 1%
 
 ---
 
 # SQL-gegevensbeheer{#sql-data-management}
-
-
 
 De **SQL-gegevensbeheer** Met activiteit kunt u uw eigen SQL-scripts schrijven om werktabellen te maken en te vullen.
 
@@ -20,16 +18,9 @@ De **SQL-gegevensbeheer** Met activiteit kunt u uw eigen SQL-scripts schrijven o
 
 Voordat u de activiteit configureert, moet u controleren of aan de volgende voorwaarden is voldaan:
 
-* De activiteit is beschikbaar voor verre slechts gegevensbronnen. De **.
-
-   Raadpleeg de volgende secties voor meer informatie, afhankelijk van uw campagneversie:
-
-   !
-
-   ![](assets/do-not-localize/v8.png)[  Documentatie voor Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
-
+* De activiteit is beschikbaar voor verre slechts gegevensbronnen.
 * Het uitgaande schema moet in het gegevensbestand bestaan en met een gegevensbestand FDA worden verbonden.
-* De exploitant die de werkstroom uitvoert moet ** hebben.
+
 
 ## De SQL-gegevensbeheeractiviteit configureren {#configuring-the-sql-data-management-activity}
 

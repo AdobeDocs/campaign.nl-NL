@@ -3,9 +3,9 @@ product: campaign
 title: Query
 description: Meer informatie over de activiteit van de Query-workflow
 feature: Workflows, Targeting Activity, Query Editor
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -176,12 +176,6 @@ In de onderstaande sectie vindt u tips en trucs voor het optimaliseren van query
    Een algemene fout is: `iBlacklist='3'` waar `iBlacklist` is een numeriek veld, en `3` Geeft een tekstwaarde aan.
 
    Zorg ervoor u weet wat het uitvoeringsplan van uw vraag zal zijn. Vermijd volledig lijstaftasten, vooral voor vragen in real time of dichtbij vragen in real time die elke minuut lopen.
-
-   Raadpleeg de volgende secties voor meer informatie, afhankelijk van uw campagneversie:
-
-   !
-
-   ![](assets/do-not-localize/v8.png)[  Documentatie voor Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html)
 
 ### Functies {#functions}
 

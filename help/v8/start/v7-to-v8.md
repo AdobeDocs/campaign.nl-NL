@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '643'
+ht-degree: 3%
 
 ---
 
@@ -66,7 +66,7 @@ Campagnegebruikers maken alleen verbinding via hun Adobe ID. Dezelfde Adobe ID w
 
 Met de module Marketing Analytics kunt u gegevens analyseren en meten, statistieken berekenen, het maken en berekenen van rapporten vereenvoudigen en optimaliseren. Daarnaast kunt u rapporten maken en doelgroepen opbouwen: zodra ze zijn geïdentificeerd, worden ze opgeslagen in lijsten die in Adobe Campaign kunnen worden gebruikt (gericht, segmentatie, enz.).
 
-Met [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md)Adobe Campaign-kubusrapporten zijn geoptimaliseerd en bieden meer mogelijkheden op schaal dan Campaign Classic v7. In dat specifieke implementatiemodel zijn eerdere beperkingen op kubussen niet van toepassing in Campaign v8.
+Met Adobe Campaign v8 zijn kubusrapporten geoptimaliseerd en bieden ze betere schaalmogelijkheden dan Campaign Classic v7. In dat specifieke implementatiemodel zijn eerdere beperkingen op kubussen niet van toepassing in Campaign v8. Meer informatie over kubussen in [deze sectie](../../v8/reporting/gs-cubes.md).
 
 ## Niet-beschikbare functies{#gs-unavailable-features}
 

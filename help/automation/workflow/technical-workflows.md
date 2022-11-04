@@ -4,7 +4,7 @@ title: Technische workflows
 description: Meer informatie over de technische workflows die beschikbaar zijn via Campagne
 feature: Workflows
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
 source-wordcount: '1654'
 ht-degree: 2%
@@ -63,7 +63,7 @@ Leer hoe u de technische workflows in deze [speciale sectie](monitor-technical-w
 | **Gebeurtenis leegmaken** (webAnalyticsPurgeWebEvents) | Webanalytische connectors | Met deze workflow kunt u elke gebeurtenis uit het databaseveld verwijderen op basis van de periode die is geconfigureerd in het veld Lifespan. |
 | **Soorten publiek exporteren naar de Adobe Experience Cloud** (exportSharedAudience) | Integratie met Adobe Experience Cloud | Deze workflow exporteert soorten publiek als gedeeld publiek/segmenten. Deze doelgroepen kunnen worden gebruikt in de verschillende Adobe Experience Cloud-oplossingen die u gebruikt. |
 | **Voorspelling** (prognoses) | Levering | Deze workflow analyseert leveringen die zijn opgeslagen in de voorlopige kalender (maakt voorlopige logbestanden). Het wordt teweeggebracht elke dag bij 1am door gebrek. |
-| **Volledige geaggregeerde berekening (voorzettingskubus)** (agg_nmsproposition_rcp_full) | Aanbiedingsengine (interactie) | Deze workflow werkt het volledige aggregaat voor de keuzelijst met voorstellen van aanbiedingen bij. Het wordt teweeggebracht elke dag om 6 uur door gebrek. In dit aggregaat worden de volgende afmetingen vastgelegd: Kanaal, levering, marketingaanbieding en datum. De blokje van het voorstel van de Aanbieding wordt dan gebruikt om rapporten te produceren die op voorstellen worden gebaseerd. Je kunt meer leren over kubussen in. |
+| **Volledige geaggregeerde berekening (voorzettingskubus)** (agg_nmsproposition_rcp_full) | Aanbiedingsengine (interactie) | Deze workflow werkt het volledige aggregaat voor de keuzelijst met voorstellen van aanbiedingen bij. Het wordt teweeggebracht elke dag om 6 uur door gebrek. In dit aggregaat worden de volgende afmetingen vastgelegd: Kanaal, levering, marketingaanbieding en datum. De blokje van het voorstel van de Aanbieding wordt dan gebruikt om rapporten te produceren die op voorstellen worden gebaseerd. Meer informatie over kubussen in  [deze sectie](../../v8/reporting/gs-cubes.md). |
 | **Identificatie van omgezette contactpersonen** (webAnalyticsFindConverted) | Webanalytische connectors | Deze workflow indexeert bezoekers van de site die hun aankoop hebben voltooid na een campagne voor het opnieuw op de markt brengen van producten. De gegevens die door deze workflow worden hersteld, zijn toegankelijk via het efficiëntierapport voor opnieuw in de handel brengen (zie deze pagina). |
 | **Publiek importeren uit de Adobe Experience Cloud** (importSharedAudience) | Integratie met Adobe Experience Cloud | Met deze workflow kunt u soorten publiek/segmenten van verschillende Adobe Experience Cloud-oplossingen importeren in Adobe Campaign. |
 | **Banen op leveringen in campagnes** (deliveryMgt) | Standaard geïnstalleerd | Deze workflow activeert de goedgekeurde leveringen en start de naverwerking van de serviceprovider voor een externe levering. Het verzendt ook goedkeuringsberichten en herinneringen. |
