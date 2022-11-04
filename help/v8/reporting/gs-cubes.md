@@ -4,9 +4,9 @@ description: Leer hoe u kubussen maakt
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: bd39a18178edec2730707f0323a19c9d1c80cd76
+source-git-commit: bead34ec59f6f3dca0fbec8460d58ec7da2ed76f
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '525'
 ht-degree: 13%
 
 ---
@@ -20,11 +20,6 @@ Gebruik de mogelijkheden voor marketinganalyses om gegevens te analyseren en te 
 U kunt de mogelijkheden van databaseverkenning en -analyse uitbreiden terwijl het voor eindgebruikers gemakkelijker wordt om rapporten en tabellen te configureren. Alles wat gebruikers moeten doen is een bestaande (volledig geconfigureerde) kubus selecteren bij het maken van hun rapport of tabel om berekeningen, metingen en statistieken te verwerken.
 
 De kubussen worden gebruikt voor het produceren van bepaalde ingebouwde rapporten, met inbegrip van [leveringsrapporten](delivery-reports.md) (levering het volgen, klikt, opent, etc.).
-
->[!CAUTION]
->
->In een [[!DNL Snowflake] Implementatie van FDA (standaard)](../architecture/fda-deployment.md)Op kubussen gebaseerde rapporten mogen alleen worden gebruikt voor gegevensvolumes onder 5 miljoen feitenlijnen.
-
 
 Zodra kubussen zijn gemaakt en geconfigureerd, worden ze gebruikt in vakken voor rapportquery’s en webapplicaties. Ze kunnen worden gebruikt en bewerkt binnen draaitabellen.
 
