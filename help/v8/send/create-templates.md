@@ -5,14 +5,14 @@ description: Leer hoe u leveringssjablonen maakt en gebruikt in Campagne
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 822d1bee472330b6195ad9527a7e23e90c7650b4
+source-git-commit: 1c0015a02ff950d9bf9d33aacebf899db9e580fa
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '699'
 ht-degree: 7%
 
 ---
 
-# Werken met leveringssjabloon{#creating-a-delivery-template}
+# Werken met leveringssjabloon{#work-with-delivery-template}
 
 Gebruik leveringssjablonen om de creatieve vormgeving te standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren.
 
@@ -27,9 +27,12 @@ Een sjabloon kan systematisch het volgende bevatten:
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#delivery-template-video)
 
+
+## Een sjabloon maken{#create-a-delivery-template}
+
 Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen.
 
-## Een bestaande sjabloon kopiëren{#copy-an-existing-template}
+### Een bestaande sjabloon dupliceren{#copy-an-existing-template}
 
 De campagne komt met een reeks ingebouwde malplaatjes voor elk kanaal: email, push, SMS, direct mail en nog veel meer.
 
@@ -51,7 +54,7 @@ De sjabloon wordt toegevoegd aan de lijst met leveringssjablonen. U kunt deze nu
 
 ![](assets/select-the-new-template.png)
 
-## Een bestaande levering converteren naar een sjabloon {#convert-an-existing-delivery}
+### Een bestaande levering converteren naar een sjabloon {#convert-an-existing-delivery}
 
 Een levering kan in een malplaatje voor nieuwe herhaalde leveringsacties worden omgezet.
 
@@ -67,7 +70,7 @@ Volg onderstaande stappen om een levering naar een sjabloon om te zetten:
 
    ![](assets/template-select-folders.png)
 
-## Een nieuwe sjabloon maken {#create-a-new-template}
+### Een nieuwe sjabloon maken {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -87,7 +90,9 @@ Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te con
 1. Klikken **Opslaan**. Je template is nu klaar om te worden gebruikt in een levering.
 
 
-## Een levering maken met een sjabloon{#create-a-delivery-from-a-template}
+## Sjablonen gebruiken{#use-a-delivery-template}
+
+### Een levering maken met een sjabloon{#create-a-delivery-from-a-template}
 
 Als u een levering wilt maken op basis van een bestaande sjabloon, selecteert u de sjabloon in de lijst met beschikbare leveringssjablonen.
 
