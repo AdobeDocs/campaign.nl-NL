@@ -4,16 +4,14 @@ title: Cross-channel leveringsworkflow
 description: Meer informatie over workflows voor levering via meerdere kanalen
 feature: Workflows, Channels Activity
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 5b4d569a6e96c93828f63fb8376eb81301829854
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
+source-wordcount: '626'
+ht-degree: 4%
 
 ---
 
 # Cross-channel leveringsworkflow{#cross-channel-delivery-workflow}
-
-
 
 In dit geval wordt een voorbeeld weergegeven met een workflow voor levering over meerdere kanalen. Het algemene concept van de levering over meerdere kanalen wordt weergegeven in [deze sectie](cross-channel-deliveries.md).
 
@@ -31,7 +29,7 @@ De belangrijkste stappen voor de implementatie van dit gebruiksgeval zijn als vo
 
 ![](assets/wkf_cross-channel_7.png)
 
-## Stap 1: Het doelpubliek {#step-1--targeting-the-audience}
+## Stap 1: Het publiek samenstellen {#step-1--build-the-audience}
 
 Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
@@ -44,9 +42,9 @@ Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
 1. Sla uw wijzigingen op.
 
-## Stap 2: Een e-mail maken met een aanbieding {#step-2--creating-an-email-including-an-offer}
+## Stap 2: Een e-mail met een voorstel maken {#step-2--create-an-email-including-an-offer}
 
-1. Een ** maken.
+1. Een e-maillevering maken.
 1. Ontwerp het bericht en voeg een verbinding met inbegrip van een aanbieding in de inhoud op.
 
    ![](assets/wkf_cross-channel_1.png)
@@ -65,7 +63,7 @@ Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
    ![](assets/wkf_cross-channel_4.png)
 
-## Stap 3: Het resulterende publiek segmenteren {#step-3--segmenting-the-resulting-audience}
+## Stap 3: Het resulterende publiek segmenteren {#step-3--segment-the-resulting-audience}
 
 Zodra uw doel wordt geïdentificeerd en uw eerste levering gecreeerd, moet u het doel in verschillende populaties segmenteren gebruikend het filtreren voorwaarden.
 
@@ -101,7 +99,7 @@ Zodra uw doel wordt geïdentificeerd en uw eerste levering gecreeerd, moet u het
 
 1. Klikken **[!UICONTROL Finish]** om uw wijzigingen op te slaan.
 
-## Stap 4: De workflow voltooien {#step-4--finalizing-the-workflow}
+## Stap 4: De workflow voltooien {#step-4--finalize-the-workflow}
 
 1. Voeg relevante activiteiten toe aan uw werkstroom na de drie subsets die het resultaat zijn van de **[!UICONTROL Split]** activiteit:
 

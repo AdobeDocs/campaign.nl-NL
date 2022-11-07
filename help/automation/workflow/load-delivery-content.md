@@ -4,16 +4,14 @@ title: Leveringscontent laden
 description: Leveringscontent laden
 feature: Workflows
 exl-id: 08febcbc-1703-4d36-89e1-32c903618084
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 9dfb1acd97e529a8b60119154b3728c883dd9c97
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '304'
 ht-degree: 3%
 
 ---
 
 # Leveringscontent laden{#loading-delivery-content}
-
-
 
 Als uw leveringsinhoud beschikbaar is in een HTML-bestand dat zich op Amazon S3-, FTP- of SFTP-servers bevindt, kunt u deze inhoud gemakkelijk laden in Adobe Campaign-leveringen.
 
@@ -52,6 +50,3 @@ Dit doet u als volgt:
 
 1. Sla de workflow op en voer deze uit. Een nieuwe levering met de geladen inhoud wordt onder gemaakt **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
->[!NOTE]
->
->De beste praktijken en het oplossen van problemen op het servergebruik van SFTP zijn gedetailleerd.
