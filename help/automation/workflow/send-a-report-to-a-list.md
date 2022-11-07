@@ -3,10 +3,10 @@ product: campaign
 title: Een rapport naar een lijst verzenden
 description: Leer hoe u een rapport naar een lijst met een workflow kunt verzenden
 feature: Workflows
-source-git-commit: e211c0f01a4813ad29f47652fffac2b44bc0f867
+source-git-commit: 4c3caa8e31c2076d32a03a8778a28edce50cde63
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,7 @@ Volg onderstaande stappen om de leveringssjabloon te maken:
 
    * Selecteer **[!UICONTROL Advanced]** tab en check **[!UICONTROL Script the name of the file name displayed in the mails sent]**. In de tekstzone, ga de naam van de gehechtheid in de definitieve levering in.
 
-      ![](assets/use_case_report_6bis.png)
+      ![](assets/use_case_report_6b.png)
 
 ## Stap 3: De workflow maken {#step-3--creating-the-workflow}
 
