@@ -4,16 +4,16 @@ title: Aan de slag met campagnetypen
 description: Leer hoe te vormen en campagnetypologieën uitvoeren
 feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 18%
+source-wordcount: '477'
+ht-degree: 16%
 
 ---
 
 # Aan de slag met campagnetypen{#about-campaign-typologies}
 
-De Optimalisering van de campagne is de module van Adobe Campaign die u de verzendende leveringen laat controleren, filtreren en controleren. Om conflicten tussen campagnes te vermijden kan Adobe Campaign diverse combinaties testen door specifieke beperkingsregels toe te passen. Dit garandeert dat de verzonden berichten voldoen aan de behoeften en verwachtingen van klanten en het communicatiebeleid van het bedrijf.
+**Campagne optimaliseren** Dit is de Adobe Campaign-module waarmee u het verzenden van leveringen kunt beheren, filteren en controleren. Om conflicten tussen campagnes te vermijden kan Adobe Campaign diverse combinaties testen door specifieke beperkingsregels toe te passen. Dit garandeert dat de verzonden berichten voldoen aan de behoeften en verwachtingen van klanten en het communicatiebeleid van het bedrijf.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#typologies-video)
 
@@ -23,14 +23,9 @@ De Optimalisering van de campagne is de module van Adobe Campaign die u de verze
 
 ## Typologische regels en typologieën {#typology-rules}
 
-Met Adobe Campaign kunt u vier typen **typologieregels**:
+Campagne wordt standaard geleverd met ingebouwde typologieën en typologische regels.
 
-* **Filteren** regels waarmee u een deel van het doel kunt uitsluiten op basis van criteria. [Meer informatie](filtering-rules.md).
-* **Druk** regels die u in staat stellen om vermoeidheid bij het in de handel brengen te beheersen. [Meer informatie](pressure-rules.md).
-* **Capaciteit** regels waarmee u de belasting kunt beperken om optimale verwerkingsomstandigheden te garanderen. [Meer informatie](consistency-rules.md#controlling-capacity).
-* **Control** regels waarmee u de geldigheid van berichten kunt controleren voordat deze worden verzonden. [Meer informatie](control-rules.md).
-
-Als ze eenmaal zijn gemaakt, worden de typologische regels gegroepeerd in campagne **typologieën** waarnaar in leveringen wordt verwezen. [Meer informatie](#apply-typologies).
+Een typologie is een set verificatieregels die tijdens de leveringsanalyse op alle berichten worden toegepast.
 
 Een campagneretypologie kan verschillende typologische regels bevatten, maar een levering kan slechts naar één typologie verwijzen.
 
@@ -40,16 +35,36 @@ Voor elke typologie wordt **[!UICONTROL Rules]** kunt u de toe te passen typolog
 
 ![](assets/campaign_opt_rules_tab.png)
 
-## Belangrijke stappen om typologieën toe te passen {#apply-typologies}
+Als ze eenmaal zijn gemaakt, worden de typologische regels gegroepeerd in campagne **typologieën** waarnaar in leveringen wordt verwezen. [Meer informatie](#apply-typologies).
 
-De belangrijkste stappen voor het maken en toepassen van een typologie voor uw leveringen worden hieronder weergegeven:
+
+Campagne wordt geleverd met een set standaardinstellingen **Filteren** en **Control** regels:
+
+* **Filteren** regels worden gebruikt om een deel van de doelstelling op basis van criteria uit te sluiten . [Meer informatie](filtering-rules.md).
+* **Control** de regels laten u de geldigheid van berichten controleren alvorens zij worden verzonden. [Meer informatie](control-rules.md).
+
+De invoegtoepassing Campagne optimaliseren biedt twee extra typen **typologieregels**:
+
+* **Druk** regels die u in staat stellen om vermoeidheid bij het in de handel brengen te beheersen. [Meer informatie](pressure-rules.md).
+* **Capaciteit** regels waarmee u de belasting kunt beperken om optimale verwerkingsomstandigheden te garanderen. [Meer informatie](consistency-rules.md#controlling-capacity).
+
+
+>[!NOTE]
+>
+>Als u het **Interactie** kunt u ook **Presentatie aanbieden** typologieregels om de stroom van voorstellen te controleren met behulp van presentatieregels. [Meer informatie](../../v8/interaction/interaction-offer.md#offer-presentation).
+
+
+## Belangrijke stappen voor het maken en gebruiken van typologieën {#apply-typologies}
+
+Volg onderstaande stappen om een typologie voor uw leveringen te maken en te gebruiken:
 
 1. Maak typologische regels en maak een typologie om ernaar te verwijzen.
 De gedetailleerde stappen worden vermeld in de volgende sectie:
-   * [Drukregels](pressure-rules.md)
+
    * [Filterregels](filtering-rules.md)
-   * [Capaciteitsregels](consistency-rules.md)
    * [Controleregels](control-rules.md)
+   * [Drukregels](pressure-rules.md)
+   * [Capaciteitsregels](consistency-rules.md)
 
 1. Vorm uw levering om de typologie te gebruiken u creeerde. [Meer informatie](apply-rules.md#apply-a-typology-to-a-delivery).
 1. Test en controleer het gedrag door campagnesimulaties. [Meer informatie](campaign-simulations.md).
@@ -64,10 +79,10 @@ Er zijn gevallen van monstergebruik voor de druktypologische regels beschikbaar 
 
 In deze video wordt uitgelegd hoe u vermoeidheidsbeheer in Adobe Campaign kunt implementeren door gebruik te maken van typologische regels.
 
->[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333787?quality=12)
 
 ### Vermoeidheidsbeheer instellen met behulp van vooraf gedefinieerde filters
 
 Moeheidsbeheer bepaalt de frequentie en de hoeveelheid van de berichten om de ontvangers niet te overspoelen. Als u niet de module van de campagneroptimalisering in uw campagneinstantie hebt, kunt u een vooraf bepaald filter vormen dat de doelbevolking door het aantal ontvangen berichten zal filtreren Deze video verklaart hoe te om vermoeidheidsbeheer in Adobe Campaign uit te voeren door filters te gebruiken.
 
->[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)

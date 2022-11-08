@@ -2,7 +2,7 @@
 audience: user
 user-guide-title: Handleiding Campagne Automation Guide
 user-guide-description: Handleiding Campagne Automation Guide
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -145,10 +145,10 @@ ht-degree: 83%
    + [Providers, voorraden en budgetten](campaigns/providers--stocks-and-budgets.md)
 + Campagne optimaliseren (add-on){#campaign-optimization}
    + [Aan de slag met campagnetypen](campaign-opt/campaign-typologies.md)
+   + [Filterregels](campaign-opt/filtering-rules.md)
+   + [Controleregels](campaign-opt/control-rules.md)
    + [Drukregels](campaign-opt/pressure-rules.md)
    + [Consistentieregels](campaign-opt/consistency-rules.md)
-   + [Controleregels](campaign-opt/control-rules.md)
-   + [Filterregels](campaign-opt/filtering-rules.md)
    + [Regels toepassen](campaign-opt/apply-rules.md)
    + [Campagnesimulaties](campaign-opt/campaign-simulations.md)
 + Distributed Marketing (add-on) {#distributed-marketing}

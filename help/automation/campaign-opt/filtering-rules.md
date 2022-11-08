@@ -4,16 +4,16 @@ title: Filterregels configureren
 description: Leer hoe te om het filtreren regels te vormen
 feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
 
 # Filterregels{#filtering-rules}
 
-Met filterregels kunt u de berichten definiëren die u wilt uitsluiten op basis van criteria die in een query zijn gedefinieerd. Deze regels zijn gekoppeld aan een doelgerichte dimensie.
+Gebruik het filtreren regels om berichten te selecteren om uit te sluiten gebaseerd op criteria die in een vraag worden bepaald. Deze regels zijn gekoppeld aan een doelgerichte dimensie.
 
 Filterregels kunnen worden gekoppeld aan andere soorten regels (controle, druk, enz.) in typologieën, of gegroepeerd in een specifiek **Filteren** typologie. [Meer informatie](#create-and-use-a-filtering-typology).
 
@@ -23,11 +23,12 @@ Bijvoorbeeld, kunt u uw nieuwsbrief abonnees filtreren om mededelingen te verhin
 
 Pas de volgende stappen toe om dit filter te definiëren:
 
-1. Een **[!UICONTROL Filtering]** typologieregel die van toepassing is op alle communicatiekanalen.
+1. Bladeren naar de **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** map Campagneexporter en klik op de knop **Nieuw** om een typologieregel te maken.
+1. Een **[!UICONTROL Filtering]** typologieregel die op alle kanalen van toepassing is.
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. Wijzig de standaarddimensie voor het opgeven van doelen en selecteer de abonnementen (**nms:abonnement**).
+1. Van de **Filter** tabblad wijzigt u de standaarddoeldimensie in **Abonnementen** (**nms:abonnement**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
@@ -35,11 +36,15 @@ Pas de volgende stappen toe om dit filter te definiëren:
 
    ![](assets/campaign_opt_create_filter_03.png)
 
-1. Koppel deze regel aan een campagnetypologie en sla deze op.
+1. Filter op de ontvankelijke leeftijd en sla de het filtreren voorwaarde op.
+
+   ![](assets/campaign_opt_create_filter_03b.png)
+
+1. Van de **Typologieën** , koppelt u deze regel aan een campagnetypologie en slaat u deze op.
 
    ![](assets/campaign_opt_create_filter_04.png)
 
-Wanneer deze regel in een levering wordt gebruikt, worden minderjarige abonnees automatisch uitgesloten. Een specifiek bericht geeft regeltoepassing aan:
+Wanneer deze regel in een levering wordt gebruikt, worden minderjarige abonnees automatisch uitgesloten. Een specifiek bericht geeft aan wanneer de regel wordt toegepast:
 
 ![](assets/campaign_opt_create_filter_05.png)
 
@@ -47,9 +52,11 @@ Wanneer deze regel in een levering wordt gebruikt, worden minderjarige abonnees 
 
 U kunt het toepassingsgebied van de het filtreren regel beperken die op de verbonden levering of leveringsoverzicht wordt gebaseerd.
 
-Ga om dit te doen naar de **[!UICONTROL General]** selecteert u het type beperking dat u wilt toepassen en maakt u het filter, zoals hieronder wordt weergegeven:
-
+Ga om dit te doen naar de **[!UICONTROL General]** selecteert u het type beperking dat u wilt toepassen en maakt u het filter.
+<!--
 ![](assets/campaign_opt_create_filter_06.png)
+-->
+
 
 In dit geval wordt de regel, zelfs als deze aan alle leveringen is gekoppeld, alleen toegepast op leveringen die aan de criteria van het gedefinieerde filter voldoen.
 
