@@ -4,7 +4,7 @@ title: Aan de slag met gedistribueerde marketing
 description: Aan de slag met gedistribueerde marketing
 feature: Distributed Marketing
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 0%
@@ -12,8 +12,6 @@ ht-degree: 0%
 ---
 
 # Aan de slag met gedistribueerde marketing{#about-distributed-marketing}
-
-
 
 Adobe Campaign biedt een **Distributed Marketing** aanvraag tot uitvoering van samenwerkingscampagnes tussen centrale entiteiten (hoofdkantoor, marketingafdelingen, enz.) en lokale entiteiten (verkooppunten, regionale agentschappen, enz.). Deze samenwerking is gebaseerd op een gedeelde werkruimte, die bekend staat als de **[!UICONTROL list of campaign packages]**, waar centraal gemaakte campagnemalplaatjes en -instanties worden aangeboden aan lokale entiteiten.
 

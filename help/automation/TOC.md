@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Handleiding Campagne Automation Guide
 user-guide-description: Handleiding Campagne Automation Guide
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 83%
+source-wordcount: '447'
+ht-degree: 81%
 
 ---
 
@@ -151,8 +151,14 @@ ht-degree: 83%
    + [Consistentieregels](campaign-opt/consistency-rules.md)
    + [Regels toepassen](campaign-opt/apply-rules.md)
    + [Campagnesimulaties](campaign-opt/campaign-simulations.md)
++ Marketing Resource Management {#mrm}
+   + [Aan de slag met beheer van marketingbronnen (MRM)](mrm/about-marketing-resource-management.md)
+   + [Taken maken en beheren](mrm/creating-and-managing-tasks.md)
+   + [Kosten beheersen](mrm/controlling-costs.md)
+   + [Marketingbronnen beheren](mrm/managing-marketing-resources.md)
+   + [Discussieforums](mrm/discussion-forums.md)
 + Distributed Marketing (add-on) {#distributed-marketing}
-   + [Gedistribueerde marketing](distributed-marketing/about-distributed-marketing.md)
+   + [Aan de slag met gedistribueerde marketing](distributed-marketing/about-distributed-marketing.md)
    + [Een lokale campagne maken](distributed-marketing/creating-a-local-campaign.md)
    + [Een collaboratieve campagne maken](distributed-marketing/creating-a-collaborative-campaign.md)
    + [Het campagnepakket publiceren](distributed-marketing/publishing-the-campaign-package.md)
