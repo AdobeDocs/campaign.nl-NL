@@ -5,10 +5,10 @@ title: Adobe Campaign Automation Home
 feature: Overview
 description: Overzicht
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-source-git-commit: 612b3a4287a5ab880b7fd251cc2727586977fbde
+source-git-commit: d6ea8bef9c62d4afbc919110775ee99052eeed7a
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,6 @@ Bezoek de onderstaande hulplijnen en leer hoe u automatisering met Adobe Campaig
     <div>
     <a href="campaign-opt/campaign-typologies.md">Campagneoptimalisatie</a>
     </div>
-    <br>
     <br>
     <div>
     <a href="mrm/about-marketing-resource-management.md">Marketing Resource Management (MRM)</a>
