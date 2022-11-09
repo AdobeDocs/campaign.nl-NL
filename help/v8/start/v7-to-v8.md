@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+source-git-commit: c267bf2db7dfd524bf2b56c9ae48b42da37c0376
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,13 +70,12 @@ Met Adobe Campaign v8 zijn kubusrapporten geoptimaliseerd en bieden ze betere sc
 
 ## Niet-beschikbare functies{#gs-unavailable-features}
 
-Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in deze versie van Campagne, zoals:
+Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md) van campagne, zoals:
 
 * Marketing Resource Management
 * Coupons
 * Webtracking
 * Enquêtes
-
 
 ## Niet-ondersteunde functies{#gs-removed}
 
