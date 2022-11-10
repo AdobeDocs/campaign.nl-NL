@@ -2,9 +2,10 @@
 product: campaign
 title: Taken maken en beheren
 description: Taken maken en beheren
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
+source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
 workflow-type: tm+mt
-source-wordcount: '3703'
+source-wordcount: '3740'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Alle taken worden gegroepeerd in een lijst die via **Campagnes** tab. Raadpleeg 
 
 Ze kunnen worden weergegeven in het programma waartoe ze behoren.
 
-![](assets/d_ncs_user_tasks_in_planning.png)
+![](assets/campaign-calendar.png)
 
 ## Toegangstaken {#accessing-tasks}
 
@@ -29,113 +30,123 @@ Ze kunnen worden weergegeven in het programma waartoe ze behoren.
 
 De taken worden weergegeven in de takenlijst die toegankelijk is via de **[!UICONTROL Campaigns]** tab.
 
-![](assets/s_ncs_user_task_edit_view.png)
+![](assets/campaign-task-dashboard.png)
 
-U kunt alle taken van de verbonden exploitant daar bekijken.
+U kunt alle taken van de huidige operator weergeven.
 
 Raadpleeg voor meer informatie hierover [Uitvoerstatus van een taak](#execution-status-of-a-task) en [Voortgangsstatus van een taak](#progress-status-of-a-task).
 
 ### Filtertaken {#filtering-tasks}
 
-Wanneer u deze weergave weergeeft, wordt deze automatisch gefilterd en alleen weergegeven **[!UICONTROL operator tasks]**. U kunt de taken ook filteren met de velden in de bovenste sectie van het venster.
-
-![](assets/s_ncs_user_task_filter_from_view.png)
+Wanneer u deze weergave weergeeft, wordt deze automatisch gefilterd om alleen de **huidige operatortaken**. U kunt de taken ook filteren met de velden in de bovenste sectie van het venster.
 
 ### Taken bewerken {#editing-tasks}
 
 Klik op een taak om deze te bewerken.
 
-![](assets/s_ncs_user_task_edit_from_view.png)
+![](assets/edit-a-task.png)
 
 ## Nieuwe taak maken {#creating-a-new-task}
 
-Als u een taak wilt maken, klikt u op de knop **[!UICONTROL Tasks]** in de **[!UICONTROL Campaigns]** en selecteert u **[!UICONTROL Create]**.
+Voer de volgende stappen uit om een taak te maken:
 
-![](assets/s_ncs_user_task_create_new.png)
+1. Bladeren naar de **[!UICONTROL Tasks]** in de **[!UICONTROL Campaigns]** en klik op **[!UICONTROL Create]**.
 
-Voer ten minste de naam van de taak in en selecteer de campagne waaraan de taak is gekoppeld. U moet ook de begin- en einddatum opgeven. Deze drie gegevens zijn verplicht.
+   ![](assets/create-a-task-from-dashboard.png)
 
-Klikken **[!UICONTROL Save]** om de taak te maken.
+1. Voer de naam van de taak in en selecteer de campagne waaraan de taak is gekoppeld.
+1. Stel de begin- en einddatum in.
+1. Klikken **[!UICONTROL Save]** om de taak te maken.
 
-![](assets/s_ncs_user_task_create_simple.png)
+   ![](assets/new-task-edit.png)
 
 U kunt ook een taak maken via het dashboard van een campagne: in dit geval wordt de steun automatisch gekoppeld aan de campagne die zij heeft opgezet .
 
-![](assets/s_ncs_user_task_create_new_from_op.png)
+![](assets/add-a-task-in-a-campaign.png)
 
-Nadat een taak wordt gecreeerd, wordt het toegevoegd aan het campagneprogramma en de lijst van taken. Als u een taak wilt bewerken, selecteert u de taak in de planning of klikt u op de naam in het taakoverzicht en klikt u op de knop **[!UICONTROL Open]** koppeling.
+Nadat een taak wordt gecreeerd, wordt het toegevoegd aan het campagneprogramma, het campagnesdashboard, en de lijst van taken. Als u een taak wilt bewerken, klikt u op de naam van de taak in de lijst met taken of selecteert u de taak in het programma of het campagnemdashboard en klikt u op **[!UICONTROL Open]**.
 
-![](assets/s_ncs_user_task_edit_simple.png)
+Zodra gecreeerd, kunt u de taak vormen door te bepalen:
 
-Om het te vormen, moet u wijzen op:
+* De manager en de deelnemers. [Meer informatie](#manager-and-participants)
+* Het aanmaakschema. [Meer informatie](#execution-schedule)
+* De vastgelegde kosten. [Meer informatie](#expenses-and-revenues)
 
-* De manager en de deelnemers: verwijzen naar [Manager en deelnemers](#manager-and-participants).
-* Het schema voor het maken: verwijzen naar [Uitvoeringsschema](#execution-schedule).
-* Toegezegde kosten: verwijzen naar [Uitgaven en ontvangsten](#expenses-and-revenues).
+U kunt ook toevoegen [revisoren](#reviewers) en [referentiedocumenten](#documents-referenced).
 
-Het is ook mogelijk om revisoren toe te voegen (zie [Revisoren](#reviewers)) en documenten waarnaar wordt verwezen (zie [Documenten waarnaar wordt verwezen](#documents-referenced)).
-
-De levenscyclus van taken wordt weergegeven in [Levenscyclus](#life-cycle).
+De levenscyclus van taken wordt weergegeven in [deze sectie](#life-cycle).
 
 ### Manager en deelnemers {#manager-and-participants}
 
-Alleen de exploitant die met een taak is belast, mag deze sluiten.
+Door gebrek, wordt de taak toegewezen aan de exploitant die het creeerde. Deze exploitant wordt op de hoogte gebracht wanneer een actie voor die taak wordt vereist.
 
-Wanneer een Adobe Campaign-operator een taak maakt, wordt deze standaard automatisch toegewezen aan deze beheerders. Als u een andere operator wilt selecteren, gebruikt u de opdracht **[!UICONTROL Assigned to]** veld.
+U kunt een andere operator selecteren in het menu **[!UICONTROL Assigned to]** vervolgkeuzelijst.
 
-![](assets/s_ncs_user_task_edit_simple_general_tab.png)
+![](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
 >Het beheer van de exploitant wordt gedetailleerd in [deze sectie](../../v8/start/permissions.md).
+>
+>Alleen de beheerder die verantwoordelijk is voor een taak mag deze sluiten.
 
-U kunt aangeven welke operatoren bij de uitvoering van de taak betrokken zijn. Deze operatoren zijn niet geautoriseerd om de taak te sluiten. Zij mogen alleen de hun toegewezen taak goedkeuren.
+U kunt meer operatoren opgeven die bij de uitvoering van de taak zijn betrokken. Deze operatoren mogen de taak niet sluiten: zij mogen alleen de hun toevertrouwde taak goedkeuren.
 
-Ze worden geselecteerd met de opdracht **[!UICONTROL Resources]** in de taakwerkbalk. Klikken **[!UICONTROL Add]** en selecteert u de betrokken marktdeelnemers.
+Voer de volgende stappen uit om taakoperatoren toe te voegen:
 
-![](assets/s_ncs_user_task_add_resources.png)
+1. Klik op de knop **[!UICONTROL Resources]** in de taakwerkbalk.
 
-Klikken **[!UICONTROL Ok]** en voer vervolgens de gebruiksfrequentie in: dit vertegenwoordigt de lading die aan de exploitant voor de duur van taakuitvoering wordt toegewezen. Dit percentage is slechts een indicatie en wordt uitgedrukt als een percentage.
+   ![](assets/add-task-resources.png)
 
-Voor een taak waarvan het uitvoeringsschema bijvoorbeeld op 10 dagen is vastgesteld, zal een exploitant met een gebruiksfrequentie van 50% op deze taak voor de helft van zijn werktijd voor de tien dagen worden gemobiliseerd.
+1. Klikken **[!UICONTROL Add]** en selecteert u de betrokken marktdeelnemers.
+1. Voer de gebruiksfrequentie in: dit vertegenwoordigt de werkbelasting die aan de exploitant voor de duur van taakuitvoering wordt toegewezen. Dit percentage is slechts een indicatie en wordt uitgedrukt als een percentage.
 
-Voor elke operator kunt u een geplande werkbelasting en een werkelijke werkbelasting invoeren. Deze tijdsduur is ook uitsluitend ter informatie.
+   ![](assets/define-operator-task-workload.png)
 
-Het is mogelijk om een herinnering te vormen, die automatisch zal worden verzonden naar alle exploitanten betrokken bij de taak vóór zijn einddatum.
+   Voor een taak waarvan het uitvoeringsschema bijvoorbeeld op 10 dagen is vastgesteld, zal een exploitant met een gebruiksfrequentie van 50% op deze taak voor de helft van zijn werktijd voor de tien dagen worden gemobiliseerd.
 
-U kunt het Adobe Campaign-operatorprofiel weergeven via het dialoogvenster **[!UICONTROL Edit link]** pictogram.
+   Voor elke operator kunt u een geplande werkbelasting en een werkelijke werkbelasting invoeren. Deze tijdsduur is ook uitsluitend ter informatie.
 
-![](assets/s_ncs_user_task_edit_resource_profile.png)
+1. U kunt een herinnering configureren via de **[!UICONTROL Add a reminder...]** koppeling. Een e-mailbericht wordt vóór de einddatum naar alle bij de taak betrokken exploitanten verzonden.
+
+   ![](assets/task-op-add-a-reminder.png)
+
+1. U kunt ook een melding verzenden voordat de taak wordt gestart. Selecteer de datum in het dialoogvenster **[!UICONTROL Initial notification]** veld.
+1. Wanneer de einddatum is bereikt en de taak niet is afgesloten, kan een kennisgeving worden verzonden naar de in het **[!UICONTROL Assignee]** vervolgkeuzelijst.
+
 
 Met het operatordashboard kunt u de werkbelasting controleren (andere lopende taken).
 
-![](assets/s_ncs_user_task_edit_resource_planning.png)
+![](assets/operator-dashboard.png)
 
-### Revisoren {#reviewers}
+### Taakgoedkeuring {#reviewers}
 
-Naast de deelnemers kunt u ook operatoren definiëren die de taak evalueren wanneer deze is gesloten door de verantwoordelijke persoon. Om dit te doen, klik **[!UICONTROL Enable task approval]** in het onderste gedeelte van het dialoogvenster **[!UICONTROL Resources]** venster. Dit kan een individuele exploitant, een groep exploitanten of een lijst van exploitanten zijn.
+Naast de deelnemers kunt u ook operatoren definiëren die de taak evalueren wanneer deze is gesloten.
 
-![](assets/s_ncs_user_task_edit_resource_validation.png)
+Om dit te doen, klik **[!UICONTROL Enable task approval]** in de onderste sectie van het dialoogvenster **[!UICONTROL Resources]** venster. Dit kan een individuele exploitant, een groep exploitanten of een lijst van exploitanten zijn.
 
 Als u een lijst met operatoren wilt opgeven, klikt u op de knop **[!UICONTROL Edit...]** rechts van de eerste controleur een koppeling maken en zoveel operatoren toevoegen als nodig is, zoals hieronder wordt getoond:
 
-![](assets/s_ncs_user_task_edit_resource_operators.png)
+![](assets/enable-task-approval.png)
 
-U kunt een goedkeuringsschema voor de taak definiëren in de onderste sectie van het configuratievenster voor de controleur. Standaard hebben revisoren drie dagen vanaf de verzenddatum om de taak goed te keuren. Het is mogelijk om een herinnering te vormen, die automatisch aan de betrokken exploitanten vóór de goedkeuringstermijn zal worden verzonden.
-
-![](assets/s_ncs_user_edit_op_valid_calendar.png)
+U kunt een goedkeuringsprogramma voor de taak in de lagere sectie van het configuratievenster bepalen. Standaard hebben revisoren drie dagen vanaf de verzenddatum om de taak goed te keuren. U kunt ook een herinnering toevoegen die automatisch vóór de deadline van de goedkeuring naar de betrokken operatoren wordt verzonden.
 
 De persoon die met de taak is belast, kan zichzelf de taak toevertrouwen om de taak goed te keuren, ook al zijn hiervoor al andere exploitanten aangewezen. Als er geen controleur is gedefinieerd, worden de meldingen verzonden naar de persoon die verantwoordelijk is voor de taak. Alle andere Adobe Campaign-operatoren met **[!UICONTROL Administrator]** rechten kunnen deze taak ook goedkeuren . Ze ontvangen echter geen meldingen.
 
 ### Documenten waarnaar wordt verwezen {#documents-referenced}
 
-U kunt [documenten en marketingmiddelen](managing-marketing-resources.md) naar een taak. Open hiertoe de taak en klik op de knop **[!UICONTROL Documents]** in de taakwerkbalk.
+U kunt [documenten en marketingmiddelen](managing-marketing-resources.md) naar een taak.
 
-Klikken **[!UICONTROL Add]** en selecteert u het document dat u aan de taak wilt toevoegen. Hetzelfde proces toepassen voor marketingbronnen.
+Dit doet u als volgt:
 
-![](assets/s_ncs_user_task_edit_documents.png)
+1. Open de taak en klik op de knop **[!UICONTROL Documents]** in de taakwerkbalk.
 
-Documenten waarnaar wordt verwezen, worden weergegeven in de meldingen die worden verzonden naar de bij de taak betrokken exploitanten en op het taakdashboard.
+   ![](assets/add-documents-to-a-task.png)
+
+1. Klikken **[!UICONTROL Add]** en selecteert u het document dat u aan de taak wilt toevoegen. Hetzelfde proces toepassen voor marketingbronnen.
+
+
+Documenten waarnaar wordt verwezen, worden toegevoegd aan de meldingen die worden verzonden naar de bij de taak betrokken exploitanten. Ze worden ook toegevoegd aan het taakdashboard.
 
 ![](assets/s_ncs_user_task_notification_documents.png)
 
