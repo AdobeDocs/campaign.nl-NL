@@ -2,7 +2,7 @@
 audience: user
 user-guide-title: Handleiding Campagne Automation Guide
 user-guide-description: Handleiding Campagne Automation Guide
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 81%
@@ -151,8 +151,8 @@ ht-degree: 81%
    + [Consistentieregels](campaign-opt/consistency-rules.md)
    + [Regels toepassen](campaign-opt/apply-rules.md)
    + [Campagnesimulaties](campaign-opt/campaign-simulations.md)
-+ Marketing Resource Management {#mrm}
-   + [Aan de slag met beheer van marketingbronnen (MRM)](mrm/about-marketing-resource-management.md)
++ Marketing Resource Management (add-on){#mrm}
+   + [Aan de slag met beheer van marketingbronnen](mrm/about-marketing-resource-management.md)
    + [Taken maken en beheren](mrm/creating-and-managing-tasks.md)
    + [Kosten beheersen](mrm/controlling-costs.md)
    + [Marketingbronnen beheren](mrm/managing-marketing-resources.md)
