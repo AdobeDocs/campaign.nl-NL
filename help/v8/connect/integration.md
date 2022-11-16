@@ -1,13 +1,13 @@
 ---
 title: Campagne verbinden met uw oplossingen
-description: Leer hoe u campagne kunt verbinden met uw oplossingen
+description: Leer hoe u uw Adobe Campaign-instantie kunt verbinden met Experience Cloud-oplossingen.
 feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 6605a24cea536dbef5b1a7e909ff4d76b3d6c222
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '394'
 ht-degree: 8%
 
 ---

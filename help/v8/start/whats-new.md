@@ -1,20 +1,20 @@
 ---
 title: Nieuw in Campagne v8
-description: Belangrijke mogelijkheden in Campagne v8 ontdekken
+description: Ontdek de belangrijkste mogelijkheden in Adobe Campaign v8, wat nieuw is en wat u kunt verwachten van de nieuwste release.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 0d9acc431efddc500701996996f846132eeafcdb
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '889'
 ht-degree: 4%
 
 ---
 
 # Nieuwe functies in Adobe Campaign v8? {#ac-gs-what-is-new}
 
-Adobe Campaign v8 is ontworpen voor kanaalaanbieders die de beste cloudoplossing in hun klasse nodig hebben voor het beheer van campagnes over meerdere kanalen op bedrijfsniveau. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma&#39;s met een centrale focus op batchgeoriënteerde reizen. Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-kwitantie en veel meer worden gebaseerd.
+Adobe Campaign v8 is ontworpen voor kanaalaanbieders die de beste cloudoplossing in hun klasse nodig hebben voor het beheer van campagnes over meerdere kanalen op bedrijfsniveau. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma&#39;s met een centrale focus op batchgeoriënteerde reizen. Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 
 Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking.
 

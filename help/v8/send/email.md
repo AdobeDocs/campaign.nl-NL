@@ -1,13 +1,13 @@
 ---
 title: E-mails verzenden met Adobe Campaign
-description: Aan de slag met e-mails in Campagne
+description: Ga aan de slag met e-mails in Adobe Campaign. Stuur gepersonaliseerde e-mails naar een doelgroep.
 feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---

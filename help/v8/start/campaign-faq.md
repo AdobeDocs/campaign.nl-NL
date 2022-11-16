@@ -1,14 +1,14 @@
 ---
 title: Veelgestelde vragen over campagne v8
-description: Campagne ontdekken, algemene vragen en antwoorden
+description: Ontvang antwoorden op veelvoorkomende Adobe Campaign-vragen.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 37%
+source-wordcount: '659'
+ht-degree: 32%
 
 ---
 
@@ -85,4 +85,4 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Als u een probleem wilt registreren of een chatsessie wilt starten op dat nieuwe systeem, maakt u verbinding met [Adobe Admin Console](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;}.
 
-   Dit systeem vereist individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u zich niet kunt aanmelden met uw Adobe ID, kunt u om toegang vragen via de Experience League. De klantenservice helpt u dan zo snel mogelijk. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}
+   Dit systeem vereist individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u vindt dat u zich niet kunt aanmelden bij uw Adobe ID, kunt u toegang aanvragen via het Experience League en wordt u zo snel mogelijk ingesteld door het team voor klantenservice. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}
