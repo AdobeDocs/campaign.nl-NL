@@ -5,9 +5,9 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: f381a2ec91b7179a51d91f9b7414ea39db03cd71
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '823'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Voordat u begint, moet u:
 
 Vanuit de Campaign Classic 8.4-build-versie is de installatie van de Microsoft Edge Webview 2-runtime vereist voor elke consoleinstallatie.
 
-De webweergave wordt standaard geïnstalleerd als onderdeel van het besturingssysteem Windows 11. Als dit nog niet het geval is op uw systeem, wordt u gevraagd het programma te downloaden van [Microsoft Developer-website](http://www.adobe.com/go/acc-ms-webview2-runtime-download). De downloadkoppeling werkt niet in Internet Explorer 11, omdat Microsoft de ondersteuning heeft vervangen. Zorg ervoor dat u een andere browser gebruikt om de koppeling te openen.
+De webweergave wordt standaard geïnstalleerd als onderdeel van het besturingssysteem Windows 11. Als dit nog niet het geval is op uw systeem, wordt u gevraagd het programma te downloaden van [Microsoft Developer-website](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target=&quot;_blank&quot;}. De downloadkoppeling werkt niet in Internet Explorer 11, omdat Microsoft de ondersteuning heeft vervangen. Zorg ervoor dat u een andere browser gebruikt om de koppeling te openen.
 
 ## De clientconsole downloaden en installeren{#download-ac-console}
 
@@ -35,7 +35,7 @@ Wanneer u voor het eerst campagne gebruikt of wanneer u een upgrade naar een nie
 
 Er zijn twee opties beschikbaar:
 
-1. Als beheerder van de Campagne, verbind met Adobe [Softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) en download het installatieprogramma van de clientconsole. U kunt de toepassing vervolgens op uw lokale computer installeren.
+1. Als beheerder van de Campagne, verbind met Adobe [Softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target=&quot;_blank&quot;} en download het installatieprogramma van de clientconsole. U kunt de toepassing vervolgens op uw lokale computer installeren.
 
 1. Als eindgebruiker, kan Adobe de Console voor u opstellen: zodra de Console is bijgewerkt, wordt u gevraagd om de nieuwste versie van de Client Console te downloaden in een pop-upvenster.
 
@@ -91,21 +91,18 @@ Volg onderstaande stappen om u aan te melden bij een bestaande instantie:
 
 ## Toegang verlenen aan gebruikers{#grant-access}
 
-Met Adobe Campaign kunt u de rechten definiëren en beheren die aan de verschillende operatoren zijn toegewezen. Dit zijn een reeks rechten en beperkingen die autoriseren of weigeren:
-
-* Toegang tot bepaalde functies (via genoemde rechten);
-* Toegang tot bepaalde elementen
-* Elementen maken, wijzigen en/of verwijderen (levering, contactpersonen, campagnes, groepen, enz.).
-
-Meer informatie over gebruikers en het definiëren van hun machtigingen vindt u in [deze sectie](permissions.md).
+Met Adobe Campaign kunt u de rechten definiëren en beheren die aan de verschillende operatoren zijn toegewezen.
 
 Als campagnebeheerder bent u verantwoordelijk voor het maken van de operatoren en het delen van hun referenties met de gebruikers.
+
+Meer informatie over gebruikers en het definiëren van hun machtigingen vindt u in [deze sectie](gs-permissions.md).
+
 
 ## Verbinden met Campagne met uw Adobe ID{#connect-ims}
 
 Campagnegebruikers maken via hun Adobe ID verbinding met de Adobe Campaign-console via het Adobe Identity Management System (IMS). Ze kunnen dezelfde id gebruiken voor alle Adobe-oplossingen. De verbinding wordt bewaard wanneer het gebruiken van Adobe Campaign met andere oplossingen.
 
-Meer informatie over Adobe IMS in [deze pagina](https://helpx.adobe.com/enterprise/using/identity.html).
+Meer informatie over Adobe IMS in [deze pagina](https://helpx.adobe.com/enterprise/using/identity.html){target=&quot;_blank&quot;}.
 
 ## Webtoegang{#web-access}
 

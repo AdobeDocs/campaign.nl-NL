@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 docs
-source-git-commit: 43e515339a2483e82910603daf6009cad63eeeae
+source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '487'
 ht-degree: 25%
 
 ---
@@ -125,7 +125,10 @@ ht-degree: 25%
       + [Werken met Campagne en Microsoft Dynamics](connect/ac-ms-dyn.md)
       + [Gegevens synchroniseren](connect/crm-data-sync.md)
 + Beheer {#admin}
-   + [Machtigingen](start/permissions.md)
+   + Gebruikers en machtigingen {#permissions}
+      + [Aan de slag met machtigingen](start/gs-permissions.md)
+      + [Gebruikersmachtigingen beheren](start/manage-permissions.md)
+      + [Machtigingen toevoegen aan mappen](start/folder-permissions.md)
    + [Configuratiescherm ](config/self-service.md)
 + Architectuur en configuratie {#config}
    + Architectuur {#architecture}

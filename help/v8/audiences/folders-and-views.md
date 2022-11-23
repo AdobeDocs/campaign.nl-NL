@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Application Settings
 role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
-source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
+source-git-commit: 515520bb5b7131fc2ed2d1b2a843373f01af306a
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -106,31 +106,4 @@ De map hieronder bevat bijvoorbeeld alleen contactpersonen met een e-mailadres e
 
 ## Toegang tot een map beperken{#restrict-access-to-a-folder}
 
-De toestemmingen van het gebruik op omslagen om toegang tot de gegevens van de Campagne te organiseren en te controleren.
-
-Voer de volgende stappen uit als u machtigingen voor een specifieke map Campagne wilt bewerken:
-
-1. Klik met de rechtermuisknop op de map en selecteer **[!UICONTROL Properties...]**.
-1. Bladeren naar de **[!UICONTROL Security]** om machtigingen voor deze map weer te geven.
-
-   ![](assets/folder-permissions.png)
-
-* Naar **een groep of een operator autoriseren** klikt u op de knop **[!UICONTROL Add]** en selecteert u de groep of operator om machtigingen voor deze map toe te wijzen.
-* Naar **een groep of een exploitant verbieden**, klikt u op **[!UICONTROL Delete]** en selecteert u de groep of operator om de autorisatie voor deze map te verwijderen.
-* Naar **de rechten selecteren die aan een groep of een exploitant zijn toegewezen** selecteert u de groep of operator, selecteert u de toegangsrechten die u wilt verlenen en deselecteert u de andere rechten.
-
-### Machtigingen voor doorgeven {#propagate-permissions}
-
-Om toestemmingen en toegangsrechten te verspreiden, selecteer **[!UICONTROL Propagate]** in de mapeigenschappen.
-
-De in dit venster gedefinieerde autorisaties worden vervolgens toegepast op alle submappen van het huidige knooppunt. U kunt deze machtigingen altijd voor elk van de submappen te veel laden.
-
->[!NOTE]
->
->De optie Ongedaan maken **[!UICONTROL Propagate]** Als u een map kiest, wordt deze niet gewist voor de submappen: u moet het uitdrukkelijk voor elk van de subomslagen ontruimen.
-
-### Toegang verlenen aan alle marktdeelnemers {#grant-access-to-all-operators}
-
-In de **[!UICONTROL Security]** selecteert u de **[!UICONTROL System folder]** toegang verlenen tot alle operatoren, ongeacht hun machtigingen.
-
-Als deze optie wordt ontruimd, moet u de exploitant (of hun groep) terug aan de lijst van toestemmingen uitdrukkelijk toevoegen opdat zij toegang hebben.
+De toestemmingen van het gebruik op omslagen om toegang tot de gegevens van de Campagne te organiseren en te controleren. Meer informatie over machtigingen voor mappen in [deze sectie](../start/folder-permissions.md).

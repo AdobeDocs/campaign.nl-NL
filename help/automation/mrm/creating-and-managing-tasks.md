@@ -3,7 +3,7 @@ product: campaign
 title: Taken maken en beheren
 description: Taken maken en beheren
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
+source-git-commit: 094743fef69e137f80b670f0bf31dce56c282c34
 workflow-type: tm+mt
 source-wordcount: '3740'
 ht-degree: 0%
@@ -86,7 +86,7 @@ U kunt een andere operator selecteren in het menu **[!UICONTROL Assigned to]** v
 
 >[!NOTE]
 >
->Het beheer van de exploitant wordt gedetailleerd in [deze sectie](../../v8/start/permissions.md).
+>Het beheer van de exploitant wordt gedetailleerd in [deze sectie](../../v8/start/gs-permissions.md).
 >
 >Alleen de beheerder die verantwoordelijk is voor een taak mag deze sluiten.
 

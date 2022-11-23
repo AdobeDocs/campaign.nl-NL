@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Campagne-gebruikersinterface detecteren
 
-## Interface voor toegangscampagne
+## Interface voor toegangscampagne{#ui-access}
 
 De Campagne-werkruimte is beschikbaar via [Clientconsole](../architecture/general-architecture.md).
 
@@ -24,7 +24,7 @@ Leer om de Console van de Cliënt van de Campagne in te installeren en te vormen
 
 U kunt ook een webbrowser gebruiken om toegang te krijgen tot Campagne. In dit verband is slechts een subset van campagnemogelijkheden beschikbaar. [Meer informatie](#web-browser)
 
-## Door de gebruikersinterface bladeren
+## Door de gebruikersinterface bladeren{#ui-browse}
 
 Zodra u met Campagne wordt verbonden, hebt u toegang tot de homepage. Blader door de koppelingen naar toegangsmogelijkheden. Welke mogelijkheden beschikbaar zijn in de gebruikersinterface, is afhankelijk van uw opties en machtigingen.
 
@@ -79,7 +79,7 @@ In de bovenste sectie ziet u de lijst met records in de huidige map. Deze lijste
 In de onderste sectie worden de details van de geselecteerde record weergegeven.
 
 
-## Talen
+## Talen{#languages}
 
 De gebruikersinterface van Campagne v8 is beschikbaar in de volgende talen:
 

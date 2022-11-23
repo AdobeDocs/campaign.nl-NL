@@ -5,9 +5,9 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,8 @@ U kunt externe accounts openen vanuit Adobe Campaign **[!UICONTROL Explorer]**: 
 >[!CAUTION]
 >
 >In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md)een specifieke **[!UICONTROL Full FDA]** (ffd bis) externe account beheert verbinding tussen lokale database voor campagne en Cloud-database ([!DNL Snowflake]).
-></br>Als Beheerde gebruiker van Cloud Services, wordt deze externe rekening gevormd voor uw instantie door Adobe. Het mag niet gewijzigd worden.
+>
+>Als Beheerde gebruiker van Cloud Services, worden de externe rekeningen gevormd voor uw instantie door Adobe en moeten niet worden gewijzigd.
 
 ## Campagne-specifieke externe rekeningen
 
@@ -117,34 +118,37 @@ In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbo
 
 * **Externe database (FDA)**
 
-   Gebruik de **Externe database** Typ een externe account om via FDA verbinding te maken met een externe database.
+   De **Externe database** type external account wordt gebruikt om verbinding te maken met een externe database via Federated Data Access (FDA).
 
    Externe databases die compatibel zijn met Adobe Campaign v8, worden vermeld in de [Compatibiliteitsmatrix](../start/compatibility-matrix.md)
 
    ![](../assets/do-not-localize/glass.png) Meer informatie over de FDA-optie (Federated Data Access) vindt u in [deze sectie](../connect/fda.md).
 
+* **Twitter**
+
+   De **Twitter** Typ external account wordt gebruikt om campagne te verbinden met je twitter account, om berichten namens jou te posten.
+
+   ![](../assets/do-not-localize/glass.png) Meer informatie over Twitter-integratie in [deze sectie](../connect/ac-tw.md).
+
 ## Externe accounts voor integratie van Adobe-oplossingen
 
 * **Adobe Experience Cloud**
 
-   De **[!UICONTROL Adobe Experience Cloud]** Met een externe account wordt Adobe IMS geïmplementeerd om verbinding te maken met de Adobe Campaign-console via een Adobe ID.
+   De **[!UICONTROL Adobe Experience Cloud]** Met een externe account wordt Adobe Identity Management Service (IMS) geïmplementeerd om verbinding te maken met de Adobe Campaign.
 
    ![](../assets/do-not-localize/glass.png) Meer informatie over Adobe Identity Management Service (IMS) in [deze sectie](../start/connect.md#connect-ims).
 
 * **Web Analytics**
 
-   Gebruik de **[!UICONTROL Web Analytics (Adobe Analytics)]** externe account voor het configureren van gegevensoverdracht van Adobe Analytics naar Adobe Campaign.
+   De **[!UICONTROL Web Analytics (Adobe Analytics)]** externe account wordt gebruikt om gegevensoverdracht van Adobe Analytics naar Adobe Campaign te configureren.
 
    ![](../assets/do-not-localize/glass.png) Meer informatie over de integratie van Adobe Campaign en Adobe Analytics in [deze pagina](../connect/ac-aa.md).
 
-   ![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om Adobe Analytics te integreren met Campagne.
+* **Adobe Experience Manager**
 
-   * **Adobe Experience Manager**
    De **[!UICONTROL AEM]** Met een extern account kunt u de inhoud van uw e-mailleveringen en uw formulieren rechtstreeks in Adobe Experience Manager beheren.
 
    ![](../assets/do-not-localize/glass.png) Meer informatie over de integratie van Adobe Campaign en Adobe Analytics in [deze pagina](../connect/ac-aem.md).
-
-   ![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) Adobe Experience Manager integreren met Adobe Campaign.
 
 
 ## CRM-connector externe accounts
@@ -188,7 +192,7 @@ Hiertoe geeft u in deze externe account het adres en de referenties op die worde
 
 * **Azure Blob Storage**
 
-   De **Azure** een externe account kan worden gebruikt om gegevens naar Adobe Campaign te importeren of te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Om het **Azure** voor externe accounts kunt u met Adobe Campaign werken. Hiervoor moet u de volgende gegevens opgeven:
+   De **Azure** een externe account kan worden gebruikt om gegevens naar Adobe Campaign te importeren of te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Om het **Azure** Als u met Adobe Campaign wilt werken, moet u de volgende gegevens opgeven:
 
    * **[!UICONTROL Server]**: URL van uw Azure Blob-opslagserver.
 
