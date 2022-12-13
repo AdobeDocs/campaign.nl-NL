@@ -5,10 +5,10 @@ type: Event
 description: Campagne-technieken
 breadcrumb-title: Campagne-technologie
 title: Campagne-technieken
-source-git-commit: 6dceac03868db1aa43f02f4807569d9c16801ec7
+source-git-commit: 99b8b36deba39323f59755a3ed1f935a831f93d9
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,4 +19,5 @@ ht-degree: 29%
 + Upgrades{#tn-new}
    + [Apache-versie upgraden](upgrades/apache.md)
    + [Internetbrowsers](upgrades/browsers.md)
+   + [2023 systeemupgrades](upgrades/tech-stack-upgrade.md)
 + [Campaign-configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
