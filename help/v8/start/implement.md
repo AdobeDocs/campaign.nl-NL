@@ -5,9 +5,9 @@ feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
+source-git-commit: 504b67ef9f20466e0d426b6a96f1dc4c6748d303
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1157'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ Meer informatie over beveiligingsrichtlijnen en -beginselen met Adobe Campaign i
 
 U kunt gebruikers handmatig toevoegen aan Campagne en deze koppelen aan groepen, uitgelijnd op uw rolhiërarchie. De gebruikers zullen dan login en tot de gegevens en de toestemmingen kunnen toegang hebben die voor hen aangewezen zijn.
 
-![](../assets/do-not-localize/book.png) Leer hoe u gebruikers aan Adobe Campaign kunt toevoegen in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/glass.png) Leer hoe u gebruikers aan Adobe Campaign kunt toevoegen in [deze sectie](../start/gs-permissions.md).
 
 ### Campagne-clientconsole installeren
 
