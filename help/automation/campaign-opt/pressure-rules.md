@@ -4,9 +4,9 @@ title: Drukregels configureren
 description: Leer hoe te om drukregels te vormen
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6a1e2e0a872ce5886e7374d266c71975941e87b8
 workflow-type: tm+mt
-source-wordcount: '3040'
+source-wordcount: '3027'
 ht-degree: 5%
 
 ---
@@ -107,7 +107,7 @@ U kunt het aantal geoorloofde berichten volgens het segment indexeren waartot de
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-Als u de drempel wilt definiëren, kunt u een dimensie gebruiken die is gekoppeld aan de doeldimensie: Als u bijvoorbeeld berichten wilt opnemen die worden geleverd aan de ontvangende profielen die zijn opgeslagen in de bezoekerstabel (voor meer informatie over de bezoekerstabel, raadpleegt u (dit gedeelte) (enquêtes/using/use-case—creating-a-reference-a-vriend-form.md)) of vermijdt u meer dan één bericht per week naar hetzelfde huishouden te sturen (dat meerdere e-mailadressen kan bevatten) die zijn geïdentificeerd in een dimensie die is gekoppeld aan die is aan die van de ontvangers.
+Als u de drempel wilt definiëren, kunt u een dimensie gebruiken die is gekoppeld aan de doeldimensie: bijvoorbeeld om berichten op te nemen die worden geleverd aan de ontvangende profielen die zijn opgeslagen in het dialoogvenster [bezoekerslijst](../../v8/audiences/target-mappings.md) of om te voorkomen dat meer dan één bericht per week naar hetzelfde huishouden wordt gezonden (dat naar meerdere e-mailadressen kan verwijzen) die zijn geïdentificeerd in een dimensie die gekoppeld is aan die van de ontvangers.
 
 Selecteer hiertoe de optie **[!UICONTROL Count messages on a linked dimension]** selecteert u vervolgens de bezoeker of de tabel met contactpersonen.
 
@@ -367,9 +367,9 @@ Aangezien er al eerder in de week een e-mailbericht naar de betrokken ontvangers
    <td> Aflevering 1<br /> </td> 
    <td> Uitgeschakeld<br /> </td> 
    <td> 5<br /> </td> 
-   <td> 13:00<br /> </td> 
+   <td> 3pm<br /> </td> 
    <td> 8.00 uur (volgende dag)<br /> </td> 
-   <td> 2 uur<br /> </td> 
+   <td> 2pm<br /> </td> 
    <td> Night<br /> </td> 
    <td> Uitgesloten<br /> </td> 
    <td> Uitgesloten<br /> </td> 
@@ -378,9 +378,9 @@ Aangezien er al eerder in de week een e-mailbericht naar de betrokken ontvangers
    <td> Aflevering 2<br /> </td> 
    <td> Uitgeschakeld<br /> </td> 
    <td> 10<br /> </td> 
-   <td> 16:00<br /> </td> 
+   <td> 4pm<br /> </td> 
    <td> 9.00 uur (volgende dag)<br /> </td> 
-   <td> 2 uur<br /> </td> 
+   <td> 2pm<br /> </td> 
    <td> Night<br /> </td> 
    <td> Verzonden<br /> </td> 
    <td> 9.00 uur (volgende dag)<br /> </td> 
