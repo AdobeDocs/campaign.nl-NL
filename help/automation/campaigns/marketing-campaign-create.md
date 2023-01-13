@@ -4,7 +4,7 @@ title: Marketingscampagnes maken
 description: Meer informatie over het maken en uitvoeren van marketingcampagnes
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 2%
@@ -103,7 +103,7 @@ Voor elke campagne zijn de volgende mogelijkheden beschikbaar:
 * Referentiedocumenten en -bronnen: u kunt documenten aan de campagne associëren (kort, rapport, beelden, enz.). Alle documentindelingen worden ondersteund. [Meer informatie](marketing-campaign-deliveries.md#manage-associated-documents).
 * Definieer kosten: voor elke campagne kunt u in Adobe Campaign de kostenposten en kostenberekeningsstructuren definiëren die kunnen worden gebruikt bij het maken van de marketingcampagne. Bijvoorbeeld: afdrukkosten, gebruik van een extern bureau, huur van ruimten enz. [Meer informatie](providers--stocks-and-budgets.md#defining-cost-categories).
 * Doelstellingen definiëren: u kunt kwantificeerbare doelstellingen voor een campagne bepalen, bijvoorbeeld aantal abonnees, bedrijfsvolume, enz. Deze informatie wordt later gebruikt in campagnerapporten.
-* Beheer zaadadressen en controlegroepen. [Meer informatie](marketing-campaign-deliveries.md#defining-a-control-group)).
+* Beheer zaadadressen en controlegroepen. [Meer informatie](marketing-campaign-deliveries.md#defining-a-control-group).
 * Goedkeuringen beheren: u kunt kiezen welke behandelingen moeten worden goedgekeurd en, indien nodig, de revisieoperatoren of groepen operatoren selecteren. [Meer informatie](marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]

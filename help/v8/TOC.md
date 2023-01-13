@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 docs
-source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
+source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '486'
 ht-degree: 25%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 25%
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campaign Management {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
-   + [Documentatie over campagneorchestratie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
+   + [Campagneorkestratie >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
    + Berichten verzenden{#send}
       + [Aan de slag met berichten](start/create-message.md)
       + [Werken met leveringssjablonen](send/create-templates.md)
@@ -75,7 +75,7 @@ ht-degree: 25%
 + Beslissingsbeheer {#offers}
    + [Aan de slag met realtime interactie](interaction/interaction.md)
    + [Milieu en architectuur](interaction/interaction-architecture.md)
-   + [Aanbevolen procedures](interaction/interaction-best-practices.md)
+   + [Best practices](interaction/interaction-best-practices.md)
    + Instellingen definiëren{#interaction-settings}
       + [Operatoren maken](interaction/interaction-operators.md)
       + [Omgevingen maken](interaction/interaction-env.md)
@@ -166,5 +166,5 @@ ht-degree: 25%
       + [De database bijwerken](dev/update-database-structure.md)
       + [Invoerformulieren](dev/forms.md)
    + [Campaign-API&#39;s](dev/api.md)
-+ [Campaign-configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
-+ [Handleiding Campagne Automation Guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
++ [Campaign-configuratiescherm >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
++ [Handleiding Campagne Automation Guide >](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
