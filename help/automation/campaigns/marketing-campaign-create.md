@@ -4,7 +4,7 @@ title: Marketingscampagnes maken
 description: Meer informatie over het maken en uitvoeren van marketingcampagnes
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
+source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 2%
@@ -75,7 +75,7 @@ Selecteer in het venster Campagne maken de sjabloon voor de campagne en voeg een
 
 Klikken **[!UICONTROL OK]** om de campagne te maken. Het wordt toegevoegd aan het programma, en aan de lijst van campagnes.
 
-U kunt dan de campagne uitgeven u enkel hebt gecreeerd en zijn parameters bepalen. Om deze campagne te openen en te vormen, kan ypu:
+U kunt dan de campagne uitgeven u enkel hebt gecreeerd en zijn parameters bepalen. Om deze campagne te openen en te vormen, kunt u:
 
 1. Blader door de campagnecalender en selecteer de campagne die u wilt weergeven, en klik vervolgens op de knop **[!UICONTROL Open]** koppeling.
 1. Bladeren in het dialoogvenster **[!UICONTROL Schedule]** selecteert u de campagne en opent u deze.
