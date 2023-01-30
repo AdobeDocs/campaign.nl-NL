@@ -4,9 +4,9 @@ title: Workflowmachtigingen beheren
 description: Leer hoe u workflowmachtigingen beheert
 feature: Workflows
 exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: bff7d1d51b9847c515670e5594eed513fefbe816
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ In het algemeen moeten operatoren die op workflows reageren, toegang krijgen tot
 
 Ze moeten ook worden toegewezen aan de benoemde rechten die samenvallen met de acties die worden uitgevoerd door workflows die ze beïnvloeden (importeren van ontvangers, bestandstoegang, fusie, uitvoering van SQL-scripts, enzovoort).
 
-Raadpleeg dit voor meer informatie over het beheren van operatoren en machtigingen.
+Raadpleeg voor meer informatie over het beheren van operatoren en machtigingen [deze sectie](../../v8/start/gs-permissions.md).
 
 ## Exploitantgroepen {#operator-groups-wf}
 
