@@ -4,10 +4,10 @@ title: Cross-channel leveringsworkflow
 description: Meer informatie over workflows voor levering via meerdere kanalen
 feature: Workflows, Channels Activity
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
-source-git-commit: 5b4d569a6e96c93828f63fb8376eb81301829854
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 4%
+source-wordcount: '588'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ De belangrijkste stappen voor de implementatie van dit gebruiksgeval zijn als vo
 
 Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
-1. Een campagne maken. Raadpleeg  voor meer informatie.
+1. Een campagne maken. Meer informatie in [deze pagina](../campaigns/marketing-campaign-create.md).
 1. In de **[!UICONTROL Targeting and workflows]** tabblad van uw campagne, voegt u een **Query** activiteit aan uw werkschema. Raadpleeg voor meer informatie over het gebruik van deze activiteit [deze sectie](query.md).
 1. Bepaal de ontvangers die uw leveringen zullen ontvangen. Selecteer bijvoorbeeld &#39;Gold&#39;-leden als doeldimensie.
 1. Voeg filtervoorwaarden aan uw vraag toe. Selecteer in dit voorbeeld ontvangers met een e-mailadres en een mobiel nummer.
@@ -49,7 +49,7 @@ Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
    ![](assets/wkf_cross-channel_1.png)
 
-   Voor meer over het integreren van een aanbieding in het lichaam van een bericht, verwijs naar.
+   Voor meer informatie over het integreren van een aanbieding in de tekst van een bericht raadpleegt u [deze pagina](../../v8/send/email.md).
 
 1. Sla uw wijzigingen op.
 1. Klik met de rechtermuisknop op de knop **[!UICONTROL Email delivery]** activiteit om het te openen.
@@ -107,11 +107,8 @@ Zodra uw doel wordt geïdentificeerd en uw eerste levering gecreeerd, moet u het
    * Voeg een **[!UICONTROL Mobile delivery]** activiteit om een bericht van SMS naar de tweede ondergroep te verzenden.
    * Voeg een **[!UICONTROL List update]** activiteit om de overeenkomstige ontvangers aan het gegevensbestand toe te voegen.
 
-1. Dubbelklik op de leveringsactiviteiten in uw workflow om deze te bewerken. Raadpleeg voor meer informatie over het maken van een e-mail en een sms.
+1. Dubbelklik op de leveringsactiviteiten in uw workflow om deze te bewerken.
 1. Dubbelklik op de knop **[!UICONTROL List update]** activiteit en selecteer **[!UICONTROL Generate an outbound transition]** optie.
-
-   Vervolgens kunt u de resulterende ontvangers van Adobe Campaign naar de Adobe Experience Cloud exporteren. U kunt bijvoorbeeld het publiek in Adobe Target gebruiken door een ** toe te voegen.
-
 1. Klik op de knop **Start** in de actiebalk om de workflow uit te voeren.
 
 De door de **Query** de activiteit zal worden gesegmenteerd om een e-mail of een levering van SMS volgens het gedrag van de ontvangers te ontvangen. De resterende populatie wordt met behulp van de **[!UICONTROL List update]** activiteit.
