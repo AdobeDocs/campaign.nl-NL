@@ -3,7 +3,8 @@ product: campaign
 title: Splitsen
 description: Meer informatie over de activiteit van de gesplitste workflow
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -95,7 +96,7 @@ Als u niet de gehele populatie wilt gebruiken die zich in een subset bevindt, ku
    * **[!UICONTROL By data grouping (in %)]**: u kunt een limiet instellen voor het aantal records, afhankelijk van de waarden in een bepaald veld van de binnenkomende populatie met een percentage. [Meer informatie](#limit-the-number-of-subset-records-by-data-grouping).
    * **[!UICONTROL By data distribution]**: Als uw groeperingsgebieden teveel waarden hebben of als u wilt vermijden opnieuw ingaat de waarden voor elke nieuwe spleet activiteit, laat Adobe Campaign u vormen **[!UICONTROL By data distribution]** beperking (optionele module Distributed Marketing). [Meer informatie](#limit-the-number-of-subset-records-per-data-distribution).
 
-1. Klikken **[!UICONTROL Finish]** de criteria voor de recordselectie goed te keuren. De bepaalde configuratie wordt dan getoond in het middelste venster van de redacteur.
+1. Klikken **[!UICONTROL Finish]** de criteria voor de recordselectie goed te keuren. De gedefinieerde configuratie wordt vervolgens weergegeven in het middelste venster van de editor.
 
 ## Het aantal subsetrecords beperken op basis van gegevensgroepering {#limit-the-number-of-subset-records-by-data-grouping}
 
@@ -145,7 +146,6 @@ Met de sjabloon voor gegevensdistributie kunt u het aantal records beperken aan 
    * **[!UICONTROL Targeting dimension]**: de doeldimensie vermelden waarop de gegevensverspreiding zal worden toegepast; **[!UICONTROL Recipient]** bijvoorbeeld. Dit schema moet altijd compatibel zijn met de gegevens die worden gebruikt in de doelworkflow.
    * **[!UICONTROL Distribution field]**: Selecteer een veld via de doeldimensie. Als u bijvoorbeeld de **[!UICONTROL Email domain]** wordt de lijst met ontvangers uitgesplitst naar domein.
    * **[!UICONTROL Distribution type]**: Selecteer de manier waarop de beperkingswaarde van het doel wordt uitgesplitst in de **[!UICONTROL Distribution]** tab: **[!UICONTROL Percentage]** of **[!UICONTROL Set]**.
-   * **.
    * **[!UICONTROL Approval storage]**: als u een [Lokale goedkeuring](local-approval.md) Voer het schema in waarin de goedkeuringsresultaten worden opgeslagen. U moet één opslagschema per het richten schema specificeren. Als u het **[!UICONTROL Recipients]** het richten schema, ga het gebrek in **[!UICONTROL Local approval of recipients]** opslagschema.
 
       In het geval van een eenvoudige beperking door gegevensgroepering zonder lokale goedkeuring, te hoeven u niet om in te gaan **[!UICONTROL Approvals storage]** veld.
