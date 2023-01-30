@@ -4,9 +4,9 @@ title: Geavanceerde parameters
 description: Geavanceerde parameters
 feature: Workflows, Data Management
 exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -48,8 +48,6 @@ Deze opties worden over het algemeen geselecteerd in het winkelwagentje door met
 ## affiniteit {#affinity}
 
 U kunt ervoor kiezen de uitvoering van een workflow of workflowactiviteit op een specifieke computer af te dwingen. Hiervoor moet u een of meer eigenschappen definiëren op het niveau van de workflow of de desbetreffende activiteit.
-
-De configuratie van de werkstroom voor hoge beschikbaarheid wordt in dit detail beschreven.
 
 
 ## Max. uitvoeringstermijn {#max--execution-period}
