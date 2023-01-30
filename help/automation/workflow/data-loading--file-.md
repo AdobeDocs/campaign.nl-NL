@@ -3,10 +3,11 @@ product: campaign
 title: Gegevens laden (bestand)
 description: Meer informatie over de activiteiten in de workflow voor het laden van gegevens (bestanden)
 feature: Workflows, Data Management Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 15%
+source-wordcount: '1029'
+ht-degree: 14%
 
 ---
 
@@ -31,8 +32,6 @@ In het bovenste gedeelte van het configuratievenster voor deze activiteit kunt u
 U kunt een vooraf uitgevoerd proces definiëren tijdens het importeren van bestanden, bijvoorbeeld om het bestand niet op de server uit te pakken (en dus ruimte voor het uitgepakt bestand op te slaan) maar om het uitpakken op te nemen in de bestandsverwerking. Selecteer **[!UICONTROL Pre-process the file]** en kies een van de drie opties: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) of **[!UICONTROL Decrypt]** (gpg).
 
 ![](assets/preprocessing-dataloading.png)
-
-Raadpleeg deze sectie voor meer informatie:  .
 
 ## De bestandsindeling definiëren {#defining-the-file-format}
 
@@ -110,7 +109,7 @@ In het volgende voorbeeld kunt u elke dag een bestand op de server verzamelen, d
    * de eerste kolom bevat een code die samenvalt met de gebeurtenis: aankoop (meer of minder dan 3000 euro), geen aankoop of terugbetaling voor een of meer aankopen.
    * de vier volgende kolommen bevatten de voornaam, achternaam, e-mail en het rekeningnummer van de klant.
 
-   De indelingsconfiguratie van het te laden bestand valt samen met de configuratie die is gedefinieerd tijdens het importeren van gegevens in Adobe Campaign. Raadpleeg dit voor meer informatie.
+   De indelingsconfiguratie van het te laden bestand valt samen met de configuratie die is gedefinieerd tijdens het importeren van gegevens in Adobe Campaign.
 
 1. Geef in de splitsingsactiviteit de subsets op die u wilt maken, volgens de **Gebeurtenis** kolomwaarde.
 
