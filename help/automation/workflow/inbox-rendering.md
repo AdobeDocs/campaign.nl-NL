@@ -3,10 +3,10 @@ product: campaign
 title: Technische workflow voor weergave in Postvak In
 description: In deze sectie wordt de technische workflow beschreven die met het Inbox-renderingpakket is geïnstalleerd.
 feature: Workflows, Inbox Rendering
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 2%
+source-wordcount: '64'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 
 
-De hieronder beschreven workflow wordt geïnstalleerd met de **Inbox rendering (IR)** module standaard. Raadpleeg dit voor meer informatie over rendering binnen Postvak IN.
+De hieronder beschreven workflow wordt geïnstalleerd met de **Inbox rendering (IR)** module standaard.
 
 <table> 
  <tbody> 
