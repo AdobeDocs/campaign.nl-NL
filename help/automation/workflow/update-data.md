@@ -3,9 +3,10 @@ product: campaign
 title: Gegevens bijwerken
 description: Meer informatie over de activiteiten in de workflow Gegevens bijwerken
 feature: Workflows, Targeting Activity, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -99,7 +100,7 @@ Door gegevens bij te werken en verzamelingen samen te voegen, kunt u de gegevens
 
 1. Selecteer de verzamelingen die u wilt verplaatsen naar de primaire record en de velden die u wilt bijwerken.
 
-   Ga de regels in die op deze van toepassing zijn zodra één of veelvoudige secundaire verslagen worden geïdentificeerd. Hiervoor kunt u de Expression Builder gebruiken. Raadpleeg dit voor meer informatie. Bijvoorbeeld door op te geven dat dit de meest recente bijgewerkte waarde is van alle verschillende records die moeten worden bewaard.
+   Ga de regels in die op deze van toepassing zijn zodra één of veelvoudige secundaire verslagen worden geïdentificeerd. Hiervoor kunt u de Expression Builder gebruiken. Bijvoorbeeld door op te geven dat dit de meest recente bijgewerkte waarde is van alle verschillende records die moeten worden bewaard.
 
    Dan ga de voorwaarden in om met de regel rekening te houden.
 
