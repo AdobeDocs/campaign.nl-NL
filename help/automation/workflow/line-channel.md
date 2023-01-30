@@ -3,9 +3,9 @@ product: campaign
 title: LINE-kanaal
 description: LINE-kanaal
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '95'
 ht-degree: 11%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 11%
 
 # LINE-kanaal{#line-channel}
 
-De hieronder beschreven workflows worden geïnstalleerd met de **LINE-kanaal** module standaard. Raadpleeg dit voor meer informatie over deze module.
+De hieronder beschreven workflows worden geïnstalleerd met de **LINE-kanaal** module standaard. Voor meer informatie over deze module raadpleegt u [deze pagina](../../v8/send/line.md).
 
 <table> 
  <tbody> 
