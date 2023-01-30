@@ -3,9 +3,9 @@ product: campaign
 title: E-maillevering
 description: Meer informatie over het pakket E-maillevering
 feature: Workflows, Deliverability
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '92'
 ht-degree: 3%
 
 ---
@@ -13,10 +13,7 @@ ht-degree: 3%
 
 # Leverbaarheidscontrole (e-maillevering){#email-deliverability}
 
-
-
-De hieronder gedetailleerde workflow wordt standaard op alle instanties geïnstalleerd en u kunt de lijst met regels voor stuiterende mailkwalificatie, de lijst met domeinen en de lijst met MX&#39;s initialiseren. Wanneer de **Leverbaarheidscontrole (e-maillevering)** Deze workflow wordt elke avond uitgevoerd. Raadpleeg dit voor meer informatie over de bewaking van de aflevering.
-
+De hieronder gedetailleerde workflow wordt standaard op alle instanties geïnstalleerd en u kunt de lijst met regels voor stuiterende mailkwalificatie, de lijst met domeinen en de lijst met MX&#39;s initialiseren. Wanneer de **Leverbaarheidscontrole (e-maillevering)** Deze workflow wordt elke avond uitgevoerd.
 <table> 
  <tbody> 
   <tr> 
