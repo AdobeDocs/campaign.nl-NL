@@ -3,10 +3,11 @@ product: campaign
 title: Lidmaatschapsservices
 description: Meer informatie over de workflowactiviteiten van Subscription Services
 feature: Workflows, Targeting Activity, Subscription Services Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 919630ed-b39f-40e5-b893-f3a203713b15
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 0%
+source-wordcount: '399'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +29,7 @@ Om het te vormen, geef de activiteit uit en ga zijn etiket in, dan selecteer de 
 1. Klikken **[!UICONTROL Subscription]** of **[!UICONTROL Unsubscription]** als u zich wilt abonneren op of een abonnement wilt nemen op de opgegeven populatie van of naar de geselecteerde informatiedienst.
 1. Selecteren **[!UICONTROL Send a confirmation message]** om ontvangers op de hoogte te stellen van het feit dat zij zijn geabonneerd op of niet geabonneerd zijn op een service.
 
-   De inhoud van dit bericht wordt gespecificeerd in een leveringsmalplaatje met betrekking tot de informatiedienst. Raadpleeg dit voor meer informatie.
+   De inhoud van dit bericht wordt gespecificeerd in een leveringsmalplaatje met betrekking tot de informatiedienst.
 
 ## Voorbeeld: Een lijst met ontvangers abonneren op een nieuwsbrief {#example--subscribe-a-list-of-recipients-to-a-newsletter}
 
