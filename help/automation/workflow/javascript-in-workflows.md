@@ -4,9 +4,9 @@ title: Voorbeelden van JavaScript-code in workflows
 description: Deze voorbeelden laten zien hoe u JavaScript-code kunt gebruiken in een workflow
 feature: Workflows
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1752'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Als u naar de database wilt schrijven, kunt u de statische `Write` op de `xtk:se
    1. Roep de `Write` op de `xtk:session` schema.
 
       >[!IMPORTANT]
-      > Als u Adobe Campaign v8 gebruikt, raden we u aan om het faseringsmechanisme te gebruiken met het **Inname** en **Gegevens bijwerken/verwijderen** API&#39;s voor de `Write` in een Snowflake-tabel. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}.
+      > Als u Adobe Campaign v8 gebruikt, raden we u aan om het faseringsmechanisme te gebruiken met het **Inname** en **Gegevens bijwerken/verwijderen** API&#39;s voor de `Write` in een Snowflake-tabel. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
    1. Geef de XML-code door als een argument voor de schrijfaanvraag.
 
@@ -78,7 +78,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Een record bijwerken
 
-Gebruik de `_update` bewerking. .
+Gebruik de `_update` bewerking.
 
 Geef deze informatie op als XML-kenmerken:
 
@@ -560,7 +560,7 @@ U kunt records invoegen, bijwerken en verwijderen. U kunt de `Write` in Adobe Ca
 * De `delete` bewerking
 
 >[!IMPORTANT]
-> Als u Adobe Campaign v8 gebruikt, raden we u aan om het faseringsmechanisme te gebruiken met het **Inname** en **Gegevens bijwerken/verwijderen** API&#39;s voor de `Write` in een Snowflake-tabel. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}.
+> Als u Adobe Campaign v8 gebruikt, raden we u aan om het faseringsmechanisme te gebruiken met het **Inname** en **Gegevens bijwerken/verwijderen** API&#39;s voor de `Write` in een Snowflake-tabel. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
 #### Voorbeeld 1: een record invoegen of bijwerken
 
