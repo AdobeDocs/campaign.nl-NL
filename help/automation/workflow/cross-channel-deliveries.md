@@ -3,10 +3,11 @@ product: campaign
 title: Cross-channel leveringen
 description: Meer informatie over leveringen via meerdere kanalen
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 3%
+source-wordcount: '249'
+ht-degree: 4%
 
 ---
 
@@ -37,14 +38,14 @@ In het onderstaande voorbeeld leert u hoe u een workflow maakt voor het verzende
 1. Voeg een **[!UICONTROL Split]** activiteit aan uw werkschema om ontvangers te verdelen die een mobiel aantal en degenen hebben die een e-mailadres hebben.
 1. In de **[!UICONTROL Delivery]** selecteert u een levering voor elk van uw doelen.
 
-   U kunt uw levering op dezelfde manier maken als met een klassieke wizard voor levering door te dubbelklikken op de leveringsactiviteit in uw workflow. Raadpleeg dit voor meer informatie.
+   U kunt uw levering op dezelfde manier maken als met een klassieke wizard voor levering door te dubbelklikken op de leveringsactiviteit in uw workflow.
 
    ![](assets/cross_channel_delivery_3.png)
 
 1. Een **[!UICONTROL Wait]** om ervoor te zorgen dat de ontvangers niet te veel leveringen tegelijk ontvangen.
 1. Voeg een **[!UICONTROL Split]** activiteit om abonnees van mobiele iOS- of Android-toepassingen te verdelen.
 
-   Selecteer een service voor elk besturingssysteem. Raadpleeg dit voor meer informatie over het maken van services.
+   Selecteer een service voor elk besturingssysteem.
 
    ![](assets/cross_channel_delivery_4.png)
 
