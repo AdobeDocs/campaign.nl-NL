@@ -5,7 +5,7 @@ feature: PI, Privacy
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Als u marketinggebruikers toegang wilt geven tot gegevensrecords, maar ze geen p
 
 ## Implementatie {#implementation}
 
-Een specifiek attribuut dat op om het even welk element of attribuut kan worden toegepast is toegevoegd aan de schema&#39;s, vult het de bestaande attributen aan **[!UICONTROL visibleIf]** . Dit kenmerk is: **[!UICONTROL accessibleIf]** . Wanneer een XTK-expressie wordt opgenomen die gerelateerd is aan de huidige gebruikerscontext, kan deze gebruikmaken van **[!UICONTROL HasNamedRight]** of **[!UICONTROL $(login)]** , bijvoorbeeld.
+Een specifiek attribuut dat op om het even welk element of attribuut kan worden toegepast is toegevoegd aan de schema&#39;s, vult het de bestaande attributen aan **[!UICONTROL visibleIf]**. Dit kenmerk is: **[!UICONTROL accessibleIf]**. Wanneer een XTK-expressie wordt opgenomen die gerelateerd is aan de huidige gebruikerscontext, kan deze gebruikmaken van **[!UICONTROL HasNamedRight]** of **[!UICONTROL $(login)]**, bijvoorbeeld.
 
 U kunt een voorbeeld van een ontvankelijke schemauitbreiding vinden die dit gebruik hieronder toont:
 
@@ -40,7 +40,7 @@ U kunt een voorbeeld van een ontvankelijke schemauitbreiding vinden die dit gebr
 De belangrijkste eigenschappen zijn:
 
 * **[!UICONTROL visibleIf]** : verbergt de gebieden van de meta-gegevens, zodat kunnen zij niet binnen een schemamening, kolomselectie, of een uitdrukkingsbouwer worden betreden. Maar dit verbergt geen gegevens, als de veldnaam handmatig wordt ingevoerd in een expressie, wordt de waarde weergegeven.
-* **[!UICONTROL accessibleIf]** : Hiermee verbergt u de gegevens (en vervangt u deze door lege waarden) uit de resulterende query. Als visibleIf leeg is, krijgt het dezelfde expressie als **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL accessibleIf]** : Hiermee verbergt u de gegevens (en vervangt u deze door lege waarden) uit de resulterende query. Als visibleIf leeg is, krijgt het dezelfde expressie als **[!UICONTROL accessibleIf]**.
 
 Hier volgen de gevolgen van het gebruik van dit kenmerk in Campagne:
 
