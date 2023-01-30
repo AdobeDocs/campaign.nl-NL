@@ -4,9 +4,9 @@ title: Workfloweigenschappen
 description: Meer informatie over de eigenschappen van de Campagneworkflow
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
@@ -38,8 +38,6 @@ Deze sectie wordt alleen weergegeven in workflows voor campagnes.
 * **[!UICONTROL Default affinity]**
 
    Als uw installatie meerdere workflowservers bevat, gebruikt u dit veld om de computer te kiezen waarop de workflow wordt uitgevoerd. Als de waarde die in dit veld wordt gedefinieerd, op geen enkele server bestaat, blijft de workflow in behandeling.
-
-   Zie dit .
 
 * **[!UICONTROL History in days]**
 
