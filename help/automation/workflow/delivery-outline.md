@@ -3,20 +3,17 @@ product: campaign
 title: Overzicht van levering
 description: Meer informatie over de workflowactiviteit van het overzicht van de levering
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 3c06b329-b2d8-4ac8-ab9b-3ab3e525d109
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '243'
 ht-degree: 1%
 
 ---
 
 # Overzicht van levering{#delivery-outline}
 
-
-
 De **leveringsoverzicht** Hiermee kunt u een omtrek gebruiken in een campagneworkflow. De contouren moeten vooraf in de campagne zijn gemaakt.
-
-Raadpleeg dit voor meer informatie over de leveringscontouren in Adobe Campaign.
 
 Om de activiteit te vormen, moet u eenvoudig het overzicht selecteren u evenals de geplande contactdatum houdt van. U kunt het filtreren regels toevoegen door typologieën of typologieregels toe te voegen.
 
@@ -30,9 +27,6 @@ De **leveringsoverzicht** activiteit, beschikbaar in de campagnewerkschema&#39;s
 
 1. Voeg in een workflow een overzichtsactiviteit toe voordat u een leveringsactiviteit toevoegt.
 1. Geef in de overzichtsactiviteit van de levering de omtrek op die u wilt gebruiken.
-
-   Raadpleeg dit voor meer informatie over het opgeven van leveringscontouren.
-
 1. Vul de beschikbare velden in op basis van uw levering.
 1. Er zijn twee mogelijke gevallen:
 
