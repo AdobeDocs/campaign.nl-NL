@@ -3,10 +3,11 @@ product: campaign
 title: Terugkerende levering
 description: Meer informatie over de activiteit van de workflow Terugkerende levering
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 14%
+source-wordcount: '263'
+ht-degree: 15%
 
 ---
 
@@ -28,7 +29,7 @@ Dit doet u als volgt:
 
 1. Vorm het leveringsmalplaatje.
 
-Het configuratieproces voor deze activiteit is gelijkaardig aan dat van het creëren van een leveringsmalplaatje in termen van de beschikbare opties. Raadpleeg dit voor meer informatie.
+Het configuratieproces voor deze activiteit is gelijkaardig aan dat van het creëren van een leveringsmalplaatje in termen van de beschikbare opties.
 
 Raadpleeg dit voor een voorbeeld van deze activiteit die wordt gebruikt [sectie](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
