@@ -3,19 +3,17 @@ product: campaign
 title: Overdracht naar midsourcing
 description: Meer informatie over workflows voor overbrengen naar Midden-sourcing
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 7%
+source-wordcount: '95'
+ht-degree: 8%
 
 ---
 
 
 # Overdracht naar midsourcing{#transfer-to-mid-sourcing}
 
-
-
-De hieronder beschreven workflows worden geïnstalleerd met de **Overschakelen naar middelmatig bronnen** module standaard. Raadpleeg voor meer informatie over deze module .
+De hieronder beschreven workflows worden geïnstalleerd met de **Overschakelen naar middelmatig bronnen** module standaard.
 
 <table> 
  <tbody> 
