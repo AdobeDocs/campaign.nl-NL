@@ -4,9 +4,9 @@ title: Distributed Marketing samples
 description: Distributed Marketing samples
 feature: Distributed Marketing
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,11 @@ ht-degree: 0%
 # Distributed Marketing samples{#distributed-marketing-samples}
 
 
-
 ## Een lokale campagne maken (op formulier) {#creating-a-local-campaign--by-form-}
 
 De **Op formulier** type-webinterface gebruikt een **webtoepassing**. Afhankelijk van zijn configuratie, kan deze Webtoepassing om het even welk type van bepaalde gepersonaliseerde elementen bevatten. U kunt bijvoorbeeld koppelingen voorstellen om het doel, het budget, de inhoud, enzovoort te evalueren. via specifieke API&#39;s.
 
 >[!NOTE]
->
->API&#39;s worden beschreven in een speciaal document. .
 >
 >De toepassing van het Web die in dit voorbeeld wordt gebruikt is geen app van het Web die uit-van-de-doos met Adobe Campaign komt. Als u een formulier in een campagne wilt gebruiken, moet u de toegewijde webtoepassing maken.
 
