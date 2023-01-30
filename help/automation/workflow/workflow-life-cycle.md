@@ -4,9 +4,9 @@ title: Levenscyclus van workflow
 description: Meer informatie over de levenscyclus van een workflow
 feature: Workflows
 exl-id: 4356b90c-9d7c-49ef-88cd-716b2ccdb7f0
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,5 @@ Dit betekent dat de eerste twee activiteiten met succes zijn uitgevoerd en dat d
 De tekens **574 - OK** weergegeven boven de overgang na de overgang **Aflevering** de activiteit houdt in dat de voorbereiding van de levering gericht is op 574 ontvangers en dat de bewerking met succes is voltooid. Deze informatie, die aan de overgangen wordt toegevoegd wanneer zij worden uitgevoerd, wordt berekend door de activiteiten die gegevens verwerken.
 
 De workflow wordt gestart en er wordt gewacht op een operator die behoort tot de groep die in het dialoogvenster **Goedkeuring** activiteiten om een besluit te nemen. De tot de groep behorende exploitanten die een e-mailadres of mobiel telefoonnummer hebben, worden op de hoogte gesteld.
-
-Het beheer van de exploitant wordt in dit hoofdstuk nader toegelicht.
 
 Raadpleeg voor meer informatie over hoe u uw workflows kunt controleren [deze sectie](monitor-workflow-execution.md).
