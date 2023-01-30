@@ -3,9 +3,10 @@ product: campaign
 title: Query
 description: Meer informatie over de activiteit van de Query-workflow
 feature: Workflows, Targeting Activity, Query Editor
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -41,15 +42,13 @@ De **[!UICONTROL Edit query...]** Via de koppeling kunt u het doeltype, de beper
 
 1. Definieer de populaties met de wizard. De velden die moeten worden ingevoerd, kunnen verschillen afhankelijk van het type doel. U kunt een voorvertoning van de doelpopulatie weergeven met de huidige criteria **[!UICONTROL Preview]** tab.
 
-   Raadpleeg dit voor meer informatie over het maken en gebruiken van filters of query&#39;s.
-
    ![](assets/query-sample.png)
 
 1. Als u **[!UICONTROL Filtering conditions]** in stap 1 of met de **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** en moet u later handmatig filtercriteria toevoegen.
 
    U kunt ook voorwaarden voor gegevensgroepering toevoegen door het desbetreffende vak in te schakelen. Om dit te doen, moet de het filtreren afmeting aan de het richten van vraag afmeting verschillend zijn. Zie deze voor meer informatie over groeperen [sectie](query-grouping-management.md).
 
-   U kunt meer criteria ook toevoegen door de bouwer van de Uitdrukking te gebruiken en het te combineren met de logische opties EN, OF, en BEHALVE. Vervolgens kunt u een voorvertoning van de ** weergeven.
+   U kunt meer criteria ook toevoegen door de bouwer van de Uitdrukking te gebruiken en het te combineren met de logische opties EN, OF, en BEHALVE.
 
    Sla het filter op als u het later opnieuw wilt gebruiken.
 
@@ -181,8 +180,6 @@ In de onderstaande sectie vindt u tips en trucs voor het optimaliseren van query
 
 * Functies zoals bewerken `Lower(...)`. Wanneer de functie Lower wordt gebruikt, wordt de Index niet gebruikt.
 * Controleer query&#39;s met de ‘soortgelijke’ instructie of de ‘bovenste’ of ‘onderste’ instructies zorgvuldig. Pas &quot;Upper&quot;op de gebruikersinput, niet op het gegevensbestandgebied toe.
-
-   Zie voor meer informatie over functies.
 
 ### Afmetingen filteren {#filtering-dimensions}
 
