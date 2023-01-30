@@ -4,9 +4,9 @@ title: Technische workflows
 description: Meer informatie over de technische workflows die beschikbaar zijn via Campagne
 feature: Workflows
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1639'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ U kunt andere technische workflows maken in het dialoogvenster **[!UICONTROL Adm
 
 De aangeboden activiteiten zijn dezelfde als voor workflows die zich op de werkstroom richten. [Meer informatie](targeting-workflows.md)
 
-De workflows die in deze sectie worden beschreven, worden geïnstalleerd met de verschillende ingebouwde Adobe Campaign-pakketten. Deze pakketten en de bijbehorende technische workflows zijn afhankelijk van uw licentieovereenkomst. Ingebouwde pakketten vindt u in .
+De workflows die in deze sectie worden beschreven, worden geïnstalleerd met de verschillende ingebouwde Adobe Campaign-pakketten. Deze pakketten en de bijbehorende technische workflows zijn afhankelijk van uw licentieovereenkomst.
 
 Standaard zijn technische workflows beschikbaar in een submap van het volgende knooppunt: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
@@ -55,7 +55,7 @@ Leer hoe u de technische workflows in deze [speciale sectie](monitor-technical-w
 | **Gegevens verzamelen voor de service HeatMap** (collectDataHeatMapService) | Standaard geïnstalleerd | Deze werkstroom wint gegevens terug die door de dienst HeatMap worden vereist. |
 | **Verzoeken om privacy verzamelen** (collectPrivacyRequests) | Verordening inzake bescherming van privacydata | Met deze workflow worden de gegevens van de ontvanger gegenereerd die in Adobe Campaign zijn opgeslagen en kunnen deze worden gedownload op het scherm van de privacyaanvraag. |
 | **Kostprijsberekening** (begrotingsbeheer) | Standaard geïnstalleerd | Deze workflow start de berekening van kosten en kostenposten voor de begrotingen, plannen, programma&#39;s, campagnes, leveringen en taken. |
-| **Database opschonen** (opruimen) | Standaard geïnstalleerd | Deze workflow is de workflow voor databaseonderhoud: het maakt verschillende berekeningen van de statistieken en de processen, en schrapt verouderde gegevens van het gegevensbestand volgens de bepaalde configuratie in de plaatsingsmedewerker. Het wordt teweeggebracht elke dag om 4am door gebrek. Raadpleeg voor meer informatie . |
+| **Database opschonen** (opruimen) | Standaard geïnstalleerd | Deze workflow is de workflow voor databaseonderhoud: het maakt verschillende berekeningen van de statistieken en de processen, en schrapt verouderde gegevens van het gegevensbestand volgens de bepaalde configuratie in de plaatsingsmedewerker. Het wordt teweeggebracht elke dag om 4am door gebrek. |
 | **Geblokkeerde lijngebruikers verwijderen** (deleteBlockedLineUsersV2) | LINE-kanaal | Deze workflow zorgt ervoor dat de gegevens van de gebruikers van de LIJN V2 worden verwijderd nadat ze de officiële account van de LIJN gedurende 180 dagen hebben geblokkeerd. |
 | **Gegevens over privacyverzoeken verwijderen** (deletePrivacyRequestsData) | Verordening inzake bescherming van privacydata | Deze workflow verwijdert de gegevens die de ontvanger in Adobe Campaign heeft opgeslagen. |
 | **Leveringsindicatoren** (leveringsindicatoren) | Midsourcingplatform | Deze werkstroom werkt leveringsvolgindicatoren voor een levering bij. Deze workflow wordt standaard elke uur geactiveerd. |
@@ -73,7 +73,7 @@ Leer hoe u de technische workflows in deze [speciale sectie](monitor-technical-w
 | **MessageCenter volledige geaggregeerde berekening** (agg_messageCenter_full) | Transactionaal berichtenbeheer (Berichtcentrum - Controle) | Deze werkstroom werkt het Volledige aggregaat voor de kubus van het Centrum van het Bericht bij. Deze wordt standaard elke dag om 3 uur geactiveerd. In dit aggregaat worden de volgende afmetingen vastgelegd: Het type Kanaal, Datum, Status en Gebeurtenis. De kubus van het centrum van het Bericht wordt dan gebruikt om rapporten te produceren die op gebeurtenissen worden gebaseerd. Meer informatie over kubussen vindt u in  |
 | **Midden-sourcing (leveringstellers)** (defaultMidSourcingDlv) | Overdracht naar midsourcing | Deze workflow verzamelt tellingsinformatie voor leveringen op de server voor midsourcing. De telgegevens omvatten algemene leveringsindicatoren zoals het aantal verzonden leveringen, enz. Trackinggegevens zoals die worden geopend, worden niet opgenomen. Deze wordt standaard om de tien minuten geactiveerd. |
 | **Midden-sourcing (leveringslogboeken)** (defaultMidSourcingLog) | Overdracht naar midsourcing | Deze workflow verzamelt leveringslogboeken op de server voor midsourcing. Deze wordt standaard elke uur geactiveerd. |
-| **NMAC-opt-out-beheer** (mobileAppOptOutMgt) | Mobile App Channel (push) | Met deze workflow worden afmeldingsopties op mobiele apparaten bijgewerkt. Het wordt teweeggebracht om de 6 uur tussen 1am en middernacht. Raadpleeg voor meer informatie . |
+| **NMAC-opt-out-beheer** (mobileAppOptOutMgt) | Mobile App Channel (push) | Met deze workflow worden afmeldingsopties op mobiele apparaten bijgewerkt. Het wordt teweeggebracht om de 6 uur tussen 1am en middernacht. |
 | **Melding voorstel** (aanbiedingsbeheer) | Standaard geïnstalleerd | Deze workflow implementeert goedgekeurde aanbiedingen in de onlineomgeving en in elke categorie in de aanbiedingencatalogus. |
 | **Opschonen van gepauzeerde workflows** (CleupPausedWorkflows) | Standaard geïnstalleerd | In deze workflow worden gepauzeerde workflows geanalyseerd waarvoor de ernst is ingesteld op Normaal en worden waarschuwingen en meldingen geactiveerd wanneer deze al te lang zijn gepauzeerd. Na een maand worden gepauzeerde technische workflows onvoorwaardelijk gestopt. Standaard wordt de activering elke maandag om 17.00 uur gestart. Raadpleeg voor meer informatie [Afhandeling van gepauzeerde workflows](monitor-workflow-execution.md#handling-of-paused-workflows). |
 | **Opmaak van privacyverzoek** (cleanPrivacyRequests) | Verordening inzake bescherming van privacydata | Deze workflow wist de bestanden met toegangsverzoeken die ouder zijn dan 90 dagen. |
