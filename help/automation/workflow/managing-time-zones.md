@@ -4,20 +4,16 @@ title: Tijdzones beheren
 description: Tijdzones beheren
 feature: Workflows
 exl-id: 04b7638d-55dd-4317-b605-5d618ef014ba
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '266'
 ht-degree: 3%
 
 ---
 
 # Tijdzones beheren{#managing-time-zones}
 
-
-
 Met Adobe Campaign kunt u de tijd tussen verschillende landen beheren die bij hetzelfde geval betrokken zijn. De toegepaste configuratie wordt gevormd tijdens instantieverwezenlijking.
-
-Raadpleeg voor meer informatie over het configureren van tijdzones in Adobe Campaign.
 
 In een werkschema, kunt u de programma&#39;s van de activiteitenuitvoering aanpassen en een specifieke tijdzone verbinden met een activiteit of met het volledige werkschema. Deze configuratie kan nuttig zijn wanneer het invoeren van het dossier, of binnen het kader van levering het plannen.
 
