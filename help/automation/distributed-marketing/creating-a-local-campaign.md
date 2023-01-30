@@ -4,9 +4,9 @@ title: Een lokale campagne maken
 description: Een lokale campagne maken
 feature: Distributed Marketing
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1554'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Er zijn vier typen webinterfaces beschikbaar:
 
    >[!NOTE]
    >
-   >De webtoepassing die in dit voorbeeld wordt gebruikt, is een voorbeeld. U moet een specifieke web-app maken om een formulier te kunnen gebruiken. Zie  .
+   >De webtoepassing die in dit voorbeeld wordt gebruikt, is een voorbeeld. U moet een specifieke web-app maken om een formulier te kunnen gebruiken.
 
    ![](assets/mkt_distr_7.png)
 
@@ -156,7 +156,7 @@ Sla uw campagnemalplaatje op. U kunt het nu gebruiken vanuit het dialoogvenster 
 
 >[!NOTE]
 >
->De sjablonen voor campagnes en hun algemene configuratie worden beschreven in .
+>De sjablonen voor campagnes en hun algemene configuratie worden beschreven in [deze pagina](../campaigns/marketing-campaign-templates.md).
 
 ## Het campagnepakket maken {#creating-the-campaign-package}
 
@@ -236,10 +236,6 @@ Een campagne bestellen:
 1. Klikken **[!UICONTROL Order campaign]** in het meldingsbericht of de bijbehorende knop in Adobe Campaign.
 
    Voer uw id en wachtwoord in om de campagne te bestellen. De interface bestaat uit een set pagina&#39;s die zijn gedefinieerd in een webtoepassing.
-
-   >[!NOTE]
-   >
-   >De toepassingen van het Web zijn gedetailleerd in.
 
 1. Voer de benodigde gegevens op de eerste pagina in (orderlabel en opmerking) en klik op **[!UICONTROL Next]**.
 
