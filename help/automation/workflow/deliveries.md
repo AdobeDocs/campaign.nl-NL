@@ -3,10 +3,10 @@ product: campaign
 title: Leveringen
 description: Meer informatie over standaardleveringsworkflows
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 5%
+source-wordcount: '316'
+ht-degree: 6%
 
 ---
 
@@ -47,7 +47,7 @@ De hieronder beschreven workflows worden geïnstalleerd met de **Leveringen** mo
   <tr> 
    <td> <span class="uicontrol">Database opschonen</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> <p>Deze workflow is de workflow voor databaseonderhoud: het maakt verschillende berekeningen van de statistieken en de processen, en schrapt verouderde gegevens van het gegevensbestand volgens de bepaalde configuratie in de plaatsingsmedewerker. Het wordt teweeggebracht elke dag om 4am door gebrek.</p> <p>Raadpleeg dit voor meer informatie.</p> </td> 
+   <td> <p>Deze workflow is de workflow voor databaseonderhoud: het maakt verschillende berekeningen van de statistieken en de processen, en schrapt verouderde gegevens van het gegevensbestand volgens de bepaalde configuratie in de plaatsingsmedewerker. Het wordt teweeggebracht elke dag om 4am door gebrek.</p></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Opschonen van gepauzeerde workflows</span> <br /> </td> 
