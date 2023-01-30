@@ -4,20 +4,16 @@ title: Technische workflows controleren
 description: Technische workflows controleren
 feature: Workflows
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
 
 # Technische workflows controleren {#monitoring-technical-workflows}
 
-
-
 De technische werkstromen moeten worden bewaakt en er moeten maatregelen worden genomen wanneer ze mislukken.
-
-Er worden aanvullende manieren voorgesteld om de verschillende campagneprocessen te controleren.
 
 ## Instance Monitoring dashboard {#instance-monitoring-dashboard}
 
@@ -41,8 +37,7 @@ Om beter te begrijpen wat elke technische werkstroom wordt verondersteld te doen
 
 Voor **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-1. Controleer of de ** ...
-1. Bekijk het dagboek om te verifiëren dat de verstreken tijd in tijd vrij constant is en zich niet in andere werkschema&#39;s mengt.
+Controleer het dagboek om te verifiëren dat de verstreken tijd in tijd vrij constant is en zich niet in andere werkschema&#39;s mengt.
 
 Voor **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
