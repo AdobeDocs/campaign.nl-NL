@@ -3,9 +3,10 @@ product: campaign
 title: Een query uitvoeren met behulp van groeperingsbeheer
 description: Leer hoe u query's uitvoert met behulp van groeperingsbeheer
 feature: Query Editor
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '241'
 ht-degree: 4%
 
 ---
@@ -35,8 +36,6 @@ U kunt dit voorbeeld maken door de volgende stappen toe te passen:
    ![](assets/query_editor_02.png)
 
 1. In de **[!UICONTROL Data to extract]** venster, selecteert u de **[!UICONTROL Email domain]** en **[!UICONTROL Primary key]** velden. Een telling uitvoeren op de **[!UICONTROL Primary key]** veld.
-
-   Raadpleeg voor meer informatie over het aantal primaire sleutels.
 
 1. Controleer de **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** doos.
 
