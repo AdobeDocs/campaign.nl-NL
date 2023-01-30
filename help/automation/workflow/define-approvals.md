@@ -4,9 +4,9 @@ title: Goedkeuringen definiëren
 description: Met goedkeuringen kunnen operators beslissingen nemen over een workflow of de voortzetting van de uitvoering bevestigen
 feature: Approvals
 exl-id: 8ac159c1-fd2e-4fb9-8275-18154f6f210c
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -27,8 +27,6 @@ Bij vluchtuitvoeringen zijn alle stadia die goedkeuring vereisen, gebaseerd op h
 
 ![](assets/validation-1-in-op.png)
 
-Voorbeelden van goedkeuringen vindt u in .
-
 Een operator kan op twee manieren reageren: valideren met de webpagina die is gekoppeld in het e-mailbericht of via de console.
 
 >[!NOTE]
@@ -37,9 +35,7 @@ Een operator kan op twee manieren reageren: valideren met de webpagina die is ge
 
 ## Goedkeuring per e-mail {#sending-emails}
 
-Het is mogelijk om een goedkeuringsbericht te ontvangen die een verbinding met een Web-pagina bevat waarmee het mogelijk is te antwoorden. Voor de beoogde exploitant om een goedkeuringse-mail te ontvangen, moet het exploitant e-mailadres volledig zijn. Als dit niet het geval is, moet de exploitant de console gebruiken om te antwoorden
-
-Het beheer van de exploitant wordt in dit hoofdstuk nader toegelicht.
+Het is mogelijk om een goedkeuringsbericht te ontvangen die een verbinding met een Web-pagina bevat waarmee het mogelijk is te antwoorden. Voor de beoogde exploitant om een goedkeuringse-mail te ontvangen, moet het exploitant e-mailadres volledig zijn. Als dit niet het geval is, moet de exploitant de console gebruiken om te antwoorden.
 
 Goedkeuringse-mails worden voortdurend verzonden. De standaardleveringssjabloon is **[!UICONTROL notifyAssignee]**: Het bestand wordt opgeslagen in de **[!UICONTROL Administration > Campaign management > Technical delivery templates]** map. Dit scenario kan worden aangepast en het wordt ook aanbevolen een kopie te maken en sjablonen te wijzigen voor elke activiteit.
 
