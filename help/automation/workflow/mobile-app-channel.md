@@ -3,19 +3,17 @@ product: campaign
 title: Kanaal voor mobiele apps
 description: Kanaal voor mobiele apps
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 19%
+source-wordcount: '64'
+ht-degree: 18%
 
 ---
 
 
 # Kanaal voor mobiele apps{#mobile-app-channel}
 
-
-
-De hieronder beschreven workflow wordt geïnstalleerd met de **Mobiel App-kanaal** module standaard. Raadpleeg dit voor meer informatie over deze module.
+De hieronder beschreven workflow wordt geïnstalleerd met de **Mobiel App-kanaal** module standaard. Voor meer informatie over deze module raadpleegt u [deze sectie](../../v8/send/push.md).
 
 <table> 
  <tbody> 
