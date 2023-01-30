@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 docs
-source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
+source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 25%
 
 ---
@@ -18,9 +18,13 @@ ht-degree: 25%
 + releases en nieuwste updates {#releases}
    + [Vroege aanvullende informatie](start/e-release-notes.md)
    + [Aanvullende informatie ](start/release-notes.md)
+   + Opmerkingen bij vorige release {#previous-rn}
+      + [2022](start/release-notes-2022.md)
+      + [2021](start/release-notes-2021.md)
    + [Guardrails](start/ac-guardrails.md)
    + [Bekende problemen](start/known-issues.md)
    + [Compatibiliteitsmatrix](start/compatibility-matrix.md)
+   + [Van Classic v7 naar v8](start/v7-to-v8.md)
 + Aan de slag {#new}
    + [Aan de slag met Adobe Campaign](start/get-started.md)
    + [Belangrijkste mogelijkheden](start/whats-new.md)
