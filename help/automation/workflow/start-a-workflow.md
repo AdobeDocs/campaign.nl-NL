@@ -4,9 +4,9 @@ title: Een workflow starten
 description: Leer hoe u een workflow start en werkstroomhandelingen ontdekt op de werkbalk en met de rechtermuisknop op het menu klikt
 feature: Workflows
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ De lijst met opties in het dialoogvenster **[!UICONTROL Actions]** en het contex
 
 ## Werkbalk Handelingen {#actions-toolbar}
 
-De werkbalkknoppen worden in dit hoofdstuk beschreven. De **[!UICONTROL Actions]** geeft u toegang tot extra uitvoeringsopties voor het werken met geselecteerde workflows. U kunt ook de opdracht **[!UICONTROL File > Actions]** of klikt u met de rechtermuisknop op een workflow en selecteert u **[!UICONTROL Actions]**.
+De **[!UICONTROL Actions]** op de werkbalk hebt u toegang tot aanvullende uitvoeropties voor geselecteerde workflows. U kunt ook de opdracht **[!UICONTROL File > Actions]** of klikt u met de rechtermuisknop op een workflow en selecteert u **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
@@ -53,8 +53,6 @@ De werkbalkknoppen worden in dit hoofdstuk beschreven. De **[!UICONTROL Actions]
 
    Deze actie stopt en start de workflow opnieuw. Doorgaans kunt u sneller opnieuw opstarten. Het is ook nuttig om opnieuw beginnen te automatiseren wanneer het tegenhouden een bepaalde hoeveelheid tijd neemt: De reden hiervoor is dat de opdracht Stoppen niet beschikbaar is wanneer de workflow wordt gestopt.
 
-   De **.
-
 * **[!UICONTROL Purge history]**
 
    Met deze handeling kunt u de historie van de workflow wissen. Raadpleeg voor meer informatie hierover [De logbestanden leegmaken](monitor-workflow-execution.md#purging-the-logs).
@@ -78,8 +76,6 @@ De werkbalkknoppen worden in dit hoofdstuk beschreven. De **[!UICONTROL Actions]
 * **[!UICONTROL Save as template]**
 
    Met deze actie maakt u een nieuw werkstroomsjabloon op basis van de geselecteerde workflow. U moet de map opgeven waarin deze wordt opgeslagen (in het dialoogvenster **[!UICONTROL Folder]** veld).
-
-   De **.
 
 ## Klikken met rechtermuisknop {#right-click-menu}
 
@@ -109,4 +105,3 @@ De volgende opties zijn beschikbaar in het klikmenu met de rechtermuisknop:
 >
 >U kunt een groep activiteiten selecteren en er een van deze opdrachten op toepassen.
 
-Het contextmenu wordt ook in dit gedeelte beschreven.
