@@ -3,9 +3,9 @@ product: campaign
 title: Gedistribueerde marketing
 description: Meer informatie over het gedistribueerde marketingpakket
 feature: Workflows, Data Management, Distributed Marketing
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '69'
 ht-degree: 8%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 
 
-De hieronder beschreven workflow wordt geïnstalleerd met de **Distributed Marketing** module standaard. Raadpleeg dit voor meer informatie over deze module.
+De hieronder beschreven workflow wordt geïnstalleerd met de **Distributed Marketing** module standaard. Voor meer informatie over deze module raadpleegt u [deze sectie](../distributed-marketing/about-distributed-marketing.md).
 
 <table> 
  <tbody> 
