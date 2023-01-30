@@ -4,7 +4,7 @@ description: De databasestructuur bijwerken
 role: Developer
 level: Intermediate, Experienced
 exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # De databasestructuur bijwerken{#updating-the-database-structure}
 
-Om de wijzigingen toe te passen die aan de schema&#39;s worden aangebracht, lanceer de de updatetovenaar van het Gegevensbestand. Deze assistent is toegankelijk via **[!UICONTROL Tools > Advanced > Update database structure]** . Het controleert of de fysieke structuur van het gegevensbestand zijn logische beschrijving aanpast en de SQL updatescripts uitvoert.
+Om de wijzigingen toe te passen die aan de schema&#39;s worden aangebracht, lanceer de de updatetovenaar van het Gegevensbestand. Deze assistent is toegankelijk via **[!UICONTROL Tools > Advanced > Update database structure]**. Het controleert of de fysieke structuur van het gegevensbestand zijn logische beschrijving aanpast en de SQL updatescripts uitvoert.
 
 ![](assets/schema_update.png)
 
