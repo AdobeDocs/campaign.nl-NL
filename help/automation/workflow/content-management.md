@@ -3,16 +3,15 @@ product: campaign
 title: Contentmanagement
 description: Contentmanagement
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '395'
 ht-degree: 2%
 
 ---
 
 # Contentmanagement{#content-management}
-
-
 
 A **Inhoudsbeheer** Met deze activiteit kunt u inhoud maken en manipuleren en bestanden genereren op basis van deze inhoud. Deze inhoud kan vervolgens worden geleverd via een &#39;leveringsactiviteit&#39;.
 
@@ -27,8 +26,6 @@ De eigenschappen van de activiteit zijn verdeeld in drie stappen:
 * **Handeling**: de resulterende inhoud kan worden opgeslagen of gegenereerd.
 
    ![](assets/content_mgmt_edit.png)
-
-   Raadpleeg dit voor meer informatie over het configureren en gebruiken van contentbeheer in Adobe Campaign.
 
 1. **Inhoud**
 
@@ -97,7 +94,3 @@ Identifier van de inhoud die moet worden gebruikt als de **[!UICONTROL Specified
 * filename
 
    Volledige naam van het gegenereerde bestand als de geselecteerde actie **[!UICONTROL Generate]**.
-
-## Voorbeelden {#examples}
-
-Hier worden voorbeelden gegeven.
