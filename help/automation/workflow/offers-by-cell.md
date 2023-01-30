@@ -3,10 +3,11 @@ product: campaign
 title: Aanbiedingen per cel
 description: Aanbiedingen per cel
 feature: Workflows, Targeting Activity, Interaction
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: e2216dfd-1ef8-4747-b716-576fd6498fa6
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 8%
+source-wordcount: '151'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 8%
 
 De **[!UICONTROL Offers by cell]** de activiteit laat u de binnenkomende bevolking (van een vraag bijvoorbeeld) in verscheidene segmenten verdelen en een aanbieding specificeren om voor elk van deze segmenten voor te stellen.
 
-Deze activiteit kan alleen worden gebruikt met **Interactie**. Raadpleeg dit voor meer informatie.
+Deze activiteit kan alleen worden gebruikt met **Interactie**. Meer informatie over het beheer van aanbiedingen in [deze sectie](../../v8/interaction/interaction.md).
 
 Dit doet u als volgt:
 
