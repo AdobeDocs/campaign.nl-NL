@@ -4,20 +4,16 @@ title: HeatMap van de Campagne Workflow
 description: Uw workflows controleren met Workflow HeatMap
 feature: Workflows, Heatmap
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
 
 # Workflowheatmap {#workflow-heatmap}
 
-
-
 De werkstroom HeatMap van de campagne bestaat uit een kleur-gecodeerde grafische vertegenwoordiging van alle werkschema&#39;s die momenteel lopen. Het is alleen beschikbaar voor **Campagnebeheerders**.
-
-Ontdek extra manieren om Campagne processen in te controleren.
 
 ## Aan de slag met de workflow HeatMap {#about-the-workflow-heatmap}
 
@@ -53,8 +49,7 @@ Het gebruiken van het Werkschema HeatMap vereist om een goed inzicht in de volge
    Standaard geeft de pagina de werkstroomactiviteit voor de huidige dag weer. U kunt deze wijzigen en elke dag uit het verleden selecteren.
 
    >[!NOTE]
-   >
-   >Alleen de workflows die niet zijn verwijderd door de **.\
+   > 
    >Door gebrek, is de de tijdzone van de Werkstroom HeatMap die voor de huidige beheerdergebruiker wordt bepaald. U kunt deze bijvoorbeeld wijzigen als u zich niet in hetzelfde gebied bevindt als de marketinggebruikers waarmee u werkt.
 
 1. Klik op de knop **[!UICONTROL Filters]**.
@@ -153,7 +148,7 @@ In dit geval klagen veel gebruikers over workflowprestaties. U moet controleren 
 
 1. Ga naar **[!UICONTROL Monitoring]** en klik op de knop **[!UICONTROL Workflows]** koppeling om de **[!UICONTROL Campaign Workflow HeatMap]** pagina.
 1. Stel de **[!UICONTROL Min duration]** filteren tot 5 minuten.
-1. Stel de **[!UICONTROL Workflow type]** filteren naar **[!UICONTROL Marketing]** .
+1. Stel de **[!UICONTROL Workflow type]** filteren naar **[!UICONTROL Marketing]**.
 1. Neem het volgende in acht vanaf het HeatMap-raster:
 
    ![](assets/wkf_monitoring_without.png)
