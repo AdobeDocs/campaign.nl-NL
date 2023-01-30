@@ -5,19 +5,17 @@ description: Marketingresources (MRM)
 feature: Workflows, Targeting Activity
 hide: true
 hidefromtoc: true
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 12%
+source-wordcount: '83'
+ht-degree: 13%
 
 ---
 
 
 # Marketingresources (MRM){#marketing-resources-mrm}
 
-
-
-De hieronder beschreven workflows worden geïnstalleerd met de **Marketing resources (MRM)** module standaard. Raadpleeg dit voor meer informatie over deze module.
+De hieronder beschreven workflows worden geïnstalleerd met de **Marketing resources (MRM)** module standaard.
 
 <table> 
  <tbody> 
