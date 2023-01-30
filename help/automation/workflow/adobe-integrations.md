@@ -3,9 +3,9 @@ product: campaign
 title: Integratie met workflows voor Adobe Experience Cloud-oplossingen
 description: Meer informatie over workflows voor integratie met Adobe Experience Cloud-oplossingen
 topic-tags: technical-workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '109'
 ht-degree: 8%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 8%
 
 # Integraties met Adobe Experience Cloud-oplossingen{#integrations-with-adobe-experience-cloud-solutions}
 
-
-
-De hieronder beschreven workflows worden geïnstalleerd met de **Integratie met de Adobe Experience Cloud** module standaard. Raadpleeg dit voor meer informatie over deze module.
+De hieronder beschreven workflows worden geïnstalleerd met de **Integratie met de Adobe Experience Cloud** module standaard. Voor meer informatie over deze module raadpleegt u [deze pagina](../../v8/connect/integration.md).
 
 <table> 
  <tbody> 
