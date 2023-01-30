@@ -4,24 +4,20 @@ title: Workflowuitvoering controleren
 description: Workflowuitvoering controleren
 feature: Workflows
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 1%
+source-wordcount: '1936'
+ht-degree: 0%
 
 ---
 
 # Workflowuitvoering controleren {#monitoring-workflow-execution}
 
-
-
 Deze sectie geeft informatie over hoe te om de uitvoering van uw werkschema&#39;s te controleren.
 
 Er is ook een gebruiksscenario beschikbaar voor het maken van een workflow waarmee u de status kunt controleren van een set werkstromen die worden gepauzeerd, gestopt of met fouten. [deze sectie](workflow-supervision.md#supervising-workflows).
 
-Daarnaast kunnen beheerders van de instantie de opdracht **Audittrail** om activiteiten en laatste wijzigingen te controleren die aan werkschema&#39;s worden gedaan, de staat van uw werkschema&#39;s. Raadpleeg  voor meer informatie.
-
-Er worden aanvullende manieren voorgesteld om de verschillende campagneprocessen te controleren.
+Daarnaast kunnen beheerders van de instantie de opdracht **Audittrail** om activiteiten en laatste wijzigingen te controleren die aan werkschema&#39;s worden gedaan, de staat van uw werkschema&#39;s. Meer informatie over audittrail in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target="_blank"}.
 
 ## Voortgang weergeven {#displaying-progress}
 
@@ -139,8 +135,6 @@ In dit geval wordt de fouttaak afgebroken. Deze modus is vooral geschikt voor wo
 >
 >U kunt deze configuratie afzonderlijk toepassen voor elke activiteit. Hiervoor bewerkt u de eigenschappen van de activiteit en selecteert u de modus voor foutbeheer in het dialoogvenster **[!UICONTROL Advanced]** tab.
 
-Raadpleeg voor meer informatie over het oplossen van problemen bij uitvoering van workflows.
-
 ## Verwerkingsfouten {#processing-errors}
 
 Met betrekking tot activiteiten **[!UICONTROL Process errors]** geeft een specifieke overgang weer die wordt ingeschakeld als een fout wordt gegenereerd. In dit geval gaat de workflow niet naar de foutmodus en gaat de uitvoering verder.
@@ -230,9 +224,9 @@ In deze rubriek wordt een gebruiksgeval weergegeven: [Gegevensupdates coördiner
 
 ## Databaseonderhoud {#database-maintenance}
 
-Workflows gebruiken veel werktabellen die ruimte verbruiken en het hele platform vertragen als het niet wordt onderhouden. Raadpleeg dit voor meer informatie over databaseonderhoud.
+Workflows gebruiken veel werktabellen die ruimte verbruiken en het hele platform vertragen als het niet wordt onderhouden.
 
-De **Database opschonen** via de **Beheer > Productie > Technische workflows** knoop, laat u verouderde gegevens schrappen om exponentiële groei van het gegevensbestand te vermijden. De workflow wordt automatisch geactiveerd zonder tussenkomst van de gebruiker. Zie  .
+De **Database opschonen** via de **Beheer > Productie > Technische workflows** knoop, laat u verouderde gegevens schrappen om exponentiële groei van het gegevensbestand te vermijden. De workflow wordt automatisch geactiveerd zonder tussenkomst van de gebruiker.
 
 U kunt ook specifieke technische workflows maken om overbodige gegevensverbruikende ruimte te wissen. Zie en deze [sectie](#purging-the-logs).
 
@@ -267,7 +261,7 @@ Dit doet u als volgt:
 
 1. Klik met de rechtermuisknop op de map waaraan u de weergave wilt toevoegen.
 1. In **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]** selecteert u de weergave die u wilt toevoegen.
-1. Nadat de map aan de structuur is toegevoegd, configureert u deze als een weergave, zodat alle workflows worden weergegeven, ongeacht de oorspronkelijke map.Raadpleeg voor meer informatie over het configureren van weergaven.
+1. Nadat de map aan de structuur is toegevoegd, configureert u deze als een weergave, zodat alle workflows worden weergegeven, ongeacht de oorspronkelijke map. Voor meer op hoe te om meningen te vormen, verwijs naar [deze pagina](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 Naast deze weergaven kunt u ook mappen met filters instellen waarmee u de lijst met workflows kunt filteren op basis van hun uitvoeringsstatus. Dit doet u als volgt:
 
