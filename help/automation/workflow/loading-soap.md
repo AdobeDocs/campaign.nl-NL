@@ -3,9 +3,10 @@ product: campaign
 title: Laden (SOAP)
 description: Laden (SOAP)
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 21c42a36-9a50-49b8-8a07-b041ba8b2026
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '229'
 ht-degree: 4%
 
 ---
@@ -39,8 +40,6 @@ De bewerking is als volgt:
    ![](assets/soap_load_001.png)
 
    Als u het voorbeeld wilt bijwerken, selecteert u **[!UICONTROL Re-analyze the example]**.
-
-   U kunt de notatie van kolomgegevens ook aanpassen via de **.
 
 1. U kunt het lijnaantal als herkenningsteken gebruiken en/of specificeren dat de vraag van de ZEEP verscheidene elementen terugkeert.
 1. Voer de volgende tabscripts in op basis van hun functie:
