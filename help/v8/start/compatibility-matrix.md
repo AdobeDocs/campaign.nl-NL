@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 00d95425ca9438cd03b27bbec171aa7c57d25d6f
+source-git-commit: 90dde8bb3bde4893971a2f364aa636ade6fff10f
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 34%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,9 +37,9 @@ De volgende besturingssystemen en browsers zijn vereist om de Campaign-clientcon
 
 ### Webbrowser{#web-browsers}
 
-* Microsoft Edge
+* **Microsoft Edge**
 
-* Microsoft Edge WebView2-runtime, nieuwste versie. Downloaden vanuit [Microsoft Developer-site](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}.
+* **Microsoft Edge WebView2**, nieuwste versie. Downloaden vanuit [Microsoft Developer-site](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}.
 
 ## CRM-connectoren{#CRMconnectors}
 
@@ -61,8 +61,8 @@ Externe databases die compatibel zijn met de module Adobe Campaign Federated Dat
 
 U kunt Campagne gebruiken om te verzenden [pushmeldingen](../send/push.md) op de hieronder vermelde besturingssystemen, met behulp van de bijbehorende mobiele SDK.
 
-* **Android** 12 (startcampagne v8.3), 9.0, 8.x, 7.x, met Campagne Android SDK build 1.1.1.
-* **Apple iOS** 9 - 16 met Campagne iOS SDK build 1.0.26, compatibel met 32- en 64-bits versies. iOS 16 wordt ondersteund vanaf Campaign v8.4.
+* **Android** 12, 9.0, 8.x, 7.x, met Campagne Android SDK build 1.1.1.
+* **Apple iOS** 9 - 16 met Campagne iOS SDK build 1.0.26, compatibel met 32- en 64-bits versies. Apple iOS 16 wordt ondersteund voor startcampagne v8.4.
 
 
 ## Webtoegang{#web-access}
