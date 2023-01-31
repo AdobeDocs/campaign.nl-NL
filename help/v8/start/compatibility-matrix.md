@@ -1,14 +1,14 @@
 ---
 title: Compatibiliteitsmatrix voor campagne v8
-description: Meer informatie over systemen en versies die compatibel zijn met Campagne v8
+description: Systemen en versies detecteren die compatibel zijn met Campagne v8
 feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+source-git-commit: 00d95425ca9438cd03b27bbec171aa7c57d25d6f
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 37%
+source-wordcount: '370'
+ht-degree: 34%
 
 ---
 
@@ -26,37 +26,20 @@ Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het ei
 
 De volgende besturingssystemen en browsers zijn vereist om de Campaign-clientconsole te gebruiken. [Meer informatie](connect.md).
 
-### Besturingssystemen
+### Besturingssystemen{#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11 (startcampagne v8.3), 10, 8
+* **Microsoft Windows** 11, 10, 8
 
 >[!NOTE]
 >
 >Microsoft Windows 10 wordt aanbevolen voor Japanse instanties.
 
-### Browser
+### Webbrowser{#web-browsers}
 
-**Microsoft Edge**
+* Microsoft Edge
 
-### Microsoft WebView2-runtime
-
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge WebView2-runtime
-</p>
-</td>
-<td>
-<p>Laatste versie</p>
-</td>
-<td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download">Downloaden vanaf Microsoft Developer-website</a></p>
-</td>
-</tr>
-</tbody>
-</table>
+* Microsoft Edge WebView2-runtime, nieuwste versie. Downloaden vanuit [Microsoft Developer-site](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}.
 
 ## CRM-connectoren{#CRMconnectors}
 
@@ -82,7 +65,7 @@ U kunt Campagne gebruiken om te verzenden [pushmeldingen](../send/push.md) op de
 * **Apple iOS** 9 - 16 met Campagne iOS SDK build 1.0.26, compatibel met 32- en 64-bits versies. iOS 16 wordt ondersteund vanaf Campaign v8.4.
 
 
-## Webtoegang
+## Webtoegang{#web-access}
 
 De volgende browsers zijn compatibel met Campaign voor [toegang tot internet](connect.md#web-access).
 
