@@ -5,10 +5,10 @@ title: Adobe Campaign Automation Home
 feature: Overview
 description: Overzicht
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-source-git-commit: d6ea8bef9c62d4afbc919110775ee99052eeed7a
+source-git-commit: d8a009b1d6ea4f6921cef203d61c78032951f3ee
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,13 @@ Adobe Campaign maakt het voor u gemakkelijk om uw kanalen in synchronisatie te k
 Bezoek de onderstaande hulplijnen en leer hoe u automatisering met Adobe Campaign kunt maken.
 
 >[!NOTE]
+>
 >Sommige schermen kunnen afwijken van uw omgeving.
 
-
 <table>
-<tr>
+<tr style="border: 0;">
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/workflow.jpeg">
     <b>Workflows</b>
     </div>
     <br>
@@ -46,7 +46,7 @@ Bezoek de onderstaande hulplijnen en leer hoe u automatisering met Adobe Campaig
     <br>
   </td>
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/campaign.jpeg">
     <b>Campagne automatiseren</b>
     </div>
     <br>
@@ -64,7 +64,7 @@ Bezoek de onderstaande hulplijnen en leer hoe u automatisering met Adobe Campaig
     <br>
   </td>
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/add-on.jpeg">
     <b>Invoegtoepassingen</b>
     </div>
     <br>
