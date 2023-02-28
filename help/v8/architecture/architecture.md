@@ -1,14 +1,14 @@
 ---
 title: Aan de slag met de campagnearchitectuur
-description: Ontdek omgevingen en basisprincipes van implementatie, inclusief hoe u een campagneomgeving kunt melden.
+description: Ontdek omgevingen en basisprincipes van implementatie, waaronder hoe u een campagneomgeving kunt rapporteren.
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 0%
+source-wordcount: '702'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Er zijn twee typen omgevingen beschikbaar:
 
 U kunt pakketten van de ene omgeving naar de andere exporteren en importeren.
 
-![](../assets/do-not-localize/book.png) Meer informatie over pakketten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Meer informatie over pakketten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## Implementatiemodellen{#ac-deployment}
 
@@ -74,4 +74,4 @@ Dan, met sessionToken die door de uitvoeringsinstantie in antwoord op de bovenge
 
 * Meerdere uitvoeringsinstanties In een architectuur met meerdere cellen voor uitvoering met meerdere uitvoeringsinstanties achter een taakverdelingsmechanisme, gaat de openings van een sessiemethode die door de externe toepassing wordt aangeroepen door het taakverdelingsmechanisme: daarom kan een tokengebaseerde verificatie niet worden gebruikt. Een op gebruiker/wachtwoord-gebaseerde authentificatie wordt vereist.
 
-![](../assets/do-not-localize/book.png) Meer informatie over Transactionele berichtengebeurtenissen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Meer informatie over Transactionele berichtengebeurtenissen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target="_blank"}

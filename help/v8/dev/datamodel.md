@@ -1,14 +1,14 @@
 ---
 title: Aan de slag met het gegevensmodel van de campagne
-description: Ga aan de slag met het gegevensmodel van de Campagne en hefboomwerkings gegevens van uw bronnen om uw mededelingen en marketing output te profiteren.
+description: Ga aan de slag met het datamodel van Campaign en maak gebruik van gegevens van uw bronnen om te profiteren van uw communicatie- en marketinguitvoer.
 feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 1%
+source-wordcount: '667'
+ht-degree: 4%
 
 ---
 
@@ -60,7 +60,7 @@ Het is mogelijk de tabel voor ontvangers uit te breiden, maar niet om het aantal
 
 ![](../assets/do-not-localize/glass.png) Leer hoe u een bestaand schema kunt uitbreiden in [deze sectie](extend-schema.md).
 
-![](../assets/do-not-localize/book.png) Voorbeelden van ingebouwde tabelextensies voor ontvangers ontdekken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Voorbeelden van ingebouwde tabelextensies voor ontvangers ontdekken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table){target="_blank"}
 
 U kunt een verschillende ontvankelijke lijst ook gebruiken om met uw zaken of functionele vereisten beter te passen. Deze methode heeft beperkingen en wordt beschreven in [deze sectie](custom-recipient.md).
 

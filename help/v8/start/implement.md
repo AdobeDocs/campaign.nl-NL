@@ -1,13 +1,13 @@
 ---
 title: Uitvoeringsrichtsnoeren
-description: Leer hoe u campagne v8 kunt implementeren
+description: Campaign v8 leren implementeren
 feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: a2c30979be786ce8374857eb270ba71ec0e1b2a3
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1191'
 ht-degree: 4%
 
 ---
@@ -38,11 +38,11 @@ Adobe Campaign wordt geleverd met processen en instellingen waarmee u Campagne k
 
 * **Gegevensverwerving**: Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en vertrouwelijke informatie. Het is daarom van essentieel belang dat u toestemming krijgt en beheert van uw ontvangers.
 
-   Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition){target=&quot;_blank&quot;}
+   Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition){target="_blank"}
 
 * **Goedkeuring door de gebruiker en bewaring van gegevens**: u moet toestemming van de gebruiker krijgen, dubbele opt-in-abonnementsmechanismen instellen, de opt-out vergemakkelijken en het bewaren van gegevens configureren.
 
-   Meer informatie in [Campaign Classic v7-privacydocumentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent){target=&quot;_blank&quot;}
+   Meer informatie in [Campaign Classic v7-privacydocumentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent){target="_blank"}
 
 * **Regels inzake privacy en gegevensbescherming**: verwijzen naar [deze sectie](privacy.md) voor meer informatie over de privacyvereisten en hoe deze regels van invloed zijn op uw organisatie en Adobe Campaign.
 
@@ -87,7 +87,7 @@ Voordat u begint met het verzenden van berichten en het maken van marketingcampa
 
    ![](../assets/do-not-localize/glass.png) Leer hoe u een workflowsjabloon kunt configureren in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html)
 
-   ![](../assets/do-not-localize/book.png) Meer informatie over e-mailsjablonen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Meer informatie over e-mailsjablonen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target="_blank"}
 
 
 1. **Typologische regels configureren**
