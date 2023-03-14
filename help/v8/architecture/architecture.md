@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 618e45b6948070c6b791d2bcefa8296b297bf25e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 1%
+source-wordcount: '1015'
+ht-degree: 2%
 
 ---
 
@@ -42,6 +42,48 @@ Er zijn twee implementatiemodellen beschikbaar:
 
    Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens bevinden zich nu op afstand in de cloud-database. Met deze nieuwe architectuur vereenvoudigt de implementatie van Campaign v8 Enterprise (FFDA) het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
 
+## Uitvoering van gesplitste levering {#split}
+
+>[!AVAILABILITY]
+>
+>Deze functie is alleen beschikbaar voor klanten met meerdere MID-instanties.
+
+Afhankelijk van het pakket Campagne v8 beschikt u over een specifiek aantal instanties voor midsourcing die verantwoordelijk zijn voor het uitvoeren van leveringen.
+
+De externe accounts van alle kanalen gebruiken standaard een **[!UICONTROL Alternate]** het verpletteren van wijze, betekenend dat één levering van elke middeninstantie in een tijd afwisselend wordt verzonden.
+
+Om betere prestaties zowel in termen van snelheid als schaal te verzekeren, kunt u levering toestaan om automatisch over uw middelsourcinginstanties worden verdeeld om sneller aan de ontvangers te worden geleverd. Deze bewerking is transparant wanneer de levering wordt uitgevoerd van het marketingexemplaar: zodra de levering is verzonden, worden alle logboeken samen geconsolideerd, voordat ze naar de marketinginstantie worden teruggestuurd naar één enkel leveringsobject.
+
+Hiertoe worden aanvullende externe rekeningen bij de **[!UICONTROL Split]** de verpletterende wijze wordt gecreeerd op levering voor elk kanaal:
+
+* Levering splitsen - E-mail (splitDeliveryEmail)
+* Aflevering splitsen - SMS (splitDeliverySMS)
+* Split Delivery - iOS (splitDeliveryIOS)
+* Aflevering splitsen - Android (splitDeliveryAndroid)
+
+![](assets/splitted-delivery.png)
+
+>[!IMPORTANT]
+>
+>De gesplitste verpletterende wijze wordt toegelaten door gebrek voor de &quot;Gesplitste Levering - E-mail&quot;rekening. Neem voor alle andere kanalen externe accounts contact op met de klantenservice om de optie in te schakelen.
+>
+>Standaard is de waarde voor drempelgrootte voor het splitsen van een levering tussen meerdere midden 100 kB. U kunt deze waarde wijzigen in de optie &quot;NmsDelivery_MultiMidSplitThreshold&quot; in het dialoogvenster **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** -menu.
+
+om gespleten externe rekeningen als standaardrekening voor het verzenden van leveringen te maken, moet u de verpletterende leverancier in uw leveringsmalplaatjes veranderen. Ga als volgt te werk om dit te doen:
+
+1. Ga naar de **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** en opent u de gewenste leveringssjabloon. In dit voorbeeld willen we de sjabloon voor e-maillevering bewerken.
+
+   ![](assets/split-default-list.png)
+
+1. Klik op de knop **[!UICONTROL Properties]** knoop en verander de verpletterende leverancier in de overeenkomstige gespleten levering externe rekening.
+
+   ![](assets/split-default-delivery.png)
+
+1. Sla uw wijzigingen op. Alle die leveringen gebruikend het malplaatje worden verzonden zullen nu de gespleten verpletterende wijze door gebrek gebruiken.
+
+<!--In addition, you can select split external accounts as the default routing provider for all future delivery templates. To do this, change the value of the **[!UICONTROL xtkoption NmsBroadcast_DefaultProvider]** option to the name of the split account.
+
+![](assets/split-default-options.png) -->
 
 ## Berichtencentrum{#transac-msg-archi}
 
