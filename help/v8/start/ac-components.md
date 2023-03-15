@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,15 @@ U kunt toegang krijgen tot Adobe Campaign via een rijke client, een dunne client
 
 * Rijke client
 
-   Campagne Rich-client is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP.
-
-   De console van de Cliënt van de campagne centraliseert alle mogelijkheden en montages, en vereist minimale bandbreedte aangezien het op een lokaal geheime voorgeheugen baseert. De Campagne Client Console is ontworpen voor eenvoudige implementatie en kan worden geïmplementeerd vanuit een internetbrowser, automatisch worden bijgewerkt. Hiervoor is geen specifieke netwerkconfiguratie nodig omdat alleen HTTP(S)-verkeer wordt gegenereerd.
-
-   ![](../assets/do-not-localize/glass.png) [Meer informatie over Campagne Client Console](../start/connect.md).
+   Campagne Rich-client is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. [Meer informatie over Campagne Client Console](../start/connect.md).
 
 * Dunne client
 
-   Met Adobe Campaign-mogelijkheden voor webtoegang hebt u via een gebruikersinterface toegang tot een subset van Campagnefuncties via een webbrowser. Gebruik deze webinterface om rapporten te openen, berichten te besturen en te valideren, toegang te krijgen tot controledashboards en nog veel meer.
-
-   ![](../assets/do-not-localize/glass.png) [Meer informatie over Campagne Web Access](../start/connect.md).
+   Met Adobe Campaign-mogelijkheden voor webtoegang hebt u via een gebruikersinterface toegang tot een subset van Campagnefuncties via een webbrowser. Gebruik deze webinterface om rapporten te openen, berichten te besturen en te valideren, toegang te krijgen tot controledashboards en nog veel meer.  [Meer informatie over Campagne Web Access](../start/connect.md).
 
 * Externe toepassingen met API&#39;s
 
-   In bepaalde gevallen, kan het systeem van externe toepassingen worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van de ZEEP worden blootgesteld.
-
-   ![](../assets/do-not-localize/glass.png) [Meer informatie over campagne-API&#39;s](../dev/api.md).
+   In bepaalde gevallen, kan het systeem van externe toepassingen worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van de ZEEP worden blootgesteld. [Meer informatie over campagne-API&#39;s](../dev/api.md).
 
 ### Persistentielaag{#persistance-layer}
 

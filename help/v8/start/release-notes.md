@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 55711ea42b9cc0be70e875e1544780b6983af98b
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '522'
+ht-degree: 29%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 0%
 Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd met de **nieuwste versie van Campaign v8**.
 
 ## Release 8.4.4 {#release-8-4-4}
-
->[!CAUTION]
->
-> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#download-ac-console) hoe u uw Client Console kunt upgraden.
 
 _8 maart 2023_
 
@@ -34,11 +30,14 @@ _8 maart 2023_
 * Probleem verholpen waardoor u niet in het dialoogvenster **Bewerken** tabblad van de Digital Content Editor (DCE). (NEO-54474)
 * Probleem verholpen tijdens replicatie die tot een crash van een webserver kan leiden. (NEO-53670)
 
-## Release 8.4.3 {#release-8-4-3}
 
 >[!CAUTION]
 >
-> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#download-ac-console) hoe u uw Client Console kunt upgraden.
+> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
+
+
+## Release 8.4.3 {#release-8-4-3}
+
 
 _27 januari 2023_
 
@@ -67,3 +66,6 @@ _27 januari 2023_
 * Het beheer van URL&#39;s bijhouden is verbeterd in workflows met meerdere leveringen om de prestaties te verbeteren. (NEO-50894) <!--OKKKK-->
 * Probleem verholpen waarbij de replicatie van schema&#39;s die Xtkfolder gebruiken kon mislukken. (NEO-46787) <!--OKKKK-->
 * Probleemoplossing die ervoor zorgde dat de aangepaste kolom &quot;lastModified&quot; in de tabel NmsSubscription zou worden verwijderd. (NEO-48402)
+
+
+**Clientconsole-upgrade is verplicht voor deze release** - Leer hoe u uw clientconsole kunt upgraden in deze [page](../start/connect.md#upgrade-ac-console).
