@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
+source-git-commit: 814f7c81aa4f154fdf289effc82b8d02bdd9b4c6
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 29%
+source-wordcount: '519'
+ht-degree: 32%
 
 ---
 
@@ -68,4 +68,6 @@ _27 januari 2023_
 * Probleemoplossing die ervoor zorgde dat de aangepaste kolom &quot;lastModified&quot; in de tabel NmsSubscription zou worden verwijderd. (NEO-48402)
 
 
-**Clientconsole-upgrade is verplicht voor deze release** - Leer hoe u uw clientconsole kunt upgraden in deze [page](../start/connect.md#upgrade-ac-console).
+>[!CAUTION]
+>
+> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
