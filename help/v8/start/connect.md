@@ -5,16 +5,16 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
+source-git-commit: 445e62c290466003886f2dc49386d0c1edb80eeb
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '905'
 ht-degree: 3%
 
 ---
 
 # Verbinding maken met Adobe Campaign v8{#gs-ac-connect}
 
-U moet de Console van de Cliënt van de Campagne installeren om met uw server(s) van de Toepassing van de Campagne te verbinden.
+Als u wilt gaan werken met Campagne, moet u de Client Console installeren en configureren.
 
 De clientconsole is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. De console van de Cliënt van de campagne centraliseert alle mogelijkheden en montages, en vereist minimale bandbreedte aangezien het op een lokaal geheime voorgeheugen baseert. De Campagne Client Console is ontworpen voor eenvoudige implementatie en kan worden geïmplementeerd vanuit een internetbrowser, automatisch worden bijgewerkt. Hiervoor is geen specifieke netwerkconfiguratie nodig omdat alleen HTTP(S)-verkeer wordt gegenereerd.
 
@@ -22,7 +22,7 @@ Voordat u begint, moet u:
 
 * Controleer de compatibiliteit van uw systeem en gereedschappen met Adobe Campaign in de [Compatibiliteitsmatrix](compatibility-matrix.md)
 * URL van campagneserver ophalen
-* Adobe ID maken of je gebruikersnaam van je bedrijf ophalen
+* Maak je Adobe ID of ontvang je gebruikersgegevens van je bedrijf
 * Installeer de Microsoft Edge Webview2-runtime op uw systeem. [Meer informatie](#webview)
 
 ## De clientconsole installeren{#download-ac-console}
@@ -31,7 +31,7 @@ Voordat u begint, moet u:
 
 Vanuit de Campaign Classic 8.4-build-versie is de installatie van de Microsoft Edge Webview 2-runtime vereist voor elke installatie van de Client Console.
 
-De webweergave wordt standaard geïnstalleerd als onderdeel van het besturingssysteem Windows 11. Als dit nog niet het geval is op uw systeem, wordt u gevraagd het programma te downloaden van [Microsoft Developer-website](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}. De downloadkoppeling werkt niet in Internet Explorer 11, omdat Microsoft de ondersteuning heeft vervangen. Zorg ervoor dat u een andere browser gebruikt om de koppeling te openen.
+De webweergave wordt standaard geïnstalleerd als onderdeel van het besturingssysteem Windows 11. Als dit nog niet het geval is op uw systeem, wordt u via het installatieprogramma van de Campagne Client Console gevraagd het programma te downloaden van [Microsoft Developer-website](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}. De downloadkoppeling werkt niet in Internet Explorer 11, omdat Microsoft de ondersteuning heeft vervangen. Zorg ervoor dat u een andere browser gebruikt om de koppeling te openen.
 
 ### De console downloaden{#install-ac-console}
 
@@ -51,9 +51,7 @@ U kunt de taal van de clientconsole niet wijzigen nadat u deze hebt geïnstallee
 
 Nadat de clientconsole is geïnstalleerd, voert u de onderstaande stappen uit om de verbinding met de toepassingsserver tot stand te brengen:
 
-1. De console starten vanuit Windows **[!UICONTROL Start]** in het menu **Adobe Campaign** programmagroep.
-
-1. Klik op de koppeling in de rechterbovenhoek van de aanmeldingsvelden om het venster voor de verbindingsconfiguratie te openen.
+1. Start de console en blader in de rechterhoek naar de koppeling om het scherm voor de verbindingsconfiguratie te openen.
 
 1. Klikken **[!UICONTROL Add > Connection]** en voert u het label en de URL van de Adobe Campaign-toepassingsserver in.
 
@@ -77,9 +75,7 @@ Campagnegebruikers maken via hun Adobe ID verbinding met de Adobe Campaign-conso
 
 Volg onderstaande stappen om u aan te melden bij een instantie:
 
-1. De console starten vanuit Windows **[!UICONTROL Start]** in het menu **Adobe Campaign** programmagroep.
-
-1. Klik op de koppeling in de rechterbovenhoek van de aanmeldingsvelden om het venster voor de verbindingsconfiguratie te openen.
+1. Start de console en blader in de rechterhoek naar de koppeling om het scherm voor de verbindingsconfiguratie te openen.
 
    ![](assets/connectToCampaign.png)
 
@@ -87,13 +83,13 @@ Volg onderstaande stappen om u aan te melden bij een instantie:
 
 1. Klik op **[!UICONTROL Ok]**.
 
-1. U kunt zich dan aanmelden bij Campagne met [Adobe ID](#connect-ims).
+U kunt zich dan aanmelden bij Campagne met [Adobe ID](#connect-ims).
 
-   ![](assets/adobeID.png)
+![](assets/adobeID.png)
 
 >[!NOTE]
 >
->Voor campagne klassieke 8.4 bouwt versies, kan de cliëntconsole van Adobe Campaign om volmachtsgeloofsbrieven tweemaal tijdens volmachtsauthentificatie vragen. Dit komt doordat Microsoft Edge Webview2 in tegenstelling tot Internet Explorer geen proxygegevens in de cache-/wachtwoordwinkel opslaat.
+>Aangezien Microsoft Edge Webview2 geen proxyreferenties opslaat, wordt u mogelijk door de Console gevraagd om tweemaal te verifiëren bij de eerste verbinding.
 
 ## Uw clientconsole upgraden{#upgrade-ac-console}
 
@@ -103,7 +99,7 @@ Als Beheerde gebruiker van Cloud Services, stelt Adobe de Console van de Cliënt
 
 >[!CAUTION]
 >
->Adobe raadt u aan deze optie te laten **[!UICONTROL No longer ask this question]** niet geselecteerd om ervoor te zorgen dat alle gebruikers worden gewaarschuwd wanneer een nieuwe versie van de Console beschikbaar is. Als deze optie is geselecteerd, wordt de gebruiker niet op de hoogte gesteld van nieuwe beschikbare versies.
+>Adobe raadt u aan deze optie te laten **[!UICONTROL No longer ask this question]** niet geselecteerd om ervoor te zorgen dat u gewaarschuwd wordt wanneer een nieuwe versie van de Console beschikbaar is. Als deze optie is geselecteerd, wordt de gebruiker niet geïnformeerd dat een consoleverbetering is vereist.
 
 
 ## Toegang verlenen aan gebruikers{#grant-access}
