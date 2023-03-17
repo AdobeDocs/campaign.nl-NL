@@ -4,9 +4,9 @@ description: Leer hoe u de koppeling naar de spiegel toevoegt en beheert
 feature: Email
 role: User
 level: Beginner
-source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
+source-git-commit: 9ebcfee199a2ba355b7b504c7f24732d30542a36
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,14 @@ De spiegelpagina die door Adobe Campaign wordt gegenereerd, bevat alle aanpassin
 
 ![](assets/mirror-page-link.png)
 
-
 ## Een koppeling toevoegen aan de spiegelpagina{#link-to-mirror-page}
 
 Het invoegen van een koppeling naar de spiegelpagina is een goede gewoonte. Deze koppeling kan bijvoorbeeld &#39;Deze e-mail weergeven in uw browser&#39; of &#39;Deze online lezen&#39; zijn. Deze bevindt zich vaak in de kop- of voettekst van de e-mail.
 
 In Adobe Campaign kunt u een koppeling naar de spiegel in de e-mailinhoud invoegen met behulp van de toegewezen **verpersoonlijkingsblok**. De ingebouwde **Koppelen aan spiegelpagina** het verpersoonlijkingsblok neemt de volgende code in uw e-mailinhoud op: `<%@ include view='MirrorPage' %>`.
+
+![](assets/mirror-page-insert.png)
+
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
 
@@ -47,5 +49,19 @@ Naast de standaardmodus zijn de volgende opties beschikbaar:
 
 * **[!UICONTROL Force the generation of the mirror page]**: Gebruik deze wijze om de spiegelpagina te produceren zelfs als geen verbinding aan de spiegelpagina in de levering wordt opgenomen.
 * **[!UICONTROL Do not generate the mirror page]**: Gebruik deze modus om te voorkomen dat een spiegelpagina wordt gegenereerd, zelfs als de koppeling aanwezig is in de levering.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: gebruik deze optie om toegang tot de inhoud van de spiegelpagina, met verpersoonlijkingsgegevens, in het venster van het leveringslogboek toe te laten. Deze spiegelpagina openen: zodra de levering is verzonden, opent u deze en bladert u naar de bijbehorende **[!UICONTROL Delivery]** tab. Selecteer een ontvanger en klik op de knop **[!UICONTROL Display the mirror page for this message...]** koppeling. De spiegelpagina wordt weergegeven in een nieuw tabblad.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: als de koppeling naar de spiegelpagina niet aanwezig is in de e-mailinhoud, gebruikt u deze optie om toegang tot de inhoud van de spiegelpagina in te schakelen, in het venster van het leveringslogboek, zoals hieronder beschreven.
+
+## De spiegelpagina voor een ontvanger controleren{#mirror-page-access}
+
+U kunt tot de inhoud van de spiegelpagina voor een specifieke ontvanger van een levering, met verpersoonlijkingsgegevens toegang hebben.
+
+Deze spiegelpagina openen:
+
+1. Nadat de levering is verzonden, opent u deze en bladert u naar de betreffende **[!UICONTROL Delivery]** tab.
+
+1. Selecteer een ontvanger en klik op de knop **[!UICONTROL Display the mirror page for this message...]** koppeling.
+
+   ![](assets/mirror-page-display.png)
+
+   De spiegelpagina wordt weergegeven in een speciaal scherm, met verpersoonlijkingsgegevens voor de geselecteerde ontvanger.
 
