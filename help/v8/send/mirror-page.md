@@ -4,9 +4,9 @@ description: Leer hoe u een koppeling naar de spiegelpagina maakt
 feature: Email
 role: User
 level: Beginner
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 2c35b169725b5300940260124a4b559eb44ffe43
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,16 @@ Hoewel de meeste e-mailclients afbeeldingen zonder problemen renderen, kunnen be
 
 De spiegelpagina die door Adobe Campaign wordt gegenereerd, bevat alle aanpassingsgegevens.
 
+![](assets/mirror-page-link.png)
+
+
 ## Een koppeling toevoegen aan de spiegelpagina{#link-to-mirror-page}
 
 Het invoegen van een koppeling naar de spiegelpagina is een goede gewoonte. Deze koppeling kan bijvoorbeeld &#39;Deze e-mail weergeven in uw browser&#39; zijn en bevindt zich vaak in de kop- of voettekst van een e-mail.
 
 In Adobe Campaign kunt u een koppeling naar de spiegel in de e-mailinhoud invoegen met behulp van de toegewezen **verpersoonlijkingsblok**. Standaard wordt de spiegelpagina alleen gegenereerd als de koppeling is ingevoegd in de inhoud van het bericht.
+
+De ingebouwde **Koppelen aan spiegelpagina** het verpersoonlijkingsblok neemt de volgende code in uw e-mailinhoud op: `<%@ include view='MirrorPage' %>`.
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
 
