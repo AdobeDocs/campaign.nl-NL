@@ -6,23 +6,25 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 4a017eabf1330b04939aa4bd0602c371a0ee3208
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1311'
 ht-degree: 1%
 
 ---
 
 # SDK&#39;s voor campagnes integreren met uw app {#integrate-campaign-sdk}
 
-Gebruik de campagne-SDK&#39;s voor iOS en Android om de integratie van uw mobiele toepassing in het Adobe Campaign-platform te vergemakkelijken.
+Met de SDK&#39;s voor campagnes voor iOS en Android kunt u de integratie van uw mobiele toepassing in het Adobe Campaign-platform vergemakkelijken.
 
 Ondersteunde versies voor Android en iOS en compatibele versies voor Campagne-SDK&#39;s voor Campagne v8 worden weergegeven in de [Compatibiliteitsmatrix](../start/compatibility-matrix.md#MobileSDK).
 
+Als Campagnebeheerder kunt u Campagne-SDK&#39;s downloaden van de [Experience Cloud-softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Neem voor meer informatie contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
+
 >[!NOTE]
 >
->Als Campagnebeheerder kunt u Campagne-SDK&#39;s downloaden van de [Experience Cloud-softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Neem voor meer informatie contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-
+>U kunt de Adobe Experience Platform Mobile SDK ook gebruiken door de Adobe Campaign-extensie te configureren in de gebruikersinterface voor gegevensverzameling. [Meer informatie in documentatie voor ontwikkelaars](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 ## Integratie-instellingen declareren {#declaring-integration-settings}
 
@@ -651,7 +653,7 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
    | ACCRegisterDeviceStatusFailedUnknownUID | De opgegeven UUID (integratiesleutel) is onbekend. | LEEG |
    | ACCRegisterDeviceStatusFailedUnexpectedError | Onverwachte fout die aan server ACC is teruggekeerd. | The error message returned to ACC. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
    **Neolane_SDKDelegate** protocol en **registerDeviceStatus** gedelegeerde definitie is als volgt:
 
