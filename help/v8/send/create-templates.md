@@ -5,10 +5,11 @@ description: Leer hoe u leveringssjablonen maakt en gebruikt in Campagne
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 1c0015a02ff950d9bf9d33aacebf899db9e580fa
+exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ Een sjabloon kan systematisch het volgende bevatten:
 * Typologieën
 * Afzender en antwoordadressen
 * Basisblokken voor personalisatie
-* Koppelingen naar spiegelpagina&#39;s en naar het opzeggen van abonnementen koppelingen
+* Koppelingen naar [spiegelpagina&#39;s](../send/mirror-page.md) en abonnementkoppelingen
 * Inhoud, bedrijfslogo of handtekening
 * Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.
 
@@ -85,7 +86,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te con
 1. Van de **Eigenschappen** aanpassen.
 1. In de **Algemeen** de locaties die zijn geselecteerd in het dialoogvenster **Uitvoermap**, **Map**, en **Routering** vervolgkeuzemenu&#39;s.
 1. Voltooi de **E-mailparameters** rubriek met je e-mailonderwerp en doelgroep.
-1. Voeg uw **HTML-inhoud** om uw sjabloon aan te passen, kunt u een koppeling naar een spiegel en een koppeling naar een abonnement weergeven.
+1. Voeg uw **HTML-inhoud** om uw sjabloon aan te passen, kunt u een [hyperlink spiegelen](../send/mirror-page.md) en een koppeling zonder abonnement.
 1. Selecteer **Voorvertoning** tab. In de **Aanpassing testen** vervolgkeuzelijst, selecteert u **Ontvanger** om een voorbeeld van de sjabloon weer te geven als het gekozen profiel.
 1. Klikken **Opslaan**. Je template is nu klaar om te worden gebruikt in een levering.
 
@@ -141,4 +142,4 @@ In deze video wordt uitgelegd hoe u een sjabloon voor ad-hoc e-maillevering kunt
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Er zijn aanvullende Campaign Classic-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende instructievideo&#39;s beschikbaar voor campagnes [hier](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

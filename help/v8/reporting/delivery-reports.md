@@ -2,13 +2,13 @@
 title: Geïntegreerde Adobe Campaign-leveringsrapporten
 description: Geïntegreerde Adobe Campaign-leveringsrapporten
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1031'
 ht-degree: 1%
 
 ---
-
 
 # Leveringsrapporten {#delivery-reports}
 
@@ -62,7 +62,7 @@ Dit rapport combineert de belangrijkste indicatoren voor het volgen van het gedr
 * **[!UICONTROL Distinct opens for the population reached]** : Schatting van het aantal ontvangers voor wie het bericht bestemd is dat een bericht ten minste eenmaal heeft geopend. Er wordt rekening gehouden met klikken op bijgehouden URL&#39;s omdat e-mails moeten worden geopend om op een koppeling te klikken.
 * **[!UICONTROL Sum of opens for the population reached]** : Schatting van het totale aantal openingen door de beoogde ontvangers.
 * **[!UICONTROL Clicks on opt-out link]** : Aantal klikken op de verbinding van het unsubscription.
-* **[!UICONTROL Clicks on the mirror page link]** : Aantal klikken op de verbinding aan de spiegelpagina. Om in aanmerking te worden genomen, moet de verbinding als dusdanig in de leveringstovenaar (bijgehouden URLs) worden bepaald. <!--Refer to this [page](../../delivery/using/about-delivery-monitoring.md).-->
+* **[!UICONTROL Clicks on the mirror page link]** : Aantal klikken op de verbinding aan [spiegelpagina](../send/mirror-page.md). Om in aanmerking te worden genomen, moet de verbinding als dusdanig in de leveringstovenaar (bijgehouden URLs) worden bepaald.
 * **[!UICONTROL Estimation of forwards]** : Schatting van het aantal e-mails dat door de beoogde ontvangers is doorgestuurd. Deze waarde wordt berekend door het aantal verschillende personen en het aantal verschillende ontvangers af te trekken die in de e-mail hebben geklikt.
 
    >[!NOTE]
@@ -83,7 +83,7 @@ Deze waardetabel toont de uitsplitsing van leveringen, opent, klikt en ruwe reac
 >
 >De domeinnamen die in dit rapport worden weergegeven, worden gedefinieerd in de gespecificeerde lijst die op kubusniveau wordt gebruikt. Als u standaarddomeinen wilt wijzigen, toevoegen of verwijderen, bewerkt u de **[!UICONTROL Domains]** gespecificeerde lijst en wijzigt waarden en aliassen. De **[!UICONTROL Others]** de categorie omvat domeinnamen die niet tot om het even welke waarde van de gespecificeerde lijst behoren.
 >
->Leer hoe te om tot uw opsommingen toegang te hebben en te vormen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+>Leer hoe te om tot uw opsommingen toegang te hebben en te vormen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 
 **[!UICONTROL 4. Generated click streams]**
@@ -203,5 +203,3 @@ U kunt gecumuleerde rapporten weergeven bij leveringen. Selecteer hiertoe de te 
 Als u niet-aangrenzende leveringen in de lijst wilt selecteren, houdt u de CTRL-toets ingedrukt terwijl u een selectie maakt.
 
 Als u leveringen wilt selecteren die in een andere map zijn opgeslagen, klikt u op de knop **[!UICONTROL Display sub-levels]** toegankelijk in de werkbalk. Deze worden vervolgens in dezelfde lijst weergegeven.
-
-

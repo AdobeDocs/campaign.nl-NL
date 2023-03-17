@@ -3,10 +3,11 @@ product: campaign
 title: Lijstupdate
 description: Lijstupdate
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: abb7f777-0b4a-4bf2-bcb6-32264f340a58
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -72,4 +73,4 @@ Deze video laat zien hoe u een lijst met ontvangers in de Verkenner kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-Er zijn aanvullende Campaign Classic-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende instructievideo&#39;s beschikbaar voor campagnes [hier](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

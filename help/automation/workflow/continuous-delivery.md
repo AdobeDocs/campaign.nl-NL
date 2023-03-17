@@ -3,10 +3,11 @@ product: campaign
 title: Doorlopende levering
 description: Doorlopende levering
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -63,4 +64,4 @@ Deze video laat zien hoe u een doorlopende levering configureert met een stapsge
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-Er zijn aanvullende Campaign Classic-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende instructievideo&#39;s beschikbaar voor campagnes [hier](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
