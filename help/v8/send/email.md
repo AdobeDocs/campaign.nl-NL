@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 5%
@@ -69,7 +69,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
    * Een spiegelpagina toevoegen
 
-      Als u wilt dat de ontvangers de inhoud van de levering in een webbrowser kunnen bekijken, voegt u een koppeling toe naar de spiegelpagina van het bericht.
+      Als u wilt toestaan dat de ontvangers uw inhoud van de levering in een webbrowser kunnen bekijken, voegt u een koppeling toe naar de [spiegelpagina](../send/mirror-page.md) van uw bericht.
 
       Plaats de cursor op de plaats waar u deze koppeling wilt invoegen, klik op het laatste pictogram op de werkbalk en klik vervolgens op **[!UICONTROL Include]** en selecteert u **[!UICONTROL link to mirror page]**.
    Als de inhoud gereed is, klikt u op **Opslaan**: het wordt nu weergegeven in uw lijst met leveringen, in de **[!UICONTROL Campaigns > Deliveries]** tab. Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
