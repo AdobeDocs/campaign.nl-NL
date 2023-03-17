@@ -1,17 +1,19 @@
 ---
 title: Een koppeling toevoegen aan de spiegelpagina
-description: Leer hoe u een koppeling naar de spiegelpagina maakt
+description: Leer hoe u de koppeling naar de spiegel toevoegt en beheert
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2c35b169725b5300940260124a4b559eb44ffe43
+source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
-# De pagina E-mailspiegel{#mirror-page}
+# Koppeling maken naar de spiegelpagina{#mirror-page}
+
+## Over de spiegelpagina{#about-mirror-page}
 
 De spiegelpagina is een online versie van uw e-mail.
 
@@ -24,11 +26,9 @@ De spiegelpagina die door Adobe Campaign wordt gegenereerd, bevat alle aanpassin
 
 ## Een koppeling toevoegen aan de spiegelpagina{#link-to-mirror-page}
 
-Het invoegen van een koppeling naar de spiegelpagina is een goede gewoonte. Deze koppeling kan bijvoorbeeld &#39;Deze e-mail weergeven in uw browser&#39; zijn en bevindt zich vaak in de kop- of voettekst van een e-mail.
+Het invoegen van een koppeling naar de spiegelpagina is een goede gewoonte. Deze koppeling kan bijvoorbeeld &#39;Deze e-mail weergeven in uw browser&#39; of &#39;Deze online lezen&#39; zijn. Deze bevindt zich vaak in de kop- of voettekst van de e-mail.
 
-In Adobe Campaign kunt u een koppeling naar de spiegel in de e-mailinhoud invoegen met behulp van de toegewezen **verpersoonlijkingsblok**. Standaard wordt de spiegelpagina alleen gegenereerd als de koppeling is ingevoegd in de inhoud van het bericht.
-
-De ingebouwde **Koppelen aan spiegelpagina** het verpersoonlijkingsblok neemt de volgende code in uw e-mailinhoud op: `<%@ include view='MirrorPage' %>`.
+In Adobe Campaign kunt u een koppeling naar de spiegel in de e-mailinhoud invoegen met behulp van de toegewezen **verpersoonlijkingsblok**. De ingebouwde **Koppelen aan spiegelpagina** het verpersoonlijkingsblok neemt de volgende code in uw e-mailinhoud op: `<%@ include view='MirrorPage' %>`.
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
 
