@@ -4,9 +4,9 @@ description: Leer hoe u de koppeling naar de spiegel toevoegt en beheert
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 903224da4ab15bf4221d8769bfb19933f4cbf2b0
+source-git-commit: 124d46f1a4bec1bfd5c07210c931d7fa37db08a7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Hoewel de meeste e-mailclients afbeeldingen zonder problemen renderen, kunnen be
 
 De spiegelpagina die door Adobe Campaign wordt gegenereerd, bevat alle aanpassingsgegevens.
 
-![voorbeeld van spiegelkoppeling](assets/mirror-page-link.png){width="300" align="center"}
+![voorbeeld van spiegelkoppeling](assets/mirror-page-link.png){width="500" align="center"}
 
 ## Een koppeling toevoegen aan de spiegelpagina{#link-to-mirror-page}
 
