@@ -4,7 +4,7 @@ description: Leer hoe u de koppeling naar de spiegel toevoegt en beheert
 feature: Email
 role: User
 level: Beginner
-source-git-commit: e2aaf80a5a0d74161152fabe8ea157d31923ee19
+source-git-commit: 2a2887fcd476566d2105edd9824feba4c1caca8a
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Hoewel de meeste e-mailclients afbeeldingen zonder problemen renderen, kunnen be
 
 De spiegelpagina die door Adobe Campaign wordt gegenereerd, bevat alle aanpassingsgegevens.
 
-![voorbeeld van spiegelkoppeling](assets/mirror-page-link.png){width="500" align="left"}
+![voorbeeld van spiegelkoppeling](assets/mirror-page-link.png){width="600" align="left"}
 
 ## Een koppeling toevoegen aan de spiegelpagina{#link-to-mirror-page}
 
@@ -29,7 +29,7 @@ Het invoegen van een koppeling naar de spiegelpagina is een goede gewoonte. Deze
 
 In Adobe Campaign kunt u een koppeling naar de spiegel in de e-mailinhoud invoegen met behulp van de toegewezen **verpersoonlijkingsblok**. De ingebouwde **Koppelen aan spiegelpagina** het verpersoonlijkingsblok neemt de volgende code in uw e-mailinhoud op: `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png){width="500" align="left"}
+![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
@@ -43,7 +43,7 @@ U kunt de generatiemodus van de spiegel voor e-mail bepalen. De opties zijn besc
 1. Bladeren naar de **[!UICONTROL Validity]** tabblad van de e-maileigenschappen.
 1. In de **Paginabeheer spiegelen** sectie, controleren **[!UICONTROL Mode]** vervolgkeuzelijst.
 
-![](assets/mirror-page-generation.png){width="500" align="left"}
+![](assets/mirror-page-generation.png){width="800" align="left"}
 
 Naast de standaardmodus zijn de volgende opties beschikbaar:
 
@@ -61,7 +61,7 @@ Deze spiegelpagina openen:
 
 1. Selecteer een ontvanger en klik op de knop **[!UICONTROL Display the mirror page for this message...]** koppeling.
 
-   ![](assets/mirror-page-display.png){width="500" align="left"}
+   ![](assets/mirror-page-display.png){width="800" align="left"}
 
    De spiegelpagina wordt weergegeven in een speciaal scherm, met verpersoonlijkingsgegevens voor de geselecteerde ontvanger.
 
