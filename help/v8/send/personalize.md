@@ -1,17 +1,17 @@
 ---
-title: Inhoud personaliseren
+title: Aan de slag met personalisatie
 description: Leer hoe u de inhoud van berichten kunt aanpassen
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 4885f15c71d2be27dc32a239fb22abc3a96503c7
+source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Inhoud personaliseren {#personalize-content}
+# Aan de slag met personalisatie {#personalize-content}
 
 Om optimaal te profiteren van elke marketingcampagne, biedt Adobe Campaign u een manier om aangepaste inhoud te leveren die klanten op hun niveau spreekt. Gebaseerd op profielgegevens, verpersoonlijkingsmogelijkheden om een douaneervaring voor verschillende groepen en individuen tot stand te brengen: u kunt uw berichten aan elke specifieke ontvanger aanpassen door de gegevens en de informatie leveraging u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en nog veel meer.
 

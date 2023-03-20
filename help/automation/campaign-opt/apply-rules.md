@@ -4,10 +4,10 @@ title: Typologieregels toepassen
 description: Leer hoe u typologische regels toepast
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 8%
 
 ## Een typologie toepassen op een levering {#apply-a-typology-to-a-delivery}
 
-Om de gemaakte typologische regels toe te passen, moet u deze koppelen aan een typologie en vervolgens in de aflevering verwijzen naar deze typologie. Dit doet u als volgt:
+Als u de gemaakte typologieregels wilt toepassen, koppelt u deze aan een typologie en verwijst u naar deze typologie in de levering.
+
+Volg de onderstaande stappen om dit te doen:
 
 1. Maak een campagnetypologie.
 
@@ -27,7 +29,7 @@ Om de gemaakte typologische regels toe te passen, moet u deze koppelen aan een t
 
 1. Sla de typologie op: wordt toegevoegd aan de lijst van bestaande typologieën.
 1. Open de levering waarop u de regels wilt toepassen.
-1. Open de leveringseigenschappen en open tot **[!UICONTROL Typology]** tab.
+1. Blader naar de leveringseigenschappen en open het dialoogvenster **[!UICONTROL Typology]** tab.
 1. Selecteer de typologie in de vervolgkeuzelijst.
 
    ![](assets/campaign_opt_pressure_sample_1_7.png)
@@ -56,7 +58,7 @@ Dan gebruik de vraagredacteur om het filtreren voorwaarden te bepalen. In het vo
 
 Arbitrages worden elke avond automatisch opnieuw uitgevoerd via de workflow voor het opschonen van databases. Waarden kunnen echter ook na deze periode worden opgeslagen.
 
-Sommige berekeningen gebruiken namelijk waarden die niet dagelijks veranderen. Het zou daarom irrelevant zijn om de gegevens elke dag opnieuw te berekenen en de database voor niets te overladen. Bijvoorbeeld, als een proces het marketing gegevensbestand met klantennestscores verrijkt en informatie op een wekelijkse basis koopt, te hoeven de gegevens die op deze waarden worden gebaseerd niet elke dag opnieuw te worden berekend.
+Sommige berekeningen gebruiken waarden die niet dagelijks veranderen. Het zou daarom irrelevant zijn om de gegevens elke dag opnieuw te berekenen en de database voor niets te overladen. Bijvoorbeeld, als een proces het marketing gegevensbestand met klantennestscores verrijkt en informatie op een wekelijkse basis koopt, te hoeven de gegevens die op deze waarden worden gebaseerd niet elke dag opnieuw te worden berekend.
 
 Om dit te doen, **[!UICONTROL Frequency]** van het **[!UICONTROL General]** kunt u een maximumperiode definiëren waarin het doel wordt opgeslagen. Standaard wordt de waarde **0** geeft aan dat de berekening geldig blijft tot de volgende uitvoering van dagelijkse herarbitrage.
 
@@ -82,7 +84,7 @@ In de standaardbewerkingsmodus worden de regels in de volgende volgorde toegepas
 1. Drukregels.
 1. Capaciteitsregels.
 1. Controleregels, indien toegepast aan het einde van targeting.
-1. Controleregels, indien toegepast aan het begin van personalisatie. Als de gebruikersregels (filtreren/druk/capacitief) zijn verlopen en opnieuw moeten worden berekend, zullen zij tijdens deze stap worden toegepast.
+1. Controleregels, indien toegepast aan het begin van personalisatie. Als de gebruikersregels (filtreren/druk/capacitief) zijn verlopen en moeten opnieuw worden berekend, worden zij toegepast tijdens deze stap.
 1. Controlevoorschriften, als zij aan het eind van verpersoonlijking van toepassing zijn.
 
 >[!NOTE]
@@ -91,11 +93,11 @@ In de standaardbewerkingsmodus worden de regels in de volgende volgorde toegepas
 
 U kunt de uitvoeringsopeenvolging van regels aanpassen die het zelfde type hebben gebruikend het aangewezen gebied in **[!UICONTROL General]** tabblad van de regel. Wanneer verscheidene regels tijdens de zelfde fase van de berichtverwerking worden uitgevoerd, kunt u hun uitvoeringsopeenvolging in vormen **[!UICONTROL Execution sequence]** veld.
 
-Bijvoorbeeld, zal een drukregel met een uitvoeringsorde van 20 vóór een drukregel met een uitvoeringsorde van 30 worden uitgevoerd.
+Bijvoorbeeld, wordt een drukregel met een uitvoeringsorde van 20 uitgevoerd vóór een drukregel met een uitvoeringsorde van 30.
 
 ### Controleregels {#control-rules}
 
-Voor **[!UICONTROL Control]** regels, kunt u beslissen op welk punt van de leveringslevenscyclus de regel zal worden toegepast (vóór of na het richten, bij het begin van verpersoonlijking, aan het eind van de analyse). Selecteer de waarde die u wilt toepassen in de vervolgkeuzelijst van het dialoogvenster **[!UICONTROL Phase]** in de **[!UICONTROL General]** tabblad van de typologieregel.
+Voor **[!UICONTROL Control]** regels, kunt u bepalen op welk punt van de leveringslevenscyclus de regel wordt toegepast: vóór of na de doelwitten, bij het begin van de personalisatie, aan het einde van de analyse. Selecteer de waarde die u wilt toepassen in de vervolgkeuzelijst van het dialoogvenster **[!UICONTROL Phase]** in de **[!UICONTROL General]** tabblad van de typologieregel.
 
 ![](assets/campaign_opt_define_control_phase.png)
 
