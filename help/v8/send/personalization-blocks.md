@@ -1,18 +1,18 @@
 ---
-title: Personalisatieblokken
+title: Verpersoonlijkingsblokken gebruiken
 description: Leer hoe u ingebouwde verpersoonlijkingsblokken in uw berichtinhoud kunt gebruiken
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Personalisatieblokken{#personalization-blocks}
+# Verpersoonlijkingsblokken gebruiken{#personalization-blocks}
 
 Personalisatieblokken zijn dynamische inhoud die een specifieke rendering bevat die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een begroetingsbericht of een koppeling naar een spiegelpagina toevoegen.
 
