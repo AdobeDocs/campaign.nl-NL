@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '576'
 ht-degree: 5%
 
 ---
@@ -48,7 +48,6 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 1. **Je bericht personaliseren**
 
-
    * Voeg de eerste en laatste namen van uw ontvangers toe
 
       Als u de voor- en achternamen van de doelprofielen wilt invoegen in de inhoud van het bericht, plaatst u de cursor op de plaats waar u deze wilt invoegen en klikt u op het laatste pictogram op de werkbalk. Klik vervolgens op **[!UICONTROL Include]** en selecteert u **[!UICONTROL Greetings]**.
@@ -58,6 +57,8 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
       Blader naar het tabblad Voorbeeld om de personalisatie te controleren door een ontvanger te selecteren.
 
       ![](assets/perso-check.png)
+
+      Meer informatie over verpersoonlijkingsopties vindt u in [deze sectie](personalize.md).
 
    * Een bijgehouden koppeling invoegen
 

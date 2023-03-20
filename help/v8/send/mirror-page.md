@@ -4,9 +4,9 @@ description: Leer hoe u de koppeling naar de spiegel toevoegt en beheert
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2a2887fcd476566d2105edd9824feba4c1caca8a
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ In Adobe Campaign kunt u een koppeling naar de spiegel in de e-mailinhoud invoeg
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-<!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
+Raadpleeg voor meer informatie over het plaatsen van aangepaste inhoudblokken [Aanpassingsblokken](personalization-blocks.md).
 
 ## Pagina genereren spiegelen{#mirror-page-generation}
 

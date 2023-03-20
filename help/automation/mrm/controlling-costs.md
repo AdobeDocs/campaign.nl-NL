@@ -2,7 +2,8 @@
 product: campaign
 title: Kosten beheersen
 description: Leer hoe u kosten kunt beheersen
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '2409'
 ht-degree: 1%
@@ -33,7 +34,7 @@ Voor de uitvoering van het begrotingsbeheer met behulp van MRM moeten de volgend
 
 Voer de volgende stappen uit om een budget te maken:
 
-1. Bladeren naar de **[!UICONTROL Campaign management > Budgets]** knooppunt van Campaign Explorer.
+1. Bladeren naar de **[!UICONTROL Campaign management > Budgets]** map van Campaign Explorer.
 1. Klik op de knop **[!UICONTROL New]** en sla het budget op.
 1. Voer het aanvankelijke bedrag in: het toegewezen bedrag in het desbetreffende veld vermelden. De andere bedragen worden automatisch ingevoerd. [Meer informatie](#calculating-amounts).
 1. Definieer de geldigheidsperiode door de begin- en einddatum in te voeren. Deze informatie is slechts indicatief.

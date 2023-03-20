@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 6%
+source-wordcount: '698'
+ht-degree: 5%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 6%
 
 Gebruik leveringssjablonen om de creatieve vormgeving te standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren.
 
-Een sjabloon kan systematisch het volgende bevatten:
+Een sjabloon kan het volgende bevatten:
 
 * Typologieën
 * Afzender en antwoordadressen
-* Basisblokken voor personalisatie
+* Basis [verpersoonlijkingsblokken](../send/personalization-blocks.md)
 * Koppelingen naar [spiegelpagina&#39;s](../send/mirror-page.md) en abonnementkoppelingen
 * Inhoud, bedrijfslogo of handtekening
 * Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.

@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van Campaign
 title: Campaign v8 docs
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 26%
+source-wordcount: '512'
+ht-degree: 25%
 
 ---
 
@@ -56,6 +56,12 @@ ht-degree: 26%
          + [Leveringsfouten](send/delivery-failures.md)
       + [Tijdoptimalisatie verzenden](send/predictive.md)
       + [Lidmaatschappen beheren](start/subscriptions.md)
+   + Inhoud personaliseren {#personalize}
+      + [Aan de slag met personalisatie](send/personalize.md)
+      + [Personalisatiegegevens](send/personalization-data.md)
+      + [Aanpassingsvelden toevoegen](send/personalization-fields.md)
+      + [Verpersoonlijkingsblokken gebruiken](send/personalization-blocks.md)
+      + [Voorwaarden maken](send/conditions.md)
 + Profiel- en publieksbeheer {#audience}
    + [Aan de slag met profielen en doelgroepen](audiences/gs-audiences.md)
    + [Werken met het publiek](start/audiences.md)

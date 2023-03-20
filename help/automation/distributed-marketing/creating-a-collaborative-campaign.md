@@ -4,7 +4,7 @@ title: Een collaboratieve campagne maken
 description: Leer hoe u een samenwerkingscampagne kunt maken
 feature: Distributed Marketing
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 3%
@@ -19,7 +19,7 @@ De centrale entiteit maakt samenwerkingscampagnes op basis van **Distributed Mar
 
 ## Een collaboratieve campagne maken {#creating-a-collaborative-campaign}
 
-Als u een samenwerkingscampagne wilt configureren, klikt u op de knop **[!UICONTROL Campaign management > Campaigns]** knoop, dan de **[!UICONTROL New]** pictogram.
+Als u een samenwerkingscampagne wilt configureren, klikt u op de knop **[!UICONTROL Campaign management > Campaigns]** en vervolgens de **[!UICONTROL New]** pictogram.
 
 >[!NOTE]
 >

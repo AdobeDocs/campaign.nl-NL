@@ -4,9 +4,9 @@ description: Leer hoe je de Adobe Campaign Social Marketing-module gebruikt om b
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '806'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
    ![](assets/tw-dm-content.png)
 
-   Velden voor persoonlijke voorkeur kunnen op dezelfde manier worden gebruikt als voor e-mailleveringen, bijvoorbeeld om de naam van de volgende persoon toe te voegen aan de hoofdtekst van het bericht. Meer informatie in [deze sectie](../start/create-message.md#personalization).
+   Velden voor persoonlijke voorkeur kunnen op dezelfde manier worden gebruikt als voor e-mailleveringen, bijvoorbeeld om de naam van de volgende persoon toe te voegen aan de hoofdtekst van het bericht. Meer informatie in [deze sectie](../send/personalize.md).
 
 1. Een voorbeeld van uw bericht bekijken
 
@@ -140,7 +140,7 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
    Voordat u uw bericht verzendt, moet u controleren of het is gevalideerd door een proefdruk naar een testaccount te verzenden: u kunt dan een nauwkeurige weergave van het bericht op een privé Twitter-account krijgen en de inhoud en personalisatie controleren.
 
-   ![](../assets/do-not-localize/book.png) [Belangrijke stappen om een levering te valideren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Belangrijke stappen om een levering te valideren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
 
 1. Het directe bericht verzenden
 
@@ -151,7 +151,7 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
 >[!CAUTION]
 >
->U kunt niet meer dan 250 directe berichten per dag verzenden. Als u wilt voorkomen dat deze drempelwaarde wordt overschreden, kunt u in golven leveren. Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target=&quot;_blank&quot;}.
+>U kunt niet meer dan 250 directe berichten per dag verzenden. Als u wilt voorkomen dat deze drempelwaarde wordt overschreden, kunt u in golven leveren. Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target="_blank"}.
 
 
 ## Gegevens voor bijhouden van toegang {#tw-tracking}
@@ -160,5 +160,5 @@ Ingebouwd **[!UICONTROL Tweet]** leveringssjabloon; reeksspatiëring is standaar
 
 Trackinggegevens kunnen worden weergegeven in de leveringsrapporten en in de **[!UICONTROL Edit > Tracking]** tabblad van de levering en de service.
 
-De volgende configuratie is het zelfde als voor een e-maillevering. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target=&quot;_blank&quot;}.
+De volgende configuratie is het zelfde als voor een e-maillevering. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"}.
 

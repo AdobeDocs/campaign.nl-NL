@@ -4,7 +4,7 @@ title: Consistentieregels
 description: Consistentieregels
 feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 4%
@@ -27,7 +27,7 @@ In het volgende voorbeeld, creëren wij een typologieregel voor een campagne van
 
 Volg onderstaande stappen om een nieuwe capaciteitsregel te ontwerpen:
 
-1. Onder de **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** knooppunt, klikken **[!UICONTROL New]**.
+1. Onder de **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** map, klikt u op **[!UICONTROL New]**.
 1. Selecteer een **[!UICONTROL Capacity]** regeltype.
 
    ![](assets/campaign_opt_create_capacity_01.png)

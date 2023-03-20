@@ -4,9 +4,9 @@ title: Aan de slag met campagnesimulaties
 description: Leer hoe te om campagnesimulaties te vormen
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ De **[!UICONTROL Calculations]** kunt u rapportassen op het doel definiëren. De
 >[!NOTE]
 >
 >Wij adviseren bepalende berekeningsassen in de simulatiesjablonen eerder dan individueel voor elke simulatie.\
->Simulatiesjablonen worden opgeslagen in de **[!UICONTROL Resources > Templates > Simulation templates]** knooppunt van de boomstructuur Adobe Campaign.
+>Simulatiesjablonen worden opgeslagen in de **[!UICONTROL Resources > Templates > Simulation templates]** map van Campaign Explorer.
 
 **Voorbeeld:**
 

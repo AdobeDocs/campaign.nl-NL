@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '866'
 ht-degree: 41%
 
 ---
@@ -40,7 +40,7 @@ Adobe Campaign beschikt over krachtige, gebruiksvriendelijke segmentatie- en tar
 
 De geavanceerde functionaliteit voor data management breidt de mogelijkheden voor dataverwerking uit. Het vereenvoudigt en optimaliseert het targetingproces door data op te nemen die niet in de datamart worden gemodelleerd.
 
-![](../assets/do-not-localize/glass.png) Meer informatie over segmentering, publiek creatie en personalisatie in [deze sectie](audiences.md).
+![](../assets/do-not-localize/glass.png) Meer informatie over segmentering en publiekscreatie in [deze sectie](audiences.md).
 
 ## Kanaaloverschrijdende orkestrering van campagnes {#cross-channel-campaign-orchestration}
 

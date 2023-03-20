@@ -4,9 +4,9 @@ title: Gegevens verrijken
 description: Meer informatie over de activiteit van de verrijkingsworkflow
 feature: Workflows, Enrichment Activity
 exl-id: 3b3fa15f-b16e-42c8-a2e6-03350aee1903
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -42,17 +42,17 @@ Voor het instellen van dit gebruiksgeval hebben we de volgende workflow voor doe
 Voer de volgende stappen uit om de workflow te maken:
 
 1. Twee **[!UICONTROL Query]** activiteiten en één **[!UICONTROL Intersection]** de activiteit wordt toegevoegd aan de nieuwe abonnees die de laatste wedstrijd hebben gehouden .
-1. De **[!UICONTROL Enrichment]** activiteit laat ons gegevens toevoegen die in worden opgeslagen **[!UICONTROL Competition results]** tabel. De **[!UICONTROL Score]** het gebied waarop onze levering zich zal verpersoonlijken wordt toegevoegd aan de werklijst van het werkschema.
-1. De **[!UICONTROL Split]** type activity stelt ons in staat ontvangende subsets te maken op basis van scores .
-1. Voor elke subset geldt een **[!UICONTROL Delivery]** tekstactiviteit wordt toegevoegd.
+1. De **[!UICONTROL Enrichment]** activiteit wordt gebruikt om gegevens toe te voegen die in **[!UICONTROL Competition results]** tabel. De **[!UICONTROL Score]** het gebied dat onze levering zal gebeuren wordt toegevoegd aan de het werklijst van het werkschema.
+1. De **[!UICONTROL Split]** type activity wordt gebruikt om subsets voor ontvangers te maken op basis van scores.
+1. Voor elke subset geldt een **[!UICONTROL Delivery]** activiteit wordt toegevoegd.
 
 ## Stap 1: Doelstelling {#step-1--targeting}
 
-De eerste vraag laat ons toe om ontvangers te richten die aan het gegevensbestand binnen de laatste zes maanden werden toegevoegd.
+De eerste vraag wordt gebruikt aan doelontvangers die aan het gegevensbestand binnen de laatste zes maanden werden toegevoegd.
 
 ![](assets/uc1_enrich_4.png)
 
-De tweede vraag laat ons toe om de ontvangers te richten die aan de laatste concurrentie hebben deelgenomen.
+De tweede vraag wordt gebruikt om de ontvangers te richten die aan de laatste concurrentie hebben deelgenomen.
 
 ![](assets/uc1_enrich_5.png)
 
@@ -60,7 +60,7 @@ An **[!UICONTROL Intersection]** typeactiviteit wordt dan toegevoegd aan de doel
 
 ## Stap 2: Verrijking {#step-2--enrichment}
 
-In dit voorbeeld willen we leveringen personaliseren volgens de **[!UICONTROL Score]** veld opgeslagen in **[!UICONTROL Competition results]** tabel. Deze lijst heeft een 1-n typeverhouding met de lijst van ontvangers. De **[!UICONTROL Enrichment]** de activiteit laat ons toe om gegevens van een lijst toe te voegen verbonden aan de het filtreren dimensie aan de het werklijst van het werkschema.
+In dit voorbeeld leert u hoe u leveringen kunt personaliseren op basis van de **[!UICONTROL Score]** veld opgeslagen in **[!UICONTROL Competition results]** tabel. Deze lijst heeft een 1-n typeverhouding met de lijst van ontvangers. De **[!UICONTROL Enrichment]** activiteit wordt gebruikt om gegevens van een lijst toe te voegen verbonden aan de het filtreren dimensie aan de het werklijst van het werkschema.
 
 1. Selecteer in het bewerkingsscherm van de verrijkingsactiviteit de optie **[!UICONTROL Add data]** vervolgens **[!UICONTROL Data linked to the filtering dimension]** en klik op **[!UICONTROL Next]**.
 

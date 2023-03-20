@@ -4,9 +4,9 @@ title: Typologieregels toepassen
 description: Leer hoe u typologische regels toepast
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '956'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ Om de gemaakte typologische regels toe te passen, moet u deze koppelen aan een t
 
 1. Maak een campagnetypologie.
 
-   Via de **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** knooppunt.
+   Via de **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** map van Campaign Explorer.
 
 1. Ga naar de **[!UICONTROL Rules]** klikt u op de knop **[!UICONTROL Add]** en selecteert u de regels die u met deze typologie wilt toepassen.
 

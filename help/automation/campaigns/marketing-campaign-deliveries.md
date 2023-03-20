@@ -4,9 +4,9 @@ title: Leveringen voor marketingcampagnes
 description: Meer informatie over marketingcampagneleveringen
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '706'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Bevestiging van de levering is beperkt tot Beheerders en tot de exploitant of gr
 
 ![](assets/select-delivery-reviewers.png)
 
-Nochtans, kunt u de campagneeigenaar ook toestaan om te bevestigen verzendt, zelfs als specifieke recensenten in de levering of campagneeigenschappen werden bepaald. Om dit te doen, als Beheerder, creeer **NmsCampaign_Activate_OwnerConfirmation** en instellen op **1**. De opties worden beheerd via de **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** in de Adobe Campaign Explorer.
+Nochtans, kunt u de campagneeigenaar ook toestaan om te bevestigen verzendt, zelfs als specifieke recensenten in de levering of campagneeigenschappen werden bepaald. Om dit te doen, als Beheerder, creeer **NmsCampaign_Activate_OwnerConfirmation** en instellen op **1**. De opties worden beheerd via de **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** map van Campaign Explorer.
 
 
 ### Een directe postbezorging starten {#start-an-offline-delivery}

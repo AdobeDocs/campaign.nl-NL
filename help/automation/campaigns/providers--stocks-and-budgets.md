@@ -4,7 +4,7 @@ title: Providers, voorraden en budgetten
 description: Providers, voorraden en budgetten
 feature: Budget Management, Campaigns
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Met Adobe Campaign kunt u serviceproviders definiëren die betrokken zijn bij de
 
 Elke serviceprovider wordt opgeslagen in een bestand met contactgegevens, servicesjablonen en verwante taken.
 
-De dienstverleners worden gevormd in **[!UICONTROL Administration > Campaign management]** knooppunt van de structuur.
+De dienstverleners worden gevormd in **[!UICONTROL Administration > Campaign management]** map van Campaign Explorer.
 
 De taken die tijdens de leveringen worden uitgevoerd, worden door de dienstverleners verricht, met name voor direct mail en mobiele kanalen. Deze serviceproviders kunnen bijvoorbeeld betrokken zijn bij het afdrukken of verspreiden van berichten. Deze taken omvatten configuraties en kosten die specifiek zijn voor elke dienstverlener. De configuratie van dienstverleners omvat vier fasen:
 
@@ -129,7 +129,7 @@ U kunt informatie over de processen associëren verbonden aan de dienstverlener 
 
 * De **[!UICONTROL Notification email]** kunt u de sjabloon opgeven om serviceproviders op de hoogte te stellen nadat bestanden zijn verzonden. Selecteer de sjabloon die wordt gebruikt om het waarschuwingsbericht en de groep ontvangers te maken.
 
-   Standaard worden leveringssjablonen voor berichtberichten opgeslagen in de **[!UICONTROL Administration > Campaign management > Technical delivery templates]** knooppunt, dat toegankelijk is vanuit de algemene weergave.
+   Standaard worden leveringssjablonen voor berichtberichten opgeslagen in de **[!UICONTROL Administration > Campaign management > Technical delivery templates]** Deze map is toegankelijk vanuit de algemene weergave.
 
 * De **[!UICONTROL Post-processing]** kunt u de workflow selecteren die u wilt starten nadat de levering is goedgekeurd. Als een werkstroomsjabloon wordt ingevoerd, wordt automatisch een werkstroominstantie gemaakt en gestart zodra de goedkeuring van kracht wordt. Deze workflow kan het extractiebestand bijvoorbeeld naar een externe serviceprovider sturen voor verwerking.
 

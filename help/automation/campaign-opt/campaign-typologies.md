@@ -4,7 +4,7 @@ title: Aan de slag met campagnetypen
 description: Leer hoe te vormen en campagnetypologieën uitvoeren
 feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 16%
@@ -29,7 +29,7 @@ Een typologie is een set verificatieregels die tijdens de leveringsanalyse op al
 
 Een campagneretypologie kan verschillende typologische regels bevatten, maar een levering kan slechts naar één typologie verwijzen.
 
-De ingebouwde typologische regels en typologieën zijn beschikbaar in de **[!UICONTROL Administration > Campaign management > Typology management]** knooppunt van Campagneverkenner.
+De ingebouwde typologische regels en typologieën zijn beschikbaar in de **[!UICONTROL Administration > Campaign management > Typology management]** map van Campaign Explorer.
 
 Voor elke typologie wordt **[!UICONTROL Rules]** kunt u de toe te passen typologische regels toevoegen, verwijderen of bekijken.
 

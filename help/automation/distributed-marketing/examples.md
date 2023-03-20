@@ -4,9 +4,9 @@ title: Distributed Marketing samples
 description: Distributed Marketing samples
 feature: Distributed Marketing
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Zodra de controles zijn goedgekeurd, kan de campagne automatisch beginnen.
 
 #### Een activiteit voor gegevensdistributie maken {#creating-a-data-distribution-activity}
 
-1. Als u een samenwerkingscampagne wilt instellen (door goedkeuring als doel), moet u eerst een **[!UICONTROL Data distribution activity]**. Klik op de knop **[!UICONTROL New]** in het deelvenster **[!UICONTROL Resources > Campaign management > Data distribution]** knooppunt.
+1. Als u een samenwerkingscampagne wilt instellen (door goedkeuring als doel), moet u eerst een **[!UICONTROL Data distribution activity]**. Klik op de knop **[!UICONTROL New]** in het deelvenster **[!UICONTROL Resources > Campaign management > Data distribution]** map van Campaign Explorer.
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
@@ -139,7 +139,7 @@ Zodra de controles zijn goedgekeurd, kan de campagne automatisch beginnen.
 
 #### Een collaboratieve campagne maken {#creating-a-collaborative-campaign}
 
-1. Van de **[!UICONTROL Campaign management > Campaign]** knooppunt, een nieuw knooppunt maken **[!UICONTROL collaborative campaign (by target approval)]**.
+1. Van de **[!UICONTROL Campaign management > Campaign]** map Campaign Explorer, een nieuwe **[!UICONTROL collaborative campaign (by target approval)]**.
 1. In de **[!UICONTROL Targeting and workflows]** een workflow voor uw campagne maken. Dit moet een **Splitsen** de **[!UICONTROL Record count limitation]** wordt gedefinieerd door de **[!UICONTROL Data distribution]** activiteit.
 
    ![](assets/mkg_dist_use_case_target_valid5.png)
