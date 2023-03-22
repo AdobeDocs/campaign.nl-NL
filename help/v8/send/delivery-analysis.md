@@ -4,7 +4,7 @@ description: Leer hoe u uw levering voorbereidt en controleert
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 8f04981e38da79e69afc890311c559f9ffa136f4
+source-git-commit: 51b333492ad50849751208c7549dc00f66140b82
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -47,11 +47,11 @@ Als u de levering wilt voorbereiden, moet u controleren of de inhoud en het doel
    >
    >Wanneer de analyse loopt, bevriest de levering (of het bewijs). Elke wijziging in de levering (of het bewijs) moet worden gevolgd door een andere analyse voordat zij van toepassing wordt.
 
-Wanneer de analyse is voltooid, geeft de bovenste sectie van het venster aan of de voorbereiding van de levering is voltooid of dat er fouten zijn opgetreden. Alle validatiestappen, waarschuwingen en fouten worden weergegeven. De gekleurde pictogrammen tonen het berichttype:
+   Wanneer de analyse is voltooid, geeft de bovenste sectie van het venster aan of de voorbereiding van de levering is voltooid of dat er fouten zijn opgetreden. Alle validatiestappen, waarschuwingen en fouten worden weergegeven. De gekleurde pictogrammen tonen het berichttype:
 
-* Een blauw pictogram geeft een informatief bericht aan.
-* Een geel pictogram geeft een niet-kritieke verwerkingsfout aan.
-* Een rood pictogram geeft een kritieke fout aan die het verzenden van de levering verhindert.
+   * Een blauw pictogram geeft een informatief bericht aan.
+   * Een geel pictogram geeft een niet-kritieke verwerkingsfout aan.
+   * Een rood pictogram geeft een kritieke fout aan die het verzenden van de levering verhindert.
 
    ![](assets/delivery-analysis-results.png){width="800" align="left"}
 
