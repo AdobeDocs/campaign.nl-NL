@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van Campaign
 title: Campaign v8 docs
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 23f30dee861250532490da8598e6e0e18f72c1b0
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '521'
 ht-degree: 25%
 
 ---
@@ -56,15 +56,15 @@ ht-degree: 25%
          + [Leveringsfouten](send/delivery-failures.md)
       + [Tijdoptimalisatie verzenden](send/predictive.md)
       + [Lidmaatschappen beheren](start/subscriptions.md)
-   + Inhoud personaliseren {#personalize}
-      + [Aan de slag met personalisatie](send/personalize.md)
-      + [Personalisatiegegevens](send/personalization-data.md)
-      + [Aanpassingsvelden toevoegen](send/personalization-fields.md)
-      + [Verpersoonlijkingsblokken gebruiken](send/personalization-blocks.md)
-      + [Voorwaarden maken](send/conditions.md)
-   + Levering valideren {#validate}
-      + [Voorvertoning en proefdrukken](send/preview-and-proof.md)
-      + [Leveringsanalyse](send/delivery-analysis.md)
+      + Inhoud personaliseren {#personalize}
+         + [Aan de slag met personalisatie](send/personalize.md)
+         + [Personalisatiegegevens](send/personalization-data.md)
+         + [Aanpassingsvelden toevoegen](send/personalization-fields.md)
+         + [Verpersoonlijkingsblokken gebruiken](send/personalization-blocks.md)
+         + [Voorwaarden maken](send/conditions.md)
+      + Levering valideren {#validate}
+         + [Proefversies van voorbeeld en e-mail](send/preview-and-proof.md)
+         + [Leveringsanalyse](send/delivery-analysis.md)
 + Profiel- en publieksbeheer {#audience}
    + [Aan de slag met profielen en doelgroepen](audiences/gs-audiences.md)
    + [Werken met het publiek](start/audiences.md)
