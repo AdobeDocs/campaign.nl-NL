@@ -5,9 +5,9 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -15,16 +15,9 @@ ht-degree: 0%
 
 # Uw e-mails verzenden en controleren
 
-Wanneer de levering wordt gevormd en klaar om worden verzonden, zorg ervoor u de leveringsanalyse in werking hebt gesteld.
-
-![](../assets/do-not-localize/book.png) [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#confirming-delivery){target=&quot;_blank&quot;}
+Wanneer de levering wordt gevormd en klaar om worden verzonden, zorg ervoor u de leveringsanalyse in werking hebt gesteld. [Meer informatie](delivery-analysis.md)
 
 Zodra gedaan, bevestig de levering om de levering van berichten te lanceren.
-
-U kunt ook het volgende doen:
-
-* de levering later plannen door [de leveringsoptie uitstellen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#scheduling-the-delivery-sending){target=&quot;_blank&quot;},
-* Naar meerdere batches verzenden met [meerdere golven](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target=&quot;_blank&quot;}.
 
 Volg de uitvoering van de levering vanaf de **Aflevering** , toegankelijk via de details van deze levering of via de lijst van leveringen.
 
@@ -32,7 +25,7 @@ Volg de uitvoering van de levering vanaf de **Aflevering** , toegankelijk via de
 
 Zodra verzonden, controleer uw leveringsstatus in het dashboard van de Levering en toegangsleveringslogboeken en rapporten om berichten te bevestigen correct werden verzonden.
 
-![](../assets/do-not-localize/book.png) [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 
 ## Campagne MTA {#mta}
@@ -59,7 +52,7 @@ MTA kwalificeert de stuit SMTP en verzendt die kwalificatie terug naar Campaign 
 
 >[!NOTE]
 >
->Momenteel **asynchroon** De grenzen worden gekwalificeerd door het inMail proces door **[!UICONTROL Inbound email]** regels. Raadpleeg voor meer informatie hierover [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}. <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
+>Momenteel **asynchroon** De grenzen worden gekwalificeerd door het inMail proces door **[!UICONTROL Inbound email]** regels.
 
 Meer informatie over leveringsfouten in [deze sectie](delivery-failures.md).
 
@@ -76,7 +69,7 @@ De Sleutels van het domein Identified Mail (DKIM) is een authentificatiemethode 
 
 In Adobe Campaign wordt DKIM ondertekenen van e-mailverificatie uitgevoerd door de MTA.
 
-Meer informatie over DKIM in de [Adobe Handleiding voor beste praktijken voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target=&quot;_blank&quot;}.
+Meer informatie over DKIM in de [Adobe Handleiding voor beste praktijken voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## E-mailfeedbackservice {#email-feedback-service}
 
@@ -90,7 +83,7 @@ Wanneer het bericht werkelijk aan de gerichte profielen wordt geleverd en zodra 
 
 Wanneer hard-bouncing berichten terug van MTA worden gemeld, verandert hun logboekstatus van **[!UICONTROL Taken into account by the service provider]** tot **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Wanneer de zachte die berichten terug van MTA worden gemeld, blijft hun logboekstatus onveranderd (**[!UICONTROL Taken into account by the service provider]**): alleen [oorzaak van fout](delivery-failures.md#delivery-failure-reasons) is bijgewerkt<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. De **[!UICONTROL Success]** percentage blijft ongewijzigd. De zachte die berichten bewegen worden dan opnieuw geprobeerd door de levering [geldigheidsperiode](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}:
+Wanneer de zachte die berichten terug van MTA worden gemeld, blijft hun logboekstatus onveranderd (**[!UICONTROL Taken into account by the service provider]**): alleen [oorzaak van fout](delivery-failures.md#delivery-failure-reasons) is bijgewerkt<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. De **[!UICONTROL Success]** percentage blijft ongewijzigd. De zachte die berichten bewegen worden dan opnieuw geprobeerd door de levering [geldigheidsperiode](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
 
 * Als een nieuwe poging is gelukt vóór het einde van de geldigheidsperiode, verandert de berichtstatus in **[!UICONTROL Sent]** en de **[!UICONTROL Success]** het percentage wordt dienovereenkomstig verhoogd.
 

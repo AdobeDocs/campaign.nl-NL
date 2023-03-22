@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '567'
 ht-degree: 5%
 
 ---
@@ -92,9 +92,7 @@ Meer informatie in deze secties van **Campaign Classic v7-documentatie**:
 
 ## Uw e-mails testen en valideren
 
-De campagne biedt verschillende manieren om uw e-mails te testen en te valideren voordat u ze naar uw publiek stuurt.
-
-![](../assets/do-not-localize/book.png) [Best practices toepassen die worden vermeld in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html){target="_blank"}
+De campagne biedt verschillende manieren om uw e-mails te testen en te valideren voordat u ze naar uw publiek stuurt. Leer hoe u uw e-mailinhoud kunt voorvertonen en testen in [deze pagina](../send/preview-and-proof.md).
 
 U kunt:
 
@@ -102,6 +100,5 @@ U kunt:
 * Verzend proeven
 * Seedadressen toevoegen
 * Controlegroepen gebruiken
-* E-mailrendering controleren
 
 ![](../assets/do-not-localize/book.png) [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}

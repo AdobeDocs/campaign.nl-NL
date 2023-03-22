@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 2%
+source-wordcount: '469'
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ Nadat u het bericht hebt gemaakt en de inhoud ervan hebt ontworpen en getest, ku
 
    ![](assets/send-email.png)
 
-   ![](../assets/do-not-localize/book.png) Leer hoe berichten worden verzonden in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
+   Leer hoe berichten worden verzonden in [deze sectie](../send/send.md)
 
 * Berichten verzenden die zijn gekoppeld aan een [marketingcampagne](campaigns.md)
 
@@ -54,30 +54,26 @@ Nadat u het bericht hebt gemaakt en de inhoud ervan hebt ontworpen en getest, ku
 
    ![](assets/send-in-a-wf.png)
 
-   ![](../assets/do-not-localize/glass.png) Leer hoe u e-mailleveringen kunt automatiseren in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html)
+   Leer hoe u e-mailleveringen kunt automatiseren in [deze pagina](../../automation/workflow/delivery.md)
 
 * [Berichten activeren](../send/transactional.md) van een gebeurtenis
-   ![](../assets/do-not-localize/book.png) [Hoofdlettergebruik: leren hoe u een transactie-e-mail met een bijlage kunt verzenden](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en){target=&quot;_blank&quot;}
 
 * Uw berichten plannen
 
    ![](assets/schedule-send.png)
 
-   ![](../assets/do-not-localize/glass.png) [Hoofdlettergebruik: leren plannen en een verjaardagsbericht verzenden](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
+[Hoofdlettergebruik: leren plannen en een verjaardagsbericht verzenden](../../automation/workflow/send-a-birthday-email.md)
 
 
 ## Aanpassing toevoegen{#personalization}
 
-Berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd.
+Berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. [Meer informatie over personalisatiemogelijkheden](../send/personalize.md)
 
 U kunt:
 
-* Dynamische personalisatievelden invoegen.
-   ![](../assets/do-not-localize/book.png) Leer hoe u verpersoonlijkingsvelden kunt gebruiken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html){target=&quot;_blank&quot;}
-* Vooraf gedefinieerde aanpassingsblokken invoegen.
-   ![](../assets/do-not-localize/book.png) Leer wat een verpersoonlijkingsblok is en hoe u het kunt gebruiken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html){target=&quot;_blank&quot;}
-* Voorwaardelijke content maken.
-   ![](../assets/do-not-localize/book.png) Leer hoe u voorwaardelijke inhoud invoegt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html){target=&quot;_blank&quot;}
+* Dynamische personalisatievelden invoegen. [Meer informatie](../send/personalization-fields.md)
+* Vooraf gedefinieerde aanpassingsblokken invoegen. [Meer informatie](../send/personalization-blocks.md)
+* Voorwaardelijke content maken. [Meer informatie](../send/conditions.md)
 
 ## Transactieberichten verzenden{#gs-transac-messages}
 
@@ -87,19 +83,11 @@ Transactioneel overseinen (het Centrum van het Bericht) is de module van de Camp
 
 ![](../assets/do-not-localize/glass.png) De stappen om transactieberichten te vormen en te verzenden zijn gedetailleerd in [deze pagina](../send/transactional.md)
 
-![](../assets/do-not-localize/book.png) Ontdek deze mogelijkheid in een gebruiksgeval van begin tot eind [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Ontdek deze mogelijkheid in een gebruiksgeval van begin tot eind [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html){target="_blank"}
 
 ## Logbestanden voor aflevering en bijhouden{#gs-tracking-logs}
 
 Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken. U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
 
-![](../assets/do-not-localize/book.png) Leer hoe u uw leveringen kunt controleren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Leer hoe u uw leveringen kunt controleren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages){target="_blank"}
 
-
-**Verwante onderwerpen** in Campaign Classic v7-documentatie:
-
-* [Best practices voor levering](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html){target=&quot;_blank&quot;}
-
-* [Een e-mail testen en verzenden](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
-
-* [Proefdrukken verzenden](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
