@@ -5,9 +5,9 @@ feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 864f2179384d3e3cfcf310fcd04fe02240bfbefa
+source-git-commit: cfe559b83a7db36ab8d9223d04d348f3afd74730
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,8 @@ Toegangsbeheer is een belangrijk onderdeel van de beveiliging. Hier volgen enkel
 
 * Maak genoeg beveiligingsgroepen
 * Controleren of elke operator de juiste toegangsrechten heeft
-* Vermijd het gebruik van de beheeroperator en vermijd het gebruik van te veel operatoren in de beheergroep
 
-![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+Meer informatie over machtigingen in [deze sectie](../start/gs-permissions.md)
 
 ## Codeerrichtlijnen
 
@@ -50,7 +49,7 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **Hoofdletters toevoegen aan webtoepassingen**: Voeg hoofdletters toe aan uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
 
-![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}
 
 
 ## Personalisatie
@@ -132,9 +131,8 @@ Toegangsbeheer is een belangrijk onderdeel van de beveiliging. Hier volgen enkel
 
 * Maak genoeg beveiligingsgroepen
 * Controleren of elke operator de juiste toegangsrechten heeft
-* Vermijd het gebruik van de beheeroperator en vermijd het gebruik van te veel operatoren in de beheergroep
 
-![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+Meer informatie over machtigingen in [in deze sectie](../start/gs-permissions.md).
 
 ## Codeerrichtlijnen
 
@@ -146,4 +144,4 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **Hoofdletters toevoegen aan webtoepassingen**: Voeg hoofdletters toe aan uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
 
-![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}

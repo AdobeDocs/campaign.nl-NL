@@ -5,9 +5,9 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,10 @@ Met de campagne kunt u contactpersonen toevoegen aan de Cloud-database. U kunt e
 
 ## Profielen importeren in een workflow
 
-De invoer van het profiel wordt gevormd in specifieke malplaatjes die door werkschema&#39;s via **Importeren** activiteit. Ze kunnen automatisch volgens een schema worden herhaald, bijvoorbeeld om de gegevensuitwisseling tussen verschillende informatiesystemen te automatiseren. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html){target=&quot;_blank&quot;}.
+De invoer van het profiel wordt gevormd in specifieke malplaatjes die door werkschema&#39;s via **Importeren** activiteit. Ze kunnen automatisch volgens een schema worden herhaald, bijvoorbeeld om de gegevensuitwisseling tussen verschillende informatiesystemen te automatiseren. Meer informatie in [deze sectie](../../automation/workflow/recurring-import-workflow.md).
 
 ![](assets/import-wf.png)
 
-Meer informatie in de Campaign Classic v7-documentatie:
-
-* [Aan de slag met import en export](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html){target=&quot;_blank&quot;}
-
-* [Beste werkwijzen importeren en exporteren](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html){target=&quot;_blank&quot;}
-
-* [Importeren configureren en uitvoeren](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html){target=&quot;_blank&quot;}
 
 ## Eenheidsimporten uitvoeren
 
@@ -40,7 +33,7 @@ Maak en voer een generieke importtaak voor gegevens uit om contactpersonen in de
 
 ![](assets/new-import.png)
 
-![](../assets/do-not-localize/book.png) Leer hoe u taken voor unitaire import kunt uitvoeren om uw database te voeden in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Leer hoe u taken voor unitaire import kunt uitvoeren om uw database te voeden in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target="_blank"}.
 
 ## Profielen verzamelen via webtoepassingen
 
@@ -48,10 +41,10 @@ Met Campagne kunt u webformulieren maken en profielgegevens eenvoudig en effici√
 
 ![](assets/web-form-page.png)
 
-![](../assets/do-not-localize/book.png) Leer hoe u webformulieren maakt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Leer hoe u webformulieren maakt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"}.
 
 **Verwante onderwerpen**
 
 * [Soorten publiek maken](audiences.md)
-* [Gedupliceerde profielen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge.html)
-* [Profielgegevens vergroten](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
+* [Gedupliceerde profielen](../../automation/workflow/deduplication-merge.md)
+* [Profielgegevens vergroten](../../automation/workflow/enrich-data.md)

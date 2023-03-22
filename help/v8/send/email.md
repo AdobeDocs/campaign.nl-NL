@@ -5,18 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '466'
 ht-degree: 5%
 
 ---
 
 # E-mails ontwerpen en verzenden
 
-Met e-mailleveringen kunt u persoonlijke e-mails sturen naar de doelgroep.
-
-![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html){target="_blank"}
+Met e-mailleveringen kunt u persoonlijke e-mails sturen naar de doelgroep. [Meer informatie](../send/send.md).
 
 ## Uw eerste e-maillevering maken
 
@@ -78,17 +76,12 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 Leer hoe u een e-mailinhoud importeert in deze [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
 
-Meer informatie in deze secties van **Campaign Classic v7-documentatie**:
+Meer informatie vindt u in de volgende secties:
 
-* Een e-mail ontwerpen in Campagne
-   ![](../assets/do-not-localize/book.png) [Leer hoe u een e-mail ontwerpt](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html?lang=nl){target="_blank"}
-* Een e-mailsjabloon maken en gebruiken
-   ![](../assets/do-not-localize/book.png) [Meer informatie over e-mailsjablonen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target="_blank"}
-* Selecteer het publiek van uw e-mail
-   ![](../assets/do-not-localize/book.png) [Leer hoe u de doelpopulatie definieert](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
-* Een levering valideren en proefdrukken verzenden
-   ![](../assets/do-not-localize/book.png) [Belangrijke stappen om een levering te valideren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
-* Toevoegen [zaadadressen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+* [Een e-mail ontwerpen in Campagne](../send/email.md)
+* [Een e-mailsjabloon maken en gebruiken](../send/create-templates.md)
+* [Selecteer het publiek van uw e-mail](../audiences/gs-audiences.md)
+* [Een levering valideren en proefdrukken verzenden](../send/preview-and-proof.md)
 
 ## Uw e-mails testen en valideren
 
@@ -99,6 +92,5 @@ U kunt:
 * Logboeken voor leveringsanalyse controleren
 * Verzend proeven
 * Seedadressen toevoegen
-* Controlegroepen gebruiken
 
-![](../assets/do-not-localize/book.png) [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+[Meer informatie](../send/delivery-analysis.md)

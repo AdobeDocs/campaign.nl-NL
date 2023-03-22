@@ -4,10 +4,10 @@ description: Leer hoe u uw Campagne-omgeving kunt integreren met Twitter
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 2%
+source-wordcount: '1061'
+ht-degree: 3%
 
 ---
 
@@ -32,9 +32,9 @@ Als u Adobe Campaign wilt configureren om tweets te posten naar uw Twitter-accou
 
 ## Twitter Developer Account {#dev-account}
 
-Als u met deze integratie wilt beginnen, moet u zich aanmelden voor een [Twitter Developer Account](https://developer.twitter.com){target=&quot;_blank&quot;}.
+Als u met deze integratie wilt beginnen, moet u zich aanmelden voor een [Twitter Developer Account](https://developer.twitter.com){target="_blank"}.
 
-De campagne gebruikt versie 1.1 van Twitter API. Om het te gebruiken, moet u voor Verhoogde toegang via het Portaal van de Ontwikkelaar aanvragen. Meer informatie over Twitter Eleved Access [op deze pagina](https://developer.twitter.com/en/portal/products/elevated){target=&quot;_blank&quot;}.
+De campagne gebruikt versie 1.1 van Twitter API. Om het te gebruiken, moet u voor Verhoogde toegang via het Portaal van de Ontwikkelaar aanvragen. Meer informatie over Twitter Eleved Access [op deze pagina](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
 
 ## Een toepassing maken op Twitter {#create-an-app-on-twitter}
 
@@ -111,7 +111,7 @@ Ze worden standaard gestopt: u moet ze handmatig starten wanneer u de **Sociale 
 
 De **[!UICONTROL Synchronization of Twitter accounts]** met de technische workflow worden Twitter-accounts in Adobe Campaign gesynchroniseerd. Deze workflow herstelt de lijst met Twitter-volgers, zodat u deze rechtstreeks kunt verzenden. [Meer informatie](../send/twitter.md#direct-tw-messages)
 
-Deze workflow wordt standaard elke donderdag om 7.30 uur geactiveerd. U kunt de **[!UICONTROL Execute pending task(s) now]** als u de workflow op elk gewenst moment wilt starten terwijl u deze integratie implementeert.  U kunt de planner ook uitgeven om het werkschema te veranderen dat frequentie teweegbrengt. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target=&quot;_blank&quot;}.
+Deze workflow wordt standaard elke donderdag om 7.30 uur geactiveerd. U kunt de **[!UICONTROL Execute pending task(s) now]** als u de workflow op elk gewenst moment wilt starten terwijl u deze integratie implementeert.  U kunt de planner ook uitgeven om het werkschema te veranderen dat frequentie teweegbrengt. Meer informatie in [deze pagina](../../automation/workflow/scheduler.md).
 
 >[!CAUTION]
 >
