@@ -6,16 +6,33 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 814f7c81aa4f154fdf289effc82b8d02bdd9b4c6
+source-git-commit: 44743e585119e8cd81a8fcc9b4d667c25c0d438e
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 32%
+source-wordcount: '678'
+ht-degree: 31%
 
 ---
 
 # Nieuwste release{#latest-release}
 
 Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd met de **nieuwste versie van Campaign v8**.
+
+## Release 8.4.5 {#release-8-4-5}
+
+_3 april 2023_
+
+**Patches**
+
+* Probleem verholpen die tot een fout met betrekking tot een dubbele sleutel kon leiden als meerdere goedkeuringswerkstromen op hetzelfde schema werden ingesteld. (NEO-48968)
+* Oplossing voor een regressieprobleem dat werd geïntroduceerd door NEO-54474 (8.4.4). Hierdoor werd het stijlkenmerk van de body-tag gewijzigd tijdens het uploaden van een afbeelding in de Digital Content Editor (DCE). (NEO-57697)
+* Probleem verholpen dat tot een fout kon leiden wanneer het uitvoeren van gegevens gebruikend een schakelaar van CRM als de tijdelijke lijst een primaire sleutel had die lang in plaats van uuid wordt bepaald. (NEO-54153)
+* Oplossing voor een regressieprobleem dat in 8.4.1 werd geïntroduceerd en dat tot fouten in pakketexport, FDA boven HTTP en rapportage kon leiden. (NEO-57731)
+* Oplossing voor een regressieprobleem dat in 8.3.8 werd geïntroduceerd en waardoor de leveringsstatus niet correct kon worden bijgewerkt voor leveringen met negatieve id&#39;s. (NEO-54675)
+* Probleem verholpen met Booleaanse velden bij het importeren van gegevens via de Big Query-connector (NEO-49181)
+
+>[!CAUTION]
+>
+> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
 
 ## Release 8.4.4 {#release-8-4-4}
 
@@ -27,7 +44,7 @@ _8 maart 2023_
 
 **Patches**
 
-* Probleem verholpen waardoor u niet in het dialoogvenster **Bewerken** tabblad van de Digital Content Editor (DCE). (NEO-54474)
+* Probleem verholpen waardoor scrollen soms niet mogelijk was in het tabblad **Bewerken** van de Digital Content Editor (DCE). (NEO-54474)
 * Probleem verholpen tijdens replicatie die tot een crash van een webserver kan leiden. (NEO-53670)
 
 
