@@ -4,7 +4,7 @@ description: Leer hoe u uw levering kunt valideren voordat u deze verzendt
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: e0129524a051827a52de478c3fdc45b963d6c4bb
+source-git-commit: a6d2cb72968fe489a73f92f00f6a50be8ed3e997
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 2%
@@ -63,7 +63,7 @@ Standaard wordt de vervanging willekeurig uitgevoerd, maar u kunt een specifieke
    >
    >De zaadadressen behoren niet tot de standaard ontvankelijke lijst (nms:ontvanger), zij worden gecreeerd in een afzonderlijke lijst. Als u de lijst van ontvangers met nieuwe gegevens uitbreidt, moet u de lijst van zaadadressen evenals met de zelfde gegevens uitbreiden.
 
-   Meer informatie over adressen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.htmll){target="_blank"}.
+   Meer informatie over adressen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
 * Gebruik de **[!UICONTROL Specific target and Seed addresses]** optie om zaadadressen en specifieke e-mailadressen te combineren. De gerelateerde configuraties worden vervolgens in twee aparte subtabbladen gedefinieerd.
 
