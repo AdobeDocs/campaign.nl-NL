@@ -5,31 +5,26 @@ feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
+source-git-commit: 1bcb1b3d1e6062a8b5c0368725248edfc7e3d1b4
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 2%
+source-wordcount: '1748'
+ht-degree: 3%
 
 ---
 
 # Pushmeldingen maken en verzenden{#push-notifications-create}
 
-Met de levering van mobiele apps kunt u meldingen verzenden naar iOS- en Android-systemen.
+Met de levering van mobiele apps kunt u meldingen verzenden naar iOS en Android-apparaten.
 
 Als u pushberichten wilt verzenden in Adobe Campaign, moet u:
 
-1. De Campagneomgeving configureren
-1. Maak een informatieservice voor mobiele toepassingen van het type Mobiele toepassing.
-1. Voeg de iOS- en Android-versies van de toepassing toe aan deze service.
-1. Maak een levering voor zowel iOS als Android.
-
-![](../assets/do-not-localize/book.png) Leer hoe u aan de slag kunt met de mobiele app in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target="_blank"}
+1. Integreer de SDK met uw app. [Meer informatie](#push-sdk)
+1. Maak een informatieservice voor het type Mobiele toepassing voor uw mobiele toepassing en voeg de iOS- en Android-versies van de toepassing toe aan die service. [Meer informatie](#push-config)
+1. Maak een levering voor zowel iOS als Android. [Meer informatie](#push-create)
 
 ## De SDK integreren {#push-sdk}
 
 U kunt de Adobe Experience Platform Mobile SDK gebruiken door de Adobe Campaign-extensie te configureren in de gebruikersinterface voor gegevensverzameling. De Adobe Experience Platform Mobile SDK helpt Adobe Experience Cloud-oplossingen en -services aan te schaffen in uw mobiele apps. De configuratie SDKs wordt beheerd door de Inzameling UI van Gegevens voor flexibele configuratie en verlengbare, op regels-gebaseerde integratie. [Meer informatie in de documentatie van Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
-
-Leer hoe u de Adobe Experience Platform Mobile SDK configureert en installeert [in deze video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/configure-push-using-aep-mobile-sdk.html?lang=en){target="_blank"}.
 
 U kunt ook de Campagne SDK integreren om de integratie van uw mobiele toepassing in het Adobe Campaign-platform te vergemakkelijken. Compatibele SDK-versies worden weergegeven in [Matrix voor campagnecompatibiliteit](../start/compatibility-matrix.md#MobileSDK).
 
@@ -37,11 +32,131 @@ Leer hoe u de SDK&#39;s van Campagne Android en iOS kunt integreren met uw app i
 
 ## Uw toepassingsinstellingen configureren in Campagne{#push-config}
 
-U moet de instellingen voor uw iOS- en Android-apps definiëren in Adobe Campaign.
+Voordat u pushmeldingen verzendt, moet u de instellingen voor iOS- en Android-apps in Adobe Campaign definiëren.
 
-![](../assets/do-not-localize/book.png) De configuratierichtlijnen voor iOS worden beschreven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target="_blank"}
+Pushberichten worden via een speciale service naar gebruikers van de app verzonden. Wanneer gebruikers uw app installeren, abonneren zij zich op deze service: Adobe Campaign vertrouwt op deze service om alleen de abonnees van uw app als doel in te stellen. In deze service moet u uw iOS- en Android-apps toevoegen om op iOS- en Android-apparaten te verzenden.
 
-![](../assets/do-not-localize/book.png) De configuratierichtlijnen voor Android worden beschreven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target="_blank"}
+Voer de onderstaande stappen uit om een service te maken voor het verzenden van pushberichten:
+
+1. Bladeren naar **[!UICONTROL Profiles and Targets > Services and Subscriptions]** en klikt u op **[!UICONTROL Create]**.
+
+   ![](assets/new-service-push.png){width="800" align="left"}
+
+1. Voer een **[!UICONTROL Label]** en **[!UICONTROL Internal name]** en selecteert u een **[!UICONTROL Mobile application]** type.
+
+   >[!NOTE]
+   >
+   >De standaardwaarde **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** doeltoewijzing is gekoppeld aan de tabel met ontvangers. Als u een andere doelafbeelding wilt gebruiken, moet u een nieuwe doeltoewijzing maken en deze invoeren in het dialoogvenster **[!UICONTROL Target mapping]** van de dienst. Meer informatie over doeltoewijzingen in [deze pagina](../audiences/target-mappings.md).
+
+1. Gebruik vervolgens de **[!UICONTROL Add]** pictogram aan de rechterkant om de mobiele toepassingen te definiëren die deze service gebruiken.
+
+>[!BEGINTABS]
+
+>[!TAB iOS]
+
+Ga als volgt te werk om een app voor iOS-apparaten te maken:
+
+1. Selecteer **[!UICONTROL Create an iOS application]** en klik op **[!UICONTROL Next]**.
+
+   ![](assets/new-ios-app.png){width="600" align="left"}
+
+1. Voer de naam van uw app in het dialoogvenster **[!UICONTROL Label]** veld.
+1. (optioneel) U kunt de inhoud van een pushbericht verrijken met wat **[!UICONTROL Application variables]**. Deze zijn volledig aanpasbaar en een deel van de berichtlading wordt verzonden naar het mobiele apparaat.
+
+   In het onderstaande voorbeeld wordt **mediaURl** en **mediaExt** variabelen worden toegevoegd om uitgebreide pushmeldingen te maken en geven de toepassing de afbeelding die binnen het bericht moet worden weergegeven.
+
+   ![](assets/ios-app-parameters.png){width="600" align="left"}
+
+1. Bladeren naar de **[!UICONTROL Subscription parameters]** tabblad om de toewijzing te definiëren met een extensie van de optie **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema.
+
+1. Bladeren naar de **[!UICONTROL Sounds]** om het af te spelen geluid te definiëren. Klikken **[!UICONTROL Add]** en vullen **[!UICONTROL Internal name]** veld dat de naam moet bevatten van het bestand dat is ingesloten in de toepassing of de naam van het systeemgeluid.
+
+1. Klikken **[!UICONTROL Next]** om de ontwikkeltoepassing te configureren.
+
+1. De integratiesleutel is specifiek voor elke toepassing. De mobiele toepassing wordt aan Adobe Campaign gekoppeld.
+
+   Controleer of hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
+
+   Als u de Campagne SDK gebruikt, leert u meer in[deze pagina](../config/push-config.md).
+
+
+   Als u Adobe Experience Platform SDK (gegevensverzameling) gebruikt, leert u meer in [deze pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+
+
+   >[!NOTE]
+   >
+   > De **[!UICONTROL Integration key]** is volledig aanpasbaar met tekenreekswaarde, maar moet exact hetzelfde zijn als de waarde die in de SDK is opgegeven.
+   >
+   > U kunt niet hetzelfde certificaat gebruiken voor de ontwikkelingsversie (sandbox) en de productieversie van de toepassing.
+
+1. Selecteer het pictogram in het menu **[!UICONTROL Application icon]** om de mobiele toepassing in uw service aan te passen.
+
+1. Selecteer het **[!UICONTROL Authentication mode]**. Er zijn twee modi beschikbaar:
+
+   * (Aanbevolen) **[!UICONTROL Token-based authentication]**: De APNs-verbindingsinstellingen invullen **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** en **[!UICONTROL Bundle Id]** Selecteer vervolgens uw p8-certificaat door op **[!UICONTROL Enter the private key...]**. Voor meer informatie **[!UICONTROL Token-based authentication]**, zie [Apple-documentatie](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+
+   * **[!UICONTROL Certificate-based authentication]**: Klikken **[!UICONTROL Enter the certificate...]**  Selecteer vervolgens de p12-toets en voer het wachtwoord in dat de ontwikkelaar van de mobiele toepassing heeft opgegeven.
+   U kunt de verificatiemodus later wijzigen in het dialoogvenster **[!UICONTROL Certificate]** van uw mobiele toepassing.
+
+1. Gebruik de **[!UICONTROL Test the connection]** knoop om uw configuratie te bevestigen.
+
+1. Klikken **[!UICONTROL Next]** om de productietoepassing te configureren en dezelfde stappen uit te voeren als hierboven beschreven.
+
+1. Klik op **[!UICONTROL Finish]**.
+
+Uw iOS-toepassing kan nu worden gebruikt in Campagne.
+
+>[!TAB Android]
+
+Voer de volgende stappen uit om een app voor Android-apparaten te maken:
+
+1. Selecteer **[!UICONTROL Create an Android application]** en klik op **[!UICONTROL Next]**.
+
+   ![](assets/new-android-app.png){width="600" align="left"}
+
+1. Voer de naam van uw app in het dialoogvenster **[!UICONTROL Label]** veld.
+1. De integratiesleutel is specifiek voor elke toepassing. De mobiele toepassing wordt aan Adobe Campaign gekoppeld.
+
+   Controleer of hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
+
+   Als u de Campagne SDK gebruikt, leert u meer in [deze pagina](../config/push-config.md).
+
+   Als u Adobe Experience Platform SDK (gegevensverzameling) gebruikt, leert u meer in [deze pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+
+
+   >[!NOTE]
+   >
+   > De **[!UICONTROL Integration key]** is volledig aanpasbaar met tekenreekswaarde, maar moet exact hetzelfde zijn als de waarde die in de SDK is opgegeven.
+
+1. Selecteer het pictogram in het menu **[!UICONTROL Application icon]** om de mobiele toepassing in uw service aan te passen.
+1. Selecteren **HTTP v1** in  **[!UICONTROL API version]** vervolgkeuzelijst.
+1. Klikken **[!UICONTROL Load project json file to extract project details...]** koppeling om uw JSON-sleutelbestand te laden. Voor meer informatie over het uitpakken van uw JSON-bestand raadpleegt u [Google Firebase-documentatie](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+
+   U kunt ook handmatig de volgende gegevens invoeren:
+   * **[!UICONTROL Project Id]**
+   * **[!UICONTROL Private Key]**
+   * **[!UICONTROL Client Email]**
+
+1. Gebruik de **[!UICONTROL Test the connection]** knoop om uw configuratie te bevestigen.
+
+   >[!CAUTION]
+   >
+   >De **[!UICONTROL Test connection]** controleert niet of de MID-server toegang heeft tot de FCM-server.
+
+1. (optioneel) U kunt de inhoud van een pushbericht verrijken met wat **[!UICONTROL Application variables]** indien nodig. Deze zijn volledig aanpasbaar en een deel van de berichtlading wordt verzonden naar het mobiele apparaat.
+
+1. Klik op **[!UICONTROL Finish]** en vervolgens op **[!UICONTROL Save]**. Uw Android-toepassing kan nu worden gebruikt in Campagne.
+
+Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te passen:
+
+| Berichttype | Configureerbaar berichtelement (FCM-ladenaam) | Configureerbare opties (FCM-ladenaam) |
+|:-:|:-:|:-:|
+| gegevensbericht | N.v.t. | validate_only |
+| meldingsbericht | title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+
+
+>[!ENDTABS]
+
 
 ## Uw eerste pushmelding maken{#push-create}
 
@@ -55,13 +170,11 @@ Blader naar de **[!UICONTROL Campaigns]** tabblad, klikt u op **[!UICONTROL Deli
 
 ![](assets/delivery_step_1.png)
 
-![](../assets/do-not-localize/book.png) Voor globale informatie over hoe te om een levering tot stand te brengen, verwijs naar [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target="_blank"}
+>[!BEGINTABS]
 
-### Meldingen verzenden op iOS {#send-notifications-on-ios}
+>[!TAB iOS]
 
->[!NOTE]
->
->Deze mogelijkheid is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+Voer de volgende stappen uit om berichten op iOS-apparaten te verzenden:
 
 1. Selecteer **[!UICONTROL Deliver on iOS]** leveringssjabloon.
 
@@ -106,13 +219,9 @@ Blader naar de **[!UICONTROL Campaigns]** tabblad, klikt u op **[!UICONTROL Deli
       >[!NOTE]
       > 
       >Geluiden moeten in de toepassing worden opgenomen en worden gedefinieerd wanneer de service wordt gemaakt.
-      >
-      >De configuratierichtlijnen voor iOS worden beschreven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"}.
    ![](assets/push_ios_5.png)
 
 1. Van de **[!UICONTROL Application variables]** tab, uw **[!UICONTROL Application variables]** automatisch worden toegevoegd. Met deze instructies kunt u bijvoorbeeld het berichtgedrag definiëren. U kunt dan een specifiek toepassingsscherm configureren dat wordt weergegeven wanneer de gebruiker het bericht activeert.
-
-   Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"}.
 
 1. Van de **[!UICONTROL Advanced]** kunt u de volgende algemene opties bewerken:
 
@@ -147,7 +256,10 @@ Blader naar de **[!UICONTROL Campaigns]** tabblad, klikt u op **[!UICONTROL Deli
 
    ![](assets/push-ios-preview.png)
 
-### Meldingen verzenden op Android {#send-notifications-on-android}
+
+>[!TAB Android]
+
+Voer de volgende stappen uit om meldingen te verzenden op Android-apparaten:
 
 1. Selecteer **[!UICONTROL Deliver on Android (android)]** leveringssjabloon.
 
@@ -173,20 +285,16 @@ Blader naar de **[!UICONTROL Campaigns]** tabblad, klikt u op **[!UICONTROL Deli
 
    <!--![](assets/push-android-preview.png)-->
 
+>[!ENDTABS]
+
+
 ## Uw pushmeldingen testen, verzenden en controleren
 
-Als u een bewijs wilt verzenden en de uiteindelijke levering wilt verzenden, gebruikt u hetzelfde proces als voor e-mailleveringen. Meer informatie in de Campaign Classic v7-documentatie:
+Om een bewijs te verzenden en de uiteindelijke levering te verzenden, gebruikt u hetzelfde proces als voor andere leveringen.
 
-* Een levering valideren en proefdrukken verzenden
-   ![](../assets/do-not-localize/book.png) [Belangrijke stappen om een levering te valideren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+Leer hoe u een levering kunt valideren in [deze pagina](preview-and-proof.md).
 
-* Bevestig en verzend de levering
-   ![](../assets/do-not-localize/book.png) [Leer de belangrijkste stappen om een levering te verzenden](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html){target="_blank"}
+Leer hoe u de levering kunt bevestigen en verzenden in [deze pagina](send.md)
 
-Nadat u berichten hebt verzonden, kunt u de leveringen controleren en volgen. Meer informatie in de Campaign Classic v7-documentatie:
+Nadat u berichten hebt verzonden, kunt u de leveringen controleren en volgen. Meer informatie over de redenen voor het mislukken van pushberichten vindt u in [deze pagina](delivery-failures.md#push-error-types).
 
-* Push notification quarantines
-   ![](../assets/do-not-localize/book.png) [Meer informatie over quarantines voor pushmeldingen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#push-notification-quarantines){target="_blank"}
-
-* Problemen oplossen
-   ![](../assets/do-not-localize/book.png) [Leer hoe u problemen met uw pushmeldingen kunt oplossen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html){target="_blank"}
