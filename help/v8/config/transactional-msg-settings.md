@@ -5,20 +5,20 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 0%
+source-wordcount: '682'
+ht-degree: 6%
 
 ---
 
 # Transactionele berichtinstellingen
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
+![](../assets/do-not-localize/speech.png) Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
 
 ![](../assets/do-not-localize/glass.png) Transactionele berichtenmogelijkheden zijn gedetailleerd in [deze sectie](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur in [deze pagina](../architecture/architecture.md).
+![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur in [deze pagina](../architecture/architecture.md#transac-msg-archi).
 
 ## Machtigingen definiëren
 
@@ -34,7 +34,7 @@ Alle schemauitbreidingen die op de schema&#39;s worden gemaakt door worden gebru
 
 In combinatie met de module Mobiele toepassingskanalen kunt u met transactiemeldingen transactionele berichten verzenden via meldingen op mobiele apparaten.
 
-![](../assets/do-not-localize/book.png) Het mobiele toepassingskanaal wordt gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+![](../assets/do-not-localize/book.png) Het mobiele toepassingskanaal wordt gedetailleerd in [deze sectie](../send/push.md).
 
 Als u pushmeldingen over transacties wilt verzenden, moet u de volgende configuraties uitvoeren:
 
@@ -75,3 +75,49 @@ Hier volgt een voorbeeld van een gebeurtenis die deze informatie bevat:
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
+
+## Drempels controleren {#monitor-thresholds}
+
+U kunt de waarschuwingsdrempels (oranje) en waakzame drempels (rood) van de indicatoren vormen die in verschijnen **Serviceniveau van Message Center** en **Verwerkingstijd van Message Center** rapporten.
+
+Volg de onderstaande stappen om dit te doen:
+
+1. Open de implementatiewizard op de **uitvoeringsinstantie** en blader naar de **[!UICONTROL Message Center]** pagina.
+1. Gebruik de pijlen om de drempels te veranderen.
+
+
+## Gebeurtenissen opschonen {#purge-events}
+
+U kunt de montages van de plaatsingstovenaar aanpassen om te vormen hoe lang de gegevens in het gegevensbestand moeten worden opgeslagen.
+
+Gebeurtenissen worden automatisch door de **Database opschonen** technische workflow. Dit werkschema zuiveert de gebeurtenissen die op de uitvoeringsinstanties en de gebeurtenissen worden ontvangen en worden opgeslagen die op een controleinstantie worden gearchiveerd.
+
+Gebruik de pijlen naar wens om de purgeerinstellingen voor de **Gebeurtenissen** (op een uitvoeringsinstantie) en **Gearchiveerde gebeurtenissen** (op een besturingsinstantie).
+
+
+## Technische workflows {#technical-workflows}
+
+U moet ervoor zorgen dat de technische werkschema&#39;s op uw controle en uitvoeringsinstanties zijn begonnen alvorens om het even welke transactionele berichtmalplaatjes op te stellen.
+
+Deze workflows zijn vervolgens toegankelijk via de **Beheer > Productie > Berichtencentrum** map.
+
+### Workflows voor besturingsinstanties {#control-instance-workflows}
+
+Voor de controleinstantie, moet u één archiveringswerkschema voor elk creëren **[!UICONTROL Message Center execution instance]** externe rekening. Klik op de knop **[!UICONTROL Create the archiving workflow]** om de workflow te maken en te starten.
+
+### Workflows voor uitvoeringsinstanties {#execution-instance-workflows}
+
+In de uitvoeringsinstantie(s) moet u de volgende technische workflows starten:
+
+* **[!UICONTROL Processing batch events]** (interne naam: **[!UICONTROL batchEventsProcessing]** ): met deze workflow kunt u batchgebeurtenissen in een wachtrij onderverdelen voordat deze aan een berichtsjabloon zijn gekoppeld.
+* **[!UICONTROL Processing real time events]** (interne naam: **[!UICONTROL rtEventsProcessing]** ): met deze workflow kunt u real-time gebeurtenissen in een wachtrij onderverdelen voordat deze aan een berichtsjabloon zijn gekoppeld.
+* **[!UICONTROL Update event status]** (interne naam: **[!UICONTROL updateEventStatus]** ): in deze workflow kunt u een status aan de gebeurtenis toewijzen.
+
+   Mogelijke gebeurtenisstatussen zijn:
+
+   * **[!UICONTROL Pending]**: de gebeurtenis bevindt zich in de wachtrij. Er is nog geen berichtsjabloon aan toegewezen.
+   * **[!UICONTROL Pending delivery]**: de gebeurtenis is in de rij, is een berichtmalplaatje toegewezen aan het en het wordt verwerkt door de levering.
+   * **[!UICONTROL Sent]**: deze status wordt gekopieerd uit de leveringslogboeken. Dit betekent dat de levering is verzonden.
+   * **[!UICONTROL Ignored by the delivery]**: deze status wordt gekopieerd uit de leveringslogboeken. Het betekent dat de levering is genegeerd.
+   * **[!UICONTROL Delivery failed]**: deze status wordt gekopieerd uit de leveringslogboeken. Het betekent dat de levering is mislukt.
+   * **[!UICONTROL Event not taken into account]**: de gebeurtenis kon niet aan een berichtmalplaatje worden verbonden. De gebeurtenis wordt niet verwerkt.
