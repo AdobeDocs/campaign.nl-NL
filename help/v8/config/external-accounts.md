@@ -5,12 +5,13 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
+source-git-commit: 7b8a9a323afc3154e250b4c70c4339d6c6c265c0
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Externe accounts configureren
 
@@ -35,70 +36,49 @@ U kunt externe accounts openen vanuit Adobe Campaign **[!UICONTROL Explorer]**: 
 
 Adobe Campaign gebruikt de volgende technische accounts om specifieke processen in te schakelen en uit te voeren.
 
-![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, vormt Adobe alle campagne-specifieke externe rekeningen voor u.
-
 ### Niet bezorgde mails {#bounce-mails-external-account}
 
 >[!NOTE]
-De Microsoft Exchange Online OAuth 2.0-verificatie voor POP3-mogelijkheden is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+De Microsoft Exchange Online OAuth 2.0-verificatie voor POP3-mogelijkheden is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
 
 De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
-Meer informatie over inkomende e-mails in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html)
+Meer informatie over inkomende e-mails in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html).
 
 ![](assets/bounce_external_1.png)
 
 Om het **[!UICONTROL Bounce mails (defaultPopAccount)]** externe rekening:
 
-* **[!UICONTROL Server]**
+* **[!UICONTROL Server]** - URL van de POP3-server.
 
-   URL van de POP3-server.
+* **[!UICONTROL Port]** - POP3-poortnummer van de verbinding. De standaardpoort is 110.
 
-* **[!UICONTROL Port]**
+* **[!UICONTROL Account]** - Naam van de gebruiker.
 
-   POP3-poortnummer van verbinding. De standaardpoort is 110.
+* **[!UICONTROL Password]** - Wachtwoord voor gebruikersaccount.
 
-* **[!UICONTROL Account]**
+* **[!UICONTROL Encryption]** - Type gekozen codering tussen **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** of **[!UICONTROL POP3S]**.
 
-   Naam van de gebruiker.
+   De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
-* **[!UICONTROL Password]**
-
-   Wachtwoord voor gebruikersaccount.
-
-* **[!UICONTROL Encryption]**
-
-   Type gekozen codering tussen **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** of **[!UICONTROL POP3S]**.
-De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
-
-* **[!UICONTROL Function]**
-
-   Binnenkomende e-mail of SOAP-router
+* **[!UICONTROL Function]** - Binnenkomende e-mail of SOAP-router
 
 ![](assets/bounce_external_2.png)
 
->[!IMPORTANT]
+>[!CAUTION]
 Voordat u uw POP3-externe account configureert met Microsoft OAuth 2.0, moet u uw toepassing eerst registreren in de Azure-portal. Raadpleeg de volgende secties voor meer informatie [page](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 Om POP3 extern te vormen gebruikend Microsoft OAuth 2.0, controleer **[!UICONTROL Microsoft OAuth 2.0]** en vult de volgende velden in:
 
-* **[!UICONTROL Azure tenant]**
+* **[!UICONTROL Azure tenant]** - Azure ID (of Directory (huurder) ID) is te vinden in de **Essentiële elementen** vervolgkeuzelijst van het overzicht van uw toepassing in de Azure-portal.
 
-   Azure ID (of Directory (huurder) ID) is te vinden in de **Essentiële elementen** vervolgkeuzelijst van het overzicht van uw toepassing in de Azure-portal.
+* **[!UICONTROL Azure Client ID]** - Client-id (of toepassings-(client)id) is te vinden in de **Essentiële elementen** vervolgkeuzelijst van het overzicht van uw toepassing in de Azure-portal.
 
-* **[!UICONTROL Azure Client ID]**
+* **[!UICONTROL Azure Client secret]** - De geheime ID van de cliënt kan in worden gevonden **Clientgegevens** uit de **Certificaten en geheimen** in het Azure-portaal.
 
-   Client-id (of toepassings-id (client)) is te vinden in de **Essentiële elementen** vervolgkeuzelijst van het overzicht van uw toepassing in de Azure-portal.
+* **[!UICONTROL Azure Redirect URL]** - URL omleiden vindt u in het dialoogvenster **Verificatie** in het Azure-portaal. Het moet eindigen met de volgende syntaxis `nl/jsp/oauth.jsp`, bijvoorbeeld `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
-* **[!UICONTROL Azure Client secret]**:
-
-   Identiteitskaart van het geheim van de cliënt kan in worden gevonden **Clientgegevens** uit de **Certificaten en geheimen** in het Azure-portaal.
-
-* **[!UICONTROL Azure Redirect URL]**:
-
-   De omleidings-URL vindt u in het dialoogvenster **Verificatie** in het Azure-portaal. Het moet eindigen met de volgende syntaxis `nl/jsp/oauth.jsp`, bijvoorbeeld `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
-
-Nadat u de andere gegevens hebt ingevoerd, kunt u op **[!UICONTROL Setup the connection]** om de configuratie van uw externe account te voltooien.
+   Nadat u de andere gegevens hebt ingevoerd, kunt u op **[!UICONTROL Setup the connection]** om de configuratie van uw externe account te voltooien.
 
 ### Routering {#routing}
 
@@ -109,9 +89,7 @@ De **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) externe a
 
 ### Uitvoeringsinstantie {#execution-instance}
 
-In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbonden met de controleinstantie en hen verbinden. Transactionele berichtmalplaatjes worden opgesteld aan de uitvoeringsinstantie.
-
-![](../assets/do-not-localize/glass.png) Meer informatie over de architectuur van Message Center in [deze pagina](../architecture/architecture.md#transac-msg-archi).
+In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbonden met de controleinstantie en hen verbinden. Transactionele berichtmalplaatjes worden opgesteld aan de uitvoeringsinstantie. Meer informatie over de architectuur van Message Center in [deze pagina](../architecture/architecture.md#transac-msg-archi).
 
 ## Toegang tot externe rekeningen van externe systemen
 
@@ -138,18 +116,15 @@ In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbo
 
 ## Externe rekeningen voor gegevensoverdracht
 
-Deze externe accounts kunnen worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Meer informatie over bestandsoverdracht in workflows in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
+Deze externe accounts kunnen worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Meer informatie over **Bestandsoverdracht** in workflows in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html).
 
-* **FTP en SFTP**
+* **FTP en SFTP** - de **FTP** Met een externe account kunt u toegang tot een server buiten Adobe Campaign configureren en testen. Als u verbindingen wilt instellen met externe systemen, zoals SFTP- of FTP-servers 898 die worden gebruikt voor bestandsoverdracht, kunt u uw eigen externe accounts maken.
 
-   De **FTP** Met een externe account kunt u toegang tot een server buiten Adobe Campaign configureren en testen. Als u verbindingen wilt instellen met externe systemen, zoals SFTP- of FTP-servers 898 die worden gebruikt voor bestandsoverdracht, kunt u uw eigen externe accounts maken.
-Hiertoe geeft u in deze externe account het adres en de referenties op die worden gebruikt om de verbinding met de SFTP- of FTP-server tot stand te brengen.
+   Hiertoe geeft u in deze externe account het adres en de referenties op die worden gebruikt om de verbinding met de SFTP- of FTP-server tot stand te brengen.
 
-* **Amazon Simple Storage Service (S3)**
+* **Amazon Simple Storage Service (S3)** - de **AWS S3** -connector kan worden gebruikt om gegevens te importeren of naar Adobe Campaign te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
 
-   De **AWS S3** -connector kan worden gebruikt om gegevens te importeren of naar Adobe Campaign te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
-
-   * **[!UICONTROL AWS S3 Account Server]**: URL van uw server, als volgt ingevuld:   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
+   * **[!UICONTROL AWS S3 Account Server]**: URL van uw server, als volgt ingevuld:   `<S3bucket name>.s3.amazonaws.com/<s3object path>`
 
    * **[!UICONTROL AWS access key ID]**: Meer informatie over het vinden van je AWS-toegangs-id in [Amazon-documentatie](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
@@ -159,9 +134,7 @@ Hiertoe geeft u in deze externe account het adres en de referenties op die worde
 
    * De **[!UICONTROL Use server side encryption]** kunt u het bestand opslaan in de gecodeerde modus van S3. Leer hoe u de toegangstoets-id en de geheime toegangssleutel kunt vinden in [Amazon-documentatie](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
-* **Azure Blob Storage**
-
-   De **Azure** een externe account kan worden gebruikt om gegevens naar Adobe Campaign te importeren of te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Om het **Azure** Als u met Adobe Campaign wilt werken, moet u de volgende gegevens opgeven:
+* **Azure Blob Storage** - de **Azure** een externe account kan worden gebruikt om gegevens naar Adobe Campaign te importeren of te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Om het **Azure** Als u met Adobe Campaign wilt werken, moet u de volgende gegevens opgeven:
 
    * **[!UICONTROL Server]**: URL van uw Azure Blob-opslagserver.
 
