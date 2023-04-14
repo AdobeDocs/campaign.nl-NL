@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 2a85ffc2fe3a839c14a5c844deaa7a09687743eb
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. Deze meldingen worden gegenereerd op basis van gebeurtenissen die worden geactiveerd via informatiesystemen en kunnen: factuur, bevestiging van bestelling, bevestiging van verzending, wijziging van wachtwoord, kennisgeving van onbeschikbaarheid van product, rekeningoverzicht, aanmaken van websiteaccount, enz.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support){target=&quot;_blank&quot;} om het Transactionele overseinen van de Campagne in uw milieu te vormen.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} om het Transactionele overseinen van de Campagne in uw milieu te vormen.
 
 Transactieberichten worden gebruikt voor het verzenden van:
 
@@ -24,9 +24,9 @@ Transactieberichten worden gebruikt voor het verzenden van:
 * een individuele reactie in real time op een klantenactie
 * niet-promotionele inhoud
 
-![](../assets/do-not-localize/glass.png) De instellingen voor Transactieberichten worden gedetailleerd in [deze sectie](../config/transactional-msg-settings.md).
+De instellingen voor Transactieberichten worden gedetailleerd in [deze sectie](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur op [deze pagina](../architecture/architecture.md#transac-msg-archi).
+Begrijp transactie overseinenarchitectuur op [deze pagina](../architecture/architecture.md#transac-msg-archi).
 
 ## Werkingsprincipe voor transactieberichten {#transactional-messaging-operating-principle}
 
@@ -43,7 +43,7 @@ De belangrijkste stappen om dit in werking te stellen zijn hieronder beschreven:
 1. [Het bericht testen](#test-message-template).
 1. [Publiceer de berichtsjabloon](#publish-message-template).
 
-Zodra u het transactionele berichtmalplaatje ontwierp en publiceerde, als een overeenkomstige gebeurtenis wordt teweeggebracht, worden de relevante gegevens verzonden naar Campagne via PushEvent en PushEvents [SOAP-methoden](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target=&quot;_blank&quot;} en de levering wordt naar de beoogde ontvangers verzonden.
+Zodra u het transactionele berichtmalplaatje ontwierp en publiceerde, als een overeenkomstige gebeurtenis wordt teweeggebracht, worden de relevante gegevens verzonden naar Campagne via PushEvent en PushEvents [SOAP-methoden](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}en de levering wordt naar de beoogde ontvangers verzonden.
 
 ## Gebeurtenistypen maken {#create-event-types}
 
@@ -73,7 +73,7 @@ Voer de volgende stappen uit om gebeurtenistypen te maken die door Adobe Campaig
 
 >[!NOTE]
 >
->Meer informatie over gespecificeerde lijsten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+>Meer informatie over gespecificeerde lijsten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 ## Een transactiemalplaatje definiëren {#create-message-template}
 
@@ -199,7 +199,7 @@ U kunt berichtlevering testen door een bewijs naar een eerder gecreeerd zaadadre
 
 Bij het verzenden van een bewijs wordt hetzelfde proces gebruikt als bij elke levering.
 
-![](../assets/do-not-localize/book.png) Meer informatie over proefdrukken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Meer informatie over proefdrukken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
 
 Als u echter een bewijs van een transactiebericht wilt verzenden, moet u de volgende bewerkingen uitvoeren:
 
