@@ -5,10 +5,10 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 5%
+source-wordcount: '1081'
+ht-degree: 3%
 
 ---
 
@@ -24,10 +24,12 @@ U kunt externe accounts openen vanuit Adobe Campaign **[!UICONTROL Explorer]**: 
 
 
 >[!CAUTION]
+>* Als Beheerde gebruiker van Cloud Services, worden de externe rekeningen gevormd voor uw instantie door Adobe en moeten niet worden gewijzigd.
+
 >
->In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md)een specifieke **[!UICONTROL Full FDA]** (ffd bis) externe account beheert verbinding tussen lokale database voor campagne en Cloud-database ([!DNL Snowflake]).
+>* >In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md)een specifieke **[!UICONTROL Full FDA]** (ffd bis) externe account beheert verbinding tussen lokale database voor campagne en Cloud-database ([!DNL Snowflake]).
 >
->Als Beheerde gebruiker van Cloud Services, worden de externe rekeningen gevormd voor uw instantie door Adobe en moeten niet worden gewijzigd.
+
 
 ## Campagne-specifieke externe rekeningen
 
@@ -38,8 +40,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 ### Niet bezorgde mails {#bounce-mails-external-account}
 
 >[!NOTE]
->
->De Microsoft Exchange Online OAuth 2.0-verificatie voor POP3-mogelijkheden is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+De Microsoft Exchange Online OAuth 2.0-verificatie voor POP3-mogelijkheden is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
@@ -77,8 +78,7 @@ De **Stuitberichten** externe account geeft de externe POP3-account aan die moet
 ![](assets/bounce_external_2.png)
 
 >[!IMPORTANT]
->
->Voordat u uw POP3-externe account configureert met Microsoft OAuth 2.0, moet u uw toepassing eerst registreren in de Azure-portal. Raadpleeg [deze pagina](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) voor meer informatie.
+Voordat u uw POP3-externe account configureert met Microsoft OAuth 2.0, moet u uw toepassing eerst registreren in de Azure-portal. Raadpleeg de volgende secties voor meer informatie [page](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 Om POP3 extern te vormen gebruikend Microsoft OAuth 2.0, controleer **[!UICONTROL Microsoft OAuth 2.0]** en vult de volgende velden in:
 
@@ -105,8 +105,7 @@ Nadat u de andere gegevens hebt ingevoerd, kunt u op **[!UICONTROL Setup the con
 De **[!UICONTROL Routing]** met een externe account kunt u elk kanaal dat beschikbaar is in Adobe Campaign configureren, afhankelijk van de geïnstalleerde pakketten.
 
 >[!CAUTION]
->
->De **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) externe account **mogen** moet zijn ingeschakeld in Adobe Campaign v8.
+De **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) externe account **mogen** moet zijn ingeschakeld in Adobe Campaign v8.
 
 ### Uitvoeringsinstantie {#execution-instance}
 
@@ -116,60 +115,30 @@ In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbo
 
 ## Toegang tot externe rekeningen van externe systemen
 
-* **Externe database (FDA)**
-
-   De **Externe database** type external account wordt gebruikt om verbinding te maken met een externe database via Federated Data Access (FDA).
+* **Externe database (FDA)** - de **Externe database** type external account wordt gebruikt om verbinding te maken met een externe database via Federated Data Access (FDA). Meer informatie over de FDA-optie (Federated Data Access) vindt u in [deze sectie](../connect/fda.md).
 
    Externe databases die compatibel zijn met Adobe Campaign v8, worden vermeld in de [Compatibiliteitsmatrix](../start/compatibility-matrix.md)
 
-   ![](../assets/do-not-localize/glass.png) Meer informatie over de FDA-optie (Federated Data Access) vindt u in [deze sectie](../connect/fda.md).
-
-* **Twitter**
-
-   De **Twitter** Typ external account wordt gebruikt om campagne te verbinden met je twitter account, om berichten namens jou te posten.
-
-   ![](../assets/do-not-localize/glass.png) Meer informatie over Twitter-integratie in [deze sectie](../connect/ac-tw.md).
+* **Twitter** - de **Twitter** Typ external account wordt gebruikt om campagne te verbinden met je twitter account, om berichten namens jou te posten. Meer informatie over Twitter-integratie in [deze sectie](../connect/ac-tw.md).
 
 ## Externe accounts voor integratie van Adobe-oplossingen
 
-* **Adobe Experience Cloud**
+* **Adobe Experience Cloud** - de **[!UICONTROL Adobe Experience Cloud]** Met een externe account wordt Adobe Identity Management Service (IMS) geïmplementeerd om verbinding te maken met de Adobe Campaign. Meer informatie over Adobe Identity Management Service (IMS) in [deze sectie](../start/connect.md#connect-ims).
 
-   De **[!UICONTROL Adobe Experience Cloud]** Met een externe account wordt Adobe Identity Management Service (IMS) geïmplementeerd om verbinding te maken met de Adobe Campaign.
+* **Webanalyse** - de **[!UICONTROL Web Analytics (Adobe Analytics)]** externe account wordt gebruikt om gegevensoverdracht van Adobe Analytics naar Adobe Campaign te configureren. Meer informatie over de integratie van Adobe Campaign en Adobe Analytics in [deze pagina](../connect/ac-aa.md).
 
-   ![](../assets/do-not-localize/glass.png) Meer informatie over Adobe Identity Management Service (IMS) in [deze sectie](../start/connect.md#connect-ims).
-
-* **Web Analytics**
-
-   De **[!UICONTROL Web Analytics (Adobe Analytics)]** externe account wordt gebruikt om gegevensoverdracht van Adobe Analytics naar Adobe Campaign te configureren.
-
-   ![](../assets/do-not-localize/glass.png) Meer informatie over de integratie van Adobe Campaign en Adobe Analytics in [deze pagina](../connect/ac-aa.md).
-
-* **Adobe Experience Manager**
-
-   De **[!UICONTROL AEM]** Met een extern account kunt u de inhoud van uw e-mailleveringen en uw formulieren rechtstreeks in Adobe Experience Manager beheren.
-
-   ![](../assets/do-not-localize/glass.png) Meer informatie over de integratie van Adobe Campaign en Adobe Analytics in [deze pagina](../connect/ac-aem.md).
+* **Adobe Experience Manager** - de **[!UICONTROL AEM]** Met een extern account kunt u de inhoud van uw e-mailleveringen en uw formulieren rechtstreeks in Adobe Experience Manager beheren. Meer informatie over de integratie van Adobe Campaign en Adobe Analytics in [deze pagina](../connect/ac-aem.md).
 
 
 ## CRM-connector externe accounts
 
-* **Microsoft Dynamics CRM**
+* **Microsoft Dynamics CRM** - de **[!UICONTROL Microsoft Dynamics CRM]** Met een externe account kunt u Microsoft Dynamics-gegevens importeren en exporteren naar Adobe Campaign. Meer informatie over de integratie van Adobe Campaign - Microsoft Dynamics CRM in [deze pagina](../connect/ac-ms-dyn.md).
 
-   De **[!UICONTROL Microsoft Dynamics CRM]** Met een externe account kunt u Microsoft Dynamics-gegevens importeren en exporteren naar Adobe Campaign.
-
-   ![](../assets/do-not-localize/glass.png) Meer informatie over de integratie van Adobe Campaign - Microsoft Dynamics CRM in [deze pagina](../connect/ac-ms-dyn.md).
-
-* **Salesforce.com**
-
-   De **[!UICONTROL Salesforce CRM]** Met een externe account kunt u Salesforce-gegevens importeren en exporteren naar Adobe Campaign.
-
-   ![](../assets/do-not-localize/glass.png) Meer informatie over de integratie van Adobe Campaign - Salesforce.com CRM in [deze pagina](../connect/ac-sfdc.md).
+* **Salesforce.com** - de **[!UICONTROL Salesforce CRM]** Met een externe account kunt u Salesforce-gegevens importeren en exporteren naar Adobe Campaign. Meer informatie over de integratie van Adobe Campaign - Salesforce.com CRM in [deze pagina](../connect/ac-sfdc.md).
 
 ## Externe rekeningen voor gegevensoverdracht
 
-Deze externe accounts kunnen worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit.
-
-Meer informatie over bestandsoverdracht in workflows in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
+Deze externe accounts kunnen worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Meer informatie over bestandsoverdracht in workflows in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
 
 * **FTP en SFTP**
 
@@ -182,13 +151,13 @@ Hiertoe geeft u in deze externe account het adres en de referenties op die worde
 
    * **[!UICONTROL AWS S3 Account Server]**: URL van uw server, als volgt ingevuld:   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
 
-   * **[!UICONTROL AWS access key ID]**: Meer informatie over het vinden van je AWS-toegangs-id in [Amazon-documentatie](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target=&quot;_blank&quot;}.
+   * **[!UICONTROL AWS access key ID]**: Meer informatie over het vinden van je AWS-toegangs-id in [Amazon-documentatie](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
-   * **[!UICONTROL Secret access key to AWS]**: Meer informatie over hoe je geheime toegangssleutel voor AWS kunt vinden in [Amazon-documentatie](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target=&quot;_blank&quot;}.
+   * **[!UICONTROL Secret access key to AWS]**: Meer informatie over hoe je geheime toegangssleutel voor AWS kunt vinden in [Amazon-documentatie](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}.
 
-   * **[!UICONTROL AWS Region]**: Meer informatie over AWS-regio&#39;s in [Amazon-documentatie](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target=&quot;_blank&quot;}.
+   * **[!UICONTROL AWS Region]**: Meer informatie over AWS-regio&#39;s in [Amazon-documentatie](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
 
-   * De **[!UICONTROL Use server side encryption]** kunt u het bestand opslaan in de gecodeerde modus van S3. Leer hoe u de toegangstoets-id en de geheime toegangssleutel kunt vinden in [Amazon-documentatie](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target=&quot;_blank&quot;}.
+   * De **[!UICONTROL Use server side encryption]** kunt u het bestand opslaan in de gecodeerde modus van S3. Leer hoe u de toegangstoets-id en de geheime toegangssleutel kunt vinden in [Amazon-documentatie](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
 * **Azure Blob Storage**
 
@@ -198,4 +167,4 @@ Hiertoe geeft u in deze externe account het adres en de referenties op die worde
 
    * **[!UICONTROL Encryption]**: Type codering tussen **[!UICONTROL None]** of **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: Leer hoe u uw **[!UICONTROL Access key]** in [Microsoft-documentatie](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target=&quot;_blank&quot;}.
+   * **[!UICONTROL Access key]**: Leer hoe u uw **[!UICONTROL Access key]** in [Microsoft-documentatie](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}.

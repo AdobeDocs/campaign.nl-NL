@@ -5,20 +5,20 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 6%
+source-wordcount: '600'
+ht-degree: 5%
 
 ---
 
 # Transactionele berichtinstellingen
 
+Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van teweeggebrachte berichten wordt ontworpen. Meer informatie over Transactieberichten in [deze sectie](../send/transactional.md).
+
+Begrijp transactie overseinenarchitectuur in [deze pagina](../architecture/architecture.md#transac-msg-archi).
+
 ![](../assets/do-not-localize/speech.png) Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
-
-![](../assets/do-not-localize/glass.png) Transactionele berichtenmogelijkheden zijn gedetailleerd in [deze sectie](../send/transactional.md).
-
-![](../assets/do-not-localize/glass.png) Begrijp transactie overseinenarchitectuur in [deze pagina](../architecture/architecture.md#transac-msg-archi).
 
 ## Machtigingen definiëren
 
@@ -26,15 +26,11 @@ Als u nieuwe gebruikers wilt maken voor de uitvoering van Message Center-bericht
 
 ## Schema-extensies
 
-Alle schemauitbreidingen die op de schema&#39;s worden gemaakt door worden gebruikt **Technische workflows voor Message Center** op of controle of uitvoeringsinstanties moeten op de andere instanties worden gedupliceerd die door de module van het de transactiemelding van Adobe Campaign worden gebruikt.
-
-![](../assets/do-not-localize/book.png) Meer informatie over technische workflows in Berichtencentrum in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+Alle schemauitbreidingen die op de schema&#39;s worden gemaakt door worden gebruikt [Technische workflows voor Message Center](#technical-workflows) op of controle of uitvoeringsinstanties moeten op de andere instanties worden gedupliceerd die door de module van het de transactiemelding van Adobe Campaign worden gebruikt.
 
 ## Transactie-pushmeldingen verzenden
 
-In combinatie met de module Mobiele toepassingskanalen kunt u met transactiemeldingen transactionele berichten verzenden via meldingen op mobiele apparaten.
-
-![](../assets/do-not-localize/book.png) Het mobiele toepassingskanaal wordt gedetailleerd in [deze sectie](../send/push.md).
+Indien gecombineerd met [Mobiele toepassingskanaalmodule](../send/push.md)kunt u transactiemeldingen uitvoeren via meldingen op mobiele apparaten.
 
 Als u pushmeldingen over transacties wilt verzenden, moet u de volgende configuraties uitvoeren:
 
@@ -46,14 +42,14 @@ Als u pushmeldingen over transacties wilt verzenden, moet u de volgende configur
 
 1. Repliceer de **Mobiele toepassing** en de bijbehorende mobiele toepassingen op de uitvoeringsinstanties.
 
-Campagne kan alleen transactionele pushmeldingen verzenden als de gebeurtenis de volgende elementen bevat:
+Bovendien moet de gebeurtenis de volgende elementen bevatten:
 
-* De mobiele apparaat-id: **registrationId** voor Android en **deviceToken** voor iOS. Deze ID vertegenwoordigt het &quot;adres&quot;dat het bericht zal worden verzonden naar.
+* De mobiele apparaat-id: **registrationId** voor Android en **deviceToken** voor iOS. Deze ID vertegenwoordigt het &quot;adres&quot;dat het bericht wordt verzonden naar.
 * De koppeling naar de mobiele toepassing of integratietoets (**uuid**) waarmee u verbindingsgegevens kunt ophalen die specifiek zijn voor de toepassing.
 * Het kanaal waarnaar de melding wordt verzonden (**wishedChannel**): 41 voor iOS en 42 voor Android.
-* Andere gegevens die kunnen worden gebruikt voor personalisatie.
+* Alle andere verpersoonlijkingsgegevens.
 
-Hier volgt een voorbeeld van een gebeurtenis die deze informatie bevat:
+Hieronder ziet u een voorbeeld van een gebeurtenisconfiguratie voor het verzenden van pushmeldingen over transacties:
 
 ```
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -76,14 +72,7 @@ Hier volgt een voorbeeld van een gebeurtenis die deze informatie bevat:
 </SOAP-ENV:Envelope>
 ```
 
-## Drempels controleren {#monitor-thresholds}
 
-U kunt de waarschuwingsdrempels (oranje) en waakzame drempels (rood) van de indicatoren vormen die in verschijnen **Serviceniveau van Message Center** en **Verwerkingstijd van Message Center** rapporten.
-
-Volg de onderstaande stappen om dit te doen:
-
-1. Open de implementatiewizard op de **uitvoeringsinstantie** en blader naar de **[!UICONTROL Message Center]** pagina.
-1. Gebruik de pijlen om de drempels te veranderen.
 
 
 ## Gebeurtenissen opschonen {#purge-events}

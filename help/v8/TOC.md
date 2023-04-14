@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van Campaign
 title: Campaign v8 docs
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '543'
 ht-degree: 24%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 24%
          + Gebeurtenisbeheer {#event}
          + [Gebeurtenissen verzamelen en verwerken](send/event-processing.md)
          + [Beschrijving van gebeurtenis begrijpen](send/event-description.md)
-         + [Berichten verzenden](send/delivery-execution.md)
+         + [Berichten verzenden en controleren](send/delivery-execution.md)
       + Mislukking, stort en quarantaine{#failures}
          + [Quarantines](send/quarantines.md)
          + [Leveringsfouten](send/delivery-failures.md)
