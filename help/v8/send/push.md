@@ -5,9 +5,9 @@ feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 1bcb1b3d1e6062a8b5c0368725248edfc7e3d1b4
+source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1671'
 ht-degree: 3%
 
 ---
@@ -24,11 +24,12 @@ Als u pushberichten wilt verzenden in Adobe Campaign, moet u:
 
 ## De SDK integreren {#push-sdk}
 
-U kunt de Adobe Experience Platform Mobile SDK gebruiken door de Adobe Campaign-extensie te configureren in de gebruikersinterface voor gegevensverzameling. De Adobe Experience Platform Mobile SDK helpt Adobe Experience Cloud-oplossingen en -services aan te schaffen in uw mobiele apps. De configuratie SDKs wordt beheerd door de Inzameling UI van Gegevens voor flexibele configuratie en verlengbare, op regels-gebaseerde integratie. [Meer informatie in de documentatie van Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+Als u pushmeldingen wilt verzenden met Adobe Campaign, moet u de Adobe Campaign-extensie configureren in de gebruikersinterface voor gegevensverzameling van de Adobe Experience Platform Mobile SDK.
 
-U kunt ook de Campagne SDK integreren om de integratie van uw mobiele toepassing in het Adobe Campaign-platform te vergemakkelijken. Compatibele SDK-versies worden weergegeven in [Matrix voor campagnecompatibiliteit](../start/compatibility-matrix.md#MobileSDK).
+De Adobe Experience Platform Mobile SDK helpt Adobe Experience Cloud-oplossingen en -services aan te schaffen in uw mobiele apps. De configuratie SDKs wordt beheerd door de Inzameling UI van Gegevens voor flexibele configuratie en verlengbare, op regels-gebaseerde integratie.
 
-Leer hoe u de SDK&#39;s van Campagne Android en iOS kunt integreren met uw app in [deze pagina](../config/push-config.md)
+[Meer informatie in de documentatie van Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+
 
 ## Uw toepassingsinstellingen configureren in Campagne{#push-config}
 
@@ -77,10 +78,7 @@ Ga als volgt te werk om een app voor iOS-apparaten te maken:
 
    Controleer of hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
 
-   Als u de Campagne SDK gebruikt, leert u meer in[deze pagina](../config/push-config.md).
-
-
-   Als u Adobe Experience Platform SDK (gegevensverzameling) gebruikt, leert u meer in [deze pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   Meer informatie in [de documentatie voor ontwikkelaars](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]
@@ -119,9 +117,7 @@ Voer de volgende stappen uit om een app voor Android-apparaten te maken:
 
    Controleer of hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
 
-   Als u de Campagne SDK gebruikt, leert u meer in [deze pagina](../config/push-config.md).
-
-   Als u Adobe Experience Platform SDK (gegevensverzameling) gebruikt, leert u meer in [deze pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   Meer informatie in [de documentatie voor ontwikkelaars](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]

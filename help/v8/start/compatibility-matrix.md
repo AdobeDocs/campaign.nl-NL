@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: b4593dd9fbb3e4742183719281ff0e5a78b9e6c8
+source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 32%
+source-wordcount: '339'
+ht-degree: 35%
 
 ---
 
@@ -55,10 +55,7 @@ Externe databases die compatibel zijn met de module Adobe Campaign Federated Dat
 
 ## Mobiele SDK{#MobileSDK}
 
-Om te verzenden [pushmeldingen](../send/push.md) met Campagne, kunt u Adobe Experience Platform Mobile SDK gebruiken door de uitbreiding van Adobe Campaign in de UI van de Inzameling van Gegevens te vormen. U kunt ook de volgende SDK&#39;s voor campagnes gebruiken:
-
-* **Android** 12, 9.0, 8.x, 7.x, met Campagne Android SDK build 1.1.1.
-* **Apple iOS** 9 - 16 met Campagne iOS SDK build 1.0.26, compatibel met 32- en 64-bits versies. Apple iOS 16 wordt ondersteund voor startcampagne v8.4.
+Om te verzenden [pushmeldingen](../send/push.md) met Campagne, gebruik Adobe Experience Platform Mobile SDK door de uitbreiding van Adobe Campaign Classic in de UI van de Inzameling van Gegevens te vormen.
 
 
 ## Webtoegang{#web-access}

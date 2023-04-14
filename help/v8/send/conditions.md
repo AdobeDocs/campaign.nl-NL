@@ -4,13 +4,13 @@ description: Leer hoe u voorwaardelijke inhoud maakt
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 10%
 
 ---
-
 
 # Voorwaardelijke content maken{#conditional-content}
 
@@ -87,4 +87,3 @@ In het onderstaande voorbeeld leert u hoe u een meertalige e-mail maakt. De inho
 Deze video laat zien hoe u voorwaardelijke content aan een levering kunt toevoegen, bijvoorbeeld aan een meertalige nieuwsbrief.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)
-

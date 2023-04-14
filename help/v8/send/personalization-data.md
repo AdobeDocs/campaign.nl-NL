@@ -4,13 +4,13 @@ description: Ontdek welke bronnen kunnen worden gebruikt voor personalisatie
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+exl-id: 711256e2-ab77-404a-b052-6793a85da193
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 2%
 
 ---
-
 
 # Gegevensbronnen aanpassen{#personalization-data}
 
@@ -71,7 +71,3 @@ Als de analyse is voltooid, gaat u naar de workflow **[!UICONTROL Properties]** 
 Wanneer een levering in de context van een werkschema wordt gecreeerd, kunt u de gegevens van de tijdelijke werkschematabel gebruiken. De gegevens die in de tijdelijke werkstroomlijst worden opgeslagen, zijn beschikbaar voor verpersoonlijkingstaken. Gegevens kunnen worden gebruikt in de verpersoonlijkingsvelden.
 
 Deze gegevens worden gegroepeerd in het dialoogvenster **[!UICONTROL Target extension]** -menu. Raadpleeg [deze sectie](../../automation/workflow/use-workflow-data.md#target-data) voor meer informatie.
-
-
-
-

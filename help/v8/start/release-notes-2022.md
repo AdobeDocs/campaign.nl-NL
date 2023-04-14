@@ -4,7 +4,8 @@ description: Lijst met functies en verbeteringen die worden geleverd bij de 2022
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
+exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 13%
@@ -225,9 +226,9 @@ Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
 * Microsoft Exchange Online OAuth 2.0-verificatie voor POP3 wordt nu ondersteund in Campaign. [Meer informatie](../config/external-accounts.md#bounce-mails-external-account)
 * Er zijn kritieke oplossingen aangebracht voor de web-API van Microsoft Dynamics Connector.
 * De nieuwe operator en het groepsschema schrijven (operatorWrite) naar rechts is toegevoegd om gebruikers toe te staan operatorschema&#39;s (xtk:operator) en groepen operatoren (xtk:group) in te voegen, bij te werken en te verwijderen.
+   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
 
-<!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
-<!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
+   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * De veelvoudige actieve rekeningen van de LIJN kunnen nu op één enkele midsourcing worden gevormd.
 * Het aantal standaardverbindingen voor het webproces is verhoogd van 50 naar 150.
 * De campagne wordt geleverd met een reeks nieuwe gidsen om toevoeging van dubbele sleutels in gegevensbestand te verhinderen Snowflake. [Meer informatie](../architecture/keys.md)

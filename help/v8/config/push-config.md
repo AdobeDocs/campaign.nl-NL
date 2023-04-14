@@ -5,11 +5,13 @@ version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
+hide: true
+hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 4a017eabf1330b04939aa4bd0602c371a0ee3208
+source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +26,7 @@ Als Campagnebeheerder kunt u Campagne-SDK&#39;s downloaden van de [Experience Cl
 
 >[!NOTE]
 >
->U kunt de Adobe Experience Platform Mobile SDK ook gebruiken door de Adobe Campaign-extensie te configureren in de gebruikersinterface voor gegevensverzameling. [Meer informatie in documentatie voor ontwikkelaars](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>U kunt de Adobe Experience Platform Mobile SDK ook gebruiken door de Adobe Campaign-extensie te configureren in de gebruikersinterface voor dataverzameling. [Meer informatie in documentatie voor ontwikkelaars](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 ## Integratie-instellingen declareren {#declaring-integration-settings}
 

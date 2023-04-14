@@ -4,7 +4,8 @@ description: Leer hoe u uw levering voorbereidt en controleert
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 51b333492ad50849751208c7549dc00f66140b82
+exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -89,5 +90,3 @@ Op dit tabblad hebt u toegang tot de volgende opties:
 * **[!UICONTROL Start job in a detached process]** : met deze optie kunt u de leveringsanalyse in een afzonderlijk proces starten. De analysefunctie gebruikt standaard het Adobe Campaign-toepassingsserverproces (webserver). Als u deze optie selecteert, zorgt u ervoor dat de analyse ook wordt voltooid wanneer de toepassingsserver uitvalt.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : deze optie voegt de SQL vraaglogboeken aan het leveringsdagboek tijdens de analysefase toe.
 * **[!UICONTROL Ignore personalization scripts during sending]** : Met deze optie kunt u de interpretatie van JavaScript-instructies in HTML-inhoud omzeilen. Ze worden op dezelfde manier weergegeven als in de geleverde inhoud. Deze richtlijnen worden in het kader van de `<%=` tag.
-
-

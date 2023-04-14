@@ -4,13 +4,13 @@ description: Leer hoe u ingebouwde verpersoonlijkingsblokken in uw berichtinhoud
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
+exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '554'
+ht-degree: 1%
 
 ---
-
 
 # Verpersoonlijkingsblokken gebruiken{#personalization-blocks}
 
@@ -80,5 +80,3 @@ Zodra bewaard, is het nieuwe verpersoonlijkingsblok beschikbaar in de leveringsr
 Leer hoe u dynamische inhoudsblokken maakt en hoe u deze kunt gebruiken om de inhoud van uw e-maillevering aan te passen in de volgende video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
-
-
