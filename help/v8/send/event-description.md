@@ -4,13 +4,13 @@ description: Leer hoe de transactie overseinengebeurtenissen in Adobe Campaign C
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Beschrijving van gebeurtenis begrijpen {#about-event-desc}
 
@@ -225,4 +225,3 @@ Als de gebeurtenis echter niet kan worden verwerkt, retourneert de methode een f
       </SOAP-ENV:Body>
    </SOAP-ENV:Envelope>
    ```
-
