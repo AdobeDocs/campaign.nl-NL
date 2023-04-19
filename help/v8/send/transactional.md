@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 2a85ffc2fe3a839c14a5c844deaa7a09687743eb
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1510'
+ht-degree: 1%
 
 ---
 
@@ -57,10 +57,8 @@ Wanneer [een berichtsjabloon maken](#create-message-template), selecteert u het 
 
 Voer de volgende stappen uit om gebeurtenistypen te maken die door Adobe Campaign worden verwerkt:
 
-1. Ga naar de **[!UICONTROL Administration > Platform > Enumerations]** map van de structuur.
-
-1. Selecteren **[!UICONTROL Event type]** in de lijst.
-
+1. Bladeren naar de **[!UICONTROL Administration > Platform > Enumerations]** map van Campaign Explorer.
+1. Selecteer **[!UICONTROL Event type]** opsomming in de lijst.
 1. Klikken **[!UICONTROL Add]** om een opsommingswaarde te maken. Dit kan een bevestiging zijn van de bestelling, een wijziging van het wachtwoord, een wijziging in de levering van de bestelling, enzovoort.
 
    ![](assets/messagecenter_eventtype_enum_001.png)
@@ -73,7 +71,8 @@ Voer de volgende stappen uit om gebeurtenistypen te maken die door Adobe Campaig
 
 >[!NOTE]
 >
->Meer informatie over gespecificeerde lijsten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>Meer informatie over opsommingen vindt u in [deze pagina](../../v8/config/ui-settings.md#enumerations).
+
 
 ## Een transactiemalplaatje definiëren {#create-message-template}
 
