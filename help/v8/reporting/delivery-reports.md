@@ -3,9 +3,9 @@ title: Geïntegreerde Adobe Campaign-leveringsrapporten
 description: Geïntegreerde Adobe Campaign-leveringsrapporten
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Deze waardetabel toont de uitsplitsing van leveringen, opent, klikt en ruwe reac
 >
 >De domeinnamen die in dit rapport worden weergegeven, worden gedefinieerd in de gespecificeerde lijst die op kubusniveau wordt gebruikt. Als u standaarddomeinen wilt wijzigen, toevoegen of verwijderen, bewerkt u de **[!UICONTROL Domains]** gespecificeerde lijst en wijzigt waarden en aliassen. De **[!UICONTROL Others]** de categorie omvat domeinnamen die niet tot om het even welke waarde van de gespecificeerde lijst behoren.
 >
->Leer hoe te om tot uw opsommingen toegang te hebben en te vormen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>Leer hoe te om tot uw opsommingen toegang te hebben en te vormen in [deze pagina](../config/ui-settings.md).
 
 
 **[!UICONTROL 4. Generated click streams]**
