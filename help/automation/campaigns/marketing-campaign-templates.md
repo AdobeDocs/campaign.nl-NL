@@ -4,9 +4,9 @@ title: Sjablonen voor marketingcampagnes
 description: Sjablonen voor marketingcampagnes
 feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -167,7 +167,7 @@ Wanneer u een campagnemalplaatje creeert, moet u de volgende informatie ingaan:
 * Voer de **label** van de template: het etiket is verplicht en is het standaardetiket voor alle campagnes die op dit malplaatje worden gebaseerd.
 * Selecteer de campagne **aard** in de vervolgkeuzelijst. De waarden in deze lijst zijn opgeslagen in **[!UICONTROL natureOp]** opsomming.
 
-Leer hoe te om tot uw opsommingen toegang te hebben en te vormen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+Leer hoe te om tot uw opsommingen toegang te hebben en te vormen in [deze pagina](../../v8/config/ui-settings.md#enumerations).
 
 
 * Selecteer **type campagne**: uniek, terugkerend of periodiek. Standaard worden campagnemasjablonen toegepast op unieke campagnes. Recursieve en periodieke campagnes worden beschreven in [deze sectie](recurring-periodic-campaigns.md).
