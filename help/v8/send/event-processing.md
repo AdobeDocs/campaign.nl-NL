@@ -4,13 +4,13 @@ description: Leer hoe het Transactionele overseinen van de Campagne gebeurteniss
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 1%
 
 ---
-
 
 # Gebeurtenisverwerking {#event-processing}
 
@@ -102,6 +102,3 @@ Hiertoe moet u een workflow configureren die alle gebeurtenissen opnieuw maakt m
 >[!CAUTION]
 >
 >Deze stap kan alleen worden uitgevoerd met behulp van een workflow en is daarom voorbehouden aan professionele gebruikers. Neem voor meer informatie contact op met de manager van uw Adobe-account.
-
-
-
