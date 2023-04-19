@@ -5,9 +5,9 @@ feature: Application Settings
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Je lijsten aanpassen{#customize-lists}
 
-Leer hoe u kolommen toevoegt, records telt, uw lijsten configureert en uw lijstinstellingen deelt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en){target=&quot;_blank&quot;}.
+Leer hoe u kolommen toevoegt, records telt, uw lijsten configureert en uw lijstinstellingen deelt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en){target="_blank"}.
 
 Leer hoe u filters maakt in [deze pagina](../audiences/create-filters.md).
 
@@ -37,8 +37,7 @@ Voor elke opsomming worden waarden weergegeven in een vervolgkeuzelijst waaruit 
 
 Voor **Openen** opsommingen, kan de gebruiker de eerste karakters in de waarde ook ingaan, en de mogelijke waarden worden getoond.
 
-Leer hoe te om tot uw opsommingen toegang te hebben en te vormen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
-
+Meer informatie over opsommingen vindt u in [deze pagina](../../v8/config/ui-settings.md#enumerations).
 
 ## Standaardeenheden {#default-units}
 
