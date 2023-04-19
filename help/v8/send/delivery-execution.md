@@ -4,13 +4,13 @@ description: Leer hoe u transactieberichten kunt verzenden en controleren
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
+exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Transactieberichten verzenden en controleren {#delivery-execution}
 
@@ -110,4 +110,3 @@ Volg de onderstaande stappen om dit te doen:
 1. Gebruik de pijlen om de drempels te veranderen.
 
    ![](assets/mc-thresholds.png)
-
