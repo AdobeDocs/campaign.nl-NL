@@ -5,9 +5,10 @@ description: Leer de beste praktijken bij het uitvoeren van kubussen in Adobe Ca
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1431'
 ht-degree: 1%
 
 ---
@@ -63,6 +64,8 @@ Voer de volgende stappen uit om dit type waardenbinding te maken:
 
    Wanneer de opsommingswaarden worden bijgewerkt, worden de overeenkomstige bakken automatisch aangepast.
 
+Meer informatie over opsommingen vindt u in [deze pagina](../../v8/config/ui-settings.md#enumerations).
+
 ### Waardebereiken maken {#create-value-ranges}
 
 U kunt de waarden op basis van een gewenst interval groeperen in bereiken.
@@ -110,6 +113,8 @@ U hoeft alleen de opsomming te wijzigen om het verwante rapport bij te werken. M
 De **[!UICONTROL Domains]** opsomming wordt gebruikt om ingebouwde rapporten te produceren die de lijst van domeinen tonen. Als u de inhoud van deze rapporten wilt aanpassen, kunt u deze lijst bewerken.
 
 U kunt andere opsommingen maken die zijn gereserveerd voor binden en deze gebruiken in andere kubussen: alle aliaswaarden worden opnieuw gegroepeerd in de vakken die zijn opgegeven op het eerste tabblad voor opsomming.
+
+Meer informatie over opsommingen vindt u in [deze pagina](../../v8/config/ui-settings.md#enumerations).
 
 ## Samengevoegde kubussen {#calculate-and-use-aggregates}
 
