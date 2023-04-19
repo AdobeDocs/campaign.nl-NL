@@ -5,7 +5,7 @@ version: v8
 feature: Application Settings
 role: Admin, Developer
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 0b4483e0f16f14582a1a4bc28b0e1ff719823ef3
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 1%
@@ -89,7 +89,7 @@ U kunt ook een bestaande opsommingswaarde omzetten in een alias. Dit doet u als 
    ![Een nieuwe alias maken](assets/define-new-alias.png)
 
 
->[!CAUTION]
+>[!NOTE]
 >
 >U kunt het voorkomen van een alias in volgen **[!UICONTROL Hits]** in de **[!UICONTROL Alias]** subtab. Het aantal keren dat deze waarde is ingevoerd, kan worden weergegeven.  [Meer informatie](#calculate-entry-occurrences).
 
