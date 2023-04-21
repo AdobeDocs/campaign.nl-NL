@@ -4,9 +4,9 @@ title: 32-bits versie van clientconsole
 description: 32-bits versie van clientconsole
 hide: true
 hidefromtoc: true
-source-git-commit: 52fd89d9b8b19e096173e1660982382215dad5dc
+source-git-commit: 87e8ef65a2fea2f0d019babc69ed8a8a74017aa6
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Ja. Vanaf versie 8.6 is Campagne v8 Client Console niet meer beschikbaar in 32 b
 
 +++Welke versies van Campagne v8 zullen niet meer werkende systemen met 32 bits steunen?
 
-Vanaf 8.5 ondersteunen alle versies van Campagne v8 geen 32-bits besturingssystemen meer.
+Vanaf 8.6 ondersteunen alle versies van Campagne v8 geen 32-bits besturingssystemen meer.
 
 +++
 
@@ -47,15 +47,17 @@ Vanaf 8.5 ondersteunen alle versies van Campagne v8 geen 32-bits besturingssyste
 
 Zorg ervoor dat de processor van uw computer de installatie van een 64-bits besturingssysteem ondersteunt. Als u een upgrade uitvoert van de 32-bits versie naar de 64-bits versie van Windows, moet u de vaste schijf opnieuw opmaken, de 64-bits versie van Windows installeren en vervolgens alle andere gegevens die u op uw apparaat had opnieuw installeren. Zie voor meer informatie [32-bits en 64-bits Windows: Veelgestelde vragen](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
 
++++
+
 +++ Hoe kan ik controleren of ik op een 32-bits computer of 64-bits computer ben?
 
 **WINDOWS 10 EN WINDOWS 8.1**
 
-1. Selecteer de knop Start en selecteer vervolgens **Instellingen** > **Systeem** > **Info**.
-1. Rechts, onder **Apparaatspecificaties**, zie **Systeemtype**.
+1. Klik op de knop **Start** selecteert u vervolgens **Instellingen** > **Systeem** > **Info**.
+1. Onder **Apparaatspecificaties**, zie **Systeemtype**.
 
 **WINDOWS 7**
-1. Selecteer **Start** knop, klik met de rechtermuisknop **Computer** en selecteer vervolgens **Eigenschappen**.
+1. Selecteer **Start** knop, klik met de rechtermuisknop **Computer** en selecteert u **Eigenschappen**.
 1. Onder **Systeem**, zie het systeemtype.
 
 Zie voor meer informatie [32-bits en 64-bits Windows: Veelgestelde vragen](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
