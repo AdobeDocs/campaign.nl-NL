@@ -5,10 +5,10 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 7b8a9a323afc3154e250b4c70c4339d6c6c265c0
+source-git-commit: 7f27dbdd0ff53cd7437f956ccfef3d792020893b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1067'
+ht-degree: 4%
 
 ---
 
@@ -101,7 +101,7 @@ In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbo
 
 ## Externe accounts voor integratie van Adobe-oplossingen
 
-* **Adobe Experience Cloud** - de **[!UICONTROL Adobe Experience Cloud]** Met een externe account wordt Adobe Identity Management Service (IMS) geïmplementeerd om verbinding te maken met de Adobe Campaign. Meer informatie over Adobe Identity Management Service (IMS) in [deze sectie](../start/connect.md#connect-ims).
+* **Adobe Experience Cloud** - de **[!UICONTROL Adobe Experience Cloud]** Met een externe account wordt Adobe Identity Management Service (IMS) geïmplementeerd om verbinding te maken met de Adobe Campaign. Meer informatie over Adobe Identity Management Service (IMS) in [deze sectie](../start/connect.md#logon-to-ac).
 
 * **Webanalyse** - de **[!UICONTROL Web Analytics (Adobe Analytics)]** externe account wordt gebruikt om gegevensoverdracht van Adobe Analytics naar Adobe Campaign te configureren. Meer informatie over de integratie van Adobe Campaign en Adobe Analytics in [deze pagina](../connect/ac-aa.md).
 

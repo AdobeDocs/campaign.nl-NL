@@ -5,10 +5,10 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 445e62c290466003886f2dc49386d0c1edb80eeb
+source-git-commit: 7f27dbdd0ff53cd7437f956ccfef3d792020893b
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +83,7 @@ Volg onderstaande stappen om u aan te melden bij een instantie:
 
 1. Klik op **[!UICONTROL Ok]**.
 
-U kunt zich dan aanmelden bij Campagne met [Adobe ID](#connect-ims).
+U kunt zich vervolgens aanmelden bij Campagne met uw Adobe ID.
 
 ![](assets/adobeID.png)
 
