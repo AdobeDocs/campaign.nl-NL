@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
+source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
@@ -74,10 +74,9 @@ In deze werkruimte hebt u toegang tot de Explorer-structuur om door alle functie
 
 De linkersectie toont de boom van de Ontdekkingsreiziger van de Campagne en laat u alle componenten en montages van uw instantie doorbladeren - die op uw toestemmingen wordt gebaseerd.
 
-In de bovenste sectie ziet u de lijst met records in de huidige map. Deze lijsten zijn volledig aanpasbaar. [Meer informatie](customize-ui.md)
+In de bovenste sectie ziet u de lijst met records in de huidige map. Deze lijsten zijn volledig aanpasbaar. [Meer informatie](../config/ui-settings.md)
 
 In de onderste sectie worden de details van de geselecteerde record weergegeven.
-
 
 ## Talen{#languages}
 
@@ -96,7 +95,6 @@ De taal wordt geselecteerd tijdens het installatieproces.
 >De taal kan na het maken van de instantie niet meer worden gewijzigd.
 
 Taal is van invloed op datums en tijdnotaties.
-
 
 De belangrijkste verschillen tussen het Engels van de VS en het Engels van het Verenigd Koninkrijk zijn:
 
