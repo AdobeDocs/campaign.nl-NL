@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '429'
+ht-degree: 5%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 4%
 Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mails, SMS, pushmeldingen en directe mails, en de doeltreffendheid van deze campagnes meten aan de hand van verschillende speciale rapporten. Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd.
 
 De kernfuncties omvatten het richten, het bepalen en het personaliseren van berichten, de uitvoering van mededelingen, en de bijbehorende operationele rapporten. Het belangrijkste functionele toegangspunt is de leveringsmedewerker. Dit toegangspunt leidt tot meerdere mogelijkheden die door Adobe Campaign worden gedekt.
-
-Leer de belangrijkste stappen om een levering te maken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html).
 
 Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen:
 
@@ -79,11 +77,10 @@ U kunt:
 
 Transactioneel overseinen (het Centrum van het Bericht) is de module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen.
 
-![](../assets/do-not-localize/glass.png) Meer informatie over de mogelijkheid van transactieberichten vindt u in [deze sectie](../architecture/architecture.md#transac-msg-archi)
+Meer informatie over de mogelijkheid van transactieberichten vindt u in [deze sectie](../architecture/architecture.md#transac-msg-archi)
 
-![](../assets/do-not-localize/glass.png) De stappen om transactieberichten te vormen en te verzenden zijn gedetailleerd in [deze pagina](../send/transactional.md)
+De stappen om transactieberichten te vormen en te verzenden zijn gedetailleerd in [deze pagina](../send/transactional.md)
 
-![](../assets/do-not-localize/book.png) Ontdek deze mogelijkheid in een gebruiksgeval van begin tot eind [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html){target="_blank"}
 
 ## Logbestanden voor aflevering en bijhouden{#gs-tracking-logs}
 

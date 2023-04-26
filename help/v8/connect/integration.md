@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 11%
@@ -46,7 +46,7 @@ U kunt uw Adobe Campaign-platform verbinden met uw **CRM-systemen van derden** e
 Activeer uw CRM-gegevens voor kanaalcommunicatie: Leer hoe te om contacten van uw systeem van CRM aan Adobe Campaign over te brengen, en campagnegegevens terug van Adobe Campaign aan uw systeem van CRM te delen.
 CRM-connectors maken snelle en eenvoudige gegevensintegratie mogelijk: Adobe Campaign verstrekt een specifieke medewerker voor het verzamelen van en het selecteren van uit de lijsten beschikbaar in CRM. Dit garandeert tweerichtingssynchronisatie om ervoor te zorgen dat de data altijd up-to-date zijn in alle systemen.
 
-![](../assets/do-not-localize/glass.png) Leer hoe u Campagne kunt integreren met Microsoft Dynamics 365 en Salesforce.com in [deze pagina](crm.md)
+Leer hoe u Campagne kunt integreren met Microsoft Dynamics 365 en Salesforce.com in [deze pagina](crm.md)
 
 ## Verbind derden met Federated Data Access{#gs-fda}
 
@@ -64,6 +64,6 @@ U kunt:
 * Tweets op je Twitter-account plaatsen
 * Nieuwe contactpersonen verzamelen
 
-![](../assets/do-not-localize/glass.png) Leer hoe u Twitter-integratie instelt en gebruikt in [deze pagina](../connect/ac-tw.md).
+Leer hoe u Twitter-integratie instelt en gebruikt in [deze pagina](../connect/ac-tw.md).
 
-![](../assets/do-not-localize/glass.png) Leer hoe u Twitter-berichten kunt maken en verzenden naar uw volgers in [deze pagina](../send/twitter.md).
+Leer hoe u Twitter-berichten kunt maken en verzenden naar uw volgers in [deze pagina](../send/twitter.md).

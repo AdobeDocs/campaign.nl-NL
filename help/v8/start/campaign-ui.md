@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Blader in Campagneverkenner om toegang te krijgen tot alle Adobe Campaign-mogeli
 
 In deze werkruimte hebt u toegang tot de Explorer-structuur om door alle functies en opties te bladeren.
 
-De linkersectie toont de boom van de Ontdekkingsreiziger van de Campagne en laat u alle componenten en montages van uw instantie doorbladeren - die op uw toestemmingen wordt gebaseerd.
+* De linkersectie toont de boom van de Ontdekkingsreiziger van de Campagne en laat u alle componenten en montages van uw instantie doorbladeren - die op uw toestemmingen wordt gebaseerd. U kunt mappen toevoegen en aanpassen zoals wordt uitgelegd in [deze pagina](../audiences/folders-and-views.md).
 
-In de bovenste sectie ziet u de lijst met records in de huidige map. Deze lijsten zijn volledig aanpasbaar. [Meer informatie](../config/ui-settings.md)
+* In de bovenste sectie ziet u de lijst met records in de huidige map. Deze lijsten zijn volledig aanpasbaar. [Meer informatie](../config/ui-settings.md)
 
-In de onderste sectie worden de details van de geselecteerde record weergegeven.
+* In de onderste sectie worden de details van de geselecteerde record weergegeven.
 
 ## Talen{#languages}
 

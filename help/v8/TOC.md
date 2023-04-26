@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van Campaign
 title: Campaign v8 docs
-source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
+source-git-commit: 58b2f850284b68c6d65773166b895f9520718385
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '544'
 ht-degree: 24%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 24%
    + [Belangrijkste mogelijkheden](start/whats-new.md)
    + [Onderdelen en processen](start/ac-components.md)
    + [Verbinding maken met Campaign](start/connect.md)
-   + Campagne-interface {#ac-ui}
-      + [Campagne-interface detecteren](start/campaign-ui.md)
-      + [Mappen en weergaven beheren](audiences/folders-and-views.md)
+   + [Campagne-interface](start/campaign-ui.md)
    + [Van Classic v7 naar v8](start/v7-to-v8.md)
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -167,6 +165,7 @@ ht-degree: 24%
       + [Aanbevolen werkwijzen voor DataModel](dev/datamodel-best-practices.md)
    + Instellingen en configuratie {#configuration}
       + [Gebruikersinterface-instellingen](config/ui-settings.md)
+      + [Mappen en weergaven beheren](audiences/folders-and-views.md)
       + [E-mailinstellingen](config/email-settings.md)
       + [Transactionele berichtinstellingen](config/transactional-msg-settings.md)
       + [SDK&#39;s voor campagnes integreren met uw app - GEDEPRECEERDE PAGINA](config/push-config.md)

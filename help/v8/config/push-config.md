@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1261'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de function
 
    >[!NOTE]
    >
-   >Deze integratiesleutel wordt ingevoerd in de Adobe Campaign-console, in de **[!UICONTROL Information]** servicetabblad voor de mobiele toepassing. Zie [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app).
+   >Deze integratiesleutel wordt ingevoerd in de Adobe Campaign-console, in de **[!UICONTROL Information]** servicetabblad voor de mobiele toepassing.
 
 * **Een URL voor bijhouden**: die overeenkomt met het adres van de Adobe Campaign-trackingserver.
 * **Een marketing-URL**: om de inzameling van abonnementen toe te laten.
@@ -798,7 +798,6 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
 
 Met de variabelen kunt u het gedrag van mobiele toepassingen definiëren nadat u een melding hebt ontvangen. Deze variabelen moeten worden gedefinieerd in de mobiele toepassingscode en in de Adobe Campaign-console, in het **[!UICONTROL Variables]** in de speciale service voor mobiele toepassingen.
 
-![](../assets/do-not-localize/book.png) Meer informatie in **Campaign Classic v7-documentatie** op mobiele app: [Configuratiestappen voor iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"} and [Configuration steps for Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target="_blank"}.
 
 Hieronder ziet u een voorbeeld van een code waarmee een mobiele toepassing toegevoegde variabelen in een melding kan verzamelen. In ons voorbeeld gebruiken we de variabele &quot;VAR&quot;.
 

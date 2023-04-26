@@ -5,9 +5,9 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Zodra configuratie wordt gedaan, wordt de gegevenssynchronisatie tussen systemen
 >[!NOTE]
 >
 >Ondersteunde SFDC-versies worden gedetailleerd beschreven in Campagne [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
-
 
 Voer de onderstaande stappen uit om een speciale externe account te configureren voor het importeren en exporteren van Salesforce-gegevens naar Adobe Campaign.
 
@@ -73,8 +72,7 @@ U kunt alle waarden van een opsomming van Adobe Campaign door die van CRM vervan
 
 1. Klikken **[!UICONTROL Next]** en vervolgens **[!UICONTROL Start]** om de opsommingen te importeren.
 
-1. Bladeren in het dialoogvenster **[!UICONTROL Administration > Platform > Enumerations]** knooppunt om geïmporteerde waarden te controleren.
-
+1. Bladeren in het dialoogvenster **[!UICONTROL Administration > Platform > Enumerations]** knooppunt om geïmporteerde waarden te controleren. Meer informatie over opsommingen vindt u in [deze pagina](../config/ui-settings.md#enumerations).
 
 Adobe Campaign en Salesforce.com zijn nu verbonden. U kunt gegevenssynchronisatie tussen de twee systemen instellen.
 

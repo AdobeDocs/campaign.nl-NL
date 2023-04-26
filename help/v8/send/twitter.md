@@ -4,9 +4,9 @@ description: Leer hoe je de Adobe Campaign Social Marketing-module gebruikt om b
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -138,9 +138,7 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
 1. Een proef verzenden
 
-   Voordat u uw bericht verzendt, moet u controleren of het is gevalideerd door een proefdruk naar een testaccount te verzenden: u kunt dan een nauwkeurige weergave van het bericht op een privé Twitter-account krijgen en de inhoud en personalisatie controleren.
-
-   ![](../assets/do-not-localize/book.png) [Belangrijke stappen om een levering te valideren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+   Voordat u uw bericht verzendt, moet u controleren of het door [een bewijs naar een testaccount sturen](../send/preview-and-proof.md): u kunt dan een nauwkeurige weergave van het bericht op een privé Twitter-account krijgen en de inhoud en personalisatie controleren.
 
 1. Het directe bericht verzenden
 

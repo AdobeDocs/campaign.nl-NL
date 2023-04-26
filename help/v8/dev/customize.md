@@ -4,10 +4,10 @@ description: Leer hoe u uw exemplaar kunt aanpassen
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 6%
+source-wordcount: '491'
+ht-degree: 7%
 
 ---
 
@@ -33,12 +33,9 @@ Er zijn twee tabeluitbreidingsmodi beschikbaar:
 
 * Door de interface, door **Nieuw veld** assistent
 
-   ![](../assets/do-not-localize/book.png) Leer hoe u snel een nieuw veld kunt toevoegen in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic){target=&quot;_blank&quot;}
+   Leer hoe u snel een nieuw veld kunt toevoegen in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic){target="_blank"}
 
-* Programmaticaal, door het schema uit te breiden
-
-   ![](../assets/do-not-localize/glass.png) Leer hoe u een bestaand schema kunt uitbreiden in [deze sectie](../dev/extend-schema.md).
-
+* Programmaticaal, door het schema uit te breiden. Leer hoe u een bestaand schema kunt uitbreiden in [deze sectie](../dev/extend-schema.md).
 
 U kunt nieuwe lijsten in het gegevensbestand van de Campagne ook tot stand brengen en het ingebouwde datamodel uitbreiden.
 
@@ -46,42 +43,34 @@ Als u een geheel nieuw type gegevens wilt toevoegen dat niet in Adobe Campaign b
 
 **Verwante onderwerpen**
 
-![](../assets/do-not-localize/book.png) Voorbeeld van schemageditie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Voorbeeld van schemageditie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic){target="_blank"}
 
-![](../assets/do-not-localize/book.png) Hoofdlettergebruik: een veld koppelen aan een bestaande referentietabel in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Hoofdlettergebruik: een veld koppelen aan een bestaande referentietabel in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link){target="_blank"}
 
 
 ## Invoerformulieren wijzigen
 
 Invoerformulieren voor campagnes kunnen worden aangepast aan uw implementatie. U kunt formuliervelden toevoegen of verwijderen door de XML-inhoud te wijzigen.
 
-![](../assets/do-not-localize/glass.png) Leer hoe u een bestaand invoerformulier kunt wijzigen of een nieuw formulier kunt maken in [deze sectie](../dev/forms.md).
+Leer hoe u een bestaand invoerformulier kunt wijzigen of een nieuw formulier kunt maken in [deze sectie](../dev/forms.md).
 
 ## dashboards aanpassen{#gs-custom-dashboards}
 
 De interface van Adobe Campaign gebruikt vele toepassingen van het Web om, tot ontvangers, leveringen, campagnes, voorraden, enz. toegang te hebben te beheren en in wisselwerking te staan. Deze worden in de interface weergegeven in de vorm van dashboards met slechts één pagina.
 
-De uit-van-de-doos toepassingen van het Web worden opgeslagen in het Beleid > de toepassingsknoop van de Configuratie > van het Web.
+De ingebouwde toepassingen van het Web worden opgeslagen in **Beheer > Configuratie > Webtoepassingen** map van de Verkenner.
 
-![](../assets/do-not-localize/book.png) Leer hoe u een overzichtspagina maakt in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application){target=&quot;_blank&quot;}
+Leer hoe u een overzichtspagina maakt in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application){target="_blank"}
 
 
 ## Lijsten aanpassen en filters maken {#gs-lists-and-filters}
 
-### Gegevens van dashboards benaderen
-
 Campagnemelijsten worden geleverd met vooraf gedefinieerde filters om navigatie en gegevensvizualisatie te vergemakkelijken.
-
-![](../assets/do-not-localize/book.png) Meer informatie over filteropties in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering){target=&quot;_blank&quot;}
-
-
-### Toegang krijgen tot gegevens van de Verkenner
 
 Wanneer u in de boom van de Ontdekkingsreiziger van Adobe Campaign navigeert, worden de gegevens in het gegevensbestand getoond in lijsten. U kunt deze lijsten filteren, zoekopdrachten uitvoeren, informatie toevoegen, filteren en sorteren.
 
-![](../assets/do-not-localize/book.png) Leer hoe te om lijsten te vormen en een lijstconfiguratie te bewaren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started){target=&quot;_blank&quot;}
-
+Leer hoe te om lijsten te vormen en een lijstconfiguratie te bewaren in [deze pagina](../start/campaign-ui.md).
 
 U kunt filter op deze lijsten toepassen om alleen de gegevens weer te geven die de operator nodig heeft. Dan kunnen de acties op de gefiltreerde gegevens worden uitgevoerd. Met filterconfiguratie kunt u dynamisch gegevens in een lijst selecteren. Als de gegevens worden gewijzigd, worden de gefilterde gegevens bijgewerkt.
 
-![](../assets/do-not-localize/book.png) Leer hoe u gegevens kunt filteren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters){target=&quot;_blank&quot;}
+Meer informatie over filteropties in [deze pagina](../audiences/create-filters.md).
