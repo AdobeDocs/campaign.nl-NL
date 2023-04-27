@@ -4,10 +4,10 @@ title: Doelgroep van marketingcampagne
 description: Leer hoe u het publiek van uw marketingcampagnes definieert
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: a2518ea0c0ab23f50b3132b750a14e98b4ffad7d
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 1%
+source-wordcount: '1457'
+ht-degree: 0%
 
 ---
 
@@ -236,10 +236,10 @@ Klikken **[!UICONTROL Next]** om de sorteervolgorde te definiëren (indien nodig
 Deze configuratie is gelijk aan een **[!UICONTROL Split]** activiteit in het werkschema, dat u het doel in ondergroepen laat verdelen. De controlegroep is één van deze subsets.
 
 
-#### Video over zelfstudie {#create-email-video}
+### Video over zelfstudie {#create-email-video}
 
-In deze video wordt uitgelegd hoe u een campagne en een e-mail maakt in Adobe Campaign.
+In deze video wordt uitgelegd hoe u een controlegroep aan een campagne kunt toevoegen.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
 Er zijn aanvullende instructievideo&#39;s beschikbaar voor campagnes [hier](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
