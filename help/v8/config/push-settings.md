@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 3bef6d2544a86bf1d5efa4868b82ec59c7e36484
+source-git-commit: ff6990f3db1122670bff4919f417b9f9f04d3183
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -132,13 +132,14 @@ The mobile app push credential registration is required to authorize Adobe to se
 ## Een eigenschap voor een mobiele tag instellen in de gegevensverzameling van Adobe Experience Platform {#launch-property}
 
 Als u een eigenschap voor mobiele apparaten instelt, kan de ontwikkelaar of markator van de mobiele app de mobiele SDK&#39;s configureren. Normaal gesproken maakt u een eigenschap mobile voor elke mobiele toepassing die u wilt beheren. Leer hoe u een mobiele eigenschap kunt maken en configureren in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+<!--
+To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
-Als u de SDK&#39;s die nodig zijn voor pushmeldingen wilt gebruiken, hebt u de volgende SDK-extensies nodig, voor zowel Android als iOS:
-
-* **[!UICONTROL Mobile Core]** (automatisch geïnstalleerd)
-* **[!UICONTROL Profile]** (automatisch geïnstalleerd)
+* **[!UICONTROL Mobile Core]** (installed automatically)
+* **[!UICONTROL Profile]** (installed automatically)
 * **[!UICONTROL Adobe Experience Platform Edge]**
-* **[!UICONTROL Adobe Experience Platform Assurance]**, optioneel, maar aanbevolen voor foutopsporing in de mobiele implementatie.
+* **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
+-->
 
 Meer informatie over [!DNL Adobe Experience Platform Data Collection] tags in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
@@ -154,7 +155,7 @@ Nadat u de nieuwe eigenschap tag hebt gemaakt, opent u de nieuwe eigenschap tag 
 
 De **Adobe Campaign Classic-extensie** voor Adobe Experience Platform Mobile SDK&#39;s kunt u pushmeldingen voor uw mobiele apps maken en gebruikers-pushtokens verzamelen en interactiemetingen beheren met Adobe Experience Platform-services.
 
-Deze extensie is vooraf geïnstalleerd op uw omgeving en moet worden geconfigureerd. Voer de volgende stappen uit om de extensie voor de eigenschap mobile tag te configureren:
+Deze extensie, die geldt voor zowel Campaign Classic v7 als Campagne v8, is vooraf geïnstalleerd op uw omgeving en moet worden geconfigureerd. Voer de volgende stappen uit om de extensie voor de eigenschap mobile tag te configureren:
 
 1. Open de eigenschap tag die u eerder hebt gemaakt.
 1. Blader vanuit de linkernavigatie naar **Extensies** en opent u de **Catalogus** tab. Gebruik het zoekveld om het **Adobe Campaign Classic** extensie.
