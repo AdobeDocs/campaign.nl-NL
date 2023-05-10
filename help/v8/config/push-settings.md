@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 251ce05310f158b0f9ebccc94b42686f892338b1
+source-git-commit: 093204ca69cc0925bc1be5581e518995b50b3fc1
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '958'
 ht-degree: 2%
 
 ---
@@ -23,16 +23,15 @@ Adobe Experience Platform Mobile SDK biedt client-side integratie-API&#39;s voor
 
 Voer de volgende stappen uit om uw app in te stellen met Adobe Experience Platform Mobile SDK&#39;s:
 
-1. Controleren [voorwaarden](#before-starting)
-1. Een [eigenschap mobile tag](#launch-property) in Adobe Experience Platform Data Collection
-1. De Adobe Experience Platform Mobile SDK ophalen als gedetailleerd [op deze pagina](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}
-1. (optioneel) Schakel registratie- en levenscyclusmetriek in als gedetailleerde [op deze pagina](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}
-1. (optioneel) Toevoegen [Adobe Experience Platform Assurance voor uw app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} om uw implementatie te valideren
+1. Controleren [voorwaarden](#before-starting).
+1. Een [eigenschap mobile tag](#launch-property) in Adobe Experience Platform Data Collection.
+1. De Adobe Experience Platform Mobile SDK ophalen als gedetailleerd [op deze pagina](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
+1. (optioneel) Schakel registratie- en levenscyclusmetriek in als gedetailleerde [op deze pagina](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
+1. (optioneel) Toevoegen [Adobe Experience Platform Assurance voor uw app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} om uw implementatie te valideren.
 1. Volg [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} voor installatie met Adobe Experience Platform Mobile SDK&#39;s in uw app.
-1. Installeren en configureren [Adobe Campaign-extensie](#configure-extension) in uw mobiele eigenschap
+1. Installeren en configureren [Adobe Campaign-extensie](#configure-extension) in uw eigenschap mobile.
 1. Configureer uw mobiele iOS- en Android-services in Adobe Campaign als gedetailleerd [op deze pagina](../send/push.md#push-config).
 
-Tegen het einde van deze procedure had u ook een mobiele eigenschap moeten maken en configureren in [!DNL Adobe Experience Platform Data Collection]. Normaal gesproken maakt u een eigenschap mobile voor elke mobiele toepassing die u wilt beheren. Leer hoe u een mobiele eigenschap kunt maken en configureren in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 ## Vereisten {#before-starting}
 
@@ -132,9 +131,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 ## Een eigenschap voor een mobiele tag instellen in de gegevensverzameling van Adobe Experience Platform {#launch-property}
 
-Als u een mobiele eigenschap instelt, kan de ontwikkelaar of markator van de mobiele app de kenmerken van de mobiele SDK&#39;s configureren, zoals Session Timeouts, de [!DNL Adobe Experience Platform] de sandbox die moet worden aangewezen en de **[!UICONTROL Adobe Experience Platform Datasets]** wordt gebruikt voor mobiele SDK om gegevens naar te verzenden.
-
-Voor nadere bijzonderheden en procedures over het opzetten van een **mobile, eigenschap** Raadpleeg de stappen die worden beschreven in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+Als u een eigenschap voor mobiele apparaten instelt, kan de ontwikkelaar of markator van de mobiele app de mobiele SDK&#39;s configureren. Normaal gesproken maakt u een eigenschap mobile voor elke mobiele toepassing die u wilt beheren. Leer hoe u een mobiele eigenschap kunt maken en configureren in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 Als u de SDK&#39;s die nodig zijn voor pushmeldingen wilt gebruiken, hebt u de volgende SDK-extensies nodig, voor zowel Android als iOS:
 
