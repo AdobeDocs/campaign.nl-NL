@@ -1,6 +1,6 @@
 ---
 title: Nieuw in Campagne v8
-description: Ontdek de belangrijkste mogelijkheden in Adobe Campaign v8, wat nieuw is en wat u kunt verwachten van de nieuwste release.
+description: Ontdek de belangrijkste mogelijkheden in Adobe Campaign v8, nieuwe functies en wat u kunt verwachten van de nieuwste release.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
