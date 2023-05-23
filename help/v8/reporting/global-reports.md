@@ -2,9 +2,10 @@
 title: Globale Adobe Campaign-rapporten
 description: Leer hoe u algemene rapporten kunt openen en gebruiken
 feature: Reporting, Monitoring
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1763'
 ht-degree: 3%
 
 ---

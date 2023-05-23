@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1583'
 ht-degree: 39%
 
 ---
@@ -45,7 +45,7 @@ _28 oktober 2021_
 <tbody> 
 <tr> 
 <td> <p>De module Campagne optimaliseren is nu beschikbaar. Met deze module kunt u het verzenden van leveringen beheren, filteren en controleren. Om conflicten tussen campagnes te vermijden kan Adobe Campaign diverse combinaties testen door specifieke beperkingsregels toe te passen. Dit garandeert dat de verzonden berichten voldoen aan de behoeften en verwachtingen van klanten en het communicatiebeleid van het bedrijf.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=en#campaign-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html#campaign-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td> 
 </tr> 
 </tbody> 

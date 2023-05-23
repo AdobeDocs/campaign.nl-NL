@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '390'
 ht-degree: 11%
 
 ---
@@ -35,9 +35,9 @@ Campagne v8 kan verbinding maken met:
 
 U kunt ook uw **publiek** en **elementen** voor Experience Cloud-oplossingen met mogelijkheden voor het delen van bedrijfsmiddelen en het delen van doelgroepen.
 
-![](../assets/do-not-localize/book.png) Meer informatie over **Delen van publiek** tussen Campagne- en Experience Cloud-oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) Meer informatie over **Delen van publiek** tussen Campagne- en Experience Cloud-oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/book.png) Meer informatie over **Elementen delen** tussen Campagne- en Experience Cloud-oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) Meer informatie over **Elementen delen** tussen Campagne- en Experience Cloud-oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
 ## Integreren met uw CRM-connector{#gs-crm-connectors}
 

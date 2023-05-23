@@ -5,9 +5,9 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 5%
 
 ---
@@ -88,7 +88,7 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    Met Adobe Campaign kunt u gezamenlijke goedkeuringsprocessen instellen voor de belangrijkste fasen van de marketingcampagne. Voor elke campagne kunt u het leveringsdoel, de inhoud, en de kosten goedkeuren. Adobe Campaign-operatoren die met de goedkeuring zijn belast, kunnen via e-mail op de hoogte worden gesteld en kunnen goedkeuring van de console of via een webverbinding accepteren of afwijzen.
 
-   Leer hoe u goedkeuringen instelt en beheert in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=en#campaign-orchestration).
+   Leer hoe u goedkeuringen instelt en beheert in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#campaign-orchestration).
 
 
 ## Distributed Marketing Add-on{#distributed-marketing-add-on}
@@ -109,5 +109,5 @@ Adobe Campaign biedt een **Responsbeheer** toe:voegen die u het succes en de ren
 >
 >Deze mogelijkheid is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) Leer hoe u Campagne Response Manager configureert en gebruikt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target=&quot;_blank&quot;}
+[](../assets/do-not-localize/book.png) Leer hoe u Campagne Response Manager configureert en gebruikt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target="_blank"}
 

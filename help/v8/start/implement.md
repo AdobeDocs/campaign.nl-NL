@@ -5,9 +5,9 @@ feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: a2c30979be786ce8374857eb270ba71ec0e1b2a3
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1187'
 ht-degree: 4%
 
 ---
@@ -38,11 +38,11 @@ Adobe Campaign wordt geleverd met processen en instellingen waarmee u Campagne k
 
 * **Gegevensverwerving**: Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en vertrouwelijke informatie. Het is daarom van essentieel belang dat u toestemming krijgt en beheert van uw ontvangers.
 
-   Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition){target="_blank"}
+   Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#data-acquisition){target="_blank"}
 
 * **Goedkeuring door de gebruiker en bewaring van gegevens**: u moet toestemming van de gebruiker krijgen, dubbele opt-in-abonnementsmechanismen instellen, de opt-out vergemakkelijken en het bewaren van gegevens configureren.
 
-   Meer informatie in [Campaign Classic v7-privacydocumentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent){target="_blank"}
+   Meer informatie in [Campaign Classic v7-privacydocumentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#consent){target="_blank"}
 
 * **Regels inzake privacy en gegevensbescherming**: verwijzen naar [deze sectie](privacy.md) voor meer informatie over de privacyvereisten en hoe deze regels van invloed zijn op uw organisatie en Adobe Campaign.
 

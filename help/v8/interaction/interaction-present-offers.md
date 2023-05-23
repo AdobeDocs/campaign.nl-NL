@@ -3,9 +3,9 @@ product: campaign
 title: Een aanbieding presenteren (binnenkomende interactie)
 description: Leer hoe u de beste aanbieding presenteert met de module Campagne Interaction
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '198'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Aanbiedingen kunnen op verschillende aanbiedingsruimten worden aangeboden met [e
 
 Om een aanbieding door de motor van de Aanbieding te kunnen selecteren, moet het worden goedgekeurd en in een levende milieu beschikbaar zijn.
 
-![](../assets/do-not-localize/book.png) Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+![](../assets/do-not-localize/book.png) Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content)
 
 In de context van een binnenkomende contactpersoon kan de gebruiker die door de pagina bladert door de website worden geïdentificeerd of niet. De engine voor aanbiedingen biedt verschillende aanbiedingen voor bepaalde profielen en voor anonieme profielen.
 

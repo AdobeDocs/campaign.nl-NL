@@ -4,9 +4,9 @@ title: Workflowuitvoering controleren
 description: Workflowuitvoering controleren
 feature: Workflows
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1934'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Deze sectie geeft informatie over hoe te om de uitvoering van uw werkschema&#39;
 
 Er is ook een gebruiksscenario beschikbaar voor het maken van een workflow waarmee u de status kunt controleren van een set werkstromen die worden gepauzeerd, gestopt of met fouten. [deze sectie](workflow-supervision.md#supervising-workflows).
 
-Daarnaast kunnen beheerders van de instantie de opdracht **Audittrail** om activiteiten en laatste wijzigingen te controleren die aan werkschema&#39;s worden gedaan, de staat van uw werkschema&#39;s. Meer informatie over audittrail in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target="_blank"}.
+Daarnaast kunnen beheerders van de instantie de opdracht **Audittrail** om activiteiten en laatste wijzigingen te controleren die aan werkschema&#39;s worden gedaan, de staat van uw werkschema&#39;s. Meer informatie over audittrail in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}.
 
 ## Voortgang weergeven {#displaying-progress}
 

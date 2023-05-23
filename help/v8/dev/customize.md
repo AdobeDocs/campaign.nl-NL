@@ -4,9 +4,9 @@ description: Leer hoe u uw exemplaar kunt aanpassen
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '483'
 ht-degree: 7%
 
 ---
@@ -33,7 +33,7 @@ Er zijn twee tabeluitbreidingsmodi beschikbaar:
 
 * Door de interface, door **Nieuw veld** assistent
 
-   Leer hoe u snel een nieuw veld kunt toevoegen in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic){target="_blank"}
+   Leer hoe u snel een nieuw veld kunt toevoegen in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
 
 * Programmaticaal, door het schema uit te breiden. Leer hoe u een bestaand schema kunt uitbreiden in [deze sectie](../dev/extend-schema.md).
 
@@ -43,9 +43,9 @@ Als u een geheel nieuw type gegevens wilt toevoegen dat niet in Adobe Campaign b
 
 **Verwante onderwerpen**
 
-![](../assets/do-not-localize/book.png) Voorbeeld van schemageditie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic){target="_blank"}
+![](../assets/do-not-localize/book.png) Voorbeeld van schemageditie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
 
-![](../assets/do-not-localize/book.png) Hoofdlettergebruik: een veld koppelen aan een bestaande referentietabel in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link){target="_blank"}
+![](../assets/do-not-localize/book.png) Hoofdlettergebruik: een veld koppelen aan een bestaande referentietabel in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
 
 
 ## Invoerformulieren wijzigen
@@ -60,7 +60,7 @@ De interface van Adobe Campaign gebruikt vele toepassingen van het Web om, tot o
 
 De ingebouwde toepassingen van het Web worden opgeslagen in **Beheer > Configuratie > Webtoepassingen** map van de Verkenner.
 
-Leer hoe u een overzichtspagina maakt in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application){target="_blank"}
+Leer hoe u een overzichtspagina maakt in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application){target="_blank"}
 
 
 ## Lijsten aanpassen en filters maken {#gs-lists-and-filters}
