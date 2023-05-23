@@ -3,13 +3,13 @@ product: campaign
 title: Een rapport naar een lijst verzenden
 description: Leer hoe u een rapport naar een lijst met een workflow kunt verzenden
 feature: Workflows
-source-git-commit: 4c3caa8e31c2076d32a03a8778a28edce50cde63
+exl-id: 5bc576d0-cab7-4d26-a3a5-91982a00e356
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 3%
 
 ---
-
 
 # Een rapport naar een lijst verzenden{#send-a-report-to-a-list}
 

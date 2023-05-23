@@ -2,9 +2,10 @@
 product: campaign
 title: Technote - Adobe Campaign - Beveiligingsupdate Apache-versie
 description: Adobe Campaign - Beveiligingsupdate Apache-versie
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Adobe Campaign werkt met hulpprogramma&#39;s van derden en de compatibiliteit wordt regelmatig bijgewerkt, zodat alleen ondersteunde versies kunnen worden geïmplementeerd en de nieuwste correcties en verbeteringen kunnen worden toegepast.
 
-Adobe Campaign bevat Apache Tomcat, die via HTTP als ingangspunt fungeert in de toepassingsserver, en die is geïntegreerd met Apache Web-server. De Apache Software Foundation heeft Apache HTTP Server 2.4.53 uitgebracht. Deze versie verhelpt kwetsbaarheden die een externe aanvaller in staat kunnen stellen de controle over een beïnvloed systeem te verkrijgen. Meer informatie in [Apache 2.4.53](https://downloads.apache.org/httpd/Announcement2.4.html){target=&quot;_blank&quot;}.
+Adobe Campaign bevat Apache Tomcat, die via HTTP als ingangspunt fungeert in de toepassingsserver, en die is geïntegreerd met Apache Web-server. De Apache Software Foundation heeft Apache HTTP Server 2.4.53 uitgebracht. Deze versie verhelpt kwetsbaarheden die een externe aanvaller in staat kunnen stellen de controle over een beïnvloed systeem te verkrijgen. Meer informatie in [Apache 2.4.53](https://downloads.apache.org/httpd/Announcement2.4.html){target="_blank"}.
 
 Het Adobe Campaign-team voert de upgradeactiviteiten voor de Apache-versie uit door **15 juni 2022** om deze Apache-kwetsbaarheid te beperken en uw instantieomgeving veiliger te maken. Deze upgrade is van toepassing op alle klanten van Campaign Classic v7 Managed Cloud Services, Campaign v8 en Campaign Standard-die op een kwetsbare versie van Apache HTTP Server werken. Als dit gevolgen heeft, heeft Adobe al contact met u opgenomen om u op de hoogte te stellen van deze upgrade.
 

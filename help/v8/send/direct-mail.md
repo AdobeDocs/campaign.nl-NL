@@ -7,7 +7,7 @@ level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '399'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ De volgende stappen voor het genereren van het bestand zijn:
 
    Creeer direct postlevering die op het malplaatje wordt gebaseerd. U kunt de **[!UICONTROL Deliver by direct mail (paper)]** ingebouwde sjabloon.
 
-   ![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html){target="_blank"}
 
 1. De doelgroep definiëren
 
@@ -32,19 +32,19 @@ De volgende stappen voor het genereren van het bestand zijn:
 
    Een adres wordt als volledig beschouwd als de naam, het gebied van de code van ZIP/Postal, en stad/stad gebieden niet leeg zijn.
 
-   ![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
 
 1. De inhoud van het bestand definiëren
 
    Gebruik de extractietovenaar om de informatie (kolommen) te bepalen die in het outputdossier moet worden uitgevoerd.
 
-   ![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html){target="_blank"}
 
 1. De levering valideren
 
    Controleer het resultaat van de analyse en de inhoud van het uitvoerbestand.
 
-   ![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html){target="_blank"}
 
    In het kader van een marketingcampagne wordt op de extractiedatum het extractiebestand gemaakt. U kunt de inhoud van het geëxtraheerde bestand weergeven, goedkeuren of de indeling wijzigen en de extractie indien nodig opnieuw starten. Zodra het dossier is goedgekeurd, kunt u het bericht e-mail naar de router verzenden. Meer informatie in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html)
 

@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1364'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Om de toepassings (cliënt) identiteitskaart te krijgen, moet u een App in Azure
 
 Als u het bestand eenmaal hebt opgeslagen, wijst Microsoft Azure Directory een unieke gebeurtenis toe **Toepassings-id (client)** naar uw app. Deze id hebt u later nodig bij het configureren van Dynamics 365 in Adobe Campaign.
 
-Meer informatie in [Microsoft Dynamics 365 - documentatie](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target=&quot;_blank&quot;}.
+Meer informatie in [Microsoft Dynamics 365 - documentatie](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target="_blank"}.
 
 ### Sleutel-id voor Microsoft Dynamics Certificate en Key ID genereren {#config-certificate-key-id}
 

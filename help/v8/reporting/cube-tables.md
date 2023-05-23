@@ -3,10 +3,11 @@ product: campaign
 title: Kubussen gebruiken om rapporten over gegevens te maken
 description: Leer hoe u kubussen kunt gebruiken om rapporten te maken
 feature: Reporting
-source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
+exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 

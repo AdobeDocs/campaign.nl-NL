@@ -5,7 +5,8 @@ version: v8
 feature: Application Settings
 role: Admin, Developer
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5251885f0493eb41f93d07f0e22dcf77926e69dd
+exl-id: fefb6d80-c3d1-448b-82ab-648da58a0ba4
+source-git-commit: 666dbdac8330cae17693142cf45cc3d3d2d187a9
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 1%

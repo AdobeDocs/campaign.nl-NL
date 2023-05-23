@@ -9,8 +9,8 @@ hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
 source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '399'
+ht-degree: 1%
 
 ---
 
@@ -84,9 +84,9 @@ Het proces eindigt nooit.
 
 De oplossing is om een oudere cliëntconsole te gebruiken. Vervolgens kunt u het bestand uploaden naar de server.
 
-Als beheerder van de Campagne kunt u Campagne v8.3.1 cliëntconsole in downloaden [Adobe-softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;layout by.sort=desc=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}.
+Als beheerder van de Campagne kunt u Campagne v8.3.1 cliëntconsole in downloaden [Adobe-softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;layout by.sort=desc=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
 
-Leer hoe u toegang krijgt tot Adobe Software Distribution [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target=&quot;_blank&quot;}.
+Leer hoe u toegang krijgt tot Adobe Software Distribution [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
 Leer hoe u uw clientconsole kunt upgraden [op deze pagina](connect.md)
 

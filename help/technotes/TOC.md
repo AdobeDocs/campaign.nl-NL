@@ -7,8 +7,8 @@ description: Campagne-technieken
 breadcrumb-title: Campagne-technologie
 source-git-commit: 67368286cb04d97cbf4564846eab91d64b8f90f1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '35'
+ht-degree: 31%
 
 ---
 

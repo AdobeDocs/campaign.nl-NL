@@ -24,9 +24,9 @@ De **[!UICONTROL Deduplication]** activiteit wordt gebruikt voor het verwijderen
 
 | Laatste wijzigingsdatum | Voornaam | Achternaam | Email | Mobiele telefoon | Telefoon |
 |-----|------------|-----------|-------|--------------|------|
-| 19-05-2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 22-07-2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
-| 03-10-2020 | Bob |  | bob@mycompany.com |  | 888-888-888 |
+| 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
+| 7/22/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
+| 10/03/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
 
 Met de deduplicatieactiviteit **[!UICONTROL Merge]** Als lettertypen kunt u een set regels voor deduplicatie configureren om een groep velden te definiëren die moeten worden samengevoegd in één gegevensrecord. Met een set dubbele records kunt u bijvoorbeeld het oudste telefoonnummer of de meest recente naam behouden.
 
@@ -90,17 +90,17 @@ Om deze regels te vormen, volg deze stappen:
 
 Na het vormen van deze regels, worden de volgende gegevens ontvangen aan het eind van **[!UICONTROL Deduplication]** activiteit.
 
-| Wijzigingsdatum | Voornaam | Achternaam | E-mail | Mobiele telefoon | Telefoon |
+| Wijzigingsdatum | Voornaam | Achternaam | Email | Mobiele telefoon | Telefoon |
 |-----|------------|-----------|-------|--------------|------|
-| 19-05-2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 22-07-2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
-| 03-10-2020 | Bob |  | bob@mycompany.com |  | 888-888-888 |
+| 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
+| 7/22/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
+| 10/03/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
 
 Het resultaat wordt samengevoegd van de drie verslagen volgens de eerder gevormde regels. Na vergelijking wordt geconcludeerd dat de meest recente naam en mobiele telefoon samen met het originele telefoonnummer worden gebruikt.
 
-| Voornaam | Achternaam | E-mail | Mobiele telefoon | Telefoon |
+| Voornaam | Achternaam | Email | Mobiele telefoon | Telefoon |
 |------------|-----------|-------|--------------|------|
-| Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-888 |
+| Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
 >[!NOTE]
 >

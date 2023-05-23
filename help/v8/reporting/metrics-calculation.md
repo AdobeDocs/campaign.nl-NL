@@ -2,7 +2,8 @@
 title: Berekening van ingebouwde rapportcijfers
 description: Berekening van ingebouwde rapportcijfers
 feature: Reporting
-source-git-commit: 80e5efc5998c67ce576e9f8208fab9543fc70d29
+exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '2978'
 ht-degree: 2%
@@ -588,7 +589,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]**
   </tr> 
   <tr> 
    <td> Ontvanger klikt<br /> </td> 
-   <td> @receivingClick<br /> </td> 
+   <td> @recipientClick<br /> </td> 
    <td> Afzonderlijke telling van de @wideLog-ids met een type URL dat "E-mail klikt"evenaart.<br /> </td> 
    <td> Countdifferent(Iif([url/@type]=1, @wideLog-id, 0))<br /> </td> 
   </tr> 
@@ -866,7 +867,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]**
   </tr> 
   <tr> 
    <td> Geopende items<br /> </td> 
-   <td> @receivingOpen<br /> </td> 
+   <td> @recipientOpen<br /> </td> 
    <td> Het totale aantal @wideLog-ids in de volgende logboeken.<br /> </td> 
    <td> Countdifferent ([@wideLog-id])<br /> </td> 
   </tr> 

@@ -4,7 +4,8 @@ description: Leer hoe u doeltoewijzingen kunt gebruiken en maken
 feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -65,4 +66,3 @@ Met de wizard voor het maken van Adobe Campaign-doeltoewijzingen kunt u alle sch
    ![](assets/wf_new_mapping_define_extensions.png)
 
    Klik op de knop **[!UICONTROL Save]** knop voor het maken van de toewijzing van levering: alle gekoppelde tabellen worden automatisch gemaakt op basis van de geselecteerde parameters.
-

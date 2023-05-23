@@ -7,7 +7,7 @@ level: Beginner
 exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 6%
 
 ---
@@ -38,4 +38,4 @@ Algemene invoer wordt beheerd vanuit de **[!UICONTROL Profiles and Targets > Job
 
 ![](assets/new-import-job.png)
 
-De stappen voor het uitvoeren van een generieke importbewerking worden beschreven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target=&quot;_blank&quot;}.
+De stappen voor het uitvoeren van een generieke importbewerking worden beschreven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target="_blank"}.

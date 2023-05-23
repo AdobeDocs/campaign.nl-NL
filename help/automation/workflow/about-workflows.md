@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Workflows
-description: Automatiseer processen met workflows, beheer gegevens en publiek, verzend berichten, en meer.
+description: Automatiseer processen met workflows, beheer gegevens en doelgroepen, verzend berichten, en meer.
 feature: Workflows
 exl-id: 297aa4e3-b672-46b5-9016-5accee8568b8
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 

@@ -3,14 +3,15 @@ product: campaign
 title: SQL Data Management
 description: Meer informatie over de workflowactiviteit van SQL Data Management
 feature: Workflows
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 1%
 
 ---
 
-# SQL-gegevensbeheer{#sql-data-management}
+# SQL Data Management{#sql-data-management}
 
 De **SQL-gegevensbeheer** Met activiteit kunt u uw eigen SQL-scripts schrijven om werktabellen te maken en te vullen.
 

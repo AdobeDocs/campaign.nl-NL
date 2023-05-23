@@ -4,13 +4,13 @@ description: Het succes van uw campagnes meten en het gebruikersgedrag analysere
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 8fb1f57b82ce3b99dabf584a6434d9111dc8b5af
+exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 4%
 
 ---
-
 
 # Aan de slag met rapportage{#gs-ac-reports}
 
@@ -46,10 +46,10 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
    ![](assets/desc-analysis-report.png)
 
-   ![](../assets/do-not-localize/book.png) De rapportage van de campagnebeschrijvende analyse wordt weergegeven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) De rapportage van de campagnebeschrijvende analyse wordt weergegeven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 
 * **Aangepaste rapporten**
 
    Gebruik Adobe Campaign om rapporten te maken over de gegevens in de database. Als deze eenmaal zijn gecreëerd, moet u ze in de juiste context toegankelijk maken.
 
-   ![](../assets/do-not-localize/book.png) De stappen om een rapport te creëren worden gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target=&quot;_blank&quot;}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.
+   ![](../assets/do-not-localize/book.png) De stappen om een rapport te creëren worden gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.

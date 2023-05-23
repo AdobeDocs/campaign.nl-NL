@@ -4,9 +4,10 @@ description: Leer hoe u machtigingen verleent aan gebruikers van Campagne v8
 feature: Permissions
 role: User, Admin
 level: Beginner
-source-git-commit: b63dc1616bc7ce1387a7bd0590c289b59f11b33f
+exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
+source-git-commit: b96ac3bd2365c548d071e626721d606dd33200b5
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Als productbeheerder, kunt u gebruikers toevoegen en toegang tot Campagne verlen
 
 Volg onderstaande stappen om een gebruiker toe te voegen:
 
-1. In de [Admin Console](https://adminconsole.adobe.com/enterprise){target=&quot;_blank&quot;} homepage, selecteer **Gebruikers toevoegen**.
+1. In de [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} homepage, selecteren **Gebruikers toevoegen**.
 
    ![](assets/add-a-user.png)
 
@@ -34,7 +35,7 @@ Volg onderstaande stappen om een gebruiker toe te voegen:
 
 1. Klikken **Opslaan**. De gebruiker wordt toegevoegd en wordt weergegeven in de lijst Gebruikers. Als u een beheerdersrol of een productprofiel aan gebruikers toewijst, ontvangen zij een e-mailbericht. Gebruikers moeten de koppeling volgen om hun profiel te voltooien.
 
-Meer informatie over het maken van gebruikers in de Admin Console in [deze pagina](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target=&quot;_blank&quot;}.
+Meer informatie over het maken van gebruikers in de Admin Console in [deze pagina](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
 Wanneer nieuwe gebruikers [aanmelden bij campagne](connect.md) met hun Adobe ID, worden zij toegevoegd aan de lijst van de exploitanten van de Campagne in de cliëntconsole. Campagneontwikkelaars worden opgeslagen in het dialoogvenster **[!UICONTROL Administration > Access management > Operators]** map van Campaign Explorer.
 
@@ -74,7 +75,7 @@ Volg de onderstaande stappen om bijvoorbeeld een productprofiel voor &#39;reviso
 
 #### Het productprofiel maken in de Admin Console{#create-profile-in-admin-console}
 
-1. Verbinding maken met de [Admin Console](https://adminconsole.adobe.com/enterprise){target=&quot;_blank&quot;}.
+1. Verbinding maken met de [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
 1. Van de **Product en services** sectie van de homepage, open product van de Campagne.
 1. Klikken **Nieuw profiel** en voert u de naam in van het productprofiel dat u wilt maken, met de juiste syntaxis zoals uitgelegd [hier](#product-profiles). Voor ons voorbeeld voeren we het volgende in: campagne - `<your-instance-name>` - controleurs
 
@@ -174,7 +175,7 @@ Deze productprofielen komen overeen met de campagne **groepen met operatoren**. 
 
 U kunt de Admin Console gebruiken om gebruikersgroepen te creëren en gebruikers aan hen toe te wijzen.
 
-Een gebruikersgroep is een inzameling van verschillende gebruikers die een gedeelde reeks toestemmingen moeten worden gegeven. Leer hoe u gebruikersgroepen kunt maken in [deze sectie](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target=&quot;_blank&quot;}.
+Een gebruikersgroep is een inzameling van verschillende gebruikers die een gedeelde reeks toestemmingen moeten worden gegeven. Leer hoe u gebruikersgroepen kunt maken in [deze sectie](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
 
 U kunt productprofielen toewijzen aan gebruikersgroepen. Alle gebruikers in die groep ontvangen dus dezelfde set productmachtigingen.
 

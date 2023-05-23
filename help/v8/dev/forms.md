@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '2554'
+source-wordcount: '2552'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Het bewerkingsbesturingselement past zich automatisch aan het overeenkomstige ge
 
 Elk veld wordt standaard weergegeven op één regel en neemt alle beschikbare ruimte in beslag, afhankelijk van het type gegevens.
 
-![](../assets/do-not-localize/book.png) Alle formulierkenmerken worden vermeld in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Alle formulierkenmerken worden vermeld in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}.
 
 ## Opmaak {#formatting}
 

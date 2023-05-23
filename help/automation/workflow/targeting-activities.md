@@ -3,7 +3,8 @@ product: campaign
 title: Targetingactiviteiten
 description: Targetingactiviteiten
 feature: Workflows, Audiences, Targeting Activity
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: e89c9f20-fc10-421f-9c14-2e33be562a8d
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 1%
@@ -34,4 +35,3 @@ Met deze activiteiten kunt u een of meer doelen maken door sets te definiëren e
 * **[Abonnementsservices](subscription-services.md)**: Hiermee kunt u abonnementen en abonnementen op een informatieservice beheren.
 * **[Unie](union.md)**: Hiermee kunt u het resultaat van verschillende activiteiten groeperen in één doel.
 * **[Gegevens bijwerken](update-data.md)**: Hiermee kunt u de gegevens in de database ingrijpend bijwerken.
-

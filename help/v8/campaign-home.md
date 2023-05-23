@@ -5,8 +5,8 @@ title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 12%
+source-wordcount: '141'
+ht-degree: 13%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 ## Nieuwe functies
 
-* **[[!DNL Adobe Campaign] handleiding voor automatisering](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target=&quot;_blank&quot;}** - Leer hoe u workflows en campagnes kunt maken
+* **[[!DNL Adobe Campaign] handleiding voor automatisering](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"}** - Leer hoe u workflows en campagnes kunt maken
 
 * **[Wat is [!DNL Adobe Campaign]](start/get-started.md)** - Belangrijkste mogelijkheden en gebruiksgevallen
 
@@ -26,7 +26,7 @@ ht-degree: 12%
 
 * **[Van v7 naar v8](start/v7-to-v8.md)** - Overstappen van Campaign Classic v7 naar v8? Belangrijkste verschillen leren
 
-* **[Configuratiescherm voor campagne v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target=&quot;_blank&quot;}** - Beheerderstaken zelfstandig uitvoeren met het Configuratiescherm van campagne
+* **[Configuratiescherm voor campagne v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}** - Beheerderstaken zelfstandig uitvoeren met het Configuratiescherm van campagne
 
 * **[Opmerkingen bij de release](start/release-notes.md)** - Ontdek de nieuwste functies en verbeteringen
 
@@ -72,4 +72,4 @@ ht-degree: 12%
 * [Maatregel en track](reporting/gs-reporting.md)
 * [Verbinden met andere oplossingen](connect/integration.md)
 * [Veelgestelde vragen over campagne v8](start/campaign-faq.md)
-* [Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}
+* [Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}

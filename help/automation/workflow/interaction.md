@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Interaction
-description: Interactie
+description: Interaction
 feature: Workflows, Interaction
 source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 3%
 ---
 
 
-# Interactie{#interaction}
+# Interaction{#interaction}
 
 De hieronder beschreven workflows worden geïnstalleerd met de **Aanbiedingsengine (interactie)** standaard invoegtoepassing.
 

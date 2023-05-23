@@ -3,7 +3,8 @@ product: campaign
 title: Stroombeheeractiviteiten in workflows
 description: Lijst van activiteiten op het gebied van stroombeheersing
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 904f2d94-bd3e-4c46-aeab-2ef77a7bdeee
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -26,4 +27,4 @@ De volgende activiteiten zijn databaseactiviteiten: ze worden gebruikt om de wor
 * **[Testen](test.md)**: laat een overgang toe die op een testresultaat wordt gebaseerd.
 * **[Tijdbeperking](time-constraint.md)**: Hiermee kunt u een taak pauzeren voor een ingestelde periode.
 * **[Wachten](wait.md)**: laat de uitgaande overgang na een bepaalde tijdslimiet toe.
-<!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->
+   <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '3009'
+source-wordcount: '3005'
 ht-degree: 6%
 
 ---
@@ -66,7 +66,7 @@ De manier waarop de postkwalificatie van de stuiterende in Adobe Campaign wordt 
 
 * **Synchrone fouten**: MTA bepaalt het stuittype en de kwalificatie, en stuurt die informatie terug naar Campaign. De stuiterende kwalificaties in de **[!UICONTROL Delivery log qualification]** tabel wordt niet gebruikt voor **synchroon** foutberichten over leveringsfout.
 
-* **Asynchrone fouten**: De regels die door Campagne worden gebruikt om asynchrone leveringsmislukkingen te kwalificeren zijn vermeld in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knooppunt. Asynchrone stuiteringen worden gekwalificeerd door het inMail-proces via het **[!UICONTROL Inbound email]** regels. Raadpleeg voor meer informatie hierover [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}.
+* **Asynchrone fouten**: De regels die door Campagne worden gebruikt om asynchrone leveringsmislukkingen te kwalificeren zijn vermeld in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knooppunt. Asynchrone stuiteringen worden gekwalificeerd door het inMail-proces via het **[!UICONTROL Inbound email]** regels. Raadpleeg voor meer informatie hierover [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,7 +111,7 @@ Bijvoorbeeld, als de geldigheidsperiode aan de standaardwaarde van 5 dagen in Ca
 
 Wanneer een bericht gedurende 3,5 dagen in de wachtrij van de MTA heeft gestaan en niet is geleverd, treedt er een time-out op en zal de status van het bericht worden bijgewerkt van **[!UICONTROL Sent]** naar **[!UICONTROL Failed]** in de leveringslogboeken.
 
-Voor meer informatie over de geldigheidsperiode raadpleegt u de [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}.
+Voor meer informatie over de geldigheidsperiode raadpleegt u de [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
 
 
 ## Typen e-mailfouten {#email-error-types}
