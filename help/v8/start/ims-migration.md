@@ -3,14 +3,14 @@ title: Migratie van technische gebruikers naar Technical Account op Developer Co
 description: Migratie van technische gebruikers naar Technical Account op Developer Console
 hide: true
 hidefromtoc: true
-source-git-commit: 7b4942b5334826adf27c8a31dbdb9a5bfb5d50eb
+source-git-commit: 8842404511bd6166d920ebdeee942007b33a1bab
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
-# Migratie van technische gebruikers naar Technical Account op Developer Console {#migrate-tech-users-to-ims}
+# Migratie van technische operatoren van campagnes naar Adobe Developer Console {#migrate-tech-users-to-ims}
 
 Vanaf Campagne v8.5 wordt het verificatieproces naar Campagne v8 verbeterd. De technische exploitanten moeten [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} om verbinding te maken met Campagne. Een technische operator is een Campagnegebruikersprofiel dat expliciet is gemaakt voor API-integratie. In dit artikel worden de stappen beschreven die nodig zijn om een technische operator naar een technische account op de Adobe Developer-console te migreren.
 
@@ -23,9 +23,9 @@ Meer informatie over het verificatieproces van de nieuwe server naar de server [
 Deze wijziging is van toepassing vanaf Campagne v8.5 en wordt **verplicht** startcampagne v8.6.
 
 
-## Heb ik invloed?{#ims-imacts}
+## Heeft dit gevolgen voor u?{#ims-impacts}
 
-Als u campagne-API&#39;s gebruikt, moet u uw technische operator migreren naar Adobe Developer Console, zoals hieronder wordt beschreven.
+Als u campagne-API&#39;s gebruikt, moet u de technische operator(s) migreren naar Adobe Developer Console, zoals hieronder wordt beschreven.
 
 ## Hoe migreren?{#ims-migration-procedure}
 
@@ -33,7 +33,7 @@ Als u campagne-API&#39;s gebruikt, moet u uw technische operator migreren naar A
 
 Voordat u met het migratieproces begint, moet u contact opnemen met uw Adobe-medewerker, zodat technische teams van Adobe uw bestaande groepen met operatoren en benoemde rechten kunnen migreren naar het Adobe Identity Management System (IMS).
 
-### Stap 1 - Een project maken in de Adobe Developer-console{#ims-migration-step-1}
+### Stap 1 - Uw Campagne-project maken/bijwerken in Adobe Developer Console{#ims-migration-step-1}
 
 Integraties worden gemaakt als onderdeel van een **Project** in Adobe Developer Console. Meer informatie over projecten in [Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
@@ -68,7 +68,7 @@ De laatste stap bestaat uit het bijwerken van de technische operator in de Adobe
 
 >[!CAUTION]
 >
->Nadat het verificatietype voor de technische operator is bijgewerkt, werken alle API-integratie met deze technische operator niet meer
+>Nadat het verificatietype voor de technische operator is bijgewerkt, werken alle API-integraties met deze technische operator niet meer. U moet [de API-integratie bijwerken](#ims-migration-step-6).
 
 Ga als volgt te werk om de technische authenticatiemodus van de operator bij te werken naar IMS:
 
@@ -89,7 +89,6 @@ Ga als volgt te werk om de technische authenticatiemodus van de operator bij te 
    ```
 
 1. Sla uw wijzigingen op.
-
 
 U kunt de technische exploitant programmatically ook bijwerken, gebruikend SQL manuscripten of Campagne APIs. Met deze modi kunt u de stappen automatiseren waarmee de naam van de operator wordt bijgewerkt met het bijbehorende e-mailadres en/of verificatietype van de technische account.
 
@@ -148,8 +147,12 @@ U kunt de technische exploitant programmatically ook bijwerken, gebruikend SQL m
 
 Voer de stappen in het dialoogvenster [Handleiding voor Adobe Developer Console-referenties](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} voor het produceren van een toegangstoken en kopieer het verstrekte bevel van de Steekproef cURL.
 
-Voor meer informatie over de integratiestappen van de API raadpleegt u [Adobe Developer Console-verificatiedocumentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
+### Stap 6 - Werk de integratie van de derdeAPI bij {#ims-migration-step-6}
+
+U moet de API-integratie bijwerken met systemen van derden.
+
+Raadpleeg voor meer informatie over de integratiestappen van de API, waaronder een voorbeeldcode voor een vloeiende integratie [Adobe Developer Console-verificatiedocumentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 
 ### Soap call samples{#ims-migration-samples}
@@ -172,7 +175,7 @@ Zodra het migratieproces wordt bereikt en bevestigd, worden de Vraag van Soap al
            <urn:sessiontoken>SESSION_TOKEN</urn:sessiontoken>
            <urn:domEvent>
                <!--You may enter ANY elements at this point-->
-               <rtEvent type="melon" email="dchavan@adobe.com"/>
+               <rtEvent type="type" email="name@domain.com"/>
            </urn:domEvent>
        </urn:PushEvent>
    </soapenv:Body>
@@ -181,7 +184,7 @@ Zodra het migratieproces wordt bereikt en bevestigd, worden de Vraag van Soap al
 
 * Na de migratie
 
-   ```
+   ```sql
    POST /nl/jsp/soaprouter.jsp HTTP/1.1
    Host: localhost:8080
    Content-Type: application/soap+xml;
@@ -196,7 +199,7 @@ Zodra het migratieproces wordt bereikt en bevestigd, worden de Vraag van Soap al
            <urn:sessiontoken></urn:sessiontoken>
            <urn:domEvent>
                <!--You may enter ANY elements at this point-->
-               <rtEvent type="melon" email="dchavan@adobe.com"/>
+               <rtEvent type="type" email="name@domain.com"/>
            </urn:domEvent>
        </urn:PushEvent>
    </soapenv:Body>
