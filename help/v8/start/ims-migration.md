@@ -3,9 +3,9 @@ title: Migratie van technische gebruikers naar Technical Account op Developer Co
 description: Migratie van technische gebruikers naar Technical Account op Developer Console
 hide: true
 hidefromtoc: true
-source-git-commit: 8842404511bd6166d920ebdeee942007b33a1bab
+source-git-commit: 1f9efc0744792c1173e77965ff81eaee0ed2c618
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Vanaf Campagne v8.5 wordt het verificatieproces naar Campagne v8 verbeterd. De t
 
 Campagne voor gewone gebruikers maakt al verbinding met de Adobe Campaign-console via hun Adobe ID, via Adobe Identity Management System (IMS). Als onderdeel van de inspanning om veiligheid en authentificatieproces te versterken, roept de toepassing van de Cliënt van Adobe Campaign nu Campagne APIs direct gebruikend het technische IMS accountteken.
 
-Meer informatie over het verificatieproces van de nieuwe server naar de server [in Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Meer informatie over het verificatieproces van de nieuwe server naar de server vindt u in [Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 Deze wijziging is van toepassing vanaf Campagne v8.5 en wordt **verplicht** startcampagne v8.6.
 
@@ -46,7 +46,7 @@ Zodra u toegang tot uw Campagne project hebt, kunt u de diensten met inbegrip va
 
 ### Stap 2 - voeg API aan uw project toe gebruikend Server aan de authentificatie van de Server{#ims-migration-step-2}
 
-Nadat uw project in de Adobe Developer-console is gemaakt, voegt u een API toe die Server gebruikt voor serververificatie. Leer hoe u de referentie OAuth Server-to-Server instelt in [in Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
+Nadat uw project in de Adobe Developer-console is gemaakt, voegt u een API toe die Server gebruikt voor serververificatie. Leer hoe u de referentie OAuth Server-to-Server instelt in [Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
 Wanneer de API met succes is verbonden, kunt u tot de onlangs geproduceerde geloofsbrieven met inbegrip van identiteitskaart van de Cliënt en Geheim van de Cliënt toegang hebben, evenals een toegangstoken produceren.
 
