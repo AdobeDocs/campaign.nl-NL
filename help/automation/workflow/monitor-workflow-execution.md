@@ -4,9 +4,9 @@ title: Workflowuitvoering controleren
 description: Workflowuitvoering controleren
 feature: Workflows
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Voorbeeld van melding:
 
 ![](assets/wf-notification_error-msg.png)
 
-Met de koppeling hebt u toegang tot de Adobe Campaign-console in de webmodus en kunt u werken aan de foutworkflow nadat u zich hebt aangemeld.
+Met de koppeling hebt u toegang tot de Adobe Campaign Client Console in de webmodus en kunt u werken aan de foutworkflow nadat u zich hebt aangemeld.
 
 ![](assets/wf-notification_error-console.png)
 

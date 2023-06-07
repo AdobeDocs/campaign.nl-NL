@@ -5,9 +5,9 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1365'
 ht-degree: 1%
 
 ---
@@ -165,7 +165,7 @@ Ten eerste moet u de externe account van Microsoft Dynamics 365 maken.
 
 >[!NOTE]
 >
->U kunt de installatie goedkeuren door u af en weer aan te melden bij de Adobe Campaign-console.
+>Als u de installatie wilt goedkeuren, meldt u zich af en weer aan bij de Adobe Campaign Client Console.
 
 ### Tabellen selecteren om te synchroniseren{#ms-dyn-create-tables}
 

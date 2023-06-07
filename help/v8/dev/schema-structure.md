@@ -5,7 +5,7 @@ feature: Schema Extension
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -180,13 +180,13 @@ De **`<elements>`** en **`<attributes>`** U kunt elementen van het gegevensschem
    <attribute name="email" type="string" length="80" label="Email"/>
    ```
 
-   Het label kan worden weergegeven op het invoerformulier voor de Adobe Campaign-clientconsole:
+   Het label kan worden weergegeven op het invoerformulier voor de Adobe Campaign Client Console:
 
    ![](assets/schema_label.png)
 
 * De **desc** kunt u een lange beschrijving invoeren.
 
-   De beschrijving is te zien vanaf het invoerformulier in de statusbalk van het hoofdvenster van de Adobe Campaign-clientconsole.
+   De beschrijving kan worden weergegeven op het invoerformulier in de statusbalk van het hoofdvenster van de Adobe Campaign Client Console.
 
    >[!NOTE]
    >
@@ -213,7 +213,7 @@ De waarde moet een expressie zijn die compatibel is met XPath-taal. Raadpleeg [d
 
    >[!NOTE]
    >
-   >In de Adobe Campaign-clientconsole **[!UICONTROL Administration>Counters]** de knoop wordt gebruikt om tellers te beheren.
+   >In de Adobe Campaign Client Console **[!UICONTROL Administration>Counters]** de knoop wordt gebruikt om tellers te beheren.
 
 Als u een standaardwaarde aan een veld wilt koppelen, kunt u de opdracht `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
@@ -237,7 +237,7 @@ Deze waarden worden weergegeven in een vervolgkeuzelijst van het invoerformulier
 
 >[!NOTE]
 >
->In de Adobe Campaign-clientconsole **[!UICONTROL Administration > Enumerations]** node wordt gebruikt om opsommingen te beheren.
+>In de Adobe Campaign Client Console **[!UICONTROL Administration > Enumerations]** node wordt gebruikt om opsommingen te beheren.
 
 #### Opsomming instellen {#set-enumeration}
 
@@ -361,7 +361,7 @@ Het is ook mogelijk complexe expressies te definiëren, zoals de volgende rekenk
 
 Er zijn functies op hoog niveau toegevoegd aan de expressies om het potentieel van deze taal te verrijken.
 
-U hebt toegang tot de lijst met beschikbare functies via een expressie-editor in de Adobe Campaign-clientconsole:
+U hebt toegang tot de lijst met beschikbare functies via een expressie-editor in de Adobe Campaign Client Console:
 
 ![](assets/schema_function.png)
 

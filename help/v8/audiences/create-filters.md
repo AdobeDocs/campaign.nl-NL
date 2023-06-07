@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 0%
@@ -193,7 +193,7 @@ Gebruiken en combineren **Snelle filters** om filters op specifieke gebieden te 
 
 Zodra u een snelfilterveld hebt toegevoegd, worden dit boven de gegevenslijst weergegeven, een na een. Ze kunnen onafhankelijk van elkaar worden verwijderd.
 
-Snelle filters zijn specifiek voor elke operator en worden telkens opnieuw geïnitialiseerd wanneer de operator de cache van de clientconsole wist.
+Snelle filters zijn specifiek voor elke operator en worden telkens opnieuw geïnitialiseerd wanneer de operator de cache van de bijbehorende clientconsole wist.
 
 Als u een filter opnieuw moet gebruiken, maakt u een **geavanceerd filter** en sla deze op. [Meer informatie](#advanced-filters).
 

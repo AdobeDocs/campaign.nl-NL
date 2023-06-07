@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -60,7 +60,7 @@ De server van het Web van de campagne controleert de toegang tot de processen va
 
 ![](assets/ac-processes.png)
 
-De console van de Cliënt van de campagne verbindt met de server van het Web gebruikend XML van de ZEEP over HTTP. De server van het Web verstrekt de veiligheidslaag, gaat de verzoeken tot de laag van de Toepassing over gebruikend Javascript en de interne processen van de Campagne toegang tot het gegevensbestand gebruikend SQL.
+De Console van de Cliënt van de campagne verbindt met de server van het Web gebruikend XML van de ZEEP over HTTP. De server van het Web verstrekt de veiligheidslaag, gaat de verzoeken tot de laag van de Toepassing over gebruikend Javascript en de interne processen van de Campagne toegang tot het gegevensbestand gebruikend SQL.
 
 De algemene communicatie tussen de processen van de Campagne wordt beschreven in het volgende standalone plaatsingsdiagram: alle onderdelen van de campagne worden op dezelfde computer geïnstalleerd.
 

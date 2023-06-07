@@ -4,9 +4,9 @@ description: Leer hoe u uw Campagne-omgeving kunt integreren met Twitter
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1062'
 ht-degree: 3%
 
 ---
@@ -71,7 +71,7 @@ Als u uw Campagne-instantie wilt koppelen aan uw Twitter-account, maakt u een **
 >
 >Elk **Twitter** De dienst moet ook door Adobe op uw instantie worden gecreeerd MID. Neem contact op met uw Adobe-vertegenwoordiger om uw omgeving te configureren.
 
-Als u instellingen wilt invoeren, hebt u toegang tot zowel uw Adobe Campaign-console als uw Twitter-toepassingsmachtigingen.
+Als u instellingen wilt invoeren, hebt u toegang tot zowel uw Adobe Campaign Client Console als uw Twitter-toepassingsmachtigingen.
 
 1. In **Adobe Campaign**, bladert u naar de **[!UICONTROL Profiles and targets]** en selecteert u de **[!UICONTROL Services and Subscriptions]** link
 1. Maak een nieuwe service.
@@ -94,7 +94,7 @@ Als u instellingen wilt invoeren, hebt u toegang tot zowel uw Adobe Campaign-con
 
 1. Kopieer de inhoud van de **Toegangstoken** en **Toegangstoken geheim** velden en plak deze in de **[!UICONTROL Access token]** en **[!UICONTROL Access token secret]** velden van uw campagne **Twitter** service.
 
-1. Klik in de Campagne-clientconsole op **[!UICONTROL Save]**. U hebt nu schrijftoegang gedelegeerd aan Adobe Campaign.
+1. Klik in Campagne Client Console op **[!UICONTROL Save]**. U hebt nu schrijftoegang gedelegeerd aan Adobe Campaign.
 
 U kunt de instellingen controleren door:
 

@@ -3,7 +3,7 @@ title: Migratie van technische gebruikers naar Technical Account op Developer Co
 description: Migratie van technische gebruikers naar Technical Account op Developer Console
 hide: true
 hidefromtoc: true
-source-git-commit: 1f9efc0744792c1173e77965ff81eaee0ed2c618
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -62,9 +62,9 @@ U kunt nu uw productprofiel voor Campagne toevoegen aan het project, zoals hiero
 1. Wijs alle relevante productprofielen toe aan de API, bijvoorbeeld &#39;messageCenter&#39;, en sla uw wijzigingen op.
 1. Bladeren naar de **Referentiegegevens** en kopieer het **E-mail technische account** waarde.
 
-### Stap 4 - Werk de technische exploitant in de console van de Cliënt bij {#ims-migration-step-4}
+### Stap 4 - Werk de technische exploitant in de Console van de Cliënt bij {#ims-migration-step-4}
 
-De laatste stap bestaat uit het bijwerken van de technische operator in de Adobe Campaign Client Console.
+De laatste stap bestaat uit het bijwerken van de technische operator in Adobe Campaign Client Console.
 
 >[!CAUTION]
 >

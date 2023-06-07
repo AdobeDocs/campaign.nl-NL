@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: b96ac3bd2365c548d071e626721d606dd33200b5
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Volg onderstaande stappen om een gebruiker toe te voegen:
 
 Meer informatie over het maken van gebruikers in de Admin Console in [deze pagina](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
-Wanneer nieuwe gebruikers [aanmelden bij campagne](connect.md) met hun Adobe ID, worden zij toegevoegd aan de lijst van de exploitanten van de Campagne in de cliëntconsole. Campagneontwikkelaars worden opgeslagen in het dialoogvenster **[!UICONTROL Administration > Access management > Operators]** map van Campaign Explorer.
+Wanneer nieuwe gebruikers [aanmelden bij campagne](connect.md) met hun Adobe ID worden ze toegevoegd aan de lijst Campagneoperatoren in de Client Console. Campagneontwikkelaars worden opgeslagen in het dialoogvenster **[!UICONTROL Administration > Access management > Operators]** map van Campaign Explorer.
 
 ## Werken met productprofielen{#product-profiles}
 
@@ -61,7 +61,7 @@ U kunt standaardproductprofielen gebruiken of nieuwe profielen maken.
 
 ### Een productprofiel maken{#create-product-profile}
 
-Om een nieuw productprofiel aan Adobe toe te voegen, moet u het eerst in de cliëntconsole van de Campagne creëren, en dan het toevoegen in de Admin Console.
+Als u een nieuw productprofiel aan Adobe wilt toevoegen, moet u het eerst maken in de Campagne Client Console en het vervolgens toevoegen in de Admin Console.
 
 Volg de onderstaande stappen om bijvoorbeeld een productprofiel voor &#39;revisoren&#39; te maken.
 

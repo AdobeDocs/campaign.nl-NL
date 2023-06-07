@@ -5,7 +5,7 @@ feature: Web Forms
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Wanneer u een schema maakt of uitbreidt, moet u de bijbehorende invoerformulieren maken of wijzigen om deze wijzigingen zichtbaar te maken voor eindgebruikers.
 
-Met een invoerformulier kunt u een instantie bewerken die is gekoppeld aan een gegevensschema vanuit de Adobe Campaign-clientconsole. Het formulier wordt geïdentificeerd door de naam en naamruimte ervan.
+Met een invoerformulier kunt u een instantie bewerken die is gekoppeld aan een gegevensschema in de Adobe Campaign Client Console. Het formulier wordt geïdentificeerd door de naam en naamruimte ervan.
 
 De identificatiecode van een formulier is een tekenreeks die bestaat uit de naamruimte en de naam die door een dubbele punt wordt gescheiden, bijvoorbeeld: &quot;cus:contact&quot;.
 

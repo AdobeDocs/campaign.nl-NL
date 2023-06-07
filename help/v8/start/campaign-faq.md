@@ -4,8 +4,8 @@ description: Ontvang antwoorden op veelgestelde vragen over Adobe Campaign.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
-exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 37%
@@ -68,7 +68,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
 1. **Hoe kan ik campagne downloaden?**
 
-   U kunt het installatieprogramma en de cliëntconsole van het Centrum van de Download van Adobe krijgen.
+   U kunt het installatieprogramma en de console van de Cliënt van het Centrum van de Download van Adobe krijgen.
 
    Als Admin-gebruiker hebt u toegang tot Adobe [Softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} om Adobe Campaign te downloaden.
 

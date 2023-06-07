@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1262'
 ht-degree: 3%
 
 ---
@@ -796,7 +796,7 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
 
 ## Variabelen {#variables}
 
-Met de variabelen kunt u het gedrag van mobiele toepassingen definiëren nadat u een melding hebt ontvangen. Deze variabelen moeten worden gedefinieerd in de mobiele toepassingscode en in de Adobe Campaign-console, in het **[!UICONTROL Variables]** in de speciale service voor mobiele toepassingen.
+Met de variabelen kunt u het gedrag van mobiele toepassingen definiëren nadat u een melding hebt ontvangen. Deze variabelen moeten worden gedefinieerd in de mobiele toepassingscode en in de Adobe Campaign Client Console, in het gedeelte **[!UICONTROL Variables]** in de speciale service voor mobiele toepassingen.
 
 
 Hieronder ziet u een voorbeeld van een code waarmee een mobiele toepassing toegevoegde variabelen in een melding kan verzamelen. In ons voorbeeld gebruiken we de variabele &quot;VAR&quot;.

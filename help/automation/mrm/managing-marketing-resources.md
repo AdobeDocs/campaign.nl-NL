@@ -3,9 +3,9 @@ product: campaign
 title: Marketingbronnen beheren
 description: Leer hoe u marketingbronnen beheert
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Als u een bron wilt goedkeuren, klikt u op de knop **[!UICONTROL Approve the res
 
 ![](assets/mkt-resouce-approve.png)
 
-Geautoriseerde marktdeelnemers kunnen vervolgens de goedkeuring accepteren of afwijzen. Deze actie is mogelijk: via het verzonden e-mailbericht (door op de koppeling in het meldingsbericht te klikken) of via de console (door op de knop **[!UICONTROL Approve]** ).
+Geautoriseerde marktdeelnemers kunnen vervolgens de goedkeuring accepteren of afwijzen. Deze actie is mogelijk: via het verzonden e-mailbericht (door op de koppeling in het meldingsbericht te klikken) of via de clientconsole (door op de knop **[!UICONTROL Approve]** ).
 
 In het goedkeuringsvenster kunt u een opmerking invoeren.
 

@@ -4,9 +4,9 @@ title: Lokale goedkeuring
 description: Lokale goedkeuring
 feature: Workflows
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '645'
 ht-degree: 1%
 
 ---
@@ -81,13 +81,13 @@ In het geval van een feedbackrapport voor levering moeten de volgende velden wor
 
 In dit voorbeeld wordt getoond hoe u een goedkeuringsproces voor workflowlevering instelt. Raadpleeg voor meer informatie over het maken van workflows voor levering de [Voorbeeld: leveringsworkflow](delivery.md#example--delivery-workflow) sectie.
 
-Een exploitant kan een levering op één van twee manieren goedkeuren: het gebruiken van de Web-pagina verbonden in het e-mailbericht, of via de console.
+Een exploitant kan een levering op één van twee manieren goedkeuren: de webpagina gebruiken die is gekoppeld in het e-mailbericht of via de clientconsole.
 
 * Webgoedkeuring
 
    Met het e-mailbericht dat naar beheerders van de groep Beheerders wordt verzonden, kunt u het leveringsdoel goedkeuren. Het bericht gebruikt de gedefinieerde tekst en de JavaScript-expressie wordt vervangen door de berekende waarde (in dit geval &#39;574&#39;)
 
-   Klik op de desbetreffende koppeling en meld u aan bij de Adobe Campaign-console om de levering goed te keuren.
+   Als u de levering wilt goedkeuren, klikt u op de desbetreffende koppeling en meldt u zich aan bij de Adobe Campaign Client Console.
 
    ![](assets/new-workflow-valid-webaccess.png)
 
@@ -95,7 +95,7 @@ Een exploitant kan een levering op één van twee manieren goedkeuren: het gebru
 
    ![](assets/new-workflow-valid-webaccess-confirm.png)
 
-* Goedkeuring via de console
+* Goedkeuring via de clientconsole
 
    In de boomstructuur worden de **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** knooppunt bevat de lijst met taken die moeten worden goedgekeurd door de operator die momenteel is verbonden. In de lijst moet één regel worden weergegeven. Dubbelklik op deze regel om te reageren. Het volgende venster wordt weergegeven:
 

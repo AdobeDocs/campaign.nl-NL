@@ -4,9 +4,9 @@ title: Marketingscampagnes maken
 description: Meer informatie over het maken en uitvoeren van marketingcampagnes
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1298'
 ht-degree: 2%
 
 ---
@@ -159,7 +159,7 @@ Wanneer u een campagne maakt via de **[!UICONTROL Schedule]** van een programma 
 
 ## De webinterface gebruiken {#use-the-web-interface-}
 
-U kunt de Adobe Campaign-consoleschermen openen via een internetbrowser om alle campagnes en leveringen, alsmede rapporten en informatie over de profielen in uw database weer te geven. Met deze toegang kunt u geen records maken. Afhankelijk van de rechten van de operator kunt u de gegevens in de database bekijken en/of bewerken. U kunt bijvoorbeeld de inhoud van de campagne goedkeuren, een levering opnieuw starten of stoppen, enzovoort.
+U kunt de Adobe Campaign Client Console-schermen openen via een internetbrowser om alle campagnes en leveringen, alsmede rapporten en informatie over de profielen in uw database weer te geven. Met deze toegang kunt u geen records maken. Afhankelijk van de rechten van de operator kunt u de gegevens in de database bekijken en/of bewerken. U kunt bijvoorbeeld de inhoud van de campagne goedkeuren, een levering opnieuw starten of stoppen, enzovoort.
 
 1. Meld u op de gebruikelijke manier aan via https://`<your instance>:<port>/view/home`.
 1. Via de menu&#39;s hebt u toegang tot de overzichten.

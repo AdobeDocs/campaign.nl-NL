@@ -4,9 +4,9 @@ title: Een lokale campagne maken
 description: Een lokale campagne maken
 feature: Distributed Marketing
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 1%
 
 ---
@@ -295,9 +295,9 @@ Wanneer een campagne wordt besteld door een lokale entiteit, worden de revisoren
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### Goedkeuring via de Adobe Campaign-console {#approving-via-the-adobe-campaign-console}
+#### Goedkeuren via de clientconsole {#approving-via-the-adobe-campaign-console}
 
-De bestelling kan ook worden goedgekeurd via de console, in het overzicht van de campagnevolgorde. Als u een bestelling wilt goedkeuren, selecteert u deze en klikt u op **[!UICONTROL Approve the order]**.
+De bestelling kan ook worden goedgekeurd via de Client Console, in het overzicht van de campagnevolgorde. Als u een bestelling wilt goedkeuren, selecteert u deze en klikt u op **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
@@ -321,7 +321,7 @@ De met de goedkeuring belaste exploitant kan een bestelling of een campagnepakke
 
 Indien de controleur een bestelling afwijst, wordt de desbetreffende kennisgeving automatisch naar de betrokken lokale entiteiten gezonden: het bevat de opmerking die is ingevoerd door de exploitant die de goedkeuring heeft geweigerd.
 
-De informatie wordt getoond op de lijst van campagnepakketpagina of op de pagina van de campagneorde. Als ze toegang hebben tot de Adobe Campaign-console, worden lokale entiteiten op de hoogte gesteld van deze afwijzing.
+De informatie wordt getoond op de lijst van campagnepakketpagina of op de pagina van de campagneorde. Als ze toegang hebben tot de Adobe Campaign Client Console, worden lokale entiteiten op de hoogte gesteld van deze afwijzing.
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 
