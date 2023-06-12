@@ -4,9 +4,9 @@ title: Doelgroep van marketingcampagne
 description: Leer hoe u het publiek van uw marketingcampagnes definieert
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: a2518ea0c0ab23f50b3132b750a14e98b4ffad7d
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,7 @@ In een marketingcampagne kunt u voor elke levering het volgende definiëren:
 
 * Het doelpubliek. U kunt berichten verzenden naar een [lijst van begunstigden](#send-to-a-group) of een [publiek in een workflow](#build-the-main-target-in-a-workflow)
 * Een controlegroep. U kunt [een controlegroep toevoegen](#add-a-control-group) om ontvangersgedrag na berichtlevering te controleren
-<!--
-* Seed addresses - Learn more in [this section](../../delivery/using/about-seed-addresses.md).-->
+* Zaadadressen - Meer informatie in [deze sectie](../../v8/audiences/test-profiles.md).—>
 
 Sommige van deze gegevens kunnen worden overgeërfd van de [campagnemalsjabloon](marketing-campaign-templates.md#campaign-templates).
 
@@ -109,9 +108,9 @@ Met de werkbalkpictogrammen kunt u actie ondernemen met betrekking tot de uitvoe
 
    * De **[!UICONTROL Start]** kunt u de doelworkflow starten. Wanneer u op dit pictogram klikt, worden alle activiteiten zonder een invoerovergang geactiveerd (behalve sprongen met eindpunten).
 
-      ![](assets/start.png)
+     ![](assets/start.png)
 
-      De server houdt rekening met het verzoek, zoals aangetoond door zijn status: **[!UICONTROL Start as soon as possible]**.
+     De server houdt rekening met het verzoek, zoals aangetoond door zijn status: **[!UICONTROL Start as soon as possible]**.
 
    * U kunt de doelworkflow opnieuw starten via het juiste werkbalkpictogram. Deze opdracht is handig als de opdracht **[!UICONTROL Start]** pictogram is niet beschikbaar, bijvoorbeeld wanneer het activeren van werkstroom wordt uitgevoerd. Klik in dit geval op de knop **[!UICONTROL Restart]** om te anticiperen op het opnieuw opstarten. De server houdt rekening met het verzoek, aangezien zijn status toont: **[!UICONTROL Restart requested]**.
 
@@ -119,51 +118,52 @@ Met de werkbalkpictogrammen kunt u actie ondernemen met betrekking tot de uitvoe
 
    * Met de werkbalkpictogrammen kunt u een actieve doelworkflow stoppen of pauzeren.
 
-      Wanneer u op **[!UICONTROL Pause]**, lopende bewerkingen **[!UICONTROL are not]** gepauzeerd, maar er wordt geen andere activiteit gestart tot de volgende herstart.
+     Wanneer u op **[!UICONTROL Pause]**, lopende bewerkingen **[!UICONTROL are not]** gepauzeerd, maar er wordt geen andere activiteit gestart tot de volgende herstart.
 
-      ![](assets/pause.png)
+     ![](assets/pause.png)
 
-      De server houdt rekening met het bevel, aangezien zijn status toont: **[!UICONTROL Pause requested]**.
+     De server houdt rekening met het bevel, aangezien zijn status toont: **[!UICONTROL Pause requested]**.
 
-      U kunt een doelworkflow ook automatisch pauzeren wanneer de uitvoering een bepaalde activiteit bereikt. Om dit te doen, klik de activiteit met de rechtermuisknop aan waarvan het richten werkschema moet worden gepauzeerd, en selecteer **[!UICONTROL Enable but do not execute]**.
+     U kunt een doelworkflow ook automatisch pauzeren wanneer de uitvoering een bepaalde activiteit bereikt. Om dit te doen, klik de activiteit met de rechtermuisknop aan waarvan het richten werkschema moet worden gepauzeerd, en selecteer **[!UICONTROL Enable but do not execute]**.
 
-      ![](assets/donotexecute.png)
+     ![](assets/donotexecute.png)
 
-      Deze configuratie wordt getoond door een speciaal pictogram.
+     Deze configuratie wordt getoond door een speciaal pictogram.
 
-      ![](assets/pause_activity.png)
+     ![](assets/pause_activity.png)
 
-      >[!NOTE]
-      >
-      >Deze optie is handig tijdens het ontwerpen en testen van campagnes die u op geavanceerde wijze wilt richten.
+     >[!NOTE]
+     >
+     >Deze optie is handig tijdens het ontwerpen en testen van campagnes die u op geavanceerde wijze wilt richten.
 
-      Klikken **[!UICONTROL Start]** om de uitvoering te hervatten.
+     Klikken **[!UICONTROL Start]** om de uitvoering te hervatten.
 
    * Klik op de knop **[!UICONTROL Stop]** pictogram om de uitvoering in uitvoering te stoppen.
 
-      ![](assets/stop.png)
+     ![](assets/stop.png)
 
-      De server houdt rekening met het bevel, aangezien zijn status toont: **[!UICONTROL Stop requested]**.
-   U kunt een doelworkflow ook automatisch stoppen wanneer de uitvoering een activiteit bereikt. Om dit te doen, klik de activiteit met de rechtermuisknop aan waarvan het richten werkschema zal worden tegengehouden, en selecteer **[!UICONTROL Do not activate]**.
+     De server houdt rekening met het bevel, aangezien zijn status toont: **[!UICONTROL Stop requested]**.
 
-   ![](assets/donotactivate.png)
+  U kunt een doelworkflow ook automatisch stoppen wanneer de uitvoering een activiteit bereikt. Om dit te doen, klik de activiteit met de rechtermuisknop aan waarvan het richten werkschema zal worden tegengehouden, en selecteer **[!UICONTROL Do not activate]**.
 
-   Deze configuratie wordt getoond door een speciaal pictogram.
+  ![](assets/donotactivate.png)
 
-   ![](assets/unactivation.png)
+  Deze configuratie wordt getoond door een speciaal pictogram.
+
+  ![](assets/unactivation.png)
 
 
-   >[!NOTE]
-   >
-   >Deze optie is handig tijdens het ontwerpen en testen van campagnes die u op geavanceerde wijze wilt richten.
+  >[!NOTE]
+  >
+  >Deze optie is handig tijdens het ontwerpen en testen van campagnes die u op geavanceerde wijze wilt richten.
 
 * Onvoorwaardelijke stop
 
-   Selecteer in de Verkenner de optie **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** om toegang te krijgen tot en op elke campagneworkflows te handelen.
+  Selecteer in de Verkenner de optie **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** om toegang te krijgen tot en op elke campagneworkflows te handelen.
 
-   U kunt de workflow onvoorwaardelijk stoppen door op de knop **[!UICONTROL Actions]** pictogram en selecteren **[!UICONTROL Unconditional]** stoppen. Deze actie beëindigt uw campagnewerkschema.
+  U kunt de workflow onvoorwaardelijk stoppen door op de knop **[!UICONTROL Actions]** pictogram en selecteren **[!UICONTROL Unconditional]** stoppen. Deze actie beëindigt uw campagnewerkschema.
 
-   ![](assets/stop_unconditional.png)
+  ![](assets/stop_unconditional.png)
 
 ## Een controlegroep toevoegen {#add-a-control-group}
 

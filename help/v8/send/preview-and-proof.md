@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '703'
 ht-degree: 2%
 
 ---
@@ -51,20 +51,20 @@ Het type proefdrukdoel is geselecteerd in het menu **[!UICONTROL Targeting mode]
 * Gebruik de **[!UICONTROL Substitution of the address]** e-mailadressen invoeren en de gegevens van de ontvanger gebruiken om de inhoud te valideren. U kunt de vervangende adressen handmatig invoeren of selecteren in de vervolgkeuzelijst. De bijbehorende opsomming is het adres van de Vervanging (rcpAddress).
 Standaard wordt de vervanging willekeurig uitgevoerd, maar u kunt een specifieke ontvanger van het hoofddoel selecteren via de  **[!UICONTROL Detail]** pictogram.
 
-   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
-   Kies de optie **[!UICONTROL Select a profile (must be included in the target)]** en selecteert u een ontvanger.
+  Kies de optie **[!UICONTROL Select a profile (must be included in the target)]** en selecteert u een ontvanger.
 
-   ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
 
 
 * Gebruik de **[!UICONTROL Seed addresses]**  optie om zaadadressen als proefdrukdoel te gebruiken. Deze adressen kunnen uit een dossier worden ingevoerd of manueel ingegaan.
 
-   >[!NOTE]
-   >
-   >De zaadadressen behoren niet tot de standaard ontvankelijke lijst (nms:ontvanger), zij worden gecreeerd in een afzonderlijke lijst. Als u de lijst van ontvangers met nieuwe gegevens uitbreidt, moet u de lijst van zaadadressen evenals met de zelfde gegevens uitbreiden.
+  >[!NOTE]
+  >
+  >De zaadadressen behoren niet tot de standaard ontvankelijke lijst (nms:ontvanger), zij worden gecreeerd in een afzonderlijke lijst. Als u de lijst van ontvangers met nieuwe gegevens uitbreidt, moet u de lijst van zaadadressen evenals met de zelfde gegevens uitbreiden.
 
-   Meer informatie over adressen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+  Meer informatie over adressen in [deze sectie](../audiences/test-profiles.md).
 
 * Gebruik de **[!UICONTROL Specific target and Seed addresses]** optie om zaadadressen en specifieke e-mailadressen te combineren. De gerelateerde configuraties worden vervolgens in twee aparte subtabbladen gedefinieerd.
 
