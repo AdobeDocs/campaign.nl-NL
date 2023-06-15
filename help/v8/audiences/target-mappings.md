@@ -5,16 +5,18 @@ feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: db27abf860b0744a4120166c68e2cc2ae8a3d172
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
 # Werken met doeltoewijzingen{#gs-target-mappings}
 
-Standaard wordt voor leveringssjablonen het doel **[!UICONTROL Recipients]**. Daarom worden bij de vaststelling van hun streefdoelen de gebieden van de **nms:ontvanger** tabel.
+Standaard wordt in sjablonen voor e-mail- en sms-verzending de doelstelling **[!UICONTROL Recipients]**. Daarom worden bij de vaststelling van hun streefdoelen de gebieden van de **nms:ontvanger** tabel.
+
+Voor pushberichten is de standaarddoeltoewijzing **Abonnementstoepassingen (nms:appSubscriptionRcp)**, die is gekoppeld aan de tabel met ontvangers.
 
 U kunt andere doeltoewijzingen voor uw leveringen gebruiken, of een nieuwe doelafbeelding tot stand brengen.
 
