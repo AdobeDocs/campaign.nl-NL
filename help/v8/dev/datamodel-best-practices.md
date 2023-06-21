@@ -5,9 +5,9 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: df08cdb90271f4d18fd37b8ae528ebd872d0ea63
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2718'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,6 @@ Bij het maken van een aangepaste tabel hebt u twee opties:
 > * De **autouuid** alleen van toepassing op [Implementaties voor bedrijven (FFDA)](../architecture/enterprise-deployment.md).
 >
 
-
 ## Koppelingen en kardinaliteit {#links-and-cardinality}
 
 ### Koppelingen {#links}
@@ -138,7 +137,7 @@ Adobe Campaign maakt standaard een koppeling met de primaire sleutel van de exte
 
 Wanneer u een verbinding ontwerpt, zorg ervoor dat het doelverslag uniek is wanneer een 1-1 verhouding is verklaard. Anders kan verbinden veelvoudige verslagen terugkeren wanneer slechts één wordt verwacht. Dit resulteert in fouten tijdens leveringsvoorbereiding wanneer de vraag meer rijen dan verwacht terugkeert. Stel de naam van de koppeling in op dezelfde naam als het doelschema.
 
-Definieer een koppeling met een kardinaliteit (1-N) in het schema aan de (1) zijde. De relatie Ontvanger (1) - (N) Transactie moet bijvoorbeeld in het transactieschema worden gedefinieerd.
+Definieer een koppeling met een kardinaliteit (1-N) in het schema aan de (N) zijde. De relatie Ontvanger (1) - (N) Transactie moet bijvoorbeeld in het transactieschema worden gedefinieerd.
 
 Een omgekeerde kardinaliteit van een koppeling is standaard (N). Het is mogelijk om een verbinding (1-1) te bepalen door de attributen revCardinality=&#39;single&quot;aan de verbindingsdefinitie toe te voegen.
 
