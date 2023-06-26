@@ -5,9 +5,9 @@ description: 32-bits versie van clientconsole
 hide: true
 hidefromtoc: true
 exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: ac356acdbbc8072ce8263b1c62804a4703781ca9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,12 @@ Het einde van de steun betekent dat Adobe niet meer technische steun, met inbegr
 Adobe raadt u aan uw computer te upgraden naar een 64-bits besturingssysteem om te profiteren van de nieuwste functies en verbeterde beveiliging.
 
 ## Veelgestelde vragen
+
++++Hoe kan ik van Campagne v8 32 beetjes aan Campaign v8 64 beetjes bevorderen?
+
+De upgrade is naadloos. U hoeft alleen uw nieuwe versie via de installatie te installeren als een gewone upgrade.
+
++++
 
 +++Is de 64-bits versie van Campagne v8 Client Console compatibel met 32-bits computers?
 
