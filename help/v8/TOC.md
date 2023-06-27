@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8-documentatie
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van Campaign
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: cd8ce8e16622010c1498bfaa244dda7095d9adc1
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '560'
 ht-degree: 23%
 
 ---
@@ -45,7 +45,9 @@ ht-degree: 23%
          + [Koppeling maken naar de spiegelpagina](send/mirror-page.md)
          + [E-mails verzenden en controleren](send/send.md)
       + [Sms](send/sms.md)
-      + [Pushmeldingen](send/push.md)
+      + Pushmeldingen {#push}
+         + [Pushmeldingen maken en verzenden](send/push.md)
+         + [Pushmeldingskanaal configureren](send/push-settings.md)
       + [REGELS](send/line.md)
       + [Direct mail](send/direct-mail.md)
       + [Twitter](send/twitter.md)
@@ -170,7 +172,6 @@ ht-degree: 23%
       + [Gebruikersinterface-instellingen](config/ui-settings.md)
       + [Mappen en weergaven beheren](audiences/folders-and-views.md)
       + [E-mailinstellingen](config/email-settings.md)
-      + [Push-instellingen](config/push-settings.md)
       + [Transactionele berichtinstellingen](config/transactional-msg-settings.md)
       + [SDK&#39;s voor campagnes integreren met uw app - GEDEPRECEERDE PAGINA](config/push-config.md)
       + [Externe accounts](config/external-accounts.md)
