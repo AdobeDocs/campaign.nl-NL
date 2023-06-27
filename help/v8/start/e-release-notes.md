@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: ac356acdbbc8072ce8263b1c62804a4703781ca9
+source-git-commit: 9736ebb3d2a60bfe23b135318b899acb657a580c
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 7%
@@ -49,7 +49,7 @@ _30 juni 2023_
 * Vanaf Campagne v8.5 is het verificatieproces naar Campagne v8 verbeterd. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne.
 * U kunt nu Bestemming- en Bronverbindingen gebruiken om profielkenmerken, zoals uitschakelgegevens, te synchroniseren tussen de Adobe Experience Platform- en Campagne v8-database
 * De voorbereiding van de levering is geoptimaliseerd.
-* Er is een nieuwe op sleutels gebaseerde verificatieoptie toegevoegd voor SFTP externe account, naast de bestaande verificatiemethode voor gebruikers/wachtwoorden. Gebruikers kunnen nu veilig verifiëren met een persoonlijke sleutel, waardoor de beveiliging wordt verbeterd en een alternatief verificatiemechanisme voor SFTP-toegang wordt geboden.
+* Er is een nieuwe op sleutels gebaseerde verificatieoptie toegevoegd voor de externe SFTP-account, naast de bestaande verificatiemethode voor gebruikers/wachtwoorden. Gebruikers kunnen nu veilig verifiëren met een persoonlijke sleutel, waardoor de beveiliging wordt verbeterd en een alternatief verificatiemechanisme voor SFTP-toegang wordt geboden.
 
 **Verbeterde beveiliging**
 
