@@ -4,9 +4,9 @@ title: Technische workflows
 description: Meer informatie over de technische workflows die beschikbaar zijn via Campagne
 feature: Workflows
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1667'
 ht-degree: 2%
 
 ---
@@ -84,6 +84,7 @@ Leer hoe u de technische workflows in deze [speciale sectie](monitor-technical-w
 | **Rapportageaggregaten** (reportingAggregates) | Levering | Deze workflow werkt aggregaten bij die worden gebruikt in rapporten. Het wordt teweeggebracht elke dag om 2 uur door gebrek. |
 | **Verzending van indicatoren en campagnerekenmerken** (webAnalyticsSendMetrics) | Webanalytische connectors | Met deze workflow kunt u e-mailcampagneindicatoren van Adobe Campaign naar Adobe Experience Cloud Suite verzenden via de Adobe® Analytics-connector. De betrokken indicatoren zijn als volgt: Verzonden (Verzonden), Totaal aantal van opent (iTotalRecipientOpen), Totaal aantal ontvangers die klikte (iTotalRecipientClick), Fouten (iError), Opt-Out (opt-out) (iOptOut). |
 | **Voorraad: Orders en waarschuwingen** (stockMgt) | Standaard geïnstalleerd | Deze workflow start voorraadberekening op de orderregels en beheert drempelwaarden voor waarschuwingen. |
-| **Tekstspatiëring** (reeksspatiëring | Standaard geïnstalleerd | Deze workflow voert het herstel en de consolidatie van trackinggegevens uit. Het verzekert ook de herberekening van het volgen en leveringsstatistieken, vooral die gebruikt door het archiveren van het Centrum van het Bericht werkschema. Deze wordt standaard één keer per uur geactiveerd. |
+| **Mobiele toepassingen synchroniseren met Adobe Experience Platform-gegevensverzameling** (syncWithLaunch) | Standaard geïnstalleerd, vanaf versie 8.5 | Deze workflow synchroniseert automatisch mobiele eigenschappen van gegevensverzameling naar Adobe Campaign. |
+| **Tekstspatiëring** (reeksspatiëring) | Standaard geïnstalleerd | Deze workflow voert het herstel en de consolidatie van trackinggegevens uit. Het verzekert ook de herberekening van het volgen en leveringsstatistieken, vooral die gebruikt door het archiveren van het Centrum van het Bericht werkschema. Deze wordt standaard één keer per uur geactiveerd. |
 | **Status van gebeurtenis bijwerken** (updateEventsStatus) | Transactiebericht uitvoeren (Berichtcentrum - Uitvoering) | Met deze workflow kunt u een status aan een gebeurtenis toewijzen. Gebeurtenisstatussen zijn als volgt:<ul><li>In behandeling: de gebeurtenis bevindt zich in een wachtrij. Er is nog geen berichtsjabloon aan gekoppeld.</li><li>In afwachting van levering: Als de gebeurtenis zich in een wachtrij bevindt, is er een berichtsjabloon aan gekoppeld en wordt deze momenteel verwerkt door de levering.</li><li>Verzonden: deze status wordt gekopieerd uit de leveringslogboeken. Dit betekent dat de levering is verzonden.</li><li>Genegeerd door de levering: deze status wordt gekopieerd uit de leveringslogboeken. Het betekent dat de levering is genegeerd.</li><li>Afleveringsfout: deze status wordt gekopieerd uit de leveringslogboeken. Het betekent dat de levering is mislukt.</li><li>Gebeurtenis niet gedekt: de gebeurtenis is niet gekoppeld aan een berichtsjabloon. De gebeurtenis wordt niet opnieuw verwerkt.</li></ul> |
 | **Update voor leverbaarheid** (DeliabilityUpdate) | Standaard geïnstalleerd | Zodra het pakket voor de bewaking van de aflevering (e-mail aflevering) is geïnstalleerd, wordt deze workflow elke avond uitgevoerd en worden de kwalificatieregels voor stuiterende e-mailadressen en de lijst met domeinen en MX&#39;s beheerd. Hiervoor moet de HTTPS-poort open zijn op het platform. |

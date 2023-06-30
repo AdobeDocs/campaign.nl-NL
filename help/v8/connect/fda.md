@@ -5,7 +5,7 @@ feature: Federated Data Access
 role: Admin
 level: Beginner, Intermediate
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten op een of meer **externe databases** en procesgegevens die in deze bestanden zijn opgeslagen, zonder dat dit van invloed is op de gegevens van de Campagne Cloud Database. U kunt externe gegevens vervolgens openen zonder de structuur van Adobe Campaign-gegevens te wijzigen.
 
-![](../assets/do-not-localize/speech.png)   Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om uw externe database(s) te verbinden met Campagne.
+![](../assets/do-not-localize/speech.png) Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om uw externe database(s) te verbinden met Campagne.
 
 
 >[!NOTE]
@@ -25,7 +25,6 @@ Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten o
 >
 >* In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md), is er een specifieke externe account beschikbaar voor het beheer van de communicatie tussen de lokale database van Campagne en de cloud-database van Snowflake. Deze externe account is voor u ingesteld door Adobe en **mogen** worden gewijzigd.
 >
-
 
 
 ## Best practices en beperkingen
@@ -41,11 +40,12 @@ Houd ook rekening met de volgende beperkingen en beste praktijken:
    * Exporteer de Adobe Campaign-database naar de externe database en voer de bewerkingen alleen uit vanuit de externe database voordat u de resultaten opnieuw importeert in Adobe Campaign.
 
    * Verzamel de gegevens in de externe Adobe Campaign-database en voer de bewerkingen lokaal uit.
-   Als u personalisatie in uw leveringen wilt uitvoeren gebruikend gegevens van het externe gegevensbestand, verzamel de gegevens in een werkschema te gebruiken om het ter beschikking te stellen in een tijdelijke lijst. Dan gebruik de gegevens van de tijdelijke lijst om uw levering te personaliseren. Om dit uit te voeren, pre-proces berichtverpersoonlijking in een specifieke werkschema gebruikend **[!UICONTROL Prepare the personalization data with a workflow]** beschikbaar in het dialoogvenster **[!UICONTROL Analysis]** tabblad van de leveringseigenschappen. Tijdens de leveringsanalyse, leidt deze optie automatisch tot en voert een werkschema uit dat alle gegevens met betrekking tot het doel in een tijdelijke lijst, met inbegrip van gegevens van lijsten verbonden in een extern gegevensbestand opslaat.
 
-   >[!CAUTION]
-   >
-   >Met deze optie worden de prestaties aanzienlijk verbeterd wanneer de stap voor personalisatie wordt uitgevoerd.
+  Als u personalisatie in uw leveringen wilt uitvoeren gebruikend gegevens van het externe gegevensbestand, verzamel de gegevens in een werkschema te gebruiken om het ter beschikking te stellen in een tijdelijke lijst. Dan gebruik de gegevens van de tijdelijke lijst om uw levering te personaliseren. Om dit uit te voeren, pre-proces berichtverpersoonlijking in een specifieke werkschema gebruikend **[!UICONTROL Prepare the personalization data with a workflow]** beschikbaar in het dialoogvenster **[!UICONTROL Analysis]** tabblad van de leveringseigenschappen. Tijdens de leveringsanalyse, leidt deze optie automatisch tot en voert een werkschema uit dat alle gegevens met betrekking tot het doel in een tijdelijke lijst, met inbegrip van gegevens van lijsten verbonden in een extern gegevensbestand opslaat.
+
+  >[!CAUTION]
+  >
+  >Met deze optie worden de prestaties aanzienlijk verbeterd wanneer de stap voor personalisatie wordt uitgevoerd.
 
 
 ## Externe gegevens gebruiken in een workflow

@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8-documentatie
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van Campaign
-source-git-commit: cd8ce8e16622010c1498bfaa244dda7095d9adc1
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 23%
@@ -24,8 +24,6 @@ ht-degree: 23%
    + [Guardrails](start/ac-guardrails.md)
    + [Bekende problemen](start/known-issues.md)
    + [Compatibiliteitsmatrix](start/compatibility-matrix.md)
-   + Technische opmerkingen{#technotes}
-      + [Technische operator migreren naar Developer Console](start/ims-migration.md)
 + Aan de slag {#new}
    + [Aan de slag met Adobe Campaign](start/get-started.md)
    + [Belangrijkste mogelijkheden](start/whats-new.md)
@@ -48,6 +46,7 @@ ht-degree: 23%
       + Pushmeldingen {#push}
          + [Pushmeldingen maken en verzenden](send/push.md)
          + [Pushmeldingskanaal configureren](send/push-settings.md)
+         + [Pushmeldingen configureren met gegevensverzameling](send/push-data-collection.md)
       + [REGELS](send/line.md)
       + [Direct mail](send/direct-mail.md)
       + [Twitter](send/twitter.md)

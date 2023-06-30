@@ -5,9 +5,9 @@ feature: FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -74,19 +74,6 @@ Adobe Campaign verwijdert automatisch gedupliceerde UUID&#39;s uit een publiek t
 In de context van een [Implementatie van ondernemingen (FFDA)](enterprise-deployment.md), kunt u geen interne sleutel (UUID) als gebied selecteren om gegevens in een werkschema bij te werken.
 
 ![](assets/update-data-no-internal-key.png)
-
-Bij het gebruik van de expliciete afstemmingssleutel wordt de **Gegevens bijwerken** de activiteit verzekert automatisch uniciteit van het bestemmingsschema dat op deze sleutel door wordt gebaseerd:
-
-1. Binnenkomende gegevens dedupliceren (van overgang)
-1. Gegevens dedupliceren met doeltabel (samenvoegen)
-
-
-![](assets/update-data-deduplicate.png)
-
->[!CAUTION]
->
->Deze handleiding is alleen van toepassing op optie **[!UICONTROL Using reconciliation keys]**.
-
 
 ### Een query uitvoeren op een schema met duplicaten{#query-with-duplicates}
 

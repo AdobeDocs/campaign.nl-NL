@@ -5,10 +5,10 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: c46eaa73deed643a4e92928b6ce2b1beb1596d73
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 4%
+source-wordcount: '1085'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,6 @@ U kunt externe accounts openen vanuit Adobe Campaign **[!UICONTROL Explorer]**: 
 >* In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md)een specifieke **[!UICONTROL Full FDA]** (ffd bis) externe account beheert verbinding tussen lokale database voor campagne en Cloud-database ([!DNL Snowflake]).
 >
 
-
 ## Campagne-specifieke externe rekeningen
 
 Adobe Campaign gebruikt de volgende technische accounts om specifieke processen in te schakelen en uit te voeren.
@@ -41,6 +40,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 >[!NOTE]
 >
 >De Microsoft Exchange Online OAuth 2.0-verificatie voor POP3-mogelijkheden is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
+>
 
 De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
@@ -60,7 +60,7 @@ Om het **[!UICONTROL Bounce mails (defaultPopAccount)]** externe rekening:
 
 * **[!UICONTROL Encryption]** - Type gekozen codering tussen **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** of **[!UICONTROL POP3S]**.
 
-   De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
+  De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
 * **[!UICONTROL Function]** - Binnenkomende e-mail of SOAP-router
 
@@ -69,6 +69,7 @@ Om het **[!UICONTROL Bounce mails (defaultPopAccount)]** externe rekening:
 >[!CAUTION]
 >
 >Voordat u uw POP3-externe account configureert met Microsoft OAuth 2.0, moet u uw toepassing eerst registreren in de Azure-portal. Raadpleeg de volgende secties voor meer informatie [page](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
+>
 
 Om POP3 extern te vormen gebruikend Microsoft OAuth 2.0, controleer **[!UICONTROL Microsoft OAuth 2.0]** en vult de volgende velden in:
 
@@ -80,15 +81,11 @@ Om POP3 extern te vormen gebruikend Microsoft OAuth 2.0, controleer **[!UICONTRO
 
 * **[!UICONTROL Azure Redirect URL]** - URL omleiden vindt u in het dialoogvenster **Verificatie** in het Azure-portaal. Het moet eindigen met de volgende syntaxis `nl/jsp/oauth.jsp`, bijvoorbeeld `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
-   Nadat u de andere gegevens hebt ingevoerd, kunt u op **[!UICONTROL Setup the connection]** om de configuratie van uw externe account te voltooien.
+  Nadat u de andere gegevens hebt ingevoerd, kunt u op **[!UICONTROL Setup the connection]** om de configuratie van uw externe account te voltooien.
 
 ### Routering {#routing}
 
 De **[!UICONTROL Routing]** met een externe account kunt u elk kanaal dat beschikbaar is in Adobe Campaign configureren, afhankelijk van de geïnstalleerde pakketten.
-
->[!CAUTION]
->
->De **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) externe account **mogen** moet zijn ingeschakeld in Adobe Campaign v8.
 
 ### Uitvoeringsinstantie {#execution-instance}
 
@@ -98,7 +95,7 @@ In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbo
 
 * **Externe database (FDA)** - de **Externe database** type external account wordt gebruikt om verbinding te maken met een externe database via Federated Data Access (FDA). Meer informatie over de FDA-optie (Federated Data Access) vindt u in [deze sectie](../connect/fda.md).
 
-   Externe databases die compatibel zijn met Adobe Campaign v8, worden vermeld in de [Compatibiliteitsmatrix](../start/compatibility-matrix.md)
+  Externe databases die compatibel zijn met Adobe Campaign v8, worden vermeld in de [Compatibiliteitsmatrix](../start/compatibility-matrix.md)
 
 * **Twitter** - de **Twitter** Typ external account wordt gebruikt om campagne te verbinden met je twitter account, om berichten namens jou te posten. Meer informatie over Twitter-integratie in [deze sectie](../connect/ac-tw.md).
 
@@ -123,7 +120,11 @@ Deze externe accounts kunnen worden gebruikt voor het importeren of exporteren v
 
 * **FTP en SFTP** - de **FTP** Met een externe account kunt u toegang tot een server buiten Adobe Campaign configureren en testen. Als u verbindingen wilt instellen met externe systemen, zoals SFTP- of FTP-servers 898 die worden gebruikt voor bestandsoverdracht, kunt u uw eigen externe accounts maken.
 
-   Hiertoe geeft u in deze externe account het adres en de referenties op die worden gebruikt om de verbinding met de SFTP- of FTP-server tot stand te brengen.
+  Hiertoe geeft u in deze externe account het adres en de referenties op die worden gebruikt om de verbinding met de SFTP- of FTP-server tot stand te brengen.
+
+  >[!NOTE]
+  >
+  >Vanaf versie 8.5 kunt u nu veilig verifiëren met een persoonlijke sleutel wanneer u uw SFTP-externe account configureert. [Meer informatie over sleutelbeheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html)
 
 * **Amazon Simple Storage Service (S3)** - de **AWS S3** -connector kan worden gebruikt om gegevens te importeren of naar Adobe Campaign te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
 

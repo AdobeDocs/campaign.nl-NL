@@ -4,18 +4,78 @@ description: Nieuwste versie van Campagne v8
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
-hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 44743e585119e8cd81a8fcc9b4d667c25c0d438e
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 31%
+source-wordcount: '1320'
+ht-degree: 18%
 
 ---
 
 # Nieuwste release{#latest-release}
 
-Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd met de **nieuwste versie van Campaign v8**.
+Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van updates is bedoeld om u het nieuwste en beste in handen te geven, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Adobe raadt alle klanten ten zeerste aan een upgrade uit te voeren naar de nieuwste versie.
+
+Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgeving upgraden. Campagne-clientconsole **moet worden bijgewerkt naar dezelfde versie** als Campagneservers. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
+
+Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde versies van de systemen gebruikt die in de [Compatibiliteitsmatrix](compatibility-matrix.md).
+
+## Release 8.5 {#release-8-5}
+
+_30 juni 2023_
+
+**Nieuwe functies**
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Enhanced Push Notification Service</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td><p>Campagne 8.5 introduceert onze nieuwste pushmeldingenservice op v8, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken. Deze mogelijkheid is alleen beschikbaar voor een geselecteerde groep klanten (beperkte beschikbaarheid).</p>
+<p>Raadpleeg de <a href="../send/push-data-collection.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Compatibiliteitsupdates**
+
+* De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de Client Console alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Raadpleeg voor meer informatie over het upgraden van uw besturingssysteem [technote](../../technotes/upgrades/console.md).
+* U kunt nu uw Campagne v8 instantie met uw Azure synapse externe gegevensbestand verbinden. Deze verbinding wordt beheerd via een nieuw extern account. Meer informatie in [Matrixcompatibiliteitsmatrix voor campagnes](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+
+**Verbeteringen**
+
+* De productie van SMS is beduidend verbeterd door een waaier van optimalisaties uit te voeren, resulterend in betere snelheid en efficiency voor de mededeling van SMS.
+* U kunt nu Adobe Experience Platform Destination-verbinding gebruiken om profielkenmerken, zoals gegevens voor niet-toegang, te synchroniseren tussen Adobe Experience Platform en de v8-database voor Campagne.
+* De voorbereiding van de levering is geoptimaliseerd.
+* Er is een nieuwe op sleutels gebaseerde verificatieoptie toegevoegd voor de externe SFTP-account, naast de bestaande verificatiemethode voor gebruikers/wachtwoorden. Gebruikers kunnen nu veilig verifiëren met een persoonlijke sleutel, waardoor de beveiliging wordt verbeterd en een alternatief verificatiemechanisme voor SFTP-toegang wordt geboden. Meer informatie in [deze sectie](../config/external-accounts.md).
+
+**Verbeterde beveiliging**
+
+* Vanaf Campagne v8.5 is het verificatieproces naar Campagne v8 verbeterd. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne. Leer hoe u uw bestaande technische account(s) kunt migreren in [dit technote](../../technotes/upgrades/ims-migration.md).
+* U kunt geen exploitanten meer van de Console van de Cliënt van de Campagne tot stand brengen. De gebruikersinterface is dienovereenkomstig bijgewerkt. Nu moet je Adobe Admin Console gebruiken. [Meer informatie](../start/gs-permissions.md).
+* Verschillende hulpmiddelen van derden zijn bijgewerkt om de beveiliging te optimaliseren.
+
+**Patches**
+
+* Probleem verholpen waarbij speciale tekens in de HTML-inhoud van een levering onjuist werden gecodeerd in verschillende browsers. (NEO-60081)
+* Probleem verholpen waardoor u geen rapport kon opslaan over een FFDA-implementatie (Campaign v8 Enterprise). (NEO-56836)
+* Probleem verholpen bij het invoegen of bijwerken van gegevens in een aangepast FFDA-schema via de workflowactiviteit Gegevens bijwerken. (NEO-54708)
+* Probleem verholpen waardoor de workflow voor het opschonen van databases geen adressen kon verwijderen in de tabel nms:address in FFDA. (NEO-54460)
+* Probleem met de factureringsworkflow verholpen waarbij een fout met het compilatiegeheugen is opgetreden. (NEO-51137)
+* Probleem opgelost waarbij de GPG-decodering niet correct werkte in de werkstroomactiviteit voor het laden van gegevens (bestand). (NEO-50257)
+* Er is een probleem verholpen waardoor de functie `JSPContext.sqlExecWithOneParam` niet werkte. (NEO-50066)
+* Probleem verholpen dat tot leveringsfouten leidde bij het gebruik van niet-afdrukbare tekens in personalisatievelden. (NEO-48588)
+* Probleem verholpen waarbij leveringsfouten kunnen optreden bij het invoegen van dynamische Adobe Target-afbeeldingen. (NEO-62689)
+* Probleem verholpen waarbij browsers geen extra spaties konden toevoegen wanneer voorwaardelijke inhoud in een levering werd gebruikt. (NEO-62132)
+* Probleem verholpen waarbij een pop-upvenster werd geopend wanneer werd geklikt op een afbeelding in de e-mailinhoudeditor. (NEO-60752)
+* Probleem verholpen dat tot een fout kon leiden en ertoe kon leiden dat u niet kon schuiven wanneer u de inhoud van een levering bewerkt. (NEO-61364)
+* Adobe Analytics-connector exporteert nu de metriek met het juiste kanaaltype. Deze was voorheen altijd ingesteld als &#39;email&#39;-kanaal. (NEO-26340)
+
 
 ## Release 8.4.5 {#release-8-4-5}
 
@@ -30,9 +90,6 @@ _3 april 2023_
 * Oplossing voor een regressieprobleem dat in 8.3.8 werd geïntroduceerd en waardoor de leveringsstatus niet correct kon worden bijgewerkt voor leveringen met negatieve id&#39;s. (NEO-54675)
 * Probleem verholpen met Booleaanse velden bij het importeren van gegevens via de Big Query-connector (NEO-49181)
 
->[!CAUTION]
->
-> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
 
 ## Release 8.4.4 {#release-8-4-4}
 
@@ -46,11 +103,6 @@ _8 maart 2023_
 
 * Probleem verholpen waardoor scrollen soms niet mogelijk was in het tabblad **Bewerken** van de Digital Content Editor (DCE). (NEO-54474)
 * Probleem verholpen tijdens replicatie die tot een crash van een webserver kan leiden. (NEO-53670)
-
-
->[!CAUTION]
->
-> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
 
 
 ## Release 8.4.3 {#release-8-4-3}
@@ -85,6 +137,3 @@ _27 januari 2023_
 * Probleemoplossing die ervoor zorgde dat de aangepaste kolom &quot;lastModified&quot; in de tabel NmsSubscription zou worden verwijderd. (NEO-48402)
 
 
->[!CAUTION]
->
-> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
