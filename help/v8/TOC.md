@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8-documentatie
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van Campaign
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 4f3e6227193fc607a968f9170484017e551fa560
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 23%
+source-wordcount: '569'
+ht-degree: 22%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 23%
       + E-mails {#emails}
          + [E-mails ontwerpen en valideren](send/email.md)
          + [Koppeling maken naar de spiegelpagina](send/mirror-page.md)
+         + [Aanvullende e-mailparameters definiëren](send/email-parameters.md)
          + [E-mails verzenden en controleren](send/send.md)
       + [Sms](send/sms.md)
       + Pushmeldingen {#push}
@@ -71,6 +72,7 @@ ht-degree: 23%
       + Levering valideren {#validate}
          + [Voorvertoning en proefdrukken](send/preview-and-proof.md)
          + [Leveringsanalyse](send/delivery-analysis.md)
+      + [De levering configureren en verzenden](send/configure-and-send.md)
 + Profiel- en publieksbeheer {#audience}
    + [Aan de slag met profielen en doelgroepen](audiences/gs-audiences.md)
    + [Werken met het publiek](start/audiences.md)
