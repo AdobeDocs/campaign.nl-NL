@@ -4,9 +4,9 @@ description: Leer hoe u e-mailberichten configureert in Adobe Campaign.
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 21e251acd76f2bbb751f8e295934d597af336559
+source-git-commit: 263ec61c3717c054cc135f1c4fb1f7e287e4a154
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1128'
 ht-degree: 4%
 
 ---
@@ -113,7 +113,7 @@ Volg de onderstaande stappen om dit te doen.
    * Selecteer [**Zo snel mogelijk leveren**].
    * Selecteer **[!UICONTROL Postpone the delivery]**. [Meer informatie](#schedule-delivery-sending)
 
-1. Klik op **[!UICONTROL Analyze]**. Zie voor meer informatie [De analyse starten](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+1. Klik op **[!UICONTROL Analyze]**. Zie [deze sectie](delivery-analysis.md)voor meer informatie.
 
    ![](assets/delivery-send-analyze.png)
 
