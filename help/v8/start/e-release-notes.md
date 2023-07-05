@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 9736ebb3d2a60bfe23b135318b899acb657a580c
+source-git-commit: 958d2e8acdb9edee74f55bc3ea808f5072bf8f4d
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 7%
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Op deze pagina vindt u een beschrijving van de verbeteringen en correcties die zijn opgenomen in de volgende versie van Campagne v8. Deze inhoud kan tot de releasedatum zonder voorafgaande kennisgeving worden gewijzigd. De officiële opmerkingen bij de release staan in dit [page](../start/release-notes.md).
 
-## Release 8.5 {#release-8-5}
+## Release 8.5.1 {#release-8-5}
 
 _30 juni 2023_
 
@@ -32,7 +32,7 @@ _30 juni 2023_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campagne 8.5 introduceert onze nieuwste pushmeldingenservice op v8, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken. Deze mogelijkheid is alleen beschikbaar voor een geselecteerde groep klanten (beperkte beschikbaarheid).</p>
+<td><p>Campagne 8.5.1 introduceert onze nieuwste pushmeldingenservice op v8, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken. Deze mogelijkheid is alleen beschikbaar voor een geselecteerde groep klanten (beperkte beschikbaarheid).</p>
 </td> 
 </tr> 
 </tbody> 
@@ -46,7 +46,7 @@ _30 juni 2023_
 **Verbeteringen**
 
 * De productie van SMS is beduidend verbeterd door een waaier van optimalisaties uit te voeren, resulterend in betere snelheid en efficiency voor de mededeling van SMS.
-* Vanaf Campagne v8.5 is het verificatieproces naar Campagne v8 verbeterd. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne.
+* Vanaf Campagne v8.5.1 is het verificatieproces naar Campagne v8 verbeterd. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne.
 * U kunt nu Bestemming- en Bronverbindingen gebruiken om profielkenmerken, zoals uitschakelgegevens, te synchroniseren tussen de Adobe Experience Platform- en Campagne v8-database
 * De voorbereiding van de levering is geoptimaliseerd.
 * Er is een nieuwe op sleutels gebaseerde verificatieoptie toegevoegd voor de externe SFTP-account, naast de bestaande verificatiemethode voor gebruikers/wachtwoorden. Gebruikers kunnen nu veilig verifiëren met een persoonlijke sleutel, waardoor de beveiliging wordt verbeterd en een alternatief verificatiemechanisme voor SFTP-toegang wordt geboden.
