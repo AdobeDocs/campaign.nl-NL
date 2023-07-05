@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
+source-git-commit: d5bd383dca524e15a098fc63661236b50144cb3d
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 18%
@@ -20,7 +20,7 @@ Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Ado
 
 Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde versies van de systemen gebruikt die in de [Compatibiliteitsmatrix](compatibility-matrix.md).
 
-## Release 8.5 {#release-8-5}
+## Release 8.5.1 {#release-8-5}
 
 _30 juni 2023_
 
@@ -34,7 +34,7 @@ _30 juni 2023_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campaign v8.5 introduceert onze nieuwste pushmeldingsservice, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken. Deze mogelijkheid is alleen beschikbaar voor een geselecteerde groep klanten (beperkte beschikbaarheid).</p>
+<td><p>Campagne v8.5.1 introduceert onze nieuwste Push-meldingsservice, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken. Deze mogelijkheid is alleen beschikbaar voor een geselecteerde groep klanten (beperkte beschikbaarheid).</p>
 <p>Raadpleeg de <a href="../send/push-data-collection.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 
 </td> 
@@ -56,7 +56,7 @@ _30 juni 2023_
 
 **Verbeterde beveiliging**
 
-* Vanaf Campagne v8.5 is het verificatieproces naar Campagne v8 verbeterd. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne. Leer hoe u uw bestaande technische account(s) kunt migreren in [dit technote](../../technotes/upgrades/ims-migration.md).
+* Vanaf Campagne v8.5.1 is het verificatieproces naar Campagne v8 verbeterd. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne. Leer hoe u uw bestaande technische account(s) kunt migreren in [dit technote](../../technotes/upgrades/ims-migration.md).
 * U kunt geen exploitanten meer van de Console van de Cliënt van de Campagne tot stand brengen. De gebruikersinterface is dienovereenkomstig bijgewerkt. Nu moet je Adobe Admin Console gebruiken. [Meer informatie](../start/gs-permissions.md).
 * Verschillende hulpmiddelen van derden zijn bijgewerkt om de beveiliging te optimaliseren.
 
