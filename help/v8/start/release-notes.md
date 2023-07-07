@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d5bd383dca524e15a098fc63661236b50144cb3d
+source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 18%
@@ -42,12 +42,10 @@ _30 juni 2023_
 </tbody> 
 </table>
 
-**Compatibiliteitsupdates**
-
-* De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de Client Console alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Raadpleeg voor meer informatie over het upgraden van uw besturingssysteem [technote](../../technotes/upgrades/console.md).
-* U kunt nu uw Campagne v8 instantie met uw Azure synapse externe gegevensbestand verbinden. Deze verbinding wordt beheerd via een nieuw extern account. Meer informatie in [Matrixcompatibiliteitsmatrix voor campagnes](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 **Verbeteringen**
+
+
+
 
 * De productie van SMS is beduidend verbeterd door een waaier van optimalisaties uit te voeren, resulterend in betere snelheid en efficiency voor de mededeling van SMS.
 * U kunt nu Adobe Experience Platform Destination-verbinding gebruiken om profielkenmerken, zoals gegevens voor niet-toegang, te synchroniseren tussen Adobe Experience Platform en de v8-database voor Campagne.
@@ -59,6 +57,13 @@ _30 juni 2023_
 * Vanaf Campagne v8.5.1 is het verificatieproces naar Campagne v8 verbeterd. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne. Leer hoe u uw bestaande technische account(s) kunt migreren in [dit technote](../../technotes/upgrades/ims-migration.md).
 * U kunt geen exploitanten meer van de Console van de Cliënt van de Campagne tot stand brengen. De gebruikersinterface is dienovereenkomstig bijgewerkt. Nu moet je Adobe Admin Console gebruiken. [Meer informatie](../start/gs-permissions.md).
 * Verschillende hulpmiddelen van derden zijn bijgewerkt om de beveiliging te optimaliseren.
+
+**Compatibiliteitsupdates**
+
+* De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de Client Console alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Raadpleeg voor meer informatie over het upgraden van uw besturingssysteem [technote](../../technotes/upgrades/console.md).
+* U kunt nu uw Campagne v8 instantie met uw Azure synapse externe gegevensbestand verbinden. Deze verbinding wordt beheerd via een nieuw extern account. Meer informatie in [Matrixcompatibiliteitsmatrix voor campagnes](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+
+
 
 **Patches**
 
