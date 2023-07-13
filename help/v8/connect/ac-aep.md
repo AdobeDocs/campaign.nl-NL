@@ -5,7 +5,7 @@ feature: Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: 8f7c723b8ef7ab6c8449eaec8ff6c87b9ee5deec
+source-git-commit: d9a91fddbdcfae0f59fe780f8b6962238b89c886
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -30,7 +30,7 @@ De belangrijkste stappen voor het verzenden van een Adobe Experience Platform-pu
 
       ![](assets/aep-audience-sync.png){width="800" align="center"}
 
-   1. Selecteer de segmenten die u wilt doorsturen naar de Adobe-campagne.
+   1. Selecteer de segmenten die u wilt doorsturen naar Adobe Campaign.
    1. Vorm de attributen die u in het publiek wilt uitvoeren.
    1. Zodra de stroom is gevormd, zal het geselecteerde publiek voor activering in Adobe Campaign beschikbaar zijn.
 
@@ -52,7 +52,7 @@ Stel bijvoorbeeld dat u waarden voor opt-in en opt-out vastlegt in Adobe Experie
 
 >[!NOTE]
 >
->Synchronisatie van profielkenmerken is beschikbaar voor profielen die al aanwezig zijn in de Adobe Campine-database.
+>Synchronisatie van profielkenmerken is beschikbaar voor profielen die al aanwezig zijn in de Adobe Campaign-database.
 
 De belangrijkste stappen voor het synchroniseren van Adobe Experience Platform-profielkenmerken met Adobe Campaign zijn als volgt:
 
