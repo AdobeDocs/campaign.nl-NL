@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
+source-git-commit: 70171ecfb39116f4db4c05ab03b55502e3faed43
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1337'
 ht-degree: 18%
 
 ---
@@ -80,6 +80,7 @@ _30 juni 2023_
 * Probleem verholpen waarbij een pop-upvenster werd geopend wanneer werd geklikt op een afbeelding in de e-mailinhoudeditor. (NEO-60752)
 * Probleem verholpen dat tot een fout kon leiden en ertoe kon leiden dat u niet kon schuiven wanneer u de inhoud van een levering bewerkt. (NEO-61364)
 * Adobe Analytics-connector exporteert nu de metriek met het juiste kanaaltype. Deze was voorheen altijd ingesteld als &#39;email&#39;-kanaal. (NEO-26340)
+* Probleem verholpen dat tot fouten kon leiden wanneer de Big Query-aansluiting met datetime-velden werd gebruikt. (NEO-49768)
 
 
 ## Release 8.4.5 {#release-8-4-5}
