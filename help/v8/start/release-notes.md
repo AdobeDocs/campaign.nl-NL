@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 70171ecfb39116f4db4c05ab03b55502e3faed43
+source-git-commit: 32d0264c03eb4ec6ab1959d0a66be78c06a0dccb
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 18%
+source-wordcount: '1453'
+ht-degree: 16%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van updates is bedoeld om u het nieuwste en beste in handen te geven, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Adobe raadt alle klanten ten zeerste aan een upgrade uit te voeren naar de nieuwste versie.
 
-Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgeving upgraden. Campagne-clientconsole **moet worden bijgewerkt naar dezelfde versie** als Campagneservers. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
+Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgeving upgraden. Campagne-clientconsole **moet worden geüpgraded naar dezelfde versie** als Campagneservers. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
 
 Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde versies van de systemen gebruikt die in de [Compatibiliteitsmatrix](compatibility-matrix.md).
 
@@ -24,45 +24,69 @@ Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde ve
 
 _30 juni 2023_
 
-**Nieuwe functies**
 
-<table> 
-<thead>
-<tr> 
-<th> <strong>Enhanced Push Notification Service</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td><p>Campagne v8.5.1 introduceert onze nieuwste Push-meldingsservice, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken. Deze mogelijkheid is alleen beschikbaar voor een geselecteerde groep klanten (beperkte beschikbaarheid).</p>
-<p>Raadpleeg de <a href="../send/push-data-collection.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+**Enhanced Push Notification Service**
 
-</td> 
-</tr> 
-</tbody> 
-</table>
+Campagne v8.5.1 introduceert onze nieuwste Push-meldingsservice, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken. Deze mogelijkheid is alleen beschikbaar voor een geselecteerde groep klanten (beperkte beschikbaarheid).
 
-**Verbeteringen**
+Raadpleeg de [gedetailleerde documentatie](../send/push-data-collection.md) voor meer informatie.
 
 
+**Verhoogde doorvoer van mobiele kanalen**
+
+<!--
+The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
+
+* Push Notifications (Android): up to **5x** faster
+* Push Notifications (iOS): up to **2.2x** faster
+
+SMS throughput has undergone substantial enhancements through a series of optimizations, resulting in notable improvements in speed and efficiency for SMS communication. These upgrades have led to increased throughput from the previous version (v8.4) to the latest version (v8.5), encompassing both sending and feedback updates. Users can now experience the benefits of this enhanced SMS service.</p>
+
+* SMS throughput: up to **5x** faster
+
+These max throughput performances have been measured by Adobe testing teams, in lab conditions.
+-->
+
+<table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
+<td>
+<img alt="Verbeteringen van de doorvoer" src="../start/assets/do-not-localize/improvements.jpeg">
+<p>
+</td>
+<td>
+<div>
+
+<p>De nieuwe Push-meldingsservice laat zien dat de doorvoer voor zowel Push Android als Push iOS aanzienlijk is verbeterd ten opzichte van onze vorige versie (v8.4). De gebruikers zullen met name verbeterde prestaties met de verbeterde dienst in de recentste versie (v8.5) ervaren. </p>
+<ul>
+<li>Pushmeldingen (Android): tot <strong>5x</strong> sneller </li>
+<li>Pushmeldingen (iOS): maximaal <strong>2,2 x</strong> sneller</li>
+</ul>
+<p>De productie van SMS heeft aanzienlijke verhogingen door een reeks optimalisaties ondergaan, resulterend in opmerkelijke verbeteringen in snelheid en efficiency voor de mededeling van SMS. Deze upgrades hebben geleid tot een hogere doorvoer van de vorige versie (v8.4) naar de nieuwste versie (v8.5), die zowel updates voor verzenden als feedback omvat. Gebruikers kunnen nu profiteren van de voordelen van deze verbeterde SMS-service.</p>
+<ul>
+<li>SMS-doorvoer: maximaal <strong>5x</strong> sneller</li>
+</ul>
+<p><em>Deze maximumproductieprestaties zijn gemeten door Adobe testende teams, in laboratoriumomstandigheden.</em></p>
+</div>
+<p></p>
+</td>
+</tr></table>
 
 
-* De productie van SMS is beduidend verbeterd door een waaier van optimalisaties uit te voeren, resulterend in betere snelheid en efficiency voor de mededeling van SMS.
+**Algemene verbeteringen**
+
 * U kunt nu Adobe Experience Platform Destination-verbinding gebruiken om profielkenmerken, zoals gegevens voor niet-toegang, te synchroniseren tussen Adobe Experience Platform en de v8-database voor Campagne.
-* De voorbereiding van de levering is geoptimaliseerd.
+* De voorbereiding van de levering is op alle kanalen geoptimaliseerd.
 * Er is een nieuwe op sleutels gebaseerde verificatieoptie toegevoegd voor de externe SFTP-account, naast de bestaande verificatiemethode voor gebruikers/wachtwoorden. Gebruikers kunnen nu veilig verifiëren met een persoonlijke sleutel, waardoor de beveiliging wordt verbeterd en een alternatief verificatiemechanisme voor SFTP-toegang wordt geboden. Meer informatie in [deze sectie](../config/external-accounts.md).
 
 **Verbeterde beveiliging**
 
 * Vanaf Campagne v8.5.1 is het verificatieproces naar Campagne v8 verbeterd. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne. Leer hoe u uw bestaande technische account(s) kunt migreren in [dit technote](../../technotes/upgrades/ims-migration.md).
-* U kunt geen exploitanten meer van de Console van de Cliënt van de Campagne tot stand brengen. De gebruikersinterface is dienovereenkomstig bijgewerkt. Nu moet je Adobe Admin Console gebruiken. [Meer informatie](../start/gs-permissions.md).
+* U kunt geen operatoren meer maken vanuit de Campagne Client Console. De gebruikersinterface is dienovereenkomstig bijgewerkt. Nu moet je Adobe Admin Console gebruiken. [Meer informatie](../start/gs-permissions.md).
 * Verschillende hulpmiddelen van derden zijn bijgewerkt om de beveiliging te optimaliseren.
 
 **Compatibiliteitsupdates**
 
 * De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de Client Console alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Raadpleeg voor meer informatie over het upgraden van uw besturingssysteem [technote](../../technotes/upgrades/console.md).
 * U kunt nu uw Campagne v8 instantie met uw Azure synapse externe gegevensbestand verbinden. Deze verbinding wordt beheerd via een nieuw extern account. Meer informatie in [Matrixcompatibiliteitsmatrix voor campagnes](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 
 
 **Patches**

@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;populaire onderwerpen
 description: Campagne v8 Help Center
 title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
+source-git-commit: c42dfe96f1f18f1d9eab0a8761c1ea65479962b2
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 17%
+source-wordcount: '153'
+ht-degree: 18%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 17%
 
 * **[Nieuwe functies in v8](start/whats-new.md)** - Mogelijkheden van Campagne v8 ontdekken
 
-* **[Uitvoeringsrichtsnoeren](start/implement.md)**  - Leer hoe u uw implementatie kunt starten
+* **[Implementatierichtlijnen](start/implement.md)**  - Leer hoe u uw implementatie kunt starten
 
 * **[Van v7 naar v8](start/v7-to-v8.md)** - Overstappen van Campaign Classic v7 naar v8? Belangrijkste verschillen leren
 
-* **[Configuratiescherm voor campagne v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}** - Beheerderstaken zelfstandig uitvoeren met het Configuratiescherm van campagne
+* **[Configuratiescherm voor campagne v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}** - Beheerderstaken zelfstandig uitvoeren met het Configuratiescherm van de campagne
 
 * **[Opmerkingen bij de release](start/release-notes.md)** - Ontdek de nieuwste functies en verbeteringen
 
@@ -66,15 +66,6 @@ ht-degree: 17%
 </a>
 <div>
 <a href="send/push.md"><strong>Pushmeldingen verzenden</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="../automation/workflow/about-workflows.md">
-<img alt="Campagnes maken" src="start/assets/do-not-localize/workflow.jpeg">
-</a>
-<div>
-<a href="../automation/workflow/about-workflows.md"><strong>Workflows maken</strong></a>
 </div>
 <p>
 </td>
