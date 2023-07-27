@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 1297d5a602d125cb80ca6efb490b12174bcea8d6
+source-git-commit: 2d0c82df052c9b8c9f264c2ad15ac6050025f770
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 5%
@@ -37,7 +37,7 @@ Het nieuwe aanbod combineert services van topklasse met proactief toezicht en ti
 
 Als voormalig [!DNL Campaign Classic] gebruiker, merk op dat het grootste deel van [!DNL Campaign Classic] v7-functies zijn beschikbaar via [!DNL Campaign] v8, met uitzondering van een kleine set, die worden vermeld in [deze sectie](#gs-removed).
 
-Campagne v8 is gebaseerd op een **hybride architectuur**. Als u van Campaign Classic v7 overgaat, merk op dat alle leveringen door de midsourcingserver gaan. [Meer informatie](../architecture/architecture.md). Als gevolg hiervan is interne routering **niet mogelijk** in Campagne v8 en de externe account is dienovereenkomstig uitgeschakeld.
+Campagne v8 is gebaseerd op een **hybride architectuur**. Als u van Campaign Classic v7 overgaat, merk op dat alle leveringen door de midsourcingserver gaan. Als gevolg hiervan is interne routering **niet mogelijk** in Campagne v8 en de externe account is dienovereenkomstig uitgeschakeld. [Meer informatie](../architecture/architecture.md).
 
 >[!NOTE]
 >
