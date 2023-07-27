@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 5d307e0fcafdc4d25402c62c6869ecc07c1a47e4
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '682'
 ht-degree: 5%
 
 ---
@@ -23,12 +23,11 @@ Als voormalig [!DNL Campaign Classic] v7 gebruiker, zou u geen grote verstoring 
 >* Geautomatiseerde migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
 
 
-
 ## Beheerde Cloud Services{#cloud-services}
 
 Adobe Campaign v8 is beschikbaar als een **Beheerde Cloud Service**.
 
-Adobe Campaign Managed Cloud Services biedt een platform van Beheerde Cloud Services voor het ontwerpen van klantervaringen over verschillende kanalen en biedt een omgeving voor visuele campagneorchestratie, interactiebeheer in real time en uitvoering over meerdere kanalen. Meer informatie over Cloud Services van Campagne Managed in de [productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services biedt een platform van Beheerde Cloud Services voor het ontwerpen van klantervaringen over verschillende kanalen en biedt een omgeving voor visuele campagneorchestratie, interactiebeheer in real time en uitvoering over meerdere kanalen. Meer informatie over Cloud Services van Campagne Managed in het dialoogvenster [productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 Het nieuwe aanbod combineert services van topklasse met proactief toezicht en tijdige waarschuwingen, waarbij de nadruk ligt op drie gebieden:
 
@@ -44,14 +43,15 @@ Als voormalig [!DNL Campaign Classic] gebruiker, merk op dat het grootste deel v
 >
 > Als gevolg hiervan is interne routering **niet mogelijk** in Campagne v8 en de externe account is dienovereenkomstig uitgeschakeld.
 
+Met de nieuwe cloudarchitectuur kan Campagne processen stroomlijnen, kosten verlagen, risico&#39;s beheren en de gegevensbeveiliging verbeteren. Uw Campagne v8-omgeving wordt geleverd met een speciale Virtual Private Cloud (VPC) die vooraf voor u is geconfigureerd.
 
 ## [!DNL Campaign] en [!DNL Snowflake] {#ac-gs-snowflake}
 
 Campagne v8 werkt met [!DNL Snowflake].
 
-In haar [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee databases: een lokale [!DNL Campaign] database voor realtime berichten en eenheidquery&#39;s in de gebruikersinterface en schrijven via API&#39;s en een cloud [!DNL Snowflake] database voor de uitvoering van campagnes, batchquery&#39;s en workflowuitvoering.
+In haar [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee databases : een lokaal [!DNL Campaign] database voor realtime berichten en eenheidquery&#39;s in de gebruikersinterface en schrijven via API&#39;s en een cloud [!DNL Snowflake] database voor de uitvoering van campagnes, batchquery&#39;s en workflowuitvoering.
 
-Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens bevinden zich nu op afstand in de cloud-database. Met deze nieuwe architectuur vereenvoudigt de implementatie van Campaign v8 Enterprise (FFDA) het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
+Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met deze nieuwe architectuur vereenvoudigt de implementatie van Campaign v8 Enterprise (FFDA) het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
 
 ![](../assets/do-not-localize/glass.png) Meer informatie over [!DNL Campaign] v8-architectuur in [deze pagina](../architecture/architecture.md).
 
@@ -64,13 +64,13 @@ Campagnegebruikers maken alleen verbinding via hun Adobe ID. Dezelfde Adobe ID w
 
 ## Gegevens met kubussen analyseren{#adobe-reporting}
 
-Met de module Marketing Analytics kunt u gegevens analyseren en meten, statistieken berekenen, het maken en berekenen van rapporten vereenvoudigen en optimaliseren. Daarnaast kunt u rapporten maken en doelgroepen opbouwen: zodra ze zijn geïdentificeerd, worden ze opgeslagen in lijsten die in Adobe Campaign kunnen worden gebruikt (gericht, segmentatie, enz.).
+Met de module Marketing Analytics kunt u gegevens analyseren en meten, statistieken berekenen, het maken en berekenen van rapporten vereenvoudigen en optimaliseren. Daarnaast kunt u rapporten maken en doelpopulaties samenstellen: als deze eenmaal zijn geïdentificeerd, worden ze opgeslagen in lijsten die kunnen worden gebruikt in Adobe Campaign (gericht, segmentatie, enz.).
 
 Met Adobe Campaign v8 zijn kubusrapporten geoptimaliseerd en bieden ze betere schaalmogelijkheden dan Campaign Classic v7. In dat specifieke implementatiemodel zijn eerdere beperkingen op kubussen niet van toepassing in Campaign v8. Meer informatie over kubussen in [deze sectie](../../v8/reporting/gs-cubes.md).
 
 ## Niet-beschikbare functies{#gs-unavailable-features}
 
-Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md) van campagne, zoals:
+Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md) van campagne, zoals:
 
 * Marketing Resource Management
 * Coupons
