@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 5d307e0fcafdc4d25402c62c6869ecc07c1a47e4
+source-git-commit: 1297d5a602d125cb80ca6efb490b12174bcea8d6
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '923'
 ht-degree: 5%
 
 ---
@@ -22,61 +22,75 @@ Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastruct
 
 ## Belangrijkste mogelijkheden{#key-capabilities}
 
-De belangrijkste mogelijkheden omvatten:
+De belangrijkste mogelijkheden worden hieronder vermeld.
 
-* **Centraal workflowbeheer**. Verbeter de snelheid en schaal van elk aspect van uw marketing campagnes, van het creëren van segmenten en het voorbereiden van berichten aan levering.
+### Centraal workflowbeheer{#central-wf-mgt}
 
-  Adobe Campaign maakt het voor u gemakkelijk om uw kanalen in synchronisatie te krijgen, met één enkele, makkelijk te gebruiken interface voor campagneorchestratie. Dus je online kanalen — zoals e-mail, web, mobiel en sociaal — komen overeen met je offlinekanalen, zoals direct mail, callcenter, in-store enzovoort. Het biedt u de mogelijkheid om uw klanten een consistente en contextuele ervaring te bieden in zowel digitale als traditionele kanalen. Adobe Campaign maakt het eenvoudig om inhoud aan alle wegen te leveren uw klanten - op om het even welk kanaal kunnen nemen.
+Verbeter de snelheid en schaal van elk aspect van uw marketing campagnes, van het creëren van segmenten en het voorbereiden van berichten aan levering.
 
-  ![](../assets/do-not-localize/glass.png) [Meer informatie over workflows voor campagnes](../config/workflows.md)
+Adobe Campaign maakt het voor u gemakkelijk om uw kanalen in synchronisatie te krijgen, met één enkele, makkelijk te gebruiken interface voor campagneorchestratie. Dus je online kanalen — zoals e-mail, web, mobiel en sociaal — komen overeen met je offlinekanalen, zoals direct mail, callcenter, in-store enzovoort. Het biedt u de mogelijkheid om uw klanten een consistente en contextuele ervaring te bieden in zowel digitale als traditionele kanalen. Adobe Campaign maakt het eenvoudig om inhoud aan alle wegen te leveren uw klanten - op om het even welk kanaal kunnen nemen.
 
-* **Speciale e-mailmarketing**. Maak persoonlijke en contextafhankelijke e-mails die consistent zijn met de rest van de klantervaring.
+![](../assets/do-not-localize/glass.png) [Meer informatie over workflows voor campagnes](../config/workflows.md)
 
-  Met Adobe Campaign kun je je e-mails beter, persoonlijker en winstgevender maken. E-mails zijn eenvoudig te maken en te leveren. Campagne v8 biedt u de flexibiliteit om elke boodschap die u verzendt te ontwerpen, personaliseren, testen, verfijnen en verbeteren.
+## Speciale e-mailmarketing {#perso-email-mkt}
 
-  ![](../assets/do-not-localize/glass.png) [Meer informatie over personalisatiemogelijkheden](create-message.md)
+Maak persoonlijke en contextafhankelijke e-mails die consistent zijn met de rest van de klantervaring.
 
-* **Beheer van klantgegevens**. Bekijk het hele beeld van uw klanten zodat u snel persoonlijke campagnes op bedrijfsniveau kunt maken.
+Met Adobe Campaign kun je je e-mails beter, persoonlijker en winstgevender maken. E-mails zijn eenvoudig te maken en te leveren. Campagne v8 biedt u de flexibiliteit om elke boodschap die u verzendt te ontwerpen, personaliseren, testen, verfijnen en verbeteren.
 
-  Met Adobe Campaign kunt u klantprofielen maken op basis van gegevens die via al uw kanalen worden verzameld. Met dit profiel kunt u campagnes langs kanalen ordenen. Door al uw marketing kanalen aan te sluiten, kunt u de verschillende reis aanpassen elke klant op de manier zal nemen die aan hen zinvol zal zijn.
+![](../assets/do-not-localize/glass.png) [Meer informatie over personalisatiemogelijkheden](create-message.md)
 
-  ![](../assets/do-not-localize/glass.png) [Meer informatie over gegevensbeheer voor klanten](audiences.md)
+### Beheer van klantgegevens {#customer-data-mgt}
 
-* **Best-in-class campagnebeheer**. Adobe Campaign v8 biedt marketers de beste mogelijkheden om campagnes op verschillende kanalen te plannen, te lanceren en te meten.
+Bekijk het hele beeld van uw klanten zodat u snel persoonlijke campagnes op bedrijfsniveau kunt maken.
 
-  Capabilities bevatten een geïntegreerd profiel dat één weergave van de klant biedt. Gegevensbeheer en segmentering voor het opbouwen van campagnepubliek op schaal. Workflowbeheer voor meerdere kanalen voor het automatiseren van multi-channel en multi-wave campagnes. Geïntegreerde e-mail, waardoor u minder afhankelijk bent van dure ESP&#39;s. Rapportage en analyse voor begrip van klantengedrag en campagneprestaties.
+Met Adobe Campaign kunt u klantprofielen maken op basis van gegevens die via al uw kanalen worden verzameld. Met dit profiel kunt u campagnes langs kanalen ordenen. Door al uw marketing kanalen aan te sluiten, kunt u de verschillende reis aanpassen elke klant op de manier zal nemen die aan hen zinvol zal zijn.
 
-  ![](../assets/do-not-localize/glass.png) [Meer informatie over campagnebeheer](campaigns.md)
+![](../assets/do-not-localize/glass.png) [Meer informatie over gegevensbeheer voor klanten](audiences.md)
+
+### Best-in-class campagnebeheer {#best-in-campaign-mgt}
+
+Adobe Campaign v8 biedt marketers de beste mogelijkheden om campagnes op verschillende kanalen te plannen, te lanceren en te meten.
+
+Capabilities bevatten een geïntegreerd profiel dat één weergave van de klant biedt. Gegevensbeheer en segmentering voor het opbouwen van campagnepubliek op schaal. Workflowbeheer voor meerdere kanalen voor het automatiseren van multi-channel en multi-wave campagnes. Geïntegreerde e-mail, waardoor u minder afhankelijk bent van dure ESP&#39;s. Rapportage en analyse voor begrip van klantengedrag en campagneprestaties.
+
+![](../assets/do-not-localize/glass.png) [Meer informatie over campagnebeheer](campaigns.md)
 
 
-* **Verbindingen met Adobe Experience Platform**. Adobe Campaign v8 biedt ondersteuning voor gegevensconnectors met Real-Time CDP en Adobe Experience Platform, zodat organisaties gebruik kunnen maken van het realtime Unified Customer Profile.
+### Verbindingen met Adobe Experience Platform {#connection-to-aep}
 
-  Bovendien is Adobe Campaign v8 native geïntegreerd met de realtime mogelijkheden voor reisorganisatie, zodat marketers dezelfde sjablonen en leveringsmogelijkheden in Adobe Campaign kunnen hergebruiken om in real-time met klanten aan de slag te gaan. Deze investeringen zullen de Adobe Campaign klantenervaring optimaliseren en nieuwe gebruiksgevallen zoals de capaciteit openen om geïndividualiseerde klantenreizen in real time aan campagnes toe te voegen.
+Adobe Campaign v8 biedt ondersteuning voor gegevensconnectors met Real-Time CDP en Adobe Experience Platform, zodat organisaties gebruik kunnen maken van het realtime Unified Customer Profile.
 
-  U kunt ook voorspellende optimalisatie van de verzendtijd en voorspellende betrokkenheidsscoring configureren met Journey AI en de openingssnelheden verhogen, klikken en inkomsten verhogen.
+Bovendien is Adobe Campaign v8 native geïntegreerd met de realtime mogelijkheden voor reisorganisatie, zodat marketers dezelfde sjablonen en leveringsmogelijkheden in Adobe Campaign kunnen hergebruiken om in real-time met klanten aan de slag te gaan. Deze investeringen zullen de Adobe Campaign klantenervaring optimaliseren en nieuwe gebruiksgevallen zoals de capaciteit openen om geïndividualiseerde klantenreizen in real time aan campagnes toe te voegen.
 
-  ![](../assets/do-not-localize/glass.png) [Meer informatie over de integratie van campagnes](../connect/integration.md)
+U kunt ook voorspellende optimalisatie van de verzendtijd en voorspellende betrokkenheidsscoring configureren met Journey AI en de openingssnelheden verhogen, klikken en inkomsten verhogen.
+
+![](../assets/do-not-localize/glass.png) [Meer informatie over de integratie van campagnes](../connect/integration.md)
 
 
-* **Beheerde Cloud Services**. Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service, die pro-actief toezicht, het geschikte alarm, en de dienstbestuur verstrekt.
+### Beheerde Cloud Services {#acms-desc}
 
-  Adobe Beheerde Cloud Service biedt marketers een flexibelere, veiligere en schaalbaardere oplossing voor campagnebeheer over meerdere kanalen met lage totale eigendomskosten. Het nieuwe aanbod combineert services met proactief toezicht en tijdige waarschuwing.
+Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service, die pro-actief toezicht, het geschikte alarm, en de dienstbestuur verstrekt.
 
-  Met de nieuwe cloudarchitectuur kan Campagne processen stroomlijnen, kosten verlagen, risico&#39;s beheren en de gegevensbeveiliging verbeteren. Uw Campagne v8-omgeving wordt geleverd met een speciale Virtual Private Cloud (VPC) die vooraf voor u is geconfigureerd.
+Adobe Beheerde Cloud Service biedt marketers een flexibelere, veiligere en schaalbaardere oplossing voor campagnebeheer over meerdere kanalen met lage totale eigendomskosten. Het nieuwe aanbod combineert services met proactief toezicht en tijdige waarschuwing.
 
-* **Snelheid en schaal**. Adobe Campaign kan nu databasetechnologieën op cloudschaal gebruiken om de schaal en snelheid ervan aanzienlijk te verbeteren.
+>[!NOTE]
+>
+>Met de nieuwe cloudarchitectuur kan Campagne processen stroomlijnen, kosten verlagen, risico&#39;s beheren en de gegevensbeveiliging verbeteren. Uw Campagne v8-omgeving wordt geleverd met een speciale Virtual Private Cloud (VPC) die vooraf voor u is geconfigureerd.
 
-  [Campagne v8 Enterprise](../architecture/enterprise-deployment.md) brengt het concept van **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met dit nieuwe aanbod vereenvoudigt Campagne v8 het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. [!DNL Snowflake] Dit is de Campagne Cloud Database, waardoor u snelheid en duurzaamheid krijgt: geen overbelasting van de pieken van de systeemactiviteit. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
+### Snelheid en schaal {#speed-scale}
 
-  ![](../assets/do-not-localize/glass.png) [Meer informatie over de implementatie van Enterprise (FFDA)](../architecture/enterprise-deployment.md)
+Adobe Campaign kan nu databasetechnologieën op cloudschaal gebruiken om de schaal en snelheid ervan aanzienlijk te verbeteren.
 
+[Campagne v8 Enterprise](../architecture/enterprise-deployment.md) brengt het concept van **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met dit nieuwe aanbod vereenvoudigt Campagne v8 het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. [!DNL Snowflake] Dit is de Campagne Cloud Database, waardoor u snelheid en duurzaamheid krijgt: geen overbelasting van de pieken van de systeemactiviteit. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
+
+![](../assets/do-not-localize/glass.png) [Meer informatie over de implementatie van Enterprise (FFDA)](../architecture/enterprise-deployment.md)
 
 >[!CAUTION]
 >
 >* Campagne v8 is **alleen** beschikbaar als Beheerde Cloud Service, en kan niet op een ongebouw of hybride milieu&#39;s worden opgesteld.
 >
 >* Geautomatiseerde migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
-
 
 
 ## Self-service admin interface{#self-service-admin}
