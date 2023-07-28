@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 500de76853772313b1aac655da2f1b3562de2c55
+source-git-commit: a08dd72a2be703e5e9cd3cdc20dbb3064b06b35d
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '519'
 ht-degree: 4%
 
 ---
@@ -43,6 +43,9 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
    ![](assets/paste-content.png)
 
+   >[!NOTE]
+   >
+   >Om prestatieproblemen te voorkomen, mogen afbeeldingen in e-mailberichten niet groter zijn dan 100 kB.
 
 1. **Je bericht personaliseren**
 
@@ -56,7 +59,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
      ![](assets/perso-check.png)
 
-     Meer informatie over verpersoonlijkingsopties vindt u in [deze sectie](personalize.md).
+     Meer informatie over personalisatieopties in [deze sectie](personalize.md).
 
    * Een bijgehouden koppeling invoegen
 
@@ -76,7 +79,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 1. U kunt aanvullende parameters voor uw e-mail definiëren, zoals het verzenden van een kopie van uw berichten naar een BBC-adres, het wijzigen van de berichtindeling, het instellen van een specifieke codering, enzovoort. Meer informatie in [deze sectie](email-parameters.md).
 
-1. Als de inhoud gereed is, klikt u op **Opslaan**: het wordt nu weergegeven in uw lijst met leveringen, in de **[!UICONTROL Campaigns > Deliveries]** tab.
+1. Als de inhoud gereed is, klikt u op **Opslaan**: het wordt nu weergegeven in uw lijst met leveringen, in het dialoogvenster **[!UICONTROL Campaigns > Deliveries]** tab.
 
 Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
 
