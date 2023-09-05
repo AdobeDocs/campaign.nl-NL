@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8-documentatie
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van Campaign
-source-git-commit: 4f3e6227193fc607a968f9170484017e551fa560
+source-git-commit: 4ff6e8134c887da6c207afc7f9532a60ff9ef31e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,44 +35,43 @@ ht-degree: 22%
 + Campaign Management {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
    + [Campagneorkestratie >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
-   + Berichten verzenden{#send}
-      + [Aan de slag met berichten](start/create-message.md)
-      + [Werken met leveringssjablonen](send/create-templates.md)
-      + E-mails {#emails}
-         + [E-mails ontwerpen en valideren](send/email.md)
-         + [Koppeling maken naar de spiegelpagina](send/mirror-page.md)
-         + [Aanvullende e-mailparameters definiëren](send/email-parameters.md)
-         + [E-mails verzenden en controleren](send/send.md)
-      + [Sms](send/sms.md)
-      + Pushmeldingen {#push}
-         + [Pushmeldingen maken en verzenden](send/push.md)
-         + [Pushmeldingskanaal configureren](send/push-settings.md)
-         + [Pushmeldingen configureren met gegevensverzameling](send/push-data-collection.md)
-      + [REGELS](send/line.md)
-      + [Direct mail](send/direct-mail.md)
-      + [Twitter](send/twitter.md)
-      + Transactionele berichten {#real-time}
-         + [Aan de slag met transactieberichten](send/transactional.md)
-         + [Uw sjabloon maken en publiceren](send/transactional-template.md)
-         + Gebeurtenisbeheer {#event}
++ Berichten verzenden{#send}
+   + [Aan de slag met berichten](start/create-message.md)
+   + E-mails {#emails}
+      + [E-mails ontwerpen en valideren](send/email.md)
+      + [Koppeling maken naar de spiegelpagina](send/mirror-page.md)
+      + [Aanvullende e-mailparameters definiëren](send/email-parameters.md)
+      + [E-mails verzenden en controleren](send/send.md)
+   + [Sms](send/sms.md)
+   + Pushmeldingen {#push}
+      + [Pushmeldingen maken en verzenden](send/push.md)
+      + [Pushmeldingskanaal configureren](send/push-settings.md)
+      + [Pushmeldingen configureren met gegevensverzameling](send/push-data-collection.md)
+   + [REGELS](send/line.md)
+   + [Direct mail](send/direct-mail.md)
+   + [Twitter](send/twitter.md)
+   + Inhoud personaliseren {#personalize}
+      + [Aan de slag met personalisatie](send/personalize.md)
+      + [Personalisatiegegevens](send/personalization-data.md)
+      + [Aanpassingsvelden toevoegen](send/personalization-fields.md)
+      + [Verpersoonlijkingsblokken gebruiken](send/personalization-blocks.md)
+      + [Voorwaarden maken](send/conditions.md)
+   + De levering valideren en verzenden {#validate}
+   + [Voorvertoning en proefdrukken](send/preview-and-proof.md)
+   + [Leveringsanalyse](send/delivery-analysis.md)
+   + [De levering configureren en verzenden](send/configure-and-send.md)
+   + [Tijdoptimalisatie verzenden](send/predictive.md)
+   + Mislukking, stort en quarantaine{#failures}
+      + [Quarantines](send/quarantines.md)
+      + [Leveringsfouten](send/delivery-failures.md)
+   + [Werken met leveringssjablonen](send/create-templates.md)
+   + Transactionele berichten {#real-time}
+      + [Aan de slag met transactieberichten](send/transactional.md)
+      + [Uw sjabloon maken en publiceren](send/transactional-template.md)
+      + Gebeurtenisbeheer {#event}
          + [Gebeurtenissen verzamelen en verwerken](send/event-processing.md)
          + [Beschrijving van gebeurtenis begrijpen](send/event-description.md)
          + [Berichten verzenden en controleren](send/delivery-execution.md)
-      + Mislukking, stort en quarantaine{#failures}
-         + [Quarantines](send/quarantines.md)
-         + [Leveringsfouten](send/delivery-failures.md)
-      + [Tijdoptimalisatie verzenden](send/predictive.md)
-      + [Lidmaatschappen beheren](start/subscriptions.md)
-      + Inhoud personaliseren {#personalize}
-         + [Aan de slag met personalisatie](send/personalize.md)
-         + [Personalisatiegegevens](send/personalization-data.md)
-         + [Aanpassingsvelden toevoegen](send/personalization-fields.md)
-         + [Verpersoonlijkingsblokken gebruiken](send/personalization-blocks.md)
-         + [Voorwaarden maken](send/conditions.md)
-      + Levering valideren {#validate}
-         + [Voorvertoning en proefdrukken](send/preview-and-proof.md)
-         + [Leveringsanalyse](send/delivery-analysis.md)
-      + [De levering configureren en verzenden](send/configure-and-send.md)
 + Profiel- en publieksbeheer {#audience}
    + [Aan de slag met profielen en doelgroepen](audiences/gs-audiences.md)
    + [Werken met het publiek](start/audiences.md)
@@ -87,8 +86,9 @@ ht-degree: 22%
    + Soorten publiek maken {#create-audiences}
       + [Een lijst met contactpersonen maken](audiences/create-audiences.md)
       + [Filters maken en beheren](audiences/create-filters.md)
-   + [Stimulering delen met Adobe-oplossingen](start/shared-audiences.md)
+      + [Publiek delen met oplossingen voor Adobe](start/shared-audiences.md)
    + [Best practices](audiences/audiences-best-practices.md)
+   + [Lidmaatschappen beheren](start/subscriptions.md)
 + Contentmanagement {#content}
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Privacy- en beveiligingsbeheer {#privacy}
@@ -138,7 +138,7 @@ ht-degree: 22%
    + [Campagne + Analyse](connect/ac-aa.md)
    + [Campagne + Experience Manager](connect/ac-aem.md)
    + [Campagne + Doel](connect/ac-at.md)
-   + [Campagne + Experience Cloud-triggers](connect/ac-triggers.md)
+   + [Campagne + triggers voor Experiencen Cloud](connect/ac-triggers.md)
    + [Campagne + Twitter](connect/ac-tw.md)
    + [Campagne + externe database](connect/fda.md)
    + Campagne + uw CRM {#ac-crm}
@@ -156,9 +156,9 @@ ht-degree: 22%
    + Architectuur {#architecture}
       + [Algemene beginselen](architecture/general-architecture.md)
       + [Architectuur](architecture/architecture.md)
-      + FDA Snowflake-implementatie {#fda}
+      + Implementatie van FDA-Snowflake {#fda}
          + [Wat is FDA-Snowflake?](architecture/fda-deployment.md)
-      + Implementatie van ondernemingen (FFDA) {#ffda}
+      + Implementatie in het kader van Enterprise (FFDA) {#ffda}
          + [Wat is Campagne FDA?](architecture/enterprise-deployment.md)
          + Kenmerken {#ffda-characteristics}
             + [Sleutelbeheer en eenheid](architecture/keys.md)
@@ -174,7 +174,7 @@ ht-degree: 22%
       + [Mappen en weergaven beheren](audiences/folders-and-views.md)
       + [E-mailinstellingen](config/email-settings.md)
       + [Transactionele berichtinstellingen](config/transactional-msg-settings.md)
-      + [SDK&#39;s voor campagnes integreren met uw app - GEDEPRECEERDE PAGINA](config/push-config.md)
+      + [SDK&#39;s voor campagnes integreren met uw app - VEROUDERDE PAGINA](config/push-config.md)
       + [Externe accounts](config/external-accounts.md)
 + Bronnen voor ontwikkelaars {#developer}
    + [Campaign datamodel](dev/datamodel.md)
