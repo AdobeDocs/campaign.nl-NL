@@ -3,9 +3,9 @@ title: Campagnebeheerders migreren naar Adobe Identity Management System (IMS)
 description: Leer hoe u campagneoperatoren kunt migreren naar Adobe Identity Management System (IMS)
 hide: true
 hidefromtoc: true
-source-git-commit: 11128dcb26119383b86aa62561ec0ce1a3c138ad
+source-git-commit: a141ba08b9c40fb89cfdf63c3078082d32afd861
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ De belangrijkste stappen voor deze migratie worden hieronder weergegeven:
 U kunt nu de migratie van technische gebruikers naar IMS plannen volgens [dit technote](ims-migration.md)en bevestig dat de Adobe Transition Manager klaar is.
 De Adobe markeert de migratie vervolgens als voltooid en schakelt de vlaggen in om het maken van nieuwe native gebruikers en het aanmelden van native gebruikers te blokkeren.
 
-## Veelgestelde vragen? {#ims-migration-faq}
+## Veelgestelde vragen {#ims-migration-faq}
 
 ### Wanneer kunt u de migratie starten? {#ims-migration-start}
 
@@ -58,7 +58,7 @@ Een eerste vereiste voor de migratie naar Adobe Identity Management System (IMS)
 
 U kunt de migratie van IMS op uw werkgebiedomgeving starten zodra deze is bijgewerkt naar Campagne v8.5.2 en dienovereenkomstig plannen voor de productieomgeving.
 
-### Wat gebeurt na 8.5.2 bouwstijlverbetering? {#ims-migration-after-upgrade}
+### Wat gebeurt er na upgrade van de build naar Campagne v8.5.2? {#ims-migration-after-upgrade}
 
 Nadat uw omgevingen zijn bijgewerkt naar Campagne versie 8.5.2, kunt u Adobe Identity Management System (IMS)-migratie uitvoeren.
 
@@ -90,3 +90,20 @@ Als Campagnebeheerder moet u e-mailadressen toevoegen aan alle native gebruikers
 ### Hoe u zich via IMS aanmeldt bij Campaign? {#ims-migration-log}
 
 Leer hoe u verbinding kunt maken met uw Adobe ID in [deze sectie](../../v8/start/connect.md).
+
+### Zal er tijdens deze migratie een onderbreking plaatsvinden? {#ims-migration-downtime}
+
+Om de migratie te voltooien (gebruikers en productprofielen migreren), vereist de Adobe een uur zonder downtime voor een van uw instanties (workflows, enz.).
+
+Tijdens dit tijdsbestek moeten alle Campagnegebruikers zich afmelden en zich opnieuw aanmelden bij hun Adobe ID zodra de migratie naar IMS is voltooid.
+
+
+### Wat gebeurt er met gebruikers die zijn aangemeld tijdens IMS-gebruikersmigratie? {#ims-migration-log-off}
+
+Adobe raadt alle gebruikers sterk aan zich af te melden tijdens het migratievenster.
+
+### De gebruikers in mijn organisatie gebruiken reeds IMS, moet ik nog uitvoeren IMS Migratie?
+
+Deze migratie kent twee aspecten: migratie van niet-technische &quot;menselijke&quot; gebruikers en migratie van technische gebruikers (wordt gebruikt in API&#39;s in uw aangepaste code).
+
+Als al uw gebruikers (campagneoperatoren) zich op IMS bevinden, hoeft u deze migratie niet uit te voeren. Nochtans, moet u nog Technische gebruikers migreren u in douanecode zou kunnen gebruikt. Meer informatie in [deze pagina](ims-migration.md).
