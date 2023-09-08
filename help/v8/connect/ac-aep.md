@@ -1,22 +1,22 @@
 ---
-title: Werken met campagne en Adobe Experience Platform
-description: Leer hoe u kunt werken met Campagne en Adobe Experience Platform
+title: Soorten publiek en profielkenmerken
+description: Leer hoe u het publiek en de profielkenmerken van Adobe Experience Platform kunt synchroniseren met Campagne
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: d9a91fddbdcfae0f59fe780f8b6962238b89c886
+source-git-commit: 2bd007dec1a61828a499d6c4db738e7673382fb4
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # Werken met campagne en Adobe Experience Platform
 
-De Adobe Campaign Managed Cloud Service Destination and Source connectors staan naadloze integratie tussen Adobe Campaign en Adobe Experience Platform toe. Met deze integratie kunt u:
+Met de Adobe Campaign Managed Cloud Service Destination and Source-connectors kunt u Adobe Campaign en Adobe Experience Platform naadloos integreren. Met deze integratie kunt u:
 
-* Verzend Adobe Experience Platform-publiek naar Adobe Campaign en verzend bezorgings- en trackinglogboeken naar Adobe Experience Platform voor analysedoeleinden.
+* Adobe Experience Platform-publiek naar Adobe Campaign sturen en bezorgings- en trackinglogboeken terugsturen naar Adobe Experience Platform voor analysedoeleinden;
 * Breng Adobe Experience Platform-profielkenmerken naar Adobe Campaign en zorg dat er een synchronisatieproces is ingesteld zodat deze regelmatig kunnen worden bijgewerkt.
 
 ## Adobe Experience Platform-publiek naar campagne sturen {#audiences}
@@ -40,7 +40,7 @@ De belangrijkste stappen voor het verzenden van een Adobe Experience Platform-pu
 
 * Een Adobe Campaign Managed Cloud Services gebruiken **Bronverbinding** om Adobe Campaign-leverings- en trackinglogboeken naar Adobe Experience Platform te verzenden:
 
-  Hiertoe configureert u een nieuwe Adobe Campaign Managed Cloud Services **Bronverbinding** om Campagne-gebeurtenissen in Adobe Ervarend Platform in te nemen. Verstrek details over de instantie van de Campagne en het te gebruiken schema, selecteer een dataset waar de gegevens zouden moeten worden opgenomen, dan vormen de gebieden om terug te winnen. [Leer hoe u een Adobe Campaign Managed Cloud Services-bronverbinding maakt](https://www.adobe.com/go/sources-campaign-ui-en)
+  Hiertoe configureert u een nieuwe Adobe Campaign Managed Cloud Services **Bronverbinding** om Campagne-gebeurtenissen in Adobe Ervaring Platform in te voeren. Verstrek details over de instantie van de Campagne en het te gebruiken schema, selecteer een dataset waar de gegevens zouden moeten worden opgenomen, dan vormen de gebieden om terug te winnen. [Leer hoe u een Adobe Campaign Managed Cloud Services-bronverbinding maakt](https://www.adobe.com/go/sources-campaign-ui-en)
 
   ![](assets/aep-logs.png){width="800" align="center"}
 
@@ -54,7 +54,7 @@ Stel bijvoorbeeld dat u waarden voor opt-in en opt-out vastlegt in Adobe Experie
 >
 >Synchronisatie van profielkenmerken is beschikbaar voor profielen die al aanwezig zijn in de Adobe Campaign-database.
 
-De belangrijkste stappen voor het synchroniseren van Adobe Experience Platform-profielkenmerken met Adobe Campaign zijn als volgt:
+De belangrijkste stappen voor het synchroniseren van Adobe Experience Platform-profielkenmerken met Adobe Campaign zijn:
 
 1. Open de catalogus met Adobe Experience Platform-doelen en maak een nieuwe **[!UICONTROL Adobe Campaign Managed Cloud Services]** verbinding.
 1. Geef informatie over de instantie Campagne die u wilt gebruiken en kies **[!UICONTROL Profile sync (Update only)]** als het synchronisatietype.
