@@ -5,7 +5,7 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: bf846b4120885b56ef00c836922e22c7629f5510
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 32%
@@ -28,8 +28,8 @@ De volgende besturingssystemen en browsers zijn vereist om de Campaign-clientcon
 
 ### Besturingssystemen{#op-systems}
 
-* **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11, 10, 8
+* **Microsoft Windows Server** 2019, 2016
+* **Microsoft Windows** 11 10
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ De volgende besturingssystemen en browsers zijn vereist om de Campaign-clientcon
 Hieronder vindt u de Customer Relationship Management-systemen (CRM) die compatibel zijn met Adobe Campaign. [Meer informatie](../connect/crm.md).
 
 * **Salesforce** connector API versie 49
-* **Microsoft Dynamics** connector, web-API: Dynamics 365 on-premise en online
+* **Microsoft Dynamics** connector, web API: Dynamics 365 on-premise en online
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
@@ -60,18 +60,18 @@ Externe databases die compatibel zijn met de module Adobe Campaign Federated Dat
 
 ## Mobiele SDK{#MobileSDK}
 
-Om te verzenden [pushmeldingen](../send/push.md) met Campagne, gebruik Adobe Experience Platform Mobile SDK door de uitbreiding van Adobe Campaign Classic in de UI van de Inzameling van Gegevens te vormen.
+Naar [pushmeldingen](../send/push.md) met Campagne, gebruik Adobe Experience Platform Mobile SDK door de uitbreiding van Adobe Campaign Classic in de UI van de Inzameling van Gegevens te vormen.
 
 
 ## Webtoegang{#web-access}
 
 De volgende browsers zijn compatibel met Campaign voor [toegang tot internet](connect.md#web-access).
 
-* **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (nieuwste versies)
+* **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (meest recente versies)
 
 ## Hoe te om uw versie van de Campagne te controleren en te bouwen{#version}
 
-Toegang krijgen tot **Help > Info...** om uw versie te controleren.
+Toegang krijgen tot de **Help > Info...** om uw versie te controleren.
 
 ![](assets/ac-version.png)
 
@@ -79,5 +79,5 @@ U hebt toegang tot de volgende informatie:
 
 * De **versie** nummer van uw clientconsole- en toepassingsserver. In het bovenstaande voorbeeld is de versie 8.1.5 voor zowel de clientconsole als de toepassingsserver.
 * Het SHA-getal tussen haakjes.
-* Een koppeling om contact op te nemen met de klantenservice van Adobe.
-* Koppelingen naar het privacybeleid van Adobe, de Gebruiksvoorwaarden en het Cookies-beleid.
+* Een koppeling voor contact met de klantenservice van de Adobe.
+* Koppelingen naar het privacybeleid, de Gebruiksvoorwaarden en het Cookies-beleid van de Adobe.
