@@ -5,10 +5,10 @@ feature: Architecture
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: d791cb9afc51457e799ee62f8bb845fd888fecf2
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 2%
+source-wordcount: '1129'
+ht-degree: 1%
 
 ---
 
@@ -18,19 +18,19 @@ De gebruikelijke Adobe Campaign-implementatie van oplossingen bestaat uit de vol
 
 * **Persoonlijke clientomgeving**
 
-   Intuïtieve grafische interface waarin gebruikers marketingaanbiedingen kunnen communiceren en volgen, campagnes kunnen maken, alle marketingactiviteiten, -programma&#39;s en -plannen (inclusief e-mails, workflows en bestemmingspagina&#39;s) kunnen beoordelen en beheren, en klantprofielen kunnen maken en beheren en een publiek kunnen creëren.
+  Intuïtieve grafische interface waarin gebruikers marketingaanbiedingen kunnen communiceren en volgen, campagnes kunnen maken, alle marketingactiviteiten, -programma&#39;s en -plannen (inclusief e-mails, workflows en bestemmingspagina&#39;s) kunnen beoordelen en beheren, en klantprofielen kunnen maken en beheren en een publiek kunnen creëren.
 
 * **Ontwikkelingsomgeving**
 
-   Server-side software die de marketing campagnes door gekozen communicatie kanalen, met inbegrip van e-mail, SMS, dupberichten, direct mail, Web of sociaal uitvoert, op de regels en de werkschema&#39;s die in het gebruikersinterface worden bepaald.
+  Server-side software die de marketing campagnes door gekozen communicatie kanalen, met inbegrip van e-mail, SMS, dupberichten, direct mail, Web of sociaal uitvoert, op de regels en de werkschema&#39;s die in het gebruikersinterface worden bepaald.
 
 * **Databasecontainers**
 
-   Op basis van relationele databasetechnologie slaat de Adobe Campaign Cloud-database alle informatie, campagnecomponenten, aanbiedingen, workflows en campagneresultaten op in databasecontainers.
+  Op basis van relationele databasetechnologie slaat de Adobe Campaign Cloud-database alle informatie, campagnecomponenten, aanbiedingen, workflows en campagneresultaten op in databasecontainers.
 
 ## Persoonlijke clientomgeving {#client-env}
 
-De toepassing kan op verschillende manieren worden benaderd: Rich client, thin client of API-integratie.
+De toepassing kan op verschillende manieren worden benaderd: rijke client, dunne client of API-integratie.
 
 ![](../assets/do-not-localize/glass.png) [Meer informatie over de presentatielaag voor campagnes](../start/ac-components.md).
 
@@ -43,24 +43,24 @@ Sommige modules van de Campagne werken onophoudelijk, terwijl anderen af en toe 
 Er zijn drie typen Adobe Campaign-modules:
 
 * **Modules met meerdere instanties**: er wordt één proces voor alle instanties uitgevoerd. Dit geldt voor de volgende modules: web, syslogd, trackinglogd en waakhond.
-* **Monoinstantiemodules**: één proces wordt per instantie uitgevoerd. Dit geldt voor de volgende modules: mta, wfserver, inMail, sms en stat.
-* **Hulpmodules**: dit zijn modules die af en toe in werking worden gesteld om af en toe of terugkerende verrichtingen (schoonmaak, config, het downloaden het volgen logboeken, enz.) uit te voeren.
+* **Monoinstantiemodules**: er wordt één proces per instantie uitgevoerd. Dit geldt voor de volgende modules: mta, wfserver, inMail, sms en stat.
+* **Hulpmodules**: dit zijn modules die af en toe worden uitgevoerd om incidentele of terugkerende bewerkingen uit te voeren (opschonen, configureren, het downloaden van trackinglogboeken, enz.).
 
 De belangrijkste processen zijn:
 
-* **Toepassingsserver** (nlserver web) - Dit proces stelt het volledige bereik van Adobe Campaign-functionaliteit beschikbaar via Web Services API&#39;s (SOAP / HTTP + XML). Bovendien kan het de Web-pagina&#39;s dynamisch produceren die voor op HTML-Gebaseerde toegang (rapporten, de vormen van het Web, enz.) worden gebruikt. Hiertoe bevat dit proces een Apache Tomcat JSP-server. Dit is het proces waarmee de Console verbinding maakt.
+* **Toepassingsserver** (nlserver web) - Dit proces stelt het volledige bereik van Adobe Campaign-functionaliteit beschikbaar via webservices-API&#39;s (SOAP / HTTP + XML). Bovendien kan het de Web-pagina&#39;s dynamisch produceren die voor op HTML-Gebaseerde toegang (rapporten, de vormen van het Web, enz.) worden gebruikt. Hiertoe bevat dit proces een Apache Tomcat JSP-server. Dit is het proces waarmee de Console verbinding maakt.
 
 * **Workflow-engine** (nlserver wfserver) - Tijdens dit proces worden de workflowprocessen uitgevoerd die in de toepassing zijn gedefinieerd. Het behandelt ook periodiek uitgevoerde technische werkschema&#39;s, die omvatten:
 
    * **Tekstspatiëring**: Herstelt en consolideert het volgen logboeken, zodat u de logboeken van de omleidingsserver kunt terugwinnen en de gezamenlijke indicatoren creëren die door de rapportmodule worden gebruikt.
    * **Overbodig verwijderen**: Hiermee wist u de database, wist u oude records en voorkomt u dat de database exponentieel toeneemt.
-   * **Facturering**: Hiermee wordt een activiteitenrapport voor het platform verzonden (grootte van de database, aantal marketingacties, enz.).
+   * **Facturering**: verzendt een activiteitenverslag voor het platform (grootte van de database, aantal marketingacties, enz.).
 
-* **Leveringsserver** (nlserver mta) - Adobe Campaign heeft native functionaliteit voor e-mailuitzending. Dit proces functioneert als SMTP agent van de postoverdracht (MTA). Het voert &quot;één-op-één&quot;verpersoonlijking van berichten uit en behandelt hun fysieke levering. Het werkt met leveringstaken en verwerkt automatische pogingen. Wanneer reeksspatiëring is ingeschakeld, worden de URL&#39;s automatisch vervangen, zodat ze naar de omleidingsserver verwijzen. Dit proces kan de aanpassing en het automatische verzenden naar een derderouter voor SMS, fax en directe post behandelen.
+* **Leveringsserver** (nlserver mta) - Adobe Campaign heeft native functionaliteit voor e-mailuitzending. Dit proces functioneert als SMTP agent van de postoverdracht (MTA). Het voert &quot;één-op-één&quot;verpersoonlijking van berichten uit en behandelt hun fysieke levering. Het werkt met leveringstaken en handelt automatische pogingen af. Wanneer reeksspatiëring is ingeschakeld, worden de URL&#39;s automatisch vervangen, zodat ze naar de omleidingsserver verwijzen. Dit proces kan de aanpassing en het automatische verzenden naar een derderouter voor SMS, fax en directe post behandelen.
 
 * **Redirection-server** (nlserver-webmdl) - Voor e-mail handelt Adobe Campaign automatisch het openen af en klikt u op Tekstspatiëring (het volgen van transacties op het niveau van de website is een andere mogelijkheid). Hiertoe worden de URL&#39;s die in de e-mailberichten zijn opgenomen, herschreven zodat ze naar deze module verwijzen. Deze module registreert het doorgeven van de internetgebruiker voordat deze naar de vereiste URL wordt doorgestuurd.
 
-   Om de hoogste beschikbaarheid te garanderen, is dit proces volledig onafhankelijk van het gegevensbestand: de andere serverprocessen communiceren ermee met behulp van alleen SOAP-aanroepen (HTTP, HTTP(S) en XML). Technisch, wordt deze functionaliteit uitgevoerd in een uitbreidingsmodule van een server van HTTP (ISAPI uitbreiding in IIS, of een module van DSO Apache, enz.) en is alleen beschikbaar in Windows.
+  Om de hoogste beschikbaarheid te garanderen, is dit proces volledig onafhankelijk van de database: de andere serverprocessen communiceren ermee met behulp van alleen SOAP-aanroepen (HTTP, HTTP(S) en XML). Technisch, wordt deze functionaliteit uitgevoerd in een uitbreidingsmodule van een server van HTTP (ISAPI uitbreiding in IIS, of een module van DSO Apache, enz.) en is alleen beschikbaar in Windows.
 
 Er zijn ook andere meer technische processen beschikbaar:
 
@@ -78,6 +78,7 @@ Er zijn ook andere meer technische processen beschikbaar:
 
 * **Statistische server** (nlserver stat) - Dit proces handhaaft statistieken over het aantal verbindingen, de berichten die voor elke postserver worden verzonden die berichten worden verzonden naar, evenals hun beperkingen (hoogste aantal gelijktijdige verbindingen, berichten per uur/en of verbinding). Het laat u ook verscheidene instanties of machines federeren als zij de zelfde openbare IP adressen delen.
 
+
 ## Databasecontainers {#db-containers}
 
 De Adobe Campaign Cloud-database is afhankelijk van [!DNL Snowflake] die de functionele gegevens (profielen, abonnementen, inhoud, enz.), de technische gegevens (leverings- en logboekgegevens, trackinglogboeken enz.) bevat en de werkgegevens (aankopen, leads) voor de oplossing, en alle Adobe Campaign-componenten communiceren met de database om hun specifieke taken uit te voeren.
@@ -89,6 +90,12 @@ U kunt Adobe Campaign implementeren met behulp van de vooraf gedefinieerde datab
 
 >[!CAUTION]
 >
->Met **Door campagne beheerde Cloud Services**, uw omgeving en initiële configuratie zijn ingesteld door Adobe, volgens de bepalingen van uw licentieovereenkomst. U mag geïnstalleerde ingebouwde pakketten, ingebouwde schema&#39;s of rapporten niet wijzigen.
+>Met **Door campagne beheerde Cloud Servicen**, uw omgeving en initiële configuratie zijn ingesteld door Adobe, volgens de bepalingen van uw licentieovereenkomst. U mag geïnstalleerde ingebouwde pakketten, ingebouwde schema&#39;s of rapporten niet wijzigen.
 >
->Als u een toe:voegen-op van de Campagne of een specifiek vermogen moet gebruiken dat niet voor u is provisioned, moet u contact opnemen **Adobe Klantenservice**.
+>Als u een toe:voegen-op van de Campagne of een specifiek vermogen moet gebruiken dat niet voor u is provisioned, moet u contact opnemen **Klantenservice Adoben**.
+
+## Databaseopslag {#db-storage}
+
+De totale opslagvergoeding wordt opgesplitst tussen de hoofddatabase en het Snowflake-entrepot. Waar de gegevens worden opgeslagen zou op implementatie of verbeteringstijd, afhankelijk van klant-specifieke gebruiks-gevallen moeten worden bepaald.
+
+Leer hoe u het databasegebruik kunt controleren in [Documentatie van het bedieningspaneel voor campagne](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
