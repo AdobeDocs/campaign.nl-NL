@@ -1,11 +1,9 @@
 ---
 title: Campagnebeheerders migreren naar Adobe Identity Management System (IMS)
 description: Leer hoe u campagneoperatoren kunt migreren naar Adobe Identity Management System (IMS)
-hide: true
-hidefromtoc: true
-source-git-commit: 53412ab167721c8a8f9d84e07112b0f410d4785d
+source-git-commit: a85368a8cd34c9bcdfcea91b71fa4b519b6437a3
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -88,7 +86,7 @@ Als Campagnebeheerder moet u e-mailadressen toevoegen aan alle native gebruikers
 1. Voer de e-mail van de operator in het dialoogvenster **Contactpunten** van het formulier met operatoren.
 1. Sla uw wijzigingen op.
 
-U kunt ook een CSV-bestand importeren om al uw operatorprofielen bij te werken met hun e-mail.
+<!--You can also import a CSV file to update all your operator profiles with their email.-->
 
 
 ### Hoe u zich via IMS aanmeldt bij Campaign? {#ims-migration-log}
