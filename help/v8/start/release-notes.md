@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 758d542b353a2d784407954089586e761825d740
+source-git-commit: c4a1539f140e85e1e8c97f743f9c6c0bba52e4de
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 16%
+source-wordcount: '1489'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 16%
 
 Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van updates is bedoeld om u het nieuwste en beste in handen te geven, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Adobe raadt alle klanten ten zeerste aan een upgrade uit te voeren naar de nieuwste versie.
 
-Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgeving upgraden. Campagne-clientconsole **moet worden geüpgraded naar dezelfde versie** als Campagneservers. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
+Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgevingen upgraden. Campagne-clientconsole **moet worden geüpgraded naar dezelfde versie** als Campagneservers. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
 
 Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde versies van de systemen gebruikt die in de [Compatibiliteitsmatrix](compatibility-matrix.md).
 
@@ -38,7 +38,6 @@ Campagne v8.5.1 introduceert onze nieuwste Push-meldingsservice, aangedreven doo
 Raadpleeg de [gedetailleerde documentatie](../send/push-data-collection.md) voor meer informatie.
 
 
-**Verhoogde doorvoer van mobiele kanalen**
 
 <!--
 The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
@@ -60,7 +59,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 </td>
 <td>
 <div>
-
+<p><strong>Verhoogde doorvoer van mobiele kanalen</strong></p>
 <p>De nieuwe Push-meldingsservice laat zien dat de doorvoer voor zowel Push Android als Push iOS aanzienlijk is verbeterd ten opzichte van onze vorige versie (v8.4). De gebruikers zullen met name verbeterde prestaties met de verbeterde dienst in de recentste versie (v8.5) ervaren. </p>
 <ul>
 <li>Pushmeldingen (Android): tot <strong>5x</strong> sneller </li>
@@ -70,7 +69,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 <ul>
 <li>SMS-doorvoer: maximaal <strong>5x</strong> sneller</li>
 </ul>
-<p><em>Deze maximumproductieprestaties zijn gemeten door Adobe testende teams, in laboratoriumomstandigheden.</em></p>
+<p><em>Deze maximum productieprestaties zijn gemeten door Adobe testende teams, in laboratoriumomstandigheden.</em></p>
 </div>
 <p></p>
 </td>
@@ -85,8 +84,8 @@ These max throughput performances have been measured by Adobe testing teams, in 
 
 **Verbeterde beveiliging**
 
-* Vanaf Campagne v8.5.1 is het verificatieproces naar Campagne v8 verbeterd. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne. Leer hoe u uw bestaande technische account(s) kunt migreren in [dit technote](../../technotes/upgrades/ims-migration.md).
-* U kunt geen operatoren meer maken vanuit de Campagne Client Console. De gebruikersinterface is dienovereenkomstig bijgewerkt. Nu moet je Adobe Admin Console gebruiken. [Meer informatie](../start/gs-permissions.md).
+* Met Campagne v8.5.1 is het verificatieproces voor Campagne v8 verbeterd en beveiligd. Technische operatoren moeten nu Adobe Identity Management System (IMS) gebruiken om verbinding te maken met Campagne. Leer hoe u uw bestaande technische account(s) kunt migreren in [dit technote](../../technotes/upgrades/ims-migration.md).
+* Vanaf het aanstaande v8.6 kunt u geen operatoren meer maken vanuit de Campagne Client Console. Als u de native verificatie voor aanmelding/wachtwoorden gebruikt, moet u uw operatoren migreren naar Adobe Identity Management System (IMS). Leer hoe u uw operatoren kunt migreren in [dit technote](../../technotes/upgrades/migrate-users-to-ims.md).
 * Verschillende hulpmiddelen van derden zijn bijgewerkt om de beveiliging te optimaliseren.
 
 **Compatibiliteitsupdates**
@@ -97,7 +96,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 
 **Patches**
 
-* Probleem verholpen waarbij speciale tekens in de HTML-inhoud van een levering onjuist werden gecodeerd in verschillende browsers. (NEO-60081)
+* Er is een probleem verholpen waardoor speciale tekens in de HTML-content van een levering in verschillende browsers soms niet goed werden gecodeerd. (NEO-60081)
 * Probleem verholpen waardoor u geen rapport kon opslaan over een FFDA-implementatie (Campaign v8 Enterprise). (NEO-56836)
 * Probleem verholpen bij het invoegen of bijwerken van gegevens in een aangepast FFDA-schema via de workflowactiviteit Gegevens bijwerken. (NEO-54708)
 * Probleem verholpen waardoor de workflow voor het opschonen van databases geen adressen kon verwijderen in de tabel nms:address in FFDA. (NEO-54460)
@@ -106,9 +105,9 @@ These max throughput performances have been measured by Adobe testing teams, in 
 * Er is een probleem verholpen waardoor de functie `JSPContext.sqlExecWithOneParam` niet werkte. (NEO-50066)
 * Probleem verholpen dat tot leveringsfouten leidde bij het gebruik van niet-afdrukbare tekens in personalisatievelden. (NEO-48588)
 * Probleem verholpen waarbij leveringsfouten kunnen optreden bij het invoegen van dynamische Adobe Target-afbeeldingen. (NEO-62689)
-* Probleem verholpen waarbij browsers geen extra spaties konden toevoegen wanneer voorwaardelijke inhoud in een levering werd gebruikt. (NEO-62132)
-* Probleem verholpen waarbij een pop-upvenster werd geopend wanneer werd geklikt op een afbeelding in de e-mailinhoudeditor. (NEO-60752)
-* Probleem verholpen dat tot een fout kon leiden en ertoe kon leiden dat u niet kon schuiven wanneer u de inhoud van een levering bewerkt. (NEO-61364)
+* Er is een probleem verholpen waarbij browsers geen extra spaties konden toevoegen bij gebruik van voorwaardelijke content in een levering. (NEO-62132)
+* Er is een probleem verholpen waarbij een pop-upvenster werd geopend wanneer werd geklikt op een afbeelding in de editor van de e-mailcontent. (NEO-60752)
+* Er is een probleem verholpen dat soms een fout veroorzaakte en waardoor scrollen soms niet mogelijk was bij het bewerken van de content van een levering. (NEO-61364)
 * Adobe Analytics-connector exporteert nu de metriek met het juiste kanaaltype. Deze was voorheen altijd ingesteld als &#39;email&#39;-kanaal. (NEO-26340)
 * Probleem verholpen dat tot fouten kon leiden wanneer de Big Query-aansluiting met datetime-velden werd gebruikt. (NEO-49768)
 
@@ -165,7 +164,7 @@ _27 januari 2023_
 <!-- * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
 * Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)-->
 * Probleem verholpen waardoor gebruikers de **Geselecteerde lijnen samenvoegen** workflowoptie. (NEO-48488)
-* Probleem verholpen met de Snowflake FDA-connector, die ertoe leidde dat records werden verwijderd bij gebruik van de optie &quot;0 of 1 cardinaliteit eenvoudige verbinding&quot; tijdens verrijking. (NEO-48737)
+* Probleem verholpen met de FDA-aansluiting van de Snowflake die ertoe leidde dat records werden verwijderd wanneer tijdens het verrijken de optie &quot;0 of 1 cardinality simple join&quot; werd gebruikt. (NEO-48737)
 * De resterende verwijzingen naar de bibliotheek log4j zijn verwijderd uit de installatie van Campaign in Windows. (NEO-44851)
 * Er is een probleem verholpen dat tot een fout kon leiden bij het toevoegen van de indicator **Ontvangers die hebben geopend** (estimatedRecipientOpen) in de aanvullende gegevens van een **Query**-workflowactiviteit. (NEO-46665)
 * Het beheer van URL&#39;s bijhouden is verbeterd in workflows met meerdere leveringen om de prestaties te verbeteren. (NEO-50894) <!--OKKKK-->
