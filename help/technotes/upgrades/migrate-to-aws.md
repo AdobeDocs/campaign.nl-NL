@@ -3,7 +3,7 @@ title: Campagne migreren die infrastructuur naar Amazon Web Services (AWS) verze
 description: Campagne migreren die infrastructuur naar Amazon Web Services (AWS) verzendt
 hide: true
 hidefromtoc: true
-source-git-commit: d0935df57d8a25fa023dd93e7923c2728d889577
+source-git-commit: 53080e3641e0070b0b6e47d1ec8b55b4c7aa2b1a
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 5%
@@ -31,7 +31,7 @@ De migratie naar productieomgevingen wordt gepland om te beginnen in **januari 2
 
 Als klant van de Campagne, zult u extra bericht ontvangen aangezien de migratiegolven gepland zijn. Meldingen worden ten minste zeven dagen vóór de migratie verzonden.
 
-## Wat is de impact?{#aws-impact}
+## Wat is de impact?{#impact}
 
 Deze stap is transparant voor klanten:
 
