@@ -1,9 +1,9 @@
 ---
 title: Migratie van technische gebruikers naar Adobe Developer-console
 description: Leer hoe u technische operatoren van campagnes kunt migreren naar een technische account op de Adobe Developer-console
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 825e8147f6080e1d943184c97c4b64ac681f9411
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,25 @@ Als u campagne-API&#39;s gebruikt, moet u de technische operator(s) migreren naa
 
 ## Hoe migreren?{#ims-migration-procedure}
 
+Elke technische exploitant moet ten minste één technische rekening hebben.
+
+De belangrijkste stappen zijn:
+
+1. Maak eerst de technische rekening die overeenkomt met de technische exploitant. Bijvoorbeeld, veronderstel de pas gecreëerde technische rekening (TA1) voor technische exploitant (TO1).
+1. Voer de hieronder beschreven stappen uit op technische rekening TA1
+   [Stap 4](#ims-migration-step-4) is optioneel en is alleen vereist als de technische exploitant specifieke mapmachtigingen heeft.
+1. Migreer alle de integratieimplementatie van de Campagne API aan de pas gecreëerde technische rekening TA1.
+1. Zodra alle klant die met API/Integratie te maken heeft volledig functioneel begint op TA1, vervang de technische exploitant TO1 door technische rekening TA1.
+
 ### Vereisten{#ims-migration-prerequisites}
 
-Voordat u met het migratieproces begint, moet u contact opnemen met uw Adobe-medewerker, zodat technische teams van Adobe uw bestaande groepen met operatoren en benoemde rechten kunnen migreren naar het Adobe Identity Management System (IMS).
+Voordat u met het migratieproces begint, moet u contact opnemen met uw Adobe, zodat technische teams van Adoben uw bestaande groepen Operator&#39;s en benoemde rechten kunnen migreren naar het Identity Management System (IMS) van de Adobe.
 
 ### Stap 1 - Uw Campagne-project maken/bijwerken in Adobe Developer Console{#ims-migration-step-1}
 
 Integraties worden gemaakt als onderdeel van een **Project** in Adobe Developer Console. Meer informatie over projecten in [Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-Als gebruiker van Campagne v8 zou u reeds een project in de Console van Adobe Developer moeten hebben. Als niet, moet u een project tot stand brengen. De stappen om een project te creëren zijn gedetailleerd [in Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+Als gebruiker van Campagne v8 hebt u al een project in de Adobe Developer Console. Als niet, moet u een project tot stand brengen. De stappen om een project te creëren zijn gedetailleerd [in Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
 
 Zodra u toegang tot uw Campagne project hebt, kunt u de diensten met inbegrip van APIs, Adobe Campaign, en I/O Beheer API toevoegen. Voor deze migratie moet u de volgende API&#39;s toevoegen aan uw project: **API voor I/O-beheer** en **Adobe Campaign**.
 
@@ -58,10 +68,9 @@ U kunt nu uw productprofiel voor Campagne toevoegen aan het project, zoals hiero
    ![](assets/do-not-localize/ims-edit-api.png)
 
 1. Wijs alle relevante productprofielen toe aan de API, bijvoorbeeld &#39;messageCenter&#39;, en sla uw wijzigingen op.
-1. Bladeren naar de **Referentiegegevens** en kopieer het **E-mail technische account** waarde.
+1. Bladeren naar de **Referentiegegevens** tabblad van uw project en kopieer het **E-mail technische account** waarde.
 
-### Stap 4 - Werk de technische exploitant in de Console van de Cliënt bij {#ims-migration-step-4}
-
+### Stap 4 - Werk de technische operator bij in de clientconsole {#ims-migration-step-4}
 
 Deze stap is alleen vereist als specifieke mapmachtigingen of benoemde rechten zijn gedefinieerd voor deze operator (niet via de groep van de operator).
 
@@ -69,7 +78,7 @@ U moet nu de nieuwe technische operator bijwerken in Adobe Campaign Client Conso
 Ga als volgt te werk om deze operator bij te werken:
 
 1. Blader vanuit de Campagne Client Console-verkenner naar de **Beheer > Toegangsbeheer > Operatoren**.
-1. Toegang tot de bestaande technische operator die wordt gebruikt voor API&#39;s.
+1. Toegang krijgen tot de bestaande technische operator die wordt gebruikt voor API&#39;s.
 1. Blader naar de machtigingen voor de map en controleer de rechten.
 1. Pas de zelfde toestemmingen op de pas gecreëerde technische exploitant toe. De e-mail van deze operator is de **E-mail technische account** eerder gekopieerde waarde.
 1. Sla uw wijzigingen op.
@@ -165,7 +174,7 @@ You can also update the technical operator programmatically, using SQL scripts o
 Voer de stappen in het dialoogvenster [Handleiding voor Adobe Developer Console-referenties](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} voor het produceren van een toegangstoken en kopieer het verstrekte bevel van de Steekproef cURL.
 
 
-### Stap 6 - Werk de integratie van de derdeAPI bij {#ims-migration-step-6}
+### Stap 6 - Werk de externe API-integratie bij {#ims-migration-step-6}
 
 U moet de API-integratie bijwerken met systemen van derden.
 
@@ -181,7 +190,7 @@ Na de migratie van alle API/aangepaste code-integratie met de gebruiker van de t
 
 Zodra het migratieproces wordt bereikt en bevestigd, worden de Vraag van Soap als volgt bijgewerkt:
 
-* Voor de migratie
+* Vóór de migratie: er was geen ondersteuning voor het token voor toegang tot de technische account.
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
@@ -204,7 +213,7 @@ Zodra het migratieproces wordt bereikt en bevestigd, worden de Vraag van Soap al
   </soapenv:Envelope>
   ```
 
-* Na de migratie
+* Na de migratie: er is ondersteuning voor het token voor toegang tot de technische account. Van het toegangstoken wordt verwacht dat het wordt geleverd in `Authorization` koptekst als token voor Drager. Het gebruik van sessietoken moet hier worden genegeerd, zoals in het onderstaande voorbeeld met soapoproepen wordt getoond.
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
