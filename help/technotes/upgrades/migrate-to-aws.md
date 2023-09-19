@@ -3,7 +3,7 @@ title: Campagne migreren die infrastructuur naar Amazon Web Services (AWS) verze
 description: Campagne migreren die infrastructuur naar Amazon Web Services (AWS) verzendt
 hide: true
 hidefromtoc: true
-source-git-commit: 557d61e0e015fa955b70858d614e476febd467cb
+source-git-commit: f1b4002063c8b94eb7251a9bcde9fe11791d0be3
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 2%
@@ -60,11 +60,11 @@ Deze stap is transparant voor klanten:
 
 * **Zijn er acties die door de klant voor migratie worden vereist?**
 
-  Er zijn geen handelingen vereist omdat de migratie automatisch wordt uitgevoerd door de Adobe.
+  Er zijn geen handelingen vereist omdat de Adobe de migratie automatisch uitvoert.
 
 * **Welke bevestigingen moeten door de klanten worden in werking gesteld?**
 
-  Er is geen specifieke test nodig voor deze beveiligingsupgrade. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+  Voor deze migratie zijn geen specifieke tests nodig. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support)
 
 
 * **Kan ik om een verandering in Datum/Tijd in de geplande groef van de veiligheidsverbetering verzoeken?**
