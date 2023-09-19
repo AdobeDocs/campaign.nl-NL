@@ -1,7 +1,7 @@
 ---
 title: Migratie van technische gebruikers naar Adobe Developer-console
 description: Leer hoe u technische operatoren van campagnes kunt migreren naar een technische account op de Adobe Developer-console
-source-git-commit: 825e8147f6080e1d943184c97c4b64ac681f9411
+source-git-commit: 43a124dd64532ffe84ca2b300113cacc545a811a
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
