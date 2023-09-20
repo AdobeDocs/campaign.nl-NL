@@ -3,9 +3,9 @@ title: Campagne migreren die infrastructuur naar Amazon Web Services (AWS) verze
 description: Campagne migreren die infrastructuur naar Amazon Web Services (AWS) verzendt
 hide: true
 hidefromtoc: true
-source-git-commit: f1b4002063c8b94eb7251a9bcde9fe11791d0be3
+source-git-commit: 15beb6e4aae7a00b245277bcb4c6c60c13b22884
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,7 @@ Deze wijziging heeft invloed op:
 * Campaign Classic v7-gehoste en hybride klanten
 * Campagne voor Managed Services-klanten
 * Alle v8-klanten voor campagne
+* Campaigns Standard
 
 ## Wanneer zal deze migratie plaatsvinden?{#aws-timeline}
 
@@ -48,11 +49,13 @@ Deze stap is transparant voor klanten:
 
 * **Waarom is dit een verplichte upgrade?**
 
-  De nieuwe Campagne die infrastructuur verzendt die door de Diensten van het Web van de Adobe (AWS) wordt ontvangen brengt betere kwaliteit en betrouwbaarheid voor onze klanten. Het biedt ook een sterke en moderne infrastructuur om een betere beschikbaarheid en optimale doorvoer te garanderen.
+  Adobe is van plan het oude datacenter uit te schakelen, Adobe Campaign-instanties die daar actief zijn, moeten worden overgebracht naar het nieuwe referentiecentrum in Amazon Web Services (AWS).
+
+  De Adobe Managed Services cloud wordt gehost op Amazon Web Services (AWS), een moderne, veilige en geoptimaliseerde omgeving. [Meer informatie over Amazon Web Services](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
 
 * **Welke klanten worden gericht voor deze migratie?**
 
-  Alle klanten van Campaign v8 en Campaign Classic v7 hybride, gehoste en Campaign Managed Services zullen hun omgevingen migreren.
+  Alle klanten van Campaign v8 en Campaign Classic v7 hybride, gehoste en Campaign Managed Services zullen hun omgevingen migreren. Ook de afnemers in de Campaign Standard hebben gevolgen.
 
 * **Wat is de verwachte onderbreking?**
 
@@ -64,7 +67,7 @@ Deze stap is transparant voor klanten:
 
 * **Welke bevestigingen moeten door de klanten worden in werking gesteld?**
 
-  Voor deze migratie zijn geen specifieke tests nodig. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+  Voor deze migratie zijn geen specifieke tests nodig. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **Kan ik om een verandering in Datum/Tijd in de geplande groef van de veiligheidsverbetering verzoeken?**
@@ -72,4 +75,4 @@ Deze stap is transparant voor klanten:
   Aangezien dit een verplichte migratie is, raden we u ten zeerste aan zich aan te passen aan het bestaande schema.
 
 
-Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
