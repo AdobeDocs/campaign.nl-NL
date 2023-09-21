@@ -3,9 +3,9 @@ title: Campagne migreren die infrastructuur naar Amazon Web Services (AWS) verze
 description: Campagne migreren die infrastructuur naar Amazon Web Services (AWS) verzendt
 hide: true
 hidefromtoc: true
-source-git-commit: 15beb6e4aae7a00b245277bcb4c6c60c13b22884
+source-git-commit: 9401e3564b53b920dd6a640ca6d00531992a2f21
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Als klant van de Campagne, zult u extra bericht ontvangen aangezien de migratieg
 
 Deze stap is transparant voor klanten:
 
-* De migratie zal naar verwachting 30 tot 60 minuten duren
+* De lengte van elke migratiegolf kan afhankelijk van het aantal beïnvloede instanties van de Campagne variëren. Wanneer een migratiegolf gepland is, zal het bericht de verwachte duur omvatten.
 
 * Campagneinstanties kunnen geen e-mail verzenden tijdens het migratievenster. Geen enkele andere Campagnefunctie wordt beïnvloed.
 
@@ -59,7 +59,7 @@ Deze stap is transparant voor klanten:
 
 * **Wat is de verwachte onderbreking?**
 
-  De verwachte downtime ligt tussen 30 en 60 minuten.
+  De migratie zal naar verwachting tussen 30 min en 60 min duren, maar de lengte van elke migratiegolf kan variëren afhankelijk van het aantal betrokken campagneinstanties. Wanneer een migratiegolf gepland is, zal het bericht de verwachte duur omvatten.
 
 * **Zijn er acties die door de klant voor migratie worden vereist?**
 
@@ -72,7 +72,6 @@ Deze stap is transparant voor klanten:
 
 * **Kan ik om een verandering in Datum/Tijd in de geplande groef van de veiligheidsverbetering verzoeken?**
 
-  Aangezien dit een verplichte migratie is, raden we u ten zeerste aan zich aan te passen aan het bestaande schema.
-
+  Aangezien dit een verplichte migratie is, kunnen we geen wijzigingen in het bestaande schema aanbrengen.
 
 Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
