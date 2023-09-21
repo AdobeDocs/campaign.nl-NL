@@ -1,9 +1,9 @@
 ---
 title: Migratie van technische gebruikers naar Adobe Developer-console
 description: Leer hoe u technische operatoren van campagnes kunt migreren naar een technische account op de Adobe Developer-console
-source-git-commit: 43a124dd64532ffe84ca2b300113cacc545a811a
+source-git-commit: 35263dc042642a6ba2f162461364b9399c30ad18
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -39,15 +39,15 @@ De belangrijkste stappen zijn:
 
 ### Vereisten{#ims-migration-prerequisites}
 
-Voordat u met het migratieproces begint, moet u contact opnemen met uw Adobe, zodat technische teams van Adoben uw bestaande groepen Operator&#39;s en benoemde rechten kunnen migreren naar het Identity Management System (IMS) van de Adobe.
+Alvorens het migratieproces te beginnen, moet u uw Manager van de Overgang van de Adobe bereiken zodat de Adobe technische teams uw bestaande groepen van de Exploitant en Genoemde rechten op het Systeem van Identity Management van de Adobe (IMS) kunnen migreren.
 
 ### Stap 1 - Uw Campagne-project maken/bijwerken in Adobe Developer Console{#ims-migration-step-1}
 
 Integraties worden gemaakt als onderdeel van een **Project** in Adobe Developer Console. Meer informatie over projecten in [Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-Als gebruiker van Campagne v8 hebt u al een project in de Adobe Developer Console. Als niet, moet u een project tot stand brengen. De stappen om een project te creëren zijn gedetailleerd [in Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+U kunt elk project gebruiken dat u eerder hebt gemaakt of u kunt een nieuw project maken. De stappen voor het maken van een project worden beschreven in het dialoogvenster [Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
 
-Zodra u toegang tot uw Campagne project hebt, kunt u de diensten met inbegrip van APIs, Adobe Campaign, en I/O Beheer API toevoegen. Voor deze migratie moet u de volgende API&#39;s toevoegen aan uw project: **API voor I/O-beheer** en **Adobe Campaign**.
+Voor deze migratie moet u de volgende API&#39;s toevoegen aan uw project: **API voor I/O-beheer** en **Adobe Campaign**.
 
 ![](assets/do-not-localize/ims-products-and-services.png)
 
