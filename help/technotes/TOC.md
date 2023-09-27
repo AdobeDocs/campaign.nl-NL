@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign-technieken
 description: Campagne-technieken
 breadcrumb-title: Campagne-technologie
-source-git-commit: d0935df57d8a25fa023dd93e7923c2728d889577
+source-git-commit: 45ef2b46f2612bdb814270d8ef9e257fcaf98e5b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '56'
+ht-degree: 19%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 21%
    + [Gebruikers migreren naar IMS](upgrades/migrate-users-to-ims.md)
    + [Technische operator migreren naar Developer Console](upgrades/ims-migration.md)
    + [Campagne voor het verzenden van infrastructuurmigratie naar AWS](upgrades/migrate-to-aws.md)
+   + [Upgrade van infrastructuur voor verzenden van e-mail voor campagne](upgrades/migration-to-aws.md)
    + [Apache-versie upgraden](upgrades/apache.md)
    + [Internetbrowsers](upgrades/browsers.md)
    + [2023 systeemupgrades](upgrades/tech-stack-upgrade.md)
