@@ -3,9 +3,9 @@ title: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 description: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 hide: true
 hidefromtoc: true
-source-git-commit: 45ef2b46f2612bdb814270d8ef9e257fcaf98e5b
+source-git-commit: aa3ec8e96d3bda80d5cbd4b4d98cad07b4560b14
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,6 @@ Deze wijziging heeft invloed op:
 * Adobe Campaign Classic Managed Services-klanten
 * Adobe Campaign Managed Cloud Services-klanten
 * Adobe Campaign Standard On-demand klanten
-* Adobe Campaign Cloud Messaging On-demand klanten
 
 ## Wanneer zal deze migratie plaatsvinden?{#aws-timeline}
 
