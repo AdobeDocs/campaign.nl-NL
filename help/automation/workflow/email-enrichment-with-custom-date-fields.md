@@ -3,8 +3,9 @@ product: campaign
 title: E-mailverrijking met aangepaste datumvelden
 description: Leer hoe u e-mailberichten verrijkt met aangepaste datumvelden
 feature: Workflows
+role: User, Developer
 exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 In dit voorbeeld willen we een e-mail met aangepaste gegevensvelden verzenden aan ontvangers die deze maand hun verjaardagen vieren. Het e-mailbericht bevat een coupon die een week voor en na hun verjaardagen geldig is.
 
-We moeten ontvangers van een lijst aanspreken die hun verjaardagen deze maand vieren met een **[!UICONTROL Split]** activiteit. Gebruik vervolgens de **[!UICONTROL Enrichment]** activiteit, zal het gebied van douanegegevens als geldigheidsdata in e-mail voor de speciale aanbieding van de klant dienst doen.
+We moeten ontvangers van een lijst aanspreken die hun verjaardagen deze maand vieren met een **[!UICONTROL Split]** activiteit. Vervolgens gebruikt u de **[!UICONTROL Enrichment]** activiteit, zal het gebied van douanegegevens als geldigheidsdata in e-mail voor de speciale aanbieding van de klant dienst doen.
 
 ![](assets/uc_enrichment.png)
 
@@ -37,9 +38,9 @@ U kunt dit voorbeeld maken door de volgende stappen toe te passen:
 
    ![](assets/uc_enrichment_3.png)
 
-1. Klikken **[!UICONTROL Advanced Selection]** dan **[!UICONTROL Edit the formula using an expression]** en voeg de volgende expressie toe: Maand (@geboorteDate).
+1. Klikken **[!UICONTROL Advanced Selection]** dan **[!UICONTROL Edit the formula using an expression]** en voeg de volgende expressie toe: Month(@geboortedatum).
 1. In de **[!UICONTROL Operator]** kolom, selecteert u de **[!UICONTROL equal to]**.
-1. Filter de voorwaarde verder door de **[!UICONTROL Value]** maand van de huidige datum: Month(GetDate()).
+1. Filter de voorwaarde verder door de **[!UICONTROL Value]** maand van de huidige datum: Maand(GetDate()).
 
    Hierdoor worden ontvangers gevraagd van wie de geboortemaand overeenkomt met de huidige maand.
 
@@ -66,7 +67,7 @@ U moet nu uw **[!UICONTROL Enrichment]** activiteit:
 
    ![](assets/uc_enrichment_9.png)
 
-1. Voeg een **[!UICONTROL Label]**. Dan, in **[!UICONTROL Expression]** kolom, klikt u op **[!UICONTROL Edit expression]**.
+1. Voeg een **[!UICONTROL Label]**. Dan, in **[!UICONTROL Expression]** kolom, klik **[!UICONTROL Edit expression]**.
 
    ![](assets/uc_enrichment_10.png)
 
@@ -91,7 +92,7 @@ Na uw **[!UICONTROL Enrichment]** activiteit, kunt u een levering toevoegen. In 
 1. Dubbelklik op de knop **[!UICONTROL Email delivery]** activiteiten om uw levering aan te passen.
 1. Voeg een **[!UICONTROL Label]** aan uw levering en klik op **[!UICONTROL Continue]**.
 1. Klikken **[!UICONTROL Save]** om uw e-maillevering te maken.
-1. Inchecken in het dialoogvenster **[!UICONTROL Approval]** tabblad van de e-maillevering **[!UICONTROL Properties]** de **[!UICONTROL Confirm delivery before sending option]** is ingeschakeld.
+1. Inchecken **[!UICONTROL Approval]** tabblad van de e-maillevering **[!UICONTROL Properties]** dat de **[!UICONTROL Confirm delivery before sending option]** is ingeschakeld.
 
    Start vervolgens de workflow om de uitgaande overgang te verrijken met de doelgegevens.
 

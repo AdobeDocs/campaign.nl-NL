@@ -3,8 +3,9 @@ product: campaign
 title: Marketingscampagnes maken
 description: Meer informatie over het maken en uitvoeren van marketingcampagnes
 feature: Campaigns, Cross Channel Orchestration, Programs
+role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 # Programma&#39;s en campagnes maken{#create-programs-and-campaigns}
 
-De componenten van de campagne orkest worden gevonden in **[!UICONTROL Campaigns]** tab: hier ziet u een overzicht van de marketingprogramma &#39; s en - campagnes en de bijbehorende elementen .
+De componenten van de campagne orkest worden gevonden in **[!UICONTROL Campaigns]** tab: hier ziet u een overzicht van de marketingprogramma&#39;s en -campagnes en de bijbehorende elementen.
 
 Een marketingprogramma bestaat uit campagnes die bestaan uit leveringen, middelen, enz. Alle informatie over leveringen, begrotingen, revisoren en bijbehorende documenten wordt in de campagne gegroepeerd.
 
@@ -55,15 +56,15 @@ Wanneer u een programma bewerkt, gebruikt u de onderstaande tabbladen om door he
 
 * De **Schema** wordt de agenda van de programma&#39;s weergegeven voor een maand, week of dag, afhankelijk van het tabblad waarop u in de kalenderkoptekst klikt. U kunt een campagne, programma of een taak van deze pagina tot stand brengen. [Meer informatie](#campaign-calendar)
 
-* De **Bewerken** kunt u het programma aanpassen: naam, begin- en einddatum, begroting, bijbehorende documenten, enz.
+* De **Bewerken** kunt u het programma aanpassen: naam, begin- en einddatum, budget, gekoppelde documenten, enz.
 
-   ![](assets/new-program-edit-tab.png)
+  ![](assets/new-program-edit-tab.png)
 
 ## Werken met campagnes{#work-with-campaigns}
 
 ### Een campagne maken {#create-a-campaign}
 
-U kunt een campagne maken via de lijst met campagnes. Selecteer de optie **[!UICONTROL Campaigns]** in het menu **[!UICONTROL Campaigns]** dashboard, en klik **[!UICONTROL Create]**.
+U kunt een campagne maken via de lijst met campagnes. Als u deze weergave wilt weergeven, selecteert u de **[!UICONTROL Campaigns]** in het menu **[!UICONTROL Campaigns]** dashboard, en klik **[!UICONTROL Create]**.
 
 De **[!UICONTROL Program]** in dit veld kunt u het programma selecteren waaraan de campagne wordt gekoppeld. Deze informatie is verplicht.
 
@@ -73,7 +74,7 @@ Campagnes kunnen ook worden gemaakt via de campagne- of programmalender. [Meer i
 
 Selecteer in het venster Campagne maken de sjabloon voor de campagne en voeg een naam en een beschrijving van de campagne toe. U kunt ook de begin- en einddatum van de campagne opgeven.
 
-Klikken **[!UICONTROL OK]** om de campagne te maken. Het wordt toegevoegd aan het programma, en aan de lijst van campagnes.
+Klikken **[!UICONTROL OK]** om de campagne op te zetten. Het wordt toegevoegd aan het programma, en aan de lijst van campagnes.
 
 U kunt dan de campagne uitgeven u enkel hebt gecreeerd en zijn parameters bepalen. Om deze campagne te openen en te vormen, kunt u:
 
@@ -100,11 +101,11 @@ Campagnes worden gemaakt via campagnemalplaatjes. U kunt herbruikbare sjablonen 
 
 Voor elke campagne zijn de volgende mogelijkheden beschikbaar:
 
-* Referentiedocumenten en -bronnen: u kunt documenten aan de campagne associëren (kort, rapport, beelden, enz.). Alle documentindelingen worden ondersteund. [Meer informatie](marketing-campaign-deliveries.md#manage-associated-documents).
-* Definieer kosten: voor elke campagne kunt u in Adobe Campaign de kostenposten en kostenberekeningsstructuren definiëren die kunnen worden gebruikt bij het maken van de marketingcampagne. Bijvoorbeeld: afdrukkosten, gebruik van een extern bureau, huur van ruimten enz. [Meer informatie](providers--stocks-and-budgets.md#defining-cost-categories).
-* Doelstellingen definiëren: u kunt kwantificeerbare doelstellingen voor een campagne bepalen, bijvoorbeeld aantal abonnees, bedrijfsvolume, enz. Deze informatie wordt later gebruikt in campagnerapporten.
+* Referentiedocumenten en -bronnen: u kunt documenten aan de campagne koppelen (korte beschrijving, rapport, afbeeldingen, enz.). Alle documentindelingen worden ondersteund. [Meer informatie](marketing-campaign-deliveries.md#manage-associated-documents).
+* Definieer de kosten: voor elke campagne kunt u met Adobe Campaign de kosten en kostenberekeningsstructuren definiëren die u kunt gebruiken bij het maken van de marketingcampagne. Bijvoorbeeld: afdrukkosten, gebruik van een extern bureau, huur van ruimten enz. [Meer informatie](providers--stocks-and-budgets.md#defining-cost-categories).
+* Definieer doelstellingen: u kunt kwantificeerbare doelstellingen voor een campagne definiëren, zoals het aantal abonnees, het bedrijfsvolume, enz. Deze informatie wordt later gebruikt in campagnerapporten.
 * Beheer zaadadressen en controlegroepen. [Meer informatie](marketing-campaign-deliveries.md#defining-a-control-group).
-* Goedkeuringen beheren: u kunt kiezen welke behandelingen moeten worden goedgekeurd en, indien nodig, de revisieoperatoren of groepen operatoren selecteren. [Meer informatie](marketing-campaign-approval.md#checking-and-approving-deliveries).
+* Goedkeuringen beheren: u kunt de behandelingen selecteren die u wilt goedkeuren en, indien nodig, de revisieoperatoren of groepen operatoren selecteren. [Meer informatie](marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
@@ -114,7 +115,7 @@ Voor elke campagne zijn de volgende mogelijkheden beschikbaar:
 
 Voor elke campagne worden banen, middelen en leveringen gecentraliseerd in een dashboard. Met deze interface kunt u marketingacties beheren en ordenen.
 
-Met Adobe Campaign kunt u samenwerkingsprocessen instellen voor het maken en goedkeuren van de verschillende stappen van uw campagnes: goedkeuring van de begroting, het doel, de inhoud, enz. Deze orkest wordt in detail beschreven in [deze sectie](marketing-campaign-approval.md).
+Met Adobe Campaign kunt u samenwerkingsprocessen opzetten voor het maken en goedkeuren van de verschillende stappen van uw campagnes: goedkeuring van het budget, het doel, de inhoud, enzovoort. Deze orkest wordt in detail beschreven in [deze sectie](marketing-campaign-approval.md).
 
 ![](assets/campaigns-dashboard-approval-tab.png)
 
@@ -144,9 +145,9 @@ U kunt de informatie filteren die in de campagnemalender wordt weergegeven. Om d
 
 U kunt ook de opdracht **[!UICONTROL Search]** veld om de weergegeven items te filteren.
 
-Met de pictogrammen die aan elk item zijn gekoppeld, kunt u de status ervan bekijken: voltooid, bezig, bewerkt, enz.
+Met de pictogrammen die aan elk item zijn gekoppeld, kunt u de status van het item weergeven: voltooid, bezig, bewerkt, enzovoort.
 
-Als u de weer te geven campagnes wilt filteren, klikt u op de knop **[!UICONTROL Filter]** en selecteer de status van de campagnes die u wilt weergeven.
+Als u de weer te geven campagnes wilt filteren, klikt u op de knop **[!UICONTROL Filter]** koppelen en de status selecteren van de campagnes die u wilt weergeven.
 
 ![](assets/calendar-filter-options.png)
 
@@ -170,7 +171,7 @@ Naast het navigeren over campagnes en het bekijken van hen, kunt u deze soorten 
 
 * De activiteit van de monitor op een geval
 * Deelnemen aan validatieprocessen, bijvoorbeeld een leveringsinhoud goedkeuren of afwijzen
-* Andere snelle handelingen uitvoeren, bijvoorbeeld een werkstroom onderbreken
+* Andere snelle handelingen uitvoeren, bijvoorbeeld een werkstroom pauzeren
 * Alle rapportfuncties openen
 * Deelnemen aan forumdiscussies
 
@@ -180,7 +181,7 @@ In deze tabel worden de acties samengevat die u kunt uitvoeren op campagnes vanu
 | --- | --- |
 | Lijst met campagnes, leveringen, aanbiedingen, enz. | Een lijstitem verwijderen |
 | Campaign | Een campagne annuleren |
-| Levering | Inhoud en doel van levering goedkeuren<br/>De leveringsinhoud verzenden<br/>Levering bevestigen<br/>Een levering onderbreken en stoppen |
+| Levering | De inhoud en het doel van de levering goedkeuren<br/>De leveringsinhoud verzenden<br/>Levering bevestigen<br/>Een levering onderbreken en stoppen |
 | Webtoepassing | Een webtoepassing maken<br/>De inhoud en eigenschappen van de toepassing bewerken<br/>De toepassingsinhoud opslaan als een sjabloon<br/>De toepassing publiceren |
 | Voorstel | Inhoud en geschiktheid van aanbieding goedkeuren<br/>Een online aanbieding uitschakelen |
 | Taak | Een taak voltooien<br/>Een taak annuleren |

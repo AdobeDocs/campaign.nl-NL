@@ -3,8 +3,9 @@ product: campaign
 title: Herhalende en periodieke campagnes maken
 description: Leer hoe u terugkerende en periodieke campagnes kunt maken en uitvoeren
 feature: Campaigns, Cross Channel Orchestration, Programs
+role: User
 exl-id: 68c5b903-5043-4e74-b3f6-90a7f2fb3b9a
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -39,7 +40,7 @@ Volg onderstaande stappen om een sjabloon voor terugkerende campagnes te maken:
    >De configuratie van het uitvoeringsschema moet zorgvuldig worden uitgevoerd. Met terugkerende campagnes worden de workflow(en) van de sjabloon gedupliceerd, afhankelijk van het opgegeven schema. Deze bewerking kan uw database overladen.
 
 1. Geef een waarde op in het dialoogvenster **[!UICONTROL Create in advance for]** om de overeenkomstige werkstromen voor de aangegeven periode te creëren.
-1. In de **[!UICONTROL Targeting and workflows]** , ontwerpt u het werkstroomsjabloon dat moet worden gebruikt in campagnes die op deze sjabloon zijn gebaseerd. Deze workflow bevat doorgaans de doelparameters en een of meer leveringen.
+1. In de **[!UICONTROL Targeting and workflows]** het werkstroomsjabloon te ontwerpen dat moet worden gebruikt in campagnes die op deze sjabloon zijn gebaseerd. Deze workflow bevat doorgaans de doelparameters en een of meer leveringen.
 
    >[!NOTE]
    >
@@ -84,7 +85,7 @@ Als u de terugkerende campagne wilt maken en de workflows wilt uitvoeren volgens
 
 Een periodieke campagne is een campagne die op een specifiek malplaatje wordt gebaseerd dat u campagneinstanties laat tot stand brengen die op een uitvoeringsprogramma worden gebaseerd. Campagneinstanties worden automatisch gemaakt op basis van een periodiek campagnemalplaatje, afhankelijk van de frequentie die in het sjabloonprogramma is gedefinieerd.
 
-### De sjabloon voor de campagne maken {#create-the-campaign-template-1}
+### De campagnemalplaatje maken {#create-the-campaign-template-1}
 
 1. Campagneverkenner openen en bladeren naar **[!UICONTROL Resources > Templates > Campaign templates]**.
 1. De ingebouwde **[!UICONTROL Periodic campaign]** sjabloon.
@@ -100,7 +101,7 @@ Een periodieke campagne is een campagne die op een specifiek malplaatje wordt ge
    >
    >Deze workflow is een werkstroomsjabloon. Deze kan niet worden uitgevoerd vanuit de campagnemalplaatje.
 
-1. Voltooi zijn uitvoeringsprogramma zoals voor een terugkomende campagnemalplaatje: klik op **[!UICONTROL Add]** en definieert u de begin- en einddatum of vult u het uitvoeringsschema in via de koppeling.
+1. Voltooi zijn uitvoeringsprogramma zoals voor een terugkomende campagnemalplaatje: klik **[!UICONTROL Add]** en definieert u de begin- en einddatum of vult u het uitvoeringsschema in via de koppeling.
 
    >[!CAUTION]
    >

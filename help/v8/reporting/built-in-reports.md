@@ -2,8 +2,9 @@
 title: Geïntegreerde Adobe Campaign-rapporten
 description: Ingebouwde rapporten
 feature: Reporting
+role: User
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
@@ -23,14 +24,14 @@ U kunt tot ingebouwde rapporten van de homepage van de Campagne, het specifieke 
 
 Een lijst van zeer belangrijke rapporten is beschikbaar op de homepage en laat u tot leveringsgegevens snel toegang hebben. U kunt deze lijst naar wens wijzigen. U kunt ook leren hoe u uw eigen rapporten kunt toevoegen aan de **[!UICONTROL Reports]** tab.
 
-Voor meer informatie over deze douaneconfiguraties, verwijs naar dit [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
+Raadpleeg voor meer informatie over deze aangepaste configuraties [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
 
 
 ## Ingebouwde rapporten openen {#access-ootb-reports}
 
 Voor toegang tot geïntegreerde campagnerapporten:
 
-1. Selecteer **[!UICONTROL Reports]** van de Adobe Campaign-interface.
+1. Selecteer de **[!UICONTROL Reports]** van de Adobe Campaign-interface.
 
    ![](assets/reporting-access-from-home.png)
 
@@ -57,7 +58,7 @@ Dit beginsel geldt ook voor lijsten, diensten, aanbiedingen, enz. zoals hieronde
 
 De ingebouwde rapporten van Adobe Campaign zijn te vinden in de onderstaande tabel.
 
-Voor meer informatie over de inhoud van deze rapporten raadpleegt u [deze sectie](delivery-reports.md).
+Raadpleeg voor meer informatie over de inhoud van deze rapporten [deze sectie](delivery-reports.md).
 
 <table> 
  <tbody> 
@@ -77,7 +78,7 @@ Voor meer informatie over de inhoud van deze rapporten raadpleegt u [deze sectie
    <td> nms:levering<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mislukt en fouten<br /> </td> 
+   <td> Fouten en stuitingen (fouten)<br /> </td> 
    <td> Bounces en niet-te leveren items per oorzaak en domein.<br /> </td> 
    <td> nms:levering<br /> </td> 
   </tr> 
@@ -128,12 +129,12 @@ Voor meer informatie over de inhoud van deze rapporten raadpleegt u [deze sectie
   </tr> 
   <tr> 
    <td> Afleveringsoverzicht (leveringVerzenden)<br /> </td> 
-   <td> Samenvatting van de leveringsindicatoren: doel, uitsluiting en verzonden berichten.<br /> </td> 
+   <td> Samenvatting van leveringsindicatoren: doel, uitsluiting en verzonden berichten.<br /> </td> 
    <td> nms:levering<br /> </td> 
   </tr> 
   <tr> 
    <td> Overzicht van levering (deliveryStatistics)<br /> </td> 
-   <td> Samenvattingstabel voor geselecteerde leveringen: Doelen, uitsluitingen en verzonden berichten.<br /> </td> 
+   <td> Overzichtstabel voor geselecteerde leveringen: doelen, uitsluitingen en berichten verzonden.<br /> </td> 
    <td> nms:levering<br /> </td> 
   </tr> 
   <tr> 
@@ -186,7 +187,7 @@ De verslagen over campagnes hebben betrekking op de gegevens in het **nms:bewerk
   </tr> 
   <tr> 
    <td> Trackingindicatoren (operationFeedback)<br /> </td> 
-   <td> Overzicht van belangrijke volgindicatoren: Opent, klikt en Transacties, is afhankelijk van campagne.<br /> </td> 
+   <td> Overzicht van belangrijke volgindicatoren: Opens, Kliks en Transacties, hangt van Campagne af.<br /> </td> 
   </tr> 
   <tr> 
    <td> Delen naar sociale netwerken (operationForward)<br /> </td> 
@@ -202,7 +203,7 @@ De verslagen over campagnes hebben betrekking op de gegevens in het **nms:bewerk
   </tr> 
   <tr> 
    <td> Overzicht van levering (operationStatistics)<br /> </td> 
-   <td> Samenvattend overzicht van de campagneleveringen: Doelen, uitsluitingen en verzonden berichten.<br /> </td> 
+   <td> Samenvattend overzicht van de campagneleveringen: doelstellingen, uitsluitingen en verzonden berichten.<br /> </td> 
   </tr> 
   <tr> 
    <td> URL's en klik op doorvoer (operationTopUrlDelivery)<br /> </td> 
@@ -347,10 +348,10 @@ Rapporten over de toepassingen van het Web betreffen de gegevens in **nms:WebApp
   </tr> 
   <tr> 
    <td> Hoofd (surveyProperties)<br /> </td> 
-   <td> Eigenschappen van enquête<br /> </td> 
+   <td> Eigenschappen van enquêtes<br /> </td> 
   </tr> 
   <tr> 
-   <td> Uitsplitsing van antwoorden (surveyDistribution)<br /> </td> 
+   <td> Uitsplitsing van de antwoorden (surveyDistribution)<br /> </td> 
    <td> Uitsplitsing van antwoorden op vragen.<br /> </td> 
   </tr> 
  </tbody> 
@@ -379,7 +380,7 @@ De volgende rapporten worden ook ingebouwd verstrekt. Raadpleeg voor meer inform
   </tr> 
   <tr> 
    <td> Geschiedenis van sociale vooruitzichten (socialVisitorStatistics)<br /> </td> 
-   <td> De geschiedenis van de perspectiefovernames van Twitter en Facebook is afhankelijk van de sociale marketingadd-on.<br /> </td> 
+   <td> De geschiedenis van Twitter en Facebook-perspectiefaankopen is afhankelijk van de sociale marketingadd-on.<br /> </td> 
    <td> nms:bezoeker<br /> </td> 
   </tr> 
   <tr> 

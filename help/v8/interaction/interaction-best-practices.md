@@ -2,8 +2,9 @@
 product: campaign
 title: Aanbevolen procedures voor Adobe Campaign-interactie
 description: Aanbevolen aanpak voor het beheer van de Interactiemodule in Adobe Campaign
+role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Het beheer van aanbiedingen in Adobe Campaign vereist zorgvuldig beheer om efficiënt te kunnen werken. Om problemen te voorkomen moet u een evenwicht vinden tussen het aantal contactpersonen en het aantal aanbiedingrubrieken en -aanbiedingen.
 
-In deze sectie worden de aanbevolen procedures voor het beheren van de **Interactie** in Adobe Campaign, met inbegrip van toelatingsregels, vooraf gedefinieerde filters, workflowactiviteiten en databaseopties.
+In deze sectie worden de aanbevolen procedures voor het beheren van de **Interactie** in Adobe Campaign, inclusief toelatingsregels, vooraf gedefinieerde filters, workflowactiviteiten en databaseopties.
 
 * Wanneer **interacties implementeren en configureren**, dient u op de hoogte te zijn van de volgende aanbevelingen:
 
@@ -40,14 +41,14 @@ In deze sectie worden de aanbevolen procedures voor het beheren van de **Interac
 * Hieronder vindt u een aantal aanbevolen procedures voor de **concepttabel**:
 
    * Gebruik een minimumaantal regels om de verwerking zo snel mogelijk te maken.
-   * Het aantal records in de tabel met voorstellen beperken: Bewaar alleen de records die nodig zijn om de statusupdate en de vereisten van de regels bij te houden en archiveer ze vervolgens in een ander systeem.
+   * Beperk het aantal verslagen in de voorstellingstabel: houd slechts de verslagen die nodig zijn om zijn statusupdate te volgen en wat door de regels wordt vereist, dan archiveer hen in een ander systeem.
    * Voer intensief gegevensbestandonderhoud op de propositietabel uit, zoals opnieuw bouwt indexen of ontspant lijst.
    * Beperk het aantal voorgestelde voorstellen per doel. Stel niet meer in dan wat u gaat gebruiken.
    * Vermijd zoveel mogelijk samengevoegde regels in de regelcriteria.
 
 ## Tips bij het beheren van aanbiedingen {#tips-managing-offers}
 
-Deze sectie bevat meer gedetailleerd advies over het beheer van aanbiedingen en het gebruik van de Interactiemodule in Adobe Campaign.
+Deze sectie bevat gedetailleerder advies over het beheer van aanbiedingen en het gebruik van de Interactiemodule in Adobe Campaign.
 
 ### Meerdere aanbiedingsruimten in een e-mail {#multiple-offer-spaces}
 
@@ -68,8 +69,8 @@ In het onderstaande voorbeeld is de renderfunctie HTML beschikbaar in de vervolg
 Deze functie voegt code in zoals: `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
 
 Wanneer u het voorstel selecteert, wordt de waarde van de optie **[!UICONTROL view]** Het kenmerk is als volgt:
-* &quot;rendering/html&quot;: html-rendering. De renderfunctie HTML wordt gebruikt.
-* &quot;aanbieding/weergave/html&quot;: html-inhoud. De renderfunctie HTML wordt niet gebruikt. Het bevat alleen het veld HTML.
+* &quot;rendering/html&quot;: html rendering. De renderfunctie HTML wordt gebruikt.
+* &quot;aanbieding/view/html&quot;: HTML-inhoud. De renderfunctie HTML wordt niet gebruikt. Het bevat alleen het veld HTML.
 
 Wanneer u meerdere aanbiedingsruimten opneemt in één e-mailbestelling en sommige daarvan renderingfuncties hebben en andere niet, moet u onthouden welke functies ruimtes bieden en welke ruimten renderfuncties bieden.
 
@@ -113,11 +114,11 @@ Wanneer de gebruiker Interactie gebruikt en manueel aanbiedingen selecteert, kan
 
 Wanneer het uitbreiden van nms:aanbiedingsschema, zorg ervoor u de uit-van-de-doosstructuur reeds opstelling volgt:
 * Een nieuw veld definiëren voor de opslag van inhoud onder `<element name="view">`.
-* Elk nieuw veld moet tweemaal worden gedefinieerd. Eenmaal als een regulier XML-veld en eenmaal als een CDATA XML-veld met &quot;_jst&quot; toegevoegd aan de naam. Bijvoorbeeld:
+* Elk nieuw veld moet tweemaal worden gedefinieerd. Eenmaal als een normaal XML-veld en eenmaal als een CDATA XML-veld met &quot;_jst&quot; toegevoegd aan de naam. Bijvoorbeeld:
 
-   ```
-   <element label="Price" name="price" type="long" xml="true"/>
-   <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
-   ```
+  ```
+  <element label="Price" name="price" type="long" xml="true"/>
+  <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
+  ```
 
 * Alle velden die URL&#39;s bevatten die moeten worden bijgehouden, moeten onder `<element name="trackedUrls">` die u vindt onder `<element name="view" >`.

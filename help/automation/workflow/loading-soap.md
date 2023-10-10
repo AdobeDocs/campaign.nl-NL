@@ -3,8 +3,9 @@ product: campaign
 title: Laden (SOAP)
 description: Laden (SOAP)
 feature: Workflows
+role: User
 exl-id: 21c42a36-9a50-49b8-8a07-b041ba8b2026
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 4%
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->De **Laden (SOAP)** activiteit is alleen beschikbaar als u beschikt over **FDA (Federated Data Access)** geïnstalleerde module. Controleer hiervoor uw licentieovereenkomst.
+>De **Laden (SOAP)** activiteit is alleen beschikbaar als u beschikt over **FDA (FDA)** geïnstalleerde module. Controleer hiervoor uw licentieovereenkomst.
 
 De **Laden (SOAP)** naast de **gegevens laden (RDBMS)** activiteit wanneer het niet mogelijk is om gegevens rechtstreeks via de FDA in een externe databank te verzamelen.
 
@@ -41,12 +42,12 @@ De bewerking is als volgt:
 
    Als u het voorbeeld wilt bijwerken, selecteert u **[!UICONTROL Re-analyze the example]**.
 
-1. U kunt het lijnaantal als herkenningsteken gebruiken en/of specificeren dat de vraag van de ZEEP verscheidene elementen terugkeert.
+1. U kunt het regelnummer als id gebruiken en/of opgeven dat de SOAP-aanroep meerdere elementen retourneert.
 1. Voer de volgende tabscripts in op basis van hun functie:
 
-   * **[!UICONTROL Initialization]**: stelt een verbinding van de ZEEP in.
-   * **[!UICONTROL Iteration]**: voert de vraag aan de dienst van de ZEEP uit. De return voor deze functie moet een XML-object zijn dat compatibel is met de beschrijving van het voorbeeld of de WSDL.
+   * **[!UICONTROL Initialization]**: maakt een SOAP-verbinding.
+   * **[!UICONTROL Iteration]**: Voert de vraag aan de dienst van de ZEEP uit. De return voor deze functie moet een XML-object zijn dat compatibel is met de beschrijving van het voorbeeld of de WSDL.
 
-      De code van dit tabblad wordt aangeroepen in een lus door Adobe Campaign totdat een null XML-object wordt geretourneerd.
+     De code van dit tabblad wordt aangeroepen in een lus door Adobe Campaign totdat een null XML-object wordt geretourneerd.
 
    * **[!UICONTROL Finalization]**: sluit verbinding en/of bevrijdt andere middelen die tijdens verwerking worden gecreeerd.

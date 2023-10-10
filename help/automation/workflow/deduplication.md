@@ -3,8 +3,9 @@ product: campaign
 title: Deduplicatie
 description: Meer informatie over de deduplicatieworkflowactiviteit
 feature: Workflows, Targeting Activity
+role: User
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 10%
@@ -63,7 +64,7 @@ Als u een deduplicatie wilt configureren, voert u het label, de methode en de cr
 
    >[!NOTE]
    >
-   >Als u externe gegevens als invoer gebruikt, bijvoorbeeld vanuit een extern bestand, moet u de optie **[!UICONTROL Temporary schema]** optie.
+   >Als u externe gegevens als invoer gebruikt, bijvoorbeeld vanuit een extern bestand, moet u de optie **[!UICONTROL Temporary schema]** -optie.
    >
    >In de volgende stap worden de **[!UICONTROL Other]** Met deze optie kunt u het criterium of de criteria selecteren die u wilt gebruiken:
 
@@ -82,20 +83,21 @@ Als u een deduplicatie wilt configureren, voert u het label, de methode en de cr
    * **[!UICONTROL Choose for me]**: Hiermee selecteert u willekeurig de record die u uit de duplicaten wilt houden.
    * **[!UICONTROL Following a list of values]**: Hiermee kunt u een waardeprioriteit voor een of meer velden definiëren. Als u de waarden wilt definiëren, selecteert u een veld of maakt u een expressie en vervolgens voegt u de waarde(n) toe aan de desbetreffende tabel. Als u een nieuw veld wilt definiëren, klikt u op de knop **[!UICONTROL Add]** boven de lijst met waarden.
 
-      ![](assets/s_user_segmentation_dedup_param5.png)
+     ![](assets/s_user_segmentation_dedup_param5.png)
 
    * **[!UICONTROL Non-empty value]**: Hiermee kunt u records waarvoor de waarde van de geselecteerde expressie niet leeg is als prioriteit behouden.
 
-      ![](assets/s_user_segmentation_dedup_param6.png)
+     ![](assets/s_user_segmentation_dedup_param6.png)
 
-   * **[!UICONTROL Using an expression]**: Hiermee kunt u records met de laagste (of hoogste) waarde van de opgegeven expressie bijhouden.
+   * **[!UICONTROL Using an expression]**: hiermee kunt u records met de laagste (of hoogste) waarde van de opgegeven expressie bijhouden.
 
-      ![](assets/s_user_segmentation_dedup_param7.png)
+     ![](assets/s_user_segmentation_dedup_param7.png)
+
    >[!NOTE]
    >
    >De **[!UICONTROL Merge]** functionaliteit, toegankelijk via de **[!UICONTROL Advanced parameters]** verbinding, staat u toe om een reeks regels te vormen om een gebied of een groep gebieden in één enkel resulterend gegevensverslag samen te voegen. Zie voor meer informatie [Velden samenvoegen tot één record](#merging-fields-into-single-record).
 
-1. Klikken **[!UICONTROL Finish]** de geselecteerde deduplicatiemethode goed te keuren.
+1. Klikken **[!UICONTROL Finish]** om de geselecteerde deduplicatiemethode goed te keuren.
 
    Het middelste gedeelte van het venster geeft een overzicht van de gedefinieerde configuratie.
 
@@ -107,7 +109,7 @@ Als u een deduplicatie wilt configureren, voert u het label, de methode en de cr
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
-## Voorbeeld: De duplicaten identificeren vóór levering {#example--identify-the-duplicates-before-a-delivery}
+## Voorbeeld: de duplicaten identificeren vóór levering {#example--identify-the-duplicates-before-a-delivery}
 
 In het volgende voorbeeld betreft de deduplicatie de samenvoeging van drie vragen.
 
@@ -122,14 +124,14 @@ De geïdentificeerde duplicaten worden ook geïntegreerd in een speciale lijst m
    De vakbondsactiviteit wordt hier gebruikt om de drie vragen in één enkele overgang te &quot;verenigen&quot;. Op deze manier werkt deduplicatie niet voor elke query afzonderlijk, maar voor de gehele query. Raadpleeg voor meer informatie over dit onderwerp [Aanbevolen procedures](#best-practices).
 
 1. Open de deduplicatieactiviteit en klik op de knop **[!UICONTROL Edit configuration...]** koppeling om de deduplicatiemodus te definiëren.
-1. Selecteer in het nieuwe venster de optie **[!UICONTROL Database schema]**.
-1. Selecteren **Ontvangers** als doelgerichte en filterafmetingen.
-1. Selecteer het veld Id voor de **[!UICONTROL Email]** dupliceert, om de levering slechts één keer naar elk e-mailadres te verzenden en klik vervolgens op **[!UICONTROL Next]**.
+1. Selecteer in het nieuwe venster **[!UICONTROL Database schema]**.
+1. Selecteren **Ontvangers** als doelwitten en filteren.
+1. Selecteer het veld Id voor het dialoogvenster **[!UICONTROL Email]** dupliceert, om de levering slechts één keer naar elk e-mailadres te verzenden en klik vervolgens op **[!UICONTROL Next]**.
 
    Als u de dubbele id&#39;s wilt baseren op een specifiek veld, selecteert u **[!UICONTROL Other]** voor toegang tot de lijst met beschikbare velden.
 
 1. Kies ervoor om slechts één item bij te houden wanneer hetzelfde e-mailadres wordt geïdentificeerd voor meerdere ontvangers.
-1. Selecteer **[!UICONTROL Choose for me]** deduplicatiemodus, zodat de records die zijn opgeslagen in het geval van geïdentificeerde duplicaten willekeurig worden gekozen en vervolgens op **[!UICONTROL Finish]**.
+1. Selecteer de **[!UICONTROL Choose for me]** deduplicatiemodus, zodat de records die zijn opgeslagen in het geval van geïdentificeerde duplicaten willekeurig worden gekozen en vervolgens op **[!UICONTROL Finish]**.
 
 Bij het uitvoeren van de workflow worden alle ontvangers die als duplicaten zijn geïdentificeerd, uitgesloten van het resultaat (en dus van de levering) en toegevoegd aan de lijst met duplicaten. Deze lijst kan opnieuw worden gebruikt in plaats van de duplicaten opnieuw te moeten identificeren.
 
@@ -143,19 +145,19 @@ Een gebruiksscenario waarin deze functie wordt gebruikt, is beschikbaar in [deze
 
 Ga als volgt te werk om dit te doen:
 
-1. In de **[!UICONTROL Deduplication method]** selectiestap, klik op de knop **[!UICONTROL Advanced Parameters]** koppeling.
+1. In de **[!UICONTROL Deduplication method]** selectiestap, klikt u op de knop **[!UICONTROL Advanced Parameters]** koppeling.
 
    ![](assets/dedup1.png)
 
-1. Selecteer **[!UICONTROL Merge records]** activeren.
+1. Selecteer de **[!UICONTROL Merge records]** om de functionaliteit te activeren.
 
-   Als u meerdere gegevensvelden in elke samenvoegvoorwaarde wilt groeperen, activeert u de optie **[!UICONTROL Use several record merging criteria]** optie.
+   Als u meerdere gegevensvelden in elke samenvoegvoorwaarde wilt groeperen, activeert u de optie **[!UICONTROL Use several record merging criteria]** -optie.
 
    ![](assets/dedup2.png)
 
 1. Nadat u de functionaliteit hebt geactiveerd, kunt u **[!UICONTROL Merge]** wordt toegevoegd aan de **[!UICONTROL Deduplication]** activiteit. Hiermee kunt u groepen velden definiëren die moeten worden samengevoegd en de bijbehorende regels.
 
-   Raadpleeg voor meer informatie de speciale gebruiksaanwijzing die beschikbaar is in [deze sectie](deduplication-merge.md).
+   Raadpleeg voor meer informatie de speciale gebruiksaanwijzing in [deze sectie](deduplication-merge.md).
 
 ## Invoerparameters {#input-parameters}
 

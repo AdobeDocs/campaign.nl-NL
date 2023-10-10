@@ -3,8 +3,9 @@ product: campaign
 title: Het campagnepakket publiceren
 description: Het campagnepakket publiceren
 feature: Distributed Marketing
+role: User
 exl-id: 2cd1981d-f192-41dc-b2f2-4fcd60493079
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
@@ -19,7 +20,7 @@ Voordat ze in de lijst met campagnepakketten kunnen worden gepubliceerd, moeten 
 
 ## Een revisor toewijzen {#assigning-a-reviewer}
 
-Als u de controleur wilt selecteren, klikt u op de knop **[!UICONTROL Approval parameters]** in het campagnepakket en kiest u de relevante revisor in de vervolgkeuzelijst.
+Klik op de knop **[!UICONTROL Approval parameters]** in het campagnepakket en kiest u de relevante revisor in de vervolgkeuzelijst.
 
 ![](assets/s_advuser_mkg_dist_define_valid.png)
 
@@ -45,7 +46,7 @@ U kunt andere revisoren toevoegen van de **[!UICONTROL Edit...]** link in het ca
 
 Standaard krijgen revisoren drie dagen vanaf de verzenddatum de tijd om de goedkeuring te verwerken.
 
-In het venster Revisoren bewerken kunt u ook herinneringen instellen voor het verzenden van een of meerdere berichten als er geen campagnepakket is goedgekeurd. Om dit te doen, klik **[!UICONTROL Add reminder]** dan de koppeling **[!UICONTROL Add]** knop.
+In het venster Revisoren bewerken kunt u ook herinneringen instellen voor het verzenden van een of meerdere berichten als er geen campagnepakket is goedgekeurd. Om dit te doen, klik **[!UICONTROL Add reminder]** koppeling, dan de **[!UICONTROL Add]** knop.
 
 Herinneringen kunnen op een bepaalde datum worden verzonden en/of **x** dagen na de verzenddatum. Het type herinnering kan in de eerste kolom van de lijst van herinneringen worden gevormd. In het onderstaande voorbeeld ontvangen de controleurs een herinneringsbericht op de website op 11-01-2023, d.w.z. twee dagen voor de datum die is geselecteerd in het **[!UICONTROL Date]** kolom en een tweede herinnering één dag vóór het einde van de goedkeuringsperiode, d.w.z. twee dagen na de datum van indiening voor goedkeuring.
 

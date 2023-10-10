@@ -2,10 +2,10 @@
 title: Werken met omgevingen met interactie tussen campagnes
 description: Leer hoe u omgevingen kunt maken voor interactie met campagnes
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 2%
@@ -25,7 +25,7 @@ De interactie werkt met twee soorten aanbiedingsmilieu&#39;s:
 
 Elk **[!UICONTROL Design]** milieu is gekoppeld aan een **[!UICONTROL Live]** milieu. Wanneer een aanbieding is voltooid, worden de inhoud en de subsidiabiliteitsregels ervan onderworpen aan een goedkeuringscyclus. Zodra deze cyclus is voltooid, wordt het desbetreffende aanbod automatisch aan de **[!UICONTROL Live]** milieu. Vanaf dat moment is het beschikbaar voor levering.
 
-Campagne wordt standaard geleverd met een **[!UICONTROL Design]** milieu en **[!UICONTROL Live]** omgeving. Beide omgevingen zijn vooraf geconfigureerd om zich te richten op de [ingebouwde tabel voor ontvangers](../dev/datamodel.md#ootb-profiles).
+Campagne wordt standaard geleverd met een **[!UICONTROL Design]** milieu en **[!UICONTROL Live]** omgeving die eraan gekoppeld is. Beide omgevingen zijn vooraf geconfigureerd om de [ingebouwde tabel voor ontvangers](../dev/datamodel.md#ootb-profiles).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Campagne wordt standaard geleverd met een **[!UICONTROL Design]** milieu en **[!
 
 ![](assets/offer_environments_overview_002.png)
 
-Leveringsmanagers kunnen alleen de **[!UICONTROL Live]** milieu en hefboomwerking bieden aan om hen te leveren. Aanbiedingsmanagers kunnen de **[!UICONTROL Design]** en bekijk de **[!UICONTROL Live]** milieu. [Meer informatie](interaction-operators.md)
+Leveringsmanagers kunnen alleen de **[!UICONTROL Live]** milieu en hefboomwerking bieden aan om hen te leveren. Aanbiedingsmanagers kunnen de functie **[!UICONTROL Design]** en bekijk de **[!UICONTROL Live]** milieu. [Meer informatie](interaction-operators.md)
 
 ## Een omgeving maken voor anonieme interacties{#create-an-offer-environment}
 
@@ -55,11 +55,11 @@ Volg de onderstaande stappen:
 
 1. Adobe Campaign creëert twee omgevingen - **[!UICONTROL Design]** en **[!UICONTROL Live]** - met gerichte informatie uit de eerder ingeschakelde doeltoewijzing. Het milieu wordt preconfigured met het richten informatie.
 
-Als u **[!UICONTROL Visitor]** de **[!UICONTROL Environment dedicated to incoming anonymous interactions]** wordt automatisch ingeschakeld in de omgeving **[!UICONTROL General]** tab.
+Als u hebt geactiveerd **[!UICONTROL Visitor]** de **[!UICONTROL Environment dedicated to incoming anonymous interactions]** wordt automatisch ingeschakeld in de omgeving **[!UICONTROL General]** tab.
 
 Met deze optie kunt u anonieme interactiespecifieke functies activeren, vooral wanneer u omgevingen configureert die spaties bieden. U kunt opties ook vormen die u toestaan om van een &quot;geïdentificeerd&quot;milieu aan een &quot;anonieme&quot;milieu over te schakelen.
 
-U kunt bijvoorbeeld een koppeling tot stand brengen tussen een ontvankelijke omgeving en een aanbiedingsruimte (geïdentificeerd contact) die overeenkomt met een bezoekersomgeving (niet-geïdentificeerd contact). Op deze manier worden verschillende aanbiedingen ter beschikking gesteld van de contactpersoon, afhankelijk van of deze contactpersoon al dan niet wordt geïdentificeerd. Raadpleeg voor meer informatie hierover [Aanbiedingsruimten maken](interaction-offer-spaces.md).
+U kunt bijvoorbeeld een koppeling maken tussen een ontvankelijke omgeving en een aanbiedingsruimte (geïdentificeerd contact) die overeenkomt met een bezoekersomgeving (niet-geïdentificeerd contact). Op deze manier worden verschillende aanbiedingen ter beschikking gesteld van de contactpersoon, afhankelijk van het feit of deze contactpersoon al dan niet wordt geïdentificeerd. Raadpleeg voor meer informatie hierover [Aanbiedingsruimten maken](interaction-offer-spaces.md).
 
 ![](assets/offer_env_anonymous_003.png)
 

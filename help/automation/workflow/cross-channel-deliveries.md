@@ -3,8 +3,9 @@ product: campaign
 title: Cross-channel leveringen
 description: Meer informatie over leveringen via meerdere kanalen
 feature: Workflows, Channels Activity
+role: User
 exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 4%
@@ -23,7 +24,7 @@ In het onderstaande voorbeeld leert u hoe u een workflow maakt voor het verzende
 
 1. Een campagne maken.
 1. In de **[!UICONTROL Targeting and workflows]** tabblad van uw campagne, voegt u een **[!UICONTROL Query]** activiteit.
-1. Uw query configureren: Selecteer de ontvangers die zijn geabonneerd op pushberichten als de doeldimensie.
+1. Configureer uw query: selecteer de ontvangers die zijn geabonneerd op pushberichten als de doeldimensie.
 
    >[!NOTE]
    >

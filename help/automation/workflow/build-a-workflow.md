@@ -3,8 +3,9 @@ product: campaign
 title: Een workflow maken
 description: Leer hoe u een workflow kunt maken
 feature: Workflows
+role: User
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 4%
@@ -19,7 +20,7 @@ De workflow voor het maken van werkstromen is afhankelijk van het type werkstroo
 
 * Maken [Workflows voorbereiden](#targeting-workflows) van de **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** knoop van de Ontdekkingsreiziger of van de **[!UICONTROL Profiles and Targets]** tabblad van de homepage, via de **[!UICONTROL Targeting workflows]** subtab.
 
-   ![](assets/create-targeting-wf.png)
+  ![](assets/create-targeting-wf.png)
 
 * Maken [Workflows voor campagnes](#campaign-workflows) van de **[!UICONTROL Targeting and workflows]** tabblad van een campagne
 
@@ -74,28 +75,28 @@ U kunt de weergave en lay-out van het diagram wijzigen met de volgende elementen
 
 * **De werkbalk gebruiken**
 
-   Met de werkbalk voor diagrambewerking hebt u toegang tot de functies voor lay-out en uitvoering van de workflow.
+  Met de werkbalk voor diagrambewerking hebt u toegang tot de functies voor lay-out en uitvoering van de workflow.
 
-   ![](assets/wf-toolbar.png)
+  ![](assets/wf-toolbar.png)
 
-   Zo kunt u de layout van het bewerkgereedschap aanpassen: de weergave van het palet en het overzicht, de grootte en de uitlijning van grafische objecten.
+  Zo kunt u de lay-out van het bewerkgereedschap aanpassen: de weergave van het palet en het overzicht, de grootte en de uitlijning van grafische objecten.
 
-   ![](assets/s_user_segmentation_toolbar.png)
+  ![](assets/s_user_segmentation_toolbar.png)
 
-   Pictogrammen die betrekking hebben op de voortgangsweergave en de logboekweergave worden in de volgende secties beschreven:
+  Pictogrammen die betrekking hebben op de voortgangsweergave en de logboekweergave worden in de volgende secties beschreven:
 
    * [Voortgang weergeven](monitor-workflow-execution.md#displaying-progress)
    * [Logboeken weergeven](monitor-workflow-execution.md#displaying-logs)
 
 * **Objectuitlijning**
 
-   Als u pictogrammen wilt uitlijnen, selecteert u de pictogrammen en klikt u op de knop **[!UICONTROL Align vertically]** of **[!UICONTROL Align horizontally]** pictogram.
+  Als u pictogrammen wilt uitlijnen, selecteert u deze en klikt u op de knop **[!UICONTROL Align vertically]** of **[!UICONTROL Align horizontally]** pictogram.
 
-   Gebruik de **CTRL** sleutel voor het selecteren van meerdere verspreide activiteiten of voor het deselecteren van een of meer activiteiten. Klik op de achtergrond van het diagram om alles te deselecteren.
+  Gebruik de **CTRL** sleutel voor het selecteren van meerdere verspreide activiteiten of voor het deselecteren van een of meer activiteiten. Klik op de achtergrond van het diagram om alles te deselecteren.
 
 * **Afbeeldingsbeheer**
 
-   U kunt het achtergrondbeeld van het diagram evenals die aanpassen met betrekking tot de diverse activiteiten. Zie [Activiteitenafbeeldingen wijzigen](change-activity-images.md).
+  U kunt het achtergrondbeeld van het diagram evenals die aanpassen met betrekking tot de diverse activiteiten. Zie [Activiteitenafbeeldingen wijzigen](change-activity-images.md).
 
 ## Activiteiten configureren {#configure-activities}
 
@@ -158,7 +159,7 @@ U kunt echter een weergave maken om alle workflows op uw exemplaar weer te geven
 De nieuwe map **Workflows** wordt gemaakt.
 
 1. Klik met de rechtermuisknop en selecteer **Eigenschappen**.
-1. In de **Beperking** tab, inschakelen **Deze map is een weergave** en klik op **Opslaan**.
+1. In de **Beperking** tabblad, schakelt u de **Deze map is een weergave** en klik op **Opslaan**.
 
    ![](assets/folder-is-a-view.png)
 

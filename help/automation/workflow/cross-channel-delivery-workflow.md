@@ -3,8 +3,9 @@ product: campaign
 title: Cross-channel leveringsworkflow
 description: Meer informatie over workflows voor levering via meerdere kanalen
 feature: Workflows, Channels Activity
+role: User
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 3%
@@ -29,7 +30,7 @@ De belangrijkste stappen voor de implementatie van dit gebruiksgeval zijn als vo
 
 ![](assets/wkf_cross-channel_7.png)
 
-## Stap 1: Het publiek samenstellen {#step-1--build-the-audience}
+## Stap 1: Bouw het publiek {#step-1--build-the-audience}
 
 Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
@@ -42,7 +43,7 @@ Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
 1. Sla uw wijzigingen op.
 
-## Stap 2: Een e-mail met een voorstel maken {#step-2--create-an-email-including-an-offer}
+## Stap 2: Maak een e-mail met een voorstel {#step-2--create-an-email-including-an-offer}
 
 1. Een e-maillevering maken.
 1. Ontwerp het bericht en voeg een verbinding met inbegrip van een aanbieding in de inhoud op.
@@ -53,7 +54,7 @@ Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
 1. Sla uw wijzigingen op.
 1. Klik met de rechtermuisknop op de knop **[!UICONTROL Email delivery]** activiteit om het te openen.
-1. Selecteer **[!UICONTROL Generate an outbound transition]** optie om de populatie en de trackinglogboeken te herstellen.
+1. Selecteer de **[!UICONTROL Generate an outbound transition]** optie om de populatie en de trackinglogboeken te herstellen.
 
    ![](assets/wkf_cross-channel_2.png)
 
@@ -63,7 +64,7 @@ Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
    ![](assets/wkf_cross-channel_4.png)
 
-## Stap 3: Het resulterende publiek segmenteren {#step-3--segment-the-resulting-audience}
+## Stap 3: Segmenteer het resulterende publiek {#step-3--segment-the-resulting-audience}
 
 Zodra uw doel wordt geïdentificeerd en uw eerste levering gecreeerd, moet u het doel in verschillende populaties segmenteren gebruikend het filtreren voorwaarden.
 
@@ -76,19 +77,19 @@ Zodra uw doel wordt geïdentificeerd en uw eerste levering gecreeerd, moet u het
 
    ![](assets/wkf_cross-channel_8.png)
 
-1. Selecteren **[!UICONTROL Recipients of a delivery]** als het restrictiefilter en klik op **[!UICONTROL Next]**.
+1. Selecteren **[!UICONTROL Recipients of a delivery]** als het beperkende filter en klik op **[!UICONTROL Next]**.
 
    ![](assets/wkf_cross-channel_9.png)
 
-1. Selecteer in de filterinstellingen de optie **[!UICONTROL Recipients who have not opened or clicked (email)]** van de **[!UICONTROL Behavior]** en selecteer de e-mail met het aanbod dat u wilt verzenden in de leveringslijst. Klik op **[!UICONTROL Finish]**.
+1. Selecteer in de filterinstellingen **[!UICONTROL Recipients who have not opened or clicked (email)]** van de **[!UICONTROL Behavior]** en selecteer de e-mail met het aanbod dat u wilt verzenden in de leveringslijst. Klik op **[!UICONTROL Finish]**.
 
    ![](assets/wkf_cross-channel_10.png)
 
-1. Ga op dezelfde manier verder voor de tweede subset en selecteer **[!UICONTROL Recipients who have not clicked (email)]** van de **[!UICONTROL Behavior]** vervolgkeuzelijst.
+1. Op dezelfde manier doorgaan voor de tweede subset en **[!UICONTROL Recipients who have not clicked (email)]** van de **[!UICONTROL Behavior]** vervolgkeuzelijst.
 
    ![](assets/wkf_cross-channel_11.png)
 
-1. Voor de derde subset selecteert u de opdracht **[!UICONTROL Add a filtering condition on the inbound population]** en klikken **[!UICONTROL Edit]**, selecteert u de **[!UICONTROL Use a specific filtering dimension]** optie.
+1. Voor de derde subset selecteert u de opdracht **[!UICONTROL Add a filtering condition on the inbound population]** en klikken **[!UICONTROL Edit]**, selecteert u de **[!UICONTROL Use a specific filtering dimension]** -optie.
 1. Selecteren **[!UICONTROL Recipient tracking log]** van de **[!UICONTROL Filtering dimension]** vervolgkeuzelijst, markeren **[!UICONTROL Filtering conditions]** van de **[!UICONTROL List of restriction filters]** en klik op **[!UICONTROL Next]**.
 
    ![](assets/wkf_cross-channel_12.png)
@@ -108,7 +109,7 @@ Zodra uw doel wordt geïdentificeerd en uw eerste levering gecreeerd, moet u het
    * Voeg een **[!UICONTROL List update]** activiteit om de overeenkomstige ontvangers aan het gegevensbestand toe te voegen.
 
 1. Dubbelklik op de leveringsactiviteiten in uw workflow om deze te bewerken.
-1. Dubbelklik op de knop **[!UICONTROL List update]** activiteit en selecteer **[!UICONTROL Generate an outbound transition]** optie.
+1. Dubbelklik op de knop **[!UICONTROL List update]** en selecteert u de **[!UICONTROL Generate an outbound transition]** -optie.
 1. Klik op de knop **Start** in de actiebalk om de workflow uit te voeren.
 
-De door de **Query** de activiteit zal worden gesegmenteerd om een e-mail of een levering van SMS volgens het gedrag van de ontvangers te ontvangen. De resterende populatie wordt met behulp van de **[!UICONTROL List update]** activiteit.
+De door de **Query** de activiteit zal worden gesegmenteerd om een e-mail of een levering van SMS volgens het gedrag van de ontvangers te ontvangen. De resterende populatie wordt aan de database toegevoegd met behulp van de **[!UICONTROL List update]** activiteit.

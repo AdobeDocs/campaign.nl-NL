@@ -3,8 +3,9 @@ product: campaign
 title: Driemaandelijkse lijstupdate met een incrementele query
 description: In dit geval wordt een incrementele query gebruikt om een lijst met ontvangers automatisch bij te werken.
 feature: Workflows
+role: User
 exl-id: eedc796a-865f-47a8-8807-5980546b8adf
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 5%
@@ -22,8 +23,8 @@ Aangezien deze campagnes aan het begin van elk seizoen worden gestart om relevan
 ![](assets/incremental_query_example.png)
 
 1. Voeg een stijgende vraag evenals een activiteit van de lijstupdate in een nieuw werkschema toe.
-1. Configureer de **[!UICONTROL Incremental query]** tabblad van de activiteit zoals opgegeven in [Een query maken](query.md#creating-a-query).
-1. Selecteer **[!UICONTROL Scheduling & History]** en geeft u vervolgens een historie van 270 dagen op. Een ontvanger die reeds als doelwit is aangemerkt, zal niet langer voor een periode van 270 dagen, of ruwweg 9 maanden, worden aangewezen.
+1. Vorm **[!UICONTROL Incremental query]** tabblad van de activiteit zoals opgegeven in [Een query maken](query.md#creating-a-query).
+1. Selecteer de **[!UICONTROL Scheduling & History]** en geeft u vervolgens een historie van 270 dagen op. Een ontvanger die reeds als doelwit is aangemerkt, zal niet langer voor een periode van 270 dagen, of ruwweg 9 maanden, worden aangewezen.
 
    Klik vervolgens op de knop **[!UICONTROL Change...]** knop.
 

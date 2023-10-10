@@ -3,8 +3,9 @@ product: campaign
 title: Samengevoegde berekeningen uitvoeren
 description: Leer hoe u geaggregeerde computertaken kunt uitvoeren in query's
 feature: Workflows
+role: User, Developer
 exl-id: 00e564b5-3c8e-45d4-b240-c872a8b8ccb6
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -17,15 +18,15 @@ In dit voorbeeld willen we het aantal ontvangers dat in Londen woont, op basis v
 
 * Welke tabel moet worden geselecteerd?
 
-   De tabel met ontvangers (**nms:ontvanger**)
+  De tabel met ontvangers (**nms:ontvanger**)
 
 * Welke gebieden in de outputkolom zouden moeten worden geselecteerd?
 
-   Primaire sleutel (met telling) en Geslacht
+  Primaire sleutel (met telling) en Geslacht
 
 * Op welke voorwaarden is de informatie gefilterd?
 
-   Gebaseerd op de ontvangers die in Londen wonen
+  Gebaseerd op de ontvangers die in Londen wonen
 
 U kunt dit voorbeeld maken door de volgende stappen toe te passen:
 
@@ -33,7 +34,7 @@ U kunt dit voorbeeld maken door de volgende stappen toe te passen:
 
    ![](assets/query_editor_nveau_27.png)
 
-1. In de **[!UICONTROL Sorting]** venster, klikt u op **[!UICONTROL Next]**: hier is geen sortering nodig .
+1. In de **[!UICONTROL Sorting]** venster, klikt u op **[!UICONTROL Next]**: hier hoeft niet gesorteerd te worden.
 1. Gegevensfiltering configureren. Hier wilt u de selectie beperken tot contacten die in Londen wonen.
 
    ![](assets/query_editor_22.png)

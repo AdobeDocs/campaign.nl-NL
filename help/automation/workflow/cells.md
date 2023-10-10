@@ -3,8 +3,9 @@ product: campaign
 title: Cellen
 description: Cellen
 feature: Workflows, Targeting Activity
+role: User
 exl-id: d85645a6-fc15-4c3a-9d67-d4230224e1f7
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 2%
@@ -21,7 +22,7 @@ Deze activiteit kan worden gevormd om specifieke parameters in te gaan die op ge
 
 ![](assets/wf_split_cells_with_customization.png)
 
-In het onderstaande voorbeeld is het invoerformulier gewijzigd: a **[!UICONTROL Data]** tab is toegevoegd om het koppelen van een aanbieding en een prioriteitsniveau voor elke subset mogelijk te maken.
+In het onderstaande voorbeeld is het invoerformulier gewijzigd: **[!UICONTROL Data]** tab is toegevoegd om het koppelen van een aanbieding en een prioriteitsniveau voor elke subset mogelijk te maken.
 
 ![](assets/cells-activity-sample.png)
 

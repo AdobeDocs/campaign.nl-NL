@@ -3,8 +3,9 @@ product: campaign
 title: Technische workflows controleren
 description: Technische workflows controleren
 feature: Workflows
+role: Admin
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 5%
@@ -35,15 +36,15 @@ Afhankelijk van de technische werkstroom, volg de hieronder beschreven stappen o
 
 Om beter te begrijpen wat elke technische werkstroom wordt verondersteld te doen, verwijs naar dit [sectie](technical-workflows.md).
 
-Voor **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
+Voor **[!UICONTROL Database Cleanup workflow ('cleanup')]**:
 
 Controleer het dagboek om te verifiëren dat de verstreken tijd in tijd vrij constant is en zich niet in andere werkschema&#39;s mengt.
 
-Voor **[!UICONTROL Tracking workflow (‘tracking’)]**:
+Voor **[!UICONTROL Tracking workflow ('tracking')]**:
 
 Controleer of de workflow voor bijhouden volgens schema wordt uitgevoerd (standaard elk uur) en of het dagboek geen terugkerende fouten markeert. Raadpleeg deze [sectie](delivery.md) voor meer informatie.
 
-Voor **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+Voor **[!UICONTROL Deliverability update ('deliverabilityUpdate')]**:
 
 1. Controleer of de **[!UICONTROL Deliverability update]** de workflow wordt elke dag uitgevoerd en voltooid.
 1. Verifieer in het dagboek dat de regels regelmatig worden bijgewerkt.
@@ -79,7 +80,7 @@ Alle aangepaste technische workflows moeten worden gedocumenteerd in een werkbla
 
 ## Planning en automatisering van de controle {#planning-and-automation-of-monitoring}
 
-Controle van de planningsworkflow verbetert de efficiëntie. Sommige taken moeten dagelijks plaatsvinden, terwijl andere taken wekelijks of maandelijks kunnen worden uitgevoerd.
+De controle van de planningswerkstroom verbetert zijn efficiency. Sommige taken moeten dagelijks plaatsvinden, terwijl andere taken wekelijks of maandelijks kunnen worden uitgevoerd.
 
 Door workflows in mappen in te stellen die worden genoemd door terugkerende en gesorteerd op uitvoeringsschema, wordt de controle efficiënter.
 
@@ -89,4 +90,4 @@ U kunt een controlewerkstroom bouwen om een e-mail te verzenden wanneer bepaalde
 
 U kunt een weergave maken zodat alle werkstromen in een functioneel gebied of in het hele systeem kunnen worden gecontroleerd.
 
-U kunt ook de functie Adobe Campaign-taak of -rapport gebruiken om documentatie op aanvraag te maken. Dit is altijd up-to-date.
+U kunt ook de functie Adobe Campaign-taak of -rapport gebruiken om documentatie op aanvraag te maken. Deze functie is altijd up-to-date.

@@ -2,8 +2,9 @@
 title: Databron wijzigen
 description: Meer informatie over de activiteit van de gegevensbron van de Verandering
 feature: Workflows, Data Management, Federated Data Access
+role: User
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 3%
@@ -19,7 +20,7 @@ De workflow **[!UICONTROL Working table]** wordt gebruikt voor het verwerken en 
 Standaard worden de **[!UICONTROL Working table]** wordt gecreeerd in het zelfde gegevensbestand zoals de bron van de gegevens u moet vragen.
 Wanneer u bijvoorbeeld het **[!UICONTROL Recipients]** tabel, opgeslagen in de Cloud-database, maakt de workflow een **[!UICONTROL Working table]** in dezelfde Cloud-database.
 
-Een **[!UICONTROL Change Data Source]** activiteit om een verschillende gegevensbron voor uw **[!UICONTROL Working table]**.
+Een **[!UICONTROL Change Data Source]** activiteit om een verschillende gegevensbron voor uw te gebruiken **[!UICONTROL Working table]**.
 
 Wanneer u de opdracht **[!UICONTROL Change Data Source]** moet u terugschakelen naar de Cloud-database om door te gaan met de uitvoering van de workflow.
 
@@ -47,7 +48,7 @@ Als u de opdracht **[!UICONTROL Change Data Source]** activiteit, moet u:
 
 1. Nog een toevoegen **[!UICONTROL Change data source]** om terug te schakelen naar de Cloud-database.
 
-1. Deze activiteit bewerken en selecteren **[!UICONTROL Active FDA external account]** en de overeenkomstige **[!UICONTROL External database]** externe rekening.
+1. Bewerk deze activiteit en selecteer **[!UICONTROL Active FDA external account]** en de overeenkomstige **[!UICONTROL External database]** externe rekening.
 
    ![](assets/change-data-source_3.png)
 

@@ -1,11 +1,11 @@
 ---
-title: Direct mailen met Adobe Campaign
+title: Directe e-mails verzenden met Adobe Campaign
 description: Ga aan de slag met direct mail in Campagne
 feature: Direct Mail
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 2%
@@ -28,7 +28,7 @@ De volgende stappen voor het genereren van het bestand zijn:
 
    De profielen van ontvangers moeten ten minste hun naam en postadres bevatten.
 
-   Postadressen zijn berekende velden. Een adres kan maximaal zes lijnen door gebrek bevatten: de eerste regel bevat de voornaam en achternaam, de volgende regels bevatten het postadres (weg enz.) en de laatste regel bevat de postcode en de stad of plaats.
+   Postadressen zijn berekende velden. Een adres kan standaard maximaal zes regels bevatten: de eerste regel bevat de voornaam en achternaam, de volgende regels bevatten het postadres (weg enz.) en de laatste regel bevat de postcode en de stad of stad.
 
    Een adres wordt als volledig beschouwd als de naam, het gebied van de code van ZIP/Postal, en stad/stad gebieden niet leeg zijn.
 

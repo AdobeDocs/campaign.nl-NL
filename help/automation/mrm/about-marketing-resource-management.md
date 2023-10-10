@@ -2,9 +2,9 @@
 product: campaign
 title: Aan de slag met het beheer van marketingbronnen
 description: Beheer van marketingmiddelen ontdekken
-role: Admin, Developer, User
+role: Admin, User
 exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
-source-git-commit: e6b1790832be6331f4b27cc50b5d034ad738a822
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 1%
@@ -15,17 +15,17 @@ ht-degree: 1%
 
 De **Marketing Resource Management (MRM)** kunt u marketingacties beheren in een samenwerkingsmodus door volledig beheer en realtime tracering van de betrokken taken, budgetten en marketingbronnen te bieden.
 
-Adobe Campaign-operatoren kunnen hun acties coördineren en de voortgang ervan in alle fasen goedkeuren via volledige validatieprocessen en de juiste trackinggereedschappen: rapportage, bijhouden van goedkeuringen, meldingen, discussieforums, enz. Ze worden gewaarschuwd in de gebeurtenis of fout of vertraging en in elke nieuwe fase van de validatiecyclus.
+Adobe Campaign-operatoren kunnen hun acties coördineren en hun voortgang in alle fasen goedkeuren via volledige validatieprocessen en de juiste trackingsinstrumenten: rapportage, tracering van goedkeuringen, meldingen, discussieforums, enz. Ze worden gewaarschuwd in de gebeurtenis of fout of vertraging en in elke nieuwe fase van de validatiecyclus.
 
 In het kader van de programma&#39;s en subprogramma&#39;s van marketingplannen kunnen dus taken worden gecreëerd en toegewezen aan de betrokken marktdeelnemers en vervolgens in alle fasen worden beheerd.
 
-**MRM** kunt u ook marketingbronnen beheren waarbij meerdere deelnemers betrokken zijn: de integriteit van en het toezicht op middelen worden uitgevoerd via een speciaal dashboard .
+**MRM** kunt u ook marketingbronnen beheren waarbij meerdere deelnemers betrokken zijn: de integriteit en bewaking van bronnen wordt uitgevoerd via een speciaal dashboard.
 
 Tot slot wordt de capaciteit voor begrotingsbeheer uitgebreid tot het beheer van doelen en uitgavenlijnen en uitgebreide ingebouwde rapporten. U kunt dan de productiviteit en de prestaties van alle marketingactiviteiten controleren en meten.
 
 >[!AVAILABILITY]
 >
->Marketing Resource Management (MRM) is niet beschikbaar in de context van een [Implementatie van ondernemingen (FFDA)](../../v8/architecture/enterprise-deployment.md) van Campagne.
+>Marketing Resource Management (MRM) is niet beschikbaar in de context van een [Implementatie in het kader van Enterprise (FFDA)](../../v8/architecture/enterprise-deployment.md) van Campagne.
 
 ## Concepten en terminologie {#core-concepts}
 
@@ -33,15 +33,15 @@ In het kader van Adobe Campaign Marketing Resource Management zijn de volgende c
 
 * **Taak**
 
-   Een taak komt overeen met een actie in het kader van een campagne. Een taak wordt toegewezen aan een groep of persoon. Een kindtaak kan van een oudertaak afhankelijk zijn, betekenend dat de oudertaak niet zal worden uitgevoerd tot alle kindtaken volledig zijn. Voorbeelden van taken zijn: verwijzen naar een website, een begrotingsherziening, een samenvatting, enz.
+  Een taak komt overeen met een actie in het kader van een campagne. Een taak wordt toegewezen aan een groep of persoon. Een kindtaak kan van een oudertaak afhankelijk zijn, betekenend dat de oudertaak niet zal worden uitgevoerd tot alle kindtaken volledig zijn. Voorbeelden van taken zijn: verwijzen naar een website, een begrotingsherziening, een samenvatting, enz.
 
-   Raadpleeg voor meer informatie hierover [Taken maken en beheren](creating-and-managing-tasks.md).
+  Raadpleeg voor meer informatie hierover [Taken maken en beheren](creating-and-managing-tasks.md).
 
 * **Marketingbronnen**
 
-   Met Adobe Campaign kunt u de voortgang volgen van gezamenlijke marketingprojecten, zoals communicatiemedia, actieplannen, nieuwsbrieven, enz. De aanmaak- en goedkeuringscyclus van deze marketingbronnen kan vanaf het dashboard van de bron worden gevolgd tot de publicatie ervan.
+  Met Adobe Campaign kunt u de voortgang volgen van gezamenlijke marketingprojecten, zoals communicatiemedia, actieplannen, nieuwsbrieven, enz. De aanmaak- en goedkeuringscyclus van deze marketingbronnen kan vanaf het dashboard van de bron worden gevolgd tot de publicatie ervan.
 
-   Raadpleeg voor meer informatie hierover [Marketing-resources beheren](managing-marketing-resources.md).
+  Raadpleeg voor meer informatie hierover [Marketing-resources beheren](managing-marketing-resources.md).
 
 <!--
 >[!NOTE]

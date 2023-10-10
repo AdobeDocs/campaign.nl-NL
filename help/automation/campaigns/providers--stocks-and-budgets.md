@@ -3,8 +3,9 @@ product: campaign
 title: Providers, voorraden en budgetten
 description: Providers, voorraden en budgetten
 feature: Budget Management, Campaigns
+role: User
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 1%
@@ -64,9 +65,9 @@ Volg onderstaande stappen om een servicesjabloon te maken en de inhoud ervan te 
    * Klik op de knop **[!UICONTROL Add]** om de soorten kosten te bepalen verbonden aan deze categorie.
    * Indien nodig wordt een voorraadlijn gekoppeld aan elk type kosten, zodat de gebruikte hoeveelheden automatisch aan de bestaande voorraden worden gerelateerd.
 
-      >[!NOTE]
-      >
-      >De voorraadlijnen worden gedefinieerd in de **[!UICONTROL Stock management]** knooppunt. [Meer informatie](#stock-and-order-management).
+     >[!NOTE]
+     >
+     >De voorraadlijnen worden gedefinieerd in de **[!UICONTROL Stock management]** knooppunt. [Meer informatie](#stock-and-order-management).
 
 1. U kunt een waarde voor deze kostencategorie vooraf selecteren. Dit is de standaardinstelling in de kostencategorieën van de serviceprovider (in plaats van een lege kostencategorie). Om dit te doen, laat toe **Ja** in de **[!UICONTROL Selected]** kolom voor de betrokken categorie:
 
@@ -82,21 +83,21 @@ Klik op de knop **[!UICONTROL Cost structure]** om de kostenberekening voor elke
 
 ![](assets/add-cost-structure.png)
 
-* Om de kostenstructuur tot stand te brengen, selecteer het type van bericht en de betreffende kostencategorie van de drop-down lijsten, evenals het type van kosten waarop de berekeningsregel zal van toepassing zijn. De inhoud van deze vervolgkeuzelijsten is afkomstig van de gegevens die zijn ingevoerd via de **[!UICONTROL Cost categories]** tab.
+* Om de kostenstructuur tot stand te brengen, selecteer het type van bericht en de betreffende kostencategorie van de drop-down lijsten, evenals het type van kosten waarop de berekeningsregel zal van toepassing zijn. De inhoud van deze vervolgkeuzelijsten is afkomstig van de informatie die is ingevoerd via de **[!UICONTROL Cost categories]** tab.
 
-   U moet een label toewijzen aan de kostenstructuur. Standaard heeft deze de volgende leveringsomtrek: **Kostencategorie - Soort kosten**.
+  U moet een label toewijzen aan de kostenstructuur. Standaard heeft deze de volgende leveringsomtrek: **Kostencategorie - Soort kosten**.
 
-   U kunt de naam echter wijzigen: Voer de gewenste waarde rechtstreeks in het dialoogvenster **[!UICONTROL Label]** veld.
+  U kunt de naam echter wijzigen: voer de gewenste waarde rechtstreeks in het dialoogvenster **[!UICONTROL Label]** veld.
 
 * De kostenberekeningsformule wordt gedefinieerd in de onderste sectie van het venster.
 
-   Deze formule kan worden vastgesteld (voor om het even welk aantal berichten) of berekend volgens het aantal berichten.
+  Deze formule kan worden vastgesteld (voor om het even welk aantal berichten) of berekend volgens het aantal berichten.
 
-   Wanneer het van het aantal berichten afhangt, kan de structuur van de kostenberekening zijn **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]**, of **[!UICONTROL Constant by threshold]**.
+  Wanneer het van het aantal berichten afhangt, kan de structuur van de kostenberekening zijn **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]**, of **[!UICONTROL Constant by threshold]**.
 
 #### Lineaire structuur {#linear-structure}
 
-Als de hoeveelheid altijd gelijk is voor een bericht (of een partij berichten) ongeacht het totale aantal berichten, selecteert u **[!UICONTROL Linear]** en voer de kosten van elk bericht in.
+Als de hoeveelheid altijd gelijk is voor een bericht (of een partij berichten) ongeacht het totale aantal berichten, selecteert u **[!UICONTROL Linear]** en voert u de kosten van elk bericht in.
 
 Als dit bedrag op een partij berichten van toepassing is, specificeer het aantal berichten betrokken in **[!UICONTROL for]** veld.
 
@@ -115,7 +116,7 @@ Als u een drempelwaarde wilt toevoegen, klikt u op de knop **[!UICONTROL Add]** 
 
 #### Constante structuur op drempel {#constant-structure-by-threshold}
 
-Tot slot kunt u een kostenberekening op het totale aantal berichten vormen. Selecteer een **[!UICONTROL Constant by threshold]** berekeningsstructuur. Bijvoorbeeld, zullen de kosten aan een vast bedrag van 12.00 voor 1 tot 100 berichten, en bij 100.00 voor een levering van 101 tot 1000 berichten, en 500.00 voor om het even welke levering meer dan 1000 berichten, ongeacht het totale aantal worden geplaatst.
+Tot slot kunt u een kostenberekening op het totale aantal berichten vormen. Selecteer een **[!UICONTROL Constant by threshold]** berekeningsstructuur. Bijvoorbeeld, zullen de kosten aan een vast bedrag van 12.00 voor 1 tot 100 berichten, en bij 100.00 voor een levering van 101 tot 1000 berichten, en 500.00 voor om het even welke levering over 1000 berichten, ongeacht het totale aantal worden geplaatst.
 
 ![](assets/supplier-cost-structure-constant.png)
 
@@ -125,11 +126,11 @@ U kunt informatie over de processen associëren verbonden aan de dienstverlener 
 
 ![](assets/cost-supplier-jobs.png)
 
-* De **[!UICONTROL File extraction]** in dit gedeelte wordt de exportsjabloon aangegeven die voor levering wordt gebruikt wanneer deze service is geselecteerd. U kunt de naam van het uitvoerbestand aangeven in het dialoogvenster **[!UICONTROL Extraction file]** veld. Met de knop rechts van het veld kunt u variabelen invoegen.
+* De **[!UICONTROL File extraction]** in dit gedeelte wordt de exportsjabloon aangegeven die voor levering wordt gebruikt wanneer deze service is geselecteerd. U kunt de naam van het uitvoerbestand in het dialoogvenster **[!UICONTROL Extraction file]** veld. Met de knop rechts van het veld kunt u variabelen invoegen.
 
 * De **[!UICONTROL Notification email]** kunt u de sjabloon opgeven om serviceproviders op de hoogte te stellen nadat bestanden zijn verzonden. Selecteer de sjabloon die wordt gebruikt om het waarschuwingsbericht en de groep ontvangers te maken.
 
-   Standaard worden leveringssjablonen voor berichtberichten opgeslagen in de **[!UICONTROL Administration > Campaign management > Technical delivery templates]** Deze map is toegankelijk vanuit de algemene weergave.
+  Standaard worden leveringssjablonen voor berichtberichten opgeslagen in de **[!UICONTROL Administration > Campaign management > Technical delivery templates]** Deze map is toegankelijk vanuit de algemene weergave.
 
 * De **[!UICONTROL Post-processing]** kunt u de workflow selecteren die u wilt starten nadat de levering is goedgekeurd. Als een werkstroomsjabloon wordt ingevoerd, wordt automatisch een werkstroominstantie gemaakt en gestart zodra de goedkeuring van kracht wordt. Deze workflow kan het extractiebestand bijvoorbeeld naar een externe serviceprovider sturen voor verwerking.
 
@@ -145,12 +146,12 @@ Wanneer een dienst wordt geselecteerd, de kostencategorieën die met het type va
 
 * Voor een directe postlevering, kunt u de dienst van het configuratievenster selecteren.
 
-   ![](assets/supplier-mail-delivery-select.png)
+  ![](assets/supplier-mail-delivery-select.png)
 
 * Voor levering op mobiele kanalen of telefoon geldt dezelfde selectiemodus.
 * Voor een e-maillevering wordt de service geselecteerd in het menu **[!UICONTROL Advanced]** in de leveringseigenschappen, zoals in het volgende voorbeeld:
 
-   ![](assets/supplier-email-delivery-select.png)
+  ![](assets/supplier-email-delivery-select.png)
 
 De **[!UICONTROL Amount to surcharge]** in de kolom kunt u kosten voor deze categorie toevoegen in de context van de desbetreffende levering of taak.
 
@@ -201,7 +202,7 @@ Klik op de knop **[!UICONTROL Create]** om nieuwe voorraadlijnen toe te voegen.
 
 * Vermeld de aanvankelijk in voorraad zijnde hoeveelheid in het **[!UICONTROL Initial stock]** veld. De **[!UICONTROL Consumed]** en **[!UICONTROL In stock]** de velden worden automatisch berekend en bijgewerkt naarmate de campagnes vorderen.
 
-   ![](assets/create-new-stock-line.png)
+  ![](assets/create-new-stock-line.png)
 
 * Vermeld de drempel waaraf exploitanten moeten worden gewaarschuwd voor de aanschaf van een ordervoorraad in het **[!UICONTROL Alert level]** veld. Wanneer het alarmniveau wordt bereikt, wordt een waarschuwingsbericht getoond in het goedkeuringsvenster van leveringen die deze voorraad gebruiken.
 
@@ -223,7 +224,7 @@ Er wordt een waarschuwing weergegeven wanneer een voorraad waarnaar in een lever
 
 De **[!UICONTROL Orders]** Met de subtab kunt u de huidige bestellingen weergeven en nieuwe bestellingen opslaan.
 
-Als u een bestelling wilt opslaan, bewerkt u de doelvoorraadregel. Klik op de knop **[!UICONTROL Add]** en geeft de leveringsdatum en de bestelde hoeveelheid aan.
+Als u een bestelling wilt opslaan, bewerkt u de doelvoorraadregel. Klik op de knop **[!UICONTROL Add]** en geeft u de leveringsdatum en de bestelde hoeveelheid op.
 
 ![](assets/order-stocks.png)
 

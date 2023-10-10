@@ -2,10 +2,10 @@
 title: Spaties voor aanbiedingen voor Campagne
 description: Meer informatie over het maken van aanbiedingsruimten
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 De inhoud van de aanbiedingscatalogus wordt geconfigureerd in aanbiedingsruimten. Standaard kan de inhoud de volgende velden bevatten: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** en **[!UICONTROL Text content]**. De gebiedsopeenvolging wordt gevormd in de aanbiedingsruimte.
 
-Als **technisch beheerder**, kunt u aanbiedingsruimten maken in de ontwerpomgeving. U moet toegang hebben tot de submap voor de aanbiedingsruimte. Nadat deze aanbiedingsruimten zijn gemaakt, worden deze automatisch gedupliceerd naar de live omgeving tijdens de goedkeuring van de aanbieding.
+Als **technisch beheerder** kunt u spaties maken in de ontwerpomgeving. U moet toegang hebben tot de submap voor de aanbiedingsruimte. Nadat deze aanbiedingsruimten zijn gemaakt, worden deze automatisch gedupliceerd naar de live omgeving tijdens de goedkeuring van de aanbieding.
 
 De rendering HTML wordt gemaakt via een renderfunctie. De volgorde van de velden die in de renderfunctie zijn gedefinieerd, moet gelijk zijn aan de volgorde die in de inhoud is geconfigureerd.
 
@@ -73,7 +73,7 @@ De status van het voorstel varieert afhankelijk van de interactie met de doelpop
 
 ### Statuslijst voorstel {#status-list}
 
-De volgende statussen zijn beschikbaar voor aanbiedingen:
+De volgende statussen voor beschikbare aanbiedingen zijn beschikbaar:
 
 * **[!UICONTROL Accepted]**
 * **[!UICONTROL Scheduled]**
@@ -82,7 +82,7 @@ De volgende statussen zijn beschikbaar voor aanbiedingen:
 * **[!UICONTROL Presented]**
 * **[!UICONTROL Rejected]**
 
-Deze waarden worden niet standaard toegepast: zij moeten worden gevormd.
+Deze waarden worden niet standaard toegepast: ze moeten worden geconfigureerd.
 
 >[!NOTE]
 >
@@ -115,13 +115,13 @@ Volg de onderstaande stappen om dit te doen:
 
 **Binnenkomende interactie**
 
-De **[!UICONTROL Storage]** kunt u statussen definiëren voor **voorgesteld** en **aanvaard** alleen voorstellen. Voor binnenkomende interactie, zou de status van aanbiedingsvoorstellen direct in URL voor het roepen van de motor van de Aanbieding, eerder dan door de interface moeten worden gespecificeerd. Op deze manier kunt u opgeven welke status in andere gevallen moet worden toegepast, bijvoorbeeld als een voorstel voor een aanbieding wordt afgewezen.
+De **[!UICONTROL Storage]** kunt u statussen definiëren voor **voorgesteld** en **aanvaard** alleen voorstellen. Voor binnenkomende interactie, zou de status van aanbiedingsvoorstellen direct in URL voor het roepen van de motor van de Aanbieding, eerder dan door de interface moeten worden gespecificeerd. Op deze manier kunt u opgeven welke status in andere gevallen moet worden toegepast, bijvoorbeeld wanneer een voorstel voor een aanbieding wordt afgewezen.
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
 ```
 
-Bijvoorbeeld, het voorstel (herkenningsteken **40004**) die overeenkomt met de **Binnenlandse verzekering** voorstel weergegeven op de **Neobank** site bevat de volgende URL:
+Bijvoorbeeld, het voorstel (herkenningsteken **40004**) die overeenkomt met de **Thuisverzekering** voorstel weergegeven op de **Neobank** site bevat de volgende URL:
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
@@ -156,4 +156,4 @@ Als een ontvanger niet in aanmerking komt voor een voorstel, wordt dit weergegev
 
 In de voorvertoning kunnen contexten worden genegeerd wanneer deze beperkt zijn tot een spatie. Dit is het geval wanneer het interactieschema is uitgebreid om velden toe te voegen waarnaar in een ruimte wordt verwezen met een binnenkomend kanaal.
 
-![](../assets/do-not-localize/book.png)  Raadpleeg voor meer informatie dit voorbeeld in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.
+![](../assets/do-not-localize/book.png)  Voor meer informatie hierover raadpleegt u dit voorbeeld in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

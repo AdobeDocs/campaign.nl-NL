@@ -3,8 +3,9 @@ product: campaign
 title: Workflowactiviteiten
 description: Activiteiten
 feature: Workflows, Data Management
+role: User
 exl-id: 636f9ad0-9576-421e-ad8b-62d6602ee26a
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 9%
@@ -33,4 +34,4 @@ Alle activiteiten worden beschreven in de volgende onderdelen:
 * [Stroombeheeractiviteiten](flow-control-activities.md)
 * [Acties](action-activities.md)
 * [Gebeurtenisactiviteiten](event-activities.md)
-* [Specifieke activiteiten voor de campagneworkflow](../campaigns/marketing-campaign-deliveries.md)
+* [Specifieke activiteiten in verband met de campagneworkflow](../campaigns/marketing-campaign-deliveries.md)

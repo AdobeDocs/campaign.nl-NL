@@ -3,8 +3,9 @@ product: campaign
 title: Planner
 description: Meer informatie over de workflowactiviteit van de planner
 feature: Workflows
+role: User
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 10%
@@ -23,11 +24,11 @@ De **[!UICONTROL Scheduler]**-activiteit kan dus worden beschouwd als een geplan
 
 * Plan geen workflow die meer dan om de 15 minuten wordt uitgevoerd, aangezien dit de algehele systeemprestaties kan belemmeren en blokken in de database kan maken.
 
-* Nooit meer gebruiken dan één **[!UICONTROL Scheduler]** activiteit per vertakking in een werkstroom. Zie [Activiteiten gebruiken](workflow-best-practices.md#using-activities).
+* Nooit meer gebruiken dan één **[!UICONTROL Scheduler]** activiteit per vertakking in een werkstroom. Zie [Werken met activiteiten](workflow-best-practices.md#using-activities).
 
 * Het gebruiken van een planneractiviteit kan tot verscheidene uitvoeringen van een werkschema leiden die tezelfdertijd lopen. Bijvoorbeeld, kunt u een planner hebben die de werkschemauitvoering elk uur teweegbrengt, maar soms neemt de uitvoering van het volledige werkschema meer dan een uur.
 
-   U kunt de uitvoering overslaan als de workflow al wordt uitgevoerd. Raadpleeg voor meer informatie over het voorkomen van gelijktijdige uitvoering van een workflow de [deze pagina](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
+  U kunt de uitvoering overslaan als de workflow al wordt uitgevoerd. Raadpleeg voor meer informatie over het voorkomen van gelijktijdige uitvoering van een workflow de [deze pagina](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
 
 * Merk op dat de overgang verscheidene uren later kan worden geactiveerd als het werkschema een taak op lange termijn, zoals het invoeren uitvoerde, of als de wfserver module voor een tijd werd tegengehouden. In dit geval, kan het noodzakelijk zijn om de uitvoering van de taak te beperken die door de planner tot een bepaalde tijdwaaier wordt geactiveerd.
 
@@ -51,6 +52,6 @@ Met een wizard kunt u de frequentie en de geldigheidsperiode van de activiteit d
 
    ![](assets/s_user_segmentation_scheduler4.png)
 
-1. Controleer de configuratie en klik op **[!UICONTROL Finish]** om op te slaan.
+1. Controleer de configuratie en klik op **[!UICONTROL Finish]** opslaan.
 
    ![](assets/s_user_segmentation_scheduler5.png)

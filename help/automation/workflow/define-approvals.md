@@ -3,8 +3,9 @@ product: campaign
 title: Goedkeuringen definiëren
 description: Met goedkeuringen kunnen operators beslissingen nemen over een workflow of de voortzetting van de uitvoering bevestigen
 feature: Approvals
+role: User
 exl-id: 8ac159c1-fd2e-4fb9-8275-18154f6f210c
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 4%
@@ -27,7 +28,7 @@ Bij vluchtuitvoeringen zijn alle stadia die goedkeuring vereisen, gebaseerd op h
 
 ![](assets/validation-1-in-op.png)
 
-Een operator kan op twee manieren reageren: valideren met de webpagina die is gekoppeld in het e-mailbericht of via de console.
+Een exploitant kan op één van twee manieren antwoorden: het bevestigen gebruikend de Web-pagina verbonden in het e-mailbericht, of via de console.
 
 >[!NOTE]
 >
@@ -37,7 +38,7 @@ Een operator kan op twee manieren reageren: valideren met de webpagina die is ge
 
 Het is mogelijk om een goedkeuringsbericht te ontvangen die een verbinding met een Web-pagina bevat waarmee het mogelijk is te antwoorden. Voor de beoogde exploitant om een goedkeuringse-mail te ontvangen, moet het exploitant e-mailadres volledig zijn. Als dit niet het geval is, moet de exploitant de console gebruiken om te antwoorden.
 
-Goedkeuringse-mails worden voortdurend verzonden. De standaardleveringssjabloon is **[!UICONTROL notifyAssignee]**: Het bestand wordt opgeslagen in de **[!UICONTROL Administration > Campaign management > Technical delivery templates]** map. Dit scenario kan worden aangepast en het wordt ook aanbevolen een kopie te maken en sjablonen te wijzigen voor elke activiteit.
+Goedkeuringse-mails worden voortdurend verzonden. De standaardleveringssjabloon is **[!UICONTROL notifyAssignee]**: Het bestand wordt opgeslagen in het dialoogvenster **[!UICONTROL Administration > Campaign management > Technical delivery templates]** map. Dit scenario kan worden aangepast en het wordt ook aanbevolen een kopie te maken en sjablonen te wijzigen voor elke activiteit.
 
 Leveringen die met deze sjabloon zijn gemaakt, worden opgeslagen in de **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** map.
 
@@ -60,13 +61,13 @@ De groepen van marktdeelnemers voor goedkeuringen moeten worden aangewezen als r
 
 ## Verlopen {#expirations}
 
-Verlopen zijn specifieke overgangen die worden gebruikt in verschillende soorten activiteiten, en met name in goedkeuringen. U kunt een vervaldatum gebruiken om een actie na een bepaalde tijd zonder reactie teweeg te brengen. Het kan bijvoorbeeld ook worden gebruikt om de workflow voort te zetten en een goedkeuring toe te wijzen aan een andere groep.
+Verlopen zijn specifieke overgangen die worden gebruikt in verschillende soorten activiteiten, en met name in goedkeuringen. U kunt een vervaldatum gebruiken om een actie na een bepaalde tijd zonder reactie teweeg te brengen. Het kan ook worden gebruikt, bijvoorbeeld om de werkstroom voort te zetten en een goedkeuring aan een verschillende groep toe te wijzen.
 
 Op het tweede tabblad in de eigenschappen voor activiteitengoedkeuring kunt u een of meer vervaldatums definiëren. In feite kunt u meerdere vervaltypen definiëren.
 
 ![](assets/expiration.png)
 
-Als u een nieuwe vervaldatum wilt toevoegen, klikt u op **[!UICONTROL Add]**. Er wordt een overgang toegevoegd aan elk van de gemaakte vervaldatums. U kunt:
+Als u een nieuwe vervaldatum wilt toevoegen, klikt u **[!UICONTROL Add]**. Er wordt een overgang toegevoegd aan elk van de gemaakte verlopen. U kunt:
 
 * de typische parameters rechtstreeks wijzigen door op een cel in de lijst te klikken (of door op F2 te drukken);
 * of bewerk de expressie door op de knop **[!UICONTROL Detail...]** knop.
@@ -82,17 +83,17 @@ U kunt vier typen vervaldatums maken:
 * **Vertraging na taakstart**: De vervaldatum wordt berekend door een bepaalde tijdsduur toe te voegen aan de datum waarop de goedkeuring wordt geactiveerd.
 * **Vertraging na een bepaalde datum**: De vervaldatum wordt berekend door een tijdsduur toe te voegen aan een datum die u opgeeft.
 * **Vertraging vóór een bepaalde datum**: De vervaldatum wordt berekend door een tijdsduur af te trekken van een datum die u opgeeft.
-* **Vervaldatum berekend door script**: De vervaldatum wordt berekend met behulp van JavaScript.
+* **Vervaldatum berekend door script**: De vervaldatum wordt berekend met JavaScript.
 
-   In het volgende voorbeeld wordt een vervaldatum berekend 24 uur voordat de levering wordt gestart (geïdentificeerd door **vars.deliveryId**):
+  In het volgende voorbeeld wordt een vervaldatum berekend 24 uur voordat de levering wordt gestart (geïdentificeerd door **vars.deliveryId**):
 
-   ```
-   var delivery = nms.delivery.get(vars.deliveryId)
-   var expiration = delivery.scheduling.contactDate
-   var oneDay = 1000*60*60*24
-   expiration.setTime(expiration.getTime() - oneDay)
-   return expiration
-   ```
+  ```
+  var delivery = nms.delivery.get(vars.deliveryId)
+  var expiration = delivery.scheduling.contactDate
+  var oneDay = 1000*60*60*24
+  expiration.setTime(expiration.getTime() - oneDay)
+  return expiration
+  ```
 
 ## Meerdere goedkeuringen {#multiple-approval}
 

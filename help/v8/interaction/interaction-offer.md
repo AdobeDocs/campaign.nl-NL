@@ -2,10 +2,10 @@
 title: Aanbieding voor campagneinteractie
 description: Meer weten over het maken van een aanbieding?
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 3%
@@ -36,7 +36,7 @@ U kunt nu de opdracht **[!UICONTROL Eligibility]** te definiëren tab:
 
 ### verkiesbaarheidsperiode voorstellen{#eligibility-period}
 
-In de **[!UICONTROL Eligibility]** van de aanbieding, de subsidiabiliteitsperiode van de aanbieding bepalen. gebruikt u de vervolgkeuzelijsten om een begin- en een einddatum in de kalender te selecteren.
+In de **[!UICONTROL Eligibility]** van de aanbieding, de subsidiabiliteitsperiode van de aanbieding bepalen. gebruikt u de vervolgkeuzelijsten om een begin- en einddatum in de kalender te selecteren.
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -116,10 +116,10 @@ Gebruik de **[!UICONTROL Content]** om de inhoud van de aanbieding te definiëre
 
 1. Definieer de verschillende parameters van de aanbiedingsinhoud.
 
-   * **[!UICONTROL Title]** : Geef de titel op die je wilt maken en die je in je voorstel wilt opnemen. Waarschuwing: dit verwijst niet naar het label van de aanbieding , dat in het **[!UICONTROL General]** tab.
-   * **[!UICONTROL Destination URL]** : Geef de URL van je voorstel op. Het moet beginnen met &quot;http://&quot; of &quot;https://&quot;.
-   * **[!UICONTROL Image URL]** : Geef een URL of een toegangspad op naar de afbeelding van uw aanbieding.
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : Voer de tekst van je voorstel in op het tabblad dat je wilt. Om het volgen te produceren, **[!UICONTROL HTML content]** moet bestaan uit HTML-elementen die kunnen worden ingesloten in een `<div>` type-element. Het resultaat van bijvoorbeeld een `<table>` Het element op de pagina HTML is als volgt:
+   * **[!UICONTROL Title]** : Geef de titel op die je in je voorstel wilt weergeven. Waarschuwing: dit verwijst niet naar het label van de aanbieding, dat in het **[!UICONTROL General]** tab.
+   * **[!UICONTROL Destination URL]** : geef de URL van je voorstel op. Het moet beginnen met &quot;http://&quot; of &quot;https://&quot;.
+   * **[!UICONTROL Image URL]** : geef een URL of een toegangspad op naar de afbeelding van uw aanbieding.
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : voer de tekst van uw voorstel in op het tabblad dat u wilt gebruiken. Om het volgen te produceren, **[!UICONTROL HTML content]** moet bestaan uit HTML-elementen die in een `<div>` type-element. Het resultaat van bijvoorbeeld een `<table>` Het element op de pagina HTML is als volgt:
 
    ```
       <div> 
@@ -196,4 +196,4 @@ De **Simulatie** kunt u de distributie testen van aanbiedingen die tot een categ
 
 Bij de simulatie wordt rekening gehouden met de context en de subsidiabiliteitsregels die eerder op de aanbiedingen van toepassing waren, en met hun presentatieregels. Dit laat u diverse versies van uw aanbiedingsvoorstel testen en verfijnen zonder eigenlijk een aanbieding of over/onder het eisen van een doel te gebruiken, aangezien de simulatie geen effect op de gerichte ontvangers heeft.
 
-![](../assets/do-not-localize/book.png) Voor meer informatie over de simulatie van aanbiedingen raadpleegt u [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html)
+![](../assets/do-not-localize/book.png) Raadpleeg voor meer informatie over simulatie van aanbiedingen de [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html)

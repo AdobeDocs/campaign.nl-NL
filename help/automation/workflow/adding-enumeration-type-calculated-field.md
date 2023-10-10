@@ -2,12 +2,10 @@
 product: campaign
 title: Een berekend veld voor het type opsomming toevoegen
 description: Leer hoe u een berekend veld voor het type opsomming toevoegt
-audience: workflow
-content-type: reference
-topic-tags: use-cases
 feature: Workflows, Data Management
+role: User
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -16,19 +14,19 @@ ht-degree: 0%
 
 # Een berekend veld voor het type opsomming toevoegen {#adding-an-enumeration-type-calculated-field}
 
-Hier willen wij een vraag met tot stand brengen **[!UICONTROL Enumerations]** berekende type-veld. Met dit veld wordt een extra kolom gegenereerd in het venster met de gegevensvoorvertoning. Deze kolom zal de numerieke waarden specificeren die als resultaat voor elke ontvanger (0, 1 en 2) zijn teruggekeerd. Aan elke waarde in de nieuwe kolom wordt een geslacht toegewezen: &quot;Mannelijk&quot; voor &quot;1&quot;, &quot;Vrouwelijk&quot; voor &quot;2&quot; of &quot;Niet aangegeven&quot; als de waarde gelijk is aan &quot;0&quot;.
+Hier willen wij een vraag met tot stand brengen **[!UICONTROL Enumerations]** berekend veld. Met dit veld wordt een extra kolom gegenereerd in het venster met de gegevensvoorvertoning. Deze kolom zal de numerieke waarden specificeren die als resultaat voor elke ontvanger (0, 1 en 2) zijn teruggekeerd. Aan elke waarde in de nieuwe kolom wordt een geslacht toegewezen: &quot;Mannelijk&quot; voor &quot;1&quot;, &quot;Vrouwelijk&quot; voor &quot;2&quot; of &quot;Niet aangegeven&quot; als de waarde gelijk is aan &quot;0&quot;.
 
 * Welke tabel moet worden geselecteerd?
 
-   De tabel met ontvangers (nms:ontvanger)
+  De tabel met ontvangers (nms:ontvanger)
 
 * Te selecteren velden in de uitvoerkolom?
 
-   Achternaam, voornaam, geslacht
+  Achternaam, voornaam, geslacht
 
 * Aan welke criteria wordt de informatie gefilterd?
 
-   De taal van de ontvanger
+  De taal van de ontvanger
 
 Voer de volgende stappen uit:
 
@@ -37,7 +35,7 @@ Voer de volgende stappen uit:
 
    ![](assets/query_editor_nveau_73.png)
 
-1. In de **[!UICONTROL Sorting]** venster, klikt u op **[!UICONTROL Next]**: voor dit voorbeeld is geen sortering nodig .
+1. In de **[!UICONTROL Sorting]** venster, klikt u op **[!UICONTROL Next]**: voor dit voorbeeld is geen sortering nodig.
 1. In **[!UICONTROL Data filtering]** selecteert u **[!UICONTROL Filtering conditions]**.
 1. In de **[!UICONTROL Target element]** , stelt u een filtervoorwaarde in om ontvangers die Engels spreken, te verzamelen.
 
@@ -49,18 +47,18 @@ Voer de volgende stappen uit:
 
 1. Ga naar de **[!UICONTROL Type]** van het **[!UICONTROL Export calculated field definition]** venster en selecteer **[!UICONTROL Enumerations]**.
 
-   Definieer de kolom waarnaar het nieuwe berekende veld moet verwijzen. Selecteer hiervoor de optie **[!UICONTROL Gender]** in het vervolgkeuzemenu van het dialoogvenster **[!UICONTROL Source column]** veld: de doelwaarden vallen samen met de **[!UICONTROL Gender]** kolom.
+   Definieer de kolom waarnaar het nieuwe berekende veld moet verwijzen. Selecteer de optie **[!UICONTROL Gender]** in het vervolgkeuzemenu van het dialoogvenster **[!UICONTROL Source column]** veld: de doelwaarden vallen samen met de **[!UICONTROL Gender]** kolom.
 
    ![](assets/query_editor_nveau_76.png)
 
-   Definieer de **Bron** en **Doel** waarden: de bestemmingswaarde maakt het vraagresultaat gemakkelijker te lezen. Deze vraag zou ontvankelijk geslacht moeten terugkeren en het resultaat zal of 0, 1, of 2 zijn.
+   Definieer de **Bron** en **Doel** waarden: de doelwaarde maakt het queryresultaat beter leesbaar. Deze vraag zou ontvankelijk geslacht moeten terugkeren en het resultaat zal of 0, 1, of 2 zijn.
 
    Voor elke &quot;bron-bestemming&quot;lijn die moet worden ingegaan, klik **[!UICONTROL Add]** in de **[!UICONTROL List of enumeration values]**:
 
    * In de **[!UICONTROL Source]** Voer in een nieuwe regel de bronwaarde voor elk geslacht (0,1,2) in.
-   * In de **[!UICONTROL Destination]** voert u de waarden in: &quot;Niet aangegeven&quot; voor regel &quot;0&quot;, &quot;Mannelijk&quot; voor regel &quot;1&quot; en &quot;Vrouwelijk&quot; voor regel &quot;2&quot;.
+   * In de **[!UICONTROL Destination]** Voer de waarden in: &quot;Niet aangegeven&quot; voor regel &quot;0&quot;, &quot;Mannelijk&quot; voor regel &quot;1&quot; en &quot;Vrouwelijk&quot; voor regel &quot;2&quot;.
 
-   Selecteer **[!UICONTROL Keep the source value]** functie.
+   Selecteer de **[!UICONTROL Keep the source value]** functie.
 
    Klikken **[!UICONTROL OK]** om het berekende veld goed te keuren.
 
@@ -81,6 +79,6 @@ Voer de volgende stappen uit:
 
    ![](assets/query_editor_nveau_79.png)
 
-   Neem een ander voorbeeld en zeg dat de opsommingswaarde &quot;2&quot;niet is ingegaan. Selecteer **[!UICONTROL Generate an error and reject the line]** functie: alle geslachten die onder &quot; 2 &quot; vallen , zullen anomalieën veroorzaken en de overige informatie op de regel ( voornaam en achternaam , enz . ) wordt niet geëxporteerd. Er wordt een foutenlogboek weergegeven in het dialoogvenster **[!UICONTROL Logs generated during export]** in het venster met gegevensvoorvertoning. Dit logboek wijst erop dat de opsommingswaarde &quot;2&quot;niet ingegaan is.
+   Neem een ander voorbeeld en zeg dat de opsommingswaarde &quot;2&quot;niet is ingegaan. Selecteer de **[!UICONTROL Generate an error and reject the line]** functie: alle geslachten die &quot;2&quot; ontvangen, zullen anomalieën veroorzaken en de andere informatie op de regel (voornaam en achternaam, enz.) wordt niet geëxporteerd. In het dialoogvenster **[!UICONTROL Logs generated during export]** in het venster met gegevensvoorvertoning. Dit logboek wijst erop dat de opsommingswaarde &quot;2&quot;niet ingegaan is.
 
    ![](assets/query_editor_nveau_80.png)

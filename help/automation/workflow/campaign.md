@@ -3,8 +3,9 @@ product: campaign
 title: Campaign
 description: Campaign
 feature: Workflows
+role: User, Admin
 topic-tags: technical-workflows
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -33,7 +34,7 @@ De hieronder beschreven workflows worden geïnstalleerd met de **Campagne** modu
    <td> Deze workflow start de berekening van kosten en kostenposten voor de begrotingen, plannen, programma's, campagnes, leveringen en taken.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Voorraad: Orders en waarschuwingen</span> <br /> </td> 
+   <td> <span class="uicontrol">Voorraad: bestellingen en waarschuwingen</span> <br /> </td> 
    <td> <span class="uicontrol">stockMgt</span> <br /> </td> 
    <td> Deze workflow start voorraadberekening op de orderregels en beheert drempelwaarden voor waarschuwingen.<br /> </td> 
   </tr> 
@@ -49,7 +50,7 @@ De hieronder beschreven workflows worden geïnstalleerd met de **Campagne** modu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Banen voor dienstverleners</span> <br /> </td> 
-   <td> <span class="uicontrol">providerbeheer</span> <br /> </td> 
+   <td> <span class="uicontrol">providerMgt</span> <br /> </td> 
    <td> Dit werkschema begint de leverancier (e-mail aan de router en post-verwerking) te verwerken zodra de leveringen zijn goedgekeurd. <br /> </td> 
   </tr> 
  </tbody> 

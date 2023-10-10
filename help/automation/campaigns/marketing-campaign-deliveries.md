@@ -3,8 +3,9 @@ product: campaign
 title: Leveringen voor marketingcampagnes
 description: Meer informatie over marketingcampagneleveringen
 feature: Campaigns, Resource Management, Cross Channel Orchestration
+role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # Leveringen voor marketingcampagnes {#marketing-campaign-deliveries}
 
-Orchestreer de leveringen via het andere kanaal in uw campagnes: stroomlijnt uw communicatie met Adobe Campaign via persoonlijke e-mails, SMS, pushberichten en in-app berichten. U kunt rijke media zoals video&#39;s, emojis of GIFFEN gebruiken en hen direct integreren.
+Orchestreer uw interkanaalleveringen in uw campagnes: stroomlijn uw communicatie met Adobe Campaign via persoonlijke e-mails, SMS, pushberichten en in-app berichten. U kunt rijke media zoals video&#39;s, emojis of GIFFEN gebruiken en hen direct integreren.
 
 Leveringen kunnen worden gemaakt via het campagnedashboard, een campagneworkflow of rechtstreeks via het overzicht van leveringen. Wanneer de leveringen worden gemaakt op basis van een campagne, worden ze gekoppeld aan deze campagne en geconsolideerd op campagnereniveau.
 
@@ -29,9 +30,9 @@ Nadat de levering is opgeslagen, wordt deze toegevoegd aan het campagnemdashboar
 
 * Van een campagnewerkstroom, in **[!UICONTROL Targeting and workflows]** door de levering toe te voegen.
 
-   ![](assets/campaign-wf-delivery.png)
+  ![](assets/campaign-wf-delivery.png)
 
-   Nadat de workflow is gestart, wordt de levering toegevoegd aan het campagnemdashboard.
+  Nadat de workflow is gestart, wordt de levering toegevoegd aan het campagnemdashboard.
 
 Leer hoe u de goedkeuringsstroom voor de levering instelt en uitvoert [op deze pagina](marketing-campaign-approval.md).
 
@@ -53,7 +54,7 @@ De informatie verschijnt ook op het campagnedashboard. De **[!UICONTROL Confirm 
 
 ![](assets/confirm-delivery-from-dashboard.png)
 
-Bevestiging van de levering is beperkt tot Beheerders en tot de exploitant of groep van exploitanten die uitdrukkelijk in de levering of campagneeigenschappen worden vermeld. Als geen exploitant wordt ontworpen, kunnen de Beheerders en de campagneeigenaar goedkeuren.
+Bevestiging van de levering is beperkt tot Beheerders, en tot de exploitant of groep van exploitanten uitdrukkelijk vermeld in de levering of campagneeigenschappen. Als geen exploitant wordt ontworpen, kunnen de Beheerders en de campagneeigenaar goedkeuren.
 
 ![](assets/select-delivery-reviewers.png)
 
@@ -90,25 +91,25 @@ Voer de onderstaande stappen uit om de inhoud te valideren en het bestand naar d
 
 ### Begroting en kostenberekening {#compute-costs-and-stocks}
 
-Met de uitname van het bestand worden twee processen gestart: begrotingsberekening en voorraadberekening. De begrotingsonderdelen worden bijgewerkt.
+De bestandsuitwinning start twee processen: budgetberekening en voorraadberekening. De begrotingsonderdelen worden bijgewerkt.
 
 * De **[!UICONTROL Budget]** kunt u de budgetten voor de campagne beheren. Het totaal van de kostenposten wordt weergegeven in het **[!UICONTROL Calculated cost]** veld van het hoofdtabblad van de campagne en het programma waartoe deze behoort. De bedragen zijn ook terug te vinden in de campagnebegroting.
 
-   ![](assets/campaign-budget-tab.png)
+  ![](assets/campaign-budget-tab.png)
 
-   De echte kosten zullen uiteindelijk van informatie worden berekend die door de router wordt verstrekt. Alleen daadwerkelijk verzonden berichten worden gefactureerd.
+  De echte kosten zullen uiteindelijk van informatie worden berekend die door de router wordt verstrekt. Alleen daadwerkelijk verzonden berichten worden gefactureerd.
 
 * De voorraden worden gedefinieerd in de **[!UICONTROL Administration > Campaign management > Stocks]** knooppunt van de structuur.
 
-   ![](assets/campaign-stocks.png)
+  ![](assets/campaign-stocks.png)
 
-   Kostenstructuren in de **[!UICONTROL Administration > Campaign management > Service providers]** knooppunt.
+  Kostenstructuren in de **[!UICONTROL Administration > Campaign management > Service providers]** knooppunt.
 
-   ![](assets/campaign-service-providers.png)
+  ![](assets/campaign-service-providers.png)
 
-   De voorraadlijnen zijn zichtbaar in de voorraadsectie. Als u de oorspronkelijke voorraad wilt definiëren, opent u een voorraadlijn. De voorraad wordt telkens verlaagd wanneer een levering plaatsvindt. U kunt een waarschuwingsniveau en meldingen definiëren.
+  De voorraadlijnen zijn zichtbaar in de voorraadsectie. Als u de oorspronkelijke voorraad wilt definiëren, opent u een voorraadlijn. De voorraad wordt telkens verlaagd wanneer een levering plaatsvindt. U kunt een waarschuwingsniveau en meldingen definiëren.
 
 
-   >[!NOTE]
-   >
-   >Meer informatie over budgetten [in deze sectie](providers--stocks-and-budgets.md).
+  >[!NOTE]
+  >
+  >Meer informatie over budgetten [in deze sectie](providers--stocks-and-budgets.md).

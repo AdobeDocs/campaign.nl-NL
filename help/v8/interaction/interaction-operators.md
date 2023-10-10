@@ -2,10 +2,10 @@
 title: Operatorprofielen
 description: Beheerders van aanbiedingen maken
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 4%
@@ -37,9 +37,9 @@ Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uit
 * Categorieën voorstellen weergeven en wijzigen.
 * Aanbiedingen goedkeuren als ze revisoren zijn.
 
-   >[!NOTE]
-   >
-   >**Leveringsmanagers** kan een aanbieding alleen goedkeuren als deze in de aanbiedingsconfiguratie als controleur is gedeclareerd.
+  >[!NOTE]
+  >
+  >**Leveringsmanagers** kan een aanbieding alleen goedkeuren als deze in de aanbiedingsconfiguratie als controleur is gedeclareerd.
 
 ## Machtigingsmatrix per interactie-operator {#recap-of-rights-according-to-operator}
 

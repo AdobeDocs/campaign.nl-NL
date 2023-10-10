@@ -3,8 +3,9 @@ product: campaign
 title: Kubussen gebruiken om rapporten over gegevens te maken
 description: Leer hoe u kubussen kunt gebruiken om rapporten te maken
 feature: Reporting
+role: User, Data Engineer
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 1%
@@ -17,7 +18,7 @@ Gebruik kubussen om rapporten te maken en om gegevens in de database te identifi
 
 * Maak rapporten op basis van kubussen. [Meer informatie](#explore-the-data-in-a-report).
 * Verzamel de gegevens in het gegevensbestand en groepeer het in lijsten, bijvoorbeeld om doelstellingen en leveringen te identificeren en te bouwen. [Meer informatie](#build-a-target-population).
-* Voeg een draaitabel in een rapport in en verwijs naar een bestaande kubus in het rapport. [Meer informatie](#insert-a-pivot-table-into-a-report).
+* Voeg een draaientabel in een rapport in en verwijs naar een bestaande kubus in het rapport. [Meer informatie](#insert-a-pivot-table-into-a-report).
 
 ## De gegevens in een rapport verkennen {#explore-the-data-in-a-report}
 
@@ -25,13 +26,13 @@ Gebruik kubussen om rapporten te maken en om gegevens in de database te identifi
 
 Wanneer de [kubus is geconfigureerd](cube-indicators.md), kan het als malplaatje voor het creëren van een nieuw rapport worden gebruikt.
 
-Voer de volgende stappen uit om een rapport te maken op basis van een bestaande kubus:
+Voer de volgende stappen uit om een rapport te maken dat is gebaseerd op een bestaande kubus:
 
 1. Klik op de knop **[!UICONTROL Create]** van de **[!UICONTROL Reports]** en selecteert u de kubus die u zojuist hebt gemaakt.
 
    ![](assets/new-report-based-on-cube.png)
 
-1. Klik op de knop **[!UICONTROL Create]** ter bevestiging: dit zal u aan de rapportconfiguratie en het bekijken pagina brengen.
+1. Klik op de knop **[!UICONTROL Create]** knoop om te bevestigen: dit zal u aan de rapportconfiguratie en het bekijken pagina nemen.
 
    Standaard worden de eerste twee beschikbare afmetingen aangeboden in lijnen en kolommen, maar er wordt geen waarde weergegeven in de tabel. Klik op het hoofdpictogram om de tabel te genereren:
 
@@ -51,7 +52,7 @@ De **[!UICONTROL Add]** met de knoppen op elke as kunt u dimensies toevoegen.
 
 ![](assets/cube-switch.png)
 
-1. Selecteer de afmetingen die u wilt weergeven in de lijnen en kolommen van de tabel. U doet dit door de beschikbare afmetingen te slepen en neer te zetten.
+1. Selecteer de afmetingen die u wilt weergeven in de lijnen en kolommen van de tabel. Sleep de beschikbare afmetingen om dit te doen.
 1. Selecteer in de lijst de afmetingen die u aan de tabel wilt toevoegen:
    ![](assets/cube-select-dimension.png)
 
@@ -61,7 +62,7 @@ De **[!UICONTROL Add]** met de knoppen op elke as kunt u dimensies toevoegen.
 
    Deze parameters zijn afhankelijk van het gegevenstype van de geselecteerde dimensie.
 
-   Voor datums kunnen bijvoorbeeld verschillende niveaus beschikbaar zijn. Raadpleeg voor meer informatie hierover [Weergavemetingen](customize-cubes.md#display-measures).
+   Voor datums kunnen bijvoorbeeld verschillende niveaus beschikbaar zijn. Raadpleeg voor meer informatie hierover [Weergaveopties](customize-cubes.md#display-measures).
 
    In dat geval zijn de volgende opties beschikbaar:
 
@@ -69,15 +70,15 @@ De **[!UICONTROL Add]** met de knoppen op elke as kunt u dimensies toevoegen.
 
    U kunt:
 
-   * Gegevens uitbreiden tijdens laden: de waarden zullen door gebrek worden getoond telkens als het rapport wordt bijgewerkt (standaardwaarde: neen).
-   * Het totaal aan het einde van de regel weergeven: wanneer de gegevens in kolommen worden weergegeven, kunt u het totaal aan het einde van de regel weergeven met een extra optie: er wordt een kolom aan de tabel toegevoegd (standaardwaarde): ja).
-   * Een sortering toepassen: de waarden van de kolom kunnen worden gesorteerd op waarde, label of op basis van een maat (standaardwaarde: op waarde).
+   * Gegevens uitbreiden tijdens laden: de waarden worden standaard weergegeven wanneer het rapport wordt bijgewerkt (standaardwaarde: no).
+   * Het totaal aan het einde van de regel weergeven: als de gegevens in kolommen worden weergegeven, kunt u het totaal aan het einde van de regel weergeven: er wordt een kolom aan de tabel toegevoegd (standaardwaarde: ja).
+   * Een sortering toepassen: de waarden van de kolom kunnen worden gesorteerd op basis van waarde, label of op basis van een maat (standaardwaarde: op waarde).
    * Geef de waarden weer in oplopende (a-z, 0-9) of aflopende (z-a, 9-0) volgorde.
    * Het aantal kolommen wijzigen dat bij het laden moet worden weergegeven (standaard: 200).
 
-1. Klikken **[!UICONTROL Ok]** ter bevestiging: de dimensie wordt toegevoegd aan de bestaande afmetingen.
+1. Klikken **[!UICONTROL Ok]** ter bevestiging : de dimensie wordt toegevoegd aan de bestaande afmetingen .
 
-   De gele banner boven de tabel geeft aan dat u wijzigingen hebt aangebracht: klik op **[!UICONTROL Save]** om ze op te slaan.
+   De gele banner boven de tabel geeft aan dat u wijzigingen hebt aangebracht: klik op de knop **[!UICONTROL Save]** om ze op te slaan.
 
    ![](assets/cube-in-report.png)
 
@@ -105,19 +106,19 @@ Volg onderstaande stappen om maatregelen toe te voegen en te configureren:
 
    Vervolgens kunt u kiezen of u maatlabels wilt weergeven of niet. [Meer informatie](customize-cubes.md#configure-the-display).
 
-1. U kunt nieuwe maatregelen bouwen die op bestaande worden gebaseerd. Klik op **[!UICONTROL Create a measure]** en configureren.
+1. U kunt nieuwe maatregelen bouwen die op bestaande worden gebaseerd. Om dit te doen, klik **[!UICONTROL Create a measure]** en configureren.
 
    ![](assets/cube-create-new-measure.png)
 
    De volgende soorten maatregelen zijn beschikbaar:
 
-   * Combinatie van maatregelen: met dit type maatregel kunt u de nieuwe maatregel bouwen met behulp van bestaande maatregelen :
+   * Combinatie van maatregelen: met dit type maatregel kunt u de nieuwe maatregel bouwen aan de hand van bestaande maatregelen:
 
-      De beschikbare operatoren zijn: som, verschil, vermenigvuldiging en frequentie.
+     De beschikbare operatoren zijn: som, verschil, vermenigvuldiging en snelheid.
 
-   * Verhouding: met dit type maatregel kunt u het aantal records berekenen dat voor een bepaalde dimensie wordt gemeten. U kunt de evenredigheid berekenen op basis van een dimensie of subdimensie.
+   * Proportie: met dit type maatregel kunt u het aantal records berekenen dat voor een bepaalde dimensie wordt gemeten. U kunt de evenredigheid berekenen op basis van een dimensie of subdimensie.
    * Variatie: met deze maatregel kunt u de variatie in waarden van een niveau berekenen.
-   * Standaardafwijking: met dit type meting kunt u afwijkingen binnen elke groep cellen berekenen in vergelijking met het gemiddelde van de waarden . U kunt bijvoorbeeld het aankoopvolume voor alle bestaande segmenten vergelijken.
+   * Standaardafwijking: met dit type maat kunt u afwijkingen binnen elke groep cellen berekenen in vergelijking met het gemiddelde van de waarden. U kunt bijvoorbeeld het aankoopvolume voor alle bestaande segmenten vergelijken.
 
    Nadat de maatregel is gemaakt, wordt deze aan het rapport toegevoegd.
 
@@ -131,7 +132,7 @@ Volg onderstaande stappen om maatregelen toe te voegen en te configureren:
 
 De rapporten bouwen gebruikend kubussen laten u toe om gegevens van de lijst te verzamelen en het te bewaren in een lijst.
 
-Voer de onderstaande stappen uit om een populatie in een lijst te groeperen:
+Voer de volgende stappen uit om een populatie in een lijst te groeperen:
 
 1. Klik op de cellen die de te verzamelen populatie bevatten en selecteer deze. Klik vervolgens op de knop **[!UICONTROL Add to cart]** pictogram.
 

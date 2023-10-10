@@ -3,8 +3,9 @@ product: campaign
 title: Gedupliceerde ontvangers filteren
 description: Leer hoe u gedupliceerde ontvangers filtert
 feature: Workflows
+role: User
 exl-id: cfa1f45c-e1ac-4055-996c-6e8d041889bb
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%
@@ -15,7 +16,7 @@ ht-degree: 4%
 
 
 
-In dit voorbeeld willen we ontvangers filteren die twee of meer in een levering verschijnen om dubbele profielen te herstellen.
+In dit voorbeeld willen we ontvangers filteren die twee of meer in een levering verschijnen om gedupliceerde profielen te herstellen.
 
 U kunt dit voorbeeld maken door de volgende stappen toe te passen:
 
@@ -37,4 +38,4 @@ U kunt dit voorbeeld maken door de volgende stappen toe te passen:
 
    ![](assets/query_recipients_4.png)
 
-Uw uitgaande overgang bevat de dubbele ontvangers die in de leveringen als doel zijn ingesteld.
+Uw uitgaande overgang bevat de gedupliceerde ontvangers die in de leveringen als doel zijn ingesteld.

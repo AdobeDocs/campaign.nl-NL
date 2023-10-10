@@ -5,7 +5,7 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 87e56e7c296884458a0c8fd704b82611f56e695d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 4%
@@ -34,7 +34,7 @@ De basisstructuur van het Adobe Campaign-gegevensmodel kan als volgt worden besc
 
 >[!NOTE]
 >
->Ga naar Beheer > Configuratie > Gegevensschema&#39;s om de beschrijving van elke tabel te openen, selecteer een bron in de lijst en klik op de knop **Documentatie** tab.
+>Blader naar de beschrijving van elke tabel om deze te openen **Beheer > Configuratie > Gegevensschema&#39;s**, selecteert u een bron in de lijst en klikt u op de knop **Documentatie** tab.
 
 Wanneer u begint met Adobe Campaign, moet u het standaardgegevensmodel beoordelen om te controleren welke tabel het meest geschikt is om uw marketinggegevens op te slaan.
 

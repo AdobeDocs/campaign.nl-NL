@@ -3,8 +3,9 @@ product: campaign
 title: Geavanceerde parameters
 description: Geavanceerde parameters
 feature: Workflows, Data Management
+role: User, Admin
 exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
@@ -15,15 +16,15 @@ ht-degree: 2%
 
 
 
-Het eigenschappenscherm van een activiteit heeft een **[!UICONTROL Advanced]** tabblad waarin u een gedrag kunt definiëren in het geval van fouten, de uitvoeringsperiode voor de activiteit; en kunt u een initialisatiescript invoeren. Er zijn twee versies van dit tabblad:
+Het eigenschappenscherm van een activiteit heeft een **[!UICONTROL Advanced]** tabblad waarin u een gedrag kunt definiëren in het geval van fouten, de uitvoeringsperiode voor de activiteit en waarin u een initialisatiescript kunt invoeren. Er zijn twee versies van dit tabblad:
 
 * een vereenvoudigde versie (voor **[!UICONTROL Start]** en **[!UICONTROL End]** activiteiten, bijvoorbeeld)
 
-   ![](assets/wf-advanced-basic.png)
+  ![](assets/wf-advanced-basic.png)
 
 * een meer gedetailleerde versie ( voor de **[!UICONTROL Query]** activiteit, bijvoorbeeld)
 
-   ![](assets/wf-advanced-full.png)
+  ![](assets/wf-advanced-full.png)
 
 De velden die moeten worden ingevoerd in het **[!UICONTROL Advanced]** worden in de volgende secties beschreven.
 
@@ -45,7 +46,7 @@ Deze opties worden over het algemeen geselecteerd in het winkelwagentje door met
 * **[!UICONTROL Do not activate]**: deze taak en alle volgende taken (in dezelfde vertakking) worden niet uitgevoerd.
 * **[!UICONTROL Activate but do not execute]**: deze taak en alle volgende taken (in dezelfde vertakking) worden automatisch gestopt. Dit kan handig zijn als u er wilt zijn wanneer de taak wordt gestart. Als u de taak handmatig wilt uitvoeren, klikt u met de rechtermuisknop op de activiteit en selecteert u **[!UICONTROL Normal execution]**.
 
-## affiniteit {#affinity}
+## Affiniteit {#affinity}
 
 U kunt ervoor kiezen de uitvoering van een workflow of workflowactiviteit op een specifieke computer af te dwingen. Hiervoor moet u een of meer eigenschappen definiëren op het niveau van de workflow of de desbetreffende activiteit.
 
@@ -58,8 +59,8 @@ In dit veld kunt u een waarschuwing instellen wanneer de taak te lang duurt. Het
 
 In dit veld kunt u het gedrag definiëren dat moet worden toegepast bij het gebruik van asynchrone taken. Er zijn twee mogelijke opties:
 
-* **[!UICONTROL Several tasks authorized]**: verscheidene taken kunnen tegelijkertijd worden uitgevoerd, zelfs als eerste niet gebeëindigd is.
-* **[!UICONTROL The current task has priority]**: de lopende taken hebben voorrang . Zolang een taak bezig is, zal geen andere taak worden uitgevoerd.
+* **[!UICONTROL Several tasks authorized]**: meerdere taken kunnen tegelijk worden uitgevoerd, zelfs als de eerste niet is voltooid.
+* **[!UICONTROL The current task has priority]**: lopende taken krijgen prioriteit. Zolang een taak bezig is, zal geen andere taak worden uitgevoerd.
 
 ## Tijdzone {#time-zone}
 

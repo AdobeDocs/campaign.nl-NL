@@ -3,8 +3,9 @@ product: campaign
 title: Workflowmachtigingen beheren
 description: Leer hoe u workflowmachtigingen beheert
 feature: Workflows
+role: Admin
 exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
-source-git-commit: bff7d1d51b9847c515670e5594eed513fefbe816
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Raadpleeg voor meer informatie over het beheren van operatoren en machtigingen [
 
 De volgende groepen operatoren zijn gekoppeld aan de workflow:
 
-* De **[!UICONTROL Workflow execution]** Met de groep kunt u de uitvoering en goedkeuring van workflows voor doelwitten beheren: De WORKFLOW met de naam right wordt toegewezen aan de operatoren van deze groep. Dit is vereist voor alle handelingen met betrekking tot workflows, naast toegangsrechten tot de gegevensbestanden. Standaard worden de **[!UICONTROL Workflow execution]** Deze groep heeft alleen-lezen toegang tot standaard doelworkflowbestanden en werkstroomsjablonen. Operatoren in deze groep hebben ook lees- en schrijftoegang tot het goedkeuringsbestand dat in behandeling is.
+* De **[!UICONTROL Workflow execution]** Met deze groep kunt u de uitvoering en goedkeuring van doelworkflows beheren: de WORKFLOW met de naam right wordt toegewezen aan de operatoren van deze groep. Dit is vereist voor alle handelingen met betrekking tot workflows, naast toegangsrechten tot de gegevensbestanden. Standaard worden de **[!UICONTROL Workflow execution]** Deze groep heeft alleen-lezen toegang tot standaard doelworkflowbestanden en werkstroomsjablonen. Operatoren in deze groep hebben ook lees- en schrijftoegang tot het goedkeuringsbestand dat in behandeling is.
 * De **[!UICONTROL Workflow supervisors]** in groep kunnen operatoren workflowgoedkeuringen beheren.
 * De **[!UICONTROL Operation Managers]** groeperen voor toegang tot workflows voor campagnes.
 

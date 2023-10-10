@@ -3,8 +3,9 @@ product: campaign
 title: Tijdzones beheren
 description: Tijdzones beheren
 feature: Workflows
+role: User, Admin
 exl-id: 04b7638d-55dd-4317-b605-5d618ef014ba
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 3%
@@ -19,7 +20,7 @@ In een werkschema, kunt u de programma&#39;s van de activiteitenuitvoering aanpa
 
 ## Uitvoerings planning {#execution-scheduling}
 
-U kunt de uitvoering van taken plannen gebruikend de planner (verwijs naar [Planner](scheduler.md)). U kunt ook de planningsopties gebruiken die beschikbaar zijn in de activiteiten die deze functionaliteit aanbieden. Deze activiteiten bieden een **[!UICONTROL Schedule]** tab: **[!UICONTROL File collector]**, **[!UICONTROL File transfer]**, **[!UICONTROL Web download]**, **[!UICONTROL Email reception]** &amp; **[!UICONTROL SMS]**, enz.
+U kunt de uitvoering van taken plannen gebruikend de planner (verwijs naar [Planner](scheduler.md)). U kunt ook de planningsopties gebruiken die beschikbaar zijn in de activiteiten die deze functionaliteit aanbieden. Deze activiteiten bieden **[!UICONTROL Schedule]** tab: **[!UICONTROL File collector]**, **[!UICONTROL File transfer]**, **[!UICONTROL Web download]**, **[!UICONTROL Email reception]** &amp; **[!UICONTROL SMS]**, enz.
 
 Voor alle geplande taken, d.w.z. alle activiteiten met het plannen opties, kunt u de tijdzone selecteren om toe te passen. De tijdzone wordt geselecteerd via de **[!UICONTROL Advanced]** tabblad van de betrokken activiteit:
 
@@ -29,19 +30,19 @@ Mogelijke waarden zijn:
 
 * Tijdzone van server
 
-   Gebruikt de tijdzone van de Adobe Campaign-toepassingsserver.
+  Gebruikt de tijdzone van de Adobe Campaign-toepassingsserver.
 
 * Tijdzone gebruiker
 
-   Gebruikt de tijdzone van de exploitant van Adobe Campaign die het werkschema uitvoert.
+  Gebruikt de tijdzone van de exploitant van Adobe Campaign die het werkschema uitvoert.
 
 * Tijdzone database
 
-   Gebruikt de tijdzone van de gebruikte gegevensbestandserver.
+  Gebruikt de tijdzone van de gebruikte gegevensbestandserver.
 
 * Specifieke tijdzones
 
-   Hiermee gebruikt u de geselecteerde tijdzone.
+  Hiermee gebruikt u de geselecteerde tijdzone.
 
 Als de **[!UICONTROL By default]** wordt geselecteerd, wordt de tijdzone van het werkschema toegepast, of anders, dat van de toepassingsserver.
 

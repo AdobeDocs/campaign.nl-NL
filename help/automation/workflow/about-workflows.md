@@ -3,8 +3,9 @@ product: campaign
 title: Workflows
 description: Automatiseer processen met workflows, beheer gegevens en doelgroepen, verzend berichten, en meer.
 feature: Workflows
+role: User
 exl-id: 297aa4e3-b672-46b5-9016-5accee8568b8
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 26%
@@ -29,7 +30,7 @@ Adobe Campaign gebruikt workflows om:
 * Kanaaloverschrijdende campagnes ordenen. [Meer informatie](#campaign-workflows)
 * Voer technische processen uit, zoals schoonmaak, gegevens het volgen inzameling, berekeningen, en meer. [Meer informatie](#technical-workflows)
 
-Een werkstroom is een procesdefinitie: het werkstroomdiagram, dat een weergave is van wat er moet gebeuren. Een workflow is ook een instantie van dit proces: een werkstroominstantie, die een voorstelling is van wat er eigenlijk gebeurt.
+Een werkstroom is een procesdefinitie: het werkschemadiagram, dat een vertegenwoordiging van wat verondersteld is te gebeuren is. Een werkstroom is ook een instantie van dit proces: een werkstroominstantie, die een representatie is van wat er werkelijk gebeurt.
 
 In het werkstroomsjabloon worden de verschillende taken beschreven die moeten worden uitgevoerd en wordt beschreven hoe deze aan elkaar zijn gekoppeld. De taakmalplaatjes worden genoemd activiteiten en door pictogrammen vertegenwoordigd. Ze zijn aan elkaar gekoppeld door overgangen.
 
@@ -41,29 +42,29 @@ Elke werkstroom bevat:
 
 * **[!UICONTROL Activities]**
 
-   Een activiteit beschrijft een taakmalplaatje. De verschillende beschikbare activiteiten worden op het diagram weergegeven door pictogrammen. Elk type heeft gemeenschappelijke eigenschappen en specifieke eigenschappen. Terwijl alle activiteiten bijvoorbeeld een naam en label hebben, worden alleen de **[!UICONTROL Approval]** activiteit heeft een toewijzing.
+  Een activiteit beschrijft een taakmalplaatje. De verschillende beschikbare activiteiten worden op het diagram weergegeven door pictogrammen. Elk type heeft gemeenschappelijke eigenschappen en specifieke eigenschappen. Terwijl alle activiteiten bijvoorbeeld een naam en label hebben, worden alleen de **[!UICONTROL Approval]** activiteit heeft een toewijzing.
 
-   In een workflowdiagram kan een bepaalde activiteit meerdere taken produceren, met name wanneer er een lus of terugkerende (periodieke) handelingen zijn.
+  In een workflowdiagram kan een bepaalde activiteit meerdere taken produceren, met name wanneer er een lus of terugkerende (periodieke) handelingen zijn.
 
-   Alle workflowactiviteiten worden vermeld in [deze sectie](activities.md), met inbegrip van gebruiksgevallen en monsters.
+  Alle workflowactiviteiten worden vermeld in [deze sectie](activities.md), met inbegrip van gebruiksgevallen en monsters.
 
 * **[!UICONTROL Transitions]**
 
-   Met overgangen kunt u activiteiten koppelen en de volgorde ervan definiëren. Een overgang koppelt een bronactiviteit aan een bestemmingsactiviteit. Er zijn diverse soorten overgangen, die van de bronactiviteit afhangen. Sommige overgangen hebben extra parameters zoals een duur, een voorwaarde of een filter.
+  Met overgangen kunt u activiteiten koppelen en de volgorde ervan definiëren. Een overgang koppelt een bronactiviteit aan een bestemmingsactiviteit. Er zijn diverse soorten overgangen, die van de bronactiviteit afhangen. Sommige overgangen hebben extra parameters zoals een duur, een voorwaarde of een filter.
 
-   Een overgang die niet is gekoppeld aan een doelactiviteit, wordt oranje gekleurd en de pijlkop wordt weergegeven als een ruit.
+  Een overgang die niet is gekoppeld aan een doelactiviteit, wordt oranje gekleurd en de pijlkop wordt weergegeven als een ruit.
 
-   >[!NOTE]
-   >
-   >Een workflow met niet-afgesloten overgangen kan nog steeds worden uitgevoerd: er wordt een waarschuwingsbericht gegenereerd en de workflow wordt gepauzeerd zodra de overgang is bereikt , maar er wordt geen fout gegenereerd . Het is dus mogelijk om een werkstroom te starten zonder dat deze is voltooid en om deze tijdens het proces toe te voegen.
+  >[!NOTE]
+  >
+  >Er kan nog steeds een workflow met niet-afgesloten overgangen worden uitgevoerd: er wordt een waarschuwingsbericht gegenereerd en de workflow wordt gepauzeerd zodra de overgang is bereikt, maar er wordt geen fout gegenereerd. Het is dus mogelijk om een werkstroom te starten zonder dat deze is voltooid en om deze tijdens het proces toe te voegen.
 
-   Voor meer informatie over hoe u een workflow kunt maken, raadpleegt u [deze sectie](build-a-workflow.md).
+  Voor meer informatie over hoe u een workflow kunt maken, raadpleegt u [deze sectie](build-a-workflow.md).
 
 * **[!UICONTROL Worktables]**
 
-   De werktabel bevat alle informatie die door de overgang wordt overgedragen. Voor elke workflow worden meerdere werktabellen gebruikt. De gegevens in deze tabellen kunnen gedurende de gehele levenscyclus van de werkstroom worden versneld en gebruikt, zolang deze niet worden gewist. Onbenodigde tabellen worden immers gewist wanneer de workflow wordt gepassiveerd en mogelijk tijdens de uitvoering van de grootste workflows om overbelasting van de server te voorkomen.
+  De werktabel bevat alle informatie die door de overgang wordt overgedragen. Voor elke workflow worden meerdere werktabellen gebruikt. De gegevens in deze tabellen kunnen gedurende de gehele levenscyclus van de werkstroom worden versneld en gebruikt, zolang deze niet worden gewist. Onbenodigde tabellen worden immers gewist wanneer de workflow wordt gepassiveerd en mogelijk tijdens de uitvoering van de grootste workflows om overbelasting van de server te voorkomen.
 
-   Meer informatie over workflowgegevens en tabellen in [deze sectie](use-workflow-data.md).
+  Meer informatie over workflowgegevens en tabellen in [deze sectie](use-workflow-data.md).
 
 ## Verwante secties
 

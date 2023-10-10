@@ -2,8 +2,9 @@
 product: campaign
 title: Marketingbronnen beheren
 description: Leer hoe u marketingbronnen beheert
+role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
@@ -33,11 +34,11 @@ Wanneer het uploaden is voltooid, wordt de bron toegevoegd aan de lijst met besc
 
 ## Marketingbronnen beheren {#manage-marketing-resources}
 
-Zodra geüpload, is de marketingbron beschikbaar voor alle Adobe Campaign-operatoren. Zij kunnen het bekijken, een exemplaar maken om het te wijzigen, of het dossier op de server bijwerken.
+Nadat de marketingbron is geüpload, is deze beschikbaar voor alle Adobe Campaign-operatoren. Zij kunnen het bekijken, een exemplaar maken om het te wijzigen, of het dossier op de server bijwerken.
 
 ![](assets/open-a-marketing-resource.png)
 
-Gebruik de **[!UICONTROL Assigned to]** vervolgkeuzelijst in het dialoogvenster **[!UICONTROL Edit]** om de operator te selecteren die verantwoordelijk is voor de resource.
+Gebruik de **[!UICONTROL Assigned to]** vervolgkeuzelijst in de **[!UICONTROL Edit]** om de operator te selecteren die verantwoordelijk is voor de resource.
 
 ![](assets/assign-a-mkt-resource.png)
 
@@ -53,17 +54,17 @@ Gebruik de **[!UICONTROL Audit]** om een proeflezer toe te voegen en een beschik
 >
 >De **[!UICONTROL History]** bevat het download- en updatelogboek voor de bron. De **[!UICONTROL Details]** Hiermee kunt u de geselecteerde versie weergeven.
 >
->De **[!UICONTROL Audit]** kunt u elke actie controleren die op de bron wordt uitgevoerd: goedkeuringen, weigeringen van goedkeuring, hiermee verband houdende opmerkingen of publicaties.
+>De **[!UICONTROL Audit]** kunt u alle acties controleren die op de bron worden uitgevoerd: goedkeuringen, weigeringen van goedkeuring, verwante opmerkingen of publicaties.
 
 ### Een bron vergrendelen/ontgrendelen {#locking-unlocking-a-resource}
 
 Zodra gecreeerd, zijn de middelen beschikbaar in het marketing middeldashboard, en de exploitanten kunnen hen uitgeven en wijzigen.
 
-Wanneer een exploitant aan een middel begint te werken, is de beste praktijken het te sluiten, om andere exploitanten te verhinderen het tezelfdertijd te wijzigen. De bron is dan gereserveerd: het blijft toegankelijk, maar kan niet op de server door een andere exploitant worden gepubliceerd of worden bijgewerkt.
+Wanneer een exploitant aan een middel begint te werken, is de beste praktijken het te sluiten, om andere exploitanten te verhinderen het tezelfdertijd te wijzigen. De bron is vervolgens gereserveerd: deze blijft toegankelijk, maar kan niet op de server worden gepubliceerd of bijgewerkt door een andere operator.
 
 Een marketingbron kan alleen worden vergrendeld als deze niet is goedgekeurd.
 
-Als u een bron wilt vergrendelen, klikt u op de knop **[!UICONTROL Lock]** in het brondashboard.
+Als u een bron wilt vergrendelen, klikt u op de knop **[!UICONTROL Lock]** in het dashboard voor de bron.
 
 ![](assets/lock-a-resource.png)
 
@@ -93,7 +94,7 @@ Meer informatie in het dialoogvenster [Discussieforums](discussion-forums.md) se
 
 ### Goedkeuringsproces {#approval-process}
 
-De verwachte beschikbaarheidsdatum wordt getoond in de middeldetails, als het in **[!UICONTROL Tracking]** tab. Als deze datum is bereikt, kunt u het goedkeuringsproces uitvoeren met de opdracht **[!UICONTROL Submit for approval]** in het brondashboard. De middelstatus verandert dan in **[!UICONTROL Approval in progress]**.
+De verwachte beschikbaarheidsdatum wordt getoond in de middeldetails, als het in **[!UICONTROL Tracking]** tab. Als deze datum is bereikt, kunt u het goedkeuringsproces uitvoeren met de opdracht **[!UICONTROL Submit for approval]** in het dashboard voor de bron. De middelstatus verandert dan in **[!UICONTROL Approval in progress]**.
 
 Als u een bron wilt goedkeuren, klikt u op de knop **[!UICONTROL Approve the resource]** op het dashboard.
 
@@ -121,9 +122,9 @@ Als u een bron wilt publiceren, klikt u op de knop **[!UICONTROL Publish]** in d
 
 U kunt het publiceren van een bron ook automatiseren via een workflow.
 
-Het publiceren van een middel betekent het ter beschikking stellen voor gebruik (door een andere taak, bijvoorbeeld). Publicatie als zodanig is afhankelijk van de aard van de bron: voor een flyer kan publiceren betekenen dat het bestand naar een printer wordt gestuurd , voor een webbureau , dat het naar een website wordt gepubliceerd , enzovoort .
+Het publiceren van een middel betekent het ter beschikking stellen voor gebruik (door een andere taak, bijvoorbeeld). Publicatie als zodanig varieert afhankelijk van de aard van uw bron: voor een flyer kan publiceren betekenen dat het bestand naar een printer wordt gestuurd, voor een webagentschap kan het betekenen dat het naar een website wordt gepubliceerd, enzovoort.
 
-Adobe Campaign kan alleen publiceren als u een geschikte workflow maakt en deze aan de bron koppelt. Om dit te doen, open **[!UICONTROL Advanced settings...]** van de bron en selecteer vervolgens de gewenste workflow in het dialoogvenster **[!UICONTROL Post-processing]** veld.
+Adobe Campaign kan alleen publiceren als u een geschikte workflow maakt en deze aan de bron koppelt. Open hiertoe de **[!UICONTROL Advanced settings...]** van de bron en selecteer vervolgens de gewenste workflow in het dialoogvenster **[!UICONTROL Post-processing]** veld.
 
 ![](assets/mkt-resource-post-processing-wf.png)
 
@@ -170,7 +171,7 @@ U kunt een marketingbron koppelen aan een of meer voorraden om uw voorraad te be
 
 Volg onderstaande stappen om een marketingbron te koppelen aan een bestand:
 
-1. Een bestand bewerken of een nieuwe voorraad maken. Meer informatie over voorraden in [deze sectie](../campaigns/providers--stocks-and-budgets.md#stock-management).
+1. Een bestand bewerken of een nieuw bestand maken. Meer informatie over voorraden in [deze sectie](../campaigns/providers--stocks-and-budgets.md#stock-management).
 
 1. Voeg een voorraadlijn toe, en selecteer de overeenkomstige marketing middel.
 

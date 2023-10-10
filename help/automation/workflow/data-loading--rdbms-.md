@@ -1,10 +1,11 @@
 ---
 product: campaign
 title: Gegevens laden (RDBMS)
-description: Meer informatie over de activiteit van de workflow voor het laden van gegevens (RDBMS)
+description: Meer informatie over de activiteiten van de RDBMS-workflow (Data Load)
 feature: Workflows, Data Management Activity
+role: User
 exl-id: 2d650573-f630-4aba-bd40-2db88ef1c346
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 3%
@@ -25,7 +26,7 @@ De bewerking is als volgt:
 
    ![](assets/s_advuser_wf_sgbd_sample_1.png)
 
-   De naam van de tabel die in het desbetreffende veld wordt ingevoerd, wordt gebruikt als sjabloon voor het verzamelen van gegevens in de externe database. De naam van de tabel die door de workflow wordt verwerkt, kan worden berekend of overgebracht door de binnenkomende overgang van de activiteit voor het laden van gegevens. Klik op de knop **[!UICONTROL Advanced..]**. en selecteer de **[!UICONTROL Specified in the transition]** of **[!UICONTROL Explicit]** optie.
+   De naam van de tabel die in het desbetreffende veld wordt ingevoerd, wordt gebruikt als sjabloon voor het verzamelen van gegevens in de externe database. De naam van de tabel die door de workflow wordt verwerkt, kan worden berekend of overgebracht door de binnenkomende overgang van de activiteit voor het laden van gegevens. Als u de tabel wilt selecteren, klikt u op de knop **[!UICONTROL Advanced..]**. en selecteer de **[!UICONTROL Specified in the transition]** of **[!UICONTROL Explicit]** -optie.
 
    ![](assets/s_advuser_wf_sgbd_sample_5.png)
 

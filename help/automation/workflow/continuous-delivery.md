@@ -3,8 +3,9 @@ product: campaign
 title: Doorlopende levering
 description: Doorlopende levering
 feature: Workflows, Channels Activity
+role: User
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 9%
@@ -15,7 +16,7 @@ ht-degree: 9%
 
 
 
-A **Doorlopende levering** Met een tekstactie kunt u nieuwe ontvangers toevoegen aan een bestaande levering. Met dit leveringstype hoeft u niet telkens een nieuwe levering te maken: Deze modus is vaak efficiënter, met name voor kleine waarschuwingen of meldingen die zo nodig worden verzonden.
+A **Doorlopende levering** Met een tekstactie kunt u nieuwe ontvangers toevoegen aan een bestaande levering. Met dit type levering hoeft u niet telkens een nieuwe levering te maken. Deze modus is vaak efficiënter, met name voor waarschuwingen met een laag volume of meldingen die worden verzonden wanneer dat nodig is.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#continuous-delivery-video)
 

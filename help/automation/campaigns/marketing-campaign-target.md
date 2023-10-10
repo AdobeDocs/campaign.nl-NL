@@ -3,8 +3,9 @@ product: campaign
 title: Doelgroep van marketingcampagne
 description: Leer hoe u het publiek van uw marketingcampagnes definieert
 feature: Campaigns, Audiences
+role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 0%
@@ -19,7 +20,7 @@ In een marketingcampagne kunt u voor elke levering het volgende definiëren:
 * Een controlegroep. U kunt [een controlegroep toevoegen](#add-a-control-group) om ontvangersgedrag na berichtlevering te controleren
 * Zaadadressen - Meer informatie in [deze sectie](../../v8/audiences/test-profiles.md).—>
 
-Sommige van deze gegevens kunnen worden overgeërfd van de [campagnemalsjabloon](marketing-campaign-templates.md#campaign-templates).
+Sommige van deze gegevens kunnen worden overgeërfd van [campagnemalsjabloon](marketing-campaign-templates.md#campaign-templates).
 
 <!--
 To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in [this section](../../delivery/using/steps-defining-the-target-population.md).
@@ -29,7 +30,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 U kunt een populatie in een lijst importeren en deze lijst vervolgens als doel instellen in leveringen. Volg de onderstaande stappen om dit te doen:
 
-1. Bewerk de levering en klik op de knop **[!UICONTROL To]** koppeling om de doelgroep te veranderen.
+1. Bewerk de levering en klik op **[!UICONTROL To]** koppeling om de doelgroep te veranderen.
 1. In de **[!UICONTROL Main target]** selecteert u de **[!UICONTROL Defined via the database]** en klik op **[!UICONTROL Add]** om ontvangers te selecteren.
 
    ![](assets/select-main-target.png)
@@ -49,7 +50,7 @@ U kunt een populatie in een lijst importeren en deze lijst vervolgens als doel i
 
 ## Het publiek samenstellen in een campagneworkflow {#build-the-main-target-in-a-workflow}
 
-Het hoofddoel van een levering kan ook in de campagnewerkstroom worden bepaald: in deze grafische omgeving kunt u een doel maken met behulp van query&#39;s, tests en operatoren: verenigen, dedupliceren, delen, enz.
+Het hoofddoel van een levering kan ook worden gedefinieerd in de campagneworkflow: met deze grafische omgeving kunt u een doel maken aan de hand van query&#39;s, tests en operatoren: union, deduplicatie, sharing, enzovoort.
 
 >[!IMPORTANT]
 >
@@ -57,7 +58,7 @@ Het hoofddoel van een levering kan ook in de campagnewerkstroom worden bepaald: 
 
 ### De workflow maken {#create-a-targeting-workflow}
 
-Het richten kan door een combinatie filtervoorwaarden in een grafische opeenvolging in een werkschema worden tot stand gebracht. U kunt populaties en subpopulaties maken die op basis van uw vereisten worden aangepast. Klik op de knop **[!UICONTROL Targeting and workflows]** in het campagnedashboard.
+Het richten kan door een combinatie filtervoorwaarden in een grafische opeenvolging in een werkschema worden tot stand gebracht. U kunt populaties en subpopulaties maken die op basis van uw vereisten worden aangepast. Als u de werkstroomeditor wilt weergeven, klikt u op de knop **[!UICONTROL Targeting and workflows]** in het campagnedashboard.
 
 ![](assets/targeting-and-wf-tab.png)
 
@@ -91,7 +92,7 @@ U kunt verschillende doelworkflows voor één campagne maken. Een workflow toevo
 
    ![](assets/add-a-wf.png)
 
-1. Selecteer **[!UICONTROL New workflow]** sjabloon en noem deze workflow.
+1. Selecteer de **[!UICONTROL New workflow]** sjabloon en noem deze workflow.
 1. Klikken **[!UICONTROL OK]** om de creatie van het werkschema te bevestigen, en dan het diagram voor deze werkschema tot stand te brengen.
 
 ### De workflow uitvoeren {#execute-a-workflow}
@@ -112,7 +113,7 @@ Met de werkbalkpictogrammen kunt u actie ondernemen met betrekking tot de uitvoe
 
      De server houdt rekening met het verzoek, zoals aangetoond door zijn status: **[!UICONTROL Start as soon as possible]**.
 
-   * U kunt de doelworkflow opnieuw starten via het juiste werkbalkpictogram. Deze opdracht is handig als de opdracht **[!UICONTROL Start]** pictogram is niet beschikbaar, bijvoorbeeld wanneer het activeren van werkstroom wordt uitgevoerd. Klik in dit geval op de knop **[!UICONTROL Restart]** om te anticiperen op het opnieuw opstarten. De server houdt rekening met het verzoek, aangezien zijn status toont: **[!UICONTROL Restart requested]**.
+   * U kunt de doelworkflow opnieuw starten via het juiste werkbalkpictogram. Deze opdracht kan handig zijn als de opdracht **[!UICONTROL Start]** pictogram is niet beschikbaar, bijvoorbeeld wanneer het activeren van werkstroom wordt uitgevoerd. Klik in dit geval op de knop **[!UICONTROL Restart]** om te anticiperen op het opnieuw opstarten. De server houdt rekening met het verzoek, aangezien zijn status toont: **[!UICONTROL Restart requested]**.
 
 * Stoppen of pauzeren
 
@@ -124,7 +125,7 @@ Met de werkbalkpictogrammen kunt u actie ondernemen met betrekking tot de uitvoe
 
      De server houdt rekening met het bevel, aangezien zijn status toont: **[!UICONTROL Pause requested]**.
 
-     U kunt een doelworkflow ook automatisch pauzeren wanneer de uitvoering een bepaalde activiteit bereikt. Om dit te doen, klik de activiteit met de rechtermuisknop aan waarvan het richten werkschema moet worden gepauzeerd, en selecteer **[!UICONTROL Enable but do not execute]**.
+     U kunt een doelworkflow ook automatisch pauzeren wanneer de uitvoering een bepaalde activiteit bereikt. Klik hiertoe met de rechtermuisknop op de activiteit waarvan de doelworkflow moet worden gepauzeerd en selecteer **[!UICONTROL Enable but do not execute]**.
 
      ![](assets/donotexecute.png)
 
@@ -167,7 +168,7 @@ Met de werkbalkpictogrammen kunt u actie ondernemen met betrekking tot de uitvoe
 
 ## Een controlegroep toevoegen {#add-a-control-group}
 
-Een controlegroep is een populatie die de levering niet zal ontvangen; het wordt gebruikt om het gedrag en de impact van de campagne na de levering te volgen door een vergelijking te maken met het gedrag van de doelpopulatie, die de levering heeft ontvangen.
+Een controlegroep is een populatie die de levering niet zal ontvangen; het wordt gebruikt om het gedrag na de levering en het effect van de campagne te volgen door een vergelijking te maken met het gedrag van de doelpopulatie, die de levering heeft ontvangen.
 
 De controlegroep kan uit het belangrijkste doel worden gehaald en/of uit een specifieke groep of een vraag komen.
 
@@ -180,7 +181,7 @@ U kunt een controlegroep op campagneniveau bepalen, waarbij de controlegroep op 
 
    ![](assets/enable-control-group.png)
 
-1. Selecteer **[!UICONTROL Enable and edit control group configuration]** optie.
+1. Selecteer de **[!UICONTROL Enable and edit control group configuration]** -optie.
 1. Klikken **[!UICONTROL Edit...]** om de controlegroep te vormen.
 
    ![](assets/edit-control-group.png)
@@ -198,7 +199,7 @@ Door gebrek, is de configuratie van de controlegroep die op het campagneniveau w
 >Als u een controlegroep voor een campagne hebt bepaald, en u het voor een levering ook vormt verbonden aan deze campagne, slechts zal de controlegroep die voor de levering wordt bepaald worden toegepast.
 
 1. Bewerk de desbetreffende levering en klik op de knop **[!UICONTROL To]** koppeling.
-1. Klik op de knop **[!UICONTROL Control group]** en selecteert u vervolgens **[!UICONTROL Enable and edit control group configuration]**.
+1. Klik op de knop **[!UICONTROL Control group]** en selecteert u **[!UICONTROL Enable and edit control group configuration]**.
 
    ![](assets/enable-control-group-for-a-delivery.png)
 
@@ -227,18 +228,18 @@ U kunt ook ontvangers extraheren van het hoofddoel van de levering. In dit geval
 Als u een controlegroep wilt extraheren, schakelt u de controlegroep voor de campagne of levering in en selecteert u een van de volgende opties: **[!UICONTROL Activate random sampling]** of **[!UICONTROL Keep only the first records after sorting]**.
 
 * Gebruik de **[!UICONTROL Activate random sampling]** optie om willekeurige bemonstering toe te passen op de ontvangers in de hoofdpopulatie. Als u vervolgens de drempel instelt op 100, bestaat de controlegroep uit 100 ontvangers die willekeurig uit de doelpopulatie zijn geselecteerd. De willekeurige bemonstering is afhankelijk van de database-engine.
-* Gebruik de **[!UICONTROL Keep only the first records after sorting]** een beperking definiëren op basis van een of meer sorteeropdrachten. Als u **[!UICONTROL Age]** de controlegroep zal bestaan uit de 100 jongste ontvangers . Het zou bijvoorbeeld interessant kunnen zijn om een controlegroep te definiëren die ontvangers bevat die weinig aankopen doen, of ontvangers die vaak aankopen doen, en om hun gedrag te vergelijken met dat van de gecontacteerde ontvangers.
+* Gebruik de **[!UICONTROL Keep only the first records after sorting]** optie om een beperking te definiëren op basis van een of meer sorteeropdrachten. Als u **[!UICONTROL Age]** de controlegroep zal bestaan uit de 100 jongste ontvangers . Het zou bijvoorbeeld interessant kunnen zijn om een controlegroep te definiëren die ontvangers bevat die weinig aankopen doen, of ontvangers die vaak aankopen doen, en om hun gedrag te vergelijken met dat van de gecontacteerde ontvangers.
 
 Klikken **[!UICONTROL Next]** om de sorteervolgorde te definiëren (indien nodig) en de beperkingsmodus voor de ontvanger te selecteren.
 
 ![](assets/limit-control-group.png)
 
-Deze configuratie is gelijk aan een **[!UICONTROL Split]** activiteit in het werkschema, dat u het doel in ondergroepen laat verdelen. De controlegroep is één van deze subsets.
+Deze configuratie is gelijk aan een **[!UICONTROL Split]** activiteit in het werkschema, dat u het doel in ondergroepen laat opsplitsen. De controlegroep is één van deze subsets.
 
 
 ### Video over zelfstudie {#create-email-video}
 
-In deze video wordt uitgelegd hoe u een controlegroep aan een campagne kunt toevoegen.
+Deze video verklaart hoe te om een controlegroep aan een campagne toe te voegen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 

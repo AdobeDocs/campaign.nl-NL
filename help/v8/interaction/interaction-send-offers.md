@@ -2,10 +2,10 @@
 title: Een voorstel verzenden met Campagne-interactie
 description: Meer weten over het verzenden van een voorstel?
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 3%
@@ -40,11 +40,11 @@ Volg onderstaande stappen om voorstellen voor aanbiedingen in te voegen in een l
 
    ![](assets/offer_delivery_005.png)
 
-1. Selecteer **[!UICONTROL Exclude non-eligible recipients]** indien nodig. [Meer informatie](#parameters-for-calling-offer-engine)
+1. Selecteer de **[!UICONTROL Exclude non-eligible recipients]** indien nodig. [Meer informatie](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. Selecteer indien nodig de **[!UICONTROL Do not display anything if no offers are selected]** optie. [Meer informatie](#parameters-for-calling-offer-engine)
+1. Selecteer indien nodig de **[!UICONTROL Do not display anything if no offers are selected]** -optie. [Meer informatie](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -62,9 +62,9 @@ Volg onderstaande stappen om voorstellen voor aanbiedingen in te voegen in een l
 * **[!UICONTROL Space]** : ruimte van de aanbiedingsomgeving die moet worden geselecteerd om de engine voor voorstellen te activeren.
 * **[!UICONTROL Category]** : specifieke map waarin aanbiedingen worden gesorteerd. Als er geen categorie is opgegeven, worden alle aanbiedingen in de omgeving in aanmerking genomen door de Offertenengine, tenzij er een thema is geselecteerd.
 * **[!UICONTROL Themes]** : sleutelwoorden die stroomopwaarts in de categorieën worden gedefinieerd. Deze fungeren als een filter en u kunt het aantal aanbiedingen dat moet worden weergegeven, verfijnen door ze in een set categorieën te selecteren.
-* **[!UICONTROL Number of propositions]** : het aantal aanbiedingen dat door de motor wordt geretourneerd en dat in de leveringsbak kan worden ingevoegd. Als zij niet in het bericht worden opgenomen, zullen de aanbiedingen nog worden geproduceerd, maar niet voorgesteld.
+* **[!UICONTROL Number of propositions]** : het aantal aanbiedingen dat door de motor wordt geretourneerd en dat in de leveringsinstantie kan worden ingevoegd. Als zij niet in het bericht worden opgenomen, zullen de aanbiedingen nog worden geproduceerd, maar niet voorgesteld.
 * **[!UICONTROL Exclude non-eligible recipients]** : Met deze optie kunt u de uitsluiting activeren of deactiveren van ontvangers voor wie onvoldoende geschikte voorstellen zijn. Het aantal in aanmerking komende voorstellen kan lager zijn dan het gevraagde aantal voorstellen. Als deze doos wordt gecontroleerd, zullen de ontvangers die niet genoeg voorstellen hebben van de levering worden uitgesloten. Als u deze optie niet selecteert, worden deze ontvangers niet uitgesloten, maar hebben ze niet het gewenste aantal voorstellen.
-* **[!UICONTROL Do not display anything if no offer is selected]** : Met deze optie kunt u kiezen hoe het bericht wordt verwerkt als een van de voorstellen niet bestaat. Als dit selectievakje is ingeschakeld, wordt de representatie van het ontbrekende voorstel niet weergegeven en wordt er geen inhoud weergegeven in het bericht voor dit voorstel. Als de doos niet wordt gecontroleerd, wordt het bericht zelf geannuleerd tijdens het verzenden en de ontvangers zullen geen berichten meer ontvangen.
+* **[!UICONTROL Do not display anything if no offer is selected]** : met deze optie kunt u kiezen hoe het bericht wordt verwerkt als een van de voorstellen niet bestaat. Als dit selectievakje is ingeschakeld, wordt de representatie van het ontbrekende voorstel niet weergegeven en wordt er geen inhoud weergegeven in het bericht voor dit voorstel. Als de doos niet wordt gecontroleerd, wordt het bericht zelf geannuleerd tijdens het verzenden en de ontvangers zullen geen berichten meer ontvangen.
 
 ## Aanbiedingen verzenden in workflows{#offer-via-wf}
 
@@ -98,15 +98,15 @@ Nadat u uw **Query** activiteit:
    ![](assets/int_enrichment_offer2.png)
 
 1. Geef een id en een label op voor het voorstel dat wordt toegevoegd.
-1. Geef de selectie van de aanbieding op. Hiervoor zijn twee mogelijkheden:
+1. Geef de selectie van de aanbieding op. Hiervoor zijn twee opties mogelijk:
 
-   * **[!UICONTROL Search for the best offer in a category]** : controleert deze optie en specificeert de parameters van de de motorvraag van de Aanbieding (aanbieding ruimte, categorie of thema(s), contactdatum, aantal aan te houden aanbiedingen). De motor berekent automatisch de aanbieding(en) die volgens deze parameters moet worden toegevoegd. We raden u aan om de **[!UICONTROL Category]** of de **[!UICONTROL Theme]** in plaats van beide.
+   * **[!UICONTROL Search for the best offer in a category]** : controleer deze optie en geef de parameters op voor de aanroep van de engine van de aanbieding (ruimte, categorie of thema(&#39;s), contactdatum, aantal aanbiedingen dat u wilt behouden). De motor berekent automatisch de aanbieding(en) die volgens deze parameters moet worden toegevoegd. We raden u aan om de **[!UICONTROL Category]** of de **[!UICONTROL Theme]** in plaats van beide.
 
-      ![](assets/int_enrichment_offer3.png)
+     ![](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A pre-defined offer]** : controleer deze optie en specificeer een aanbiedingsruimte, een specifieke aanbieding, en een contactdatum om de aanbieding direct te vormen die u, zonder de motor van de Aanbieding te roepen wilt toevoegen.
 
-      ![](assets/int_enrichment_offer4.png)
+     ![](assets/int_enrichment_offer4.png)
 
 1. Dan vorm een leveringsactiviteit die aan uw gekozen kanaal beantwoordt. [Meer informatie](#offer-into-a-delivery)
 
@@ -136,7 +136,7 @@ Volg de onderstaande stappen om dit te doen:
    >
    >Het aantal voorvertoningen dat beschikbaar is voor de voorvertoning, is afhankelijk van de configuratie die in de levering wordt uitgevoerd.
 
-#### Opslagaanbiedingen en -gewichten {#storing-offer-rankings-and-weights}
+#### Waarden en gewichten voor aanbiedingen in de winkel {#storing-offer-rankings-and-weights}
 
 Standaard, wanneer een **Verrijking** de activiteit wordt gebruikt om aanbiedingen te leveren, worden hun rangschikkingen en hun gewichten niet opgeslagen in de propositietabel.
 
@@ -147,7 +147,7 @@ Standaard, wanneer een **Verrijking** de activiteit wordt gebruikt om aanbieding
 U kunt deze gegevens echter als volgt opslaan:
 
 1. Creeer een vraag aan de motor van de Aanbieding in een verrijkingsactiviteit die na een vraag en vóór een leveringsactiviteit wordt geplaatst. [Meer informatie](#specifying-an-offer-or-a-call-to-the-offer-engine)
-1. Selecteer in het hoofdvenster van de activiteit de optie **[!UICONTROL Edit additional data...]**.
+1. Selecteer in het hoofdvenster van de activiteit **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
 
@@ -163,7 +163,7 @@ De levering slaat automatisch de rangschikking en het gewicht van de aanbiedinge
 
 De **[!UICONTROL Offer engine]** De activiteit laat u ook een vraag aan de motor van de Aanbieding vóór de levering specificeren.
 
-Voor meer informatie over **Aanbiedingsengine** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
+Voor meer informatie over de **Aanbiedingsengine** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
 
 Deze activiteit werkt volgens hetzelfde principe als de **Verrijking** activiteit met een motoraanroep, door de binnenkomende bevolkingsgegevens te verrijken met een aanbod dat door de motor wordt berekend, vóór de levering.
 
@@ -186,18 +186,18 @@ Nadat u uw **Query** activiteit:
 
 De **[!UICONTROL Offers by cell]** de activiteit laat u de binnenkomende bevolking (van een vraag bijvoorbeeld) in verscheidene segmenten verdelen en een aanbieding specificeren om voor elk van deze segmenten voor te stellen.
 
-Voor meer informatie over **Aanbieden per cel** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
+Voor meer informatie over de **Aanbieding per cel** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
 
 Hiervoor gebruikt u het volgende proces:
 
 1. Voeg de **[!UICONTROL Offers by cell]** activiteit zodra u de doelpopulatie hebt gespecificeerd, dan open het.
 1. In de **[!UICONTROL General]** selecteert u de aanbiedingsruimte waarop u de voorstellen wilt weergeven.
-1. In de **[!UICONTROL Cells]** , geeft u de verschillende subsets op met de **[!UICONTROL Add]** knop:
+1. In de **[!UICONTROL Cells]** -tabblad, geeft u de verschillende subsets op met de **[!UICONTROL Add]** knop:
 
    * Geef de subsetpopulatie op met behulp van de beschikbare regels voor filteren en beperken.
    * Selecteer vervolgens het voorstel dat u aan de subset wilt presenteren. De beschikbare aanbiedingen zijn die welke in aanmerking komen op het aanbiedingsmilieu dat in de vorige stap werd geselecteerd.
 
-      ![](assets/int_offer_per_cell1.png)
+     ![](assets/int_offer_per_cell1.png)
 
 1. Dan vorm een leveringsactiviteit die aan uw gekozen kanaal beantwoordt.
 

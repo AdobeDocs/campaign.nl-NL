@@ -3,7 +3,8 @@ product: campaign
 title: Berichtencentrum (uitvoering)
 description: Berichtencentrum (uitvoering)
 feature: Workflows
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+role: User
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 7%
@@ -28,7 +29,7 @@ De hieronder beschreven workflows worden geïnstalleerd met de **Berichtcentrum 
    <td> Met deze workflow kunt u een status aan een gebeurtenis toewijzen. Gebeurtenisstatussen zijn als volgt:<br /> 
     <ul> 
      <li> <p><strong>In behandeling</strong>: de gebeurtenis bevindt zich in een wachtrij. Er is nog geen berichtsjabloon aan gekoppeld.</p> </li> 
-     <li> <p><strong>In behandeling</strong>: Als de gebeurtenis zich in een wachtrij bevindt, is er een berichtsjabloon aan gekoppeld en wordt deze momenteel verwerkt door de levering.</p> </li> 
+     <li> <p><strong>In behandeling</strong>: de gebeurtenis bevindt zich in een wachtrij, een berichtsjabloon is eraan gekoppeld en wordt momenteel verwerkt door de levering.</p> </li> 
      <li> <p><strong>Verzonden</strong>: deze status wordt gekopieerd uit de leveringslogboeken. Dit betekent dat de levering is verzonden.</p> </li> 
      <li> <p><strong>Genegeerd door levering</strong>: deze status wordt gekopieerd uit de leveringslogboeken. Het betekent dat de levering is genegeerd.</p> </li> 
      <li> <p><strong>Afleveringsfout</strong>: deze status wordt gekopieerd uit de leveringslogboeken. Het betekent dat de levering is mislukt.</p> </li> 

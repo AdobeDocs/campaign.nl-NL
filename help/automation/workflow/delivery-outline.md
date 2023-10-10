@@ -3,8 +3,9 @@ product: campaign
 title: Overzicht van levering
 description: Meer informatie over de workflowactiviteit van het overzicht van de levering
 feature: Workflows, Targeting Activity
+role: User
 exl-id: 3c06b329-b2d8-4ac8-ab9b-3ab3e525d109
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 1%
@@ -17,7 +18,7 @@ De **leveringsoverzicht** Hiermee kunt u een omtrek gebruiken in een campagnewor
 
 Om de activiteit te vormen, moet u eenvoudig het overzicht selecteren u evenals de geplande contactdatum houdt van. U kunt het filtreren regels toevoegen door typologieën of typologieregels toe te voegen.
 
-## Voorbeeld: Een voorstel invoegen via een leveringsoverzicht {#example--inserting-an-offer-via-a-delivery-outline}
+## Voorbeeld: Een aanbieding invoegen via een leveringsoverzicht {#example--inserting-an-offer-via-a-delivery-outline}
 
 De **leveringsoverzicht** activiteit, beschikbaar in de campagnewerkschema&#39;s, laat u aanbiedingen voorstellen presenteren die in een leveringsoverzicht van de huidige lopende campagne van verwijzingen worden voorzien.
 
@@ -30,9 +31,9 @@ De **leveringsoverzicht** activiteit, beschikbaar in de campagnewerkschema&#39;s
 1. Vul de beschikbare velden in op basis van uw levering.
 1. Er zijn twee mogelijke gevallen:
 
-   * Als je de aanbiedingsengine wilt bellen, kun je de **[!UICONTROL Restrict the number of propositions selected]** doos. Geef de aanbiedingsruimte en het aantal voorstellen op dat in de levering wordt weergegeven.
+   * Als je de aanbiedingsengine wilt bellen, kun je het volgende controleren: **[!UICONTROL Restrict the number of propositions selected]** doos. Geef de aanbiedingsruimte en het aantal voorstellen op dat in de levering wordt weergegeven.
 
-      De aanbiedingsmotor zal rekening houden met het gewicht van de aanbieding en de subsidiabiliteitsregels.
+     De aanbiedingsmotor zal rekening houden met het gewicht van de aanbieding en de subsidiabiliteitsregels.
 
    * Als u niet de doos controleert, zullen alle aanbiedingen in het leveringsoverzicht worden voorgesteld zonder een vraag aan de aanbiedingsmotor te maken.
 

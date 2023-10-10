@@ -1,9 +1,10 @@
 ---
 product: campaign
-title: Workflows voor privacygegevensbeschermingsverordening
-description: Meer informatie over de workflows van de privacygegevensbeschermingsverordening
+title: Workflows voor de privacygegevensbeschermingsverordening
+description: Meer informatie over de workflows van de privacyverordening
+role: User
 feature: Workflows, Privacy
-source-git-commit: ac4d0d0c16f429ca0948a3c3257558c46700baeb
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 10%
@@ -14,7 +15,7 @@ ht-degree: 10%
 # Verordening inzake bescherming van privacydata{#general-data-protection-regulation-gdpr}
 
 
-De hieronder beschreven workflows worden geïnstalleerd met de **Privacy Data Protection-verordening** module standaard. Voor meer informatie over deze module, verwijs naar dit [artikel](https://helpx.adobe.com/nl/campaign/kb/acc-privacy.html).
+De hieronder beschreven workflows worden geïnstalleerd met de **Privacygegevensbeschermingsverordening** module standaard. Raadpleeg deze voor meer informatie over deze module [artikel](https://helpx.adobe.com/nl/campaign/kb/acc-privacy.html).
 
 <table> 
  <tbody> 

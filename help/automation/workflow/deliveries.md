@@ -3,7 +3,8 @@ product: campaign
 title: Leveringen
 description: Meer informatie over standaardleveringsworkflows
 feature: Workflows
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+role: User, Admin
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 6%
@@ -27,7 +28,7 @@ De hieronder beschreven workflows worden geïnstalleerd met de **Leveringen** mo
   <tr> 
    <td> <span class="uicontrol">Rapportageaggregaten</span> <br /> </td> 
    <td> <span class="uicontrol">reportingAggregates</span> <br /> </td> 
-   <td> Deze workflow werkt aggregaten bij die worden gebruikt in rapporten. Het wordt teweeggebracht elke dag om 2 uur door gebrek.<br /> </td> 
+   <td> Deze workflow werkt aggregaten bij die worden gebruikt in rapporten. Deze wordt standaard elke dag om 2 uur geactiveerd.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Facturering</span> <br /> </td> 
@@ -47,7 +48,7 @@ De hieronder beschreven workflows worden geïnstalleerd met de **Leveringen** mo
   <tr> 
    <td> <span class="uicontrol">Database opschonen</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> <p>Deze workflow is de workflow voor databaseonderhoud: het maakt verschillende berekeningen van de statistieken en de processen, en schrapt verouderde gegevens van het gegevensbestand volgens de bepaalde configuratie in de plaatsingsmedewerker. Het wordt teweeggebracht elke dag om 4am door gebrek.</p></td> 
+   <td> <p>Dit werkschema is het werkschema van het gegevensbestandonderhoud: het maakt verschillende berekeningen van de statistieken en de processen, en schrapt verouderde gegevens uit het gegevensbestand volgens de bepaalde configuratie in de plaatsingsmedewerker. Het wordt teweeggebracht elke dag om 4.00 uur door gebrek.</p></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Opschonen van gepauzeerde workflows</span> <br /> </td> 

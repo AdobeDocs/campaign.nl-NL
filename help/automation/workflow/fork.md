@@ -3,8 +3,9 @@ product: campaign
 title: Vertakking
 description: Meer informatie over de workflowactiviteit van Fork
 feature: Workflows
+role: User
 exl-id: 7b94776c-2478-4e12-82a6-c94be12e7e22
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -21,7 +22,7 @@ U kunt de **[!UICONTROL Fork]** activiteit om veelvoudige uitgaande overgangen t
 >
 >De uitgaande overgangen die u na een **[!UICONTROL Fork]** activiteit wordt niet gelijktijdig uitgevoerd. Dit gedrag kan van invloed zijn op de workflowprestaties. Gebruik de **[!UICONTROL Fork]** activiteit als u verscheidene activiteiten onafhankelijk moet uitvoeren. Naar keuze, kunt u zich bij de uitgaande activiteiten vóór het verdere deel van het werkschema aansluiten.
 
-Om een **[!UICONTROL Fork]** de activiteit en de daarmee samenhangende activiteiten volgen de volgende stappen :
+Om een **[!UICONTROL Fork]** de activiteit en de daarmee verband houdende activiteiten volgen de volgende stappen :
 
 1. Open de **[!UICONTROL Fork]** en definieert u de naam en het label van de uitgaande overgangen.
 
@@ -39,13 +40,13 @@ In dit voorbeeld worden verschillende e-mails verzonden naar verschillende bevol
 * Het queryresultaat opslaan
 * Segmenteer het resultaat om meerdere leveringen te verzenden
 
-   ![De vorkactiviteit volgt de doorsnede van twee vragen en voorafgaat een activiteit van de lijstupdate en een gespleten activiteit.](assets/wkf_fork_example.png)
+  ![De vorkactiviteit volgt de doorsnede van twee vragen en voorafgaat een activiteit van de lijstupdate en een gespleten activiteit.](assets/wkf_fork_example.png)
 
 De workflow omvat de volgende activiteiten:
 
 1. **[!UICONTROL Query]** activiteit
 
-   Er worden twee populatiegroepen geselecteerd: Vrouwen en Parisiërs.
+   Er zijn twee bevolkingsgroepen geselecteerd: vrouwen en Parisiërs.
 
 1. **[!UICONTROL Intersection]** activiteit
 
@@ -62,7 +63,7 @@ De workflow omvat de volgende activiteiten:
 
    Er wordt een ander e-mailbericht verzonden naar elke bevolkingsgroep.
 
-## Hoofdlettergebruik: een verjaardagsbericht verzenden
+## Kwestie gebruiken: een e-mail voor een geboortedatum verzenden
 
 Een terugkerende e-mail wordt verzonden naar een lijst met ontvangers op hun verjaardag. A **[!UICONTROL Fork]** Deze activiteit wordt gebruikt om ontvangers op te nemen die op 29 februari op een schrikkeljaar geboren zijn. [Meer informatie](send-a-birthday-email.md) over dit gebruiksgeval.
 
@@ -76,4 +77,4 @@ U kunt elke uitgaande overgangen dan vormen, dan hen samenvoegen gebruikend een 
 ## Verwante onderwerpen
 
 * [AND-join-activiteit](and-join.md)
-* [Hoofdlettergebruik: verjaardagsbericht](send-a-birthday-email.md)
+* [Kwestie gebruiken: verjaardagsbericht](send-a-birthday-email.md)

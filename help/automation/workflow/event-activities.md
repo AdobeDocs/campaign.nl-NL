@@ -3,8 +3,9 @@ product: campaign
 title: Gebeurtenisactiviteiten in workflows
 description: Lijst met gebeurtenisactiviteiten in workflows
 feature: Workflows, Data Management
+role: User
 exl-id: 0e8ab370-06bc-431e-a685-310ac54a1246
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -18,8 +19,8 @@ De belangrijkste taak van deze activiteiten bestaat uit het wachten op een gebeu
 Deze activiteiten zijn niet beschikbaar in [specifieke workflows voor campagnes](campaign-workflows.md).
 
 
-* **[Bestandsverzamelaar](file-collector.md)**: bewaakt de aankomst van een of meer bestanden in een directory en schakelt de overgang in voor elk ontvangen bestand.
-* **[Bestandsoverdracht](file-transfer.md)**: Hiermee wordt een bestand naar een server overgebracht.
-* **[Binnenkomende e-mails](inbound-emails.md)**: Hiermee kunt u e-mails herstellen en verwerken.
+* **[Bestandsverzamelaar](file-collector.md)**: bewaakt de aankomst van een of meer bestanden in een map en schakelt de overgang in voor elk ontvangen bestand.
+* **[Bestandsoverdracht](file-transfer.md)**: hiermee wordt een bestand naar een server overgebracht.
+* **[Binnenkomende e-mails](inbound-emails.md)**: hiermee kunt u e-mails herstellen en verwerken.
 * **[Binnenkomende SMS](inbound-sms.md)**: herstelt en verwerkt SMS.
-* **[Webdownload](web-download.md)**: Hiermee downloadt u een bestand van het web.
+* **[Webdownload](web-download.md)**: downloadt een bestand van het web.

@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Aanbiedingen voor anonieme profielen presenteren (binnenkomende interactie)
-description: Meer informatie over voorstellen voor anonieme profielen
+description: Meer informatie over het presenteren van voorstellen voor anonieme profielen
+role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Wanneer anonieme bezoekers verbinding maken, kunnen ze een cookie-identificatiep
 
 Tijdens deze stap, wordt een vergelijking gemaakt tussen de gegevens die door de koekjes en die in uw gegevensbestand worden teruggekregen. In sommige gevallen worden bezoekers erkend (ze worden dan impliciet geïdentificeerd), in andere gevallen worden ze niet herkend (en blijven dus anoniem).
 
-Om deze analyse, voor de aanbiedingsruimte in werking te stellen, controleer **[!UICONTROL Implicitly identify the individual based on their browser history]** optie.
+Om deze analyse, voor de aanbiedingsruimte in werking te stellen, controleer **[!UICONTROL Implicitly identify the individual based on their browser history]** -optie.
 
 ![](assets/identification_anonymous_visitors.png)
 
@@ -50,6 +51,6 @@ Als een anonieme bezoeker na analyse niet wordt geïdentificeerd, kunt u zijn ge
 
 Als er geen element is dat u toestaat om een contact te identificeren, of als u geen geïdentificeerde aanbieding aan een contact wilt voorstellen dat impliciet kan worden geïdentificeerd, kunt u verkiezen om een reserve op een anonieme milieu uit te voeren.
 
-Om dit te doen, controleer **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]** en geeft u vervolgens de omgeving op die aan deze niet-geïdentificeerde bezoekers in de **[!UICONTROL Linked anonymous space]** wanneer u een aanbiedingsruimte opgeeft.
+Controleer de **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]** en geeft u vervolgens de omgeving op die aan deze niet-geïdentificeerde bezoekers in de **[!UICONTROL Linked anonymous space]** wanneer u een aanbiedingsruimte opgeeft.
 
 ![](assets/anonymous_to_anonymous_environment.png)

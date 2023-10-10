@@ -1,10 +1,11 @@
 ---
 product: campaign
 title: Marketingcampagne-elementen, -documenten en -leveringscontouren
-description: Meer informatie over marketingcampagnedocumenten en leveringscontouren
+description: Meer informatie over documenten en overzichten van marketingcampagnes
 feature: Campaigns
+role: User
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -32,7 +33,7 @@ In een campagne kunt u ook andere objecten bekijken, zoals promotiecoupons, spec
 
 Documenten kunnen worden gekoppeld op campagneniveau (contextuele documenten) of op programmaniveau (algemene documenten).
 
-Voor een campagne **[!UICONTROL Documents]** bevat:
+Voor een campagne **[!UICONTROL Documents]** tab bevat:
 
 * De lijst met alle documenten die vereist zijn voor de inhoud (sjabloon, afbeeldingen, enz.) die door Adobe Campaign-operatoren met de juiste rechten lokaal kunnen worden gedownload,
 * Documenten die informatie voor de router bevatten, als om het even welk.
@@ -59,9 +60,9 @@ U kunt ze ook vanuit deze weergave bewerken en wijzigen.
 
 Een overzicht van de levering bestaat uit gestructureerde elementen (documenten, winkels, promotionele coupons, enz.) door het bedrijf en voor een bepaalde campagne worden opgericht. Het wordt gebruikt in de context van direct-mailleveringen.
 
-Deze elementen worden gegroepeerd in leveringsoverzichten, en elk leveringsoverzicht zal met een levering worden geassocieerd; er wordt naar verwezen in het extractiebestand dat naar de **serviceprovider** om bij de levering te worden gevoegd. U kunt bijvoorbeeld een leveringsoverzicht maken dat verwijst naar een eenheid en de marketingbrochures die worden gebruikt.
+Deze elementen worden gegroepeerd in leveringsoverzichten, en elk leveringsoverzicht zal met een levering worden geassocieerd; het zal in het extractiedossier worden van verwijzingen voorzien dat naar wordt verzonden **serviceprovider** om bij de levering te worden gevoegd. U kunt bijvoorbeeld een leveringsoverzicht maken dat verwijst naar een eenheid en de marketingbrochures die worden gebruikt.
 
-Voor een campagne, laten de leveringsoverzichten u externe elementen structureren die met de levering volgens bepaalde criteria moeten worden geassocieerd: verwante eenheid, aangeboden promotieaanbieding, uitnodiging voor een plaatselijke manifestatie, enz.
+Voor een campagne kunt u met de leveringscontouren externe elementen structureren die aan de levering moeten worden gekoppeld volgens bepaalde criteria: verwante eenheid, promotieaanbieding, uitnodiging voor een lokale gebeurtenis, enz.
 
 >[!CAUTION]
 >
@@ -69,7 +70,7 @@ Voor een campagne, laten de leveringsoverzichten u externe elementen structurere
 
 ### Een leveringsoverzicht maken {#create-an-outline}
 
-Klik op de knop **[!UICONTROL Delivery outlines]** subtab in het dialoogvenster **[!UICONTROL Edit > Documents]** tabblad van de desbetreffende campagne.
+Als u een overzicht van de levering wilt maken, klikt u op de knop **[!UICONTROL Delivery outlines]** subtab in het dialoogvenster **[!UICONTROL Edit > Documents]** tabblad van de desbetreffende campagne.
 
 ![](assets/add-a-delivery-outline.png)
 
@@ -90,11 +91,11 @@ Een overzicht kan punten, verpersoonlijkingsgebieden, en aanbiedingen bevatten:
 * Items kunnen bijvoorbeeld fysieke documenten zijn waarnaar hier wordt verwezen en die hier worden beschreven en die aan de levering worden gekoppeld.
 * Met velden voor personalisatie kunt u personalisatie-elementen maken die te maken hebben met leveringen in plaats van met ontvangers. Het is dus mogelijk waarden te creëren die in leveringen voor een specifiek doel moeten worden gebruikt (welkomstaanbod, korting, enz.) Ze zijn gemaakt in Adobe Campaign en geïmporteerd in de omtrek via de **[!UICONTROL Import personalization fields...]** koppeling.
 
-   ![](assets/del-outline-perso-field.png)
+  ![](assets/del-outline-perso-field.png)
 
-   Ze kunnen ook rechtstreeks in de omtrek worden gemaakt door op de knop **[!UICONTROL Add]** rechts van de lijstzone.
+  Ze kunnen ook rechtstreeks in de omtrek worden gemaakt door op de knop **[!UICONTROL Add]** rechts van de lijstzone.
 
-   ![](assets/add-del-outline-button.png)
+  ![](assets/add-del-outline-button.png)
 
 
 ### Een omtrek selecteren {#select-an-outline}
@@ -111,7 +112,7 @@ De **[!UICONTROL Summary]** tabblad van de levering geeft ook deze informatie we
 
 ![](assets/delivery-outline-in-dashboard.png)
 
-### Extractieresultaat {#extraction-result}
+### Extractie-resultaat {#extraction-result}
 
 In het dossier dat wordt uitgepakt en aan de dienstverlener wordt toegezonden, de naam van de omtrek en, in voorkomend geval, de kenmerken ervan (kosten, beschrijving enz.) worden toegevoegd aan de inhoud volgens de informatie in het uitvoermalplaatje verbonden aan de dienstverlener.
 

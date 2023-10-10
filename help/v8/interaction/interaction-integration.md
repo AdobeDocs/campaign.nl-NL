@@ -2,8 +2,9 @@
 product: campaign
 title: Een voorstel toevoegen op een webpagina
 description: Meer informatie over het toevoegen van een aanbieding op een webpagina
+role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Om een aanbieding te presenteren, moeten wij een milieu en een aanbiedingsruimte
 
 In de volgende gebruiksgevallen worden de mogelijke opties beschreven voor het integreren van aanbiedingen via JavaScript.
 
-## Optie 1: HTML, modus {#html-mode}
+## Optie 1: modus HTML {#html-mode}
 
 ### Een anonieme aanbieding presenteren {#presenting-an-anonymous-offer}
 
@@ -60,7 +61,7 @@ Deze statische vraag zal automatisch een dynamische vraag produceren die alle pa
 
 Dit gedrag laat u verscheidene aanbiedingsruimten op de zelfde pagina gebruiken, die door één enkele vraag aan de motor van de Aanbieding worden beheerd.
 
-**Stap 3: De resultaten weergeven op de pagina HTML**
+**Stap 3: Geef de resultaten weer op de pagina HTML**
 
 De inhoud van de aanbiedingsrepresentatie wordt door de aanbiedingsengine geretourneerd aan de pagina HTML:
 
@@ -171,7 +172,7 @@ In het onderstaande gebruiksgeval worden de configuraties beschreven die in Adob
 
 1. **Het aanbiedingsschema uitbreiden om nieuwe velden toe te voegen**
 
-   Met dit schema worden de volgende velden gedefinieerd: Titel nummer 2 en prijs.
+   In dit schema worden de volgende velden gedefinieerd: Titel nummer 2 en prijs.
 
    De naam van het schema in het voorbeeld is **focus:aanbieding**
 
@@ -321,11 +322,11 @@ Voor een aanbiedingsvoorstel via ZEEP, voeg toe **nms:proposition#propose** gevo
 * **targetId**: primaire sleutel van de ontvanger (kan een samengestelde sleutel zijn).
 * **maxCount**: geeft het aantal voorstellen voor de contactpersoon aan.
 * **context**: Hiermee kunt u contextinformatie toevoegen in het ruimteschema. Als het gebruikte schema **nms:interactie**, **`<empty>`** worden toegevoegd.
-* **categorieën**: geeft de categorie(ën) aan waartoe de aanbiedingen moeten behoren.
+* **categorieën**: geeft aan tot welke categorie(ën) de aanbiedingen moeten behoren.
 * **thema&#39;s**: geeft het thema of de thema&#39;s aan waartoe de aanbieding(en) moeten behoren.
-* **uuid**: waarde van de permanente cookie van Adobe Campaign (&quot;uuid230&quot;).
+* **uuid**: waarde van het permanente cookie van Adobe Campaign (&quot;uuid230&quot;).
 * **nli**: waarde van het Adobe Campaign-sessiecookie (&quot;nlid&quot;).
-* **noProp**: Gebruik de waarde &quot;true&quot; om de invoeging van een voorstel te deactiveren.
+* **noProp**: gebruik de waarde &quot;true&quot; om de invoeging van een voorstel te deactiveren.
 
 >[!NOTE]
 >
@@ -333,16 +334,16 @@ Voor een aanbiedingsvoorstel via ZEEP, voeg toe **nms:proposition#propose** gevo
 
 In antwoord op de vraag, zal de dienst van de ZEEP de volgende parameters terugkeren:
 
-* **interactionId**: Id van de interactie.
+* **interactionId**: ID van de interactie.
 * **voorstellen**: XML-element, bevat de lijst met voorstellingen, elk met een eigen id en HTML-representatie.
 
 ### Aanbieding bijwerken {#offer-update}
 
 Voeg de **nms:interaction#UpdateStatus** naar de URL, gevolgd door de volgende parameters:
 
-* **voorstel**: Tekenreeks, bevat deze de voorstel-id die als uitvoer is opgegeven tijdens een aanbiedingsvoorstel. Zie [Voorstel](#offer-proposition).
-* **status**: tekenreekstype, geeft het de nieuwe status van de aanbieding aan. De mogelijke waarden worden vermeld in **propositionStatus** opsomming, in de **nms:algemeen** schema. Het getal 3 komt bijvoorbeeld overeen met het **Geaccepteerd** status.
-* **context**: Met XML-element kunt u contextinformatie toevoegen in het ruimteschema. Als het gebruikte schema **nms:interactie**, **`<empty>`** worden toegevoegd.
+* **voorstel**: tekenreeks met tekens, bevat deze de voorstel-id die als uitvoer is opgegeven tijdens een aanbiedingsvoorstel. Zie [Voorstel](#offer-proposition).
+* **status**: type tekenreeks, geeft de nieuwe status van de aanbieding aan. De mogelijke waarden worden vermeld in de **propositionStatus** opsomming, in de **nms:algemeen** schema. Bijvoorbeeld, out-of-the-box, beantwoordt aantal 3 aan **Geaccepteerd** status.
+* **context**: Met het XML-element kunt u contextinformatie toevoegen in het ruimteschema. Als het gebruikte schema **nms:interactie**, **`<empty>`** worden toegevoegd.
 
 ### Voorbeeld met een SOAP-aanroep {#example-using-a-soap-call}
 

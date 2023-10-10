@@ -2,8 +2,9 @@
 title: Berekening van ingebouwde rapportcijfers
 description: Berekening van ingebouwde rapportcijfers
 feature: Reporting
+role: Data Engineer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '2978'
 ht-degree: 2%
@@ -27,7 +28,7 @@ ht-degree: 2%
   <tr> 
    <td> Geopende items<br /> </td> 
    <td> @open<br /> </td> 
-   <td> De som van alle @totalClicks met een primaire URL-sleutel gelijk aan 1.<br /> </td> 
+   <td> De som van alle @totalClick met een primaire URL-sleutel gelijk aan 1.<br /> </td> 
    <td> sum(IF([@url-id]=1, @totalClicks, 0)<br /> </td> 
   </tr> 
   <tr> 
@@ -96,7 +97,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]**
   <tr> 
    <td> Account uitgeschakeld<br /> </td> 
    <td> @disabled<br /> </td> 
-   <td> Aantal van alle berichten met een status gelijk aan "Mislukt" en een reden gelijk aan "Account disabled".<br /> </td> 
+   <td> Aantal berichten met een status gelijk aan "Mislukt" en een reden gelijk aan "Account disabled".<br /> </td> 
    <td> Count(@status=2 en msg/@failureReason=4)<br /> </td> 
   </tr> 
   <tr> 
@@ -128,7 +129,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]**
 
 **Uitsplitsing naar domein**
 
-In het tweede deel van het rapport wordt de uitsplitsing van mislukte berichten per internetdomein beschreven, in tegenstelling tot het fouttype. De formule die gekoppeld is aan de **Fout** indicator (@waarde) in dit geval is: Count(@status=2 en @domain=&quot;Waarde van de domeinnaam&quot;), d.w.z. een telling van alle berichten met een mislukte status voor dit domein.
+In het tweede deel van het rapport wordt de uitsplitsing van mislukte berichten per internetdomein beschreven, in tegenstelling tot het fouttype. De formule die gekoppeld is aan **Fout** indicator (@waarde) in dit geval is: Aantal (@status=2 en @domain=&quot;Waarde van de domeinnaam&quot;), d.w.z. een telling van alle berichten met een ontbroken status voor dit domein.
 
 ## Browsers {#browsers-1}
 
@@ -254,7 +255,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery]** (nms:levering), **[!UIC
    <td> Digg<br /> </td> 
    <td> @digg<br /> </td> 
    <td> De som van alle @totalClicks waarvoor de categorie URL gelijk is aan "digg".<br /> </td> 
-   <td> Sum(iIf([url/@category]='digg',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='digg',@totalClick,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Google<br /> </td> 
@@ -266,7 +267,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery]** (nms:levering), **[!UIC
    <td> Linkedin<br /> </td> 
    <td> @linkedin<br /> </td> 
    <td> De som van alle @totalClicks waarvoor de categorie URL gelijk is aan "linkedin".<br /> </td> 
-   <td> Sum(iIf([url/@category]='linkedin',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='linkedin',@totalClick,0))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -355,7 +356,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery]** (nms:levering), **[!UIC
    <td> Nieuwe contactpersonen<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> Aantal bezoekers dat aan een ontvanger is gekoppeld.<br /> </td> 
-   <td> Formule: count(@id)<br /> Filter: @ontvanger-id!= 0<br /> </td> 
+   <td> Formule: count(@id)<br /> Filter: @receiving-id != 0<br /> </td> 
   </tr> 
   <tr> 
    <td> Geopende items<br /> </td> 
@@ -512,7 +513,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]**
   <tr> 
    <td> Succes<br /> </td> 
    <td> @successWithoutSeeds<br /> </td> 
-   <td> Aantal berichten waarvoor het veld "zaadadres" gelijk is aan "Nee" en met een status die gelijk is aan "Door de dienstverlener in aanmerking genomen", "Verzonden" of "Ontvangen op de mobiele telefoon".<br /> </td> 
+   <td> Aantal berichten waarvoor het veld "zaadadres" gelijk is aan "Nee" en met een status die gelijk is aan "Door de dienstverlener in aanmerking genomen", "Verzonden" of "Ontvangen" op de mobiele telefoon".<br /> </td> 
    <td> sum([indicatoren/@succes])<br /> </td> 
   </tr> 
   <tr> 
@@ -614,13 +615,13 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]**
   <tr> 
    <td> Totaal bedrag<br /> </td> 
    <td> @amount<br /> </td> 
-   <td> De som van webTrackingLog/@hoeveelheden met een URL-type dat gelijk is aan "Transaction". <br /> </td> 
+   <td> Som van webTrackingLog/@hoeveelheden met een URL type gelijk aan "Transactie". <br /> </td> 
    <td> Sum(Iif([url/@type]=5, webTrackingLog/@amount, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Gemiddelde transactiebedrag<br /> </td> 
    <td> -<br /> </td> 
-   <td> Verhouding van het totale bedrag ten opzichte van het aantal transacties.<br /> </td> 
+   <td> Verhouding tussen het totale bedrag en het aantal transacties.<br /> </td> 
    <td> div(@bedrag, @transactie)<br /> </td> 
   </tr> 
   <tr> 
@@ -650,26 +651,26 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]**
   <tr> 
    <td> Facebook<br /> </td> 
    <td> @facebook<br /> </td> 
-   <td> De som van alle @totalClicks met een categorie URL die gelijk is aan "facebook".<br /> </td> 
+   <td> De som van alle @totalClick met een categorie URL die "facebook" evenaart.<br /> </td> 
    <td> Sum(iIf([url/@category]='facebook',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Twitter<br /> </td> 
    <td> @twitter<br /> </td> 
-   <td> De som van alle @totalClicks met een categorie URL die gelijk is aan "twitter".<br /> </td> 
+   <td> De som van alle @totalClick met een categorie URL die "twitter"evenaart.<br /> </td> 
    <td> Sum(iIf([url/@category]='twitter',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Delicious<br /> </td> 
    <td> @delicious<br /> </td> 
-   <td> De som van alle @totalClick met een categorie URL die "heerlijk"evenaart.<br /> </td> 
+   <td> De som van alle @totalClicks met een categorie URL die "heerlijk"evenaart.<br /> </td> 
    <td> Sum(iIf([url/@category]='delicious',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Digg<br /> </td> 
    <td> @digg<br /> </td> 
    <td> De som van alle @totalClicks met een categorie URL die 'digg' is.<br /> </td> 
-   <td> Sum(iIf([url/@category]='digg',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='digg',@totalClick,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Google<br /> </td> 
@@ -681,7 +682,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]**
    <td> Linkedin<br /> </td> 
    <td> @linkedin<br /> </td> 
    <td> De som van alle @totalClicks met een categorie URL die gelijk is aan "linkedin".<br /> </td> 
-   <td> Sum(iIf([url/@category]='linkedin',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='linkedin',@totalClick,0))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -709,7 +710,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery]** tabel (nms:levering).
   <tr> 
    <td> Afzonderlijke klikken<br /> </td> 
    <td> @differentClicks<br /> </td> 
-   <td> Verhouding van het aantal verschillende personen dat ten minste eenmaal op een levering heeft geklikt ten opzichte van het aantal berichten dat met succes is geleverd.<br /> </td> 
+   <td> Verhouding van het aantal verschillende personen dat ten minste één keer in een levering heeft geklikt ten opzichte van het aantal berichten dat met succes is geleverd.<br /> </td> 
    <td> percent([indicatoren/@personClick], [indicatoren/@success])<br /> </td> 
   </tr> 
   <tr> 
@@ -756,7 +757,7 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery]** tabel (nms:levering).
   <tr> 
    <td> Berichten afgewezen door de regel<br /> </td> 
    <td> @weiger<br /> </td> 
-   <td> Aantal adressen genegeerd tijdens de analyse in overeenstemming met typologieregels: adres niet gespecificeerd, quarantined, op lijst van gewezen personen, enz.<br /> </td> 
+   <td> Aantal adressen genegeerd tijdens de analyse in overeenstemming met typologische regels: adres niet gespecificeerd, quarantined, op lijst van gewezen personen, enz.<br /> </td> 
    <td> sum([eigenschappen/@weiger])<br /> </td> 
   </tr> 
   <tr> 
@@ -815,13 +816,13 @@ Dit verslag is gebaseerd op de **[!UICONTROL Delivery]** tabel (nms:levering).
   <tr> 
    <td> Klikken<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> De som van alle @totalClicks met een URL-type dat gelijk is aan "Email click".<br /> </td> 
+   <td> De som van alle @totalClick met een type URL dat "E-mailklik"evenaart.<br /> </td> 
    <td> sum(Iif([url/@type] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Open<br /> </td> 
    <td> @open<br /> </td> 
-   <td> De som van alle @totalClicks met een primaire URL-sleutel die gelijk is aan 1.<br /> </td> 
+   <td> De som van alle @totalClick met een primaire URL-sleutel die gelijk is aan 1.<br /> </td> 
    <td> sum(Iif([@url-id] = 1, @totalClicks, 0)<br /> </td> 
   </tr> 
  </tbody> 
@@ -911,7 +912,7 @@ Dit verslag is gebaseerd op **Leveringen** (nms:levering) en **Logboeken bijhoud
 
 ## Overige indicatoren {#other-indicators}
 
-De **Verzonden** indicator (@sent), toegankelijk via **Leveringen (nms:levering) > Indicatoren** knooppunt komt overeen met het totale aantal SMS dat naar de dienstverlener is verzonden. Deze indicator wordt alleen gebruikt voor SMS-leveringen en mag niet worden gebruikt voor andere soorten leveringen (niet te verwarren met de **@success** en **@processed** indicatoren).
+De **Verzonden** indicator (@sent), toegankelijk via **Leveringen (nms:levering) > Indicatoren** knooppunt komt overeen met het totale aantal SMS dat naar de dienstverlener is verzonden. Deze indicator wordt alleen gebruikt voor sms-leveringen en mag niet worden gebruikt voor andere soorten leveringen (niet te verwarren met de **@success** en **@processed** indicatoren).
 
 ## Indicatorsynchronisatie {#indicator-synchronization}
 
@@ -927,6 +928,6 @@ In sommige rapporten maakt Adobe Campaign onderscheid tussen doelpersonen en doe
 
 De gerichte ontvangers zijn alle ontvangers aan wie de levering werd verzonden.
 
-Het aantal personen omvat de beoogde ontvangers plus alle personen aan wie de e-mail is doorgestuurd. Telkens wanneer er een open of een klik in nieuwe browser (waar het bericht nog niet in is geopend), wordt een andere persoon toegevoegd aan de statistieken.
+Het aantal personen omvat de beoogde ontvangers plus alle personen aan wie de e-mail is doorgestuurd. Telkens wanneer er een open of een klik in nieuwe browser is (waar het bericht nog niet in is geopend), wordt een andere persoon toegevoegd aan de statistieken.
 
-Als u bijvoorbeeld een e-mail (verzonden door Adobe Campaign) ontvangt op het werk en deze opent of erin klikt, wordt u geteld als een beoogde ontvanger (dus de ontvanger=1, de persoon=1). Als u deze e-mail doorstuurt naar twee vrienden, blijft het aantal beoogde ontvangers gelijk aan één, terwijl het aantal personen gelijk is aan drie. Waarde 3 valt samen met elke open/klik in een nieuwe browser.
+Als u bijvoorbeeld een e-mail (verzonden door Adobe Campaign) ontvangt op het werk en deze opent of erin klikt, wordt u geteld als een beoogde ontvanger (dus de ontvanger = 1, de persoon = 1). Als u deze e-mail doorstuurt naar twee vrienden, blijft het aantal beoogde ontvangers gelijk aan één, terwijl het aantal personen gelijk is aan drie. Waarde 3 valt samen met elke open/klik in een nieuwe browser.

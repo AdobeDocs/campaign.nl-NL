@@ -3,8 +3,9 @@ product: campaign
 title: Incrementele query
 description: Meer informatie over de activiteit van de Incrementele queryworkflow
 feature: Workflows, Targeting Activity
+role: User
 exl-id: 3e9f92c3-080f-441b-a15a-2ec9d056d1f9
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 3%
@@ -23,7 +24,7 @@ De vraag wordt bepaald op de zelfde manier zoals voor standaardvragen, maar zijn
 
 **Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: Driemaandelijkse lijstupdate die een stijgende vraag gebruikt](quarterly-list-update.md)
+* [Hoofdlettergebruik: driemaandelijkse lijst bijwerken met een incrementele query](quarterly-list-update.md)
 * [Een query maken](query.md#creating-a-query)
 
 >[!CAUTION]
@@ -32,7 +33,7 @@ De vraag wordt bepaald op de zelfde manier zoals voor standaardvragen, maar zijn
 
 Dit doet u als volgt:
 
-1. In de **[!UICONTROL Scheduling & History]** selecteert u de **[!UICONTROL Schedule execution]** optie. De taak blijft actief zodra het is gecreeerd en zal slechts op de tijden worden teweeggebracht die door het programma voor het uitvoeren van de vraag worden gespecificeerd. Als de optie echter is uitgeschakeld, wordt de query direct uitgevoerd **en in één keer**.
+1. In de **[!UICONTROL Scheduling & History]** selecteert u de **[!UICONTROL Schedule execution]** -optie. De taak blijft actief zodra het is gecreeerd en zal slechts op de tijden worden teweeggebracht die door het programma voor het uitvoeren van de vraag worden gespecificeerd. Als de optie echter is uitgeschakeld, wordt de query direct uitgevoerd **en in één keer**.
 1. Klik op de knop **[!UICONTROL Change]**.
 
    In de **[!UICONTROL Schedule editing wizard]** kunt u het type frequentie, de terugkerende gebeurtenis en de geldigheidsperiode van de gebeurtenis configureren.
@@ -49,15 +50,15 @@ Dit doet u als volgt:
 
    * **[!UICONTROL History in days]**
 
-      Reeds beoogde ontvangers kunnen worden geregistreerd gedurende een maximumaantal dagen vanaf de dag waarop zij als doelgroep zijn aangemeld. Als deze waarde nul is, worden de ontvangers nooit gezuiverd van het logboek.
+     Reeds beoogde ontvangers kunnen worden geregistreerd gedurende een maximumaantal dagen vanaf de dag waarop zij als doelgroep zijn aangemeld. Als deze waarde nul is, worden de ontvangers nooit gezuiverd van het logboek.
 
    * **[!UICONTROL Keep history when starting]**
 
-      Met deze optie kunt u het logbestand niet leegmaken wanneer de activiteit is ingeschakeld.
+     Met deze optie kunt u het logbestand niet leegmaken wanneer de activiteit is ingeschakeld.
 
    * **[!UICONTROL SQL table name]**
 
-      Met deze parameter kunt u de standaard SQL-tabel met de historiegegevens overladen.
+     Met deze parameter kunt u de standaard SQL-tabel met de historiegegevens overladen.
 
 ## Uitvoerparameters {#output-parameters}
 
