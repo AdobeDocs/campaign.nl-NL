@@ -3,8 +3,9 @@ product: campaign
 title: Query
 description: Meer informatie over de activiteit van de Query-workflow
 feature: Workflows, Targeting Activity, Query Editor
+role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 ## Een query maken {#creating-a-query}
 
 Met een query kunt u een doel selecteren op basis van criteria. U kunt een segmentcode aan het vraagresultaat associëren en extra gegevens opnemen in het.
-Voor meer informatie over vraagsteekproeven, verwijs naar dit [deze sectie](querying-recipient-table.md).
+Raadpleeg dit voor meer informatie over queryvoorbeelden [deze sectie](querying-recipient-table.md).
 
 ![](assets/query-activity.png)
 
@@ -26,7 +27,7 @@ Raadpleeg voor meer informatie over het gebruik en het beheer van aanvullende ge
 
 De **[!UICONTROL Edit query...]** Via de koppeling kunt u het doeltype, de beperkingen en de selectiecriteria voor de bevolking als volgt definiëren:
 
-1. Selecteer het richten en het filtreren dimensie. Standaard is het doel geselecteerd bij de ontvangers. De lijst met restrictiefilters is gelijk aan de lijst die wordt gebruikt voor het opgeven van doelen.
+1. Selecteer het richten en het filtreren dimensie. Standaard is het doel geselecteerd bij de ontvangers. De lijst met restrictiefilters is gelijk aan de lijst die wordt gebruikt voor het opgeven van doelen voor levering.
 
    De doelgerichte dimensie valt samen met het soort element waaraan wij zullen werken, bijvoorbeeld de bevolking die voor de operatie in aanmerking komt.
 
@@ -46,7 +47,7 @@ De **[!UICONTROL Edit query...]** Via de koppeling kunt u het doeltype, de beper
 
 1. Als u **[!UICONTROL Filtering conditions]** in stap 1 of met de **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** en moet u later handmatig filtercriteria toevoegen.
 
-   U kunt ook voorwaarden voor gegevensgroepering toevoegen door het desbetreffende vak in te schakelen. Om dit te doen, moet de het filtreren afmeting aan de het richten van vraag afmeting verschillend zijn. Zie deze voor meer informatie over groeperen [sectie](query-grouping-management.md).
+   U kunt ook voorwaarden voor gegevensgroepering toevoegen door het desbetreffende vak in te schakelen. Om dit te doen, moet de het filtreren dimensie aan de vraag richten afmeting verschillend zijn. Zie deze voor meer informatie over groeperen [sectie](query-grouping-management.md).
 
    U kunt meer criteria ook toevoegen door de bouwer van de Uitdrukking te gebruiken en het te combineren met de logische opties EN, OF, en BEHALVE.
 
@@ -65,8 +66,8 @@ Selecteer eerst het type gegevens dat u wilt toevoegen:
 ![](assets/wf_add_data_1st_option.png)
 
 * Selecteren **[!UICONTROL Data linked to the filtering dimension]** om de gegevens in de Adobe Campaign-database te selecteren.
-* Selecteren **[!UICONTROL External data]** om gegevens uit een externe database toe te voegen. Deze optie is alleen beschikbaar als u de **Federale gegevenstoegang** optie. Raadpleeg voor meer informatie hierover [Toegang tot een externe database (FDA)](accessing-an-external-database--fda-.md).
-* Selecteer **[!UICONTROL An offer proposition]** om een reeks kolommen toe te voegen waarmee u de beste die propositie kunt opslaan door de aanbiedingsmotor wordt geproduceerd. Deze optie is alleen beschikbaar als u de **Interactie** module.
+* Selecteren **[!UICONTROL External data]** gegevens uit een externe database toevoegen. Deze optie is alleen beschikbaar als u de **Federale gegevenstoegang** -optie. Raadpleeg voor meer informatie hierover [Toegang tot een externe database (FDA)](accessing-an-external-database--fda-.md).
+* Selecteer de **[!UICONTROL An offer proposition]** om een reeks kolommen toe te voegen waarmee u de beste die propositie kunt opslaan door de aanbiedingsmotor wordt geproduceerd. Deze optie is alleen beschikbaar als u de **Interactie** -module.
 
 Als er geen optionele module op het platform is geïnstalleerd, wordt dit werkgebied niet weergegeven. U wordt rechtstreeks naar de volgende fase geleid.
 
@@ -85,7 +86,7 @@ Gegevens toevoegen uit de Adobe Campaign-database:
    * Een veld dat wordt berekend op basis van gegevens van de doelpopulatie of een geaggregeerd (aantal lopende aankopen in de laatste maand, gemiddeld bedrag van een ontvangstbewijs enz.). Ga bijvoorbeeld naar [Gegevens selecteren](targeting-workflows.md#selecting-data).
    * Een nieuw veld, gemaakt met de **[!UICONTROL Add]** rechts van de lijst met uitvoerkolommen.
 
-      U kunt ook een verzameling gegevens toevoegen, zoals een lijst met contracten, de laatste vijf leveringen, enzovoort. Verzamelingen komen overeen met velden die meerdere waarden kunnen hebben voor hetzelfde profiel (1-N relatie). Raadpleeg voor meer informatie hierover [Aanvullende gegevens bewerken](targeting-workflows.md#editing-additional-data).
+     U kunt ook een verzameling gegevens toevoegen, bijvoorbeeld een lijst met contracten, de laatste vijf leveringen, enzovoort. Verzamelingen komen overeen met velden die meerdere waarden kunnen hebben voor hetzelfde profiel (1-N relatie). Raadpleeg voor meer informatie hierover [Aanvullende gegevens bewerken](targeting-workflows.md#editing-additional-data).
 
 Een verzameling gegevens toevoegen die verband houden met een doelgroep:
 
@@ -98,11 +99,11 @@ Een verzameling gegevens toevoegen die verband houden met een doelgroep:
 
    * Als één element van de verzameling samenvalt met de filtervoorwaarden voor deze verzameling, selecteert u **[!UICONTROL Single row]** in de **[!UICONTROL Data collected]** veld.
 
-      >[!IMPORTANT]
-      >
-      >Deze wijze optimaliseert de SQL vraag die dankzij een directe verbinding op de inzamelingselementen wordt geproduceerd.
-      >
-      >Als niet aan de oorspronkelijke voorwaarde wordt voldaan, kan het resultaat onjuist zijn (ontbrekende of overlappende lijnen).
+     >[!IMPORTANT]
+     >
+     >Deze wijze optimaliseert de SQL vraag die dankzij een directe verbinding op de inzamelingselementen wordt geproduceerd.
+     >
+     >Als niet aan de oorspronkelijke voorwaarde wordt voldaan, kan het resultaat onjuist zijn (ontbrekende of overlappende lijnen).
 
    * Als u meerdere regels wilt herstellen (**[!UICONTROL Limit the line count]**) kunt u opgeven hoeveel regels moeten worden verzameld.
    * Indien de verzamelde kolommen aggregaten bevatten, bijvoorbeeld het aantal gedeclareerde fouten, de gemiddelde uitgaven op een locatie, enz. u kunt de **[!UICONTROL Aggregates]** waarde.
@@ -113,9 +114,9 @@ Een verzameling gegevens toevoegen die verband houden met een doelgroep:
 
    ![](assets/query_add_columns_collection_filter.png)
 
-1. Als u de optie **[!UICONTROL Limit the line count]** , definieert u de volgorde waarin de verzamelde gegevens moeten worden gefilterd. Zodra het aantal verzamelde lijnen meer dan het aantal lijnen is dat u specificeerde om te houden, staat de het filtreren orde u toe om te specificeren welke lijnen te houden.
+1. Als u **[!UICONTROL Limit the line count]** , definieert u de volgorde waarin de verzamelde gegevens moeten worden gefilterd. Zodra het aantal verzamelde lijnen meer dan het aantal lijnen is dat u specificeerde om te houden, staat de het filtreren orde u toe om te specificeren welke lijnen te houden.
 
-## Voorbeeld: Afstemmen op eenvoudige attributen voor ontvangers {#example--targeting-on-simple-recipient-attributes}
+## Voorbeeld: gericht op eenvoudige attributen voor ontvangers {#example--targeting-on-simple-recipient-attributes}
 
 In het volgende voorbeeld probeert de query mannen tussen 18 en 30 jaar te identificeren die in Frankrijk wonen. Deze query wordt gebruikt in een workflow die als doel heeft deze bijvoorbeeld tot een exclusieve aanbieding te maken.
 
@@ -170,11 +171,11 @@ In de onderstaande sectie vindt u tips en trucs voor het optimaliseren van query
 * Vermijd het uitvoeren van buitenste verbindingen. Gebruik waar mogelijk de Nul-id-record om de functie voor buitenste verbindingen te bereiken.
 * Gebruik het correcte gegevenstype voor verbindingen.
 
-   Zorg ervoor dat de `where` -component is hetzelfde type als het veld.
+  Zorg ervoor dat de `where` is hetzelfde type als het veld.
 
-   Een algemene fout is: `iBlacklist='3'` waar `iBlacklist` is een numeriek veld, en `3` Geeft een tekstwaarde aan.
+  Een algemene fout is: `iBlacklist='3'` waar `iBlacklist` een numeriek veld is, en `3` Geeft een tekstwaarde aan.
 
-   Zorg ervoor u weet wat het uitvoeringsplan van uw vraag zal zijn. Vermijd volledig lijstaftasten, vooral voor vragen in real time of dichtbij vragen in real time die elke minuut lopen.
+  Zorg ervoor u weet wat het uitvoeringsplan van uw vraag zal zijn. Vermijd volledig lijstaftasten, vooral voor vragen in real time of dichtbij vragen in real time die elke minuut lopen.
 
 ### Functies {#functions}
 
@@ -195,7 +196,7 @@ De beste praktijken moeten in plaats daarvan de het filtreren afmeting van de vr
 
 ![](assets/optimize-queries-filtering2.png)
 
-Het equivalent van de het filtreren afmeting in SQL is de binnenpartij:
+Het equivalent van de het filtreren afmeting in SQL is de binnenvoeging:
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
@@ -210,12 +211,12 @@ Raadpleeg voor meer informatie over filterafmetingen [deze sectie](build-a-workf
    * Versie,
    * gegevens,
    * toepassing,
-   * Volumes.
+   * Volume.
 
-   >[!NOTE]
-   >
-   >Een functie die in een ontwikkelomgeving werkt, werkt mogelijk niet in een productieomgeving waarin de gegevens verschillend kunnen zijn. Probeer de belangrijkste verschillen vast te stellen om risico&#39;s te anticiperen en oplossingen voor te bereiden.
+  >[!NOTE]
+  >
+  >Een functie die in een ontwikkelomgeving werkt, werkt mogelijk niet in een productieomgeving waarin de gegevens verschillend kunnen zijn. Probeer de belangrijkste verschillen vast te stellen om risico&#39;s te anticiperen en oplossingen voor te bereiden.
 
 * Maak configuraties die overeenkomen met de doelvolumes. Voor grote volumes zijn specifieke configuraties vereist. Een configuratie die voor 100.000 ontvangers werkte kan niet voor 10.000.000 ontvangers werken.
 
-   Bedenk hoe het systeem wordt geschaald wanneer het live gaat. Enkel omdat iets op kleine schaal werkt, betekent dat niet dat het geschikt zal zijn met grotere volumes. De tests moeten worden uitgevoerd met volumes die vergelijkbaar zijn met het productievolume. U zou ook het effect van veranderingen in volumes (aantal vraag, grootte van het gegevensbestand) bij piekuren, piekdagen, en over het leven van het project moeten evalueren.
+  Bedenk hoe het systeem wordt geschaald wanneer het live gaat. Enkel omdat iets op kleine schaal werkt, betekent dat niet dat het geschikt zal zijn met grotere volumes. De tests moeten worden uitgevoerd met volumes die vergelijkbaar zijn met het productievolume. U zou ook het effect van veranderingen in volumes (aantal vraag, grootte van het gegevensbestand) bij piekuren, piekdagen, en over het leven van het project moeten evalueren.

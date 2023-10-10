@@ -3,8 +3,9 @@ product: campaign
 title: Vraag die een vele-aan-vele verhouding gebruikt
 description: Leer hoe te om vragen uit te voeren gebruikend een vele-aan-vele verhouding
 feature: Query Editor
+role: User, Data Engineer
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
@@ -21,15 +22,15 @@ Dit voorbeeld toont ook hoe te om een filter met betrekking tot de keus van een 
 
 * Welke tabel moet worden geselecteerd?
 
-   De tabel met ontvangers (**nms:ontvanger**)
+  De tabel met ontvangers (**nms:ontvanger**)
 
 * Velden die moeten worden geselecteerd voor de uitvoerkolom
 
-   Primaire sleutel, Achternaam, Voornaam en E-mail
+  Primaire sleutel, Achternaam, Voornaam en E-mail
 
 * Op basis van welke criteria wordt de gefilterde informatie
 
-   Gebaseerd op de leveringslogboeken van ontvangers die 7 dagen voor vandaag teruggaan
+  Gebaseerd op de leveringslogboeken van ontvangers die 7 dagen voor vandaag teruggaan
 
 Voer de volgende stappen uit:
 
@@ -38,7 +39,7 @@ Voer de volgende stappen uit:
 
    ![](assets/query_editor_nveau_33.png)
 
-1. Sorteer de namen in alfabetische volgorde in het sorteervenster.
+1. Sorteer de namen alfabetisch in het sorteervenster.
 
    ![](assets/query_editor_nveau_34.png)
 
@@ -47,21 +48,21 @@ Voer de volgende stappen uit:
 
    * Begin door te selecteren **[!UICONTROL Recipient delivery logs (broadlog)]** verzamelingselement (oranje knooppunt) voor de eerste **[!UICONTROL Value]** kolom.
 
-      ![](assets/query_editor_nveau_67.png)
+     ![](assets/query_editor_nveau_67.png)
 
-      Kies de optie **[!UICONTROL do not exist as]** operator. U hoeft geen tweede waarde op deze regel te selecteren.
+     Kies de optie **[!UICONTROL do not exist as]** operator. U hoeft geen tweede waarde op deze regel te selecteren.
 
-   * De inhoud van de tweede filtervoorwaarde is afhankelijk van de eerste. Hier, de **[!UICONTROL Event date]** het veld wordt rechtstreeks in het **[!UICONTROL Recipient delivery logs]** tabel omdat er een koppeling naar deze tabel is.
+   * De inhoud van de tweede filtervoorwaarde is afhankelijk van de eerste. Hier, **[!UICONTROL Event date]** het veld wordt rechtstreeks in het **[!UICONTROL Recipient delivery logs]** tabel omdat er een koppeling naar deze tabel is.
 
-      ![](assets/query_editor_nveau_36.png)
+     ![](assets/query_editor_nveau_36.png)
 
-      Selecteren **[!UICONTROL Event date]** met de **[!UICONTROL greater than or equal to]** operator. Selecteer **[!UICONTROL DaysAgo (7)]** waarde. Klik op **[!UICONTROL Edit expression]** in de **[!UICONTROL Value]** veld. In de **[!UICONTROL Formula type]** venster, selecteert u **[!UICONTROL Process on dates]** en **[!UICONTROL Current date minus n days]** en geeft &quot;7&quot; als een waarde.
+     Selecteren **[!UICONTROL Event date]** met de **[!UICONTROL greater than or equal to]** operator. Selecteer de **[!UICONTROL DaysAgo (7)]** waarde. Om dit te doen, klik **[!UICONTROL Edit expression]** in de **[!UICONTROL Value]** veld. In de **[!UICONTROL Formula type]** venster, selecteert u **[!UICONTROL Process on dates]** en **[!UICONTROL Current date minus n days]** en geeft &quot;7&quot; als een waarde.
 
-      ![](assets/query_editor_nveau_37.png)
+     ![](assets/query_editor_nveau_37.png)
 
-      De filtervoorwaarde wordt gevormd.
+     De filtervoorwaarde wordt gevormd.
 
-      ![](assets/query_editor_nveau_38.png)
+     ![](assets/query_editor_nveau_38.png)
 
 1. In de **[!UICONTROL Data formatting]** venster, overschakelen van laatste namen naar hoofdletters. Klik op de knop **[!UICONTROL Last name]** in de **[!UICONTROL Transformation]** kolom en selecteer **[!UICONTROL Switch to upper case]** in het vervolgkeuzemenu.
 
@@ -69,7 +70,7 @@ Voer de volgende stappen uit:
 
 1. Gebruik de **[!UICONTROL Add a calculated field]** gebruiken om een kolom in te voegen in het venster met gegevensvoorvertoning.
 
-   In dit voorbeeld voegt u een berekend veld met de eerste en laatste naam van de ontvangers toe in één kolom. Klik op de knop **[!UICONTROL Add a calculated field]** functie. In de **[!UICONTROL Export calculated field definition]** in, voert u een label en een interne naam in en kiest u de **[!UICONTROL JavaScript Expression]** type. Voer vervolgens de volgende expressie in:
+   In dit voorbeeld voegt u een berekend veld met de eerste en laatste naam van de ontvangers toe in één kolom. Klik op de knop **[!UICONTROL Add a calculated field]** functie. In de **[!UICONTROL Export calculated field definition]** voert u een label en een interne naam in en kiest u de **[!UICONTROL JavaScript Expression]** type. Voer vervolgens de volgende expressie in:
 
    ```
    var rep = source._firstName+" - "+source._lastName

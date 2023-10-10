@@ -3,8 +3,9 @@ product: campaign
 title: Terugkerende levering
 description: Meer informatie over de activiteit van de workflow Terugkerende levering
 feature: Workflows
+role: User, Data Engineer
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 12%
@@ -39,7 +40,7 @@ A **terugkerende levering** wordt elke keer dat het wordt uitgevoerd, een nieuwe
 
 ![Terugkerende levering](assets/delivery_recurring.jpg)
 
-Als u een terugkerende levering wilt tegenhouden van het lopen, zou u de campagne volledig moeten annuleren of de werkschema ophouden uitvoerend het. Als u de levering stopt vanaf het Campagne-dashboard, wordt alleen de levering gestopt: de volgende exemplaren van de terugkerende levering zullen bij elke werkschemauitvoering verder worden gecreeerd.
+Als u een terugkerende levering wilt tegenhouden van het lopen, zou u de campagne volledig moeten annuleren of de werkschema ophouden uitvoerend het. Als de levering vanaf het campagnemdashboard wordt gestopt, wordt de levering alleen gestopt: de volgende exemplaren van de terugkerende levering blijven bij elke workflowuitvoering worden gemaakt.
 
 >[!NOTE]
 >
