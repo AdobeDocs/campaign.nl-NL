@@ -5,14 +5,14 @@ feature: API
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 9c7a4f7d4e84fde4b74bf6f8e0432681aa7e42d3
+source-git-commit: 4c2d3bba282f629a9f5cadcda9ab79a810ac9832
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 2%
 
 ---
 
-# Aan de slag met [!DNL Campaign] API&#39;s{#gs-ac-api}
+# Aan de slag met [!DNL Campaign] API&#39;s {#gs-ac-api}
 
 [!DNL Adobe Campaign] wordt geleverd met een set JavaScript-functies die u kunt gebruiken:
 
@@ -30,10 +30,10 @@ Let op: in het [Implementatie in het kader van Enterprise (FFDA)](../architectur
 >
 >* Vanaf Campagne v8.5.1 is het verificatieproces veranderd in Campaign v8. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne. Leer hoe u uw bestaande technische account(s) kunt migreren in [dit technote](../../technotes/upgrades/ims-migration.md).
 >
->* [!DNL Adobe Campaign] v8 wordt geleverd met een maximale doorvoer (TPS) van onze API-laag. Als u de limiet overschrijdt, treedt een standaard HTTP-fout op (429). Als gebruiker van Beheerde Cloud Services kunt u contact opnemen met Adobe om de snelheid voor elke API aan te passen.
+>* [!DNL Adobe Campaign] v8 wordt geleverd met een maximale doorvoer (TPS) van onze API-laag. Als u de limiet overschrijdt, treedt een standaard HTTP-fout op (429). Als gebruiker van Beheerde Cloud Servicen kunt u contact opnemen met de Adobe om de vertraging voor elke API aan te passen.
 > 
 
-## Vereisten
+## Vereisten {#ac-api-prerequisites}
 
 Voor gebruik [!DNL Adobe Campaign] APIs, moet u met de volgende onderwerpen vertrouwd zijn:
 
