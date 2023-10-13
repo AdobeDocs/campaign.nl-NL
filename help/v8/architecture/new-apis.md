@@ -1,11 +1,11 @@
 ---
 title: Nieuwe API's voor campagne v8
 description: Nieuwe API's voor campagne v8
-feature: API, FFDA
+feature: Architecture, API, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 2%
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # Specifieke API&#39;s voor campagnes van FFDA{#gs-new-api}
 
-In de context van een [Implementatie van ondernemingen (FFDA)](enterprise-deployment.md)Campagne v8 wordt geleverd met twee specifieke API&#39;s voor het beheer van gegevens tussen de lokale database van Campagne en de Cloud-database. De voorwaarden om hen te gebruiken moeten het het opvoeren mechanisme op het schema toelaten. [Meer informatie](staging.md)
+In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md)Campagne v8 wordt geleverd met twee specifieke API&#39;s voor het beheer van gegevens tussen de lokale database van Campagne en de Cloud-database. De voorwaarden om hen te gebruiken moeten het het opvoeren mechanisme op het schema toelaten. [Meer informatie](staging.md)
 
 * Ingestie-API: **xtk.session.ingest**
 
-   Deze API is alleen bedoeld voor het invoegen van gegevens. [Meer informatie](#data-insert-api)
+  Deze API is alleen bedoeld voor het invoegen van gegevens. [Meer informatie](#data-insert-api)
 
 * API voor bijwerken/verwijderen van gegevens: **xtk.session.ingestExt**
 
-   Deze API wordt gebruikt om gegevens bij te werken of te schrappen. [Meer informatie](#data-update-api)
+  Deze API wordt gebruikt om gegevens bij te werken of te schrappen. [Meer informatie](#data-update-api)
 
 Met een speciale ingebouwde workflow worden de gegevens in de cloud-database gesynchroniseerd.
 
@@ -87,7 +87,7 @@ Hierdoor wordt de testtabel op de verwachte manier gevoed.
 
 ![](assets/no-reconciliation.png)
 
-### Invoegen met afstemming
+### Invoegen met reconciliatie
 
 **In een workflow**
 
@@ -191,7 +191,7 @@ Nadat de workflow is uitgevoerd, wordt de testtabel op de verwachte manier bijge
    </soapenv:Envelope>
    ```
 
-1. De reactie van de ZEEP is:
+1. De SOAP-reactie is:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -207,7 +207,7 @@ Dientengevolge, wordt het opvoeren lijst bijgewerkt zoals verwacht.
 
 Abonnementsbeheer in campagne wordt beschreven in [deze pagina](../start/subscriptions.md).
 
-Het invoegen van abonnements- en abonnementsgegevens is afhankelijk van de [Stapelmechanisme](staging.md) in de lokale database van Campagne. De informatie van de abonnee is tijdelijk opgeslagen in het opvoeren van lijsten in het lokale gegevensbestand, en het synchronisatiewerkschema verzendt deze gegevens van het lokale gegevensbestand naar het gegevensbestand van de Wolk. Als gevolg hiervan zijn inschrijvings- en uitstapprocessen **asynchroon**. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt via een specifieke technische workflow. [Meer informatie](replication.md#tech-wf)
+Het invoegen van abonnements- en abonnementsgegevens is afhankelijk van de [Stapelmechanisme](staging.md) in de lokale database van Campagne. De informatie van de abonnee is tijdelijk opgeslagen in het opvoeren van lijsten in het lokale gegevensbestand, en het synchronisatiewerkschema verzendt deze gegevens van het lokale gegevensbestand naar het gegevensbestand van de Wolk. Als gevolg hiervan zijn de processen voor abonnementen en abonnementen **asynchroon**. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt via een specifieke technische workflow. [Meer informatie](replication.md#tech-wf)
 
 
 **Verwante onderwerpen**

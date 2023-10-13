@@ -1,19 +1,20 @@
 ---
 title: Instantie aanpassen
 description: Leer hoe u uw exemplaar kunt aanpassen
+feature: Configuration, Application Settings
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 7%
 
 ---
 
-# Instantie aanpassen{#gs-ac-custom}
+# Instantie aanpassen {#gs-ac-custom}
 
-Leer hoe u **Aanpassen van uw Campagne-instantie**.
+Leer hoe u **De instantie Campagne aanpassen**.
 
 >[!CAUTION]
 >
@@ -31,9 +32,9 @@ Als u bijvoorbeeld een veld wilt toevoegen aan een bestaande tabel, zoals de tab
 
 Er zijn twee tabeluitbreidingsmodi beschikbaar:
 
-* Door de interface, door **Nieuw veld** assistent
+* Door de interface, door te gebruiken **Nieuw veld** assistent
 
-   Leer hoe u snel een nieuw veld kunt toevoegen in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
+  Leer hoe u snel een nieuw veld kunt toevoegen in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
 
 * Programmaticaal, door het schema uit te breiden. Leer hoe u een bestaand schema kunt uitbreiden in [deze sectie](../dev/extend-schema.md).
 
@@ -58,7 +59,7 @@ Leer hoe u een bestaand invoerformulier kunt wijzigen of een nieuw formulier kun
 
 De interface van Adobe Campaign gebruikt vele toepassingen van het Web om, tot ontvangers, leveringen, campagnes, voorraden, enz. toegang te hebben te beheren en in wisselwerking te staan. Deze worden in de interface weergegeven in de vorm van dashboards met slechts één pagina.
 
-De ingebouwde toepassingen van het Web worden opgeslagen in **Beheer > Configuratie > Webtoepassingen** map van de Verkenner.
+De ingebouwde toepassingen van het Web worden opgeslagen in **Beheer > Configuratie > Webtoepassingen** map van de Explorer.
 
 Leer hoe u een overzichtspagina maakt in Campagne in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application){target="_blank"}
 

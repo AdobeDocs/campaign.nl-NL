@@ -1,11 +1,11 @@
 ---
 title: Aan de slag met de campagnearchitectuur
 description: Ontdek omgevingen en basisprincipes van implementatie, waaronder hoe u een campagneomgeving kunt rapporteren.
-feature: Overview
+feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 2%
@@ -22,25 +22,25 @@ Er zijn twee typen omgevingen beschikbaar:
 
 * **Productieomgeving**: gastheren de toepassingen voor de bedrijfsartsen.
 
-* **Niet-productieomgeving**: worden gebruikt voor verschillende prestatie- en kwaliteitstests voordat wijzigingen in de toepassing worden doorgevoerd in de productieomgeving.
+* **Niet-productieomgeving**: wordt gebruikt voor verschillende prestatie- en kwaliteitstests voordat wijzigingen in de toepassing worden doorgevoerd in de productieomgeving.
 
 U kunt pakketten van de ene omgeving naar de andere exporteren en importeren.
 
 ![](../assets/do-not-localize/book.png) Meer informatie over pakketten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
-## Implementatiemodellen{#ac-deployment}
+## Implementatiemodel{#ac-deployment}
 
 Er zijn twee implementatiemodellen beschikbaar:
 
 * **Campagne FDA [!DNL Snowflake] implementatie**
 
-   In haar [[!DNL Snowflake] FDA-implementatie](fda-deployment.md), [!DNL Adobe Campaign] v8 is verbonden met [!DNL Snowflake] toegang tot gegevens via Federated Data Access-mogelijkheden: u kunt toegang krijgen tot externe gegevens en informatie die zijn opgeslagen in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen. PostgreSQL is het primaire gegevensbestand, en Snowflake is het secundaire gegevensbestand. U kunt uw gegevensmodel uitbreiden en uw gegevens opslaan op Snowflake. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.
+  In haar [[!DNL Snowflake] FDA-implementatie](fda-deployment.md), [!DNL Adobe Campaign] v8 is verbonden met [!DNL Snowflake] tot gegevens toegang hebben via de Federale functie voor gegevenstoegang: u kunt externe gegevens en informatie die in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen. PostgreSQL is het primaire gegevensbestand, en de Snowflake is het secundaire gegevensbestand. U kunt uw gegevensmodel uitbreiden en uw gegevens op Snowflake opslaan. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.
 
 * **Implementatie van Campagne Enterprise (FFDA)**
 
-   In de context van een [Implementatie van ondernemingen (FFDA)](enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee databases: een lokale [!DNL Campaign] database voor realtime berichten en eenheidquery&#39;s in de gebruikersinterface en schrijven via API&#39;s en een cloud [!DNL Snowflake] database voor de uitvoering van campagnes, batchquery&#39;s en workflowuitvoering.
+  In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee databases : een lokaal [!DNL Campaign] database voor realtime berichten en eenheidquery&#39;s in de gebruikersinterface en schrijven via API&#39;s en een cloud [!DNL Snowflake] database voor de uitvoering van campagnes, batchquery&#39;s en workflowuitvoering.
 
-   Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens bevinden zich nu op afstand in de cloud-database. Met deze nieuwe architectuur vereenvoudigt de implementatie van Campaign v8 Enterprise (FFDA) het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
+  Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met deze nieuwe architectuur vereenvoudigt de implementatie van Campaign v8 Enterprise (FFDA) het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
 
 ## Uitvoering van gesplitste levering {#split}
 
@@ -52,7 +52,7 @@ Afhankelijk van het pakket Campagne v8 beschikt u over een specifiek aantal inst
 
 De externe accounts van alle kanalen gebruiken standaard een **[!UICONTROL Alternate]** het verpletteren van wijze, betekenend dat één levering van elke middeninstantie in een tijd afwisselend wordt verzonden.
 
-Om betere prestaties zowel in termen van snelheid als schaal te verzekeren, kunt u levering toestaan om automatisch over uw middelsourcinginstanties worden verdeeld om sneller aan de ontvangers te worden geleverd. Deze bewerking is transparant wanneer de levering wordt uitgevoerd van het marketingexemplaar: zodra de levering is verzonden, worden alle logboeken samen geconsolideerd, voordat ze naar de marketinginstantie worden teruggestuurd naar één enkel leveringsobject.
+Om betere prestaties zowel in termen van snelheid als schaal te verzekeren, kunt u levering toestaan om automatisch over uw middelsourcinginstanties worden verdeeld om sneller aan de ontvangers te worden geleverd. Deze bewerking is transparant bij het uitvoeren van de levering vanuit de marketinginstantie: zodra de levering is verzonden, worden alle logboeken samengevoegd, voordat ze naar de marketinginstantie worden teruggestuurd naar één leveringsobject.
 
 Hiertoe worden aanvullende externe rekeningen bij de **[!UICONTROL Split]** de verpletterende wijze wordt gecreeerd op levering voor elk kanaal:
 
@@ -97,7 +97,7 @@ In deze specifieke architectuur, wordt de uitvoeringscel gescheiden van de contr
 
 * De **Control-instantie** (of marketinginstantie) wordt door marketers en IT-teams gebruikt om berichtsjablonen te maken, te configureren en te publiceren. Deze instantie centraliseert ook gebeurteniscontrole en geschiedenis.
 
-   ![](../assets/do-not-localize/glass.png) Meer informatie over het maken en publiceren van berichtsjablonen in [deze sectie](../send/transactional.md).
+  ![](../assets/do-not-localize/glass.png) Meer informatie over het maken en publiceren van berichtsjablonen in [deze sectie](../send/transactional.md).
 
 * De **Uitvoeringsinstantie** treitert binnenkomende gebeurtenissen (bijvoorbeeld opnieuw instellen van wachtwoord of bestellingen van een website) op en stuurt gepersonaliseerde berichten. Er kunnen meer dan één uitvoeringsinstantie zijn om berichten te verwerken via het taakverdelingsmechanisme en het aantal gebeurtenissen te schalen dat moet worden uitgevoerd voor maximale beschikbaarheid.
 
@@ -114,6 +114,6 @@ Om deze mogelijkheden te gebruiken, de gebruikers van Adobe Campaign login aan d
 * Één enkele uitvoeringsinstantie wanneer het in wisselwerking staan met een Adobe ontvangen de uitvoeringsinstantie van het Centrum van het Bericht, kan een extern systeem een zittingsteken eerst terugwinnen (dat door gebrek in 24 uren) verloopt, door een api vraag aan de methode van de zittingsopening van een sessie te maken, gebruikend een verstrekt rekeningslogin en wachtwoord.
 Dan, met sessionToken die door de uitvoeringsinstantie in antwoord op de bovengenoemde vraag wordt verstrekt, kan de externe toepassing BEEP api aanroepen (rtEvents of batchEvents) maken om mededelingen te verzenden, zonder de behoefte om in elke vraag van de ZEEP de rekeningslogin en het wachtwoord te omvatten.
 
-* Meerdere uitvoeringsinstanties In een architectuur met meerdere cellen voor uitvoering met meerdere uitvoeringsinstanties achter een taakverdelingsmechanisme, gaat de openings van een sessiemethode die door de externe toepassing wordt aangeroepen door het taakverdelingsmechanisme: daarom kan een tokengebaseerde verificatie niet worden gebruikt. Een op gebruiker/wachtwoord-gebaseerde authentificatie wordt vereist.
+* Meerdere uitvoeringsinstanties In een architectuur met meerdere uitvoeringsinstanties van meerdere cellen met meerdere uitvoeringsinstanties achter een taakverdelingsmechanisme, gaat de openings van een sessiemethode die door de externe toepassing wordt aangeroepen door het taakverdelingsmechanisme: daarom kan geen tokengebaseerde verificatie worden gebruikt. Een op gebruiker/wachtwoord-gebaseerde authentificatie wordt vereist.
 
 Meer informatie over Transactionele berichtengebeurtenissen in [deze pagina](../send/event-processing.md).

@@ -1,11 +1,11 @@
 ---
 title: Campagne-schema's uitbreiden
 description: Meer informatie over het uitbreiden van Campagne-schema's
-feature: Schema Extension
+feature: Schema Extension, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Een schema uitbreiden{#extend-schemas}
 
-Als technische gebruiker, kunt u datamodel van de Campagne aanpassen om aan de behoeften van uw implementatie te voldoen: Voeg elementen aan een bestaand schema toe, wijzig een element in een schema of schrap elementen.
+Als technische gebruiker, kunt u datamodel van de Campagne aanpassen om aan de behoeften van uw implementatie te voldoen: voeg elementen aan een bestaand schema toe, wijzig een element in een schema of schrap elementen.
 
 De belangrijkste stappen om het datamodel van de Campagne aan te passen zijn:
 
@@ -29,7 +29,7 @@ De belangrijkste stappen om het datamodel van de Campagne aan te passen zijn:
 
 Voer de volgende stappen uit om een schema uit te breiden:
 
-1. Ga naar de **[!UICONTROL Administration > Configuration > Data schemas]** in de Verkenner.
+1. Ga naar de **[!UICONTROL Administration > Configuration > Data schemas]** in de Explorer.
 1. Klik op de knop **Nieuw** en selecteert u **[!UICONTROL Extend the data in a table using an extension schema]**.
 
    ![](assets/extend-schema-option.png)

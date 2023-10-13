@@ -1,11 +1,11 @@
 ---
-title: Inzicht in architectuur van de Interactie van de Campagne
-description: Basisbeginselen van de architectuur van de campagneinteractie
-feature: Interaction
+title: Inzicht in architectuur voor interactie tussen campagnes
+description: Basisbeginselen van de architectuur van de campagne
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 0%
@@ -20,15 +20,15 @@ Er zijn twee milieu&#39;s voor elke het richten dimensie die wordt gebruikt wann
 
 * A **ontwerp** omgeving waarin de aanbiedingsmanager zorgt voor het maken en categoriseren van aanbiedingen, het bewerken ervan en het starten van het goedkeuringsproces zodat deze kunnen worden gebruikt. De regels voor elke categorie, de aanbiedingsruimten waarop aanbiedingen kunnen worden ingediend, en de vooraf gedefinieerde filters die worden gebruikt om te bepalen of een aanbieding in aanmerking komt, worden ook in deze omgeving gedefinieerd.
 
-   Categorieën kunnen ook handmatig worden gepubliceerd in de online omgeving.
+  Categorieën kunnen ook handmatig worden gepubliceerd in de online omgeving.
 
-   De procedure voor het goedkeuren van aanbiedingen is gedetailleerd [in deze sectie](interaction-offer.md#approve-offers).
+  De procedure voor het goedkeuren van aanbiedingen is gedetailleerd [in deze sectie](interaction-offer.md#approve-offers).
 
 * A **leven** de omgeving waarin goedgekeurde aanbiedingen van de ontwerpomgeving en de verschillende aanbiedingsruimten, filters, categorieën en regels die in de ontwerpomgeving zijn geconfigureerd, kunnen worden gevonden. Tijdens een vraag aan de motor van de Aanbieding, zal de motor altijd aanbiedingen van het levende milieu gebruiken.
 
 Een aanbieding wordt slechts opgesteld op de aanbiedingsruimten die tijdens het goedkeuringsproces worden geselecteerd. Daarom kan een aanbieding levend maar onbruikbaar op een aanbiedingsruimte zijn die ook levend is.
 
-## Binnenkomende en uitgaande interacties {#interaction-types}
+## Binnenkomende en uitgaande interactie {#interaction-types}
 
 In de module Adobe Campaign Interaction worden twee soorten interactie voorgesteld:
 
@@ -37,7 +37,7 @@ In de module Adobe Campaign Interaction worden twee soorten interactie voorgeste
 
 Deze twee soorten interacties kunnen worden uitgevoerd in **unitaire modus** (aanbieding wordt berekend voor één enkel contact) of in **batchmodus** (de aanbieding wordt berekend voor een reeks contacten). Over het algemeen worden binnenkomende interacties uitgevoerd in monitaire modus en uitgaande interacties in batchmodus. Er kunnen echter bepaalde uitzonderingen zijn, namelijk [transactieberichten](../send/transactional.md) bijvoorbeeld, waarbij de uitgaande interactie plaatsvindt in monitaire modus.
 
-Zodra een aanbieding kan of moet worden ingediend (volgens de uitgevoerde configuraties), speelt de motor van de Aanbieding de intermediaire rol: het berekent automatisch de best mogelijke aanbieding voor een contact tussen beschikbare die door ontvangen gegevens over het contact en de verschillende regels te combineren die kunnen worden toegepast zoals gespecificeerd in de toepassing.
+Zodra een aanbieding kan of moet worden voorgelegd (volgens de uitgevoerde configuraties), speelt de motor van de Aanbieding de intermediaire rol: het berekent automatisch de best mogelijke aanbieding voor een contact tussen beschikbare die door ontvangen gegevens over het contact en de verschillende regels te combineren die kunnen worden toegepast zoals gespecificeerd in de toepassing.
 
 ![](assets/architecture_interaction2.png)
 
@@ -72,7 +72,7 @@ U moet op de hoogte zijn van de volgende synchronisatiemechanismen:
 
 * Als u de valfunctie van een anonieme omgeving aan een geïdentificeerd milieu gebruikt, moeten deze twee milieu&#39;s op de zelfde uitvoeringsinstantie zijn.
 * De synchronisatie tussen verschillende uitvoeringsinstanties wordt niet in real-time uitgevoerd. Interacties van dezelfde contactpersoon moeten naar dezelfde instantie worden verzonden. De controleinstantie moet aan het uitgaande kanaal (geen echte tijd) worden gewijd.
-* De marketingdatabase wordt niet automatisch gesynchroniseerd. De marketinggegevens die in de wegingsregels en de subsidiabiliteitsregels worden gebruikt, moeten bij uitvoeringsgevallen worden gedupliceerd. Dit proces komt niet als standaard, u moet het ontwikkelen tijdens de integratieperiode.
+* De marketingdatabase wordt niet automatisch gesynchroniseerd. De marketinggegevens die in de wegingsregels en de subsidiabiliteitsregels worden gebruikt, moeten in geval van uitvoering worden gedupliceerd. Dit proces komt niet als standaard, u moet het ontwikkelen tijdens de integratieperiode.
 * De synchronisatie van voorstellen wordt uitsluitend uitgevoerd door een FDA-verbinding.
 * Als u Interaction en het Centrum van het Bericht op de zelfde instantie gebruikt, zal de synchronisatie via protocol FDA in beide gevallen voorkomen.
 
@@ -80,7 +80,7 @@ U moet op de hoogte zijn van de volgende synchronisatiemechanismen:
 
 Willekeurige schema-extensies die rechtstreeks zijn gekoppeld aan **Interactie** (aanbiedingen, voorstellen, ontvangers, enz.) moeten worden ingezet op de uitvoeringsinstanties.
 
-De **Interactie** het pakket is op alle instanties geïnstalleerd (controle en uitvoering). Er zijn twee extra pakketten beschikbaar: één pakket voor de besturingsinstanties en het andere voor elke uitvoeringsinstantie.
+De **Interactie** het pakket is op alle instanties geïnstalleerd (controle en uitvoering). Er zijn twee extra pakketten beschikbaar: een pakket voor de besturingsinstanties en een ander pakket voor elke uitvoeringsinstantie.
 
 >[!NOTE]
 >
@@ -102,10 +102,11 @@ Op besturingsinstanties:
    * Controleer het gebruikte type toepassing: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, of beide.
    * Voer de gebruikte FDA-account in. Een exploitant moet op de uitvoeringsinstanties worden gecreeerd en moet de volgende lees- en schrijfrechten op het gegevensbestand van de betrokken instantie hebben:
 
-      ```
-      grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
-      grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
-      ```
+     ```
+     grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
+     grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
+     ```
+
    >[!NOTE]
    >
    >Het IP adres van de controleinstantie moet op de uitvoeringsinstanties worden toegelaten.
@@ -117,11 +118,11 @@ Op besturingsinstanties:
    * Voeg de lijst met uitvoeringsinstanties toe.
    * Geef voor elke synchronisatie de synchronisatieperiode en filtercriteria op (bijvoorbeeld per land).
 
-      >[!NOTE]
-      >
-      >Als er een fout optreedt, kunt u de synchronisatieworkflows raadplegen en meldingen aanbieden. Deze zijn te vinden in de technische workflows van de toepassing.
+     >[!NOTE]
+     >
+     >Als er een fout optreedt, kunt u de synchronisatieworkflows raadplegen en meldingen aanbieden. Deze zijn te vinden in de technische workflows van de toepassing.
 
-Als voor optimalisatie slechts een deel van de marketingdatabase wordt gedupliceerd op de uitvoeringsinstanties, kunt u een beperkt schema opgeven dat is gekoppeld aan de omgeving, zodat gebruikers alleen gegevens kunnen gebruiken die beschikbaar zijn op de uitvoeringsinstanties. U kunt een aanbieding maken met gegevens die niet beschikbaar zijn op uitvoeringsinstanties. Om dit te doen, moet u de regel op de andere kanalen deactiveren door deze regel op het uitgaande kanaal ( te beperken **[!UICONTROL Taken into account if]** veld).
+Als voor optimalisatie slechts een deel van de marketingdatabase wordt gedupliceerd op de uitvoeringsinstanties, kunt u een beperkt schema opgeven dat is gekoppeld aan de omgeving, zodat gebruikers alleen gegevens kunnen gebruiken die beschikbaar zijn op de uitvoeringsinstanties. U kunt een aanbieding maken met gegevens die niet beschikbaar zijn op uitvoeringsinstanties. Om dit te doen, moet u de regel op de andere kanalen deactiveren door deze regel op het uitgaande kanaal (**[!UICONTROL Taken into account if]** veld).
 
 ![](assets/ita_filtering.png)
 
@@ -134,7 +135,7 @@ Hier is een lijst van onderhoudsopties beschikbaar op de controle instantie:
 >Deze opties mogen alleen voor specifieke onderhoudsbeurten worden gebruikt.
 
 * **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: laatste datum waarop een omgeving is gesynchroniseerd op een bepaalde instantie.
-* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: datum waarop de voorstellen van een bepaald schema in laatste instantie werden gesynchroniseerd.
+* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: laatste datum waarop voorstellen uit een bepaald schema zijn gesynchroniseerd van de ene instantie naar de andere.
 * **`NmsInteraction_MapWorkflowId`**: een optie die de lijst bevat van alle gegenereerde synchronisatieworkflows.
 
 De volgende optie is beschikbaar bij uitvoeringsinstanties:
@@ -150,7 +151,7 @@ Als uw instantie niet eerder het **Interactie** geen migratie nodig is. Standaar
 >Afhankelijk van het volume van bestaande voorstellingen in uw instantie, kan deze bewerking even duren.
 
 * Als uw instantie weinig of geen voorstellingen heeft, is geen handmatige wijziging van de tabel met voorstellingen nodig. De wijziging wordt uitgevoerd wanneer pakketten worden geïnstalleerd.
-* Als uw instantie veel voorstellingen heeft, is het beter om de structuur van de lijst met voorstellingen te veranderen alvorens de controlepakketten te installeren en hen in werking te stellen. We raden u aan de query&#39;s uit te voeren tijdens een periode met weinig activiteit.
+* Als uw instantie veel voorstellingen heeft, is het beter om de structuur van de lijst met voorstellingen te wijzigen voordat u de controlepakketten installeert en uitvoert. We raden u aan de query&#39;s uit te voeren tijdens een periode met weinig activiteit.
 
 >[!NOTE]
 >

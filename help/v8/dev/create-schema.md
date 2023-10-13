@@ -1,18 +1,18 @@
 ---
 title: Nieuw schema maken in campagne
 description: Leer hoe u een nieuw schema maakt in Campagne
-feature: Schema Extension
+feature: Schema Extension, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
 
 ---
 
-# Een nieuw schema maken{#create-new-schema}
+# Een nieuw schema maken {#create-new-schema}
 
 Als u de schema&#39;s wilt bewerken, maken en configureren, klikt u op de knop **[!UICONTROL Administration > Configuration > Data schemas]** van de Adobe Campaign Client Console.
 
@@ -38,7 +38,7 @@ De **[!UICONTROL Preview]** tab genereert automatisch het uitgebreide schema:
 >
 >Wanneer het bronschema wordt opgeslagen, wordt het genereren van het uitgebreide schema automatisch gestart.
 
-Als u de volledige structuur van een schema moet controleren, kunt u gebruiken **[!UICONTROL Preview]** tab. Als het schema is uitgebreid, zult u al zijn uitbreidingen dan kunnen visualiseren. Als aanvulling op **[!UICONTROL Documentation]** worden alle schemakenmerken en -elementen en hun eigenschappen (SQL-veld, type/lengte, label, beschrijving) weergegeven. De **[!UICONTROL Documentation]** is alleen van toepassing op gegenereerde schema&#39;s.
+Als u de volledige structuur van een schema moet controleren, kunt u gebruiken **[!UICONTROL Preview]** tab. Als het schema is uitgebreid, zult u al zijn uitbreidingen dan kunnen visualiseren. Als aanvulling op de **[!UICONTROL Documentation]** worden alle schemakenmerken en -elementen en hun eigenschappen (SQL-veld, type/lengte, label, beschrijving) weergegeven. De **[!UICONTROL Documentation]** is alleen van toepassing op gegenereerde schema&#39;s.
 
 ## Hoofdlettergebruik: een contracttabel maken {#example--creating-a-contract-table}
 

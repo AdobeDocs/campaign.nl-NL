@@ -5,20 +5,20 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 71%
 
 ---
 
-# Werken met campagne en Adobe Analytics
+# Werken met campagne en Adobe Analytics {#ac-aa}
 
 U kunt Adobe Analytics configureren om Campagne en Analytics te integreren.
 
 Dankzij deze integratie kunnen Adobe Campaign en Adobe Analytics via de **Webanalytische connectors** invoegtoepassing. Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
 
 Met Adobe Analytics Connector kan Adobe Campaign de internetdoelgroep meten (Web Analytics). Met de hulpprogramma&#39;s voor webanalyse kan Adobe Campaign indicatoren en campagnerekenmerken doorsturen naar Analytics.
 
@@ -41,7 +41,7 @@ Als u de verbinding Campagne-Analytics wilt instellen, moet u de volgende bewerk
 
 ## Uw analyserapportsuite maken {#report-suite-analytics}
 
-Om uw **[!UICONTROL Report suite]** in [!DNL Adobe Analytics]volgt u de onderstaande stappen:
+Als u uw **[!UICONTROL Report suite]** in [!DNL Adobe Analytics]volgt u de onderstaande stappen:
 
 1. Selecteer vanuit [!DNL Adobe Analytics] het **[!UICONTROL Admin tab]** en klik vervolgens op **[!UICONTROL All admin]**.
 
@@ -245,4 +245,4 @@ Als u wilt dat de Adobe Experience Cloud de activiteit op de sites kan volgen wa
 
 **Verwante onderwerpen**
 
-* [Campagne - Experience Cloud Triggers-integratie](ac-triggers.md)
+* [Campagne - Experience Cloud brengt integratie teweeg](ac-triggers.md)

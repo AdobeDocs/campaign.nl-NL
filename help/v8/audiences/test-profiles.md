@@ -1,10 +1,11 @@
 ---
 title: Testprofielen maken in campagne
 description: Leer testprofielen maken en beheren in Adobe Campaign
-feature: Audiences, Profiles
+feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -15,12 +16,12 @@ ht-degree: 0%
 
 ## Wat is een zaadadres? {#gs-seeds}
 
-De profielen van de test worden gecreeerd als zaadadressen. Ze worden gebruikt om ontvangers aan te wijzen die niet voldoen aan de gedefinieerde doelcriteria. Met zaadadressen kunt u de personalisatie en rendering voorvertonen en testen voordat u de levering verzendt, door ze proefdrukken te sturen.
+Testprofielen worden gemaakt als beginadressen. Ze worden gebruikt om ontvangers aan te wijzen die niet voldoen aan de gedefinieerde doelcriteria. Met zaadadressen kunt u de personalisatie en rendering voorvertonen en testen voordat u de levering verzendt, door ze proefdrukken te sturen.
 
 De zaadadressen hebben de volgende voordelen:
 
-* Willekeurige vervanging van velden door gegevens uit ontvangende profielen: Hiermee kunt u alleen het e-mailadres invoeren, bijvoorbeeld in de sectie met het zaadadres, en Campagne automatisch de andere velden van het profiel laten invullen. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=en){target="_blank"}.
-* Wanneer u een workflow met functies voor gegevensbeheer gebruikt, kunnen de aanvullende gegevens die in leveringen worden verwerkt, op zaadadresniveau worden ingevoerd om waarden af te dwingen: dit negeert de vervanging van willekeurige waarden .
+* Willekeurige vervanging van velden door gegevens uit ontvangende profielen: hiermee kunt u alleen het e-mailadres invoeren, bijvoorbeeld in de sectie met het zaadadres, en Campagne automatisch de andere velden van het profiel laten invullen. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=en){target="_blank"}.
+* Wanneer u een workflow met functies voor gegevensbeheer gebruikt, kunnen de aanvullende gegevens die in leveringen worden verwerkt, op het niveau van het zaadadres worden ingevoerd om waarden af te dwingen: dit verlaagt de vervanging van willekeurige waarden.
 * Zaadadressen worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
 De zaadadressen worden toegevoegd aan het doel van leveringen door worden ingevoerd of door in de levering of de campagne direct worden gecreeerd.
@@ -44,7 +45,7 @@ Met Adobe Campaign kunt u ook zaadadressjablonen maken die worden geïmporteerd 
 Voer de volgende stappen uit om zaadadressen te maken:
 
 1. Klik op de knop **[!UICONTROL New]** knop boven de lijst met adressen.
-1. Voer in de overeenkomende velden de gegevens die zijn gekoppeld aan het adres in de **[!UICONTROL Recipient]** tab. De beschikbare velden komen overeen met de standaardvelden in de profielen van de ontvangers van de levering (nms:tabel van de ontvanger): naam, voornaam, e-mail, enz.
+1. Voer in de overeenkomende velden de gegevens die zijn gekoppeld aan het adres in de **[!UICONTROL Recipient]** tab. De beschikbare velden komen overeen met de standaardvelden in de profielen van de ontvangers (nms:tabel van de ontvanger): naam, voornaam, e-mail, enz.
 
    >[!NOTE]
    >
@@ -72,7 +73,7 @@ Voor direct-mailleveringen moet de indeling van het extractiebestand voldoen aan
 
 * Als elementverzamelingen worden geëxtraheerd, hebben deze velden een lege waarde voor de zaadadressen, tenzij de velden **[!UICONTROL Single row (expert user)]** is geselecteerd.
 
-## zaadadressen in een levering toevoegen{#seed-addresses-in-a-delivery}
+## Voeg zaadadressen in een levering toe{#seed-addresses-in-a-delivery}
 
 Om specifieke zaadadressen voor een levering toe te voegen, klik **[!UICONTROL To]** Selecteer vervolgens de koppeling **[!UICONTROL Seed addresses]** tab.
 
@@ -103,4 +104,3 @@ Als de leveringstabel een externe lijst is, zult u extra configuraties moeten ma
 In dit geval, om zaadadressen aan de levering toe te voegen, ga de aangewezen gebieden direct in het passende lusje in, of voer de adresmalplaatjes in.
 
 <!--The **nms:seedMember** schema extension is [this section](../../configuration/using/seed-addresses.md).-->
-

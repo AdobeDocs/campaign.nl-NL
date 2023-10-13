@@ -4,14 +4,14 @@ description: Ingebouwde rapporten
 feature: Reporting
 role: User
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
 
 ---
 
-# Geïntegreerde Adobe Campaign-rapporten{#ootb-reports}
+# Geïntegreerde Adobe Campaign-rapporten {#ootb-reports}
 
 Deze pagina bevat een lijst met ingebouwde Adobe Campaign-rapporten, hun inhoud en hun context. Adobe Campaign biedt een reeks ingebouwde rapporten die toegankelijk zijn met de clientconsole of een internetbrowser.
 

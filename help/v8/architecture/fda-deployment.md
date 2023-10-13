@@ -1,11 +1,11 @@
 ---
-title: Aan de slag met de implementatie van de FDA-Snowflake-campagne
-description: Aan de slag met de implementatie van de FDA-Snowflake-campagne
-feature: Overview
+title: Ga aan de slag met de implementatie van FDA-Snowflake voor campagnes
+description: Ga aan de slag met de implementatie van FDA-Snowflake voor campagnes
+feature: Architecture, Federated Data Access, Deployment
 role: Admin, Developer, User
 level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL Campaign] FDA [!DNL Snowflake] implementatie{#gs-fda-snowflake}
 
-In een [!DNL Snowflake] implementatie van FDA (default); [!DNL Adobe Campaign] v8 is verbonden met [!DNL Snowflake] toegang tot gegevens via [Federale gegevenstoegang](../connect/fda.md) capaciteit: u kunt toegang krijgen tot externe gegevens en informatie die zijn opgeslagen in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen.
+In een [!DNL Snowflake] implementatie van FDA (default); [!DNL Adobe Campaign] v8 is verbonden met [!DNL Snowflake] toegang tot gegevens via [Federale gegevenstoegang](../connect/fda.md) mogelijkheden: u kunt externe gegevens en informatie die in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen.
 
 ## Voordelen{#fda-benefits}
 
@@ -23,10 +23,10 @@ Dit implementatiemodel biedt de volgende voordelen:
 * **Opslag en prestaties**
 U kunt uw historische gegevens verplaatsen naar [!DNL Snowflake] en verlaagt vervolgens de afhankelijkheid van Adobe Campaign-id&#39;s. Deze architectuur vermindert ook uw afhankelijkheid van opslag PostgreSQL en prestatiesgrenzen. Omdat minder gegevens worden opgeslagen in de Campagne-database, zijn de prestaties beter en worden de onderhoudstaken sneller uitgevoerd.
 
-* **Uitbreiding van gegevensmodellen en gegevensbeheer**
-U kunt tabellen maken in [!DNL Snowflake] en koppelen ze aan Adobe Campaign, bijvoorbeeld om gearchiveerde gegevens te gebruiken gedurende bewaarperioden, of om segmentatieprocessen uit te voeren met uitstekende prestaties.
+* **Uitbreiding van het gegevensmodel en gegevensbeheer**
+U kunt in [!DNL Snowflake] en koppelen ze aan Adobe Campaign, bijvoorbeeld om gearchiveerde gegevens te gebruiken gedurende bewaarperioden, of om segmentatieprocessen uit te voeren met uitstekende prestaties.
 
-   Met deze architectuur kunt u ook workflowmogelijkheden voor gegevensbeheer gebruiken in [!DNL Snowflake]. Alleen aggregaten en tijdelijke tabellen worden verplaatst naar Campagne voor personalisatie- en leveringsdoeleinden.
+  Met deze architectuur kunt u ook workflowmogelijkheden voor gegevensbeheer gebruiken in [!DNL Snowflake]. Alleen aggregaten en tijdelijke tabellen worden verplaatst naar Campagne voor personalisatie- en leveringsdoeleinden.
 
 
 ## Architectuur{#fda-archi}
@@ -37,4 +37,4 @@ De algemene communicatie tussen servers en processen wordt uitgevoerd volgens he
 
 ![](assets/fda-architecture.png)
 
-PostgreSQL is het primaire gegevensbestand, en Snowflake is het secundaire gegevensbestand. U kunt uw gegevensmodel uitbreiden en uw gegevens opslaan op Snowflake. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.
+PostgreSQL is het primaire gegevensbestand, en de Snowflake is het secundaire gegevensbestand. U kunt uw gegevensmodel uitbreiden en uw gegevens op Snowflake opslaan. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.

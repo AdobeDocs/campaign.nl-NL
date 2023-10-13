@@ -3,8 +3,10 @@ product: campaign
 title: SQL-code en JavaScript-code
 description: Meer informatie over workflowactiviteiten voor SQL- en JavaScript-codes
 feature: Workflows
+Role: User
+Level: Experienced
 exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 7%
@@ -23,11 +25,11 @@ An **[!UICONTROL SQL code]** activiteit voert een SQL manuscript uit. Het script
 
 * **[!UICONTROL Script]**
 
-   Het centrale gebied van de editor bevat het script dat moet worden uitgevoerd. Dit script is een JST-sjabloon en kan daarom worden geconfigureerd volgens de workflowcontext.
+  Het centrale gebied van de editor bevat het script dat moet worden uitgevoerd. Dit script is een JST-sjabloon en kan daarom worden geconfigureerd volgens de workflowcontext.
 
 * **[!UICONTROL Processing errors]**
 
-   Zie [Verwerkingsfouten](monitor-workflow-execution.md#processing-errors).
+  Zie [Verwerkingsfouten](monitor-workflow-execution.md#processing-errors).
 
 ## JavaScript-code en geavanceerde JavaScript-code {#javascript-code}
 
@@ -56,7 +58,7 @@ Als u deze limiet wilt negeren, moet u de waarde instellen op **0**.
 
 ![](assets/advanced_javascript_code.png)
 
-* **[!UICONTROL First call]**: De eerste streek van de redacteur bevat het manuscript om tijdens de eerste vraag uit te voeren.
+* **[!UICONTROL First call]**: De eerste zone van de editor bevat het script dat tijdens de eerste aanroep moet worden uitgevoerd.
 * **[!UICONTROL Next calls]**: De tweede streek van de redacteur bevat het manuscript om tijdens de volgende vraag uit te voeren.
 * **[!UICONTROL Transitions]**: U kunt verschillende uitvoerovergangen voor activiteiten definiëren.
 * **[!UICONTROL Schedule]**: De **[!UICONTROL Schedule]** kunt u plannen wanneer de activiteit wordt geactiveerd.

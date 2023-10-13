@@ -1,11 +1,11 @@
 ---
 title: Campagneschemastructuur
 description: Campagneschemastructuur
-feature: Schema Extension
+feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -62,7 +62,7 @@ Het XML-document van een gegevensschema moet het **`<srcschema>`** hoofdelement 
 </srcSchema>
 ```
 
-Gebruik de volgende XML-inhoud om de structuur van een gegevensschema te illustreren:
+Laten we de volgende XML-inhoud gebruiken om de structuur van een gegevensschema te illustreren:
 
 ```
 <recipient email="John.doe@aol.com" created="AAAA/DD/MM" gender="1"> 
@@ -97,7 +97,7 @@ In ons voorbeeld wordt het hoofdelement vertegenwoordigd door de volgende regel:
 
 De elementen **`<attribute>`** en **`<element>`** die volgen op het hoofdelement, kunt u de locaties en namen van de gegevensitems in de XML-structuur definiëren.
 
-In ons voorbeeldschema zijn deze:
+In ons voorbeeldschema zijn de volgende:
 
 ```
 <attribute name="email"/>
@@ -112,9 +112,9 @@ De volgende regels moeten in acht worden genomen:
 
 * Elk **`<element>`** en **`<attribute>`** moet met naam worden geïdentificeerd via de **name** kenmerk.
 
-   >[!CAUTION]
-   >
-   >De naam van het element moet beknopt zijn, bij voorkeur in het Engels, en alleen geoorloofde tekens bevatten in overeenstemming met de XML-naamgevingsregels.
+  >[!CAUTION]
+  >
+  >De naam van het element moet beknopt zijn, bij voorkeur in het Engels, en alleen geoorloofde tekens bevatten in overeenstemming met de XML-naamgevingsregels.
 
 * Alleen **`<element>`** elementen kunnen bevatten **`<attribute>`** elementen en **`<element>`** elementen in de XML-structuur.
 * An **`<attribute>`** element moet een unieke naam binnen een **`<element>`**.
@@ -132,20 +132,20 @@ De volgende gegevenstypen worden ondersteund in schema&#39;s:
 
 * **string**: tekenreeks. Voorbeelden: een voornaam, een stad, enz.
 
-   De grootte kan worden opgegeven via de **length** kenmerk (optioneel, standaardwaarde &quot;255&quot;).
+  De grootte kan worden opgegeven via de **length** kenmerk (optioneel, standaardwaarde &quot;255&quot;).
 
-* **boolean**: Booleaans veld. Voorbeeld van mogelijke waarden: true/false, 0/1, ja/neen, enz.
-* **byte**, **kort**, **lang**: gehele getallen (1 byte, 2 bytes, 4 bytes). Voorbeelden: leeftijd, rekeningnummer, aantal punten enz.
+* **boolean**: Booleaans veld. Voorbeeld van mogelijke waarden: true/false, 0/1, ja/nee enz.
+* **byte**, **kort**, **lang**: gehele getallen (1 byte, 2 bytes, 4 bytes). Voorbeelden: leeftijd, rekeningnummer, aantal punten, enz.
 * **double**: drijvende-kommagetal met dubbele precisie. Voorbeelden: een prijs, een tarief enz.
-* **date**, **datetime**: datums en datums + tijden. Voorbeelden: een geboortedatum, een aankoopdatum enz.
-* **datetimenotz**: datum en tijd zonder tijdzonegegevens.
+* **date**, **datetime**: datums en datums + tijden. Voorbeelden: geboortedatum, aankoopdatum enz.
+* **datetimenotz**: datum + tijd zonder tijdzonegegevens.
 * **timespan**: duur. Voorbeeld: anciënniteit.
 * **memo**: lange tekstvelden (meerdere regels). Voorbeelden: een beschrijving, een opmerking enz.
-* **uuid**: &quot;uniqueidentifier&quot;-velden
+* **uuid**: velden &quot;Uniqueidentifier&quot;
 
-   >[!NOTE]
-   >
-   >Als u een **uuid** veld, moet de functie &quot;newuid()&quot; worden toegevoegd en aangevuld met de standaardwaarde.
+  >[!NOTE]
+  >
+  >Een **uuid** veld, moet de functie &quot;newuid()&quot; worden toegevoegd en aangevuld met de standaardwaarde.
 
 Hier is ons voorbeeldschema met de ingevoerde types:
 
@@ -170,33 +170,33 @@ De **`<elements>`** en **`<attributes>`** U kunt elementen van het gegevensschem
 
 * De **label** kunt u een korte beschrijving invoeren.
 
-   >[!NOTE]
-   >
-   >Het label is gekoppeld aan de huidige taal van de instantie.
+  >[!NOTE]
+  >
+  >Het label is gekoppeld aan de huidige taal van de instantie.
 
-   **Voorbeeld**:
+  **Voorbeeld**:
 
-   ```
-   <attribute name="email" type="string" length="80" label="Email"/>
-   ```
+  ```
+  <attribute name="email" type="string" length="80" label="Email"/>
+  ```
 
-   Het label kan worden weergegeven op het invoerformulier voor de Adobe Campaign Client Console:
+  Het label kan worden weergegeven op het invoerformulier voor de Adobe Campaign Client Console:
 
-   ![](assets/schema_label.png)
+  ![](assets/schema_label.png)
 
 * De **desc** kunt u een lange beschrijving invoeren.
 
-   De beschrijving kan worden weergegeven op het invoerformulier in de statusbalk van het hoofdvenster van de Adobe Campaign Client Console.
+  De beschrijving kan worden weergegeven op het invoerformulier in de statusbalk van het hoofdvenster van de Adobe Campaign Client Console.
 
-   >[!NOTE]
-   >
-   >De beschrijving is gekoppeld aan de huidige taal van de instantie.
+  >[!NOTE]
+  >
+  >De beschrijving is gekoppeld aan de huidige taal van de instantie.
 
-   **Voorbeeld**:
+  **Voorbeeld**:
 
-   ```
-   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
-   ```
+  ```
+  <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
+  ```
 
 ### Standaardwaarden {#default-values}
 
@@ -209,17 +209,17 @@ De waarde moet een expressie zijn die compatibel is met XPath-taal. Raadpleeg [d
 * Huidige datum: **default=&quot;GetDate()&quot;**
 * Teller: **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-   In dit voorbeeld wordt de standaardwaarde geconstrueerd door de aaneenschakeling van een tekenreeks en het aanroepen van de **CounterValue** functie met een vrije tellernaam. Het geretourneerde getal wordt bij elke invoeging met één verhoogd.
+  In dit voorbeeld wordt de standaardwaarde geconstrueerd door de aaneenschakeling van een tekenreeks en het aanroepen van de **CounterValue** functie met een vrije tellernaam. Het geretourneerde getal wordt bij elke invoeging met één verhoogd.
 
-   >[!NOTE]
-   >
-   >In de Adobe Campaign Client Console **[!UICONTROL Administration>Counters]** de knoop wordt gebruikt om tellers te beheren.
+  >[!NOTE]
+  >
+  >In de Adobe Campaign Client Console **[!UICONTROL Administration>Counters]** de knoop wordt gebruikt om tellers te beheren.
 
 Als u een standaardwaarde aan een veld wilt koppelen, kunt u de opdracht `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
-`<default>` : Hiermee kunt u het veld vooraf vullen met een standaardwaarde wanneer u entiteiten maakt. De waarde wordt geen standaard SQL-waarde.
+`<default>` : hiermee kunt u het veld vooraf invullen met een standaardwaarde wanneer u entiteiten maakt. De waarde wordt geen standaard SQL-waarde.
 
-`<sqldefault>` : kunt u een toegevoegde waarde hebben bij het maken van een veld. Deze waarde wordt weergegeven als een SQL-resultaat. Tijdens een schema-update worden alleen de nieuwe records beïnvloed door deze waarde.
+`<sqldefault>` : hiermee kunt u een toegevoegde waarde krijgen wanneer u een veld maakt. Deze waarde wordt weergegeven als een SQL-resultaat. Tijdens een schema-update worden alleen de nieuwe records beïnvloed door deze waarde.
 
 ### Opsommingen {#enumerations}
 
@@ -263,27 +263,27 @@ Een opsomming wordt buiten het hoofdelement gedeclareerd via de **`<enumeration>
 
 De opsommingseigenschappen zijn als volgt:
 
-* **baseType**: type gegevens dat aan de waarden is gekoppeld;
-* **label**: beschrijving van de opsomming;
-* **name**: naam van de opsomming;
+* **baseType**: type gegevens dat aan de waarden is gekoppeld,
+* **label**: beschrijving van de opsomming,
+* **name**: naam van de opsomming,
 * **default**: standaardwaarde van de opsomming.
 
-De opsommingswaarden worden gedeclareerd in het dialoogvenster **`<value>`** element met de volgende kenmerken:
+De opsommingswaarden worden gedeclareerd in de **`<value>`** element met de volgende kenmerken:
 
-* **name**: naam van de intern opgeslagen waarde;
-* **label**: label dat via de grafische interface wordt weergegeven.
+* **name**: naam van de waarde die intern is opgeslagen,
+* **label**: label dat wordt weergegeven via de grafische interface.
 
 #### dbenum-opsomming {#dbenum-enumeration}
 
 * De **dbenum** Met eigenschap kunt u een opsomming definiëren waarvan de eigenschappen overeenkomen met die van de **enum** eigenschap.
 
-   De **name** het attribuut slaat intern niet de waarde op, het slaat een code op die u de betrokken lijsten laat uitbreiden zonder hun schema te wijzigen.
+  De **name** het attribuut slaat intern niet de waarde op, het slaat een code op die u de betrokken lijsten laat uitbreiden zonder hun schema te wijzigen.
 
-   De waarden worden gedefinieerd via de **[!UICONTROL Administration>Enumerations]** knooppunt.
+  De waarden worden gedefinieerd via de **[!UICONTROL Administration>Enumerations]** knooppunt.
 
-   Deze opsomming wordt bijvoorbeeld gebruikt om de aard van campagnes op te geven.
+  Deze opsomming wordt bijvoorbeeld gebruikt om de aard van campagnes op te geven.
 
-   ![](assets/schema_dbenum.png)
+  ![](assets/schema_dbenum.png)
 
 ### Voorbeeld {#example}
 
@@ -339,25 +339,24 @@ Elementen worden aangeduid met hun naam en kenmerken worden aangeduid met de naa
 
 **Voorbeeld**:
 
-* **@email**: selecteert de e-mail;
+* **@email**: hiermee selecteert u het e-mailbericht.
 * **location/@city**: selecteert het kenmerk &quot;city&quot; onder het selectievakje **`<location>`** element
 * **../@email**: selecteert het e-mailadres in het bovenliggende element van het huidige element
-* **groep`[1]/@label`**: selecteert het kenmerk &quot;label&quot; dat het onderliggende kenmerk van het eerste object is **`<group>`** verzamelingselement
-* **groep`[@label='test1']`**: selecteert het kenmerk &quot;label&quot; dat het onderliggende element is van het **`<group>`** -element en bevat de waarde &quot;test1&quot;
+* **groep`[1]/@label`**: selecteert het kenmerk &quot;label&quot; dat het onderliggende element van het eerste object is **`<group>`** verzamelingselement
+* **groep`[@label='test1']`**: selecteert het kenmerk &quot;label&quot; dat het onderliggende element is van het dialoogvenster **`<group>`** -element en bevat de waarde &quot;test1&quot;
 
 >[!NOTE]
 >
 >Er wordt een extra beperking toegevoegd wanneer het pad een subelement kruist. In dit geval moet de volgende expressie tussen haakjes worden geplaatst:
 >
->* **location/@city** niet geldig is; gebruiken **`[location/@city]`**
+>* **location/@city** is ongeldig; gebruik **`[location/@city]`**
 >* **`[@email]`** en **@email** gelijkwaardig
 >
-
 
 Het is ook mogelijk complexe expressies te definiëren, zoals de volgende rekenkundige bewerkingen:
 
 * **@gender+1**: voegt 1 toe aan de inhoud van de **sekse** kenmerk,
-* **@email + &#39;(&#39;+@created+&#39;)&#39;**: construeert een koord door de waarde van het e-mailadres te nemen dat aan de aanmaakdatum tussen haakjes wordt toegevoegd (voor het koordtype, zet de constante in citaten).
+* **@email + &#39;(&#39;+@created+&#39;)&#39;**: bouwt een tekenreeks door de waarde te nemen van het e-mailadres dat tussen haakjes aan de aanmaakdatum is toegevoegd (voor het type tekenreeks plaatst u de constante tussen aanhalingstekens).
 
 Er zijn functies op hoog niveau toegevoegd aan de expressies om het potentieel van deze taal te verrijken.
 
@@ -377,7 +376,7 @@ A **Rekenreeks** is een XPath-expressie die wordt gebruikt om een tekenreeks sam
 
 De **Rekenreeks** wordt gedefinieerd via de **`<compute-string>`** element onder het belangrijkste element van het gegevensschema. An **expr** -kenmerk bevat een XPath-expressie waarmee de weergave wordt berekend.
 
-**Voorbeeld**: berekend koord van de ontvankelijke lijst.
+**Voorbeeld**: compute string van de ontvangende tabel.
 
 ```
 <srcSchema name="recipient" namespace="nms">  

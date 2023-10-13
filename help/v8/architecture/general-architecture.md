@@ -1,11 +1,11 @@
 ---
 title: Algemene architectuur
 description: Meer informatie over Adobe Campaign-architectuur en -onderdelen. Meer informatie over het personaliseren van uw Client Console en omgeving.
-feature: Architecture
+feature: Architecture, Deployment
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: d791cb9afc51457e799ee62f8bb845fd888fecf2
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 1%

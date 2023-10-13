@@ -3,8 +3,10 @@ product: campaign
 title: SQL Data Management
 description: Meer informatie over de workflowactiviteit van SQL Data Management
 feature: Workflows
+Role: User
+Level: Experienced
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 1%
@@ -26,7 +28,7 @@ Voordat u de activiteit configureert, moet u controleren of aan de volgende voor
 ## De SQL-gegevensbeheeractiviteit configureren {#configuring-the-sql-data-management-activity}
 
 1. De activiteit opgeven **[!UICONTROL Label]**.
-1. Selecteer **[!UICONTROL External account]** om te gebruiken, dan selecteren **[!UICONTROL Outbound schema]** aan deze externe rekening gekoppeld.
+1. Selecteer de **[!UICONTROL External account]** om te gebruiken, dan selecteren **[!UICONTROL Outbound schema]** aan deze externe rekening gekoppeld.
 
    >[!CAUTION]
    >
@@ -38,7 +40,7 @@ Voordat u de activiteit configureert, moet u controleren of aan de volgende voor
    >
    >Het is de verantwoordelijkheid van de SQL-scripteigenaar om ervoor te zorgen dat het SQL-script functioneel is en dat de referenties ervan (veldnamen, enz.) zijn in overeenstemming met het Uitgaande schema.
 
-   Als u een bestaande SQL-code wilt laden, selecteert u de optie **[!UICONTROL The SQL script is contained in an entity stored in the database]** optie. SQL-scripts moeten worden gemaakt en opgeslagen in het dialoogvenster **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** -menu.
+   Als u een bestaande SQL-code wilt laden, selecteert u de **[!UICONTROL The SQL script is contained in an entity stored in the database]** -optie. SQL-scripts moeten worden gemaakt en opgeslagen in de **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** -menu.
 
    Anders typt of kopieert u het SQL-script in het daarvoor bestemde gebied.
 
@@ -47,16 +49,16 @@ Voordat u de activiteit configureert, moet u controleren of aan de volgende voor
    Met deze activiteit kunt u de volgende variabelen in het script gebruiken:
 
    * **activity.tableName**: SQL-naam van de uitgaande werktabel.
-   * **task.innerTransitionByName(&quot;name&quot;).tableName**: SQL naam van de het werklijst die door de inkomende overgang wordt gedragen te gebruiken (de overgang wordt geïdentificeerd door zijn naam).
+   * **task.innerTransitionByName(&#39;name&#39;).tableName**: SQL-naam van de werktabel die wordt gedragen door de inkomende overgang die moet worden gebruikt (de overgang wordt aangeduid met de naam ervan).
 
-      >[!NOTE]
-      >
-      >De waarde (&#39;name&#39;) komt overeen met de waarde **[!UICONTROL Name]** van de overgangseigenschappen.
+     >[!NOTE]
+     >
+     >De waarde (&#39;name&#39;) komt overeen met de **[!UICONTROL Name]** van de overgangseigenschappen.
 
-1. Als het SQL-script al opdrachten bevat om een uitgaande werktabel te maken, schakelt u de optie **[!UICONTROL Automatically create work table]** optie. Anders wordt automatisch een werktabel gemaakt zodra de workflow wordt uitgevoerd.
+1. Als het SQL-script al opdrachten bevat om een uitgaande werktabel te maken, schakelt u de optie **[!UICONTROL Automatically create work table]** -optie. Anders wordt automatisch een werktabel gemaakt zodra de workflow wordt uitgevoerd.
 1. Klikken **[!UICONTROL Ok]** om de activiteitenconfiguratie te bevestigen.
 
-De activiteit wordt nu gevormd. Het is klaar om in het werkschema te worden uitgevoerd.
+De activiteit wordt nu gevormd. Het kan worden uitgevoerd in de workflow.
 
 >[!CAUTION]
 >

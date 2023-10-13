@@ -1,11 +1,11 @@
 ---
 title: PI-weergave beperken
 description: Leer hoe u de weergave PI beperkt
-feature: PI, Privacy
+feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -39,8 +39,8 @@ U kunt een voorbeeld van een ontvankelijke schemauitbreiding vinden die dit gebr
 
 De belangrijkste eigenschappen zijn:
 
-* **[!UICONTROL visibleIf]** : verbergt de gebieden van de meta-gegevens, zodat kunnen zij niet binnen een schemamening, kolomselectie, of een uitdrukkingsbouwer worden betreden. Maar dit verbergt geen gegevens, als de veldnaam handmatig wordt ingevoerd in een expressie, wordt de waarde weergegeven.
-* **[!UICONTROL accessibleIf]** : Hiermee verbergt u de gegevens (en vervangt u deze door lege waarden) uit de resulterende query. Als visibleIf leeg is, krijgt het dezelfde expressie als **[!UICONTROL accessibleIf]**.
+* **[!UICONTROL visibleIf]** : verbergt de velden van de metagegevens, zodat ze niet toegankelijk zijn binnen een schemaweergave, kolomselectie of expressiebouwer. Maar dit verbergt geen gegevens, als de veldnaam handmatig wordt ingevoerd in een expressie, wordt de waarde weergegeven.
+* **[!UICONTROL accessibleIf]** : verbergt de gegevens (vervangt deze door lege waarden) uit de resulterende query. Als visibleIf leeg is, krijgt het dezelfde expressie als **[!UICONTROL accessibleIf]**.
 
 Hier volgen de gevolgen van het gebruik van dit kenmerk in Campagne:
 
@@ -48,14 +48,14 @@ Hier volgen de gevolgen van het gebruik van dit kenmerk in Campagne:
 * Gegevens zijn niet zichtbaar in overzichtslijsten en recordlijst (console).
 * Gegevens worden alleen-lezen in gedetailleerde weergave.
 * Gegevens kunnen alleen worden gebruikt in filters (u kunt waarden toch raden met behulp van bepaalde dichotomiestrategieën).
-* Om het even welke uitdrukking die gebruikend een beperkt gebied wordt gebouwd wordt beperkt tot: lower(@email) wordt even toegankelijk als @email.
+* Expressies die zijn gemaakt met een beperkt veld, worden beperkt tot: lower(@email) wordt even toegankelijk als @email.
 * In een werkstroom kunt u de beperkte kolom aan de doelpopulatie toevoegen als een extra kolom van de overgang, maar deze is nog steeds niet toegankelijk voor Adobe Campaign-gebruikers.
 * Wanneer de doelpopulatie in een groep (lijst) wordt opgeslagen, zijn de kenmerken van de opgeslagen velden gelijk aan de gegevensbron.
 * Gegevens zijn standaard niet toegankelijk voor JS-code.
 
 ## Aanbevelingen {#recommendations}
 
-Bij elke levering worden e-mailadressen gekopieerd naar de **[!UICONTROL broadLog]** en de **[!UICONTROL forecastLog]** tabellen: bijgevolg moeten deze velden ook worden beschermd .
+Bij elke levering worden e-mailadressen gekopieerd naar de **[!UICONTROL broadLog]** en de **[!UICONTROL forecastLog]** tabellen: bijgevolg moeten deze velden ook worden beschermd.
 
 Hieronder ziet u een voorbeeld van de extensie van een logtabel voor het implementeren van deze extensie:
 
@@ -88,4 +88,4 @@ Hieronder ziet u een voorbeeld van de extensie van een logtabel voor het impleme
 
 >[!CAUTION]
 >
->Deze beperking geldt alleen voor niet-technische gebruikers en sluit gegevens niet uit: een technische gebruiker, met verwante toestemmingen, kan gegevens terugwinnen.
+>Deze beperking is alleen van toepassing op niet-technische gebruikers en isoleert geen gegevens: een technische gebruiker met gerelateerde machtigingen kan gegevens ophalen.

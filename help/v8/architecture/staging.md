@@ -1,11 +1,11 @@
 ---
 title: Stapelmechanisme voor campagne-API
 description: Stapelmechanisme voor campagne-API
-feature: API, FFDA
+feature: Configuration, API, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Stapelmechanisme voor campagne-API
 
-In de context van een [Implementatie van ondernemingen (FFDA)](enterprise-deployment.md)Wat betreft de prestaties (latentie en gelijktijdige uitvoering) wordt het gebruik van ononderbroken unitaire oproepen niet aanbevolen. Batchbewerking heeft altijd de voorkeur. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
+In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md)Wat betreft de prestaties (latentie en gelijktijdige uitvoering) wordt het gebruik van ononderbroken unitaire oproepen niet aanbevolen. Batchbewerking heeft altijd de voorkeur. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
 
 De het opvoeren van de campagne capaciteit wordt toegelaten door gebrek op sommige ingebouwde schema&#39;s. Wij kunnen het op om het even welk douaneschema ook toelaten. Staging mechanisme in een notendop:
 
@@ -24,17 +24,16 @@ De het opvoeren van de campagne capaciteit wordt toegelaten door gebrek op sommi
 
 Sommige ingebouwde schema&#39;s zijn standaard gefaseerd, zoals nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
-API&#39;s voor Campaign Classic v7 zijn nog steeds beschikbaar, maar kunnen niet profiteren van dit nieuwe staging-mechanisme: API-aanroepen gaan rechtstreeks naar de Cloud-database. Adobe raadt u aan zoveel mogelijk gebruik te maken van het nieuwe mechanisme voor het opslaan van bestanden om de algehele druk en latentie op de Campagne Cloud-database te verminderen.
+API&#39;s van Campaign Classic v7 zijn nog steeds beschikbaar, maar kunnen niet profiteren van dit nieuwe staging-mechanisme: API-aanroepen gaan rechtstreeks naar de Cloud-database. Adobe raadt aan zoveel mogelijk gebruik te maken van het nieuwe staging-mechanisme om de algehele druk en latentie op de Campagne Cloud-database te verminderen.
 
 >[!CAUTION]
 >
->* Met dit nieuwe mechanisme is de gegevenssynchronisatie voor kanaaloptout, abonnementen, abonnementen of mobiele registratie nu **asynchroon**.
+>* Met dit nieuwe mechanisme is gegevenssynchronisatie voor kanaaloptie, abonnementen, abonnementen of mobiele registratie nu **asynchroon**.
 >
 >* Staging is alleen van toepassing op schema&#39;s die zijn opgeslagen in de cloud-database. Laat het opvoeren op herhaalde schema&#39;s niet toe. Schakel Staging niet in voor lokale schema&#39;s. Staging niet inschakelen in een schema met werkstadia
 >
 
-
-## Implementatiestappen{#implement-staging}
+## Implementatiestappen {#implement-staging}
 
 Voer de volgende stappen uit om het staging-mechanisme voor campagnes op een specifieke tabel toe te passen:
 

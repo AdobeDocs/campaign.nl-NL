@@ -1,11 +1,11 @@
 ---
-title: Werken met campagne-schema's
+title: Werken met campagnereschema's
 description: Aan de slag met schema's
-feature: Schema Extension
+feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 4%
@@ -34,7 +34,7 @@ Met schema&#39;s kunt u een entiteit in de database definiëren. Er is een schem
 
 Adobe Campaign past gegevensschema&#39;s toe op:
 
-* Definieer hoe het gegevensobject in de toepassing wordt gekoppeld aan onderliggende databasetabellen.
+* Bepaal hoe het gegevensobject in de toepassing aan onderliggende databasetabellen is gekoppeld.
 * Definiëren van koppelingen tussen de verschillende dataobjecten in de Campaign-applicatie.
 * Definiëren en beschrijven van de afzonderlijke velden die in elk object zijn opgenomen.
 
@@ -74,7 +74,7 @@ De **`<element>`** -tags definiëren de namen van entiteitselementen. **`<attrib
 
 Een gegevensschema wordt geïdentificeerd door zijn naam en zijn namespace.
 
-Met een naamruimte kunt u een set schema&#39;s groeperen op interessegebied. De **cus** namespace wordt gebruikt voor klant-specifieke configuratie (**klanten**).
+Met een naamruimte kunt u een set schema&#39;s groeperen op interessegebied. Bijvoorbeeld de **cus** namespace wordt gebruikt voor klant-specifieke configuratie (**klanten**).
 
 >[!CAUTION]
 >
@@ -86,15 +86,15 @@ Met een naamruimte kunt u een set schema&#39;s groeperen op interessegebied. De 
 
 Bepaalde naamruimten zijn gereserveerd voor beschrijvingen van de systeementiteiten die vereist zijn voor de werking van de Adobe Campaign-toepassing. De volgende naamruimte **mag niet worden gebruikt** om een nieuw schema, in om het even welke hogere/lagere combinatie te identificeren:
 
-* **xxl**: gereserveerd voor Cloud-databaseschema&#39;s
+* **xxl**: gereserveerd voor schema&#39;s van de Cloud-database
 * **xtk**: gereserveerd voor platformsysteemgegevens
-* **nl**: uitsluitend bestemd zijn voor het algemene gebruik van de aanvraag
-* **nms**: gereserveerd voor leveringen (ontvanger, levering, volgen, enz.)
+* **nl**: alleen voor het algemene gebruik van de toepassing
+* **nms**: gereserveerd voor leveringen (ontvanger, levering, tekstspatiëring, enz.)
 * **ncm**: gereserveerd voor inhoudsbeheer
-* **temp**: gereserveerd voor tijdelijke regelingen
-* **crm**: gereserveerd voor integratie van CRM-connectors
+* **temp**: gereserveerd voor tijdelijke schema&#39;s
+* **crm**: gereserveerd voor integratie met CRM-connectors
 
-De identificatiesleutel van een schema is een tekenreeks die is opgebouwd met behulp van de naamruimte en de naam gescheiden door een dubbele punt. bijvoorbeeld: **nms:ontvanger**.
+De identificatiesleutel van een schema is een tekenreeks die is samengesteld met behulp van de naamruimte en de naam gescheiden door een dubbele punt, bijvoorbeeld: **nms:ontvanger**.
 
 ## Campagne-schema&#39;s maken of uitbreiden {#create-or-extend-schemas}
 
@@ -172,9 +172,9 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 Elke lijst moet minstens één sleutel hebben, en vaak wordt het automatisch gevestigd in het belangrijkste element van het schema door te gebruiken **automatische** kenmerk ingesteld op **true**.
 
-Bovendien [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md), gebruikt u de **@autouuid** en stel deze in op **true**.
+Bovendien in het kader van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), gebruikt u de **@autouuid** en stel deze in op **true**.
 
-De primaire sleutel kan ook worden gedefinieerd met behulp van de **internal** kenmerk.
+De primaire sleutel kan ook worden gedefinieerd met de **internal** kenmerk.
 
 Voorbeeld:
 
@@ -268,7 +268,7 @@ Hier komt &#39;xpath-dst&#39; overeen met de primaire sleutel in het doelschema 
 
 ## Audit trail {#audit-trail}
 
-Eén handig element dat u onder aan het schema wilt opnemen, is een element tracking (audittrail).
+Eén handig element dat u onder aan het schema wilt opnemen, is een trackingelement (audittrail).
 
 In het onderstaande voorbeeld kunt u velden opnemen die betrekking hebben op de aanmaakdatum, de gebruiker die de gegevens heeft gemaakt, de datum en de auteur van de laatste wijziging voor alle gegevens in de tabel:
 
@@ -286,4 +286,4 @@ Raadpleeg [deze sectie](update-database-structure.md) voor meer informatie.
 
 >[!NOTE]
 >
->Wanneer de wijzigingen niet de gegevensbestandstructuur beïnvloeden, moet u enkel schema&#39;s regenereren. Selecteer hiertoe het schema of de schema&#39;s die u wilt bijwerken, klik met de rechtermuisknop en kies **[!UICONTROL Actions > Regenerate selected schemas...]**.
+>Wanneer de wijzigingen niet de gegevensbestandstructuur beïnvloeden, moet u enkel schema&#39;s regenereren. Selecteer hiertoe de schema&#39;s die u wilt bijwerken, klik met de rechtermuisknop en kies **[!UICONTROL Actions > Regenerate selected schemas...]**.
