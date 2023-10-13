@@ -1,11 +1,11 @@
 ---
 title: Nieuw in Campagne v8
 description: Ontdek de belangrijkste mogelijkheden in Adobe Campaign v8, nieuwe functies en wat u kunt verwachten van de nieuwste release.
-feature: Overview
+feature: Overview, Release Notes
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: f16fe79b8417a3fa146baf432f829c73fb839953
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 5%
@@ -68,11 +68,11 @@ U kunt ook voorspellende optimalisatie van de verzendtijd en voorspellende betro
 ![](../assets/do-not-localize/glass.png) [Meer informatie over de integratie van campagnes](../connect/integration.md)
 
 
-### Beheerde Cloud Services {#acms-desc}
+### Beheerde Cloud Servicen {#acms-desc}
 
 Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service, die pro-actief toezicht, het geschikte alarm, en de dienstbestuur verstrekt.
 
-Adobe Beheerde Cloud Service biedt marketers een flexibelere, veiligere en schaalbaardere oplossing voor campagnebeheer over meerdere kanalen met lage totale eigendomskosten. Het nieuwe aanbod combineert services met proactief toezicht en tijdige waarschuwing.
+Adobe Managed Cloud Service biedt marketers een flexibelere, veiligere en schaalbare oplossing voor campagnebeheer over meerdere kanalen met lage totale eigendomskosten. Het nieuwe aanbod combineert services met proactief toezicht en tijdige waarschuwing.
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Als productbeheerder kunt u instellingen beheren en het gebruik van elk van uw C
 
 Via een intuïtieve gebruikersinterface kunnen beheerders het gebruik van belangrijke elementen controleren, geavanceerde taken uitvoeren, zoals IP-adressen, maken vermelding, SFTP-opslagcontrole, sleutelbeheer en meer mogelijk. Deze zelfbedieningsinterface biedt u meer flexibiliteit en helpt u:
 
-* Breng snel zelf wijzigingen aan in de instellingen zonder dat u hiervoor Adobe Support nodig hebt
+* Breng snel zelf wijzigingen aan in de instellingen zonder de ondersteuning voor Adoben te vragen
 * Configureer instellingen op basis van uw verschillende bedrijfsbehoeften op verschillende momenten
 * Verbeter de beveiliging door toegangsinstellingen op basis van behoefte te controleren
 

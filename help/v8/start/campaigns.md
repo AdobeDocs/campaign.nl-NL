@@ -1,11 +1,11 @@
 ---
 title: Aan de slag met campagnes
 description: Aan de slag met campagnes
-feature: Audiences
+feature: Cross Channel Orchestration
 role: User
 level: Beginner
-exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -28,13 +28,13 @@ Met Adobe Campaign kunt u doelgerichte en gepersonaliseerde campagnes ontwerpen 
 
 Voordat u marketingcampagnes gaat implementeren, moet u vertrouwd zijn met de volgende concepten:
 
-* **Marketingcampagne**: een campagne centraliseert alle elementen die verband houden met een marketingcampagne : leveringen, doelgerichte regels, kosten, uitvoerbestanden, verwante documenten, enz. Elke campagne is aan een programma verbonden.
+* **Marketingcampagne**: een campagne centraliseert alle elementen die verband houden met een marketingcampagne: leveringen, doelgerichte regels, kosten, exportbestanden, verwante documenten, enz. Elke campagne is aan een programma verbonden.
 
-* **Programma**: in een programma kunt u marketingacties voor een kalenderperiode definiëren: lancering, kanvassing, loyaliteit, enz. Elk programma bevat campagnes die zijn gekoppeld aan een kalender, die een algemeen overzicht biedt.
+* **Programma**: in een programma kunt u marketingacties definiëren voor een kalenderperiode: starten, kanaliseren, loyaliteit, enzovoort. Elk programma bevat campagnes die zijn gekoppeld aan een kalender, die een algemeen overzicht biedt.
 
-* **Plan**: het marketingplan kan meerdere programma &#39; s bevatten . Het is gekoppeld aan een kalenderperiode, heeft een toegewezen budget en kan ook worden gekoppeld aan documenten en doelstellingen.
+* **Plan**: het marketingplan kan meerdere programma&#39;s bevatten. Het is gekoppeld aan een kalenderperiode, heeft een toegewezen budget en kan ook worden gekoppeld aan documenten en doelstellingen.
 
-* **Campagneworkflow**: een campagnewerkstroom bevat activiteiten om de campagnerogica op te bouwen . Met campagneworkflows kunt u doelgroepen definiëren en leveringen voor alle beschikbare kanalen maken.
+* **Campagne-workflow**: een campagnewerkstroom bevat activiteiten om de campagnogica op te bouwen. Met campagneworkflows kunt u doelgroepen definiëren en leveringen voor alle beschikbare kanalen maken.
 
 * **Recurricampagnes**: terugkerende campagnes worden gecreeerd van een specifiek malplaatje dat het werkschemamalplaatje bepaalt dat en het uitvoeringsprogramma moet worden uitgevoerd.
 
@@ -80,7 +80,7 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    ![](../assets/do-not-localize/book.png) Meer informatie over het maken en starten van marketingcampagneleveringen in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html).
 
-   U kunt verschillende documenten aan een campagne koppelen: rapport, foto, webpagina, diagram, enz.
+   U kunt verschillende documenten koppelen aan een campagne: rapport, foto, webpagina, diagram, enzovoort.
 
    ![](../assets/do-not-localize/book.png) Meer informatie over gekoppelde documenten in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html).
 
@@ -88,7 +88,7 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    Met Adobe Campaign kunt u gezamenlijke goedkeuringsprocessen instellen voor de belangrijkste fasen van de marketingcampagne. Voor elke campagne kunt u het leveringsdoel, de inhoud, en de kosten goedkeuren. Adobe Campaign-operatoren die met de goedkeuring zijn belast, kunnen via e-mail op de hoogte worden gesteld en kunnen goedkeuring van de console of via een webverbinding accepteren of afwijzen.
 
-   Leer hoe u goedkeuringen instelt en beheert in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#campaign-orchestration).
+   Leer hoe u goedkeuringen kunt instellen en beheren in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#campaign-orchestration).
 
 
 ## Distributed Marketing Add-on{#distributed-marketing-add-on}
@@ -99,15 +99,14 @@ Adobe Campaign biedt een **Distributed Marketing** add-on voor de uitvoering van
 >
 >Deze mogelijkheid is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-Leer hoe te om de Verdeelde Mogelijkheden van de Marketing van de Campagne te vormen en te gebruiken in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html)
+Leer hoe te om Campagne te vormen en te gebruiken verdeelde de Marketingmogelijkheden in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html)
 
 ## Invoegtoepassing responsbeheer{#response-manager-add-on}
 
-Adobe Campaign biedt een **Responsbeheer** toe:voegen die u het succes en de rentabiliteit van marketing campagnes laat meten of voorstellen over communicatiekanalen aanbiedt: e-mail, mobiel, direct mail, enz.
+Adobe Campaign biedt een **Responsbeheer** toe:voegen die u het succes en de rentabiliteit van marketing campagnes laat meten of voorstellen over communicatiekanalen aanbiedt: e-mail, mobiel, direct post, enz.
 
 >[!NOTE]
 >
 >Deze mogelijkheid is beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 [](../assets/do-not-localize/book.png) Leer hoe u Campagne Response Manager configureert en gebruikt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target="_blank"}
-

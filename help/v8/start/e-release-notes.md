@@ -1,22 +1,22 @@
 ---
 title: Opmerkingen bij de release Vroege campagne v8
 description: release van Early Campaign v8
-feature: Overview
+feature: Release Notes
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 958d2e8acdb9edee74f55bc3ea808f5072bf8f4d
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 7%
+ht-degree: 20%
 
 ---
 
 # Vroege aanvullende informatie {#e-new-release}
 
-Op deze pagina vindt u een beschrijving van de verbeteringen en correcties die zijn opgenomen in de volgende versie van Campagne v8. Deze inhoud kan tot de releasedatum zonder voorafgaande kennisgeving worden gewijzigd. De officiële opmerkingen bij de release staan in dit [page](../start/release-notes.md).
+Op deze pagina vindt u een beschrijving van de verbeteringen en correcties die zijn opgenomen in de volgende versie van Campagne v8. Deze inhoud kan tot de releasedatum zonder voorafgaande kennisgeving worden gewijzigd. De officiële opmerkingen bij de release zijn beschikbaar in deze [page](../start/release-notes.md).
 
 ## Release 8.5.1 {#release-8-5}
 
@@ -58,7 +58,7 @@ _30 juni 2023_
 
 **Patches**
 
-* Probleem verholpen waarbij speciale tekens in de HTML-inhoud van een levering onjuist werden gecodeerd in verschillende browsers. (NEO-60081)
+* Er is een probleem verholpen waardoor speciale tekens in de HTML-content van een levering in verschillende browsers soms niet goed werden gecodeerd. (NEO-60081)
 * Probleem verholpen waardoor u geen rapport kon opslaan over een FFDA-implementatie (Campaign v8 Enterprise). (NEO-56836)
 * Probleem verholpen bij het invoegen of bijwerken van gegevens in een aangepast FFDA-schema via de workflowactiviteit Gegevens bijwerken. (NEO-54708)
 * Probleem verholpen waardoor de workflow voor het opschonen van databases geen adressen kon verwijderen in de tabel nms:address in FFDA. (NEO-54460)
@@ -67,6 +67,6 @@ _30 juni 2023_
 * Er is een probleem verholpen waardoor de functie `JSPContext.sqlExecWithOneParam` niet werkte. (NEO-50066)
 * Probleem verholpen dat tot leveringsfouten leidde bij het gebruik van niet-afdrukbare tekens in personalisatievelden. (NEO-48588)
 * Probleem verholpen waarbij leveringsfouten kunnen optreden bij het invoegen van dynamische Adobe Target-afbeeldingen. (NEO-62689)
-* Probleem verholpen waarbij browsers geen extra spaties konden toevoegen wanneer voorwaardelijke inhoud in een levering werd gebruikt. (NEO-62132)
-* Probleem verholpen waarbij een pop-upvenster werd geopend wanneer werd geklikt op een afbeelding in de e-mailinhoudeditor. (NEO-60752)
-* Probleem verholpen dat tot een fout kon leiden en ertoe kon leiden dat u niet kon schuiven wanneer u de inhoud van een levering bewerkt. (NEO-61364)
+* Er is een probleem verholpen waarbij browsers geen extra spaties konden toevoegen bij gebruik van voorwaardelijke content in een levering. (NEO-62132)
+* Er is een probleem verholpen waarbij een pop-upvenster werd geopend wanneer werd geklikt op een afbeelding in de editor van de e-mailcontent. (NEO-60752)
+* Er is een probleem verholpen dat soms een fout veroorzaakte en waardoor scrollen soms niet mogelijk was bij het bewerken van de content van een levering. (NEO-61364)

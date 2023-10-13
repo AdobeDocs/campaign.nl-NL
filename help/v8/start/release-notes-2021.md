@@ -1,20 +1,20 @@
 ---
 title: Opmerkingen bij de release Campagne v8 2021
 description: Lijst met functies en verbeteringen die worden geleverd bij de 2021-campagne v8-releases
-feature: Overview
+feature: Release Notes
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 38%
+ht-degree: 37%
 
 ---
 
 # Opmerkingen bij de release 2021{#2021-release}
 
-Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden meegeleverd **2021 Campagne v8-releases**.
+Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd bij **2021 Campagne v8-releases**.
 
 ## Release 8.2.8 {#release-8-2-8}
 
@@ -72,7 +72,7 @@ _28 oktober 2021_
 
 * De Snowflake-aansluiting is verbeterd op het gebied van prestaties.
 * Voor toezicht- en testdoeleinden worden de auditlogboeken van de **[!UICONTROL Replicate Staging data]** De workflow bevat nu het aantal records dat naar de FFDA-database (Full Federated Data Access) is verzonden.
-* Met de SQL-codeactiviteit kunt u nu kiezen in welke database het SQL-script wordt opgeslagen: de standaardgegevensbron of een gekozen actieve externe FDA-rekening.
+* Met de SQL-codeactiviteit kunt u nu kiezen in welke database het SQL-script wordt opgeslagen: de standaardgegevensbron of een gekozen actieve externe FDA-account.
 * Er is nu een set vooraf gedefinieerde entrepots beschikbaar die kan worden gebruikt om verschillende query&#39;s parallel uit te voeren, zoals segmentatie, ETL of pieken. [Meer informatie](../config/workflows.md)
 
 **Andere wijzigingen**
@@ -91,13 +91,13 @@ _28 oktober 2021_
 * Probleem verholpen waardoor voorstellen niet konden worden opgeslagen in de tabel met aanbiedingsvoorstellen.
 * Er is een probleem opgelost waarbij netwerktime-outproblemen ten onrechte werden vastgelegd als scriptonderbrekingsproblemen in plaats van netwerkfouten. Dit probleem deed zich voor in het geval van HTTP-verzoeken die waren opgenomen in JavaScript-activiteiten.
 * Probleem verholpen waarbij aanbiedingen niet konden worden gerepliceerd naar de live aanbiedingsomgeving op Snowflake.
-* Probleem verholpen waarbij het kenmerk &#39;autoStg&#39; voor niet-uitgebreide ingebouwde schema&#39;s werd genegeerd.
+* Probleem opgelost waarbij het kenmerk &#39;autoStg&#39; voor niet-uitgebreide ingebouwde schema&#39;s werd genegeerd.
 * Probleem verholpen waardoor gebruikers niet de **[!UICONTROL Country/Region]** koppelen bij voorvertonen van een profiel.
 * Probleem verholpen waarbij de datepicker in aangepaste rapporten tot een scriptfout leidde. (NEO-36345)
 * Er is een probleem opgelost waardoor het systeem crashte bij het opnieuw genereren van de configuratie in geval van beschadigde configuratiebestanden.
-* Probleem verholpen waardoor de upgrade van de marketing- en besturingsinstanties is mislukt.
+* Probleem verholpen waardoor de upgrade van de marketing- en besturingsinstanties niet kon worden voltooid.
 * Er is een probleem opgelost waardoor de factureringsworkflow kon crashen op marketinginstanties.
-* Probleem verholpen dat tot dubbele sleutels in FFDA Snowflake out-of-the-box lijsten kon leiden. (NEO-38583)
+* Probleem verholpen dat tot dubbele sleutels in FFDA Snowflake uit-van-de-doos lijsten kon leiden. (NEO-38583)
 * Probleem verholpen waarbij tijdelijke workflowschema&#39;s verloren zouden kunnen gaan wanneer twee deduplicatieactiviteiten achterelkaar werden bewerkt. (NEO-34063)
 * Er is een probleem opgelost dat onjuiste resultaten opleverde bij het uitvoeren van de Amazon Redshift HoursDiff- en MinutesDiff-functies tijdens het extraheren van de tijdcomponent.(NEO-31673)
 * Probleem verholpen waardoor gebruikers zich niet konden aanmelden bij de console vanwege een probleem met de proxyconfiguratie. (NEO-38388)
@@ -129,7 +129,7 @@ _7 september 2021_
 
 **Patches**
 
-* Het probleem dat de **Hot kliks** rapport van het werk toen de aanbiedingen met de levering verbonden waren. (NEO-26295)
+* Probleem verholpen waardoor de **Hot kliks** rapport van het werk toen de aanbiedingen met de levering verbonden waren. (NEO-26295)
 * Probleem verholpen met de activiteit **Sub-worklow** waarbij de uitvoering geen outputtabel produceerde. (NEO-36242)
 * Verschillende problemen verholpen bij het exporteren van het rapport **Beschrijvende analyse** naar PDF. (NEO-25847)
 * Probleem verholpen waarbij leveringen soms mislukten wanneer een externe maillevering werd gebruikt. (NEO-37435)
@@ -140,7 +140,7 @@ _7 september 2021_
 * Probleem met FFDA verholpen waarbij een correcte replicatie van groepen en rechten van exploitanten werd voorkomen.
 * Probleem verholpen waarbij een onjuiste koppeling voor het opzeggen van een abonnement via de levering kon worden verzonden.
 * Oplossing voor een probleem in replicatiebeheer dat invloed had op de duur van de postupgrade.
-* Het probleem dat de **Hot click** van weergave.
+* Probleem verholpen waardoor de **Hot click** van weergave.
 * Probleem verholpen dat kon leiden tot verbroken URL&#39;s in e-mailberichten.
 
 ## Release 8.1.14 {#release-8-1-14}
@@ -191,7 +191,7 @@ _23 juli 2021_
 
 **Overige verbeteringen**
 
-* Het probleem dat de **Hot kliks** rapporteren van het weergeven voor specifieke leveringen.
-* Probleem verholpen met de **Deduplicatie** workflowactiviteit die kan leiden tot een onjuiste dubbele telling.
+* Probleem verholpen waardoor de **Hot kliks** rapporteren van het weergeven voor specifieke leveringen.
+* Probleem met de **Deduplicatie** workflowactiviteit die kan leiden tot een onjuiste dubbele telling.
 * Probleem verholpen bij het gebruik van een workflowquery met het filter &#39;ID is niet leeg&#39;, wat ertoe kan leiden dat een leeg item wordt weergegeven in de overgangspopulatie.
 * Probleem verholpen waarbij werd voorkomen dat aanvullende velden werden gemaakt in een nieuwe doeltoewijzing.

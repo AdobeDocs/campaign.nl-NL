@@ -1,11 +1,11 @@
 ---
 title: Aan de slag met campagne v8
 description: Nieuw bij Adobe Campaign? Zoek documentatie over het opstarten van de software en waar u kunt beginnen met de interface.
-feature: Overview
+feature: Overview, Cross Channel Orchestration
 role: Admin, Developer, User
 level: Beginner
-exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 41%
@@ -26,7 +26,7 @@ Campagne gebruiken om:
 
 ## Geïntegreerd klantprofiel {#integrated-customer-profile}
 
-Profielen worden gecentraliseerd in een krachtige cloud-database. Er zijn vele mogelijke mechanismen om profielen te verwerven en dit gegevensbestand op te bouwen: online verzameling via webformulieren, handmatige of automatische import van tekstbestanden, replicatie met bedrijfsdatabases of andere informatiesystemen. Met Adobe Campaign kunt u de marketinggeschiedenis, aankoopdata, voorkeuren, CRM-data en alle relevante PII-data in een geconsolideerde weergave opnemen om te analyseren en actie te ondernemen.
+Profielen worden gecentraliseerd in een krachtige cloud-database. Er zijn vele mogelijke mechanismen om profielen te verwerven en dit gegevensbestand op te bouwen: online inzameling via Webvormen, handmatige, of automatische invoer van tekstdossiers, replicatie met bedrijfgegevensbestanden of andere informatiesystemen. Met Adobe Campaign kunt u de marketinggeschiedenis, aankoopdata, voorkeuren, CRM-data en alle relevante PII-data in een geconsolideerde weergave opnemen om te analyseren en actie te ondernemen.
 
 In Adobe Campaign zijn ontvangers de standaardprofielen voor het verzenden van leveringen (e-mails, sms’en, enzovoort). Dankzij de ontvangerdata die in de database worden opgeslagen, kunt u het doel filteren dat een bepaalde levering zal ontvangen en personalisatiedata in uw leveringscontent toevoegen. De database bevat andere typen profielen. Ze zijn ontworpen voor verschillende applicaties. Seed-profielen worden bijvoorbeeld gemaakt om de leveringen te testen voordat ze naar het uiteindelijke doel worden verzonden.
 
@@ -46,7 +46,7 @@ De geavanceerde functionaliteit voor data management breidt de mogelijkheden voo
 
 Met Adobe Campaign kunt u doelgerichte en gepersonaliseerde campagnes ontwerpen en organiseren op meerdere kanalen: e-mail, direct mail, sms, pushmelding. Eén enkele interface voorziet u van alle functies die vereist zijn om al uw campagnes en communicatie te plannen, te organiseren, te configureren, te personaliseren, te automatiseren, uit te voeren en te meten.
 
-![](../assets/do-not-localize/glass.png) Leer hoe u een campagne kunt ontwerpen, plannen en uitvoeren in [deze sectie](campaigns.md).
+![](../assets/do-not-localize/glass.png) Leer hoe u in [deze sectie](campaigns.md).
 
 ## Workflows
 
@@ -84,7 +84,7 @@ U kunt de leveringsfuncties en functies voor geavanceerd campagnebeheer van Adob
 
 Adobe Campaign biedt een aantal mogelijkheden om u te helpen de functionaliteit voor marketing van gesprekken te implementeren en te optimaliseren, afhankelijk van uw behoeften en architectuur. Sommige zijn kernmogelijkheden en sommige hangen van de installatie van een pakket op uw configuratie af. Hier vindt u een gedetailleerde productbeschrijving: [Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
-![](../assets/do-not-localize/glass.png) Ben je al bekend met Campaign Classic? Leer belangrijke verschillen tussen Campaign Classic en Campagne v8 in [deze pagina](v7-to-v8.md).
+![](../assets/do-not-localize/glass.png) Hebt u al vertrouwd met Campaign Classic? Leer belangrijke verschillen tussen Campaign Classic en Campagne v8 in [deze pagina](v7-to-v8.md).
 
 **Zie ook**
 

@@ -1,11 +1,11 @@
 ---
 title: Campagne-processen en onderdelen begrijpen
 description: Campagne-processen en onderdelen begrijpen
-feature: Overview
+feature: Overview, Architecture, Configuration
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Adobe Campaign is een oplossing voor kanaalmarketing die e-mail, mobiele, social
 
 Meer informatie over de belangrijkste mogelijkheden van de Campagne in [deze pagina](../start/get-started.md).
 
-## Campagneonderdelen {#ac-components}
+## Campagne-onderdelen {#ac-components}
 
 Adobe Campaign-componenten en algemene architectuur worden hieronder beschreven.
 
@@ -30,19 +30,19 @@ U kunt toegang krijgen tot Adobe Campaign via een rijke client, een dunne client
 
 * Rijke client
 
-   Campagne Rich-client is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. [Meer informatie over Campagne Client Console](../start/connect.md).
+  Campagne Rich-client is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. [Meer informatie over Campagne Client Console](../start/connect.md).
 
 * Dunne client
 
-   Met Adobe Campaign-mogelijkheden voor webtoegang hebt u via een gebruikersinterface toegang tot een subset van Campagnefuncties via een webbrowser. Gebruik deze webinterface om rapporten te openen, berichten te besturen en te valideren, toegang te krijgen tot controledashboards en nog veel meer.  [Meer informatie over Campagne Web Access](../start/connect.md).
+  Met Adobe Campaign-mogelijkheden voor webtoegang hebt u via een gebruikersinterface toegang tot een subset van Campagnefuncties via een webbrowser. Gebruik deze webinterface om rapporten te openen, berichten te besturen en te valideren, toegang te krijgen tot controledashboards en nog veel meer.  [Meer informatie over Campagne Web Access](../start/connect.md).
 
 * Externe toepassingen met API&#39;s
 
-   In bepaalde gevallen, kan het systeem van externe toepassingen worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van de ZEEP worden blootgesteld. [Meer informatie over campagne-API&#39;s](../dev/api.md).
+  In bepaalde gevallen, kan het systeem van externe toepassingen worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van de ZEEP worden blootgesteld. [Meer informatie over campagne-API&#39;s](../dev/api.md).
 
 ### Persistentielaag{#persistance-layer}
 
-De gegevensbestanden van de campagne worden gebruikt als persistentielagen, en bevatten bijna alle informatie en gegevens die door Adobe Campaign worden beheerd. Dit omvat: functionele gegevens, zoals profielen, abonnementen, inhoud; technische gegevens, zoals leveringstaken en logboeken, trackingstammen; en werkgegevens (aankopen, leads).
+De gegevensbestanden van de campagne worden gebruikt als persistentielagen, en bevatten bijna alle informatie en gegevens die door Adobe Campaign worden beheerd. Dit omvat: functionele gegevens, zoals profielen, abonnementen, inhoud; technische gegevens, zoals leveringstaken en logbestanden, trackinglogbestanden en werkgegevens (aankopen, leads).
 
 De betrouwbaarheid van de database is van het grootste belang omdat de meeste Adobe Campaign-componenten toegang tot de database vereisen om hun taken uit te voeren (met uitzondering van de omleidingsmodule).
 
@@ -50,9 +50,9 @@ De betrouwbaarheid van de database is van het grootste belang omdat de meeste Ad
 
 De logische toepassingslaag van de campagne is gemakkelijk configureerbaar om aan complexe bedrijfsbehoeften te voldoen. U kunt Campagne als één enkel platform met verschillende toepassingen gebruiken die combineren om een open en scalable architectuur tot stand te brengen. Elke Campagneinstantie is een inzameling van processen in de toepassingslaag, waarvan sommige worden gedeeld en wat specifiek zijn.
 
-## Door campagne beheerde Cloud Services{#ac-managed-services}
+## Door campagne beheerde Cloud Servicen{#ac-managed-services}
 
-Adobe Campaign v8 is as a Managed Service geïmplementeerd: alle componenten van Adobe Campaign, inclusief de gebruikersinterface, de uitvoeringsbeheerengine en Campagne-databases, worden volledig door Adobe gehost, inclusief e-mailuitvoering, spiegelpagina&#39;s, traceringsserver en extern opvallende webcomponenten, zoals pagina-/voorkeurscentrum voor afmelden en bestemmingspagina&#39;s.
+Adobe Campaign v8 is as a Managed Service geïmplementeerd: alle componenten van Adobe Campaign, inclusief de gebruikersinterface, de uitvoeringsbeheerengine en de campagnedatabases, worden volledig gehost via Adobe, waaronder e-mailuitvoering, spiegelpagina&#39;s, trackingserver en extern gerichte webcomponenten, zoals pagina/voorkeurscentrum voor afmelden en bestemmingspagina&#39;s.
 
 ## Campagneprocessen
 
@@ -62,10 +62,10 @@ De server van het Web van de campagne controleert de toegang tot de processen va
 
 De Console van de Cliënt van de campagne verbindt met de server van het Web gebruikend XML van de ZEEP over HTTP. De server van het Web verstrekt de veiligheidslaag, gaat de verzoeken tot de laag van de Toepassing over gebruikend Javascript en de interne processen van de Campagne toegang tot het gegevensbestand gebruikend SQL.
 
-De algemene communicatie tussen de processen van de Campagne wordt beschreven in het volgende standalone plaatsingsdiagram: alle onderdelen van de campagne worden op dezelfde computer geïnstalleerd.
+De algemene communicatie tussen de processen van de Campagne wordt beschreven in het volgende standalone plaatsingsdiagram: alle componenten van de Campagne worden geïnstalleerd in de zelfde machine.
 
 ![](assets/ac-standalone.png)
 
-De gebruiker verbindt met de de toepassingsserver van de Campagne gebruikend HTTP. Alle gegevens en informatie worden beheerd in het gegevensbestand van de Campagne. Als een ontwikkelaar van de Campagne om het even welke configuratieveranderingen uitvoert, wordt het gevangen in het gegevensbestand. Als een markeerteken een nieuwe campagne maakt, worden alle informatie en gegevens met betrekking tot deze nieuwe campagne ook beheerd in de database. Wanneer een teller een campagne uitvoert, worden de e-mailleveringen verzonden naar profielen van de server van de Campagne door de server SMTP. Aangezien profielen communiceren met e-mailleveringen, zoals het openen van de e-mail, worden deze gegevens teruggestuurd naar de trackingserver.
+De gebruiker verbindt met de de toepassingsserver van de Campagne gebruikend HTTP. Alle gegevens en informatie worden beheerd in het gegevensbestand van de Campagne. Als een ontwikkelaar van de Campagne om het even welke configuratieveranderingen uitvoert, wordt het gevangen in het gegevensbestand. Als een markeerteken een nieuwe campagne maakt, worden alle informatie en gegevens met betrekking tot deze nieuwe campagne ook beheerd in de database. Wanneer een teller een campagne uitvoert, worden de e-mailleveringen verzonden naar profielen van de server van de Campagne door de server SMTP. Als profielen reageren op e-mailleveringen, zoals het openen van de e-mail, worden deze gegevens teruggestuurd naar de trackingserver.
 
 ![](../assets/do-not-localize/glass.png) [Meer informatie over campagneprocessen](../architecture/general-architecture.md#dev-env).
