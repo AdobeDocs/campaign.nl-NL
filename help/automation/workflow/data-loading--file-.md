@@ -5,9 +5,9 @@ description: Meer informatie over de activiteiten in de workflow voor het laden 
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d946d4a50a4fc13e848b22ee87b02a10b7dfd2ad
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1060'
 ht-degree: 14%
 
 ---
@@ -51,6 +51,10 @@ Vervolgens kunt u de algemene opmaak van het bestand en de opmaak van elke kolom
 Met de algemene bestandsindeling kunt u bepalen hoe de kolommen worden herkend (bestandencodering, gebruikte scheidingstekens, enz.).
 
 Met de kolomopmaak kunt u de waardeverwerking van elke kolom definiëren:
+
+>[!NOTE]
+>
+>U kunt zoveel kolommen toevoegen als u wilt. De maximumlengte van waarden in elke kolom wordt bepaald door het gekozen gegevenstype.
 
 * **[!UICONTROL Ignore column]**: Deze kolom wordt niet verwerkt tijdens het laden van data.
 * **[!UICONTROL Data type]**: Deze geeft het type data op dat voor elke kolom wordt verwacht.
