@@ -2,10 +2,10 @@
 title: Veelgestelde vragen over campagne v8
 description: Ontvang antwoorden op veelgestelde vragen over Adobe Campaign.
 feature: Overview
-role: Admin, Developer, User
+role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 37%
@@ -22,7 +22,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Deze regelmatige frequentie van updates is bedoeld om u het nieuwste en beste in handen te geven, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Daarom is het zo belangrijk dat u met de meest recente versie van Adobe Campaign werkt.
 
-   ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, wordt uw instantie bevorderd door Adobe met elke nieuwe versie.
+   ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie.
 
 1. **Hoe kan ik verbinding maken met Campaign v8?**
 
@@ -32,7 +32,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
 1. **Kan Campagne v8 worden geïnstalleerd op een bedrijfs- of hybride omgeving?**
 
-   Campagne v8 is momenteel alleen beschikbaar in Beheerde Cloud Services, volledig gehost door Adobe.
+   Campagne v8 is momenteel alleen beschikbaar in beheerde Cloud Servicen, volledig gehost door Adobe.
 
 1. **Hoe kan ik de e-mailleverbaarheid verbeteren?**
 
@@ -46,11 +46,11 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Adobe Campaign wordt geleverd met een reeks dashboards en tools om uw e-mailleveringen te controleren.
 
-   [Lees de Campaign Classic v7-documentatie voor meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} hoe te om ervoor te zorgen uw berichten worden verzonden, de uitvoering controleren en actie in werking stellen als een fout voorkomt.
+   [Lees uit Campaign Classic v7 documentatie om te leren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} hoe te om ervoor te zorgen uw berichten worden verzonden, de uitvoering controleren en actie in werking stellen als een fout voorkomt.
 
 1. **Kan ik de uitvoering van de workflow controleren?**
 
-   Begrijp hoe te om de werkschemauitvoering van de Campagne te controleren [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html)
+   Begrijpen hoe u de uitvoering van de campagneworkflow kunt controleren [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html)
 
 1. **Met welke systemen en componenten is Campagne v8 compatibel?**
 
@@ -60,23 +60,23 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 
-   ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Services, contacteer Adobe om uw subdomeinen aan Adobe te delegeren.
+   ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Servicen, contacteer Adobe om uw subdomeinen aan Adobe te delegeren.
 
-1. **Mag ik als Campaign Classic v7-gebruiker migreren naar Campaign v8?**
+1. **Mag ik als gebruiker van Campaign Classic v7 migreren naar Campaign v8?**
 
    Campagne v8 is momenteel alleen beschikbaar voor nieuwe implementaties.
 
 1. **Hoe kan ik campagne downloaden?**
 
-   U kunt het installatieprogramma en de console van de Cliënt van het Centrum van de Download van Adobe krijgen.
+   U kunt het installatieprogramma en de console van de Cliënt van het Centrum van de Download van de Adobe krijgen.
 
-   Als Admin-gebruiker hebt u toegang tot Adobe [Softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} om Adobe Campaign te downloaden.
+   Als Admin-gebruiker hebt u toegang tot Adobe [Softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} om Adobe Campaign te downloaden
 
    Meer informatie over het Distribution Center [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
 1. **Kan ik contact opnemen met campagneexperts?**
 
-   Deelnemen aan campagnegemeenschap: zoeken naar antwoorden in bestaande vragen of de deskundigen vragen. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+   Deelnemen aan de Campagne-gemeenschap: zoeken naar antwoorden in bestaande vragen of de experts raadplegen. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **Hoe kan ik een probleem registreren?**

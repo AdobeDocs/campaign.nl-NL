@@ -4,11 +4,11 @@ description: Leer hoe u de SDK's van Campagne Android en iOS integreert met uw a
 version: v8
 feature: Push
 role: Admin, Developer
-level: Intermediate, Experienced
+level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 3%
@@ -21,12 +21,13 @@ Met de SDK&#39;s voor campagnes voor iOS en Android kunt u de integratie van uw 
 
 Ondersteunde versies voor Android en iOS en compatibele versies voor Campagne-SDK&#39;s voor Campagne v8 worden weergegeven in de [Compatibiliteitsmatrix](../start/compatibility-matrix.md#MobileSDK).
 
-Als Campagnebeheerder kunt u Campagne-SDK&#39;s downloaden van de [Experience Cloud-softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Neem voor meer informatie contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Als Campagnebeheerder kunt u Campagne-SDK&#39;s downloaden van de [Softwaredistributie Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Neem voor meer informatie contact op met [Klantenservice Adoben](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 >[!NOTE]
 >
 >U kunt de Adobe Experience Platform Mobile SDK ook gebruiken door de Adobe Campaign-extensie te configureren in de gebruikersinterface voor dataverzameling. [Meer informatie in documentatie voor ontwikkelaars](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>
 
 ## Integratie-instellingen declareren {#declaring-integration-settings}
 
@@ -34,33 +35,33 @@ Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de function
 
 * **Een integratiesleutel**: om het Adobe Campaign-platform in staat te stellen de mobiele toepassing te identificeren.
 
-   >[!NOTE]
-   >
-   >Deze integratiesleutel wordt ingevoerd in de Adobe Campaign-console, in de **[!UICONTROL Information]** servicetabblad voor de mobiele toepassing.
+  >[!NOTE]
+  >
+  >Deze integratiesleutel wordt ingevoerd in de Adobe Campaign-console, in de **[!UICONTROL Information]** servicetabblad voor de mobiele toepassing.
 
-* **Een URL voor bijhouden**: die overeenkomt met het adres van de Adobe Campaign-trackingserver.
-* **Een marketing-URL**: om de inzameling van abonnementen toe te laten.
+* **Een URL voor bijhouden**: dat overeenkomt met het adres van de Adobe Campaign-trackingserver.
+* **Een marketing-URL**: om het verzamelen van abonnementen toe te laten.
 
 * **In Android**:
 
-   ```sql
-   Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
-   Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
-   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
-   ```
+  ```sql
+  Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
+  Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
+  Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
+  ```
 
 * **In iOS**:
 
-   ```sql
-   Neolane_SDK *nl = [Neolane_SDK getInstance];
-   [nl setMarketingHost:strMktHost];
-   [nl setTrackingHost:strTckHost];
-   [nl setIntegrationKey:strIntegrationKey];
-   ```
+  ```sql
+  Neolane_SDK *nl = [Neolane_SDK getInstance];
+  [nl setMarketingHost:strMktHost];
+  [nl setTrackingHost:strTckHost];
+  [nl setIntegrationKey:strIntegrationKey];
+  ```
 
 ## Android-SDK integreren
 
-Android SDK is een jar-bibliotheek geschreven in JAVA. Zo kunnen Android-ontwikkelaars integreren met Adobe Campaign: registreert een nieuw apparaat, koppelt het apparaat met een gebruiker, volgt gedrag, en meer.
+Android SDK is een jar-bibliotheek geschreven in JAVA. Hiermee kunnen Android-ontwikkelaars integreren met Adobe Campaign: een nieuw apparaat registreren, het apparaat koppelen aan een gebruiker, gedrag bijhouden en meer.
 
 In deze sectie leert u hoe u de Android-SDK kunt gebruiken in een Android-toepassing die [Google Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/).
 
@@ -81,7 +82,6 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
 > * Vergeet niet google-services.json aan uw project te downloaden en toe te voegen.
 >
 > * De `apiKey` moet overeenkomen met de `projectKey` ingesteld in de Adobe Campaign Mobile-toepassing die is gekoppeld aan deze Android-toepassing.
-
 
 ### Android-SDK configureren
 
@@ -226,7 +226,7 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
 
 1. **Firebase Messaging Service configureren**
 
-   Breid uit `FirebaseMessagingService` in de `onMessageReceived` callback om berichten te ontvangen. We raden u aan de `notifyReceive` wanneer de `onMessageReceived` callback wordt geroepen om het volgen van de berichtontvangst op het mobiele apparaat toe te laten. In Adobe Campaign heet dit **afdrukken** melding: Deze functie moet worden aangeroepen vlak voordat het besturingssysteem wordt gevraagd het bericht weer te geven.
+   Breid uit `FirebaseMessagingService` in de `onMessageReceived` callback om berichten te ontvangen. We raden u aan de `notifyReceive` wanneer de `onMessageReceived` callback wordt geroepen om het volgen van de berichtontvangst op het mobiele apparaat toe te laten. In Adobe Campaign heet dit **afdrukken** melding: deze functie moet worden aangeroepen vlak voordat het besturingssysteem wordt gevraagd het bericht weer te geven.
 
    YourApplicationMessagingService.java
 
@@ -330,7 +330,7 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
 
 1. **Het spoor opent gegevensberichten**
 
-   Voor gegevensberichten kunt u bijhouden wanneer een gebruiker op een melding klikt om het bericht te openen met de knop `notifyOpening` functie. De meldingsactiviteit wordt gemaakt wanneer de gebruiker op het bericht klikt (gemaakt tijdens `onMessageReceived`functieaanroep)
+   Voor gegevensberichten kunt u bijhouden wanneer een gebruiker op een bericht klikt om het te openen, met de knop `notifyOpening` functie. De meldingsactiviteit wordt gemaakt wanneer de gebruiker op het bericht klikt (gemaakt tijdens `onMessageReceived`functieaanroep)
 
    ```sql
    public class NotificationActivity extends Activity {
@@ -428,7 +428,7 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
 
 1. **Tracking ontvangen voor gegevensberichten**
 
-   Voor gegevensberichten, wordt het volgen ontvangen bij `onMessageReceived` oproepniveau. De functie &#39;notifyReceive&#39; moet worden aangeroepen.
+   Voor gegevensberichten, wordt het volgen ontvangen bij `onMessageReceived` oproepniveau. De functie notifyReceive moet worden aangeroepen.
 
    YourApplicationMessagingService.java
 
@@ -498,10 +498,10 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
 
    Voor berichtberichten, moet de volgende ontvangst op twee niveau worden gevormd:
 
-   * `onMessageReceived` (niet op de achtergrond): de uitvoering heeft plaatsgevonden in het vorige deel
+   * `onMessageReceived` (toepassing niet op de achtergrond): de implementatie is uitgevoerd in het vorige gedeelte
    * `onCreate` van de lanceeractiviteit (of de doelactiviteit indien `click_action`functie wordt gebruikt.) (Toepassing niet op de achtergrond).
 
-   U dient dit op hetzelfde moment te doen als klikken en openen.
+   U dient dit op hetzelfde moment te doen als klikken op bijhouden of openen.
 
    ```sql
    /** Called when the activity is first created. */
@@ -558,7 +558,7 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
    ```
 
 
-## iOS SDK integreren
+## IOS SDK integreren
 
 1. **Het mobiele apparaat registreren op de Adobe Campaign-server**
 
@@ -566,6 +566,7 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
 
    * Stuur de bericht-id of push-id (deviceToken voor iOS en registrationID voor Android) naar Adobe Campaign.
    * de afstemmingssleutel of de gebruikersnaam herstellen (bijvoorbeeld e-mail- of accountnummer)
+
 
    ```sql
    // Callback called on successful registration to the APNs
@@ -577,9 +578,9 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
    }
    ```
 
-1. **Functie voor bijhouden inschakelen**
+1. **De functie Tekstspatiëring inschakelen**
 
-   Met de functie voor bijhouden kunt u bijhouden wanneer meldingen zijn geactiveerd (wordt geopend).
+   Met de functie Tekstspatiëring kunt u bijhouden wanneer meldingen zijn geactiveerd (wordt geopend).
 
    ```sql
    (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
@@ -793,7 +794,6 @@ Leer hoe u FCM kunt implementeren in uw toepassing in [Google-documentatie](http
       @end
       ```
 
-
 ## Variabelen {#variables}
 
 Met de variabelen kunt u het gedrag van mobiele toepassingen definiëren nadat u een melding hebt ontvangen. Deze variabelen moeten worden gedefinieerd in de mobiele toepassingscode en in de Adobe Campaign Client Console, in het gedeelte **[!UICONTROL Variables]** in de speciale service voor mobiele toepassingen.
@@ -803,43 +803,43 @@ Hieronder ziet u een voorbeeld van een code waarmee een mobiele toepassing toege
 
 * **In Android**:
 
-   ```sql
-   public void onReceive(Context context, Intent intent) {
-        ...
-       String event = intent.getStringExtra("VAR");
-        ...
-   }
-   ```
+  ```sql
+  public void onReceive(Context context, Intent intent) {
+       ...
+      String event = intent.getStringExtra("VAR");
+       ...
+  }
+  ```
 
 * **In iOS**:
 
-   ```sql
-   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-   {
-       ....
-       if( launchOptions )
-       {
-           // When application is not already launched, the notification data if any are stored in the key 'UIApplicationLaunchOptionsRemoteNotificationKey'
-           NSDictionary *localLaunchOptions = [launchOptions objectForKey:@"UIApplicationLaunchOptionsRemoteNotificationKey"];
-           if( localLaunchOptions )
-           {
-            ...
-            [localLaunchOptions objectForKey:@"VAR"];
+  ```sql
+  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+  {
+      ....
+      if( launchOptions )
+      {
+          // When application is not already launched, the notification data if any are stored in the key 'UIApplicationLaunchOptionsRemoteNotificationKey'
+          NSDictionary *localLaunchOptions = [launchOptions objectForKey:@"UIApplicationLaunchOptionsRemoteNotificationKey"];
+          if( localLaunchOptions )
+          {
            ...
-           }
+           [localLaunchOptions objectForKey:@"VAR"];
+          ...
+          }
+     }
+  }
+  
+  // Callback called when the application is already launched (whether the application is running foreground or background)
+  - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
+  {
+      if( launchOptions )
+      {
+       ...
+          [launchOptions objectForKey:@"VAR"];
       }
-   }
-   
-   // Callback called when the application is already launched (whether the application is running foreground or background)
-   - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
-   {
-       if( launchOptions )
-       {
-        ...
-           [launchOptions objectForKey:@"VAR"];
-       }
-   }
-   ```
+  }
+  ```
 
 >[!CAUTION]
 >
@@ -887,46 +887,46 @@ Op dit niveau moet u:
 
 * Wijs de extensie van de inhoud toe aan de categorie die door Adobe Campaign is verzonden:
 
-   Als u een afbeelding wilt weergeven in uw mobiele toepassing, kunt u de categoriewaarde instellen op &quot;image&quot; in Adobe Campaign en in uw mobiele toepassing, maakt u een meldingsextensie met de optie **UNNotificationExtensionCategory** parameter ingesteld op &quot;image&quot;. Wanneer het pushbericht op het apparaat wordt ontvangen, wordt de extensie aangeroepen op basis van de gedefinieerde categoriewaarde.
+  Als u een afbeelding wilt weergeven in uw mobiele toepassing, kunt u de categoriewaarde instellen op &quot;image&quot; in Adobe Campaign en in uw mobiele toepassing, maakt u een meldingsextensie met de optie **UNNotificationExtensionCategory** parameter ingesteld op &quot;image&quot;. Wanneer het pushbericht op het apparaat wordt ontvangen, wordt de extensie aangeroepen op basis van de gedefinieerde categoriewaarde.
 
 * De lay-out voor uw melding definiëren
 
-   U moet een lay-out definiëren met de relevante widgets. Voor een afbeelding krijgt de widget de naam **UIImageView**.
+  U moet een lay-out definiëren met de relevante widgets. Voor een afbeelding krijgt de widget de naam **UIImageView**.
 
 * Uw media weergeven
 
-   U moet code toevoegen om de mediagegevens aan de widget te kunnen doorgeven. Hier volgt een voorbeeld van code voor een afbeelding:
+  U moet code toevoegen om de mediagegevens aan de widget te kunnen doorgeven. Hier volgt een voorbeeld van code voor een afbeelding:
 
-   ```sql
-   #import "NotificationViewController.h"
-   #import <UserNotifications/UserNotifications.h>
-   #import <UserNotificationsUI/UserNotificationsUI.h>
-   
-   @interface NotificationViewController () <UNNotificationContentExtension>
-   
-   @property (strong, nonatomic) IBOutlet UIImageView *imageView;
-   @property (strong, nonatomic) IBOutlet UILabel *notifContent;
-   @property (strong, nonatomic) IBOutlet UILabel *label;
-   
-   @end
-   
-   @implementation NotificationViewController
-   
-   - (void)viewDidLoad {
-       [super viewDidLoad];
-       // Do any required interface initialization here.
-   }
-   
-   - (void)didReceiveNotification:(UNNotification *)notification {
-       self.label.text = notification.request.content.title;
-       self.notifContent.text = notification.request.content.body;
-       UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
-       if ([attachment.URL startAccessingSecurityScopedResource])
-       {
-         NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
-         self.imageView.image =[UIImage imageWithData: imageData];
-         [attachment.URL stopAccessingSecurityScopedResource];
-       }
-   }
-   @end
-   ```
+  ```sql
+  #import "NotificationViewController.h"
+  #import <UserNotifications/UserNotifications.h>
+  #import <UserNotificationsUI/UserNotificationsUI.h>
+  
+  @interface NotificationViewController () <UNNotificationContentExtension>
+  
+  @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+  @property (strong, nonatomic) IBOutlet UILabel *notifContent;
+  @property (strong, nonatomic) IBOutlet UILabel *label;
+  
+  @end
+  
+  @implementation NotificationViewController
+  
+  - (void)viewDidLoad {
+      [super viewDidLoad];
+      // Do any required interface initialization here.
+  }
+  
+  - (void)didReceiveNotification:(UNNotification *)notification {
+      self.label.text = notification.request.content.title;
+      self.notifContent.text = notification.request.content.body;
+      UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
+      if ([attachment.URL startAccessingSecurityScopedResource])
+      {
+        NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
+        self.imageView.image =[UIImage imageWithData: imageData];
+        [attachment.URL stopAccessingSecurityScopedResource];
+      }
+  }
+  @end
+  ```

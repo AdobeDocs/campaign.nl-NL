@@ -2,10 +2,10 @@
 title: Pushmelding verzenden met Adobe Campaign
 description: Aan de slag met pushmeldingen in Campagne
 feature: Push
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 3%
@@ -24,7 +24,7 @@ In deze sectie worden de elementen beschreven die specifiek zijn voor de leverin
 
 >[!CAUTION]
 >
->In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md), mobiele registratie is nu **asynchroon**. [Meer informatie](../architecture/staging.md)
+>In de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), mobiele registratie is nu **asynchroon**. [Meer informatie](../architecture/staging.md)
 
 Blader naar de **[!UICONTROL Campaigns]** tabblad, klikt u op **[!UICONTROL Deliveries]** en klik op de knop **[!UICONTROL Create]** boven de lijst met bestaande leveringen.
 
@@ -36,7 +36,7 @@ Blader naar de **[!UICONTROL Campaigns]** tabblad, klikt u op **[!UICONTROL Deli
 
 Voer de volgende stappen uit om berichten op iOS-apparaten te verzenden:
 
-1. Selecteer **[!UICONTROL Deliver on iOS]** leveringssjabloon.
+1. Selecteer de **[!UICONTROL Deliver on iOS]** leveringssjabloon.
 
    ![](assets/push_ios_1.png)
 
@@ -66,13 +66,13 @@ Voer de volgende stappen uit om berichten op iOS-apparaten te verzenden:
 
 1. Van de **[!UICONTROL Sound and Badge]** kunt u de volgende opties bewerken:
 
-   * **[!UICONTROL Clean Badge]**: Schakel deze optie in om de waarde van de badge te vernieuwen.
+   * **[!UICONTROL Clean Badge]**: schakel deze opties in om de waarde van de badge te vernieuwen.
 
-   * **[!UICONTROL Value]**: Stel een nummer in dat wordt gebruikt om het aantal nieuwe ongelezen gegevens direct op het toepassingspictogram weer te geven.
+   * **[!UICONTROL Value]**: stel een getal in dat wordt gebruikt om het aantal nieuwe ongelezen gegevens direct op het toepassingspictogram weer te geven.
 
-   * **[!UICONTROL Critical alert mode]**: Schakel deze optie in om geluid toe te voegen aan uw melding, zelfs als de telefoon van de gebruiker is ingesteld op de focusmodus of als de iPhone is gedempt.
+   * **[!UICONTROL Critical alert mode]**: schakel deze optie in om geluid toe te voegen aan uw melding, zelfs als de telefoon van de gebruiker is ingesteld op de focusmodus of als de iPhone is gedempt.
 
-   * **[!UICONTROL Name]**: Selecteer het geluid dat door de mobiele terminal moet worden afgespeeld wanneer het bericht wordt ontvangen.
+   * **[!UICONTROL Name]**: selecteer het geluid dat door de mobiele terminal moet worden afgespeeld wanneer het bericht wordt ontvangen.
 
    * **[!UICONTROL Volume]**: volume van uw geluid van 0 tot 100.
 
@@ -87,23 +87,23 @@ Voer de volgende stappen uit om berichten op iOS-apparaten te verzenden:
 
 1. Van de **[!UICONTROL Advanced]** kunt u de volgende algemene opties bewerken:
 
-   * **[!UICONTROL Mutable content]**: Schakel deze optie in als u wilt dat de mobiele toepassing media-inhoud kan downloaden.
+   * **[!UICONTROL Mutable content]**: schakel deze optie in zodat de mobiele toepassing media-inhoud kan downloaden.
 
-   * **[!UICONTROL Thread-id]**: identifier die wordt gebruikt om gerelateerde meldingen te groeperen.
+   * **[!UICONTROL Thread-id]**: ID die wordt gebruikt om gerelateerde meldingen te groeperen.
 
-   * **[!UICONTROL Category]**: naam van de rubriek-id die knoppen voor handelingen weergeeft. Met deze meldingen kan de gebruiker sneller verschillende taken uitvoeren als reactie op een melding zonder de applicatie te openen of erin te moeten navigeren.
+   * **[!UICONTROL Category]**: naam van de rubriek-id waarin de knoppen voor handelingen worden weergegeven. Met deze meldingen kan de gebruiker sneller verschillende taken uitvoeren als reactie op een melding zonder de applicatie te openen of erin te moeten navigeren.
 
    ![](assets/push_ios_6.png)
 
 1. Voor meldingen met tijdgevoeligheid kunt u de volgende opties opgeven:
 
-   * **[!UICONTROL Target content ID]**: identifier die wordt gebruikt om aan te geven welk toepassingsvenster moet worden verzonden wanneer de melding wordt geopend.
+   * **[!UICONTROL Target content ID]**: id die wordt gebruikt om aan te geven welk toepassingsvenster moet worden verzonden wanneer de melding wordt geopend.
 
    * **[!UICONTROL Launch image]**: naam van het startafbeeldingsbestand dat moet worden weergegeven. Als de gebruiker ervoor kiest de toepassing te starten, wordt de geselecteerde afbeelding weergegeven in plaats van het startscherm van de toepassing.
 
    * **[!UICONTROL Interruption level]**:
 
-      * **[!UICONTROL Active]**: Het systeem stelt de melding standaard in, licht het scherm aan en kan een geluid afspelen. Meldingen doorbreken niet door de focusmodi.
+      * **[!UICONTROL Active]**: Standaard ingesteld, geeft het systeem de melding direct weer, licht het scherm omhoog en kan een geluid worden afgespeeld. Meldingen doorbreken niet door de focusmodi.
 
       * **[!UICONTROL Passive]**: Het systeem voegt het bericht toe aan de meldingslijst zonder het scherm te belichten of een geluid af te spelen. Meldingen doorbreken niet door de focusmodi.
 
@@ -111,7 +111,7 @@ Voer de volgende stappen uit om berichten op iOS-apparaten te verzenden:
 
       * **[!UICONTROL Critical]** Het systeem presenteert onmiddellijk het bericht, licht omhoog het scherm, en mijdt de demtschakelaar of nadrukwijzen. Voor dit niveau is een speciale machtiging van Apple vereist.
 
-   * **[!UICONTROL Relevance score]**: een relevantiescore instellen van 0 tot 100. Het systeem gebruikt dit om de berichten in het berichtoverzicht te sorteren.
+   * **[!UICONTROL Relevance score]**: stel een relevantiescore in van 0 tot 100. Het systeem gebruikt dit om de berichten in het berichtoverzicht te sorteren.
 
    ![](assets/push_ios_7.png)
 
@@ -124,7 +124,7 @@ Voer de volgende stappen uit om berichten op iOS-apparaten te verzenden:
 
 Voer de volgende stappen uit om meldingen te verzenden op Android-apparaten:
 
-1. Selecteer **[!UICONTROL Deliver on Android (android)]** leveringssjabloon.
+1. Selecteer de **[!UICONTROL Deliver on Android (android)]** leveringssjabloon.
 
    ![](assets/push-template-android.png)
 
@@ -132,7 +132,7 @@ Voer de volgende stappen uit om meldingen te verzenden op Android-apparaten:
 
    ![](assets/push-android-select-target.png)
 
-1. Selecteren **[!UICONTROL Subscribers of an Android mobile application]** kiest u de service die relevant is voor uw mobiele toepassing (in dit geval Neotrips) en selecteert u vervolgens de Android-versie van de toepassing.
+1. Selecteren **[!UICONTROL Subscribers of an Android mobile application]** Kies de service die relevant is voor uw mobiele toepassing (in dit geval Neotrips) en selecteer vervolgens de Android-versie van de toepassing.
 
    ![](assets/push-android-subscribers.png)
 

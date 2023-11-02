@@ -3,9 +3,9 @@ title: Werken met campagne en SFDC
 description: Leer hoe u kunt werken met Campagne en Salesforce.com
 feature: Salesforce Integration
 role: Admin, User
-level: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -42,15 +42,15 @@ Ten eerste moet u de externe account van Salesforce maken.
    * Uw Salesforce kopiëren/plakken **[!UICONTROL Security token]**
    * Selecteer uw **[!UICONTROL API version]**. Ondersteunde SFDC API-versies worden vermeld in campagne [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
 
-1. Selecteer **Inschakelen** om het account te activeren in Campagne.
+1. Selecteer de **Inschakelen** om het account te activeren in Campagne.
 
 >[!NOTE]
 >
 >Als u de installatie wilt goedkeuren, moet u zich afmelden en weer aanmelden bij de Adobe Campaign Client Console.
 
-## Tabellen selecteren om te synchroniseren{#sfdc-create-tables}
+## Tabellen selecteren voor synchronisatie{#sfdc-create-tables}
 
-U kunt nu tabellen configureren om te synchroniseren.
+U kunt nu tabellen configureren voor synchronisatie.
 
 1. Klik op de knop **[!UICONTROL Salesforce CRM configuration wizard...]**.
 1. Selecteer de tabellen die u wilt synchroniseren en start het proces.
@@ -66,7 +66,7 @@ Als het schema eenmaal is gemaakt, kunt u opsommingen automatisch synchroniseren
 
 1. Open de assistent vanuit de  **[!UICONTROL Synchronizing enumerations...]** koppeling.
 1. Selecteer de opsomming van Adobe Campaign die de opsomming Salesforce aanpast.
-U kunt alle waarden van een opsomming van Adobe Campaign door die van CRM vervangen: Selecteer **[!UICONTROL Yes]** in de **[!UICONTROL Replace]** kolom.
+U kunt alle waarden van een Adobe Campaign-opsomming vervangen door die van de CRM: hiervoor selecteert u **[!UICONTROL Yes]** in de **[!UICONTROL Replace]** kolom.
 
    ![](assets/sfdc-enum.png)
 

@@ -4,9 +4,9 @@ description: Leer hoe u Adobe Experience Platform Mobile SDK kunt integreren met
 version: v8
 feature: Push
 role: Admin, Developer
-level: Intermediate, Experienced
-exl-id: b5a0fe46-f7b4-4be1-abf0-162fc1412886
-source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
+level: Intermediate
+exl-id: 1a75f411-3f71-4114-b738-277820dc6138
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1659'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om uw app in te stellen met Adobe Experience Platfo
 1. (optioneel) Toevoegen [Adobe Experience Platform Assurance voor uw app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation. Learn how to implement Adobe Experience Platform Assurance extension [in this page](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
 1. Configureer uw mobiele iOS- en Android-services in Adobe Campaign als gedetailleerd [op deze pagina](#push-service).
 1. Installeren en configureren [Adobe Campaign-extensie](#configure-extension) in uw eigenschap mobile.
-1. Volg [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} voor installatie met Adobe Experience Platform Mobile SDK&#39;s in uw app.
+1. Volgen [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} voor installatie met Adobe Experience Platform Mobile SDK&#39;s in uw app.
 
 ## Vereisten {#before-starting}
 
@@ -42,9 +42,9 @@ Voordat u een mobiele toepassing maakt, moet u er eerst voor zorgen dat u over d
 
 Om **Eigenschap** en **Bedrijf** rechten, volgt u de onderstaande stappen:
 
-1. Toegang krijgen tot **[!DNL Admin Console]**.
+1. Toegang krijgen tot de **[!DNL Admin Console]**.
 1. Van de **[!UICONTROL Products]** selecteert u de **[!UICONTROL Adobe Experience Platform Data Collection]** kaart.
-1. Bestaande selecteren **[!UICONTROL Product Profile]** of maak een nieuwe met de **[!UICONTROL New profile]** knop. Leer hoe u een nieuwe **[!UICONTROL New profile]** in de [Documentatie beheerconsole](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
+1. Bestaande selecteren **[!UICONTROL Product Profile]** of maak een nieuwe versie met de **[!UICONTROL New profile]** knop. Leer hoe u een nieuwe **[!UICONTROL New profile]** in de [Documentatie voor beheerconsole](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 1. Selecteer op het tabblad **[!UICONTROL Permissions]** de optie **[!UICONTROL Property Rights]**.
 1. Klik op **[!UICONTROL Add all]**. Hiermee voegt u het volgende recht toe aan uw productprofiel:
    * **[!UICONTROL Approve]**
@@ -68,7 +68,7 @@ Om **Eigenschap** en **Bedrijf** rechten, volgt u de onderstaande stappen:
 
 Om dit toe te wijzen **[!UICONTROL Product profile]** aan gebruikers, volg de hieronder stappen:
 
-1. Toegang krijgen tot **[!DNL Admin Console]**.
+1. Toegang krijgen tot de **[!DNL Admin Console]**.
 1. Van de **[!UICONTROL Products]** selecteert u de **[!UICONTROL Adobe Experience Platform Data Collection]** kaart.
 1. Selecteer de eerder geconfigureerde **[!UICONTROL Product profile]**.
 1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add user]**.
@@ -84,7 +84,7 @@ De technische opstelling impliceert nauwe samenwerking tussen de toepassingsontw
 
 Voer de implementatiestappen uit die in de onderstaande koppelingen worden beschreven:
 
-* Voor **Apple iOS**: Leer hoe u uw app registreert bij APN&#39;s in [Apple-documentatie](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
+* Voor **Apple iOS**: Leer hoe u uw app bij APN&#39;s kunt registreren in [Apple-documentatie](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
 * Voor **Google Android**: Leer hoe u een Firebase Cloud Messaging-clienttoepassing op Android instelt in [Google-documentatie](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
 <!--
@@ -128,7 +128,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 ## Een eigenschap voor een mobiele tag instellen in de gegevensverzameling van Adobe Experience Platform {#launch-property}
 
-Als u een eigenschap voor mobiele apparaten instelt, kan de ontwikkelaar of markator van de mobiele app de mobiele SDK&#39;s configureren. Normaal gesproken maakt u een eigenschap mobile voor elke mobiele toepassing die u wilt beheren. Leer hoe u een mobiele eigenschap kunt maken en configureren in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+Als u een eigenschap voor mobiele apparaten instelt, kan de ontwikkelaar of markator van de mobiele app de mobiele SDK&#39;s configureren. Doorgaans maakt u een eigenschap voor mobiele apparaten voor elke mobiele toepassing die u wilt beheren. Leer hoe u een mobiele eigenschap kunt maken en configureren in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 <!--
 To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
@@ -188,11 +188,11 @@ Ga als volgt te werk om een app voor iOS-apparaten te maken:
 
 1. Bladeren naar de **[!UICONTROL Sounds]** om het af te spelen geluid te definiëren. Klikken **[!UICONTROL Add]** en vullen **[!UICONTROL Internal name]** veld dat de naam moet bevatten van het bestand dat is ingesloten in de toepassing of de naam van het systeemgeluid.
 
-1. Klikken **[!UICONTROL Next]** om de ontwikkeltoepassing te configureren.
+1. Klikken **[!UICONTROL Next]** om de ontwikkelingstoepassing te configureren.
 
 1. De integratiesleutel is specifiek voor elke toepassing. De mobiele toepassing wordt aan Adobe Campaign gekoppeld.
 
-   Controleer of hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
+   Zorg ervoor dat hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
 
    Meer informatie in [de documentatie voor ontwikkelaars](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
@@ -207,7 +207,7 @@ Ga als volgt te werk om een app voor iOS-apparaten te maken:
 
 1. Selecteer het **[!UICONTROL Authentication mode]**. Er zijn twee modi beschikbaar:
 
-   * (Aanbevolen) **[!UICONTROL Token-based authentication]**: De APNs-verbindingsinstellingen invullen **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** en **[!UICONTROL Bundle Id]** Selecteer vervolgens uw p8-certificaat door op **[!UICONTROL Enter the private key...]**. Voor meer informatie **[!UICONTROL Token-based authentication]**, zie [Apple-documentatie](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+   * (Aanbevolen) **[!UICONTROL Token-based authentication]**: Vul de verbindingsinstellingen van APNs in **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** en **[!UICONTROL Bundle Id]** Selecteer vervolgens uw p8-certificaat door op **[!UICONTROL Enter the private key...]**. Voor meer informatie **[!UICONTROL Token-based authentication]**, zie [Apple-documentatie](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
 
    * **[!UICONTROL Certificate-based authentication]**: Klikken **[!UICONTROL Enter the certificate...]**  Selecteer vervolgens de p12-toets en voer het wachtwoord in dat de ontwikkelaar van de mobiele toepassing heeft opgegeven.
 
@@ -232,7 +232,7 @@ Voer de volgende stappen uit om een app voor Android-apparaten te maken:
 1. Voer de naam van uw app in het dialoogvenster **[!UICONTROL Label]** veld.
 1. De integratiesleutel is specifiek voor elke toepassing. De mobiele toepassing wordt aan Adobe Campaign gekoppeld.
 
-   Controleer of hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
+   Zorg ervoor dat hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
 
    Meer informatie in [de documentatie voor ontwikkelaars](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
@@ -275,11 +275,11 @@ Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te pass
 
 De **Adobe Campaign Classic-extensie** voor Adobe Experience Platform Mobile SDK&#39;s kunt u pushmeldingen voor uw mobiele apps maken en gebruikers-pushtokens verzamelen en interactiemetingen beheren met Adobe Experience Platform-services.
 
-Deze extensie, die geldt voor zowel Campaign Classic v7 als Campagne v8, is vooraf geïnstalleerd op uw omgeving en moet worden geconfigureerd. Voer de volgende stappen uit om de extensie voor de eigenschap mobile tag te configureren:
+Deze extensie, die van toepassing is op Campaign Classic v7 en Campagne v8, is vooraf geïnstalleerd op uw omgeving en moet worden geconfigureerd. Voer de volgende stappen uit om de extensie voor de eigenschap mobile tag te configureren:
 
 1. Open de eigenschap tag die u eerder hebt gemaakt.
 1. Blader vanuit de linkernavigatie naar **Extensies** en opent u de **Catalogus** tab. Gebruik het zoekveld om het **Adobe Campaign Classic** extensie.
-1. Klik op de Campaign Classic-kaart op de knop **Installeren** knop.
-1. Voer de instellingen in zoals beschreven in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}.
+1. Klik op de kaart van het Campaign Classic op **Installeren** knop.
+1. Instellingen invoeren zoals beschreven in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}.
 
-U kunt nu campagne toevoegen aan uw app, zoals beschreven in  [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
+U kunt nu campagne toevoegen aan uw app, zoals wordt beschreven in  [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.

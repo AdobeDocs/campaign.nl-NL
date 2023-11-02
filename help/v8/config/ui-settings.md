@@ -4,9 +4,9 @@ description: Leer hoe u de instellingen van de campagneinterface kunt aanpassen
 version: v8
 feature: Application Settings
 role: Admin, Developer
-level: Beginner, Intermediate, Experienced
-exl-id: fefb6d80-c3d1-448b-82ab-648da58a0ba4
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+level: Beginner
+exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1846'
 ht-degree: 1%
@@ -53,6 +53,7 @@ Als u alle records wilt laden, klikt u met de rechtermuisknop op de lijst en sel
 >[!CAUTION]
 >
 >Wanneer een lijst een hoog volume records bevat, kan het enige tijd duren voordat het bestand volledig is geladen.
+>
 
 ### Kolommen toevoegen en verwijderen {#add-columns}
 
@@ -69,7 +70,7 @@ De kolom wordt rechts van de bestaande kolommen toegevoegd.
 U kunt het scherm van de lijstconfiguratie ook gebruiken om kolommen toe te voegen en te verwijderen:
 
 1. Klik in een lijst met records op **[!UICONTROL Configure list]** in de rechterbenedensectie.
-1. Dubbelklik op de velden die u wilt toevoegen in het dialoogvenster **[!UICONTROL Available fields]** lijst: zij worden toegevoegd aan de **[!UICONTROL Output columns]** lijst.
+1. Dubbelklik op de velden die u wilt toevoegen in het dialoogvenster **[!UICONTROL Available fields]** lijst: ze worden toegevoegd aan de **[!UICONTROL Output columns]** lijst.
 
    ![Configuratiescherm van lijst](assets/list-config-screen.png)
 
@@ -78,7 +79,8 @@ U kunt het scherm van de lijstconfiguratie ook gebruiken om kolommen toe te voeg
    >
    >Geavanceerde velden worden standaard niet weergegeven. Klik op de knop **Geavanceerde velden weergeven** in de rechterbenedensectie van de lijst met beschikbare velden.
    >
-   >Velden worden aangegeven met specifieke pictogrammen: SQL-velden, gekoppelde tabellen, berekende velden, enzovoort. Voor elk geselecteerd veld wordt de beschrijving weergegeven onder de lijst met beschikbare velden.
+   >Velden worden aangegeven met specifieke pictogrammen: SQL-velden, gekoppelde tabellen, berekende velden enzovoort. Voor elk geselecteerd veld wordt de beschrijving weergegeven onder de lijst met beschikbare velden.
+   >
 
 1. Gebruik de pijlen omhoog en omlaag om de **weergavevolgorde**.
 
@@ -140,9 +142,9 @@ Als u gegevens uit een lijst wilt exporteren, moet u een wizard voor exporteren 
 
 ### Een lijst sorteren {#sorting-a-list}
 
-Lijsten kunnen een grote hoeveelheid gegevens bevatten. U kunt deze gegevens sorteren of eenvoudige of geavanceerde filters toepassen. Door te sorteren kunt u gegevens in oplopende of aflopende volgorde weergeven. Met filters kunt u alleen geselecteerde gegevens definiëren en combineren.
+Lijsten kunnen veel gegevens bevatten. U kunt deze gegevens sorteren of eenvoudige of geavanceerde filters toepassen. Door te sorteren kunt u gegevens in oplopende of aflopende volgorde weergeven. Met filters kunt u alleen geselecteerde gegevens definiëren en combineren.
 
-Klik op de kolomkop om een oplopende of aflopende sortering toe te passen of om het sorteren van gegevens te annuleren. De actieve sorteerstatus en sorteervolgorde worden aangegeven met een blauwe pijl vóór het kolomlabel. Een rood streepje vóór het kolomlabel betekent dat de sortering wordt toegepast op gegevens die uit de database zijn geïndexeerd. Deze sorteermethode wordt gebruikt om sorteertaken te optimaliseren.
+Klik op de kolomkop om oplopende of aflopende sortering toe te passen of om gegevenssortering te annuleren. De actieve sorteerstatus en sorteervolgorde worden aangegeven met een blauwe pijl vóór het kolomlabel. Een rood streepje vóór het kolomlabel betekent dat de sortering wordt toegepast op gegevens die uit de database zijn geïndexeerd. Deze sorteermethode wordt gebruikt om sorteertaken te optimaliseren.
 
 U kunt ook sorteren configureren of sorteercriteria combineren. Volg de onderstaande stappen om dit te doen:
 
@@ -162,7 +164,7 @@ U kunt ook sorteren configureren of sorteercriteria combineren. Volg de ondersta
 
 Een opsomming (ook wel &#39;gespecificeerde lijst&#39; genoemd) is een lijst met waarden die door het systeem worden voorgesteld om velden te vullen. Gebruik opsommingen om de waarden van deze velden te standaardiseren, hulp bij gegevensinvoer of gebruik binnen query&#39;s.
 
-De lijst met waarden wordt weergegeven als een vervolgkeuzelijst waaruit u de waarde kunt selecteren die in het veld moet worden ingevoerd. In de vervolgkeuzelijst is ook voorspellende invoer mogelijk: Voer de eerste letters in en de rest wordt door de toepassing ingevuld.
+De lijst met waarden wordt weergegeven als een vervolgkeuzelijst waaruit u de waarde kunt selecteren die in het veld moet worden ingevoerd. In de vervolgkeuzelijst is ook voorspelbare invoer mogelijk: voer de eerste letters in en de toepassing vult de rest in.
 
 De waarden voor dit type veld worden gedefinieerd en het algemene beheer van deze velden (het toevoegen/verwijderen van een waarde) wordt uitgevoerd via de **[!UICONTROL Administration > Platform > Enumerations]** knooppunt van de structuur.
 
@@ -172,10 +174,10 @@ De waarden voor dit type veld worden gedefinieerd en het algemene beheer van dez
 
 Opsommingen worden opgeslagen in de **[!UICONTROL Administration > Platform > Enumerations]** map van de verkenner.
 
-Ze kunnen: Open, Systeem, Emoticon of Gesloten.
+Ze kunnen zijn: Open, System, Emoticon of Closed.
 
 * An **Openen** Met opsomming kunnen gebruikers rechtstreeks nieuwe waarden toevoegen in de velden die op deze opsomming zijn gebaseerd.
-* A **Gesloten** de opsomming heeft een vaste lijst met waarden die alleen vanuit de **[!UICONTROL Administration > Platform > Enumerations]** map van de verkenner.
+* A **Gesloten** de opsomming heeft een vaste lijst met waarden die alleen kunnen worden gewijzigd vanuit de **[!UICONTROL Administration > Platform > Enumerations]** map van de verkenner.
 * An **Emoticon** de opsomming wordt gebruikt om de emoticonlijst bij te werken. Meer informatie
 * A **Systeem** opsomming is gekoppeld aan systeemvelden en wordt aangeduid met een interne naam.
 
@@ -203,13 +205,13 @@ Wanneer een gebruiker een waarde invoert die niet bestaat in een opsomming voor 
 Voer de volgende stappen uit om een alias te maken:
 
 1. Klikken **[!UICONTROL Add]** van de **[!UICONTROL Alias]** tab.
-1. Voer de alias in die u wilt omzetten en selecteer de waarde die u wilt toepassen in de vervolgkeuzelijst.
+1. Voer de alias in die u wilt converteren en selecteer de waarde die u wilt toepassen in de vervolgkeuzelijst.
 
    ![Een nieuwe alias maken](assets/new-alias.png)
 
 1. Klikken **[!UICONTROL Ok]** en bevestigen.
 
-1. Sla uw wijzigingen op. De vervanging van waarden wordt uitgevoerd door de **Aliasreiniging** workflow die elke nacht wordt uitgevoerd. Zie [Gegevens wissen](#running-data-cleansing).
+1. Sla uw wijzigingen op. De vervanging van waarden wordt uitgevoerd door **Aliasreiniging** workflow die elke nacht wordt uitgevoerd. Zie [Gegevens wissen](#running-data-cleansing).
 
 Voor alle velden die op deze opsomming zijn gebaseerd, wanneer een gebruiker de waarde invoert **Adobe** in een veld &quot;bedrijf&quot; (in de Adobe Campaign Client Console, in een webformulier) wordt deze automatisch vervangen door de waarde **Adobe**.
 
@@ -254,11 +256,12 @@ De **[!UICONTROL Alias]** Het subtabblad van een opsomming kan het aantal exempl
 >[!CAUTION]
 >
 >Het berekenen van voorvallen van aliasinggegevens kan lang duren.
+>
 
 U kunt de aanraakberekening handmatig uitvoeren via de **[!UICONTROL Cleanse values...]** koppeling. Om dit te doen, klik **[!UICONTROL Advanced parameters...]** koppelen en optie(s) selecteren.
 
-* **[!UICONTROL Update the number of alias hits]**: hiermee kunt u resultaten bijwerken die al zijn berekend op basis van de ingevoerde datum.
-* **[!UICONTROL Recalculate the number of alias hits from the start]**: Hiermee kunt u berekeningen uitvoeren op het hele Adobe Campaign-platform.
+* **[!UICONTROL Update the number of alias hits]**: hiermee kunt u treffers bijwerken die al zijn berekend op basis van de ingevoerde datum.
+* **[!UICONTROL Recalculate the number of alias hits from the start]**: hiermee kunt u berekeningen uitvoeren op het hele Adobe Campaign-platform.
 
 U kunt ook een specifieke workflow maken, zodat de berekening automatisch gedurende een bepaalde periode wordt uitgevoerd, bijvoorbeeld eenmaal per week.
 

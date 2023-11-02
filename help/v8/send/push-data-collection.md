@@ -3,11 +3,12 @@ title: Pushmelding verzenden met Adobe Campaign
 description: Aan de slag met pushmeldingen in Campagne
 feature: Push
 role: Data Engineer
-level: Beginner
-badge: label="Beperkte beschikbaarheid" type="Informatief"
-source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
+level: Intermediate
+badge: label="Beperkte beschikbaarheid" type="Informative"
+exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1389'
 ht-degree: 1%
 
 ---
@@ -42,7 +43,7 @@ Voer in het kader van deze bijgewerkte implementatie de volgende stappen uit om 
 
 U moet uw pushgegevens voor mobiele toepassingen toevoegen in [!DNL Adobe Experience Platform Data Collection].
 
-De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te machtigen pushberichten namens u te verzenden. Raadpleeg de onderstaande stappen:
+De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te autoriseren pushberichten namens u te verzenden. Raadpleeg de onderstaande stappen:
 
 1. Van [!DNL Adobe Experience Platform Data Collection], selecteert u de **[!UICONTROL App Surfaces]** in het linkerdeelvenster.
 
@@ -62,7 +63,7 @@ De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te
 
          De bundel-id van de app vindt u in het gedeelte **Algemeen** tabblad van het primaire doel in **XCode** van uw Apple-ontwikkelaarsaccount.
 
-      1. Overschakelen **[!UICONTROL Push Credentials]** om uw referenties toe te voegen.
+      1. Schakel in **[!UICONTROL Push Credentials]** om uw referenties toe te voegen.
 
       1. Sleep het .p8 Apple Push Notification Authentication Key-bestand naar het bestand.
 
@@ -138,11 +139,11 @@ Ga als volgt te werk om een app voor iOS-apparaten te maken:
 
 1. Bladeren naar de **[!UICONTROL Sounds]** om het af te spelen geluid te definiëren. Klikken **[!UICONTROL Add]** en vullen **[!UICONTROL Internal name]** veld dat de naam moet bevatten van het bestand dat is ingesloten in de toepassing of de naam van het systeemgeluid.
 
-1. Klikken **[!UICONTROL Next]** om de ontwikkeltoepassing te configureren.
+1. Klikken **[!UICONTROL Next]** om de ontwikkelingstoepassing te configureren.
 
 1. De **[!UICONTROL Integration key]** is specifiek voor elke toepassing. De mobiele toepassing wordt gekoppeld aan Adobe Campaign en wordt gebruikt bij het configureren van de extensie Campagne.
 
-   Controleer of hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
+   Zorg ervoor dat hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
 
    Meer informatie in [de documentatie voor ontwikkelaars](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
@@ -177,7 +178,7 @@ Voer de volgende stappen uit om een app voor Android-apparaten te maken:
 
 1. De integratiesleutel is specifiek voor elke toepassing. De mobiele toepassing wordt gekoppeld aan Adobe Campaign en wordt gebruikt bij het configureren van de extensie Campagne.
 
-   Controleer of hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
+   Zorg ervoor dat hetzelfde **[!UICONTROL Integration key]** wordt gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
 
    Meer informatie in [de documentatie voor ontwikkelaars](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
@@ -245,7 +246,7 @@ Uw mobiele eigenschap wordt nu automatisch gesynchroniseerd met de **[!UICONTROL
 
 ## Campaign Classic toevoegen aan uw mobiele toepassing {#campaign-mobile-app}
 
-De Adobe Experience Platform Mobile SDK helpt Adobe Experience Cloud-oplossingen en -services aan te schaffen in uw mobiele apps. De configuratie SDKs wordt beheerd door de Inzameling UI van Gegevens voor flexibele configuratie en verlengbare, op regels-gebaseerde integratie.
+De Adobe Experience Platform Mobile SDK helpt de oplossingen en services van de Adobe voor Experiencen Cloud in uw mobiele apps te ondersteunen. De configuratie SDKs wordt beheerd door de Inzameling UI van Gegevens voor flexibele configuratie en verlengbare, op regels-gebaseerde integratie.
 
 [Meer informatie in de documentatie van Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 

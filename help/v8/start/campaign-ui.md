@@ -2,13 +2,13 @@
 title: Campagnewerkruimte detecteren
 description: Leer hoe u door de Campagnewerkruimte kunt bladeren en deze kunt gebruiken
 feature: Overview
-role: Admin, Developer, User
+role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ U kunt ook een webbrowser gebruiken om toegang te krijgen tot Campagne. In dit v
 
 Zodra u met Campagne wordt verbonden, hebt u toegang tot de homepage. Blader door de koppelingen naar toegangsmogelijkheden. Welke mogelijkheden beschikbaar zijn in de gebruikersinterface, is afhankelijk van uw opties en machtigingen.
 
-Vanuit het centrale gedeelte van de startpagina gebruikt u koppelingen naar de Help-materialen voor campagnes, de community en de ondersteuningswebsite.
+Vanuit het centrale gedeelte van de startpagina gebruikt u koppelingen voor toegang tot het Help-materiaal voor campagnes, de community en de ondersteuningswebsite.
 
 Gebruik de tabbladen in de bovenste sectie om te bladeren in de belangrijkste mogelijkheden van de campagne:
 
@@ -50,9 +50,9 @@ Wanneer u een element op het scherm selecteert, wordt het in een nieuw lusje gel
 
 ## Een element maken {#create-an-element}
 
-Sneltoetsen gebruiken in het dialoogvenster **[!UICONTROL Create]** aan de linkerkant van het scherm om nieuwe elementen toe te voegen. U kunt ook de opdracht **[!UICONTROL Create]** boven de lijst om nieuwe elementen aan de huidige lijst toe te voegen.
+Sneltoetsen gebruiken in het dialoogvenster **[!UICONTROL Create]** links op het scherm om nieuwe elementen toe te voegen. U kunt ook de opdracht **[!UICONTROL Create]** boven de lijst om nieuwe elementen aan de huidige lijst toe te voegen.
 
-Gebruik bijvoorbeeld op de leveringspagina de **[!UICONTROL Create]** om een nieuwe levering te maken.
+Gebruik bijvoorbeeld op de leveringspagina de optie **[!UICONTROL Create]** om een nieuwe levering te maken.
 
 ![](assets/new-recipient.png)
 
@@ -66,7 +66,7 @@ De interface van de Webtoegang is gelijkaardig aan de consoleinterface. Vanuit e
 
 ## Campagneverkenner openen {#ac-explorer-ui}
 
-Blader in Campagneverkenner om toegang te krijgen tot alle Adobe Campaign-mogelijkheden en -instellingen.
+Blader in Campagneverkenner om alle Adobe Campaign-mogelijkheden en -instellingen te openen.
 
 ![](assets/explorer.png)
 
@@ -115,12 +115,12 @@ De belangrijkste verschillen tussen het Engels van de VS en het Engels van het V
   <tr> 
    <td> Korte datum<br /> </td> 
    <td> <p>%2M/%2D/%4Y</p><p><strong>ex: 25-09-2018</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y</p><p><strong>ex: 09-25-2018</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y</p><p><strong>ex: 25-09-2018</strong></p> </td> 
   </tr> 
   <tr> 
    <td> Korte datum met tijd<br /> </td> 
    <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 25-09-2018 10:47:25:00</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 09-25-2018 22:47:25</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2018 22:47:25</strong></p> </td> 
   </tr> 
  </tbody> 
 </table>

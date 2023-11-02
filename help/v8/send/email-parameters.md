@@ -3,8 +3,9 @@ title: E-mailparameters in Adobe Campaign
 description: Meer informatie over opties en instellingen die specifiek zijn voor e-maillevering in Adobe Campaign.
 feature: Email
 role: User
-level: Beginner, Intermediate, Experienced
-source-git-commit: 44f30f753e3ed75b7e56caf7bd8cdfa7cbee5c35
+level: Beginner
+exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 8%
@@ -32,7 +33,7 @@ Adobe Campaign zelf beheert gearchiveerde bestanden niet. Hiermee kunt u de beri
 
 De archiveringsbestemming is het BCC-e-mailadres van uw keuze, dat onzichtbaar blijft voor de ontvangers van de levering.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} om het BCC e-mailadres mee te delen dat voor archivering moet worden gebruikt.
+![](../assets/do-not-localize/speech.png)  Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} om het BCC e-mailadres mee te delen dat voor archivering moet worden gebruikt.
 
 Zodra het BCC e-mailadres wordt bepaald, moet u de specifieke optie op het leveringsniveau toelaten.
 
@@ -58,9 +59,9 @@ Houd rekening met de volgende specifieke kenmerken en aanbevelingen:
 
 * U kunt slechts één BCC-e-mailadres gebruiken.
 
-* Controleer of het BCC-adres voldoende ontvangstcapaciteit heeft om alle verzonden e-mails te archiveren.
+* Zorg ervoor dat het BCC-adres voldoende ontvangstcapaciteit heeft om alle verzonden e-mails te archiveren.
 
-* BCC e-mailen <!--with Enhanced MTA--> levert aan het BCC e-mailadres alvorens aan de ontvangers te leveren, wat in BCC berichten kan resulteren die worden verzonden alhoewel de originele leveringen kunnen hebben teruggestuurd. Voor meer informatie over grenzen raadpleegt u [Uitvoeren van fouten begrijpen](delivery-failures.md).
+* BCC e-mailen <!--with Enhanced MTA--> levert aan het BCC e-mailadres alvorens aan de ontvangers te leveren, wat in BCC berichten kan resulteren die worden verzonden alhoewel de originele leveringen kunnen hebben teruggestuurd. Zie voor meer informatie over grenzen [Uitvoeren van fouten begrijpen](delivery-failures.md).
 
 * Als de e-mails die naar het BCC-adres worden verzonden worden geopend en als hierop wordt geklikt, wordt hiermee rekening gehouden in het dialoogvenster **[!UICONTROL Total opens]** en **[!UICONTROL Clicks]** van de send analyse, die sommige misberekeningen zou kunnen veroorzaken.
 
@@ -80,7 +81,7 @@ Selecteer de indeling van de e-mail in de onderste sectie van het venster:
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-  Het bericht bevat beide indelingen: tekst en HTML. Het formaat dat op ontvangst wordt getoond hangt van de configuratie van de postsoftware van de ontvanger (multipart-alternatief) af.
+  Het bericht bevat beide indelingen: tekst en HTML. Het formaat dat op ontvangst wordt getoond hangt van de configuratie van de de postsoftware van de ontvanger (multipart-alternatief) af.
 
   >[!IMPORTANT]
   >
@@ -103,7 +104,7 @@ De standaardcodering is UTF-8. Als sommige e-mailproviders van uw ontvangers de 
 
 U wilt bijvoorbeeld een e-mail verzenden met Japanse tekens. Om ervoor te zorgen dat alle tekens correct worden weergegeven aan ontvangers in Japan, kunt u een codering gebruiken die de Japanse tekens ondersteunt in plaats van de standaard UTF-8.
 
-Selecteer hiervoor de optie **[!UICONTROL Force the encoding used for messages]** in de **[!UICONTROL Character encoding]** en kiest u een codering in de vervolgkeuzelijst die wordt weergegeven.
+Selecteer de optie **[!UICONTROL Force the encoding used for messages]** in de **[!UICONTROL Character encoding]** en kiest u een codering in de vervolgkeuzelijst die wordt weergegeven.
 
 ![](assets/email-smtp-encoding.png)
 

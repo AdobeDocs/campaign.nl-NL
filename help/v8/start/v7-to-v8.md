@@ -2,10 +2,10 @@
 title: Overgang van Campaign Classic v7 naar Campagne v8
 description: Leer meer over de verschillen tussen Campaign Classic v7 en Campaign v8.
 feature: Overview
-role: Admin, Developer, User
-level: Beginner, Intermediate, Experienced
+role: User
+level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 2d0c82df052c9b8c9f264c2ad15ac6050025f770
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 5%
@@ -23,11 +23,11 @@ Als voormalig [!DNL Campaign Classic] v7 gebruiker, zou u geen grote verstoring 
 >* Geautomatiseerde migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
 
 
-## Beheerde Cloud Services{#cloud-services}
+## Beheerde Cloud Servicen{#cloud-services}
 
 Adobe Campaign v8 is beschikbaar als een **Beheerde Cloud Service**.
 
-Adobe Campaign Managed Cloud Services biedt een platform van Beheerde Cloud Services voor het ontwerpen van klantervaringen over verschillende kanalen en biedt een omgeving voor visuele campagneorchestratie, interactiebeheer in real time en uitvoering over meerdere kanalen. Meer informatie over Cloud Services van Campagne Managed in het dialoogvenster [productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services biedt een platform voor beheerde Cloud Servicen voor het ontwerpen van klantervaringen over meerdere kanalen en biedt een omgeving voor visuele campagneorchestratie, interactiebeheer in real time en uitvoering over meerdere kanalen. Meer informatie over Cloud Servicen met beheerde campagnes in de [productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 Het nieuwe aanbod combineert services van topklasse met proactief toezicht en tijdige waarschuwingen, waarbij de nadruk ligt op drie gebieden:
 
@@ -56,7 +56,7 @@ Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van
 
 ## Adobe ID gebruiken om verbinding te maken met campagne{#adobe-id}
 
-Campagnegebruikers maken alleen verbinding via hun Adobe ID. Dezelfde Adobe ID wordt gebruikt om al uw Adobe-plannen en -producten voor één account te bewaren, voor alle Adobe Experience Cloud-oplossingen.
+Campagnegebruikers maken alleen verbinding via hun Adobe ID. Dezelfde Adobe ID wordt gebruikt om al uw Adobe plannen en producten verbonden aan één enkele rekening, voor alle oplossingen van Adobe Experience Cloud te houden.
 
 ![](../assets/do-not-localize/glass.png) Leer hoe u verbinding kunt maken met [!DNL Campaign] in [deze pagina](connect.md).
 
@@ -64,7 +64,7 @@ Campagnegebruikers maken alleen verbinding via hun Adobe ID. Dezelfde Adobe ID w
 
 Met de module Marketing Analytics kunt u gegevens analyseren en meten, statistieken berekenen, het maken en berekenen van rapporten vereenvoudigen en optimaliseren. Daarnaast kunt u rapporten maken en doelpopulaties samenstellen: als deze eenmaal zijn geïdentificeerd, worden ze opgeslagen in lijsten die kunnen worden gebruikt in Adobe Campaign (gericht, segmentatie, enz.).
 
-Met Adobe Campaign v8 zijn kubusrapporten geoptimaliseerd en bieden ze betere schaalmogelijkheden dan Campaign Classic v7. In dat specifieke implementatiemodel zijn eerdere beperkingen op kubussen niet van toepassing in Campaign v8. Meer informatie over kubussen in [deze sectie](../../v8/reporting/gs-cubes.md).
+Met Adobe Campaign v8 zijn kubusrapporten geoptimaliseerd en bieden ze meer schaalmogelijkheden dan Campaign Classic v7. In dat specifieke implementatiemodel zijn eerdere beperkingen op kubussen niet van toepassing in Campaign v8. Meer informatie over kubussen in [deze sectie](../../v8/reporting/gs-cubes.md).
 
 ## Niet-beschikbare functies{#gs-unavailable-features}
 

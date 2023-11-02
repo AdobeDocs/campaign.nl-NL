@@ -3,9 +3,9 @@ title: Werken met campagnes en externe databases (FDA)
 description: Leer hoe u kunt werken met Campagne en externe databases
 feature: Federated Data Access
 role: Admin
-level: Beginner, Intermediate
+level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -16,14 +16,14 @@ ht-degree: 1%
 
 Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten op een of meer **externe databases** en procesgegevens die in deze bestanden zijn opgeslagen, zonder dat dit van invloed is op de gegevens van de Campagne Cloud Database. U kunt externe gegevens vervolgens openen zonder de structuur van Adobe Campaign-gegevens te wijzigen.
 
-![](../assets/do-not-localize/speech.png) Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om uw externe database(s) te verbinden met Campagne.
+![](../assets/do-not-localize/speech.png) Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om uw externe database(s) te verbinden met Campagne.
 
 
 >[!NOTE]
 >
 >* De compatibele gegevensbestanden voor Federatieve Toegang van Gegevens zijn vermeld in [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
 >
->* In de context van een [Implementatie van ondernemingen (FFDA)](../architecture/enterprise-deployment.md), is er een specifieke externe account beschikbaar voor het beheer van de communicatie tussen de lokale database van Campagne en de cloud-database van Snowflake. Deze externe account is voor u ingesteld door Adobe en **mogen** worden gewijzigd.
+>* In de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), is er een specifieke externe account beschikbaar voor het beheer van de communicatie tussen de lokale database van Campagne en de clouddatabase van de Snowflake. Deze externe account is ingesteld op Adobe en **mogen** worden gewijzigd.
 >
 
 
@@ -33,7 +33,7 @@ Voor de optie FDA gelden de beperkingen van het databasesysteem van derden dat u
 
 Houd ook rekening met de volgende beperkingen en beste praktijken:
 
-* De optie FDA is bedoeld om de gegevens in externe databases in batchmodus te manipuleren in workflows. Om prestatieproblemen te voorkomen, wordt het niet aanbevolen de FDA-module te gebruiken in het kader van eenheidsoperaties, zoals: personalisatie, interactie, real-time overseinen, enz.
+* De optie FDA is bedoeld om de gegevens in externe databases in batchmodus te manipuleren in workflows. Om prestatieproblemen te voorkomen, wordt het niet aanbevolen de FDA-module te gebruiken in het kader van eenheidsbewerkingen, zoals personalisatie, interactie, realtime berichten, enz.
 
 * Vermijd de bewerkingen die zowel de Adobe Campaign als de externe database zoveel mogelijk moeten gebruiken. Hiervoor kunt u:
 
@@ -69,11 +69,11 @@ U kunt ook rechtstreeks een verbinding met een externe database definiëren vanu
 In het dialoogvenster **[!UICONTROL Query]** activiteit, kunt u een tijdelijke verbinding aan een extern gegevensbestand als volgt bepalen:
 
 1. Open de activiteit en klik op **[!UICONTROL Add data...]**
-1. Selecteer **[!UICONTROL External data]** opties
-1. Selecteer **[!UICONTROL Locally defining the data source]** option
+1. Selecteer de **[!UICONTROL External data]** opties
+1. Selecteer de **[!UICONTROL Locally defining the data source]** option
 1. Selecteer de doeldatabase-engine in de vervolgkeuzelijst. Voer de naam van de server in en geef de verificatieparameters op. Geef ook de naam van de externe database op.
 1. Selecteer de tabel waarin de gegevens zijn opgeslagen. U kunt de naam van de tabel rechtstreeks in het desbetreffende veld invoeren of op het pictogram Bewerken klikken om de lijst met databasetabellen te openen.
 1. Klik op de knop **[!UICONTROL Add]** om een of meer afstemmingsvelden te definiëren tussen de externe databasegegevens en de gegevens in de Adobe Campaign-database. De **[!UICONTROL Edit expression]** pictogrammen van de **[!UICONTROL Remote field]** en **[!UICONTROL Local field]** geeft u toegang tot de lijst van gebieden van elk van de lijsten.
 1. Geef zo nodig een filtervoorwaarde en de gegevenssorteermodus op.
 1. Selecteer de aanvullende gegevens die in de externe database moeten worden verzameld. Dubbelklik hiertoe op de velden die u wilt toevoegen om deze weer te geven in het dialoogvenster **[!UICONTROL Output columns]**.
-1. Klikken **[!UICONTROL Finish]** om deze configuratie te bevestigen.
+1. Klikken **[!UICONTROL Finish]** deze configuratie bevestigen.
