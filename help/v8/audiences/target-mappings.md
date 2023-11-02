@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
-source-git-commit: db27abf860b0744a4120166c68e2cc2ae8a3d172
+source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Adobe Campaign wordt geleverd met de volgende ingebouwde doeltoewijzingen:
 | Abonnementen van bezoekers | Leveren aan bezoekers die zijn geabonneerd op een informatiedienst | nms:bezoekerSub |
 | Operatoren | Leveren aan Adobe Campaign-operatoren | nms:operator |
 | Extern bestand | Afleveren via een bestand dat alle benodigde informatie voor levering bevat | Geen gekoppeld schema, geen doel ingevoerd |
+| Abonnementstoepassingen | Leveren aan ontvangers die zijn geabonneerd op een toepassing | nms:appSubscriptionRcp |
+
 
 ## Doeltoewijzing maken {#new-mapping}
 
@@ -51,7 +53,7 @@ Met de wizard voor het maken van Adobe Campaign-doeltoewijzingen kunt u alle sch
    ![](assets/new-target-mapping.png)
 
 
-1. Geef de velden op waarin de profielgegevens worden opgeslagen: achternaam, voornaam, e-mail, adres, enz.
+1. Geef de velden op waarin de profielgegevens zijn opgeslagen: achternaam, voornaam, e-mail, adres, enz.
 
    ![](assets/wf_new_mapping_define_join.png)
 
@@ -67,4 +69,4 @@ Met de wizard voor het maken van Adobe Campaign-doeltoewijzingen kunt u alle sch
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   Klik op de knop **[!UICONTROL Save]** knop voor het maken van de toewijzing van levering: alle gekoppelde tabellen worden automatisch gemaakt op basis van de geselecteerde parameters.
+   Klik op de knop **[!UICONTROL Save]** knop om het maken van de leveringstoewijzing te starten: alle gekoppelde tabellen worden automatisch gemaakt op basis van de geselecteerde parameters.
