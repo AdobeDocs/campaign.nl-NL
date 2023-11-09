@@ -1,13 +1,13 @@
 ---
 title: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 description: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
-source-git-commit: 4478c4b4b1eb3697ff03acfcd618ebfb1d875df9
+exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
+source-git-commit: 557a74dbfbd0af385cc5104801ce3ab91dd33a95
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 1%
 
 ---
-
 
 # Upgrade van infrastructuur voor verzenden van e-mail voor campagne {#migrate-infra-to-aws}
 
@@ -64,4 +64,4 @@ Als klant van de Campagne, zult u extra bericht betreffende de productiereedscha
 
   Nee. Wij kunnen om het even welke gevraagde wijzigingen in het bestaande programma aanpassen aangezien dit waarschijnlijk de toegewezen verbeteringsgebeurtenis voor een andere klant zal verstoren.
 
-Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}..
