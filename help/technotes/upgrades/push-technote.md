@@ -4,7 +4,7 @@ title: Wijzigingen in pushmeldingskanaal
 description: Wijzigingen in pushmeldingskanaal
 hide: true
 hidefromtoc: true
-source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
+source-git-commit: fc274e1266d37611c8781a007ccb6a293a683c21
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 1%
@@ -49,11 +49,8 @@ Als u wilt controleren of er gevolgen voor u zijn, kunt u het filter **Services 
 Om uw milieu aan HTTP v1 te migreren, volg deze stappen op uw Marketing en Real-Time uitvoeringsservers:
 
 1. Blader naar uw lijst met **Services en abonnementen**.
-
 1. Zoek alle mobiele toepassingen met de **HTTP (verouderd)** API-versie.
-
 1. Stel voor elk van deze mobiele toepassingen de optie **API-versie** tot **HTTP v1**.
-
 1. Klik op de knop **[!UICONTROL Load project json file to extract project details...]** koppeling gebruiken om uw JSON-sleutelbestand rechtstreeks te laden.
 
    U kunt ook handmatig de volgende gegevens invoeren:
@@ -64,9 +61,7 @@ Om uw milieu aan HTTP v1 te migreren, volg deze stappen op uw Marketing en Real-
    ![](assets/android-http-v1-config.png)
 
 1. Klikken **[!UICONTROL Test the connection]** om te controleren of uw configuratie correct is en of de marketingserver toegang heeft tot de FCM. Merk op dat voor implementaties van middelhoge bronnen, de **[!UICONTROL Test connection]** kan niet controleren of de server toegang heeft tot de FCM-service (Android Firebase Cloud Messaging).
-
 1. Als optie kunt u de inhoud van een pushbericht verrijken met wat **[!UICONTROL Application variables]** indien nodig. Deze zijn volledig aanpasbaar en een deel van de berichtlading wordt verzonden naar het mobiele apparaat.
-
 1. Klik op **[!UICONTROL Finish]** en vervolgens op **[!UICONTROL Save]**.
 
 Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te passen. Deze opties zijn gedetailleerd [hier](#fcm-apps).
