@@ -4,9 +4,9 @@ title: Wijzigingen in pushmeldingskanaal
 description: Wijzigingen in pushmeldingskanaal
 hide: true
 hidefromtoc: true
-source-git-commit: 4072421cd8f0f3ab3b15c4a475428a59503aa955
+source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Om uw milieu aan HTTP v1 te migreren, volg deze stappen op uw Marketing en Real-
 
 1. Klik op **[!UICONTROL Finish]** en vervolgens op **[!UICONTROL Save]**.
 
-Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te passen:
+Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te passen. Deze opties zijn gedetailleerd [hier](#fcm-apps).
 
 | Berichttype | Configureerbaar berichtelement (FCM-ladenaam) | Configureerbare opties (FCM-ladenaam) |
 |:-:|:-:|:-:|
@@ -79,7 +79,7 @@ Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te pass
 
 >[!NOTE]
 >
->De overgang naar de HTTP v1-API wordt toegepast op alle nieuwe leveringen. Leveringen in retry, in uitvoering en in gebruik blijven de HTTP (verouderde) API gebruiken.
+>Wanneer deze wijzigingen zijn toegepast op de gehele server, gebruiken alle nieuwe pushberichten die aan Android-apparaten worden geleverd de HTTP v1-API. Bestaande push-items worden opnieuw uitgevoerd, in uitvoering en in gebruik, maar gebruiken nog steeds de HTTP (legacy) API.
 
 ### Wat is de invloed op mijn Android-apps? {#fcm-apps}
 
@@ -89,6 +89,7 @@ Met HTTP v1 kunt u uw pushmelding echter verder aanpassen met **[!UICONTROL HTTP
 
 ![](assets/android-push-additional-options.png)
 
+U kunt:
 
 * Gebruik de **[!UICONTROL Ticker]** om de tekst van de markering van uw melding in te stellen.
 * Gebruik de **[!UICONTROL Image]** om de URL van de afbeelding in te stellen die in uw melding moet worden weergegeven.
