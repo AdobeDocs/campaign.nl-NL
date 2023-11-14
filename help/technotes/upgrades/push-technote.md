@@ -4,20 +4,20 @@ title: Wijzigingen in pushmeldingskanaal
 description: Wijzigingen in pushmeldingskanaal
 hide: true
 hidefromtoc: true
-source-git-commit: fc274e1266d37611c8781a007ccb6a293a683c21
+source-git-commit: 5ed6a5c9c458381ef701428aeab146afe4788d58
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
 
 # Wijzigingen in pushmeldingskanaal {#push-upgrade}
 
-Met Campagne kunt u pushmeldingen verzenden op Android-apparaten. Hiervoor is de campagne afhankelijk van specifieke externe Android-accounts en abonnementenservices. Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie.
+Met Campagne kunt u pushmeldingen verzenden op Android-apparaten. Om dit te doen, baseert de Campagne zich op de specifieke abonnementsdiensten. Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet de configuratie van uw abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen.
 
 ## Wat is er veranderd? {#fcm-changes}
 
-Als onderdeel van de voortdurende inspanningen van Google om haar diensten te verbeteren, zullen de bestaande FCM API&#39;s worden stopgezet op **20 juni 2024**. Meer informatie over het HTTP-protocol voor Firebase Cloud Messaging vindt u in [Google-documentatie](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Als onderdeel van de voortdurende inspanningen van Google om haar diensten te verbeteren, zullen de bestaande FCM API&#39;s worden stopgezet op **20 juni 2024**. Meer informatie over het HTTP-protocol voor Firebase Cloud Messaging vindt u in [Google Firebase-documentatie](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
 Adobe Campaign Classic v7 en Adobe Campaign v8 ondersteunen al de nieuwste API&#39;s voor het verzenden van pushberichten. Sommige oude implementaties zijn echter nog steeds afhankelijk van de oudere API&#39;s. Deze implementaties moeten worden bijgewerkt.
 
@@ -30,30 +30,33 @@ Als u wilt controleren of er gevolgen voor u zijn, kunt u het filter **Services 
 ![](assets/filter-services-fcm.png)
 
 
-* Als een van uw actieve pushberichtcampagnes de **HTTP (verouderd)** API, heeft deze wijziging rechtstreeks invloed op uw installatie. U moet uw huidige configuraties controleren en migreren naar de nieuwere API&#39;s, zoals hieronder wordt beschreven.
+* Als een van uw actieve pushmeldingenservice de **HTTP (verouderd)** API, heeft deze wijziging rechtstreeks invloed op uw installatie. U moet uw huidige configuraties controleren en migreren naar de nieuwere API&#39;s, zoals hieronder wordt beschreven.
 
-* Als uw opstelling exclusief gebruikmaakt van **HTTP v1** API voor Android Push-berichten, dan voldoet u al aan de eisen en hoeft u verder niets te doen.
+* Als uw opstelling exclusief gebruikmaakt van **HTTP v1** API voor Android-pushmeldingen, voldoet u al aan de eisen en hoeft u verder niets te doen.
 
-## Hoe migreren?{#fcm-migration-procedure}
+## Hoe migreren? {#fcm-migration-procedure}
 
-### Vereisten{#fcm-migration-prerequisites}
+### Vereisten {#fcm-migration-prerequisites}
 
-* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in versie 20.3.1. Als uw omgeving op een oudere versie wordt uitgevoerd, is het een eerste vereiste voor de migratie naar HTTP v1 om uw omgeving te upgraden naar de [nieuwste Campaign Classic maken](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campagne v8 wordt HTTP v1 ondersteund door alle releases. Er is geen upgrade nodig.
+* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in versie 20.3.1. Als uw omgeving op een oudere versie wordt uitgevoerd, is het een eerste vereiste voor de migratie naar HTTP v1 om uw omgeving te upgraden naar de [nieuwste Campaign Classic maken](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
 
-* Voor het uitvoeren van de migratie is het JSON-bestand van de Android Firebase Admin SDK-service vereist om de mobiele toepassing naar HTTPv1 te verplaatsen. Zie dit [page](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* Het JSON-bestand van de Android Firebase Admin SDK-service is vereist om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe u dit bestand kunt ophalen in [Google Firebase-documentatie](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* Voor Hybride, Gehoste en Managed Services plaatsingen, contacteer Adobe om uw Real-Time (RT) uitvoeringsserver bij te werken.
+* Voor Hybride, Gehoste en Managed Services plaatsingen, naast de hieronder migratieprocedure, contacteer Adobe om uw Real-Time (RT) uitvoeringsserver bij te werken. De server voor middelste bronnen heeft geen invloed op deze server.
+
+* Als Campaign Classic v7 on-premise gebruiker, moet u zowel de Marketing als Real-Time uitvoeringsservers bevorderen. De server voor middelste bronnen heeft geen invloed op deze server.
 
 ### Migratieprocedure {#fcm-migration-steps}
 
-Om uw milieu aan HTTP v1 te migreren, volg deze stappen op uw Marketing en Real-Time uitvoeringsservers:
+Ga als volgt te werk om uw omgeving te migreren naar HTTP v1:
 
 1. Blader naar uw lijst met **Services en abonnementen**.
-1. Zoek alle mobiele toepassingen met de **HTTP (verouderd)** API-versie.
+1. Alle mobiele toepassingen weergeven met de opdracht **HTTP (verouderd)** API-versie.
 1. Stel voor elk van deze mobiele toepassingen de optie **API-versie** tot **HTTP v1**.
 1. Klik op de knop **[!UICONTROL Load project json file to extract project details...]** koppeling gebruiken om uw JSON-sleutelbestand rechtstreeks te laden.
 
    U kunt ook handmatig de volgende gegevens invoeren:
+
    * **[!UICONTROL Project Id]**
    * **[!UICONTROL Private Key]**
    * **[!UICONTROL Client Email]**
