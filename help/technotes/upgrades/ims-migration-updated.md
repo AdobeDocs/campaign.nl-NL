@@ -3,7 +3,7 @@ title: Migratie van technische gebruikers naar Adobe Developer-console
 description: Leer hoe u technische operatoren van campagnes kunt migreren naar een technische account op de Adobe Developer-console
 hide: true
 hidefromtoc: true
-source-git-commit: 4863679106dec92d6b63f63cec0911738853dc04
+source-git-commit: 6655a62e18ea14e8ae126dfec88a17dd04c7b488
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -66,9 +66,10 @@ Als u een nieuw project wilt maken, klikt u op **Nieuw project maken** in het ho
 
 U kunt de **Project bewerken** om de naam van dit project te wijzigen.
 
-Voeg vanuit het nieuwe projectscherm de API&#39;s toe die nodig zijn om dit project als een technische account te kunnen gebruiken voor uw API-aanroepen naar Adobe Campaign.
 
 ### Stap 2 - voeg APIs aan uw project toe{#ims-migration-step-2}
+
+Voeg vanuit het nieuwe projectscherm de API&#39;s toe die nodig zijn om dit project als een technische account te kunnen gebruiken voor uw API-aanroepen naar Adobe Campaign.
 
 Ga als volgt te werk om API&#39;s aan uw project toe te voegen:
 
