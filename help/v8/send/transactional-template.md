@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ De definitie van de inhoud van het transactiebericht is hetzelfde als voor alle 
 >[!CAUTION]
 >
 >Afbeeldingen in het bericht moeten openbaar toegankelijk zijn. Adobe Campaign biedt geen mechanisme voor het uploaden van afbeeldingen voor transactieberichten.\
->In tegenstelling tot JSSP of webApp, `<%=` heeft geen standaardescape.
+>In tegenstelling tot JSSP of webApp, `<%=` heeft geen standaardescaping.
 >
 >U moet alle gegevens die uit de gebeurtenis komen, op de juiste wijze verwijderen. Deze escape is afhankelijk van de manier waarop dit veld wordt gebruikt. Gebruik in een URL bijvoorbeeld encodeURIComponent. U kunt escapeXMLString gebruiken om in de HTML te worden weergegeven.
 
@@ -159,6 +159,18 @@ In elke sjabloon zijn proefdrukken toegankelijk via de **[!UICONTROL Audit]** ta
 
 ![](assets/messagecenter_send_proof_003.png)
 
+#### Overgang van [!DNL Campaign Classic] v7
+
+Als u [overstappen van Campaign Classic v7](../start/v7-to-v8.md), alle leveringen worden uitgevoerd via de server voor midsourcing.
+
+Nochtans, wanneer het creëren van een transactionele berichtmalplaatje, wordt het verpletteren nodig voor het met succes te gebruiken malplaatje **interne e-maillevering**. Dit het verpletteren verhindert u proefdrukken te verzenden.
+
+Daarom moet u, om een bewijs voor u transactionele berichtmalplaatje te verzenden, het verpletteren van interne e-maillevering aan veranderen **mid-sourcing die rekening verplettert**.
+
+![](assets/messagecenter_send_proof_004.png)
+
+Zodra de proefdrukken zijn verzonden, moet u het verpletteren terug naar interne e-maillevering veranderen alvorens het transactionele berichtmalplaatje te publiceren.
+
 ## De sjabloon publiceren {#publish-message-template}
 
 Als de berichtsjabloon is gemaakt<!-- on the control instance--> is voltooid, kunt u het publiceren, waardoor u berichten kunt verzenden die zijn gekoppeld aan realtime- en batchgebeurtenissen.
@@ -195,11 +207,11 @@ Als een sjabloon eenmaal is gepubliceerd en de bijbehorende gebeurtenis wordt ge
 
 ## Publicatie van een sjabloon ongedaan maken
 
-Zodra een berichtmalplaatje wordt gepubliceerd <!--on the execution instances-->, kan het niet gepubliceerd zijn.
+Zodra een berichtmalplaatje wordt gepubliceerd <!--on the execution instances-->, kan de publicatie ongedaan worden gemaakt.
 
-* Een gepubliceerde sjabloon kan zelfs nog steeds worden opgeroepen als de overeenkomstige gebeurtenis wordt geactiveerd: Als u geen berichtmalplaatje meer gebruikt, wordt het geadviseerd om het unpublish. Dit om te voorkomen dat er per ongeluk een ongewenste transactiemelding wordt verzonden.
+* Een gepubliceerde sjabloon kan zelfs nog steeds worden aangeroepen als de bijbehorende gebeurtenis wordt geactiveerd: als u geen berichtsjabloon meer gebruikt, wordt aangeraden de publicatie ongedaan te maken. Dit om te voorkomen dat er per ongeluk een ongewenste transactiemelding wordt verzonden.
 
-   U hebt bijvoorbeeld een berichtsjabloon gepubliceerd die u alleen gebruikt voor kerstcampagnes. Misschien wilt u de publicatie ongedaan maken nadat de kerstperiode is afgelopen en deze volgend jaar opnieuw publiceren.
+  U hebt bijvoorbeeld een berichtsjabloon gepubliceerd die u alleen gebruikt voor kerstcampagnes. Misschien wilt u de publicatie ongedaan maken nadat de kerstperiode is afgelopen en deze volgend jaar opnieuw publiceren.
 
 * U kunt ook geen transactiemalplaatje verwijderen dat de **[!UICONTROL Published]** status. U moet eerst de publicatie ongedaan maken.
 
@@ -218,8 +230,8 @@ Zodra de publicatie is voltooid:
 
 * Beide berichtmalplaatjes (die op partij en in real time typegebeurtenissen worden toegepast) worden geschrapt<!-- from each execution instance-->.
 
-   Ze verschijnen niet meer in het dialoogvenster **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** map.
+  Ze verschijnen niet meer in het dialoogvenster **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** map.
 
 * Nadat een sjabloon niet is gepubliceerd, kunt u deze verwijderen<!-- from the control instance-->.
 
-   Selecteer dit in de lijst en klik op de knop **[!UICONTROL Delete]** op de rechterbovenhoek van het scherm.
+  Selecteer dit in de lijst en klik op de knop **[!UICONTROL Delete]** op de rechterbovenhoek van het scherm.
