@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 1%
@@ -130,7 +130,7 @@ Zodra u één of meerdere zaadadressen en het berichtlichaam hebt gecreeerd, kun
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### Een proef verzenden
+### Een proef verzenden {#send-proof}
 
 U kunt berichtlevering testen door een bewijs naar een eerder gecreeerd zaadadres te verzenden.
 
@@ -159,7 +159,7 @@ In elke sjabloon zijn proefdrukken toegankelijk via de **[!UICONTROL Audit]** ta
 
 ![](assets/messagecenter_send_proof_003.png)
 
-#### Overgang van [!DNL Campaign Classic] v7
+#### Overgang van [!DNL Campaign Classic] v7 {#transition-from-v7}
 
 Als u [overstappen van Campaign Classic v7](../start/v7-to-v8.md), alle leveringen worden uitgevoerd via de server voor midsourcing.
 

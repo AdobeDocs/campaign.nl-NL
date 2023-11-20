@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '694'
 ht-degree: 5%
 
 ---
@@ -37,7 +37,9 @@ Het nieuwe aanbod combineert services van topklasse met proactief toezicht en ti
 
 Als voormalig [!DNL Campaign Classic] gebruiker, merk op dat het grootste deel van [!DNL Campaign Classic] v7-functies zijn beschikbaar via [!DNL Campaign] v8, met uitzondering van een kleine set, die worden vermeld in [deze sectie](#gs-removed).
 
-Campagne v8 is gebaseerd op een **hybride architectuur**. Als u van Campaign Classic v7 overgaat, merk op dat alle leveringen door de midsourcingserver gaan. Als gevolg hiervan is interne routering **niet mogelijk** in Campagne v8 en de externe account is dienovereenkomstig uitgeschakeld. [Meer informatie](../architecture/architecture.md).
+Campagne v8 is gebaseerd op een **hybride architectuur**. Als u van Campaign Classic v7 overgaat, merk op dat alle leveringen door de midsourcingserver gaan. Als gevolg hiervan is interne routering **niet mogelijk** in Campagne v8 en de externe account is dienovereenkomstig uitgeschakeld.
+
+![](../assets/do-not-localize/glass.png) Meer informatie over het verzenden van proefdrukken van transactieberichten tijdens het overstappen van v7 op [deze pagina](../send/transactional-template.md#transition-from-v7).
 
 >[!NOTE]
 >
