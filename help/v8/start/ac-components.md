@@ -1,18 +1,18 @@
 ---
-title: Campagne-processen en onderdelen begrijpen
-description: Campagne-processen en onderdelen begrijpen
+title: Campagne-onderdelen en -processen begrijpen
+description: Campagne-onderdelen en -processen begrijpen
 feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 7deb5e8f646b086adec2e0652538a187e68adbee
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
-# Campagne-processen en onderdelen begrijpen {#components-and-processes}
+# Campagne-onderdelen en -processen begrijpen {#components-and-processes}
 
 Adobe Campaign is een oplossing voor kanaalmarketing die e-mail, mobiele, sociale en offlinecampagnes automatiseert. Adobe Campaign biedt een centrale locatie voor toegang tot de gegevens en profielen van uw klanten. Met Adobe Campaign kunt u consistente ervaringen voor uw klanten ordenen, ontwerpen, uitvoeren en uw marketing aanpassen via verschillende kanalen, terwijl de ervaringen van klanten op elk apparaat en aanraakpunt worden verbeterd. Met Adobe Campaign kunt u meerdere gegevensbronnen beheren, uw publiekssegmenten definiëren en meerstapscampagnes voor meerdere kanalen plannen en uitvoeren via een visuele workflowinterface voor slepen en neerzetten.
 
