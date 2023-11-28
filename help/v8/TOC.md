@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8-documentatie
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van Campaign
-source-git-commit: cb5bec3107872d4d6da83b4ddbc7cad3e9276b00
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 22%
@@ -155,11 +155,10 @@ ht-degree: 22%
       + [Machtigingen toevoegen aan mappen](start/folder-permissions.md)
    + [Configuratiescherm ](config/self-service.md)
 + Architectuur en configuratie {#config}
-   + Architectuur {#architecture}
+   + Campagne v8-architectuur {#architecture}
       + [Algemene beginselen](architecture/general-architecture.md)
-      + [Architectuur](architecture/architecture.md)
-      + Implementatie van FDA-Snowflake {#fda}
-         + [Wat is FDA-Snowflake?](architecture/fda-deployment.md)
+      + [Architectuurmodellen](architecture/architecture.md)
+      + [Implementatie van FDA voor campagnes](architecture/fda-deployment.md)
       + Implementatie in het kader van Enterprise (FFDA) {#ffda}
          + [Wat is Campagne FDA?](architecture/enterprise-deployment.md)
          + Kenmerken {#ffda-characteristics}

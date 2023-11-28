@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 5c4bbbd06eb7bf6dc9ada1d08c3fc696e88ee760
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '910'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,7 @@ Adobe Managed Cloud Service biedt marketers een flexibelere, veiligere en schaal
 
 Adobe Campaign kan nu databasetechnologieën op cloudschaal gebruiken om de schaal en snelheid ervan aanzienlijk te verbeteren.
 
-[Campagne v8 Enterprise](../architecture/enterprise-deployment.md) brengt het concept van **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met dit nieuwe aanbod vereenvoudigt Campagne v8 het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. [!DNL Snowflake] Dit is de Campagne Cloud Database, waardoor u snelheid en duurzaamheid krijgt: geen overbelasting van de pieken van de systeemactiviteit. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
+[Campagne v8 Enterprise](../architecture/enterprise-deployment.md) brengt het concept van **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met dit nieuwe aanbod vereenvoudigt Campagne v8 het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. [!DNL Snowflake] Dit is de Campagne Cloud Database, die u snelheid en duurzaamheid biedt: geen overbelasting van de pieken van de systeemactiviteit. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
 
 ![](../assets/do-not-localize/glass.png) [Meer informatie over de implementatie van Enterprise (FFDA)](../architecture/enterprise-deployment.md)
 

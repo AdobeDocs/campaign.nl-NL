@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '690'
 ht-degree: 5%
 
 ---
@@ -47,9 +47,7 @@ Campagne v8 is gebaseerd op een **hybride architectuur**. Als u van Campaign Cla
 
 ## [!DNL Campaign] en [!DNL Snowflake] {#ac-gs-snowflake}
 
-Campagne v8 werkt met [!DNL Snowflake].
-
-In haar [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee databases : een lokaal [!DNL Campaign] database voor realtime berichten en eenheidquery&#39;s in de gebruikersinterface en schrijven via API&#39;s en een cloud [!DNL Snowflake] database voor de uitvoering van campagnes, batchquery&#39;s en workflowuitvoering.
+In haar [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee databases : een lokaal [!DNL Campaign] gegevensbestand voor het gebruikersinterface overseinen in real time en unitary vragen en schrijven door APIs, en een wolk [!DNL Snowflake] database voor de uitvoering van campagnes, batchquery&#39;s en workflowuitvoering.
 
 Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met deze nieuwe architectuur vereenvoudigt de implementatie van Campaign v8 Enterprise (FFDA) het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
 

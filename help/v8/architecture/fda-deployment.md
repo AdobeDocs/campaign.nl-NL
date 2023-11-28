@@ -1,20 +1,20 @@
 ---
-title: Ga aan de slag met de implementatie van FDA-Snowflake voor campagnes
-description: Ga aan de slag met de implementatie van FDA-Snowflake voor campagnes
+title: Aan de slag met de implementatie van FDA voor campagnes
+description: Aan de slag met de implementatie van FDA voor campagnes
 feature: Architecture, Federated Data Access, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# [!DNL Campaign] FDA [!DNL Snowflake] implementatie{#gs-fda-snowflake}
+# [!DNL Campaign] FDA-implementatie{#gs-fda}
 
-In een [!DNL Snowflake] implementatie van FDA (default); [!DNL Adobe Campaign] v8 is verbonden met [!DNL Snowflake] toegang tot gegevens via [Federale gegevenstoegang](../connect/fda.md) mogelijkheden: u kunt externe gegevens en informatie die in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen.
+Bij de (standaard)implementatie van de FDA voor campagne [!DNL Adobe Campaign] v8 kan worden verbonden met [!DNL Snowflake] toegang tot gegevens via [Federale gegevenstoegang](../connect/fda.md) mogelijkheden: u kunt externe gegevens en informatie die in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen.
 
 ## Voordelen{#fda-benefits}
 
@@ -37,4 +37,4 @@ De algemene communicatie tussen servers en processen wordt uitgevoerd volgens he
 
 ![](assets/fda-architecture.png)
 
-PostgreSQL is het primaire gegevensbestand, en de Snowflake is het secundaire gegevensbestand. U kunt uw gegevensmodel uitbreiden en uw gegevens op Snowflake opslaan. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.
+PostgreSQL is het primaire gegevensbestand, en de Snowflake kan als secundair gegevensbestand worden gebruikt. U kunt uw gegevensmodel uitbreiden en uw gegevens op Snowflake opslaan. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.

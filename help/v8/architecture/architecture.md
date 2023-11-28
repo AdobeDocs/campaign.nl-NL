@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1032'
 ht-degree: 2%
 
 ---
@@ -32,9 +32,14 @@ U kunt pakketten van de ene omgeving naar de andere exporteren en importeren.
 
 Er zijn twee implementatiemodellen beschikbaar:
 
-* **Campagne FDA [!DNL Snowflake] implementatie**
+* **Implementatie van FDA voor campagnes**
 
-  In haar [[!DNL Snowflake] FDA-implementatie](fda-deployment.md), [!DNL Adobe Campaign] v8 is verbonden met [!DNL Snowflake] tot gegevens toegang hebben via de Federale functie voor gegevenstoegang: u kunt externe gegevens en informatie die in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen. PostgreSQL is het primaire gegevensbestand, en de Snowflake is het secundaire gegevensbestand. U kunt uw gegevensmodel uitbreiden en uw gegevens op Snowflake opslaan. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.
+  In haar [FDA-implementatie](fda-deployment.md), [!DNL Adobe Campaign] v8 kan worden verbonden met [!DNL Snowflake] tot gegevens toegang hebben via de Federale functie voor gegevenstoegang: u kunt externe gegevens en informatie die in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen. PostSQL is het primaire gegevensbestand, en u kunt Snowflake als secundair gegevensbestand gebruiken om dan uw gegevensmodel uit te breiden en uw gegevens in Snowflake op te slaan. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.
+
+  >[!NOTE]
+  >
+  >In dit implementatiemodel [!DNL Snowflake] secundaire database is alleen op verzoek beschikbaar. Uw implementatie laten bijwerken met [!DNL Snowflake], neemt u contact op met de technische accountmanager van de Adobe.
+  >
 
 * **Implementatie van Campagne Enterprise (FFDA)**
 

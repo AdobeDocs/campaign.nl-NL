@@ -5,7 +5,7 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 1%
@@ -94,7 +94,7 @@ Nadat u de workflow hebt gemaakt, hebt u toegang tot extra opties via de **[!UIC
 
 Meer informatie over **Workflow-eigenschappen** in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html).
 
-Van de **[!UICONTROL Execution]** tabblad van de workflow **[!UICONTROL Properties]**, kunt u uw workflow koppelen aan verschillende opslagruimten en het werklastbeheer optimaliseren. Voor meer informatie over **Waresthuizen**, verwijst u naar de [Documentatie Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
+Van de **[!UICONTROL Execution]** tabblad van de workflow **[!UICONTROL Properties]**, kunt u uw workflow koppelen aan verschillende opslagruimten en het werklastbeheer optimaliseren. Voor meer informatie over **Waresthuizen**, verwijst u naar de [Documentatie Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
 ![](assets/warehouse.png)
 

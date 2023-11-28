@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1136'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Er zijn ook andere meer technische processen beschikbaar:
 
 ## Databasecontainers {#db-containers}
 
-De Adobe Campaign Cloud-database is afhankelijk van [!DNL Snowflake] die de functionele gegevens (profielen, abonnementen, inhoud, enz.), de technische gegevens (leverings- en logboekgegevens, trackinglogboeken enz.) bevat en de werkgegevens (aankopen, leads) voor de oplossing, en alle Adobe Campaign-componenten communiceren met de database om hun specifieke taken uit te voeren.
+In haar [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md), is de Adobe Campaign Cloud-database afhankelijk van [!DNL Snowflake] die de functionele gegevens (profielen, abonnementen, inhoud, enz.), de technische gegevens (leverings- en logboekgegevens, trackinglogboeken enz.) bevat en de werkgegevens (aankopen, leads) voor de oplossing, en alle Adobe Campaign-componenten communiceren met de database om hun specifieke taken uit te voeren.
 
 U kunt Adobe Campaign implementeren met behulp van de vooraf gedefinieerde database en schema&#39;s en indien nodig kan deze vooraf gedefinieerde omgeving worden uitgebreid. Alle gegevens binnen de datamarkt worden betreden door Adobe Campaign via SQL vraag. Adobe Campaign biedt ook een volledige aanvulling op de ETL-gereedschappen (Extract Transform and Load) voor het importeren en exporteren van gegevens naar en vanuit het systeem.
 
@@ -96,6 +96,6 @@ U kunt Adobe Campaign implementeren met behulp van de vooraf gedefinieerde datab
 
 ## Databaseopslag {#db-storage}
 
-De totale opslagvergoeding wordt opgesplitst tussen de hoofddatabase en het Snowflake-entrepot. Waar de gegevens worden opgeslagen zou op implementatie of verbeteringstijd, afhankelijk van klant-specifieke gebruiks-gevallen moeten worden bepaald.
+De totale opslagruimte wordt opgesplitst tussen de hoofddatabase en de (facultatieve) secundaire database van de Snowflake. Waar de gegevens worden opgeslagen zou op implementatie of verbeteringstijd, afhankelijk van klant-specifieke gebruiks-gevallen moeten worden bepaald.
 
 Leer hoe u het databasegebruik kunt controleren in [Documentatie van het bedieningspaneel voor campagne](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
