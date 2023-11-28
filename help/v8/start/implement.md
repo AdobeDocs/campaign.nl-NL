@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1188'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ In deze sectie leert u hoe u Adobe Campaign kunt aanpassen aan de vereisten van 
 >
 >Met **Door campagne beheerde Cloud Servicen**, wordt uw omgeving en initiële configuratie ingesteld door Adobe, volgens de bepalingen van uw licentieovereenkomst. U mag geïnstalleerde ingebouwde pakketten, ingebouwde schema&#39;s of rapporten niet wijzigen.
 >
->Als u een toe:voegen-op van de Campagne of een specifiek vermogen moet gebruiken dat niet voor u is provisioned, moet u contact opnemen **Klantenservice Adoben**.
+>Als u een toe:voegen-op van de Campagne of een specifieke capaciteit moet gebruiken die niet voor u is provisioned, moet u uw **Adobe-overgangsbeheer**.
 
 ## Voordat u begint{#before-starting}
 

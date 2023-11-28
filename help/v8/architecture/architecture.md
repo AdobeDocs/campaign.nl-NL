@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 2%
@@ -38,7 +38,7 @@ Er zijn twee implementatiemodellen beschikbaar:
 
   >[!NOTE]
   >
-  >In dit implementatiemodel [!DNL Snowflake] secundaire database is alleen op verzoek beschikbaar. Uw implementatie laten bijwerken met [!DNL Snowflake], neemt u contact op met de technische accountmanager van de Adobe.
+  >In dit implementatiemodel [!DNL Snowflake] secundaire database is alleen op verzoek beschikbaar. Uw implementatie laten bijwerken met [!DNL Snowflake], neemt u contact op met uw Adobe Transition Manager.
   >
 
 * **Implementatie van Campagne Enterprise (FFDA)**
@@ -70,7 +70,7 @@ Hiertoe worden aanvullende externe rekeningen bij de **[!UICONTROL Split]** de v
 
 >[!IMPORTANT]
 >
->De gesplitste verpletterende wijze wordt toegelaten door gebrek voor de &quot;Gesplitste Levering - E-mail&quot;rekening. Neem voor alle andere kanalen externe accounts contact op met de klantenservice om de optie in te schakelen.
+>De gesplitste verpletterende wijze wordt toegelaten door gebrek voor de &quot;Gesplitste Levering - E-mail&quot;rekening. Voor alle andere kanalen externe rekeningen, bereik uit uw Manager van de Overgang van de Adobe om de optie te hebben toegelaten.
 >
 >Standaard is de waarde voor drempelgrootte voor het splitsen van een levering tussen meerdere midden 100 kB. U kunt deze waarde wijzigen in de optie &quot;NmsDelivery_MultiMidSplitThreshold&quot; in het dialoogvenster **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** -menu.
 

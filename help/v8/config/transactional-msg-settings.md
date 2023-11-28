@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '598'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ Begrijp transactie overseinenarchitectuur in [deze pagina](../architecture/archi
 
 ## Machtigingen definiëren {#mc-permissions}
 
-Als u nieuwe gebruikers wilt maken voor de uitvoering van Message Center-instanties die worden gehost op de Adobe Cloud, moet u contact opnemen met de klantenservice van de Adobe. De gebruikers van het Centrum van het bericht zijn specifieke exploitanten die specifieke toestemmingen om tot omslagen &quot;Real time gebeurtenissen&quot;(nmsRtEvent) vereisen toegang te hebben.
+Als u nieuwe gebruikers wilt maken voor de uitvoerinstanties van het Message Center die worden gehost op de Adobe Cloud, neemt u contact op met de Adobe Transition Manager. De gebruikers van het Centrum van het bericht zijn specifieke exploitanten die specifieke toestemmingen om tot omslagen &quot;Real time gebeurtenissen&quot;(nmsRtEvent) vereisen toegang te hebben.
 
 ## Schema-extensies  {#mc-schema-ext}
 

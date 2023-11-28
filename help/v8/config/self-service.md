@@ -5,10 +5,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 64%
+source-wordcount: '379'
+ht-degree: 61%
 
 ---
 
@@ -18,7 +18,7 @@ Met het Configuratiescherm kunt u de efficiëntie van uw werk als productbeheerd
 
 Belangrijkste voordelen:
 
-* Breng snel zelf wijzigingen aan in de instellingen zonder de klantenservice te raadplegen.
+* Breng snel zelf wijzigingen in de instellingen aan zonder de Adobe te verlaten.
 * Configureer instellingen op basis van uw verschillende bedrijfsbehoeften op verschillende momenten.
 * Verbeter de beveiliging door toegangsinstellingen op basis van behoefte te controleren.
 
