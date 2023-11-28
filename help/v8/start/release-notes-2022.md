@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1847'
 ht-degree: 13%
 
 ---
@@ -51,20 +51,20 @@ _30 september 2022_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Beschikbaarheid van twitter kanaal</strong><br /> </th> 
+<th> <strong>X (vroeger bekend als Twitter) kanaalbeschikbaarheid</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>De <a href="../send/twitter.md">Twitter, sociaal kanaal</a> is nu beschikbaar met Campagne v8. U kunt:</p>
+<td> <p>De <a href="../send/twitter.md">X sociaal kanaal</a> is nu beschikbaar met Campagne v8. U kunt:</p>
 <ul> 
-<li><p>Berichten verzenden bij Twitter: met Adobe Campaign kunt u berichten rechtstreeks naar uw twitter-account posten. U kunt ook directe berichten verzenden naar al uw volgers.
+<li><p>Verzend berichten op X (voorheen bekend als Twitter): met Adobe Campaign kunt u berichten rechtstreeks naar uw X-account posten. U kunt ook directe berichten verzenden naar al uw volgers.
 </p></li>
 <li><p>Verzamel nieuwe contacten: Adobe Campaign kan de profielgegevens automatisch terugkrijgen, die u toelaat om het richten campagnes uit te voeren en kanaalstrategieën uit te voeren.
 </p></li>
 </ul>
-<p>Leer hoe u campagne en Twitter kunt verbinden in de <a href="../connect/ac-tw.md">gedetailleerde documentatie</a>.</p>
-<p>Leer hoe u tweets kunt plaatsen en directe berichten kunt verzenden met Campagne in <a href="../connect/ac-tw.md">deze pagina</a>.</p>
+<p>Leer hoe u Campagne en X kunt verbinden in het dialoogvenster <a href="../connect/ac-tw.md">gedetailleerde documentatie</a>.</p>
+<p>Leer hoe u publicaties maakt en directe berichten verzendt via Campagne in <a href="../connect/ac-tw.md">deze pagina</a>.</p>
 </td> 
 </tr> 
 </tbody> 

@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 11%
 
 ---
@@ -56,14 +56,14 @@ Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten o
 
 ## Werken met sociale media{#gs-social}
 
-Gebruik Adobe Campaign om via Twitter te communiceren met klanten en vooruitzichten.
+Gebruik Adobe Campaign voor interactie met klanten en vooruitzichten via X (voorheen bekend als Twitter).
 
 U kunt:
 
 * Verzend directe berichten naar uw volgers
-* Tweets op uw Twitter-account plaatsen
+* Plaatsen op uw X-account
 * Nieuwe contactpersonen verzamelen
 
-Leer hoe u Twitter-integratie instelt en gebruikt in [deze pagina](../connect/ac-tw.md).
+Leer hoe u X-integratie instelt en gebruikt in [deze pagina](../connect/ac-tw.md).
 
-Leer hoe u Twitter-posts maakt en directe berichten stuurt naar uw volgers in [deze pagina](../send/twitter.md).
+Leer hoe u X-posts maakt en directe berichten stuurt naar uw volgers in [deze pagina](../send/twitter.md).

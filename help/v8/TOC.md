@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8-documentatie
 description: Documentatie voor Campaign v8
 breadcrumb-title: Overzicht van Campaign
-source-git-commit: b9e4cb3cbbb5a29879146eeecf7261b59f413993
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '579'
 ht-degree: 22%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 22%
       + [Pushmeldingen configureren met gegevensverzameling](send/push-data-collection.md)
    + [REGELS](send/line.md)
    + [Direct mail](send/direct-mail.md)
-   + [Twitter](send/twitter.md)
+   + [X (Twitter)](send/twitter.md)
    + Inhoud personaliseren {#personalize}
       + [Aan de slag met personalisatie](send/personalize.md)
       + [Personalisatiegegevens](send/personalization-data.md)
@@ -141,7 +141,7 @@ ht-degree: 22%
    + [Campagne + Experience Manager](connect/ac-aem.md)
    + [Campagne + Doel](connect/ac-at.md)
    + [Campagne + triggers voor Experiencen Cloud](connect/ac-triggers.md)
-   + [Campagne + Twitter](connect/ac-tw.md)
+   + [Campagne + X (Twitter)](connect/ac-tw.md)
    + [Campagne + externe database](connect/fda.md)
    + Campagne + uw CRM {#ac-crm}
       + [Aan de slag met CRM-connectors](connect/crm.md)

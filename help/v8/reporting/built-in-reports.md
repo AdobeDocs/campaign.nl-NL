@@ -5,9 +5,9 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1115'
 ht-degree: 1%
 
 ---
@@ -381,7 +381,7 @@ De volgende rapporten worden ook ingebouwd verstrekt. Raadpleeg voor meer inform
   </tr> 
   <tr> 
    <td> Geschiedenis van sociale vooruitzichten (socialVisitorStatistics)<br /> </td> 
-   <td> De geschiedenis van Twitter en Facebook-perspectiefaankopen is afhankelijk van de sociale marketingadd-on.<br /> </td> 
+   <td> De geschiedenis van X (vroeger genoemd geworden Twitter) en de perspectiefverwervingen van Facebook, hangt van de sociale marketing toe:voegen-op af.<br /> </td> 
    <td> nms:bezoeker<br /> </td> 
   </tr> 
   <tr> 

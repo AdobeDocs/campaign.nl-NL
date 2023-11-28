@@ -1,35 +1,35 @@
 ---
-title: Berichten op Twitter plaatsen met Adobe Campaign
-description: Leer hoe je de Adobe Campaign Social Marketing-module gebruikt om berichten op Twitter te plaatsen en directe berichten naar je volgers te sturen
+title: Berichten plaatsen op X (Twitter) met Adobe Campaign
+description: Leer hoe u de Adobe Campaign Social Marketing-module kunt gebruiken om berichten op X (voorheen bekend als Twitter) te plaatsen en directe berichten naar uw volgers te verzenden
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
 
 
-# Berichten op Twitter plaatsen met Adobe Campaign {#post-tw-messages}
+# Berichten plaatsen op X (Twitter) met Adobe Campaign {#post-tw-messages}
 
-Adobe Campaign wordt geleverd met een **Sociale marketing** -module waarmee u via Twitter kunt communiceren met uw klanten en vooruitzichten.
+Adobe Campaign wordt geleverd met een **Sociale marketing** -module waarmee u via X (voorheen bekend als Twitter) kunt communiceren met uw klanten en vooruitzichten.
 
 Zodra de integratie wordt gevormd, kunt u:
 
 * Verzend directe berichten naar uw volgers
-* Tweets op je Twitter-account plaatsen
+* Plaatsen op uw X-account
 * Verzamel nieuwe contacten door de profielgegevens terug te krijgen, die u toelaat om het richten campagnes uit te voeren en, waar mogelijk, om kanaalstrategieën uit te voeren. Voor deze handeling is toestemming van de gebruiker vereist.
 
 
-De configuratiestappen voor de integratie van uw Twitter-account met Adobe Campaign worden beschreven in [deze pagina](../connect/ac-tw.md).
+De configuratiestappen om uw X-account te integreren met Adobe Campaign worden beschreven in [deze pagina](../connect/ac-tw.md).
 
-## Twitter-berichten maken en publiceren {#publish-on-tw}
+## Een X-bericht maken en publiceren {#publish-on-tw}
 
-Voer de onderstaande stappen uit om een bericht op je Twitter-account te plaatsen:
+Voer de onderstaande stappen uit om een bericht op uw X-account te plaatsen:
 
-1. Een Twitter-levering maken
+1. Een X-levering maken
 
    Maak een nieuwe levering op basis van de **[!UICONTROL Tweet (twitter)]** leveringssjabloon.
 
@@ -37,24 +37,24 @@ Voer de onderstaande stappen uit om een bericht op je Twitter-account te plaatse
 
 1. Selecteer het hoofddoel
 
-   Selecteer de account(s) waarnaar u tweets wilt verzenden.
+   Selecteer de account(s) waarnaar je berichten wilt verzenden.
 
    ![](assets/tw-define-target.png)
 
    1. Klik op de koppeling **[!UICONTROL To]**.
    1. Klik op de knop **[!UICONTROL Add]**.
    1. Selecteer **[!UICONTROL A Twitter account]**.
-   1. In de **[!UICONTROL Folder]** , selecteert u de servicemap die de Twitter-account bevat. Selecteer vervolgens de Twitter-account waarnaar u uw tweet wilt verzenden.
+   1. In de **[!UICONTROL Folder]** , selecteert u de servicemap die de X-account bevat. Selecteer vervolgens de X-account waarnaar u de tweet wilt verzenden.
 
 1. Proofingdoel selecteren
 
-   De **[!UICONTROL Target of the proofs]** kunt u de Twitter-account definiëren die u voor testleveringen wilt gebruiken voordat de levering is voltooid.
+   De **[!UICONTROL Target of the proofs]** kunt u het X-account definiëren dat voor testleveringen moet worden gebruikt voordat de uiteindelijke levering plaatsvindt.
 
-   Zoals in het [configuratiestappen](../connect/ac-tw.md#tw-test-account), moet u een Twitter-account voor een privétest maken voor het verzenden van proefdrukken.
+   Zoals in het [configuratiestappen](../connect/ac-tw.md#tw-test-account), moet u een privé testX rekening tot stand brengen die aan het verzenden van proeven wordt gewijd.
 
    >[!NOTE]
    >
-   >Als u voor al uw leveringen dezelfde Twitter-testaccount gebruikt, kunt u het proefdrukdoel opslaan in het dialoogvenster **[!UICONTROL Tweet]** leveringssjabloon, toegankelijk via **[!UICONTROL Resources > Templates > Delivery templates]** knooppunt. Het proefdrukdoel wordt dan standaard ingevoerd voor elke nieuwe levering.
+   >Als u voor al uw leveringen dezelfde X-testaccount gebruikt, kunt u het proefdrukdoel opslaan in het dialoogvenster **[!UICONTROL Tweet]** leveringssjabloon, toegankelijk via **[!UICONTROL Resources > Templates > Delivery templates]** knooppunt. Het proefdrukdoel wordt dan standaard ingevoerd voor elke nieuwe levering.
 
 1. De inhoud van je bericht definiëren
 
@@ -64,11 +64,11 @@ Voer de onderstaande stappen uit om een bericht op je Twitter-account te plaatse
 
    >[!CAUTION]
    >
-   >Bij het plaatsen op Twitter gelden de volgende beperkingen:
+   >Bij het plaatsen op X gelden de beperkingen:
    >
    >* Het bericht mag niet langer zijn dan 140 tekens.
    >* HTML-indeling wordt niet ondersteund.
-
+   >
 
 1. Je advertentie bekijken
 
@@ -78,11 +78,11 @@ Voer de onderstaande stappen uit om een bericht op je Twitter-account te plaatse
 
    1. Klik op de knop **[!UICONTROL Preview]** tab.
    1. Klik op de knop **[!UICONTROL Test personalization]** vervolgkeuzelijst en selecteert u **[!UICONTROL Service]**.
-   1. In de **[!UICONTROL Folder]** , selecteert u de servicemap die uw Twitter-account bevat.
+   1. In de **[!UICONTROL Folder]** , selecteert u de servicemap die uw X-account bevat.
 
 1. Een proef verzenden
 
-   Voordat u uw tweet publiceert, moet u controleren of de tweet is gevalideerd door een bewijs van uw publicatie te verzenden: u kunt de publicatie vervolgens op een persoonlijke Twitter-testpagina op exacte wijze weergeven.
+   Voordat u uw tweet publiceert, moet u controleren of de publicatie is gevalideerd door een bewijs van uw publicatie te verzenden. U kunt dan een exacte weergave van de publicatie op een persoonlijke X-testpagina krijgen.
 
 1. Bericht verzenden
 
@@ -93,17 +93,17 @@ Voer de onderstaande stappen uit om een bericht op je Twitter-account te plaatse
 
 ## Directe berichten verzenden naar volgers {#direct-tw-messages}
 
-De **[!UICONTROL Synchronize Twitter accounts]** de technische workflow herstelt de lijst met Twitter-volgers zodat u deze rechtstreeks kunt verzenden. [Meer informatie](../connect/ac-tw.md#synchro-tw-accounts)
+De **[!UICONTROL Synchronize Twitter accounts]** de technische werkstroom herstelt de lijst van X volgers zodat u hen directe berichten kunt verzenden. [Meer informatie](../connect/ac-tw.md#synchro-tw-accounts)
 
 Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
-1. Een Twitter-levering maken op basis van de **[!UICONTROL Tweet (Direct Message)]** ingebouwde leveringssjabloon.
+1. Een X-levering maken op basis van de **[!UICONTROL Tweet (Direct Message)]** ingebouwde leveringssjabloon.
 
 1. Selecteer het hoofddoel
 
    ![](assets/tw-dm-define-target.png)
 
-   1. Selecteer **[!UICONTROL To]** en de **[!UICONTROL Add]** knop.
+   1. Selecteer de **[!UICONTROL To]** en de **[!UICONTROL Add]** knop.
 
    1. Kies een doeltype
 
@@ -111,14 +111,14 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
       * Selecteren **[!UICONTROL Filter conditions]** om een vraag te bepalen en zijn resultaat te bekijken. Leer hoe u een filter maakt in [deze sectie](../audiences/create-filters.md#advanced-filters).
 
-1. Selecteer het proefdrukdoel in het menu **[!UICONTROL Target of the proofs]** tab: dit account ontvangt het bewijs van je directe bericht.
+1. Selecteer het proefdrukdoel in het menu **[!UICONTROL Target of the proofs]** tab: deze account ontvangt het bewijs van je directe bericht.
 
-   Zoals in het [configuratiestappen](../connect/ac-tw.md#tw-test-account), moet u een Twitter-account voor een privétest maken voor het verzenden van proefdrukken.
+   Zoals in het [configuratiestappen](../connect/ac-tw.md#tw-test-account), moet u een privé testX rekening tot stand brengen die aan het verzenden van proeven wordt gewijd.
 
 
    >[!NOTE]
    >
-   >Als u al uw directe-berichtproefdrukken naar dezelfde Twitter-account wilt verzenden, kunt u het proefdrukdoel opslaan in het dialoogvenster **[!UICONTROL Tweet (Direct Message)]** leveringssjabloon, toegankelijk via **[!UICONTROL Resources > Templates > Delivery templates]** knooppunt.
+   >Als u al uw directe-berichtproefdrukken naar dezelfde X-account wilt verzenden, kunt u het proefdrukdoel opslaan in het dialoogvenster **[!UICONTROL Tweet (Direct Message)]** leveringssjabloon, toegankelijk via **[!UICONTROL Resources > Templates > Delivery templates]** knooppunt.
 
 1. Voer de inhoud van het bericht in het dialoogvenster **[!UICONTROL Content]** tab.
 
@@ -134,11 +134,11 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
    1. Klik op de knop **[!UICONTROL Preview]** tab.
    1. Klik op de knop **[!UICONTROL Test personalization]** vervolgkeuzelijst en selecteert u **[!UICONTROL Visitor Subscription]**.
-   1. Kies een Twitter-account waarmee u de voorvertoning wilt testen.
+   1. Kies een X-account waarmee u de voorvertoning wilt testen.
 
 1. Een proef verzenden
 
-   Voordat u uw bericht verzendt, moet u controleren of het door [een bewijs naar een testaccount sturen](../send/preview-and-proof.md): u kunt dan een nauwkeurige weergave van het bericht op een privé Twitter-account krijgen en de inhoud en personalisatie controleren.
+   Voordat u uw bericht verzendt, moet u controleren of het is gevalideerd door [het verzenden van een bewijs naar een testaccount](../send/preview-and-proof.md): u kunt dan een exacte weergave van het bericht op een persoonlijke X-account ophalen en de inhoud en personalisatie controleren.
 
 1. Het directe bericht verzenden
 
