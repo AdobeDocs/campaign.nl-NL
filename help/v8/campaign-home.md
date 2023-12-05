@@ -3,16 +3,14 @@ keywords: Campaign Classic;home;populaire onderwerpen
 description: Campagne v8 Help Center
 title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: b0f5f5b4871752651c43c6f582d0f543be7bb5bd
+source-git-commit: a242b4aad44b84cc3faf54e26a523b7f11b864ab
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '429'
+ht-degree: 0%
 
 ---
 
 # Adobe Campaign v8-documentatie {#campaign-documentation}
-
-<!--![](assets/banner-documentationv8.png) -->
 
 ## Nieuwe functies
 
@@ -46,7 +44,7 @@ Deze maximum productieprestaties zijn gemeten door Adobe testende teams, in labo
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="start/whats-new.md"><img src="assets/do-not-localize/start-capabilities.png"></a></a>
+    <a href="start/whats-new.md"><img src="assets/do-not-localize/start-capabilities.png"></a>
     <div><strong>Belangrijkste mogelijkheden</strong><br/>Ontdek de belangrijkste mogelijkheden van Adobe Campaign v8 voor het beheer van campagnes over meerdere kanalen.</div>
     </td>
     <td>
@@ -62,6 +60,12 @@ Deze maximum productieprestaties zijn gemeten door Adobe testende teams, in labo
     <div><strong>Profielen importeren</strong><br/>Ontdek eenvoudig het maken van profielen in de Adobe Campaign v8-database. Voeg profielen handmatig of via import toe, verbeter klantgegevens en maak campagnes eenvoudig aan te passen.</div>
     </td>
   </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="start/whats-new.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="start/connect.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="start/create-message.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="audiences/create-profiles.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
 
 ## Documentatie verkennen
@@ -69,40 +73,35 @@ Deze maximum productieprestaties zijn gemeten door Adobe testende teams, in labo
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon-start.svg" width="70px">
-    <td>
+      <img src="assets/do-not-localize/icon-start.svg" width="35px">
+    <br/>
       <strong>Aan de slag</strong><br/><a href="start/campaign-ui.md">Gebruikersinterface</a> - <a href="start/ac-components.md">Onderdelen en processen</a> - <a href="start/v7-to-v8.md">Van Classic v7 naar v8</a> - <a href="start/campaign-faq.md">Veelgestelde vragen</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-experience.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
       <strong>Ervaring van de klant</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">Automatiseren met workflows</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Campagne-orkestatie</a> - <a href="interaction/interaction.md">Beslissingsbeheer</a> - <a href="send/personalize.md">Personalisatie</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-send.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-send.svg" width="35px">
+    <br/>
       <strong>Berichten verzenden</strong><br/><a href="start/create-message.md">Aan de slag</a> - <a href="send/preview-and-proof.md">Voorvertoning en proefdrukken</a> - <a href="send/predictive.md">Optimalisatie bij verzending</a> - <a href="reporting/gs-reporting.md">Rapportage en analyse</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon_profile-audience.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
+    <br/>
       <strong>Profielen en publiek</strong><br/><a href="audiences/create-profiles.md">Profielen toevoegen</a> - <a href="audiences/create-audiences.md">Soorten publiek maken</a> - <a href="start/subscriptions.md">Abonnementen beheren</a> - <a href="start/privacy.md">Privacy</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-configure.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
+    <br/>
       <strong>Architectuur en configuratie</strong><br/><a href="architecture/architecture.md">Architectuur</a> - <a href="start/implement.md">Implementatie van campagne v8</a> - <a href="connect/integration.md">Verbinding maken met andere oplossingen</a> - <a href="start/gs-permissions.md">Gebruikers en machtigingen</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-dev.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-dev.svg" width="35px">
+    <br/>
       <strong>Bronnen voor ontwikkelaars</strong><br/><a href="dev/datamodel.md">Campaign v8 datamodel</a> - <a href="dev/schemas.md">Schemas</a> - <a href="dev/api.md">API's</a>
     </td>
   </tr>
@@ -110,8 +109,5 @@ Deze maximum productieprestaties zijn gemeten door Adobe testende teams, in labo
 
 ## Aanvullende bronnen
 
-* [Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"}
-* [[!DNL Adobe Campaign] handleiding voor automatisering](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"}
-* [Configuratiescherm voor campagne v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
+[Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
 
