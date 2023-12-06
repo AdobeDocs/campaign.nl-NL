@@ -3,9 +3,10 @@ title: Migratie van technische gebruikers naar Adobe Developer-console
 description: Leer hoe u technische operatoren van campagnes kunt migreren naar een technische account op de Adobe Developer-console
 feature: Technote
 role: Admin
-source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
+exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Als onderdeel van de inspanningen om het beveiligings- en verificatieproces te v
 Een technische operator is een Campagnegebruikersprofiel dat expliciet is gemaakt voor API-integratie. In dit artikel worden de stappen beschreven die nodig zijn om een technische operator via de Adobe Developer-console naar een technische account te migreren.
 
 
-## Heeft dit gevolgen voor u?{#ims-impacts}
+## Heb je invloed op?{#ims-impacts}
 
 Als u API-aanroepen maakt van een systeem dat extern is voor Campagne, naar de instantie Campagne Marketing of naar de instantie Real-Time Message Center, moet u de technische operator(s) migreren naar een technische account(s) via de Adobe Developer-console, zoals hieronder beschreven.
 
@@ -38,7 +39,7 @@ Een overzicht van de stappen is:
 
 ### Voorwaarden voor migratie{#ims-migration-prerequisites}
 
-Om de technische rekeningen te kunnen opstellen die de technische operatoren vervangen, moet de voorwaarde dat de juiste profielen van het product van de campagne binnen de Admin Console voor alle campagneinstanties bestaan, worden gevalideerd. Meer informatie over productprofielen vindt u in de Adobe Console in [Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+<!--To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.-->
 
 Voor API-aanroepen in de Message Center-instantie(s) had een productprofiel moeten worden gemaakt tijdens de upgrade naar Campagne v8.5 of tijdens de provisioning van de instantie. Dit productprofiel heeft de volgende naam:
 

@@ -5,7 +5,7 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 7deb5e8f646b086adec2e0652538a187e68adbee
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Meer informatie over de belangrijkste mogelijkheden van de Campagne in [deze pag
 
 Adobe Campaign-componenten en algemene architectuur worden hieronder beschreven.
 
-![](assets/ac-components.png)
+![](assets/do-not-localize//ac-components.png)
 
 ### Presentatielaag{#presentation-layer}
 
@@ -58,13 +58,13 @@ Adobe Campaign v8 is as a Managed Service geïmplementeerd: alle componenten van
 
 De server van het Web van de campagne controleert de toegang tot de processen van het Web van de Campagne. Javascript is de taal aan de serverzijde die voor kernproducteigenschappen en aanpassing wordt gebruikt. Tomcat is de achterste-eindmotor en is ingebed in het product van de Campagne als deel van het proces van het Web. Javascript wordt bijvoorbeeld gebruikt in JSP- of JSSP-pagina&#39;s om dynamische inhoud te renderen.
 
-![](assets/ac-processes.png)
+![](assets/do-not-localize/ac-processes.png)
 
 De Console van de Cliënt van de campagne verbindt met de server van het Web gebruikend XML van de ZEEP over HTTP. De server van het Web verstrekt de veiligheidslaag, gaat de verzoeken tot de laag van de Toepassing over gebruikend Javascript en de interne processen van de Campagne toegang tot het gegevensbestand gebruikend SQL.
 
 De algemene communicatie tussen de processen van de Campagne wordt beschreven in het volgende standalone plaatsingsdiagram: alle componenten van de Campagne worden geïnstalleerd in de zelfde machine.
 
-![](assets/ac-standalone.png)
+![](assets/do-not-localize//ac-standalone.png)
 
 De gebruiker verbindt met de de toepassingsserver van de Campagne gebruikend HTTP. Alle gegevens en informatie worden beheerd in het gegevensbestand van de Campagne. Als een ontwikkelaar van de Campagne om het even welke configuratieveranderingen uitvoert, wordt het gevangen in het gegevensbestand. Als een markeerteken een nieuwe campagne maakt, worden alle informatie en gegevens met betrekking tot deze nieuwe campagne ook beheerd in de database. Wanneer een teller een campagne uitvoert, worden de e-mailleveringen verzonden naar profielen van de server van de Campagne door de server SMTP. Als profielen reageren op e-mailleveringen, zoals het openen van de e-mail, worden deze gegevens teruggestuurd naar de trackingserver.
 

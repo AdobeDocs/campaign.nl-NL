@@ -5,10 +5,10 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 2%
+source-wordcount: '1065'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ De campagne gebruikt versie 1.1 van X API. Om het te gebruiken, moet u voor Verh
 
 ## Een toepassing maken op X {#create-an-app-on-twitter}
 
-Zodra u met Verhoogde toegang bent goedgekeurd, creeer een X toepassing om Adobe Campaign toe te laten om posten op uw rekening van X tot stand te brengen. Volg de onderstaande stappen om dit te doen:
+Zodra u met Verhoogde toegang bent goedgekeurd, creeer een X toepassing om Adobe Campaign toe te laten om posten op uw rekening van X tot stand te brengen. Hiervoor voert u de volgende stappen uit:
 
 1. Meld u aan bij uw X-account.
 1. Verbinden met [X-ontwikkelaarsportal](https://developer.twitter.com/en/apps).
@@ -135,12 +135,12 @@ Zodra deze configuratie wordt gedaan, kunt u berichten op uw rekeningen van X to
 
 ## Een testaccount maken op X {#tw-test-account}
 
-Naast X-account maakt u een persoonlijke X-account die u kunt gebruiken voor verzending [proefdrukken van tweet](../send/twitter.md#send-tw-proofs). Volg de onderstaande stappen om dit te doen:
+Naast X-account maakt u een persoonlijke X-account die u kunt gebruiken voor verzending [proefdrukken van tweet](../send/twitter.md#send-tw-proofs). Hiervoor voert u de volgende stappen uit:
 
 1. Maak een nieuw X-account.
 1. Toegang krijgen tot de account  **Instellingen**.
 1. Bladeren naar **Privacy en veiligheid** en **Publiek en tags toepassen** en de **Protect je berichten** -optie. Je berichten en andere accountgegevens zijn alleen zichtbaar voor mensen die je volgen.
 
-![](assets/social_tw_test_page.png)
+![](assets/do-not-localize/social_tw_test_page.png)
 
 Configureer uw X-app en Campagne-service om met deze testaccount te werken, zoals hierboven beschreven.

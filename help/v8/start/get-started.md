@@ -5,10 +5,10 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 41%
+source-wordcount: '862'
+ht-degree: 23%
 
 ---
 
@@ -22,7 +22,7 @@ Campagne gebruiken om:
 * **Integreren** e-mail, mobiel, online en offline kanalen aan de reis van de klant
 * **Automatisch** de levering van zinvolle en tijdige berichten en aanbiedingen
 
-![](assets/ac-capabilities.png)
+![](assets/do-not-localize/ac-capabilities.png)
 
 ## Geïntegreerd klantprofiel {#integrated-customer-profile}
 
@@ -34,17 +34,17 @@ In Adobe Campaign zijn ontvangers de standaardprofielen voor het verzenden van l
 
 ![](../assets/do-not-localize/glass.png) Leer hoe u profielen aan Campagne kunt toevoegen in [deze sectie](import.md).
 
-## Doelgerichte segmentatie {#targeted-segmentation}
+## Gerichte segmentatie {#targeted-segmentation}
 
-Adobe Campaign beschikt over krachtige, gebruiksvriendelijke segmentatie- en targetingfuncties waarmee u heel doelgerichte, gedifferentieerde aanbiedingen kunt maken. Met de functionaliteit voor beschrijvende analyse kunt u informatie upstream en downstream van uw marketingcampagnes analyseren, en met de functionaliteit voor filterbeheer en de grafische query-editor kunt u uw ledenpopulatie filteren en doelgroepen testen en maken op basis van een onbeperkt aantal criteria.
+Adobe Campaign beschikt over krachtige, gebruiksvriendelijke segmentatie- en targetingfuncties waarmee u heel doelgerichte, gedifferentieerde aanbiedingen kunt maken. De beschrijvende analysefunctionaliteit laat u informatie upstream en downstream van uw marketing campagnes analyseren, en de functionaliteit van het filterbeheer en grafische vraagredacteur laat u uw abonneepopulatie filtreren en steekproef of doelgroepen creëren die op een onbeperkt aantal criteria worden gebaseerd.
 
-De geavanceerde functionaliteit voor data management breidt de mogelijkheden voor dataverwerking uit. Het vereenvoudigt en optimaliseert het targetingproces door data op te nemen die niet in de datamart worden gemodelleerd.
+De geavanceerde functionaliteit voor data management breidt de mogelijkheden voor dataverwerking uit. Het vereenvoudigt en optimaliseert het het richten proces door gegevens op te nemen niet die in datamart worden gemodelleerd.
 
 ![](../assets/do-not-localize/glass.png) Meer informatie over segmentering en publiekscreatie in [deze sectie](audiences.md).
 
-## Kanaaloverschrijdende orkestrering van campagnes {#cross-channel-campaign-orchestration}
+## Kanaaloverschrijdende campagneorchestratie {#cross-channel-campaign-orchestration}
 
-Met Adobe Campaign kunt u doelgerichte en gepersonaliseerde campagnes ontwerpen en organiseren op meerdere kanalen: e-mail, direct mail, sms, pushmelding. Eén enkele interface voorziet u van alle functies die vereist zijn om al uw campagnes en communicatie te plannen, te organiseren, te configureren, te personaliseren, te automatiseren, uit te voeren en te meten.
+Met Adobe Campaign kunt u doelgerichte en gepersonaliseerde campagnes ontwerpen en organiseren op meerdere kanalen: e-mail, direct mail, sms, pushmelding. Één enkele interface voorziet u van alle functies die worden vereist om, al uw campagnes en mededelingen te plannen, te organiseren, te vormen, te personaliseren, uit te voeren en te meten.
 
 ![](../assets/do-not-localize/glass.png) Leer hoe u in [deze sectie](campaigns.md).
 
@@ -65,7 +65,7 @@ Workflows kunnen in verschillende contexten worden gebruikt, zoals:
 
 ## Rapportage en analyse {#analysis-and-reporting}
 
-Met Adobe Campaign kunt u het gedrag van uw klanten volgen en interpreteren door hun data en profielen geleidelijk te verrijken. Met de rapportage- en analysetools kunt u profiteren van elke nieuwe campagne, uw marketinginitiatieven beter richten en hun impact en rendement op investeringen optimaliseren.
+Met Adobe Campaign kunt u het gedrag van uw klanten volgen en interpreteren door hun data en profielen geleidelijk te verrijken. Met de rapportage- en analyseprogramma&#39;s kunt u profiteren van elke nieuwe campagne, uw marketinginitiatieven beter richten en hun impact en rendement op investeringen optimaliseren.
 
 Naast krachtige, out-of-the box rapporteringsmalplaatjes, kunt Adobe Campaign u douanerapporten op een levering, een campagne, een gebruiker, of een segmentniveau tot stand brengen. Maak een beschrijvende analyse, vat ROI samen of exporteer gegevens naar Adobe Analytics en andere oplossingen voor verdere gegevensvisualisatie en -analyse.
 
@@ -74,9 +74,9 @@ Met de functie voor campagnerapportage kunt u dynamische rapporten maken. U kunt
 
 ![](../assets/do-not-localize/glass.png) Meer informatie over rapporten en traceringsmogelijkheden vindt u in [deze sectie](../reporting/gs-reporting.md).
 
-## Adobe Experience Cloud-integraties {#adobe-experience-cloud-integrations}
+## Adobe Experience Cloud-integratie {#adobe-experience-cloud-integrations}
 
-U kunt de leveringsfuncties en functies voor geavanceerd campagnebeheer van Adobe Campaign combineren met een reeks oplossingen die u helpen uw gebruikerservaring te personaliseren: bijvoorbeeld Adobe Experience Manager-, Adobe Analytics-, Adobe Target- of Adobe Experience Cloud-triggers.
+U kunt de leveringsfuncties en de geavanceerde functies voor campagnebeheer van Adobe Campaign combineren met een reeks oplossingen die u helpen uw gebruikerservaring aan te passen: bijvoorbeeld Adobe Experience Manager, Adobe Analytics, Adobe Target of Adobe Experience Cloud.
 
 ![](../assets/do-not-localize/glass.png) Leer hoe u met Adobe-services en -oplossingen kunt integreren in [deze sectie](../connect/integration.md).
 
@@ -90,5 +90,5 @@ Adobe Campaign biedt een aantal mogelijkheden om u te helpen de functionaliteit 
 
 * [Campagne, werkruimte](campaign-ui.md)
 * [Compatibiliteitsmatrix voor campagne v8](compatibility-matrix.md)
-* [Verbinding maken met Campaign](connect.md)
+* [Verbinding maken met campagne](connect.md)
 * [Veelgestelde vragen](campaign-faq.md)
