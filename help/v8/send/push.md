@@ -5,9 +5,9 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '866'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 3%
 Met de levering van mobiele apps kunt u meldingen verzenden naar iOS en Android-apparaten.
 
 Voordat u pushberichten met Adobe Campaign gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en voor tags in Adobe Experience Platform. [Meer informatie over de pushconfiguratie.](push-settings.md)
+
+>[!CAUTION]
+>
+>Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet de configuratie van uw abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen. U kunt al controleren en actie ondernemen. [Meer informatie](../../technotes/upgrades/push-technote.md).
+
 
 ## Uw eerste pushmelding maken{#push-create}
 

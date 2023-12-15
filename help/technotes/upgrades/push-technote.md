@@ -1,22 +1,21 @@
 ---
 product: campaign
-title: Wijzigingen in pushmeldingskanaal
-description: Wijzigingen in pushmeldingskanaal
+title: Aanstaande wijzigingen in het kanaal voor pushmeldingen
+description: Aanstaande wijzigingen in het kanaal voor pushmeldingen
 feature: Push
 role: Admin
 level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Ook van toepassing op Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Is van toepassing op campagne v8"
-hide: true
-hidefromtoc: true
-source-git-commit: 65b8d84e600e1814484fa81fb814475c0a8b9296
+exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 1%
+source-wordcount: '804'
+ht-degree: 2%
 
 ---
 
-# Wijzigingen in pushmeldingskanaal {#push-upgrade}
+# Aanstaande wijzigingen in het kanaal voor pushmeldingen {#push-upgrade}
 
 Met Campagne kunt u pushmeldingen verzenden op Android-apparaten. Om dit te doen, baseert de Campagne zich op de specifieke abonnementsdiensten. Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet de configuratie van uw abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen.
 
@@ -26,7 +25,7 @@ Als onderdeel van de voortdurende inspanningen van Google om haar diensten te ve
 
 Adobe Campaign Classic v7 en Adobe Campaign v8 ondersteunen al de nieuwste API&#39;s voor het verzenden van pushberichten. Sommige oude implementaties zijn echter nog steeds afhankelijk van de oudere API&#39;s. Deze implementaties moeten worden bijgewerkt.
 
-## Heeft dit gevolgen voor u? {#fcm-impact}
+## Heb je invloed op? {#fcm-impact}
 
 Als uw huidige implementatie ondersteuning biedt voor abonnementsservices die verbinding maken met FCM via de verouderde API&#39;s, heeft dit gevolgen voor u. Migratie naar de nieuwste API&#39;s is verplicht om elke onderbreking van de service te voorkomen. In dat geval zullen de teams van de Adobe u bereiken.
 
@@ -102,4 +101,3 @@ U kunt:
 * Stel de **[!UICONTROL Visibility]** niveau van uw kennisgeving aan publiek, privé of geheim.
 
 Voor meer informatie over de **[!UICONTROL HTTP v1 additional options]** en hoe u deze velden kunt vullen, raadpleegt u [FCM-documentatie](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-

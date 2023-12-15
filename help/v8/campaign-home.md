@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;populaire onderwerpen
 description: Campagne v8 Help Center
 title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 0f86b6303bd380f5079b38de88ee3d097e415695
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 0%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -18,24 +18,17 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 product en d
 
 >[!BEGINTABS]
 
+>[!TAB Wijzigingen in pushkanaal]
+
+Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet de configuratie van uw abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen. U kunt al controleren en actie ondernemen.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
+
 >[!TAB Enhanced Push Notification Service]
 
 Campagne v8.5.1 introduceert onze nieuwste Push-meldingsservice, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken. Deze mogelijkheid is alleen beschikbaar voor een geselecteerde groep klanten (beperkte beschikbaarheid).
 
 [![image](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
-
->[!TAB Verhoogde doorvoer van mobiele kanalen]
-
-De nieuwe Push-meldingsservice laat zien dat de doorvoer voor zowel Push Android als Push iOS aanzienlijk is verbeterd ten opzichte van onze vorige versie (v8.4). De gebruikers zullen met name verbeterde prestaties met de verbeterde dienst in de recentste versie (v8.5) ervaren.
-
-* Pushmeldingen (Android): tot **5x** sneller
-* Pushmeldingen (iOS): maximaal **2,2 x** sneller
-
-De productie van SMS heeft aanzienlijke verhogingen door een reeks optimalisaties ondergaan, resulterend in opmerkelijke verbeteringen in snelheid en efficiency voor de mededeling van SMS. Deze upgrades hebben geleid tot een hogere doorvoer van de vorige versie (v8.4) naar de nieuwste versie (v8.5), die zowel updates voor verzenden als feedback omvat. Gebruikers kunnen nu profiteren van de voordelen van deze verbeterde SMS-service.
-
-* SMS-doorvoer: maximaal <strong>5x</strong> sneller</li>
-
-Deze maximum productieprestaties zijn gemeten door Adobe testende teams, in laboratoriumomstandigheden.
 
 >[!ENDTABS]
 

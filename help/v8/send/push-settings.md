@@ -6,18 +6,22 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '1659'
-ht-degree: 3%
+source-wordcount: '1631'
+ht-degree: 2%
 
 ---
 
 # Pushmeldingskanaal configureren {#push-notification-configuration}
 
-Voordat u pushberichten met Adobe Campaign gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en voor tags in Adobe Experience Platform.
+Als u pushmeldingen wilt verzenden met Adobe Campaign, moet u eerst uw omgeving en app configureren zoals in deze pagina wordt beschreven. In Adobe Campaign is het kanaal voor het verzenden van pushmeldingen het mobiele app-kanaal.
 
-Adobe Experience Platform Mobile SDK biedt client-side integratie-API&#39;s voor uw mobiele apparaten via met Android en iOS compatibele SDK&#39;s.
+>[!CAUTION]
+>
+>Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet de configuratie van uw abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen. U kunt al controleren en actie ondernemen. [Meer informatie](../../technotes/upgrades/push-technote.md).
+
+Voordat u pushberichten met Adobe Campaign gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en voor tags in Adobe Experience Platform. Adobe Experience Platform Mobile SDK biedt client-side integratie-API&#39;s voor uw mobiele apparaten via met Android en iOS compatibele SDK&#39;s.
 
 Voer de volgende stappen uit om uw app in te stellen met Adobe Experience Platform Mobile SDK&#39;s:
 
@@ -259,7 +263,7 @@ Voer de volgende stappen uit om een app voor Android-apparaten te maken:
 
 1. (optioneel) U kunt de inhoud van een pushbericht verrijken met wat **[!UICONTROL Application variables]** indien nodig. Deze zijn volledig aanpasbaar en een deel van de berichtlading wordt verzonden naar het mobiele apparaat.
 
-1. Klik op **[!UICONTROL Finish]** en vervolgens op **[!UICONTROL Save]**. Uw Android-toepassing kan nu worden gebruikt in Campagne.
+1. Klikken **[!UICONTROL Finish]** dan **[!UICONTROL Save]**. Uw Android-toepassing kan nu worden gebruikt in Campagne.
 
 Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te passen:
 
