@@ -2,19 +2,19 @@
 audience: end-user
 user-guide-title: Campaign v8
 title: Adobe Campaign v8-documentatie
-description: Documentatie voor Campaign v8
-breadcrumb-title: Overzicht van Campaign
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+description: Campagne v8-documentatie
+breadcrumb-title: Campagne v8 Documentatie
+source-git-commit: 24785675a2138e3ce9c806fb52ac29a6a18c6d31
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 22%
+source-wordcount: '557'
+ht-degree: 14%
 
 ---
 
 
 # Adobe Campaign v8-documentatie {#campaign-v8}
 
-+ [Documentatie voor Campaign v8](campaign-home.md)
++ [Campagne v8-documentatie](campaign-home.md)
 + releases en nieuwste updates {#releases}
    + [Vroege aanvullende informatie](start/e-release-notes.md)
    + [Aanvullende informatie ](start/release-notes.md)
@@ -28,13 +28,13 @@ ht-degree: 22%
    + [Aan de slag met Adobe Campaign](start/get-started.md)
    + [Belangrijkste mogelijkheden](start/whats-new.md)
    + [Onderdelen en processen](start/ac-components.md)
-   + [Verbinding maken met Campaign](start/connect.md)
+   + [Verbinding maken met campagne](start/connect.md)
    + [Campagne-interface](start/campaign-ui.md)
    + [Van Classic v7 naar v8](start/v7-to-v8.md)
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campaign Management {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
-   + [Campagneorkestratie >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
+   + [Campagne orchestratie >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
 + Berichten verzenden{#send}
    + [Aan de slag met berichten](start/create-message.md)
    + E-mails {#emails}
@@ -65,7 +65,7 @@ ht-degree: 22%
       + [Quarantines](send/quarantines.md)
       + [Leveringsfouten](send/delivery-failures.md)
    + [Werken met leveringssjablonen](send/create-templates.md)
-   + Transactionele berichten {#real-time}
+   + Transactieberichten {#real-time}
       + [Aan de slag met transactieberichten](send/transactional.md)
       + [Uw sjabloon maken en publiceren](send/transactional-template.md)
       + Gebeurtenisbeheer {#event}
@@ -89,7 +89,7 @@ ht-degree: 22%
       + [Publiek delen met oplossingen voor Adobe](start/shared-audiences.md)
    + [Best practices](audiences/audiences-best-practices.md)
    + [Lidmaatschappen beheren](start/subscriptions.md)
-+ Contentmanagement {#content}
++ Inhoud beheren {#content}
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Privacy- en beveiligingsbeheer {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
@@ -189,6 +189,6 @@ ht-degree: 22%
       + [Een aangepaste tabel voor ontvangers gebruiken](dev/custom-recipient.md)
       + [De database bijwerken](dev/update-database-structure.md)
       + [Invoerformulieren](dev/forms.md)
-   + [Campaign-API&#39;s](dev/api.md)
-+ [Campaign-configuratiescherm >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
+   + [Campagne-API&#39;s](dev/api.md)
++ [Configuratiescherm >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
 + [Handleiding Campagne Automation Guide >](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
