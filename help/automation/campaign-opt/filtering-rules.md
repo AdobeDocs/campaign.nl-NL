@@ -4,7 +4,7 @@ title: Filterregels configureren
 description: Leer hoe te om het filtreren regels te vormen
 feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 1%
@@ -23,12 +23,12 @@ Bijvoorbeeld, kunt u uw nieuwsbrief abonnees filtreren om mededelingen te verhin
 
 Pas de volgende stappen toe om dit filter te definiëren:
 
-1. Bladeren naar de **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** map Campagneexporter en klik op de knop **Nieuw** om een typologieregel te maken.
+1. Bladeren naar de **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** map Campagneexporter en klik op de knop **Nieuw** pictogram om een typologieregel te maken.
 1. Een **[!UICONTROL Filtering]** typologieregel die op alle kanalen van toepassing is.
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. Van de **Filter** tabblad wijzigt u de standaarddoeldimensie in **Abonnementen** (**nms:abonnement**).
+1. Van de **Filter** tabblad wijzigt u de standaarddimensie voor het opgeven van doelen in **Abonnementen** (**nms:abonnement**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
@@ -48,7 +48,7 @@ Wanneer deze regel in een levering wordt gebruikt, worden minderjarige abonnees 
 
 ![](assets/campaign_opt_create_filter_05.png)
 
-## Een filterregel conditioneren {#condition-a-filtering-rule}
+## Voorwaarde een filterregel {#condition-a-filtering-rule}
 
 U kunt het toepassingsgebied van de het filtreren regel beperken die op de verbonden levering of leveringsoverzicht wordt gebaseerd.
 
@@ -62,11 +62,11 @@ In dit geval wordt de regel, zelfs als deze aan alle leveringen is gekoppeld, al
 
 >[!NOTE]
 >
->De typologieën en het filtreren regels kunnen in een werkschema, in worden gebruikt **[!UICONTROL Delivery outline]** activiteit. [Meer informatie](../workflow/delivery-outline.md).
+>Typologieën en filterregels kunnen worden gebruikt in een workflow, in het dialoogvenster **[!UICONTROL Delivery outline]** activiteit. [Meer informatie](../workflow/delivery-outline.md).
 
 ## Filtertypologie maken en gebruiken {#create-and-use-a-filtering-typology}
 
-U kunt **[!UICONTROL Filtering]** typologieën: zij bevatten alleen filterregels .
+U kunt **[!UICONTROL Filtering]** typologieën: ze bevatten alleen filterregels.
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
@@ -85,6 +85,7 @@ U kunt filterregels ook rechtstreeks via dit tabblad koppelen, zonder ze te groe
 >Alleen typologieën en filterregels zijn beschikbaar in het selectievenster.
 >
 >Deze configuraties kunnen in het leveringsmalplaatje worden bepaald dat automatisch op alle nieuwe die leveringen worden toegepast worden gecreeerd gebruikend het malplaatje.
+>
 
 ## Uitsluitingsregels voor standaardlevering {#default-deliverability-exclusion-rules}
 
