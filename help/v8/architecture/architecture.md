@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 06a505988579d38b4425643aaf85f5e4fa4d00b6
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Er zijn twee implementatiemodellen beschikbaar: **Implementatie van FDA voor cam
 In haar [FDA-implementatie](fda-deployment.md), [!DNL Adobe Campaign] v8 kan worden verbonden met [!DNL Snowflake] tot gegevens toegang hebben via de Federale functie voor gegevenstoegang: u kunt externe gegevens en informatie die in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen. PostSQL is het primaire gegevensbestand, en u kunt Snowflake als secundair gegevensbestand gebruiken om dan uw gegevensmodel uit te breiden en uw gegevens in Snowflake op te slaan. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.
 
 
-![](assets/P1-P3-architecture)
+![](assets/P1-P3-architecture.png)
 
 >[!NOTE]
 >
