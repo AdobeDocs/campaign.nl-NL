@@ -5,10 +5,10 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 2%
+source-wordcount: '1035'
+ht-degree: 1%
 
 ---
 
@@ -28,24 +28,30 @@ U kunt pakketten van de ene omgeving naar de andere exporteren en importeren.
 
 ![](../assets/do-not-localize/book.png) Meer informatie over pakketten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
-## Implementatiemodel{#ac-deployment}
+## Implementatiemodel {#ac-deployment}
 
-Er zijn twee implementatiemodellen beschikbaar:
+Er zijn twee implementatiemodellen beschikbaar: **Implementatie van FDA voor campagnes** (P1-P3) en **Implementatie van Campagne Enterprise (FFDA)** (P4)
 
-* **Implementatie van FDA voor campagnes**
+### Implementatie van FDA voor campagnes {#ac-deployment-fda}
 
-  In haar [FDA-implementatie](fda-deployment.md), [!DNL Adobe Campaign] v8 kan worden verbonden met [!DNL Snowflake] tot gegevens toegang hebben via de Federale functie voor gegevenstoegang: u kunt externe gegevens en informatie die in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen. PostSQL is het primaire gegevensbestand, en u kunt Snowflake als secundair gegevensbestand gebruiken om dan uw gegevensmodel uit te breiden en uw gegevens in Snowflake op te slaan. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.
+In haar [FDA-implementatie](fda-deployment.md), [!DNL Adobe Campaign] v8 kan worden verbonden met [!DNL Snowflake] tot gegevens toegang hebben via de Federale functie voor gegevenstoegang: u kunt externe gegevens en informatie die in uw [!DNL Snowflake] database zonder de structuur van Adobe Campaign-gegevens te wijzigen. PostSQL is het primaire gegevensbestand, en u kunt Snowflake als secundair gegevensbestand gebruiken om dan uw gegevensmodel uit te breiden en uw gegevens in Snowflake op te slaan. Vervolgens kunt u ETL, segmentatie en rapporten uitvoeren voor een grote gegevensset met uitstekende prestaties.
 
-  >[!NOTE]
-  >
-  >In dit implementatiemodel [!DNL Snowflake] secundaire database is alleen op verzoek beschikbaar. Uw implementatie laten bijwerken met [!DNL Snowflake], neemt u contact op met uw Adobe Transition Manager.
-  >
 
-* **Implementatie van Campagne Enterprise (FFDA)**
+![](assets/P1-P3-architecture)
 
-  In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee databases : een lokaal [!DNL Campaign] database voor realtime berichten en eenheidquery&#39;s in de gebruikersinterface en schrijven via API&#39;s en een cloud [!DNL Snowflake] database voor de uitvoering van campagnes, batchquery&#39;s en workflowuitvoering.
+>[!NOTE]
+>
+>In dit implementatiemodel [!DNL Snowflake] secundaire database is alleen op verzoek beschikbaar. Uw implementatie laten bijwerken met [!DNL Snowflake], neemt u contact op met uw Adobe Transition Manager.
+>
 
-  Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met deze nieuwe architectuur vereenvoudigt de implementatie van Campaign v8 Enterprise (FFDA) het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
+### Implementatie van Campagne Enterprise (FFDA) {#ac-deployment-ffda}
+
+In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee databases : een lokaal [!DNL Campaign] database voor realtime berichten en eenheidquery&#39;s in de gebruikersinterface en schrijven via API&#39;s en een cloud [!DNL Snowflake] database voor de uitvoering van campagnes, batchquery&#39;s en workflowuitvoering.
+
+Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met deze nieuwe architectuur vereenvoudigt de implementatie van Campaign v8 Enterprise (FFDA) het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
+
+![](assets/P4-architecture.png)
+
 
 ## Uitvoering van gesplitste levering {#split}
 

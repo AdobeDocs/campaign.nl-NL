@@ -5,7 +5,7 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Voordat u pushberichten met Adobe Campaign gaat verzenden, moet u ervoor zorgen 
 
 In deze sectie worden de elementen beschreven die specifiek zijn voor de levering van iOS- en Android-berichten.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), mobiele registratie is nu **asynchroon**. [Meer informatie](../architecture/staging.md)
 
