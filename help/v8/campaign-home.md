@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;populaire onderwerpen
 description: Campagne v8 Help Center
 title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 1%
+source-wordcount: '363'
+ht-degree: 7%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ## Nieuwe functies
 
-Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 product en documentatie! Voor een uitgebreide lijst met functies, verbeteringen en oplossingen raadpleegt u de gedetailleerde [Opmerkingen bij de release](start/release-notes.md).
+Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 product en documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](start/release-notes.md). Blijf up-to-date met de nieuwste wijzigingen in onze documentatie door de [documentatie-updates](start/documentation-updates.md) pagina.
 
 >[!BEGINTABS]
 
@@ -22,17 +22,17 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 product en d
 
 Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet de configuratie van uw abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen. U kunt al controleren en actie ondernemen.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
 
 >[!TAB Enhanced Push Notification Service]
 
 Campagne v8.5.1 introduceert onze nieuwste Push-meldingsservice, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken. Deze mogelijkheid is alleen beschikbaar voor een geselecteerde groep klanten (beperkte beschikbaarheid).
 
-[![image](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
 
 >[!ENDTABS]
 
-## Beginnen met de basisbeginselen
+## Starten met de basisprincipes
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -61,7 +61,7 @@ Campagne v8.5.1 introduceert onze nieuwste Push-meldingsservice, aangedreven doo
     </tr>
 </table>
 
-## Documentatie verkennen
+## De documentatie verkennen
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -100,7 +100,7 @@ Campagne v8.5.1 introduceert onze nieuwste Push-meldingsservice, aangedreven doo
   </tr>
 </table>
 
-## Aanvullende bronnen
+## Verdere bronnen
 
 [Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
 

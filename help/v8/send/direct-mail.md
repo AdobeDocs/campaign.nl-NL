@@ -5,9 +5,9 @@ feature: Direct Mail
 role: User
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,9 @@ De volgende stappen voor het genereren van het bestand zijn:
 
    De profielen van ontvangers moeten ten minste hun naam en postadres bevatten.
 
-   Postadressen zijn berekende velden. Een adres kan standaard maximaal zes regels bevatten: de eerste regel bevat de voornaam en achternaam, de volgende regels bevatten het postadres (weg enz.) en de laatste regel bevat de postcode en de stad of stad.
+   Postadressen zijn berekende velden. Een adres kan standaard maximaal zes regels bevatten: de eerste regel bevat de voornaam en achternaam, de volgende regels bevatten het postadres (weg enz.) en de laatste regel bevat de postcode en de stad of stad. De definitie van het standaard berekende postadresgebied kan in nms worden herzien:ontvangend schema.
 
-   Een adres wordt als volledig beschouwd als de naam, het gebied van de code van ZIP/Postal, en stad/stad gebieden niet leeg zijn.
+   Een adres wordt als volledig beschouwd als de naam, het gebied van de code van ZIP/Postal, en stad/stad gebieden niet leeg zijn. Ontvangers met onvolledige adressen worden uitgesloten van directe mailleveringen.
 
    ![](../assets/do-not-localize/book.png) Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
 
