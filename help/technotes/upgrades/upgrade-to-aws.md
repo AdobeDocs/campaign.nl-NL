@@ -2,9 +2,9 @@
 title: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 description: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 557a74dbfbd0af385cc5104801ce3ab91dd33a95
+source-git-commit: 68252db5ad53e2a37c76765cd35650f824101289
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Als onderdeel van onze voortdurende inspanningen om een best-in-klasse gebruikerservaring te verstrekken, bevorderen wij onze e-mailleveringsdienst.
 
-## Heeft dit gevolgen voor u?{#aws-impact}
+## Heb je invloed op?{#aws-impact}
 
 Deze wijziging heeft invloed op:
 
@@ -25,11 +25,9 @@ Deze wijziging heeft invloed op:
 
 ## Wanneer vindt deze upgrade plaats?{#aws-timeline}
 
-De upgrades voor ontwikkelings- en faseringsomgevingen worden naar verwachting uitgevoerd in **oktober 2023**.
+De ontwikkeling en het opvoeren van milieu&#39;s die binnen begonnen zijn **Oktober 2023**.
 
-We zijn van plan om upgrades van de productieomgeving te plannen, te beginnen bij **Januari 2024**.
-
-Als klant van de Campagne, zult u extra bericht betreffende de productiereedschap minstens dertig (30) dagen van tevoren ontvangen.
+THe-upgrades voor productieomgevingen gestart in **januari 2024**.
 
 ## Wat te verwachten?{#impact}
 
