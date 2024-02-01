@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 33%
+ht-degree: 89%
 
 ---
 
@@ -18,4 +18,4 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Campaig
 
 ## Januari 2024 {#jan-2024}
 
-* Er is informatie toegevoegd over de manier waarop het standaardveld postalAddress voor Direct Mail is gedefinieerd en waarom het belangrijk is ervoor te zorgen dat de adressen volledig zijn. [Meer informatie](../send/direct-mail.md)
+* Er is informatie toegevoegd over de manier waarop het standaardveld postalAddress voor Direct Mail is gedefinieerd en waarom het belangrijk is dat de adressen volledig zijn. [Meer informatie](../send/direct-mail.md)
