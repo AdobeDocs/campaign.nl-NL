@@ -1,10 +1,11 @@
 ---
 title: Campagnebeheerders migreren naar Adobe Identity Management System (IMS)
 description: Leer hoe u campagneoperatoren kunt migreren naar Adobe Identity Management System (IMS)
-source-git-commit: a85368a8cd34c9bcdfcea91b71fa4b519b6437a3
+exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
+source-git-commit: 1cdb21533138623fc603424503063cf3dbc2d94c
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 1%
+source-wordcount: '1116'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +25,7 @@ Daarnaast roept de Adobe Campaign-clienttoepassing als onderdeel van de inspanni
 
 Deze wijziging is van toepassing vanaf Campagne 8.5.2 en wordt **verplicht** startcampagne v8.6.
 
-## Heeft dit gevolgen voor u?{#migrate-ims-impacts}
+## Heb je invloed op?{#migrate-ims-impacts}
 
 Als de exploitanten in uw organisatie met de cliëntconsole van de Campagne gebruikend hun login/wachtwoord verbinden (alias. (native verificatie), heeft dit invloed op u en moet u deze operator(s) migreren naar Adobe IMS, zoals hieronder beschreven.
 
@@ -111,6 +112,24 @@ Als al uw gebruikers (campagneoperatoren) zich op IMS bevinden, hoeft u deze mig
 
 Zodra deze migratie wordt gedaan, moet u uw Manager van de Overgang van de Adobe contacteren zodat de Adobe de migratie voltooit.
 
+### Hoe te om het de authentificatietype van uw Operatoren te bekijken?
+
+Leer hoe te om het authentificatietype van uw Exploitanten in Campagne te bekijken:
+
+1. Van de **Verkenner**, toegang **Administratie** `>` **Toegangsbeheer** `>` **Operatoren**.
+
+1. Klik met de rechtermuisknop op de koptekstrij en selecteer de **Lijst configureren** -menu.
+
+   ![](assets/ims_2.png)
+
+1. Toevoegen **Account uitgeschakeld** en **Type verificatie** als **Uitvoerkolommen**.
+
+   ![](assets/ims_1.png)
+
+U kunt nu de lijst met uw **Operatoren** en hun **Type verificatie**.
+
+![](assets/ims_3.png)
+
 ## Nuttige koppelingen {#ims-useful-links}
 
 * [Migratie van technische gebruikers naar Adobe Developer-console](ims-migration.md)
@@ -118,4 +137,3 @@ Zodra deze migratie wordt gedaan, moet u uw Manager van de Overgang van de Adobe
 * [Toegang en machtigingen in Adobe Campaign v8](../../v8/start/gs-permissions.md)
 * [Opmerkingen bij de release van Adobe Campaign v8](../../v8/start/release-notes.md)
 * [Wat is Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
-
