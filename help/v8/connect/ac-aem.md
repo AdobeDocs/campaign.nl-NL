@@ -5,9 +5,9 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: b267cb37a94bd389232ccfb9b8df69c9c2caa990
+source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -80,12 +80,30 @@ Uw nieuwsbrief is nu klaar en gesynchroniseerd in Adobe Campaign.
 
 1. Selecteer de AEM die eerder zijn gemaakt in [!DNL Adobe Experience Manager] en bevestigen door op **[!UICONTROL Ok]**.
 
-1. U kunt rechtstreeks elementen invoegen vanuit uw [!DNL Adobe Experience Manager Assets] of [!DNL Adobe Experience Manager Assets Library] tijdens het bewerken van een e-mailbericht in Adobe Campaign. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html).
-
-   Als u uw **Adobe Experience Manager Assets-bibliotheek**, toegang tot de **[!UICONTROL Properties]** van uw AEM levering en selecteer de **[!UICONTROL Advanced]** tab. De optie **[!UICONTROL Use above AEM instance as shared asset library]** -optie.
-
-   ![](assets/aem_authoring_9.png)
-
 1. Zorg ervoor dat u op de knop **[!UICONTROL Refresh content]** wanneer er wijzigingen worden aangebracht in de AEM.
 
 Uw e-mail kan nu naar uw publiek worden verzonden.
+
+## Elementen importeren uit Adobe Experience Manager Assets-bibliotheek {#assets-library}
+
+U kunt ook rechtstreeks elementen invoegen vanuit uw [!DNL Adobe Experience Manager Assets Library] tijdens het bewerken van een e-mail- of landingspagina in Adobe Campaign. Deze functionaliteit wordt nader beschreven in [Adobe Experience Manager Assets-documentatie](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
+
+1. Uw elementen uploaden in uw **Adobe Experience Manager Assets Library**. [Meer leren](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+1. In Adobe Campaign kunt u een nieuwe levering maken door naar de **Campagnes** tabblad, klikt u op **Leveringen** en klik op de knop **Maken** boven de lijst met bestaande leveringen.
+
+1. Selecteer een **Afleveringssjabloon** en geef vervolgens een naam op voor de levering.
+
+1. Definieer en pas de inhoud van het bericht aan. [Meer informatie](../send/email.md)
+
+1. Als u uw **Adobe Experience Manager Assets-bibliotheek**, toegang tot de **[!UICONTROL Properties]** van uw AEM levering en selecteer de **[!UICONTROL Advanced]** tab. De optie **[!UICONTROL Use above AEM instance as shared asset library]** -optie.
+
+   ![](assets/aem_authoring_9.png)
+
+1. Van de **Afbeelding** pictogram, toegang tot **[!UICONTROL Select a shared asset]** -menu.
+
+   ![](assets/aem_authoring_10.png)
+
+1. Selecteer in het selectievenster een afbeelding in de **Adobe Experience Manager Assets-bibliotheek**, bevestig vervolgens.
+
+Uw e-maillevering is gereed. U kunt nu het doelpubliek opgeven, de levering bevestigen en doorgaan met het verzenden ervan.
