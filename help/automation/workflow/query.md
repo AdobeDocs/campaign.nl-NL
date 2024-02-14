@@ -5,9 +5,9 @@ description: Meer informatie over de activiteit van de Query-workflow
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 0191ca8c29813c448040fc887f98550c74197578
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Met een query kunt u een doel selecteren op basis van criteria. U kunt een segmentcode aan het vraagresultaat associëren en extra gegevens opnemen in het.
 Raadpleeg dit voor meer informatie over queryvoorbeelden [deze sectie](querying-recipient-table.md).
 
-![](assets/query-activity.png)
+![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
 Raadpleeg voor meer informatie over het gebruik en het beheer van aanvullende gegevens [Gegevens toevoegen](#adding-data).
 
@@ -35,15 +35,15 @@ De **[!UICONTROL Edit query...]** Via de koppeling kunt u het doeltype, de beper
 
    Raadpleeg voor meer informatie hierover [Afmetingen gericht en filteren](targeting-workflows.md#targeting-and-filtering-dimensions).
 
-   ![](assets/targeting-filtering-dimensions.png)
+   ![](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
 
    Een vraag kan op gegevens van de binnenkomende overgang, indien nodig worden gebaseerd, door te selecteren **[!UICONTROL Temporary schema]** wanneer het kiezen van het richten en het filtreren dimensies.
 
-   ![](assets/query_temporary_table.png)
+   ![](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
 
 1. Definieer de populaties met de wizard. De velden die moeten worden ingevoerd, kunnen verschillen afhankelijk van het type doel. U kunt een voorvertoning van de doelpopulatie weergeven met de huidige criteria **[!UICONTROL Preview]** tab.
 
-   ![](assets/query-sample.png)
+   ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
 1. Als u **[!UICONTROL Filtering conditions]** in stap 1 of met de **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** en moet u later handmatig filtercriteria toevoegen.
 
@@ -59,11 +59,11 @@ In de aanvullende kolommen kunt u aanvullende informatie over de doelpopulatie v
 
 De **[!UICONTROL Add data...]** Met de koppeling kunt u de aanvullende gegevens selecteren die u wilt verzamelen.
 
-![](assets/wf_add_data_link.png)
+![](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
 
 Selecteer eerst het type gegevens dat u wilt toevoegen:
 
-![](assets/wf_add_data_1st_option.png)
+![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * Selecteren **[!UICONTROL Data linked to the filtering dimension]** om de gegevens in de Adobe Campaign-database te selecteren.
 * Selecteren **[!UICONTROL External data]** gegevens uit een externe database toevoegen. Deze optie is alleen beschikbaar als u de **Federale gegevenstoegang** -optie. Raadpleeg voor meer informatie hierover [Toegang tot een externe database (FDA)](accessing-an-external-database--fda-.md).
@@ -75,11 +75,11 @@ Gegevens toevoegen uit de Adobe Campaign-database:
 
 1. Selecteer het type gegevens dat u wilt toevoegen. Dit kunnen gegevens zijn die tot de het filtreren afmeting of gegevens behoren die in verbonden lijsten worden opgeslagen.
 
-   ![](assets/query_add_columns.png)
+   ![](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
 
 1. Als de gegevens tot de het filtreren dimensie van de vraag behoren, selecteer eenvoudig het in de lijst van beschikbare gebieden om het in de outputkolommen te tonen.
 
-   ![](assets/wf_add_data_field_selection.png)
+   ![](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
 
    U kunt toevoegen:
 
@@ -93,7 +93,7 @@ Een verzameling gegevens toevoegen die verband houden met een doelgroep:
 1. Selecteer in de eerste stap van de wizard de optie **[!UICONTROL Data linked to the filtering dimension]** optie:
 1. Selecteer de tabel met de gegevens die u wilt verzamelen en klik op **[!UICONTROL Next]**.
 
-   ![](assets/wf_add_data_linked_table.png)
+   ![](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
 
 1. Geef indien nodig het aantal elementen van de verzameling op dat u wilt behouden door een van de waarden in het dialoogvenster **[!UICONTROL Data collected]** veld. Standaard worden alle regels van de collectie hersteld en gefilterd volgens de voorwaarden die in de volgende stap zijn opgegeven.
 
@@ -108,11 +108,11 @@ Een verzameling gegevens toevoegen die verband houden met een doelgroep:
    * Als u meerdere regels wilt herstellen (**[!UICONTROL Limit the line count]**) kunt u opgeven hoeveel regels moeten worden verzameld.
    * Indien de verzamelde kolommen aggregaten bevatten, bijvoorbeeld het aantal gedeclareerde fouten, de gemiddelde uitgaven op een locatie, enz. u kunt de **[!UICONTROL Aggregates]** waarde.
 
-   ![](assets/query_add_collection_param.png)
+   ![](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
 
 1. Geef de subselectie van de verzameling op.
 
-   ![](assets/query_add_columns_collection_filter.png)
+   ![](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
 
 1. Als u **[!UICONTROL Limit the line count]** , definieert u de volgorde waarin de verzamelde gegevens moeten worden gefilterd. Zodra het aantal verzamelde lijnen meer dan het aantal lijnen is dat u specificeerde om te houden, staat de het filtreren orde u toe om te specificeren welke lijnen te houden.
 
@@ -133,20 +133,20 @@ In het volgende voorbeeld probeert de query mannen tussen 18 en 30 jaar te ident
    * Ontvangers ouder dan 18 jaar.
    * Ontvangers die in Frankrijk wonen.
 
-   ![](assets/query_example.png)
+   ![](assets/query_example.png){width="70%" align="center" zoomable="yes"}
 
    U kunt de SQL bekijken die uw criteria combineert:
 
-   ![](assets/query_example_sql.png)
+   ![](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
 
 1. U kunt controleren of uw criteria correct zijn door op het relevante tabblad een voorvertoning weer te geven van de ontvangers die overeenkomen met uw query:
 
-   ![](assets/query_example_preview.png)
+   ![](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
 
 1. Sla de filters op zodat u ze later weer kunt gebruiken door op **[!UICONTROL Finish]** > **[!UICONTROL OK]**.
 1. Ga door met het bewerken van uw workflow door er andere activiteiten aan toe te voegen. Zodra het is gelanceerd en de vorige vraagstap gebeëindigd, zal het aantal gevonden ontvangers worden getoond. U kunt meer details weergeven met het pop-upmenu Muis (klik met de rechtermuisknop op de overgang > **[!UICONTROL Display the target...]**).
 
-   ![](assets/query_example_result.png)
+   ![](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
 
 ## Uitvoerparameters {#output-parameters}
 
@@ -186,7 +186,7 @@ In de onderstaande sectie vindt u tips en trucs voor het optimaliseren van query
 
 Gebruik de het filtreren dimensie van de vraag in plaats van het gebruiken van &quot;bestaat zoals&quot;exploitant.
 
-![](assets/optimize-queries-filtering.png)
+![](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
 
 In query&#39;s zijn &#39;bestaat zoals&#39;-voorwaarden in filters niet efficiënt. Ze zijn het equivalent van een subquery in SQL:
 
@@ -194,7 +194,7 @@ In query&#39;s zijn &#39;bestaat zoals&#39;-voorwaarden in filters niet efficië
 
 De beste praktijken moeten in plaats daarvan de het filtreren afmeting van de vraag gebruiken:
 
-![](assets/optimize-queries-filtering2.png)
+![](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
 
 Het equivalent van de het filtreren afmeting in SQL is de binnenvoeging:
 
