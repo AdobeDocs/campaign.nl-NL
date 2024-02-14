@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 37%
+source-wordcount: '594'
+ht-degree: 18%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 37%
 
 Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/antwoorden hieronder.
 
-1. **Hoe kan ik Campaign upgraden naar de nieuwste versie?**
+1. **Hoe kan ik campagne upgraden naar de nieuwste versie?**
 
    Adobe Campaign wordt regelmatig bijgewerkt. Kleine versies worden elk jaar uitgebracht met nieuwe functies, verbeteringen en oplossingen. Bovendien brengen wij periodiek versies uit met uitsluitend cumulatieve oplossingen.
 
-   Deze regelmatige frequentie van updates is bedoeld om u het nieuwste en beste in handen te geven, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Daarom is het zo belangrijk dat u met de meest recente versie van Adobe Campaign werkt.
+   Deze regelmatige frequentie van updates is bedoeld om de nieuwste en beste in uw handen te krijgen, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Daarom vinden wij het van essentieel belang dat u de meest recente versie van Adobe Campaign uitvoert.
 
    ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie.
 
 1. **Hoe kan ik verbinding maken met Campaign v8?**
 
-   U moet Campagne Client Console downloaden en installeren om verbinding te maken met Adobe Campaign.
+   U moet de clientconsole van Campagne downloaden en installeren om verbinding te maken met Adobe Campaign.
 
    ![](../assets/do-not-localize/glass.png) [Klik hier voor meer informatie](connect.md).
 
@@ -68,7 +68,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
 1. **Hoe kan ik campagne downloaden?**
 
-   U kunt het installatieprogramma en de console van de Cliënt van het Centrum van de Download van de Adobe krijgen.
+   U kunt het installatieprogramma en de cliëntconsole van het Centrum van de Download van de Adobe krijgen.
 
    Als Admin-gebruiker hebt u toegang tot Adobe [Softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} om Adobe Campaign te downloaden
 
@@ -83,6 +83,6 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    U kunt een ticket maken om contact op te nemen met de Adobe-klantenondersteuning voor problemen die u ondervindt in Adobe-producten. In de Adobe Admin Console kunt u chatten met de Adobe-klantenondersteuning om uw problemen op te lossen.
 
-   Als u een probleem wilt melden of een chatsessie wilt starten in dat nieuwe systeem, maakt u verbinding met de [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}.
+   Als u een probleem wilt registreren of een chatsessie wilt starten op dat nieuwe systeem, maakt u verbinding met [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}.
 
    Dit systeem vereist individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u vindt dat u zich niet kunt aanmelden bij uw Adobe ID, kunt u toegang aanvragen via het Experience League en wordt u zo snel mogelijk ingesteld door het team voor klantenservice. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}

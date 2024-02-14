@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 5%
+source-wordcount: '714'
+ht-degree: 4%
 
 ---
 
@@ -37,13 +37,21 @@ Het nieuwe aanbod combineert services van topklasse met proactief toezicht en ti
 
 Als voormalig [!DNL Campaign Classic] gebruiker, merk op dat het grootste deel van [!DNL Campaign Classic] v7-functies zijn beschikbaar via [!DNL Campaign] v8, met uitzondering van een kleine set, die worden vermeld in [deze sectie](#gs-removed).
 
-Campagne v8 is gebaseerd op een **hybride architectuur**. Als u van Campaign Classic v7 overgaat, merk op dat alle leveringen door de midsourcingserver gaan. Als gevolg hiervan is interne routering **niet mogelijk** in Campagne v8 en de externe account is dienovereenkomstig uitgeschakeld.
+>Met de nieuwe cloudarchitectuur kan Campagne processen stroomlijnen, kosten verlagen, risico&#39;s beheren en de gegevensbeveiliging verbeteren. Uw Campagne v8-omgeving wordt geleverd met een speciale Virtual Private Cloud (VPC) die vooraf voor u is geconfigureerd.
+
+
+## Hybride architecteband {#hybrid-archi}
+
+Campagne v8 is gebaseerd op een **hybride architectuur**. Als u van Campaign Classic v7 overgaat, merk op dat alle leveringen door de midsourcingserver gaan.
+
+Bijgevolg:
+
+* Het interne verpletteren is **niet mogelijk** in Campagne v8 en de externe rekening dienovereenkomstig is uitgeschakeld,
+* De status van de leveringen wordt niet onmiddellijk bijgewerkt - Een technisch proces wordt uitgevoerd op de marketinginstantie die de leveringsstatus tijdig zal bijwerken.
+
 
 ![](../assets/do-not-localize/glass.png) Meer informatie over het verzenden van proefdrukken van transactieberichten tijdens het overstappen van v7 op [deze pagina](../send/transactional-template.md#transition-from-v7).
 
->[!NOTE]
->
->Met de nieuwe cloudarchitectuur kan Campagne processen stroomlijnen, kosten verlagen, risico&#39;s beheren en de gegevensbeveiliging verbeteren. Uw Campagne v8-omgeving wordt geleverd met een speciale Virtual Private Cloud (VPC) die vooraf voor u is geconfigureerd.
 
 ## [!DNL Campaign] en [!DNL Snowflake] {#ac-gs-snowflake}
 
@@ -70,7 +78,7 @@ Met Adobe Campaign v8 zijn kubusrapporten geoptimaliseerd en bieden ze meer scha
 
 Houd er rekening mee dat bepaalde mogelijkheden niet beschikbaar zijn in de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md) van campagne, zoals:
 
-* Marketing Resource Management
+* Beheer van marketingbronnen
 * Coupons
 * Webtracking
 * Enquêtes

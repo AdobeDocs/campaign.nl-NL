@@ -2,10 +2,10 @@
 product: campaign
 title: 32-bits versie van clientconsole
 description: 32-bits versie van clientconsole
-exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
+source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 De 32-bits versie van de clientconsole is afgekeurd in versie 8.5. Er is een nieuwe 64-bits versie van de clientconsole beschikbaar voor een naadloze upgrade.
 
-Vanaf de release van 8.6 biedt Campagne v8 geen ondersteuning meer voor 32-bits besturingssystemen, waaronder product- en beveiligingsupdates. Adobe raadt u ten zeerste aan uw beveiligingsupdates actueel te houden.
+Vanaf de release van 8.6 biedt de campagne geen ondersteuning voor 32-bits besturingssystemen, waaronder product- en beveiligingsupdates. Adobe raadt u ten zeerste aan uw beveiligingsupdates actueel te houden.
 
 Deze wijziging heeft alleen invloed op u als u de 32-bits versie van Windows 8 of 10 hebt.
 
 ## Einde van ondersteuning{#eol}
 
-Het einde van de steun betekent dat Adobe niet meer technische steun, met inbegrip van product en/of veiligheidsupdates, voor alle derivaten van een product of productversie (gelokaliseerde versies, minder belangrijke verbeteringen, werkende systemen, punt en dubbel-puntsversies, en schakelaarproducten) verleent.
+Het einde van de steun betekent dat de Adobe niet meer technische steun, met inbegrip van product en/of veiligheidsupdates, voor alle derivaten van een product of productversie (gelokaliseerde versies, minder belangrijke verbeteringen, werkende systemen, punt en dubbel-puntsversies, en schakelaarproducten) verleent.
 
 ## Aanbevelingen{#console-eol-recommendations}
 
@@ -34,15 +34,15 @@ De upgrade is naadloos. U hoeft alleen uw nieuwe versie via de installatie te in
 
 +++
 
-+++Is de 64-bits versie van Campagne v8 Client Console compatibel met 32-bits computers?
++++Is de 64-bits versie van Campagne v8 cliëntconsole compatibel met computers met 32 bits?
 
-Nee. De 64-bits versie van Campaign v8 Client Console ondersteunt alleen 64-bits computers.
+Nee. De 64-bits versie van Campagne v8 clientconsole ondersteunt alleen 64-bits computers.
 
 +++
 
-+++Is er een plan om de nieuwe installaties van de Console van de Cliënt van de Campagne v8 met 32 bits tegen te houden?
++++Is er een plan om de nieuwe installaties van de 32-bits cliëntconsole van Campagne v8 tegen te houden?
 
-Ja. Vanaf versie 8.6 is Campagne v8 Client Console niet meer beschikbaar in 32 bits. Alleen de 64-bits versie is beschikbaar.
+Ja. Vanaf versie 8.6 is de Campagne v8 clientconsole niet meer beschikbaar in 32 bits. Alleen de 64-bits versie is beschikbaar.
 
 +++
 
@@ -52,9 +52,9 @@ Vanaf 8.6 ondersteunen alle versies van Campagne v8 geen 32-bits besturingssyste
 
 +++
 
-+++Hoe kan ik een upgrade uitvoeren van het besturingssysteem Windows (32-bits) naar het besturingssysteem Windows (64-bits)?
++++Hoe kan ik een upgrade uitvoeren van Windows (32-bits) naar Windows (64-bits)?
 
-Zorg ervoor dat de processor van uw computer de installatie van een 64-bits besturingssysteem ondersteunt. Als u een upgrade uitvoert van de 32-bits versie naar de 64-bits versie van Windows, moet u de vaste schijf opnieuw opmaken, de 64-bits versie van Windows installeren en vervolgens alle andere gegevens die u op uw apparaat had opnieuw installeren. Zie voor meer informatie [32-bits en 64-bits Windows: Veelgestelde vragen](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
+Zorg ervoor dat de processor van uw computer de installatie van een 64-bits besturingssysteem ondersteunt. Als u een upgrade uitvoert van de 32-bits versie naar de 64-bits versie van Windows, moet u de vaste schijf opnieuw opmaken, de 64-bits versie van Windows installeren en vervolgens alle andere gegevens die u op uw apparaat had opnieuw installeren. Zie voor meer informatie [32-bits en 64-bits Windows: veelgestelde vragen](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
 
 +++
 

@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign-technieken
 description: Campagne-technieken
 breadcrumb-title: Campagne-technologie
-source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 16%
+source-wordcount: '63'
+ht-degree: 26%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 + [Campagne-technologie](technotes-home.md)
 + Upgrades{#tn-new}
    + [Gebruikers migreren naar IMS](upgrades/migrate-users-to-ims.md)
-   + [Technische operatoren migreren naar de Developer Console](upgrades/ims-migration.md)
+   + [Technische operatoren migreren naar Developer Console](upgrades/ims-migration.md)
    + [Technische operator migreren naar Developer Console](upgrades/ims-migration-old.md)
    + [Campagne voor het verzenden van infrastructuurmigratie naar AWS](upgrades/migrate-to-aws.md)
    + [Upgrade van infrastructuur voor verzenden van e-mail voor campagne](upgrades/upgrade-to-aws.md)

@@ -5,9 +5,9 @@ description: Workflowuitvoering controleren
 feature: Workflows
 role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Voorbeeld van melding:
 
 ![](assets/wf-notification_error-msg.png)
 
-Met de koppeling hebt u toegang tot de Adobe Campaign Client Console in de webmodus en kunt u werken aan de foutworkflow nadat u zich hebt aangemeld.
+Met de koppeling hebt u toegang tot de Adobe Campaign-clientconsole in de webmodus en kunt u werken aan de foutworkflow nadat u zich hebt aangemeld.
 
 ![](assets/wf-notification_error-console.png)
 
@@ -223,7 +223,7 @@ Let op:
 
 In deze rubriek wordt een gebruiksgeval weergegeven: [Gegevensupdates coördineren](coordinate-data-updates.md).
 
-## Databaseonderhoud {#database-maintenance}
+## Database-onderhoud {#database-maintenance}
 
 Workflows gebruiken veel werktabellen die ruimte verbruiken en het hele platform vertragen als het niet wordt onderhouden.
 

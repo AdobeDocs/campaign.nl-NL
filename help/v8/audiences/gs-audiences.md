@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 11%
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # Aan de slag met profielen en doelgroepen{#gs-profiles-and-audiences}
 
-Profielen zijn contacten die in het gegevensbestand van de Campagne, zoals klanten, abonnees aan de dienst of vooruitzichten worden opgeslagen. Er zijn vele mogelijke mechanismen om profielen te verwerven en dit gegevensbestand op te bouwen: online verzameling via webformulieren, handmatige of automatische import van tekstbestanden, replicatie met bedrijfsdatabases of andere informatiesystemen. Met Adobe Campaign kunt u de marketinggeschiedenis, aankoopgegevens, voorkeuren, CRM-gegevens en alle relevante PI-gegevens in een geconsolideerde weergave opnemen om te analyseren en actie te ondernemen. Profielen bevatten alle informatie die vereist is voor het toewijzen van doelen, kwalificeren en volgen van personen.
+Profielen zijn contacten die in het gegevensbestand van de Campagne, zoals klanten, abonnees aan de dienst of vooruitzichten worden opgeslagen. Er zijn vele mogelijke mechanismen om profielen te verwerven en dit gegevensbestand op te bouwen: online inzameling via Webvormen, handmatige, of automatische invoer van tekstdossiers, replicatie met bedrijfgegevensbestanden of andere informatiesystemen. Met Adobe Campaign kunt u de marketinggeschiedenis, aankoopgegevens, voorkeuren, CRM-gegevens en alle relevante PI-gegevens in een geconsolideerde weergave opnemen om te analyseren en actie te ondernemen. Profielen bevatten alle informatie die vereist is voor het toewijzen van doelen, kwalificeren en volgen van personen.
 
 
 
@@ -29,9 +29,9 @@ De ontvangende gegevens die in het gegevensbestand worden opgeslagen laten u toe
 Als u Adobe Campaign wilt vullen met profielgegevens, kunt u:
 
 * [gegevensbestanden importeren](../start/import.md) van een externe gegevensbron zoals een CRM-systeem of een plat bestand
-* [webformulieren maken](../dev/webapps.md) om klanten toe te staan om hun eigen informatie in te gaan en hun eigen profiel tot stand te brengen
+* [webformulieren maken](../dev/webapps.md) om klanten toe te staan om hun eigen informatie in te gaan en hun eigen profiel te creëren
 * [toewijzen aan een externe database](../connect/fda.md) waarin profielen zijn opgeslagen
-* Geef profielen handmatig op in de clientconsole, zoals hieronder:
+* Voer de profielen handmatig in in de clientconsole, zoals hieronder:
 
 ![](assets/create-profile.png)
 

@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 9fceeb04344f891fbfd8af1e643b2ad5331db158
+source-git-commit: eae364fb3d082c91022fee6bf29802c9eb6dfcf5
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '464'
+ht-degree: 3%
 
 ---
 
@@ -27,16 +27,22 @@ _14 feb. 2024_
 
 * Vanaf deze release hebt u toegang tot de nieuwe **Gebruikersinterface Campagne Web**, beschikbaar via de centrale Adobe Experience Cloud-omgeving. Experience Cloud is de geïntegreerde familie van digitale marketingtoepassingen, producten en diensten van de Adobe. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services. Leer hoe u verbinding maakt met Adobe Experience Cloud en toegang krijgt tot de Adobe Campaign Web Interface [op deze pagina](campaign-ui.md#ac-web-ui).
 
-
-* Adobe Campaign v8 kan nu worden geïntegreerd met **Adobe Experience Manager as a Cloud Service**, waarbij het ontwerpen uitsluitend beschikbaar is via de Adobe Campaign Web User Interface.
-
-* U kunt nu uw **Adobe Experience Manager Assets-bibliotheek** naast uw Experience Cloud Assets, zelfs als de **Integratie met de Adobe Experience Cloud** is geïnstalleerd op uw Adobe Campaign-exemplaar.
+* De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Raadpleeg voor meer informatie over het upgraden van uw besturingssysteem [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
 
 
 ### Algemene verbeteringen {#improvements-8-6-1}
 
 * Campagne v8.6 zorgt voor verbeterde doorvoer voor **e-mailvolgindicatoren voor leveringen**. Met onze geoptimaliseerde processen wordt de opname- en computertijd minder lang en kunt u de belangrijkste indicatoren voor de levering veel sneller controleren.
 
+* U kunt nu uw Campagne v8 instantie met uw Azure synapse externe gegevensbestand verbinden. Deze verbinding wordt beheerd via een nieuw extern account.
+
+* Adobe Campaign v8 kan nu worden geïntegreerd met **Adobe Experience Manager as a Cloud Service**, waarbij het ontwerpen uitsluitend beschikbaar is via de Adobe Campaign Web User Interface.
+
+* U kunt nu uw **Adobe Experience Manager Assets-bibliotheek** naast uw Experience Cloud Assets, zelfs als de **Integratie met de Adobe Experience Cloud** is geïnstalleerd op uw Adobe Campaign-exemplaar.
+
+* U kunt geen operatoren meer maken vanaf de clientconsole. U moet nu de Admin Console gebruiken. [Meer informatie](../start/gs-permissions.md).
+
+* Verschillende hulpmiddelen van derden zijn bijgewerkt om de beveiliging te optimaliseren.
 
 ### Leverbaarheid-updates {#deliverability-8-6-1}
 

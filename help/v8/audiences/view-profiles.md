@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b5574ba2d9fa520b701f7af4e34862304b825a66
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '552'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,7 @@ Voor geavanceerdere profielbewerkingen opent u de Campagne vanuit de **[!UICONTR
 >[!CAUTION]
 >
 >Het ingebouwde scherm Ontvanger wordt bepaald door een schema van XML en zijn bijbehorende vorm. Het XML-schema wordt opgeslagen in het **[!UICONTROL Administration > Configuration > Data schemas]** knooppunt van de Adobe Campaign Explorer-boomstructuur. Alleen deskundige gebruikers kunnen wijzigingen aanbrengen in deze schema&#39;s.
+>
 
 ## Een profiel bewerken{#edit-a-profiles}
 
@@ -41,55 +42,54 @@ Voor een standaard ingebouwde ontvanger hebt u toegang tot de volgende tabbladen
 
 * **[!UICONTROL General]** voor alle algemene profielgegevens. Het bevat met name de achternaam, voornaam, e-mailadres, e-mailnotatie, enz.
 
-   Op dit tabblad wordt ook het dialoogvenster **opt-out** markering voor het profiel: wanneer de **[!UICONTROL No longer contact (by any channel)]** is geselecteerd, bevindt het profiel zich op lijst van gewezen personen. Deze informatie wordt toegevoegd aan de contactgegevens als de ontvanger bijvoorbeeld op een koppeling voor niet-abonnementen in een nieuwsbrief heeft geklikt. Deze ontvanger is niet meer gericht op enig kanaal (e-mail, direct mail, enz.). Raadpleeg [deze pagina](../send/quarantines.md) voor meer informatie.
+  Op dit tabblad wordt ook het dialoogvenster **opt-out** markering voor het profiel: wanneer de **[!UICONTROL No longer contact (by any channel)]** is geselecteerd, bevindt het profiel zich op lijst van gewezen personen. Deze informatie wordt toegevoegd aan de contactgegevens als de ontvanger bijvoorbeeld op een koppeling voor niet-abonnementen in een nieuwsbrief heeft geklikt. Deze ontvanger is niet meer gericht op enig kanaal (e-mail, direct mail, enz.). Raadpleeg [deze pagina](../send/quarantines.md) voor meer informatie.
 
 * **Contactgegevens**, die het directe-mailadres van het geselecteerde profiel bevat.
 
-   U kunt in dit scherm de kwaliteitsindex van het adres controleren, en hoeveel fouten het adres bevat. Deze informatie wordt rechtstreeks door de direct-mailprovider gebruikt, op basis van het aantal fouten dat tijdens eerdere leveringen is aangetroffen, en kan niet handmatig worden gewijzigd.
+  U kunt in dit scherm de kwaliteitsindex van het adres controleren, en hoeveel fouten het adres bevat. Deze informatie wordt rechtstreeks door de direct-mailprovider gebruikt, op basis van het aantal fouten dat tijdens eerdere leveringen is aangetroffen, en kan niet handmatig worden gewijzigd.
 
 * **Overige**, voor specifieke velden die u naar wens kunt aanpassen en vullen.
 
-   Gebruik de **[!UICONTROL Field properties…]** contextueel menu om de namen van de velden te wijzigen en hun indeling te definiëren.
+  Gebruik de **[!UICONTROL Field properties…]** contextueel menu om de namen van de velden te wijzigen en hun indeling te definiëren.
 
-   ![](assets/other-tab-field-properties.png)
+  ![](assets/other-tab-field-properties.png)
 
-   Voer de nieuwe instellingen hieronder in:
+  Voer de nieuwe instellingen hieronder in:
 
-   ![](assets/change-field-properties.png)
+  ![](assets/change-field-properties.png)
 
-   Controleer de update in de gebruikersinterface:
+  Controleer de update in de gebruikersinterface:
 
-   ![](assets/other-tab-updated.png)
+  ![](assets/other-tab-updated.png)
 
 
-   >[!CAUTION]
-   >Wijzigingen gelden voor alle ontvangers.
+  >[!CAUTION]
+  >Wijzigingen gelden voor alle ontvangers.
+  >
 
 
 * **Abonnementen**, voor alle actieve abonnementen op services. Gebruik de **Historie** tabblad voor toegang tot details over abonnementen en abonnementen voor deze contactpersoon.
 
-   ![](assets/subscription-tab.png)
+  ![](assets/subscription-tab.png)
 
-   Meer informatie over abonnementen [in deze sectie](../start/subscriptions.md).
+  Meer informatie over abonnementen [in deze sectie](../start/subscriptions.md).
 
-* **Leveringen**, voor alle leveringslogboeken voor het geselecteerde profiel. Op dit tabblad hebt u toegang tot de marketinggeschiedenis van de contactpersoon: labels, datums en status van alle leveringsacties die via alle kanalen aan het profiel zijn gericht.
+* **Leveringen**, voor alle leveringslogboeken voor het geselecteerde profiel. Op dit tabblad hebt u via alle kanalen toegang tot de marketinggeschiedenis van de contactpersoon: labels, datums en status van alle leveringsacties die aan het profiel zijn gericht.
 
 
-* **Tekstspatiëring**, voor alle volgende logbestanden voor het geselecteerde profiel. Deze informatie wordt gebruikt om profielgedrag na leveringen te volgen. Dit tabblad geeft het cumulatieve totaal weer van alle URL&#39;s die in leveringen worden bijgehouden. De lijst is configureerbaar, en bevat gewoonlijk: klikte URL, datum en tijd van klik, en het document dat URL bevatte
+* **Tekstspatiëring**, voor alle trackinglogboeken voor het geselecteerde profiel. Deze informatie wordt gebruikt om profielgedrag na leveringen te volgen. Dit tabblad geeft het cumulatieve totaal weer van alle URL&#39;s die in leveringen worden bijgehouden. De lijst is configureerbaar en bevat meestal: de URL waarop is geklikt, de datum en tijd waarop is geklikt en het document dat de URL bevatte
 
-   Meer informatie over bijhouden [in deze sectie](../start/tracking.md).
+  Meer informatie over bijhouden [in deze sectie](../start/tracking.md).
 
 
 ## Actieve profielen {#active-profiles}
 
-Actieve profielen zijn de profielen die voor factureringsdoeleinden worden geteld.
+Een actief profiel is een profiel waarmee klanten de afgelopen twaalf maanden via een willekeurig kanaal hebben geprobeerd te communiceren. De licentiemetriek is gebaseerd op actieve profielen. Meer informatie in [Adobe Campaign-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-Facturering heeft alleen betrekking op profielen die **actief**. Een profiel wordt als actief beschouwd als het profiel de afgelopen twaalf maanden via een kanaal als doel is aangewezen of met het profiel is gecommuniceerd.
-
-Een profiel dat voor meerdere leveringen is bedoeld, wordt slechts eenmaal geteld.
-
-Aantal actieve profielen is beschikbaar voor **Marketinginstanties** alleen. Het is niet beschikbaar voor instanties van de Uitvoering, betekenend MID (midsourcing) en RT (het Centrum van het Bericht / Real-time overseinen) instanties.
-
->[!NOTE]
+>[!CAUTION]
 >
->U kunt het aantal actieve profielen op uw instantie ook controleren direct van het Controlebord van de Campagne. Raadpleeg voor meer informatie de [Documentatie van het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>* Een profiel dat voor meerdere leveringen is bedoeld, wordt slechts eenmaal geteld.
+>
+>* Profielen die in het kader van de sociale marketing op X (voorheen bekend als Twitter) als doel zijn geselecteerd, worden niet als actieve profielen in aanmerking genomen.
+
+U kunt het aantal actieve profielen op uw instantie direct van het Controlebord van de Campagne controleren. Raadpleeg voor meer informatie de [Documentatie van het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.

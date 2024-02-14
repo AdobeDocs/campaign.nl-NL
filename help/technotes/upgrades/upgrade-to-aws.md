@@ -2,7 +2,7 @@
 title: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 description: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 68252db5ad53e2a37c76765cd35650f824101289
+source-git-commit: 4c41e5d1fef1dcb3279a26f6025338e41525e6b3
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Deze wijziging heeft invloed op:
 
 De ontwikkeling en het opvoeren van milieu&#39;s die binnen begonnen zijn **Oktober 2023**.
 
-THe-upgrades voor productieomgevingen gestart in **januari 2024**.
+De productomgevingen die in **januari 2024**.
 
 ## Wat te verwachten?{#impact}
 

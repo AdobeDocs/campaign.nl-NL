@@ -5,9 +5,9 @@ description: Lokale goedkeuring
 feature: Workflows, Approvals
 role: User
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '646'
 ht-degree: 1%
 
 ---
@@ -82,13 +82,13 @@ In het geval van een feedbackrapport voor levering moeten de volgende velden wor
 
 In dit voorbeeld wordt getoond hoe u een goedkeuringsproces voor workflowlevering instelt. Raadpleeg voor meer informatie over het maken van workflows voor levering de [Voorbeeld: leveringsworkflow](delivery.md#example--delivery-workflow) sectie.
 
-Een exploitant kan een levering op één van twee manieren goedkeuren: het gebruiken van de Web-pagina verbonden in het e-mailbericht, of via de Console van de Cliënt.
+Een exploitant kan een levering op één van twee manieren goedkeuren: het gebruiken van de Web-pagina verbonden in het e-mailbericht, of via de cliëntconsole.
 
 * Webgoedkeuring
 
   Met het e-mailbericht dat naar beheerders van de groep Beheerders wordt verzonden, kunt u het leveringsdoel goedkeuren. Het bericht gebruikt de gedefinieerde tekst en de JavaScript-expressie wordt vervangen door de berekende waarde (in dit geval &#39;574&#39;)
 
-  Als u de levering wilt goedkeuren, klikt u op de desbetreffende koppeling en meldt u zich aan bij de Adobe Campaign Client Console.
+  Klik op de desbetreffende koppeling en meld u aan bij de Adobe Campaign-clientconsole om de levering goed te keuren.
 
   ![](assets/new-workflow-valid-webaccess.png)
 

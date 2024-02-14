@@ -5,9 +5,9 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1618'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Volg onderstaande stappen om een gebruiker toe te voegen:
 
 Meer informatie over het maken van gebruikers in de Admin Console in [deze pagina](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
-Wanneer nieuwe gebruikers [aanmelden bij campagne](connect.md) met hun Adobe ID worden ze toegevoegd aan de lijst Campagneoperatoren in de Client Console. Campagneontwikkelaars worden opgeslagen in het dialoogvenster **[!UICONTROL Administration > Access management > Operators]** map van Campaign Explorer.
+Wanneer nieuwe gebruikers [aanmelden bij campagne](connect.md) met hun Adobe ID, worden zij toegevoegd aan de lijst van de exploitanten van de Campagne in de cliëntconsole. Campagneontwikkelaars worden opgeslagen in het dialoogvenster **[!UICONTROL Administration > Access management > Operators]** map van Campaign Explorer.
 
 ## Werken met productprofielen{#product-profiles}
 
@@ -61,7 +61,7 @@ U kunt standaardproductprofielen gebruiken of nieuwe profielen maken.
 
 ### Een productprofiel maken{#create-product-profile}
 
-Als u een nieuw productprofiel aan Adobe wilt toevoegen, moet u het eerst maken in de Campagne Client Console en het vervolgens toevoegen in de Admin Console.
+Om een nieuw productprofiel aan Adobe toe te voegen, moet u het eerst in de cliëntconsole van de Campagne creëren, en dan het toevoegen in de Admin Console.
 
 Volg de onderstaande stappen om bijvoorbeeld een productprofiel voor &#39;revisoren&#39; te maken.
 
@@ -77,7 +77,7 @@ Volg de onderstaande stappen om bijvoorbeeld een productprofiel voor &#39;reviso
 
 1. Verbinding maken met de [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
 1. Van de **Product en services** sectie van de homepage, open product van de Campagne.
-1. Klikken **Nieuw profiel** en voert u de naam in van het productprofiel dat u wilt maken, met de juiste syntaxis zoals uitgelegd [hier](#product-profiles). Voor ons voorbeeld voeren we het volgende in: campagne - `<your-instance-name>` - controleurs
+1. Klikken **Nieuw profiel** en voert u de naam in van het productprofiel dat u wilt maken, met de juiste syntaxis zoals uitgelegd [hier](#product-profiles). Voor ons voorbeeld voeren we de campagne - `<your-instance-name>` - controleurs
 
    ![](assets/new-product-profile-ui.png)
 
@@ -90,7 +90,7 @@ U kunt productprofielen het beste aan gebruikersgroepen toewijzen. Het beheren v
 
 ### Standaardproductprofielen en groepen met operatoren {#ootb-productprofiles}
 
-Adobe Campaign wordt geleverd met ingebouwde **productprofielen** die worden gedefinieerd wanneer Adobe uw omgeving activeert.
+Adobe Campaign wordt geleverd met ingebouwde **productprofielen** die worden gedefinieerd wanneer de Adobe uw omgeving activeert.
 
 ![](assets/ootb-product-profiles.png)
 
@@ -102,25 +102,25 @@ Deze productprofielen komen overeen met de campagne **groepen met operatoren**. 
 
    Deze groep bevat het volgende benoemde recht:
 
-   * **[!UICONTROL ADMINISTRATION]**: het recht om objecten zoals workflow, levering, scripts, enz. uit te voeren, te maken, te bewerken/te verwijderen.
+   * **[!UICONTROL ADMINISTRATION]**: recht om objecten zoals workflow, levering, scripts, enz. uit te voeren, te maken, te bewerken/te verwijderen.
 
 1. **[!UICONTROL Delivery operators]** (levering)
 
-   De exploitanten in deze groep zijn verantwoordelijk voor het beheer van de leveringen: zij verlenen toegang tot de belangrijkste middelen die voor het creëren van en het voorbereiden van levering worden vereist (campagnetypologieën, leveringsafbeeldingen, standaardmalplaatjes, verpersoonlijkingsblokken, enz.).
+   De operatoren in deze groep zijn verantwoordelijk voor het beheer van de leveringen: zij bieden toegang tot de belangrijkste bronnen die nodig zijn voor het maken en voorbereiden van de leveringen (campagneretypologieën, leveringstoewijzingen, standaardsjablonen, aanpassingsblokken, enz.).
 
    Deze groep bevat de volgende benoemde rechten:
 
-   * **[!UICONTROL PREPARE DELIVERIES]**: het recht om de leveringsanalyse te maken, te bewerken en te starten;
-   * **[!UICONTROL START DELIVERIES]**: het recht om eerder geanalyseerde leveringen goed te keuren.
+   * **[!UICONTROL PREPARE DELIVERIES]**: recht om de leveringsanalyse te maken, te bewerken en te starten,
+   * **[!UICONTROL START DELIVERIES]**: recht om eerder geanalyseerde leveringen goed te keuren.
 
 1. **[!UICONTROL Campaign managers]** (bewerking)
 
-   De exploitanten in deze groep kunnen marketingcampagnes beheren: hiermee hebt u toegang tot de objecten die aan campagnes zijn gekoppeld (plannen, programma&#39;s, workflows, budgetten, enz.) in het kader van **[!UICONTROL Campaign]** (optionele Adobe Campaign-module).
+   De exploitanten in deze groep kunnen marketing campagnes beheren: het laat u tot de voorwerpen toegang hebben verbonden aan campagnes (plannen, programma&#39;s, werkschema&#39;s, begrotingen, etc.) in het kader van **[!UICONTROL Campaign]** (optionele Adobe Campaign-module).
 
    Deze groep bevat de volgende benoemde rechten:
 
-   * **[!UICONTROL INSERT FOLDERS]**: het recht om mappen in te voegen in de Adobe Campaign-structuur (op voorwaarde dat u bewerkingsrechten hebt voor de betrokken vertakkingen);
-   * **[!UICONTROL WORKFLOW]**: recht om werkstromen te gebruiken.
+   * **[!UICONTROL INSERT FOLDERS]**: recht om mappen in te voegen in de Adobe Campaign-structuur (op voorwaarde dat u bewerkingsrechten hebt voor de betrokken vertakkingen),
+   * **[!UICONTROL WORKFLOW]**: recht om workflows te gebruiken.
 
    >[!NOTE]
    >
@@ -128,7 +128,7 @@ Deze productprofielen komen overeen met de campagne **groepen met operatoren**. 
 
 1. **[!UICONTROL Content contributors]** (inhoud)
 
-   De gebruikers in deze groep kunnen tot de omslagen van de Inhoud, in de context van toegang hebben **[!UICONTROL Content management]** invoegtoepassing. Deze groep verleent geen extra toestemmingen.
+   Gebruikers in deze groep hebben in de context van de **[!UICONTROL Content management]** invoegtoepassing. Deze groep verleent geen extra toestemmingen.
 
 1. **[!UICONTROL Access to reports]** (rapport)
 
@@ -136,7 +136,7 @@ Deze productprofielen komen overeen met de campagne **groepen met operatoren**. 
 
 1. **[!UICONTROL Workflow execution]** (workflow)
 
-   De **[!UICONTROL Workflow execution]** Met de groep kunt u de uitvoering en goedkeuring van workflows voor doelwitten beheren: De WORKFLOW met de naam right wordt toegewezen aan de operatoren van deze groep. Dit is vereist voor alle handelingen met betrekking tot workflows, naast toegangsrechten tot de gegevensbestanden. Standaard worden de **[!UICONTROL Workflow execution]** Deze groep heeft alleen-lezen toegang tot standaard doelworkflowbestanden en werkstroomsjablonen. Operatoren in deze groep hebben ook lees- en schrijftoegang tot het goedkeuringsbestand dat in behandeling is.
+   De **[!UICONTROL Workflow execution]** Met deze groep kunt u de uitvoering en goedkeuring van doelworkflows beheren: de WORKFLOW met de naam right wordt toegewezen aan de operatoren van deze groep. Dit is vereist voor alle handelingen met betrekking tot workflows, naast toegangsrechten tot de gegevensbestanden. Standaard worden de **[!UICONTROL Workflow execution]** Deze groep heeft alleen-lezen toegang tot standaard doelworkflowbestanden en werkstroomsjablonen. Operatoren in deze groep hebben ook lees- en schrijftoegang tot het goedkeuringsbestand dat in behandeling is.
 
 1. **[!UICONTROL Workflow supervisors]** (workflowSupervisor)
 
@@ -148,22 +148,22 @@ Deze productprofielen komen overeen met de campagne **groepen met operatoren**. 
 
 1. **[!UICONTROL Offer managers]** (voorstel)
 
-   De operatoren in deze groep kunnen aanbiedingen maken en onderhouden wanneer de invoegtoepassing Interactie wordt gebruikt. [Meer informatie](../interaction/interaction-operators.md).
+   De exploitanten in deze groep kunnen aanbiedingen tot stand brengen en handhaven wanneer het gebruiken van de toe:voegen-op van de Interactie. [Meer informatie](../interaction/interaction-operators.md).
 
    Deze groep bevat de volgende benoemde rechten:
 
-   * **[!UICONTROL INSERT FOLDERS]**: Recht om mappen in te voegen in de Adobe Campaign-structuur (op voorwaarde dat u bewerkrechten hebt voor de betrokken vertakkingen).
-   * **[!UICONTROL EDIT FOLDERS]**: Recht om omslageigenschappen zoals interne naam, etiket, bijbehorende beeld, subomslagorde te veranderen, etc.
+   * **[!UICONTROL INSERT FOLDERS]**: Recht om mappen in te voegen in de Adobe Campaign-structuur (op voorwaarde dat u bewerkrechten hebt voor de betrokken vertakkingen),
+   * **[!UICONTROL EDIT FOLDERS]**: Recht om mapeigenschappen zoals interne naam, label, gekoppelde afbeelding, volgorde van submappen, enz. te wijzigen.
 
    De toestemmingen die aan de managers van de Aanbieding worden toegewezen laten hen toe om de volgende taken uit te voeren:
 
    * Wijzigen **[!UICONTROL Design]** omgevingen.
    * Weergave **[!UICONTROL Live]** omgevingen.
    * Configureer beheerfuncties (vooraf gedefinieerde spaties en filters).
-   * Categorieën maken en bijwerken.
+   * Categorieën maken en bijwerken
    * Maak voorstellen.
    * Geschiktheid van aanbieding configureren.
-   * Voorstel goedkeuren.
+   * Voorstellen goedkeuren.
 
    >[!NOTE]
    >
@@ -185,11 +185,11 @@ Adobe Campaign wordt geleverd met een reeks benoemde rechten waarmee u de machti
 
 Rechten verlenen machtigingen aan:
 
-* Voer bijvoorbeeld bewerkingen uit op de knop **Analyseren** wordt geactiveerd voor leden van de **Leveringsoperator** groep met de **Levering voorbereiden** Benoemd rechts
+* Voer bijvoorbeeld bewerkingen uit op de knop **Analyseren** in de Editor voor levering wordt geactiveerd voor leden van de **Leveringsoperator** groep met de **Levering voorbereiden** Benoemd rechts
 
 * De toegang tot omslagen Lidmaatschap van de Groepen van de Exploitant kan toegangsrechten tot omslagen verlenen of beperken, door de veiligheidsmontages op omslagen te veranderen. [Meer informatie](folder-permissions.md#restrict-access-to-a-folder).
 
-   Het kan bijvoorbeeld invloed hebben op: **Schrijftoegang** nieuwe entiteiten te creëren (zoals leveringen, profielen, enz.); **Leestoegang** entiteiten te gebruiken; **Toegang verwijderen** om entiteiten te verwijderen.
+  Het kan bijvoorbeeld invloed hebben op: **Schrijftoegang** nieuwe entiteiten te creëren (zoals leveringen, profielen, enz.); **Leestoegang** entiteiten te gebruiken; **Toegang verwijderen** entiteiten verwijderen.
 
 Standaard benoemde rechten in Adobe Campaign zijn:
 
@@ -201,27 +201,27 @@ Standaard benoemde rechten in Adobe Campaign zijn:
 
 * **[!UICONTROL DELETE FOLDER]**: Rechts om mappen te verwijderen. Met dit recht kunnen gebruikers mappen verwijderen uit de verkennerweergave.
 
-* **[!UICONTROL EDIT FOLDERS]**: Recht om omslageigenschappen zoals interne naam, etiket, bijbehorende beeld, subomslagorde te veranderen, etc.
+* **[!UICONTROL EDIT FOLDERS]**: Recht om mapeigenschappen zoals interne naam, label, gekoppelde afbeelding, volgorde van submappen, enz. te wijzigen.
 
-* **[!UICONTROL EXPORT]**: Gebruikers kunnen gegevens uit hun Adobe Campaign-instanties exporteren naar een bestand op een server of lokale computer met behulp van de **[!UICONTROL EXPORT]** workflowactiviteit.
+* **[!UICONTROL EXPORT]**: Gebruikers kunnen gegevens uit hun Adobe Campaign-instanties naar een bestand op een server of lokale computer exporteren met de opdracht **[!UICONTROL EXPORT]** workflowactiviteit.
 
-* **[!UICONTROL FILES ACCESS]**: Recht om toegang voor dossiers te lezen en te schrijven via een manuscript dat in kan schrijven **[!UICONTROL JavaScript]** workflowactiviteit voor het lezen/schrijven van bestanden op een server.
+* **[!UICONTROL FILES ACCESS]**: Recht om toegang voor bestanden te lezen en te schrijven via een script dat in het dialoogvenster **[!UICONTROL JavaScript]** workflowactiviteit voor het lezen/schrijven van bestanden op een server.
 
 * **[!UICONTROL IMPORT]**: Recht op het importeren van generieke gegevens. **[!UICONTROL IMPORT]** kunt u gegevens in een andere tabel importeren, terwijl de optie **[!UICONTROL RECIPIENT IMPORT]** Met right kunt u alleen importeren in de tabel voor ontvangers.
 
-* **[!UICONTROL INSERT FOLDERS]**: Recht om omslagen op te nemen. Gebruikers met de **[!UICONTROL INSERT FOLDERS]** Met de rechtermuisknop kunt u nieuwe mappen maken in de mappenstructuur in de weergave Verkenner.
+* **[!UICONTROL INSERT FOLDERS]**: Rechts om mappen in te voegen. Gebruikers met de **[!UICONTROL INSERT FOLDERS]** Met de rechtermuisknop kunt u nieuwe mappen maken in de mappenstructuur in de weergave Verkenner.
 
-* **[!UICONTROL LOCAL]**: Recht op lokaal beheer (Distributed Marketing).
+* **[!UICONTROL LOCAL]**: Recht voor lokaal beheer (Distributed Marketing).
 
 * **[!UICONTROL MERGE]**: Rechts om de geselecteerde records samen te voegen tot één record. Als ontvangers bestaan als duplicaten, worden de **[!UICONTROL MERGE]** Met de rechtermuisknop kan de gebruiker de duplicaten selecteren en deze samenvoegen in een primaire ontvanger.
 
-* **[!UICONTROL PREPARE DELIVERIES]**: Recht om een levering te maken, te bewerken en op te slaan. Gebruikers met de **[!UICONTROL PREPARE DELIVERIES]** het recht kan ook beginnen met het proces van de leveringsanalyse .
+* **[!UICONTROL PREPARE DELIVERIES]**: Recht om een levering te maken, bewerken en opslaan. Gebruikers met de **[!UICONTROL PREPARE DELIVERIES]** het recht kan ook het proces van de leveringsanalyse starten .
 
-* **[!UICONTROL PRIVACY DATA RIGHT]**: Recht om privacygegevens te verzamelen en te schrappen. [Meer informatie](privacy.md).
+* **[!UICONTROL PRIVACY DATA RIGHT]**: Recht om privacygegevens te verzamelen en te verwijderen. [Meer informatie](privacy.md).
 
-* **[!UICONTROL PROGRAM EXECUTION]**: Recht om bevelen in diverse programmeertalen uit te voeren.
+* **[!UICONTROL PROGRAM EXECUTION]**: Recht om opdrachten uit te voeren in verschillende programmeertalen.
 
-* **[!UICONTROL RECIPIENT IMPORT]**: Recht om ontvangers in te voeren. Gebruikers met de **[!UICONTROL RECIPIENT IMPORT]** Met de rechtermuisknop kunt u een lokaal bestand importeren in de ontvangende tabel.
+* **[!UICONTROL RECIPIENT IMPORT]**: Recht op het importeren van ontvangers. Gebruikers met de **[!UICONTROL RECIPIENT IMPORT]** Met de rechtermuisknop kunt u een lokaal bestand importeren in de ontvangende tabel.
 
 * **[!UICONTROL SQL SCRIPT EXECUTION]** Recht om het even welk SQL bevel direct op het gegevensbestand uit te voeren.
 
@@ -229,10 +229,10 @@ Standaard benoemde rechten in Adobe Campaign zijn:
 
 * **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: Recht om uw eigen SQL manuscripten te schrijven gebruikend de SQL activiteit van het Beheer van Gegevens, om het werklijsten tot stand te brengen en te bevolken. [Meer informatie](../../automation/workflow/sql-data-management.md).
 
-* **[!UICONTROL WORKFLOW]**: Dit genoemde recht is specifiek voor workflows: hiermee kunt u workflows maken, starten en stoppen. Het genoemde recht is alleen van toepassing als het workflowbestand leesrechten bevat. Voor doelgerichte workflows kunt u de leesvolgorde op de knop **[!UICONTROL Profiles and Targets]** is vereist.
+* **[!UICONTROL WORKFLOW]**: Dit genoemde recht is specifiek voor workflows: u kunt workflows maken, starten en stoppen. Het genoemde recht is alleen van toepassing als het workflowbestand leesrechten bevat. Voor doelgerichte workflows kunt u de leesvolgorde op de knop **[!UICONTROL Profiles and Targets]** is vereist.
 
 
-* **[!UICONTROL WEBAPP]**: Recht om Webtoepassingen te gebruiken.
+* **[!UICONTROL WEBAPP]**: Recht om webtoepassingen te gebruiken.
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ Standaard benoemde rechten in Adobe Campaign zijn:
 
 
 
-## Aanvullende bronnen{#additional-res}
+## Verdere bronnen{#additional-res}
 
 * [Machtigingen voor workflows beheren](../../automation/workflow/managing-rights.md)
 * [Rechten voor gedistribueerde marketing beheren](../../automation/distributed-marketing/about-distributed-marketing.md#operators)

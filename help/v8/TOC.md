@@ -1,14 +1,15 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Productdocumentatie voor Adobe Campaign v8.
+user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsole).
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
+hidefromtoc: true
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
+source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 16%
+source-wordcount: '575'
+ht-degree: 15%
 
 ---
 
@@ -19,8 +20,10 @@ ht-degree: 16%
 + releases en nieuwste updates {#releases}
    + [Documentatie-updates](start/documentation-updates.md)
    + [Vroege aanvullende informatie](start/e-release-notes.md)
+   + [Versie en upgrades](start/upgrades.md)
    + [Aanvullende informatie ](start/release-notes.md)
    + Opmerkingen bij vorige release {#previous-rn}
+      + [2023](start/release-notes-2023.md)
       + [2022](start/release-notes-2022.md)
       + [2021](start/release-notes-2021.md)
    + [Guardrails](start/ac-guardrails.md)
@@ -29,9 +32,9 @@ ht-degree: 16%
 + Aan de slag {#new}
    + [Aan de slag met Adobe Campaign](start/get-started.md)
    + [Belangrijkste mogelijkheden](start/whats-new.md)
-   + [Onderdelen en processen](start/ac-components.md)
+   + [De gebruikersinterface detecteren](start/campaign-ui.md)
    + [Verbinding maken met campagne](start/connect.md)
-   + [Campagne-interface](start/campaign-ui.md)
+   + [Onderdelen en processen](start/ac-components.md)
    + [Van Classic v7 naar v8](start/v7-to-v8.md)
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -42,6 +45,7 @@ ht-degree: 16%
    + E-mails {#emails}
       + [E-mails ontwerpen en valideren](send/email.md)
       + [Koppeling maken naar de spiegelpagina](send/mirror-page.md)
+      + [Een BCC-adres toevoegen](send/email-bcc.md)
       + [Aanvullende e-mailparameters definiëren](send/email-parameters.md)
       + [E-mails verzenden en controleren](send/send.md)
    + [Sms](send/sms.md)
@@ -174,7 +178,6 @@ ht-degree: 16%
    + Instellingen en configuratie {#configuration}
       + [Gebruikersinterface-instellingen](config/ui-settings.md)
       + [Mappen en weergaven beheren](audiences/folders-and-views.md)
-      + [E-mailinstellingen](config/email-settings.md)
       + [Transactionele berichtinstellingen](config/transactional-msg-settings.md)
       + [SDK&#39;s voor campagnes integreren met uw app - VEROUDERDE PAGINA](config/push-config.md)
       + [Externe accounts](config/external-accounts.md)

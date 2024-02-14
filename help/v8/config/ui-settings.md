@@ -6,10 +6,10 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 1%
+source-wordcount: '1848'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Leer hoe u mappen en weergaven beheert in [deze pagina](../audiences/folders-and
 
 ## Lijsten beheren en aanpassen{#customize-lists}
 
-In de Console van de Cliënt van de Campagne, worden de gegevens getoond in lijsten. U kunt deze lijsten aan uw behoeften aanpassen. U kunt bijvoorbeeld kolommen, filtergegevens, telrecords toevoegen, uw instellingen opslaan en delen.
+In de de cliëntconsole van de Campagne, worden de gegevens getoond in lijsten. U kunt deze lijsten aan uw behoeften aanpassen. U kunt bijvoorbeeld kolommen, filtergegevens, telrecords toevoegen, uw instellingen opslaan en delen.
 
 Bovendien kunt u filters maken en opslaan.  Meer informatie over filters in [deze pagina](../audiences/create-filters.md).
 
@@ -146,7 +146,7 @@ Lijsten kunnen veel gegevens bevatten. U kunt deze gegevens sorteren of eenvoudi
 
 Klik op de kolomkop om oplopende of aflopende sortering toe te passen of om gegevenssortering te annuleren. De actieve sorteerstatus en sorteervolgorde worden aangegeven met een blauwe pijl vóór het kolomlabel. Een rood streepje vóór het kolomlabel betekent dat de sortering wordt toegepast op gegevens die uit de database zijn geïndexeerd. Deze sorteermethode wordt gebruikt om sorteertaken te optimaliseren.
 
-U kunt ook sorteren configureren of sorteercriteria combineren. Volg de onderstaande stappen om dit te doen:
+U kunt ook sorteren configureren of sorteercriteria combineren. Hiervoor voert u de volgende stappen uit:
 
 1. **[!UICONTROL Configure list]** en rechts van de lijst.
 1. Klik in het lijstconfiguratievenster op de knop **[!UICONTROL Sorting]** tab.
@@ -213,7 +213,7 @@ Voer de volgende stappen uit om een alias te maken:
 
 1. Sla uw wijzigingen op. De vervanging van waarden wordt uitgevoerd door **Aliasreiniging** workflow die elke nacht wordt uitgevoerd. Zie [Gegevens wissen](#running-data-cleansing).
 
-Voor alle velden die op deze opsomming zijn gebaseerd, wanneer een gebruiker de waarde invoert **Adobe** in een veld &quot;bedrijf&quot; (in de Adobe Campaign Client Console, in een webformulier) wordt deze automatisch vervangen door de waarde **Adobe**.
+Voor alle velden die op deze opsomming zijn gebaseerd, wanneer een gebruiker de waarde invoert **Adobe** in een veld &quot;bedrijf&quot; (in de Adobe Campaign-clientconsole, in een webformulier) wordt deze automatisch vervangen door de waarde **Adobe**.
 
 #### Een onjuiste waarde omzetten in een alias{#convert-to-alias}
 

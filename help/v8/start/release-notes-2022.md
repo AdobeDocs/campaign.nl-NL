@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
 workflow-type: tm+mt
-source-wordcount: '1847'
-ht-degree: 13%
+source-wordcount: '1919'
+ht-degree: 12%
 
 ---
 
@@ -18,15 +18,15 @@ Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden 
 
 ## Release 8.4.2 {#release-8-4-2}
 
-_28 oktober 2022_
+_zaterdag 28 oktober 2022_
 
-**Verbeteringen**
+**Oplossingen**
 
-* Er is een probleem verholpen waardoor de Success-bezorgingsindicatie niet correct werd bijgewerkt bij gebruik van Adobe Campaign Enhanced MTA. (NEO-50462)
+* Probleem verholpen waardoor de leverindicator voor succes niet correct kon worden bijgewerkt bij gebruik van Adobe Campaign Enhanced MTA. (NEO-50462)
 
 ## Release 8.4.1 {#release-8-4-1}
 
-_30 september 2022_
+_zaterdag 30 september 2022_
 
 **Nieuwe functies**
 
@@ -94,7 +94,7 @@ Om de beveiliging te optimaliseren, zijn beveiligingstokens verwijderd uit URL&#
 
 Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
 
-**Patches**
+**Oplossingen**
 
 * Probleem verholpen dat invloed had op de statusupdates van het leveringslogboek voor de MID-instantie toen de optie FeatureFlag_GZIP_Compression was ingeschakeld. (NEO-49183)
 * Probleem verholpen waarbij leveringen konden blijven **In behandeling** ook als de contactdatum is bereikt. (NEO-48079)
@@ -121,11 +121,11 @@ Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
 
 >[!CAUTION]
 >
-> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#download-ac-console) hoe u uw Client Console kunt upgraden.
+> upgrade van de clientconsole is verplicht. Leer hoe u uw clientconsole in deze [page](../start/connect.md#download-ac-console).
 
-_7 oktober 2022_
+_zaterdag 7 oktober 2022_
 
-**Verbeteringen**
+**Oplossingen**
 
 * Probleem verholpen dat invloed had op de statusupdates van het leveringslogboek voor de MID-instantie toen de optie FeatureFlag_GZIP_Compression was ingeschakeld. (NEO-49183)
 * De **Database opschonen** in de technische workflow worden nu ook aangepaste staging-schema&#39;s afgehandeld. (NEO-48974)
@@ -224,7 +224,7 @@ Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
 **Verbeteringen**
 
 * Microsoft Exchange Online OAuth 2.0-verificatie voor POP3 wordt nu ondersteund in Campaign. [Meer informatie](../config/external-accounts.md#bounce-mails-external-account)
-* Er zijn kritieke oplossingen aangebracht voor de web-API van Microsoft Dynamics Connector.
+* Er zijn kritieke correcties toegepast met betrekking tot de webAPI van de Microsoft Dynamics Connector.
 * De nieuwe operator en het groepsschema schrijven (operatorWrite) naar rechts is toegevoegd om gebruikers toe te staan operatorschema&#39;s (xtk:operator) en groepen operatoren (xtk:group) in te voegen, bij te werken en te verwijderen.
   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
@@ -232,7 +232,7 @@ Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
 * Het aantal standaardverbindingen voor het webproces is verhoogd van 50 naar 150.
 * De campagne komt met een reeks nieuwe gidsen om toevoeging van dubbele sleutels in het gegevensbestand van de Snowflake te verhinderen. [Meer informatie](../architecture/keys.md)
 
-**Patches**
+**Oplossingen**
 
 * Probleem verholpen dat optrad bij het gebruik van zaden en controlegroepen in dezelfde terugkerende levering. (NEO-41197)
 * Probleem met FFDA verholpen waarbij het verzenden van e-mail werd geblokkeerd voor alle ontvangers die tot dezelfde bezorging behoorden tijdens het verzendproces (maximaal 256) wanneer personalisatieklokken een van de volgende tekens bevatten: `' & < > "`. Deze tekens worden nu ondersteund in blokken voor personalisatie (bijvoorbeeld: firstname=&quot;Brian O&#39;Neil&quot;). (NEO-43184)
@@ -241,9 +241,9 @@ Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
 
 ## Release 8.2.10 {#release-8-2-10}
 
-_2 februari 2022_
+_donderdag 2 februari 2022_
 
-**Patches**
+**Oplossingen**
 
 * Probleem opgelost waarbij de voorbereiding van de levering mislukte als het maximum aantal berichten, dat in de typologieregel is gedefinieerd, is bereikt.
 * Probleem verholpen tijdens de configuratie van de Adobe Analytics-connector toen het e-mailadres een &#39;s&#39;-teken bevatte.

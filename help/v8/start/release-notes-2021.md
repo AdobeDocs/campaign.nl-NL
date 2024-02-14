@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 37%
+source-wordcount: '1581'
+ht-degree: 38%
 
 ---
 
@@ -18,7 +18,7 @@ Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden 
 
 ## Release 8.2.8 {#release-8-2-8}
 
-_28 oktober 2021_
+_vrijdag 28 oktober 2021_
 
 <table>
 <thead>
@@ -39,7 +39,7 @@ _28 oktober 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Campagnes optimaliseren</strong><br /> </th> 
+<th> <strong>Campagne optimaliseren</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -89,7 +89,7 @@ _28 oktober 2021_
 * Probleem verholpen waarbij het importeren van pakketten trager kon worden.
 * Probleem opgelost waarbij e-mailleveringen met zaadadressen niet konden worden verzonden.
 * Probleem verholpen waardoor voorstellen niet konden worden opgeslagen in de tabel met aanbiedingsvoorstellen.
-* Er is een probleem opgelost waarbij netwerktime-outproblemen ten onrechte werden vastgelegd als scriptonderbrekingsproblemen in plaats van netwerkfouten. Dit probleem deed zich voor in het geval van HTTP-verzoeken die waren opgenomen in JavaScript-activiteiten.
+* Er is een probleem opgelost waarbij netwerktime-outproblemen ten onrechte werden vastgelegd als scriptonderbrekingsproblemen in plaats van netwerkfouten. Dit probleem is opgetreden in het geval van HTTP-aanvragen die in JavaScript-activiteiten zijn opgenomen.
 * Probleem verholpen waarbij aanbiedingen niet konden worden gerepliceerd naar de live aanbiedingsomgeving op Snowflake.
 * Probleem opgelost waarbij het kenmerk &#39;autoStg&#39; voor niet-uitgebreide ingebouwde schema&#39;s werd genegeerd.
 * Probleem verholpen waardoor gebruikers niet de **[!UICONTROL Country/Region]** koppelen bij voorvertonen van een profiel.
@@ -116,7 +116,7 @@ _7 september 2021_
 **Verbeteringen**
 
 * Na het eind van zijn gebruiksduur is Flash verwijderd uit alle verwante Campaign-functies en onderdelen, en vervangen door HTML5. Het diagramtype **Gauge** is verwijderd. (NEO-30330) [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html)
-* Wanneer u de clientconsole in Windows installeert, controleert het installatieprogramma nu of er een bovenliggend registerknooppunt is en wordt er een gemaakt als dit knooppunt ontbreekt. Hiermee voorkomt u potentiële problemen wanneer u de console start. (NEO-34854)
+* Wanneer u de clientconsole in Windows installeert, controleert het installatieprogramma nu of er een bovenliggend registerknooppunt is, en zo niet, dan wordt er een gemaakt. Hiermee voorkomt u potentiële problemen wanneer u de console start. (NEO-34854)
 * De functie voor het bijhouden van handtekeningen is verbeterd om fouten te voorkomen die gekoppeld zijn aan tools van derden (klant-e-mail, internetbrowsers, enz.) speciale tekens gebruiken. URL-parameters zijn nu gecodeerd.
 
 **Andere wijzigingen**
@@ -145,7 +145,7 @@ _7 september 2021_
 
 ## Release 8.1.14 {#release-8-1-14}
 
-_23 juli 2021_
+_zaterdag 23 juli 2021_
 
 **Nieuwe functies**
 

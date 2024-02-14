@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +21,15 @@ Deze pagina bevat een lijst met bekende problemen die zijn geïdentificeerd in h
 
 >[!NOTE]
 >
->Adobe publiceert deze lijst met bekende problemen naar eigen goeddunken. Het is gebaseerd op het aantal klantenrapporten, de strengheid, en de tijdelijke beschikbaarheid. Als een probleem dat u tegenkomt niet in de lijst voorkomt, voldoet het mogelijk niet aan de criteria voor publicatie op deze pagina.
+>Adobe publiceert deze lijst van bekende problemen naar eigen goeddunken. Het is gebaseerd op het aantal klantenrapporten, de strengheid, en de tijdelijke beschikbaarheid. Als een probleem dat u tegenkomt niet in de lijst voorkomt, voldoet het mogelijk niet aan de criteria voor publicatie op deze pagina.
 
-## Campaign v8.3.8{#8.3-issues}
+## Campagne v8.3.8{#8.3-issues}
 
 ### Probleem met gegevensbronactiviteit wijzigen {#issue-2}
 
 #### Beschrijving{#issue-2-desc}
 
-Bij het injecteren van gegevens in de Snowflake cloud-database met een campagne **Query** en **Gegevensbron wijzigen** activiteit, ontbreekt het proces wanneer een backslash karakter in de gegevens aanwezig is. De brontekenreeks wordt niet beschermd en gegevens worden niet correct verwerkt op Snowflake.
+Bij het injecteren van gegevens in de wolkengegevensbestand van de Snowflake met een Campagne **Query** en **Gegevensbron wijzigen** activiteit, ontbreekt het proces wanneer een backslash karakter in de gegevens aanwezig is. De brontekenreeks wordt niet beschermd en gegevens worden niet correct verwerkt op de Snowflake.
 
 Dit probleem doet zich alleen voor als de backslash het einde van een tekenreeks is, bijvoorbeeld: `Barker\`.
 
@@ -39,7 +39,7 @@ Dit probleem doet zich alleen voor als de backslash het einde van een tekenreeks
 1. Maak verbinding met de clientconsole en maak een workflow.
 1. Voeg een **Query** activiteit en vorm het.
 1. Selecteer gegevens met de hierboven beschreven kenmerken.
-1. Voeg een **Gegevensbron wijzigen** en configureer deze om de Snowflake cloud-database te selecteren.
+1. Voeg een **Gegevensbron wijzigen** activiteit en vorm het om de wolkengegevensbestand van de Snowflake te selecteren.
 1. Voer de workflow uit en controleer de logboeken van de workflow om de fout te zien.
 
 
@@ -71,7 +71,7 @@ Wanneer u een bestand uploadt naar een Campagneserver met een **Gegevens laden (
 
 1. Maak verbinding met de clientconsole en maak een workflow.
 1. Voeg een **Gegevens laden (bestand)** activiteit en vorm het.
-1. Selecteer **Uploaden op server** optie.
+1. Selecteer de **Uploaden op server** -optie.
 1. Selecteer het bestand op uw lokale computer.
 1. Klikken **Uploaden**
 
@@ -82,9 +82,9 @@ Het proces eindigt nooit.
 
 #### Workaround{#issue-3-workaround}
 
-De oplossing is het gebruik van een oudere clientconsole. Vervolgens kunt u het bestand uploaden naar de server.
+De oplossing is om een oudere cliëntconsole te gebruiken. Vervolgens kunt u het bestand uploaden naar de server.
 
-Als beheerder van een campagne kunt u Campagne versie 8.3.1 Client Console downloaden in [Adobe-softwaredistributie](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;layout by.sort=desc=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
+Als beheerder van de Campagne kunt u Campagne v8.3.1 cliëntconsole in downloaden [Softwaredistributie Adoben](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;layout by.sort=desc=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
 
 Leer hoe u toegang krijgt tot Adobe Software Distribution [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 

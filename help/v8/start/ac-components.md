@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,7 @@ Adobe Campaign-componenten en algemene architectuur worden hieronder beschreven.
 
 ![](assets/do-not-localize//ac-components.png)
 
-### Presentatielaag{#presentation-layer}
 
-U kunt toegang krijgen tot Adobe Campaign via een rijke client, een dunne client of API-integratie.
-
-* Rijke client
-
-  Campagne Rich-client is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. [Meer informatie over Campagne Client Console](../start/connect.md).
-
-* Dunne client
-
-  Met Adobe Campaign-mogelijkheden voor webtoegang hebt u via een gebruikersinterface toegang tot een subset van Campagnefuncties via een webbrowser. Gebruik deze webinterface om rapporten te openen, berichten te besturen en te valideren, toegang te krijgen tot controledashboards en nog veel meer.  [Meer informatie over Campagne Web Access](../start/connect.md).
-
-* Externe toepassingen met API&#39;s
-
-  In bepaalde gevallen, kan het systeem van externe toepassingen worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van de ZEEP worden blootgesteld. [Meer informatie over campagne-API&#39;s](../dev/api.md).
 
 ### Persistentielaag{#persistance-layer}
 
@@ -60,7 +46,7 @@ De server van het Web van de campagne controleert de toegang tot de processen va
 
 ![](assets/do-not-localize/ac-processes.png)
 
-De Console van de Cliënt van de campagne verbindt met de server van het Web gebruikend XML van de ZEEP over HTTP. De server van het Web verstrekt de veiligheidslaag, gaat de verzoeken tot de laag van de Toepassing over gebruikend Javascript en de interne processen van de Campagne toegang tot het gegevensbestand gebruikend SQL.
+De de cliëntconsole van de campagne verbindt met de server van het Web gebruikend XML van de ZEEP over HTTP. De server van het Web verstrekt de veiligheidslaag, gaat de verzoeken tot de laag van de Toepassing over gebruikend Javascript en de interne processen van de Campagne toegang tot het gegevensbestand gebruikend SQL.
 
 De algemene communicatie tussen de processen van de Campagne wordt beschreven in het volgende standalone plaatsingsdiagram: alle componenten van de Campagne worden geïnstalleerd in de zelfde machine.
 

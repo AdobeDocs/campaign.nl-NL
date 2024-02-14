@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Het filtreren van gegevens is het proces om een kleiner deel van uw gegevensreeks, slechts die verslagen te selecteren die bepaalde criteria aanpassen, en die ondergroep voor specifieke acties (updates, publieksverwezenlijking) of analyse te gebruiken.
 
-Wanneer u een campagne bladert vanuit de **[!UICONTROL Explorer]**, worden de gegevens weergegeven in lijsten. U kunt bestaande ingebouwde filters gebruiken om tot een specifieke ondergroep van deze gegevens toegang te hebben: quarantined adressen, niet-gerichte ontvangers, een specifiek leeftijdsbereik of een aanmaakdatum bijvoorbeeld.
+Wanneer u een campagne bladert vanuit de **[!UICONTROL Explorer]**, worden de gegevens weergegeven in lijsten. U kunt bestaande ingebouwde filters gebruiken om tot een specifieke ondergroep van deze gegevens toegang te hebben: quarantined adressen, niet-gerichte ontvangers, een specifieke leeftijdswaaier of aanmaakdatum bijvoorbeeld.
 
 U kunt ook uw eigen filters maken, deze opslaan voor toekomstig gebruik of deze delen met andere campagnegebruikers.
 
-Met de filterconfiguratie kunt u gegevens uit een lijst selecteren **[!UICONTROL dynamically]**: wanneer de gegevens worden gewijzigd, worden de gefilterde gegevens bijgewerkt.
+Met de filterconfiguratie kunt u gegevens uit een lijst selecteren **[!UICONTROL dynamically]**: Wanneer de gegevens worden gewijzigd, worden de gefilterde gegevens bijgewerkt.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ De volgende filtertypen zijn beschikbaar in Adobe Campaign:
 
 ## Vooraf gedefinieerde filters{#predefined-filters}
 
-Vooraf gedefinieerde filters zijn beschikbaar via de **Filters** boven elke lijst.
+Vooraf gedefinieerde filters zijn beschikbaar in het menu **Filters** boven elke lijst.
 
 Voor de profielen zijn bijvoorbeeld de volgende ingebouwde filters beschikbaar:
 
@@ -93,10 +93,10 @@ Ingebouwde vooraf gedefinieerde filters zijn:
   </tr> 
   <tr> 
    <td> Gegarandeerd e-mailadres<br /> </td> 
-   <td> Hiermee selecteert u ontvangers wier e-mailadres in quarantaine is geplaatst.<br /> </td> 
+   <td> Hiermee selecteert u ontvangers waarvan het e-mailadres in quarantaine is geplaatst.<br /> </td> 
   </tr> 
   <tr> 
-   <td> E-mailadressen die in de map zijn gedupliceerd<br /> </td> 
+   <td> E-mailadressen gedupliceerd in de map<br /> </td> 
    <td> Hiermee selecteert u ontvangers waarvan het e-mailadres in de map wordt gedupliceerd.<br /> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ Ingebouwde vooraf gedefinieerde filters zijn:
   </tr> 
   <tr> 
    <td> Door op een specifieke koppeling te klikken<br /> </td> 
-   <td> Selecteert ontvangers die op een bepaalde URL in een levering hebben geklikt.<br /> </td> 
+   <td> Hiermee selecteert u ontvangers die op een bepaalde URL in een levering hebben geklikt.<br /> </td> 
   </tr> 
   <tr> 
    <td> Per postbezorging<br /> </td> 
@@ -170,7 +170,7 @@ Met de velden boven elke lijst kunt u de **vooraf gedefinieerd standaardfilter**
 >
 >De **%** vervangen van tekenreeksen. Voer bijvoorbeeld `%@gmail.com` in het veld E-mail om alle profielen met een Gmail-adres weer te geven. Enter `%@L` in het veld Achternaam om alle profielen met een L in hun achternaam weer te geven.
 
-Als u het standaardfilter voor een lijst met ontvangers wilt wijzigen, bladert u naar de knop **[!UICONTROL Profiles and Targets > Predefined filters]** knooppunt.
+Blader naar de **[!UICONTROL Profiles and Targets > Predefined filters]** knooppunt.
 
 Voor alle andere soorten gegevens, vorm de standaardfilter via **[!UICONTROL Administration > Configuration > Predefined filters]** knooppunt.
 
@@ -183,7 +183,7 @@ Voer de volgende stappen uit:
 
 1. Schakel die optie uit voor het huidige standaard vooraf gedefinieerde filter.
 1. Klikken **[!UICONTROL Save]** om het filter toe te passen.
-1. Blader naar de map Ontvanger en klik op de knop **[!UICONTROL Remove this filter]** pictogram rechts van het huidige filter: het nieuwe standaardfilter is beschikbaar.
+1. Blader naar de map Ontvanger en klik op de knop **[!UICONTROL Remove this filter]** rechts van het huidige filter: het nieuwe standaardfilter is beschikbaar.
    ![](assets/updated-default-filter.png)
 
 
@@ -193,11 +193,11 @@ Gebruiken en combineren **Snelle filters** om filters op specifieke gebieden te 
 
 Zodra u een snelfilterveld hebt toegevoegd, worden dit boven de gegevenslijst weergegeven, een na een. Ze kunnen onafhankelijk van elkaar worden verwijderd.
 
-Snelle filters zijn specifiek voor elke operator en worden telkens opnieuw geïnitialiseerd wanneer de operator de cache van de bijbehorende clientconsole wist.
+Snelle filters zijn specifiek voor elke operator en worden telkens opnieuw geïnitialiseerd wanneer de operator de cache van de clientconsole wist.
 
 Als u een filter opnieuw moet gebruiken, maakt u een **geavanceerd filter** en sla deze op. [Meer informatie](#advanced-filters).
 
-Als u een **snelfilter** Voer de volgende stappen uit:
+Een **snelfilter** Voer de volgende stappen uit:
 
 1. Klik met de rechtermuisknop op het veld dat u wilt filteren en selecteer **[!UICONTROL Filter on this field]**.
 
@@ -214,7 +214,7 @@ Als u een **snelfilter** Voer de volgende stappen uit:
    ![](assets/add-filter-above-the-list.png)
 
 
-Als u wilt filteren op een veld dat niet beschikbaar is in het formulier, ziet u dit in de kolommen en filtert u op die kolom. Dit doet u als volgt,
+Als u wilt filteren op een veld dat niet beschikbaar is in het formulier, ziet u dit in de kolommen en filtert u op die kolom. Om dit te doen,
 
 1. Klik op de knop **[!UICONTROL Configure list]** pictogram.
 
@@ -255,7 +255,7 @@ Definieer de filtervoorwaarden. In het onderstaande voorbeeld filtert u op ontva
 
    ![](assets/select-operator.png)
 
-1. Selecteer een verwachte waarde in het menu **[!UICONTROL Value]** kolom. U kunt verschillende filters combineren om de query te verfijnen. Als u een filtervoorwaarde wilt toevoegen, klikt u op **[!UICONTROL Add]**.
+1. Selecteer een verwachte waarde in het menu **[!UICONTROL Value]** kolom. U kunt verschillende filters combineren om de query te verfijnen. Als u een filtervoorwaarde wilt toevoegen, klikt u **[!UICONTROL Add]**.
 
    ![](assets/add-an-exp.png)
 
@@ -311,7 +311,7 @@ Dit filter is ook beschikbaar bij de vooraf gedefinieerde filters in de lijst me
 
 U kunt filters gebruiken en combineren om een doelpopulatiesegment tot stand te brengen.
 
-Als de bestanden eenmaal zijn opgeslagen, zijn er geavanceerde filters beschikbaar wanneer u de doelpopulatie van een bericht selecteert, in het dialoogvenster **[!UICONTROL User filters]** sectie.
+Als de bestanden eenmaal zijn opgeslagen, zijn er geavanceerde filters beschikbaar wanneer u de doelpopulatie van een bericht selecteert in het dialoogvenster **[!UICONTROL User filters]** sectie.
 
 ![](assets/adv-filter-target-type.png)
 
@@ -337,13 +337,13 @@ Leer hoe te om geavanceerde vragen in deze steekproeven van begin tot eind te bo
 
 Geavanceerde parameters zijn beschikbaar voor vooraf gedefinieerde filters. Blader naar de **[!UICONTROL Parameters]** van het filter.
 
-* Als u het filter standaard wilt weergeven voor alle lijsten die op dit documenttype zijn gebaseerd, selecteert u de optie **[!UICONTROL Default filter for the associated document type]** optie.
+* Als u het filter standaard wilt weergeven voor alle lijsten die op dit documenttype zijn gebaseerd, selecteert u de optie **[!UICONTROL Default filter for the associated document type]** -optie.
 
-   De **[!UICONTROL By name or login]** filter wordt toegepast op operatoren Deze optie is geselecteerd, zodat het filter altijd op alle operatorlijsten wordt weergegeven.
+  Bijvoorbeeld de **[!UICONTROL By name or login]** filter wordt toegepast op operatoren Deze optie is geselecteerd, zodat het filter altijd op alle operatorlijsten wordt weergegeven.
 
-* Als u een filter beschikbaar wilt maken voor alle campagneoperatoren, selecteert u de optie  **[!UICONTROL Filter shared with other operators]** optie.
+* Als u een filter beschikbaar wilt maken voor alle campagneoperatoren, selecteert u de optie  **[!UICONTROL Filter shared with other operators]** -optie.
 
-* Als u een formulier wilt definiëren om de filtercriteria te selecteren, selecteert u de optie  **[!UICONTROL Use parameter entry form]** optie. Dit formulier moet worden ingevoerd in XML-indeling in het **[!UICONTROL Form]** tab. Het ingebouwde vooraf gedefinieerde filter **[!UICONTROL Recipients who have opened]** Deze optie is beschikbaar in de lijst met ontvangers. Hiermee wordt een filterveld weergegeven waarin u de levering kunt selecteren waarop het filter van toepassing is.
+* Als u een formulier wilt definiëren om de filtercriteria te selecteren, selecteert u de optie  **[!UICONTROL Use parameter entry form]** -optie. Dit formulier moet in XML-indeling worden ingevoerd in het dialoogvenster **[!UICONTROL Form]** tab. Het ingebouwde vooraf gedefinieerde filter **[!UICONTROL Recipients who have opened]** Deze optie is beschikbaar in de lijst met ontvangers. Hiermee wordt een filterveld weergegeven waarin u de levering kunt selecteren waarop het filter van toepassing is.
 
 ![](assets/predefined-filters-parameters.png)
 
@@ -351,4 +351,4 @@ Geavanceerde parameters zijn beschikbaar voor vooraf gedefinieerde filters. Blad
 * De **[!UICONTROL Advanced parameters]** Met de koppeling kunt u aanvullende instellingen definiëren.
 
    * U kunt een SQL-tabel aan het filter koppelen om deze te gebruiken voor alle editors die de tabel delen.
-   * Als u wilt voorkomen dat een gebruiker het filter overschrijft, selecteert u de optie **[!UICONTROL Do not restrict the filter]** optie. Deze optie is bijvoorbeeld actief voor de filters &quot;Ontvangers van een levering&quot; en &quot;Ontvangers van leveringen die tot een map behoren&quot; die beschikbaar zijn in de wizard voor levering. Deze filters kunnen niet worden overbelast.
+   * Als u wilt voorkomen dat een gebruiker het filter overschrijft, selecteert u de optie **[!UICONTROL Do not restrict the filter]** -optie. Deze optie is bijvoorbeeld actief voor de filters &quot;Ontvangers van een levering&quot; en &quot;Ontvangers van leveringen die tot een map behoren&quot; die beschikbaar zijn in de wizard voor levering. Deze filters kunnen niet worden overbelast.

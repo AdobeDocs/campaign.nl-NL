@@ -2,9 +2,9 @@
 title: Campagnebeheerders migreren naar Adobe Identity Management System (IMS)
 description: Leer hoe u campagneoperatoren kunt migreren naar Adobe Identity Management System (IMS)
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: 1cdb21533138623fc603424503063cf3dbc2d94c
+source-git-commit: b539b84907c7232f236b96ae8dfd11c8998a06b9
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Zodra de volledige IMS-migratie is voltooid, past de Adobe de beperkingen toe di
 
 Voor nieuwe klanten - het maken van nieuwe native gebruikers is niet vanaf het begin toegestaan.
 
-Als beheerder van de Campagne, kunt u toestemmingen aan de gebruikers van uw organisatie via Adobe Admin Console en de Console van de Cliënt van de Campagne verlenen. Gebruikers melden zich aan bij Adobe Campaign met hun Adobe ID. Meer informatie in [deze documentatie](../../v8/start/gs-permissions.md).
+Als beheerder van de Campagne, kunt u toestemmingen aan de gebruikers van uw organisatie via Adobe Admin Console en de cliëntconsole van de Campagne verlenen. Gebruikers melden zich aan bij Adobe Campaign met hun Adobe ID. Meer informatie in [deze documentatie](../../v8/start/gs-permissions.md).
 
 ### E-mails toevoegen voor huidige native gebruikers? {#ims-migration-id}
 
@@ -87,7 +87,41 @@ Als Campagnebeheerder moet u e-mailadressen toevoegen aan alle native gebruikers
 1. Voer de e-mail van de operator in het dialoogvenster **Contactpunten** van het formulier met operatoren.
 1. Sla uw wijzigingen op.
 
-<!--You can also import a CSV file to update all your operator profiles with their email.-->
+Als werkstroomtoezichthouder, of een beheerder van de Campagne, kunt u een bulkupdate van uw exploitanten met een werkschema ook uitvoeren.
+
++++Belangrijke stappen om uw operatoren bij te werken met een workflow
+
+Voer de volgende stappen uit om een bulkupdate van uw native operatoren uit te voeren:
+
+1. Maak een workflow om alle operatoren die verbinding maken met Campagne in de native verificatiemodus, uit te pakken in een CSV-bestand. Een **Query** en **Gegevens uitnemen (bestand)** activiteit om het CSV-bestand te maken. Voor elke operator kunt u op basis van de profielgegevens de volgende kolommen exporteren: `Name, Label`.
+
+   Meer informatie over de **Query** activiteit in [deze pagina](../../automation/workflow/query.md)
+
+   Meer informatie over de **Gegevens uitnemen (bestand)** activiteit in [deze pagina](../../automation/workflow/extraction--file-.md)
+
+1. Werk het CSV-bestand bij met een nieuwe kolom die de e-mails van uw operatoren bevat.
+
+1. Een workflow maken om bijgewerkte gegevens te importeren, met een **Gegevens laden (bestand)** en **Gegevens bijwerken** activiteit in de werkstroom.
+
+   ![](assets/update-operators-wf.png){width="70%"}
+
+1. Bewerk de **Gegevens laden (bestand)** en definieert u de instellingen om het bijgewerkte CSV-bestand te laden, zoals in het onderstaande voorbeeld.
+
+   ![](assets/data-loading-activity.png){width="70%"}
+
+   Meer informatie over de **Gegevens laden (bestand)** activiteit in [deze pagina](../../automation/workflow/data-loading--file-.md)
+
+1. Bewerk de **Gegevens bijwerken** en definieert de instellingen in het onderstaande voorbeeld. Let erop dat de **Bijgewerkte dimensie** is gewijzigd in `Operators (xtk)`.
+
+   ![](assets/update-data-activity.png){width="70%"}
+
+   Meer informatie over de **Gegevens bijwerken** activiteit in [deze pagina](../../automation/workflow/update-data.md)
+
+1. Voer de workflow uit en controleer de resultaten. Het e-mailadres is toegevoegd aan het profiel van de operator.
+
+   ![](assets/updated-operator.png){width="70%"}
+
++++
 
 
 ### Hoe u zich via IMS aanmeldt bij Campaign? {#ims-migration-log}

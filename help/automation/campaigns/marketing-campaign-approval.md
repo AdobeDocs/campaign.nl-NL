@@ -5,9 +5,9 @@ description: Leer hoe u goedkeuringen van marketingcampagnes beheert
 feature: Approvals, Campaigns
 role: User
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Als een lijst met revisoren is gedefinieerd, wordt een taak goedgekeurd wanneer 
 
 ## Leveringen controleren en goedkeuren {#review-and-approve-deliveries}
 
-Voor elke campagne kunt u het leveringsdoel goedkeuren, [leveringsinhoud](#approving-content) en kosten. Adobe Campaign-operatoren die met de goedkeuring zijn belast, kunnen via e-mail op de hoogte worden gesteld en kunnen goedkeuring van de clientconsole of via een webverbinding accepteren of afwijzen. [Meer informatie](#approving-processes).
+Voor elke campagne kunt u het leveringsdoel goedkeuren, [leveringsinhoud](#approving-content) en kosten. Adobe Campaign-operatoren die met de goedkeuring zijn belast, kunnen via e-mail op de hoogte worden gesteld en de goedkeuring van de clientconsole of via een webbrowser accepteren of afwijzen. [Meer informatie](#approving-processes).
 
 Voor directe postleveringen, kunnen de exploitanten van Adobe Campaign het extractiedossier bekijken alvorens het naar de router wordt verzonden, en indien nodig kunnen zij het formaat veranderen en extractie opnieuw lanceren. [Meer informatie](#approve-an-extraction-file).
 
@@ -103,7 +103,7 @@ Wanneer deze validatiefasen zijn voltooid, kan de levering worden gestart. [Meer
 
 ### Stappen om een levering goed te keuren {#approving-processes}
 
-De stadia die goedkeuring vereisen verschijnen op het campagnemashboard (via de Console van de Cliënt of de Webinterface). Zij verschijnen ook in de levering volgende lijst en op het leveringsdashboard.
+De stappen waarvoor goedkeuring is vereist, worden weergegeven op het campagnemdashboard (via de clientconsole of een webbrowser). Zij verschijnen ook in de levering volgende lijst en op het leveringsdashboard.
 
 ![](assets/delivery-approval-actions.png)
 
@@ -165,7 +165,7 @@ Het is mogelijk om een cyclus van de inhoudsgoedkeuring te vormen. Selecteer de 
 
    * via de e-mail met kennisgeving: het e-mailbericht bevat een koppeling naar de reeds verzonden proefdrukken en mogelijk naar een weergave van het bericht voor de verschillende webmails als de **Leverbaarheid** add-on is ingeschakeld voor deze instantie.
 
-   * via de clientconsole of webinterface, het bijhouden van de levering, het bezorgdashboard of het campagnemdashboard. Met dit campagnemdashboard kunt u de lijst met proefdrukken weergeven die zijn verzonden door op de knop **[!UICONTROL Inbox rendering...]** koppeling. Als u hun inhoud wilt weergeven, klikt u op de knop **[!UICONTROL Detail]** rechts van de lijst.
+   * via de clientconsole of een webbrowser, het bijhouden van de levering, het leveringsdashboard of het campagnemdashboard. Met dit campagnemdashboard kunt u de lijst met proefdrukken weergeven die zijn verzonden door op de knop **[!UICONTROL Inbox rendering...]** koppeling. Als u hun inhoud wilt weergeven, klikt u op de knop **[!UICONTROL Detail]** rechts van de lijst.
 
 1. Aan de voor de campagne verantwoordelijke persoon wordt een meldingsbericht gezonden waarin deze wordt meegedeeld of de inhoud al dan niet is goedgekeurd. De persoon die verantwoordelijk is voor de campagne kan de cyclus voor het goedkeuren van inhoud op elk gewenst moment opnieuw starten. Om dit te doen, klik de verbinding op **[!UICONTROL Content status]** lijn van het campagnemdashboard (op leveringsniveau), dan klik **[!UICONTROL Reset content approval to submit it again]**.
 
@@ -187,7 +187,7 @@ Met deze optie kunt u iemand definiëren die verantwoordelijk is voor het bewerk
 
    Hiervoor kunnen ze het volgende gebruiken:
 
-   * de **[!UICONTROL Available content]** in de Adobe Campaign Client Console.
+   * de **[!UICONTROL Available content]** in de Adobe Campaign-clientconsole.
    * de koppeling in het kennisgevingsbericht.
 De exploitant kan een commentaar toevoegen alvorens de inhoud aan de persoon voor te leggen die de campagne leidt.
 Met het meldingsbericht kan de revisor de inhoud goedkeuren of afwijzen.
@@ -199,7 +199,7 @@ Met deze optie kunt u een externe operator definiëren die verantwoordelijk is v
 1. De externe contentmanager ontvangt een bericht via e-mail waarin wordt gemeld dat de inhoud is goedgekeurd en waarmee externe goedkeuring wordt aangevraagd.
 1. Het e-mailbericht bevat koppelingen naar de verzonden proefdrukken, waarmee u rendering van de levering kunt weergeven en een knop voor het goedkeuren of afwijzen van de leveringsinhoud.
 
-Deze koppelingen zijn alleen beschikbaar als een of meer proefdrukken zijn verzonden. Anders is rendering van levering alleen beschikbaar via de clientconsole of de webinterface.
+Deze koppelingen zijn alleen beschikbaar als een of meer proefdrukken zijn verzonden. Anders is rendering van levering alleen beschikbaar via de clientconsole of een webbrowser.
 
 ### Een extractiebestand goedkeuren {#approve-an-extraction-file}
 
@@ -219,7 +219,7 @@ Taken kunnen worden goedgekeurd op het campagnemdashboard, op het tabblad voor h
 
 ### Goedkeuren in het dashboard {#approval-via-the-dashboard}
 
-Als u een taak wilt goedkeuren via de clientconsole of de webinterface, klikt u op de desbetreffende koppeling op het campagnemdashboard.
+Als u een taak wilt goedkeuren via de clientconsole of via een webbrowser, klikt u op de desbetreffende koppeling op het campagnemdashboard.
 
 Als bijvoorbeeld de afleveringsanalyse is uitgevoerd:
 
@@ -307,7 +307,7 @@ De inhoud van e-mailberichten voor meldingen kan worden aangepast. Zie [Inhoud v
 
 ### Melding in-/uitschakelen {#enabling-disabling-notification}
 
-Door gebrek, worden de berichtberichten verzonden als de goedkeuring van de verwante baan in het campagnemalplaatje, de campagne, of de levering wordt toegelaten. Meldingen kunnen echter alleen worden uitgeschakeld als u goedkeuringen van de clientconsole wilt autoriseren.
+Door gebrek, worden de berichtberichten verzonden als de goedkeuring van de verwante baan in het campagnemalplaatje, de campagne, of de levering wordt toegelaten. Meldingen kunnen echter worden uitgeschakeld om alleen goedkeuringen van de clientconsole te kunnen autoriseren.
 
 Om dit te doen, geef het goedkeuringsvenster van het campagne of campagnemalplaatje uit ( **[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign parameters...]** > **[!UICONTROL Approvals]** tab) en selecteert u **[!UICONTROL Do not enable notification sending]**.
 

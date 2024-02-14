@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 4%
+source-wordcount: '1146'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 In deze sectie leert u hoe u Adobe Campaign kunt aanpassen aan de vereisten van uw bedrijf. Gebruik de volgende richtlijnen om uw implementatie te structureren en te organiseren.
 
-1. **Instellingen definiëren**: toegang verlenen, de clientconsole delen, kanalen configureren (e-mail, push, sms). [Meer informatie](#implementation-ac-settings)
+1. **Instellingen definiëren**: bied toegang aan, deel de clientconsole, configureer kanalen (e-mail, push, sms). [Meer informatie](#implementation-ac-settings)
 1. **Uw omgeving voorbereiden**: importeer profielen, maak een publiek, ontwerpworkflow en campagnesjablonen, maak typologische regels. [Meer informatie](#implementation-prepare-your-env)
 1. **Instantie aanpassen**: maak nieuwe gegevensvelden, voeg tabellen/schema&#39;s toe. [Meer informatie](#implementation-custom-your-instance)
 1. **Automatiseer uw processen**: Adobe Campaign-automatiseringsmogelijkheden configureren. [Meer informatie](#implementation-automation)
@@ -62,7 +62,7 @@ U kunt gebruikers handmatig toevoegen aan Campagne en deze koppelen aan groepen,
 
 De hoofdgebruikersinterface van de toepassing is een rijke client, met andere woorden een native toepassing (Windows) die alleen communiceert met de Adobe Campaign-toepassingsserver met standaard internetprotocollen (SOAP, HTTP, enzovoort). Adobe Campaign Client Console biedt geweldige gebruiksvriendelijkheid voor productiviteit, gebruikt zeer weinig bandbreedte (door het gebruik van een lokale cache) en is ontworpen voor eenvoudige implementatie. Deze console kan vanuit een internetbrowser worden geïmplementeerd, kan automatisch worden bijgewerkt en vereist geen specifieke netwerkconfiguratie omdat alleen HTTP(S)-verkeer wordt gegenereerd.
 
-![](../assets/do-not-localize/glass.png) [Meer informatie over Campagne Client Console](connect.md).
+![](../assets/do-not-localize/glass.png) [Meer informatie over Campagne-clientconsole](connect.md).
 
 ## Uw omgeving voorbereiden{#implementation-prepare-your-env}
 
@@ -122,13 +122,13 @@ U kunt vele verschillende campagnegebieden en mogelijkheden aanpassen. De meeste
 
    Afhankelijk van uw behoeften kunt u ook nieuwe dashboards maken om Campagnegegevens weer te geven.
 
-   ![](../assets/do-not-localize/glass.png)[ Meer informatie vindt u op deze pagina](../dev/customize.md#gs-custom-dashboards).
+   ![](../assets/do-not-localize/glass.png) Meer informatie in [deze pagina](../dev/customize.md#gs-custom-dashboards).
 
 1. **Rapporten**
 
    De campagne verstrekt een reeks ingebouwde rapporten over levering controle, URLs en klik stromen, het volgen, leverbaarheidsindicatoren, en meer.
 
-   Naast ingebouwde rapporten kunt u in Adobe Campaign rapporten in verschillende contexten genereren om aan verschillende behoeften te voldoen. In dit document worden beginselen van gebruik en uitvoeringsmodi uiteengezet.
+   Naast ingebouwde rapporten kunt u in Adobe Campaign rapporten in verschillende contexten genereren en aan verschillende behoeften voldoen. In dit document worden beginselen van gebruik en uitvoeringsmodi uiteengezet.
 
    ![](../assets/do-not-localize/glass.png) Meer informatie over rapportagemogelijkheden in Campagne in [deze pagina](../reporting/gs-reporting.md).
 
@@ -160,11 +160,11 @@ Als u andere Adobe oplossingen gebruikt, kunt u hen met uw milieu van de Campagn
 * Campagne - Analytics Data connectors
 
 
-U kunt ook Single Sign-On (SSO) gebruiken om verbinding te maken met Campaign. Meer informatie in [deze pagina](connect.md).
+U kunt Single Sign-On (SSO) alleen gebruiken om verbinding te maken met Campaign. Meer informatie in [deze pagina](connect.md).
 
 ![](../assets/do-not-localize/glass.png) Ontdek de volledige lijst met Adobe oplossingen die kunnen worden geïntegreerd met Adobe Campaign [op deze pagina](../connect/integration.md).
 
-### Connectoren{#implementation-connectors}
+### Aansluitingen{#implementation-connectors}
 
 Verbind Campagne met derdesystemen om een grote waaier van mogelijkheden te combineren en processen te automatiseren.
 

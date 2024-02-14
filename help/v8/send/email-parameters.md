@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 8%
+source-wordcount: '594'
+ht-degree: 7%
 
 ---
 
@@ -18,54 +18,7 @@ In deze sectie worden de opties en parameters weergegeven die beschikbaar zijn i
 
 ## E-mail BCC gebruiken {#email-bcc}
 
-<!--
->[!NOTE]
->
->This capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)-->
-
-U kunt Adobe Campaign zo configureren dat een kopie van de e-mails die u van uw platform hebt ontvangen, bewaard blijft.
-
-Adobe Campaign zelf beheert gearchiveerde bestanden niet. Hiermee kunt u de berichten van uw keuze naar een specifiek BCC-e-mailadres (blinde koolstofkopie) sturen, vanwaar ze via een extern systeem kunnen worden verwerkt en gearchiveerd. De .eml-bestanden die overeenkomen met de verzonden e-mails kunnen vervolgens worden overgebracht naar een externe server, zoals een SMTP-e-mailserver.
-
->[!CAUTION]
->
->Om privacyredenen moeten BCC-e-mails worden verwerkt door een archiveringssysteem dat veilig identificeerbare informatie (PII) kan opslaan.
-
-De archiveringsbestemming is het BCC-e-mailadres van uw keuze, dat onzichtbaar blijft voor de ontvangers van de levering.
-
-![](../assets/do-not-localize/speech.png)  Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} om het BCC e-mailadres mee te delen dat voor archivering moet worden gebruikt.
-
-Zodra het BCC e-mailadres wordt bepaald, moet u de specifieke optie op het leveringsniveau toelaten.
-
->[!CAUTION]
->
->**[!UICONTROL Email BCC]** is niet standaard ingeschakeld. U moet het manueel in het e-maillevering of leveringsmalplaatje toelaten.
-
-Volg de onderstaande stappen om dit te doen:
-
-1. Ga naar **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]**, of **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. Selecteer de levering van uw keuze of dupliceer de uit-van-de-doos **[!UICONTROL Email delivery]** selecteert u vervolgens de gedupliceerde sjabloon.
-1. Klik op de knop **[!UICONTROL Properties]**.
-1. Selecteer het tabblad **[!UICONTROL Delivery]**. 
-1. Schakel de optie **[!UICONTROL Email BCC]** in.
-
-   ![](assets/email-bcc.png)
-
-1. Selecteer **[!UICONTROL Ok]**.
-
-Een kopie van alle verzonden berichten voor elke levering op basis van deze sjabloon wordt verzonden naar het e-mailadres BCC dat is geconfigureerd.
-
-Houd rekening met de volgende specifieke kenmerken en aanbevelingen:
-
-* U kunt slechts één BCC-e-mailadres gebruiken.
-
-* Zorg ervoor dat het BCC-adres voldoende ontvangstcapaciteit heeft om alle verzonden e-mails te archiveren.
-
-* BCC e-mailen <!--with Enhanced MTA--> levert aan het BCC e-mailadres alvorens aan de ontvangers te leveren, wat in BCC berichten kan resulteren die worden verzonden alhoewel de originele leveringen kunnen hebben teruggestuurd. Zie voor meer informatie over grenzen [Uitvoeren van fouten begrijpen](delivery-failures.md).
-
-* Als de e-mails die naar het BCC-adres worden verzonden worden geopend en als hierop wordt geklikt, wordt hiermee rekening gehouden in het dialoogvenster **[!UICONTROL Total opens]** en **[!UICONTROL Clicks]** van de send analyse, die sommige misberekeningen zou kunnen veroorzaken.
-
-<!--Only successfully sent emails are taken in account, bounces are not.-->
+U kunt Adobe Campaign zo configureren dat een kopie van de e-mails die u van uw platform hebt ontvangen, bewaard blijft. Deze optie wordt beschreven in [deze pagina](email-bcc.md).
 
 ## Berichtindelingen selecteren {#selecting-message-formats}
 
@@ -132,15 +85,15 @@ Waarden worden indien nodig automatisch gecodeerd.
 
 >[!IMPORTANT]
 >
->Het toevoegen van een script voor het opnemen van extra SMTP-kopteksten is gereserveerd voor gevorderde gebruikers.
+>Het toevoegen van een manuscript voor het opnemen van extra kopballen SMTP is gereserveerd voor gevorderde gebruikers.
 >
 >De syntaxis van dit script moet voldoen aan de vereisten van dit type content: geen ongebruikte ruimte, geen lege regel, enz.
 
 ![](assets/email-smtp-headers.png)
 
-<!--
-## Generate mirror page {#generating-mirror-page}
 
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. It can be useful if your recipients are experiencing rendering issues or broken images when trying to view your email in their inbox.
+## Spiegelpagina genereren {#generating-mirror-page}
 
-Learn how to insert a link to the mirror page in [this section](mirror-page.md).-->
+De spiegelpagina is een HTML-pagina die online toegankelijk is via een webbrowser. De inhoud is identiek aan de e-mail. Het kan handig zijn als uw ontvangers problemen ondervinden met het renderen of als ze uw e-mail proberen weer te geven in hun Postvak IN.
+
+Leer hoe u een koppeling naar de spiegelpagina invoegt in [deze sectie](mirror-page.md)

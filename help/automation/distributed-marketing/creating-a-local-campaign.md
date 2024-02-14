@@ -5,9 +5,9 @@ description: Een lokale campagne maken
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -46,17 +46,17 @@ Klik in het campagnevenster op de knop **[!UICONTROL Edit]** en klikt u op de kn
 
 ![](assets/mkt_distr_4.png)
 
-### Webinterface {#web-interface}
+### Type interface {#web-interface}
 
-In de **Distributed Marketing** kunt u het type webinterface kiezen en de standaardwaarden en -parameters opgeven die moeten worden ingevoerd wanneer een lokale entiteit een volgorde plaatst.
+In de **Distributed Marketing** kunt u het type interface kiezen en de standaardwaarden en -parameters opgeven die moeten worden ingevoerd wanneer een lokale entiteit een volgorde plaatst.
 
-De webinterface komt overeen met een formulier dat door de lokale entiteit moet worden ingevuld bij het bestellen van de campagne.
+De interface komt overeen met een formulier dat door de lokale entiteit moet worden ingevuld bij het bestellen van de campagne.
 
-Selecteer het type webinterface dat moet worden toegepast op de campagnes die op basis van de sjabloon worden gemaakt:
+Selecteer het type interface dat op de campagnes moet worden toegepast die van het malplaatje worden gecreeerd:
 
 ![](assets/mkt_distr_1.png)
 
-Er zijn vier typen webinterfaces beschikbaar:
+Er zijn vier typen interfaces beschikbaar:
 
 * **[!UICONTROL By brief]** : de lokale entiteit moet een beschrijving geven waarmee de campagneconfiguraties worden beschreven. Zodra de orde is goedgekeurd, vormt de centrale entiteit en voert de campagne als geheel uit.
 
@@ -298,7 +298,7 @@ Wanneer een campagne wordt besteld door een lokale entiteit, worden de revisoren
 
 #### Goedkeuren via de clientconsole {#approving-via-the-adobe-campaign-console}
 
-De bestelling kan ook worden goedgekeurd via de Client Console, in het overzicht van de campagnevolgorde. Als u een bestelling wilt goedkeuren, selecteert u deze en klikt u op **[!UICONTROL Approve the order]**.
+De bestelling kan ook worden goedgekeurd via de clientconsole, in het overzicht van de campagnevolgorde. Als u een bestelling wilt goedkeuren, selecteert u deze en klikt u op **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
@@ -322,7 +322,7 @@ De met de goedkeuring belaste exploitant kan een bestelling of een campagnepakke
 
 Indien de controleur een bestelling afwijst, wordt de desbetreffende kennisgeving automatisch naar de betrokken lokale entiteiten verzonden: daarin wordt de opmerking weergegeven die is ingevoerd door de exploitant die de goedkeuring heeft geweigerd.
 
-De informatie wordt getoond op de lijst van campagnepakketpagina of op de pagina van de campagneorde. Als ze toegang hebben tot de Adobe Campaign Client Console, worden lokale entiteiten op de hoogte gesteld van deze afwijzing.
+De informatie wordt getoond op de lijst van campagnepakketpagina of op de pagina van de campagneorde. Als ze toegang hebben tot de Adobe Campaign-clientconsole, worden lokale entiteiten op de hoogte gesteld van deze afwijzing.
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 

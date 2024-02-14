@@ -4,9 +4,9 @@ description: Leer hoe u technische operatoren van campagnes kunt migreren naar e
 exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
 hidefromtoc: true
-source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Meer informatie over het verificatieproces van de nieuwe server naar de server v
 Deze wijziging is van toepassing vanaf Campagne v8.5 en wordt **verplicht** startcampagne v8.6.
 
 
-## Heeft dit gevolgen voor u?{#ims-impacts}
+## Heb je invloed op?{#ims-impacts}
 
 Als u campagne-API&#39;s gebruikt, moet u de technische operator(s) migreren naar Adobe Developer Console, zoals hieronder wordt beschreven.
 
@@ -73,14 +73,14 @@ U kunt nu uw productprofiel voor Campagne toevoegen aan het project, zoals hiero
 1. Wijs alle relevante productprofielen toe aan de API, bijvoorbeeld &#39;messageCenter&#39;, en sla uw wijzigingen op.
 1. Bladeren naar de **Referentiegegevens** tabblad van uw project en kopieer het **E-mail technische account** waarde.
 
-### Stap 4 - Werk de technische operator bij in de clientconsole {#ims-migration-step-4}
+### Stap 4 - Werk de technische exploitant in de cliëntconsole bij {#ims-migration-step-4}
 
 Deze stap is alleen vereist als specifieke mapmachtigingen of benoemde rechten zijn gedefinieerd voor deze operator (niet via de groep van de operator).
 
-U moet nu de nieuwe technische operator bijwerken in Adobe Campaign Client Console. U moet de bestaande technische omslagtoestemmingen van de exploitant op de nieuwe technische exploitant toepassen.
+U moet nu de nieuwe technische operator bijwerken in de Adobe Campaign-clientconsole. U moet de bestaande technische omslagtoestemmingen van de exploitant op de nieuwe technische exploitant toepassen.
 Ga als volgt te werk om deze operator bij te werken:
 
-1. Blader vanuit de Campagne Client Console-verkenner naar de **Beheer > Toegangsbeheer > Operatoren**.
+1. Blader vanuit Campagne-clientconsoleverkenner naar de **Beheer > Toegangsbeheer > Operatoren**.
 1. Toegang krijgen tot de bestaande technische operator die wordt gebruikt voor API&#39;s.
 1. Blader naar de machtigingen voor de map en controleer de rechten.
 1. Pas de zelfde toestemmingen op de pas gecreëerde technische exploitant toe. De e-mail van deze operator is de **E-mail technische account** eerder gekopieerde waarde.
@@ -89,7 +89,7 @@ Ga als volgt te werk om deze operator bij te werken:
 
 >[!CAUTION]
 >
->De nieuwe technische exploitant moet minstens één API vraag hebben gemaakt om aan de Console van de Cliënt van de Campagne te worden toegevoegd.
+>De nieuwe technische exploitant moet minstens één API vraag hebben gemaakt om aan de cliëntconsole van de Campagne te worden toegevoegd.
 >
 
 <!--
@@ -100,7 +100,7 @@ Ga als volgt te werk om deze operator bij te werken:
 
 To update the technical operator authentication mode to IMS, follow these steps:
 
-1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
+1. From Campaign client console explorer, browse to the **Administration > Access Management > Operators**.
 1. Edit the existing technical operator used for APIs.
 1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
 1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.

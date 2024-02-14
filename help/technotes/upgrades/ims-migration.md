@@ -4,7 +4,7 @@ description: Leer hoe u technische operatoren van campagnes kunt migreren naar e
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 0%
@@ -204,13 +204,13 @@ Zodra het migratieproces wordt bereikt en bevestigd, worden de Vraag van Soap al
 
 
 
-### Stap 9 - (facultatief) Werk de technische rekeningsexploitant binnen de Console van de Cliënt van de Campagne bij {#ims-migration-step-9}
+### Stap 9 - (facultatief) Werk de technische rekeningexploitant binnen de cliënt van de Campagne console bij {#ims-migration-step-9}
 
 Deze stap is optioneel en alleen beschikbaar binnen de marketinginstantie(s), niet binnen een Message Center-instantie. Indien specifieke mapmachtigingen of benoemde rechten zijn gedefinieerd voor de technische exploitant, niet via de toegewezen groep(en) bedieners. U moet de nieuwe gebruiker van de Technische Rekening in de Admin Console nu bijwerken om de omslagtoestemmingen of de genoemde vereiste rechten te verlenen.
 
 De gebruiker van de Technische Rekening zal NIET in Adobe Campaign bestaan tot minstens één API vraag aan de Instantie van de Campagne wordt gemaakt, waarbij IMS de gebruiker binnen Campagne zal creëren. Als u de technische gebruikers niet kunt vinden in Campagne, moet u ervoor zorgen dat u een API-aanroep zoals beschreven hebt kunnen verzenden [in stap 7](#ims-migration-step-7).
 
-1. Als u de wijzigingen die nodig zijn voor de nieuwe gebruiker van de technische account wilt toepassen, zoekt u deze via e-mailadres in de Campagne Client Console. Dit e-mailadres is gemaakt tijdens de bovenstaande stappen voor het maken en verifiëren van projecten.
+1. Als u de wijzigingen die nodig zijn voor de nieuwe gebruiker van de technische account wilt toepassen, zoekt u deze via e-mailadres in de clientconsole van de campagne. Dit e-mailadres is gemaakt tijdens de bovenstaande stappen voor het maken en verifiëren van projecten.
 
    U kunt dit e-mailadres vinden door op het **OAuth Server-to-Server** in de **Credentials** van het project.
 
@@ -220,11 +220,11 @@ De gebruiker van de Technische Rekening zal NIET in Adobe Campaign bestaan tot m
 
    ![](assets/do-not-localize/ims-updates-08.png)
 
-1. U moet nu de nieuwe technische operator bijwerken in Adobe Campaign Client Console. U moet de bestaande technische omslagtoestemmingen van de exploitant op de nieuwe technische exploitant toepassen.
+1. U moet nu de nieuwe technische operator bijwerken in de Adobe Campaign-clientconsole. U moet de bestaande technische omslagtoestemmingen van de exploitant op de nieuwe technische exploitant toepassen.
 
    Ga als volgt te werk om deze operator bij te werken:
 
-   1. Blader vanuit de Campagne Client Console-verkenner naar de **Beheer > Toegangsbeheer > Operatoren**.
+   1. Blader vanuit Campagne-clientconsoleverkenner naar de **Beheer > Toegangsbeheer > Operatoren**.
    1. Toegang krijgen tot de bestaande technische operator die wordt gebruikt voor API&#39;s.
    1. Blader naar de machtigingen voor de map en controleer de rechten.
    1. Pas de zelfde toestemmingen op de pas gecreëerde technische exploitant toe. De e-mail van deze operator is de **E-mail technische account** eerder gekopieerde waarde.
@@ -233,11 +233,11 @@ De gebruiker van de Technische Rekening zal NIET in Adobe Campaign bestaan tot m
 
 >[!CAUTION]
 >
->De nieuwe technische exploitant moet minstens één API vraag hebben gemaakt om aan de Console van de Cliënt van de Campagne te worden toegevoegd.
+>De nieuwe technische exploitant moet minstens één API vraag hebben gemaakt om aan de cliëntconsole van de Campagne te worden toegevoegd.
 >
 
 ### Stap 10 - Verwijder de oude technische operator uit Adobe Campaign {#ims-migration-step-10}
 
-Nadat u alle systemen van derden hebt gemigreerd om de nieuwe technische account met IMS-verificatie te gebruiken, kunt u de oude technische operator verwijderen uit de Campagne Client Console.
+Nadat u alle systemen van derden hebt gemigreerd om de nieuwe technische account met IMS-verificatie te gebruiken, kunt u de oude technische operator verwijderen uit de Campagne-clientconsole.
 
-U doet dit door u aan te melden bij de Console van de Cliënt van de Campagne, navigerend aan **Beheer > Toegangsbeheer > Operatoren** en de oude technische gebruikers zoeken en verwijderen.
+U doet dit door in de de cliëntconsole van de Campagne te registreren, navigerend aan **Beheer > Toegangsbeheer > Operatoren** en de oude technische gebruikers zoeken en verwijderen.

@@ -5,9 +5,9 @@ description: Meer informatie over het maken en uitvoeren van marketingcampagnes
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d7750add8d71bb51ea1c099a45a7bce05da3b4d7
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1327'
 ht-degree: 2%
 
 ---
@@ -158,9 +158,14 @@ Tijdens het bladeren door de kalender kunt u ook een programma of een campagne m
 Wanneer u een campagne maakt via de **[!UICONTROL Schedule]** van een programma wordt de campagne automatisch aan het betrokken programma gekoppeld. De **[!UICONTROL Program]** veld is in dit geval verborgen.
 
 
-## De webinterface gebruiken {#use-the-web-interface-}
+## Campagne openen met een webbrowser {#use-the-web-interface}
 
-U kunt de Adobe Campaign Client Console-schermen openen via een internetbrowser om alle campagnes en leveringen, alsmede rapporten en informatie over de profielen in uw database weer te geven. Met deze toegang kunt u geen records maken. Afhankelijk van de rechten van de operator kunt u de gegevens in de database bekijken en/of bewerken. U kunt bijvoorbeeld de inhoud van de campagne goedkeuren, een levering opnieuw starten of stoppen, enzovoort.
+
+>[!AVAILABILITY]
+>
+>Campagne v8.6 starten, is Campagne beschikbaar in een webgebruikersinterface. De meeste marketing acties kunnen van deze nieuwe interface worden uitgevoerd. [Meer informatie](../../v8/start/campaign-ui.md#discover-the-user-interface).
+
+U hebt toegang tot enkele Adobe Campaign-clientconsoleschermen via een internetbrowser om alle campagnes en leveringen en rapporten en informatie over de profielen in uw database weer te geven. U kunt geen componenten maken van deze webtoegang, maar afhankelijk van toegangsrechten kunt u de gegevens in de database bekijken en/of bewerken. Doorgaans kunt u inhoud van de campagne goedkeuren en een levering opnieuw starten of stoppen, enzovoort.
 
 1. Meld u op de gebruikelijke manier aan via https://`<your instance>:<port>/view/home`.
 1. Via de menu&#39;s hebt u toegang tot de overzichten.
@@ -191,7 +196,7 @@ In deze tabel worden de acties samengevat die u kunt uitvoeren op campagnes vanu
 | Voorraad | Een voorraadlijn verwijderen |
 | Aanbiedingssimulatie | Een simulatie starten en stoppen |
 | Doelworkflow | Een workflow starten, pauzeren en stoppen |
-| Rapporteren | De huidige gegevens opslaan in de rapportgeschiedenis |
+| Rapport | De huidige gegevens opslaan in de rapportgeschiedenis |
 | Forum | Een discussie toevoegen<br/>Reageren op een boodschap in een gesprek<br/>Een discussie volgen en het abonnement opzeggen |
 
 ### Goedkeuringen beheren

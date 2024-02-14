@@ -5,7 +5,7 @@ description: Goedkeuring
 feature: Workflows, Approvals
 role: User
 exl-id: 9e57d21c-ce16-448d-97f1-8c6844acb37b
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -42,7 +42,7 @@ In het geval van meerdere goedkeuringen zijn overgangen die overeenkomen met de 
 
 Deze activiteit blokkeert geen verwerking, en het werkschema kan andere taken uitvoeren terwijl het wachten op een antwoord.
 
-Een exploitant kan de taken goedkeuren die aan die exploitant van de Console van de Cliënt worden toegewezen. Een exploitant met beheerderrechten kan de taken bekijken en schrappen die aan om het even welke exploitant worden toegewezen, maar kan niet op hen antwoorden.
+Een exploitant kan de taken goedkeuren die aan die exploitant van de cliëntconsole worden toegewezen. Een exploitant met beheerderrechten kan de taken bekijken en schrappen die aan om het even welke exploitant worden toegewezen, maar kan niet op hen antwoorden.
 
 Het wijzigen van de titel of de berichttekst van de activiteit beïnvloedt niet de huidige taken, maar anderzijds, beïnvloedt het wijzigen van de mogelijke keuzen direct de huidige taken, die automatisch de nieuwe lijst van keuzen erven.
 

@@ -5,7 +5,7 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 1%
@@ -74,7 +74,7 @@ Als u uw Campagne-instantie wilt koppelen aan uw X-account, maakt u een **Twitte
 >Elk **Twitter** De dienst moet ook door Adobe op uw instantie worden gecreeerd MID. Neem contact op met uw Adobe om uw omgeving te configureren.
 >
 
-Als u instellingen wilt invoeren, hebt u zowel toegang tot uw Adobe Campaign Client Console als tot uw X-toepassingsmachtigingen.
+Als u instellingen wilt invoeren, hebt u toegang tot zowel de Adobe Campaign-clientconsole als uw X-toepassingsmachtigingen.
 
 1. In **Adobe Campaign**, bladert u naar de **[!UICONTROL Profiles and targets]** en selecteert u de **[!UICONTROL Services and Subscriptions]** link
 1. Maak een nieuwe service.
@@ -98,7 +98,7 @@ Als u instellingen wilt invoeren, hebt u zowel toegang tot uw Adobe Campaign Cli
 
 1. Kopieer de inhoud van de **Toegangstoken** en **Toegangstoken geheim** velden en plak deze in de **[!UICONTROL Access token]** en **[!UICONTROL Access token secret]** velden van uw campagne **Twitter** service.
 
-1. Klik in de Campagne Client Console op **[!UICONTROL Save]**. U hebt nu schrijftoegang gedelegeerd aan Adobe Campaign.
+1. Klik in de Campagne-clientconsole op **[!UICONTROL Save]**. U hebt nu schrijftoegang gedelegeerd aan Adobe Campaign.
 
 U kunt de instellingen controleren door:
 

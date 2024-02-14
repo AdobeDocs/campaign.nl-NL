@@ -5,9 +5,9 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Dit beginsel geldt ook voor lijsten, diensten, aanbiedingen, enz. zoals hieronde
 ![](assets/reporting-on-offer.png)
 
 
-## Rapporten over leveringen {#reports-on-deliveries}
+## Verslagen over leveringen {#reports-on-deliveries}
 
 De ingebouwde rapporten van Adobe Campaign zijn te vinden in de onderstaande tabel.
 
