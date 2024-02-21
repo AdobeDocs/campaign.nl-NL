@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: b5574ba2d9fa520b701f7af4e34862304b825a66
+source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '452'
 ht-degree: 2%
 
 ---
@@ -80,16 +80,3 @@ Voor een standaard ingebouwde ontvanger hebt u toegang tot de volgende tabbladen
 * **Tekstspatiëring**, voor alle trackinglogboeken voor het geselecteerde profiel. Deze informatie wordt gebruikt om profielgedrag na leveringen te volgen. Dit tabblad geeft het cumulatieve totaal weer van alle URL&#39;s die in leveringen worden bijgehouden. De lijst is configureerbaar en bevat meestal: de URL waarop is geklikt, de datum en tijd waarop is geklikt en het document dat de URL bevatte
 
   Meer informatie over bijhouden [in deze sectie](../start/tracking.md).
-
-
-## Actieve profielen {#active-profiles}
-
-Een actief profiel is een profiel waarmee klanten de afgelopen twaalf maanden via een willekeurig kanaal hebben geprobeerd te communiceren. De licentiemetriek is gebaseerd op actieve profielen. Meer informatie in [Adobe Campaign-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
-
->[!CAUTION]
->
->* Een profiel dat voor meerdere leveringen is bedoeld, wordt slechts eenmaal geteld.
->
->* Profielen die in het kader van de sociale marketing op X (voorheen bekend als Twitter) als doel zijn geselecteerd, worden niet als actieve profielen in aanmerking genomen.
-
-U kunt het aantal actieve profielen op uw instantie direct van het Controlebord van de Campagne controleren. Raadpleeg voor meer informatie de [Documentatie van het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
