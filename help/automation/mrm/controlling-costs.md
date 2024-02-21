@@ -5,9 +5,9 @@ description: Leer hoe u kosten kunt beheersen
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2428'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Voor de uitvoering van het begrotingsbeheer met behulp van MRM moeten de volgend
 
 1. Definieer de begroting. [Meer informatie](#creating-a-budget).
 
-1. Definieer de kostenberekeningsmethode: kostenstructuren worden gedefinieerd voor de dienstverleners. [Meer informatie](../campaigns/providers--stocks-and-budgets.md).
+1. Definieer de kostenberekeningsmethode: kostenstructuren worden gedefinieerd voor de dienstverleners. [Meer informatie](../campaigns/providers-stocks-and-budgets.md).
 
 1. Campagnekosten definiëren (leveringen/taken): de kosten van de leveringen en taken worden individueel of globaal voor de campagnemalplaatje ingevoerd. [Meer informatie](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
 
@@ -144,7 +144,7 @@ Volgens de gekozen kostencategorieën worden de overeenkomstige kostenstructuren
 
 >[!NOTE]
 >
->Kostencategorieën en -structuren worden weergegeven in [deze pagina](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
+>Kostencategorieën en -structuren worden weergegeven in [deze pagina](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
 
 ## Vastleggingsverplichting, berekening en toerekening van kosten {#cost-commitment--calculation-and-charging}
 
@@ -207,7 +207,7 @@ We gaan een campagne opzetten met:
 
 #### Stap 2 - vorm de dienstverlener en bepaal de kostenstructuren {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. Creeer een dienstverlener en een de dienstmalplaatje met zijn kostenstructuur van **[!UICONTROL Administration > Campaigns]** knooppunt. Raadpleeg [deze sectie](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories) voor meer informatie.
+1. Creeer een dienstverlener en een de dienstmalplaatje met zijn kostenstructuur van **[!UICONTROL Administration > Campaigns]** knooppunt. Raadpleeg [deze sectie](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories) voor meer informatie.
 
    Maak kostencategorieën voor directe mailleveringen **[!UICONTROL Envelopes]** (typen 114x229 en 162x229), **[!UICONTROL Postage]** en **[!UICONTROL Print]** (typen A3 en A4). En creeer dan de volgende kostenstructuren:
 

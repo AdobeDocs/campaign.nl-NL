@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Handleiding Campagne Automation Guide
 user-guide-description: Handleiding Campagne Automation Guide
-source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 81%
+source-wordcount: '442'
+ht-degree: 80%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 81%
    + Aan de slag met workflows {#introduction}
       + [Workflows](workflow/about-workflows.md)
       + Typen workflows {#wf-type}
-         + [Targetingworkflows](workflow/targeting-workflows.md)
+         + [Workflows voorbereiden](workflow/targeting-workflows.md)
          + [Workflows voor campagnes](workflow/campaign-workflows.md)
          + [Technische workflows](workflow/technical-workflows.md)
       + [Een workflow maken](workflow/build-a-workflow.md)
@@ -62,7 +62,7 @@ ht-degree: 81%
          + [Goedkeuring](workflow/approval.md)
          + [Extern signaal](workflow/external-signal.md)
          + [Vertakking](workflow/fork.md)
-         + [Springen (begin- en eindpunt)](workflow/jump--start-point-and-end-point-.md)
+         + [Springen (begin- en eindpunt)](workflow/jump-start-point-and-end-point.md)
          + [Start en einde](workflow/start-and-end.md)
          + [Planner](workflow/scheduler.md)
          + [Subworkflow](workflow/sub-workflow.md)
@@ -74,9 +74,9 @@ ht-degree: 81%
          + [Contentmanagement](workflow/content-management.md)
          + [Doorlopende levering](workflow/continuous-delivery.md)
          + [Cross-channel leveringen](workflow/cross-channel-deliveries.md)
-         + [Gegevensextractie (bestand)](workflow/extraction--file-.md)
-         + [Gegevens laden (bestand)](workflow/data-loading--file-.md)
-         + [Gegevens laden (RDBMS)](workflow/data-loading--rdbms-.md)
+         + [Gegevensextractie (bestand)](workflow/extraction-file.md)
+         + [Gegevens laden (bestand)](workflow/data-loading-file.md)
+         + [Gegevens laden (RDBMS)](workflow/data-loading-rdbms.md)
          + [Levering](workflow/delivery.md)
          + [Leveringscontrole](workflow/delivery-control.md)
          + [Lokale goedkeuring](workflow/local-approval.md)
@@ -87,7 +87,7 @@ ht-degree: 81%
          + [SQL Data Management](workflow/sql-data-management.md)
          + [Samenvoeging bijwerken](workflow/update-aggregate.md)
       + Gebeurtenisactiviteiten {#event-activities}
-         + [Lijst van evenementen](workflow/event-activities.md)
+         + [Lijst van activiteiten van evenementen](workflow/event-activities.md)
          + [Bestandsophaler](workflow/file-collector.md)
          + [Bestandsoverdracht](workflow/file-transfer.md)
          + [Binnenkomende e-mails](workflow/inbound-emails.md)
@@ -128,7 +128,7 @@ ht-degree: 81%
       + [Geavanceerde parameters](workflow/advanced-parameters.md)
       + [JavaScript-scripts en -sjablonen](workflow/javascript-scripts-and-templates.md)
       + [Voorbeelden van JavaScript-code in workflows](workflow/javascript-in-workflows.md)
-      + [Een externe database openen](workflow/accessing-an-external-database--fda-.md)
+      + [Een externe database openen](workflow/accessing-an-external-database-fda.md)
       + [Machtigingen beheren](workflow/managing-rights.md)
       + [Activiteitsafbeeldingen wijzigen](workflow/change-activity-images.md)
       + [Tijdzones beheren](workflow/managing-time-zones.md)
@@ -142,7 +142,7 @@ ht-degree: 81%
    + [Goedkeuringen instellen en beheren](campaigns/marketing-campaign-approval.md)
    + [Herhalings- en periodieke campagnes](campaigns/recurring-periodic-campaigns.md)
    + [Uw campagnes controleren](campaigns/marketing-campaign-monitoring.md)
-   + [Providers, voorraden en budgetten](campaigns/providers--stocks-and-budgets.md)
+   + [Providers, voorraden en budgetten](campaigns/providers-stocks-and-budgets.md)
 + Campagne optimaliseren (add-on){#campaign-optimization}
    + [Aan de slag met campagnetypen](campaign-opt/campaign-typologies.md)
    + [Filterregels](campaign-opt/filtering-rules.md)

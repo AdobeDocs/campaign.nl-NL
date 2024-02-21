@@ -2,7 +2,7 @@
 title: Campagnebeheerders migreren naar Adobe Identity Management System (IMS)
 description: Leer hoe u campagneoperatoren kunt migreren naar Adobe Identity Management System (IMS)
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: b539b84907c7232f236b96ae8dfd11c8998a06b9
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Voer de volgende stappen uit om een bulkupdate van uw native operatoren uit te v
 
    Meer informatie over de **Query** activiteit in [deze pagina](../../automation/workflow/query.md)
 
-   Meer informatie over de **Gegevens uitnemen (bestand)** activiteit in [deze pagina](../../automation/workflow/extraction--file-.md)
+   Meer informatie over de **Gegevens uitnemen (bestand)** activiteit in [deze pagina](../../automation/workflow/extraction-file.md)
 
 1. Werk het CSV-bestand bij met een nieuwe kolom die de e-mails van uw operatoren bevat.
 
@@ -109,7 +109,7 @@ Voer de volgende stappen uit om een bulkupdate van uw native operatoren uit te v
 
    ![](assets/data-loading-activity.png){width="70%"}
 
-   Meer informatie over de **Gegevens laden (bestand)** activiteit in [deze pagina](../../automation/workflow/data-loading--file-.md)
+   Meer informatie over de **Gegevens laden (bestand)** activiteit in [deze pagina](../../automation/workflow/data-loading-file.md)
 
 1. Bewerk de **Gegevens bijwerken** en definieert de instellingen in het onderstaande voorbeeld. Let erop dat de **Bijgewerkte dimensie** is gewijzigd in `Operators (xtk)`.
 

@@ -5,7 +5,7 @@ description: Lijst van activiteiten op het gebied van stroombeheersing
 feature: Workflows
 role: User
 exl-id: 904f2d94-bd3e-4c46-aeab-2ef77a7bdeee
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -21,7 +21,7 @@ De volgende activiteiten zijn databaseactiviteiten: ze worden gebruikt om de wor
 * **[Goedkeuring](approval.md)**: Hiermee kunt u een e-mail naar een operator of groep operatoren verzenden en wachten tot de goedkeuring is voltooid.
 * **[Extern signaal](external-signal.md)**: laat u de uitgaande overgang na het ontvangen van een extern signaal toelaten.
 * **[Vork](fork.md)**: hiermee kunt u alle uitgaande overgangen activeren.
-* **[Springen (beginpunt en eindpunt)](jump--start-point-and-end-point-.md)**: Hiermee kunt u overgangen zonder koppelingen implementeren.
+* **[Springen (beginpunt en eindpunt)](jump-start-point-and-end-point.md)**: Hiermee kunt u overgangen zonder koppelingen implementeren.
 * **[Begin en einde](start-and-end.md)**: hiermee kunt u de begin- en eindpunten van een workflow weergeven.
 * **[Planner](scheduler.md)**: hiermee kunt u een schema voor de workflowuitvoering definiëren.
 * **[Subworkflow](sub-workflow.md)**: hiermee kunt u een andere workflow uitvoeren.

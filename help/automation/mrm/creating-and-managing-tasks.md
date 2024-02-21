@@ -5,7 +5,7 @@ description: Taken maken en beheren
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '3758'
 ht-degree: 0%
@@ -190,7 +190,7 @@ De begroting die standaard in rekening wordt gebracht, is de begroting van de ca
 
 >[!NOTE]
 >
->Raadpleeg voor meer informatie over uitgaven en budgetten de [deze sectie](../campaigns/providers--stocks-and-budgets.md#cost-commitment--calculation-and-charging).
+>Raadpleeg voor meer informatie over uitgaven en budgetten de [deze sectie](../campaigns/providers-stocks-and-budgets.md#cost-commitment--calculation-and-charging).
 
 In dit venster kunt u ook de te bereiken doelstellingen definiëren. De doelstellingen worden uitgedrukt in de geraamde ontvangsten voor de taak.
 

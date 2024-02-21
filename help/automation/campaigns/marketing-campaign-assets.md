@@ -5,7 +5,7 @@ description: Meer informatie over documenten en overzichten van marketingcampagn
 feature: Campaigns
 role: User
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -120,4 +120,4 @@ In het volgende voorbeeld worden het label, de geschatte kosten en de beschrijvi
 
 ![](assets/campaign-export-template.png)
 
-Het exportmodel moet worden gekoppeld aan de dienstverlener die voor de betrokken levering is geselecteerd. Zie [deze sectie](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+Het exportmodel moet worden gekoppeld aan de dienstverlener die voor de betrokken levering is geselecteerd. Zie [deze sectie](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).

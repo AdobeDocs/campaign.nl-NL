@@ -3,9 +3,9 @@ title: Workflows maken die als doel dienen
 description: Leer hoe u doelpubliek kunt maken in een workflow
 feature: Query Editor, Data Management
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2252'
 ht-degree: 4%
 
 ---
@@ -35,14 +35,14 @@ Het richten van werkschema&#39;s binnen het kader van een campagne wordt opgesla
 De stappen voor het maken van een doelworkflow worden in de volgende secties beschreven:
 
 1. **Identificeren** gegevens in de database - Zie [Query&#39;s maken](#create-queries)
-1. **Voorbereiden** gegevens die voldoen aan de behoeften voor levering - Zie [Gegevens verrijken en wijzigen](#enrich-and-modify-data)
+1. **Voorbereiden** gegevens om aan de leveringsbehoeften te voldoen - Zie [Gegevens verrijken en wijzigen](#enrich-and-modify-data)
 1. **Gebruiken** gegevens om updates of levering uit te voeren - Zie [De database bijwerken](use-workflow-data.md#update-the-database)
 
 De resultaten van alle verrijkingen en alle handgrepen die tijdens het richten worden uitgevoerd worden opgeslagen en toegankelijk op verpersoonlijkingsgebieden, met name voor gebruik wanneer het creëren van gepersonaliseerde berichten. Raadpleeg voor meer informatie hierover [Doelgegevens](use-workflow-data.md#target-data).
 
 ## Afmetingen gericht en filteren {#targeting-and-filtering-dimensions}
 
-Tijdens de verrichtingen van de gegevenssegmentatie, wordt de het richten sleutel in kaart gebracht aan een het filtreren dimensie. Met de doeldimensie kunt u de doelgroep voor de bewerking definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz. Met de filterdimensie kunt u de populatie selecteren op basis van bepaalde criteria: contractanten, abonnees van nieuwsbrieven enz.
+Tijdens de verrichtingen van de gegevenssegmentatie, wordt de het richten sleutel in kaart gebracht aan een het filtreren dimensie. Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Met de filterdimensie kunt u de populatie selecteren op basis van bepaalde criteria: contractanten, abonnees van nieuwsbrieven, enz.
 
 Als u bijvoorbeeld klanten wilt selecteren die al meer dan vijf jaar een levensverzekeringspolis hebben, selecteert u de volgende dimensie: **Clients** en de volgende filterdimensie: **Contracthouder**. U kunt de het filtreren voorwaarden binnen de vraagactiviteit dan bepalen
 
@@ -50,7 +50,7 @@ Tijdens het gericht afmetingsselectiefase, slechts worden de compatibele het fil
 
 Deze twee dimensies moeten met elkaar verband houden. De inhoud van de **[!UICONTROL Filtering dimension]** de lijst is afhankelijk van de doeldimensie die in het eerste veld is opgegeven.
 
-Bijvoorbeeld voor ontvangers (**ontvanger**), zijn de volgende filterafmetingen beschikbaar:
+Voor ontvangers (**ontvanger**), zijn de volgende filterafmetingen beschikbaar:
 
 ![](assets/query-filter-dimensions.png)
 
@@ -96,7 +96,7 @@ Verzamelingen worden weergegeven in het dialoogvenster **[!UICONTROL Collections
 
 ### Een doel verfijnen met behulp van aanvullende gegevens {#refine-the-target-using-additional-data}
 
-De extra verzamelde gegevens kunnen u toelaten om gegevens het filtreren in het gegevensbestand te verfijnen. Om dit te doen, klik **[!UICONTROL Refine the target using additional data...]** koppeling: Hiermee kunt u de toegevoegde gegevens te veel filteren.
+De extra verzamelde gegevens kunnen u toelaten om gegevens het filtreren in het gegevensbestand te verfijnen. Om dit te doen, klik **[!UICONTROL Refine the target using additional data...]** koppeling: hiermee kunt u de toegevoegde gegevens overschrijven.
 
 ![](assets/wf_add_data_use_additional_data.png)
 
@@ -121,7 +121,7 @@ Selecteer een expressie en bevestig deze.
 
 De **[!UICONTROL Split]** Met activiteit kunt u subsets maken op criteria die zijn gedefinieerd via extractiemery&#39;s. Voor elke ondergroep, wanneer u een filtervoorwaarde op de bevolking uitgeeft, zult u tot de standaardvraagactiviteit toegang hebben die u de voorwaarden van de doelsegmentatie laat bepalen.
 
-U kunt een doel in verscheidene subsets verdelen gebruikend slechts extra gegevens als het filtreren voorwaarden, of naast doelgegevens. U kunt ook externe gegevens gebruiken als u de **Federale gegevenstoegang** optie.
+U kunt een doel in verscheidene subsets verdelen gebruikend slechts extra gegevens als het filtreren voorwaarden, of naast doelgegevens. U kunt ook externe gegevens gebruiken als u de **Federale gegevenstoegang** -optie.
 
 Raadpleeg [deze sectie](#create-subsets-using-the-split-activity) voor meer informatie.
 
@@ -137,33 +137,33 @@ De volgende afstemmingsopties voor gegevens zijn beschikbaar:
 
 * **[!UICONTROL Keys only]**
 
-   Deze optie kan worden gebruikt als de inputpopulaties homogeen zijn.
+  Deze optie kan worden gebruikt als de inputpopulaties homogeen zijn.
 
 * **[!UICONTROL All columns in common]**
 
-   Met deze optie kunt u gegevens afstemmen op basis van alle kolommen die de verschillende populaties van het doel gemeen hebben.
+  Met deze optie kunt u gegevens afstemmen op basis van alle kolommen die de verschillende populaties van het doel gemeen hebben.
 
-   Adobe Campaign geeft kolommen aan op basis van hun naam. Er wordt een tolerantiedrempel aanvaard: Een kolom &#39;E-mail&#39; kan bijvoorbeeld worden herkend als identiek aan een kolom &#39;@email&#39;.
+  Adobe Campaign geeft kolommen aan op basis van hun naam. Een tolerantiedrempel wordt geaccepteerd: een kolom &#39;E-mail&#39; kan bijvoorbeeld worden herkend als identiek aan een kolom &#39;@email&#39;.
 
 * **[!UICONTROL A selection of columns]**
 
-   Selecteer deze optie om de lijst met kolommen te definiëren waarop de afstemming van gegevens wordt toegepast.
+  Selecteer deze optie om de lijst met kolommen te definiëren waarop de afstemming van gegevens wordt toegepast.
 
-   Begin door de belangrijkste reeks (die bevat de brongegevens) te selecteren, dan de kolommen die voor de verbinding moeten worden gebruikt.
+  Begin door de belangrijkste reeks (die bevat de brongegevens) te selecteren, dan de kolommen die voor de verbinding moeten worden gebruikt.
 
-   ![](assets/join-reconciliation-options.png)
+  ![](assets/join-reconciliation-options.png)
 
-   >[!CAUTION]
-   >
-   >Tijdens de afstemming van gegevens worden populaties niet gededupliceerd.
+  >[!CAUTION]
+  >
+  >Tijdens de afstemming van gegevens worden populaties niet gededupliceerd.
 
-   U kunt de populatiegrootte tot een bepaald aantal verslagen beperken. Klik hiertoe op de gewenste optie en geef het aantal records op dat u wilt behouden.
+  U kunt de populatiegrootte tot een bepaald aantal verslagen beperken. Klik hiertoe op de gewenste optie en geef het aantal records op dat u wilt behouden.
 
-   Specificeer ook de prioriteit van inkomend populaties: in de onderste sectie van het venster worden de binnenkomende overgangen van de union-activiteit weergegeven en kunt u deze sorteren met de blauwe pijlen rechts van het venster.
+  Geef ook de prioriteit van de binnenkomende populaties op: in de onderste sectie van het venster worden de binnenkomende overgangen van de samenvoegactiviteit weergegeven en kunt u deze sorteren met de blauwe pijlen rechts van het venster.
 
-   De gegevens worden eerst overgenomen uit de populatie van de eerste binnenkomende overgang in de lijst. Als het maximum niet is bereikt, worden ze onttrokken aan de populatie van de tweede binnenkomende overgang, enz.
+  De gegevens worden eerst overgenomen uit de populatie van de eerste binnenkomende overgang in de lijst. Als het maximum niet is bereikt, worden ze onttrokken aan de populatie van de tweede binnenkomende overgang, enz.
 
-   ![](assets/join_limit_nb_priority.png)
+  ![](assets/join_limit_nb_priority.png)
 
 ### Verbindingsgegevens extraheren (doorsnede) {#extract-joint-data--intersection-}
 
@@ -179,13 +179,13 @@ De intersectieactiviteit wordt beschreven in de [Intersectie](intersection.md) s
 
 Met de uitsluitingsactiviteit kunt u de elementen van een doel uitsluiten van een andere doelpopulatie. De doeldimensie van deze activiteit is die van de hoofdset.
 
-Indien nodig, is het mogelijk om binnenkomende lijsten te manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Klik hiervoor op de knop **[!UICONTROL Add]** en geeft u de voorwaarden voor het wijzigen van de afmetingen op.
+Indien nodig, is het mogelijk om binnenkomende lijsten te manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Klik op de knop **[!UICONTROL Add]** en geeft u de voorwaarden voor het wijzigen van de afmetingen op.
 
 Afstemming van gegevens vindt plaats via een id, een veranderende as of een samenvoeging.
 
 ![](assets/exclusion-add-rule.png)
 
-### Subsets maken met behulp van de splitsingsactiviteit {#create-subsets-using-the-split-activity}
+### Subsets maken met de splitsingsactiviteit {#create-subsets-using-the-split-activity}
 
 De **[!UICONTROL Split]** activiteit is een standaardactiviteit die u zo vele reeksen door één of verscheidene het filtreren dimensies zonodig, evenals het produceren van of één outputovergang per ondergroep of een unieke overgang laat tot stand brengen.
 
@@ -195,13 +195,13 @@ Om het te vormen, moet u eerst criteria selecteren:
 
 1. Sleep een **[!UICONTROL Split]** activiteit.
 1. In de **[!UICONTROL General]** selecteert u de gewenste optie: **[!UICONTROL Use data from the target and additional data]**, **[!UICONTROL Use the additional data only]** of **[!UICONTROL Use external data]**.
-1. Als de **[!UICONTROL Use data from the target and additional data]** Als deze optie is geselecteerd, kunt u alle gegevens gebruiken die door de binnenkomende overgang worden overgedragen.
+1. Als de **[!UICONTROL Use data from the target and additional data]** Als deze optie is geselecteerd, kunt u met de doeldimensie alle gegevens gebruiken die door de binnenkomende overgang worden overgedragen.
 
    ![](assets/split-general-tab-options.png)
 
    Wanneer subsets worden gemaakt, worden de eerder vermelde filterparameters gebruikt.
 
-   Als u filtervoorwaarden wilt definiëren, kiest u de optie **[!UICONTROL Add a filtering condition on the inbound population]** en klik op de knop **[!UICONTROL Edit...]** koppeling. Geef vervolgens de filtervoorwaarden op voor het maken van deze subset.
+   Als u filtervoorwaarden wilt definiëren, kiest u de **[!UICONTROL Add a filtering condition on the inbound population]** en klik op de knop **[!UICONTROL Edit...]** koppeling. Geef vervolgens de filtervoorwaarden op voor het maken van deze subset.
 
    ![](assets/split-subset-config-all-data.png)
 
@@ -211,7 +211,7 @@ Om het te vormen, moet u eerst criteria selecteren:
 
    U kunt ook een segmentcode aan de subset toewijzen om deze te identificeren en te gebruiken om de populatie te bepalen.
 
-   Indien nodig, kunt u de het richten en het filtreren dimensies individueel voor elke ondergroep veranderen u wilt tot stand brengen. Om dit te doen, geef de het filtreren voorwaarde van de ondergroep uit en controleer **[!UICONTROL Use a specific filtering dimension]** optie.
+   Indien nodig, kunt u de het richten en het filtreren dimensies individueel voor elke ondergroep veranderen u wilt tot stand brengen. Om dit te doen, geef de het filtreren voorwaarde van de ondergroep uit en controleer **[!UICONTROL Use a specific filtering dimension]** -optie.
 
    ![](assets/split-subset-config-specific-filtering.png)
 
@@ -229,13 +229,13 @@ Vervolgens moeten nieuwe subsets worden toegevoegd:
 
    ![](assets/wf_split_edit_filtering.png)
 
-1. Indien nodig kunt u de filterdimensie voor elke subset afzonderlijk wijzigen. Hiermee kunt u een set maken voor alle houders van een Gold-kaart, één voor alle ontvangers die op de meest recente nieuwsbrief hebben geklikt en een derde voor personen van 18 tot en met 25 jaar die de laatste 30 dagen in de winkel een aankoop hebben gedaan, allemaal met dezelfde gesplitste activiteit. Selecteer hiervoor de optie **[!UICONTROL Use a specific filtering dimension]** en selecteert u de context voor het filteren van gegevens.
+1. Indien nodig kunt u de filterdimensie voor elke subset afzonderlijk wijzigen. Hiermee kunt u een set maken voor alle houders van een Gold-kaart, één voor alle ontvangers die op de meest recente nieuwsbrief hebben geklikt en een derde voor personen van 18 tot en met 25 jaar die de laatste 30 dagen in de winkel een aankoop hebben gedaan, allemaal met dezelfde gesplitste activiteit. Selecteer de optie **[!UICONTROL Use a specific filtering dimension]** en selecteert u de context voor het filteren van gegevens.
 
 Nadat subsets zijn gemaakt, toont de splitsingsactiviteit standaard evenveel uitvoerovergangen als er subsets zijn:
 
 ![](assets/wf_split_multi_outputs.png)
 
-U kunt al deze subsets groeperen in één uitvoerovergang. In dit geval is de koppeling naar de desbetreffende subsets bijvoorbeeld zichtbaar in de segmentcode. Selecteer hiervoor de optie **[!UICONTROL Generate all subsets in the same table]** optie.
+U kunt al deze subsets groeperen in één uitvoerovergang. In dit geval is de koppeling naar de desbetreffende subsets bijvoorbeeld zichtbaar in de segmentcode. Selecteer de optie **[!UICONTROL Generate all subsets in the same table]** -optie.
 
 ![](assets/wf_split_single_output.png)
 
@@ -250,15 +250,15 @@ Zodra de gegevens zijn geïdentificeerd en opgesteld, kunnen ze in de volgende c
 
 * U kunt de gegevens in de database bijwerken na gegevensmanipulatie in de verschillende werkstroomfasen.
 
-   Voor meer informatie hierover: [Gegevens bijwerken](update-data.md).
+  Voor meer informatie hierover: [Gegevens bijwerken](update-data.md).
 
 * U kunt ook de inhoud van bestaande lijsten vernieuwen.
 
-   Raadpleeg voor meer informatie hierover [Lijstupdate](list-update.md).
+  Raadpleeg voor meer informatie hierover [Lijstupdate](list-update.md).
 
 * U kunt leveringen rechtstreeks voorbereiden of starten in de workflow.
 
-   Raadpleeg voor meer informatie hierover [Aflevering](delivery.md), [Afleveringscontrole](delivery-control.md) en [Doorlopende levering](continuous-delivery.md).
+  Raadpleeg voor meer informatie hierover [Aflevering](delivery.md), [Afleveringscontrole](delivery-control.md) en [Doorlopende levering](continuous-delivery.md).
 
 ## Data management {#data-management}
 
@@ -270,8 +270,8 @@ In Adobe Campaign combineert het gegevensbeheer een reeks activiteiten om comple
 
 Voor de uitvoering van deze transacties biedt Adobe Campaign:
 
-* Gegevensverzameling: [Bestandsoverdracht](file-transfer.md), [Gegevens laden (bestand)](data-loading--file-.md), [Gegevens laden (RDBMS)](data-loading--rdbms-.md), [Gegevens bijwerken](update-data.md). In deze eerste stap voor het verzamelen van gegevens worden de gegevens voorbereid, zodat ze in andere activiteiten kunnen worden verwerkt. Verschillende parameters moeten worden gecontroleerd om ervoor te zorgen dat de workflow correct wordt uitgevoerd en de verwachte resultaten oplevert. Wanneer u bijvoorbeeld gegevens importeert, moet de primaire sleutel (sleutel) voor deze gegevens uniek zijn voor elke record.
-* Doelactiviteiten zijn verrijkt met opties voor gegevensbeheer: [Query](query.md), [Unie](union.md), [Intersectie](intersection.md), [Splitsen](split.md). Zo kunt u een samenvoeging of een doorsnede configureren tussen gegevens van verschillende doeldimensies, zolang de gegevens met elkaar in overeenstemming zijn.
+* Gegevensverzameling: [Bestandsoverdracht](file-transfer.md), [Gegevens laden (bestand)](data-loading-file.md), [Gegevens laden (RDBMS)](data-loading-rdbms.md), [Gegevens bijwerken](update-data.md). In deze eerste stap voor het verzamelen van gegevens worden de gegevens voorbereid, zodat ze in andere activiteiten kunnen worden verwerkt. Verschillende parameters moeten worden gecontroleerd om ervoor te zorgen dat de workflow correct wordt uitgevoerd en de verwachte resultaten oplevert. Wanneer u bijvoorbeeld gegevens importeert, moet de primaire sleutel (sleutel) voor deze gegevens uniek zijn voor elke record.
+* Doelactiviteiten zijn verrijkt met opties voor gegevensbeheer: [Query](query.md), [Unie](union.md), [Intersectie](intersection.md), [Splitsen](split.md). Zo kunt u een samenvoeging of een doorsnede configureren tussen gegevens van verschillende doeldimensies, zolang de gegevens met elkaar in overeenstemming kunnen worden gebracht.
 * Transformatie van gegevens: [Verrijking](enrichment.md), [Dimensie wijzigen](change-dimension.md).
 
 >[!CAUTION]
@@ -284,7 +284,7 @@ Voor de uitvoering van deze transacties biedt Adobe Campaign:
 
 Naast het richten afmeting, laat de het filtreren afmeting u de aard van de verzamelde gegevens specificeren. Zie [deze sectie](targeting-workflows.md#targeting-and-filtering-dimensions).
 
-De geïdentificeerde en verzamelde gegevens kunnen worden verrijkt, geaggregeerd en gemanipuleerd om de doelconstructie te optimaliseren. Hiervoor geldt naast de in [deze sectie](#segmen-data)en gebruikt u het volgende:
+De geïdentificeerde en verzamelde gegevens kunnen worden verrijkt, geaggregeerd en gemanipuleerd om de doelconstructie te optimaliseren. Hiervoor geldt, naast de in [deze sectie](#segmen-data)en gebruikt u het volgende:
 
 * De **[!UICONTROL Enrichment]** Met activiteit kunt u tijdelijk kolommen aan een schema toevoegen en informatie aan bepaalde elementen toevoegen. Het wordt in het [Verrijking](enrichment.md) van de gegevensbank van activiteiten.
 * De **[!UICONTROL Edit schema]** Met activiteit kunt u de structuur van een schema wijzigen. Het wordt in het [Schema bewerken](edit-schema.md) van de gegevensbank van activiteiten.

@@ -5,10 +5,10 @@ description: Een overzichtslijst maken
 feature: Workflows, Data Management
 role: User
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 2%
+source-wordcount: '975'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ Deze gegevens staan in het tekstbestand &quot;Purchases.txt&quot;.
 
    De **Bestandsverzamelaar** Met deze activiteit kunt u bestanden verzamelen en verzenden van en naar de Adobe Campaign-server.
 
-   De **Gegevens laden (bestand)** Met deze activiteit kunt u de werktabel van de workflow verrijken met de verzamelde gegevens. Raadpleeg voor meer informatie over deze activiteit [deze pagina](data-loading--file-.md).
+   De **Gegevens laden (bestand)** Met deze activiteit kunt u de werktabel van de workflow verrijken met de verzamelde gegevens. Raadpleeg voor meer informatie over deze activiteit [deze pagina](data-loading-file.md).
 
 1. Vorm **Bestandsverzamelaar** activiteit om tekst te verzamelen (&#42;.txt) typt bestanden uit de geselecteerde map.
 

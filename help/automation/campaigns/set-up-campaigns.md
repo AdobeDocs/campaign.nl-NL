@@ -5,7 +5,7 @@ description: Leer hoe u begint met marketingcampagnes
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 3%
@@ -44,11 +44,11 @@ Orchestreer de levering via het kanaal in uw campagnes. Stroomlijn uw communicat
 1. **De algemene stroom instellen**
 Definieer revisoren en configureer de goedkeuringsstroom om de processen van de campagne te bewaken en te controleren: gericht maken, inhoud, budget, extractie en het verzenden van bewijzen. Leer hoe u goedkeuringen instelt [in deze sectie](marketing-campaign-approval.md).
 
-1. **Verzendingen controleren**.
+1. **Leveringen controleren**.
 Houd uw campagnes vanaf het dashboard bij, controleer leveringsstatus en uitvoering via de interface van de campagne. [Meer informatie](marketing-campaign-monitoring.md).
 
 1. **Trackbudgetten, voorraden en bijbehorende kosten**.
-Gebruik Adobe Campaign om de begrotingstoewijzing te controleren, uw leveranciers, voorraden en kosten te beheren. [Meer informatie](providers--stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
+Gebruik Adobe Campaign om de begrotingstoewijzing te controleren, uw leveranciers, voorraden en kosten te beheren. [Meer informatie](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
 
 Wanneer deze stappen zijn voltooid, kunt u [starten van de leveringen](marketing-campaign-deliveries.md#start-a-delivery)de gegevens, processen en informatie met betrekking tot de leveringen controleren en, indien nodig, [de bijbehorende documenten beheren](marketing-campaign-deliveries.md#manage-associated-documents). U kunt [de uitvoering volgen en controleren](marketing-campaign-monitoring.md) van uw campagnes en leveringen.
 

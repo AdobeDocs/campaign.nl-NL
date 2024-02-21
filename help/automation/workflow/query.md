@@ -5,7 +5,7 @@ description: Meer informatie over de activiteit van de Query-workflow
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 0191ca8c29813c448040fc887f98550c74197578
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Selecteer eerst het type gegevens dat u wilt toevoegen:
 ![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * Selecteren **[!UICONTROL Data linked to the filtering dimension]** om de gegevens in de Adobe Campaign-database te selecteren.
-* Selecteren **[!UICONTROL External data]** gegevens uit een externe database toevoegen. Deze optie is alleen beschikbaar als u de **Federale gegevenstoegang** -optie. Raadpleeg voor meer informatie hierover [Toegang tot een externe database (FDA)](accessing-an-external-database--fda-.md).
+* Selecteren **[!UICONTROL External data]** gegevens uit een externe database toevoegen. Deze optie is alleen beschikbaar als u de **Federale gegevenstoegang** -optie. Raadpleeg voor meer informatie hierover [Toegang tot een externe database (FDA)](accessing-an-external-database-fda.md).
 * Selecteer de **[!UICONTROL An offer proposition]** om een reeks kolommen toe te voegen waarmee u de beste die propositie kunt opslaan door de aanbiedingsmotor wordt geproduceerd. Deze optie is alleen beschikbaar als u de **Interactie** -module.
 
 Als er geen optionele module op het platform is geïnstalleerd, wordt dit werkgebied niet weergegeven. U wordt rechtstreeks naar de volgende fase geleid.

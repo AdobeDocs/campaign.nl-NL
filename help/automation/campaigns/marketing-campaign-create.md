@@ -5,7 +5,7 @@ description: Meer informatie over het maken en uitvoeren van marketingcampagnes
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: d7750add8d71bb51ea1c099a45a7bce05da3b4d7
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 2%
@@ -92,7 +92,7 @@ Heb toegang tot de volgende secties leren hoe te om uw campagne te vormen:
 * [Elementen en documenten beheren](marketing-campaign-assets.md)
 * [Het doelpubliek samenstellen](marketing-campaign-target.md)
 * [Goedkeuringsprocedure instellen](marketing-campaign-approval.md)
-* [Bestanden en budgetten beheren](providers--stocks-and-budgets.md)
+* [Bestanden en budgetten beheren](providers-stocks-and-budgets.md)
 
 
 ### Campagne-instellingen bewerken {#campaign-settings}
@@ -102,7 +102,7 @@ Campagnes worden gemaakt via campagnemalplaatjes. U kunt herbruikbare sjablonen 
 Voor elke campagne zijn de volgende mogelijkheden beschikbaar:
 
 * Referentiedocumenten en -bronnen: u kunt documenten aan de campagne koppelen (korte beschrijving, rapport, afbeeldingen, enz.). Alle documentindelingen worden ondersteund. [Meer informatie](marketing-campaign-deliveries.md#manage-associated-documents).
-* Definieer de kosten: voor elke campagne kunt u met Adobe Campaign de kosten en kostenberekeningsstructuren definiëren die u kunt gebruiken bij het maken van de marketingcampagne. Bijvoorbeeld: afdrukkosten, gebruik van een extern bureau, huur van ruimten enz. [Meer informatie](providers--stocks-and-budgets.md#defining-cost-categories).
+* Definieer de kosten: voor elke campagne kunt u met Adobe Campaign de kosten en kostenberekeningsstructuren definiëren die u kunt gebruiken bij het maken van de marketingcampagne. Bijvoorbeeld: afdrukkosten, gebruik van een extern bureau, huur van ruimten enz. [Meer informatie](providers-stocks-and-budgets.md#defining-cost-categories).
 * Definieer doelstellingen: u kunt kwantificeerbare doelstellingen voor een campagne definiëren, zoals het aantal abonnees, het bedrijfsvolume, enz. Deze informatie wordt later gebruikt in campagnerapporten.
 * Beheer zaadadressen en controlegroepen. [Meer informatie](marketing-campaign-deliveries.md#defining-a-control-group).
 * Goedkeuringen beheren: u kunt de behandelingen selecteren die u wilt goedkeuren en, indien nodig, de revisieoperatoren of groepen operatoren selecteren. [Meer informatie](marketing-campaign-approval.md#checking-and-approving-deliveries).
