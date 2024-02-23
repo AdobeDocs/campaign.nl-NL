@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
+source-git-commit: 3b790305984436f1168f9c73aa09df509b2217f0
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '478'
 ht-degree: 2%
 
 ---
@@ -21,10 +21,19 @@ Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Ado
 Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde versies van de systemen gebruikt die in de [Compatibiliteitsmatrix](compatibility-matrix.md).
 
 
+## Release 8.6.2 {#release-8-6-2}
+
+_23 feb. 2024_
+
+### Oplossingen {#fixes-8-6-2}
+
+In deze release wordt het volgende probleem opgelost:
+
+* Oplossing voor een prestatieprobleem dat zich kon voordoen op de mid-sourcing instantie (NEO-72595).
+
 ## Release 8.6.1 {#release-8-6-1}
 
 _14 feb. 2024_
-
 
 ### Nieuwe functies {#new-8-6-1}
 
