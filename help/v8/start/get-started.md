@@ -5,10 +5,10 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: c7bedcffeff59a5c3b631cde6c7df67057d4a483
+source-git-commit: 86a6979b8258bbe3136ed9e4de6ce44a8164d5d9
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 21%
+source-wordcount: '994'
+ht-degree: 20%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 21%
 Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klanten over meerdere kanalen en een omgeving voor visuele campagneorchestratie, real-time interactiebeheer en uitvoering via meerdere kanalen.
 
 Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor diverse marketing kanalen zoals e-mail, dupberichten, SMS, en directe post wordt gebouwd. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma&#39;s met een centrale focus op batchgeoriënteerde reizen. Het komt ook met een scalable Real-Time overseinenserver wordt geparseerd die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor mededelingen zoals wachtwoordterugstellen, orderbevestiging, e-kwitantie en veel meer worden gebaseerd.
+
+Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Het is beschikbaar als **Beheerde Cloud Service** die diensten combineert met proactief toezicht en tijdige aanpassing. Meer informatie over door campagne beheerde Cloud Servicen [op deze pagina](whats-new.md#acms-desc).
 
 Campagne gebruiken om:
 
@@ -50,7 +52,7 @@ Met Adobe Campaign kunt u doelgerichte en gepersonaliseerde campagnes ontwerpen 
 
 ![](../assets/do-not-localize/glass.png) Leer hoe u in [deze sectie](campaigns.md).
 
-## Workflows
+## Workflows {#wf-gsv8}
 
 Adobe Campaign biedt een uitgebreide grafische omgeving waarmee u complexe processen kunt ontwerpen, zoals segmentatie, uitvoering van campagnes, bestandsverwerking, enzovoort. U kunt bijvoorbeeld een workflow gebruiken om een bestand van een server te downloaden, het te decomprimeren en vervolgens de records in de Adobe Campaign-database te importeren.
 
