@@ -4,9 +4,9 @@ description: Leer hoe u door de gebruikersinterface van Campagne kunt bladeren e
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 8666c04f0e98cd6444af831d47056c46019c6088
+source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -23,17 +23,7 @@ U kunt tot Adobe Campaign via zijn cliëntconsole of zijn gebruikersinterface va
 
   Leer hoe u de Campagne-clientconsole kunt installeren en configureren in [deze sectie](../start/connect.md).
 
-<!--    ![](assets/home-page.png) -->
-
 * **Webgebruikersinterface** - Als gebruiker van Campagne v8, die versie 8.6.1 begint, hebt u nu toegang tot een webomgeving die beschikbaar is via de centrale Adobe Experience Cloud-gebruikersinterface. Vervolgens kunt u vanuit een webbrowser verbinding maken met Adobe Campaign. Met deze nieuwe interface kunt u belangrijke marketingacties maken, beheren en uitvoeren. Alle campagnemogelijkheden zijn echter niet beschikbaar. [Meer informatie](#ac-web-ui).
-
-  De gebruikersinterface van het Web van de Campagne van de Campagne is beschikbaar door de homepage van de cliëntconsole.
-
-  ![](assets/web-ui.png)
-
-  >[!NOTE]
-  >
-  >Als de nieuwe toegangskaart niet wordt getoond, gelieve ervoor te zorgen dat de volgende gebieden niet leeg binnen uw externe rekening van Adobe Experience Cloud worden verlaten: **Server**, **Aannemer**, **Callback-server**, en **Associatieteken**.
 
 * **Webtoegang** - Met Adobe Campaign-mogelijkheden voor webtoegang hebt u via een gebruikersinterface toegang tot een subset van Campagnefuncties via een webbrowser. Gebruik deze webinterface om rapporten te openen, berichten te besturen en te valideren, toegang te krijgen tot controledashboards en nog veel meer.  Meer informatie over Campagne Web Access [in deze sectie](../start/connect.md#web-access).
 
@@ -42,9 +32,15 @@ U kunt tot Adobe Campaign via zijn cliëntconsole of zijn gebruikersinterface va
 
 ## Werken met de clientconsole {#ui-access}
 
-Campagne-clientconsole is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. De de cliëntconsole van de campagne centraliseert alle mogelijkheden en montages, en vereist minimale bandbreedte aangezien het op een lokaal geheime voorgeheugen baseert. Campagne-clientconsole is ontworpen voor eenvoudige implementatie en kan worden geïmplementeerd vanuit een internetbrowser, automatisch worden bijgewerkt. Hiervoor is geen specifieke netwerkconfiguratie nodig omdat alleen HTTP(S)-verkeer wordt gegenereerd.  [Meer informatie over Campagne-clientconsole](../start/connect.md).
+Campagne-clientconsole is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. De de cliëntconsole van de campagne centraliseert alle mogelijkheden en montages, en vereist minimale bandbreedte aangezien het op een lokaal geheime voorgeheugen baseert. Campagne-clientconsole is ontworpen voor eenvoudige implementatie en kan worden geïmplementeerd vanuit een internetbrowser, automatisch worden bijgewerkt. Hiervoor is geen specifieke netwerkconfiguratie nodig omdat alleen HTTP(S)-verkeer wordt gegenereerd.  [Meer informatie over Campagne-clientconsole](../start/connect.md). U kunt op het gebruikersinterface van het Web van de Campagne van de specifieke kaart in de homepage van de cliëntconsole schakelen.
 
-![](assets/home-page.png)
+![](assets/web-ui.png)
+
+
+>[!NOTE]
+>
+>Als de nieuwe toegangskaart niet wordt getoond, gelieve ervoor te zorgen dat de volgende gebieden niet leeg binnen uw externe rekening van Adobe Experience Cloud worden verlaten: **Server**, **Aannemer**, **Callback-server**, en **Associatieteken**.
+
 
 U kunt ook een webbrowser gebruiken om toegang te krijgen tot Campagne. In dit verband is slechts een subset van campagnemogelijkheden beschikbaar. [Meer informatie](#web-browser)
 

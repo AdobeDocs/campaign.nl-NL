@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 3%
+source-wordcount: '1029'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Adobe Campaign v8 is ontworpen voor kanaalaanbieders die de beste cloudoplossing in hun klasse nodig hebben voor het beheer van campagnes over meerdere kanalen op bedrijfsniveau. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma&#39;s met een centrale focus op batchgeoriënteerde reizen. Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 
-Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking.
+Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Het is beschikbaar als **Beheerde Cloud Service** die diensten combineert met proactief toezicht en tijdige aanpassing. Meer informatie over door campagne beheerde Cloud Servicen [in deze sectie](#acms-desc).
 
 ![](assets/home-page.png)
 
@@ -70,9 +70,11 @@ U kunt ook voorspellende optimalisatie van de verzendtijd en voorspellende betro
 
 ### Beheerde Cloud Servicen {#acms-desc}
 
-Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service, die pro-actief toezicht, het geschikte alarm, en de dienstbestuur verstrekt.
+Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service, die pro-actief toezicht, het geschikte alarm, en de dienstbestuur verstrekt. Adobe Managed Cloud Service biedt marketers een flexibelere, veiligere en schaalbare oplossing voor campagnebeheer over meerdere kanalen met lage totale eigendomskosten. Het nieuwe aanbod combineert services met proactief toezicht en tijdige waarschuwing.
 
-Adobe Managed Cloud Service biedt marketers een flexibelere, veiligere en schaalbare oplossing voor campagnebeheer over meerdere kanalen met lage totale eigendomskosten. Het nieuwe aanbod combineert services met proactief toezicht en tijdige waarschuwing.
+De beheerde de dienstenbenadering laat marketers toe om uit de operationele schaal en de economie van wolkeninfrastructuur zonder de behoefte aan zware steun van interne middelen van IT voordeel te halen. De Adobe adviserende en implementatieteams werken met u samen om uw marketing plannen, bestaande praktijken, gegevensvereisten, en overseinenvolume te beoordelen, en dan adviseren zij de meest aangewezen dienst, de steun, en de leveringspakketten. Het Adobe Campaign Managed Cloud Services-team kan dan de prestaties van de campagne, de reputatie van het merk, de ervaringen van de klant en nog veel meer controleren en rapporteren.
+
+[Deze whitepaper downloaden](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf) voor meer informatie over de bedrijfswaarde van Adobe Campaign Managed Cloud Services.
 
 >[!NOTE]
 >
@@ -101,7 +103,7 @@ Via een intuïtieve gebruikersinterface kunnen beheerders het gebruik van belang
 
 * Breng snel zelf wijzigingen aan in de instellingen zonder de ondersteuning voor Adoben te vragen
 * Configureer instellingen op basis van uw verschillende bedrijfsbehoeften op verschillende momenten
-* Verbeter de beveiliging door toegangsinstellingen op basis van behoefte te controleren
+* Verbeter veiligheid door toegangsinstellingen op een behoefte-door-behoefte basis te controleren
 
 ![](assets/subdomain1.png)
 
