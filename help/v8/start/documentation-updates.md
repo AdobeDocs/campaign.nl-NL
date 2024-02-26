@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 hidefromtoc: true
-source-git-commit: 6a77b472a09e19d569bb0e9a778a3a7819068033
+source-git-commit: 032c11f794956d5bdd4a6540ee5dd5b2f92c94dc
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 36%
+source-wordcount: '112'
+ht-degree: 34%
 
 ---
 
@@ -21,6 +21,8 @@ Deze pagina bevat alle laatste updates in [!DNL Campaign] v8-documentatie (conso
 
 * Alle nieuwe functies, wijzigingen en verbeteringen die worden geleverd bij [!DNL Campaign] v8.6-release is gedetailleerd beschreven in de documentatie. [Meer informatie](release-notes.md)
 * Het beheer- en upgrademechanisme voor Campagne v8-versies wordt nu beschreven in een speciale pagina. [Meer informatie](upgrades.md)
+* Er is een pagina toegevoegd over de integratie met Adobe Campaign + Adobe Workfront. [Meer informatie](../connect/ac-workfront.md)
+
 
 
 ## Januari 2024 {#jan-2024}
