@@ -1,6 +1,6 @@
 ---
 title: Campagne verbinden met uw oplossingen
-description: Leer hoe u uw Adobe Campaign-instantie kunt verbinden met Experience Cloud-oplossingen.
+description: Leer hoe u uw Adobe Campaign-exemplaar kunt verbinden met Experience Cloud-oplossingen.
 feature: Overview
 role: Admin, User
 level: Beginner

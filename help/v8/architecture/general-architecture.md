@@ -1,6 +1,6 @@
 ---
 title: Algemene architectuur
-description: Meer informatie over Adobe Campaign-architectuur en -onderdelen. Meer informatie over het aanpassen van uw clientconsole en -omgeving.
+description: Meer informatie over Adobe Campaign-architectuur en -onderdelen. Meer informatie over het personaliseren van uw Client Console en omgeving.
 feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
