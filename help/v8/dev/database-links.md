@@ -4,7 +4,7 @@ description: Koppelingsbeheer in Adobe Campaign-schema's begrijpen
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+source-git-commit: c7171a121f03eff0d945e64758e3ba1842e5436f
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -26,14 +26,14 @@ In de gebruikersinterface worden kardinaliteiten weergegeven met een specifiek p
 
 Voor het samenvoegen van relaties met een tabel/database voor campagnes:
 
-* ![](assets/join_with_campaign11.png) : Kardinaliteit 1-1. Bijvoorbeeld tussen een ontvanger en een huidige orde. Een ontvanger kan aan slechts één voorkomen van de huidige ordetabel tegelijkertijd worden verwant.
-* ![](assets/externaljoin11.png) : Kardinaliteit 1-1, externe verbinding. Bijvoorbeeld tussen een ontvanger en hun land. Een ontvanger kan slechts aan één voorkomen van het lijstland worden verwant. De inhoud van de landentabel wordt niet opgeslagen.
-* ![](assets/join_with_campaign1n.png) : Kardinaliteit 1-N. Bijvoorbeeld tussen een ontvanger en de abonnementstabel. Een ontvanger kan zijn verwant aan verscheidene voorkomen op de abonnementstabel.
+* ![](assets/do-not-localize/join_with_campaign11.png) : Kardinaliteit 1-1. Bijvoorbeeld tussen een ontvanger en een huidige orde. Een ontvanger kan aan slechts één voorkomen van de huidige ordetabel tegelijkertijd worden verwant.
+* ![](assets/do-not-localize/externaljoin11.png) : Kardinaliteit 1-1, externe verbinding. Bijvoorbeeld tussen een ontvanger en hun land. Een ontvanger kan slechts aan één voorkomen van het lijstland worden verwant. De inhoud van de landentabel wordt niet opgeslagen.
+* ![](assets/do-not-localize/join_with_campaign1n.png) : Kardinaliteit 1-N. Bijvoorbeeld tussen een ontvanger en de abonnementstabel. Een ontvanger kan zijn verwant aan verscheidene voorkomen op de abonnementstabel.
 
 Voor join-relaties met FDA (Federated Database Access):
 
-* ![](assets/join_fda_11.png) : Kardinaliteit 1-1
-* ![](assets/join_fda_1m.png) : Kardinaliteit 1-N
+* ![](assets/do-not-localize/join_fda_11.png) : Kardinaliteit 1-1
+* ![](assets/do-not-localize/join_fda_1m.png) : Kardinaliteit 1-N
 
 Raadpleeg voor meer informatie over FDA-tabellen [Een externe database openen](../../installation/using/about-fda.md).
 
