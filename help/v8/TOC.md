@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: a79ae8611f413b910fe31c1e1c5213f40e873879
+source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 15%
+source-wordcount: '581'
+ht-degree: 16%
 
 ---
 
@@ -190,6 +190,8 @@ ht-degree: 15%
       + [Filterschema&#39;s](dev/filter-schema.md)
       + [Schemastructuur](dev/schema-structure.md)
       + [Databasetoewijzing](dev/database-mapping.md)
+      + [Belangrijkste beheerfuncties](dev/database-keys.md)
+      + [Koppelingsbeheer](dev/database-links.md)
       + [PI-weergave beperken](dev/restrict-pi-view.md)
       + [Een aangepaste tabel voor ontvangers gebruiken](dev/custom-recipient.md)
       + [De database bijwerken](dev/update-database-structure.md)
