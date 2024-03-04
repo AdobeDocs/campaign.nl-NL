@@ -4,7 +4,7 @@ description: Koppelingsbeheer in Adobe Campaign-schema's begrijpen
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: c7171a121f03eff0d945e64758e3ba1842e5436f
+source-git-commit: 6db351c8b5d30f722ddc4b0261af93cd8e3b72cd
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Voor join-relaties met FDA (Federated Database Access):
 * ![](assets/do-not-localize/join_fda_11.png) : Kardinaliteit 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Kardinaliteit 1-N
 
-Raadpleeg voor meer informatie over FDA-tabellen [Een externe database openen](../../installation/using/about-fda.md).
+Raadpleeg voor meer informatie over FDA-tabellen [Een externe database openen](../connect/fda.md).
 
 Een koppeling moet worden gedeclareerd in het schema met de externe sleutel van de tabel die is gekoppeld via het hoofdelement:
 
