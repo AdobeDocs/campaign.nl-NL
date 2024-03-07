@@ -5,9 +5,9 @@ feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin
 level: Beginner
 exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ De datum van de laatste synchronisatie wordt opgeslagen in een optie die in het 
 >
 >Deze opmerking is alleen van toepassing op het generieke **[!UICONTROL CRM Connector]** activiteit. Voor andere CRM-activiteiten is het proces automatisch.
 >
->Deze optie moet handmatig worden gemaakt en ingevuld onder **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Dit moet een tekstoptie zijn en de waarde ervan moet overeenkomen met de volgende indeling: **yyyy/MM/dd hh:mm:ss**.
+>Deze optie moet handmatig worden gemaakt en ingevuld onder **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Dit moet een tekstoptie zijn en de waarde ervan moet overeenkomen met de volgende indeling: **`yyyy/MM/dd hh:mm:ss`**.
 > 
 >U moet deze optie handmatig bijwerken als u wilt doorgaan met importeren.
 
@@ -106,7 +106,7 @@ De **[!UICONTROL Automatic index]** Deze optie genereert drie variabelen die in 
 
   >[!NOTE]
   >
-  >Deze datums worden in de volgende notatie weergegeven: **yyyy/MM/dd hh:mm:ss**.
+  >Deze datums worden in de volgende notatie weergegeven: **`yyyy/MM/dd hh:mm:ss`**.
 
 ### Gegevens filteren {#filtering-data}
 

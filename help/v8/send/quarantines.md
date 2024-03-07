@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User, Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1167'
 ht-degree: 4%
 
 ---
@@ -73,7 +73,7 @@ De lijst met in quarantaine geplaatste adressen weergeven **voor het gehele plat
 >
 >Einde van jaar 1: (1&#42;0,33)/(1+0,5)=22%.
 >
->Einde van jaar 2: (1.22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
+Einde van jaar 2: (1.22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
 
 Bovendien **[!UICONTROL Non-deliverables and bounces]** een ingebouwd rapport, beschikbaar via de **Rapporten** van deze homepage, toont informatie over de adressen in quarantaine, de types van aangetroffen fout, en een mislukkingsonderbreking door domein. U kunt gegevens filteren voor een specifieke levering, of dit rapport aanpassen zoals nodig.
 
@@ -104,7 +104,7 @@ Hun status verandert vervolgens in **[!UICONTROL Valid]**.
 
 >[!CAUTION]
 >
->Ontvangers met een adres in een **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** de status wordt nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
+Ontvangers met een adres in een **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** de status wordt nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
 
 U kunt ook handmatig een adres uit de quarantainelijst verwijderen. Als u een adres uit quarantaine wilt verwijderen, kunt u:
 
@@ -120,8 +120,8 @@ Hieronder volgen de geadviseerde richtlijnen voor deze vraag:
 
 * **Fouttekst (quarantainetekst)** bevat &quot;Momen_Code10_InvalidRecipient&quot;
 * **E-maildomein (@domein)** gelijk aan domain1.com OR **E-maildomein (@domein)** gelijk aan domain2.com OR **E-maildomein (@domein)** is gelijk aan domain3.com
-* **Status bijwerken (@lastModified)** op of na MM/DD/YYYY HH:MM:SS AM
-* **Status bijwerken (@lastModified)** op of vóór MM/DD/YYYY HH:MM:SS PM
+* **Status bijwerken (@lastModified)** op of na `MM/DD/YYYY HH:MM:SS AM`
+* **Status bijwerken (@lastModified)** op of voor `MM/DD/YYYY HH:MM:SS PM`
 
 Als u de lijst met betrokken ontvangers hebt, voegt u een **[!UICONTROL Update data]** activiteit om hun status in te stellen op **[!UICONTROL Valid]** zodat zij uit de quarantainelijst worden verwijderd door **[!UICONTROL Database cleanup]** workflow. U kunt ze ook gewoon uit de quarantainetabel verwijderen.
 

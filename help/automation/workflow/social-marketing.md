@@ -1,23 +1,23 @@
 ---
 product: campaign
-title: Social marketing
+title: Sociale marketing
 description: Meer informatie over technische workflows voor sociale marketing
 feature: Workflows
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 5%
+ht-degree: 1%
 
 ---
 
 
-# Social marketing{#social-marketing}
+# Sociale marketing{#social-marketing}
 
 
 
 >[!AVAILABILITY]
 >
->:warning: Deze mogelijkheid is alleen beschikbaar in Campaign Classic v7.
+>`:warning:` Deze mogelijkheid is alleen beschikbaar in Campaign Classic v7.
 
 De hieronder beschreven workflows worden geïnstalleerd met de **Sociale marketing** module standaard.
 
