@@ -1,18 +1,18 @@
 ---
-title: Soorten publiek en profielkenmerken
+title: Soorten publiek en profielkenmerken delen en synchroniseren met Adobe Experience Platform
 description: Leer hoe u het publiek en de profielkenmerken van Adobe Experience Platform kunt synchroniseren met Campagne
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: 6ebbdf2ab57577594a4f964e2cfcba46fcb7b4ca
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-# Werken met campagne en Adobe Experience Platform
+# Soorten publiek delen en synchroniseren met Adobe Experience Platform {#gs-ac-aep}
 
 Met de Adobe Campaign Managed Cloud Service Destination and Source-connectors kunt u Adobe Campaign en Adobe Experience Platform naadloos integreren. Met deze integratie kunt u:
 

@@ -1,20 +1,20 @@
 ---
-title: bestemmingspagina's en profielkenmerken voor campagne
+title: Adobe Experience Platform-profielen bijwerken vanaf Adobe Campaign-bestemmingspagina's
 description: Leer hoe u Adobe Campaign-bestemmingspagina's en Adobe Experience Platform-profielkenmerken synchroniseert
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: a17c4325917ef1466bbb2c397aea55ebcf7fbcb5
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform-profielen bijwerken vanaf Adobe Campaign-bestemmingspagina&#39;s
+# Adobe Experience Platform-profielen bijwerken vanaf Adobe Campaign-bestemmingspagina&#39;s {#ac-aep-lp}
 
-Dankzij de integratie tussen Adobe Campaign en Adobe Experience Platform kunt u gegevens naadloos synchroniseren tussen uw Adobe Campaign-landingspagina&#39;s en Adobe Experience Platform. Met deze integratie kunt u:
+Dankzij de integratie tussen Adobe Campaign en Adobe Experience Platform kunt u profielgegevens naadloos synchroniseren tussen uw Adobe Campaign-landingspagina&#39;s en Adobe Experience Platform. Met deze integratie kunt u:
 
 * Haal Adobe Experience Platform-profielkenmerken op om bijgewerkte informatie weer te geven op Adobe Campaign-bestemmingspagina&#39;s,
 * Stuur bijgewerkte profielkenmerken terug naar Adobe Experience Platform om de bijbehorende kenmerken bij te werken op basis van wat is ingevuld en verzonden op de bestemmingspagina&#39;s.
@@ -40,8 +40,8 @@ Ga als volgt te werk om dit te doen:
 1. Maak een nieuwe API-verbinding met het Adobe Experience Platform API-product. De gedetailleerde stappen op hoe te om een OAuth 2.0 toegangstoken te verkrijgen zijn beschikbaar in [Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
 1. Wanneer de verbinding is gemaakt, navigeert u naar de **[!UICONTROL OAuth Server-to-Server]** en kopieert u de onderstaande gegevens, die in Campagne zijn vereist voor verificatie:
 
-   * CLIENT-ID
-   * CLIENT SECRET
+   * `CLIENT ID`
+   * `CLIENT SECRET`
    * ORGANISATIE-ID
 
    ![](assets/ac-lp-oauth.png){width="70%"}
@@ -102,7 +102,7 @@ Als u deze opties automatisch wilt configureren tijdens de uitvoering van de wor
 
 Bij de uitvoering van de workflow worden de opties automatisch gemaakt in de Campagneconsole met de opgegeven waarden.
 
-    &quot;
+    &quot;javascript
     loadLibrary(&quot;xtk:shared/nl.js&quot;);
     loadLibrary(&quot;xtk:shared/xtk.js&quot;);
     loadLibrary(&quot;xtk:shared/json2.js&quot;);
@@ -138,7 +138,7 @@ Als u gegevenssynchronisatie tussen bestemmingspagina&#39;s en Adobe Experience 
 
    Deze code controleert of het profiel in Adobe Experience Platform bestaat voordat de bestemmingspagina wordt geladen. De profielkenmerken worden opgehaald en weergegeven in de corresponderende velden van de landingspagina.
 
-   ```
+   ```javascript
    // API implementation to read profile from AEP
    function getProfileInfo(email)
    {
@@ -161,7 +161,7 @@ Als u gegevenssynchronisatie tussen bestemmingspagina&#39;s en Adobe Experience 
 
    Deze code werkt profielkenmerken in Adobe Experience Platform bij met de waarden die op de landingspagina worden verzonden.
 
-   ```
+   ```javascript
    // API implementation to update profile in AEP
    loadLibrary("xtk:shared/nl.js");
    loadLibrary("xtk:shared/xtk.js");
@@ -215,7 +215,7 @@ Als de JavaScript-codes aan Adobe Campaign zijn toegevoegd, kunt u ze gebruiken 
 
 +++ Script 1 - Profielkenmerken laden vanuit Experience Platform
 
-  ```
+  ```javascript
   // Script code to read profile from AEP.
   
   logInfo("Loading profile from AEP");
@@ -255,7 +255,7 @@ Als de JavaScript-codes aan Adobe Campaign zijn toegevoegd, kunt u ze gebruiken 
 
 +++ Script 2 - Experience Platform-profielkenmerken bijwerken
 
-  ```
+  ```javascript
   // Script code to update profile in AEP and ACC.
   
   logInfo("Executing script to update AEP profile.");

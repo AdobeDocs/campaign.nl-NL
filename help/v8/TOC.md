@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '587'
 ht-degree: 16%
 
 ---
@@ -139,8 +139,8 @@ ht-degree: 16%
 + Integraties {#connect}
    + [Campagne verbinden met andere oplossingen](connect/integration.md)
    + Campagne + Experience Platform {#ac-aep}
-      + [Soorten publiek en profielkenmerken](connect/ac-aep.md)
-      + [bestemmingspagina&#39;s en profielkenmerken voor campagne](connect/ac-aep-landing-pages.md)
+      + [Soorten publiek en profielkenmerken delen en synchroniseren](connect/ac-aep.md)
+      + [AEP-profielen bijwerken van bestemmingspagina&#39;s voor campagnes](connect/ac-aep-landing-pages.md)
    + [Campagne + Journey Optimizer](connect/ac-ajo.md)
    + [Campagne + Analyse](connect/ac-aa.md)
    + [Campagne + Experience Manager](connect/ac-aem.md)
