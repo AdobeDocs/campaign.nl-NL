@@ -5,7 +5,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3b790305984436f1168f9c73aa09df509b2217f0
+source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 2%
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van updates is bedoeld om de nieuwste en beste in uw handen te krijgen, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Adobe raadt alle klanten ten zeerste aan een upgrade uit te voeren naar de nieuwste versie. Meer informatie over campagneversies en aanbevelingen [op deze pagina](upgrades.md).
 
-Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgevingen upgraden. Campagne-clientconsole **moet worden geüpgraded naar dezelfde versie** als Campagneservers. Leer hoe u uw clientconsole in deze [page](../start/connect.md#upgrade-ac-console).
+Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgevingen upgraden. Campagne-clientconsole **moet worden geüpgraded naar dezelfde versie** als Campagneservers. Leer hoe u uw clientconsole kunt upgraden [op deze pagina](../start/connect.md#upgrade-ac-console).
 
-Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde versies van de systemen gebruikt die in de [Compatibiliteitsmatrix](compatibility-matrix.md).
+Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde versie van de systemen gebruikt die in de [Compatibiliteitsmatrix](compatibility-matrix.md).
 
 
 ## Release 8.6.2 {#release-8-6-2}

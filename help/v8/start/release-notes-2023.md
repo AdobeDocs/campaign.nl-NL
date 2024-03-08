@@ -4,7 +4,8 @@ description: Lijst met functies en verbeteringen die worden geleverd bij de 2023
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
+source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 21%
@@ -13,7 +14,7 @@ ht-degree: 21%
 
 # Opmerkingen bij de release 2023 {#2023-rn}
 
-Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd bij **2022 Campagne v8-releases**.
+Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd bij **2023 Campagne v8-releases**.
 
 ## Release 8.5.2 {#release-8-5-2}
 
@@ -151,5 +152,3 @@ _zaterdag 27 januari 2023_
 * Het beheer van URL&#39;s bijhouden is verbeterd in workflows met meerdere leveringen om de prestaties te verbeteren. (NEO-50894) <!--OKKKK-->
 * Probleem verholpen waarbij de replicatie van schema&#39;s die Xtkfolder gebruiken kon mislukken. (NEO-46787) <!--OKKKK-->
 * Probleemoplossing die ervoor zorgde dat de aangepaste kolom &quot;lastModified&quot; in de tabel NmsSubscription zou worden verwijderd. (NEO-48402)
-
-
