@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
+source-git-commit: 55c177b6931ef2c427c8e9793b463274b8abb015
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 4%
@@ -40,7 +40,7 @@ Als voormalig [!DNL Campaign Classic] gebruiker, merk op dat het grootste deel v
 >Met de nieuwe cloudarchitectuur kan Campagne processen stroomlijnen, kosten verlagen, risico&#39;s beheren en de gegevensbeveiliging verbeteren. Uw Campagne v8-omgeving wordt geleverd met een speciale Virtual Private Cloud (VPC) die vooraf voor u is geconfigureerd.
 
 
-## Hybride architecteband {#hybrid-archi}
+## Hybride architectuur {#hybrid-archi}
 
 Campagne v8 is gebaseerd op een **hybride architectuur**. Als u van Campaign Classic v7 overgaat, merk op dat alle leveringen door de midsourcingserver gaan.
 
