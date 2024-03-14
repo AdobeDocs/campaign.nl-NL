@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 16%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 16%
 # Adobe Campaign v8-documentatie {#campaign-v8}
 
 + [Campagne v8-documentatie](campaign-home.md)
-+ releases en nieuwste updates {#releases}
-   + [Documentatie-updates](start/documentation-updates.md)
++ Opmerkingen bij de release {#releases}
    + [Vroege aanvullende informatie](start/e-release-notes.md)
    + [Versies en upgrades](start/upgrades.md)
-   + [Aanvullende informatie ](start/release-notes.md)
+   + [Nieuwste release](start/release-notes.md)
    + Opmerkingen bij vorige release {#previous-rn}
-      + [2023](start/release-notes-2023.md)
-      + [2022](start/release-notes-2022.md)
-      + [2021](start/release-notes-2021.md)
+      + [Releases van 2023](start/release-notes-2023.md)
+      + [Releases van 2022](start/release-notes-2022.md)
+      + [Releases van 2021](start/release-notes-2021.md)
    + [Guardrails](start/ac-guardrails.md)
    + [Bekende problemen](start/known-issues.md)
    + [Compatibiliteitsmatrix](start/compatibility-matrix.md)
+   + [Documentatie-updates](start/documentation-updates.md)
 + Aan de slag {#new}
    + [Aan de slag met Adobe Campaign](start/get-started.md)
    + [Belangrijkste mogelijkheden](start/whats-new.md)

@@ -5,10 +5,10 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
@@ -117,7 +117,17 @@ Als campagnebeheerder bent u verantwoordelijk voor het maken van de operatoren e
 Meer informatie over gebruikers en het definiëren van hun machtigingen vindt u in [deze sectie](gs-permissions.md).
 
 
-## Webtoegang{#web-access}
+## Campagne openen met een webbrowser {#connect-web-ac}
+
+### Webgebruikersinterface {#connect-web-ui}
+
+Vanaf de release van Campagne v8.6 hebt u toegang tot de nieuwe **Gebruikersinterface Campagne Web**, beschikbaar via de centrale Adobe Experience Cloud-omgeving. Experience Cloud is de geïntegreerde familie van digitale marketingtoepassingen, producten en diensten van de Adobe. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services.
+
+Leer hoe u verbinding maakt met Adobe Experience Cloud en toegang krijgt tot de Adobe Campaign Web Interface [op deze pagina](campaign-ui.md#ac-web-ui).
+
+Meer informatie in het dialoogvenster [Adobe Campaign Web-gebruikersinterfacedocumentatie](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+
+### webtoegang {#web-access}
 
 Bepaalde delen van de toepassing zijn toegankelijk via een webbrowser met behulp van een HTML-gebruikersinterface: rapportage, goedkeuring van levering, controle van instanties en meer.
 

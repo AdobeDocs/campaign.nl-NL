@@ -4,7 +4,8 @@ description: Meer informatie over campagneversies en upgrades
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 10%
@@ -81,8 +82,3 @@ Als u een upgrade uitvoert naar de nieuwste versie, krijgt u doorgaans het volge
 Als v8-klant wordt u door de Adobe rechtstreeks op de hoogte gesteld als u hebt vastgesteld dat uw account moet worden bijgewerkt naar een nieuwe versie.
 
 Het team van de Adobe is hier om uw organisatie door deze reis te leiden en te begeleiden. Een speciaal team van klantenservicemedewerkers, productmanagers, engineers, technische specialisten en productconsultants biedt u ondersteuning en zorgt voor een probleemloze ervaring.
-
-
-
-
-
