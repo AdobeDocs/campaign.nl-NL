@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Ook van toepassing op Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Is van toepassing op campagne v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a494ac834b1febcafe04f4bb05eb74834df7b024
+source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ Als u wilt controleren of er gevolgen voor u zijn, kunt u het filter **Services 
 ![](assets/filter-services-ios.png)
 
 
-* Als een van uw actieve pushmeldingenservice de **Certificaatgebaseerde verificatie** -modus, moeten uw huidige implementaties worden gereviseerd en naar een **Op token gebaseerde verificatie** zoals hieronder beschreven.
+* Als een van uw actieve pushmeldingenservice de **Certificaatgebaseerde verificatie** in de modus (.p12), moeten uw huidige implementaties worden gecontroleerd en naar een **Op token gebaseerde verificatie** modus (.p8) zoals hieronder beschreven.
 
 * Als uw opstelling exclusief gebruikmaakt van **Op token gebaseerde verificatie** voor iOS-pushberichten, is uw implementatie al up-to-date en hoeft u verder niets te doen.
 
@@ -157,9 +157,9 @@ Als u wilt controleren of er gevolgen voor u zijn, kunt u het filter **Services 
 Voer de volgende stappen uit om uw mobiele iOS-toepassingen te verplaatsen naar de op token gebaseerde verificatiemodus:
 
 1. Blader naar uw lijst met **Services en abonnementen**.
-1. Alle mobiele toepassingen weergeven met de opdracht **Certificaatgebaseerde verificatie** -modus.
+1. Alle mobiele toepassingen weergeven met de opdracht **Certificaatgebaseerde verificatie** modus (.p12).
 1. Bewerk elk van deze mobiele toepassingen en blader naar de **Certificaat/persoonlijke sleutel** tab.
-1. Van de **Verificatiemodus** vervolgkeuzelijst, selecteert u **Op token gebaseerde verificatie**.
+1. Van de **Verificatiemodus** vervolgkeuzelijst, selecteert u **Op token gebaseerde verificatie** modus (.p8).
 1. De APN-verbindingsinstellingen invullen **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** en **[!UICONTROL Bundle Id]** Selecteer vervolgens uw p8-certificaat door op **[!UICONTROL Enter the private key...]**.
 
    ![](assets/token-based-certif.png)
