@@ -8,7 +8,7 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Ook van toepassing op Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Is van toepassing op campagne v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: c81744fdf4a4fc47820c077f69288a0ea66fa5e4
+source-git-commit: a494ac834b1febcafe04f4bb05eb74834df7b024
 workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 1%
@@ -33,32 +33,32 @@ Adobe Campaign Classic v7 en Adobe Campaign v8 ondersteunen al de nieuwste API&#
 
 ### Heb je invloed op? {#fcm-impact}
 
-Als uw huidige implementatie ondersteuning biedt voor abonnementsservices die verbinding maken met FCM via de verouderde API&#39;s, heeft dit gevolgen voor u. Migratie naar de nieuwste API&#39;s is verplicht om elke onderbreking van de service te voorkomen. In dat geval zullen de teams van de Adobe u bereiken.
+Als uw huidige implementatie ondersteuning biedt voor abonnementsservices die verbinding maken met FCM via de verouderde API&#39;s, heeft dit gevolgen voor u. De overgang naar de nieuwste API&#39;s is verplicht om elke onderbreking van de service te voorkomen. In dat geval zullen de teams van de Adobe u bereiken.
 
 Als u wilt controleren of er gevolgen voor u zijn, kunt u het filter **Services en abonnementen** volgens het onderstaande filter:
 
 ![](assets/filter-services-fcm.png)
 
 
-* Als een van uw actieve pushmeldingenservice de **HTTP (verouderd)** API, heeft deze wijziging rechtstreeks invloed op uw installatie. U moet uw huidige configuraties controleren en migreren naar de nieuwere API&#39;s, zoals hieronder wordt beschreven.
+* Als een van uw actieve pushmeldingenservice de **HTTP (verouderd)** API, heeft deze wijziging rechtstreeks invloed op uw installatie. U moet uw huidige configuraties controleren en naar de nieuwere API&#39;s gaan zoals hieronder wordt beschreven.
 
 * Als uw opstelling exclusief gebruikmaakt van **HTTP v1** API voor Android-pushmeldingen, voldoet u al aan de eisen en hoeft u verder niets te doen.
 
-### Hoe migreren? {#fcm-migration-procedure}
+### Hoe kan ik bijwerken? {#fcm-transition-procedure}
 
-#### Vereisten {#fcm-migration-prerequisites}
+#### Vereisten {#fcm-transition-prerequisites}
 
-* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in versie 20.3.1. Als uw omgeving op een oudere versie wordt uitgevoerd, is het een eerste vereiste voor de migratie naar HTTP v1 om uw omgeving te upgraden naar de [nieuwste Campaign Classic maken](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
+* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in versie 20.3.1. Als uw omgeving op een oudere versie wordt uitgevoerd, is het een eerste vereiste voor de overgang naar HTTP v1 om uw omgeving te upgraden naar de [nieuwste Campaign Classic maken](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
 
 * Het JSON-bestand van de Android Firebase Admin SDK-service is vereist om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe u dit bestand kunt ophalen in [Google Firebase-documentatie](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* Voor Hybride, Gehoste en Managed Services plaatsingen, naast de hieronder migratieprocedure, contacteer Adobe om uw Real-Time (RT) uitvoeringsserver bij te werken. De server voor middelste bronnen heeft geen invloed op deze server.
+* Voor hybride, Gehoste en Managed Services plaatsingen, naast de hieronder overgangsprocedure, contacteer Adobe om uw Real-Time (RT) uitvoeringsserver bij te werken. De server voor middelste bronnen heeft geen invloed op deze server.
 
 * Als Campaign Classic v7 on-premise gebruiker, moet u zowel de Marketing als Real-Time uitvoeringsservers bevorderen. De server voor middelste bronnen heeft geen invloed op deze server.
 
-#### Migratieprocedure {#fcm-migration-steps}
+#### Overgangprocedure {#fcm-transition-steps}
 
-Ga als volgt te werk om uw omgeving te migreren naar HTTP v1:
+Ga als volgt te werk om uw omgeving te verplaatsen naar HTTP v1:
 
 1. Blader naar uw lijst met **Services en abonnementen**.
 1. Alle mobiele toepassingen weergeven met de opdracht **HTTP (verouderd)** API-versie.
@@ -129,7 +129,7 @@ Adobe Campaign Classic v7 en Adobe Campaign v8 ondersteunen zowel tokengebaseerd
 
 ### Heb je invloed op? {#ios-impact}
 
-Als uw huidige implementatie afhankelijk is van op een certificaat gebaseerde aanvragen om verbinding te maken met APNs, heeft dit gevolgen voor u. Migratie naar een tokenverbinding wordt aanbevolen.
+Als uw huidige implementatie afhankelijk is van op een certificaat gebaseerde aanvragen om verbinding te maken met APNs, heeft dit gevolgen voor u. De overgang naar een op een token gebaseerde verbinding wordt aanbevolen.
 
 Als u wilt controleren of er gevolgen voor u zijn, kunt u het filter **Services en abonnementen** volgens het onderstaande filter:
 
@@ -140,21 +140,21 @@ Als u wilt controleren of er gevolgen voor u zijn, kunt u het filter **Services 
 
 * Als uw opstelling exclusief gebruikmaakt van **Op token gebaseerde verificatie** voor iOS-pushberichten, is uw implementatie al up-to-date en hoeft u verder niets te doen.
 
-### Hoe migreren? {#ios-migration-procedure}
+### Hoe kan ik bijwerken? {#ios-transition-procedure}
 
-#### Vereisten {#ios-migration-prerequisites}
+#### Vereisten {#ios-transition-prerequisites}
 
 * Voor Campaign Classic v7 **Op token gebaseerde verificatie** mode is toegevoegd in versie 20.2. Als uw omgeving op een oudere versie wordt uitgevoerd, is een upgrade van uw omgeving naar de [nieuwste Campaign Classic maken](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campaign v8, **Op token gebaseerde verificatie** Deze modus wordt door alle releases ondersteund en er is geen upgrade nodig.
 
 * U hebt een APNs-verificatietoken voor ondertekening nodig om de tokens te genereren die uw server gebruikt. U kunt deze sleutel aanvragen via uw Apple-ontwikkelaarsaccount, zoals wordt uitgelegd in [Apple Developer-documentatie](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
-* Voor Hybride, Gehoste en Managed Services plaatsingen, naast de hieronder migratieprocedure, contacteer Adobe om uw Real-Time (RT) uitvoeringsserver bij te werken. De server voor middelste bronnen heeft geen invloed op deze server.
+* Voor hybride, Gehoste en Managed Services plaatsingen, naast de hieronder overgangsprocedure, contacteer Adobe om uw Real-Time (RT) uitvoeringsserver bij te werken. De server voor middelste bronnen heeft geen invloed op deze server.
 
 * Als Campaign Classic v7 on-premise gebruiker, moet u zowel de Marketing als Real-Time uitvoeringsservers bevorderen. De server voor middelste bronnen heeft geen invloed op deze server.
 
-#### Migratieprocedure {#ios-migration-steps}
+#### Overgangprocedure {#ios-transition-steps}
 
-Voer de volgende stappen uit om uw mobiele iOS-toepassingen te migreren naar de op token gebaseerde verificatiemodus:
+Voer de volgende stappen uit om uw mobiele iOS-toepassingen te verplaatsen naar de op token gebaseerde verificatiemodus:
 
 1. Blader naar uw lijst met **Services en abonnementen**.
 1. Alle mobiele toepassingen weergeven met de opdracht **Certificaatgebaseerde verificatie** -modus.
