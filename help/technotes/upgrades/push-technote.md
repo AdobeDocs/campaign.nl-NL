@@ -8,14 +8,14 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Ook van toepassing op Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Is van toepassing op campagne v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
+source-git-commit: c81744fdf4a4fc47820c077f69288a0ea66fa5e4
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1352'
 ht-degree: 1%
 
 ---
 
-# Aanstaande wijzigingen in het kanaal voor pushmeldingen {#push-upgrade}
+# Wijzigingen in kanaal voor pushmelding {#push-upgrade}
 
 Met Campagne kunt u pushmeldingen verzenden op iOS- en Android-apparaten. Hiervoor is de campagne afhankelijk van abonnementsservices voor mobiele toepassingen.
 
