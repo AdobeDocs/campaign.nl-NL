@@ -5,10 +5,10 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 3%
+source-wordcount: '837'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Volg onderstaande stappen om een nieuwe aanbiedingsruimte te maken:
 
    ![](assets/offer_space_create_002.png)
 
-1. Schakel de optie **[!UICONTROL Enable unitary mode]** in
+1. Controleer de **[!UICONTROL Enable unitary mode]** option
 
 1. Ga naar de **[!UICONTROL Content field]** venster en klik op **[!UICONTROL Add]**.
 
@@ -94,7 +94,7 @@ Wanneer een aanbiedingsvoorstel **gemaakt**, wordt de status bijgewerkt.
 
 In de **[!UICONTROL Design]** milieu, voor elke aanbiedingsruimte, vorm de status om van toepassing te zijn wanneer een voorstel, afhankelijk van de informatie wordt gecreeerd u in de aanbiedingsrapporten wilt tonen.
 
-Volg de onderstaande stappen om dit te doen:
+Hiervoor voert u de volgende stappen uit:
 
 1. Ga naar de **[!UICONTROL Storage]** van de gewenste ruimte.
 1. Selecteer de status die u wilt toepassen op het voorstel wanneer het wordt gemaakt.
@@ -105,7 +105,7 @@ Volg de onderstaande stappen om dit te doen:
 
 Zodra een voorstel is gedaan **aanvaard**, gebruik één van de waarden die door gebrek worden verstrekt om de nieuwe status van het voorstel te vormen. De update wordt toegepast wanneer een ontvanger op een koppeling in de aanbieding klikt.
 
-Volg de onderstaande stappen om dit te doen:
+Hiervoor voert u de volgende stappen uit:
 
 1. Ga naar de **[!UICONTROL Storage]** van de gewenste ruimte.
 1. Selecteer de status die u op het voorstel wilt toepassen wanneer het wordt goedgekeurd.
@@ -156,4 +156,4 @@ Als een ontvanger niet in aanmerking komt voor een voorstel, wordt dit weergegev
 
 In de voorvertoning kunnen contexten worden genegeerd wanneer deze beperkt zijn tot een spatie. Dit is het geval wanneer het interactieschema is uitgebreid om velden toe te voegen waarnaar in een ruimte wordt verwezen met een binnenkomend kanaal.
 
-![](../assets/do-not-localize/book.png)  Voor meer informatie hierover raadpleegt u dit voorbeeld in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.
+Voor meer informatie hierover raadpleegt u dit voorbeeld in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

@@ -5,9 +5,9 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '705'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ U kunt de standaardtabel Ontvanger gebruiken voor de velden buiten het vak, zoal
 * [Een bestaande tabel uitbreiden](extend-schema.md) met nieuwe velden. U kunt bijvoorbeeld een nieuw veld Loyalty toevoegen aan de tabel Ontvanger.
 * [Een nieuwe tabel maken](create-schema.md), bijvoorbeeld een tabel met alle aankopen die door elk profiel van de database zijn gedaan, en koppel deze aan de tabel Ontvanger.
 
-![](../assets/do-not-localize/glass.png) Ontdek beste praktijken wanneer het werken met het datamodel van de Campagne in [deze sectie](datamodel-best-practices.md).
+Ontdek beste praktijken wanneer het werken met het datamodel van de Campagne in [deze sectie](datamodel-best-practices.md).
 
 ## Ingebouwde profielentabel {#ootb-profiles}
 
@@ -58,9 +58,9 @@ De voordelen van de standaardtabel voor ontvangers zijn:
 
 Het is mogelijk de tabel voor ontvangers uit te breiden, maar niet om het aantal velden of koppelingen in de tabel te verminderen.
 
-![](../assets/do-not-localize/glass.png) Leer hoe u een bestaand schema kunt uitbreiden in [deze sectie](extend-schema.md).
+Leer hoe u een bestaand schema kunt uitbreiden in [deze sectie](extend-schema.md).
 
-![](../assets/do-not-localize/book.png) Voorbeelden van ingebouwde tabelextensies voor ontvangers ontdekken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
+Voorbeelden van ingebouwde tabelextensies voor ontvangers ontdekken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
 U kunt een verschillende ontvankelijke lijst ook gebruiken om beter met uw zaken of functionele vereisten te passen. Deze methode heeft beperkingen en wordt beschreven in [deze sectie](custom-recipient.md).
 
@@ -68,9 +68,9 @@ U kunt een verschillende ontvankelijke lijst ook gebruiken om beter met uw zaken
 
 Voor een beter inzicht in tabelbeheer in Campaign v8, moet u in de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), worden tabellen gerepliceerd tussen Campagne en de bijbehorende Snowflake Cloud-database.
 
-![](../assets/do-not-localize/glass.png) Meer informatie over replicatiestrategie en -mechanismen in [deze sectie](../architecture/replication.md).
+Meer informatie over replicatiestrategie en -mechanismen in [deze sectie](../architecture/replication.md).
 
 **Verwante onderwerpen**
 
-![](../assets/do-not-localize/glass.png) Ontdek hoe u profielen kunt importeren in [deze sectie](../start/import.md)
-![](../assets/do-not-localize/glass.png) Meer informatie over campagnepubliek in [deze sectie](../start/audiences.md)
+Ontdek hoe u profielen kunt importeren in [deze sectie](../start/import.md)
+Meer informatie over campagnepubliek in [deze sectie](../start/audiences.md)

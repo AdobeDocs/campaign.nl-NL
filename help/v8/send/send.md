@@ -5,7 +5,7 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Van het leveringsdashboard, kunt u de verwerkte berichten en de logboeken van de
 >De leveringsstatus wordt niet in real time weergegeven. Meer informatie over E-mailfeedbackservice [in deze sectie](#email-feedback-service).
 
 
-![](../assets/do-not-localize/book.png) [Meer informatie over leveringscontrole in Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
+[Meer informatie over leveringscontrole in Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## Campagne MTA {#mta}
 

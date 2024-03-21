@@ -5,7 +5,7 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 15%
@@ -24,13 +24,13 @@ Leer profielen en publiek importeren, bijwerken en beheren [in deze sectie](../a
 
 Een lijst is een statische reeks contacten die in leveringsacties kunnen worden gericht of tijdens de invoer of een andere werkschemaactie worden bijgewerkt. Bijvoorbeeld, kan een populatie die uit het gegevensbestand via een vraag wordt gehaald als lijst worden opgeslagen.
 
-![](../assets/do-not-localize/glass.png) Leer hoe u lijsten maakt en beheert in [deze pagina](../audiences/create-audiences.md).
+Leer hoe u lijsten maakt en beheert in [deze pagina](../audiences/create-audiences.md).
 
 ## De database filteren{#filter-the-database}
 
 Met de filterconfiguratie kunt u gegevens uit een lijst selecteren **[!UICONTROL dynamically]**: Wanneer de gegevens worden gewijzigd, worden de gefilterde gegevens bijgewerkt. U kunt uw eigen filters maken of de ingebouwde filters gebruiken om een doelgroep te definiëren.
 
-![](../assets/do-not-localize/glass.png) Leer hoe u filters kunt maken en beheren in [deze pagina](../audiences/create-filters.md).
+Leer hoe u filters kunt maken en beheren in [deze pagina](../audiences/create-filters.md).
 
 ## Een publiek maken in een workflow
 
@@ -41,7 +41,7 @@ Leer hoe u een publiek kunt maken in een campagneworkflow in [deze pagina](https
 
 ## Actieve profielen {#active-profiles}
 
-Een actief profiel is een profiel waarmee klanten de afgelopen twaalf maanden via een willekeurig kanaal hebben geprobeerd te communiceren. De licentiemetriek is gebaseerd op actieve profielen. Meer informatie in [Adobe Campaign-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Een actief profiel is een profiel waarmee klanten de afgelopen twaalf maanden via een willekeurig kanaal hebben geprobeerd te communiceren. De licentiemetriek is gebaseerd op actieve profielen. Meer informatie in [Adobe Campaign-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 U kunt het aantal actieve profielen op uw instantie direct van het Controlebord van de Campagne controleren. Raadpleeg voor meer informatie de [Documentatie van het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
@@ -55,7 +55,7 @@ U kunt het aantal actieve profielen op uw instantie direct van het Controlebord 
 
 Adobe Campaign is een krachtig instrument voor het verzamelen en verwerken van grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens. Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en gevoelige informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
 
-![](../assets/do-not-localize/book.png) Leer hoe u privacy en toestemming beheert in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}.
+Leer hoe u privacy en toestemming beheert in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}.
 
 **Verwante onderwerpen**
 

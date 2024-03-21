@@ -5,10 +5,10 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -80,17 +80,17 @@ De PostgreSQL-database in de mid-sourcing-instantie wordt gebruikt om:
 
 ## Gevolgen{#ffda-impacts}
 
-### [!DNL Campaign] API-stagingmechanisme{#staging-api}
+### [!DNL Campaign] mechanisme voor API-staging{#staging-api}
 
 Met [!DNL Campaign] Cloud-database, unitaire oproepen worden niet aanbevolen vanwege prestaties (latentie en gelijktijdige uitvoering). Batchbewerking heeft altijd de voorkeur. Om optimale prestaties van APIs te waarborgen, blijft de Campagne API vraag op het lokale gegevensbestandniveau behandelen.
 
-![](../assets/do-not-localize/glass.png) [Het mechanisme voor API-staging wordt in deze pagina beschreven](staging.md)
+[Het mechanisme voor API-staging wordt in deze pagina beschreven](staging.md)
 
 ### Nieuwe API&#39;s{#new-apis}
 
 Er zijn nieuwe API&#39;s beschikbaar voor het beheer van gegevenssynchronisatie tussen [!DNL Campaign] lokale database en Cloud-database. Er is ook een nieuw mechanisme geïntroduceerd om API-aanroepen op lokaal databaseniveau af te handelen om latentie te voorkomen en de algehele prestaties te verbeteren.
 
-![](../assets/do-not-localize/glass.png) [Nieuwe API&#39;s worden in deze pagina beschreven](new-apis.md)
+[Nieuwe API&#39;s worden in deze pagina beschreven](new-apis.md)
 
 
 ### Gegevensreplicatie{#data-replication}
@@ -119,7 +119,7 @@ Adobe Campaign v8 wordt geleverd met Snowflake als de kerndatabase. Aangezien he
 
 Sommige mogelijkheden zijn niet beschikbaar in de context van een plaatsing van de Onderneming (FFDA) van Campagne, zoals:
 
-* Marketing Resource Management
+* Beheer van marketingbronnen
 * Coupons
 * Webtracking
 * Enquêtes

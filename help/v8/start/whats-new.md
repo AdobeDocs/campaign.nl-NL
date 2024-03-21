@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 55324243c70f2bbdace4acac233d1dd470562414
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Verbeter de snelheid en schaal van elk aspect van uw marketing campagnes, van he
 
 Adobe Campaign maakt het voor u gemakkelijk om uw kanalen in synchronisatie te krijgen, met één enkele, makkelijk te gebruiken interface voor campagneorchestratie. Dus je online kanalen — zoals e-mail, web, mobiel en sociaal — komen overeen met je offlinekanalen, zoals direct mail, callcenter, in-store enzovoort. Het biedt u de mogelijkheid om uw klanten een consistente en contextuele ervaring te bieden in zowel digitale als traditionele kanalen. Adobe Campaign maakt het eenvoudig om inhoud aan alle wegen te leveren uw klanten - op om het even welk kanaal kunnen nemen.
 
-![](../assets/do-not-localize/glass.png) [Meer informatie over workflows voor campagnes](../config/workflows.md)
+[Meer informatie over workflows voor campagnes](../config/workflows.md)
 
 ### Speciale e-mailmarketing {#perso-email-mkt}
 
@@ -36,7 +36,7 @@ Maak persoonlijke en contextafhankelijke e-mails die consistent zijn met de rest
 
 Met Adobe Campaign kun je je e-mails beter, persoonlijker en winstgevender maken. E-mails zijn eenvoudig te maken en te leveren. Campagne v8 biedt u de flexibiliteit om elke boodschap die u verzendt te ontwerpen, personaliseren, testen, verfijnen en verbeteren.
 
-![](../assets/do-not-localize/glass.png) [Meer informatie over personalisatiemogelijkheden](create-message.md)
+[Meer informatie over personalisatiemogelijkheden](create-message.md)
 
 ### Beheer van klantgegevens {#customer-data-mgt}
 
@@ -44,7 +44,7 @@ Bekijk het hele beeld van uw klanten zodat u snel persoonlijke campagnes op bedr
 
 Met Adobe Campaign kunt u klantprofielen maken op basis van gegevens die via al uw kanalen worden verzameld. Met dit profiel kunt u campagnes langs kanalen ordenen. Door al uw marketing kanalen aan te sluiten, kunt u de verschillende reis aanpassen elke klant op de manier zal nemen die aan hen zinvol zal zijn.
 
-![](../assets/do-not-localize/glass.png) [Meer informatie over gegevensbeheer voor klanten](audiences.md)
+[Meer informatie over gegevensbeheer voor klanten](audiences.md)
 
 ### Best-in-class campagnebeheer {#best-in-campaign-mgt}
 
@@ -52,7 +52,7 @@ Adobe Campaign v8 biedt marketers de beste mogelijkheden om campagnes op verschi
 
 Capabilities bevatten een geïntegreerd profiel dat één weergave van de klant biedt. Gegevensbeheer en segmentering voor het opbouwen van campagnepubliek op schaal. Workflowbeheer voor meerdere kanalen voor het automatiseren van multi-channel en multi-wave campagnes. Geïntegreerde e-mail, waardoor u minder afhankelijk bent van dure ESP&#39;s. Rapportage en analyse voor begrip van klantengedrag en campagneprestaties.
 
-![](../assets/do-not-localize/glass.png) [Meer informatie over campagnebeheer](campaigns.md)
+[Meer informatie over campagnebeheer](campaigns.md)
 
 
 ### Verbindingen met Adobe Experience Platform {#connection-to-aep}
@@ -63,7 +63,7 @@ Bovendien is Adobe Campaign v8 native geïntegreerd met de realtime mogelijkhede
 
 U kunt ook voorspellende optimalisatie van de verzendtijd en voorspellende betrokkenheidsscoring configureren met Journey AI en de openingssnelheden verhogen, klikken en inkomsten verhogen.
 
-![](../assets/do-not-localize/glass.png) [Meer informatie over de integratie van campagnes](../connect/integration.md)
+[Meer informatie over de integratie van campagnes](../connect/integration.md)
 
 
 ### Beheerde Cloud Servicen {#acms-desc}
@@ -90,7 +90,7 @@ Adobe Campaign kan nu databasetechnologieën op cloudschaal gebruiken om de scha
 
 [Campagne v8 Enterprise](../architecture/enterprise-deployment.md) brengt het concept van **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met dit nieuwe aanbod vereenvoudigt Campagne v8 het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. [!DNL Snowflake] Dit is de Campagne Cloud Database, die u snelheid en duurzaamheid biedt: geen overbelasting van de pieken van de systeemactiviteit. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
 
-![](../assets/do-not-localize/glass.png) [Meer informatie over de implementatie van Enterprise (FFDA)](../architecture/enterprise-deployment.md)
+[Meer informatie over de implementatie van Enterprise (FFDA)](../architecture/enterprise-deployment.md)
 
 
 ## Self-service admin interface{#self-service-admin}
@@ -105,6 +105,6 @@ Via een intuïtieve gebruikersinterface kunnen beheerders het gebruik van belang
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [Meer informatie over het configuratiescherm voor campagnes](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
+[Meer informatie over het configuratiescherm voor campagnes](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
 
 

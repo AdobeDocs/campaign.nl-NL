@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 1%
+source-wordcount: '1307'
+ht-degree: 0%
 
 ---
 
@@ -68,7 +68,7 @@ Wanneer u de opdracht **[!UICONTROL Change Data Source]** is, moet u terugschake
 
 Als u de opdracht **[!UICONTROL Change Data Source]** activiteit:
 
-1. Een workflow maken.
+1. Maak een workflow.
 
 1. Vraag uw beoogde ontvangers om een query met een **[!UICONTROL Query]** activiteit.
 
@@ -121,11 +121,11 @@ Leer hoe u een terugkerende campagne kunt maken in [deze pagina](https://experie
 
 Het Transactionele overseinen van de Campagne van het gebruik om berichten te automatiseren die van gebeurtenissen worden geproduceerd die van informatiesystemen worden teweeggebracht. Deze transactiemeldingen kunnen bijvoorbeeld bestaan uit facturen, orderbevestiging, bevestiging van verzending, wijziging van het wachtwoord, kennisgeving van onbeschikbaarheid van het product, rekeningafschriften of het maken van websiteaccounts. Deze berichten kunnen individueel of in partij via e-mail, SMS of push berichten worden verzonden.
 
-![](../assets/do-not-localize/glass.png) Meer informatie over mogelijkheden voor transactieberichten vindt u in [deze sectie](../send/transactional.md).
+Meer informatie over mogelijkheden voor transactieberichten vindt u in [deze sectie](../send/transactional.md).
 
 Verbind Adobe Campaign en Adobe Analytics om gebruikersacties terug te winnen en dichtbij real-time gepersonaliseerde berichten te verzenden.
 
-![](../assets/do-not-localize/glass.png) Leer hoe u campagne kunt integreren met andere oplossingen in [deze sectie](../start/connect.md)
+Leer hoe u campagne kunt integreren met andere oplossingen in [deze sectie](../start/connect.md)
 
 
 ## Gebruiksgevallen van end-to-end werkstroom{#end-to-end-uc}
@@ -158,7 +158,7 @@ Leer hoe u het maken en leveren van een inhoudsblok kunt automatiseren met de in
 * [A/B-tests](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html){target="_blank"}
 Leer hoe u twee inhoud van e-mailbezorging via een doelworkflow kunt vergelijken. Het bericht en de tekst zijn identiek in beide leveringen: alleen de layout wordt gewijzigd. De beoogde populatie is verdeeld in drie: twee testgroepen en de resterende populatie. Een verschillende versie van de levering wordt verzonden naar elke testgroep.
 
-### Controleren {#monitoring}
+### Toezicht {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
@@ -171,7 +171,7 @@ Leer hoe u een workflow maakt waarmee u de status van een set workflows kunt con
 * [Persoonlijke waarschuwingen verzenden aan operatoren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html)
 Leer hoe u een waarschuwing verzendt naar een operator die de naam bevat van profielen die een nieuwsbrief hebben geopend maar niet op de koppeling in die nieuwsbrief hebben geklikt.
 
-### Data management {#management}
+### Gegevensbeheer {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 

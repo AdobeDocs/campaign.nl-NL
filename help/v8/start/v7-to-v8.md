@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 55c177b6931ef2c427c8e9793b463274b8abb015
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Als voormalig [!DNL Campaign Classic] v7 gebruiker, zou u geen grote verstoring 
 
 Adobe Campaign v8 is beschikbaar als een **Beheerde Cloud Service**.
 
-Adobe Campaign Managed Cloud Services biedt een platform voor beheerde Cloud Servicen voor het ontwerpen van klantervaringen over meerdere kanalen en biedt een omgeving voor visuele campagneorchestratie, interactiebeheer in real time en uitvoering over meerdere kanalen. Meer informatie over Cloud Servicen met beheerde campagnes in de [productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services biedt een platform voor beheerde Cloud Servicen voor het ontwerpen van klantervaringen over meerdere kanalen en biedt een omgeving voor visuele campagneorchestratie, interactiebeheer in real time en uitvoering over meerdere kanalen. Meer informatie over Cloud Servicen met beheerde campagnes in de [productbeschrijvingspagina](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 Het nieuwe aanbod combineert services van topklasse met proactief toezicht en tijdige waarschuwingen, waarbij de nadruk ligt op drie gebieden:
 
@@ -50,7 +50,7 @@ Bijgevolg:
 * De status van de leveringen wordt niet onmiddellijk bijgewerkt - Een technisch proces wordt uitgevoerd op de marketinginstantie die de leveringsstatus tijdig zal bijwerken.
 
 
-![](../assets/do-not-localize/glass.png) Meer informatie over het verzenden van proefdrukken van transactieberichten tijdens het overstappen van v7 op [deze pagina](../send/transactional-template.md#transition-from-v7).
+Meer informatie over het verzenden van proefdrukken van transactieberichten tijdens het overstappen van v7 op [deze pagina](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] en [!DNL Snowflake] {#ac-gs-snowflake}
@@ -59,14 +59,14 @@ In haar [Implementatie in het kader van Enterprise (FFDA)](../architecture/enter
 
 Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met deze nieuwe architectuur vereenvoudigt de implementatie van Campaign v8 Enterprise (FFDA) het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
 
-![](../assets/do-not-localize/glass.png) Meer informatie over [!DNL Campaign] v8-architectuur in [deze pagina](../architecture/architecture.md).
+Meer informatie over [!DNL Campaign] v8-architectuur in [deze pagina](../architecture/architecture.md).
 
 
 ## Adobe ID gebruiken om verbinding te maken met campagne{#adobe-id}
 
 Campagnegebruikers maken alleen verbinding via hun Adobe ID. Dezelfde Adobe ID wordt gebruikt om al uw Adobe plannen en producten verbonden aan één enkele rekening, voor alle oplossingen van Adobe Experience Cloud te houden.
 
-![](../assets/do-not-localize/glass.png) Leer hoe u verbinding kunt maken met [!DNL Campaign] in [deze pagina](connect.md).
+Leer hoe u verbinding kunt maken met [!DNL Campaign] in [deze pagina](connect.md).
 
 ## Gegevens met kubussen analyseren{#adobe-reporting}
 

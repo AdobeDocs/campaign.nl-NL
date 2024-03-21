@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f6ccec05d63c397d0a286c18f4114eb414156d45
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 11%
@@ -36,9 +36,9 @@ Campagne v8 kan verbinding maken met de volgende Adobe-oplossingen. Blader naar 
 
 U kunt ook uw **publiek** en **elementen** voor alle oplossingen voor Experiencen Cloud met mogelijkheden voor het delen van bedrijfsmiddelen en het delen van doelgroepen.
 
-![](../assets/do-not-localize/book.png) Meer informatie over **Delen van publiek** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+Meer informatie over **Delen van publiek** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/book.png) Meer informatie over **Elementen delen** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+Meer informatie over **Elementen delen** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
 ## Integreren met uw CRM-connector{#gs-crm-connectors}
 
@@ -53,7 +53,7 @@ Leer hoe u campagne kunt integreren met Microsoft Dynamics 365 en Salesforce.com
 
 Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten op een of meer **externe databases** en procesgegevens die in deze bestanden zijn opgeslagen, zonder dat dit van invloed is op de gegevens van de Campagne Cloud Database.
 
-![](../assets/do-not-localize/glass.png) Meer informatie in [deze pagina](fda.md)
+Meer informatie in [deze pagina](fda.md)
 
 ## Werken met sociale media{#gs-social}
 

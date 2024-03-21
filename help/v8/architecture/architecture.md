@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 86fa52c445b89227cfabb65e74627c5da7d3db1f
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Er zijn twee typen omgevingen beschikbaar:
 
 U kunt pakketten van de ene omgeving naar de andere exporteren en importeren.
 
-![](../assets/do-not-localize/book.png) Meer informatie over pakketten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
+Meer informatie over pakketten in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## Implementatiemodel {#ac-deployment}
 
@@ -100,7 +100,7 @@ om gespleten externe rekeningen als standaardrekening voor het verzenden van lev
 
 Transactioneel overseinen (het Centrum van het Bericht) is de module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen.
 
-![](../assets/do-not-localize/glass.png) Meer informatie over het verzenden van transactieberichten in [deze sectie](../send/transactional.md).
+Meer informatie over het verzenden van transactieberichten in [deze sectie](../send/transactional.md).
 
 Als reactie op een actie van een klant op een website, wordt een gebeurtenis verzonden Campagne door REST API, en het berichtmalplaatje wordt bevolkt met de informatie of de gegevens die door de API vraag worden verstrekt, en een transactiebericht wordt verzonden in real time naar de klant. Deze berichten kunnen individueel of in partijen via e-mail, SMS of push-berichten worden verzonden.
 
@@ -108,7 +108,7 @@ In deze specifieke architectuur, wordt de uitvoeringscel gescheiden van de contr
 
 * De **Control-instantie** (of marketinginstantie) wordt door marketers en IT-teams gebruikt om berichtsjablonen te maken, te configureren en te publiceren. Deze instantie centraliseert ook gebeurteniscontrole en geschiedenis.
 
-  ![](../assets/do-not-localize/glass.png) Meer informatie over het maken en publiceren van berichtsjablonen in [deze sectie](../send/transactional.md).
+  Meer informatie over het maken en publiceren van berichtsjablonen in [deze sectie](../send/transactional.md).
 
 * De **Uitvoeringsinstantie** treitert binnenkomende gebeurtenissen (bijvoorbeeld opnieuw instellen van wachtwoord of bestellingen van een website) op en stuurt gepersonaliseerde berichten. Er kunnen meer dan één uitvoeringsinstantie zijn om berichten te verwerken via het taakverdelingsmechanisme en het aantal gebeurtenissen te schalen dat moet worden uitgevoerd voor maximale beschikbaarheid.
 

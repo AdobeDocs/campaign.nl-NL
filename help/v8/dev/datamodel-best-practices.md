@@ -5,9 +5,9 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '2718'
+source-wordcount: '2740'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,9 @@ Het Adobe Campaign-systeem is zeer flexibel en kan verder worden uitgebreid dan 
 
 Voor een beter inzicht in de ingebouwde lijsten van de Campagne en hoe zij op elkaar betrekking hebben, verwijs naar [deze sectie](datamodel.md).
 
-![](../assets/do-not-localize/glass.png) Uitlezen [deze sectie](schemas.md) om aan de slag te gaan met campagnereschema&#39;s.
+Uitlezen [deze sectie](schemas.md) om aan de slag te gaan met campagnereschema&#39;s.
 
-![](../assets/do-not-localize/glass.png) Leer hoe te om uitbreidingsschema&#39;s te vormen om het conceptuele gegevensmodel van het gegevensbestand van Adobe Campaign uit te breiden in [deze pagina](extend-schema.md).
+Leer hoe te om uitbreidingsschema&#39;s te vormen om het conceptuele gegevensmodel van het gegevensbestand van Adobe Campaign uit te breiden in [deze pagina](extend-schema.md).
 
 ## Gegevensmodelarchitectuur {#data-model-architecture}
 

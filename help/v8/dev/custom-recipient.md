@@ -5,10 +5,10 @@ feature: Custom Resources, Profiles, Configuration
 role: User, Developer
 level: Intermediate, Experienced
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 3%
+source-wordcount: '127'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +18,4 @@ Adobe Campaign wordt geleverd met een ingebouwde tabel met profielen: **nmsRecip
 
 De ingebouwde tabeluitbreiding biedt flexibiliteit, maar het is niet toegestaan om enkele ongebruikte velden of koppelingen te verwijderen. Als gevolg hiervan kan het gebruik van een aangepaste ontvankelijke tabel een goede optie zijn wanneer uw datamodel sterk afwijkt van de geïntegreerde tabelstructuur van de campagne voor ontvangers of wanneer u een groot aantal profielen hebt.  Bij de toepassing van deze methode zijn echter bepaalde voorzorgsmaatregelen vereist.
 
-![](../assets/do-not-localize/book.png) Leer hoe u uw instantie configureert voor het gebruik van een aangepaste tabel voor ontvangers in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html){target="_blank"}.
+Leer hoe u uw instantie configureert voor het gebruik van een aangepaste tabel voor ontvangers in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html){target="_blank"}.

@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 1%
@@ -32,7 +32,7 @@ De gebruikelijke Adobe Campaign-implementatie van oplossingen bestaat uit de vol
 
 De toepassing kan op verschillende manieren worden benaderd: de gebruikersinterface van het Web, de cliëntconsole (rijke cliënt), Webtoegang (dunne cliënt), of API integratie.
 
-![](../assets/do-not-localize/glass.png) [Meer informatie over de gebruikersinterface van Campagne](../start/campaign-ui.md).
+[Meer informatie over de gebruikersinterface van Campagne](../start/campaign-ui.md).
 
 ## Ontwikkelingsomgeving {#dev-env}
 

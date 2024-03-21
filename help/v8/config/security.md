@@ -5,9 +5,9 @@ feature: Privacy, PI
 role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **Hoofdletters toevoegen aan webtoepassingen**: voeg hoofdletters toe in uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
 
-![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
 
 
 ## Personalisatie
@@ -66,7 +66,7 @@ Wanneer u persoonlijke koppelingen toevoegt aan uw inhoud, moet u altijd geen pe
 
 U moet ervoor zorgen dat de gecodeerde wachtwoorden niet toegankelijk zijn voor gebruikers met lage bevoegdheden. Hiervoor zijn er twee manieren: de toegang tot alleen wachtwoordvelden of tot de gehele entiteit beperken.
 
-Met deze beperking kunt u wachtwoordvelden verwijderen, maar de externe account blijft toegankelijk vanuit de interface voor alle gebruikers. Meer informatie in [deze pagina](../dev/restrict-pi-view.md).
+Met deze beperking kunt u wachtwoordvelden verwijderen, maar de externe account blijft toegankelijk vanuit de interface voor alle gebruikers. Meer informatie vindt u [op deze pagina](../dev/restrict-pi-view.md).
 
 1. Ingaan **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
@@ -144,4 +144,4 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **Hoofdletters toevoegen aan webtoepassingen**: voeg hoofdletters toe in uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
 
-![](../assets/do-not-localize/book.png) Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}

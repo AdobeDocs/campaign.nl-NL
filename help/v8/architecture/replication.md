@@ -5,9 +5,9 @@ feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: f807963a7640773ac18d49999b561f2f3b894d7f
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '365'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterpr
 
 Deze werkschema&#39;s voeren onderhoudsverrichtingen op het gegevensbestand uit, hefboomwerking de volgende informatie in de leveringslogboeken, creeer terugkomende campagnes, en meer.
 
-![](../assets/do-not-localize/glass.png) De volledige lijst van technische werkstromen wordt gedetailleerd in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
+De volledige lijst van technische werkstromen wordt gedetailleerd in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
 
 Naast deze technische workflows is Campagne v8 gebaseerd op specifieke technische workflows voor het beheer van [gegevensreplicatie](#data-replication).
 

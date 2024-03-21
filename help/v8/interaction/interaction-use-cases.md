@@ -5,10 +5,10 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4ea77a39-f505-4657-be43-a0e2b79ddcdd
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 2%
+source-wordcount: '50'
+ht-degree: 4%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 2%
 
 De mogelijkheden van de Interactie van de Campagne van de hefboomwerking door deze geleidelijke gebruiksgevallen beschikbaar in Campaign Classic v7 documentatie:
 
-![](../assets/do-not-localize/book.png) [Een presentatieregel maken en toepassen](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
+[Een presentatieregel maken en toepassen](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Verstuur een e-mailaanbieding](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Verstuur een e-mailaanbieding](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Een voorstel presenteren aan een anonieme bezoeker](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Een voorstel presenteren aan een anonieme bezoeker](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Voer een aanbiedingssimulatie uit](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Voer een aanbiedingssimulatie uit](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}

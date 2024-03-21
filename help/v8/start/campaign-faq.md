@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    U moet de clientconsole van Campagne downloaden en installeren om verbinding te maken met Adobe Campaign.
 
-   ![](../assets/do-not-localize/glass.png) [Klik hier voor meer informatie](connect.md).
+   [Klik hier voor meer informatie](connect.md).
 
    Vanaf de release van Campagne v8.6 hebt u toegang tot de nieuwe **Gebruikersinterface Campagne Web**, beschikbaar via de centrale Adobe Experience Cloud-omgeving. Experience Cloud is de geïntegreerde familie van digitale marketingtoepassingen, producten en diensten van de Adobe. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services.
 
@@ -43,9 +43,9 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    E-maillevering, een essentieel onderdeel van het succes van het marketingprogramma van elke afzender, wordt gekenmerkt door voortdurend veranderende criteria en regels. Voor een effectieve navigatie in deze digitale wereld is een regelmatige afstemming van uw e-mailstrategie vereist, waarbij rekening wordt gehouden met belangrijke ontwikkelingen op het gebied van de leverbaarheid, zodat uw publiek het beste kan bereiken.
 
-   ![](../assets/do-not-localize/book.png) Raadpleeg deze handleiding voor meer informatie [Aanbevolen werkwijzen voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}
+   Raadpleeg deze handleiding voor meer informatie [Aanbevolen werkwijzen voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}
 
-   ![](../assets/do-not-localize/book.png) Leer hoe u de prestaties implementeert in Campagne [in deze handleiding](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
+   Leer hoe u de prestaties implementeert in Campagne [in deze handleiding](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
 
 1. **Hoe kan ik ervoor zorgen dat mijn levering zonder fouten wordt verzonden?**
 

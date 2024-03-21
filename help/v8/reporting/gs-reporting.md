@@ -5,10 +5,10 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 4%
+source-wordcount: '308'
+ht-degree: 5%
 
 ---
 
@@ -18,38 +18,38 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
 * **Kubussen**
 
-   Adobe Campaign wordt geleverd met een intuïtief hulpprogramma voor gegevensverkenning voor het maken van dynamische rapporten.
+  Adobe Campaign wordt geleverd met een intuïtief hulpprogramma voor gegevensverkenning voor het maken van dynamische rapporten.
 
-   Gebruik de mogelijkheden voor marketinganalyses om gegevens te analyseren en te meten, statistieken te berekenen, het maken en berekenen van rapporten te vereenvoudigen en te optimaliseren. U kunt rapporten creëren en doelpopulaties bouwen en hen opslaan in lijsten die in Adobe Campaign voor het richten of segmenteren van taken kunnen worden gebruikt.
+  Gebruik de mogelijkheden voor marketinganalyses om gegevens te analyseren en te meten, statistieken te berekenen, het maken en berekenen van rapporten te vereenvoudigen en te optimaliseren. U kunt rapporten creëren en doelpopulaties bouwen en hen opslaan in lijsten die in Adobe Campaign voor het richten of segmenteren van taken kunnen worden gebruikt.
 
-   ![](assets/create-a-report.png)
+  ![](assets/create-a-report.png)
 
-   Afhankelijk van de complexiteit van de query&#39;s, berekeningen en volumes, kunnen de gegevens die in deze rapporten worden geanalyseerd, worden verzameld via een query en vooraf worden samengevoegd in een lijst (werkstroom voor gegevensbeheer) of in een kubus (met behulp van Marketing Analytics). De afbeelding wordt weergegeven in de vorm van een draaitabel of een groeplijst.
+  Afhankelijk van de complexiteit van de query&#39;s, berekeningen en volumes, kunnen de gegevens die in deze rapporten worden geanalyseerd, worden verzameld via een query en vooraf worden samengevoegd in een lijst (werkstroom voor gegevensbeheer) of in een kubus (met behulp van Marketing Analytics). De afbeelding wordt weergegeven in de vorm van een draaitabel of een groeplijst.
 
-   Raadpleeg [deze sectie](gs-cubes.md) voor meer informatie.
+  Raadpleeg [deze sectie](gs-cubes.md) voor meer informatie.
 
 * **Ingebouwde rapporten**
 
-   Adobe Campaign wordt geleverd met rapporten over leveringen, campagnes, platformactiviteiten, optionele capaciteiten, enz. Deze verslagen zijn beschikbaar via de verschillende functies waarop zij betrekking hebben. Ze kunnen worden aangepast aan uw specifieke behoeften.
+  Adobe Campaign wordt geleverd met rapporten over leveringen, campagnes, platformactiviteiten, optionele capaciteiten, enz. Deze verslagen zijn beschikbaar via de verschillende functies waarop zij betrekking hebben. Ze kunnen worden aangepast aan uw specifieke behoeften.
 
-   Gebruik de **Rapporten** voor toegang tot deze rapporten.
+  Gebruik de **Rapporten** voor toegang tot deze rapporten.
 
-   ![](assets/built-in-reports.png)
+  ![](assets/built-in-reports.png)
 
-   Raadpleeg [deze sectie](built-in-reports.md) voor meer informatie.
+  Raadpleeg [deze sectie](built-in-reports.md) voor meer informatie.
 
 * **Beschrijvende gegevensanalyse**
 
-   Adobe Campaign biedt een visueel hulpmiddel voor het produceren van statistieken over de gegevens in de database. U kunt beschrijvende analyserapporten maken met behulp van een toegewijde assistent en de inhoud en lay-out ervan aanpassen aan uw behoeften.
+  Adobe Campaign biedt een visueel hulpmiddel voor het produceren van statistieken over de gegevens in de database. U kunt beschrijvende analyserapporten maken met behulp van een toegewijde assistent en de inhoud en lay-out ervan aanpassen aan uw behoeften.
 
-   Gebruik de **[!UICONTROL Tools > Descriptive analysis...]** om een nieuw rapport te maken.
+  Gebruik de **[!UICONTROL Tools > Descriptive analysis...]** om een nieuw rapport te maken.
 
-   ![](assets/desc-analysis-report.png)
+  ![](assets/desc-analysis-report.png)
 
-   ![](../assets/do-not-localize/book.png) De rapportage van de campagnebeschrijvende analyse wordt weergegeven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
+  De rapportage van de campagnebeschrijvende analyse wordt weergegeven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 
 * **Aangepaste rapporten**
 
-   Gebruik Adobe Campaign om rapporten te maken over de gegevens in de database. Als deze eenmaal zijn gecreëerd, moet u ze in de juiste context toegankelijk maken.
+  Gebruik Adobe Campaign om rapporten te maken over de gegevens in de database. Als deze eenmaal zijn gecreëerd, moet u ze in de juiste context toegankelijk maken.
 
-   ![](../assets/do-not-localize/book.png) De stappen om een rapport te creëren worden gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.
+  De stappen om een rapport te creëren worden gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.

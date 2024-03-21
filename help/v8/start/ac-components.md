@@ -5,7 +5,7 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -54,4 +54,4 @@ De algemene communicatie tussen de processen van de Campagne wordt beschreven in
 
 De gebruiker verbindt met de de toepassingsserver van de Campagne gebruikend HTTP. Alle gegevens en informatie worden beheerd in het gegevensbestand van de Campagne. Als een ontwikkelaar van de Campagne om het even welke configuratieveranderingen uitvoert, wordt het gevangen in het gegevensbestand. Als een markeerteken een nieuwe campagne maakt, worden alle informatie en gegevens met betrekking tot deze nieuwe campagne ook beheerd in de database. Wanneer een teller een campagne uitvoert, worden de e-mailleveringen verzonden naar profielen van de server van de Campagne door de server SMTP. Als profielen reageren op e-mailleveringen, zoals het openen van de e-mail, worden deze gegevens teruggestuurd naar de trackingserver.
 
-![](../assets/do-not-localize/glass.png) [Meer informatie over campagneprocessen](../architecture/general-architecture.md#dev-env).
+[Meer informatie over campagneprocessen](../architecture/general-architecture.md#dev-env).

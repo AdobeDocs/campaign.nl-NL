@@ -5,10 +5,10 @@ feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 5%
+source-wordcount: '772'
+ht-degree: 2%
 
 ---
 
@@ -18,9 +18,9 @@ Adobe Campaign biedt een reeks oplossingen die u helpen campagnes op al uw onlin
 
 De campagnes omvatten acties (leveringen) en processen (het invoeren of het halen van dossiers), evenals middelen (marketing documenten, leveringsoverzichten). Ze worden gebruikt in marketingcampagnes. Campagnes maken deel uit van een programma en programma&#39;s zijn opgenomen in een campagneplan.
 
-## Kanaaloverschrijdende orkestrering van campagnes{#cross-channel-orchestration}
+## Kanaaloverschrijdende campagneorchestratie{#cross-channel-orchestration}
 
-Met Adobe Campaign kunt u doelgerichte en gepersonaliseerde campagnes ontwerpen en organiseren op meerdere kanalen: e-mail, direct mail, sms, pushmelding. Eén enkele interface voorziet u van alle functies die vereist zijn om al uw campagnes en communicatie te plannen, te organiseren, te configureren, te personaliseren, te automatiseren, uit te voeren en te meten.
+Met Adobe Campaign kunt u doelgerichte en gepersonaliseerde campagnes ontwerpen en organiseren op meerdere kanalen: e-mail, direct mail, sms, pushmelding. Één enkele interface voorziet u van alle functies die worden vereist om, al uw campagnes en mededelingen te plannen, te organiseren, te vormen, te personaliseren, uit te voeren en te meten.
 
 ![](assets/campaign-tab.png)
 
@@ -46,7 +46,7 @@ Adobe Campaign laat u alle marketing campagnes van een verenigd controlecentrum 
 
 ![](assets/calendar.png)
 
-![](../assets/do-not-localize/book.png) Ontdek hoe u marketingcampagnes kunt openen en implementeren in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html).
+Ontdek hoe u marketingcampagnes kunt openen en implementeren in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html).
 
 ## Belangrijkste stappen om te beginnen{#gs-ac-start}
 
@@ -56,7 +56,7 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    Definieer hiërarchie en planning, stel het budget in, voeg bronnen toe en selecteer operatoren.
 
-   ![](../assets/do-not-localize/book.png) Leer hoe u een marketingplan maakt en campagnes configureert in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html).
+   Leer hoe u een marketingplan maakt en campagnes configureert in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html).
 
    Alle marketingcampagnes zijn gebaseerd op een sjabloon waarin de belangrijkste instellingen en mogelijkheden worden opgeslagen. Een ingebouwde sjabloon wordt geleverd om een campagne te maken waarvoor geen specifieke configuratie is gedefinieerd. U kunt uw campagnemalplaatjes tot stand brengen en vormen en dan campagnes van deze malplaatjes tot stand brengen.
 
@@ -78,11 +78,11 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    ![](assets/campaign-dashboard.png)
 
-   ![](../assets/do-not-localize/book.png) Meer informatie over het maken en starten van marketingcampagneleveringen in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html).
+   Meer informatie over het maken en starten van marketingcampagneleveringen in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html).
 
    U kunt verschillende documenten koppelen aan een campagne: rapport, foto, webpagina, diagram, enzovoort.
 
-   ![](../assets/do-not-localize/book.png) Meer informatie over gekoppelde documenten in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html).
+   Meer informatie over gekoppelde documenten in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html).
 
 1. **Goedkeuringsprocedure instellen**
 

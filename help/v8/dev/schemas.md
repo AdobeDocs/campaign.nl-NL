@@ -5,10 +5,10 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 4%
+source-wordcount: '1250'
+ht-degree: 5%
 
 ---
 
@@ -100,11 +100,11 @@ De identificatiesleutel van een schema is een tekenreeks die is samengesteld met
 
 Als u een veld of ander element wilt toevoegen aan een van de kerngegevensschema&#39;s in Campagne, zoals de ontvangende tabel (nms:ontvanger), moet u dat schema uitbreiden.
 
-![](../assets/do-not-localize/glass.png) Raadpleeg voor meer informatie hierover [Een schema uitbreiden](extend-schema.md).
+Raadpleeg voor meer informatie hierover [Een schema uitbreiden](extend-schema.md).
 
 Als u een geheel nieuw type gegevens wilt toevoegen dat niet bestaat in Adobe Campaign (bijvoorbeeld een contracttabel), kunt u rechtstreeks een aangepast schema maken.
 
-![](../assets/do-not-localize/glass.png) Raadpleeg voor meer informatie hierover [Een nieuw schema maken](create-schema.md).
+Raadpleeg voor meer informatie hierover [Een nieuw schema maken](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -190,17 +190,17 @@ In dit voorbeeld wordt in plaats van het **@automatische** of de **@autouuid** h
 >
 >Wanneer het creëren van een nieuw schema of tijdens een schemauitbreiding, moet u de zelfde primaire zeer belangrijke opeenvolgingswaarde (@pkSequence) voor het volledige schema houden.
 
-![](../assets/do-not-localize/glass.png) Meer informatie over toetsen in [deze sectie](database-mapping.md#management-of-keys).
+Meer informatie over toetsen in [deze sectie](database-mapping.md#management-of-keys).
 
 ## Attributen (velden) {#attributes--fields-}
 
-Met kenmerken kunt u de velden definiëren waaruit het gegevensobject bestaat. U kunt de **[!UICONTROL Insert]** in de werkbalk van de schemaeditie om lege kenmerksjablonen naar uw XML te verplaatsen waar de cursor zich bevindt. Meer informatie in [deze sectie](create-schema.md).
+Met kenmerken kunt u de velden definiëren waaruit het gegevensobject bestaat. U kunt de **[!UICONTROL Insert]** in de werkbalk van de schemaeditie om lege kenmerksjablonen naar uw XML te verplaatsen waar de cursor zich bevindt. Lees meer in [deze sectie](create-schema.md).
 
 ![](assets/schemaextension_2.png)
 
 De volledige lijst met kenmerken is beschikbaar in de `<attribute>` elementsectie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model). Hier volgen enkele van de meer gebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-![](../assets/do-not-localize/book.png) Raadpleeg voor meer informatie over elk kenmerk de beschrijving van het kenmerk in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
+Raadpleeg voor meer informatie over elk kenmerk de beschrijving van het kenmerk in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
 
 ### Voorbeelden {#examples}
 

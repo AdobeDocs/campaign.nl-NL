@@ -5,9 +5,9 @@ role: Admin, User
 feature: Journey Optimizer Integration
 level: Beginner
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De basisstappen moeten een transactiemalplaatje van het bericht in Campagne tot 
 ![](assets/ajo-integration.png)
 
 
-![](../assets/do-not-localize/book.png) [Ontdek deze integratie in dit end-to-end voorbeeld](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.
+[Ontdek deze integratie in dit end-to-end voorbeeld](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.
 
 
-![](../assets/do-not-localize/book.png) [Meer informatie in de documentatie van Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.
+[Meer informatie in de documentatie van Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.
