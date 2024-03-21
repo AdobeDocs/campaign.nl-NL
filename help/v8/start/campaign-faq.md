@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 18%
+source-wordcount: '706'
+ht-degree: 17%
 
 ---
 
@@ -30,9 +30,14 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    ![](../assets/do-not-localize/glass.png) [Klik hier voor meer informatie](connect.md).
 
+   Vanaf de release van Campagne v8.6 hebt u toegang tot de nieuwe **Gebruikersinterface Campagne Web**, beschikbaar via de centrale Adobe Experience Cloud-omgeving. Experience Cloud is de geïntegreerde familie van digitale marketingtoepassingen, producten en diensten van de Adobe. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services.
+
+   Leer hoe u verbinding maakt met Adobe Experience Cloud en toegang krijgt tot de Adobe Campaign Web Interface [op deze pagina](campaign-ui.md#ac-web-ui).
+
+   Meer informatie in het dialoogvenster [Adobe Campaign Web-gebruikersinterfacedocumentatie](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 1. **Kan Campagne v8 worden geïnstalleerd op een bedrijfs- of hybride omgeving?**
 
-   Campagne v8 is momenteel alleen beschikbaar in beheerde Cloud Servicen, volledig gehost door Adobe.
+   Campagne v8 is alleen beschikbaar in Beheerde Cloud Servicen, volledig gehost door Adobe.
 
 1. **Hoe kan ik de e-mailleverbaarheid verbeteren?**
 
@@ -60,11 +65,15 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 
-   ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Servicen, contacteer Adobe om uw subdomeinen aan Adobe te delegeren.
+   ![](../assets/do-not-localize/speech.png) Als Beheerde gebruiker van Cloud Servicen, contacteer Adobe om uw subdomeinen aan Adobe te delegeren.
 
 1. **Mag ik als gebruiker van Campaign Classic v7 migreren naar Campaign v8?**
 
-   Campagne v8 is momenteel alleen beschikbaar voor nieuwe implementaties.
+   Geautomatiseerde migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
+
+   Campagne v8 is **alleen** beschikbaar als Beheerde Cloud Service, en kan niet op een ongebouw of hybride milieu&#39;s worden opgesteld.
+
+   ![](../assets/do-not-localize/speech.png) Neem contact op met uw Adobe voor meer informatie over het migratieproces.
 
 1. **Hoe kan ik campagne downloaden?**
 
