@@ -5,10 +5,10 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Als u een profiel wilt abonneren (aanmelden) op een service, zijn de volgende op
 
 * Importeer ontvangers en meld ze automatisch aan bij een informatieservice. Selecteer hiertoe de desbetreffende service in de laatste stap van de wizard Importeren.
 
-  Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}
+  Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}.
 
 * Gebruik een webformulier zodat ontvangers zich op een service kunnen abonneren.
 
@@ -49,14 +49,14 @@ Als u een profiel wilt abonneren (aanmelden) op een service, zijn de volgende op
 
   ![](assets/web-app.png)
 
-  Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}
+  Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}.
 
 
 * Een doelworkflow maken en een **[!UICONTROL Subscription service]** activiteit.
 
   ![](assets/wf-subscription.png)
 
-  Meer informatie vindt u [op deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html).
+  Meer informatie in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html){target="_blank"}.
 
 Als u een profiel wilt afmelden bij een service, kunt u het volgende doen:
 
@@ -71,7 +71,7 @@ Als u een profiel wilt afmelden bij een service, kunt u het volgende doen:
 * Geef een maximumduur voor de informatiedienst op: ontvangers worden automatisch afgemeld wanneer de geldigheidsperiode is verlopen. Deze periode wordt opgegeven op het tabblad Bewerken van de service-eigenschappen. Het wordt uitgedrukt in dagen.
 * Stel een workflow voor abonnementen in voor een populatie.
 
-Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}
+Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}.
 
 
 >[!CAUTION]

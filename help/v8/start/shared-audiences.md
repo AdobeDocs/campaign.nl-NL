@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 5%
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -34,12 +34,12 @@ Deze integratie ondersteunt twee typen Adobe Experience Cloud-id&#39;s:
 
   >[!NOTE]
   >
-  > De gegevensbron Declared ID kan nu ook worden gebruikt met de integratie van de People-kernservice.
+  > De verklaarde gegevensbron van identiteitskaart kan nu ook met de dienstintegratie van de Kern van Mensen worden gebruikt.
   >
   >Als u de de dienstintegratie van de Kern van Mensen gebruikt en de integratie van de Audience Manager wilt toevoegen, zult u de hulp van een consultant van Adobe Audience Manager nodig hebben om te vermijden verlies van alle verzamelde syncs van identiteitskaart wanneer het overgaan aan het gebruiken van deze Gedeclareerde gegevensbron van identiteitskaart in een context van Adobe Audience Manager.
 
 Zie:
 
-[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)
+[Adobe Audience Manager-documentatie](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html){target="_blank"}
 
-[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html)
+[Handleiding voor Adobe Experience Cloud Central Interface-componenten](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target="_blank"}

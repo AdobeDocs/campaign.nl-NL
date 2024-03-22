@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 11%
@@ -22,8 +22,6 @@ Adobe Campaign wordt geleverd met verschillende connectors waarmee u kunt commun
 
 Combineer Adobe Experience Cloud-oplossingen om uw implementatie te moderniseren.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden.
-
 Campagne v8 kan verbinding maken met de volgende Adobe-oplossingen. Blader naar de koppelingen voor meer informatie over gebruiksgevallen, configuratie en richtlijnen:
 
 * Adobe Analytics.[Meer informatie](../connect/ac-aa.md)
@@ -36,9 +34,14 @@ Campagne v8 kan verbinding maken met de volgende Adobe-oplossingen. Blader naar 
 
 U kunt ook uw **publiek** en **elementen** voor alle oplossingen voor Experiencen Cloud met mogelijkheden voor het delen van bedrijfsmiddelen en het delen van doelgroepen.
 
-Meer informatie over **Delen van publiek** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+Meer informatie over **Delen van publiek** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Meer informatie over **Elementen delen** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+Meer informatie over **Elementen delen** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+
+>[!NOTE]
+>
+>Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden.
+
 
 ## Integreren met uw CRM-connector{#gs-crm-connectors}
 

@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: eae364fb3d082c91022fee6bf29802c9eb6dfcf5
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ _14 feb. 2024_
 
 * Vanaf deze release hebt u toegang tot de nieuwe **Gebruikersinterface Campagne Web**, beschikbaar via de centrale Adobe Experience Cloud-omgeving. Experience Cloud is de geïntegreerde familie van digitale marketingtoepassingen, producten en diensten van de Adobe. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services. Leer hoe u verbinding maakt met Adobe Experience Cloud en toegang krijgt tot de Adobe Campaign Web Interface [op deze pagina](campaign-ui.md#ac-web-ui).
 
-* De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Raadpleeg voor meer informatie over het upgraden van uw besturingssysteem [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
+* De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Raadpleeg voor meer informatie over het upgraden van uw besturingssysteem [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html){target="_blank"}.
 
 
 ### Algemene verbeteringen {#improvements-8-6-1}
@@ -48,7 +48,7 @@ _14 feb. 2024_
 
 * Tegen februari 2024 verzendt een bedrijf meer dan 5000 e-mailberichten via Google of Yahoo! zal moeten beginnen gebruikend een authentificatietechnologie die als op domein-gebaseerde Rapportering en Conformiteit van de Authentificatie van het Bericht (DMARC) wordt bekend. Zorg ervoor dat DMARC-record is ingesteld voor alle subdomeinen die u gebruikt met Adobe Campaign. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=nl){target="_blank"}
 
-* Vanaf 1 juni 2024, Google en Yahoo! afzenders moeten voldoen aan lijst-abonnement met één klik. Adobe Campaign biedt nu ondersteuning voor deze optie. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#one-click-list-unsubscribe){target="_blank"}
+* Vanaf 1 juni 2024, Google en Yahoo! voldoen aan uitschrijven met één klik voor lijsten. Adobe Campaign biedt nu ondersteuning voor deze optie. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#one-click-list-unsubscribe){target="_blank"}
 
 
 ### Oplossingen {#fixes-8-6-1}

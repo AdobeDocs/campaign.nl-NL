@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1037'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ U kunt externe accounts openen vanuit Adobe Campaign **[!UICONTROL Explorer]**: 
 
 Adobe Campaign gebruikt de volgende technische accounts om specifieke processen in te schakelen en uit te voeren.
 
-### Niet bezorgde mails {#bounce-mails-external-account}
+### Stuitberichten {#bounce-mails-external-account}
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
 De **Stuitberichten** externe account geeft de externe POP3-account aan die moet worden gebruikt voor verbinding met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
-Meer informatie over inkomende e-mails in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html).
+Meer informatie over inkomende e-mails in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -116,7 +116,7 @@ In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbo
 
 ## Externe rekeningen voor gegevensoverdracht {#transfer-data-external-accounts}
 
-Deze externe accounts kunnen worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Meer informatie over **Bestandsoverdracht** in workflows in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html).
+Deze externe accounts kunnen worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Meer informatie over **Bestandsoverdracht** in workflows in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 * **FTP en SFTP** - de **FTP** Met een externe account kunt u toegang tot een server buiten Adobe Campaign configureren en testen. Als u verbindingen wilt instellen met externe systemen, zoals SFTP- of FTP-servers 898 die worden gebruikt voor bestandsoverdracht, kunt u uw eigen externe accounts maken.
 
@@ -124,7 +124,7 @@ Deze externe accounts kunnen worden gebruikt voor het importeren of exporteren v
 
   >[!NOTE]
   >
-  >Vanaf versie 8.5 kunt u nu veilig verifiëren met een persoonlijke sleutel wanneer u uw SFTP-externe account configureert. [Meer informatie over sleutelbeheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html)
+  >Vanaf versie 8.5 kunt u nu veilig verifiëren met een persoonlijke sleutel wanneer u uw SFTP-externe account configureert. [Meer informatie over sleutelbeheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **Amazon Simple Storage Service (S3)** - de **AWS S3** -connector kan worden gebruikt om gegevens te importeren of naar Adobe Campaign te exporteren met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
 

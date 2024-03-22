@@ -5,10 +5,10 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,10 @@ De **Beheer van sociale netwerken (sociale marketing)** kunt u via X (voorheen b
 
 * Verzamel nieuwe contacten - Adobe Campaign Social Marketing maakt het ook gemakkelijk om nieuwe contacten te verwerven: contacteer gebruikers en vraag hen of zij hun profielinformatie willen delen. Als ze het accepteren, herstelt Adobe Campaign automatisch de gegevens, waarmee u doelgerichte campagnes kunt voeren en waar mogelijk kanaalstrategieën kunt implementeren.
 
-![](../assets/do-not-localize/speech.png) Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om campagne te verbinden met X.  **Beheer van sociale netwerken (sociale marketing)** De invoegtoepassing moet op uw omgeving worden geïnstalleerd via het toegewezen pakket en de externe account van de Twitter moet worden geconfigureerd.
+
+>[!NOTE]
+>
+>Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om campagne te verbinden met X.  **Beheer van sociale netwerken (sociale marketing)** De invoegtoepassing moet op uw omgeving worden geïnstalleerd via het toegewezen pakket en de externe account van de Twitter moet worden geconfigureerd.
 
 
 Als u Adobe Campaign wilt configureren om tweets te posten naar uw X-accounts, kunt u voor deze accounts schrijfrechten delegeren aan Adobe Campaign. Hiervoor moet u:
@@ -42,7 +45,7 @@ De campagne gebruikt versie 1.1 van X API. Om het te gebruiken, moet u voor Verh
 Zodra u met Verhoogde toegang bent goedgekeurd, creeer een X toepassing om Adobe Campaign toe te laten om posten op uw rekening van X tot stand te brengen. Hiervoor voert u de volgende stappen uit:
 
 1. Meld u aan bij uw X-account.
-1. Verbinden met [X-ontwikkelaarsportal](https://developer.twitter.com/en/apps).
+1. Verbinden met [X-ontwikkelaarsportal](https://developer.twitter.com/en/apps){target="_blank"}.
 1. Selecteren **Een app maken**.
 1. Laat X de medewerker u door het proces begeleiden.
 1. Als je Adobe Campaign wilt toestaan om berichten op je account te maken, kun je de opdracht **Toepassingsmachtigingen** in het gedeelte Gebruikersverificatie dat is ingesteld in uw app. Selecteren **Berichten lezen, schrijven en direct verzenden**.
@@ -114,7 +117,7 @@ Deze worden standaard gestopt: u moet ze handmatig starten wanneer u de functie 
 
 De **[!UICONTROL Synchronization of Twitter accounts]** met de technische workflow worden X-accounts in Adobe Campaign gesynchroniseerd. Deze workflow herstelt de lijst met X-volgers, zodat u deze rechtstreeks kunt verzenden. [Meer informatie](../send/twitter.md#direct-tw-messages)
 
-Deze workflow wordt standaard elke donderdag om 7.30 uur geactiveerd. U kunt de **[!UICONTROL Execute pending task(s) now]** als u de workflow op elk gewenst moment wilt starten terwijl u deze integratie implementeert.  U kunt de planner ook uitgeven om het werkschema te veranderen dat frequentie teweegbrengt. Meer informatie in [deze pagina](../../automation/workflow/scheduler.md).
+Deze workflow wordt standaard elke donderdag om 7.30 uur geactiveerd. U kunt de **[!UICONTROL Execute pending task(s) now]** als u de workflow op elk gewenst moment wilt starten terwijl u deze integratie implementeert.  U kunt de planner ook uitgeven om het werkschema te veranderen dat frequentie teweegbrengt. Meer informatie vindt u [op deze pagina](../../automation/workflow/scheduler.md).
 
 >[!CAUTION]
 >

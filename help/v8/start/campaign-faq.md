@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 18%
@@ -22,7 +22,9 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Deze regelmatige frequentie van updates is bedoeld om de nieuwste en beste in uw handen te krijgen, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Daarom vinden wij het van essentieel belang dat u de meest recente versie van Adobe Campaign uitvoert.
 
-   ![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie.
+   >[!NOTE]
+   >
+   >Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie.
 
 1. **Hoe kan ik verbinding maken met Campaign v8?**
 
@@ -65,7 +67,9 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 
-   ![](../assets/do-not-localize/speech.png) Als Beheerde gebruiker van Cloud Servicen, contacteer Adobe om uw subdomeinen aan Adobe te delegeren.
+   >[!NOTE]
+   >
+   >Als Beheerde gebruiker van Cloud Servicen, contacteer Adobe om uw subdomeinen aan Adobe te delegeren.
 
 1. **Mag ik als gebruiker van Campaign Classic v7 migreren naar Campaign v8?**
 
@@ -73,7 +77,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Campagne v8 is **alleen** beschikbaar als Beheerde Cloud Service, en kan niet op een ongebouw of hybride milieu&#39;s worden opgesteld.
 
-   ![](../assets/do-not-localize/speech.png) Neem contact op met uw Adobe voor meer informatie over het migratieproces.
+   Neem contact op met uw Adobe voor meer informatie over het migratieproces.
 
 1. **Hoe kan ik campagne downloaden?**
 

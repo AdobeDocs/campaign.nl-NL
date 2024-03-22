@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 6%
+source-wordcount: '235'
+ht-degree: 3%
 
 ---
 
@@ -20,15 +20,15 @@ Als u de Campagne-database wilt vullen, kunt u [profielen handmatig toevoegen](c
 
 Workflows kunnen handig zijn om een aantal importprocessen te automatiseren. Of u nu gegevens uit een lokaal bestand of uit een SFTP importeert, u kunt workflows gebruiken om de procedures voor gegevensbeheer te standaardiseren.
 
-### Gegevens uit een lijst gebruiken: Leeslijst {#data-from-read-list}
+### Gegevens uit een lijst gebruiken: lijst lezen {#data-from-read-list}
 
-Bereid en structureer uw gegevens in een dossier om het met een werkschema in te voeren. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html).
+Bereid en structureer uw gegevens in een dossier om het met een werkschema in te voeren. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}.
 
 ### Gegevens uit een bestand laden {#data-from-a-file}
 
-De gegevens die in een werkstroom worden verwerkt, kunnen uit een gestructureerd bestand worden geëxtraheerd, zodat het bestand in Adobe Campaign kan worden geïmporteerd. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html).
+De gegevens die in een werkstroom worden verwerkt, kunnen uit een gestructureerd bestand worden geëxtraheerd, zodat het bestand in Adobe Campaign kan worden geïmporteerd. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html){target="_blank"}.
 
-Nadat gegevens zijn verzameld, kunt u deze gebruiken in uw workflows, bijvoorbeeld om een levering te verrijken of de database bij te werken. Raadpleeg [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html) voor meer informatie.
+Nadat gegevens zijn verzameld, kunt u deze gebruiken in uw workflows, bijvoorbeeld om een levering te verrijken of de database bij te werken. Raadpleeg voor meer informatie hierover [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}.
 
 ## Invoer met één opname{#import-jobs}
 

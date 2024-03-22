@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 1%
@@ -14,13 +14,15 @@ ht-degree: 1%
 
 # Aan de slag met Transactioneel overseinen{#send-transactional-messages}
 
-Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. Deze meldingen worden gegenereerd op basis van gebeurtenissen die worden geactiveerd via informatiesystemen en kunnen: factuur, bevestiging van bestelling, bevestiging van verzending, wijziging van wachtwoord, kennisgeving van onbeschikbaarheid van product, rekeningoverzicht, aanmaken van websiteaccount, enz.
+Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. Deze meldingen worden gegenereerd op basis van gebeurtenissen die in werking zijn gesteld via informatiesystemen, en kunnen zijn: factuur, orderbevestiging, bevestiging van verzending, wijziging van het wachtwoord, kennisgeving van onbeschikbaarheid van het product, rekeningoverzicht, aanmaak van websiteaccount, enz.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} om het Transactionele overseinen van de Campagne in uw milieu te vormen.
+>[!NOTE]
+>
+>Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} om het Transactionele overseinen van de Campagne in uw milieu te vormen.
 
 Transactieberichten worden gebruikt voor het verzenden van:
 
-* meldingen, zoals orderbevestigingen of opnieuw instellen van wachtwoorden, bijvoorbeeld
+* meldingen, zoals bevestiging van bestellingen of opnieuw instellen van wachtwoorden, bijvoorbeeld
 * een individuele reactie in real time op een klantenactie
 * niet-promotionele inhoud
 
@@ -28,7 +30,7 @@ De instellingen voor Transactieberichten worden gedetailleerd in [deze sectie](.
 
 Begrijp transactie overseinenarchitectuur op [deze pagina](../architecture/architecture.md#transac-msg-archi).
 
-## Werkingsprincipe voor transactieberichten {#transactional-messaging-operating-principle}
+## Operationeel beginsel van het transactieverkeer {#transactional-messaging-operating-principle}
 
 De module van het Overseinen van Adobe Campaign Transactional integreert in een informatiesysteem dat gebeurtenissen terugkeert die in gepersonaliseerde transactionele berichten moeten worden veranderd. Deze berichten kunnen individueel of in partijen via e-mail, SMS of push-berichten worden verzonden.
 
@@ -41,7 +43,7 @@ De belangrijkste stappen om dit in werking te stellen zijn hieronder beschreven:
 1. [Een gebeurtenistype maken](#create-event-types).
 1. [De berichtsjabloon maken en ontwerpen](#create-message-template). Tijdens deze stap moet u een gebeurtenis koppelen aan uw bericht.
 1. [Het bericht testen](#test-message-template).
-1. [Publiceer de berichtsjabloon](#publish-message-template).
+1. [De berichtsjabloon publiceren](#publish-message-template).
 
 Zodra u het transactionele berichtmalplaatje ontwierp en publiceerde, als een overeenkomstige gebeurtenis wordt teweeggebracht, worden de relevante gegevens verzonden naar Campagne via PushEvent en PushEvents [SOAP-methoden](../send/event-description.md)en de levering wordt naar de beoogde ontvangers verzonden.
 
@@ -58,7 +60,7 @@ Wanneer [een berichtsjabloon maken](#create-message-template), selecteert u het 
 Voer de volgende stappen uit om gebeurtenistypen te maken die door Adobe Campaign worden verwerkt:
 
 1. Bladeren naar de **[!UICONTROL Administration > Platform > Enumerations]** map van Campaign Explorer.
-1. Selecteer **[!UICONTROL Event type]** opsomming in de lijst.
+1. Selecteer de **[!UICONTROL Event type]** opsomming in de lijst.
 1. Klikken **[!UICONTROL Add]** om een opsommingswaarde te maken. Dit kan een bevestiging zijn van de bestelling, een wijziging van het wachtwoord, een wijziging in de levering van de bestelling, enzovoort.
 
    ![](assets/messagecenter_eventtype_enum_001.png)
@@ -109,7 +111,7 @@ De definitie van de inhoud van het transactiebericht is hetzelfde als voor alle 
 >[!CAUTION]
 >
 >Afbeeldingen in het bericht moeten openbaar toegankelijk zijn. Adobe Campaign biedt geen mechanisme voor het uploaden van afbeeldingen voor transactieberichten.\
->In tegenstelling tot JSSP of webApp, `<%=` heeft geen standaardescape.
+>In tegenstelling tot JSSP of webApp, `<%=` heeft geen standaardescaping.
 >
 >U moet alle gegevens die uit de gebeurtenis komen, op de juiste wijze verwijderen. Deze escape is afhankelijk van de manier waarop dit veld wordt gebruikt. Gebruik in een URL bijvoorbeeld encodeURIComponent. U kunt escapeXMLString gebruiken om in de HTML te worden weergegeven.
 
@@ -255,11 +257,11 @@ Als een sjabloon eenmaal is gepubliceerd en de bijbehorende gebeurtenis wordt ge
 
 ## Publicatie van een sjabloon ongedaan maken
 
-Zodra een berichtmalplaatje wordt gepubliceerd <!--on the execution instances-->, kan het niet gepubliceerd zijn.
+Zodra een berichtmalplaatje wordt gepubliceerd <!--on the execution instances-->, kan de publicatie ongedaan worden gemaakt.
 
-* Een gepubliceerde sjabloon kan zelfs nog steeds worden opgeroepen als de overeenkomstige gebeurtenis wordt geactiveerd: Als u geen berichtmalplaatje meer gebruikt, wordt het geadviseerd om het unpublish. Dit om te voorkomen dat er per ongeluk een ongewenste transactiemelding wordt verzonden.
+* Een gepubliceerde sjabloon kan zelfs nog steeds worden aangeroepen als de bijbehorende gebeurtenis wordt geactiveerd: als u geen berichtsjabloon meer gebruikt, wordt aangeraden de publicatie ongedaan te maken. Dit om te voorkomen dat er per ongeluk een ongewenste transactiemelding wordt verzonden.
 
-   U hebt bijvoorbeeld een berichtsjabloon gepubliceerd die u alleen gebruikt voor kerstcampagnes. Misschien wilt u de publicatie ongedaan maken nadat de kerstperiode is afgelopen en deze volgend jaar opnieuw publiceren.
+  U hebt bijvoorbeeld een berichtsjabloon gepubliceerd die u alleen gebruikt voor kerstcampagnes. Misschien wilt u de publicatie ongedaan maken nadat de kerstperiode is afgelopen en deze volgend jaar opnieuw publiceren.
 
 * U kunt ook geen transactiemalplaatje verwijderen dat de **[!UICONTROL Published]** status. U moet eerst de publicatie ongedaan maken.
 
@@ -278,8 +280,8 @@ Zodra de publicatie is voltooid:
 
 * Beide berichtmalplaatjes (die op partij en in real time typegebeurtenissen worden toegepast) worden geschrapt<!-- from each execution instance-->.
 
-   Ze verschijnen niet meer in het dialoogvenster **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** map.
+  Ze verschijnen niet meer in het dialoogvenster **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** map.
 
 * Nadat een sjabloon niet is gepubliceerd, kunt u deze verwijderen<!-- from the control instance-->.
 
-   Selecteer dit in de lijst en klik op de knop **[!UICONTROL Delete]** op de rechterbovenhoek van het scherm.
+  Selecteer dit in de lijst en klik op de knop **[!UICONTROL Delete]** op de rechterbovenhoek van het scherm.

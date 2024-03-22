@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 6%
@@ -46,7 +46,7 @@ Nadat u het bericht hebt gemaakt en de inhoud ervan hebt ontworpen en getest, ku
 
   ![](assets/deliveries-in-a-campaign.png)
 
-  Leer hoe u berichten kunt verzenden in het kader van een campagne in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)
+  Leer hoe u berichten kunt verzenden in het kader van een campagne in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html){target="_blank"}
 
 * Verzend berichten via [werkstroom](../config/workflows.md)
 

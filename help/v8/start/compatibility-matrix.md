@@ -5,7 +5,7 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 16%
@@ -80,6 +80,6 @@ De volgende browsers zijn compatibel met Campagne voor de Toegang van het Web. M
 * [Updates van de campagneversie](upgrades.md)
 * [De versie van uw campagne controleren](upgrades.md#version)
 * [Campagne-clientconsole installeren](connect.md)
-* [releases in het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl){target="_blank"}.
+* [releases in het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl){target="_blank"}
 
 Om op de hoogte te worden gebracht van nieuwe versies van de oplossing van het Experience Cloud, onderteken aan [Adobe Prioriteit productupdate](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"}.

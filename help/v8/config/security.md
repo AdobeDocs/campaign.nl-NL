@@ -5,7 +5,7 @@ feature: Privacy, PI
 role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 1%
@@ -27,7 +27,10 @@ De configuratie van de privacy en het verharden is een zeer belangrijk element v
 * Controleer of gecodeerde wachtwoorden beperkt zijn
 * Protect de pagina&#39;s die persoonlijke gegevens kunnen bevatten, zoals spiegelpagina&#39;s, webtoepassingen, enz.
 
-![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Servicen, zal de Adobe met u werken om deze configuraties op uw milieu uit te voeren.
+
+>[!NOTE]
+>
+>Als Beheerde gebruiker van Cloud Servicen, zal de Adobe met u werken om deze configuraties op uw milieu uit te voeren.
 
 
 ## Toegangsbeheer
@@ -49,7 +52,7 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **Hoofdletters toevoegen aan webtoepassingen**: voeg hoofdletters toe in uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
 
-Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
 
 
 ## Personalisatie
@@ -144,4 +147,4 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **Hoofdletters toevoegen aan webtoepassingen**: voeg hoofdletters toe in uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
 
-Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.

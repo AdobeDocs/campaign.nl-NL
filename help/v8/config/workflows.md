@@ -5,7 +5,7 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 0%
@@ -33,26 +33,26 @@ Leer hoe u workflows ontwerpt in deze [gebruiksgevallen van begin tot eind](#end
 
 Meer informatie over de gebruikersinterface en uitvoering van workflows vindt u op de volgende pagina&#39;s:
 
-* [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target="_blank"}
 
-* [Best practices voor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html)
+* [Best practices voor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
-* [Ingebouwde technische workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html)
+* [Ingebouwde technische workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
-* [Uitvoering van workflows controleren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
+* [Uitvoering van workflows controleren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
-* [Een publiek maken in een workflow voor een marketingcampagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+* [Een publiek maken in een workflow voor een marketingcampagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}
 
 ## Workflowactiviteiten {#wf-activities}
 
-Meer informatie over de beschikbare workflowactiviteiten vindt u in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html)
+Meer informatie over de beschikbare workflowactiviteiten vindt u in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target="_blank"}
 
 Workflowactiviteiten worden gegroepeerd op categorie. De vier categorieën activiteiten zijn beschikbaar:
 
-* [Gerichte activiteiten](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html): Query, lijst-lezen, Verrijking, Vereniging en meer
-* [Stroombeheeractiviteiten](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html): Planner, Fork, Alert, Extern signaal en meer
-* [Acties](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html): Kanaaloverschrijdende leveringen, Javascript-code, CRM-activiteiten, aggregaat bijwerken en meer
-* [Gebeurtenisactiviteiten](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html): Bestandsoverdracht, webdownload en meer
+* [Gerichte activiteiten](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}: Query, lijst-lezen, Verrijking, Vereniging en meer
+* [Stroombeheeractiviteiten](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}: Planner, Fork, Alert, Extern signaal en meer
+* [Acties](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}: Kanaaloverschrijdende leveringen, Javascript-code, CRM-activiteiten, aggregaat bijwerken en meer
+* [Gebeurtenisactiviteiten](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: Bestandsoverdracht, webdownload en meer
 
 ### Gegevensbronactiviteit wijzigen {#change-data-source-activity}
 
@@ -72,7 +72,7 @@ Als u de opdracht **[!UICONTROL Change Data Source]** activiteit:
 
 1. Vraag uw beoogde ontvangers om een query met een **[!UICONTROL Query]** activiteit.
 
-   Voor meer informatie over de **[!UICONTROL Query]** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+   Voor meer informatie over de **[!UICONTROL Query]** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. Van de **[!UICONTROL Targeting]** tabblad, voegt u een **[!UICONTROL Change data source]** activiteit en dubbelklik het om te selecteren **[!UICONTROL Default data source]**.
 
@@ -80,7 +80,7 @@ Als u de opdracht **[!UICONTROL Change Data Source]** activiteit:
 
 1. Van de **[!UICONTROL Actions]** tabblad, slepen en neerzetten **[!UICONTROL JavaScript code]** activiteit om unitaire verrichtingen op de werkende lijst uit te voeren.
 
-   Voor meer informatie over de **[!UICONTROL JavaScript code]** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html).
+   Voor meer informatie over de **[!UICONTROL JavaScript code]** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
 
 1. Nog een toevoegen **[!UICONTROL Change data source]** om terug te schakelen naar de Cloud-database.
 
@@ -92,7 +92,7 @@ Als u de opdracht **[!UICONTROL Change Data Source]** activiteit:
 
 Nadat u de workflow hebt gemaakt, hebt u toegang tot extra opties via de **[!UICONTROL Properties]** voor verdere configuratie.
 
-Meer informatie over **Workflow-eigenschappen** in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html).
+Meer informatie over **Workflow-eigenschappen** in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}.
 
 Van de **[!UICONTROL Execution]** tabblad van de workflow **[!UICONTROL Properties]**, kunt u uw workflow koppelen aan verschillende opslagruimten en het werklastbeheer optimaliseren. Voor meer informatie over **Waresthuizen**, verwijst u naar de [Documentatie Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
@@ -114,7 +114,7 @@ Afhankelijk van het doel van uw workflow kunt u kiezen tussen de volgende drie o
 
 Regelterugkerende workflows ontwerpen en telkens wanneer de workflow wordt uitgevoerd, een nieuwe leveringsinstantie maken. Als uw workflow bijvoorbeeld eenmaal per week wordt uitgevoerd, levert dat na één jaar 52 leveringen op. Dit betekent ook dat de logboeken door elke leveringsinstantie zullen worden gescheiden.
 
-Leer hoe u een terugkerende campagne kunt maken in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html)
+Leer hoe u een terugkerende campagne kunt maken in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html){target="_blank"}.
 
 
 ## Hefboomtriggergebeurtenissen
@@ -137,17 +137,17 @@ In deze sectie vindt u verschillende gebruiksgevallen waarbij gebruik wordt gema
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 
-* [Een verjaardags-e-mail verzenden](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
+* [Verstuur een verjaardagsbericht](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}
 
   In dit geval wordt beschreven hoe u een terugkerende e-mail naar een lijst met ontvangers op de dag van hun geboortedatum wilt sturen.
 
-* [Leveringsinhoud laden](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html)
+* [Leveringsinhoud laden](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}
 Wanneer uw leveringsinhoud beschikbaar is in een HTML-bestand dat zich op een externe server bevindt, kunt u deze inhoud gemakkelijk laden in Adobe Campaign-leveringen.
 
-* [Workflow voor levering tussen kanalen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html)
+* [Workflow voor levering tussen kanalen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html){target="_blank"}
 Leer hoe u een workflow voor levering tussen kanalen kunt maken. Het doel is een publiek van de ontvangers van uw gegevensbestand in verschillende groepen te segmenteren en een e-mail naar de eerste groep en een SMS naar andere te verzenden.
 
-* [E-mailverrijking met aangepaste datumvelden](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html)
+* [E-mailverrijking met aangepaste datumvelden](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html){target="_blank"}
 Leer hoe u een e-mail met aangepaste gegevensvelden verzendt naar profielen die deze maand hun verjaardagen vieren. Het e-mailbericht bevat een coupon die een week voor en na hun verjaardag geldig is.
 
 En deze pagina&#39;s in Campaign v7 documentatie:
@@ -162,54 +162,54 @@ Leer hoe u twee inhoud van e-mailbezorging via een doelworkflow kunt vergelijken
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
-* [Een rapport naar een lijst verzenden](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html)
+* [Een rapport naar een lijst verzenden](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html){target="_blank"}
 Leer hoe u maandelijks een ingebouwd traceringsindicatoren genereert in de indeling PDF en deze naar een lijst met campagneoperatoren verzendt.
 
-* [Uw workflows controleren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html)
+* [Uw workflows controleren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}
 Leer hoe u een workflow maakt waarmee u de status van een set workflows kunt controleren die &#39;gepauzeerd&#39;, &#39;gestopt&#39; of &#39;met fouten&#39; zijn.
 
-* [Persoonlijke waarschuwingen verzenden aan operatoren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html)
+* [Persoonlijke waarschuwingen verzenden aan operatoren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html){target="_blank"}
 Leer hoe u een waarschuwing verzendt naar een operator die de naam bevat van profielen die een nieuwsbrief hebben geopend maar niet op de koppeling in die nieuwsbrief hebben geklikt.
 
 ### Gegevensbeheer {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [Gegevensupdates coördineren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html)
+* [Gegevensupdates coördineren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html){target="_blank"}
 Leer hoe u kunt controleren of het updateproces is beëindigd voordat u een andere updatebewerking uitvoert. Hiervoor wordt een instantievariabele ingesteld en wordt in de werkstroom getest of de instantie wordt uitgevoerd om te beslissen of de werkstroom verder wordt uitgevoerd en de update wordt uitgevoerd.
 
-* [Een overzichtslijst maken](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html)
+* [Een overzichtslijst maken](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html){target="_blank"}
 Leer hoe u een workflow maakt waarin u na het verzamelen van bestanden en na diverse verbeteringen een overzichtslijst kunt maken. Het voorbeeld is gebaseerd op een lijst van contacten die aankopen in een opslag maakten.
 
-* [Gegevens vergroten](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
+* [Gegevens vergroten](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html){target="_blank"}
 Leer hoe u persoonlijke leveringen kunt verzenden naar profielen die afhankelijk van hun score hebben deelgenomen aan de meest recente wedstrijd.
 
-* [aggregaten gebruiken](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html)
+* [aggregaten gebruiken](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
 Leer hoe u de ontvangers kunt identificeren die het laatst aan de database zijn toegevoegd.
 
-* [Driemaandelijkse lijstupdate die een stijgende vraag gebruikt](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html)
+* [Driemaandelijkse lijstupdate die een stijgende vraag gebruikt](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html){target="_blank"}
 Leer hoe u een incrementele query gebruikt om een lijst met ontvangers automatisch bij te werken.
 
-* [Een terugkerende importworkflow instellen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html)
+* [Een terugkerende importworkflow instellen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 Leer hoe u een workflow ontwerpt die opnieuw kan worden gebruikt voor het importeren van profielen die afkomstig zijn van een CRM in de Adobe Campaign-database.
 
 ### Targeting {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [Vraag de ontvankelijke lijst](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html)
+* [Vraag de ontvankelijke lijst](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html){target="_blank"}
 Leer hoe u de namen en e-mails kunt herstellen van ontvangers met als e-maildomein &quot;orange.co.uk&quot; en die niet in Londen wonen.
 
-* [Leveringsgegevens voor query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html)
+* [Leveringsgegevens voor query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html){target="_blank"}
 Leer hoe te om vragen over leveringsinformatie te bepalen om het gedrag van het profiel terug te winnen.
 
-* [Samengevoegde aggregaten berekenen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html)
+* [Samengevoegde aggregaten berekenen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html){target="_blank"}
 Leer hoe u het aantal profielen dat in Londen woont, kunt tellen op basis van geslacht.
 
-* [Vraag die vele-aan-veel-verhouding gebruikt](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html)
+* [Vraag die vele-aan-veel-verhouding gebruikt](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}
 Leer hoe u profielen kunt vinden die de afgelopen 7 dagen niet zijn benaderd.
 
-* [Een instantievariabele aanroepen in een query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html)
+* [Een instantievariabele aanroepen in een query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html){target="_blank"}
 Leer hoe u een instantievariabele gebruikt om dynamisch het splitsingspercentage te berekenen dat op een populatie moet worden toegepast.
 
 <!--

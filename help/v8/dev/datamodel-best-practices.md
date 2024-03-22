@@ -5,7 +5,7 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '2740'
 ht-degree: 4%
@@ -175,7 +175,7 @@ Er zijn een paar oplossingen om de behoefte aan verslagen in Adobe Campaign te m
 
 U kunt het kenmerk &quot;deleteStatus&quot; in een schema declareren. Het is efficiënter om het verslag te merken zoals geschrapt, dan de schrapping in de schoonmaakbeurttaak uit te stellen.
 
-![](../assets/do-not-localize/speech.png)  Als Beheerde gebruiker van Cloud Servicen, bereik aan de consultants van de Adobe of technische beheerders om meer over behoud te leren of als u behoud voor douanetabellen moet plaatsen.
+Als Beheerde gebruiker van Cloud Servicen, bereik aan de consultants van de Adobe of technische beheerders om meer over behoud te leren of als u behoud voor douanetabellen moet plaatsen.
 
 ## Prestaties {#performance}
 

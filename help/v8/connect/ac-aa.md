@@ -5,10 +5,10 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 71%
+source-wordcount: '1051'
+ht-degree: 66%
 
 ---
 
@@ -18,7 +18,9 @@ U kunt Adobe Analytics configureren om Campagne en Analytics te integreren.
 
 Dankzij deze integratie kunnen Adobe Campaign en Adobe Analytics via de **Webanalytische connectors** invoegtoepassing. Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
+>[!NOTE]
+>
+>Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
 
 Met Adobe Analytics Connector kan Adobe Campaign de internetdoelgroep meten (Web Analytics). Met de hulpprogramma&#39;s voor webanalyse kan Adobe Campaign indicatoren en campagnerekenmerken doorsturen naar Analytics.
 
@@ -37,7 +39,7 @@ Als u de verbinding Campagne-Analytics wilt instellen, moet u de volgende bewerk
 
 1. [Uw rapportsuite maken in Adobe Analytics](#report-suite-analytics)
 1. [Conversievariabelen en succesgebeurtenissen configureren](#configure-conversion-success)
-1. [Externe account configureren in Adobe Campaign](#external-account-ac)
+1. [Uw externe account configureren in Adobe Campaign](#external-account-ac)
 
 ## Uw analyserapportsuite maken {#report-suite-analytics}
 
@@ -53,7 +55,7 @@ Als u uw **[!UICONTROL Report suite]** in [!DNL Adobe Analytics]volgt u de onder
 
 1. Klik op de pagina **[!UICONTROL Report suite manager]** op **[!UICONTROL Create new]** en vervolgens op **[!UICONTROL Report suite]**.
 
-   Raadpleeg voor de gedetailleerde procedure over het maken van **[!UICONTROL Report suite]** deze [sectie](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites).
+   Voor de gedetailleerde procedure inzake **[!UICONTROL Report suite]** maken, verwijzen naar [Adobe Analytics-documentatie](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -83,7 +85,7 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
 
 1. Klik op **[!UICONTROL Add new]** om de id&#39;s te maken die nodig zijn voor het meten van de impact van de e-mailcampagne, dat wil zeggen de interne naam van de campagne (cid) en de tabel-id van de iNmsBroadlog (bid).
 
-   Voor informatie over de bewerking van **[!UICONTROL Conversion variables]** raadpleegt u deze [sectie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools).
+   Meer informatie over bewerken **[!UICONTROL Conversion variables]**, verwijzen naar [Adobe Analytics-documentatie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -106,11 +108,11 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   Voor meer informatie over de configuratie van **[!UICONTROL Success events]** raadpleegt u deze [sectie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
+   Leren hoe te vormen **[!UICONTROL Success events]**, verwijzen naar [Adobe Analytics-documentatie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
 
    ![](assets/analytics_connnector_8.png)
 
-1. Klik op **[!UICONTROL Save]** wanneer u klaar bent.
+1. Klik op **[!UICONTROL Save]** wanneer u klaar bent met de configuratie.
 
 Wanneer uw rapportreeks wordt gevormd, zult u moeten vormen **[!UICONTROL External accounts]** in Adobe Campaign.
 
@@ -120,7 +122,7 @@ U moet nu uw **[!UICONTROL Web Analytics]** externe account in Adobe Campaign co
 
 Als een van uw **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** of **[!UICONTROL Success events]** niet zichtbaar is tijdens het configureren van uw externe account, betekent dit dat u geen toestemming hebt voor deze nieuwe gemaakte component in het **[!UICONTROL Product profile]** dat aan de gebruiker is gekoppeld.
 
-Raadpleeg voor meer informatie hierover de pagina [Productprofielen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins).
+Raadpleeg voor meer informatie hierover de [Productprofielen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} pagina.
 
 1. Ga naar de map **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** in de Adobe Campaign-structuur en klik op **[!UICONTROL New]**.
 
@@ -180,7 +182,7 @@ Raadpleeg voor meer informatie hierover de pagina [Productprofielen voor Adobe A
 
 1. Met het tabblad **[!UICONTROL Advanced]** kunt u meer technische instellingen configureren of wijzigen.
 
-   * **[!UICONTROL Lifespan]**: hiermee kunt u de vertraging opgeven (in dagen_) waarna de webgebeurtenissen worden hersteld in Adobe Campaign door technische workflows. Standaard: 180 dagen.
+   * **[!UICONTROL Lifespan]**: Hiermee kunt u de vertraging (in dagen) opgeven waarna de webgebeurtenissen in Adobe Campaign zijn hersteld door technische workflows. Standaard: 180 dagen.
    * **[!UICONTROL Persistence]**: hiermee wordt de periode weergegeven waarin alle webgebeurtenissen (bijvoorbeeld een aankoop) kunnen worden toegewezen aan een remarketingcampagne, Standaard: 7 dagen.
 
 >[!NOTE]
@@ -236,7 +238,7 @@ Als u wilt dat de Adobe Experience Cloud de activiteit op de sites kan volgen wa
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. Open de leveringseigenschappen.
-1. Ga naar het tabblad **[!UICONTROL Web Analytics]** en selecteer het eerder gemaakte externe account. Raadpleeg [Uw externe account configureren in Adobe Campaign](#external-account-ac).
+1. Ga naar het tabblad **[!UICONTROL Web Analytics]** en selecteer het eerder gemaakte externe account. Zie [Uw externe account configureren in Adobe Campaign](#external-account-ac).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 

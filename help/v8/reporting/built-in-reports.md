@@ -5,7 +5,7 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
@@ -25,7 +25,7 @@ U kunt tot ingebouwde rapporten van de homepage van de Campagne, het specifieke 
 
 Een lijst van zeer belangrijke rapporten is beschikbaar op de homepage en laat u tot leveringsgegevens snel toegang hebben. U kunt deze lijst naar wens wijzigen. U kunt ook leren hoe u uw eigen rapporten kunt toevoegen aan de **[!UICONTROL Reports]** tab.
 
-Raadpleeg voor meer informatie over deze aangepaste configuraties [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
+Raadpleeg voor meer informatie over deze aangepaste configuraties [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html){target="_blank"}.
 
 
 ## Ingebouwde rapporten openen {#access-ootb-reports}

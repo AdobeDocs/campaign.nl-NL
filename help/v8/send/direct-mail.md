@@ -5,7 +5,7 @@ feature: Direct Mail
 role: User
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 2%
@@ -54,4 +54,4 @@ De volgende stappen voor het genereren van het bestand zijn:
 
    De bevestiging start de gegevensextractie in het opgegeven bestand.
 
-   In het kader van een marketingcampagne, wanneer alle goedkeuringen zijn verleend, worden de extractiebestanden gemaakt via een speciale workflow die, in de standaardconfiguratie, automatisch wordt gestart wanneer een direct mailbericht in behandeling is voor extractie. Meer informatie in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)
+   In het kader van een marketingcampagne, wanneer alle goedkeuringen zijn verleend, worden de extractiebestanden gemaakt via een speciale workflow die, in de standaardconfiguratie, automatisch wordt gestart wanneer een direct mailbericht in behandeling is voor extractie. Meer informatie in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html){target="_blank"}.

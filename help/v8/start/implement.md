@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 3%
@@ -83,18 +83,18 @@ Voordat u begint met het verzenden van berichten en het maken van marketingcampa
    Campagnes, leveringen, taken of workflows zijn allemaal gebaseerd op een sjabloon waarin de belangrijkste instellingen en mogelijkheden zijn opgeslagen. Een ingebouwde sjabloon wordt geleverd voor elke component, waarvoor geen specifieke configuratie is gedefinieerd. U moet malplaatjes vormen en aanpassen aan uw behoeften en hen ter beschikking stellen aan eindgebruikers.
 
 
-   Meer informatie over het werken met campagnemasjablonen vindt u in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+   Meer informatie over het werken met campagnemasjablonen vindt u in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html){target="_blank"}.
 
-   Leer hoe u een workflowsjabloon kunt configureren in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html)
+   Leer hoe u een workflowsjabloon kunt configureren in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}.
 
-   Meer informatie over e-mailsjablonen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target="_blank"}
+   Meer informatie over e-mailsjablonen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target="_blank"}.
 
 
 1. **Typologieregels configureren**
 
    De typologieregels van de Campagne van de hefboomwerking aan filter, controle en monitorlevering die verzenden. Zo regelt u met vermoeidheidsregels de regelfrequentie en de hoeveelheid berichten om overmatige aansporing van ontvangers te voorkomen. Na implementatie worden er in leveringen naar typologische regels verwezen.
 
-   Meer informatie over typologieën en vermoeidheidsbeheer in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html).
+   Meer informatie over typologieën en vermoeidheidsbeheer in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 1. **Krijg vertrouwd met het ingebouwde gegevensmodel van de Campagne**
 

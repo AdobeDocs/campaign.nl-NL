@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: Een instellen voor terugkerende importactiviteiten
+title: Herhalende importbewerkingen instellen
 description: Leer hoe u een workflowsjabloon voor terugkerende import configureert.
 feature: Workflows, Data Management
 role: User, Data Engineer
 exl-id: 13f0091b-b62c-47df-9658-6631ba1cf03a
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 1%
+source-wordcount: '1017'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
    * In de **[!UICONTROL Name of the file to load]** sectie, selecteert u **[!UICONTROL Upload a file from the local machine]** en laat het veld leeg. Telkens wanneer een nieuwe werkstroom van dit malplaatje wordt gecreeerd, kunt u hier het dossier specificeren u wilt, zolang het aan de bepaalde structuur beantwoordt.
 
-     U kunt alle opties gebruiken, maar u moet de sjabloon dienovereenkomstig aanpassen. Als u bijvoorbeeld **[!UICONTROL Specified in the transition]** kunt u een **[!UICONTROL File Transfer]** activiteit voor het ophalen van het bestand dat moet worden geïmporteerd van een FTP-/SFTP-server. Met S3- of SFTP-verbinding kunt u ook segmentgegevens importeren naar Adobe Campaign met de Adobe Real-time Customer Data Platform. Raadpleeg voor meer informatie deze [documentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+     U kunt alle opties gebruiken, maar u moet de sjabloon dienovereenkomstig aanpassen. Als u bijvoorbeeld **[!UICONTROL Specified in the transition]** kunt u een **[!UICONTROL File Transfer]** activiteit voor het ophalen van het bestand dat moet worden geïmporteerd van een FTP-/SFTP-server. Met S3- of SFTP-verbinding kunt u ook segmentgegevens importeren naar Adobe Campaign met de Adobe Real-time Customer Data Platform. Raadpleeg voor meer informatie hierover [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
      ![](assets/import_template_example1.png)
 

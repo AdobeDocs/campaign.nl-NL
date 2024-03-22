@@ -4,10 +4,10 @@ description: Leer hoe u algemene rapporten kunt openen en gebruiken
 feature: Reporting, Monitoring
 role: User, Data Engineer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1763'
-ht-degree: 3%
+source-wordcount: '1750'
+ht-degree: 1%
 
 ---
 
@@ -45,13 +45,13 @@ Dit verslag bevat informatie over de leveringsproductie van het gehele platform 
 
 ![](assets/report-toolbar.png)
 
-U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen: een weergave van 1 uur, een weergave van 3 uur, een weergave van 24 uur, enzovoort. Klik op **[!UICONTROL Refresh]** om uw selectie te bevestigen.
+U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen: een weergave van 1 uur, een weergave van 3 uur, een weergave van 24 uur, enzovoort. Klikken **[!UICONTROL Refresh]** om uw selectie te bevestigen.
 
 >[!NOTE]
 >
->U kunt ook het aantal verzonden leveringen per uur controleren met de opdracht [Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html).
+>U kunt ook het aantal verzonden leveringen per uur controleren met de opdracht [Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
 >
->Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
+>Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om Admin toegang tot een gebruiker te verlenen worden gedetailleerd in [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel){target="_blank"}.
 >
 
 ## Gebruikersactiviteiten {#user-activities}
@@ -118,7 +118,7 @@ U kunt elke regel van de waardetabel openen door op de knop [+] symbool. Voor el
 
 >[!NOTE]
 >
->De domeinnamen die in dit rapport worden weergegeven, worden op kubusniveau gedefinieerd. Als u deze waarden wilt wijzigen, bewerkt u de **[!UICONTROL Delivery logs (broadlogrcp)]** kubus. Raadpleeg [deze sectie](gs-cubes.md) voor meer informatie. De **[!UICONTROL Others]** categorie omvat domeinnamen die niet tot een specifieke klasse behoren.
+>De domeinnamen die in dit rapport worden weergegeven, worden op kubusniveau gedefinieerd. Als u deze waarden wilt wijzigen, bewerkt u de **[!UICONTROL Delivery logs (broadlogrcp)]** kubus. Raadpleeg voor meer informatie hierover [deze sectie](gs-cubes.md). De **[!UICONTROL Others]** categorie omvat domeinnamen die niet tot een specifieke klasse behoren.
 
 ## Browsers {#browsers}
 

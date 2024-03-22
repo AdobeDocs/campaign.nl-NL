@@ -5,7 +5,7 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: bbe3ba03bfecf5b0931795ff827d25560f955702
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Als de OAuth-verbinding is geïnstalleerd, bestaat de volgende stap uit het make
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. Configureer de verbinding afhankelijk van uw behoeften. Gedetailleerde informatie over het configureren van een HTTP API-verbinding is beschikbaar in [Adobe Experience Platform-brondocumentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html).
+1. Configureer de verbinding afhankelijk van uw behoeften. Gedetailleerde informatie over het configureren van een HTTP API-verbinding is beschikbaar in [Adobe Experience Platform-brondocumentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
    Bij de **[!UICONTROL Authentication]** stap, inschakelen **[!UICONTROL Enable authentication]** optie om voor authentiek te verklaren gebruikend het toegangstoken eerder door de integratie OAuth wordt geproduceerd.
 
@@ -98,7 +98,7 @@ Blader op de onderstaande tabbladen naar de twee methoden:
 
 >[!TAB Opties toevoegen met een JavaScript-codeactiviteit]
 
-Als u deze opties automatisch wilt configureren tijdens de uitvoering van de workflow voor de bestemmingspagina&#39;s, voegt u een **[!UICONTROL JavaScript code]** activiteit aan uw werkschema met de hieronder code. [Leer hoe u een JavaScript-codeactiviteit configureert](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
+Als u deze opties automatisch wilt configureren tijdens de uitvoering van de workflow voor de bestemmingspagina&#39;s, voegt u een **[!UICONTROL JavaScript code]** activiteit aan uw werkschema met de hieronder code. [Leer hoe u een JavaScript-codeactiviteit configureert](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 Bij de uitvoering van de workflow worden de opties automatisch gemaakt in de Campagneconsole met de opgegeven waarden.
 
@@ -344,5 +344,5 @@ Hier volgt een voorbeeld van een openingspagina en een JavaScript-codeactiviteit
 ### Meer informatie
 
 * [Een JavaScript-codeactiviteit configureren](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [Een introductiepagina maken](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html)
+* [Een openingspagina maken](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [Abonnementen en abonnementen beheren](../start/subscriptions.md)

@@ -4,13 +4,13 @@ description: Leer hoe u e-mail BCC activeert in Adobe Campaign
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
+exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
 
 ---
-
 
 # Een kopie van uw berichten verzenden naar een BCC-adres {#bcc}
 
@@ -26,7 +26,9 @@ Adobe Campaign zelf beheert gearchiveerde bestanden niet. De .eml-bestanden die 
 
 De archiveringsbestemming is het BCC-e-mailadres van uw keuze, dat onzichtbaar blijft voor de ontvangers van de levering. Als het BCC-e-mailadres eenmaal is gedefinieerd, moet u de specifieke optie inschakelen in het dialoogvenster [leveringssjabloon](create-templates.md) niveau.
 
-![](../assets/do-not-localize/speech.png)  Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} om het BCC e-mailadres mee te delen dat voor archivering moet worden gebruikt.
+>[!NOTE]
+>
+>Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} om het BCC e-mailadres mee te delen dat voor archivering moet worden gebruikt.
 
 >[!CAUTION]
 >

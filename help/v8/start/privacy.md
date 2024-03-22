@@ -5,7 +5,7 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 36%
@@ -21,7 +21,7 @@ De Adobe biedt de Controllers van Gegevens de hulpmiddelen aan om de verzoeken v
 
 Als u het privacyverzoek in Campagne wilt beheren, moet u eerst [een naamruimte definiëren](#namespaces). U kunt vervolgens privacyverzoeken maken en beheren. Voor het uitvoeren van privacyverzoeken gebruikt u de **Privacy Service Adobe** integratie. De verzoeken van de privacy die van de Privacy Service aan alle oplossingen van Adobe Experience Cloud worden geduwd worden automatisch behandeld door Campagne via een specifieke werkschema. [Meer informatie](#create-privacy-request)
 
-![](../assets/do-not-localize/speech.png) Meer informatie over de **Recht op toegang** en de **Recht op vergeten** (aanvraag verwijderen) in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target="_blank"}.
+Meer informatie over de **Recht op toegang** en de **Recht op vergeten** (aanvraag verwijderen) in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target="_blank"}.
 
 <!--
 >[!NOTE]

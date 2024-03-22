@@ -5,10 +5,10 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '3005'
-ht-degree: 6%
+source-wordcount: '2990'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 De grenzen zijn het resultaat van een leveringspoging en mislukking waar ISP achtermislukkingsberichten verstrekt. De verwerking van de stuitbehandeling is een kritiek deel van lijsthygiëne. Nadat een bepaalde e-mail meerdere keren achter elkaar is teruggestuurd, wordt deze tijdens dit proces gemarkeerd voor onderdrukking.
 
-Hierdoor wordt voorkomen dat systemen ongeldige e-mailadressen blijven verzenden. De grenzen zijn één van de belangrijkste stukken van gegevens die ISPs gebruikt om IP reputatie te bepalen. Het is belangrijk om deze maatstaf in de gaten te houden. &quot;Geleverd&quot; versus &quot;teruggestort&quot; is waarschijnlijk de meest gebruikelijke manier om de levering van marketingberichten te meten: hoe hoger het geleverde percentage is , hoe beter .
+Hierdoor wordt voorkomen dat systemen ongeldige e-mailadressen blijven verzenden. De grenzen zijn één van de belangrijkste stukken van gegevens die ISPs gebruikt om IP reputatie te bepalen. Het is belangrijk om deze maatstaf in de gaten te houden. &quot;Geleverd&quot; versus &quot;teruggestort&quot; is waarschijnlijk de meest gebruikelijke manier om de levering van marketingberichten te meten: hoe hoger het geleverde percentage, hoe beter.
 
 Als een bericht niet naar een profiel kan worden verzonden, verzendt de externe server automatisch een foutbericht naar Adobe Campaign. Deze fout is gekwalificeerd om te bepalen of het e-mailadres, het telefoonnummer of het apparaat in quarantaine moet worden geplaatst. Zie [Bounce mail management](#bounce-mail-qualification).
 
@@ -29,18 +29,18 @@ Wanneer een e-mailadres in quarantaine wordt geplaatst, of als een profiel op li
 Er zijn twee typen fouten wanneer een bericht mislukt. Elk type van leveringsmislukking bepaalt als een adres wordt verzonden naar [quarantaine](quarantines.md#quarantine-reason) of niet.
 
 * **Harde vlekken**
-De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP een postingspoging aan een abonneeadres als niet te leveren niet bepaalt. In Adobe Campaign worden harde golven die als niet-leverbaar zijn gecategoriseerd, toegevoegd aan de quarantainelijst, wat betekent dat ze niet opnieuw zouden worden gemaskeerd. In sommige gevallen wordt een harde stuit genegeerd als de oorzaak van de fout onbekend is.
+De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP een postingspoging aan een abonneeadres als niet te leveren niet bepaalt. In Adobe Campaign worden harde golven die als niet-leverbaar zijn gecategoriseerd, toegevoegd aan de quarantainelijst, wat betekent dat ze niet opnieuw zouden worden opgewekt. In sommige gevallen wordt een harde stuit genegeerd als de oorzaak van de fout onbekend is.
 
-   Hier volgen enkele voorbeelden van harde grenzen: Adres bestaat niet, Account uitgeschakeld, onjuiste syntaxis, onjuist domein
+  Hier zijn enkele voorbeelden van harde grenzen: Adres bestaat niet, Account uitgeschakeld, Onjuiste syntaxis, Onjuist domein
 
 * **Zachte golven**
 De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. Zachte fouten zullen [opnieuw proberen](#retries) meerdere keren (met variantie afhankelijk van het gebruik van aangepaste of kant-en-klare leveringsinstellingen) om te proberen de levering te voltooien. Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren.
 
-   Tot de meest voorkomende oorzaken van zachte grenzen behoren: Brievenbus volledig, Ontvangend e-mailserver neer, de kwesties van de de reputatie van de Afzender
+  Sommige gemeenschappelijke oorzaken van zachte grenzen omvatten het volgende: De volledige brievenbus, Ontvangend e-mailserver neer, de kwesties van de de reputatie van de Afzender
 
 De  **Genegeerd** Het type fout is bekend als tijdelijk, zoals &quot;Buiten kantoor&quot;, of een technische fout, bijvoorbeeld als het type afzender &quot;postmaster&quot; is.
 
-De feedbacklus werkt als stuiterende e-mails: wanneer een gebruiker een e-mail als spam kwalificeert, kunt u e-mailregels in Adobe Campaign configureren om alle leveringen aan deze gebruiker te blokkeren. De adressen van deze gebruikers worden gevoegd op lijst van gewenste personen alhoewel zij niet de unsubscription verbinding klikten. Adressen worden toegevoegd aan de **NmsAddress**) quarantainetabel en niet de (**NmsRecipient**) tabel met ontvangers met de **[!UICONTROL Denylisted]** status. Meer informatie over feedbacklusmechanismen vindt u in het dialoogvenster [Adobe Handleiding voor beste praktijken voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+De feedbacklus werkt als e-mailberichten stuiteren: wanneer een gebruiker een e-mailbericht kwalificeert als spam, kunt u e-mailregels in Adobe Campaign configureren om alle leveringen aan deze gebruiker te blokkeren. De adressen van deze gebruikers worden gevoegd op lijst van gewenste personen alhoewel zij niet de unsubscription verbinding klikten. Adressen worden toegevoegd aan de **NmsAddress**) quarantainetabel en niet de (**NmsRecipient**) tabel met ontvangers met de **[!UICONTROL Denylisted]** status. Meer informatie over feedbacklusmechanismen vindt u in het dialoogvenster [Handleiding voor best practices voor aflevering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 ## Synchrone en asynchrone fouten {#synchronous-and-asynchronous-errors}
 
@@ -48,15 +48,15 @@ Een berichtlevering kan onmiddellijk ontbreken, in dat geval kwalificeren wij di
 
 Deze soorten fouten worden als volgt beheerd:
 
-* **Synchrone fout**: de externe server waarmee contact wordt opgenomen door de Adobe Campaign-leveringsserver, retourneert onmiddellijk een foutbericht. De levering mag niet naar de server van het profiel worden verzonden. De agent van de Overdracht van de Post (MTA) bepaalt het stuittype en kwalificeert de fout, en verzendt die informatie terug naar Campagne om te bepalen of de e-mailadressen in kwestie zouden moeten worden quarantined. Zie [Kwalificatie van niet-bezorgde e-mails](#bounce-mail-qualification).
+* **Synchrone fout**: de externe server die wordt benaderd door de Adobe Campaign-leveringsserver retourneert direct een foutbericht. De levering mag niet naar de server van het profiel worden verzonden. De agent van de Overdracht van de Post (MTA) bepaalt het stuittype en kwalificeert de fout, en verzendt die informatie terug naar Campagne om te bepalen of de e-mailadressen in kwestie zouden moeten worden quarantined. Zie [Kwalificatie van niet-bezorgde e-mails](#bounce-mail-qualification).
 
 * **Asynchrone fout**: een stuiterende post of een SR wordt teruggestuurd later door de ontvangende server. Deze fout is gekwalificeerd met een label dat gerelateerd is aan de fout. Asynchrone fouten kunnen optreden tot een week nadat een levering is verzonden.
 
 >[!NOTE]
 >
->Als Beheerde gebruiker van Cloud Services, wordt de configuratie van de stuiterbrievenbus uitgevoerd door Adobe.
+>Als Beheerde gebruiker van Cloud Servicen, wordt de configuratie van de stuiterbrievenbus uitgevoerd door Adobe.
 
-## Kwalificatie van niet-bezorgde e-mails {#bounce-mail-qualification}
+## Bounce mail-kwalificatie {#bounce-mail-qualification}
 
 <!--NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
 
@@ -109,14 +109,14 @@ De geldigheidsperiode die u instelt in uw campagneleveringen is beperkt tot **3,
 
 Bijvoorbeeld, als de geldigheidsperiode aan de standaardwaarde van 5 dagen in Campagne wordt geplaatst, zullen de zachte-stuiterende berichten in de MTA hertry rij gaan en slechts 3.5 dagen vanaf toen dat bericht MTA bereikte opnieuw worden geprobeerd. In dat geval wordt de waarde die is ingesteld in Campaign niet gebruikt.
 
-Wanneer een bericht gedurende 3,5 dagen in de wachtrij van de MTA heeft gestaan en niet is geleverd, treedt er een time-out op en zal de status van het bericht worden bijgewerkt van **[!UICONTROL Sent]** naar **[!UICONTROL Failed]** in de leveringslogboeken.
+Zodra een bericht 3.5 dagen in de MTA rij is geweest en niet heeft geleverd, zal het uit tijd en zijn status bijgewerkt van **[!UICONTROL Sent]** tot **[!UICONTROL Failed]** in de leveringslogboeken.
 
 Voor meer informatie over de geldigheidsperiode raadpleegt u de [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
 
 
 ## Typen e-mailfouten {#email-error-types}
 
-Voor het e-mailkanaal worden hieronder mogelijke oorzaken van een leveringsfout vermeld.
+Voor het e-mailkanaal worden de mogelijke oorzaken van een leveringsfout hieronder vermeld.
 
 <table> 
  <tbody> 
@@ -142,7 +142,7 @@ Voor het e-mailkanaal worden hieronder mogelijke oorzaken van een leveringsfout 
    <td> Adres niet opgegeven </td> 
    <td> Hard </td> 
    <td> 7 </td> 
-   <td> Geen adres wordt gegeven voor de ontvanger.<br /> </td> 
+   <td> Er wordt geen adres voor de ontvanger opgegeven.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adres van slechte kwaliteit </td> 
@@ -154,7 +154,7 @@ Voor het e-mailkanaal worden hieronder mogelijke oorzaken van een leveringsfout 
    <td> Op de lijst met ongewenste personen staan adres </td> 
    <td> Hard </td> 
    <td> 8 </td> 
-   <td> Het adres werd toegevoegd aan de lijst van gewezen personen toen het verzenden. Deze status wordt gebruikt voor het importeren van gegevens van externe lijsten en systemen naar de Adobe Campaign Quarantine-lijst.<br /> </td> 
+   <td> Het adres werd toegevoegd aan de lijst van gewezen personen op het tijdstip van verzending. Deze status wordt gebruikt voor het importeren van gegevens van externe lijsten en systemen naar de Adobe Campaign Quarantine-lijst.<br /> </td> 
   </tr> 
   <tr> 
    <td> Besturingsadres </td> 
@@ -190,13 +190,13 @@ Voor het e-mailkanaal worden hieronder mogelijke oorzaken van een leveringsfout 
    <td> Ongeldig domein </td> 
    <td> Zacht </td> 
    <td> 2 </td> 
-   <td> Het domein van het e-mailadres is onjuist of bestaat niet meer. Dit profiel wordt opnieuw geactiveerd tot het aantal fouten 5 is. Hierna wordt de record ingesteld op de status Quarantaine en wordt de levering niet opnieuw geprobeerd.<br /> </td> 
+   <td> Het domein van het e-mailadres is onjuist of bestaat niet meer. Dit profiel wordt opnieuw geactiveerd tot het aantal fouten 5 is. Hierna wordt de record ingesteld op Quarantine-status en wordt het niet opnieuw geprobeerd.<br /> </td> 
   </tr> 
   <tr> 
    <td> Postbus vol </td> 
    <td> Zacht </td> 
    <td> 5 </td> 
-   <td> De brievenbus van deze gebruiker is volledig en kan niet meer berichten goedkeuren. Dit profiel wordt opnieuw geactiveerd tot het aantal fouten 5 is. Hierna wordt de record ingesteld op de status Quarantaine en wordt de levering niet opnieuw geprobeerd.<br /> Dit type fout wordt beheerd door een schoonmaakproces, het adres wordt geplaatst aan een geldige status na 30 dagen.<br /> Waarschuwing: voor het adres dat automatisch uit de lijst van quarantined adressen moet worden verwijderd, moet het technische werkschema van de schoonmaakbeurt van het Gegevensbestand zijn begonnen.<br /> </td> 
+   <td> De brievenbus van deze gebruiker is volledig en kan niet meer berichten goedkeuren. Dit profiel wordt opnieuw geactiveerd tot het aantal fouten 5 is. Hierna wordt de record ingesteld op de status Quarantaine en wordt de levering niet opnieuw geprobeerd.<br /> Dit type fout wordt beheerd door een schoonmaakproces, het adres wordt geplaatst aan een geldige status na 30 dagen.<br /> Waarschuwing: het adres dat automatisch uit de lijst van quarantined adressen moet worden verwijderd, moet het technische werkschema van de schoonmaakbeurt van het Gegevensbestand zijn begonnen.<br /> </td> 
   </tr> 
   <tr> 
    <td> Niet verbonden </td> 
@@ -208,7 +208,7 @@ Voor het e-mailkanaal worden hieronder mogelijke oorzaken van een leveringsfout 
    <td> Niet gedefinieerd </td> 
    <td> Niet gedefinieerd </td> 
    <td> 0 </td> 
-   <td> Het adres is in kwalificatie omdat de fout nog niet is verhoogd. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als deze opnieuw voorkomt, zal de foutenteller stijgen en worden de technische teams gewaarschuwd. Vervolgens kunnen ze een berichtenanalyse uitvoeren en deze fout kwalificeren via de <span class="uicontrol">Beheer</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Beheer van niet-te leveren items</span> knooppunt in de boomstructuur.<br /> </td> 
+   <td> Het adres is in kwalificatie omdat de fout nog niet is verhoogd. Dit type van fout komt voor wanneer een nieuw foutenbericht door de server wordt verzonden: het kan een geïsoleerde fout zijn, maar als het opnieuw voorkomt, stijgt de foutenteller, die de technische teams zal waarschuwen. Zij kunnen dan berichtanalyse uitvoeren en deze fout kwalificeren, via <span class="uicontrol">Administratie</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Beheer van niet-te leveren items</span> knooppunt in de boomstructuur.<br /> </td> 
   </tr> 
   <tr> 
    <td> Niet in aanmerking komend voor de voorstellen </td> 
@@ -328,7 +328,7 @@ Synchroon, als APNs een &quot;unregistered&quot;status voor een bericht terugkee
    <td> Ja<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs-berichtafwijzing: Registratie ongedaan maken<br /> de gebruiker de toepassing heeft verwijderd of het token is verlopen<br /> </td> 
+   <td> APNs-bericht afgewezen: Unregistration<br /> de gebruiker de toepassing heeft verwijderd of het token is verlopen<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> Niet geregistreerd<br /> </td> 
    <td> Hard<br /> </td> 
@@ -336,7 +336,7 @@ Synchroon, als APNs een &quot;unregistered&quot;status voor een bericht terugkee
    <td> Nee<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs-berichtafwijzing: alle andere fouten<br /> </td> 
+   <td> APNs-bericht afgekeurd: alle andere fouten<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> De oorzaak van de fout-afwijzing komt voor in het foutbericht<br /> </td> 
    <td> Zacht<br /> </td> 
@@ -352,9 +352,9 @@ Synchroon, als APNs een &quot;unregistered&quot;status voor een bericht terugkee
 
 Voor elke melding ontvangt Adobe Campaign de synchrone fouten rechtstreeks van de FCM-server. Adobe Campaign verwerkt deze bestanden direct en genereert harde of zachte fouten op basis van de ernst van de fout. U kunt het opnieuw proberen:
 
-* Lengte van lading overschreden, verbindingskwestie, de kwestie van de de dienstbeschikbaarheid: opnieuw uitgevoerd, soft error, failure reason **[!UICONTROL Refused]**.
+* Lengte van lading overschreden, verbindingskwestie, de kwestie van de de dienstbeschikbaarheid: uitgevoerd opnieuw, zachte fout, mislukkingsreden is **[!UICONTROL Refused]**.
 * Apparaatquota overschreden: niet opnieuw proberen, soft error, error reason is **[!UICONTROL Refused]**.
-* Ongeldige of niet-geregistreerde token, onverwachte fout, probleem met afzenderaccount: niet opnieuw proberen, harde fout, mislukkingsreden is **[!UICONTROL Refused]**.
+* Ongeldige of niet-geregistreerde token, onverwachte fout, probleem met afzenderaccount: geen nieuwe poging, harde fout, reden van fout is **[!UICONTROL Refused]**.
 
 De **[!UICONTROL mobileAppOptOutMgt]** werkstroom wordt elke 6 uur uitgevoerd om de **AppSubscriptionRcp** tabel. Voor tokens die niet zijn geregistreerd of niet meer geldig zijn, wordt het veld **Uitgeschakeld** is ingesteld op **Waar** en het abonnement op dat apparaattoken wordt automatisch uitgesloten van toekomstige leveringen.
 
@@ -364,9 +364,9 @@ Tijdens de leveringsanalyse, worden alle apparaten die van het doel worden uitge
 >
 >Voor klanten die de schakelaar Baidu gebruiken, zijn hier de verschillende soorten fouten:
 >
->* Verbindingsprobleem aan het begin van de levering: fouttype **[!UICONTROL Undefined]**, reden van fout **[!UICONTROL Unreachable]**, wordt opnieuw geprobeerd.
->* Verbinding verloren tijdens een levering: soft error, error reason **[!UICONTROL Refused]**, wordt opnieuw geprobeerd.
->* Synchrone fout die door Baidu tijdens het verzenden is geretourneerd: harde fout, reden van fout **[!UICONTROL Refused]**, wordt het opnieuw proberen niet uitgevoerd.
+>* Verbindingsprobleem aan het begin van de levering: type fout **[!UICONTROL Undefined]**, reden van fout **[!UICONTROL Unreachable]**, wordt opnieuw geprobeerd.
+>* Verbinding verloren tijdens levering: zachte fout, reden van mislukking **[!UICONTROL Refused]**, wordt opnieuw geprobeerd.
+>* Synchrone fout die door Baidu tijdens het verzenden is geretourneerd: harde fout, oorzaak van fout **[!UICONTROL Refused]**, wordt het opnieuw proberen niet uitgevoerd.
 >
 >Adobe Campaign neemt om de 10 minuten contact op met de Baidu-server om de status van het verzonden bericht op te halen en werkt de weblogs bij. Als een bericht wordt verklaard zoals verzonden, wordt het statuut van het bericht in de uitzendingen geplaatst aan **[!UICONTROL Received]**. Als Baidu een fout declareert, wordt de status ingesteld op **[!UICONTROL Failed]**.
 
@@ -385,7 +385,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> <strong>Opnieuw</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> Berichtenaanmaak/analyse fase: ongeldige trefwoorden gebruikt in aangepaste velden<br /> </td> 
+   <td> Berichtaanmaak/analyse fase: illegale trefwoorden gebruikt in aangepaste velden<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> De volgende trefwoorden kunnen niet worden gebruikt: {1}<br /> </td> 
    <td> Zacht<br /> </td> 
@@ -393,9 +393,9 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr> 
   <tr> 
-   <td> Berichtenaanmaak/analyse fase: lading te groot<br /> </td> 
+   <td> Berichtaanmaak/analysefase: lading te groot<br /> </td> 
    <td> Mislukt<br /> </td> 
-   <td> De aanmelding is te zwaar: {1} bits, while only {2} are authorised<br /> </td> 
+   <td> Het bericht is te zwaar: {1} beetjes, terwijl slechts \ {2 \} wordt geautoriseerd<br /> </td> 
    <td> Zacht<br /> </td> 
    <td> Geweigerd<br /> </td> 
    <td> Nee<br /> </td> 
@@ -417,7 +417,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Ja<br /> </td> 
   </tr> 
   <tr> 
-   <td> Afkeuring van FCM-berichten: Fout bij verifiëren van senderaccount<br /> </td> 
+   <td> Afkeuring van FCM-berichten: Fout bij het verifiëren van de senderaccount<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> Kan de ontwikkelaarsaccount niet identificeren. Controleer uw id en wachtwoord<br /> </td> 
    <td> Zacht<br /> </td> 
@@ -425,7 +425,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr> 
   <tr> 
-   <td> Afkeuring van FCM-berichten: Apparaatquota overschreden<br /> </td> 
+   <td> Afwijzing van FCM-bericht: Apparaatquota overschreden<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> </td> 
    <td> Zacht<br /> </td> 
@@ -433,7 +433,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Ja<br /> </td> 
   </tr> 
   <tr> 
-   <td> Afkeuring van FCM-berichten: Ongeldige registratie / niet geregistreerd<br /> </td> 
+   <td> Afwijzing van FCM-bericht: Ongeldige registratie / niet geregistreerd<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> </td> 
    <td> Hard<br /> </td> 
@@ -449,7 +449,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr> 
     <tr> 
-   <td> Afkeuring van FCM-berichten: Ongeldig argument<br /> </td> 
+   <td> Afwijzing van FCM-bericht: Ongeldig argument<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> INVALID_ARGUMENT </td> 
    <td> Genegeerd</td> 
@@ -457,7 +457,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr>
     <tr> 
-   <td> Afkeuring van FCM-berichten: Verificatiefout van derden<br /> </td> 
+   <td> Afwijzing van FCM-bericht: verificatiefout van derden<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> THIRD_PARTY_AUTH_ERROR </td> 
    <td> Genegeerd</td>
@@ -465,7 +465,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Ja<br /> </td> 
   </tr>
     <tr> 
-   <td> Afkeuring van FCM-berichten: Afzender-id komt niet overeen<br /> </td> 
+   <td> Afkeuring van FCM-bericht: Afzender-ID komt niet overeen<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> SENDER_ID_MISMATCH </td> 
    <td> Zacht</td>
@@ -473,7 +473,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr>
     <tr> 
-   <td> Afkeuring van FCM-berichten: Niet geregistreerd<br /> </td> 
+   <td> Afwijzing van FCM-bericht: Niet geregistreerd<br /> </td> 
    <td> Mislukt<br /> </td>
    <td> ONGEREGISTREERD </td> 
    <td> Hard</td> 
@@ -489,7 +489,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Ja<br /> </td> 
   </tr>
     <tr> 
-   <td> Afkeuring van FCM-berichten: Niet beschikbaar<br /> </td> 
+   <td> Afwijzing van FCM-bericht: niet beschikbaar<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> NIET BESCHIKBAAR</td> 
    <td> Genegeerd</td> 
@@ -497,7 +497,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Ja<br /> </td> 
   </tr>
     <tr> 
-   <td> Afkeuring van FCM-berichten: onverwachte foutcode<br /> </td> 
+   <td> Afwijzing van FCM-bericht: onverwachte foutcode<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> onverwachte foutcode</td> 
    <td> Genegeerd</td> 
@@ -513,7 +513,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Ja<br /> </td> 
   </tr>
     <tr> 
-   <td> Verificatie: Niet-geautoriseerde client of bereik in aanvraag.<br /> </td> 
+   <td> Verificatie: niet-geautoriseerde client of bereik in aanvraag.<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> onbevoegd_client </td> 
    <td> Genegeerd</td>
@@ -521,7 +521,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr>
     <tr> 
-   <td> Verificatie: De cliënt is onbevoegd om toegangstokens terug te winnen gebruikend deze methode, of cliënt geautoriseerd niet voor om het even welk gevraagd werkingsgebied.<br /> </td> 
+   <td> Verificatie: de client is niet geautoriseerd om toegangstokens op te halen met deze methode of de client is niet geautoriseerd voor een van de gevraagde bereikinstellingen.<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> onbevoegd_client </td> 
    <td> Genegeerd</td>
@@ -529,7 +529,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr>
     <tr> 
-   <td> Verificatie: Toegang geweigerd<br /> </td> 
+   <td> Verificatie: toegang geweigerd<br /> </td> 
    <td> Mislukt<br /> </td>
    <td> access_deny</td> 
    <td> Genegeerd</td>
@@ -537,7 +537,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr>
     <tr> 
-   <td> Verificatie: Ongeldig e-mailadres<br /> </td> 
+   <td> Verificatie: ongeldige e-mail<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> invalid_Grant </td> 
    <td> Genegeerd</td> 
@@ -545,7 +545,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr>
     <tr> 
-   <td> Verificatie: Ongeldige JWT<br /> </td> 
+   <td> Verificatie: ongeldige JWT<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> invalid_Grant </td> 
    <td> Genegeerd</td> 
@@ -553,7 +553,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr>
     <tr> 
-   <td> Verificatie: Ongeldige JWT-handtekening<br /> </td> 
+   <td> Verificatie: ongeldige JWT-handtekening<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> invalid_Grant </td> 
    <td> Genegeerd</td> 
@@ -561,7 +561,7 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
    <td> Nee<br /> </td> 
   </tr>
     <tr> 
-   <td> Verificatie: Ongeldig OAuth-bereik of publiek voor ID-token opgegeven<br /> </td> 
+   <td> Verificatie: ongeldig OAuth-bereik of opgegeven publiek voor ID-token<br /> </td> 
    <td> Mislukt<br /> </td> 
    <td> onbevoegd_client</td> 
    <td> Genegeerd</td> 
@@ -636,11 +636,11 @@ De specifieke kenmerken van SMS-kanalen worden hieronder vermeld.
  </tbody> 
 </table>
 
-**Voor de Uitgebreide generische schakelaar SMPP**
+**Voor de uitgebreide algemene SMPP-connector**
 
 Wanneer het gebruiken van het protocol SMPP om de berichten van SMS te verzenden, wordt het foutenbeheer verschillend behandeld.
 
-De schakelaar SMPP wint gegevens van het bericht van SR (Status Report) terug dat gebruikend regelmatige uitdrukkingen (regexes) is teruggekeerd om zijn inhoud te filtreren. Deze gegevens worden vervolgens vergeleken met de gegevens in het dialoogvenster **[!UICONTROL Delivery log qualification]** tabel (beschikbaar via **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** ).
+De schakelaar SMPP wint gegevens van het bericht van SR (Status Report) terug dat gebruikend regelmatige uitdrukkingen (regexes) is teruggekeerd om zijn inhoud te filtreren. Deze gegevens worden vervolgens vergeleken met de gegevens in het dialoogvenster **[!UICONTROL Delivery log qualification]** tabel (beschikbaar via de **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** ).
 
 Voordat een nieuw type fout wordt gekwalificeerd, is de reden van de fout altijd ingesteld op **Geweigerd** standaard.
 
@@ -659,19 +659,19 @@ SR Generic DELIVRD 000|#MESSAGE#
 * Alle foutberichten beginnen met **SR** om SMS-foutcodes te onderscheiden van e-mailfoutcodes.
 * Het tweede deel (**Algemeen** in dit voorbeeld) van het foutbericht verwijst naar de naam van de SMSC-implementatie, zoals gedefinieerd in de **[!UICONTROL SMSC implementation name]** veld van de externe SMS-rekening.
 
-   Omdat dezelfde foutcode voor elke provider een andere betekenis kan hebben, kunt u in dit veld weten welke provider de foutcode heeft gegenereerd. U kunt de fout dan vinden in de relevante documentatie van de leverancier.
+  Omdat dezelfde foutcode voor elke provider een andere betekenis kan hebben, kunt u in dit veld weten welke provider de foutcode heeft gegenereerd. U kunt de fout dan vinden in de relevante documentatie van de leverancier.
 
 * Het derde deel (**LEVERING** in dit voorbeeld) van het foutbericht komt overeen met de statuscode die uit de SR is opgehaald met behulp van het statusextractieoverzicht dat in de externe SMS-account is gedefinieerd.
 
-   Deze regex wordt gespecificeerd in **[!UICONTROL SMSC specificities]** tabblad van de externe account.
+  Deze regex wordt gespecificeerd in **[!UICONTROL SMSC specificities]** tabblad van de externe account.
 Standaard extraheert de regex de **Status:** veld zoals gedefinieerd door de **Aanhangsel B** van de **SMPP 3.4-specificatie**.
 
 * Het vierde deel (**000** in dit voorbeeld) van het foutbericht komt overeen met de foutcode die uit de SR is geëxtraheerd met behulp van het extraheren van de foutcode die in de externe SMS-account is gedefinieerd.
 
-   Deze regex wordt gespecificeerd in **[!UICONTROL SMSC specificities]** tabblad van de externe account.
+  Deze regex wordt gespecificeerd in **[!UICONTROL SMSC specificities]** tabblad van de externe account.
 
-   Standaard extraheert de regex de **fout:** veld zoals gedefinieerd door de **Aanhangsel B** van de **SMPP 3.4-specificatie**.
+  Standaard extraheert de regex de **fout:** veld zoals gedefinieerd door de **Aanhangsel B** van de **SMPP 3.4-specificatie**.
 
 * Alles wat na het buissymbool (|) komt wordt slechts getoond in **[!UICONTROL First text]** kolom van de **[!UICONTROL Delivery log qualification]** tabel. Deze inhoud wordt altijd vervangen door **#MESSAGE#** nadat het bericht is genormaliseerd. Dit proces voorkomt het hebben van veelvoudige ingangen voor gelijkaardige fouten en is het zelfde als voor e-mail.
 
-De uitgebreide generische schakelaar SMPP past heuristisch toe om verstandige standaardwaarden te vinden: als de status begint met **DELIV**, wordt het als een succes beschouwd omdat het overeenkomt met de gemeenschappelijke status **LEVERING** of **AFGELEVERD** door de meeste aanbieders worden gebruikt. Elke andere status leidt tot een harde fout.
+De uitgebreide generische schakelaar SMPP past heuristisch toe om verstandige standaardwaarden te vinden: als de status met begint **DELIV**, wordt het als een succes beschouwd omdat het overeenkomt met de gemeenschappelijke status **LEVERING** of **AFGELEVERD** door de meeste aanbieders worden gebruikt. Elke andere status leidt tot een harde fout.

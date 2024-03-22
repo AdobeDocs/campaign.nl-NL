@@ -5,7 +5,7 @@ feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -20,7 +20,7 @@ In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterpr
 
 Deze werkschema&#39;s voeren onderhoudsverrichtingen op het gegevensbestand uit, hefboomwerking de volgende informatie in de leveringslogboeken, creeer terugkomende campagnes, en meer.
 
-De volledige lijst van technische werkstromen wordt gedetailleerd in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
+De volledige lijst van technische werkstromen wordt gedetailleerd in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
 
 Naast deze technische workflows is Campagne v8 gebaseerd op specifieke technische workflows voor het beheer van [gegevensreplicatie](#data-replication).
 
@@ -74,6 +74,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Verwante onderwerpen**
 
-* [Leer hoe u aan de slag kunt met workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [Leer hoe u aan de slag kunt met workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target="_blank"}
 
 * [Bewaartermijnen voor gegevens](../dev/datamodel-best-practices.md#data-retention)

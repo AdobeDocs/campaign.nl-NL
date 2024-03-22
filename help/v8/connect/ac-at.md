@@ -5,10 +5,10 @@ feature: Target Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 1%
+source-wordcount: '970'
+ht-degree: 0%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 1%
 
 Connect Campagne en Target gebruiken om een aanbod van Adobe Target op te nemen in een Adobe Campaign-e-maillevering.
 
-Deze integratie helpt u om gebruiksgevallen als volgt uit te voeren: wanneer een ontvanger een e-mailbericht opent dat via Adobe Campaign is verzonden, kunt u met een aanroep naar Adobe Target een dynamische versie van de inhoud weergeven. Deze dynamische versie wordt berekend op basis van de regels die vooraf zijn opgegeven bij het maken van de e-mail.
+Dankzij deze integratie kunt u gebruiksgevallen als volgt implementeren: wanneer een ontvanger een e-mail opent die via Adobe Campaign is verzonden, kunt u met een aanroep naar Adobe Target een dynamische versie van de inhoud weergeven. Deze dynamische versie wordt berekend op basis van de regels die vooraf zijn opgegeven bij het maken van de e-mail.
 
 >[!NOTE]
->De integratie ondersteunt alleen statische afbeeldingen. De andere typen inhoud kunnen niet worden gepersonaliseerd.
-
-![](../assets/do-not-localize/speech.png)  Als gebruiker van Beheerde Cloud Services, [contact Adobe](../start/campaign-faq.md#support) om Experience Cloud-triggers te implementeren met Campagne.
+>* De integratie ondersteunt alleen statische afbeeldingen. De andere typen inhoud kunnen niet worden gepersonaliseerd.
+>
+>* Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om Experience Cloud trekkers met Campagne uit te voeren.
 
 Adobe Target kan de volgende gegevenstypen gebruiken:
 
@@ -61,11 +61,11 @@ In Adobe Campaign kunt u op twee manieren een dynamische afbeelding van Target i
 
 * Als u de editor voor digitale inhoud gebruikt, kiest u een bestaande afbeelding en selecteert u **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** op de werkbalk.
 
-   ![](assets/target_5.png)
+  ![](assets/target_5.png)
 
 * Als u de standaardeditor gebruikt, plaatst u de cursor op de plaats waar u de afbeelding wilt invoegen en selecteert u **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** in het vervolgkeuzemenu voor aanpassen.
 
-   ![](assets/target_12.png)
+  ![](assets/target_12.png)
 
 Vervolgens kunt u de afbeeldingsparameters definiëren:
 
@@ -74,7 +74,7 @@ Vervolgens kunt u de afbeeldingsparameters definiëren:
 * De **[!UICONTROL Landing Page]** Hiermee kunt u de standaardafbeelding omleiden naar een standaardbestemmingspagina. Deze URL is alleen van toepassing wanneer de standaardafbeelding wordt weergegeven in het laatste e-mailbericht. Het is optioneel.
 * De **[!UICONTROL Additional decision parameters]**  definieert de toewijzing tussen de velden die zijn gedefinieerd in de Adobe Target-segmenten en de Adobe Campaign-velden. De Adobe Campaign-velden die worden gebruikt, moeten zijn opgegeven in de keuzelijst. In ons voorbeeld hebben we het veld Land toegevoegd.
 
-Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Meer informatie over Target Enterprise-machtigingen vindt u in [deze pagina](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html#administer).
+Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Meer informatie over Target Enterprise-machtigingen vindt u in [Adobe Target-documentatie](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
 ![](assets/target_13.png)
 
@@ -94,7 +94,7 @@ In ons geval hebben we twee doorgifteaanbiedingen nodig, de derde (de standaard)
 
    ![](assets/target_6.png)
 
-1. Volg dezelfde procedure voor het resterende doorleidingsaanbod. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences) voor meer informatie.
+1. Volg dezelfde procedure voor het resterende doorleidingsaanbod. Raadpleeg voor meer informatie deze [Adobe Target-documentatie](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}.
 
 ### Soorten publiek maken {#audiences-target}
 
@@ -164,7 +164,7 @@ De **[!UICONTROL Reporting Settings]** kunt u een actie selecteren en de paramet
 
 In Adobe Campaign kunt u nu een voorbeeld van uw e-mail bekijken en de weergave ervan testen op verschillende ontvangers.
 
-U zult merken dat de afbeelding verandert op basis van de verschillende ervaringen die zijn gemaakt.
+U zult merken dat de afbeelding verandert op basis van de verschillende ervaringen die u hebt opgedaan.
 
 U kunt nu uw e-mail verzenden, inclusief een dynamisch voorstel van Target.
 

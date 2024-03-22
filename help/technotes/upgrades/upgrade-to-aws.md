@@ -2,7 +2,7 @@
 title: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 description: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 4c41e5d1fef1dcb3279a26f6025338e41525e6b3
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -62,4 +62,4 @@ De productomgevingen die in **januari 2024**.
 
   Nee. Wij kunnen om het even welke gevraagde wijzigingen in het bestaande programma aanpassen aangezien dit waarschijnlijk de toegewezen verbeteringsgebeurtenis voor een andere klant zal verstoren.
 
-Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}..
+Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

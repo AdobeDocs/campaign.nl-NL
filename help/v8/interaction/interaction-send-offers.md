@@ -5,10 +5,10 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 3%
+source-wordcount: '1241'
+ht-degree: 2%
 
 ---
 
@@ -76,7 +76,7 @@ Met behulp van verschillende workflowactiviteiten kunt u bepalen hoe aanbiedinge
 
 ### Verrijking {#enrichment}
 
-De **Verrijking** Met activiteiten kunt u voorstellen of koppelingen toevoegen aan aanbiedingen voor ontvangers van de levering.[Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
+De **Verrijking** Met activiteiten kunt u voorstellen of koppelingen toevoegen aan aanbiedingen voor ontvangers van de levering.[Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 
 Bijvoorbeeld, kunt u de gegevens voor een ontvankelijke vraag vóór een levering verrijken.
 
@@ -92,7 +92,7 @@ Er zijn twee methoden om voorstellen voor aanbiedingen op te geven.
 Nadat u uw **Query** activiteit:
 
 1. Een **Verrijking** activiteit.
-1. Selecteer op het tabblad **[!UICONTROL Enrichment]** de optie **[!UICONTROL Add data]**.
+1. In de **[!UICONTROL Enrichment]** tab, selecteert u **[!UICONTROL Add data]**.
 1. Selecteren **[!UICONTROL An offer proposition]** in de typen gegevens die moeten worden toegevoegd.
 
    ![](assets/int_enrichment_offer2.png)
@@ -118,7 +118,7 @@ Nadat u uw **Query** activiteit:
 
 U kunt ook verwijzen naar een koppeling naar een voorstel in een **Verrijking** activiteit.
 
-Volg de onderstaande stappen om dit te doen:
+Hiervoor voert u de volgende stappen uit:
 
 1. Selecteren **[!UICONTROL Add data]** in de activiteit **[!UICONTROL Enrichment]** tab.
 1. Selecteer in het venster waarin u het type gegevens kiest dat u wilt toevoegen **[!UICONTROL A link]**.
@@ -163,7 +163,7 @@ De levering slaat automatisch de rangschikking en het gewicht van de aanbiedinge
 
 De **[!UICONTROL Offer engine]** De activiteit laat u ook een vraag aan de motor van de Aanbieding vóór de levering specificeren.
 
-Voor meer informatie over de **Aanbiedingsengine** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
+Voor meer informatie over de **Aanbiedingsengine** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}.
 
 Deze activiteit werkt volgens hetzelfde principe als de **Verrijking** activiteit met een motoraanroep, door de binnenkomende bevolkingsgegevens te verrijken met een aanbod dat door de motor wordt berekend, vóór de levering.
 
@@ -186,7 +186,7 @@ Nadat u uw **Query** activiteit:
 
 De **[!UICONTROL Offers by cell]** de activiteit laat u de binnenkomende bevolking (van een vraag bijvoorbeeld) in verscheidene segmenten verdelen en een aanbieding specificeren om voor elk van deze segmenten voor te stellen.
 
-Voor meer informatie over de **Aanbieding per cel** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
+Voor meer informatie over de **Aanbieding per cel** activiteit, zie [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}.
 
 Hiervoor gebruikt u het volgende proces:
 

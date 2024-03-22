@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 1%
@@ -124,7 +124,7 @@ De volgende regels moeten in acht worden genomen:
 
 Het gegevenstype is ingevoerd via het dialoogvenster **type** in het dialoogvenster **`<attribute>`** en **`<element>`** elementen.
 
-Een gedetailleerde lijst is beschikbaar in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
+Een gedetailleerde lijst is beschikbaar in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 Wanneer dit kenmerk niet is gevuld, **string** is het standaardgegevenstype, tenzij het element onderliggende elementen bevat. Als dit het geval is, wordt het alleen gebruikt om de elementen hiërarchisch te structureren (**`<location>`** -element in ons voorbeeld).
 

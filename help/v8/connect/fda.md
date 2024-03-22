@@ -5,7 +5,7 @@ feature: Federated Data Access
 role: Admin
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -16,15 +16,13 @@ ht-degree: 1%
 
 Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten op een of meer **externe databases** en procesgegevens die in deze bestanden zijn opgeslagen, zonder dat dit van invloed is op de gegevens van de Campagne Cloud Database. U kunt externe gegevens vervolgens openen zonder de structuur van Adobe Campaign-gegevens te wijzigen.
 
-![](../assets/do-not-localize/speech.png) Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om uw externe database(s) te verbinden met Campagne.
-
-
 >[!NOTE]
 >
 >* De compatibele gegevensbestanden voor Federatieve Toegang van Gegevens zijn vermeld in [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
 >
 >* In de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), is er een specifieke externe account beschikbaar voor het beheer van de communicatie tussen de lokale database van Campagne en de clouddatabase van de Snowflake. Deze externe account is ingesteld op Adobe en **mogen** worden gewijzigd.
 >
+>* Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om uw externe database(s) te verbinden met Campagne.
 
 
 ## Best practices en beperkingen

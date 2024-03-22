@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 5%
@@ -198,9 +198,9 @@ Met kenmerken kunt u de velden definiëren waaruit het gegevensobject bestaat. U
 
 ![](assets/schemaextension_2.png)
 
-De volledige lijst met kenmerken is beschikbaar in de `<attribute>` elementsectie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model). Hier volgen enkele van de meer gebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+De volledige lijst met kenmerken is beschikbaar in de `<attribute>` elementsectie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Hier volgen enkele van de meer gebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-Raadpleeg voor meer informatie over elk kenmerk de beschrijving van het kenmerk in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
+Raadpleeg voor meer informatie over elk kenmerk de beschrijving van het kenmerk in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 ### Voorbeelden {#examples}
 

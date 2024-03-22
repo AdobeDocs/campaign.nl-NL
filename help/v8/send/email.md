@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: a08dd72a2be703e5e9cd3cdc20dbb3064b06b35d
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 4%
+source-wordcount: '510'
+ht-degree: 5%
 
 ---
 
@@ -77,13 +77,13 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
      Meer informatie over het beheren van de spiegelpagina in [deze sectie](mirror-page.md#link-to-mirror-page).
 
-1. U kunt aanvullende parameters voor uw e-mail definiëren, zoals het verzenden van een kopie van uw berichten naar een BBC-adres, het wijzigen van de berichtindeling, het instellen van een specifieke codering, enzovoort. Meer informatie in [deze sectie](email-parameters.md).
+1. U kunt aanvullende parameters voor uw e-mail definiëren, zoals het verzenden van een kopie van uw berichten naar een BBC-adres, het wijzigen van de berichtindeling, het instellen van een specifieke codering, enzovoort. Lees meer in [deze sectie](email-parameters.md).
 
 1. Als de inhoud gereed is, klikt u op **Opslaan**: het wordt nu weergegeven in uw lijst met leveringen, in het dialoogvenster **[!UICONTROL Campaigns > Deliveries]** tab.
 
 Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
 
-Leer hoe u een e-mailinhoud importeert in deze [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
+Leer hoe u een e-mailinhoud importeert in deze [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 Meer informatie vindt u in de volgende secties:
 
@@ -99,7 +99,7 @@ De campagne biedt verschillende manieren om uw e-mails te testen en te valideren
 
 U kunt:
 
-* [Verzend proeven](preview-and-proof.md)
+* [Proefdrukken verzenden](preview-and-proof.md)
 * [Seedadressen toevoegen](../audiences/test-profiles.md)
 * [Logboeken voor leveringsanalyse controleren](delivery-analysis.md)
 

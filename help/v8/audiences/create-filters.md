@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%
@@ -327,10 +327,10 @@ Voor geavanceerde filtermogelijkheden gebruikt u functies om de inhoud van het f
 
 Leer hoe te om geavanceerde vragen in deze steekproeven van begin tot eind te bouwen:
 
-* Leer hoe u zich kunt richten op eenvoudige kenmerken voor ontvangers in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
-* Leer hoe u kunt filteren op ontvangers die de afgelopen 7 dagen geen contact hebben gehad in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
-* Leer hoe u de lijst met operatoren kunt herstellen door Active-accounts in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
-* Leer hoe u een e-mailpubliek voor uw verjaardag maakt in  [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html).
+* Leer hoe u zich kunt richten op eenvoudige kenmerken voor ontvangers in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* Leer hoe u kunt filteren op ontvangers die de afgelopen 7 dagen geen contact hebben gehad in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* Leer hoe u de lijst met operatoren kunt herstellen door Active-accounts in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
+* Leer hoe u een e-mailpubliek voor uw verjaardag maakt in  [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}.
 
 
 ### Geavanceerde parameters voor vooraf gedefinieerde filters {#param-for-data-filters}

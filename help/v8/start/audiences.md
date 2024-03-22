@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,7 @@ Leer hoe u filters kunt maken en beheren in [deze pagina](../audiences/create-fi
 
 Het richten kan door een combinatie vragen in een grafische opeenvolging in een werkschema worden gecreeerd. U kunt een publiek maken dat afhankelijk van uw vereisten als doelgroep wordt gebruikt. Als u de werkstroomeditor wilt weergeven, klikt u op de knop **[!UICONTROL Targeting and workflows]** in het campagnedashboard.
 
-Leer hoe u een publiek kunt maken in een campagneworkflow in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+Leer hoe u een publiek kunt maken in een campagneworkflow in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}.
 
 
 ## Actieve profielen {#active-profiles}
@@ -59,8 +59,8 @@ Leer hoe u privacy en toestemming beheert in [Adobe Campaign Classic v7-document
 
 **Verwante onderwerpen**
 
-* [Een campagnerespecifieke workflow ontwerpen en uitvoeren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html)
+* [Een campagnerespecifieke workflow ontwerpen en uitvoeren](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html){target="_blank"}
 
-* [Leer hoe u het publiek van een campagne kunt selecteren](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+* [Leer hoe u het publiek van een campagne kunt selecteren](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}
 
-* [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target="_blank"}
