@@ -5,10 +5,10 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: adfde71faebf3cec7e7b730c9753e6765aeadab0
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 66%
+source-wordcount: '1308'
+ht-degree: 67%
 
 ---
 
@@ -124,7 +124,7 @@ Als een van uw **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables
 
 Raadpleeg voor meer informatie hierover de [Productprofielen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} pagina.
 
-1. Ga naar de map **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** in de Adobe Campaign-structuur en klik op **[!UICONTROL New]**.
+1. Bladeren naar de **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** map van de Adobe Campaign Explorer-boomstructuur en klik op **[!UICONTROL New]**.
 
    ![](assets/analytics_connnector_9.png)
 
@@ -244,6 +244,25 @@ Als u wilt dat de Adobe Experience Cloud de activiteit op de sites kan volgen wa
 
 1. U kunt nu uw levering verzenden en uw rapport bekijken in Adobe Analytics.
 
+
+## Nieuwe marketingcampagne maken {#create-a-re-marketing-campaign}
+
+Om uw remarketingcampagne voor te bereiden maakt u eenvoudig leveringssjablonen die voor remarketingcampagnes worden gebruikt. Configureer vervolgens uw remarketingcampagne en koppel deze aan een segment. Elk segment moet een andere remarketingcampagne voeren.
+
+Remarketingcampagnes worden automatisch gestart zodra Adobe Campaign de segmenten heeft hersteld waarin het gedrag wordt geanalyseerd van de mensen die voor de eerste campagne zijn geselecteerd. In het geval van het verlaten van het winkelwagentje of het bekijken van een product zonder aankoop, wordt een levering verzonden naar de betrokken ontvangers zodat hun site kan bladeren om hun aankoop af te ronden.
+
+Adobe Campaign biedt persoonlijke leveringssjablonen die u kunt gebruiken of zelf in een database kunt zetten om campagnes voor te bereiden.
+
+1. Ga in **[!UICONTROL Explorer]** naar de map **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** van de Adobe Campaign-structuur.
+1. Dupliceer de sjabloon **[!UICONTROL Email delivery (re-marketing)]** of de voorbeelden van remarketingsjablonen die door Adobe Campaign worden aangeboden.
+1. Personaliseer de sjabloon naar wens en sla deze op.
+1. Maak een nieuwe campagne en selecteer de sjabloon **[!UICONTROL Re-marketing campaign]** in de vervolgkeuzelijst.
+1. Klik op de koppeling **[!UICONTROL Configure...]** om het segment en de leveringssjabloon op te geven die aan de campagne zijn gekoppeld.
+1. Selecteer Analyses e[Externe rekening](#external-account-ac)en het betrokken segment.
+1. Selecteer de leveringsjabloon die voor deze remarketingcampagne moet worden gebruikt en klik vervolgens op **[!UICONTROL Finish]** om het venster te sluiten.
+1. Klik op **[!UICONTROL OK]** om het campagnevenster te sluiten.
+
+Het rapport **[!UICONTROL Re-marketing efficiency]** is toegankelijk via de globale rapportpagina. Hiermee kunt u het aantal geconverteerde contacten bekijken (d.w.z. die iets hebben gekocht) in relatie tot het aantal verlaten winkelwagens na de Adobe Campaign-remarketingcampagne. De omrekeningskoers wordt berekend per week, maand of sinds het begin van de synchronisatie tussen Adobe Campaign en Adobe Analytics.
 
 **Verwante onderwerpen**
 
