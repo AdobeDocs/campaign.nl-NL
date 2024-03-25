@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
+source-git-commit: 782362d6d742a3121d3b87b26c2f1481731ff694
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 16%
+source-wordcount: '594'
+ht-degree: 17%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 16%
    + [Sms](send/sms.md)
    + Pushmeldingen {#push}
       + [Pushmeldingen maken en verzenden](send/push.md)
+      + [Een uitgebreide pushaanbieding voor Android ontwerpen](send/rich-push.md)
       + [Pushmeldingskanaal configureren](send/push-settings.md)
       + [Pushmeldingen configureren met gegevensverzameling](send/push-data-collection.md)
    + [REGELS](send/line.md)
@@ -191,7 +192,7 @@ ht-degree: 16%
       + [Schemastructuur](dev/schema-structure.md)
       + [Databasetoewijzing](dev/database-mapping.md)
       + [Belangrijkste beheerfuncties](dev/database-keys.md)
-      + [Koppelingsbeheer](dev/database-links.md)
+      + [Beheer van koppeling](dev/database-links.md)
       + [PI-weergave beperken](dev/restrict-pi-view.md)
       + [Een aangepaste tabel voor ontvangers gebruiken](dev/custom-recipient.md)
       + [De database bijwerken](dev/update-database-structure.md)
