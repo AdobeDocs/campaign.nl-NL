@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 99cb937a475997aae714a67b1f9f91c6bae932f4
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 14%
+source-wordcount: '521'
+ht-degree: 17%
 
 ---
 
@@ -41,15 +41,20 @@ Leer hoe u een publiek kunt maken in een campagneworkflow in [deze pagina](https
 
 ## Actieve profielen {#active-profiles}
 
-Een actief profiel is een profiel waarmee klanten de afgelopen twaalf maanden via een willekeurig kanaal hebben geprobeerd te communiceren. De licentiemetriek is gebaseerd op actieve profielen. Meer informatie in [Adobe Campaign-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+
+Een actief profiel is een profiel waarmee de klant de afgelopen twaalf maanden via een willekeurig kanaal heeft geprobeerd te communiceren.
+
+Volgens uw contract worden al uw Campaign-instanties ingericht met een specifieke hoeveelheid actieve profielen die voor factureringsdoeleinden worden geteld. Raadpleeg het meest recente contract voor informatie over het aantal aangeschafte actieve profielen. Meer informatie in [Adobe Campaign-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 U kunt het aantal actieve profielen op uw instantie direct van het Controlebord van de Campagne controleren. Raadpleeg voor meer informatie de [Documentatie van het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
->[!CAUTION]
->
->* Een profiel dat voor meerdere leveringen is bedoeld, wordt slechts eenmaal geteld.
->
->* Profielen die in het kader van de sociale marketing op X (Twitter) zijn geselecteerd, worden niet in aanmerking genomen als actieve profielen.
+
+De volgende instructies en beperkingen zijn van toepassing:
+
+* Een profiel dat voor meerdere leveringen is bedoeld, wordt slechts eenmaal geteld.
+* Profielen die in het kader van de sociale marketing op X (Twitter) zijn geselecteerd, worden niet in aanmerking genomen als actieve profielen.
+* De telling is gebaseerd op de ontvankelijke primaire sleutel. Als een profiel aanwezig is in twee verschillende tabellen voor ontvangers, kan het daarom twee keer worden geteld als een actief profiel.
+
 
 ## Privacy en toestemming{#privacy-and-consent}
 
