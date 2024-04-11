@@ -5,9 +5,9 @@ description: Meer informatie over de activiteit van de gegevensextractie-workflo
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 014743172e09d46cb83b2fe2befaa8f3c54669b1
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
@@ -46,8 +46,6 @@ Voer de volgende stappen uit om gegevensextractie te configureren:
    ![](assets/s_advuser_extract_file_agregate_values.png)
 
 U kunt een postproces bepalen dat tijdens de gegevensextractie wordt uitgevoerd, toestaand u om de dossiers te zip of te coderen. Hiervoor moet de gewenste opdracht worden toegevoegd aan het dialoogvenster **[!UICONTROL Script]** tabblad van de activiteit.
-
-Raadpleeg voor meer informatie deze sectie: [Een bestand zoeken of versleutelen](use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ![](assets/postprocessing_dataextraction.png)
 
