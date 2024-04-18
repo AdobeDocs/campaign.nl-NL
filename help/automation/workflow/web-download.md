@@ -4,9 +4,9 @@ title: Webdownload
 description: Meer informatie over de activiteiten van de webdownloadworkflow
 feature: Workflows
 exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 76a5737e2326e9691113957d1c7bf390ea969695
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '483'
 ht-degree: 1%
 
 ---
@@ -25,17 +25,17 @@ De **Webdownload** activiteit start het downloaden van een bestand op een explic
 
    * Als u de URL van het te downloaden bestand rechtstreeks wilt invoeren, selecteert u de optie **[!UICONTROL Explicit URL]** en geeft u de URL op in het desbetreffende veld. Deze URL kan worden samengesteld met variabele gegevens.
 
-      ![](assets/download_web_edit.png)
+     ![](assets/download_web_edit.png)
 
    * Als u een **[!UICONTROL External account]** selecteert u de account in de vervolgkeuzelijst en geeft u het bestand op dat u wilt downloaden.
 
-      Externe accounts worden geconfigureerd via de **[!UICONTROL Administration > Platform > External accounts]** knooppunt van de boomstructuur Adobe Campaign. De accountparameters kunnen worden bewerkt via de **[!UICONTROL Edit link]** pictogram.
+     Externe accounts worden geconfigureerd via de **[!UICONTROL Administration > Platform > External accounts]** knooppunt van de boomstructuur Adobe Campaign. De accountparameters kunnen worden bewerkt via de **[!UICONTROL Edit link]** pictogram.
 
-      ![](assets/download_web_edit_external.png)
+     ![](assets/download_web_edit_external.png)
 
-   * Selecteer de optie **[!UICONTROL Adobe Campaign Instance]** optie.
+   * Als u het bestand wilt downloaden van de Adobe Campaign-instantie, selecteert u de **[!UICONTROL Adobe Campaign Instance]** -optie.
 
-      ![](assets/download_web_edit_instance.png)
+     ![](assets/download_web_edit_instance.png)
 
 1. **Bestandshistorie**
 
@@ -46,8 +46,8 @@ De **Webdownload** activiteit start het downloaden van een bestand op een explic
    De volgende opties zijn beschikbaar:
 
    * **[!UICONTROL Use a default storage directory]**: het bestand wordt altijd verplaatst voordat het wordt verwerkt. Als deze optie is ingeschakeld, wordt het bestand verplaatst naar de standaardopslagmap (de **vars** directory van de installatiemap van Adobe Campaign). Als u een opslagmap wilt opgeven, schakelt u het selectievakje uit en voert u het pad ervan in het dialoogvenster **[!UICONTROL Storage directory]** field
-   * **[!UICONTROL Number of files]**: Voer het maximumaantal bestanden in dat in de opslagmap moet worden bewaard.
-   * **[!UICONTROL Maximum size (in Mb)]**: Voer de maximale capaciteit van de opslagdirectory in (in megabytes).
+   * **[!UICONTROL Number of files]**: voer het maximumaantal bestanden in dat in de opslagmap moet worden bewaard.
+   * **[!UICONTROL Maximum size (in Mb)]**: voer de maximale capaciteit van de opslagmap in (in megabytes).
 
    Elk bestand wordt 24 uur bewaard voordat het aan de vastgestelde zuiveringsregels wordt onderworpen. Het leegmaken vindt plaats vlak voor het begin van de activiteit en houdt daarom geen rekening met het werkstroombestand dat wordt uitgevoerd.
 
@@ -59,10 +59,14 @@ De **Webdownload** activiteit start het downloaden van een bestand op een explic
 
    De **[!UICONTROL Advanced parameters...]** met de koppeling kunt u de hieronder weergegeven aanvullende opties opgeven:
 
+   * **[!UICONTROL Follow redirections]**: Met Bestandsomleiding kunt u overschrijvingen gebruiken voor het rechtstreeks invoeren of uitvoeren van gegevens naar een apparaat van een ander type.
+   * **[!UICONTROL Add the HTTP headers to the file]**: In sommige gevallen kunt u extra HTTP-headers aan een bestand toevoegen. Meestal, zullen deze kopballen worden gebruikt om extra informatie voor het oplossen van problemendoeleinden te verstrekken, voor [Delen van bronnen tussen verschillende bronnen (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS)of om specifieke richtlijnen voor het in cache plaatsen vast te stellen.
+   * **[!UICONTROL Ignore the HTTP return code]**: HTTP-retourcodes, ook wel HTTP-statuscodes genoemd, geven het resultaat van een HTTP-aanvraag aan.
+
    ![](assets/download_web_edit_advanced.png)
 
    De **[!UICONTROL Process errors]** deze optie is gedetailleerd in [Verwerkingsfouten](monitor-workflow-execution.md#processing-errors).
 
 ## Uitvoerparameters {#output-parameters}
 
-* bestandsnaam: Volledige naam van het gedownloade bestand.
+* bestandsnaam: volledige naam van het gedownloade bestand.
