@@ -6,55 +6,59 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: cec935c2c73e3df4d2e03d54305004df9bd2655e
+exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
+source-git-commit: f9b064dffa0f8792e8653760cb2ac44cfdf43848
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
-
 
 # Invoegtoepassing voor uitgebreide beveiliging {#enhanced-security}
 
 Om uw netwerkverbinding veiliger te maken en betere veiligheid voor uw middelen te verstrekken, [!DNL Adobe Campaign] biedt nieuwe **Uitgebreide beveiliging** invoegtoepassing.
 
-Deze invoegtoepassing bevat momenteel twee ecosysteemfuncties:
+Deze invoegtoepassing bevat twee ecosysteemfuncties:
 
 * [Secure CMK-integratie](#secure-cmk-integration)
 
 * [Veilige VPN-tunneling](#secure-vpn-tunneling)
 
+Deze functies worden hieronder beschreven.
+
 ## Secure CMK-integratie {#secure-cmk-integration}
 
-**Veilige integratie van CMK (Customer Managed Key)** staat u toe om uw instantie en uw gegevens te coderen gebruikend uw eigen sleutel door uw AWS rekening<!--instead of Adobe-owned keys-->. Door u verantwoordelijk te maken voor het produceren en beheren van encryptiesleutels, laat deze capaciteit u toe om meer controle over hen te hebben, met inbegrip van het intrekken van een sleutel.
+De **Veilige integratie van CMK (Customer Managed Key)** kunt u uw instantie en gegevens versleutelen met uw eigen sleutel via uw Amazon Web Services (AWS)-account.
+
+Door de klant beheerde sleutels zijn Key Management Service (KMS)-sleutels in uw AWS-account die u maakt, bezit en beheert. U hebt volledige controle over deze sleutels KMS, en gebruikt hen om gegevens te coderen en te decrypteren. Door u verantwoordelijk te maken voor het produceren en beheren van encryptiesleutels, laat deze capaciteit u toe om meer controle over hen te hebben, met inbegrip van het intrekken van een sleutel.
 
 >[!CAUTION]
 >
 >Als u een sleutel intrekt, moet u zich bewust zijn van de effecten. [Meer informatie](#cmk-callouts)
 
-Volg onderstaande stappen om deze functie in te schakelen:
+Voer de volgende stappen uit om de CMK-integratie met Campagne in te schakelen:
 
-1. Zorg ervoor dat u een [AWS](https://aws.amazon.com/){target="_blank"} account.
+1. Verbinding maken met uw [Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"} account.
 
-1. Een sleutel met automatische rotatie genereren via de AWS Key Management Service (KMS). [Meer informatie](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}
+1. Een sleutel met automatische rotatie genereren via de AWS Key Management Service (KMS). [Meer informatie](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
 
-1. Pas het beleid toe dat u via Adobe hebt ontvangen op uw AWS-account, zodat u toegang hebt tot uw bronnen. [Meer informatie](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"} <!--link TBC-->
+1. Pas het beleid toe dat u via Adobe hebt ontvangen op uw AWS-account, zodat u toegang hebt tot uw bronnen. [Meer informatie](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
 
-1. Amazon Resource Name (key ARN) delen met [!DNL Adobe Campaign]. Neem hiervoor contact op met uw Adobe. <!--or Adobe transition manager?-->
+1. Uw delen [Amazon Resource Name (key ARN)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} with [!DNL Adobe Campaign]. Neem hiervoor contact op met uw Adobe. <!--or Adobe transition manager?-->
 
-1. Maak en test de Amazon EventBridge-regels om het controleren van uw toetsen op Adobe in te schakelen. &#x200B; [Meer informatie](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}
+1. Maak en test de Amazon EventBridge-regels om het controleren van uw toetsen op Adobe in te schakelen. &#x200B; [Meer informatie](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
 ## Veilige VPN-tunneling {#secure-vpn-tunneling}
 
-**Beveiligd VPN-tunneling (Virtual Private Network)** is plaats-aan-plaats VPN dat veilige toegang voor uw gegevens in doorvoer over een privé netwerk, van uw gebouwen aan het [!DNL Adobe Campaign] -instantie.
+De **Beveiligd VPN-tunneling (Virtual Private Network)** is plaats-aan-plaats VPN dat veilige toegang voor uw gegevens in doorvoer over een privé netwerk, van uw gebouwen aan het [!DNL Adobe Campaign] -instantie.
 
 <!--As it connects two networks together, it is a site-to-site VPN.-->
 
-Om hoge beschikbaarheid (HA) te verzekeren, gebruikt het twee tunnels om elke stroomonderbreking te vermijden in het geval een kwestie op één tunnel gebeurt
+Om hoge beschikbaarheid (HA) te verzekeren, gebruikt het twee tunnels om elke stroomonderbreking te vermijden in het geval een kwestie op één tunnel gebeurt.
 
 Er worden drie gebruiksgevallen ondersteund:
 
-* FDA boven VPN<!--to access your on-premise database from the Campaign instance over VPN-->
+* FDA (Federated Data Access) via VPN<!--to access your on-premise database from the Campaign instance over VPN-->
 
 * Inloggen van de instantie via VPN van een dikke cliënt
 
@@ -68,7 +72,7 @@ Volg onderstaande richtlijnen om ervoor te zorgen dat deze functie correct wordt
 
 * Opstelling uw kant VPN die op de Adobe-kant configuratie van VPN wordt gebaseerd.
 
-* Houd beide tunnels omhoog voor HA.
+* Houd beide tunnels omhoog voor Hoge Beschikbaarheid.
 
 * Controleer uw zijtunnel.
 
