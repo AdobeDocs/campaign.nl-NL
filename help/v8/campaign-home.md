@@ -1,12 +1,12 @@
 ---
-keywords: Campaign Classic;home;populaire onderwerpen
+keywords: Campaign Classic; startpagina; populaire onderwerpen
 description: Campagne v8 Help Center
 title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 08a7a5f51d20068c31980e7b256e80c36ba6ff31
+source-git-commit: 520a7798cd1969e7c29519cbc918b66a44ff2a71
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 9%
+source-wordcount: '326'
+ht-degree: 29%
 
 ---
 
@@ -18,9 +18,9 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 (client cons
 
 >[!BEGINTABS]
 
->[!TAB De release van Campagne v8.6 is live]
+>[!TAB De release van Campagne v8.7 is live]
 
-De nieuwste versie van Adobe Campaign is nu live. Lees de opmerkingen bij de release voor meer informatie.
+De nieuwste versie van Adobe Campaign is nu live. Het wordt vrijgegeven in Beperkte Beschikbaarheid (LA). Lees de opmerkingen bij de release voor meer informatie.
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 
@@ -34,7 +34,7 @@ Ervaar de nieuwe Adobe Campaign-gebruikersinterface. modernere, intuïtievere en
 
 >[!TAB Wijzigingen in pushkanaal]
 
-Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet de configuratie van uw abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen. U kunt al controleren en actie ondernemen.
+In 2024 komt er een versie met enkele belangrijke wijzigingen voor de service FCM (Android Firebase Cloud Messaging). Deze kunnen van invloed zijn op uw Adobe Campaign-implementatie. De configuratie van uw lidmaatschapsservices voor Android-pushberichten moet mogelijk worden bijgewerkt om deze wijziging te ondersteunen. U kunt het nu al controleren en actie ondernemen.
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
 
@@ -60,7 +60,7 @@ Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van 
     </div></td>
     <td>
     <a href="audiences/create-profiles.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div><strong>Profielen importeren</strong><br/>Ontdek eenvoudig het maken van profielen in de Adobe Campaign v8-database. Voeg profielen handmatig of via import toe, verbeter klantgegevens en maak campagnes eenvoudig aan te passen.</div>
+    <div><strong>Profielen importeren</strong><br/>Ontdek eenvoudig het maken van profielen in de Adobe Campaign v8-database. Voeg profielen handmatig of via importeren toe, verfijn klantgegevens en pas campagnes moeiteloos aan.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -112,5 +112,5 @@ Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van 
 
 ## Verdere bronnen
 
-[Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
+[Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
 
