@@ -3,7 +3,7 @@ keywords: Campaign Classic; startpagina; populaire onderwerpen
 description: Campagne v8 Help Center
 title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 520a7798cd1969e7c29519cbc918b66a44ff2a71
+source-git-commit: 43666e72cdbdb1e7305208903dbb82eda73fa46f
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 29%
@@ -20,7 +20,7 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 (client cons
 
 >[!TAB De release van Campagne v8.7 is live]
 
-De nieuwste versie van Adobe Campaign is nu live. Het wordt vrijgegeven in Beperkte Beschikbaarheid (LA). Lees de opmerkingen bij de release voor meer informatie.
+De nieuwste versie van Adobe Campaign is nu live. Het wordt vrijgegeven in **Beperkte beschikbaarheid** (LA). Lees de opmerkingen bij de release voor meer informatie.
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 
