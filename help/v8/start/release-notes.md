@@ -5,21 +5,58 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
+source-git-commit: 39a3412ab2fae2f45768598feffb7e5078c6acac
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 2%
+source-wordcount: '909'
+ht-degree: 5%
 
 ---
 
 # Nieuwste release{#latest-release}
 
-Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van updates is bedoeld om de nieuwste en beste in uw handen te krijgen, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Adobe raadt alle klanten ten zeerste aan een upgrade uit te voeren naar de nieuwste versie. Meer informatie over campagneversies en aanbevelingen [op deze pagina](upgrades.md).
+Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van updates is bedoeld om de nieuwste en beste in uw handen te krijgen, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Adobe raadt alle klanten ten zeerste aan een upgrade uit te voeren naar de nieuwste versie.
 
-Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgevingen upgraden. Campagne-clientconsole **moet worden geüpgraded naar dezelfde versie** als Campagneservers. Leer hoe u uw clientconsole kunt upgraden [op deze pagina](../start/connect.md#upgrade-ac-console).
+Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgevingen upgraden. Campagne-clientconsole **moet worden geüpgraded naar dezelfde versie** als Campagneservers. Leer hoe u uw clientconsole in deze [page](../start/connect.md#upgrade-ac-console).
 
-Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde versie van de systemen gebruikt die in de [Compatibiliteitsmatrix](compatibility-matrix.md).
+Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde versies van de systemen gebruikt die in de [Compatibiliteitsmatrix](compatibility-matrix.md).
 
+## Release 8.7.1 {#release-8-7-1}
+
+_woensdag 30 april 2024_
+
+>[!AVAILABILITY]
+>
+>Deze release bevindt zich in **Beperkte beschikbaarheid** (LA). Alleen klanten die migreren **van Adobe Campaign Standard naar Adobe Campaign v8**, en kan niet worden ingezet op een andere omgeving.
+>
+>Raadpleeg de volgende documentatiepagina&#39;s: [Overgang van Campaign Standard naar Campagne v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration) en [Functies voor Campaigns Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+
+### Nieuwe functies {#new-8-7-1}
+
+* **Sjablonen voor uitgebreide pushmeldingen** - U kunt nu uitgebreide pushmeldingen verzenden via Android. Een veeleisende pushmelding is een verbeterde vorm van mobiele meldingen die verder gaat dan eenvoudige tekstberichten door het opnemen van multimedia-elementen, zoals afbeeldingen, interactieve knoppen of andere rijke media-inhoud. [Meer informatie](../send/rich-push.md)
+
+* **Branding** - Als gemigreerde gebruiker van een Campaign Standard kunnen uw technische beheerders nu een of meerdere merken definiëren om de parameters die de identiteit van een merk beïnvloeden, te centraliseren. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in malplaatjes. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+
+* **Rest APIs** - Als gemigreerde gebruiker van een Campaign Standard kunt u Rest API&#39;s gebruiken om integratie voor Adobe Campaign te maken en uw eigen ecosysteem te bouwen door Adobe Campaign te koppelen aan het deelvenster met technologieën dat u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+
+* **Dynamische rapportage** - Als gemigreerde gebruiker van het Campaign Standard, kunt u tot Dynamische Rapportering toegang hebben die volledig klantgerichte en real-time rapporten verstrekt om de invloed van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+
+<!--
+* **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
+-->
+
+### Compatibiliteitsupdates {#comp-8-7-1}
+
+Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Federated Data Access). Meer informatie over FDA [op deze pagina](../connect/fda.md).
+
+### Algemene verbeteringen {#improvements-8-7-1}
+
+* Diverse schema&#39;s zijn veranderd van 32 in 64 beetjes. Dit geldt alleen voor klanten die vanuit Campaign Standard migreren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html).
+
+* In Campagne lijsten, staat een nieuwe vlag u toe om wijzigingen in de lastModified, gecreeerd, en createdBy-id attributen te behandelen. Wanneer de markering is ingeschakeld, worden de waarden die door gebruikers aan deze kenmerken zijn doorgegeven, genegeerd. Alleen servertijd en -id uit de gebruikerscontext worden gebruikt. Wanneer de markering is uitgeschakeld, worden door de gebruiker opgegeven waarden voor deze kenmerken gebruikt. De markering ignoreTimestampsID bevindt zich in serverConf.xml onder het knooppunt &quot;shared&quot;.
+
+### Oplossingen {#fixes-8-7-1}
+
+De volgende kwesties zijn in deze release vastgelegd: NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO-68192, NEO-67814, NEO-67702, NEO-67620, NEO-66022, NEO-65774, NEO-65633, NEO-641 99, NEO-63706, NEO-63705, NEO-63287, NEO-63197, NEO-62575, NEO-60250, NEO-60192, NEO-5 8596, NEO-58314, NEO-58004, NEO-40054
 
 ## Release 8.6.2 {#release-8-6-2}
 
@@ -53,7 +90,7 @@ _14 feb. 2024_
 
 * Tegen februari 2024 verzendt een bedrijf meer dan 5000 e-mailberichten via Google of Yahoo! zal moeten beginnen gebruikend een authentificatietechnologie die als op domein-gebaseerde Rapportering en Conformiteit van de Authentificatie van het Bericht (DMARC) wordt bekend. Zorg ervoor dat DMARC-record is ingesteld voor alle subdomeinen die u gebruikt met Adobe Campaign. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=nl){target="_blank"}
 
-* Vanaf 1 juni 2024, Google en Yahoo! afzenders moeten voldoen aan lijst-abonnement met één klik. Adobe Campaign biedt nu ondersteuning voor deze optie. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#one-click-list-unsubscribe){target="_blank"}
+* Vanaf 1 juni 2024, Google en Yahoo! voldoen aan uitschrijven met één klik voor lijsten. Adobe Campaign biedt nu ondersteuning voor deze optie. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#one-click-list-unsubscribe){target="_blank"}
 
 
 ### Oplossingen {#fixes-8-6-1}

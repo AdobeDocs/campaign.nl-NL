@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 3%
+source-wordcount: '677'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ## Traceermogelijkheden in campagne
 
-De het volgen van de campagne mogelijkheden volgen de verzonden berichten en helpen u het gedrag van ontvangers analyseren: openen, klikken op koppelingen, abonnementen/abonnementen enzovoort. U kunt tot specifieke logboeken, rapporten en metriek toegang hebben, het gegevensbestand vragen om verzamelde gegevens te herzien, en meer.
+De mogelijkheden voor bijhouden van campagnes volgen de verzonden berichten en helpen u het gedrag van ontvangers te analyseren: openen, klikken op koppelingen, abonnementen/abonnementen en meer. U kunt tot specifieke logboeken, rapporten en metriek toegang hebben, het gegevensbestand vragen om verzamelde gegevens te herzien, en meer.
 
 Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}.
 
@@ -129,6 +129,6 @@ Leer hoe u de uitvoering van de workflow kunt controleren in [deze pagina](https
 
 Richtlijnen voor Instance Monitoring zijn beschikbaar in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}
 
-Gebruik de zelf-dienst interface van het spoor van de Controle om veranderingen te controleren die binnen uw instantie worden aangebracht. Met het audittrail wordt in real-time een uitgebreide lijst met acties en gebeurtenissen in uw Adobe Campaign-instantie vastgelegd. U kunt tot een geschiedenis van gegevens toegang hebben helpen vragen zoals beantwoorden: wat er met uw workflows is gebeurd en wie deze voor het laatst heeft bijgewerkt of wat uw gebruikers in dat geval hebben gedaan.
+Gebruik de zelf-dienst interface van het spoor van de Controle om veranderingen te controleren die binnen uw instantie worden aangebracht. Met het audittrail wordt in real-time een uitgebreide lijst met acties en gebeurtenissen in uw Adobe Campaign-instantie vastgelegd. U kunt tot een geschiedenis van gegevens toegang hebben helpen vragen zoals beantwoorden: wat met uw werkschema&#39;s gebeurde, en wie hen het laatst bijwerkte of wat uw gebruikers in de instantie deden.
 
-Meer informatie over audittrail in  [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}
+Meer informatie over het audittrail in dit [page](../reporting/audit-trail.md){target="_blank"}
