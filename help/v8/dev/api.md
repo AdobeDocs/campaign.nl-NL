@@ -5,10 +5,10 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 07e85c2933194a24b4275519dd7da9c3226f6a3c
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '282'
+ht-degree: 9%
 
 ---
 
@@ -28,7 +28,9 @@ Let op: in het [Implementatie in het kader van Enterprise (FFDA)](../architectur
 
 >[!CAUTION]
 >
->* Vanaf Campagne v8.5.1 is het verificatieproces veranderd in Campaign v8. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne. Leer hoe u uw bestaande technische account(s) kunt migreren in [dit technote](../../technotes/upgrades/ims-migration.md).
+>* Als Campagnegebruiker die van Campaign Standard overgaat, kunt u REST APIs met Campagne v8 gebruiken. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+>
+>* Vanaf Campagne v8.5.1 is het verificatieproces veranderd in Campaign v8. Technische operatoren moeten gebruikmaken van Adobe Identity Management System (IMS) om verbinding te maken met Campagne. Ontdek in [deze technische opmerking](../../technotes/upgrades/ims-migration.md) hoe u uw bestaande technische account(s) kunt migreren.
 >
 >* [!DNL Adobe Campaign] v8 wordt geleverd met een maximale doorvoer (TPS) van onze API-laag. Als u de limiet overschrijdt, treedt een standaard HTTP-fout op (429). Als gebruiker van Beheerde Cloud Servicen kunt u contact opnemen met de Adobe om de vertraging voor elke API aan te passen.
 > 
@@ -44,7 +46,7 @@ Voor gebruik [!DNL Adobe Campaign] APIs, moet u met de volgende onderwerpen vert
 Voor het gebruik van API&#39;s en interactie met [!DNL Adobe Campaign], moet u ook vertrouwd zijn met uw gegevensmodel.
 
 >[!NOTE]
->U kunt een volledige beschrijving van uw gegevensmodel genereren. Meer informatie in [deze pagina](datamodel.md).
+>U kunt een volledige beschrijving van uw gegevensmodel genereren. Meer informatie vindt u [op deze pagina](datamodel.md).
 
 
 **Verwante onderwerpen**
