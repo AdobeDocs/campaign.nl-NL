@@ -1,5 +1,5 @@
 ---
-title: Invoegtoepassing voor uitgebreide beveiliging
+title: Invoegtoepassing uitgebreide beveiliging voor campagne
 description: Ga aan de slag met de uitgebreide beveiligingsinvoegtoepassing Campagne
 feature: Configuration
 role: Developer
@@ -7,26 +7,35 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: f9b064dffa0f8792e8653760cb2ac44cfdf43848
+source-git-commit: 042a1cc96b819a1a77442e274defbadeb393eafc
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 1%
+source-wordcount: '745'
+ht-degree: 2%
 
 ---
 
-# Invoegtoepassing voor uitgebreide beveiliging {#enhanced-security}
+
+# Invoegtoepassing uitgebreide beveiliging voor campagne {#enhanced-security}
 
 Om uw netwerkverbinding veiliger te maken en betere veiligheid voor uw middelen te verstrekken, [!DNL Adobe Campaign] biedt nieuwe **Uitgebreide beveiliging** invoegtoepassing.
 
 Deze invoegtoepassing bevat twee ecosysteemfuncties:
 
-* [Secure CMK-integratie](#secure-cmk-integration)
+* [Veilige integratie van CMK (Customer Managed Key)](#secure-cmk-integration)
 
-* [Veilige VPN-tunneling](#secure-vpn-tunneling)
+* [Beveiligd VPN-tunneling (Virtual Private Network)](#secure-vpn-tunneling)
 
 Deze functies worden hieronder beschreven.
 
-## Secure CMK-integratie {#secure-cmk-integration}
+Enkele instructies en beperkingen met betrekking tot de uitgebreide beveiligingsfuncties worden op deze pagina weergegeven. Bovendien moet u ervoor zorgen al uw Veilige integratie CMK/Veilige het een tunnel graven van VPN gebruiksgevallen werken.
+
+Zodra deze mogelijkheden worden uitgevoerd, controleert de Adobe:
+
+* De beschikbaarheid van de instantie en ga verder met de waarschuwing als de sleutel niet beschikbaar is.
+
+* De tunnels van VPN, en ga met het alarm te werk voor het geval om het even welke kwestie zich voordoet.
+
+## Veilige integratie met door de klant beheerde sleutels {#secure-cmk-integration}
 
 De **Veilige integratie van CMK (Customer Managed Key)** kunt u uw instantie en gegevens versleutelen met uw eigen sleutel via uw Amazon Web Services (AWS)-account.
 
@@ -48,7 +57,30 @@ Voer de volgende stappen uit om de CMK-integratie met Campagne in te schakelen:
 
 1. Maak en test de Amazon EventBridge-regels om het controleren van uw toetsen op Adobe in te schakelen. &#x200B; [Meer informatie](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
-## Veilige VPN-tunneling {#secure-vpn-tunneling}
+
+### Afvoerkanalen en beperkingen {#cmk-callouts}
+
+De volgende instructies en beperkingen zijn van toepassing op de CMK-integratie met Adobe Campaign v8:
+
+* Adobe biedt geen [Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"} account. U moet uw eigen AWS-account hebben en deze instellen om uw sleutel te genereren en met Adobe te delen.
+
+* Alleen [AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS)-toetsen worden ondersteund. Er kunnen geen door de klant gegenereerde sleutels buiten KMS worden gebruikt. &#x200B;
+
+* Downtime wordt verwacht tijdens de eerste installatie. &#x200B;De downtime is afhankelijk van de grootte van de database.
+
+* Als klant hebt u de sleutel en houdt u deze bij. U moet de Adobe bereiken voor het geval u de toets wijzigt. &#x200B;
+
+* U kunt uw sleutel controleren gebruikend [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} en herroepen indien nodig. &#x200B;
+
+* Als u de sleutel intrekt, uitschakelt of verwijdert, zijn de gecodeerde bronnen en instanties pas toegankelijk als u de bijbehorende actie hebt teruggezet.
+
+  >[!CAUTION]
+  >
+  >Als u de toets uitschakelt en deze handeling niet binnen 7 dagen terugzet, kan uw database alleen worden hersteld vanaf een back-up.
+  >
+  >Als u de sleutel verwijdert en deze actie niet binnen 30 dagen terugzet, worden al uw gegevens definitief verwijderd en verloren. &#x200B;
+
+## Beveiligd Virtual Private Network-tunneling {#secure-vpn-tunneling}
 
 De **Beveiligd VPN-tunneling (Virtual Private Network)** is plaats-aan-plaats VPN dat veilige toegang voor uw gegevens in doorvoer over een privé netwerk, van uw gebouwen aan het [!DNL Adobe Campaign] -instantie.
 
@@ -80,53 +112,20 @@ Volg onderstaande richtlijnen om ervoor te zorgen dat deze functie correct wordt
 
 * Stel een mechanisme voor opnieuw proberen in als er verbindingsfouten optreden.
 
-## Guardrails {#callouts}
 
-Enkele instructies en beperkingen met betrekking tot de uitgebreide beveiligingsfuncties worden hieronder vermeld.
+### Afvoerkanalen en beperkingen {#vpn-callouts}
 
-* Zorg ervoor al uw Veilige integratie CMK/Veilige het een tunnel graven van VPN gebruiksgevallen werkt.
-
-<!--* Adobe shall reach out to you or your technical team if any issue is found on your side.
-
-* Currently, when using Enhanced security features, any communication with Adobe must be performed manually via email.-->
-
-* de Adobe zal toezien op :
-
-   * De beschikbaarheid van de instantie en ga verder met de waarschuwing als de sleutel niet beschikbaar is.
-
-   * De tunnels van VPN, en ga met het alarm te werk voor het geval om het even welke kwestie zich voordoet.
-
-### Beveiligde CMK-integratiegaranties {#cmk-callouts}
-
-* Adobe levert geen AWS-account. U moet uw eigen AWS-account hebben en deze instellen om uw sleutel te genereren en met Adobe te delen.
-
-* Alleen [AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS)-toetsen worden ondersteund. Er kunnen geen door de klant gegenereerde sleutels buiten KMS worden gebruikt. &#x200B;
-
-* Voor de eerste keer wordt een aantal downtime gebruikt. &#x200B;De downtime is afhankelijk van de grootte van de database.
-
-* Aangezien u bezit en de sleutel handhaaft, moet u naar Adobe in het geval van om het even welke verandering in uw sleutel reiken. &#x200B;
-
-* U kunt uw sleutel controleren gebruikend [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} en herroepen indien nodig. &#x200B;
-
-* Als u de sleutel intrekt, uitschakelt of verwijdert, zijn de gecodeerde bronnen en instanties pas toegankelijk als u de bijbehorende actie hebt teruggezet.
-
-  >[!CAUTION]
-  >
-  >Als u de toets uitschakelt en deze handeling niet binnen 7 dagen terugzet, kan uw database alleen worden hersteld vanaf een back-up.
-  >
-  >Als u de sleutel verwijdert en deze actie niet binnen 30 dagen terugzet, worden al uw gegevens definitief verwijderd en verloren. &#x200B;
-
-### Beveiligde VPN-tunneling-handleidingen {#vpn-callouts}
+De volgende instructies en beperkingen zijn van toepassing op de VPN-tunneling-integratie met Adobe Campaign v8:
 
 * Momenteel worden alleen on-premise databases ondersteund, zoals<!--Richa to check the list with PM-->:
 
    * MySQL
-   * Netezza 
-   * Oracle 
-   * SAP HANA 
-   * SQL Server 
-   * Sybase 
-   * Teradata 
+   * Netezza
+   * Oracle
+   * SAP HANA
+   * SQL Server
+   * Sybase
+   * Teradata
    * Hadoop via HiveSQL
 
 * Alleen AWS-compatibele VPN-apparaten worden ondersteund. Een lijst met compatibele apparaten is beschikbaar op [deze pagina](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}<!--check which list should be communicated-->.
