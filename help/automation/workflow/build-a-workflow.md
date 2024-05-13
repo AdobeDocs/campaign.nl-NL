@@ -5,10 +5,10 @@ description: Leer hoe u een workflow kunt maken
 feature: Workflows
 role: User
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: b7fa3dfb1e596d2ea41674278cbe315199264611
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 4%
+source-wordcount: '838'
+ht-degree: 0%
 
 ---
 
@@ -131,7 +131,7 @@ Naast de gebruikelijke workfloweigenschappen kunt u met de sjablooneigenschappen
 
 ## Workflows dupliceren {#duplicate-workflows}
 
-U kunt verschillende typen workflows dupliceren. Als de workflow eenmaal is gedupliceerd, worden wijzigingen van de workflow niet overgebracht naar de kopie van de workflow.
+U kunt verschillende typen workflows dupliceren. Als de workflow eenmaal is gedupliceerd, worden wijzigingen van de workflow niet doorgevoerd in de kopie van de workflow.
 
 >[!CAUTION]
 >
@@ -145,31 +145,3 @@ U kunt verschillende typen workflows dupliceren. Als de workflow eenmaal is gedu
 1. Wijzig in het workflowvenster het workflowlabel.
 1. Klikken **Opslaan**.
 
-De dubbele functie is niet rechtstreeks beschikbaar in de weergave van een campagne.
-
-U kunt echter een weergave maken om alle workflows op uw exemplaar weer te geven. In deze weergave kunt u workflows dupliceren met **Dupliceren naar**.
-
-**Een weergave maken**
-
-1. In **Verkenner** Ga naar de map waarin u de weergave wilt maken.
-1. Klik met de rechtermuisknop en ga naar **Een nieuwe map toevoegen** > **Proces**, selecteert u **Workflows**.
-
-   ![](assets/add-new-folder-workflows.png)
-
-De nieuwe map **Workflows** wordt gemaakt.
-
-1. Klik met de rechtermuisknop en selecteer **Eigenschappen**.
-1. In de **Beperking** tabblad, schakelt u de **Deze map is een weergave** en klik op **Opslaan**.
-
-   ![](assets/folder-is-a-view.png)
-
-De map wordt nu gevuld met alle workflows van uw instantie.
-
-**Een campagneworkflow dupliceren**
-
-1. Selecteer een campagneworkflow in de werkstroomweergave.
-1. Klikken met rechtermuisknop **Dupliceren naar**.
-1. Wijzig het label.
-1. Klikken **Opslaan**.
-
-U kunt de gedupliceerde workflow zien in de werkstroomweergave.
