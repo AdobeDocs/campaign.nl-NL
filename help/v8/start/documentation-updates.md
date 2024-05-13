@@ -5,25 +5,27 @@ feature: Release Notes
 role: User
 level: Beginner
 hidefromtoc: true
-source-git-commit: 032c11f794956d5bdd4a6540ee5dd5b2f92c94dc
+exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
+source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 34%
+source-wordcount: '152'
+ht-degree: 26%
 
 ---
-
 
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat alle laatste updates in [!DNL Campaign] v8-documentatie (console).
+
+## Mei 2024 {#may-2024}
+
+Er is een opmerking toegevoegd om aan te geven dat **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet op één rij worden toegevoegd en moeten **[!UICONTROOL Verrijking]** tussen hen. Lees meer in de [Dimensie wijzigen](../../automation/workflow/change-dimension.md) en [Gegevensbron wijzigen](../../automation/workflow/change-data-source.md) secties.
 
 ## februari 2024 {#feb-2024}
 
 * Alle nieuwe functies, wijzigingen en verbeteringen die worden geleverd bij [!DNL Campaign] v8.6-release is gedetailleerd beschreven in de documentatie. [Meer informatie](release-notes.md)
 * Het beheer- en upgrademechanisme voor Campagne v8-versies wordt nu beschreven in een speciale pagina. [Meer informatie](upgrades.md)
 * Er is een pagina toegevoegd over de integratie met Adobe Campaign + Adobe Workfront. [Meer informatie](../connect/ac-workfront.md)
-
-
 
 ## Januari 2024 {#jan-2024}
 

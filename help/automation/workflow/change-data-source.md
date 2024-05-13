@@ -4,10 +4,10 @@ description: Meer informatie over de activiteit van de gegevensbron van de Veran
 feature: Workflows, Data Management, Federated Data Access
 role: User
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 3%
+source-wordcount: '279'
+ht-degree: 2%
 
 ---
 
@@ -24,9 +24,13 @@ Een **[!UICONTROL Change Data Source]** activiteit om een verschillende gegevens
 
 Wanneer u de opdracht **[!UICONTROL Change Data Source]** moet u terugschakelen naar de Cloud-database om door te gaan met de uitvoering van de workflow.
 
+>[!IMPORTANT]
+>
+>Houd er rekening mee dat de **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u omvat **[!UICONTROOL Verrijking]** tussen hen. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
+
 Als u de opdracht **[!UICONTROL Change Data Source]** activiteit, moet u:
 
-1. Een workflow maken.
+1. Maak een workflow.
 
 1. Vraag uw beoogde ontvangers om een query met een **[!UICONTROL Query]** activiteit.
 
