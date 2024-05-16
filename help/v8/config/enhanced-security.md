@@ -7,9 +7,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 042a1cc96b819a1a77442e274defbadeb393eafc
+source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Zodra deze mogelijkheden worden uitgevoerd, controleert de Adobe:
 
 ## Veilige integratie met door de klant beheerde sleutels {#secure-cmk-integration}
 
-De **Veilige integratie van CMK (Customer Managed Key)** kunt u uw instantie en gegevens versleutelen met uw eigen sleutel via uw Amazon Web Services (AWS)-account.
+De **Veilige integratie van CMK (Customer Managed Key)** kunt u gegevens in rust versleutelen met uw eigen sleutel via uw Amazon Web Services (AWS)-account.
 
 Door de klant beheerde sleutels zijn Key Management Service (KMS)-sleutels in uw AWS-account die u maakt, bezit en beheert. U hebt volledige controle over deze sleutels KMS, en gebruikt hen om gegevens te coderen en te decrypteren. Door u verantwoordelijk te maken voor het produceren en beheren van encryptiesleutels, laat deze capaciteit u toe om meer controle over hen te hebben, met inbegrip van het intrekken van een sleutel.
 

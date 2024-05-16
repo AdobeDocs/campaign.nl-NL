@@ -5,7 +5,7 @@ description: Leer hoe u een workflow kunt maken
 feature: Workflows
 role: User
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: b7fa3dfb1e596d2ea41674278cbe315199264611
+source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -133,9 +133,7 @@ Naast de gebruikelijke workfloweigenschappen kunt u met de sjablooneigenschappen
 
 U kunt verschillende typen workflows dupliceren. Als de workflow eenmaal is gedupliceerd, worden wijzigingen van de workflow niet doorgevoerd in de kopie van de workflow.
 
->[!CAUTION]
->
->Kopiëren en plakken is beschikbaar in workflows, maar u wordt aangeraden het document te gebruiken **Dupliceren**. Zodra een gekopieerde activiteit, zijn volledige configuratie wordt gehouden. Voor leveringsactiviteiten (E-mail, SMS, pushmelding...) wordt het leveringsobject dat aan de activiteit is gekoppeld ook gekopieerd, wat tot een crash kan leiden.
+Adobe raadt aan een workflow te dupliceren in plaats van een kopie/plakbewerking uit te voeren. Wanneer een activiteit wordt gekopieerd, worden al zijn montages bewaard. Voor kanaalactiviteiten wordt het aan de activiteit gekoppelde leveringsobject ook gekopieerd, wat tot grote problemen kan leiden.
 
 1. Klik met de rechtermuisknop op een workflow.
 1. Klikken **Dupliceren**.
