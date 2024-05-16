@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 1f113f63089395269c494a9328d633684977912a
+source-git-commit: bcb833fae75ee515ae210342756fab035a4e1c03
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '870'
 ht-degree: 5%
 
 ---
@@ -52,7 +52,7 @@ Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Fed
 
 * Diverse schema&#39;s zijn veranderd van 32 in 64 beetjes. Dit geldt alleen voor klanten die vanuit Campaign Standard migreren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html).
 
-* In Campagnetabellen worden de volgende kenmerken nu standaard ingevuld op de datum en tijd van de server: lastModified, created, createdBy-id. Waarden die door gebruikers in API-aanroepen worden opgegeven, worden genegeerd. Deze configuratie kan in het dossier van de de serverconfiguratie van de Campagne worden veranderd. Als Beheerde klant van Cloud Servicen, moet u uit aan Adobe reiken om deze standaardconfiguratie te veranderen.
+* In Campagnetabellen worden de volgende kenmerken nu standaard ingevuld op de datum en tijd van de server: lastModified, created, createdBy-id. Waarden die door gebruikers in API-aanroepen worden opgegeven, worden genegeerd. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### Oplossingen {#fixes-8-7-1}
 
