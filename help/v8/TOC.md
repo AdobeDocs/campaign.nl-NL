@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 7ea0224f3483221596b9277133516e4624afdabf
+source-git-commit: 5ad40a349df472ace07f124776517c41f4bddc5e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 17%
+source-wordcount: '612'
+ht-degree: 16%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 17%
    + [De gebruikersinterface detecteren](start/campaign-ui.md)
    + [Verbinding maken met campagne](start/connect.md)
    + [Onderdelen en processen](start/ac-components.md)
-   + [Van Classic v7 naar v8](start/v7-to-v8.md)
+   + [Van Campaign Classic v7 naar v8](start/v7-to-v8.md)
    + [Van Campaign Standard naar v8](start/acs-to-v8.md)
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -201,5 +201,7 @@ ht-degree: 17%
       + [De database bijwerken](dev/update-database-structure.md)
       + [Invoerformulieren](dev/forms.md)
    + [Campagne-API&#39;s](dev/api.md)
-+ [Configuratiescherm >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
-+ [Handleiding Campagne Automation Guide >](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
++ [Configuratiescherm >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
++ [Handleiding Campagne Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
++ [Campagne voor de documentatie van de webgebruikersinterface >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
+
