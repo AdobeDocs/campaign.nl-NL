@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 1f113f63089395269c494a9328d633684977912a
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '898'
 ht-degree: 5%
 
 ---
@@ -52,7 +52,7 @@ Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Fed
 
 * Diverse schema&#39;s zijn veranderd van 32 in 64 beetjes. Dit geldt alleen voor klanten die vanuit Campaign Standard migreren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html).
 
-* In Campagne lijsten, staat een nieuwe vlag u toe om wijzigingen in de lastModified, gecreeerd, en createdBy-id attributen te behandelen. Wanneer de markering is ingeschakeld, worden de waarden die door gebruikers aan deze kenmerken zijn doorgegeven, genegeerd. Alleen servertijd en -id uit de gebruikerscontext worden gebruikt. Wanneer de markering is uitgeschakeld, worden door de gebruiker opgegeven waarden voor deze kenmerken gebruikt. De markering ignoreTimestampsID bevindt zich in serverConf.xml onder het knooppunt &quot;shared&quot;.
+* In Campagnetabellen worden de volgende kenmerken nu standaard ingevuld op de datum en tijd van de server: lastModified, created, createdBy-id. Waarden die door gebruikers in API-aanroepen worden opgegeven, worden genegeerd. Deze configuratie kan in het dossier van de de serverconfiguratie van de Campagne worden veranderd. Als Beheerde klant van Cloud Servicen, moet u uit aan Adobe reiken om deze standaardconfiguratie te veranderen.
 
 ### Oplossingen {#fixes-8-7-1}
 
