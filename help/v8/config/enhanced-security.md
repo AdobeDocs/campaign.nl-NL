@@ -4,12 +4,10 @@ description: Ga aan de slag met de uitgebreide beveiligingsinvoegtoepassing Camp
 feature: Configuration
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
@@ -90,7 +88,7 @@ Om hoge beschikbaarheid (HA) te verzekeren, gebruikt het twee tunnels om elke st
 
 Er worden drie gebruiksgevallen ondersteund:
 
-* FDA (Federated Data Access) via VPN<!--to access your on-premise database from the Campaign instance over VPN-->
+* Federated Data Access (FDA) via VPN, om toegang te krijgen tot uw on-premise database via de Campagne-instantie via VPN
 
 * Inloggen van de instantie via VPN van een dikke cliënt
 
@@ -117,7 +115,7 @@ Volg onderstaande richtlijnen om ervoor te zorgen dat deze functie correct wordt
 
 De volgende instructies en beperkingen zijn van toepassing op de VPN-tunneling-integratie met Adobe Campaign v8:
 
-* Momenteel worden alleen on-premise databases ondersteund, zoals<!--Richa to check the list with PM-->:
+* Alleen on-premise databases worden ondersteund, zoals<!--Richa to check the list with PM-->:
 
    * MySQL
    * Netezza
