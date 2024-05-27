@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: fb0b7dbeae1d083935da91bbe50a711ce5f47b7e
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 5%
@@ -114,7 +114,7 @@ Als een informatie in de levering verandert (inhoud, naam, enz.), wordt een nieu
 
 Als voorbeeld, als u dit type van activiteit eens per maand in werking stelt, zult u eindigen met één enkele levering na een jaar (vooropgesteld u geen verandering in de levering).
 
-Doorlopende leveringen worden binnen workflows gemaakt via de [Continue leveringsactiviteit](../../automation/workflow/contin).
+Doorlopende leveringen worden binnen workflows gemaakt via de [Continue leveringsactiviteit](../../automation/workflow/continuous-delivery.md).
 
 
 ## Geef op hoe berichten moeten worden verzonden{#gs-send-msg}
