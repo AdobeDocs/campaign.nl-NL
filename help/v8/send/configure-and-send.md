@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 52863e9cb3b9ccf03c8e2b838827af862b30e3b9
+source-git-commit: 070aa96187c5654e40665cb5b23329d3f7d508d6
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1193'
 ht-degree: 3%
 
 ---
@@ -48,6 +48,8 @@ Gebruik de  **[!UICONTROL Test SMTP delivery]** optie om het verzenden via SMTP 
 
 Als u de lading in evenwicht wilt brengen, kunt u leveringen in verscheidene partijen verdelen. Configureer het aantal partijen en hun verhouding ten opzichte van de volledige levering.
 
+### Golven inschakelen {#enable-waves}
+
 Ga als volgt te werk om golven te definiëren:
 
 1. Open de leveringseigenschappen en blader aan **[!UICONTROL Delivery]** tab.
@@ -55,26 +57,27 @@ Ga als volgt te werk om golven te definiëren:
 
    ![](assets/delivery-define-waves.png)
 
+### Golven configureren {#config-waves}
 
-1. Configureer golven zoals hieronder beschreven.
+>[!NOTE]
+>
+>U kunt alleen de grootte en de vertraging tussen twee opeenvolgende golven definiëren. De ontvankelijke selectiecriteria voor elke golf kunnen niet worden gevormd.
 
-   >[!NOTE]
-   >
-   >U kunt alleen de grootte en de vertraging tussen twee opeenvolgende golven definiëren. De ontvankelijke selectiecriteria voor elke golf kunnen niet worden gevormd.
+U kunt de grootte van elke golf definiëren of toevoegen aan een kalender.
 
-U kunt het volgende definiëren:
+* **De grootte van elke golf definiëren**. Als u bijvoorbeeld **[!UICONTROL 30%]** op het overeenkomstige gebied, zal elke golf 30% van de berichten vertegenwoordigen inbegrepen in de levering, behalve laatste, die 10% van de berichten zal vertegenwoordigen.
 
-    * **De grootte voor elke golf**. Als u bijvoorbeeld ** invoert[!UICONTROL 30%]** op het overeenkomstige gebied, zal elke golf 30% van de berichten vertegenwoordigen inbegrepen in de levering, behalve laatste, die 10% van de berichten zal vertegenwoordigen.
-    
-    In de **[!UICONTROL Period]**, geeft u de vertraging op tussen het begin van twee opeenvolgende golven. Als u bijvoorbeeld ** invoert[!UICONTROL 2d]**, de eerste golf zal onmiddellijk beginnen, de tweede golf zal over twee dagen beginnen, de derde golf over vier dagen, etc.
-    
-    ![assets/delivery-waves-size.png]
-    
-    * * ** Een kalender voor het verzenden van elke golf**.  Bijvoorbeeld, vertegenwoordigt de eerste golf 25% van het totale aantal berichten inbegrepen in de levering en zal onmiddellijk beginnen. De volgende twee golven voltooien de levering en zijn geplaatst om met intervallen van zes uur te beginnen.
-    
-    In de **[!UICONTROL Start]**, geeft u de vertraging op tussen het begin van twee opeenvolgende golven. In de **[!UICONTROL Size]**. Voer een vast getal of een percentage in.
-    
-    ![assets/delivery-waves-calendar.png]
+  In de **[!UICONTROL Period]** geeft u de vertraging op tussen het begin van twee opeenvolgende golven. Als u bijvoorbeeld **[!UICONTROL 2d]** De eerste golf begint onmiddellijk, de tweede golf begint over twee dagen, de derde golf over vier dagen, enzovoort.
+
+  ![](assets/delivery-waves-size.png)
+
+* **Een kalender definiëren voor het verzenden van elke golf**.  Bijvoorbeeld, vertegenwoordigt de eerste golf 25% van het totale aantal berichten inbegrepen in de levering en zal onmiddellijk beginnen. De volgende twee golven voltooien de levering en zijn geplaatst om met intervallen van zes uur te beginnen.
+
+  In de **[!UICONTROL Start]** de vertraging tussen het begin van twee opeenvolgende golven opgeven. In de **[!UICONTROL Size]** Voer een vast getal of een percentage in.
+
+  ![](assets/delivery-waves-calendar.png)
+
+### Wave-planningcontrole {#check-waves}
 
 een specifieke typologieregel; **[!UICONTROL Wave scheduling check]**, zorgt ervoor dat de laatste golf vóór de grens van de leveringsgeldigheid wordt gepland. De typologieën van de campagne en hun regels, die in **[!UICONTROL Typology]** tabblad van de leveringseigenschappen, worden weergegeven in [deze sectie](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
@@ -84,9 +87,14 @@ een specifieke typologieregel; **[!UICONTROL Wave scheduling check]**, zorgt erv
 >
 >U moet ook voldoende tijd instellen voor nieuwe pogingen wanneer u de laatste golven configureert. Meer informatie over nieuwe pogingen in [deze sectie](delivery-failures.md#retries).
 
+### Monitorgolven {#monitor-waves}
+
 Blader naar de leveringslogboeken om uw verzendingen te controleren. Zie [deze pagina](send.md)
 
 De leveringen die al zijn verzonden in de verwerkte golven (**[!UICONTROL Sent]** status) en de in de resterende golven te verzenden leveringen (**[!UICONTROL Pending]** status).
+
+
+### Golfmonsters {#samples-waves}
 
 De twee onderstaande voorbeelden zijn de meest gebruikte voorbeelden voor het gebruik van meerdere golven.
 
