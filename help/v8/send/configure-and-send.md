@@ -4,9 +4,10 @@ description: Leer hoe u e-mailberichten configureert in Adobe Campaign.
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 263ec61c3717c054cc135f1c4fb1f7e287e4a154
+exl-id: 36033255-1e75-41c1-9816-126777f7330a
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1160'
 ht-degree: 4%
 
 ---
@@ -21,15 +22,15 @@ Voordat u de levering verzendt, kunt u de verzendende parameters in de leverings
 
 * **[!UICONTROL Delivery priority]**: gebruik deze optie om de verzendvolgorde voor uw leveringen te wijzigen door hun prioriteitsniveau in te stellen, van **[!UICONTROL Very low]** tot **[!UICONTROL Very high]** (de standaardwaarde is **[!UICONTROL Normal]**).
 
-* **[!UICONTROL Message batch quantity]**: Gebruik deze optie om het aantal berichten te bepalen die binnen het zelfde leveringspakket van XML worden gegroepeerd. Als de parameter op 0 wordt geplaatst, worden de berichten automatisch gegroepeerd. De pakketgrootte wordt gedefinieerd door de berekening `<delivery size>/1024`, met minimaal 8 en maximaal 256 berichten per pakket.
+* **[!UICONTROL Message batch quantity]**: gebruik deze optie om het aantal berichten te definiëren dat binnen hetzelfde XML-leveringspakket wordt gegroepeerd. Als de parameter op 0 wordt geplaatst, worden de berichten automatisch gegroepeerd. De pakketgrootte wordt gedefinieerd door de berekening `<delivery size>/1024`, met minimaal 8 en maximaal 256 berichten per pakket.
 
   >[!IMPORTANT]
   >
   >Wanneer de levering door bestaande wordt gecreeerd te dupliceren, wordt deze parameter teruggesteld.
 
-* **[!UICONTROL Send using multiple waves]**: Gebruik deze optie als u uw berichten batchgewijs wilt verzenden in plaats van naar het gehele publiek tegelijk. [Meer informatie](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: gebruik deze optie om uw berichten batchgewijs te verzenden in plaats van naar het gehele publiek tegelijk. [Meer informatie](#sending-using-multiple-waves).
 
-* **[!UICONTROL Test SMTP delivery]**: gebruik deze optie om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel van SMTP DATA.
+* **[!UICONTROL Test SMTP delivery]**: gebruik deze optie om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
   >[!NOTE]
   >
@@ -37,48 +38,51 @@ Voordat u de levering verzendt, kunt u de verzendende parameters in de leverings
   >
   >* Meer informatie over de SMTP-serverconfiguratie vindt u in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
-* **[!UICONTROL Email BCC]**: Gebruik deze optie om e-mails op te slaan op een extern systeem via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. [Meer informatie](email-parameters.md).
+* **[!UICONTROL Email BCC]**: gebruik deze optie om e-mailberichten op een extern systeem op te slaan via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. [Meer informatie](email-parameters.md).
 
 ## Verzenden met meerdere golven {#sending-using-multiple-waves}
 
 Als u de lading in evenwicht wilt brengen, kunt u leveringen in verscheidene partijen verdelen. Configureer het aantal partijen en hun verhouding ten opzichte van de volledige levering.
 
->[!NOTE]
->
->U kunt alleen de grootte en de vertraging tussen twee opeenvolgende golven definiëren. De ontvankelijke selectiecriteria voor elke golf kunnen niet worden gevormd.
+Ga als volgt te werk om golven te definiëren:
 
-1. Open het venster met de leveringseigenschappen en klik op de knop **[!UICONTROL Delivery]** tab.
-1. Selecteer **[!UICONTROL Send using multiple waves]** en klik op de knop **[!UICONTROL Define waves...]** koppeling.
+1. Open de leveringseigenschappen en blader aan **[!UICONTROL Delivery]** tab.
+1. De optie **[!UICONTROL Send using multiple waves]** en klikt u op de knop **[!UICONTROL Define waves...]** koppeling.
 
    ![](assets/delivery-define-waves.png)
 
-1. Om golven te vormen, kunt u of:
 
-   * Bepaal de grootte voor elke golf. Als u bijvoorbeeld **[!UICONTROL 30%]** op het overeenkomstige gebied, zal elke golf 30% van de berichten vertegenwoordigen inbegrepen in de levering, behalve laatste, die 10% van de berichten zal vertegenwoordigen.
+1. Configureer golven zoals hieronder beschreven.
 
-     In de **[!UICONTROL Period]** geeft u de vertraging op tussen het begin van twee opeenvolgende golven. Als u bijvoorbeeld **[!UICONTROL 2d]** De eerste golf begint onmiddellijk, de tweede golf begint over twee dagen, de derde golf over vier dagen, enzovoort.
-
-     ![](assets/delivery-waves-size.png)
-
-   * Definieer een kalender voor het verzenden van elke golf.
-
-     In de **[!UICONTROL Start]** geeft u de vertraging op tussen het begin van twee opeenvolgende golven. In de **[!UICONTROL Size]** Voer een vast getal of een percentage in.
-
-     In het volgende voorbeeld vertegenwoordigt de eerste golf 25% van het totale aantal berichten inbegrepen in de levering en zal onmiddellijk beginnen. De volgende twee golven voltooien de levering en zijn geplaatst om met intervallen van zes uur te beginnen.
-
-     ![](assets/delivery-waves-calendar.png)
-
-   een specifieke typologieregel; **[!UICONTROL Wave scheduling check]**, zorgt ervoor dat de laatste golf vóór de grens van de leveringsgeldigheid wordt gepland. De typologieën van de campagne en hun regels, die in worden gevormd **[!UICONTROL Typology]** tabblad van de leveringseigenschappen, worden weergegeven in [deze sectie](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >Zorg ervoor dat de laatste golven de leveringstermijn niet overschrijden, die in het dialoogvenster **[!UICONTROL Validity]** tab. Anders kunnen sommige berichten niet worden verzonden.
-   >
-   >U moet ook genoeg tijd voor pogingen toestaan wanneer het vormen van de laatste golven. <!--See [this section]().-->
+   >U kunt alleen de grootte en de vertraging tussen twee opeenvolgende golven definiëren. De ontvankelijke selectiecriteria voor elke golf kunnen niet worden gevormd.
 
-1. Ga naar de leveringslogboeken om uw verzendingen te controleren. Zie [deze pagina](send.md)<!--ref TBC-->.
+U kunt het volgende definiëren:
 
-   De leveringen die al zijn verzonden in de verwerkte golven (**[!UICONTROL Sent]** status) en de in de resterende golven te verzenden leveringen (**[!UICONTROL Pending]** status).
+    * **De grootte voor elke golf**. Als u bijvoorbeeld ** invoert[!UICONTROL 30%]** op het overeenkomstige gebied, zal elke golf 30% van de berichten vertegenwoordigen inbegrepen in de levering, behalve laatste, die 10% van de berichten zal vertegenwoordigen.
+    
+    In de **[!UICONTROL Period]**, geeft u de vertraging op tussen het begin van twee opeenvolgende golven. Als u bijvoorbeeld ** invoert[!UICONTROL 2d]**, de eerste golf zal onmiddellijk beginnen, de tweede golf zal over twee dagen beginnen, de derde golf over vier dagen, etc.
+    
+    ![assets/delivery-waves-size.png]
+    
+    * * ** Een kalender voor het verzenden van elke golf**.  Bijvoorbeeld, vertegenwoordigt de eerste golf 25% van het totale aantal berichten inbegrepen in de levering en zal onmiddellijk beginnen. De volgende twee golven voltooien de levering en zijn geplaatst om met intervallen van zes uur te beginnen.
+    
+    In de **[!UICONTROL Start]**, geeft u de vertraging op tussen het begin van twee opeenvolgende golven. In de **[!UICONTROL Size]**. Voer een vast getal of een percentage in.
+    
+    ![assets/delivery-waves-calendar.png]
+
+een specifieke typologieregel; **[!UICONTROL Wave scheduling check]**, zorgt ervoor dat de laatste golf vóór de grens van de leveringsgeldigheid wordt gepland. De typologieën van de campagne en hun regels, die in **[!UICONTROL Typology]** tabblad van de leveringseigenschappen, worden weergegeven in [deze sectie](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+
+>[!IMPORTANT]
+>
+>Zorg ervoor dat de laatste golven de leveringstermijn niet overschrijden, die in het dialoogvenster **[!UICONTROL Validity]** tab. Anders kunnen sommige berichten niet worden verzonden. Meer informatie over de geldigheidsperiode van een levering in [deze sectie](delivery-failures.md#valid-period).
+>
+>U moet ook voldoende tijd instellen voor nieuwe pogingen wanneer u de laatste golven configureert. Meer informatie over nieuwe pogingen in [deze sectie](delivery-failures.md#retries).
+
+Blader naar de leveringslogboeken om uw verzendingen te controleren. Zie [deze pagina](send.md)
+
+De leveringen die al zijn verzonden in de verwerkte golven (**[!UICONTROL Sent]** status) en de in de resterende golven te verzenden leveringen (**[!UICONTROL Pending]** status).
 
 De twee onderstaande voorbeelden zijn de meest gebruikte voorbeelden voor het gebruik van meerdere golven.
 
@@ -88,17 +92,17 @@ De twee onderstaande voorbeelden zijn de meest gebruikte voorbeelden voor het ge
 
   Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met golven. Dit zou een vlotte ontwikkeling van de startfase moeten verzekeren en u toelaten om het algemene tarief van ongeldige adressen te verminderen.
 
-  Om dit te doen, gebruik **[!UICONTROL Schedule waves according to a calendar]** optie. Stel bijvoorbeeld de eerste golf in op 10%, de tweede op 15% enzovoort.
+  Gebruik hiervoor de opdracht **[!UICONTROL Schedule waves according to a calendar]** -optie. Stel bijvoorbeeld de eerste golf in op 10%, de tweede op 15% enzovoort.
 
   ![](assets/delivery-waves-ex-ramp-up.png)
 
-* **Campagnes die een callcenter impliceren**
+* **Campagnes met een callcenter**
 
-  Wanneer het leiden van een campagne van de telefoonloyaliteit, heeft uw organisatie een beperkte capaciteit om het aantal vraag te verwerken om abonnees te contacteren.
+  Wanneer het leiden van een loyaliteitscampagne telefonisch, heeft uw organisatie een beperkte capaciteit om het aantal vraag te verwerken om abonnees te contacteren.
 
-  Gebruikend golven, kunt u het aantal berichten tot 20 per dag beperken, die de dagelijkse verwerkingscapaciteit van een vraagcentrum is.
+  Gebruikend golven, kunt u het aantal berichten tot 20 per dag beperken, bijvoorbeeld, gezien de dagelijkse verwerkingscapaciteit van een vraagcentrum.
 
-  Selecteer hiervoor de optie **[!UICONTROL Schedule multiple waves of the same size]** optie. Enter **[!UICONTROL 20]** als de grootte van de golf en **[!UICONTROL 1d]** in de **[!UICONTROL Period]** veld.
+  Selecteer de optie **[!UICONTROL Schedule multiple waves of the same size]** -optie. Enter **[!UICONTROL 20]** als de grootte van de golf en **[!UICONTROL 1d]** in de **[!UICONTROL Period]** veld.
 
   ![](assets/delivery-waves-ex-call-center.png)
 
@@ -111,13 +115,13 @@ Volg de onderstaande stappen om dit te doen.
 1. Klikken **[!UICONTROL Send]** selecteert u de gewenste actie.
 
    * Selecteer [**Zo snel mogelijk leveren**].
-   * Selecteer **[!UICONTROL Postpone the delivery]**. [Meer informatie](#schedule-delivery-sending)
+   * Als u het verzenden naar een latere datum wilt plannen, selecteert u **[!UICONTROL Postpone the delivery]**. [Meer informatie](#schedule-delivery-sending)
 
 1. Klik op **[!UICONTROL Analyze]**. Zie [deze sectie](delivery-analysis.md)voor meer informatie.
 
    ![](assets/delivery-send-analyze.png)
 
-1. Als u klaar bent, klikt u op **[!UICONTROL Confirm delivery]** om de levering van berichten te starten.
+1. Klik op **[!UICONTROL Confirm delivery]** om de levering van berichten te starten.
 
    ![](assets/delivery-send-confirm.png)
 
@@ -134,7 +138,7 @@ Volg de onderstaande stappen om dit te doen.
 
 U kunt de levering van berichten uitstellen om de levering te plannen of om de salesdruk te beheren en te voorkomen dat een populatie overbevraagd wordt.
 
-1. Klik op de knop **[!UICONTROL Send]** en selecteert u de **[!UICONTROL Postpone delivery]** optie.
+1. Klik op de knop **[!UICONTROL Send]** en selecteert u de **[!UICONTROL Postpone delivery]** -optie.
 
 1. Geef een begindatum op in het dialoogvenster **[!UICONTROL Contact date]** veld.
 

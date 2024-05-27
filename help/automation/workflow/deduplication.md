@@ -5,10 +5,10 @@ description: Meer informatie over de deduplicatieworkflowactiviteit
 feature: Workflows, Targeting Activity
 role: User
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 10%
+source-wordcount: '1115'
+ht-degree: 7%
 
 ---
 
@@ -22,15 +22,15 @@ De **[!UICONTROL Deduplication]** activiteit wordt gebruikt voor het verwijderen
 
 | Laatste wijzigingsdatum | Voornaam | Achternaam | Email | Mobiele telefoon | Telefoon |
 -----|------------|-----------|-------|--------------|------
-| 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
-| 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 03-02-2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-888 |
+| 19-05-2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 22-07-2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 De **[!UICONTROL Deduplication]** activiteit heeft de capaciteit om een volledige rij als uniek verslag te houden nadat de duplicaten werden geïdentificeerd. Bijvoorbeeld in het bovenstaande gebruiksgeval, als de activiteit wordt gevormd om slechts het verslag met het oudste te houden **[!UICONTROL Date]** Het resultaat zou zijn:
 
 | Datum | Voornaam | Achternaam | Email | Mobiele telefoon | Telefoon |
 -----|----------|------------|-------|--------------|------
-| 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| 03-02-2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-888 |
 
 De geselecteerde hoofdrecord stuurt de gegevens door zonder dat veldgegevens worden samengevoegd met andere relevante gegevens in de dubbele rijen.
 
@@ -38,8 +38,8 @@ Complementeren:
 
 | Datum | Voornaam | Achternaam | Email | Mobiele telefoon | Telefoon |
 -----|------------|-----------|-------|--------------|------
-| 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 19-05-2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 22-07-2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## Best practices {#best-practices}
 

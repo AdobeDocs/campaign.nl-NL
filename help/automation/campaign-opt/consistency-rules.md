@@ -4,9 +4,9 @@ title: Consistentieregels
 description: Consistentieregels
 feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
-source-git-commit: 8247bed87deb3fb19a01447dab180ed9c97ea96c
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 4%
 
 ---
@@ -19,11 +19,11 @@ Adobe Campaign garandeert consistente communicatie dankzij een set regels die zi
 
 ## Besturingscapaciteit {#control-capacity}
 
-Alvorens berichten te leveren, moet u ervoor zorgen uw organisatie de capaciteit heeft om de levering (fysieke infrastructuur) te verwerken, de reacties die de levering (binnenkomende berichten) kan produceren, en het aantal vraag die aan contactabonnees (de verwerkingscapaciteit van het vraagcentrum) moet worden gemaakt, bijvoorbeeld.
+Alvorens berichten te leveren, moet u ervoor zorgen uw organisatie de capaciteit (fysieke infrastructuur) heeft om de levering te verwerken, de reacties die de levering (binnenkomende berichten) kan produceren, en het aantal vraag die aan contactabonnees (de verwerkingscapaciteit van het vraagcentrum) moet worden gemaakt, bijvoorbeeld.
 
-Hiervoor moet u **[!UICONTROL Capacity]** typologische regels.
+Hiertoe maakt u **[!UICONTROL Capacity]** typologische regels.
 
-In het volgende voorbeeld, creëren wij een typologieregel voor een campagne van de telefoonloyaliteit. Wij beperken het aantal berichten tot 20 per dag, d.w.z. de dagelijkse verwerkingscapaciteit van een callcenter. Zodra de regel op twee leveringen van toepassing was, kunnen wij consumptie door logboeken controleren.
+In het volgende voorbeeld, creëren wij een typologieregel voor een loyaliteitscampagne telefonisch. Wij beperken het aantal berichten tot 20 per dag, d.w.z. de dagelijkse verwerkingscapaciteit van een callcenter. Zodra de regel op twee leveringen van toepassing was, kunnen wij consumptie door logboeken controleren.
 
 Volg onderstaande stappen om een nieuwe capaciteitsregel te ontwerpen:
 
