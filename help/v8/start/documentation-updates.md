@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: 91d19874dfb313a1a470ac4f39cf5af7ca7dfa19
+source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 27%
+source-wordcount: '165'
+ht-degree: 24%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 27%
 
 Deze pagina bevat alle laatste updates in [!DNL Campaign] v8-documentatie (console).
 
+
 ## Mei 2024 {#may-2024}
 
-Er is een opmerking toegevoegd om aan te geven dat **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet op één rij worden toegevoegd en moeten **[!UICONTROL Enrichement]** tussen hen. Lees meer in de [Dimensie wijzigen](../../automation/workflow/change-dimension.md) en [Gegevensbron wijzigen](../../automation/workflow/change-data-source.md) secties.
+* De lijst met kanalen en typen leveringen wordt nu weergegeven in [deze pagina](create-message.md).
+* Er is een opmerking toegevoegd om aan te geven dat **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet op één rij worden toegevoegd en moeten **[!UICONTROL Enrichement]** tussen hen. Lees meer in de [Dimensie wijzigen](../../automation/workflow/change-dimension.md) en [Gegevensbron wijzigen](../../automation/workflow/change-data-source.md) secties.
 
 ## februari 2024 {#feb-2024}
 
