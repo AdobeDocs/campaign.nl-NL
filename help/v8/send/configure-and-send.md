@@ -5,14 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: 52863e9cb3b9ccf03c8e2b838827af862b30e3b9
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 4%
+source-wordcount: '1178'
+ht-degree: 3%
 
 ---
 
 # De levering configureren en verzenden {#configure-delivery}
+
+Heb toegang tot de leveringsparameters om meer montages te vormen en te bepalen hoe te om uw berichten te verzenden. U kunt de levering definiëren [prioriteit](#delivery-priority), instellen [golven](#sending-using-multiple-waves)en test het verzenden van de levering. Zodra deze configuratie wordt gedaan, kunt u het verzenden bevestigen zoals die in wordt beschreven [deze sectie](#confirm-delivery). De berichten worden dan verzonden onmiddellijk, of gebaseerd op de levering [schema](#schedule-delivery-sending).
 
 ## Aanvullende parameters instellen {#delivery-additional-parameters}
 
@@ -20,25 +22,27 @@ Voordat u de levering verzendt, kunt u de verzendende parameters in de leverings
 
 ![](assets/delivery-properties-delivery.png)
 
-* **[!UICONTROL Delivery priority]**: gebruik deze optie om de verzendvolgorde voor uw leveringen te wijzigen door hun prioriteitsniveau in te stellen, van **[!UICONTROL Very low]** tot **[!UICONTROL Very high]** (de standaardwaarde is **[!UICONTROL Normal]**).
+### Leveringsprioriteit {#delivery-priority}
 
-* **[!UICONTROL Message batch quantity]**: gebruik deze optie om het aantal berichten te definiëren dat binnen hetzelfde XML-leveringspakket wordt gegroepeerd. Als de parameter op 0 wordt geplaatst, worden de berichten automatisch gegroepeerd. De pakketgrootte wordt gedefinieerd door de berekening `<delivery size>/1024`, met minimaal 8 en maximaal 256 berichten per pakket.
+Gebruik de **[!UICONTROL Delivery priority]** optie om de verzendvolgorde voor uw leveringen te wijzigen door hun prioriteitsniveau in te stellen, van **[!UICONTROL Very low]** tot **[!UICONTROL Very high]** (de standaardwaarde is **[!UICONTROL Normal]**).
 
-  >[!IMPORTANT]
-  >
-  >Wanneer de levering door bestaande wordt gecreeerd te dupliceren, wordt deze parameter teruggesteld.
+### Aantal partijen
 
-* **[!UICONTROL Send using multiple waves]**: gebruik deze optie om uw berichten batchgewijs te verzenden in plaats van naar het gehele publiek tegelijk. [Meer informatie](#sending-using-multiple-waves).
+Gebruik de  **[!UICONTROL Message batch quantity]** Hiermee definieert u het aantal berichten dat is gegroepeerd binnen hetzelfde XML-leveringspakket. Als de parameter op 0 wordt geplaatst, worden de berichten automatisch gegroepeerd. De pakketgrootte wordt gedefinieerd door de berekening `<delivery size>/1024`, met minimaal 8 en maximaal 256 berichten per pakket.
 
-* **[!UICONTROL Test SMTP delivery]**: gebruik deze optie om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
+>[!IMPORTANT]
+>
+>Wanneer de levering door bestaande wordt gecreeerd te dupliceren, wordt deze parameter teruggesteld.
 
-  >[!NOTE]
-  >
-  >* Deze optie mag niet worden ingesteld in mid-sourcing.
-  >
-  >* Meer informatie over de SMTP-serverconfiguratie vindt u in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
+### De verzending van de levering testen
 
-* **[!UICONTROL Email BCC]**: gebruik deze optie om e-mailberichten op een extern systeem op te slaan via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. [Meer informatie](email-parameters.md).
+Gebruik de  **[!UICONTROL Test SMTP delivery]** optie om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
+
+>[!NOTE]
+>
+>* Deze optie mag niet worden ingesteld in mid-sourcing.
+>
+>* Meer informatie over de SMTP-serverconfiguratie vindt u in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## Verzenden met meerdere golven {#sending-using-multiple-waves}
 
