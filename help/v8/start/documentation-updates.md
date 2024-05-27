@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: 5f62addc95197ce5f4f80c026cc51ac14e61ff58
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '179'
 ht-degree: 24%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat alle laatste updates in [!DNL Campaign] v8-documentatie (conso
 ## Mei 2024 {#may-2024}
 
 * De lijst met kanalen en typen leveringen wordt nu weergegeven in [deze pagina](create-message.md).
+* De leveringsmontages en de secties van het golfbeheer zijn gereorganiseerd en verbeterd. [Meer informatie](../send/configure-and-send.md).
 * Er is een opmerking toegevoegd om aan te geven dat **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet op één rij worden toegevoegd en moeten **[!UICONTROL Enrichement]** tussen hen. Lees meer in de [Dimensie wijzigen](../../automation/workflow/change-dimension.md) en [Gegevensbron wijzigen](../../automation/workflow/change-data-source.md) secties.
 
 ## februari 2024 {#feb-2024}
