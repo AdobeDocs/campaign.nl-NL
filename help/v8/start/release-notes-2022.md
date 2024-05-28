@@ -2,10 +2,8 @@
 title: Opmerkingen bij de release Campagne v8 2022
 description: Lijst met functies en verbeteringen die worden geleverd bij de 2022-campagne v8-releases
 feature: Release Notes
-role: User
-level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 12%
