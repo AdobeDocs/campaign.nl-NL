@@ -5,7 +5,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
+source-git-commit: ad198540dc65152680e1d14c45286b94397948fd
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 21%
@@ -15,6 +15,7 @@ ht-degree: 21%
 # Opmerkingen bij de release 2023 {#2023-rn}
 
 Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd bij **2023 Campagne v8-releases**.
+
 
 ## Release 8.5.2 {#release-8-5-2}
 
@@ -62,7 +63,7 @@ Raadpleeg de [gedetailleerde documentatie](../send/push-data-collection.md) voor
 
 * U kunt nu Adobe Experience Platform Destination-verbinding gebruiken om profielkenmerken, zoals gegevens voor niet-toegang, te synchroniseren tussen Adobe Experience Platform en de v8-database voor Campagne.
 * De voorbereiding van de levering is op alle kanalen geoptimaliseerd.
-* Er is een nieuwe op sleutels gebaseerde verificatieoptie toegevoegd voor de externe SFTP-account, naast de bestaande verificatiemethode voor gebruikers/wachtwoorden. Gebruikers kunnen nu veilig verifiëren met een persoonlijke sleutel, waardoor de beveiliging wordt verbeterd en een alternatief verificatiemechanisme voor SFTP-toegang wordt geboden. Meer informatie in [deze sectie](../config/external-accounts.md).
+* Er is een nieuwe op sleutels gebaseerde verificatieoptie toegevoegd voor de externe SFTP-account, naast de bestaande verificatiemethode voor gebruikers/wachtwoorden. Gebruikers kunnen nu veilig verifiëren met een persoonlijke sleutel, waardoor de beveiliging wordt verbeterd en een alternatief verificatiemechanisme voor SFTP-toegang wordt geboden. Lees meer in [deze sectie](../config/external-accounts.md).
 
 **Verbeterde beveiliging**
 

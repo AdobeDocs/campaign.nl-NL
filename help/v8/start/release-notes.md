@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: b280be52621890c9bd840182d3ad0389912568d4
+source-git-commit: 306d827883a0c3a15fd52b8c9fb566d028f22360
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 5%
+source-wordcount: '1183'
+ht-degree: 4%
 
 ---
 
@@ -19,6 +19,21 @@ Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van upda
 Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgevingen upgraden. Campagne-clientconsole **moet worden geüpgraded naar dezelfde versie** als Campagneservers. Leer hoe u uw clientconsole in deze [page](../start/connect.md#upgrade-ac-console).
 
 Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde versies van de systemen gebruikt die in de [Compatibiliteitsmatrix](compatibility-matrix.md).
+
+## Release 8.5.3 {#release-8-5-3}
+
+_28 mei 2024_
+
+### Migratie van JWT-referentie (Service Account) naar OAuth Server-to-Server-referentie  {#change-8-5-3}
+
+* Beginnend deze versie, met de referentie van de Rekening van de Dienst (JWT) die door Adobe wordt verouderd, steunen de uitgaande integraties van de Campagne met de oplossingen en apps van de Adobe nu op server-aan-server referentie OAuth. De Adobe zal JWT aan migratie OAuth voor uw uitgaande integratie, zoals de integratie van Campaign-Analytics of de integratie van Triggers van het Experience Cloud uitvoeren.
+
+  Als u ingebouwde integratie met Campagne hebt uitgevoerd, moet u uw Technische Rekening migreren zoals die in [deze documentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. JWT-referenties (Existing Service Account) blijven werken tot **27 januari 2025**. Daarnaast blijft de Developer Console ondersteuning bieden voor het maken van nieuwe JWT-referenties (Service Account) tot **3 juni 2024**. Een nieuwe referentie van de Rekening van de Dienst (JWT) kan niet aan een project na deze datum worden gecreeerd of worden toegevoegd.
+
+
+### Oplossingen {#fixes-8-5-3}
+
+NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-595 44, NEO-52542
 
 ## Release 8.7.1 {#release-8-7-1}
 
