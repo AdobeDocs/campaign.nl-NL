@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 306d827883a0c3a15fd52b8c9fb566d028f22360
+source-git-commit: 607ef2ab8f1f1c7400451019e188c70f8c7d6091
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1178'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Als klant moet u er bovendien voor zorgen dat u de meest recente ondersteunde ve
 
 _28 mei 2024_
 
-### Migratie van JWT-referentie (Service Account) naar OAuth Server-to-Server-referentie  {#change-8-5-3}
+### Migratie naar externe server-naar-server-referentie {#change-8-5-3}
 
 * Beginnend deze versie, met de referentie van de Rekening van de Dienst (JWT) die door Adobe wordt verouderd, steunen de uitgaande integraties van de Campagne met de oplossingen en apps van de Adobe nu op server-aan-server referentie OAuth. De Adobe zal JWT aan migratie OAuth voor uw uitgaande integratie, zoals de integratie van Campaign-Analytics of de integratie van Triggers van het Experience Cloud uitvoeren.
 
