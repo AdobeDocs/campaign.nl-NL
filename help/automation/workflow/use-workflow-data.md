@@ -3,16 +3,16 @@ title: Workflowgegevens gebruiken
 description: Leer hoe u workflowgegevens gebruikt
 feature: Workflows, Data Management
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '705'
 ht-degree: 2%
 
 ---
 
 # Workflowgegevens gebruiken{#how-to-use-workflow-data}
 
-U kunt workflowactiviteiten gebruiken om meerdere taken uit te voeren. Hieronder vindt u voorbeelden van het gebruik om de database bij te werken door lijsten te maken, abonnementen te beheren, berichten te verzenden via een workflow of uw leveringen en het publiek te verrijken.
+Met workflowactiviteiten kunt u meerdere taken uitvoeren. Hieronder vindt u voorbeelden van het gebruik om de database bij te werken door lijsten te maken, abonnementen te beheren, berichten te verzenden via een workflow of uw leveringen en het publiek te verrijken.
 
 Er is een set praktijkvoorbeelden beschikbaar in [deze sectie](workflow-use-cases.md).
 
@@ -30,23 +30,23 @@ Selecteer hiertoe het relevante menu:
 
 * **[!UICONTROL Display the target...]**
 
-   In dit menu worden de beschikbare gegevens van de doelpopulatie weergegeven.
+  In dit menu worden de beschikbare gegevens van de doelpopulatie weergegeven.
 
-   ![](assets/wf-right-click-display.png)
+  ![](assets/wf-right-click-display.png)
 
-   U hebt toegang tot de structuur van de werktabel in het dialoogvenster **[!UICONTROL Schema]** tab.
+  U hebt toegang tot de structuur van de werktabel in het dialoogvenster **[!UICONTROL Schema]** tab.
 
-   ![](assets/wf-right-click-schema.png)
+  ![](assets/wf-right-click-schema.png)
 
-   Raadpleeg [deze sectie](monitor-workflow-execution.md#worktables-and-workflow-schema) voor meer informatie.
+  Raadpleeg [deze sectie](monitor-workflow-execution.md#worktables-and-workflow-schema) voor meer informatie.
 
 * **[!UICONTROL Analyze target...]**
 
-   In dit menu hebt u toegang tot de wizard voor beschrijvende analyse, waarmee u statistieken en rapporten over de overgangsgegevens kunt produceren.
+  Gebruik dit menu om toegang te krijgen tot de beschrijvende analysewizard waarmee u statistieken en rapporten over de overgangsgegevens kunt genereren.
 
-   Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
+  Leer hoe u de wizard voor beschrijvende analyse kunt gebruiken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
-De doelgegevens worden gewist terwijl de workflow wordt uitgevoerd. Alleen de laatste werktabel is toegankelijk. U kunt het werkschema vormen zodat alle het werklijsten toegankelijk blijven: controleren **[!UICONTROL Keep the result of interim populations between two executions]** in de workfloweigenschappen.
+De doelgegevens worden gewist terwijl de workflow wordt uitgevoerd. Alleen de laatste werktabel is toegankelijk. U kunt de workflow zo configureren dat alle werktabellen toegankelijk blijven: controleer de **[!UICONTROL Keep the result of interim populations between two executions]** in de workfloweigenschappen.
 
 ![](assets/wf-purge-data-option.png)
 
@@ -89,11 +89,11 @@ In het volgende voorbeeld, verzamelt u een lijst van informatie over klanten, di
 
    ![](assets/wf-targetdata-sample-2.png)
 
-1. Configureer de **[!UICONTROL Enrichment]** om de verzamelde gegevens te combineren met de gegevens die al in de Adobe Campaign-database zijn opgenomen. Hier is de afstemmingssleutel het rekeningnummer:
+1. Vorm **[!UICONTROL Enrichment]** om de verzamelde gegevens te combineren met de gegevens die al in de Adobe Campaign-database zijn opgenomen. Hier is de afstemmingssleutel het rekeningnummer:
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. Dan vorm **[!UICONTROL Delivery]**: het wordt gecreeerd gebaseerd op een malplaatje, en de ontvangers worden gespecificeerd door de binnenkomende overgang.
+1. Dan vorm **[!UICONTROL Delivery]**: deze wordt gemaakt op basis van een sjabloon en de ontvangers worden opgegeven door de binnenkomende overgang.
 
    ![](assets/wf-targetdata-sample-4.png)
 
@@ -103,13 +103,13 @@ In het volgende voorbeeld, verzamelt u een lijst van informatie over klanten, di
 
 1. In het leveringsmalplaatje, gebruik de gebieden die in het werkschema worden verzameld.
 
-   Om dit te doen, voeg **[!UICONTROL Target extension]** type verpersoonlijkingsgebieden.
+   Voeg **[!UICONTROL Target extension]** type verpersoonlijkingsgebieden.
 
    ![](assets/wf-targetdata-sample-5.png)
 
    Hier willen we het favoriete muziekgenre en mediatype (CD of DVD) van de klant invoegen, zoals vermeld in het bestand dat tijdens de workflow wordt verzameld.
 
-   Als plus gaan we een coupon toevoegen voor houders van een loyaliteitskaart, dat wil zeggen ontvangers voor wie de waarde van de &#39;Kaart&#39; gelijk is aan 1.
+   Als plus gaan we een coupon toevoegen voor houders van een getrouwde kaart, dat wil zeggen ontvangers voor wie de waarde van de &#39;Kaart&#39; gelijk is aan 1.
 
    ![](assets/wf-targetdata-sample-6.png)
 
@@ -126,15 +126,15 @@ De gegevens van de Adobe Campaign-databank en de bestaande lijsten kunnen worden
 
 * De **[!UICONTROL List update]** Met activiteit kunt u werktabellen opslaan in een database.
 
-   U kunt een bestaande lijst selecteren of maken. In dit geval worden de naam en mogelijk de recordmap berekend.
+  U kunt een bestaande lijst selecteren of maken. In dit geval worden de naam en mogelijk de recordmap berekend.
 
-   ![](assets/s_user_create_list.png)
+  ![](assets/s_user_create_list.png)
 
-   Zie [Lijstupdate](list-update.md).
+  Zie [Lijstupdate](list-update.md).
 
 * De **[!UICONTROL Update data]** de activiteit voert een massa update van de gebieden in het gegevensbestand uit.
 
-   Raadpleeg voor meer informatie hierover [Gegevens bijwerken](update-data.md).
+  Raadpleeg voor meer informatie hierover [Gegevens bijwerken](update-data.md).
 
 ### Lidmaatschappen beheren {#subscription-management}
 

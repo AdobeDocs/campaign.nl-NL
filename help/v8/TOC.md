@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
+source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '613'
 ht-degree: 16%
 
 ---
@@ -201,6 +201,7 @@ ht-degree: 16%
       + [Een aangepaste tabel voor ontvangers gebruiken](dev/custom-recipient.md)
       + [De database bijwerken](dev/update-database-structure.md)
       + [Invoerformulieren](dev/forms.md)
+   + [Werken met gegevenspakketten](dev/packages.md)
    + [Campagne-API&#39;s](dev/api.md)
 + [Configuratiescherm >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
 + [Handleiding Campagne Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
