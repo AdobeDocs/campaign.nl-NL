@@ -4,9 +4,9 @@ description: Werken met gegevenspakketten
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 8b537c723335ea98eb39bfbc3a4f1df09861aaea
+source-git-commit: 933c266febdc293dccdf9b7383d94d7a5dce22bc
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Ga als volgt te werk om een set objecten in een gegevenspakket te exporteren:
 
    >[!NOTE]
    >
-   >De query-editor wordt weergegeven in [deze sectie](../../platform/using/about-queries-in-campaign.md).
+   >De query-editor wordt weergegeven in [deze sectie](../../automation/workflow/query.md).
 
 1. Klikken **[!UICONTROL Next]** en selecteert u de sorteervolgorde van de geëxporteerde gegevens.
 
@@ -191,13 +191,6 @@ Tot slot de `@pkgStatus` kunt u de exportregels voor deze elementen of kenmerken
 ## Pakketdefinities beheren {#manage-package-definitions}
 
 Met pakketdefinities kunt u een pakketstructuur maken waarin u entiteiten toevoegt die later in één pakket worden geëxporteerd. Vervolgens kunt u dit pakket en alle toegevoegde entiteiten importeren in een andere Campagne-instantie.
-
-**Verwante onderwerpen:**
-
-* [Een pakketdefinitie maken](#create-a-package-definition)
-* [Entiteiten toevoegen aan een pakketdefinitie](#add-entities-to-a-package-definition)
-* [Genereren van pakketdefinities configureren](#configure-package-definitions-generation)
-* [Pakketten uit een pakketdefinitie exporteren](#export-packages-from-a-package-definition)
 
 ### Een pakketdefinitie maken {#create-a-package-definition}
 
