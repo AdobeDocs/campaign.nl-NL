@@ -4,7 +4,7 @@ description: Werken met gegevenspakketten
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 933c266febdc293dccdf9b7383d94d7a5dce22bc
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '1941'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Ga als volgt te werk om een set objecten in een gegevenspakket te exporteren:
    >
    >Als u een **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** of **[!UICONTROL Plan]** typemap, nooit selecteren **xtk:map** omdat u mogelijk gegevens kwijtraakt. Selecteer de entiteit die overeenkomt met de map: **nms:aanbiedingenCategorie** voor aanbiedingrubrieken, **nms:aanbiedingEnv** voor aanbiedingsomgevingen, **nms:programma** voor programma&#39;s, en **nms:plan** voor plannen.
 
-   Het afhankelijkheidsmechanisme bestuurt de uitvoersequentie van de entiteit. Raadpleeg voor meer informatie hierover [Afhankelijkheden beheren](#managing-dependencies).
+   Het afhankelijkheidsmechanisme bestuurt de uitvoersequentie van de entiteit. Raadpleeg voor meer informatie hierover [Afhankelijkheden beheren](#manage-dependencies).
 
 1. Klikken **[!UICONTROL Next]** en definieert u de filterquery voor het type document dat u wilt extraheren. U moet de het filtreren clausule voor gegevensextractie vormen.
 

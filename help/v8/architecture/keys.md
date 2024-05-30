@@ -5,7 +5,7 @@ feature: Configuration, FFDA
 role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Sleutelbeheer en eenheid {#key-management}
 
-In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md), is de primaire sleutel een Universally Unique IDentifier (UUID), die een tekenreeks op tekens is. Als u deze UUID wilt maken, moet het hoofdelement van het schema het volgende bevatten: **autouuid** en **automatische** kenmerken ingesteld op **true**.
+In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md), is de primaire sleutel een Universally Unique IDentifier (UUID), die een tekenreeks met tekens is. Als u deze UUID wilt maken, moet het hoofdelement van het schema het volgende bevatten: **autouuid** en **automatische** kenmerken ingesteld op **true**.
 
 Adobe Campaign v8-gebruik [!DNL Snowflake] als de kerndatabase. De verspreide architectuur van de [!DNL Snowflake] de database biedt geen mechanisme om de eenheid van een sleutel binnen een tabel te garanderen: eindgebruikers zijn verantwoordelijk voor de consistentie van de sleutel binnen de Adobe Campaign-database.
 

@@ -5,7 +5,7 @@ role: Admin, User
 feature: Journey Optimizer Integration
 level: Beginner
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
-source-git-commit: 7cd2e433cbfce9634b5664d037ad6e73e05b7516
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -25,4 +25,4 @@ De basisstappen moeten een transactiemalplaatje van het bericht in Campagne tot 
 [Ontdek deze integratie in dit end-to-end voorbeeld](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
 
 
-[Meer informatie in de documentatie van Journey Optimizer]https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
+[Meer informatie in de documentatie van Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
