@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
+source-git-commit: e119c415ce363a635f9f0318e3fd70f90f4bde06
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '801'
 ht-degree: 4%
 
 ---
@@ -32,6 +32,14 @@ De volgende problemen zijn opgelost in deze release:
 
 NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-595 44, NEO-52542
 
+
+## Meerdere updates {#may-updates}
+
+De volgende wijziging is vrijgegeven in mei en is nu beschikbaar voor gebruikers van Campaign v8:
+
+* **Nieuwe add-on voor uitgebreide beveiliging**: Om uw netwerkverbinding veiliger te maken en betere beveiliging voor uw bronnen te bieden, biedt Adobe Campaign een nieuwe add-on voor uitgebreide beveiliging, die twee functies bevat: Secure CMK-integratie en Secure VPN tunneling. [Meer informatie](../config/enhanced-security.md)
+
+
 ## Release 8.7.1 {#release-8-7-1}
 
 _2 mei 2024_
@@ -52,7 +60,7 @@ _2 mei 2024_
 
 * **Dynamische rapportage** - Als gemigreerde gebruiker van het Campaign Standard, kunt u tot Dynamische Rapportering toegang hebben die volledig klantgerichte en real-time rapporten verstrekt om de invloed van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}
 
-* **Nieuwe add-on voor uitgebreide beveiliging**: Om uw netwerkverbinding veiliger te maken en betere beveiliging voor uw bronnen te bieden, biedt Adobe Campaign een nieuwe add-on voor uitgebreide beveiliging, die twee functies bevat: Secure CMK-integratie en Secure VPN tunneling. [Meer informatie](../config/enhanced-security.md)
+
 
 
 ### Compatibiliteitsupdates {#comp-8-7-1}
