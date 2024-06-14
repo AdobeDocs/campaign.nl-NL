@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: b96ac3bd2365c548d071e626721d606dd33200b5
+source-git-commit: 0513b9f65e9431f5207b384a0e2d8c5aeb8e209f
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -35,11 +35,11 @@ Voer de volgende stappen uit als u machtigingen voor een specifieke map Campagne
 
 Om toestemmingen en toegangsrechten te verspreiden, selecteer **[!UICONTROL Propagate]** in de mapeigenschappen.
 
-De in dit venster gedefinieerde autorisaties worden vervolgens toegepast op alle submappen van het huidige knooppunt. U kunt deze machtigingen altijd voor elk van de submappen te veel laden.
+De autorisaties die in dit venster worden gedefinieerd, worden vervolgens toegepast op alle submappen van het huidige knooppunt. U kunt deze machtigingen altijd voor elk van de submappen te veel laden.
 
 >[!NOTE]
 >
->De optie Ongedaan maken **[!UICONTROL Propagate]** Als u een map kiest, wordt deze niet gewist voor de submappen: u moet het uitdrukkelijk voor elk van de subomslagen ontruimen.
+>De optie Ongedaan maken **[!UICONTROL Propagate]** voor een map wordt deze niet gewist voor de submappen: u moet deze expliciet wissen voor elk van de submappen.
 
 ## Toegang verlenen aan alle marktdeelnemers {#grant-access-to-all-operators}
 
