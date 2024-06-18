@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: 5f62addc95197ce5f4f80c026cc51ac14e61ff58
+source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 24%
+source-wordcount: '198'
+ht-degree: 23%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 24%
 
 Deze pagina bevat alle laatste updates in [!DNL Campaign] v8-documentatie (console).
 
+## Juni 2024 {#june-2024}
+
+Er is een opmerking toegevoegd om op te geven hoe instantievariabelen moeten worden gewist wanneer werkstromen opnieuw worden gestart. [Meer informatie](../../automation/workflow/start-a-workflow.md)
 
 ## Mei 2024 {#may-2024}
 

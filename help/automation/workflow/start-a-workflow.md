@@ -6,9 +6,9 @@ feature: Workflows
 level: Beginner
 role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,16 @@ De **[!UICONTROL Actions]** op de werkbalk hebt u toegang tot aanvullende uitvoe
 * **[!UICONTROL Restart]**
 
   Deze actie stopt en start de workflow opnieuw. Doorgaans kunt u sneller opnieuw opstarten. Het is ook handig om opnieuw starten te automatiseren wanneer het stoppen enige tijd in beslag neemt. Dit komt omdat de opdracht Stoppen niet beschikbaar is wanneer de workflow wordt gestopt.
+
+  Let erop dat de **Opnieuw starten** handeling wist de variabelen van de werkstroominstantie niet in vergelijking met **Uitvoering**, **Stoppen**, en **Start** handelingen (de instantievariabelen wissen vindt plaats na de handeling Start). Wanneer u een werkstroom opnieuw start, zijn instantievariabelen nog steeds beschikbaar voor gebruik met opgeslagen waarden. U kunt deze wissen door:
+   * Uitvoeren **Stoppen** en **Start** handelingen.
+   * Voeg onder javascript-code toe aan het einde van de workflowuitvoering:
+
+     ```
+     var wkf = xtk.workflow.load(instance.id)
+     wkf.variables='<variables/>'
+     wkf.save()
+     ```
 
 * **[!UICONTROL Purge history]**
 
