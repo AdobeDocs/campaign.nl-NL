@@ -4,16 +4,16 @@ description: Leer hoe u technische operatoren van campagnes kunt migreren naar e
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 5d3dd679eb7a756200d604601c20c3fed5770fc2
+source-git-commit: 07c2a7460c407a0afb536d8b64f4105d8bc547f4
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
 
 # Migratie van technische operatoren van campagnes naar Adobe Developer Console {#migrate-tech-users-to-ims}
 
-Als onderdeel van de inspanningen om het beveiligings- en verificatieproces te versterken, te beginnen met Campagne v8.5, wordt het verificatieproces voor Campagne v8 verbeterd. Technische operatoren kunnen nu de [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Als onderdeel van de inspanningen om het beveiligings- en verificatieproces te versterken, te beginnen met Campagne v8.5, wordt het verificatieproces voor Campagne v8 verbeterd. Technische operatoren kunnen nu de [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} om verbinding te maken met Campagne. Meer informatie over het verificatieproces van de nieuwe server naar de server vindt u in [Adobe Developer Console-documentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 Een technische operator is een Campagnegebruikersprofiel dat expliciet is gemaakt voor API-integratie. In dit artikel worden de stappen beschreven die nodig zijn om een technische operator via de Adobe Developer-console naar een technische account te migreren.
 
@@ -149,11 +149,15 @@ U moet nu alle API-integraties bijwerken en aanroepen naar Adobe Campaign uitvoe
 
 Raadpleeg voor meer informatie over de integratiestappen van de API, waaronder een voorbeeldcode voor een vloeiende integratie [Adobe Developer Console-verificatiedocumentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
-Hieronder zijn de vraag van de steekproefZEEP die vóór en na migratievraag voor de derdesystemen toont.
+Hieronder zijn steekproef SOAP vraag die vóór en na migratievraag naar de derdesystemen toont.
+
+Als u Adobe Identity Management System (IMS)-verificatie gebruikt om een WSDL-bestand te genereren, moet u het volgende toevoegen `Authorization: Bearer <IMS_Technical_Token_Token>` in de postbode :
+
+```
+curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
+```
 
 Zodra het migratieproces wordt bereikt en bevestigd, worden de Vraag van Soap als volgt bijgewerkt:
-
-
 
 * Vóór de migratie: er was geen ondersteuning voor het token voor toegang tot de technische account.
 
@@ -201,8 +205,6 @@ Zodra het migratieproces wordt bereikt en bevestigd, worden de Vraag van Soap al
   </soapenv:Body>
   </soapenv:Envelope>
   ```
-
-
 
 ### Stap 9 - (facultatief) Werk de technische rekeningexploitant binnen de cliënt van de Campagne console bij {#ims-migration-step-9}
 
