@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 070aa96187c5654e40665cb5b23329d3f7d508d6
+source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Voordat u de levering verzendt, kunt u de verzendende parameters in de leverings
 
 Gebruik de **[!UICONTROL Delivery priority]** optie om de verzendvolgorde voor uw leveringen te wijzigen door hun prioriteitsniveau in te stellen, van **[!UICONTROL Very low]** tot **[!UICONTROL Very high]** (de standaardwaarde is **[!UICONTROL Normal]**).
 
-### Aantal partijen
+### Aantal partijen {#delivery-batch-quantity}
 
 Gebruik de  **[!UICONTROL Message batch quantity]** Hiermee definieert u het aantal berichten dat is gegroepeerd binnen hetzelfde XML-leveringspakket. Als de parameter op 0 wordt geplaatst, worden de berichten automatisch gegroepeerd. De pakketgrootte wordt gedefinieerd door de berekening `<delivery size>/1024`, met minimaal 8 en maximaal 256 berichten per pakket.
 

@@ -8,7 +8,7 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Ook van toepassing op Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Is van toepassing op campagne v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 9eb8521a1cc264d4d0137c68654ca45ccade81bd
+source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 1%
@@ -84,7 +84,7 @@ Ga als volgt te werk om uw omgeving te verplaatsen naar HTTP v1:
    | gegevensbericht | N.v.t. | validate_only |
    | meldingsbericht | title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
 
-1. Zodra de overgang HTTP v1 wordt gedaan, moet u uw bijwerken **leveringssjablonen** voor Android-pushberichten om het aantal batchberichten te verhogen. Hiervoor bladert u naar de eigenschappen van uw Android-leveringssjabloon en gaat u naar de **Aflevering** tabblad, stelt u de **Aantal per berichtbatch** tot **256**. Pas deze wijziging toe op alle Android-leveringssjablonen die worden gebruikt voor uw Android-leveringen en op al uw bestaande Android-leveringen.
+1. Zodra de overgang HTTP v1 wordt gedaan, moet u uw bijwerken **leveringssjablonen** voor Android-pushberichten om het aantal batchberichten te verhogen. Hiervoor bladert u naar de eigenschappen van uw Android-leveringssjabloon en gaat u naar de **Aflevering** tabblad, stelt u de [Aantal per berichtbatch](../../v8/send/configure-and-send.md#delivery-batch-quantity) tot **256**. Pas deze wijziging toe op alle Android-leveringssjablonen die worden gebruikt voor uw Android-leveringen en op al uw bestaande Android-leveringen.
 
 
 >[!NOTE]
