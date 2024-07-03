@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Ook van toepassing op Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Is van toepassing op campagne v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 24d9adddbc983a600f99dab8bab1235585b48ceb
+source-git-commit: 9eb8521a1cc264d4d0137c68654ca45ccade81bd
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1422'
 ht-degree: 1%
 
 ---
@@ -77,12 +77,14 @@ Ga als volgt te werk om uw omgeving te verplaatsen naar HTTP v1:
 1. Als optie kunt u de inhoud van een pushbericht verrijken met wat **[!UICONTROL Application variables]** indien nodig. Deze zijn volledig aanpasbaar en een deel van de berichtlading wordt verzonden naar het mobiele apparaat.
 1. Klik op **[!UICONTROL Finish]** en vervolgens op **[!UICONTROL Save]**.
 
-Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te passen. Deze opties zijn gedetailleerd [hier](#fcm-apps).
+   Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te passen. Deze opties zijn gedetailleerd [hier](#fcm-apps).
 
-| Berichttype | Configureerbaar berichtelement (FCM-ladenaam) | Configureerbare opties (FCM-ladenaam) |
-|:-:|:-:|:-:|
-| gegevensbericht | N.v.t. | validate_only |
-| meldingsbericht | title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+   | Berichttype | Configureerbaar berichtelement (FCM-ladenaam) | Configureerbare opties (FCM-ladenaam) |
+   |:-:|:-:|:-:|
+   | gegevensbericht | N.v.t. | validate_only |
+   | meldingsbericht | title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+
+1. Zodra de overgang HTTP v1 wordt gedaan, moet u uw bijwerken **leveringssjablonen** voor Android-pushberichten om het aantal batchberichten te verhogen. Hiervoor bladert u naar de eigenschappen van uw Android-leveringssjabloon en gaat u naar de **Aflevering** tabblad, stelt u de **Aantal per berichtbatch** tot **256**. Pas deze wijziging toe op alle Android-leveringssjablonen die worden gebruikt voor uw Android-leveringen en op al uw bestaande Android-leveringen.
 
 
 >[!NOTE]
@@ -107,7 +109,6 @@ U kunt:
 * Stel de **[!UICONTROL Visibility]** niveau van uw kennisgeving aan publiek, privé of geheim.
 
 Voor meer informatie over de **[!UICONTROL HTTP v1 additional options]** en hoe u deze velden kunt vullen, raadpleegt u [FCM-documentatie](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-
 
 
 
