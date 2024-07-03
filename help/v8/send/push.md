@@ -5,35 +5,39 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 48aba38f3dc8bb322e6d0b38c1b743e980671cd7
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 3%
+source-wordcount: '968'
+ht-degree: 4%
 
 ---
 
 # Pushmeldingen maken en verzenden{#push-notifications-create}
 
-Met de levering van mobiele apps kunt u meldingen verzenden naar iOS en Android-apparaten.
+Met de levering van mobiele apps kunt u meldingen verzenden naar iOS- en Android-apparaten.
 
-Voordat u pushberichten met Adobe Campaign gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en voor tags in Adobe Experience Platform. [Meer informatie over de pushconfiguratie.](push-settings.md)
+Voordat u pushberichten met Adobe Campaign gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en voor tags in Adobe Experience Platform. [Meer informatie over de pushconfiguratie.](push-settings.md).
 
 >[!CAUTION]
 >
->Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet de configuratie van uw abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen. U kunt al controleren en actie ondernemen. [Meer informatie](../../technotes/upgrades/push-technote.md).
+>Enkele belangrijke wijzigingen in de Android Firebase Cloud Messaging (FCM)-service worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. De configuratie van uw lidmaatschapsservices voor Android-pushberichten moet mogelijk worden bijgewerkt om deze wijziging te ondersteunen. U kunt al controleren en actie ondernemen. [Meer informatie](../../technotes/upgrades/push-technote.md).
 
 
-## Uw eerste pushmelding maken{#push-create}
+## Uw eerste pushmelding maken {#push-create}
 
-In deze sectie worden de elementen beschreven die specifiek zijn voor de levering van iOS- en Android-berichten.
+In deze sectie worden de specifieke elementen voor de levering van iOS- en Android-berichten beschreven.
 
 >[!IMPORTANT]
 >
 >In de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), mobiele registratie is nu **asynchroon**. [Meer informatie](../architecture/staging.md)
 
+
 Blader naar de **[!UICONTROL Campaigns]** tabblad, klikt u op **[!UICONTROL Deliveries]** en klik op de knop **[!UICONTROL Create]** boven de lijst met bestaande leveringen.
 
 ![](assets/delivery_step_1.png)
+
+
+Adobe Campaign wordt standaard geleverd met twee leveringssjablonen: een voor iOS en een voor Android. U kunt deze dupliceren om uw eigen instellingen te definiëren. De stappen om een duplevering te vormen die op deze malplaatjes wordt gebaseerd zijn hieronder gedetailleerd.
 
 >[!BEGINTABS]
 
@@ -127,17 +131,22 @@ Voer de volgende stappen uit om berichten op iOS-apparaten te verzenden:
 
 >[!TAB Android]
 
-Voer de volgende stappen uit om meldingen te verzenden op Android-apparaten:
+Voer de volgende stappen uit om berichten op Android-apparaten te verzenden:
 
 1. Selecteer de **[!UICONTROL Deliver on Android (android)]** leveringssjabloon.
 
    ![](assets/push-template-android.png)
 
+   >[!NOTE]
+   > 
+   >Met de nieuwste FCM API&#39;s (HTTP v1) moet u uw **leveringssjablonen** voor Android-pushberichten om het aantal batchberichten te verhogen. Hiervoor bladert u naar de eigenschappen van uw Android-leveringssjabloon en gaat u naar de **Aflevering** tabblad, stelt u de [Aantal per berichtbatch](../../v8/send/configure-and-send.md#delivery-batch-quantity) tot **256**. Pas deze wijziging toe op alle leveringssjablonen die worden gebruikt voor uw Android-leveringen en op al uw bestaande Android-leveringen.
+
+
 1. Als u het doel van het bericht wilt definiëren, klikt u op de knop **[!UICONTROL To]** koppeling en klik vervolgens op **[!UICONTROL Add]**.
 
    ![](assets/push-android-select-target.png)
 
-1. Selecteren **[!UICONTROL Subscribers of an Android mobile application]** Kies de service die relevant is voor uw mobiele toepassing (in dit geval Neotrips) en selecteer vervolgens de Android-versie van de toepassing.
+1. Selecteren **[!UICONTROL Subscribers of an Android mobile application]** kiest u de service die relevant is voor uw mobiele toepassing (in dit geval Neotrips) en selecteert u vervolgens de Android-versie van de toepassing.
 
    ![](assets/push-android-subscribers.png)
 
@@ -155,7 +164,8 @@ Voer de volgende stappen uit om meldingen te verzenden op Android-apparaten:
 
 >[!ENDTABS]
 
-## Uw pushmeldingen testen, verzenden en controleren
+
+## Uw pushmeldingen testen, verzenden en controleren {#push-test}
 
 Om een bewijs te verzenden en de uiteindelijke levering te verzenden, gebruikt u hetzelfde proces als voor andere leveringen.
 
