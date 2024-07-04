@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
+source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '615'
 ht-degree: 16%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 16%
    + [Sms](send/sms.md)
    + Pushmeldingen {#push}
       + [Pushmeldingen maken en verzenden](send/push.md)
-      + [Een uitgebreide pushaanbieding voor Android ontwerpen](send/rich-push.md)
+      + [Ontwerpen als een rijke push-service voor Android](send/rich-push.md)
       + [Pushmeldingskanaal configureren](send/push-settings.md)
       + [Pushmeldingen configureren met gegevensverzameling](send/push-data-collection.md)
    + [REGELS](send/line.md)
@@ -99,6 +99,8 @@ ht-degree: 16%
    + [Lidmaatschappen beheren](start/subscriptions.md)
 + Inhoud beheren {#content}
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
++ Automatisering en workflows {#automation}
+   + [Handleiding Campagne Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
 + Privacy- en beveiligingsbeheer {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
    + [Beveiligingsrichtlijnen](config/security.md)
@@ -203,7 +205,6 @@ ht-degree: 16%
       + [Invoerformulieren](dev/forms.md)
    + [Werken met gegevenspakketten](dev/packages.md)
    + [Campagne-API&#39;s](dev/api.md)
-+ [Configuratiescherm >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
-+ [Handleiding Campagne Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
++ [Campagne-technologie >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
 + [Campagne voor de documentatie van de webgebruikersinterface >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 
