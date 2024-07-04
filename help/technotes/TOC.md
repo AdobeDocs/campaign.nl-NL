@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign-technieken
 description: Campagne-technieken
 breadcrumb-title: Campagne-technologie
-source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+source-git-commit: 29665df166a12a4928c6e356e1ff1a3bb47e30e5
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 27%
+source-wordcount: '64'
+ht-degree: 21%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 27%
 
 + [Campagne-technologie](technotes-home.md)
 + Upgrades{#tn-new}
+   + [Wijzigingen in kanaal voor pushmelding](upgrades/push-technote.md)
    + [Gebruikers migreren naar IMS](upgrades/migrate-users-to-ims.md)
    + [Technische operatoren migreren naar Developer Console](upgrades/ims-migration.md)
    + [Technisch bedrijf migreren naar Developer Console](upgrades/ims-migration-old.md)
@@ -26,5 +27,4 @@ ht-degree: 27%
    + [Internetbrowsers](upgrades/browsers.md)
    + [2023 systeemupgrades](upgrades/tech-stack-upgrade.md)
    + [32-bits versie van clientconsole](upgrades/console.md)
-   + [Wijzigingen in kanaal voor pushmelding](upgrades/push-technote.md)
-+ [Campaign-configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
++ [&lt; Terug naar de documentatie bij Campagne v8](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
