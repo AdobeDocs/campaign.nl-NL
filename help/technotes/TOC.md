@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign-technieken
 description: Campagne-technieken
 breadcrumb-title: Campagne-technologie
-source-git-commit: 29665df166a12a4928c6e356e1ff1a3bb47e30e5
+source-git-commit: c5e804db7deaa6b9511858d088eb6da5d16e8abf
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 21%
    + [Internetbrowsers](upgrades/browsers.md)
    + [2023 systeemupgrades](upgrades/tech-stack-upgrade.md)
    + [32-bits versie van clientconsole](upgrades/console.md)
-+ [&lt; Terug naar de documentatie bij Campagne v8](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
++ [&lt; Terug naar de documentatie bij Campagne v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

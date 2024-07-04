@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Handleiding Campagne Automation Guide
 user-guide-description: Handleiding Campagne Automation Guide
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: c5e804db7deaa6b9511858d088eb6da5d16e8abf
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 80%
+source-wordcount: '444'
+ht-degree: 79%
 
 ---
 
@@ -165,4 +165,4 @@ ht-degree: 80%
    + [Campagnes openen](distributed-marketing/accessing-campaigns.md)
    + [Een campagne bijhouden](distributed-marketing/tracking-a-campaign.md)
    + [Gebruiksscenario’s](distributed-marketing/examples.md)
-+ [Campagne v8 Documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl)
++ [&lt; Terug naar de documentatie bij Campagne v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
