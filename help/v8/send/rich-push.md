@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Een uitgebreide pushmelding ontwerpen
-description: Leer hoe u een uitgebreide pushmelding voor Android ontwerpt met Adobe Campaign Web
+description: Leer hoe u een uitgebreide pushmelding van Android ontwerpt met Adobe Campaign Web
 feature: Push
 role: User
 level: Beginner
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
+source-git-commit: 5236cc94e78db11b8975ad84c49594b282fdecf3
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1157'
 ht-degree: 1%
 
 ---
 
-# Een uitgebreide pushaanbieding voor Android ontwerpen {#rich-push}
+# Ontwerpen als een rijke push-service voor Android {#rich-push}
 
 >[!AVAILABILITY]
 >
@@ -21,11 +21,15 @@ ht-degree: 1%
 
 Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
-* De **[!UICONTROL Data message]** wordt afgehandeld door de clienttoepassing. Deze berichten worden rechtstreeks verzonden naar de mobiele toepassing die een Android-melding genereert en weergeeft op het apparaat. Gegevensberichten bevatten alleen aangepaste toepassingsvariabelen.
+* De **[!UICONTROL Data message]** wordt afgehandeld door de clienttoepassing. Deze berichten worden rechtstreeks verzonden naar de mobiele toepassing, die een Android-melding op het apparaat genereert en weergeeft. Gegevensberichten bevatten alleen aangepaste toepassingsvariabelen.
 
 * De **[!UICONTROL Notification message]**, automatisch afgehandeld door de FCM SDK. FCM geeft automatisch het bericht weer op de apparaten van uw gebruikers namens de client-app. Meldingsberichten bevatten een vooraf gedefinieerde set parameters en opties, maar kunnen nog steeds verder worden aangepast met aangepaste toepassingsvariabelen.
 
 ## De inhoud van het bericht definiëren {#push-message}
+
+>[!IMPORTANT]
+>
+>Alvorens een Rich Push Bericht te ontwerpen, moet u eerst uw schakelaar vormen. Zie [deze pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) voor de nadere regeling.
 
 Nadat u de pushservice hebt gemaakt, kunt u de inhoud ervan definiëren. Er zijn drie sjablonen beschikbaar:
 
@@ -92,7 +96,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s maken het mogelijk rechtstreeks verbinding te maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Raadpleeg voor meer informatie over het afhandelen van Android App-koppelingen het gedeelte [Documentatie voor Android-ontwikkelaars](https://developer.android.com/training/app-links).
+   Raadpleeg voor meer informatie over hoe u Android App-koppelingen kunt gebruiken de volgende bronnen: [Android Developers-documentatie](https://developer.android.com/training/app-links).
 
    ![](assets/rich_push_basic_3.png)
 
