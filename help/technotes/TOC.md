@@ -17,7 +17,7 @@ ht-degree: 19%
 
 + [Campagne-technologie](technotes-home.md)
 + Upgrades {#tn-new}
-   + {de veranderingen van het Kanaal van het Bericht van de duw ](upgrades/push-technote.md)[
+   + [&lbrace;de veranderingen van het Kanaal van het Bericht van de duw ](upgrades/push-technote.md)
    + [Gebruikers migreren naar IMS](upgrades/migrate-users-to-ims.md)
    + [Technische operatoren migreren naar Developer Console](upgrades/ims-migration.md)
    + [Technisch bedrijf migreren naar Developer Console](upgrades/ims-migration-old.md)
