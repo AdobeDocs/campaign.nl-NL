@@ -5,9 +5,9 @@ feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: b6f7b8a6652034145602d9949fa196eae929fb95
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Als u marketinggebruikers toegang wilt geven tot gegevensrecords, maar ze geen p
 
 ## Implementatie {#implementation}
 
-Een specifiek attribuut dat op om het even welk element of attribuut kan worden toegepast is toegevoegd aan de schema&#39;s, vult het de bestaande attributen aan **[!UICONTROL visibleIf]**. Dit kenmerk is: **[!UICONTROL accessibleIf]**. Wanneer een XTK-expressie wordt opgenomen die gerelateerd is aan de huidige gebruikerscontext, kan deze gebruikmaken van **[!UICONTROL HasNamedRight]** of **[!UICONTROL $(login)]**, bijvoorbeeld.
+Een specifiek attribuut dat op om het even welk element of attribuut kan worden toegepast is toegevoegd aan de schema&#39;s, vult het bestaande attribuut **[!UICONTROL visibleIf]** aan. Dit kenmerk is: **[!UICONTROL accessibleIf]** . Als een XTK-expressie wordt opgenomen die gerelateerd is aan de huidige gebruikerscontext, kan deze bijvoorbeeld gebruikmaken van **[!UICONTROL HasNamedRight]** of **[!UICONTROL $(login)]** .
 
 U kunt een voorbeeld van een ontvankelijke schemauitbreiding vinden die dit gebruik hieronder toont:
 
@@ -40,7 +40,7 @@ U kunt een voorbeeld van een ontvankelijke schemauitbreiding vinden die dit gebr
 De belangrijkste eigenschappen zijn:
 
 * **[!UICONTROL visibleIf]** : verbergt de velden van de metagegevens, zodat ze niet toegankelijk zijn binnen een schemaweergave, kolomselectie of expressiebouwer. Maar dit verbergt geen gegevens, als de veldnaam handmatig wordt ingevoerd in een expressie, wordt de waarde weergegeven.
-* **[!UICONTROL accessibleIf]** : verbergt de gegevens (vervangt deze door lege waarden) uit de resulterende query. Als visibleIf leeg is, krijgt het dezelfde expressie als **[!UICONTROL accessibleIf]**.
+* **[!UICONTROL accessibleIf]** : verbergt de gegevens (vervangt deze door lege waarden) uit de resulterende query. Als visibleIf leeg is, krijgt het dezelfde expressie als **[!UICONTROL accessibleIf]** .
 
 Hier volgen de gevolgen van het gebruik van dit kenmerk in Campagne:
 
@@ -53,9 +53,13 @@ Hier volgen de gevolgen van het gebruik van dit kenmerk in Campagne:
 * Wanneer de doelpopulatie in een groep (lijst) wordt opgeslagen, zijn de kenmerken van de opgeslagen velden gelijk aan de gegevensbron.
 * Gegevens zijn standaard niet toegankelijk voor JS-code.
 
+>[!IMPORTANT]
+>
+>Het gebruiken van **accessibleIf** attributen op kritieke parameters (zoals die in samengestelde sleutels) kan in fouten voor gebruikers resulteren die niet worden toegestaan om de gegevens te lezen toe te schrijven aan verborgen gegevens. Dit kan tot vraagmislukkingen of onverwacht gedrag leiden. Ervoor zorgen dat essentiële parameters toegankelijk zijn om verstoringen te voorkomen.
+
 ## Aanbevelingen {#recommendations}
 
-Bij elke levering worden e-mailadressen gekopieerd naar de **[!UICONTROL broadLog]** en de **[!UICONTROL forecastLog]** tabellen: bijgevolg moeten deze velden ook worden beschermd.
+Bij elke levering worden e-mailadressen naar de tabellen **[!UICONTROL broadLog]** en **[!UICONTROL forecastLog]** gekopieerd. Daarom moeten deze velden ook worden beveiligd.
 
 Hieronder ziet u een voorbeeld van de extensie van een logtabel voor het implementeren van deze extensie:
 
