@@ -3,7 +3,7 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 09b8ced170ff28b24713722e0a82852038053201
+source-git-commit: 65efda7469c5ad35e8d03703951c3d1480b015f4
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 14%
@@ -60,9 +60,6 @@ _Mei 2, 2024_
 
 * **Dynamische Rapportering** - als Campaign Standard gemigreerde gebruiker, kunt u tot Dynamische Rapportering toegang hebben die volledig klantgerichte en real-time rapporten verstrekt om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [ las meer ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html) {target="_blank"}
 
-
-
-
 ### Compatibiliteitsupdates {#comp-8-7-1}
 
 * Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Federated Data Access). Meer informatie vindt u [op deze pagina](compatibility-matrix.md#FederatedDataAccessFDA).
@@ -73,7 +70,6 @@ Omdat de aanmeldingsgegevens van het serviceaccount (JWT) door Adobe worden beë
 
 Als u binnenkomende integratie met Campagne hebt uitgevoerd, moet u uw Technische Rekening zoals die in [ wordt gedetailleerd deze documentatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/) migreren {target="_blank"}. De bestaande geloofsbrieven van de Rekening van de Dienst (JWT) zullen blijven werken tot **27 Januari, 2025**.
 
-
 ### Algemene verbeteringen {#improvements-8-7-1}
 
 * Diverse schema&#39;s zijn veranderd van 32 in 64 beetjes. Dit geldt alleen voor klanten die vanuit Campaign Standard migreren. [ las meer ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html) {target="_blank"}
@@ -81,7 +77,6 @@ Als u binnenkomende integratie met Campagne hebt uitgevoerd, moet u uw Technisch
 * In Campagnetabellen worden de volgende kenmerken nu standaard ingevuld op de datum en tijd van de server: `lastModified` en `created` . De kenmerkwaarde `createdBy-id` wordt nu standaard met de huidige aanmeldings-id gevuld. Waarden die door gebruikers in API-aanroepen worden opgegeven, worden genegeerd. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 * Om de beveiliging van alle communicatie tussen toepassingen te verbeteren, wordt mTLS nu ondersteund voor externe API-aanroepen.
-
 
 ### Oplossingen {#fixes-8-7-1}
 
