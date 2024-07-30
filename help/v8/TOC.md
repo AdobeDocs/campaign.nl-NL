@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '623'
 ht-degree: 16%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 16%
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campaign Management {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
-   + [Campagne orchestratie >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
+   + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
 + Berichten verzenden{#send}
    + [Aan de slag met berichten](start/create-message.md)
    + E-mails {#emails}
@@ -52,7 +52,9 @@ ht-degree: 16%
    + [Sms](send/sms.md)
    + Pushmeldingen {#push}
       + [Pushmeldingen maken en verzenden](send/push.md)
-      + [Ontwerpen als een rijke push-service voor Android](send/rich-push.md)
+      + Uitgebreide push {#rich-push}
+         + [Ontwerpen als een rijke push-service voor Android](send/rich-push-android.md)
+         + [Ontwerpen als een rijke push-service voor iOS](send/rich-push-ios.md)
       + [Pushmeldingskanaal configureren](send/push-settings.md)
       + [Pushmeldingen configureren met gegevensverzameling](send/push-data-collection.md)
    + [REGELS](send/line.md)
@@ -69,7 +71,7 @@ ht-degree: 16%
    + [Leveringsanalyse](send/delivery-analysis.md)
    + [De levering configureren en verzenden](send/configure-and-send.md)
    + [Tijdoptimalisatie verzenden](send/predictive.md)
-   + Mislukking, stort en quarantaine{#failures}
+   + De mislukkingen, de stuitingen en quarantines {#failures}
       + [Quarantines](send/quarantines.md)
       + [Leveringsfouten](send/delivery-failures.md)
    + [Werken met leveringssjablonen](send/create-templates.md)
@@ -97,10 +99,10 @@ ht-degree: 16%
       + [Publiek delen met oplossingen voor Adobe](start/shared-audiences.md)
    + [Best practices](audiences/audiences-best-practices.md)
    + [Lidmaatschappen beheren](start/subscriptions.md)
-+ Inhoud beheren {#content}
++ Inhoudsbeheer {#content}
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Automatisering en workflows {#automation}
-   + [Handleiding Campagne Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
+   + [ Gids van de Automatisering van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
 + Privacy- en beveiligingsbeheer {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
    + [Beveiligingsrichtlijnen](config/security.md)
@@ -109,7 +111,7 @@ ht-degree: 16%
    + [Aan de slag met realtime interactie](interaction/interaction.md)
    + [Milieu en architectuur](interaction/interaction-architecture.md)
    + [Best practices](interaction/interaction-best-practices.md)
-   + Instellingen definiëren{#interaction-settings}
+   + Instellingen definiëren {#interaction-settings}
       + [Operatoren maken](interaction/interaction-operators.md)
       + [Omgevingen maken](interaction/interaction-env.md)
       + [Vooraf gedefinieerde filters maken](interaction/interaction-predefined-filters.md)
@@ -117,7 +119,7 @@ ht-degree: 16%
    + [Een aanbiedingencatalogus maken](interaction/interaction-offer-catalog.md)
    + [Een aanbieding maken](interaction/interaction-offer.md)
    + [Een voorstel verzenden (uitgaand)](interaction/interaction-send-offers.md)
-   + Een aanbieding presenteren (binnenkomend){#inbound}
+   + Presenteer een aanbieding (binnenkomend) {#inbound}
       + [Context](interaction/interaction-present-offers.md)
       + [Een aanbieding bellen op een webpagina](interaction/interaction-integration.md)
       + [Anonieme interacties beheren](interaction/anonymous-interactions.md)
@@ -126,14 +128,14 @@ ht-degree: 16%
 + Rapportage en analyse {#analytics}
    + [Track &amp; monitor](start/tracking.md)
    + [Audit trail](reporting/audit-trail.md)
-   + Werken met rapporten{#reports}
+   + Werken met rapporten {#reports}
       + [Aan de slag met rapporten](reporting/gs-reporting.md)
-      + Kubussen maken{#cubes}
+      + Kubussen maken {#cubes}
          + [Aan de slag met kubussen](reporting/gs-cubes.md)
          + [Een kubus maken](reporting/cube-indicators.md)
          + [Kubussen gebruiken om rapporten te maken](reporting/cube-tables.md)
          + [Kubussen aanpassen](reporting/customize-cubes.md)
-      + Ingebouwde rapporten{#ac-reports}
+      + Ingebouwde rapporten {#ac-reports}
          + [Lijst met ingebouwde rapporten](reporting/built-in-reports.md)
          + [Algemene rapporten](reporting/global-reports.md)
          + [Leveringsrapporten](reporting/delivery-reports.md)
@@ -142,7 +144,7 @@ ht-degree: 16%
 + Data management {#data}
    + [Aan de slag met workflows](config/workflows.md)
    + [Gegevens importeren](start/import.md)
-   + [Workflowdocumentatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [ Documentatie van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integraties {#connect}
    + [Campagne verbinden met andere oplossingen](connect/integration.md)
    + Campagne + Experience Platform {#ac-aep}
@@ -172,7 +174,7 @@ ht-degree: 16%
       + [Algemene beginselen](architecture/general-architecture.md)
       + [Architectuurmodellen](architecture/architecture.md)
       + [Implementatie van FDA voor campagnes](architecture/fda-deployment.md)
-      + Implementatie in het kader van Enterprise (FFDA) {#ffda}
+      + Implementatie via Enterprise (FFDA) {#ffda}
          + [Wat is Campagne FDA?](architecture/enterprise-deployment.md)
          + [Sleutelbeheer en eenheid](architecture/keys.md)
          + [Nieuwe API&#39;s](architecture/new-apis.md)
@@ -205,6 +207,6 @@ ht-degree: 16%
       + [Invoerformulieren](dev/forms.md)
    + [Werken met gegevenspakketten](dev/packages.md)
    + [Campagne-API&#39;s](dev/api.md)
-+ [Campagne-technologie >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
-+ [Campagne voor de documentatie van de webgebruikersinterface >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
++ [ Campagne technotes > ](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
++ [ de documentatie van het Webgebruikersinterface van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 
