@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 65efda7469c5ad35e8d03703951c3d1480b015f4
+source-git-commit: bd53d04791af91afffe683ca92fa78562640170a
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 14%
+source-wordcount: '931'
+ht-degree: 15%
 
 ---
 
@@ -17,6 +17,33 @@ Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van upda
 Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgevingen upgraden. De cliëntconsole van de campagne **moet aan de zelfde versie** worden bevorderd zoals de servers van de Campagne. Leer hoe te om uw cliëntconsole in [ te bevorderen deze pagina ](../start/connect.md#upgrade-ac-console).
 
 Bovendien als klant, zorg ervoor dat u de recentste gesteunde versies van de systemen gebruikt die in de [ matrijs van de Verenigbaarheid ](compatibility-matrix.md) worden vermeld.
+
+
+
+## Release 8.6.3 {#release-8-6-3}
+
+_woensdag 30 juli 2024_
+
+### Nieuwe functies {#new-8-6-3}
+
+* **Rich Push Bericht** - u kunt rijke dupberichten nu verzenden. Een veeleisende pushmelding is een verbeterde vorm van mobiele meldingen die verder gaat dan eenvoudige tekstberichten door het opnemen van multimedia-elementen, zoals afbeeldingen, interactieve knoppen of andere rijke media-inhoud. Met deze versie is een set sjablonen voor uitgebreide pushmeldingen nu beschikbaar voor uw iOS- en Android-apps. [Meer informatie](../send/rich-push.md).
+
+* Omdat de aanmeldingsgegevens van het serviceaccount (JWT) door Adobe worden beëindigd, zijn vanaf deze versie de uitgaande integraties van Campaign met oplossingen en apps van Adobe nu gebaseerd op de OAuth-server-naar-server-aanmeldingsgegevens. [Meer informatie](release-notes.md#change-8-7-1)
+
+### Algemene verbeteringen {#improvements-8-6-3}
+
+* Om de beveiliging van alle communicatie tussen toepassingen te verbeteren, wordt mTLS nu ondersteund voor externe API-aanroepen.
+
+### Oplossingen {#fixes-8-6-3}
+
+De volgende problemen zijn opgelost in deze release:
+
+NEO-79328, NEO-7843, NEO-77795, NEO-77014, NEO-76958, NEO-76097, NEO-75898, NEO-725 04, NEO-70263, NEO-67620, NEO-63197, NEO-58596, NEO-56832.
+
+<!--
+https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%20AND%20type%20not%20in%20(epic%2C%20test%2C%20sub-task%2C%20Roadmap)%20AND%20resolution%20!%3D%20unresolved%20AND%20%22Fixed%20in%20Build%22%20is%20not%20EMPTY%20and%20type%20in%20(%22customer%20request%22)
+-->
+
 
 ## Release 8.5.3 {#release-8-5-3}
 
