@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 20ca1c162ea35c4d054ddc09da5898349a1ad5d4
+source-git-commit: 695c481596271feef35c630c68d9bc52cbe1b6f8
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Op deze pagina vindt u een beschrijving van de verbeteringen en correcties die z
 
 ## Release 8.7.2 {#release-8-7-2}
 
-_woensdag 30 juli 2024_
+_sep 3, 2024_
 
 >[!AVAILABILITY]
 >
