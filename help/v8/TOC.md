@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
+source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '675'
 ht-degree: 16%
 
 ---
@@ -49,7 +49,23 @@ ht-degree: 16%
       + [Een BCC-adres toevoegen](send/email-bcc.md)
       + [Aanvullende e-mailparameters definiëren](send/email-parameters.md)
       + [E-mails verzenden en controleren](send/send.md)
-   + [Sms](send/sms.md)
+   + Sms {#sms}
+      + [Aan de slag met sms](send/sms/sms.md)
+      + Sms-kanaal configureren{#config-sms}
+         + [ SMPP externe rekeningsmontages ](send/sms/smpp-external-account.md)
+         + [Kenmerken van SMS-kanalen](send/sms/sms-channel.md)
+         + [ Validerend een verbinding SMPP ](send/sms/smpp-connection.md)
+         + [ Standalone instantie ](send/sms/sms-standalone-instance.md)
+         + [ Midden-sourcing infrastructuur ](send/sms/sms-mid-sourcing.md)
+         + [ de schakelaarbeschrijving van SMPP ](send/sms/smpp-connector-delivery.md)
+      + Een SMS-bericht maken {#create-sms}
+         + [ de leveringsmontages van SMS ](send/sms/sms-delivery-settings.md)
+         + [De inhoud definiëren](send/sms/sms-content.md)
+         + [De doelgroep selecteren](send/sms/sms-audience.md)
+      + SMS valideren en verzenden {#validate-sms}
+         + [ verzend de proef van SMS ](send/sms/sms-proofs.md)
+         + [ verzendt naar het publiek ](send/sms/sms-send.md)
+      + [SMS controleren en volgen](send/sms/sms-monitor.md)
    + Pushmeldingen {#push}
       + [Pushmeldingen maken en verzenden](send/push.md)
       + Uitgebreide push {#rich-push}
@@ -67,10 +83,10 @@ ht-degree: 16%
       + [Verpersoonlijkingsblokken gebruiken](send/personalization-blocks.md)
       + [Voorwaarden maken](send/conditions.md)
    + De levering valideren en verzenden {#validate}
-   + [Voorvertoning en proefdrukken](send/preview-and-proof.md)
-   + [Leveringsanalyse](send/delivery-analysis.md)
-   + [De levering configureren en verzenden](send/configure-and-send.md)
-   + [Tijdoptimalisatie verzenden](send/predictive.md)
+      + [Voorvertoning en proefdrukken](send/preview-and-proof.md)
+      + [Leveringsanalyse](send/delivery-analysis.md)
+      + [De levering configureren en verzenden](send/configure-and-send.md)
+      + [Tijdoptimalisatie verzenden](send/predictive.md)
    + De mislukkingen, de stuitingen en quarantines {#failures}
       + [Quarantines](send/quarantines.md)
       + [Leveringsfouten](send/delivery-failures.md)

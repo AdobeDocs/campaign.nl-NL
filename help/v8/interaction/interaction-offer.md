@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 3%
@@ -16,19 +16,19 @@ ht-degree: 3%
 
 Volg onderstaande stappen om een voorstel te maken:
 
-1. Bladeren naar de **[!UICONTROL Campaigns]** en klik op de knop **[!UICONTROL Offers]** koppeling.
+1. Blader naar het tabblad **[!UICONTROL Campaigns]** en klik op de koppeling **[!UICONTROL Offers]** .
 
 1. Klik op de knop **[!UICONTROL Create]**.
 
 1. Wijzig het label en selecteer de categorie waartoe de aanbieding moet behoren.
 
-1. Klikken **[!UICONTROL Save]** om het voorstel te maken.
+1. Klik op **[!UICONTROL Save]** om de aanbieding te maken.
 
    De aanbieding is beschikbaar in het platform en zijn inhoud kan worden gevormd.
 
 ## Geschiktheidsinstellingen
 
-U kunt nu de opdracht **[!UICONTROL Eligibility]** te definiëren tab:
+U kunt nu het tabblad **[!UICONTROL Eligibility]** gebruiken om te definiëren:
 
 * De subsidiabiliteitsperiode van de aanbieding. [Meer informatie](#eligibility-period)
 * Filters op de doelpopulatie van de aanbieding. [Meer informatie](#filters-on-the-target)
@@ -36,7 +36,7 @@ U kunt nu de opdracht **[!UICONTROL Eligibility]** te definiëren tab:
 
 ### verkiesbaarheidsperiode voorstellen{#eligibility-period}
 
-In de **[!UICONTROL Eligibility]** van de aanbieding, de subsidiabiliteitsperiode van de aanbieding bepalen. gebruikt u de vervolgkeuzelijsten om een begin- en einddatum in de kalender te selecteren.
+Definieer op het tabblad **[!UICONTROL Eligibility]** van de aanbieding de periode waarin de aanbieding in aanmerking komt. gebruikt u de vervolgkeuzelijsten om een begin- en einddatum in de kalender te selecteren.
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -44,9 +44,9 @@ Buiten deze periode wordt het voorstel niet geselecteerd. Als u ook de toelating
 
 ### Filters toevoegen aan het doel {#filters-on-the-target}
 
-In de **[!UICONTROL Eligibility]** van de aanbieding, pas filters op het aanbiedingsdoel toe.
+Pas op het tabblad **[!UICONTROL Eligibility]** van de aanbieding filters toe op het doel van de aanbieding.
 
-Om dit te doen, klik **[!UICONTROL Edit query]** en selecteer het filter dat u wilt toepassen.
+Klik hiertoe op de koppeling **[!UICONTROL Edit query]** en selecteer het filter dat u wilt toepassen.
 
 ![](assets/offer_eligibility_create_003.png)
 
@@ -68,7 +68,7 @@ Bijvoorbeeld, kan een aanbieding een gewicht van A voor contacten hebben tussen 
 
 Voer de volgende stappen uit om een dikte in een aanbieding te maken:
 
-1. In de **[!UICONTROL Eligibility]** tabblad van de aanbieding klikt u op **[!UICONTROL Add]**.
+1. Klik in het tabblad **[!UICONTROL Eligibility]** van de aanbieding op **[!UICONTROL Add]** .
 
    ![](assets/offer_weight_create_001.png)
 
@@ -92,7 +92,7 @@ Voer de volgende stappen uit om een dikte in een aanbieding te maken:
 
    ![](assets/offer_weight_create_004.png)
 
-1. Klikken **[!UICONTROL OK]** om het gewicht te verlagen.
+1. Klik op **[!UICONTROL OK]** om de dikte op te slaan.
 
    ![](assets/offer_weight_create_005.png)
 
@@ -104,22 +104,22 @@ Voer de volgende stappen uit om een dikte in een aanbieding te maken:
 
 Zodra de configuratie is voltooid, zal een samenvatting van de subsidiabiliteitsregels beschikbaar zijn op het biederdashboard.
 
-Klik op de knop **[!UICONTROL Schedule and eligibility rules]** koppeling.
+Klik op de koppeling **[!UICONTROL Schedule and eligibility rules]** om deze weer te geven.
 
 ![](assets/offer_eligibility_create_005.png)
 
 ## De inhoud van het voorstel maken {#creating-the-offer-content}
 
-Gebruik de **[!UICONTROL Content]** om de inhoud van de aanbieding te definiëren.
+Gebruik het tabblad **[!UICONTROL Content]** om de inhoud van de aanbieding te definiëren.
 
 ![](assets/offer_content_create_001.png)
 
 1. Definieer de verschillende parameters van de aanbiedingsinhoud.
 
-   * **[!UICONTROL Title]** : Geef de titel op die je in je voorstel wilt weergeven. Waarschuwing: dit verwijst niet naar het label van de aanbieding, dat in het **[!UICONTROL General]** tab.
-   * **[!UICONTROL Destination URL]** : geef de URL van je voorstel op. Het moet beginnen met &quot;http://&quot; of &quot;https://&quot;.
+   * **[!UICONTROL Title]**: Geef de titel op die u wilt maken, en vermeld deze in uw voorstel. Waarschuwing: dit verwijst niet naar het label van de aanbieding, dat is gedefinieerd op het tabblad **[!UICONTROL General]** .
+   * **[!UICONTROL Destination URL]**: geef de URL van je aanbieding op. Het moet beginnen met &quot;http://&quot; of &quot;https://&quot;.
    * **[!UICONTROL Image URL]** : geef een URL of een toegangspad op naar de afbeelding van uw aanbieding.
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : voer de tekst van uw voorstel in op het tabblad dat u wilt gebruiken. Om het volgen te produceren, **[!UICONTROL HTML content]** moet bestaan uit HTML-elementen die in een `<div>` type-element. Het resultaat van bijvoorbeeld een `<table>` Het element op de pagina HTML is als volgt:
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : voer de tekst van uw voorstel in op het tabblad dat u wilt gebruiken. Voor het genereren van reeksspatiëring moet **[!UICONTROL HTML content]** bestaan uit HTML-elementen die kunnen worden ingesloten in een `<div>` -tekstelement. Het resultaat van een `<table>` -element op de pagina HTML is bijvoorbeeld als volgt:
 
    ```
       <div> 
@@ -136,11 +136,11 @@ Gebruik de **[!UICONTROL Content]** om de inhoud van de aanbieding te definiëre
       </div>
    ```
 
-   Leer hoe u de acceptatie-URL definieert in [deze sectie](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
+   Leer hoe te om acceptatie URL in [ te bepalen deze sectie ](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
 
    ![](assets/offer_content_create_002.png)
 
-   Om de vereiste gebieden te vinden aangezien zij tijdens de configuratie van de aanbiedingsruimte werden bepaald, klik **[!UICONTROL Content definitions]** koppeling om de lijst weer te geven. [Meer informatie](interaction-offer-spaces.md)
+   Als u de vereiste velden wilt zoeken zoals deze zijn gedefinieerd tijdens de configuratie van de aanbiedingsruimte, klikt u op de koppeling **[!UICONTROL Content definitions]** om de lijst weer te geven. [Meer informatie](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
@@ -152,7 +152,7 @@ Zodra de aanbiedingsinhoud wordt gevormd, kunt u voorproef de aanbieding zoals h
 
 Dit doet u als volgt:
 
-1. Klik op de knop **[!UICONTROL Preview]** tab.
+1. Klik op de tab **[!UICONTROL Preview]** .
 
    ![](assets/offer_preview_create_001.png)
 
@@ -180,20 +180,20 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 ## Een aanbieding goedkeuren en activeren{#approve-offers}
 
-U kunt het voorstel nu goedkeuren en activeren om het beschikbaar te maken in het dialoogvenster **Live** milieu.
+U kunt de aanbieding nu goedkeuren en activeren om het in het **Levende** milieu ter beschikking te stellen.
 
-Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}.
+Voor meer op dit, verwijs naar [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content) {target="_blank"}.
 
 ## Presentatie van aanbieding beheren{#offer-presentation}
 
-Met Campagne kunt u de stroom van aanbiedingsvoorstellen bepalen aan de hand van presentatieregels. Deze regels, die specifiek zijn voor campagneinteractie, zijn: **typologieregels**. Hiermee kunt u aanbiedingen uitsluiten op basis van de geschiedenis van voorstellen die al aan een ontvanger zijn gedaan. Er wordt naar verwezen in de omgeving.
+Met Campagne kunt u de stroom van aanbiedingsvoorstellen bepalen aan de hand van presentatieregels. Deze regels, die voor de Interactie van de Campagne specifiek zijn, zijn **typologische regels**. Hiermee kunt u aanbiedingen uitsluiten op basis van de geschiedenis van voorstellen die al aan een ontvanger zijn gedaan. Er wordt naar verwezen in de omgeving.
 
-Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers){target="_blank"}.
+Voor meer op dit, verwijs naar [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers) {target="_blank"}.
 
 ## Aanbiedingssimulatie
 
-De **Simulatie** kunt u de distributie testen van aanbiedingen die tot een categorie of een omgeving behoren voordat u uw voorstel naar ontvangers verzendt.
+De **module van de Simulatie** laat u de distributie van aanbiedingen testen die tot een categorie of een milieu behoren alvorens uw voorstel naar ontvangers te verzenden.
 
 Bij de simulatie wordt rekening gehouden met de context en de subsidiabiliteitsregels die eerder op de aanbiedingen van toepassing waren, en met hun presentatieregels. Dit laat u diverse versies van uw aanbiedingsvoorstel testen en verfijnen zonder eigenlijk een aanbieding of over/onder het eisen van een doel te gebruiken, aangezien de simulatie geen effect op de gerichte ontvangers heeft.
 
-Raadpleeg voor meer informatie over simulatie van aanbiedingen de [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html){target="_blank"}.
+Voor meer op de simulatie van de Aanbieding, verwijs naar [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html) {target="_blank"}.

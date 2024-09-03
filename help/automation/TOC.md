@@ -2,7 +2,8 @@
 audience: user
 user-guide-title: Handleiding Campagne Automation Guide
 user-guide-description: Handleiding Campagne Automation Guide
-source-git-commit: c5e804db7deaa6b9511858d088eb6da5d16e8abf
+feature: Overview
+source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 79%
@@ -143,7 +144,7 @@ ht-degree: 79%
    + [Herhalings- en periodieke campagnes](campaigns/recurring-periodic-campaigns.md)
    + [Uw campagnes controleren](campaigns/marketing-campaign-monitoring.md)
    + [Providers, voorraden en budgetten](campaigns/providers-stocks-and-budgets.md)
-+ Campagne optimaliseren (add-on){#campaign-optimization}
++ De optimalisering van de campagne (toe:voegen-aan) {#campaign-optimization}
    + [Aan de slag met campagnetypen](campaign-opt/campaign-typologies.md)
    + [Filterregels](campaign-opt/filtering-rules.md)
    + [Controleregels](campaign-opt/control-rules.md)
@@ -151,7 +152,7 @@ ht-degree: 79%
    + [Consistentieregels](campaign-opt/consistency-rules.md)
    + [Regels toepassen](campaign-opt/apply-rules.md)
    + [Campagnesimulaties](campaign-opt/campaign-simulations.md)
-+ Marketing Resource Management (add-on){#mrm}
++ Marketing Resource Management (add-on) {#mrm}
    + [Aan de slag met beheer van marketingbronnen](mrm/about-marketing-resource-management.md)
    + [Taken maken en beheren](mrm/creating-and-managing-tasks.md)
    + [Kosten beheersen](mrm/controlling-costs.md)
@@ -165,4 +166,4 @@ ht-degree: 79%
    + [Campagnes openen](distributed-marketing/accessing-campaigns.md)
    + [Een campagne bijhouden](distributed-marketing/tracking-a-campaign.md)
    + [Gebruiksscenario’s](distributed-marketing/examples.md)
-+ [&lt; Terug naar de documentatie bij Campagne v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

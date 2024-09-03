@@ -5,10 +5,10 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 36%
+source-wordcount: '942'
+ht-degree: 33%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 36%
 
 Afhankelijk van de aard van uw bedrijf en de rechtsgebieden waaronder het werkt, zijn uw gegevensbewerkingen mogelijk onderworpen aan wettelijke privacyregels. Deze verordeningen geven uw klanten vaak het recht om toegang tot de gegevens te verzoeken u van hen verzamelt, en het recht om de schrapping van die opgeslagen gegevens te verzoeken. Deze verzoeken van klanten om hun persoonlijke gegevens worden bedoeld als &quot;verzoeken van de Privacy&quot;door de documentatie.
 
-De Adobe biedt de Controllers van Gegevens de hulpmiddelen aan om de verzoeken van de Privacy voor gegevens tot stand te brengen en te verwerken die in Campagne worden opgeslagen. Nochtans, is het uw verantwoordelijkheid als Controlemechanisme van Gegevens om de identiteit van het Onderwerp te verifiëren dat het verzoek indient, en te bevestigen dat de gegevens aan het aanvrager zijn teruggekeerd over het Onderwerp van Gegevens zijn. Meer informatie over persoonlijke gegevens en de verschillende entiteiten die gegevens beheren in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#personal-data){target="_blank"}.
+De Adobe biedt de Controllers van Gegevens de hulpmiddelen aan om de verzoeken van de Privacy voor gegevens tot stand te brengen en te verwerken die in Campagne worden opgeslagen. Nochtans, is het uw verantwoordelijkheid als Controlemechanisme van Gegevens om de identiteit van het Onderwerp te verifiëren dat het verzoek indient, en te bevestigen dat de gegevens aan het aanvrager zijn teruggekeerd over het Onderwerp van Gegevens zijn. Leer meer over persoonlijke gegevens en de verschillende entiteiten die gegevens in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#personal-data) {target="_blank"} beheren.
 
 
-Als u het privacyverzoek in Campagne wilt beheren, moet u eerst [een naamruimte definiëren](#namespaces). U kunt vervolgens privacyverzoeken maken en beheren. Voor het uitvoeren van privacyverzoeken gebruikt u de **Privacy Service Adobe** integratie. De verzoeken van de privacy die van de Privacy Service aan alle oplossingen van Adobe Experience Cloud worden geduwd worden automatisch behandeld door Campagne via een specifieke werkschema. [Meer informatie](#create-privacy-request)
+Om het verzoek van de Privacy in Campagne te beheren, moet u eerst [ een namespace ](#namespaces) bepalen. U kunt vervolgens privacyverzoeken maken en beheren. Om privacyverzoeken uit te voeren, gebruik de **Privacy Service van de Adobe** integratie. De verzoeken van de privacy die van de Privacy Service aan alle oplossingen van Adobe Experience Cloud worden geduwd worden automatisch behandeld door Campagne via een specifieke werkschema. [Meer informatie](#create-privacy-request)
 
-Meer informatie over de **Recht op toegang** en de **Recht op vergeten** (aanvraag verwijderen) in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target="_blank"}.
+Leer over het **recht op Toegang** en het **Recht worden vergeten** (schrappingsverzoek) in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten) {target="_blank"}.
 
 <!--
 >[!NOTE]
@@ -30,11 +30,11 @@ Meer informatie over de **Recht op toegang** en de **Recht op vergeten** (aanvra
 
 ## Een naamruimte definiëren {#namespaces}
 
-Voordat u een privacyverzoek maakt, moet u **de naamruimte definiëren** te gebruiken. Namespace is de sleutel die wordt gebruikt om het Onderwerp van Gegevens in het gegevensbestand te identificeren.
+Alvorens een verzoek van de Privacy tot stand te brengen, moet u **namespace** bepalen om te gebruiken. Namespace is de sleutel die wordt gebruikt om het Onderwerp van Gegevens in het gegevensbestand te identificeren.
 
 >[!NOTE]
 >
->Meer informatie over naamruimten vindt u in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl){target="_blank"}.
+>Leer meer over identiteit namespaces in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl) {target="_blank"}.
 
 Adobe Campaign biedt momenteel geen ondersteuning voor het importeren van naamruimten uit de service Naamruimte Experience Platform. Daarom moet u, zodra u een namespace op de dienst van Namespace van de Identiteit hebt gecreeerd, manueel het overeenkomstige namespace in de interface van Adobe Campaign tot stand brengen. Volg de onderstaande stappen om dit te doen.
 
@@ -46,9 +46,9 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 >For optimal performance, it is recommended to use out-of-the-box namespaces.
 -->
 
-1. Maak een naamruimte op het tabblad [Naamruimteservice voor identiteiten](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}.
+1. Creeer een namespace op de [ dienst Namespace van de Identiteit ](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace) {target="_blank"}.
 
-1. Wanneer [naamruimten weergeven](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} beschikbaar voor uw organisatie, krijgt u namespace volgende details, bijvoorbeeld:
+1. Wanneer [ een lijst makend van de identiteit namespaces ](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces) {target="_blank"} beschikbaar voor uw organisatie, krijgt u namespace volgende details, bijvoorbeeld:
 
    ```
    {
@@ -65,7 +65,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
    }
    ```
 
-1. Blader in Adobe Campaign naar **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]** en selecteert u **[!UICONTROL New]**.
+1. Blader in Adobe Campaign naar **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]** en selecteer **[!UICONTROL New]** .
 
    ![](assets/privacy-namespaces-new.png)
 
@@ -73,15 +73,15 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Vul de nieuwe naamruimtedetails in zodat deze overeenkomen met de naamruimte die u hebt gemaakt op de service Naamruimte identiteit:
 
-   * de **[!UICONTROL AEC Namespace ID]** moet overeenkomen met het kenmerk &quot;id&quot;
-   * de **[!UICONTROL Internal name]** moet overeenkomen met het kenmerk &quot;code&quot;
-   * de **[!UICONTROL Reconciliation key]** moet overeenkomen met het kenmerk &quot;idType&quot;
+   * moet **[!UICONTROL AEC Namespace ID]** overeenkomen met het kenmerk &quot;id&quot;
+   * **[!UICONTROL Internal name]** moet overeenkomen met het kenmerk &quot;code&quot;
+   * moet **[!UICONTROL Reconciliation key]** overeenkomen met het kenmerk &quot;idType&quot;
 
    ![](assets/privacy-namespaces-details.png)
 
-   De **[!UICONTROL Reconciliation key]** wordt gebruikt om het gegevensonderwerp in de Adobe Campaign-database te identificeren.
+   Het veld **[!UICONTROL Reconciliation key]** wordt gebruikt om het gegevensonderwerp in de Adobe Campaign-database te identificeren.
 
-1. Doeltoewijzing selecteren <!--(**[!UICONTROL Recipients]**, **[!UICONTROL Real time event]** or **[!UICONTROL Subscriptions]**)--> om op te geven hoe de naamruimte in Adobe Campaign moet worden afgestemd.
+1. Selecteer een doeltoewijzing <!--(**[!UICONTROL Recipients]**, **[!UICONTROL Real time event]** or **[!UICONTROL Subscriptions]**)--> om op te geven hoe de naamruimte in Adobe Campaign moet worden afgestemd.
 
    >[!NOTE]
    >
@@ -93,11 +93,11 @@ U kunt nu verzoeken om toegang tot persoonsgegevens maken op basis van uw nieuwe
 
 ## Een privacyverzoek maken {#create-privacy-request}
 
-De **[!DNL Adobe Experience Platform Privacy Service]** Dankzij de integratie kunt u uw privacyverzoeken automatiseren in een context met meerdere oplossingen via één JSON API-aanroep. Adobe Campaign behandelt automatisch de verzoeken die van de Privacy Service door een specifieke werkstroom worden geduwd.
+Dankzij de integratie van **[!DNL Adobe Experience Platform Privacy Service]** kunt u uw privacyverzoeken automatiseren in een context met meerdere oplossingen via één JSON API-aanroep. Adobe Campaign behandelt automatisch de verzoeken die van de Privacy Service door een specifieke werkstroom worden geduwd.
 
-Zie de [Privacy Service Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target="_blank"} documentatie om te leren hoe te om de verzoeken van de Privacy van de Dienst van de Kern van de Privacy tot stand te brengen.
+Verwijs naar de [ Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) {target="_blank"} documentatie om te leren hoe te om de verzoeken van de Privacy van de Dienst van de Kern van de Privacy tot stand te brengen.
 
-Elk **[!DNL Privacy Service]**  De taak wordt gesplitst in meerdere privacyverzoeken in Adobe Campaign op basis van het aantal naamruimten dat wordt gebruikt, één aanvraag die overeenkomt met één naamruimte.
+Elke **[!DNL Privacy Service]** -taak wordt opgedeeld in meerdere Privacy-aanvragen in Adobe Campaign op basis van het aantal naamruimten dat wordt gebruikt, één aanvraag die overeenkomt met één naamruimte.
 
 Bovendien kan één taak op meerdere instanties worden uitgevoerd. Daarom worden er meerdere bestanden gemaakt voor één taak. Als een verzoek bijvoorbeeld twee naamruimten bevat en op drie instanties wordt uitgevoerd, worden in totaal zes bestanden verzonden. Eén bestand per naamruimte en instantie.
 
@@ -109,7 +109,7 @@ Het patroon voor een bestandsnaam is: `<InstanceName>-<NamespaceId>-<Reconciliat
 
 >[!CAUTION]
 >
->Als u een aanvraag wilt indienen met behulp van het aangepaste naamruimtetype, gebruikt u de optie [JSON-methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=nl#access-delete){target="_blank"} om de aanvraag in te dienen.
+>Om een verzoek voor te leggen gebruikend het type van douane namespace, hefboomwerking de [ methode JSON ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl#json) {target="_blank"} en namespaceId toe te voegen aan het verzoek, of gebruik de [ API vraag ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=nl#access-delete) {target="_blank"} om het verzoek te doen.
 >
 >Gebruik alleen de [Privacy-gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl#request-builder){target="_blank"} om verzoeken in te dienen met het standaard naamruimtetype.
 
@@ -152,10 +152,10 @@ Hieronder vindt u de verschillende statussen voor privacyverzoeken in Adobe Camp
 
 **Verwante onderwerpen in Campaign Classic v7 documentatie:**
 
-* [Privacy en instemming](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}
+* [ Privacy en toestemming ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) {target="_blank"}
 
-* [Aan de slag met het privacybeheer](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=nl){target="_blank"}
+* [ Begonnen het worden met het Beheer van de Privacy ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=nl) {target="_blank"}
 
-* [Regels inzake privacybeheer](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#privacy-management-regulations){target="_blank"} (GDPR, CCPA, PDPA en LGPD)
+* [ Verordeningen op het beheer van de Privacy ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#privacy-management-regulations) {target="_blank"} (GDPR, CCPA, PDPA, en LGPD)
 
-* [Uitschakelen voor de verkoop van persoonlijke gegevens](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html){target="_blank"} (specifiek voor de CCPA)
+* [ Opt-out voor de Verkoop van Persoonlijke Informatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html) {target="_blank"} (specifiek voor CCPA)

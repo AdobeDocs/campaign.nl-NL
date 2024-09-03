@@ -5,7 +5,7 @@ feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: b6f7b8a6652034145602d9949fa196eae929fb95
+source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -39,8 +39,8 @@ U kunt een voorbeeld van een ontvankelijke schemauitbreiding vinden die dit gebr
 
 De belangrijkste eigenschappen zijn:
 
-* **[!UICONTROL visibleIf]** : verbergt de velden van de metagegevens, zodat ze niet toegankelijk zijn binnen een schemaweergave, kolomselectie of expressiebouwer. Maar dit verbergt geen gegevens, als de veldnaam handmatig wordt ingevoerd in een expressie, wordt de waarde weergegeven.
-* **[!UICONTROL accessibleIf]** : verbergt de gegevens (vervangt deze door lege waarden) uit de resulterende query. Als visibleIf leeg is, krijgt het dezelfde expressie als **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL visibleIf]**: verbergt de velden van de metagegevens, zodat ze niet toegankelijk zijn binnen een schemaweergave, kolomselectie of expressiebouwer. Maar dit verbergt geen gegevens, als de veldnaam handmatig wordt ingevoerd in een expressie, wordt de waarde weergegeven.
+* **[!UICONTROL accessibleIf]**: verbergt de gegevens (vervangt deze door lege waarden) uit de resulterende query. Als visibleIf leeg is, krijgt het dezelfde expressie als **[!UICONTROL accessibleIf]** .
 
 Hier volgen de gevolgen van het gebruik van dit kenmerk in Campagne:
 

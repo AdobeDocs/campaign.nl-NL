@@ -5,7 +5,7 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -20,14 +20,14 @@ De analyse is de voorbereidende fase van de levering. Deze kan worden gestart zo
 
 Als u de levering wilt voorbereiden, moet u controleren of de inhoud en het doel van de levering zijn gedefinieerd en onderstaande stappen volgen:
 
-1. Klik in de leveringsvensters op de knop **[!UICONTROL Send]** knop.
-1. Selecteren **[!UICONTROL Deliver as soon as possible]** om de publieksberekening, en inhoudsvoorbereiding voor een directe verzending uit te voeren. U kunt de levering ook uitstellen tot een latere datum, of een schatting van de bevolking krijgen zonder de inhoud voor te bereiden.
+1. Klik in de leveringsvensters op de knop **[!UICONTROL Send]** .
+1. Selecteer **[!UICONTROL Deliver as soon as possible]** om de publieksberekening en de inhoudsvoorbereiding voor direct verzenden uit te voeren. U kunt de levering ook uitstellen tot een latere datum, of een schatting van de bevolking krijgen zonder de inhoud voor te bereiden.
 
    ![](assets/delivery-analysis-start.png)
 
-1. Klikken **[!UICONTROL Analyze]** om de analyse handmatig te starten. Op de voortgangsbalk ziet u de voortgang van de analyse.
+1. Klik op **[!UICONTROL Analyze]** om de analyse handmatig te starten. Op de voortgangsbalk ziet u de voortgang van de analyse.
 
-   Tijdens de leveringsanalyse worden een aantal controleregels toegepast. Deze regels worden gedefinieerd in een **typologie**, die wordt geselecteerd in het dialoogvenster **[!UICONTROL Typology]** in de leveringseigenschappen. Meer informatie over typologieën vindt u in [deze sectie](../../automation/campaign-opt/campaign-typologies.md).
+   Tijdens de leveringsanalyse worden een aantal controleregels toegepast. Deze regels worden bepaald in a **typologie**, die in het **[!UICONTROL Typology]** lusje in de leveringseigenschappen wordt geselecteerd. Leer meer over typologieën in [ deze sectie ](../../automation/campaign-opt/campaign-typologies.md).
 
    Voor e-mails worden standaard de volgende punten in de analyse behandeld:
 
@@ -40,7 +40,7 @@ Als u de levering wilt voorbereiden, moet u controleren of de inhoud en het doel
    * De planning van golven controleren
 
 
-1. U kunt de analyse op elk gewenst moment stoppen door op de knop **[!UICONTROL Stop]** knop.
+1. U kunt de analyse op elk gewenst moment stoppen door op de knop **[!UICONTROL Stop]** te klikken.
 
    Tijdens de voorbereidingsfase worden geen berichten verzonden. U kunt de analyse daarom zonder risico starten of annuleren.
 
@@ -56,37 +56,38 @@ Als u de levering wilt voorbereiden, moet u controleren of de inhoud en het doel
 
    ![](assets/delivery-analysis-results.png){width="800" align="left"}
 
-1. Klikken **[!UICONTROL Close]** om eventuele fouten te corrigeren. Nadat u de wijzigingen hebt aangebracht, opent u de analyse opnieuw en klikt u op **[!UICONTROL Analyze]**.
+1. Klik op **[!UICONTROL Close]** om de eventuele fouten te corrigeren. Nadat u de wijzigingen hebt aangebracht, klikt u opnieuw op de analyse **[!UICONTROL Analyze]** .
 
    >[!NOTE]
    >
-   >Klik op de knop **[!UICONTROL Change the main delivery target]** verbinding als het aantal te verzenden berichten niet uw verwachtingen aanpast. Met deze optie kunt u de definitie van de doelpopulatie wijzigen en de analyse opnieuw starten.
+   >Klik op de koppeling **[!UICONTROL Change the main delivery target]** als het aantal berichten dat u wilt verzenden niet overeenkomt met uw verwachtingen. Met deze optie kunt u de definitie van de doelpopulatie wijzigen en de analyse opnieuw starten.
+   >
 
-1. Na controle van het resultaat van de analyse klikt u op **[!UICONTROL Confirm delivery]** om het bericht naar het hoofddoel te verzenden.
+1. Nadat u het resultaat van de analyse hebt gecontroleerd, klikt u op **[!UICONTROL Confirm delivery]** om het bericht naar het hoofddoel te verzenden.
 
 
 ## Analyse-instellingen {#analysis-settings}
 
-Bladeren naar de **[!UICONTROL Analysis]** tabblad van de leveringseigenschappen om instellingen voor de berichtvoorbereiding tijdens de analysefase te definiëren.
+Blader naar het tabblad **[!UICONTROL Analysis]** van de leveringseigenschappen om instellingen voor de berichtvoorbereiding tijdens de analysefase te definiëren.
 
 ![](assets/delivery-properties-analysis-tab.png){width="800" align="left"}
 
 Op dit tabblad hebt u toegang tot de volgende opties:
 
-* **[!UICONTROL Label and code of the delivery]** : de opties in deze sectie worden gebruikt om de waarden van deze velden tijdens de fase van de leveringsanalyse te berekenen. De **[!UICONTROL Compute the execution folder during the delivery analysis]** in het veld wordt de naam berekend van de map die deze leveringsactie tijdens de analysefase zal bevatten.
+* **[!UICONTROL Label and code of the delivery]**: de opties in deze sectie worden gebruikt om de waarden van deze gebieden tijdens de fase van de leveringsanalyse te berekenen. In het veld **[!UICONTROL Compute the execution folder during the delivery analysis]** wordt de naam berekend van de map die deze leveringsactie tijdens de analysefase zal bevatten.
 
-* **[!UICONTROL Approval mode]** : in dit veld kunt u handmatig of automatisch afleveren definiëren wanneer de analyse is voltooid.
+* **[!UICONTROL Approval mode]**: in dit veld kunt u handmatig of automatisch afleveren definiëren wanneer de analyse is voltooid.
 
-   Als tijdens de analyse waarschuwingen worden gegenereerd (bijvoorbeeld als bepaalde tekens worden geaccentueerd in het onderwerp van de levering, enz.), kunt u de levering zodanig configureren dat wordt bepaald of deze nog moet worden uitgevoerd. Door gebrek, moet de gebruiker het verzenden van berichten aan het eind van de analysefase bevestigen: is **handmatig** validatie.
+  Als tijdens de analyse waarschuwingen worden gegenereerd (bijvoorbeeld als bepaalde tekens worden geaccentueerd in het onderwerp van de levering, enz.), kunt u de levering zodanig configureren dat wordt bepaald of deze nog moet worden uitgevoerd. Door gebrek, moet de gebruiker het verzenden van berichten aan het eind van de analysefase bevestigen: dit is **handmatige** bevestiging.
 
-   Selecteer een andere goedkeuringsmodus in de vervolgkeuzelijst in het desbetreffende veld.
+  Selecteer een andere goedkeuringsmodus in de vervolgkeuzelijst in het desbetreffende veld.
 
-   De volgende goedkeuringsmodi zijn beschikbaar:
+  De volgende goedkeuringsmodi zijn beschikbaar:
 
-   * **[!UICONTROL Manual]**: Aan het einde van de analysefase moet de gebruiker de levering bevestigen om te beginnen met het verzenden. Om dit te doen, klik **[!UICONTROL Start]** om de levering te starten.
-   * **[!UICONTROL Semi-automatic]**: Het verzenden begint automatisch als de analysefase geen waarschuwingsberichten produceert.
-   * **[!UICONTROL Automatic]**: De verzending begint automatisch aan het einde van de analysefase, ongeacht het resultaat ervan.
+   * **[!UICONTROL Manual]**: Aan het einde van de analysefase moet de gebruiker de levering bevestigen om te beginnen met verzenden. Klik hiertoe op de knop **[!UICONTROL Start]** om de levering te starten.
+   * **[!UICONTROL Semi-automatic]**: het verzenden begint automatisch als de analysefase geen waarschuwingsberichten genereert.
+   * **[!UICONTROL Automatic]**: het verzenden begint automatisch aan het einde van de analysefase, ongeacht het resultaat.
 
-* **[!UICONTROL Start job in a detached process]** : met deze optie kunt u de leveringsanalyse in een afzonderlijk proces starten. De analysefunctie gebruikt standaard het Adobe Campaign-toepassingsserverproces (webserver). Als u deze optie selecteert, zorgt u ervoor dat de analyse ook wordt voltooid wanneer de toepassingsserver uitvalt.
-* **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : deze optie voegt de SQL vraaglogboeken aan het leveringsdagboek tijdens de analysefase toe.
-* **[!UICONTROL Ignore personalization scripts during sending]** : Met deze optie kunt u de interpretatie van JavaScript-instructies in HTML-inhoud omzeilen. Ze worden op dezelfde manier weergegeven als in de geleverde inhoud. Deze richtlijnen worden in het kader van de `<%=` tag.
+* **[!UICONTROL Start job in a detached process]** : met deze optie kunt u de afleveringsanalyse in een afzonderlijk proces starten. De analysefunctie gebruikt standaard het Adobe Campaign-toepassingsserverproces (webserver). Als u deze optie selecteert, zorgt u ervoor dat de analyse ook wordt voltooid wanneer de toepassingsserver uitvalt.
+* **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: deze optie voegt de SQL vraaglogboeken aan het leveringsdagboek tijdens de analysefase toe.
+* **[!UICONTROL Ignore personalization scripts during sending]** : hiermee kunt u de interpretatie van JavaScript-instructies in HTML-inhoud omzeilen. Ze worden op dezelfde manier weergegeven als in de geleverde inhoud. Deze instructies worden geïntroduceerd met de tag `<%=` .
