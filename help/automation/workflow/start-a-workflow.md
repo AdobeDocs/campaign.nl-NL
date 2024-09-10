@@ -6,22 +6,22 @@ feature: Workflows
 level: Beginner
 role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
+source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
 
 # Een workflow starten, pauzeren, stoppen {#starting-a-workflow}
 
-Een workflow wordt altijd handmatig gestart. Wanneer begonnen, kan het echter inactief afhankelijk van de informatie blijven die via een planner wordt gespecificeerd (zie [Planner](scheduler.md)) of activiteiten plannen.
+Een workflow wordt altijd handmatig gestart. Wanneer begonnen, kan het echter inactief afhankelijk van de informatie blijven die via een planner wordt gespecificeerd (zie [ Planner ](scheduler.md)) of activiteit die plannen.
 
-Acties die betrekking hebben op het uitvoeren van de workflow (starten, stoppen, pauzeren, enz.) zijn **asynchroon** processen: de volgorde wordt vastgelegd en wordt van kracht zodra de server beschikbaar is om deze toe te passen.
+Acties die betrekking hebben op het uitvoeren van de workflow (starten, stoppen, pauzeren, enz.) zijn **asynchrone** processen: de orde wordt geregistreerd en zal van kracht zijn zodra de server beschikbaar is om het toe te passen.
 
 Met de werkbalk kunt u de uitvoering van de workflow starten en volgen.
 
-De lijst met opties in het dialoogvenster **[!UICONTROL Actions]** en het contextmenu worden hieronder beschreven.
+De lijst met opties in het menu **[!UICONTROL Actions]** en in het menu Klikken met de rechtermuisknop vindt u hieronder in detail.
 
 >[!IMPORTANT]
 >
@@ -29,23 +29,23 @@ De lijst met opties in het dialoogvenster **[!UICONTROL Actions]** en het contex
 
 ## Werkbalk Handelingen {#actions-toolbar}
 
-De **[!UICONTROL Actions]** op de werkbalk hebt u toegang tot aanvullende uitvoeropties voor geselecteerde workflows. U kunt ook de opdracht **[!UICONTROL File > Actions]** of klikt u met de rechtermuisknop op een workflow en selecteert u **[!UICONTROL Actions]**.
+Met de knop **[!UICONTROL Actions]** van de werkbalk hebt u toegang tot extra opties voor het uitvoeren van geselecteerde workflows. U kunt ook het menu **[!UICONTROL File > Actions]** gebruiken of met de rechtermuisknop op een workflow klikken en **[!UICONTROL Actions]** selecteren.
 
 ![](assets/purge_historique.png)
 
 * **[!UICONTROL Start]**
 
-  Met deze handeling kunt u de uitvoering van een workflow starten: een workflow die **Voltooid**, **Wordt bewerkt** of **Gepauzeerd** wijzigt status in **Gestart**. De workflow-engine handelt vervolgens de uitvoering van deze workflow af. Als de werkstroom is gepauzeerd, wordt deze hervat, anders wordt de werkstroom van het begin gestart en worden de initiële activiteiten geactiveerd.
+  Deze actie laat u de uitvoering van een werkschema beginnen: een werkschema dat **** wordt geëindigd, **wordt uitgegeven** of **Gepauzeerde** verandert status in **Begonnen**. De workflow-engine handelt vervolgens de uitvoering van deze workflow af. Als de werkstroom is gepauzeerd, wordt deze hervat, anders wordt de werkstroom van het begin gestart en worden de initiële activiteiten geactiveerd.
 
   Starten is een asynchroon proces: de aanvraag wordt opgeslagen en zo snel mogelijk verwerkt door een workflowserver.
 
 * **[!UICONTROL Pause]**
 
-  Met deze handeling wordt de status van de workflow ingesteld op **Gepauzeerd**. Er worden geen activiteiten geactiveerd totdat de werkstroom wordt hervat; de lopende bewerkingen worden echter niet gepauzeerd.
+  Deze actie plaatst het statuut van het werkschema aan **Gepauzeerde**. Er worden geen activiteiten geactiveerd totdat de werkstroom wordt hervat; de lopende bewerkingen worden echter niet gepauzeerd.
 
 * **[!UICONTROL Stop]**
 
-  Met deze handeling wordt een workflow gestopt die momenteel wordt uitgevoerd. De status van de instantie is ingesteld op **Voltooid**. Bewerkingen die worden uitgevoerd, worden indien mogelijk gestopt. Importeren en SQL-query&#39;s worden onmiddellijk geannuleerd.
+  Met deze handeling wordt een workflow gestopt die momenteel wordt uitgevoerd. Het statuut van de instantie wordt geplaatst aan **Voltooid**. Bewerkingen die worden uitgevoerd, worden indien mogelijk gestopt. Importeren en SQL-query&#39;s worden onmiddellijk geannuleerd.
 
   >[!IMPORTANT]
   >
@@ -53,18 +53,18 @@ De **[!UICONTROL Actions]** op de werkbalk hebt u toegang tot aanvullende uitvoe
 
 * **[!UICONTROL Unconditional stop]**
 
-  Met deze optie wijzigt u de workflowstatus in **[!UICONTROL Finished]**. Deze handeling mag alleen als laatste redmiddel worden gebruikt als het normale stopproces na enkele minuten mislukt. Gebruik de onvoorwaardelijke stop alleen als u zeker weet dat er geen werkstroomtaken worden uitgevoerd.
+  Met deze optie wijzigt u de workflowstatus in **[!UICONTROL Finished]** . Deze handeling mag alleen als laatste redmiddel worden gebruikt als het normale stopproces na enkele minuten mislukt. Gebruik de onvoorwaardelijke stop alleen als u zeker weet dat er geen werkstroomtaken worden uitgevoerd.
 
   >[!CAUTION]
   >
-  >Deze optie is gereserveerd voor professionele gebruikers.
+  >De onvoorwaardelijke stop is beperkt tot Admin gebruikers.
 
 * **[!UICONTROL Restart]**
 
   Deze actie stopt en start de workflow opnieuw. Doorgaans kunt u sneller opnieuw opstarten. Het is ook handig om opnieuw starten te automatiseren wanneer het stoppen enige tijd in beslag neemt. Dit komt omdat de opdracht Stoppen niet beschikbaar is wanneer de workflow wordt gestopt.
 
-  Let erop dat de **Opnieuw starten** handeling wist de variabelen van de werkstroominstantie niet in vergelijking met **Uitvoering**, **Stoppen**, en **Start** handelingen (de instantievariabelen wissen vindt plaats na de handeling Start). Wanneer u een werkstroom opnieuw start, zijn instantievariabelen nog steeds beschikbaar voor gebruik met opgeslagen waarden. U kunt deze wissen door:
-   * Uitvoeren **Stoppen** en **Start** handelingen.
+  Merk op dat het **Begin** actie niet de variabelen van de werkschemainstantie in vergelijking met **Uitvoering** ontruimt, **Einde**, en **Begin** acties (de instantievariabelen die op actie van het Begin) ontruimen. Wanneer u een werkstroom opnieuw start, zijn instantievariabelen nog steeds beschikbaar voor gebruik met opgeslagen waarden. U kunt deze wissen door:
+   * Voer **Stoppen** en **3} acties van het Begin uit**.
    * Voeg onder javascript-code toe aan het einde van de workflowuitvoering:
 
      ```
@@ -75,41 +75,41 @@ De **[!UICONTROL Actions]** op de werkbalk hebt u toegang tot aanvullende uitvoe
 
 * **[!UICONTROL Purge history]**
 
-  Met deze handeling kunt u de historie van de workflow wissen. Raadpleeg voor meer informatie hierover [De logbestanden leegmaken](monitor-workflow-execution.md#purging-the-logs).
+  Met deze handeling kunt u de historie van de workflow wissen. Voor meer op dit, verwijs naar [ het Schrappen van de logboeken ](monitor-workflow-execution.md#purging-the-logs).
 
 * **[!UICONTROL Start in simulation mode]**
 
-  Met deze optie kunt u de workflow starten in de simulatiemodus in plaats van in de echte modus. Dit betekent dat wanneer u deze modus inschakelt, alleen activiteiten worden uitgevoerd die geen invloed hebben op de database of het bestandssysteem (bijvoorbeeld **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, enz.). Activiteiten die wel van invloed zijn (bv. **[!UICONTROL Export]**, **[!UICONTROL Import]**, enz.) en de volgende opdrachten (in dezelfde vertakking) niet worden uitgevoerd.
+  Met deze optie kunt u de workflow starten in de simulatiemodus in plaats van in de echte modus. Dit betekent dat wanneer u deze modus inschakelt, alleen activiteiten worden uitgevoerd die geen invloed hebben op de database of het bestandssysteem (bijvoorbeeld **[!UICONTROL Query]** , **[!UICONTROL Union]** , **[!UICONTROL Intersection]** , enz.). Activiteiten die wel van invloed zijn (bijvoorbeeld **[!UICONTROL Export]** , **[!UICONTROL Import]** , enz.) en de volgende opdrachten (in dezelfde vertakking) niet worden uitgevoerd.
 
 * **[!UICONTROL Execute pending tasks now]**
 
-  Met deze handeling kunt u alle lopende taken zo snel mogelijk starten. Als u een specifieke taak wilt starten, klikt u met de rechtermuisknop op de desbetreffende activiteit en selecteert u **[!UICONTROL Execute pending task(s) now]**.
+  Met deze handeling kunt u alle lopende taken zo snel mogelijk starten. Als u een specifieke taak wilt starten, klikt u met de rechtermuisknop op de desbetreffende activiteit en selecteert u **[!UICONTROL Execute pending task(s) now]** .
 
 
 * **[!UICONTROL Save as template]**
 
-  Met deze actie maakt u een nieuw werkstroomsjabloon op basis van de geselecteerde workflow. U moet de map opgeven waarin deze wordt opgeslagen (in het dialoogvenster **[!UICONTROL Folder]** veld).
+  Met deze actie maakt u een nieuw werkstroomsjabloon op basis van de geselecteerde workflow. U moet de map opgeven waarin deze wordt opgeslagen (in het veld **[!UICONTROL Folder]** ).
 
 
 ## Best practices voor workflowuitvoering {#workflow-execution-best-practices}
 
 Verbeter de stabiliteit van uw exemplaar door de volgende beste praktijken uit te voeren:
 
-* **Een workflow niet meer dan om de 15 minuten plannen** omdat het algemene systeemprestaties kan belemmeren en blokken in het gegevensbestand kan creëren.
+* **om geen werkschema te plannen om meer dan om de 15 minuten** in werking te stellen omdat het algemene systeemprestaties kan belemmeren en blokken in het gegevensbestand tot stand brengen.
 
-* **Laat uw workflows niet in een pauzestatus staan**. Als u een tijdelijke werkstroom creeert, zorg ervoor het correct zal kunnen voltooien en niet in een **[!UICONTROL paused]** status. Als het wordt gepauzeerd, zou het impliceren dat u de tijdelijke lijsten moet houden en zo de grootte van het gegevensbestand verhogen. Wijs onder Workfloweigenschappen workflowtoezichthouders toe om een waarschuwing te verzenden wanneer een workflow mislukt of wordt gepauzeerd door het systeem.
+* **vermijd het verlaten van uw werkschema&#39;s in een gepauzeerde staat**. Als u een tijdelijke werkstroom creeert, zorg ervoor het correct zal kunnen voltooien en niet in een **[!UICONTROL paused]** staat blijven. Als het wordt gepauzeerd, zou het impliceren dat u de tijdelijke lijsten moet houden en zo de grootte van het gegevensbestand verhogen. Wijs onder Workfloweigenschappen workflowtoezichthouders toe om een waarschuwing te verzenden wanneer een workflow mislukt of wordt gepauzeerd door het systeem.
 
   U voorkomt als volgt dat workflows worden gepauzeerd:
 
    * Controleer uw workflows regelmatig om te controleren of er geen onverwachte fouten zijn.
-   * Houd uw workflows zo eenvoudig mogelijk, bijvoorbeeld door grote workflows te splitsen in verschillende workflows. U kunt **[!UICONTROL External signal]** activiteiten worden uitgevoerd op basis van de uitvoering van andere workflows.
-   * Vermijd het hebben van gehandicapte activiteiten met stromen in uw werkschema&#39;s die draden open verlaten en tot vele tijdelijke lijsten leiden die veel ruimte kunnen verbruiken. Bewaar activiteiten niet in **[!UICONTROL Do not enable]** of **[!UICONTROL Enable but do not execute]** in uw workflows.
+   * Houd uw workflows zo eenvoudig mogelijk, bijvoorbeeld door grote workflows te splitsen in verschillende workflows. U kunt **[!UICONTROL External signal]** -activiteiten gebruiken om de uitvoering ervan te activeren op basis van de uitvoering van andere workflows.
+   * Vermijd het hebben van gehandicapte activiteiten met stromen in uw werkschema&#39;s die draden open verlaten en tot vele tijdelijke lijsten leiden die veel ruimte kunnen verbruiken. Bewaar activiteiten niet in de **[!UICONTROL Do not enable]** - of **[!UICONTROL Enable but do not execute]** -status in uw workflows.
 
-* **Ongebruikte workflows stoppen**. Workflows die actief blijven, onderhouden verbindingen met de database.
+* **Stop ongebruikte werkschema&#39;s**. Workflows die actief blijven, onderhouden verbindingen met de database.
 
-* **Alleen onvoorwaardelijke stop gebruiken in de zeldzame gevallen**. Deze handeling niet regelmatig gebruiken. Het niet uitvoeren van een schone sluiting op verbindingen die door werkstromen aan het gegevensbestand worden geproduceerd beïnvloedt prestaties.
+* **gebruikt slechts onvoorwaardelijke stop in de rastergevallen**. Deze optie is beperkt tot Admin-gebruikers. Deze handeling niet regelmatig gebruiken. Het niet uitvoeren van een schone sluiting op verbindingen die door werkstromen aan het gegevensbestand worden geproduceerd beïnvloedt prestaties.
 
-* **Geen meerdere stopverzoeken uitvoeren op dezelfde werkstroom**. Het beëindigen van een workflow is een asynchroon proces: de aanvraag wordt geregistreerd en vervolgens worden bewerkingen door de workflowserver(s) geannuleerd. Het stoppen van een werkstroominstantie kan daarom tijd in beslag nemen, vooral als de werkstroom op meerdere servers wordt uitgevoerd, die elk de controle moeten krijgen om de actieve taken te annuleren. U voorkomt problemen door te wachten tot de stopbewerking is voltooid en te voorkomen dat een workflow meerdere keren wordt gestopt.
+* **voert geen veelvoudige eindeverzoeken op het zelfde werkschema** uit. Het beëindigen van een workflow is een asynchroon proces: de aanvraag wordt geregistreerd en vervolgens worden bewerkingen door de workflowserver(s) geannuleerd. Het stoppen van een werkstroominstantie kan daarom tijd in beslag nemen, vooral als de werkstroom op meerdere servers wordt uitgevoerd, die elk de controle moeten krijgen om de actieve taken te annuleren. U voorkomt problemen door te wachten tot de stopbewerking is voltooid en te voorkomen dat een workflow meerdere keren wordt gestopt.
 
 ## Klikken met rechtermuisknop {#right-click-menu}
 
@@ -119,21 +119,21 @@ Wanneer een of meer workflowactiviteiten zijn geselecteerd, kunt u met de rechte
 
 De volgende opties zijn beschikbaar in het klikmenu met de rechtermuisknop:
 
-**[!UICONTROL Open]**: met deze optie hebt u toegang tot de eigenschappen van de activiteit.
+**[!UICONTROL Open]** : met deze optie hebt u toegang tot de eigenschappen activity.
 
-**[!UICONTROL Display logs:]** met deze optie kunt u het logboek voor taakuitvoering weergeven voor de geselecteerde activiteit. Zie [Logboeken weergeven](monitor-workflow-execution.md#displaying-logs).
+**[!UICONTROL Display logs:]** met deze optie kunt u het logboek voor taakuitvoering weergeven voor de geselecteerde activiteit. Verwijs naar [ Weergevend logboeken ](monitor-workflow-execution.md#displaying-logs).
 
-**[!UICONTROL Execute pending task(s) now:]** met deze actie kunt u taken die in behandeling zijn zo snel mogelijk starten.
+**[!UICONTROL Execute pending task(s) now:]** hiermee kunt u taken die in behandeling zijn, zo snel mogelijk starten.
 
-**[!UICONTROL Workflow restart from a task:]** met deze optie kunt u de workflow opnieuw starten met de resultaten die eerder voor deze activiteit zijn opgeslagen.
+**[!UICONTROL Workflow restart from a task:]** Met deze optie kunt u de workflow opnieuw starten met de resultaten die eerder voor deze activiteit zijn opgeslagen.
 
 **[!UICONTROL Cut/Copy/Paste/Delete:]** Met deze opties kunt u activiteiten knippen, kopiëren, plakken en verwijderen.
 
-**[!UICONTROL Copy as bitmap:]** met deze optie kunt u een screenshot maken van alle activiteiten.
+Met deze optie kunt u een screenshot maken van alle activiteiten. **[!UICONTROL Copy as bitmap:]**
 
-**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** deze opties zijn ook beschikbaar in het gedeelte **[!UICONTROL Advanced]** tabblad van de eigenschappen van de activiteit. Deze worden nader beschreven in [Uitvoering](advanced-parameters.md#execution).
+**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** deze opties zijn ook beschikbaar op het tabblad **[!UICONTROL Advanced]** van de eigenschappen activity. Zij zijn gedetailleerd in [ Uitvoering ](advanced-parameters.md#execution).
 
-**[!UICONTROL Save / Cancel:]** Hiermee kunt u de wijzigingen in een workflow opslaan of annuleren.
+Met **[!UICONTROL Save / Cancel:]** kunt u de wijzigingen in een workflow opslaan of annuleren.
 
 >[!NOTE]
 >
