@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
+source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
 
 ---
-
 
 # Instellingen voor SMS-verzending {#sms-settings}
 
@@ -55,12 +55,12 @@ Hier volgt de informatie die u nodig hebt om dit formulier in te vullen. Elk vel
 
 * **[!UICONTROL Transmission mode]**
 
-In dit veld wordt het type SMS aangegeven dat u wilt overbrengen: normale of flash-berichten, die op de mobiele kaart of de simkaart worden opgeslagen. Deze instelling wordt verzonden in het optionele veld dest_addr_subunit in de SUBMIT_SM PDU.
+  In dit veld wordt het type SMS aangegeven dat u wilt overbrengen: normale of flash-berichten, die op de mobiele kaart of de simkaart worden opgeslagen. Deze instelling wordt verzonden in het optionele veld dest_addr_subunit in de SUBMIT_SM PDU.
 
-* **Flash** plaatst de waarde aan 1. Er wordt een Flash-bericht verzonden dat op de mobiele telefoon verschijnt en niet in het geheugen is opgeslagen.
-* **Normaal** plaatst de waarde aan 0. Het stuurt een normaal bericht.
-* **sparen op mobiele** plaatst de waarde aan 2. Het vertelt de telefoon om SMS in intern geheugen op te slaan.
-* **sparen op terminal** plaatst de waarde aan 3. Het vertelt de telefoon om SMS in de kaart op te slaan SIM.
+   * **Flash** plaatst de waarde aan 1. Er wordt een Flash-bericht verzonden dat op de mobiele telefoon verschijnt en niet in het geheugen is opgeslagen.
+   * **Normaal** plaatst de waarde aan 0. Het stuurt een normaal bericht.
+   * **sparen op mobiele** plaatst de waarde aan 2. Het vertelt de telefoon om SMS in intern geheugen op te slaan.
+   * **sparen op terminal** plaatst de waarde aan 3. Het vertelt de telefoon om SMS in de kaart op te slaan SIM.
 
 * **[!UICONTROL Priority, Communication type]**
 
