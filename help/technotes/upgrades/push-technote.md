@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Ook van toepassing op Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Is van toepassing op campagne v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: dffe082d5e31eda4ecfba369b92d8a2d441fca04
+source-git-commit: e7f0f20deb930be2a3b2f798f70d17644c646fb6
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1633'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Ga als volgt te werk om uw omgeving te verplaatsen naar HTTP v1:
 >
 >Zodra deze veranderingen in al uw server worden toegepast, gebruiken alle **nieuwe** het bericht van de duw aan de apparaten van Android v1 API van HTTP. Bestaande push-items worden opnieuw uitgevoerd, in uitvoering en in gebruik, maar gebruiken nog steeds de HTTP (legacy) API. Leer hoe u ze in de onderstaande sectie kunt bijwerken.
 
-### Bestaande sjablonen bijwerken {#fcm-transition-update}
+#### Bestaande sjablonen bijwerken {#fcm-transition-update}
 
 Zodra de overgangHTTP v1 wordt gedaan, moet u uw **leveringsmalplaatjes** voor de duw berichten van Android bijwerken om het aantal partijberichten te verhogen. Om dit te doen, doorblader aan de eigenschappen van uw Android leveringsmalplaatje en, in het **lusje van de Levering**, plaats de [ Hoeveelheid van de Batch van het Bericht ](../../v8/send/configure-and-send.md#delivery-batch-quantity) aan **256**. Pas deze wijziging toe op alle leveringssjablonen die worden gebruikt voor uw Android-leveringen en op al uw bestaande Android-leveringen.
 
@@ -99,16 +99,16 @@ U kunt ook bestaande leverings- en leveringssjablonen bijwerken die zijn gemaakt
 
 * Als Beheerde Cloud Servicen of Gehoste klant, contacteer Adobe om uw bestaande Android leveringsmalplaatjes bij te werken.
 
-* Voor omgevingen op locatie kunt u het script `fcm-httpv1-migration.js` downloaden en uitvoeren zoals hieronder wordt beschreven.
+* Voor on-premise omgevingen downloadt u het `fcm-httpv1-migration.js` -script en voert u dit hieronder uit.
 
-  Download [ fcm-httpv1-migration.js ](assets/do-not-localize/fcm-httpv1-migration.js)
+  Download [ fcm-httpv1-migration.zip ](assets/do-not-localize/fcm-httpv1-migration.zip)
 
   >[!CAUTION]
   >
   >Het script moet worden uitgevoerd op uw marketing-, medium-sourcing- en realtime-omgevingen.
 
 
-  +++Stappen om bestaande leveringen en sjablonen bij te werken
+  +++Stappen om bestaande leveringen en sjablonen bij te werken (alleen op locatie)
 
   Voer de volgende stappen uit om alle leverings- en leveringstemplates te repareren die zijn gemaakt vóór de upgrade naar een versie die HTTP v1 ondersteunt:
 
