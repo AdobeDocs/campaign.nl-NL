@@ -8,7 +8,7 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Ook van toepassing op Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Is van toepassing op campagne v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: e7f0f20deb930be2a3b2f798f70d17644c646fb6
+source-git-commit: a6a1af4e0255a2fec359c415cbbf45da2e4baf67
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 1%
@@ -101,7 +101,7 @@ U kunt ook bestaande leverings- en leveringssjablonen bijwerken die zijn gemaakt
 
 * Voor on-premise omgevingen downloadt u het `fcm-httpv1-migration.js` -script en voert u dit hieronder uit.
 
-  Download [ fcm-httpv1-migration.zip ](assets/do-not-localize/fcm-httpv1-migration.zip)
+  Download [ fcm-httpv1-migration.zip ](assets/do-not-localize/fcm-httpv1-migration-js.zip)
 
   >[!CAUTION]
   >
