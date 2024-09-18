@@ -3,9 +3,9 @@ keywords: Campaign Classic; startpagina; populaire onderwerpen
 description: Campagne v8 Help Center
 title: Adobe Campaign v8-productdocumentatie
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: f25f793c85d1af26f2e36e28830c6192bfbe4ca3
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '342'
 ht-degree: 28%
 
 ---
@@ -105,7 +105,7 @@ In 2024 komt er een versie met enkele belangrijke wijzigingen voor de service FC
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong> middelen van de Ontwikkelaar </strong><br/> <a href="dev/datamodel.md"> Campagne v8 datamodel </a> - <a href="dev/schemas.md"> Schema's </a> - <a href="dev/api.md"> APIs </a>
+      <strong> middelen van de Ontwikkelaar </strong><br/> <a href="dev/datamodel.md"> Campagne v8 gegevensmodel </a> - <a href="dev/schemas.md"> Schema's </a> - <a href="dev/api.md"> APIs </a>
     </td>
   </tr>
 </table>

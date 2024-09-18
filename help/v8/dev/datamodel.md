@@ -5,9 +5,9 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '706'
 ht-degree: 4%
 
 ---
@@ -18,32 +18,32 @@ Adobe Campaign bevat een vooraf gedefinieerd datamodel. In deze sectie vindt u e
 
 De basisstructuur van het Adobe Campaign-gegevensmodel kan als volgt worden beschreven:
 
-* **Ontvangertabel**: Het gegevensmodel is gebaseerd op een hoofdtabel die standaard de tabel Ontvanger is (**nmsRecipient**). In deze tabel worden alle marketingprofielen opgeslagen. Meer informatie over de tabel met ontvangers vindt u in [deze sectie](#ootb-profiles).
+* **Ontvankelijke lijst**: Het gegevensmodel baseert zich op een belangrijkste lijst die door gebrek de Ontvankelijke lijst (**nmsRecipient**) is. In deze tabel worden alle marketingprofielen opgeslagen. Leer meer over de ontvankelijke lijst in [ deze sectie ](#ootb-profiles).
 
-* **Afleveringstabel**: In deze tabel wordt één record per leveringsactie opgeslagen. Doorgaans is dit de afleveringstabel (**NmsDelivery**). in deze tabel staat voor een leveringsactie of een leveringssjabloon. Het bevat alle parameters die nodig zijn voor het uitvoeren van leveringen, zoals doel, inhoud, enz. Elke record wordt meerdere malen bijgewerkt om de voortgang van de levering te weerspiegelen
+* **lijst van de Levering**: Deze lijst slaat één verslag per leveringsactie op. Gewoonlijk is het de lijst van de Levering (**NmsDelivery**). in deze tabel staat voor een leveringsactie of een leveringssjabloon. Het bevat alle parameters die nodig zijn voor het uitvoeren van leveringen, zoals doel, inhoud, enz. Elke record wordt meerdere malen bijgewerkt om de voortgang van de levering te weerspiegelen
 
-* **Logtabellen**: In deze tabellen worden alle logbestanden opgeslagen die bij de uitvoering van de campagnes horen.
+* **Logs lijsten**: Deze lijsten slaan alle logboeken op verbonden aan de uitvoering van de campagnes.
 
-   * De logboeken van de levering zijn alle berichten die naar ontvangers of apparaten over alle kanalen worden verzonden. De belangrijkste leveringstabel (**NmsBroadLogRcp**) bevat de leveringslogboeken voor alle ontvangers.
-   * De **nmsBroadlog** tabel is de grootste tabel in het systeem . Het slaat één verslag per verzonden bericht op, en deze verslagen worden opgenomen, bijgewerkt om de leveringsstatus te volgen, en geschrapt wanneer de geschiedenis wordt gezuiverd.
-   * De hoofdtabel met trackinglogbestanden (**NmsTrackingLogRcp**) slaat de volgende logboeken voor alle ontvangers op. De trackinglogboeken verwijzen naar reacties van ontvangers, zoals het openen van e-mail en klikken. Elke reactie komt overeen met een trackinglog.
+   * De logboeken van de levering zijn alle berichten die naar ontvangers of apparaten over alle kanalen worden verzonden. De belangrijkste lijst van Logboeken van de Levering (**NmsBroadLogRcp**) bevat de leveringslogboeken voor alle ontvangers.
+   * De **nmsBroadlog** lijst is de grootste lijst in het systeem. Het slaat één verslag per verzonden bericht op, en deze verslagen worden opgenomen, bijgewerkt om de leveringsstatus te volgen, en geschrapt wanneer de geschiedenis wordt gezuiverd.
+   * De belangrijkste het Volgen logboeklijst (**NmsTrackingLogRcp**) slaat de volgende logboeken voor alle ontvangers op. De trackinglogboeken verwijzen naar reacties van ontvangers, zoals het openen van e-mail en klikken. Elke reactie komt overeen met een trackinglog.
 
   Logbestanden voor aflevering en tracering worden na een bepaalde periode verwijderd, die in Adobe Campaign is opgegeven en kan worden gewijzigd. Daarom wordt het ten zeerste aanbevolen de stammen regelmatig uit te voeren.
 
-* **Technische tabellen**: Verzamelen van technische gegevens die voor het aanvraagproces worden gebruikt, met inbegrip van exploitanten en gebruikersrechten (**xtkGroup**), gebruikerssessies (**xtkSessionInfo**), mappen in de verkenner-boomstructuur (**XtkFolder**), workflows (**xtkWorkflow**) en meer.
+* **Technische lijsten**: Verzamel technische gegevens die voor het toepassingsproces worden gebruikt, met inbegrip van exploitanten en gebruikersrechten (**xtkGroup**), gebruikerszittingen (**xtkSessionInfo**), omslagen in de ontdekkingsboom (**XtkFolder**), werkschema&#39;s (**xtkWorkflow**), en meer.
 
 >[!NOTE]
 >
->Blader naar de beschrijving van elke tabel om deze te openen **Beheer > Configuratie > Gegevensschema&#39;s**, selecteert u een bron in de lijst en klikt u op de knop **Documentatie** tab.
+>Om tot de beschrijving van elke lijst toegang te hebben, doorblader aan **Beleid > Configuratie > de schema&#39;s van Gegevens**, selecteer een middel van de lijst, en klik de **Documentatie** tabel.
 
 Wanneer u begint met Adobe Campaign, moet u het standaardgegevensmodel beoordelen om te controleren welke tabel het meest geschikt is om uw marketinggegevens op te slaan.
 
-U kunt de standaardtabel Ontvanger gebruiken voor de velden buiten het vak, zoals wordt beschreven in [deze sectie](#ootb-profiles). Indien nodig, kunt u het uitbreiden met twee mechanismen:
+U kunt de standaard Ontvanger lijst met de uit-van-de-doos gebieden gebruiken, zoals die in [ wordt beschreven deze sectie ](#ootb-profiles). Indien nodig, kunt u het uitbreiden met twee mechanismen:
 
-* [Een bestaande tabel uitbreiden](extend-schema.md) met nieuwe velden. U kunt bijvoorbeeld een nieuw veld Loyalty toevoegen aan de tabel Ontvanger.
-* [Een nieuwe tabel maken](create-schema.md), bijvoorbeeld een tabel met alle aankopen die door elk profiel van de database zijn gedaan, en koppel deze aan de tabel Ontvanger.
+* [ breid een bestaande lijst ](extend-schema.md) met nieuwe gebieden uit. U kunt bijvoorbeeld een nieuw veld Loyalty toevoegen aan de tabel Ontvanger.
+* [ creeer een nieuwe lijst ](create-schema.md), bijvoorbeeld een lijst van de &quot;Aankoop&quot;die van alle aankopen een lijst maakt die door elk profiel van het gegevensbestand worden gemaakt, en verbind het met de Ontvankelijke lijst.
 
-Ontdek beste praktijken wanneer het werken met het datamodel van de Campagne in [deze sectie](datamodel-best-practices.md).
+Ontdek beste praktijken wanneer het werken met het gegevensmodel van de Campagne in [ deze sectie ](datamodel-best-practices.md).
 
 ## Ingebouwde profielentabel {#ootb-profiles}
 
@@ -58,19 +58,19 @@ De voordelen van de standaardtabel voor ontvangers zijn:
 
 Het is mogelijk de tabel voor ontvangers uit te breiden, maar niet om het aantal velden of koppelingen in de tabel te verminderen.
 
-Leer hoe u een bestaand schema kunt uitbreiden in [deze sectie](extend-schema.md).
+Leer hoe te om een bestaand schema in [ uit te breiden deze sectie ](extend-schema.md).
 
-Voorbeelden van ingebouwde tabelextensies voor ontvangers ontdekken in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
+Ontdek voorbeelden van ingebouwde ontvankelijke lijstuitbreidingen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table) {target="_blank"}
 
-U kunt een verschillende ontvankelijke lijst ook gebruiken om beter met uw zaken of functionele vereisten te passen. Deze methode heeft beperkingen en wordt beschreven in [deze sectie](custom-recipient.md).
+U kunt een verschillende ontvankelijke lijst ook gebruiken om beter met uw zaken of functionele vereisten te passen. Deze methode komt met beperkingen en wordt beschreven in [ deze sectie ](custom-recipient.md).
 
 ## Campagnetabellen en Cloud-database
 
-Voor een beter inzicht in tabelbeheer in Campaign v8, moet u in de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), worden tabellen gerepliceerd tussen Campagne en de bijbehorende Snowflake Cloud-database.
+Voor een beter inzicht in lijstbeheer in Campagne v8, merk op dat, in de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), de lijsten tussen Campagne en zijn gegevensbestand van de Wolk van de Snowflake worden herhaald.
 
-Meer informatie over replicatiestrategie en -mechanismen in [deze sectie](../architecture/replication.md).
+Leer meer over replicatiestrategie en mechanismen in [ deze sectie ](../architecture/replication.md).
 
 **Verwante onderwerpen**
 
-Ontdek hoe u profielen kunt importeren in [deze sectie](../start/import.md)
-Meer informatie over campagnepubliek in [deze sectie](../start/audiences.md)
+Ontdek hoe te om profielen in [ in deze sectie in te voeren ](../start/import.md)
+Leer meer over het publiek van de Campagne in [ deze sectie ](../start/audiences.md)

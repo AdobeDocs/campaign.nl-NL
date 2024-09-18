@@ -5,9 +5,9 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 07e85c2933194a24b4275519dd7da9c3226f6a3c
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '283'
 ht-degree: 9%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 9%
 
 [!DNL Adobe Campaign] wordt geleverd met een set JavaScript-functies die u kunt gebruiken:
 
-* in scripts - in [!DNL Adobe Campaign] workflows
+* in Scripts - in [!DNL Adobe Campaign] workflows
 * via API&#39;s - van externe systemen
 
-U kunt JavaScript API&#39;s gebruiken om te schrijven in de Campagnecloud-database of om te lezen vanuit de database:
+U kunt JavaScript API&#39;s gebruiken om te schrijven in de Campagnecloud-database of om te lezen van de database:
 
-* Bedrijfsspecifieke API&#39;s waarmee u op elk object kunt reageren: leveringen, workflows, abonnementen enzovoort. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
-* Algemene API&#39;s voor gegevenstoegang voor het opvragen van gegevens van het gegevensmodel. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
+* Bedrijfsspecifieke API&#39;s waarmee u op elk object kunt reageren: leveringen, workflows, abonnementen enzovoort. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html) {target="_blank"}.
+* Algemene API&#39;s voor gegevenstoegang voor het opvragen van gegevens van het gegevensmodel. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html) {target="_blank"}.
 
-Let op: in het [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), de Campagne werkt met twee gegevensbestanden: een lokaal gegevensbestand voor het gebruikersinterface overseinen in real time en unitaire vragen en schrijven door APIs, en een gegevensbestand van de Wolk voor campagneuitvoering, rapportering, gegevensopname, partijvragen en werkschemauitvoering.
+Merk op dat in zijn [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), de Campagne met twee gegevensbestanden werkt: een lokaal gegevensbestand voor het gebruikersinterface overseinen en unitaire vragen in real time en schrijven door APIs, en een gegevensbestand van de Wolk voor campagneuitvoering, rapportering, gegevensopname, partijvragen en werkschemauitvoering.
 
 >[!CAUTION]
 >
@@ -37,13 +37,13 @@ Let op: in het [Implementatie in het kader van Enterprise (FFDA)](../architectur
 
 ## Vereisten {#ac-api-prerequisites}
 
-Voor gebruik [!DNL Adobe Campaign] APIs, moet u met de volgende onderwerpen vertrouwd zijn:
+Voordat u API&#39;s van [!DNL Adobe Campaign] gebruikt, moet u vertrouwd zijn met de volgende onderwerpen:
 
 * JavaScript
-* SOAP-protocol
-* [!DNL Adobe Campaign] datamodel
+* SOAP
+* [!DNL Adobe Campaign] gegevensmodel
 
-Voor het gebruik van API&#39;s en interactie met [!DNL Adobe Campaign], moet u ook vertrouwd zijn met uw gegevensmodel.
+Als u API&#39;s wilt gebruiken en met [!DNL Adobe Campaign] wilt communiceren, moet u ook bekend zijn met uw gegevensmodel.
 
 >[!NOTE]
 >U kunt een volledige beschrijving van uw gegevensmodel genereren. Meer informatie vindt u [op deze pagina](datamodel.md).

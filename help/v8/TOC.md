@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 16%
 
 ---
@@ -199,7 +199,7 @@ ht-degree: 16%
    + Implementatie {#implement}
       + [Implementatiestappen](start/implement.md)
       + [Instantie aanpassen](dev/customize.md)
-      + [Aanbevolen werkwijzen voor DataModel](dev/datamodel-best-practices.md)
+      + [Best practices voor het gegevensmodel](dev/datamodel-best-practices.md)
    + Instellingen en configuratie {#configuration}
       + [Gebruikersinterface-instellingen](config/ui-settings.md)
       + [Mappen en weergaven beheren](audiences/folders-and-views.md)
@@ -207,7 +207,7 @@ ht-degree: 16%
       + [SDK&#39;s voor campagnes integreren met uw app - VEROUDERDE PAGINA](config/push-config.md)
       + [Externe accounts](config/external-accounts.md)
 + Bronnen voor ontwikkelaars {#developer}
-   + [Campaign datamodel](dev/datamodel.md)
+   + [Campagne gegevensmodel](dev/datamodel.md)
    + Schema&#39;s en formulieren {#shemas-forms}
       + [Werken met schema&#39;s](dev/schemas.md)
       + [Schema&#39;s maken](dev/create-schema.md)
