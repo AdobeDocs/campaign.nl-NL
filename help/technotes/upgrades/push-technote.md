@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Ook van toepassing op Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Is van toepassing op campagne v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a6a1af4e0255a2fec359c415cbbf45da2e4baf67
+source-git-commit: aba0048e5aff1caa2067eb61d26548b08a3deb36
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -48,15 +48,19 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 #### Vereisten {#fcm-transition-prerequisites}
 
-* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in versie 20.3.1. Als uw milieu op een oudere versie loopt, moet een eerste vereiste voor de overgang aan HTTP v1 uw milieu bevorderen aan het [ recentste Campaign Classic bouwen ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) {target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
-
 * Het JSON-bestand van de Android Firebase Admin SDK-service is nodig om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe te om dit dossier in [ documentatie van de Vuurbasis van Google ](https://firebase.google.com/docs/admin/setup#initialize-sdk) te krijgen {target="_blank"}.
 
-* Voor hybride, Gehoste en Managed Services plaatsingen, naast de hieronder overgangsprocedure, contacteer Adobe om uw Real-Time (RT) uitvoeringsserver bij te werken. De server voor middelste bronnen heeft geen invloed op deze server.
+* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in versie 20.3.1. Als uw milieu op een oudere versie loopt, moet een eerste vereiste voor de overgang aan HTTP v1 uw milieu bevorderen aan het [ recentste Campaign Classic bouwen ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) {target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
 
-* Als Campaign Classic v7 on-premise gebruiker, moet u zowel de Marketing als Real-Time uitvoeringsservers bevorderen. De server voor middelste bronnen heeft geen invloed op deze server.
+* Als Campaign Classic v7 on-premise gebruiker, moet u zowel de Marketing als Real-Time uitvoeringsservers bevorderen.
 
-* Als Campaign Classic v7 on-premise of hybride gebruiker, controleer dat uw Android die externe rekening verplettert met `androidPushConnectorV2.js` wordt gevormd. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)
+* Voor Hybride, Gehoste en Beheerde plaatsingen van Cloud Servicen, naast de overgangsprocedure hieronder, contacteer Adobe om uw Real-Time (RT) uitvoeringsserver bij te werken.
+
+* Informatie over de Android die externe account routeert:
+
+   * Als Campaign Classic v7 on-premise of hybride gebruiker, controleer dat uw Android die externe rekening verplettert met `androidPushConnectorV2.js` wordt gevormd. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) {target="_blank"}.
+
+   * Voor de implementatie van hybride, gehoste en beheerde Cloud Servicen moet u ook verbinding maken met het zorgteam van de Adobe om te controleren of de `androidPushConnectorV2.js (nms)` -aansluiting is geselecteerd in Android die een externe account van uw mediumsourcingserver routeert.
 
 #### Overgangprocedure {#fcm-transition-steps}
 
@@ -105,7 +109,7 @@ U kunt ook bestaande leverings- en leveringssjablonen bijwerken die zijn gemaakt
 
   >[!CAUTION]
   >
-  >Het script moet worden uitgevoerd op uw marketing-, medium-sourcing- en realtime-omgevingen.
+  >Het manuscript moet op uw instantie van de Marketing worden uitgevoerd.
 
 
   +++Stappen om bestaande leveringen en sjablonen bij te werken (alleen op locatie)
