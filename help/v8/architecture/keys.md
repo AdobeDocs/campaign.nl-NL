@@ -5,20 +5,20 @@ feature: Configuration, FFDA
 role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
 
 # Sleutelbeheer en eenheid {#key-management}
 
-In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md), is de primaire sleutel een Universally Unique IDentifier (UUID), die een tekenreeks met tekens is. Als u deze UUID wilt maken, moet het hoofdelement van het schema het volgende bevatten: **autouuid** en **automatische** kenmerken ingesteld op **true**.
+In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), is de primaire sleutel een Universally Unique IDentifier (UUID), die een koord van karakters is. Om deze UUID tot stand te brengen, moet het belangrijkste element van het schema **auto** bevatten en **automatische** attributen die aan **waar** worden geplaatst.
 
-Adobe Campaign v8-gebruik [!DNL Snowflake] als de kerndatabase. De verspreide architectuur van de [!DNL Snowflake] de database biedt geen mechanisme om de eenheid van een sleutel binnen een tabel te garanderen: eindgebruikers zijn verantwoordelijk voor de consistentie van de sleutel binnen de Adobe Campaign-database.
+Adobe Campaign v8 gebruikt [!DNL Snowflake] als de hoofddatabase. De verspreide architectuur van de [!DNL Snowflake] -database biedt geen mechanisme om de eenheid van een sleutel binnen een tabel te garanderen: eindgebruikers zijn verantwoordelijk voor de consistentie van de sleutel binnen de Adobe Campaign-database.
 
-Om de consistentie van relationele databases te behouden, is het verplicht duplicaten van sleutels, en met name van primaire sleutels, te voorkomen. Duplicaties op primaire sleutels leiden tot problemen met de werkstroomactiviteiten voor gegevensbeheer, zoals **Query**, **Verzoening**, **Gegevens bijwerken** en meer. Dit is van essentieel belang voor het definiëren van juiste afstemmingscriteria bij het bijwerken [!DNL Snowflake] tabellen.
+Om de consistentie van relationele databases te behouden, is het verplicht duplicaten van sleutels, en met name van primaire sleutels, te voorkomen. De duplicaten op primaire sleutels leiden tot kwesties met de werkschemaactiviteiten van het gegevensbeheer zoals **Vraag**, **Verzoening**, **gegevens van de Update**, en meer. Dit is essentieel voor het definiëren van juiste afstemmingscriteria bij het bijwerken van [!DNL Snowflake] -tabellen.
 
 
 >[!CAUTION]
@@ -34,15 +34,15 @@ Aangezien de Gegevensbestand van de Wolk uniciteitsbeperkingen niet afdwingt, ve
 
 ### Uniciteitsworkflow{#unicity-wf}
 
-De Dienst van de Uniciteit komt met specifiek **[!UICONTROL Unicity alerting]** ingebouwde workflow om eenheidbeperkingen te controleren en te waarschuwen wanneer duplicaten worden gedetecteerd.
+De Unicity Service wordt geleverd met een toegewijde **[!UICONTROL Unicity alerting]** ingebouwde workflow om eenheidbeperkingen te controleren en te waarschuwen wanneer duplicaten worden gedetecteerd.
 
-Deze technische workflow is beschikbaar op het tabblad **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Unicity]** knooppunt van Campaign Explorer. **Het mag niet worden gewijzigd**.
+Deze technische workflow is beschikbaar via het knooppunt **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Unicity]** van Campagne Explorer. **het moet niet worden gewijzigd**.
 
 Deze workflow controleert alle aangepaste en ingebouwde schema&#39;s om dubbele rijen te detecteren.
 
 ![](assets/unicity-alerting-wf.png)
 
-Als de **[!UICONTROL Unicity alerting]** (ffdaUnicity) workflow detecteert enkele dubbele sleutels, die worden toegevoegd aan een specifieke **Audit Uniciteit** tabel, die de naam van het schema, het type sleutel, het aantal rijen waarop een effect is toegepast en de datum bevat. U hebt toegang tot gedupliceerde toetsen via de **[!UICONTROL Administration > Audit > Key Unicity]** knooppunt.
+Als het **[!UICONTROL Unicity alerting]** (ffdaUnicity) werkschema sommige dubbele sleutels ontdekt, worden zij toegevoegd aan een specifieke **lijst van de Uniciteit van de Controle**, die de naam van het schema, het type van sleutel, het aantal beïnvloede rijen, en de datum omvat. U hebt toegang tot gedupliceerde sleutels via het knooppunt **[!UICONTROL Administration > Audit > Key Unicity]** .
 
 ![](assets/unicity-table.png)
 
@@ -50,34 +50,34 @@ Als beheerder van het Gegevensbestand, kunt u een SQL activiteit gebruiken om de
 
 ### Waarschuwing{#unicity-wf-alerting}
 
-Er wordt een specifieke kennisgeving verzonden naar de **[!UICONTROL Workflow Supervisors]** exploitantgroep wanneer dubbele sleutels worden ontdekt. De inhoud en het publiek van deze waarschuwing kunnen worden gewijzigd in het gedeelte **Waarschuwing** van de **[!UICONTROL Unicity alerting]** workflow.
+Er wordt een specifiek bericht verzonden naar de **[!UICONTROL Workflow Supervisors]** -operatorgroep wanneer dubbele sleutels worden gedetecteerd. De inhoud en het publiek van dit alarm kunnen in de **Waakzame** activiteit van het **[!UICONTROL Unicity alerting]** werkschema worden veranderd.
 
 ![](assets/wf-alert-activity.png)
 
 
-## Aanvullende geleiders{#duplicates-guardrails}
+## Aanvullende geleiders {#duplicates-guardrails}
 
-De campagne wordt geleverd met een set nieuwe instructies om te voorkomen dat een dubbele sleutel wordt ingevoegd in [!DNL Snowflake] database.
+De campagne wordt geleverd met een set nieuwe instructies om te voorkomen dat een gedupliceerde sleutel wordt ingevoegd in de [!DNL Snowflake] -database.
 
 >[!NOTE]
 >
->Deze instructies zijn beschikbaar vanaf Campagne v8.3. Als u uw versie wilt controleren, raadpleegt u [deze sectie](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>Deze instructies zijn beschikbaar vanaf Campagne v8.3. Om uw versie te controleren, verwijs naar [ deze sectie ](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-### Aflevering voorbereiden{#remove-duplicates-delivery-preparation}
+### Aflevering voorbereiden {#remove-duplicates-delivery-preparation}
 
-Adobe Campaign verwijdert automatisch gedupliceerde UUID&#39;s uit een publiek tijdens de voorbereiding van de levering. Dit mechanisme voorkomt dat er een fout optreedt bij het voorbereiden van een levering. Als eindgebruiker kunt u deze informatie controleren in de leveringslogboeken: sommige ontvangers kunnen van het hoofddoel worden uitgesloten vanwege een gedupliceerde sleutel. In dat geval wordt de volgende waarschuwing weergegeven: `Exclusion of duplicates (based on the primary key or targeted records)`.
+Adobe Campaign verwijdert automatisch gedupliceerde UUID&#39;s uit een publiek tijdens de voorbereiding van de levering. Dit mechanisme voorkomt dat er een fout optreedt bij het voorbereiden van een levering. Als eindgebruiker kunt u deze informatie controleren in de leveringslogboeken: sommige ontvangers kunnen van het hoofddoel worden uitgesloten vanwege een gedupliceerde sleutel. In dat geval wordt de volgende waarschuwing weergegeven: `Exclusion of duplicates (based on the primary key or targeted records)` .
 
 ![](assets/exclusion-duplicates-log.png)
 
-### Gegevens bijwerken in een workflow{#duplicates-update-data}
+### Gegevens bijwerken in een workflow {#duplicates-update-data}
 
-In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md), kunt u geen interne sleutel (UUID) als gebied selecteren om gegevens in een werkschema bij te werken.
+In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), kunt u geen interne sleutel (UUID) als gebied selecteren om gegevens in een werkschema bij te werken.
 
 ![](assets/update-data-no-internal-key.png)
 
-### Een query uitvoeren op een schema met duplicaten{#query-with-duplicates}
+### Een query uitvoeren op een schema met duplicaten {#query-with-duplicates}
 
-Wanneer een werkschema begint vraag op een schema in werking te stellen, controleert Adobe Campaign of om het even welk gedupliceerd verslag in wordt gemeld [Tabel voor controle-eenheden](#unicity-wf). Als dat het geval is, wordt een waarschuwing weergegeven als de volgende bewerking op de gedupliceerde gegevens mogelijk van invloed is op het resultaat van de workflow.
+Wanneer een werkschema begint vraag op een schema in werking te stellen, controleert Adobe Campaign als om het even welk gedupliceerd verslag in de [ lijst van de Uniciteit van de Controle ](#unicity-wf) wordt gemeld. Als dat het geval is, wordt een waarschuwing weergegeven als de volgende bewerking op de gedupliceerde gegevens mogelijk van invloed is op het resultaat van de workflow.
 
 ![](assets/query-with-duplicates.png)
 
@@ -86,3 +86,8 @@ Deze controle wordt uitgevoerd in de volgende werkschemaactiviteiten:
 * Query
 * Incrementele query
 * Lijst lezen
+
+
+>[!NOTE]
+>
+>Als uw overgang van een andere versie van de Campagne overgaat, is het noodzakelijk om duplicaten te verwijderen, problemen op te lossen en gegevens te ontsmetten om te vermijden beïnvloedend uw overgang.

@@ -5,16 +5,16 @@ feature: Configuration, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
 
 # Stapelmechanisme voor campagne-API
 
-In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md)Wat betreft de prestaties (latentie en gelijktijdige uitvoering) wordt het gebruik van ononderbroken unitaire oproepen niet aanbevolen. Batchbewerking heeft altijd de voorkeur. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
+In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), wordt het blasten van unitaire vraag niet geadviseerd met betrekking tot prestaties (latentie &amp; gelijktijdige). Tenzij u uiterst laag volume verzendt, moet de partijverrichting **** worden gebruikt. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
 
 De het opvoeren van de campagne capaciteit wordt toegelaten door gebrek op sommige ingebouwde schema&#39;s. Wij kunnen het op om het even welk douaneschema ook toelaten. Staging mechanisme in een notendop:
 
@@ -28,7 +28,7 @@ API&#39;s van Campaign Classic v7 zijn nog steeds beschikbaar, maar kunnen niet 
 
 >[!CAUTION]
 >
->* Met dit nieuwe mechanisme is gegevenssynchronisatie voor kanaaloptie, abonnementen, abonnementen of mobiele registratie nu **asynchroon**.
+>* Met dit nieuwe mechanisme, is de gegevenssynchronisatie voor kanaaloptout, abonnementen, abonnementen of mobiele registratie nu asynchroon ****.
 >
 >* Staging is alleen van toepassing op schema&#39;s die zijn opgeslagen in de cloud-database. Laat het opvoeren op herhaalde schema&#39;s niet toe. Schakel Staging niet in voor lokale schema&#39;s. Staging niet inschakelen in een schema met werkstadia
 >
@@ -52,11 +52,11 @@ Voer de volgende stappen uit om het staging-mechanisme voor campagnes op een spe
    </srcSchema>
    ```
 
-   Meer informatie over het maken van aangepaste schema&#39;s vindt u in [deze pagina](../dev/create-schema.md).
+   Leer meer over de verwezenlijking van het douaneschema in [ deze pagina ](../dev/create-schema.md).
 
 1. Sla de databasestructuur op en werk deze bij.  [Meer informatie](../dev/update-database-structure.md)
 
-1. Laat het opvoeren mechanisme in de schemadefinitie toe door toe te voegen **autoStg=&quot;true&quot;** parameter.
+1. Laat het het opvoeren mechanisme in de schemadefinitie toe door **autoStg= &quot;waar&quot;** parameter toe te voegen.
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"

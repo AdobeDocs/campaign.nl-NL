@@ -5,16 +5,16 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1050'
 ht-degree: 1%
 
 ---
 
 # [!DNL Campaign] Implementatie van FFDA {#gs-ac-ffda}
 
-Door gebruik te maken van [[!DNL Snowflake]](https://www.snowflake.com/){target="_blank"}, een clouddatabasetechnologie, de implementatie van Adobe Campaign Enterprise Full Federated Access (FFDA) verbetert de schaal en snelheid van de implementatie aanzienlijk, met de mogelijkheid om een groter aantal klantprofielen te beheren, alsook veel hogere leveringspercentages en transacties per uur.
+Door het leveraging [[!DNL Snowflake] ](https://www.snowflake.com/) {target="_blank"}, een technologie van het wolkengegevensbestand, verbetert de plaatsing van de Volledige Federatieve Toegang van de Onderneming van Adobe Campaign (FFDA) dramatisch zijn schaal en snelheid, met de capaciteit om een significant aantal klantenprofielen, evenals veel hogere leveringspercentages en transacties per uur te beheren.
 
 ## Voordelen {#ffda-benefits}
 
@@ -24,33 +24,33 @@ Campaign v8 Enterprise (FFDA) biedt end-to-end schaalmogelijkheden in elke stap 
 * Schaal de prestaties van vragen voor segmentatie en het richten maar ook gegevensopname en uitgang
 * De voorbereiding van de levering schalen (van uren tot minuten)
 
-Dit is een fundamentele verandering in de softwarearchitectuur. Gegevens zijn nu extern en de campagne bevat alle gegevens, inclusief profielen. [!DNL Campaign] processen worden nu van begin tot eind geschaald, van het richten tot berichtuitvoering: gegevensopname, segmentatie, het richten, vragen, leveringen zullen nu typisch in notulen lopen. Deze nieuwe versie lost de hele uitdaging van het schrapen op terwijl het handhaven van het zelfde niveau van flexibiliteit &amp; rekbaarheid. Het aantal profielen is bijna onbeperkt en het bewaren van gegevens kan worden uitgebreid.
+Dit is een fundamentele verandering in de softwarearchitectuur. Gegevens zijn nu extern en de campagne bevat alle gegevens, inclusief profielen. [!DNL Campaign] -processen worden nu van begin tot eind geschaald, van &#39;targeting&#39; tot uitvoering van berichten: gegevensinvoer, segmentatie, &#39;targeting&#39;, query&#39;s en leveringen worden nu doorgaans in minuten uitgevoerd. Deze nieuwe versie lost de hele uitdaging van het schrapen op terwijl het handhaven van het zelfde niveau van flexibiliteit &amp; rekbaarheid. Het aantal profielen is bijna onbeperkt en het bewaren van gegevens kan worden uitgebreid.
 
-Opslag in de cloud wordt uitgevoerd in **[!DNL Snowflake]**: een nieuwe ingebouwde **externe rekening** zorgt voor connectiviteit met de Cloud Database. Het wordt gevormd door Adobe en moet niet worden gewijzigd. [Meer informatie](../config/external-accounts.md)
+De opslag van de wolk wordt uitgevoerd in **[!DNL Snowflake]**: een nieuwe ingebouwde **externe rekening** verzekert connectiviteit met het Gegevensbestand van de Wolk. Het wordt gevormd door Adobe en moet niet worden gewijzigd. [Meer informatie](../config/external-accounts.md)
 
-Een ingebouwd schema/tabel die moet worden verplaatst of gerepliceerd in de cloud-database, wordt geleverd met een ingebouwd schema-extensie onder de **xxl** naamruimte. Deze extensies bevatten alle vereiste wijzigingen om ingebouwde schema&#39;s van de [!DNL Campaign] lokale database naar de [!DNL Snowflake] Cloud-database en hun structuur aanpassen aan: nieuwe UUID, bijgewerkte koppelingen, enz.
+Om het even welk ingebouwd schema/lijst die moet worden bewogen of in het Gegevensbestand van de Wolk worden herhaald komt met een ingebouwde schemauitbreiding onder **xxl** namespace. Die extensies bevatten alle wijzigingen die nodig zijn om ingebouwde schema&#39;s van de lokale database van [!DNL Campaign] naar de database van [!DNL Snowflake] Cloud te verplaatsen en hun structuur aan te passen aan de nieuwe UUID, bijgewerkte koppelingen, enz.
 
 >[!CAUTION]
 >
-> Klantgegevens worden niet opgeslagen in de lokale [!DNL Campaign] database. Daarom moet elke aangepaste tabel worden gemaakt in de Cloud-database.
+> Klantgegevens worden niet opgeslagen in de lokale [!DNL Campaign] -database. Daarom moet elke aangepaste tabel worden gemaakt in de Cloud-database.
 >
 
 ## Campagne Enterprise (FFDA)-architectuur{#ffda-archi}
 
-In een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee databases : een lokaal [!DNL Campaign] database voor realtime berichten en eenheidquery&#39;s in de gebruikersinterface en schrijven via API&#39;s en een cloud [!DNL Snowflake] database voor de uitvoering van campagnes, batchquery&#39;s en workflowuitvoering.
+In een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee gegevensbestanden: een lokaal [!DNL Campaign] gegevensbestand voor het gebruikersinterface overseinen in real time en unitaire vragen en schrijven door APIs, en een gegevensbestand van de Wolk [!DNL Snowflake] voor campagneuitvoering, partijvragen en werkschemauitvoering.
 
-Campagne v8 Enterprise introduceert het concept **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database.
+De Onderneming van de campagne v8 brengt het concept **Volledige Federatieve Toegang van Gegevens** (FFDA): alle gegevens zijn nu ver op het Gegevensbestand van de Wolk.
 
-Er zijn specifieke API&#39;s beschikbaar voor het beheer van gegevens tussen de lokale en de clouddatabase. Leer hoe deze nieuwe API&#39;s werken en hoe u deze kunt gebruiken in [deze pagina](new-apis.md).
+Er zijn specifieke API&#39;s beschikbaar voor het beheer van gegevens tussen de lokale en de clouddatabase. Leer hoe deze nieuwe APIs werkt en hoe te om hen in [ te gebruiken deze pagina ](new-apis.md).
 
 De algemene communicatie tussen servers en processen wordt uitgevoerd volgens het volgende schema:
 
 ![](assets/architecture.png)
 
 * De uitvoerings en stuitbeheersmodules zijn onbruikbaar gemaakt op de instantie.
-* De toepassing wordt gevormd om berichtuitvoering op een verre &quot;midsourced&quot;server uit te voeren die gebruikend de vraag van de ZEEP (over HTTP of HTTPS) wordt gedreven.
+* De toepassing wordt gevormd om berichtuitvoering op een verre &quot;midsourced&quot;server uit te voeren die gebruikend SOAP vraag (over HTTP of HTTPS) wordt gedreven.
 
-De [!DNL Snowflake] de databank aan de kant van de marketing wordt gebruikt om :
+De database [!DNL Snowflake] aan de marketingzijde wordt gebruikt voor:
 
 * Sla alle klantgegevens op: profielen, aangepaste gegevens zoals transacties, producten, locaties, enz.
 * Sla alle gebeurtenissen en gedragsgegevens op die door Campagne worden gegenereerd of verzameld, zoals leveringslogboeken, trackinglogboeken, push-registraties, enzovoort.
@@ -63,7 +63,7 @@ De PostSQL-database van de marketinginstantie wordt gebruikt om:
 
 * Bepaalde werklasten uitvoeren, zoals API&#39;s met een laag volume.
 * Sla alle Campagnegegevens op, inclusief levering- en campagnemontages, workflow- en servicedefinities.
-* Alle ingebouwde referentietabellen opslaan (opsommingen, landen, enz.) waarnaar wordt gerepliceerd [!DNL Snowflake].
+* Alle ingebouwde referentietabellen opslaan (opsommingen, landen, enz.) die worden gerepliceerd naar [!DNL Snowflake] .
 
   U kunt echter niet:
    * Maak aanpassingen voor klantgegevens, maak bijvoorbeeld geen huishoudelijke tabel in PostSQL, maar alleen in Snowflake
@@ -80,15 +80,15 @@ De PostgreSQL-database in de mid-sourcing-instantie wordt gebruikt om:
 
 ## Gevolgen{#ffda-impacts}
 
-### [!DNL Campaign] mechanisme voor API-staging{#staging-api}
+### [!DNL Campaign] Mechanisme voor API-staging{#staging-api}
 
-Met [!DNL Campaign] Cloud-database, unitaire oproepen worden niet aanbevolen vanwege prestaties (latentie en gelijktijdige uitvoering). Batchbewerking heeft altijd de voorkeur. Om optimale prestaties van APIs te waarborgen, blijft de Campagne API vraag op het lokale gegevensbestandniveau behandelen.
+Met de [!DNL Campaign] Cloud-database worden algemene aanroepen niet aanbevolen vanwege de prestaties (latentie en gelijktijdige uitvoering). BUllens u zeer verzendend volume verzendt, moet de partijverrichting worden gebruikt om optimale prestaties van APIs te waarborgen, blijft de Campagne API vraag op het lokale gegevensbestandniveau behandelen.
 
 [Het mechanisme voor API-staging wordt in deze pagina beschreven](staging.md)
 
 ### Nieuwe API&#39;s{#new-apis}
 
-Er zijn nieuwe API&#39;s beschikbaar voor het beheer van gegevenssynchronisatie tussen [!DNL Campaign] lokale database en Cloud-database. Er is ook een nieuw mechanisme geïntroduceerd om API-aanroepen op lokaal databaseniveau af te handelen om latentie te voorkomen en de algehele prestaties te verbeteren.
+Er zijn nieuwe API&#39;s beschikbaar voor het beheer van gegevenssynchronisatie tussen de lokale database van [!DNL Campaign] en de Cloud-database. Er is ook een nieuw mechanisme geïntroduceerd om API-aanroepen op lokaal databaseniveau af te handelen om latentie te voorkomen en de algehele prestaties te verbeteren.
 
 [Nieuwe API&#39;s worden in deze pagina beschreven](new-apis.md)
 
@@ -107,9 +107,9 @@ Een specifieke technische workflow behandelt de replicatie van tabellen die aan 
 
 ### ID-beheer{#id-mgt-ffda}
 
-Objecten van versie 8 voor campagnes gebruiken nu een **Universally Unique ID (UUID)**, waardoor onbeperkte unieke waarden gegevens kunnen identificeren.
+De voorwerpen van de campagne v8 gebruiken nu a **Universally Unique identiteitskaart (UUID)**, die voor onbeperkte unieke waarden toestaat om gegevens te identificeren.
 
-Deze id is gebaseerd op een tekenreeks en is niet opeenvolgend. De primaire sleutel is geen numerieke waarde in Campagne v8, en u moet gebruiken **autouuid** en **automatische** in uw schema&#39;s.
+Deze id is gebaseerd op een tekenreeks en is niet opeenvolgend. De primaire sleutel is geen numerieke waarde in Campagne v8, en u moet **auto** gebruiken en **automatische 3} attributen in uw schema&#39;s.**
 
 In Campaign Classic v7 en vroegere versies, wordt de eenheid van een sleutel binnen een schema (d.w.z. lijst) behandeld op het niveau van de gegevensbestandmotor. Meer in het algemeen, omvatten de Klassieke motoren van het Gegevensbestand zoals PostSQL, Oracle, of SQL Server een inheems mechanisme om het opnemen van gedupliceerde rijen te verhinderen die op een kolom of een reeks kolommen via primaire sleutels en/of unieke indexen worden gebaseerd. De gedupliceerde identiteitskaart bestaat niet in deze versies wanneer de juiste index en de primaire sleutels op het niveau van het Gegevensbestand worden geplaatst.
 
