@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 98613a0a-7a6d-41a5-9541-e045d4ca318f
-source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
+source-git-commit: bc37a2a1075c7397f1656b38071dcae737043fb8
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Als gebruiker van het Campaign Standard die naar Campaign v8 overgaat, kunt u nu
 
 Als gebruiker van Campagne v8 hebt u nu toegang tot zowel de nieuwe webgebruikersinterface van Campagne als de v8-clientconsole. Gegevens en instellingen worden gesynchroniseerd van een omgeving naar een andere. Al uw gegevens en montages beschikbaar in de cliëntconsole zijn zichtbaar in het gebruikersinterface van het Web van de Campagne, van de Ontdekkingsreiziger linkernavigatie.
 
-Nuttige koppelingen waarmee u kunt beginnen:
+**Nuttige verbindingen voor u om met te beginnen:**
 
 * Leer zeer belangrijke verschillen en hoe te worden begonnen in [ deze Gids van de Goedkeuring ](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home) {target="_blank"}.
 
 * Leer meer over het nieuwe Web van de Campagne gebruikersinterface in [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html) {target="_blank"}.
 
-* Campaigns Standard zijn toegevoegd aan Campagne v8 om de overgang te vergemakkelijken. Deze mogelijkheden worden beperkt tot klanten die van Campaign Standard overgaan, en in dit [ beschreven deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home) {target="_blank"}.
+* Campaigns Standard zijn toegevoegd aan Campagne v8 om de overgang te vergemakkelijken. Deze mogelijkheden worden beperkt tot klanten die van Campaign Standard overgaan, en worden beschreven in [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home) {target="_blank"}.
 
