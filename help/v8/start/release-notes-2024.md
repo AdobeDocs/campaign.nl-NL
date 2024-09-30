@@ -3,7 +3,7 @@ title: Opmerkingen bij de release Campagne v8 (console) 2023
 description: Lijst met functies en verbeteringen die worden geleverd bij de 2023-campagne v8-releases
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 07e0bfdade0356eedb24641259aa754fdb1c6155
+source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 12%
@@ -46,7 +46,7 @@ _Mei 2, 2024_
 >
 >Deze versie is in **Beperkte Beschikbaarheid** (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van het Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration) {target="_blank"}.
+>Als gebruiker die van het Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration) {target="_blank"}.
 
 ### Nieuwe functies {#new-8-7-1}
 
