@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
+source-git-commit: 253f3be945cbfa304fa7342c68f0c73b079e2870
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1169'
 ht-degree: 1%
 
 ---
@@ -20,8 +20,8 @@ Elke gebeurtenis kan een gepersonaliseerd bericht teweegbrengen. Hiervoor moet u
 
 Volg onderstaande stappen om een berichtsjabloon te maken:
 
-1. Ga naar de **[!UICONTROL Message Center >Transactional message templates]** in de Adobe Campaign-structuur.
-1. Klik in de lijst met transactiemalesjablonen met de rechtermuisknop en selecteer **[!UICONTROL New]** in het vervolgkeuzemenu of klik op de knop **[!UICONTROL New]** boven de lijst met transactiemalusjablonen voor berichten.
+1. Ga naar de map **[!UICONTROL Message Center >Transactional message templates]** in de Adobe Campaign-structuur.
+1. Klik in de lijst met transactiemalplaatjes met de rechtermuisknop en selecteer **[!UICONTROL New]** in het vervolgkeuzemenu of klik op de knop **[!UICONTROL New]** boven de lijst met transactiemeldsjablonen.
 
    ![](assets/messagecenter_create_model_001.png)
 
@@ -47,7 +47,7 @@ De definitie van de inhoud van het transactiebericht is hetzelfde als voor alle 
 >[!CAUTION]
 >
 >Afbeeldingen in het bericht moeten openbaar toegankelijk zijn. Adobe Campaign biedt geen mechanisme voor het uploaden van afbeeldingen voor transactieberichten.\
->In tegenstelling tot JSSP of webApp, `<%=` heeft geen standaardescaping.
+>In tegenstelling tot JSSP of webApp heeft `<%=` geen standaardescape.
 >
 >U moet alle gegevens die uit de gebeurtenis komen, op de juiste wijze verwijderen. Deze escape is afhankelijk van de manier waarop dit veld wordt gebruikt. Gebruik in een URL bijvoorbeeld encodeURIComponent. U kunt escapeXMLString gebruiken om in de HTML te worden weergegeven.
 
@@ -62,11 +62,11 @@ Voer de volgende stappen uit om personalisatietags in te voegen in de tekst van 
 
 1. Klik in de berichtsjabloon op het tabblad dat overeenkomt met de e-mailindeling (HTML of tekst).
 1. Voer de tekst van het bericht in.
-1. Voeg in de tekst de tag in met behulp van de **[!UICONTROL Real time events>Event XML]** menu&#39;s.
+1. Voeg de tag in de hoofdtekst van de tekst in met de menu&#39;s van **[!UICONTROL Real time events>Event XML]** .
 
    ![](assets/messagecenter_create_custo_1.png)
 
-1. Vul de tag in met de volgende syntaxis: **elementnaam**.@**kenmerknaam** zoals hieronder weergegeven.
+1. Vul de markering in gebruikend de volgende syntaxis: **elementnaam**.@ **attributennaam** zoals hieronder getoond.
 
    ![](assets/messagecenter_create_custo_2.png)
 
@@ -76,7 +76,7 @@ Voer de volgende stappen uit om personalisatietags in te voegen in de tekst van 
 
 Een zaadadres laat u een voorproef van uw bericht tonen, een proef, en de personalisatie van het testbericht verzenden alvorens het bericht te verzenden. De zaadadressen zijn verbonden met de levering en kunnen niet voor andere leveringen worden gebruikt.
 
-1. Klik in de sjabloon Transactiebericht op de knop **[!UICONTROL Seed addresses]** en klikt u op de knop **[!UICONTROL Add]** knop.
+1. Klik in de transactiemalplaatje op de tab **[!UICONTROL Seed addresses]** en klik vervolgens op de knop **[!UICONTROL Add]** .
 
    ![](assets/messagecenter_create_seed_1.png)
 
@@ -90,7 +90,7 @@ Een zaadadres laat u een voorproef van uw bericht tonen, een proef, en de person
 
    ![](assets/messagecenter_create_custo_3.png)
 
-1. Klikken **[!UICONTROL Ok]** ter bevestiging van de oprichting van het zaadadres.
+1. Klik op **[!UICONTROL Ok]** om het beginadres te bevestigen.
 
 1. Herhaal dit proces om zoveel adressen te maken als u nodig hebt.
 
@@ -122,7 +122,7 @@ This information enables you to personalize message content using personalizatio
 
 Zodra u één of meerdere zaadadressen en het berichtlichaam hebt gecreeerd, kunt u voorproef het bericht en zijn verpersoonlijking controleren.
 
-1. Klik in de berichtsjabloon op de knop **[!UICONTROL Preview]** tab, dan selecteren **[!UICONTROL A seed address]** in de vervolgkeuzelijst.
+1. Klik in de berichtsjabloon op de tab **[!UICONTROL Preview]** en selecteer vervolgens **[!UICONTROL A seed address]** in de vervolgkeuzelijst.
 
    ![](assets/messagecenter_preview_1.png)
 
@@ -136,11 +136,11 @@ U kunt berichtlevering testen door een bewijs naar een eerder gecreeerd zaadadre
 
 Bij het verzenden van een bewijs wordt hetzelfde proces gebruikt als bij elke levering.
 
-Meer informatie over proefdrukken in [deze sectie](../send/preview-and-proof.md#proofs-send).
+Leer meer over proeven in [ deze sectie ](../send/preview-and-proof.md#proofs-send).
 
 Als u echter een bewijs van een transactiebericht wilt verzenden, moet u de volgende bewerkingen uitvoeren:
 
-* Een of meer maken [zaadadressen](#add-seeds) met gegevens van een personalisatietest
+* Creeer één of meerdere [ zaadadressen ](#add-seeds) met de gegevens van de verpersoonlijkingstest
 * Berichtinhoud maken
 
 Het bewijs verzenden:
@@ -155,25 +155,25 @@ Het bewijs verzenden:
 
    ![](assets/messagecenter_send_proof_002.png)
 
-In elke sjabloon zijn proefdrukken toegankelijk via de **[!UICONTROL Audit]** tab.
+In elke sjabloon kunt u proefdrukken openen via het tabblad **[!UICONTROL Audit]** .
 
 ![](assets/messagecenter_send_proof_003.png)
 
 #### Overgang van [!DNL Campaign Classic] v7 {#transition-from-v7}
 
-Als u [overstappen van Campaign Classic v7](../start/v7-to-v8.md), alle leveringen worden uitgevoerd via de server voor midsourcing.
+Als u [ transitioning van Campaign Classic v7 ](../start/v7-to-v8.md) bent, gaan alle leveringen door de midsourcingsserver.
 
-Nochtans, wanneer het creëren van een transactionele berichtmalplaatje, wordt het verpletteren nodig voor het met succes te gebruiken malplaatje **interne e-maillevering**. Dit het verpletteren verhindert u proefdrukken te verzenden.
+Nochtans, wanneer het creëren van een transactiemeldmalplaatje, is het verpletteren nodig voor het met succes te gebruiken malplaatje **interne e-maillevering**. Dit het verpletteren verhindert u proefdrukken te verzenden.
 
-Daarom moet u, om een bewijs voor u transactionele berichtmalplaatje te verzenden, het verpletteren van interne e-maillevering aan veranderen **mid-sourcing die rekening verplettert**.
+Derhalve om een bewijs voor u transactioneel berichtmalplaatje te verzenden, moet u het verpletteren van interne e-maillevering in **midsourcing veranderen die rekening** verplettert.
 
 ![](assets/messagecenter_send_proof_004.png)
 
 Zodra de proefdrukken zijn verzonden, moet u het verpletteren terug naar interne e-maillevering veranderen alvorens het transactionele berichtmalplaatje te publiceren.
 
-## De sjabloon publiceren {#publish-message-template}
+## De sjabloon Publish {#publish-message-template}
 
-Als de berichtsjabloon is gemaakt<!-- on the control instance--> is voltooid, kunt u het publiceren, waardoor u berichten kunt verzenden die zijn gekoppeld aan realtime- en batchgebeurtenissen.
+Wanneer het gemaakte berichtmalplaatje <!-- on the control instance--> volledig is, kunt u het publiceren, die u zal toestaan om berichten te verzenden verbonden aan real time en partijgebeurtenissen.
 
 <!--This process will also publish it on all execution instances.
 
@@ -185,17 +185,17 @@ Publication lets you automatically create two message templates on the execution
 >
 >Wanneer u om het even welke veranderingen in een malplaatje aanbrengt, zorg ervoor u het voor deze veranderingen opnieuw publiceert om tijdens de levering van het transactiemelding van berichten effectief te zijn.
 
-1. Ga naar de **[!UICONTROL Message Center > Transactional message templates]** map van de structuur.
-1. Selecteer de sjabloon die u wilt publiceren<!--on your execution instances-->.
+1. Ga naar de map **[!UICONTROL Message Center > Transactional message templates]** van de boomstructuur.
+1. Selecteer het malplaatje u <!--on your execution instances--> wilt publiceren.
 1. Klik op **[!UICONTROL Publish]**.
 
    ![](assets/messagecenter_publish_template.png)
 
-Wanneer de publicatie is voltooid, worden zowel berichtsjablonen die moeten worden toegepast op batch- als real-time-type-gebeurtenissen gemaakt in het dialoogvenster **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** map.
+Wanneer de publicatie is voltooid, worden zowel berichtsjablonen die moeten worden toegepast op batchgebeurtenissen als realtime-gebeurtenissen gemaakt in de map **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** .
 
 ![](assets/messagecenter_deployed_model.png)
 
-Als een sjabloon eenmaal is gepubliceerd en de bijbehorende gebeurtenis wordt geactiveerd, Adobe Campaign<!--execution instance--> ontvangt de gebeurtenis, koppelt deze aan de transactiesjabloon en stuurt het bijbehorende transactiemelding naar elke ontvanger.
+Zodra een malplaatje wordt gepubliceerd, als de overeenkomstige gebeurtenis wordt teweeggebracht, zal Adobe Campaign <!--execution instance--> de gebeurtenis ontvangen, zal het verbinden met het transactiesjabloon en het overeenkomstige transactionele bericht verzenden naar elke ontvanger.
 
 <!--
 >[!NOTE]
@@ -207,31 +207,31 @@ Als een sjabloon eenmaal is gepubliceerd en de bijbehorende gebeurtenis wordt ge
 
 ## Publicatie van een sjabloon ongedaan maken
 
-Zodra een berichtmalplaatje wordt gepubliceerd <!--on the execution instances-->, kan de publicatie ongedaan worden gemaakt.
+Nadat een berichtsjabloon is gepubliceerd <!--on the execution instances--> , kan deze niet worden gepubliceerd.
 
 * Een gepubliceerde sjabloon kan zelfs nog steeds worden aangeroepen als de bijbehorende gebeurtenis wordt geactiveerd: als u geen berichtsjabloon meer gebruikt, wordt aangeraden de publicatie ongedaan te maken. Dit om te voorkomen dat er per ongeluk een ongewenste transactiemelding wordt verzonden.
 
   U hebt bijvoorbeeld een berichtsjabloon gepubliceerd die u alleen gebruikt voor kerstcampagnes. Misschien wilt u de publicatie ongedaan maken nadat de kerstperiode is afgelopen en deze volgend jaar opnieuw publiceren.
 
-* U kunt ook geen transactiemalplaatje verwijderen dat de **[!UICONTROL Published]** status. U moet eerst de publicatie ongedaan maken.
+* U kunt ook geen transactiemalplaatje verwijderen dat de **[!UICONTROL Published]** status heeft. U moet eerst de publicatie ongedaan maken.
 
 Volg onderstaande stappen om de publicatie van een transactiemalplaatje ongedaan te maken.
 
-1. Bladeren naar de **[!UICONTROL Message Center > Transactional message templates]** map.
+1. Blader naar de map **[!UICONTROL Message Center > Transactional message templates]** .
 1. Selecteer de sjabloon die u wilt verwijderen.
 1. Klik op **[!UICONTROL Unpublish]**.
 1. Klik op **[!UICONTROL Start]**.
 
 ![](assets/message-center-unpublish.png)
 
-De status van de transactiemalplaatje verandert terug van **[!UICONTROL Published]** tot **[!UICONTROL Being edited]**.
+De status van de transactiemeldsjabloon verandert weer van **[!UICONTROL Published]** in **[!UICONTROL Being edited]** .
 
 Zodra de publicatie is voltooid:
 
-* Beide berichtmalplaatjes (die op partij en in real time typegebeurtenissen worden toegepast) worden geschrapt<!-- from each execution instance-->.
+* Beide berichtmalplaatjes (die op partij en in real time typegebeurtenissen worden toegepast) worden geschrapt <!-- from each execution instance-->.
 
-  Ze verschijnen niet meer in het dialoogvenster **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** map.
+  Ze worden niet meer weergegeven in de map **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** .
 
-* Nadat een sjabloon niet is gepubliceerd, kunt u deze verwijderen<!-- from the control instance-->.
+* Zodra een malplaatje unpublished is, kunt u het <!-- from the control instance--> schrappen.
 
-  Selecteer dit in de lijst en klik op de knop **[!UICONTROL Delete]** op de rechterbovenhoek van het scherm.
+  U doet dit door het in de lijst te selecteren en op de knop **[!UICONTROL Delete]** rechtsboven in het scherm te klikken.
