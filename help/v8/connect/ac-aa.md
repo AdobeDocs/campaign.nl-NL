@@ -5,7 +5,7 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: adfde71faebf3cec7e7b730c9753e6765aeadab0
+source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 67%
@@ -16,19 +16,19 @@ ht-degree: 67%
 
 U kunt Adobe Analytics configureren om Campagne en Analytics te integreren.
 
-Dankzij deze integratie kunnen Adobe Campaign en Adobe Analytics via de **Webanalytische connectors** invoegtoepassing. Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
+Deze integratie staat Adobe Campaign en Adobe Analytics toe om door de **toe:voegen-op de schakelaars van de Analyse van het Web in wisselwerking te staan 0}.** Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
 
 >[!NOTE]
 >
->Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
+>Als Beheerde gebruiker van Cloud Servicen, [ contact Adobe ](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
 
 Met Adobe Analytics Connector kan Adobe Campaign de internetdoelgroep meten (Web Analytics). Met de hulpprogramma&#39;s voor webanalyse kan Adobe Campaign indicatoren en campagnerekenmerken doorsturen naar Analytics.
 
 De actieomtrek van elk gereedschap is als volgt:
 
-* **Adobe Analytics** markeert de e-mailcampagnes die met Adobe Campaign zijn gestart
+* **Adobe Analytics** merkt de e-mailcampagnes die met Adobe Campaign worden gelanceerd
 
-* **Adobe Campaign** verzendt de indicatoren en campagnerekenmerken naar de schakelaar, die hen aan het analytische hulpmiddel van het Web terugstuurt
+* **Adobe Campaign** verzendt de indicatoren en campagneattributen naar de schakelaar, die hen beurtelings aan het analytische hulpmiddel van het Web door:sturen
 
 
 >[!CAUTION]
@@ -43,7 +43,7 @@ Als u de verbinding Campagne-Analytics wilt instellen, moet u de volgende bewerk
 
 ## Uw analyserapportsuite maken {#report-suite-analytics}
 
-Als u uw **[!UICONTROL Report suite]** in [!DNL Adobe Analytics]volgt u de onderstaande stappen:
+Voer de onderstaande stappen uit om uw **[!UICONTROL Report suite]** in [!DNL Adobe Analytics] te maken:
 
 1. Selecteer vanuit [!DNL Adobe Analytics] het **[!UICONTROL Admin tab]** en klik vervolgens op **[!UICONTROL All admin]**.
 
@@ -55,7 +55,7 @@ Als u uw **[!UICONTROL Report suite]** in [!DNL Adobe Analytics]volgt u de onder
 
 1. Klik op de pagina **[!UICONTROL Report suite manager]** op **[!UICONTROL Create new]** en vervolgens op **[!UICONTROL Report suite]**.
 
-   Voor de gedetailleerde procedure inzake **[!UICONTROL Report suite]** maken, verwijzen naar [Adobe Analytics-documentatie](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}.
+   Voor de gedetailleerde procedure op **[!UICONTROL Report suite]** verwezenlijking, verwijs naar [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites) {target="_blank"}.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -85,7 +85,7 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
 
 1. Klik op **[!UICONTROL Add new]** om de id&#39;s te maken die nodig zijn voor het meten van de impact van de e-mailcampagne, dat wil zeggen de interne naam van de campagne (cid) en de tabel-id van de iNmsBroadlog (bid).
 
-   Meer informatie over bewerken **[!UICONTROL Conversion variables]**, verwijzen naar [Adobe Analytics-documentatie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}.
+   Leren hoe te om **[!UICONTROL Conversion variables]** uit te geven, verwijs naar deze [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools) {target="_blank"}.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -108,13 +108,13 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   Leren hoe te vormen **[!UICONTROL Success events]**, verwijzen naar [Adobe Analytics-documentatie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
+   Leren hoe te om **[!UICONTROL Success events]** te vormen, verwijs naar deze [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
 
    ![](assets/analytics_connnector_8.png)
 
 1. Klik op **[!UICONTROL Save]** wanneer u klaar bent met de configuratie.
 
-Wanneer uw rapportreeks wordt gevormd, zult u moeten vormen **[!UICONTROL External accounts]** in Adobe Campaign.
+Wanneer uw rapportsuite is geconfigureerd, moet u de **[!UICONTROL External accounts]** in Adobe Campaign configureren.
 
 ## Uw externe account voor campagne configureren {#external-account-ac}
 
@@ -122,9 +122,9 @@ U moet nu uw **[!UICONTROL Web Analytics]** externe account in Adobe Campaign co
 
 Als een van uw **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** of **[!UICONTROL Success events]** niet zichtbaar is tijdens het configureren van uw externe account, betekent dit dat u geen toestemming hebt voor deze nieuwe gemaakte component in het **[!UICONTROL Product profile]** dat aan de gebruiker is gekoppeld.
 
-Raadpleeg voor meer informatie hierover de [Productprofielen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} pagina.
+Voor meer informatie over dit, verwijs naar de [ profielen van het Product voor Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins) {target="_blank"} pagina.
 
-1. Bladeren naar de **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** map van de Adobe Campaign Explorer-boomstructuur en klik op **[!UICONTROL New]**.
+1. Blader naar de map **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** van de Adobe Campaign Explorer-boomstructuur en klik op **[!UICONTROL New]** .
 
    ![](assets/analytics_connnector_9.png)
 
@@ -182,7 +182,7 @@ Raadpleeg voor meer informatie hierover de [Productprofielen voor Adobe Analytic
 
 1. Met het tabblad **[!UICONTROL Advanced]** kunt u meer technische instellingen configureren of wijzigen.
 
-   * **[!UICONTROL Lifespan]**: Hiermee kunt u de vertraging (in dagen) opgeven waarna de webgebeurtenissen in Adobe Campaign zijn hersteld door technische workflows. Standaard: 180 dagen.
+   * **[!UICONTROL Lifespan]**: hiermee kunt u de vertraging (in dagen) opgeven waarna de webgebeurtenissen in Adobe Campaign zijn hersteld door technische workflows. Standaard: 180 dagen.
    * **[!UICONTROL Persistence]**: hiermee wordt de periode weergegeven waarin alle webgebeurtenissen (bijvoorbeeld een aankoop) kunnen worden toegewezen aan een remarketingcampagne, Standaard: 7 dagen.
 
 >[!NOTE]
@@ -193,11 +193,11 @@ Raadpleeg voor meer informatie hierover de [Productprofielen voor Adobe Analytic
 
 De gegevensuitwisseling tussen Adobe Campaign en Adobe Analytics wordt afgehandeld door een technische workflow die als achtergrondtaak wordt uitgevoerd.
 
-Deze workflow is beschikbaar in de boomstructuur van Campagne Explorer, onder de **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** map.
+Deze workflow is beschikbaar in de boomstructuur van Campagne Explorer, onder **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** map.
 
 ![](assets/webanalytics_workflows.png)
 
-De **[!UICONTROL Sending of indicators and campaign attributes]** Met de workflow kunt u via Adobe Campaign e-mailcampagneindicatoren naar de Adobe Experience Cloud verzenden via Adobe Analytics Connector. Deze workflow wordt elke dag om 04.00 uur gestart en het kan 24 uur duren voordat de gegevens naar Analytics worden verzonden.
+Met de **[!UICONTROL Sending of indicators and campaign attributes]** -workflow kunt u e-mailcampagnemarameters via Adobe Campaign naar de Adobe Experience Cloud verzenden via Adobe Analytics Connector. Deze workflow wordt elke dag om 04.00 uur gestart en het kan 24 uur duren voordat de gegevens naar Analytics worden verzonden.
 
 Deze workflow moet niet opnieuw worden gestart, anders worden alle eerdere gegevens opnieuw verzonden, waardoor de resultaten van Analytics kunnen worden scheefgetrokken.
 
@@ -238,7 +238,7 @@ Als u wilt dat de Adobe Experience Cloud de activiteit op de sites kan volgen wa
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. Open de leveringseigenschappen.
-1. Ga naar het tabblad **[!UICONTROL Web Analytics]** en selecteer het eerder gemaakte externe account. Zie [Uw externe account configureren in Adobe Campaign](#external-account-ac).
+1. Ga naar het tabblad **[!UICONTROL Web Analytics]** en selecteer het eerder gemaakte externe account. Verwijs naar [ vorm uw externe rekening in Adobe Campaign ](#external-account-ac).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
@@ -258,7 +258,7 @@ Adobe Campaign biedt persoonlijke leveringssjablonen die u kunt gebruiken of zel
 1. Personaliseer de sjabloon naar wens en sla deze op.
 1. Maak een nieuwe campagne en selecteer de sjabloon **[!UICONTROL Re-marketing campaign]** in de vervolgkeuzelijst.
 1. Klik op de koppeling **[!UICONTROL Configure...]** om het segment en de leveringssjabloon op te geven die aan de campagne zijn gekoppeld.
-1. Selecteer Analyses e[Externe rekening](#external-account-ac)en het betrokken segment.
+1. Selecteer Analytics e [ externe rekening ](#external-account-ac), en het betrokken segment.
 1. Selecteer de leveringsjabloon die voor deze remarketingcampagne moet worden gebruikt en klik vervolgens op **[!UICONTROL Finish]** om het venster te sluiten.
 1. Klik op **[!UICONTROL OK]** om het campagnevenster te sluiten.
 
