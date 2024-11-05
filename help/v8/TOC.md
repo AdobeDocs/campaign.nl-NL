@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '681'
 ht-degree: 16%
 
 ---
@@ -42,7 +42,8 @@ ht-degree: 16%
    + [Aan de slag met campagnes](start/campaigns.md)
    + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
 + Berichten verzenden{#send}
-   + [Aan de slag met berichten](start/create-message.md)
+   + [Aan de slag met berichten](start/gs-message.md)
+   + [Je eerste levering maken](start/create-message.md)
    + E-mails {#emails}
       + [E-mails ontwerpen en valideren](send/email.md)
       + [Koppeling maken naar de spiegelpagina](send/mirror-page.md)
@@ -177,7 +178,7 @@ ht-degree: 16%
    + Campagne + uw CRM {#ac-crm}
       + [Aan de slag met CRM-connectors](connect/crm.md)
       + [Werken met campagne en SFDC](connect/ac-sfdc.md)
-      + [Werken met Campagne en Microsoft Dynamics](connect/ac-ms-dyn.md)
+      + [Werken met campagne en Microsoft Dynamics](connect/ac-ms-dyn.md)
       + [Gegevens synchroniseren](connect/crm-data-sync.md)
 + Beheer {#admin}
    + Gebruikers en machtigingen {#permissions}

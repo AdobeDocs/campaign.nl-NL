@@ -6,44 +6,43 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 5%
+source-wordcount: '714'
+ht-degree: 4%
 
 ---
 
-# Werken met leveringssjabloon{#work-with-delivery-template}
+# Werken met leveringssjabloon {#work-with-delivery-template}
 
-Gebruik leveringssjablonen om de creatieve vormgeving te standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren.
+Elke levering wordt gemaakt op basis van een sjabloon. Ingebouwde sjablonen zijn beschikbaar voor elk kanaal. U kunt ze aanpassen om dezelfde instellingen toe te passen op een set leveringen.
 
-Een sjabloon kan het volgende bevatten:
+Een sjabloon bevat:
 
-* Typologieën
+* Typologische regels
 * Afzender en antwoordadressen
-* Basis [verpersoonlijkingsblokken](../send/personalization-blocks.md)
-* Koppelingen naar [spiegelpagina&#39;s](../send/mirror-page.md) en abonnementkoppelingen
+* Basis [ verpersoonlijkingsblokken ](../send/personalization-blocks.md)
+* Verbindingen aan [ spiegelpagina&#39;s ](../send/mirror-page.md) en unsubscription verbindingen
 * Inhoud, bedrijfslogo of handtekening
 * Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#delivery-template-video)
 
+## Een sjabloon maken {#create-a-delivery-template}
 
-## Een sjabloon maken{#create-a-delivery-template}
-
-Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen.
+Als u een leveringssjabloon wilt maken, kunt u een ingebouwde sjabloon dupliceren of een bestaande levering converteren naar een sjabloon. U kunt ook een volledig nieuwe leveringssjabloon maken, maar dit wordt niet aanbevolen. Deze methoden worden hieronder beschreven.
 
 ### Een bestaande sjabloon dupliceren{#copy-an-existing-template}
 
-De campagne komt met een reeks ingebouwde malplaatjes voor elk kanaal: email, push, SMS, direct mail en nog veel meer.
+De campagne wordt geleverd met een reeks ingebouwde sjablonen voor elk kanaal: e-mail, push, SMS, direct mail en nog veel meer.
 
 De gemakkelijkste manier om een leveringsmalplaatje tot stand te brengen is een ingebouwde malplaatje te dupliceren en aan te passen.
 
 Voer de onderstaande stappen uit om een leveringssjabloon te dupliceren:
 
-1. Bladeren naar **[!UICONTROL Resources > Templates > Delivery templates]** in Adobe Campaign.
+1. Blader naar **[!UICONTROL Resources > Templates > Delivery templates]** in Adobe Campaign Explorer.
 1. Selecteer een ingebouwde leveringssjabloon. Ingebouwde sjablonen worden in de lijst opgenomen.
-1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Duplicate]**.
+1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Duplicate]** .
 
    ![](assets/duplicate-built-in-template.png)
 
@@ -61,13 +60,13 @@ Een levering kan in een malplaatje voor nieuwe herhaalde leveringsacties worden 
 
 Volg onderstaande stappen om een levering naar een sjabloon om te zetten:
 
-1. Selecteer de levering in de leveringslijst, toegankelijk via de **[!UICONTROL Campaign management]** knooppunt van Campaign Explorer.
+1. Selecteer de levering in de leveringslijst, toegankelijk via het knooppunt **[!UICONTROL Campaign management]** van de Campagneverkenner.
 
-1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Actions > Save as template...]**.
+1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Actions > Save as template...]** .
 
    ![](assets/save-as-template.png)
 
-1. Bewerk de leveringseigenschappen en selecteer de map waarin de nieuwe sjabloon moet worden opgeslagen (in het menu **[!UICONTROL Folder]** (veld) en de map waarin de op basis van deze sjabloon gemaakte items moeten worden gemaakt (in de **[!UICONTROL Execution folder]** veld).
+1. Bewerk de leveringseigenschappen en selecteer de map waarin de nieuwe sjabloon moet worden opgeslagen (in het veld **[!UICONTROL Folder]** ) en de map waarin de op deze sjabloon gebaseerde items moeten worden gemaakt (in het veld **[!UICONTROL Execution folder]** ).
 
    ![](assets/template-select-folders.png)
 
@@ -75,37 +74,37 @@ Volg onderstaande stappen om een levering naar een sjabloon om te zetten:
 
 >[!NOTE]
 >
->Om configuratiefouten te vermijden, adviseert Adobe u [een ingebouwde sjabloon dupliceren](#copy-an-existing-template) en pas de eigenschappen aan in plaats van een nieuwe sjabloon te maken.
+>Om configuratiefouten te vermijden, adviseert de Adobe dat u [ een ingebouwd malplaatje ](#copy-an-existing-template) dupliceert en zijn eigenschappen eerder dan tot een nieuw malplaatje leidt.
 
 Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te configureren:
 
-1. Bladeren naar de **Bronnen** map in Campagneverkenner en selecteer **Sjablonen** dan **Afleveringssjablonen**.
-1. Klikken **Nieuw** in de werkbalk om een nieuwe leveringssjabloon te maken.
-1. Stel de **Label** en de **Interne naam** van de map.
+1. Blader aan de **omslag van Middelen** in de ontdekkingsreiziger van de Campagne, en selecteer **Malplaatjes** toen **de malplaatjes van de Levering**.
+1. Klik **Nieuw** in de toolbar om een nieuw leveringsmalplaatje tot stand te brengen.
+1. Plaats het **Etiket** en de **Interne naam** van de omslag.
 1. Sla de sjabloon op en open deze opnieuw.
-1. Van de **Eigenschappen** aanpassen.
-1. In de **Algemeen** de locaties die zijn geselecteerd in het dialoogvenster **Uitvoermap**, **Map**, en **Routering** vervolgkeuzemenu&#39;s.
-1. Voltooi de **E-mailparameters** rubriek met je e-mailonderwerp en doelgroep.
-1. Voeg uw **HTML-inhoud** om uw sjabloon aan te passen, kunt u een [hyperlink spiegelen](../send/mirror-page.md) en een koppeling zonder abonnement.
-1. Selecteer **Voorvertoning** tab. In de **Aanpassing testen** vervolgkeuzelijst, selecteert u **Ontvanger** om een voorbeeld van de sjabloon weer te geven als het gekozen profiel.
-1. Klikken **Opslaan**. Je template is nu klaar om te worden gebruikt in een levering.
+1. Van de **knoop van Eigenschappen**, pas de montages aan.
+1. In het **Algemene** lusje, bevestig of verander de plaatsen die in de **omslag van de Uitvoering** worden geselecteerd, **Omslag**, en **Verpletterend** drop-down menu&#39;s.
+1. Voltooi de **categorie van de Parameters van de E-mail** met uw e-mailonderwerp en gerichte bevolking.
+1. Voeg uw **inhoud van de HTML** toe om uw malplaatje te personaliseren, kunt u a [ spiegelpagina verbinding ](../send/mirror-page.md) en een unsubscription verbinding tonen.
+1. Selecteer het **lusje van de Voorproef**. In het **verpersoonlijking van de Test** drop-down menu, uitgezochte **Ontvanger** om uw malplaatje als gekozen profiel voor te vertonen.
+1. Klik **sparen**. Je template is nu klaar om te worden gebruikt in een levering.
 
 
-## Sjablonen gebruiken{#use-a-delivery-template}
+## Sjablonen gebruiken {#use-a-delivery-template}
 
-### Een levering maken met een sjabloon{#create-a-delivery-from-a-template}
+### Een levering maken met een sjabloon {#create-a-delivery-from-a-template}
 
 Als u een levering wilt maken op basis van een bestaande sjabloon, selecteert u de sjabloon in de lijst met beschikbare leveringssjablonen.
 
 ![](assets/select-the-new-template.png)
 
-Als de sjabloon niet wordt weergegeven, klikt u op de knop **[!UICONTROL Select link]** aan de rechterkant van het veld om door campagnemappen te bladeren.
+Als de sjabloon niet zichtbaar is, klikt u op de map **[!UICONTROL Select link]** rechts van het veld om door de campagnemappen te bladeren.
 
 ![](assets/browse-templates.png)
 
-Selecteer de gewenste directory in het menu **[!UICONTROL Folder]** of klik op de knop **[!UICONTROL Display sub-levels]** pictogram om de inhoud van de mappen in de substructuren van de huidige map weer te geven.
+Selecteer de gewenste map in het veld **[!UICONTROL Folder]** of klik op het pictogram **[!UICONTROL Display sub-levels]** om de inhoud van de mappen in de substructuren van de huidige map weer te geven.
 
-Selecteer de leveringssjabloon die u wilt gebruiken en klik op **[!UICONTROL Ok]**.
+Selecteer de leveringssjabloon die u wilt gebruiken en klik op **[!UICONTROL Ok]** .
 
 ### Een sjabloon uitvoeren {#execute-a-template}
 
@@ -113,16 +112,16 @@ U kunt de uitvoering van een sjabloon rechtstreeks vanuit de sjabloonlijst start
 
 Selecteer hiertoe de sjabloon die u wilt uitvoeren en klik met de rechtermuisknop. Selecteer **[!UICONTROL Actions>Execute the delivery template...]**.
 
-U kunt ook **[!UICONTROL File>Actions>Execute the delivery template...]**.
+U kunt ook **[!UICONTROL File>Actions>Execute the delivery template...]** gebruiken.
 
 ![](assets/execute-delivery-template.png)
 
-Voer de leveringsparameters in en klik op **[!UICONTROL Send]**.
+Voer de leveringsparameters in en klik op **[!UICONTROL Send]** .
 
 Deze actie produceert een levering in de omslag verbonden aan het malplaatje. De naam van deze levering is de naam van het leveringsmalplaatje waarvan het werd gecreeerd.
 
 
-## Tutorialvideo’s {#delivery-template-video}
+## Zelfstudievideo&#39;s {#delivery-template-video}
 
 ### Hoe te om een leveringsmalplaatje te vormen
 
@@ -138,8 +137,8 @@ In de volgende video ziet u hoe u de eigenschappen van de leveringssjabloon inst
 
 ### Hoe te om een ad hoc leveringsmalplaatje op te stellen
 
-In deze video wordt uitgelegd hoe u een sjabloon voor ad-hoc e-maillevering kunt implementeren. In deze video wordt het verschil tussen een e-maillevering en een leveringsworkflow uitgelegd.
+In deze video wordt uitgelegd hoe u een sjabloon voor ad-hoce-maillevering kunt implementeren. In deze video wordt het verschil tussen een e-maillevering en een leveringsworkflow uitgelegd.
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Er zijn aanvullende instructievideo&#39;s beschikbaar voor campagnes [hier](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+De extra Campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html) {target="_blank"}.

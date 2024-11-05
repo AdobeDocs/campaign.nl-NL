@@ -4,14 +4,13 @@ description: Informatie over het controleren en volgen van een levering van SMS
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: 42be45db-3a90-4ad0-896d-f082afff1f8e
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
-
 
 # Een SMS bijhouden
 
@@ -52,4 +51,3 @@ En tot slot het tabblad **[!UICONTROL Audit]** met alle details tijdens het star
 De fouttypen en de redenen voor een mislukking voor SMS zijn gelijk aan die voor e-mailberichten.
 
 Leer meer over [ leveringsmislukkingen ](../delivery-failures.md) en specifiek over [ SMS quarantines ](../delivery-failures.md#sms-quarantines).
-

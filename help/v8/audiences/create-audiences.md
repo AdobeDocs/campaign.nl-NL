@@ -5,24 +5,24 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 1%
 
 ---
 
-# Een publiek in een lijst maken{#create-segments}
+# Een publiek in een lijst maken {#create-segments}
 
 Met de lijsten Campagne kunt u uw publiek maken en organiseren.
 
 Een lijst is een statische reeks contacten die in leveringsacties kunnen worden gericht of tijdens de invoer of een andere werkschemaactie worden bijgewerkt. Bijvoorbeeld, kan een populatie die uit het gegevensbestand via een vraag wordt gehaald als lijst worden opgeslagen.
 
-Lijsten worden gemaakt en beheerd via de **[!UICONTROL Lists]** in de **[!UICONTROL Profiles and targets]** tab. Deze lijst is gebaseerd op de standaard Adobe Campaign-profieltabel (nms:ontvanger). [Meer informatie](../dev/datamodel.md#ootb-profiles.md)
+Lijsten worden gemaakt en beheerd via de koppeling **[!UICONTROL Lists]** op het tabblad **[!UICONTROL Profiles and targets]** . Deze lijst is gebaseerd op de standaard Adobe Campaign-profieltabel (nms:ontvanger). [Meer informatie](../dev/datamodel.md#ootb-profiles.md)
 
 ![](assets/list-dashboard.png)
 
-U kunt een lijst maken met de **Lijst bijwerken** activiteit in een werkstroom. Deze activiteit slaat de resulterende bevolking in een lijst op. Met deze lijst kunt u een nieuwe lijst maken of een bestaande lijst bijwerken. Als u lijsten wilt maken met andere typen gegevens dan de ingebouwde profielentabel, moet u een workflow uitvoeren. Als u bijvoorbeeld een query op de bezoekerslijst gebruikt en de lijst vervolgens bijwerkt, kunt u een bezoekerslijst maken. [Meer informatie](#create-a-list-wf).
+U kunt een lijst tot stand brengen gebruikend de **lijst van de Update** activiteit in een werkschema. Deze activiteit slaat de resulterende bevolking in een lijst op. Met deze lijst kunt u een nieuwe lijst maken of een bestaande lijst bijwerken. Als u lijsten wilt maken met andere typen gegevens dan de ingebouwde profielentabel, moet u een workflow uitvoeren. Als u bijvoorbeeld een query op de bezoekerslijst gebruikt en de lijst vervolgens bijwerkt, kunt u een bezoekerslijst maken. [Meer informatie](#create-a-list-wf).
 
 Bekijk deze video voor meer informatie over Lijstbeheer in Adobe Campaign.
 
@@ -33,26 +33,26 @@ Bekijk deze video voor meer informatie over Lijstbeheer in Adobe Campaign.
 
 Volg onderstaande stappen om een lijst met contactpersonen te maken:
 
-1. Klik op de knop **[!UICONTROL Create]** en selecteert u **[!UICONTROL New list]**.
+1. Klik op **[!UICONTROL Create]** en selecteer **[!UICONTROL New list]** .
 
    ![](assets/new-list.png)
 
-1. Voer de gegevens in het dialoogvenster **[!UICONTROL Edit]** van het venster voor het maken van de lijst.
+1. Voer de informatie in op het tabblad **[!UICONTROL Edit]** van het venster voor het maken van de lijst.
 
    ![](assets/list-details.png)
 
-   * Voer de naam van de lijst in het dialoogvenster **[!UICONTROL Label]** en, indien nodig, de interne naam wijzigen.
+   * Voer de naam van de lijst in het veld **[!UICONTROL Label]** in en wijzig, indien nodig, de interne naam.
    * Voeg een beschrijving voor deze lijst toe.
    * U kunt een vervaldatum opgeven: wanneer deze datum wordt bereikt, wordt de lijst gewist en automatisch verwijderd.
 
 
-1. In de **[!UICONTROL Content]** tabblad, klikt u op **[!UICONTROL Add]** om de profielen te selecteren die tot de lijst behoren.
+1. Klik op het tabblad **[!UICONTROL Content]** op **[!UICONTROL Add]** om de profielen te selecteren die tot de lijst behoren.
 
    ![](assets/add-profiles-to-a-list.png)
 
-   U kunt een nieuw profiel maken en dit rechtstreeks vanuit dit venster toevoegen met de opdracht **[!UICONTROL Create]** pictogram. Het profiel wordt toegevoegd aan de database.
+   U kunt een nieuw profiel maken en dit rechtstreeks vanuit dit venster in de lijst toevoegen met het pictogram **[!UICONTROL Create]** . Het profiel wordt toegevoegd aan de database.
 
-1. Klikken **[!UICONTROL Save]** om de lijst op te slaan. Het wordt dan toegevoegd aan het overzicht van lijsten.
+1. Klik op **[!UICONTROL Save]** om de lijst op te slaan. Het wordt dan toegevoegd aan het overzicht van lijsten.
 
 
 ## Gefilterde contactpersonen omzetten in een lijst {#convert-data-to-a-list}
@@ -67,7 +67,7 @@ U kunt profielen selecteren en toevoegen aan een lijst. Volg onderstaande stappe
 
    ![](assets/add-selection-to-a-list.png)
 
-1. Selecteer een bestaande lijst of maak een nieuwe lijst en klik op **[!UICONTROL Next]**.
+1. Selecteer een bestaande lijst of maak een nieuwe lijst en klik op **[!UICONTROL Next]** .
 
    ![](assets/select-the-list.png)
 
@@ -75,27 +75,27 @@ U kunt profielen selecteren en toevoegen aan een lijst. Volg onderstaande stappe
 
    ![](assets/record-a-list.png)
 
-Selecteer de **[!UICONTROL Recreate the list]** om de bestaande inhoud uit de lijst te verwijderen en het maken van de lijst te optimaliseren (er is geen query nodig om te controleren of de profielen al aan de lijst zijn gekoppeld).
+Selecteer de optie **[!UICONTROL Recreate the list]** om de bestaande inhoud uit de lijst te verwijderen en het maken van de lijst te optimaliseren (er is geen query nodig om te controleren of de profielen al aan de lijst zijn gekoppeld).
 
-Als u de optie **[!UICONTROL No trace of this job is saved in the database]** kunt u de uitvoeringsmap selecteren (of maken) waarin de informatie wordt opgeslagen die aan dit proces is gekoppeld.
+Als u de optie **[!UICONTROL No trace of this job is saved in the database]** uitschakelt, kunt u de uitvoeringsmap selecteren (of maken) waarin de informatie wordt opgeslagen die aan dit proces is gekoppeld.
 
-In de bovenste sectie van het venster kunt u de uitvoering controleren. De **[!UICONTROL Stop]** laat u het proces tegenhouden. De reeds verwerkte contacten zullen met de lijst worden verbonden.
+In de bovenste sectie van het venster kunt u de uitvoering controleren. Met de knop **[!UICONTROL Stop]** kunt u het proces stoppen. De reeds verwerkte contacten zullen met de lijst worden verbonden.
 
-Zodra de uitvoering wordt gebeëindigd, heb toegang tot **[!UICONTROL Profiles and Targets > Lists]** en selecteert u de lijst: **[!UICONTROL Content]** worden de profielen weergegeven die aan deze lijst zijn gekoppeld.
+Zodra de uitvoering is voltooid, opent u het menu **[!UICONTROL Profiles and Targets > Lists]** en selecteert u de lijst: op het tabblad **[!UICONTROL Content]** worden de profielen weergegeven die aan deze lijst zijn gekoppeld.
 
 
 ## Een lijst maken met een workflow  {#create-a-list-wf}
 
-U kunt de **[!UICONTROL List update]** activiteit om een lijst te creëren of een bevolking aan een lijst van ontvangers toe te voegen.
+Met de activiteit **[!UICONTROL List update]** kunt u een lijst maken of een populatie toevoegen aan een lijst met ontvangers.
 
 In het onderstaande voorbeeld maakt u een lijst met alle ontvangers tussen 25 en 40.
 
-1. Selecteren **[!UICONTROL Profiles and targets]**, en **[!UICONTROL Targeting workflows]** en maakt u vervolgens een nieuwe workflow op basis van de **[!UICONTROL Create]** knop.
-1. Voer een label voor deze workflow in, bijvoorbeeld &#39;25-40 contactpersonen&#39;, voeg een beschrijving toe en klik op **[!UICONTROL Next]**.
+1. Selecteer **[!UICONTROL Profiles and targets]** en **[!UICONTROL Targeting workflows]** en maak een nieuwe workflow via de knop **[!UICONTROL Create]** .
+1. Voer een label in voor deze workflow, bijvoorbeeld &#39;25-40 contactpersonen&#39;, voeg een beschrijving toe en klik op **[!UICONTROL Next]** .
 
    ![](assets/targeting-wf-sample.png)
 
-1. Een **[!UICONTROL Query]** activiteit om de doelbevolking te bepalen, en de vraag uit te geven.
+1. Voeg een **[!UICONTROL Query]** -activiteit in om de doelpopulatie te definiëren en bewerk de query.
 
    ![](assets/targeting-wf-edit-query.png)
 
@@ -103,24 +103,24 @@ In het onderstaande voorbeeld maakt u een lijst met alle ontvangers tussen 25 en
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Leer hoe u een query maakt in een workflow in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+   Leer hoe te om een vraag in een werkschema in [ tot stand te brengen deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html) {target="_blank"}.
 
 1. Voeg een label voor deze query toe en sla uw wijzigingen op.
-1. Voeg een **[!UICONTROL List update]** en bewerken.
+1. Voeg een **[!UICONTROL List update]** -activiteit toe en bewerk deze.
 
    ![](assets/list-update-activity.png)
 
 1. Voer een label in voor de activiteit.
-1. Selecteer de **[!UICONTROL Create the list if necessary (Computed name)]** om aan te geven dat de lijst wordt gemaakt zodra de eerste workflow is uitgevoerd en vervolgens wordt bijgewerkt met de volgende uitvoeringen.
+1. Selecteer de optie **[!UICONTROL Create the list if necessary (Computed name)]** om aan te geven dat de lijst wordt gemaakt zodra de eerste workflow is uitgevoerd en vervolgens wordt bijgewerkt met de volgende uitvoeringen.
 1. Selecteer een map en voer een label voor de lijst in.
 1. Selecteer de **[!UICONTROL Database of the targeting dimension]** om de tabel op te slaan.
-1. Laat de **[!UICONTROL Purge the list if it exists (otherwise add to the list)]** Selecteer deze optie om ontvangers te verwijderen die niet voldoen aan de criteria voor het opgeven van doelen en om de nieuwe criteria in de lijst in te voegen.
-1. Laat ook de **[!UICONTROL Create or use a list with its own table]** optie ingeschakeld.
-1. Laat de **[!UICONTROL Generate an outbound transition]** optie uitgeschakeld.
-1. Klikken **[!UICONTROL Ok]** en sla de workflow op.
+1. Laat de optie **[!UICONTROL Purge the list if it exists (otherwise add to the list)]** ingeschakeld om ontvangers te verwijderen die niet voldoen aan de doelcriteria en om de nieuwe criteria in de lijst in te voegen.
+1. Laat de optie **[!UICONTROL Create or use a list with its own table]** ook ingeschakeld.
+1. Laat de optie **[!UICONTROL Generate an outbound transition]** uitgeschakeld.
+1. Klik op **[!UICONTROL Ok]** en sla de workflow op.
 1. Start de workflow.
 
-   De lijst met overeenkomende ontvangers wordt dan gemaakt. U hebt toegang tot deze lijst via het dialoogvenster **[!UICONTROL Lists]** vermelding van de homepage.
+   De lijst met overeenkomende ontvangers wordt dan gemaakt. U hebt toegang tot deze lijst via de vermelding **[!UICONTROL Lists]** op de startpagina.
 
    ![](assets/access-new-list.png)
 
@@ -128,11 +128,11 @@ In het onderstaande voorbeeld maakt u een lijst met alle ontvangers tussen 25 en
 
 ## Een profiel uit een lijst verwijderen {#remove-a-profile-from-a-list}
 
-Als u een profiel uit een lijst wilt verwijderen, bewerkt u de lijst en selecteert u het profiel in het dialoogvenster **[!UICONTROL Content]** en klikt u op de knop **[!UICONTROL Delete]** pictogram.
+Als u een profiel uit een lijst wilt verwijderen, bewerkt u de lijst, selecteert u het profiel op het tabblad **[!UICONTROL Content]** en klikt u op het pictogram **[!UICONTROL Delete]** .
 
 ## Een lijst met profielen verwijderen {#delete-a-list-of-profiles}
 
-Als u een lijst wilt verwijderen, bladert u ernaar in Campagneverkenner, selecteert u de lijst en klikt u met de rechtermuisknop. Kies **[!UICONTROL Delete]**. U wordt in een waarschuwingsbericht gevraagd de verwijdering te bevestigen.
+Als u een lijst wilt verwijderen, bladert u ernaar in Campagneverkenner, selecteert u de lijst en klikt u met de rechtermuisknop. Kies **[!UICONTROL Delete]** . U wordt in een waarschuwingsbericht gevraagd de verwijdering te bevestigen.
 
 >[!NOTE]
 >
