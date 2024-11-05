@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
+source-git-commit: 1bf3c4b2d0c8d9b1bdbc82a9047c52c0d80cd997
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Vervolgens kunt u uw berichten voorbereiden, testen, verzenden en controleren.
 
 >[!NOTE]
 >
->De stappen in deze sectie worden beschreven veronderstellen dat alle doelontvangers en hun profielen in het gegevensbestand worden opgeslagen, behalve in het geval van externe levering (zie [ Selecterend externe ontvangers ](steps-defining-the-target-population.md#selecting-external-recipients)) die.
+>De stappen die in deze sectie worden beschreven veronderstellen dat alle doelontvangers en hun profielen in het gegevensbestand, behalve in het geval van externe levering worden opgeslagen. Zie [ Selecterend externe ontvangers ](#selecting-external-recipients).
 
 ## De levering maken {#create-the-delivery}
 
@@ -40,7 +40,7 @@ Voer de volgende stappen uit om een levering te maken:
 
    Er is een ingebouwde sjabloon beschikbaar voor elk kanaal dat u hebt geïnstalleerd: direct mail, e-mail, telefoon, mobiel kanaal (SMS), X (Twitter), enzovoort. Welke kanalen beschikbaar zijn in de lijst, is afhankelijk van uw licentieovereenkomst.
 
-   U kunt nieuwe leveringsmalplaatjes tot stand brengen om specifieke parameters vooraf te vormen om uw behoeften aan te passen. Voor verdere informatie over malplaatjes, verwijs naar [ deze sectie ](about-templates.md).
+   U kunt nieuwe leveringsmalplaatjes tot stand brengen om specifieke parameters vooraf te vormen om uw behoeften aan te passen. Voor verdere informatie over malplaatjes, verwijs naar [ deze sectie ](../send/create-templates.md).
 
 1. Voer in het veld **[!UICONTROL Label]** een naam voor de levering in.
 
@@ -74,7 +74,7 @@ Daarnaast kunt u in het kader van een marketingcampagne het volgende toevoegen:
 
 ### Selecteer de belangrijkste ontvangers van de levering {#select-the-main-target}
 
-In de meeste gevallen wordt het hoofddoel opgehaald uit de Adobe Campaign-database (standaardmodus). Nochtans, kunnen de ontvangers ook in een [ extern dossier ](steps-defining-the-target-population.md#selecting-external-recipients) worden opgeslagen.
+In de meeste gevallen wordt het hoofddoel opgehaald uit de Adobe Campaign-database (standaardmodus). Nochtans, kunnen de ontvangers ook in een [ extern dossier ](#selecting-external-recipients) worden opgeslagen.
 
 Volg onderstaande stappen om de ontvangers van een levering te selecteren:
 
@@ -157,7 +157,7 @@ De volgende opties zijn beschikbaar:
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: deze optie is standaard actief en verwijdert dubbele e-mailadressen tijdens levering. De toegepaste strategie kan variëren afhankelijk van hoe Adobe Campaign wordt gebruikt en het type gegevens in het gegevensbestand. De waarde van de optie kan voor elke leveringsmalplaatje worden gevormd.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** , d.w.z. ontvangers wier e-mailadressen in de lijst van gewezen personen staan (&#39;Weigeren&#39;). Deze optie moet geselecteerd blijven om de beroepsethiek van e-marketing in acht te nemen.
-* **[!UICONTROL Exclude quarantined recipients]** : met deze optie kunt u profielen met een adres dat in quarantaine is geplaatst, uitsluiten van het doel. We raden u ten zeerste aan deze optie geselecteerd te houden. Leer meer over quarantainebeheer in [ deze sectie ](understanding-quarantine-management.md).
+* **[!UICONTROL Exclude quarantined recipients]** : met deze optie kunt u profielen met een adres dat in quarantaine is geplaatst, uitsluiten van het doel. We raden u ten zeerste aan deze optie geselecteerd te houden. Leer meer over quarantainebeheer in [ deze sectie ](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** aan een bepaald aantal berichten. Met deze optie kunt u het maximum aantal berichten invoeren dat moet worden verzonden. Als het doelpubliek het aantal vermelde berichten overschrijdt, wordt een willekeurige selectie toegepast op het doel. Houd deze waarde in op &#39;0&#39; om alle berichten te verzenden.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: met deze optie kunnen meerdere leveringen worden verzonden naar ontvangers die aan verschillende doelcriteria voldoen.
 
