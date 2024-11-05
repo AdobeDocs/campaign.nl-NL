@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '522'
 ht-degree: 5%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 5%
 # E-mails ontwerpen en verzenden
 
 Met e-mailleveringen kunt u persoonlijke e-mails sturen naar de doelgroep. [Meer informatie](../send/send.md)
+
+Leer zeer belangrijke stappen om een levering in [ tot stand te brengen en te vormen deze pagina ](../start/create-message.md).
 
 ## Uw eerste e-maillevering maken
 
@@ -25,21 +27,21 @@ Maak persoonlijke en contextafhankelijke e-mails die consistent zijn met de rest
 
 In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Campaign die gepersonaliseerde gegevens, koppelingen naar een externe URL en een koppeling naar de spiegelpagina bevat.
 
-1. **De levering maken**
+1. **creeer de levering**
 
-   Blader naar de **Campagnes** tabblad, klikt u op **Leveringen** en klik op de knop **Maken** boven de lijst met bestaande leveringen.
+   Om een nieuwe levering tot stand te brengen, doorblader aan het **lusje van Campagnes**, klik **Leveringen** en klik **creeer** knoop boven de lijst van bestaande leveringen.
 
    ![](assets/delivery_step_1.png)
 
-1. **Selecteer de sjabloon**
+1. **selecteer het malplaatje**
 
    Selecteer een leveringssjabloon en geef uw levering een naam. Deze naam is alleen zichtbaar voor gebruikers van de Adobe Campaign-console en niet voor uw ontvangers. Deze kop wordt echter wel weergegeven in uw lijst met leveringen. Klik op **[!UICONTROL Continue]**.
 
    ![](assets/dce_delivery_model.png)
 
-1. **Uw inhoud importeren**
+1. **de Invoer uw inhoud**
 
-   Klik op de knop **Bron** om uw HTML-inhoud te plakken.
+   Klik het **Source** lusje om uw inhoud van de HTML te kleven.
 
    ![](assets/paste-content.png)
 
@@ -47,11 +49,11 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
    >
    >Om prestatieproblemen te voorkomen, mogen afbeeldingen in e-mailberichten niet groter zijn dan 100 kB.
 
-1. **Je bericht personaliseren**
+1. **Personaliseer uw bericht**
 
    * Voeg de eerste en laatste namen van uw ontvangers toe
 
-     Als u de voor- en achternamen van de doelprofielen wilt invoegen in de inhoud van het bericht, plaatst u de cursor op de plaats waar u deze wilt invoegen en klikt u op het laatste pictogram op de werkbalk. Klik vervolgens op **[!UICONTROL Include]** en selecteert u **[!UICONTROL Greetings]**.
+     Als u de eerste en laatste namen van de doelprofielen in de inhoud van het bericht wilt invoegen, plaatst u de cursor op de plaats waar u deze wilt invoegen, klikt u op het laatste pictogram op de werkbalk, klikt u op **[!UICONTROL Include]** en selecteert u **[!UICONTROL Greetings]** .
 
      ![](assets/include-greetings.png)
 
@@ -59,31 +61,31 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
      ![](assets/perso-check.png)
 
-     Meer informatie over personalisatieopties in [deze sectie](personalize.md).
+     Leer meer over verpersoonlijkingsopties in [ deze sectie ](personalize.md).
 
    * Een bijgehouden koppeling invoegen
 
-     Als u ontvangers voor levering via een afbeelding of tekst naar een extern adres wilt sturen, selecteert u de gewenste ontvanger en klikt u op de knop **[!UICONTROL Add a link]** in de werkbalk.
+     Als u ontvangers voor levering via een afbeelding of tekst naar een extern adres wilt sturen, selecteert u de afbeelding of tekst en klikt u op het pictogram **[!UICONTROL Add a link]** op de werkbalk.
 
-     Voer de URL voor de koppeling in het dialoogvenster **URL** veld met de volgende notatie **https://www.myURL.com**, bevestig vervolgens.
+     Ga URL voor de verbinding op het **URL** gebied in gebruikend het volgende formaat **https://www.myURL.com**, dan bevestig.
 
      ![](assets/add-a-link.png)
 
    * Een spiegelpagina toevoegen
 
-     Als u wilt toestaan dat de ontvangers uw inhoud van de levering in een webbrowser kunnen bekijken, voegt u een koppeling toe naar de [spiegelpagina](mirror-page.md) van uw bericht.
+     Om uw ontvangers toe te staan om uw leveringsinhoud in Webbrowser te bekijken, voeg een verbinding aan de [ spiegelpagina ](mirror-page.md) van uw bericht toe.
 
-     Plaats de cursor op de plaats waar u deze koppeling wilt invoegen, klik op het laatste pictogram op de werkbalk en klik vervolgens op **[!UICONTROL Include]** en selecteert u **[!UICONTROL link to mirror page]**.
+     Plaats de cursor op de plaats waar u deze koppeling wilt invoegen, klik op het laatste pictogram op de werkbalk en klik vervolgens op **[!UICONTROL Include]** en selecteer **[!UICONTROL link to mirror page]** .
 
-     Meer informatie over het beheren van de spiegelpagina in [deze sectie](mirror-page.md#link-to-mirror-page).
+     Leer meer over het beheren van de spiegelpagina in [ deze sectie ](mirror-page.md#link-to-mirror-page).
 
 1. U kunt aanvullende parameters voor uw e-mail definiëren, zoals het verzenden van een kopie van uw berichten naar een BBC-adres, het wijzigen van de berichtindeling, het instellen van een specifieke codering, enzovoort. Lees meer in [deze sectie](email-parameters.md).
 
-1. Als de inhoud gereed is, klikt u op **Opslaan**: het wordt nu weergegeven in uw lijst met leveringen, in het dialoogvenster **[!UICONTROL Campaigns > Deliveries]** tab.
+1. Zodra de inhoud klaar is, klik **sparen**: het zal nu in uw lijst van leveringen, in het **[!UICONTROL Campaigns > Deliveries]** lusje worden getoond.
 
 Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
 
-Leer hoe u een e-mailinhoud importeert in deze [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+Leer hoe te om een e-mailinhoud in dit [ gebruiksgeval ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html) in te voeren {target="_blank"}.
 
 Meer informatie vindt u in de volgende secties:
 
@@ -95,7 +97,7 @@ Meer informatie vindt u in de volgende secties:
 
 ## Uw e-mails testen en valideren
 
-De campagne biedt verschillende manieren om uw e-mails te testen en te valideren voordat u ze naar uw publiek stuurt. Leer hoe u uw e-mailinhoud kunt voorvertonen en testen in [deze sectie](../send/preview-and-proof.md).
+De campagne biedt verschillende manieren om uw e-mails te testen en te valideren voordat u ze naar uw publiek stuurt. Leer hoe te om uw e-mailinhoud in [ te voorproef en te testen deze sectie ](../send/preview-and-proof.md).
 
 U kunt:
 

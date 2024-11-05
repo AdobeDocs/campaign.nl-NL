@@ -1,177 +1,203 @@
 ---
-title: Aan de slag met berichten
-description: Aan de slag met berichten
+title: Je eerste levering maken
+description: Je eerste levering maken
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: c508c80bea39e4fc32786d92d06651a1f91ca697
+source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 5%
+source-wordcount: '1525'
+ht-degree: 3%
 
 ---
 
-# Aan de slag met berichten {#gs-ac-audiences}
+# Je eerste levering maken {#create-a-msg}
 
-## Leveringskanalen {#gs-ac-channels}
+Op deze pagina leert u hoe u één opname maakt van één levering. U kunt andere typen leveringen maken om uw gebruiksgevallen te verhelpen. Leer meer over de verschillende soorten leveringen en hoe te om hen in [ tot stand te brengen deze pagina ](gs-message.md).
 
-Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mails, SMS, pushmeldingen en directe mails, en de doeltreffendheid van deze campagnes meten aan de hand van verschillende speciale rapporten. Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd.
+De belangrijkste stappen bij het maken van een eenmalige levering zijn:
 
-De kernfuncties omvatten het richten, het bepalen en het personaliseren van berichten, de uitvoering van mededelingen, en de bijbehorende operationele rapporten. Het belangrijkste functionele toegangspunt is de leveringsmedewerker. Dit toegangspunt leidt tot meerdere mogelijkheden die door Adobe Campaign worden gedekt.
+1. **creeer een nieuwe levering**. [Meer informatie](#create-the-delivery)
 
-Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen:
+1. **bepaalt de leveringsinhoud**. [Meer informatie](#content-of-the-delivery)
 
-* **E-mailkanaal**: De e-mailleveringen laten u gepersonaliseerde e-mails naar de doelbevolking verzenden. [Meer informatie](#gs-channel-email)
+1. **selecteer de doelbevolking**. [Meer informatie](#target-population)
 
-* **Mobiele kanalen**: de leveringen op mobiele kanalen laten u gepersonaliseerde berichten op mobiele apparaten naar de doelbevolking verzenden. [Meer informatie](#gs-channel-sms)
-
-* **Mobiel toepassingskanaal**: De mobiele App leveringen laten u berichten naar de apparaten van iOS en van Android verzenden. [Meer informatie](#gs-channel-push)
-
-* **Directe postkanaal**: De directe postleveringen laten u een extractiedossier produceren dat gegevens over de doelbevolking bevat. [Meer informatie](#gs-channel-direct)
-
-
-  Andere kanalen worden beschreven op [ deze sectie ](#other-channels).
-
-  >[!NOTE]
-  >
-  >Het aantal beschikbare kanalen is afhankelijk van uw contract. Controleer hiervoor uw licentieovereenkomst.
-
-## Kies uw kanaal {#gs-channel}
-
-### Email channel {#gs-channel-email}
-
-Het [ E-mailkanaal ](../send/direct-mail.md) is één van de kernkanalen in Adobe Campaign, toestaand u om gepersonaliseerde e-mails aan specifieke doelstellingen te plannen en te verzenden.
-
-U kunt verschillende typen e-mailberichten verzenden:
-
-* E-mailberichten voor één verzending: e-mails die u één keer naar een bepaald doel kunt verzenden. Deze worden gewoonlijk gebruikt om een specifieke inhoud te promoten die maar één keer wordt voorbereid en verzonden (nieuwsbrief, promotiemail, enz.).
-* Herhalende e-mails: in een campagne verzendt u regelmatig dezelfde e-mail en aggregeert u elke verzending en de bijbehorende rapporten op gezette tijden. Dezelfde e-mail wordt verzonden, maar doorgaans naar een ander doel, op basis van het in aanmerking komende doel voor de dag van de verzending. Een veelvoorkomend voorbeeld is een e-mailbericht voor verjaardagen. Voor meer op dit, verwijs naar [ Terugkomende leveringen ](../../automation/workflow/recurring-delivery.md).
-* Transactiee-mails: eenheidse e-mails die worden geactiveerd op basis van het gedrag van uw klanten. Verwijs naar [ Transactioneel overseinen ](../send/transactional.md).
-
-Om over leveringsgebruik en aanbevelingen te leren, raadpleeg de beste praktijken van Adobe Campaign Classic [ Levering ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html#sending-messages) {target="_blank"}
-
-Voor meer op de verschillende types van leveringen, verwijs naar [ deze sectie ](#types-of-deliveries).
-
-### Mobiel kanaal {#gs-channel-sms}
-
-Adobe Campaign staat u toe om [ SMS ](../send/sms/sms.md) en [ LIJN ](../send/line.md) berichten op mobiele telefoons te leveren.
-
-Voor SMS-berichten kunt u alleen in tekstindeling berichten maken, wijzigen en personaliseren. Je kunt ook een voorbeeld van je SMS-berichten bekijken voordat ze worden verzonden.
-
-Voor lijnberichten kunt u tekst of afbeeldingen en koppelingen verzenden.
-
-Als u SMS- of lijnberichten wilt verzenden naar een mobiele telefoon die u nodig hebt:
-
-* Een externe account die is geconfigureerd op het **[!UICONTROL Mobile (SMS)]** -kanaal of op het **[!UICONTROL LINE]** -kanaal.
-* Een SMS- of REGELS-leveringssjabloon die correct is gekoppeld aan deze externe account.
-
-
-### Push-meldingskanaal {#gs-channel-push}
-
-U kunt Adobe Campaign gebruiken om gepersonaliseerde en gesegmenteerde [ dupberichten ](../send/push.md) op de mobiele apparaten van iOS en Android, door specifieke apps te verzenden. Nadat configuratie- en integratiestappen zijn uitgevoerd, kunnen iOS- en Android-leveringen worden gemaakt en verzonden met Adobe Campaign. U kunt ook uitgebreide berichten met afbeeldingen of video&#39;s ontwerpen en verzenden naar Android-apparaten.
-
-### Direct mailkanaal {#gs-channel-direct}
-
-[ Directe post ](../send/direct-mail.md) is een off-line kanaal dat u toestaat om tot stand te brengen, te personaliseren en een extern dossier te produceren om met uw directe postleveranciers te delen. Gebruik dit kanaal om online en offline kanalen in uw klantenreizen te orkesteren.
-
-Wanneer u een direct-maillevering voorbereidt, genereert Adobe Campaign een bestand met alle doelprofielen en de gekozen contactinformatie (bijvoorbeeld postadres). U kunt dit bestand vervolgens naar uw directe-mailprovider sturen, die voor de verzending zal zorgen.
-
-
-### Andere kanalen {#other-channels}
-
-Adobe Campaign wordt ook geleverd met een sjabloon voor telefonische levering, die wordt gebruikt om externe leveringen te maken. Als u dit kanaal gebruikt, implementeert u speciale methoden voor het verwerken van uitvoerbestanden. De stappen van de configuratie zijn het zelfde als voor [ Directe postkanaal ](../send/direct-mail.md).
+Vervolgens kunt u uw berichten voorbereiden, testen, verzenden en controleren.
 
 >[!NOTE]
 >
->Het telefoonkanaal is geen ingebouwd kanaal. Voor de implementatie ervan moet Adobe Consulting of een Adobe-partner worden betrokken. Neem contact op met uw Adobe voor meer informatie.
+>De stappen in deze sectie worden beschreven veronderstellen dat alle doelontvangers en hun profielen in het gegevensbestand worden opgeslagen, behalve in het geval van externe levering (zie [ Selecterend externe ontvangers ](steps-defining-the-target-population.md#selecting-external-recipients)) die.
 
-Voor de leveringen van het type &#39;Overige&#39; wordt een specifieke technische sjabloon gebruikt die geen proces uitvoert: hiermee kunnen ze marketingacties beheren die buiten het Adobe Campaign-platform worden uitgevoerd.
+## De levering maken {#create-the-delivery}
 
-Dit kanaal heeft geen specifiek mechanisme. Het is een generisch kanaal dat zijn eigen externe rekening heeft die optie, het type van leveringsmalplaatje, en activiteit van het campagnewerkschema verpletteren, enkel zoals een ander communicatiekanaal beschikbaar in Adobe Campaign. Dit kanaal is alleen bedoeld voor beschrijvende doeleinden, bijvoorbeeld om leveringen te definiëren waarvoor u het doel van een campagne die is uitgevoerd in een ander programma dan Adobe Campaign, wilt bijhouden.
+Voer de volgende stappen uit om een levering te maken:
 
-## Kies het type levering {#types-of-deliveries}
+1. Klik op **[!UICONTROL Create]** boven de lijst met leveringen. Wanneer u een nieuwe levering creeert, moet u het leveringskanaal selecteren. U doet dit door de desbetreffende leveringssjabloon te selecteren in de vervolgkeuzelijst in het veld **[!UICONTROL Delivery template]** .
 
-Er zijn drie typen leveringsobjecten in campagne:
+   ![](../send/assets/select-the-new-template.png)
 
-### Eén levering {#single-delivery}
+   Er is een ingebouwde sjabloon beschikbaar voor elk kanaal dat u hebt geïnstalleerd: direct mail, e-mail, telefoon, mobiel kanaal (SMS), X (Twitter), enzovoort. Welke kanalen beschikbaar zijn in de lijst, is afhankelijk van uw licentieovereenkomst.
 
-A **levering** is een standalone leveringsvoorwerp dat eens wordt uitgevoerd. Het kan worden gedupliceerd, opnieuw worden bereid, maar zolang het in zijn definitieve staat (geannuleerd, gestopt, gebeëindigd) is, kan het niet opnieuw worden gebruikt.
+   U kunt nieuwe leveringsmalplaatjes tot stand brengen om specifieke parameters vooraf te vormen om uw behoeften aan te passen. Voor verdere informatie over malplaatjes, verwijs naar [ deze sectie ](about-templates.md).
 
-De leveringen kunnen of van de lijst van leveringen, of binnen een werkschema via de activiteit van de a [ Levering ](../../automation/workflow/delivery.md) worden gecreeerd.
+1. Voer in het veld **[!UICONTROL Label]** een naam voor de levering in.
 
-Workflows bieden ook specifieke leveringsactiviteiten op basis van het type kanaal dat u wilt gebruiken. Voor meer op deze activiteiten, verwijs naar [ deze sectie ](../../automation/workflow/cross-channel-deliveries.md).
+   (facultatief) Een leveringscode kan ook aan de levering worden toegewezen. De naam van de levering en de bijbehorende code zijn zichtbaar in de lijst van leveringen maar niet aan de ontvangers.
 
-### Terugkerende levering {#recurring-delivery}
+1. (optioneel) Voeg een beschrijving toe in het veld **[!UICONTROL Description]** .
+1. (facultatief) selecteer de leveringsaard op het relevante gebied. Deze informatie is nuttig voor het volgen van de levering: u kunt filtreren gebaseerd op dit criterium in de leveringslijst of vragen bouwen gebruikend dit selectiecriterium.
+1. Klik op **[!UICONTROL Continue]** om deze informatie te bevestigen en het venster voor berichtconfiguratie weer te geven.
 
-A **terugkomende levering** is beschikbaar in de context van een werkschema. Hiermee kunt u telkens een nieuwe levering maken wanneer de activiteit wordt uitgevoerd. Zo voorkomt u dat u een nieuwe levering moet maken voor terugkerende taken. Als u dit soort activiteiten bijvoorbeeld eens per maand uitvoert, krijgt u na een jaar 12 leveringen.
+## De inhoud van de levering definiëren {#content-of-the-delivery}
 
-De terugkomende leveringen worden gecreeerd binnen werkschema&#39;s via de [ Terugkomende leveringsactiviteit ](../../automation/workflow/recurring-delivery.md). Een voorbeeld van deze activiteit die wordt gebruikt wordt voorgesteld in deze sectie: [ Creërend een terugkomende levering in een het richten werkschema ](../../automation/workflow/send-a-birthday-email.md).
+De leveringsinhoud is klaar om te worden gevormd. De definitie van de inhoud van de levering is specifiek voor elk kanaal. Raadpleeg de desbetreffende sectie voor meer informatie hierover:
 
-### Doorlopende levering {#continuous-delivery}
-
-A **ononderbroken levering** is beschikbaar in de context van een werkschema. Het laat u nieuwe ontvangers aan een bestaande levering toevoegen, die vermijdt het moeten een nieuwe levering tot stand brengen telkens als het wordt uitgevoerd.
-
-Als een informatie in de levering verandert (inhoud, naam, enz.), wordt een nieuw leveringsvoorwerp gecreeerd bij de leveringsuitvoering. Als er geen informatie is gewijzigd, wordt hetzelfde leveringsobject opnieuw gebruikt en worden de logbestanden voor levering en bijhouden toegevoegd aan hetzelfde object.
-
-Als voorbeeld, als u dit type van activiteit eens per maand in werking stelt, zult u eindigen met één enkele levering na een jaar (vooropgesteld u geen verandering in de levering).
-
-De ononderbroken leveringen worden gecreeerd binnen werkschema&#39;s via de [ Ononderbroken leveringsactiviteit ](../../automation/workflow/continuous-delivery.md).
+* [De e-mailcontent opgeven](../send/email.md)
+* [De SMS-inhoud definiëren](../send/sms/sms-content.md)
+* [Content van direct mail definiëren](../send/direct-mail.md)
+* [De inhoud van de pushmelding afzwakken](../send/push.md)
 
 
-## Geef op hoe berichten moeten worden verzonden{#gs-send-msg}
+## Doelgroep definiëren {#target-population}
 
-Nadat u het bericht hebt gemaakt en de inhoud ervan hebt ontworpen en getest, kunt u kiezen hoe u het bericht wilt verzenden. De campagne biedt een reeks mogelijkheden aan:
+Voor elke levering, kunt u verscheidene soorten doelpubliek bepalen:
 
-* Handmatig berichten verzenden naar het hoofddoel
+* **Belangrijkste publiek**: profielen die berichten ontvangen. [Meer informatie](#select-the-main-target)
+* **doel van het Bewijs**: profielen die proefdrukberichten ontvangen. Een proef is een specifiek bericht dat u toestaat om een bericht te testen voordat het naar het hoofddoel wordt verzonden. [Meer informatie](#select-the-proof-target)
 
-  ![](assets/send-email.png)
+Daarnaast kunt u in het kader van een marketingcampagne het volgende toevoegen:
 
-  Leer hoe te om berichten in [ deze sectie ](../send/send.md) te verzenden
+* **zaadadressen**: ontvangers die uit het leveringsdoel maar ontvangen de levering zijn. [Meer informatie](../audiences/test-profiles.md)
+* **de groepen van de Controle**: de bevolking die niet de levering ontvangt, wordt gebruikt om gedrag en campagneeffect te volgen. [Meer informatie](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
 
-* Verzend berichten verbonden aan a [ marketing campagne ](campaigns.md)
+### Selecteer de belangrijkste ontvangers van de levering {#select-the-main-target}
 
-  ![](assets/deliveries-in-a-campaign.png)
+In de meeste gevallen wordt het hoofddoel opgehaald uit de Adobe Campaign-database (standaardmodus). Nochtans, kunnen de ontvangers ook in een [ extern dossier ](steps-defining-the-target-population.md#selecting-external-recipients) worden opgeslagen.
 
-  Leer hoe te om berichten in de context van een campagne in [ te verzenden deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html) {target="_blank"}
+Volg onderstaande stappen om de ontvangers van een levering te selecteren:
 
-* Verzend berichten via a [ werkschema ](../config/workflows.md)
+1. Selecteer **[!UICONTROL To]** in de leveringseditor.
+1. Als de ontvangers in het gegevensbestand worden opgeslagen, kies de eerste optie.
 
-  ![](assets/send-in-a-wf.png)
+   ![](../send/sms/assets/audience_to.png){zoomable="yes"}
 
-  Leer hoe te om e-mailleveringen in [ te automatiseren deze pagina ](../../automation/workflow/delivery.md)
+1. Selecteer de [ doelafbeelding ](../audiences/target-mappings.md) in de **[!UICONTROL Target mapping]** drop-down lijst.
+1. Klik op de knop **[!UICONTROL Add]** om beperkingsfilters te definiëren.
 
-* [ Berichten van de Trekker ](../send/transactional.md) van een gebeurtenis
+   ![](assets/target-type.png){width="60%" align="left" zoomable="yes"}
 
-  Transactioneel overseinen (het Centrum van het Bericht) is de module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen.
+   Selecteer een type filter en klik op **[!UICONTROL Next]** om de voorwaarden te definiëren. U kunt de gefilterde ontvangers weergeven via het tabblad **[!UICONTROL Preview]** . Afhankelijk van het type doel kunt u met de knop **[!UICONTROL Refine target]** verschillende doelcriteria combineren.
 
-  Leer meer over transactieberichten vermogen in [ deze sectie ](../architecture/architecture.md#transac-msg-archi)
+   De volgende doeltypen zijn beschikbaar:
 
-  De stappen om transactionele berichten te vormen en te verzenden zijn gedetailleerd in [ deze pagina ](../send/transactional.md)
+   * **[!UICONTROL Filtering conditions]** : gebruik deze optie om een query te definiëren en het resultaat weer te geven. Leer hoe te om een vraag in [ te ontwerpen deze sectie ](../../automation/workflow/query.md).
+   * **[!UICONTROL A list of recipients]** : gebruik deze optie om een lijst met profielen als doel in te stellen. Leer meer over lijsten in [ deze sectie ](../audiences/create-audiences.md).
+   * **[!UICONTROL A recipient]** : gebruik deze optie om een specifiek profiel in de database te selecteren.
+   * **[!UICONTROL Recipients included in a folder]** : gebruik deze optie om alle profielen in een specifieke map als doel in te stellen.
+   * **[!UICONTROL Recipients of a delivery]**: gebruik deze optie om het doel te maken van de ontvangers van een levering. U moet dan de levering in de lijst selecteren:
 
-* Uw berichten plannen
+     ![](assets/target-recipient-delivery.png)
 
-  ![](assets/schedule-send.png)
+   * **[!UICONTROL Delivery recipients belonging to a folder]**: gebruik deze optie om het doel te maken van de ontvangers die in een specifieke map zijn geleverd.
 
-  Leer hoe te om het verzenden van uw leveringen in [ te plannen deze pagina ](../send/configure-and-send.md)
+     ![](assets/target-delivery-folder.png)
 
-  Zie ook dit [ Geval van het Gebruik: leer hoe programma en verzend een verjaardagsemail ](../../automation/workflow/send-a-birthday-email.md)
+     U kunt het gedrag van ontvangers filteren door een keuze te maken in de vervolgkeuzelijst:
+
+     ![](assets/target-filter-behavior.png)
+
+     >[!NOTE]
+     >
+     >Met de optie **[!UICONTROL Include sub-folders]** kunt u ook de leveringen uitvoeren die zich bevinden in mappen in de boomstructuur onder het geselecteerde knooppunt.
+
+   * **[!UICONTROL Subscribers of an information service]** : met deze optie kunt u een nieuwsbrief selecteren waarop de ontvangers moeten worden geabonneerd om de levering die wordt gemaakt als doel te hebben.
+
+     ![](assets/target-service.png)
+
+   * **[!UICONTROL User filters]**: met deze optie hebt u toegang tot de vooraf geconfigureerde filters om deze te gebruiken als filtercriteria voor profielen in de database. Vooraf gevormde filters worden voorgesteld in [ deze sectie ](../audiences/create-filters.md#default-filters).
+   * Met de optie **[!UICONTROL Exclude recipients from this segment]** kunt u zich richten op ontvangers die niet aan de gedefinieerde doelcriteria voldoen. Als u deze optie wilt gebruiken, selecteert u het desbetreffende vak en past u vervolgens de focus toe, zoals eerder is gedefinieerd, om de resulterende profielen uit te sluiten.
+
+1. Voer in het veld **[!UICONTROL Label]** een naam in voor dit doel. Standaard is het label het label van het eerste doelcriterium. Wanneer het combineren van het filtreren criteria, wordt het geadviseerd om een expliciete naam te gebruiken.
+1. Klik op **[!UICONTROL Finish]** om de opties voor het opgeven van doelen te valideren.
+
+   De gedefinieerde doelcriteria worden samengevat in het centrale gedeelte van het hoofdtabblad voor doelconfiguratie. Klik op een criterium om de inhoud ervan weer te geven (configuratie en voorvertoning). Als u een criterium wilt verwijderen, klikt u op het kruisje dat zich na het label bevindt.
+
+   ![](assets/target-remove-criterion.png)
+
+#### Externe ontvangers selecteren {#selecting-external-recipients}
+
+U kunt berichten verzenden naar profielen die niet in de database maar in een extern bestand zijn opgeslagen. Als u bijvoorbeeld een levering wilt verzenden aan ontvangers die zijn geïmporteerd uit een tekstbestand, voert u de volgende stappen uit:
+
+1. Klik op de koppeling **[!UICONTROL To]** om de ontvangers van de levering te selecteren.
+1. Selecteer de optie **[!UICONTROL Defined in an external file]** .
+1. Selecteer het bestand met de ontvangers.
+1. Klik tijdens het importeren van de ontvangers op de koppeling **[!UICONTROL File format definition...]** om het externe bestand te selecteren en te configureren.
+
+   Voor meer informatie over gegevensinvoer, verwijs naar [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection) {target="_blank"}.
+
+1. Klik op **[!UICONTROL Finish]** en configureer de levering als standaardlevering.
+
+>[!CAUTION]
+>
+>Wanneer u de inhoud van het bericht voor verzending via e-mail definieert, moet u de koppeling naar de spiegelpagina niet opnemen: deze kan niet worden gegenereerd in deze leveringsmodus.
+
+#### Uitsluitingsinstellingen definiëren {#define-exclusion-settings}
+
+Wanneer u het doel van een levering definieert, wordt het tabblad **[!UICONTROL Exclusions]** gebruikt om het aantal berichten te beperken. Standaardparameters worden aanbevolen, maar u kunt de instellingen naar wens aanpassen. Deze opties mogen echter alleen door een deskundige gebruiker worden gewijzigd om elk misbruik en elke fout te voorkomen.
+
+U kunt adressen uitsluiten die een bepaald aantal opeenvolgende fouten hebben bereikt, of waarvan de kwaliteitsclassificatie onder een drempel is die in dit venster wordt gespecificeerd. U kunt ook kiezen of u niet-gekwalificeerde adressen waarvoor geen gegevens zijn geretourneerd, wilt autoriseren.
+
+Klik op de koppeling **[!UICONTROL Edit...]** om de standaardconfiguratie te wijzigen.
+
+![](assets/target-exclusion-settings.png)
+
+De volgende opties zijn beschikbaar:
+
+* **[!UICONTROL Exclude duplicate addresses during delivery]**: deze optie is standaard actief en verwijdert dubbele e-mailadressen tijdens levering. De toegepaste strategie kan variëren afhankelijk van hoe Adobe Campaign wordt gebruikt en het type gegevens in het gegevensbestand. De waarde van de optie kan voor elke leveringsmalplaatje worden gevormd.
+* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , d.w.z. ontvangers wier e-mailadressen in de lijst van gewezen personen staan (&#39;Weigeren&#39;). Deze optie moet geselecteerd blijven om de beroepsethiek van e-marketing in acht te nemen.
+* **[!UICONTROL Exclude quarantined recipients]** : met deze optie kunt u profielen met een adres dat in quarantaine is geplaatst, uitsluiten van het doel. We raden u ten zeerste aan deze optie geselecteerd te houden. Leer meer over quarantainebeheer in [ deze sectie ](understanding-quarantine-management.md).
+* **[!UICONTROL Limit delivery]** aan een bepaald aantal berichten. Met deze optie kunt u het maximum aantal berichten invoeren dat moet worden verzonden. Als het doelpubliek het aantal vermelde berichten overschrijdt, wordt een willekeurige selectie toegepast op het doel. Houd deze waarde in op &#39;0&#39; om alle berichten te verzenden.
+* **[!UICONTROL Keep duplicate records (same identifier)]**: met deze optie kunnen meerdere leveringen worden verzonden naar ontvangers die aan verschillende doelcriteria voldoen.
+
+### Ontvangers van proefdrukberichten selecteren {#select-the-proof-target}
+
+Voor e-mailleveringen kunt u proefdrukken verzenden om uw berichtinhoud te valideren. Door proefdrukken te verzenden, kunt u de koppeling om te weigeren controleren, de pagina spiegelen en andere koppelingen controleren, het bericht valideren, controleren of afbeeldingen worden weergegeven, mogelijke fouten opsporen, enz. Mogelijk wilt u ook uw ontwerp en rendering op verschillende apparaten controleren.
+
+Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvorens het naar het belangrijkste publiek te verzenden. Ontvangers van de proefdruk zijn verantwoordelijk voor het goedkeuren van het bericht: rendering, content, personalisatie-instellingen, configuratie.
+
+Voor meer bij proefontvangers en het verzenden, verwijs naar [ deze sectie ](../send/preview-and-proof.md#send-proofs).
+
+![](../send/assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#seeds-and-proofs-video)
 
 
-## Aanpassing toevoegen{#personalization}
+#### Video over zelfstudie {#seeds-and-proofs-video}
 
-Berichten van Adobe Campaign kunnen op verschillende manieren worden gepersonaliseerd. [ leer meer over verpersoonlijkingsmogelijkheden ](../send/personalize.md)
+In deze video leert u hoe u zaden en proefdrukken aan een bestaande e-mail kunt toevoegen en hoe u deze kunt verzenden.
 
-U kunt:
-
-* Dynamische personalisatievelden invoegen. [Meer informatie](../send/personalization-fields.md)
-* Vooraf gedefinieerde aanpassingsblokken invoegen. [Meer informatie](../send/personalization-blocks.md)
-* Voorwaardelijke content maken. [Meer informatie](../send/conditions.md)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 
-## Logbestanden voor aflevering en bijhouden{#gs-tracking-logs}
+De extra Campaign Classic hoe te video&#39;s zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
 
-Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken. U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
+## De levering voorbereiden en valideren {#validate-the-delivery}
 
-Leer hoe te om uw leveringen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages) te controleren {target="_blank"}
+Wanneer een levering is gecreeerd en gevormd, moet u het bevestigen alvorens het naar het belangrijkste doel te verzenden.
 
+Dit doet u als volgt:
+
+1. **analyseert de levering**: deze stap laat u de berichten voorbereiden om te leveren. [Meer informatie](../send/delivery-analysis.md).
+
+1. **verzendt proef**: deze stap laat u inhoud, URLs, verpersoonlijking, enz. controleren. [Meer informatie](../send/preview-and-proof.md).
+
+>[!IMPORTANT]
+>
+>De twee stappen hierboven MOETEN na elke wijziging op de berichtinhoud worden uitgevoerd.
+
+
+## De levering configureren en verzenden {#configuring-and-sending-the-delivery}
+
+Heb toegang tot de leveringsparameters om meer montages te vormen en te bepalen hoe te om uw berichten te verzenden. U kunt leveringsprioriteit bepalen, opstelling verzendende golven, de retry montages bevestigen, en uw levering testen verzendend. Zodra deze configuratie wordt gedaan, kunt u het verzenden bevestigen. De berichten worden dan verzonden onmiddellijk, of gebaseerd op het leveringsprogramma.
+
+Leer hoe te om uw leveringsmontages in [ te vormen deze pagina ](../send/configure-and-send.md).
