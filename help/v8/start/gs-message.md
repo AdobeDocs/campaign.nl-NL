@@ -4,9 +4,9 @@ description: Aan de slag met berichten
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 0ff645a87700c038b78fb4cc45062822d6d97148
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1305'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mails, SMS, pus
 
 De kernfuncties omvatten het richten, het bepalen en het personaliseren van berichten, de uitvoering van mededelingen, en de bijbehorende operationele rapporten.
 
-## Een levering maken {#gs-ac-delivery}
+## Gebruiksscenario’s {#gs-ac-delivery}
 
 Als u berichten wilt verzenden, moet u een levering maken. De wijze van de leveringsverwezenlijking hangt van uw gebruiksgeval af.
 
@@ -147,7 +147,7 @@ Als voorbeeld, als u dit type van activiteit eens per maand in werking stelt, zu
 
 De ononderbroken leveringen worden gecreeerd binnen werkschema&#39;s via de [ Ononderbroken leveringsactiviteit ](../../automation/workflow/continuous-delivery.md).
 
-## Aanpassing toevoegen{#personalization}
+## Aanpassing toevoegen {#personalization}
 
 Berichten van Adobe Campaign kunnen op verschillende manieren worden gepersonaliseerd. [ leer meer over verpersoonlijkingsmogelijkheden ](../send/personalize.md)
 
@@ -158,7 +158,7 @@ U kunt:
 * Voorwaardelijke content maken. [Meer informatie](../send/conditions.md)
 
 
-## Logbestanden voor aflevering en bijhouden{#gs-tracking-logs}
+## Verzenden en volgen {#gs-tracking-logs}
 
 Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken. U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
 
