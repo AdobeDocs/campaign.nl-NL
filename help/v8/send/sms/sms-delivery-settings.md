@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,12 @@ ht-degree: 0%
 
 De technische montages nodig voor een levering van SMS zijn:
 
-* Het verpletteren: [ de externe rekening SMPP ](smpp-external-account.md#smpp-connection-settings)
-
-* [De ](#sms-tab)
+* De externe rekening SMPP voor het bericht dat verplettert. [Meer informatie](smpp-external-account.md#smpp-connection-settings)
+* Configureer het tabblad SMS. [ leer hoe ](#sms-tab)
 
 U kunt deze allemaal instellen in een leveringssjabloon om te voorkomen dat u de instellingen voor elk sms-leveringsproject hoeft uit te voeren.
 
-## Het tabblad **[!UICONTROL SMS]** configureren {#sms-tab}
+## Het tabblad SMS configureren {#sms-tab}
 
 ![](assets/send_settings.png){zoomable="yes"}
 
@@ -97,25 +96,3 @@ De lijst maakt een lijst van facultatieve parameters om met elk bericht te verze
   >
   >Binaire indelingen worden altijd gecodeerd in de vorm big endian.
 
-## Een sms-levering maken {#sms-delivery}
-
-Volg onderstaande stappen om een nieuwe SMS-levering te maken:
-
-1. Maak een nieuwe levering, bijvoorbeeld via het leveringsdashboard of in de leveringsmap in **[!UICONTROL Explorer]** .  Standaard krijgt deze het label &quot;E-maillevering&quot;.
-
-1. Selecteer de leveringstemplate die u voor uw SMS-verzendingen hebt gemaakt. [ leer hier meer ](sms-mid-sourcing.md#sms-delivery-template).
-
-   ![](assets/sms_create.png){zoomable="yes"}
-
-<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-* For mid-sourcing infrastructure, -->
-
-1. Wijzig de naam van de levering in het veld **[!UICONTROL Label]** en voeg indien nodig informatie toe in het veld **[!UICONTROL Delivery code]** en in de lijst **[!UICONTROL Nature]** . U kunt ook een **[!UICONTROL Description]** toevoegen aan uw levering.
-
-1. Klik op de knop **[!UICONTROL Continue]** . Nu hebt u alle instellingen van uw sjabloon in de levering.
-
-1. U kunt de knop **[!UICONTROL Properties]** inchecken, zodat alles naar wens is ingesteld. [ leer meer over het lusje van SMS ](#sms-tab)
-
-![](assets/sms_settings.png){zoomable="yes"}
-
-U kunt uw [ inhoud van SMS ](sms-content.md) nu vormen.

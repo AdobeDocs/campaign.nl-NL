@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 16%
+source-wordcount: '685'
+ht-degree: 17%
 
 ---
 
@@ -53,6 +53,7 @@ ht-degree: 16%
    + Sms {#sms}
       + [Aan de slag met sms](send/sms/sms.md)
       + Sms-kanaal configureren{#config-sms}
+         + [ de leveringsmontages van SMS ](send/sms/sms-delivery-settings.md)
          + [ SMPP externe rekeningsmontages ](send/sms/smpp-external-account.md)
          + [Kenmerken van SMS-kanalen](send/sms/sms-channel.md)
          + [ Validerend een verbinding SMPP ](send/sms/smpp-connection.md)
@@ -60,7 +61,7 @@ ht-degree: 16%
          + [ Midden-sourcing infrastructuur ](send/sms/sms-mid-sourcing.md)
          + [ de schakelaarbeschrijving van SMPP ](send/sms/smpp-connector-delivery.md)
       + Een SMS-bericht maken {#create-sms}
-         + [ de leveringsmontages van SMS ](send/sms/sms-delivery-settings.md)
+         + [Een sms-verzending maken](send/sms/create-sms.md)
          + [De inhoud definiëren](send/sms/sms-content.md)
          + [De doelgroep selecteren](send/sms/sms-audience.md)
       + SMS valideren en verzenden {#validate-sms}
