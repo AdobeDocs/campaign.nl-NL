@@ -1,38 +1,40 @@
 ---
-title: Met SMS wordt de inhoud gedefinieerd
-description: Leer hoe u de inhoud van een SMS-levering instelt
+title: De SMS-inhoud definiëren en aanpassen
+description: Leer om de inhoud van een levering van SMS te bepalen en te personaliseren
 feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 71d9376c-86e8-41ec-92dc-863455d40c7a
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
-# SMS-inhoud {#sms-content}
+# De SMS-inhoud definiëren {#sms-content}
 
 Om de inhoud van uw levering van SMS te vormen:
 
-1. Voer de inhoud van het bericht in de wizard **[!UICONTROL Text content]** in
+1. Voer de inhoud van het bericht in op het tabblad **[!UICONTROL Text content]** .
 
    ![](assets/sms_content.png){zoomable="yes"}
 
-1. U kunt uw bericht personaliseren door verpersoonlijkingsgebieden op te nemen (bijvoorbeeld toevoegend de voornaam), of het opnemen van vooraf bepaald verpersoonlijkingsblok (bijvoorbeeld toevoegend de groeten). U kunt op de verpersoonlijkingsknoop klikken om deze toe te voegen:
+1. U kunt uw bericht personaliseren door verpersoonlijkingsgebieden op te nemen (bijvoorbeeld toevoegend de voornaam), of het opnemen van vooraf bepaald verpersoonlijkingsblok (bijvoorbeeld toevoegend de groeten). Klik op de verpersoonlijkingsknoop om deze toe te voegen:
 
    ![](assets/sms_perso.png){zoomable="yes"}
 
-   Nadat u op **[!UICONTROL Recipient]** > **[!UICONTROL First name]** hebt geklikt, ziet u de personalisatie als volgt:
+   Nadat u bijvoorbeeld op **[!UICONTROL Recipient]** > **[!UICONTROL First name]** hebt geklikt, wordt de SMS-inhoud bijgewerkt met het aanpassingsveld, zoals hieronder:
 
    ![](assets/sms_perso_recipient.png){zoomable="yes"}
 
-1. U kunt een voorvertoning van de levering weergeven door op het tabblad **[!UICONTROL Preview]** te klikken en op de vervolgkeuzelijst **[!UICONTROL Test personalization]** te klikken en door een ontvanger in de tabel **[!UICONTROL Recipient]** te kiezen.
+   Leer meer over verpersoonlijking in Adobe Campaign in [ deze sectie ](../personalize.md).
+
+1. U kunt een voorvertoning van uw inhoud weergeven via het tabblad **[!UICONTROL Preview]** . Als u uw aanpassingsinstellingen wilt controleren, klikt u op de vervolgkeuzelijst **[!UICONTROL Test personalization]** en selecteert u een ontvanger.
 
    ![](assets/sms_preview.png){zoomable="yes"}
 
-   Je krijgt een voorbeeld van je SMS met de personalisatie:
+   Je kunt de voorvertoning van je SMS controleren met de personalisatie:
 
    ![](assets/sms_preview_phone.png){zoomable="yes"}
 

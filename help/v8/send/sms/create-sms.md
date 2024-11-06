@@ -4,9 +4,9 @@ description: Meer informatie over het maken van een SMS-levering
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '170'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 Volg onderstaande stappen om een nieuwe SMS-levering te maken:
 
-1. Maak een nieuwe levering en selecteer de SMS-leveringstemplate die u voor uw SMS-verzendingen hebt gemaakt. [ leer hier meer ](sms-mid-sourcing.md#sms-delivery-template).
+1. Creeer een nieuwe levering en selecteer het [ leveringsmalplaatje van SMS ](sms-mid-sourcing.md#sms-delivery-template) u voor uw verzending van SMS creeerde.
 
    ![](assets/sms_create.png){zoomable="yes"}
 
-   Leer meer over de stappen van de leveringsverwezenlijking in [ deze pagina ](../../start/create-message.md).
+   De aanmaakstappen van de levering zijn gedetailleerd in [ deze pagina ](../../start/create-message.md).
 
 <!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
 * For mid-sourcing infrastructure, -->
@@ -31,7 +31,7 @@ Volg onderstaande stappen om een nieuwe SMS-levering te maken:
 
 1. U kunt de knop **[!UICONTROL Properties]** inchecken, zodat alles naar wens is ingesteld. [ leer meer over het lusje van SMS ](sms-delivery-settings.md#sms-tab)
 
-![](assets/sms_settings.png){zoomable="yes"}
+   ![](assets/sms_settings.png){zoomable="yes"}
 
 1. [ bepaal de inhoud ](sms-content.md) van uw levering.
 
