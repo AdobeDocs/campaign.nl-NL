@@ -5,60 +5,63 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: bb77b915f50b31d8d91e25da6fa86aa15b03bba4
+source-git-commit: 19c5a15a0f42285fc3b1a448f3cbf474d741e6e2
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
 # Aan de slag met sms {#gs-sms-channel}
 
-Met Adobe Campaign kunt u persoonlijke SMS-berichten op mobiele apparaten aanbieden.
+Gebruik Adobe Campaign om tekstberichten naar uw klanten op hun mobiele apparaten te verzenden. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
 
-Voor SMS-berichten kunt u alleen in tekstindeling berichten maken, wijzigen en personaliseren. Je kunt ook een voorbeeld van je SMS-berichten bekijken voordat ze worden verzonden.
+Als u SMS wilt leveren aan mobiele apparaten met Adobe Campaign, hebt u het volgende nodig:
+
+* Een externe account die op het **[!UICONTROL Mobile (SMS)]** -kanaal is geconfigureerd. Leer hoe te om het kanaal van SMS op uw [ midsourcing infrastructuur ](sms-mid-sourcing.md) te vormen. Voor deze configuratie, moet u de [ SMPP externe accountparameters ](smpp-external-account.md) en de [ het kanaalkenmerken van SMS ](sms-channel.md) begrijpen.
+Na deze opstelling, controleer uw verbinding SMPP en weet hoe te om het problemen op te lossen indien nodig. [Meer informatie](smpp-connection.md).
+
+* Een SMS-leveringssjabloon die correct is gekoppeld aan deze externe account.
+
 
 >[!NOTE]
 >
 >U kunt Adobe Campaign ook gebruiken om [ LIJN ](../../send/line.md) berichten, met tekst en/of beelden en verbindingen te verzenden.
 
-Als u SMS wilt leveren aan een mobiele telefoon met Adobe Campaign, hebt u het volgende nodig:
 
-* Een externe account die is geconfigureerd op het **[!UICONTROL Mobile (SMS)]** -kanaal of op het **[!UICONTROL LINE]** -kanaal.
-* Een SMS-leveringssjabloon die correct is gekoppeld aan deze externe account.
-
-U kunt in deze documentatie de stappen zien om een levering van SMS te vormen, te verzenden en te controleren:
-
-* **Sms-kanaal configureren**
-
-Eerst, moet u het kanaal van SMS op uw [ midsourcing infrastructuur ](sms-mid-sourcing.md) vormen.
-
-<!--The steps depend on the platform: either you have [a standalone instance](sms-standalone-instance.md) or you are in [a mid-sourcing infrastructure](sms-mid-sourcing.md).-->
-
-Voor deze configuratie, moet u de [ SMPP externe accountparameters ](smpp-external-account.md) en de [ het kanaalkenmerken van SMS ](sms-channel.md) begrijpen.
-
-Na deze opstelling, controleer uw [ verbinding SMPP en weet hoe te om het problemen op te lossen indien nodig ](smpp-connection.md).
-
-* **creeer uw eerste levering van SMS**
-
-Om met de configuratie van uw levering van SMS te beginnen:
-
-1. Creeer uw levering, en vul de [ leveringsmontages van SMS ](sms-delivery-settings.md) in,
-
-1. [ bepaal de inhoud ](sms-content.md) van uw levering,
-
-1. [ selecteer het publiek ](sms-audience.md).
-
-De stappen om een publiek te bepalen zijn gedetailleerd op [ deze pagina ](../../audiences/create-audiences.md).
-
-* **bevestigt en verzendt SMS**
-
-Na het aanmaken van de levering:
-
-1. [ verzendt proef ](sms-proofs.md) om het teruggeven en de inhoud te bevestigen,
-
-1. Dan, [ verzend naar het definitieve publiek ](sms-send.md).
-
-* **Monitor en spoor SMS**
-
-Na verzenden, [ leren hoe te om uw SMS ](sms-monitor.md) te controleren en te volgen.
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-sms.md">
+<img alt="SMS maken" src="../../assets/do-not-localize/sms-sending.jpg">
+</a>
+<div><a href="create-sms.md"><strong>Een sms-verzending maken</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="sms-content.md">
+<img alt="SMS-inhoud" src="../../assets/do-not-localize/sms.jpg">
+</a>
+<div>
+<a href="sms-content.md"><strong> bepalen en personaliseren inhoud </strong></a>
+</div>
+<p></td>
+<td>
+<a href="sms-audience.md">
+<img alt="Doelgroep" src="../../assets/do-not-localize/sms-opt-out.jpg">
+</a>
+<div>
+<a href="sms-audience.md"><strong> Opt-uit beheer </strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="smpp-external-account.md">
+<img alt="Configuratie" src="../../assets/do-not-localize/sms-config.jpg">
+</a>
+<div>
+<a href="smpp-external-account.md"><strong>Sms-kanaal configureren</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
