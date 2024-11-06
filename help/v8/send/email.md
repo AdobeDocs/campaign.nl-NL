@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
+source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ Met e-mailleveringen kunt u persoonlijke e-mails sturen naar de doelgroep. [Meer
 
 Leer zeer belangrijke stappen om een levering in [ tot stand te brengen en te vormen deze pagina ](../start/create-message.md).
 
-## Uw eerste e-maillevering maken
+## Een e-maillevering maken
 
 Maak persoonlijke en contextafhankelijke e-mails die consistent zijn met de rest van de klantervaring.
 

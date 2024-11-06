@@ -5,27 +5,27 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 4%
+source-wordcount: '248'
+ht-degree: 2%
 
 ---
 
 # Aan de slag met sms {#gs-sms-channel}
 
-Gebruik Adobe Campaign om persoonlijke SMS-berichten te verzenden.
+Adobe Campaign staat u toe om gepersonaliseerde [ SMS ](../send/sms/sms.md) op mobiele apparaten te leveren.
+
+Voor SMS-berichten kunt u alleen in tekstindeling berichten maken, wijzigen en personaliseren. Je kunt ook een voorbeeld van je SMS-berichten bekijken voordat ze worden verzonden.
 
 >[!NOTE]
 >
->Adobe Campaign laat u ook dupberichten op mobiles, via zijn **Adobe Campaign Mobiele App Kanaal (NMAC)** optie voorleggen. Lees meer in [deze sectie](../push.md).
+>U kunt Adobe Campaign ook gebruiken om [ LIJN ](../send/line.md) berichten, met tekst en/of beelden en verbindingen te verzenden.
 
-De eenvoud en het gemak van het gebruik van SMS maken het een zeer waardevol communicatiekanaal naast zijn robuustheid en ongeëvenaarde verenigbaarheid over miljarden terminals.
+Als u SMS wilt leveren aan een mobiele telefoon met Adobe Campaign, hebt u het volgende nodig:
 
-Er zijn twee manieren om een SMS-bericht te verzenden:
-
-* Verzend het manueel van een telefoon. Dat is de gebruikelijke manier om rechtstreeks tussen mensen te communiceren.
-* Verzend het van Internet. Dat is de manier waarop Adobe Campaign berichten verzendt. Hiervoor hebt u een SMS-serviceprovider nodig die een brug maakt van internet naar het mobiele netwerk.
+* Een externe account die is geconfigureerd op het **[!UICONTROL Mobile (SMS)]** -kanaal of op het **[!UICONTROL LINE]** -kanaal.
+* Een SMS-leveringssjabloon die correct is gekoppeld aan deze externe account.
 
 U kunt in deze documentatie de stappen zien om een levering van SMS te vormen, te verzenden en te controleren:
 
