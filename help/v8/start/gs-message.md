@@ -4,9 +4,9 @@ description: Aan de slag met berichten
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 0ff645a87700c038b78fb4cc45062822d6d97148
+source-git-commit: a7225fb958ad168d89e09445f4fad27e7b6817aa
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1291'
 ht-degree: 5%
 
 ---
@@ -25,31 +25,21 @@ Als u berichten wilt verzenden, moet u een levering maken. De wijze van de lever
 >
 >Wanneer u een levering maakt, moet u een sjabloon selecteren. Voor elk kanaal zijn standaardsjablonen beschikbaar. Leer meer over leveringsmalplaatjes in [ deze pagina ](../send/create-templates.md).
 
-### One-shot-berichten {#msg-single}
+1. One-shot messages - U kunt one-shot messages naar een publiek sturen. Leer hoe te om uw eerste bericht in [ te verzenden deze sectie ](create-message.md).
 
-U kunt berichten met één opname handmatig naar het hoofddoel verzenden. Leer hoe te om uw eerste bericht in [ te verzenden deze sectie ](create-message.md)
+   ![](assets/send-email.png)
 
-![](assets/send-email.png)
+1. Berichten in een marketing campagne - U kunt berichten in de context van a [ marketing campagne ](campaigns.md) verzenden, een goedkeuringsproces bepalen, hen verzenden en volgen in een geconsolideerd dashboard. Leer hoe in [ deze sectie ](../../automation/campaigns/marketing-campaign-deliveries.md).
 
-### Berichten in een marketingcampagne {#msg-campaign}
+   ![](assets/deliveries-in-a-campaign.png)
 
-U kunt berichten in de context van a [ marketing campagne ](campaigns.md) verzenden, een goedkeuringsproces bepalen, hen verzenden en volgen in een geconsolideerd dashboard. Leer hoe in [ deze sectie ](../../automation/campaigns/marketing-campaign-deliveries.md)
+1. De berichten in een werkschema - u kunt berichten via a [ werkschema ](../config/workflows.md) verzenden en uw leveringen automatiseren. Leer hoe in [ deze pagina ](../../automation/workflow/delivery.md).
 
-![](assets/deliveries-in-a-campaign.png)
+   ![](assets/send-in-a-wf.png)
 
-### Berichten in een workflow {#msg-wf}
+1. De teweeggebrachte berichten - u kunt [ Berichten van de Trekker ](../send/transactional.md) van een gebeurtenis. Transactioneel overseinen (het Centrum van het Bericht) is de module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. De stappen om transactionele berichten te vormen en te verzenden zijn gedetailleerd in [ deze pagina ](../send/transactional.md)
 
-U kunt berichten via a [ werkschema ](../config/workflows.md) verzenden en uw leveringen automatiseren. Leer hoe in [ deze pagina ](../../automation/workflow/delivery.md)
-
-![](assets/send-in-a-wf.png)
-
-### Gekoppelde berichten {#msg-trigger}
-
-U kunt [ Berichten van de Trekker ](../send/transactional.md) van een gebeurtenis. Transactioneel overseinen (het Centrum van het Bericht) is de module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen.  Leer meer over transactieberichten vermogen in [ deze sectie ](../architecture/architecture.md#transac-msg-archi)
-
-De stappen om transactionele berichten te vormen en te verzenden zijn gedetailleerd in [ deze pagina ](../send/transactional.md)
-
-## Kies uw kanaal {#gs-channel}
+## Communicatiekanaal {#gs-channel}
 
 Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen:
 
@@ -60,7 +50,6 @@ Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen:
 * **Mobiel toepassingskanaal**: De mobiele App leveringen laten u berichten naar de apparaten van iOS en van Android verzenden. [Meer informatie](#gs-channel-push)
 
 * **Directe postkanaal**: De directe postleveringen laten u een extractiedossier produceren dat gegevens over de doelbevolking bevat. [Meer informatie](#gs-channel-direct)
-
 
   Andere kanalen worden beschreven op [ deze sectie ](#other-channels).
 
@@ -119,7 +108,7 @@ Voor de leveringen van het type &#39;Overige&#39; wordt een specifieke technisch
 
 Dit kanaal heeft geen specifiek mechanisme. Het is een generisch kanaal dat zijn eigen externe rekening heeft die optie, het type van leveringsmalplaatje, en activiteit van het campagnewerkschema verpletteren, enkel zoals een ander communicatiekanaal beschikbaar in Adobe Campaign. Dit kanaal is alleen bedoeld voor beschrijvende doeleinden, bijvoorbeeld om leveringen te definiëren waarvoor u het doel van een campagne die is uitgevoerd in een ander programma dan Adobe Campaign, wilt bijhouden.
 
-## Kies het type levering {#types-of-deliveries}
+## Soorten levering {#types-of-deliveries}
 
 Er zijn drie typen leveringsobjecten in campagne:
 
@@ -147,7 +136,7 @@ Als voorbeeld, als u dit type van activiteit eens per maand in werking stelt, zu
 
 De ononderbroken leveringen worden gecreeerd binnen werkschema&#39;s via de [ Ononderbroken leveringsactiviteit ](../../automation/workflow/continuous-delivery.md).
 
-## Aanpassing toevoegen {#personalization}
+## Personalization-mogelijkheden {#personalization}
 
 Berichten van Adobe Campaign kunnen op verschillende manieren worden gepersonaliseerd. [ leer meer over verpersoonlijkingsmogelijkheden ](../send/personalize.md)
 
@@ -158,7 +147,7 @@ U kunt:
 * Voorwaardelijke content maken. [Meer informatie](../send/conditions.md)
 
 
-## Verzenden en volgen {#gs-tracking-logs}
+## Tracering en monitoring {#gs-tracking-logs}
 
 Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken. U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
 
