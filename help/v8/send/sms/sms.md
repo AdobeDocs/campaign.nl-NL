@@ -5,7 +5,7 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+source-git-commit: bb77b915f50b31d8d91e25da6fa86aa15b03bba4
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 2%
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Aan de slag met sms {#gs-sms-channel}
 
-Adobe Campaign staat u toe om gepersonaliseerde [ SMS ](../send/sms/sms.md) op mobiele apparaten te leveren.
+Met Adobe Campaign kunt u persoonlijke SMS-berichten op mobiele apparaten aanbieden.
 
 Voor SMS-berichten kunt u alleen in tekstindeling berichten maken, wijzigen en personaliseren. Je kunt ook een voorbeeld van je SMS-berichten bekijken voordat ze worden verzonden.
 
 >[!NOTE]
 >
->U kunt Adobe Campaign ook gebruiken om [ LIJN ](../send/line.md) berichten, met tekst en/of beelden en verbindingen te verzenden.
+>U kunt Adobe Campaign ook gebruiken om [ LIJN ](../../send/line.md) berichten, met tekst en/of beelden en verbindingen te verzenden.
 
 Als u SMS wilt leveren aan een mobiele telefoon met Adobe Campaign, hebt u het volgende nodig:
 
