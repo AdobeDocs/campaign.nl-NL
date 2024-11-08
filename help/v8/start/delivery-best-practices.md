@@ -4,7 +4,7 @@ description: Leer de beste werkwijzen bij het ontwerpen en verzenden van leverin
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: b4fad76b43a77909a4ea2c0877527af80027681a
 workflow-type: tm+mt
 source-wordcount: '2869'
 ht-degree: 1%
@@ -117,7 +117,7 @@ Voor meer op verpersoonlijkingsblokken, verwijs naar [ deze sectie ](../send/per
 
 U kunt aanpassingsgegevens voorbereiden in een workflow om de voorbereiding van de levering te verbeteren. Dit moet speciaal worden gebruikt als de personalisatiegegevens afkomstig zijn van een externe tabel via Federated Data Access (FDA). Deze optie wordt beschreven in dit [ deze sectie ](../send/personalization-data.md#optimize-personalization)
 
-### Geoptimaliseerde inhoud maken {#optimize-content}
+### Geoptimaliseerde inhoud maken {#build-optimized-content}
 
 Houd bij het maken van uw e-mails rekening met de onderstaande algemene tips:
 
