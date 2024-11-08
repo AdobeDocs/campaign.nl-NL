@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 1bf3c4b2d0c8d9b1bdbc82a9047c52c0d80cd997
+source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1530'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ De belangrijkste stappen bij het maken van een eenmalige levering zijn:
 
 1. **selecteer de doelbevolking**. [Meer informatie](#target-population)
 
-Vervolgens kunt u uw berichten voorbereiden, testen, verzenden en controleren.
+Vervolgens kunt u berichten voorbereiden, testen, verzenden en controleren met Adobe Campaign.
 
 >[!NOTE]
 >
@@ -34,13 +34,14 @@ Vervolgens kunt u uw berichten voorbereiden, testen, verzenden en controleren.
 
 Voer de volgende stappen uit om een levering te maken:
 
-1. Klik op **[!UICONTROL Create]** boven de lijst met leveringen. Wanneer u een nieuwe levering creeert, moet u het leveringskanaal selecteren. U doet dit door de desbetreffende leveringssjabloon te selecteren in de vervolgkeuzelijst in het veld **[!UICONTROL Delivery template]** .
+1. Blader naar de lijst met leveringen en klik op **[!UICONTROL Create]** .
+1. Selecteer het leveringskanaal. Om dit te doen, verkies het aangewezen leveringsmalplaatje van de drop-down lijst.
 
    ![](../send/assets/select-the-new-template.png)
 
-   Er is een ingebouwde sjabloon beschikbaar voor elk kanaal dat u hebt geïnstalleerd: direct mail, e-mail, telefoon, mobiel kanaal (SMS), X (Twitter), enzovoort. Welke kanalen beschikbaar zijn in de lijst, is afhankelijk van uw licentieovereenkomst.
+   Er is een ingebouwde sjabloon beschikbaar voor elk kanaal dat u hebt geïnstalleerd: e-mail, telefoon, mobiele kanalen (push/SMS), direct mail, X (Twitter), enzovoort. Welke kanalen beschikbaar zijn in de lijst, is afhankelijk van uw licentieovereenkomst.
 
-   U kunt nieuwe leveringsmalplaatjes tot stand brengen om specifieke parameters vooraf te vormen om uw behoeften aan te passen. Voor verdere informatie over malplaatjes, verwijs naar [ deze sectie ](../send/create-templates.md).
+   U kunt nieuwe leveringsmalplaatjes tot stand brengen om specifieke parameters vooraf te vormen om uw behoeften aan te passen.  [Meer informatie](../send/create-templates.md).
 
 1. Voer in het veld **[!UICONTROL Label]** een naam voor de levering in.
 
@@ -48,7 +49,7 @@ Voer de volgende stappen uit om een levering te maken:
 
 1. (optioneel) Voeg een beschrijving toe in het veld **[!UICONTROL Description]** .
 1. (facultatief) selecteer de leveringsaard op het relevante gebied. Deze informatie is nuttig voor het volgen van de levering: u kunt filtreren gebaseerd op dit criterium in de leveringslijst of vragen bouwen gebruikend dit selectiecriterium.
-1. Klik op **[!UICONTROL Continue]** om deze informatie te bevestigen en het venster voor berichtconfiguratie weer te geven.
+1. Klik op **[!UICONTROL Continue]** om het venster met de berichtinhoud weer te geven.
 
 ## De inhoud van de levering definiëren {#content-of-the-delivery}
 
@@ -126,7 +127,7 @@ Volg onderstaande stappen om de ontvangers van een levering te selecteren:
 
    ![](assets/target-remove-criterion.png)
 
-#### Externe ontvangers selecteren {#selecting-external-recipients}
+### Externe ontvangers selecteren {#selecting-external-recipients}
 
 U kunt berichten verzenden naar profielen die niet in de database maar in een extern bestand zijn opgeslagen. Als u bijvoorbeeld een levering wilt verzenden aan ontvangers die zijn geïmporteerd uit een tekstbestand, voert u de volgende stappen uit:
 
@@ -141,25 +142,31 @@ U kunt berichten verzenden naar profielen die niet in de database maar in een ex
 
 >[!CAUTION]
 >
->Wanneer u de inhoud van het bericht voor verzending via e-mail definieert, moet u de koppeling naar de spiegelpagina niet opnemen: deze kan niet worden gegenereerd in deze leveringsmodus.
+>Wanneer het bepalen van de inhoud van het bericht voor e-maillevering aan externe ontvangers, omvat niet de verbinding aan de spiegelpagina: het kan niet op deze leveringswijze worden geproduceerd.
 
-#### Uitsluitingsinstellingen definiëren {#define-exclusion-settings}
+### Uitsluitingsinstellingen {#define-exclusion-settings}
 
-Wanneer u het doel van een levering definieert, wordt het tabblad **[!UICONTROL Exclusions]** gebruikt om het aantal berichten te beperken. Standaardparameters worden aanbevolen, maar u kunt de instellingen naar wens aanpassen. Deze opties mogen echter alleen door een deskundige gebruiker worden gewijzigd om elk misbruik en elke fout te voorkomen.
+Wanneer het bepalen van het [ publiek van een levering ](#target-population), wordt het **[!UICONTROL Exclusions]** lusje gebruikt om het aantal berichten te beperken. Standaardparameters worden aanbevolen, maar u kunt de instellingen naar wens aanpassen. Deze opties mogen echter alleen door een deskundige gebruiker worden gewijzigd om elk misbruik en elke fout te voorkomen.
 
-U kunt adressen uitsluiten die een bepaald aantal opeenvolgende fouten hebben bereikt, of waarvan de kwaliteitsclassificatie onder een drempel is die in dit venster wordt gespecificeerd. U kunt ook kiezen of u niet-gekwalificeerde adressen waarvoor geen gegevens zijn geretourneerd, wilt autoriseren.
+>[!CAUTION]
+>
+>Als deskundige gebruiker, voor specifieke gebruiksgevallen, kunt u deze montages veranderen, maar de Adobe adviseert om de standaardconfiguratie te houden.
 
-Klik op de koppeling **[!UICONTROL Edit...]** om de standaardconfiguratie te wijzigen.
+U kunt adressen uitsluiten die een bepaald aantal opeenvolgende fouten hebben bereikt, of waarvan de kwaliteit onder een drempel is die in dit venster wordt gespecificeerd. U kunt ook kiezen of u niet-gekwalificeerde adressen waarvoor geen gegevens zijn geretourneerd, wilt autoriseren.
+
+Als u de standaardconfiguratie wilt wijzigen, klikt u op de koppeling **[!UICONTROL Edit...]** .
 
 ![](assets/target-exclusion-settings.png)
 
-De volgende opties zijn beschikbaar:
++++ Zie beschikbare opties
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: deze optie is standaard actief en verwijdert dubbele e-mailadressen tijdens levering. De toegepaste strategie kan variëren afhankelijk van hoe Adobe Campaign wordt gebruikt en het type gegevens in het gegevensbestand. De waarde van de optie kan voor elke leveringsmalplaatje worden gevormd.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** , d.w.z. ontvangers wier e-mailadressen in de lijst van gewezen personen staan (&#39;Weigeren&#39;). Deze optie moet geselecteerd blijven om de beroepsethiek van e-marketing in acht te nemen.
 * **[!UICONTROL Exclude quarantined recipients]** : met deze optie kunt u profielen met een adres dat in quarantaine is geplaatst, uitsluiten van het doel. We raden u ten zeerste aan deze optie geselecteerd te houden. Leer meer over quarantainebeheer in [ deze sectie ](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** aan een bepaald aantal berichten. Met deze optie kunt u het maximum aantal berichten invoeren dat moet worden verzonden. Als het doelpubliek het aantal vermelde berichten overschrijdt, wordt een willekeurige selectie toegepast op het doel. Houd deze waarde in op &#39;0&#39; om alle berichten te verzenden.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: met deze optie kunnen meerdere leveringen worden verzonden naar ontvangers die aan verschillende doelcriteria voldoen.
++++
+
 
 ### Ontvangers van proefdrukberichten selecteren {#select-the-proof-target}
 

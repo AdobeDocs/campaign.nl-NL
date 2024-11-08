@@ -5,9 +5,9 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '497'
 ht-degree: 17%
 
 ---
@@ -41,7 +41,6 @@ Leer hoe te om een publiek in een campagnewerkschema in [ te bouwen deze pagina 
 
 ## Actieve profielen {#active-profiles}
 
-
 Een actief profiel is een profiel waarmee de klant de afgelopen twaalf maanden via een willekeurig kanaal heeft geprobeerd te communiceren.
 
 Volgens uw contract worden al uw Campaign-instanties ingericht met een specifieke hoeveelheid actieve profielen die voor factureringsdoeleinden worden geteld. Raadpleeg het meest recente contract voor informatie over het aantal aangeschafte actieve profielen. Leer meer in [ het productbeschrijving van Adobe Campaign ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html) {target="_blank"}.
@@ -55,17 +54,9 @@ De volgende instructies en beperkingen zijn van toepassing:
 * Profielen die in het kader van de sociale marketing op X (Twitter) zijn geselecteerd, worden niet in aanmerking genomen als actieve profielen.
 * De telling is gebaseerd op de ontvankelijke primaire sleutel. Als een profiel aanwezig is in twee verschillende tabellen voor ontvangers, kan het daarom twee keer worden geteld als een actief profiel.
 
-
 ## Privacy en toestemming{#privacy-and-consent}
 
 Adobe Campaign is een krachtig instrument voor het verzamelen en verwerken van grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens. Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en gevoelige informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
 
 Leer hoe te om privacy en toestemming in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) te beheren {target="_blank"}.
 
-**Verwante onderwerpen**
-
-* [ Ontwerp en voer een campagne-specifiek werkschema ](../../automation/workflow/campaign-workflows.md){target="_blank"} uit
-
-* [ leer hoe te om het publiek van een campagne ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html) te selecteren {target="_blank"}
-
-* [ krijgen begonnen met werkschema&#39;s ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html) {target="_blank"}
