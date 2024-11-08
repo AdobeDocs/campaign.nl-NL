@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
+source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1525'
 ht-degree: 3%
 
 ---
@@ -176,15 +176,12 @@ Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvor
 
 Voor meer bij proefontvangers en het verzenden, verwijs naar [ deze sectie ](../send/preview-and-proof.md#send-proofs).
 
-![](../send/assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#seeds-and-proofs-video)
-
 
 #### Video over zelfstudie {#seeds-and-proofs-video}
 
 In deze video leert u hoe u zaden en proefdrukken aan een bestaande e-mail kunt toevoegen en hoe u deze kunt verzenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
-
 
 De extra Campaign Classic hoe te video&#39;s zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
 
@@ -200,7 +197,7 @@ Dit doet u als volgt:
 
 >[!IMPORTANT]
 >
->De twee stappen hierboven MOETEN na elke wijziging op de berichtinhoud worden uitgevoerd.
+>De twee stappen hierboven **moeten** na elke wijziging op de berichtinhoud worden uitgevoerd.
 
 
 ## De levering configureren en verzenden {#configuring-and-sending-the-delivery}
