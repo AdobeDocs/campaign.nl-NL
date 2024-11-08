@@ -5,7 +5,7 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
 source-wordcount: '3650'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Als deze optie is ingeschakeld, worden extra logbestanden uitgevoerd naar het lo
 
 ![](assets/smpp_channel_settings.png){zoomable="yes"}
 
-### Tekentransliteratie autoriseren
+### Tekentransliteratie autoriseren {#smpp-transliteration}
 
 Transliteratie is het zoeken naar tekens die equivalent zijn aan ontbrekende tekens. Het Franse &quot;ê&quot;-teken (e met omstreeks accent) ontbreekt bijvoorbeeld in GSM-codering, maar kan worden vervangen door &quot;e&quot; zonder de leesbaarheid te veel te belemmeren.
 

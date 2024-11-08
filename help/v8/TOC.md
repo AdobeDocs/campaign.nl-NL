@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '688'
 ht-degree: 17%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 17%
 + Berichten verzenden{#send}
    + [Aan de slag met berichten](start/gs-message.md)
    + [Je eerste levering maken](start/create-message.md)
+   + [Best practices voor verzending](start/delivery-best-practices.md)
    + E-mails {#emails}
       + [E-mails ontwerpen en valideren](send/email.md)
       + [Koppeling maken naar de spiegelpagina](send/mirror-page.md)
