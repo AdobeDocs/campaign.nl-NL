@@ -4,7 +4,7 @@ description: Leer de beste werkwijzen bij het ontwerpen en verzenden van leverin
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: b4fad76b43a77909a4ea2c0877527af80027681a
+source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
 workflow-type: tm+mt
 source-wordcount: '2869'
 ht-degree: 1%
@@ -151,7 +151,7 @@ De koppeling om uw abonnement op te zeggen is essentieel. Het formulier moet zic
 
 **Uiteinde**: Omdat de menselijke fout altijd mogelijk is, controleer dat de opt-out verbinding correct vóór elke keer werkt u verzendt. Wanneer u bijvoorbeeld de proefdruk verzendt, controleert u of de koppeling geldig is, of het formulier online is en of het veld `No longer contact this recipient ` is gewijzigd in `Yes` .
 
-Leer hoe te om een opt-out verbinding [ in deze sectie ](personalization-blocks.md#personalization-blocks-example) op te nemen.
+Leer hoe te om een opt-out verbinding [ in deze sectie ](../send/personalization-blocks.md) op te nemen.
 
 ### E-mailformaat
 
@@ -328,7 +328,7 @@ U kunt een volledig validatieproces definiëren, waarbij Adobe Campaign-operator
 
 #### Golven gebruiken
 
-U kunt het verzonden volume progressief verhogen gebruikend golven. Zo voorkomt u dat uw berichten als spam worden gemarkeerd of dat u het aantal berichten per dag wilt beperken. Met golven kunt u leveringen in verschillende batches verdelen in plaats van tegelijkertijd grote volumes berichten te verzenden. Leer meer [ in deze sectie ](../send/configure-and-send.mdsending-using-multiple-waves).
+U kunt het verzonden volume progressief verhogen gebruikend golven. Zo voorkomt u dat uw berichten als spam worden gemarkeerd of dat u het aantal berichten per dag wilt beperken. Met golven kunt u leveringen in verschillende batches verdelen in plaats van tegelijkertijd grote volumes berichten te verzenden. Leer meer [ in deze sectie ](../send/configure-and-send.md#sending-using-multiple-waves).
 
 #### Prioriteitsberichten
 
