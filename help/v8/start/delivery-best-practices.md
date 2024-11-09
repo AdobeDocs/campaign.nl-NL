@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 61c86c3c9d6dbbabf2d5174b8b7b1721b38280cb
+source-git-commit: 58d88498c8472381a43d735b4dfb2a802a293952
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2934'
 ht-degree: 1%
 
 ---
@@ -66,11 +66,11 @@ Om te voorkomen dat berichten naar ongeldige adressen worden verzonden, onjuiste
 
 De malplaatjes van de levering staan voor verhoogde efficiency toe door kant-en-klare scenario&#39;s voor de meeste gemeenschappelijke soorten activiteiten te verstrekken. Met malplaatjes, kunnen de marketers nieuwe campagnes met minimale aanpassing in een kortere hoeveelheid tijd opstellen. [ Leer meer over leveringsmalplaatjes ](../send/create-templates.md).
 
-### Branding
+### Subdomeinen en branding {#subdomains-and-branding}
 
 Wanneer u meerdere merken beheert in Adobe Campaign, raadt Adobe aan één subdomein per merk te hebben. Een bank kan bijvoorbeeld verschillende subdomeinen hebben die overeenkomen met elk van haar regionale agentschappen. Als een bank eigenaar is van het bluebank.com-domein, kunnen de subdomeinen @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com enzovoort zijn. Als u één leveringssjabloon per subdomein hebt, kunt u altijd de juiste vooraf geconfigureerde parameters voor elk merk gebruiken. Hierdoor worden fouten voorkomen en bespaart u tijd. Leer meer over subdomain branding in de [ documentatie van het Controlebord van de Campagne ](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding) {target="_blank"}.
 
-### Adressen configureren
+### Adressen configureren {#configure-addresses}
 
 Pas de volgende richtlijnen toe:
 
@@ -79,7 +79,7 @@ Pas de volgende richtlijnen toe:
 * Het adres moet de afzender uitdrukkelijk identificeren. Het domein moet eigendom zijn van en geregistreerd zijn bij de afzender.
 * Adobe raadt u aan e-mailaccounts te maken die overeenkomen met de adressen die zijn opgegeven voor leveringen en antwoorden. Vraag de beheerder van het berichtensysteem om advies.
 
-+++ **Verbetert adressen in Campagne UI**
++++ **Stappen om adressen in Campagne UI te vormen**
 
 Voer de onderstaande stappen uit om adressen in de Campagne-interface te configureren:
 
@@ -91,15 +91,15 @@ Voer de onderstaande stappen uit om adressen in de Campagne-interface te configu
 
 1. In de velden **[!UICONTROL Reply address text]** wordt standaard het adres van de afzender gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
 
-### Een controlegroep instellen
+### Een controlegroep instellen {#set-up-control-group}
 
 Nadat de levering is verzonden, kunt u het gedrag van de uitgesloten ontvangers vergelijken met de ontvangers die de levering wel hebben ontvangen. Vervolgens kunt u de efficiëntie van uw campagnes meten. Leer meer over controlegroepen [ deze sectie ](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
 
-### Typologieën gebruiken om filters of controleregels toe te passen
+### Typologieën gebruiken om filters of controleregels toe te passen {#create-typologies}
 
 Een typologie bevat controleregels die tijdens de analysefase worden toegepast, alvorens om het even welk bericht te verzenden.
 
-Wijzig de standaardtypologie naar wens op het tabblad **[!UICONTROL Typology]** van de sjablooneigenschappen.
+Op het tabblad **[!UICONTROL Typology]** van de eigenschappen van de sjabloon kunt u indien nodig een aangepaste typologie selecteren.
 
 Bijvoorbeeld, om het uitgaande verkeer beter te controleren, kunt u bepalen welke IP adressen kunnen worden gebruikt door één affiniteit per subdomein te bepalen en één typologie per affiniteit te creëren. De affiniteiten worden gedefinieerd in het configuratiebestand van de instantie. Neem contact op met uw Adobe Campaign-beheerder.
 
@@ -111,17 +111,20 @@ Voor meer op typologieën, verwijs naar [ deze sectie ](../../automation/campaig
 
 Om uw berichten aan te passen, kunt u de gegevens gebruiken van ontvangers die in het gegevensbestand worden opgeslagen, of door het volgen, het landen pagina&#39;s, abonnementen, enz. worden verzameld. De grondbeginselen van Personalization worden voorgesteld in [ deze sectie ](../send/personalize.md).
 
-Zorg ervoor dat de inhoud van uw bericht correct is ontworpen om fouten te voorkomen die gerelateerd kunnen zijn aan personalisatie. Een Adobe Campaign-personalisatiemarkering heeft altijd de volgende vorm: `<%=table.field%>`. Het onjuiste gebruik van parameters in verpersoonlijkingsblokken kan een kwestie zijn. Variabelen in JavaScript moeten bijvoorbeeld als volgt worden gebruikt:
++++ **las uit weinig beste praktijken**
 
-``
-<%
-var brand = "xxx"
-%>
-``
+* Controleer uw verpersoonlijkingsmontages - zorg ervoor uw berichtinhoud behoorlijk wordt ontworpen om het even welke fouten te vermijden, die met verpersoonlijking kunnen worden verwant. Een Adobe Campaign-personalisatiemarkering heeft altijd de volgende vorm: `<%=table.field%>`. Het onjuiste gebruik van parameters in verpersoonlijkingsblokken kan een kwestie zijn. Variabelen in JavaScript moeten bijvoorbeeld als volgt worden gebruikt:
 
-Voor meer op verpersoonlijkingsblokken, verwijs naar [ deze sectie ](../send/personalization-blocks.md).
+  ``
+  <%
+  var brand = "xxx"
+  %>
+  ``
 
-U kunt aanpassingsgegevens voorbereiden in een workflow om de voorbereiding van de levering te verbeteren. Dit moet speciaal worden gebruikt als de personalisatiegegevens afkomstig zijn van een externe tabel via Federated Data Access (FDA). Deze optie wordt beschreven in dit [ deze sectie ](../send/personalization-data.md#optimize-personalization)
+  Voor meer op verpersoonlijkingsblokken, verwijs naar [ deze sectie ](../send/personalization-blocks.md).
+
+* Persoonlijkheidsgegevens voorbereiden - U kunt aanpassingsgegevens voorbereiden in een workflow om de voorbereiding van de levering te verbeteren. Dit moet speciaal worden gebruikt als de personalisatiegegevens afkomstig zijn van een externe tabel via Federated Data Access (FDA). Deze optie wordt beschreven in dit [ deze sectie ](../send/personalization-data.md#optimize-personalization)
++++
 
 ### Geoptimaliseerde inhoud maken {#build-optimized-content}
 
@@ -142,7 +145,7 @@ Pas bij het samenstellen van uw e-mails de algemene aanbevolen procedures voor e
 +++
 
 
-### Onderwerpregel
+### Onderwerpregel  {#subject-line-check}
 
 Het werk aan de e-mail [ onderwerpregel ](../send/personalization-fields.md#personalization-fields-uc) om open tarieven te verbeteren.
 
@@ -154,15 +157,17 @@ Het werk aan de e-mail [ onderwerpregel ](../send/personalization-fields.md#pers
 
 * Vermijd het gebruik van herhalende woorden zoals &quot;gratis&quot; of &quot;aanbieding&quot;, die als spam kunnen worden beschouwd
 
-* Vermijd hoofdletters en speciale tekens zoals &quot;!&quot;, &quot;£&quot;, &quot;€&quot;, &quot;$&quot;
+* Hoofdletters vermijden
+
+* Gebruik geen speciale tekens zoals &quot;!&quot;, &quot;£&quot;, &quot;€&quot;, &quot;$&quot;
 
 +++
 
-### Pagina spiegelen
+### Pagina spiegelen {#mirror-page-check}
 
 Neem altijd een koppeling naar een spiegelpagina op. De voorkeurspositie boven aan het e-mailbericht. Leer meer over de spiegelpagina in [ deze pagina ](../send/mirror-page.md)
 
-### Koppeling met abonnement opheffen
+### Koppeling met abonnement opheffen {#unsub-link-check}
 
 De koppeling om uw abonnement op te zeggen is essentieel. Het formulier moet zichtbaar en geldig zijn en moet functioneel zijn. Door gebrek, wanneer het bericht wordt geanalyseerd, controleert een ingebouwde **[!UICONTROL Unsubscription link approval]** [ typologieregel ](../../automation/campaign-opt/control-rules.md) of een opt-out verbinding is omvat en produceert een waarschuwing als het mist.
 
@@ -174,7 +179,7 @@ Omdat menselijke fout altijd mogelijk is, controleer dat de opt-out verbinding c
 
 +++
 
-### E-mailformaat
+### E-mailformaat {#email-size-check}
 
 Om prestaties of leveringsproblemen te vermijden, is de geadviseerde maximumgrootte van een e-mail ongeveer **35KB**. Als u de berichtgrootte wilt controleren, bladert u naar de tab **[!UICONTROL Preview]** en kiest u een testprofiel. Zodra geproduceerd, wordt de berichtgrootte getoond in de hoogste juiste hoek.
 
@@ -192,17 +197,18 @@ Zorg ervoor om het even welke veranderingen vóór de definitieve verzending te 
 +++
 
 
-### Sms-lengte
+### Sms-lengte {#sms-length-check}
 
 Standaard voldoet het aantal tekens in een SMS aan de GSM-standaarden (Global System for Mobile Communications). Sms-berichten met gsm-codering mogen maximaal 160 tekens bevatten of 153 tekens per sms voor berichten die in meerdere delen worden verzonden.
 
-Vertaling bestaat erin een teken van een SMS door een ander te vervangen wanneer dat teken niet in aanmerking wordt genomen door de GSM-standaard. Als u personalisatievelden in de inhoud van uw SMS-bericht invoegt, kunnen er tekens worden ingevoerd waarmee de GSM-codering geen rekening houdt. U kunt tekentransliteratie autoriseren door het corresponderende vak te selecteren op het tabblad met SMPP-kanaalinstellingen van het corresponderende **[!UICONTROL External account]** .
 
 +++ **las uit weinig beste praktijken**
 
 * Als u alle tekens in uw SMS-berichten wilt behouden, bijvoorbeeld als u eigennamen niet wilt wijzigen, moet u transliteratie niet inschakelen.
 
 * Als uw SMS-berichten echter veel tekens bevatten waarmee de GSM-standaard geen rekening houdt, kunt u met transliteratie de verzendkosten van uw berichten beperken. Leer meer [ in deze sectie ](../send/sms/smpp-external-account.md#smpp-transliteration).
+
+* U kunt SMS-transliteratie toepassen, waarbij een teken van een SMS wordt vervangen door een ander teken wanneer dat teken niet in aanmerking wordt genomen door de GSM-standaard. Als u personalisatievelden in de inhoud van uw SMS-bericht invoegt, kunnen er tekens worden ingevoerd waarmee de GSM-codering geen rekening houdt. Als Campagnebeheerder, kunt u karaktervertaling toelaten door de overeenkomstige doos op het lusje van de het kanaalmontages van SMPP van het overeenkomstige **[!UICONTROL External account]** te controleren. [Meer informatie](../send/sms/smpp-external-account.md#smpp-transliteration)
 
 +++
 
@@ -221,26 +227,28 @@ To avoid common formatting errors, check the following elements:
 
 * Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
-
 ## Afbeeldingen beheren {#manage-images}
 
 Hier volgen enkele specifieke richtlijnen voor het optimaliseren van afbeeldingen voor uw marketingcampagne voor e-mail.
 
-### Afbeeldingen blokkeren voorkomen
+### Afbeeldingen blokkeren voorkomen {#image-blocking}
 
-Sommige e-mailclients blokkeren afbeeldingen standaard en sommige gebruikers wijzigen hun instellingen om afbeeldingen te blokkeren zodat ze op gegevensgebruik kunnen worden opgeslagen. Als afbeeldingen niet worden gedownload, kan het hele bericht verloren gaan. Om dit te voorkomen:
+Sommige e-mailclients blokkeren afbeeldingen standaard, en gebruikers kunnen hun instellingen wijzigen om afbeeldingen te blokkeren zodat ze op gegevensgebruik kunnen worden opgeslagen.  Als afbeeldingen niet worden gedownload, kan het hele bericht dus verloren gaan.
 
-* Verdeel uw inhoud met afbeelding en tekst. Vermijd e-mails die volledig op afbeeldingen zijn gebaseerd.
++++ Om dit te vermijden, kunt u deze beste praktijken toepassen
+
+* Vermijd e-mails die volledig op afbeeldingen zijn gebaseerd. Verdeel uw inhoud met afbeelding en tekst.
 
 * Als er tekst in een afbeelding moet staan, gebruikt u de alt- en titeltekst om ervoor te zorgen dat uw bericht overloopt. Maak de alt-/titeltekst op om de weergave te verbeteren.
 
 * Vermijd het gebruik van achtergrondafbeeldingen, omdat deze niet door sommige e-mailclients worden ondersteund.
++++
 
-### Afbeeldingen responsief maken
+### Afbeeldingen responsief maken {#responsive-images}
 
-Probeer afbeeldingen responsief te maken en de grootte ervan te wijzigen. Merk op dat dit een kosteneffect kan hebben aangezien het langer duurt om te bouwen.
+Probeer de afbeeldingen responsief en vergroot of verkleind te maken om ze in alle contexten en apparaten zichtbaar te maken. Merk op dat dit een kosteneffect kan hebben aangezien het langer duurt om te bouwen.
 
-### Absolute verwijzingen naar afbeeldingen gebruiken
+### Absolute verwijzingen naar afbeeldingen gebruiken {#absolute-images}
 
 Om van buitenaf toegankelijk te zijn, moeten de beelden die in e-mail en openbare middelen verbonden aan campagnes worden gebruikt op een extern toegankelijke server aanwezig zijn.
 
