@@ -4,9 +4,10 @@ description: Leer de beste werkwijzen bij het ontwerpen en verzenden van leverin
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
+exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
+source-git-commit: 61c86c3c9d6dbbabf2d5174b8b7b1721b38280cb
 workflow-type: tm+mt
-source-wordcount: '2869'
+source-wordcount: '2890'
 ht-degree: 1%
 
 ---
@@ -44,7 +45,7 @@ Leer meer hoe te om een nieuw platform in de [ Gids van de Beste praktijken van 
 De technische aanbevelingen worden vermeld in [ deze sectie ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations) {target="_blank"}.
 
 
-**Uiteinden**
++++ **las uit weinig beste praktijken**
 
 * Als u een lijst met ongeldige adressen hebt, kunt u het beste deze naar de quarantainetabel importeren via **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]** .
 
@@ -52,6 +53,9 @@ De technische aanbevelingen worden vermeld in [ deze sectie ](https://experience
 Adobe Campaign beheert onjuiste adressen op basis van het type geretourneerde fout. [ leer meer over quarantines ](../send/quarantines.md)
 
 * Sommige providers van internettoegang beschouwen e-mails automatisch als spam als de snelheid van ongeldige adressen te hoog is. Met quarantaine kunt u dus voorkomen dat deze providers aan de lijst van gewezen personen worden toegevoegd.
+
++++
+
 
 
 ### Dubbele opt-in-regeling {#double-opt-in}
@@ -74,6 +78,8 @@ Pas de volgende richtlijnen toe:
 * Een slecht geformuleerd adres kan ertoe leiden dat het door de ontvangende server wordt verworpen. U moet ervoor zorgen een correct adres wordt gegeven.
 * Het adres moet de afzender uitdrukkelijk identificeren. Het domein moet eigendom zijn van en geregistreerd zijn bij de afzender.
 * Adobe raadt u aan e-mailaccounts te maken die overeenkomen met de adressen die zijn opgegeven voor leveringen en antwoorden. Vraag de beheerder van het berichtensysteem om advies.
+
++++ **Verbetert adressen in Campagne UI**
 
 Voer de onderstaande stappen uit om adressen in de Campagne-interface te configureren:
 
@@ -119,7 +125,9 @@ U kunt aanpassingsgegevens voorbereiden in een workflow om de voorbereiding van 
 
 ### Geoptimaliseerde inhoud maken {#build-optimized-content}
 
-Houd bij het maken van uw e-mails rekening met de onderstaande algemene tips:
+Pas bij het samenstellen van uw e-mails de algemene aanbevolen procedures voor e-mailinhoud toe.
+
++++ **las uit weinig beste praktijken**
 
 * Ontwerp eenvoudig houden
 
@@ -131,15 +139,24 @@ Houd bij het maken van uw e-mails rekening met de onderstaande algemene tips:
 
 * Speciale tekens coderen
 
++++
+
+
 ### Onderwerpregel
 
-Het werk op de [ onderwerpregel ](../send/personalization-fields.md#personalization-fields-uc) om open tarieven te verbeteren:
+Het werk aan de e-mail [ onderwerpregel ](../send/personalization-fields.md#personalization-fields-uc) om open tarieven te verbeteren.
+
+
++++ **las uit weinig beste praktijken**
+
 
 * Vermijd personen die te lang zijn. Maximaal 50 tekens gebruiken
 
 * Vermijd het gebruik van herhalende woorden zoals &quot;gratis&quot; of &quot;aanbieding&quot;, die als spam kunnen worden beschouwd
 
 * Vermijd hoofdletters en speciale tekens zoals &quot;!&quot;, &quot;£&quot;, &quot;€&quot;, &quot;$&quot;
+
++++
 
 ### Pagina spiegelen
 
@@ -149,15 +166,20 @@ Neem altijd een koppeling naar een spiegelpagina op. De voorkeurspositie boven a
 
 De koppeling om uw abonnement op te zeggen is essentieel. Het formulier moet zichtbaar en geldig zijn en moet functioneel zijn. Door gebrek, wanneer het bericht wordt geanalyseerd, controleert een ingebouwde **[!UICONTROL Unsubscription link approval]** [ typologieregel ](../../automation/campaign-opt/control-rules.md) of een opt-out verbinding is omvat en produceert een waarschuwing als het mist.
 
-**Uiteinde**: Omdat de menselijke fout altijd mogelijk is, controleer dat de opt-out verbinding correct vóór elke keer werkt u verzendt. Wanneer u bijvoorbeeld de proefdruk verzendt, controleert u of de koppeling geldig is, of het formulier online is en of het veld `No longer contact this recipient ` is gewijzigd in `Yes` .
-
 Leer hoe te om een opt-out verbinding [ in deze sectie ](../send/personalization-blocks.md) op te nemen.
+
++++ **pas deze beste praktijken toe**
+
+Omdat menselijke fout altijd mogelijk is, controleer dat de opt-out verbinding correct vóór elke keer werkt u verzendt. Wanneer u bijvoorbeeld de proefdruk verzendt, controleert u of de koppeling geldig is, of het formulier online is en of het veld `No longer contact this recipient ` is gewijzigd in `Yes` .
+
++++
 
 ### E-mailformaat
 
 Om prestaties of leveringsproblemen te vermijden, is de geadviseerde maximumgrootte van een e-mail ongeveer **35KB**. Als u de berichtgrootte wilt controleren, bladert u naar de tab **[!UICONTROL Preview]** en kiest u een testprofiel. Zodra geproduceerd, wordt de berichtgrootte getoond in de hoogste juiste hoek.
 
-Houd rekening met het volgende om uw e-mailadres onder de limiet te houden:
+
++++ **las uit weinig beste praktijken**
 
 * Overbodige of ongebruikte stijlen verwijderen
 
@@ -167,19 +189,22 @@ Houd rekening met het volgende om uw e-mailadres onder de limiet te houden:
 
 Zorg ervoor om het even welke veranderingen vóór de definitieve verzending te testen.
 
++++
+
+
 ### Sms-lengte
 
 Standaard voldoet het aantal tekens in een SMS aan de GSM-standaarden (Global System for Mobile Communications). Sms-berichten met gsm-codering mogen maximaal 160 tekens bevatten of 153 tekens per sms voor berichten die in meerdere delen worden verzonden.
 
 Vertaling bestaat erin een teken van een SMS door een ander te vervangen wanneer dat teken niet in aanmerking wordt genomen door de GSM-standaard. Als u personalisatievelden in de inhoud van uw SMS-bericht invoegt, kunnen er tekens worden ingevoerd waarmee de GSM-codering geen rekening houdt. U kunt tekentransliteratie autoriseren door het corresponderende vak te selecteren op het tabblad met SMPP-kanaalinstellingen van het corresponderende **[!UICONTROL External account]** .
 
-**Uiteinden**
++++ **las uit weinig beste praktijken**
 
 * Als u alle tekens in uw SMS-berichten wilt behouden, bijvoorbeeld als u eigennamen niet wilt wijzigen, moet u transliteratie niet inschakelen.
 
-* Als uw SMS-berichten echter veel tekens bevatten waarmee de GSM-standaard geen rekening houdt, kunt u met transliteratie de verzendkosten van uw berichten beperken.
+* Als uw SMS-berichten echter veel tekens bevatten waarmee de GSM-standaard geen rekening houdt, kunt u met transliteratie de verzendkosten van uw berichten beperken. Leer meer [ in deze sectie ](../send/sms/smpp-external-account.md#smpp-transliteration).
 
-Leer meer [ in deze sectie ](../send/sms/smpp-external-account.md#smpp-transliteration).
++++
 
 ### Bijlagen voorkomen
 
@@ -385,8 +410,7 @@ Van het dashboard van de levering van de Campagne, kunt u de verwerkte berichten
 
 Als u het gedrag van de ontvangers beter wilt weten, kunt u bijhouden hoe zij op een levering reageren: ontvangst, openen, klikken op koppelingen, abonnementen, enz. In Campagne, wordt deze informatie getoond in het **Volgen** lusje van de ontvangers die door de levering en in het Volgen lusje van de levering worden gericht.
 
-**Uiteinde**: Het volgen van het bericht wordt toegelaten door gebrek. Om URLs te vormen, selecteer de optie van de Vertoning URLs in de lagere sectie van de leveringsmedewerker. Voor elke URL van het bericht kunt u kiezen of u reeksspatiëring wilt activeren.
+Berichten bijhouden is standaard ingeschakeld. Om URLs te vormen, selecteer de optie van de Vertoning URLs in de lagere sectie van de leveringsmedewerker. Voor elke URL van het bericht kunt u kiezen of u reeksspatiëring wilt activeren.
 
 
 [ leer meer over het volgen mogelijkheden in Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages) {target="_blank"}
-
