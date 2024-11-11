@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
+source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 3%
@@ -14,21 +14,21 @@ ht-degree: 3%
 
 # De levering configureren en verzenden {#configure-delivery}
 
-Heb toegang tot de leveringsparameters om meer montages te vormen en te bepalen hoe te om uw berichten te verzenden. U kunt de levering definiëren [prioriteit](#delivery-priority), instellen [golven](#sending-using-multiple-waves)en test het verzenden van de levering. Zodra deze configuratie wordt gedaan, kunt u het verzenden bevestigen zoals die in wordt beschreven [deze sectie](#confirm-delivery). De berichten worden dan verzonden onmiddellijk, of gebaseerd op de levering [schema](#schedule-delivery-sending).
+Heb toegang tot de leveringsparameters om meer montages te vormen en te bepalen hoe te om uw berichten te verzenden. U kunt levering [ prioriteit ](#delivery-priority) bepalen, opstelling [ golven ](#sending-using-multiple-waves), en uw levering testen die verzendt. Zodra deze configuratie wordt gedaan, kunt u het verzenden bevestigen zoals die in [ wordt beschreven deze sectie ](#confirm-delivery). De berichten worden dan verzonden onmiddellijk, of gebaseerd op het levering [ programma ](#schedule-delivery-sending).
 
 ## Aanvullende parameters instellen {#delivery-additional-parameters}
 
-Voordat u de levering verzendt, kunt u de verzendende parameters in de leveringseigenschappen definiëren via de **[!UICONTROL Delivery]** tab.
+Voordat u de levering verzendt, kunt u via het tabblad **[!UICONTROL Delivery]** de verzendende parameters in de leveringseigenschappen definiëren.
 
 ![](assets/delivery-properties-delivery.png)
 
 ### Leveringsprioriteit {#delivery-priority}
 
-Gebruik de **[!UICONTROL Delivery priority]** optie om de verzendvolgorde voor uw leveringen te wijzigen door hun prioriteitsniveau in te stellen, van **[!UICONTROL Very low]** tot **[!UICONTROL Very high]** (de standaardwaarde is **[!UICONTROL Normal]**).
+Gebruik de optie **[!UICONTROL Delivery priority]** om de verzendvolgorde voor uw leveringen te wijzigen door het prioriteitsniveau in te stellen, van **[!UICONTROL Very low]** in **[!UICONTROL Very high]** (de standaardwaarde is **[!UICONTROL Normal]** ).
 
 ### Aantal partijen {#delivery-batch-quantity}
 
-Gebruik de  **[!UICONTROL Message batch quantity]** Hiermee definieert u het aantal berichten dat is gegroepeerd binnen hetzelfde XML-leveringspakket. Als de parameter op 0 wordt geplaatst, worden de berichten automatisch gegroepeerd. De pakketgrootte wordt gedefinieerd door de berekening `<delivery size>/1024`, met minimaal 8 en maximaal 256 berichten per pakket.
+Gebruik de optie **[!UICONTROL Message batch quantity]** om het aantal berichten te definiëren dat binnen hetzelfde XML-leveringspakket wordt gegroepeerd. Als de parameter op 0 wordt geplaatst, worden de berichten automatisch gegroepeerd. De pakketgrootte wordt gedefinieerd door de berekening `<delivery size>/1024` , met minimaal 8 en maximaal 256 berichten per pakket.
 
 >[!IMPORTANT]
 >
@@ -36,13 +36,13 @@ Gebruik de  **[!UICONTROL Message batch quantity]** Hiermee definieert u het aan
 
 ### De verzending van de levering testen
 
-Gebruik de  **[!UICONTROL Test SMTP delivery]** optie om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
+Gebruik de optie **[!UICONTROL Test SMTP delivery]** om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
 >[!NOTE]
 >
 >* Deze optie mag niet worden ingesteld in mid-sourcing.
 >
->* Meer informatie over de SMTP-serverconfiguratie vindt u in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
+>* Leer meer over SMTP serverconfiguratie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay) {target="_blank"}.
 
 ## Verzenden met meerdere golven {#sending-using-multiple-waves}
 
@@ -52,8 +52,8 @@ Als u de lading in evenwicht wilt brengen, kunt u leveringen in verscheidene par
 
 Ga als volgt te werk om golven te definiëren:
 
-1. Open de leveringseigenschappen en blader aan **[!UICONTROL Delivery]** tab.
-1. De optie **[!UICONTROL Send using multiple waves]** en klikt u op de knop **[!UICONTROL Define waves...]** koppeling.
+1. Open de leveringseigenschappen en blader aan het **[!UICONTROL Delivery]** lusje.
+1. Schakel de optie **[!UICONTROL Send using multiple waves]** in en klik op de koppeling **[!UICONTROL Define waves...]** .
 
    ![](assets/delivery-define-waves.png)
 
@@ -65,46 +65,46 @@ Ga als volgt te werk om golven te definiëren:
 
 U kunt de grootte van elke golf definiëren of toevoegen aan een kalender.
 
-* **De grootte van elke golf definiëren**. Als u bijvoorbeeld **[!UICONTROL 30%]** op het overeenkomstige gebied, zal elke golf 30% van de berichten vertegenwoordigen inbegrepen in de levering, behalve laatste, die 10% van de berichten zal vertegenwoordigen.
+* **bepaalt de grootte voor elke golf**. Als u bijvoorbeeld **[!UICONTROL 30%]** invoert in het corresponderende veld, vertegenwoordigt elke golf 30% van de berichten die worden geleverd, behalve de laatste, die 10% van de berichten vertegenwoordigt.
 
-  In de **[!UICONTROL Period]** geeft u de vertraging op tussen het begin van twee opeenvolgende golven. Als u bijvoorbeeld **[!UICONTROL 2d]** De eerste golf begint onmiddellijk, de tweede golf begint over twee dagen, de derde golf over vier dagen, enzovoort.
+  Geef in het veld **[!UICONTROL Period]** de vertraging op tussen het begin van twee opeenvolgende golven. Als u bijvoorbeeld **[!UICONTROL 2d]** invoert, wordt de eerste golf onmiddellijk gestart, de tweede golf begint over twee dagen, de derde golf over vier dagen enzovoort.
 
   ![](assets/delivery-waves-size.png)
 
-* **Een kalender definiëren voor het verzenden van elke golf**.  Bijvoorbeeld, vertegenwoordigt de eerste golf 25% van het totale aantal berichten inbegrepen in de levering en zal onmiddellijk beginnen. De volgende twee golven voltooien de levering en zijn geplaatst om met intervallen van zes uur te beginnen.
+* **bepaal een kalender voor het verzenden van elke golf**.  Bijvoorbeeld, vertegenwoordigt de eerste golf 25% van het totale aantal berichten inbegrepen in de levering en zal onmiddellijk beginnen. De volgende twee golven voltooien de levering en zijn geplaatst om met intervallen van zes uur te beginnen.
 
-  In de **[!UICONTROL Start]** de vertraging tussen het begin van twee opeenvolgende golven opgeven. In de **[!UICONTROL Size]** Voer een vast getal of een percentage in.
+  Geef in de kolom **[!UICONTROL Start]** de vertraging op tussen het begin van twee opeenvolgende golven. Voer in de kolom **[!UICONTROL Size]** een vast getal of een percentage in.
 
   ![](assets/delivery-waves-calendar.png)
 
 ### Wave-planningcontrole {#check-waves}
 
-een specifieke typologieregel; **[!UICONTROL Wave scheduling check]**, zorgt ervoor dat de laatste golf vóór de grens van de leveringsgeldigheid wordt gepland. De typologieën van de campagne en hun regels, die in **[!UICONTROL Typology]** tabblad van de leveringseigenschappen, worden weergegeven in [deze sectie](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+Een specifieke typologieregel, **[!UICONTROL Wave scheduling check]** , zorgt ervoor dat de laatste golf vóór de geldigheidsgrens van de levering wordt gepland. De typologieën van de campagne en hun regels, die in het **[!UICONTROL Typology]** lusje van de leveringseigenschappen worden gevormd, worden voorgesteld in [ deze sectie ](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
 >[!IMPORTANT]
 >
->Zorg ervoor dat de laatste golven de leveringstermijn niet overschrijden, die in het dialoogvenster **[!UICONTROL Validity]** tab. Anders kunnen sommige berichten niet worden verzonden. Meer informatie over de geldigheidsperiode van een levering in [deze sectie](delivery-failures.md#valid-period).
+>* Zorg ervoor dat de laatste golven de leveringstermijn niet overschrijden, die is gedefinieerd op het tabblad **[!UICONTROL Validity]** . Anders kunnen sommige berichten niet worden verzonden. Leer meer over de geldigheidsperiode van een levering in [ deze sectie ](delivery-failures.md#valid-period).
 >
->U moet ook voldoende tijd instellen voor nieuwe pogingen wanneer u de laatste golven configureert. Meer informatie over nieuwe pogingen in [deze sectie](delivery-failures.md#retries).
+>* U moet ook voldoende tijd instellen voor nieuwe pogingen wanneer u de laatste golven configureert. Leer meer over pogingen in [ deze sectie ](delivery-failures.md#retries).
 
 ### Monitorgolven {#monitor-waves}
 
-Blader naar de leveringslogboeken om uw verzendingen te controleren. Zie [deze pagina](send.md)
+Blader naar de leveringslogboeken om uw verzendingen te controleren. Zie [ deze pagina ](send.md)
 
-De leveringen die al zijn verzonden in de verwerkte golven (**[!UICONTROL Sent]** status) en de in de resterende golven te verzenden leveringen (**[!UICONTROL Pending]** status).
+U kunt de leveringen zien die reeds in de verwerkte golven (**[!UICONTROL Sent]** status) werden verzonden en de te verzenden leveringen in de resterende golven (**[!UICONTROL Pending]** status).
 
 
 ### Golfmonsters {#samples-waves}
 
 De twee onderstaande voorbeelden zijn de meest gebruikte voorbeelden voor het gebruik van meerdere golven.
 
-* **Tijdens het opvoerproces**
+* **tijdens op helling-up proces**
 
   Wanneer e-mails met een nieuw platform worden verzonden, zijn internetproviders (ISP&#39;s) verdacht van IP-adressen die niet worden herkend. Als er plotseling grote hoeveelheden e-mails worden verzonden, markeren de ISP&#39;s deze vaak als spam.
 
   Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met golven. Dit zou een vlotte ontwikkeling van de startfase moeten verzekeren en u toelaten om het algemene tarief van ongeldige adressen te verminderen.
 
-  Gebruik hiervoor de opdracht **[!UICONTROL Schedule waves according to a calendar]** -optie. Stel bijvoorbeeld de eerste golf in op 10%, de tweede op 15% enzovoort.
+  Gebruik hiervoor de optie **[!UICONTROL Schedule waves according to a calendar]** . Stel bijvoorbeeld de eerste golf in op 10%, de tweede op 15% enzovoort.
 
   ![](assets/delivery-waves-ex-ramp-up.png)
 
@@ -114,7 +114,7 @@ De twee onderstaande voorbeelden zijn de meest gebruikte voorbeelden voor het ge
 
   Gebruikend golven, kunt u het aantal berichten tot 20 per dag beperken, bijvoorbeeld, gezien de dagelijkse verwerkingscapaciteit van een vraagcentrum.
 
-  Selecteer de optie **[!UICONTROL Schedule multiple waves of the same size]** -optie. Enter **[!UICONTROL 20]** als de grootte van de golf en **[!UICONTROL 1d]** in de **[!UICONTROL Period]** veld.
+  Selecteer hiervoor de optie **[!UICONTROL Schedule multiple waves of the same size]** . Voer **[!UICONTROL 20]** in als de grootte van de golf en **[!UICONTROL 1d]** in het veld **[!UICONTROL Period]** .
 
   ![](assets/delivery-waves-ex-call-center.png)
 
@@ -124,20 +124,20 @@ Wanneer de levering wordt gevormd en klaar om worden verzonden, zorg ervoor u de
 
 Volg de onderstaande stappen om dit te doen.
 
-1. Klikken **[!UICONTROL Send]** selecteert u de gewenste actie.
+1. Klik op **[!UICONTROL Send]** en selecteer de gewenste actie.
 
-   * Selecteer [**Zo snel mogelijk leveren**].
-   * Als u het verzenden naar een latere datum wilt plannen, selecteert u **[!UICONTROL Postpone the delivery]**. [Meer informatie](#schedule-delivery-sending)
+   * Om de levering onmiddellijk te verzenden, uitgezochte [**levert zo spoedig mogelijk**].
+   * Selecteer **[!UICONTROL Postpone the delivery]** als u het verzenden naar een latere datum wilt plannen. [Meer informatie](#schedule-delivery-sending)
 
 1. Klik op **[!UICONTROL Analyze]**. Zie [deze sectie](delivery-analysis.md)voor meer informatie.
 
    ![](assets/delivery-send-analyze.png)
 
-1. Klik op **[!UICONTROL Confirm delivery]** om de levering van berichten te starten.
+1. Klik eenmaal op **[!UICONTROL Confirm delivery]** om de levering van berichten te starten.
 
    ![](assets/delivery-send-confirm.png)
 
-1. U kunt de leveringstovenaar sluiten en de uitvoering van de levering volgen van **[!UICONTROL Delivery]** , toegankelijk via de details van deze levering of via de lijst van leveringen.
+1. U kunt de wizard voor levering sluiten en de uitvoering van de levering volgen via het tabblad **[!UICONTROL Delivery]** , dat toegankelijk is via de details van deze levering of via de lijst met leveringen.
 
    Raadpleeg de volgende secties voor meer informatie:
 
@@ -150,13 +150,13 @@ Volg de onderstaande stappen om dit te doen.
 
 U kunt de levering van berichten uitstellen om de levering te plannen of om de salesdruk te beheren en te voorkomen dat een populatie overbevraagd wordt.
 
-1. Klik op de knop **[!UICONTROL Send]** en selecteert u de **[!UICONTROL Postpone delivery]** -optie.
+1. Klik op **[!UICONTROL Send]** en selecteer de optie **[!UICONTROL Postpone delivery]** .
 
-1. Geef een begindatum op in het dialoogvenster **[!UICONTROL Contact date]** veld.
+1. Geef een begindatum op in het veld **[!UICONTROL Contact date]** .
 
    ![](assets/delivery-send-postpone.png)
 
-1. Start de leveringsanalyse en bevestig de verzending van de levering. De verzending van de levering begint echter pas op de in het **[!UICONTROL Contact date]** veld.
+1. Start de leveringsanalyse en bevestig de verzending van de levering. De verzending van de levering begint echter pas op de datum die in het veld **[!UICONTROL Contact date]** is opgegeven.
 
    >[!IMPORTANT]
    >
@@ -164,23 +164,23 @@ U kunt de levering van berichten uitstellen om de levering te plannen of om de s
 
    ![](assets/delivery-send-scheduled.png)
 
-In de leveringslijst wordt de levering weergegeven met de **[!UICONTROL Pending]** status.
+In de leveringslijst wordt de levering weergegeven met de status **[!UICONTROL Pending]** .
 
-De planning kan ook upstream via **[!UICONTROL Scheduling]** van de levering.
+Planning kan ook upstream worden geconfigureerd via de knop **[!UICONTROL Scheduling]** van de levering.
 
 ![](assets/delivery-scheduling-button.png)
 
 U kunt de levering uitstellen tot een latere datum of de levering opslaan in de voorlopige kalender.
 
-* De **[!UICONTROL Schedule delivery (no automatic execution)]** Met deze optie kunt u een voorlopige analyse van de levering plannen.
+* Met de optie **[!UICONTROL Schedule delivery (no automatic execution)]** kunt u een voorlopige analyse van de levering plannen.
 
   Wanneer deze configuratie wordt opgeslagen, verandert de levering in **[!UICONTROL Targeting pending]** status. De analyse wordt op de opgegeven datum gestart.
 
-* De **[!UICONTROL Schedule delivery (automatic execution on planned date)]** kunt u de leveringsdatum opgeven.
+* Met de optie **[!UICONTROL Schedule delivery (automatic execution on planned date)]** kunt u de leveringsdatum opgeven.
 
-  Klikken **[!UICONTROL Send]** en selecteert u **[!UICONTROL Postpone delivery]** start vervolgens de analyse en bevestig de levering . Wanneer de analyse volledig is, is het leveringsdoel klaar en de berichten zullen automatisch worden verzonden op de gespecificeerde datum.
+  Klik op **[!UICONTROL Send]** en selecteer **[!UICONTROL Postpone delivery]** . Start vervolgens de analyse en bevestig de levering. Wanneer de analyse volledig is, is het leveringsdoel klaar en de berichten zullen automatisch worden verzonden op de gespecificeerde datum.
 
-Datums en tijden worden uitgedrukt in de tijdzone van de huidige operator. De **[!UICONTROL Time zone]** Met de vervolgkeuzelijst onder het invoerveld voor de contactdatum kunt u de ingevoerde datum en tijd automatisch omzetten in de geselecteerde tijdzone.
+Datums en tijden worden uitgedrukt in de tijdzone van de huidige operator. Met de vervolgkeuzelijst **[!UICONTROL Time zone]** onder het invoerveld voor de contactdatum kunt u de ingevoerde datum en tijd automatisch omzetten in de geselecteerde tijdzone.
 
 Bijvoorbeeld, als u een levering plant die automatisch om 8 uur de tijd van Londen moet worden uitgevoerd, wordt de tijd automatisch omgezet in de geselecteerde tijdzone:
 
