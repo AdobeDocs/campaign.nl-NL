@@ -5,16 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 5%
+source-wordcount: '528'
+ht-degree: 6%
 
 ---
 
 # E-mails ontwerpen en verzenden
 
-Met e-mailleveringen kunt u persoonlijke e-mails sturen naar de doelgroep. [Meer informatie](../send/send.md)
+Met Adobe Campaign kunt u e-mailleveringen maken om persoonlijke e-mails naar de doelgroep te sturen. [Meer informatie](../send/send.md)
 
 Leer zeer belangrijke stappen om een levering in [ tot stand te brengen en te vormen deze pagina ](../start/create-message.md).
 
@@ -85,15 +85,16 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
 
-Leer hoe te om een e-mailinhoud in dit [ gebruiksgeval ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html) in te voeren {target="_blank"}.
+Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [ gebruiksgeval ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html) in te voeren {target="_blank"}.
 
-Meer informatie vindt u in de volgende secties:
-
-<!--[Design an email in Campaign]-->
-* [Een e-mailsjabloon maken en gebruiken](../send/create-templates.md)
-* [Selecteer het publiek van uw e-mail](../audiences/gs-audiences.md)
-* [Een levering valideren en proefdrukken verzenden](preview-and-proof.md)
-* [De levering configureren en verzenden](configure-and-send.md)
+>[!MORELIKETHIS]
+>
+>* [ creeer een levering ](../start/create-message.md)
+>* [ creeer en gebruik een e-mailmalplaatje ](create-templates.md)
+>* [ selecteer het publiek van uw e-mail ](../audiences/gs-audiences.md)
+>* [ bevestigt een levering en verzendt proefdrukken ](preview-and-proof.md)
+>* [ vorm en verzend de levering ](configure-and-send.md)
+>* [Best practices voor verzending](../start/delivery-best-practices.md)
 
 ## Uw e-mails testen en valideren
 
