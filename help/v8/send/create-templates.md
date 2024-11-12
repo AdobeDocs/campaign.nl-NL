@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
+source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '988'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Een sjabloon kan gehele of gedeeltelijke configuratie-instellingen bevatten, zoa
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#delivery-template-video)
 
-In Adobe Campaign kunt u werken met twee typen sjablonen:
+De leveringssjablonen worden opgeslagen in de map **[!UICONTROL Resources > Templates > Delivery templates]** van de Verkenner. In Adobe Campaign kunt u werken met twee typen sjablonen:
 
 1. Adobe Campaign **ingebouwde** leveringsmalplaatjes - ingebouwde malplaatjes zijn beschikbaar voor elk kanaal. Zij mogen niet worden gewijzigd of geschrapt. Zij omvatten een basisconfiguratie voor elk leveringskanaal. Als Beheerder, kunt u standaardwaarden plaatsen, of bepaalde functies beperken tot eind - gebruikers, zoals het wijzigen van de volgende parameters, afzender e-mailadressen, en meer. Ingebouwde sjablonen worden vet weergegeven in de lijst met sjablonen.
 
@@ -121,18 +121,19 @@ Selecteer de leveringssjabloon die u wilt gebruiken en klik op **[!UICONTROL Ok]
 
 ### Een sjabloon uitvoeren {#execute-a-template}
 
-U kunt de uitvoering van een sjabloon rechtstreeks vanuit de sjabloonlijst starten zonder eerst een levering te maken.
+U kunt de uitvoering van een sjabloon rechtstreeks vanuit de sjabloonlijst starten zonder eerst een levering te maken. Het leveringsmalplaatje kan manueel, zoals hieronder gedetailleerd worden uitgevoerd, of door een gebeurtenis (uitgevoerd op een vastgestelde tijd, wanneer een dossier in de server, enz.) beschikbaar is, zoals die in [ wordt verklaard deze sectie ](../../automation/workflow/deliveries.md).
 
-Selecteer hiertoe de sjabloon die u wilt uitvoeren en klik met de rechtermuisknop. Selecteer **[!UICONTROL Actions>Execute the delivery template...]**.
+Voer de volgende stappen uit om een sjabloon handmatig uit te voeren:
 
-U kunt ook **[!UICONTROL File>Actions>Execute the delivery template...]** gebruiken.
+1. Selecteer de sjabloon die u wilt uitvoeren en klik met de rechtermuisknop. Selecteer **[!UICONTROL Actions>Execute the delivery template...]**.
 
-![](assets/execute-delivery-template.png)
+   U kunt ook **[!UICONTROL File>Actions>Execute the delivery template...]** gebruiken.
 
-Voer de leveringsparameters in en klik op **[!UICONTROL Send]** .
+   ![](assets/execute-delivery-template.png)
+
+1. Voer de leveringsparameters in en klik op **[!UICONTROL Send]** .
 
 Deze actie produceert een levering in de omslag verbonden aan het malplaatje. De naam van deze levering is de naam van het leveringsmalplaatje waarvan het werd gecreeerd.
-
 
 ## Zelfstudievideo&#39;s {#delivery-template-video}
 
