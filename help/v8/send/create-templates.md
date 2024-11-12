@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
+source-git-commit: 9f19d5c9836c21cea7b4b55241f828e295831339
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -121,7 +121,7 @@ Selecteer de leveringssjabloon die u wilt gebruiken en klik op **[!UICONTROL Ok]
 
 ### Een sjabloon uitvoeren {#execute-a-template}
 
-U kunt de uitvoering van een sjabloon rechtstreeks vanuit de sjabloonlijst starten zonder eerst een levering te maken. Het leveringsmalplaatje kan manueel, zoals hieronder gedetailleerd worden uitgevoerd, of door een gebeurtenis (uitgevoerd op een vastgestelde tijd, wanneer een dossier in de server, enz.) beschikbaar is, zoals die in [ wordt verklaard deze sectie ](../../automation/workflow/deliveries.md).
+U kunt de uitvoering van een sjabloon rechtstreeks vanuit de sjabloonlijst starten zonder eerst een levering te maken. Het leveringsmalplaatje kan manueel, zoals hieronder gedetailleerd worden uitgevoerd, of door een gebeurtenis (uitgevoerd op een vastgestelde tijd, wanneer een dossier in de server, enz.) beschikbaar is, zoals die in [ wordt verklaard deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
 
 Voer de volgende stappen uit om een sjabloon handmatig uit te voeren:
 
