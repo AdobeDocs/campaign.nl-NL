@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 12de29e15d660cd5a40cda059fc19e45311fe312
+source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '990'
+ht-degree: 3%
 
 ---
 
@@ -38,7 +38,7 @@ De leveringssjablonen worden opgeslagen in de map **[!UICONTROL Resources > Temp
 
 >[!NOTE]
 >
->De beschikbare malplaatjes hangen van uw toegangsrechten, van uw instantieconfiguratie, en van de context af. Wanneer u bijvoorbeeld een informatiedienst maakt, kunt u een leveringssjabloon koppelen voor bevestigingsberichten: u kunt dan alleen toegang krijgen tot de sjablonen waarvan de doeltoewijzing de abonnementstoewijzing is. Andere sjablonen zijn in deze context niet zichtbaar. Voor meer op dit, verwijs naar [ Uitgezochte een doelafbeelding ](../audiences/target-mappings.md) en [ de Diensten en de abonnementen ](../start/subscriptions.md).
+>De beschikbare malplaatjes hangen van uw toegangsrechten, van uw instantieconfiguratie, en van de context af. Wanneer u bijvoorbeeld een informatiedienst maakt, kunt u een leveringssjabloon koppelen voor bevestigingsberichten: u kunt dan alleen toegang krijgen tot de sjablonen waarvan de doeltoewijzing de abonnementstoewijzing is. Andere sjablonen zijn in deze context niet zichtbaar. Voor meer op dit, verwijs naar [ Werk met doelafbeeldingen ](../audiences/target-mappings.md) en [ beheer abonnementen en afmeldingsopties ](../start/subscriptions.md).
 
 
 ## Een sjabloon maken {#create-a-delivery-template}
