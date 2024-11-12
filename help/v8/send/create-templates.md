@@ -6,20 +6,22 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 4%
+source-wordcount: '939'
+ht-degree: 3%
 
 ---
 
 # Werken met leveringssjabloon {#work-with-delivery-template}
 
-Elke levering wordt gemaakt op basis van een sjabloon. Ingebouwde sjablonen zijn beschikbaar voor elk kanaal. U kunt ze aanpassen om dezelfde instellingen toe te passen op een set leveringen.
+## Aan de slag met leveringssjablonen
 
-Een sjabloon bevat:
+Elke levering wordt gemaakt op basis van een sjabloon. Een sjabloon is een configuratie die opnieuw kan worden gebruikt om uw implementatie te vereenvoudigen en te standaardiseren. U kunt een ingebouwde sjabloon of een aangepaste sjabloon gebruiken.
 
-* Typologische regels
+Een sjabloon kan gehele of gedeeltelijke configuratie-instellingen bevatten, zoals:
+
+* [Typologische regels](../../automation/campaign-opt/campaign-typologies.md)
 * Afzender en antwoordadressen
 * Basis [ verpersoonlijkingsblokken ](../send/personalization-blocks.md)
 * Verbindingen aan [ spiegelpagina&#39;s ](../send/mirror-page.md) en unsubscription verbindingen
@@ -27,6 +29,17 @@ Een sjabloon bevat:
 * Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#delivery-template-video)
+
+In Adobe Campaign kunt u werken met twee typen sjablonen:
+
+1. Adobe Campaign **ingebouwde** leveringsmalplaatjes - ingebouwde malplaatjes zijn beschikbaar voor elk kanaal. Zij mogen niet worden gewijzigd of geschrapt. Zij omvatten een basisconfiguratie voor elk leveringskanaal. Als Beheerder, kunt u standaardwaarden plaatsen, of bepaalde functies beperken tot eind - gebruikers, zoals het wijzigen van de volgende parameters, afzender e-mailadressen, en meer. Ingebouwde sjablonen worden vet weergegeven in de lijst met sjablonen.
+
+1. **leveringsmalplaatjes van de Douane van 0} {- als Beheerder van Adobe Campaign, kunt u nieuwe leveringsmalplaatjes tot stand brengen.** De beste manier is om een ingebouwde sjabloon te dupliceren en bij te werken in plaats van een geheel nieuwe sjabloon te maken. U kunt bijvoorbeeld een sjabloon voor e-maillevering configureren. Wanneer gebruikers een bezorging maken op basis van deze sjabloon, hoeven ze alleen de tekst of HTML-inhoud in te voeren. Alle andere instellingen zijn al gedefinieerd.
+
+>[!NOTE]
+>
+>De beschikbare malplaatjes hangen van uw toegangsrechten, van uw instantieconfiguratie, en van de context af. Wanneer u bijvoorbeeld een informatiedienst maakt, kunt u een leveringssjabloon koppelen voor bevestigingsberichten: u kunt dan alleen toegang krijgen tot de sjablonen waarvan de doeltoewijzing de abonnementstoewijzing is. Andere sjablonen zijn in deze context niet zichtbaar. Voor meer op dit, verwijs naar [ Uitgezochte een doelafbeelding ](../audiences/target-mappings.md) en [ de Diensten en de abonnementen ](../start/subscriptions.md).
+
 
 ## Een sjabloon maken {#create-a-delivery-template}
 
