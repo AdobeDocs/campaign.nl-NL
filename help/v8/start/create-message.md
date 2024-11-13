@@ -5,16 +5,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
+source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
 
 # Je eerste levering maken {#create-a-msg}
 
-Op deze pagina leert u hoe u één opname maakt van één levering. U kunt andere typen leveringen maken om uw gebruiksgevallen te verhelpen. Leer meer over de verschillende soorten leveringen en hoe te om hen in [ tot stand te brengen deze pagina ](gs-message.md).
+Leer op deze pagina hoe u één opname maakt van één levering. U kunt andere typen leveringen maken om uw gebruiksgevallen samen te stellen. Leer meer over de verschillende soorten leveringen en hoe te om hen in [ tot stand te brengen deze pagina ](gs-message.md).
 
 De belangrijkste stappen bij het maken van een eenmalige levering zijn:
 
