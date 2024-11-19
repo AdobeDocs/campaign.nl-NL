@@ -6,34 +6,38 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
+source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Documentatie-updates {#latest-updates}
 
-Deze pagina bevat alle laatste updates in [!DNL Campaign] v8-documentatie (console).
+Deze pagina bevat een overzicht van alle meest recente updates in de documentatie bij [!DNL Campaign] v8 (console).
+
+## November 2024 {#october-2024}
+
+Het **ffdaUnsubcribe** werkschema is toegevoegd aan de lijst van technische werkschema&#39;s.[Meer informatie](../../automation/workflow/technical-workflows.md)
 
 ## Juni 2024 {#june-2024}
 
-Er is een opmerking toegevoegd om op te geven hoe instantievariabelen moeten worden gewist wanneer werkstromen opnieuw worden gestart. [Meer informatie](../../automation/workflow/start-a-workflow.md)
+Er is een opmerking toegevoegd waarin wordt aangegeven hoe instantievariabelen moeten worden gewist bij het opnieuw opstarten van workflows. [Meer informatie](../../automation/workflow/start-a-workflow.md)
 
 ## Mei 2024 {#may-2024}
 
-* De lijst met kanalen en typen leveringen wordt nu weergegeven in [deze pagina](create-message.md).
+* De lijst van kanalen en types van leveringen zijn nu vermeld in [ deze pagina ](create-message.md).
 * De leveringsmontages en de secties van het golfbeheer zijn gereorganiseerd en verbeterd. [Meer informatie](../send/configure-and-send.md).
-* Er is een opmerking toegevoegd om aan te geven dat **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet op één rij worden toegevoegd en moeten **[!UICONTROL Enrichement]** tussen hen. Lees meer in de [Dimensie wijzigen](../../automation/workflow/change-dimension.md) en [Gegevensbron wijzigen](../../automation/workflow/change-data-source.md) secties.
+* Er is een opmerking toegevoegd om op te geven dat **[!UICONTROL Change Dimension]** - en **[!UICONTROL Change Data source]** -activiteiten niet in één rij mogen worden toegevoegd en dat er een **[!UICONTROL Enrichement]** -activiteit tussen moet worden uitgevoerd. Lees meer in de [ Dimensie van de Verandering ](../../automation/workflow/change-dimension.md) en [ Gegevensbron van de Verandering ](../../automation/workflow/change-data-source.md) secties.
 
 ## februari 2024 {#feb-2024}
 
-* Alle nieuwe functies, wijzigingen en verbeteringen die worden geleverd bij [!DNL Campaign] v8.6-release is gedetailleerd beschreven in de documentatie. [Meer informatie](release-notes.md)
+* Alle nieuwe functies, wijzigingen en verbeteringen die met de release van [!DNL Campaign] v8.6 worden geleverd, zijn in de documentatie uitgebreid. [Meer informatie](release-notes.md)
 * Het beheer- en upgrademechanisme voor Campagne v8-versies wordt nu beschreven in een speciale pagina. [Meer informatie](upgrades.md)
 * Er is een pagina toegevoegd over de integratie met Adobe Campaign + Adobe Workfront. [Meer informatie](../connect/ac-workfront.md)
 
 ## Januari 2024 {#jan-2024}
 
 * Er is informatie toegevoegd over de manier waarop het standaardveld postalAddress voor Direct Mail is gedefinieerd en waarom het belangrijk is dat de adressen volledig zijn. [Meer informatie](../send/direct-mail.md)
-* Adobe Campaign v8 [documentatiehuis](../campaign-home.md) pagina is opnieuw ontworpen.
+* Adobe Campaign v8 [ documentatiehuis ](../campaign-home.md) pagina is opnieuw ontworpen.
