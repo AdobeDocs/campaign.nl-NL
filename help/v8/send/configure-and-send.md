@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1188'
 ht-degree: 3%
 
 ---
@@ -126,7 +126,7 @@ Volg de onderstaande stappen om dit te doen.
 
 1. Klik op **[!UICONTROL Send]** en selecteer de gewenste actie.
 
-   * Om de levering onmiddellijk te verzenden, uitgezochte [**levert zo spoedig mogelijk**].
+   * Selecteer **[!UICONTROL Deliver as soon as possible]** als u de levering direct wilt verzenden.
    * Selecteer **[!UICONTROL Postpone the delivery]** als u het verzenden naar een latere datum wilt plannen. [Meer informatie](#schedule-delivery-sending)
 
 1. Klik op **[!UICONTROL Analyze]**. Zie [deze sectie](delivery-analysis.md)voor meer informatie.

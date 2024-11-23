@@ -5,7 +5,7 @@ description: Meer informatie over de activiteit van de workflow voor leveringsbe
 feature: Workflows
 role: User
 exl-id: 09fe638d-5e1c-49d1-9196-6300c1e56703
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
@@ -14,15 +14,13 @@ ht-degree: 2%
 
 # Leveringscontrole{#delivery-control}
 
+A **de controle van de Levering** - typeactie laat u beginnen, pauzeren, of een levering tegenhouden.
 
-
-A **Afleveringscontrole** Met een handeling van het type -kunt u een levering starten, pauzeren of stoppen.
-
-Dit kan de levering zijn die in de overgang wordt gespecificeerd, uitdrukkelijk geselecteerde levering, of een levering die door een manuscript wordt berekend. Raadpleeg voor meer informatie hierover [Aflevering](delivery.md).
+Dit kan de levering zijn die in de overgang wordt gespecificeerd, uitdrukkelijk geselecteerde levering, of een levering die door een manuscript wordt berekend. Voor meer op dit, verwijs naar [ Levering ](delivery.md).
 
 ![](assets/edit_diffusion_act.png)
 
-Als u **[!UICONTROL Start]**, voert de activiteit alle vereiste stappen uit om de levering te starten (doelberekening, inhoudsvoorbereiding, levering). Als sommige van deze stappen al zijn uitgevoerd door een eerdere workflowactiviteit, worden ze niet opnieuw uitgevoerd. Als de doelschatting bijvoorbeeld al is uitgevoerd door een **[!UICONTROL Delivery]** tekstactiviteit (zie [Aflevering](delivery.md)), **[!UICONTROL Act on the delivery]** de resterende stappen ( voorbereiding en levering van inhoud ) zullen worden opgestart .
+Als u **[!UICONTROL Start]** selecteert, voert de activiteit alle stappen uit die nodig zijn om de levering te starten (doelberekening, inhoudsvoorbereiding, levering). Als sommige van deze stappen al zijn uitgevoerd door een eerdere workflowactiviteit, worden ze niet opnieuw uitgevoerd. Bijvoorbeeld, als de doelschatting reeds door een **[!UICONTROL Delivery]** typeactiviteit (verwijs naar [ Levering ](delivery.md)) werd uitgevoerd, zal de **[!UICONTROL Act on the delivery]** activiteit de resterende stappen (inhoudspreiding en levering) lanceren.
 
 De volgende opties zijn beschikbaar:
 
@@ -32,10 +30,10 @@ De volgende opties zijn beschikbaar:
 
 * **[!UICONTROL Processing errors]**
 
-  Zie [Verwerkingsfouten](monitor-workflow-execution.md#processing-errors).
+  Verwijs naar [ de fouten van de Verwerking ](monitor-workflow-execution.md#processing-errors).
 
 ## Invoerparameters {#input-parameters}
 
 * deliveryId
 
-Leverings-id als de geselecteerde actie **[!UICONTROL Specified in the transition]**.
+  Leverings-id als de geselecteerde actie **[!UICONTROL Specified in the transition]** is.

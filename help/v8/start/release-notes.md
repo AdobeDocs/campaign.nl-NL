@@ -3,21 +3,16 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 8%
+source-wordcount: '422'
+ht-degree: 9%
 
 ---
 
 # Laatste versies {#latest-release}
 
-Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van updates is bedoeld om de nieuwste en beste in uw handen te krijgen, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Adobe raadt alle klanten ten zeerste aan een upgrade uit te voeren naar de nieuwste versie. Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd met de nieuwste releases van Campagne v8 (console). Leer meer over de versies en updates van de Campagne in [ deze pagina ](upgrades.md).
-
-Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Adobe zal contact met u opnemen en uw omgevingen upgraden. De cliëntconsole van de campagne **moet aan de zelfde versie** worden bevorderd zoals de servers van de Campagne. Leer hoe te om uw cliëntconsole in [ te bevorderen deze pagina ](../start/connect.md#upgrade-ac-console).
-
-Bovendien als klant, zorg ervoor dat u de recentste gesteunde versies van de systemen gebruikt die in de [ matrijs van de Verenigbaarheid ](compatibility-matrix.md) worden vermeld.
-
+Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd met de nieuwste releases van Campagne v8 (console). Leer meer over de versies, versies, en verbeteringen van de Campagne in [ deze pagina ](upgrades.md).
 
 ## Release 8.7.2 {#release-8-7-2}
 
