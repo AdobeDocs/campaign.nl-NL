@@ -5,48 +5,41 @@ description: Meer informatie over de technische workflows die beschikbaar zijn v
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
+source-git-commit: 97ab8259c0044b65fec2ad5ddc44d28f0cbf65e5
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
 
 # Technische workflows{#about-technical-workflows}
 
-Adobe Campaign wordt geleverd met een reeks ingebouwde technische workflows. Ze beheren bewerkingen en taken die zijn gepland voor periodieke uitvoering op de server. Met deze services kunt u onderhoud uitvoeren in de database, gegevens over leveringen doorsturen of voorlopige processen voor leveringen instellen. Technische workflows worden geconfigureerd via het knooppunt **[!UICONTROL Administration > Production > Technical workflows]** .
-
-![](assets/navtree.png)
-
-Native sjablonen zijn beschikbaar voor het maken van technische workflows. Zij kunnen worden gevormd om aan uw behoeften te passen.
-
-De submap **[!UICONTROL Campaign process]** centraliseert de workflows die nodig zijn voor het uitvoeren van processen binnen de campagnes: taakmelding, voorraadbeheer, kostenberekening, enz.
-
-![](assets/campaign-processes-wf.png)
-
-
->[!NOTE]
->
->De lijst van technische die werkschema&#39;s met elke module worden geïnstalleerd is beschikbaar in a [ specifieke sectie ](technical-workflows.md).
-
-U kunt andere technische workflows maken in het knooppunt **[!UICONTROL Administration > Production > Technical workflows]** van de boomstructuur. Dit proces is echter voorbehouden aan professionele gebruikers.
-
-De aangeboden activiteiten zijn dezelfde als voor workflows die zich op de werkstroom richten. [Meer informatie](targeting-workflows.md)
-
-De workflows die in deze sectie worden beschreven, worden geïnstalleerd met de verschillende ingebouwde Adobe Campaign-pakketten. Deze pakketten en de bijbehorende technische workflows zijn afhankelijk van uw licentieovereenkomst.
+Adobe Campaign wordt geleverd met een reeks ingebouwde technische workflows. Zij controleren verrichtingen en banen die voor periodieke uitvoering op de server worden gepland. De technische werkschema&#39;s voeren onderhoudsverrichtingen op uw gegevensbestand van de Campagne uit, beheren het volgen gegevens over leveringen, en ook opstelling voorlopige processen op leveringen.
 
 Standaard zijn technische workflows beschikbaar in een submap van het volgende knooppunt: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** .
 
-Merk op dat de technische werkschema&#39;s slechts door exploitanten met de toestemmingen van het Beleid kunnen worden begonnen en worden gewijzigd.
+![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
 
 >[!NOTE]
 >
->Technische workflows die betrekking hebben op de invoegtoepassing Berichtcentrum zijn standaard beschikbaar in het knooppunt **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** .
+>* De lijst van technische die werkschema&#39;s met elke module worden geïnstalleerd is beschikbaar in a [ deze sectie ](#list-technical-workflows).
+>
+>* Technische workflows die betrekking hebben op de invoegtoepassing Berichtcentrum worden standaard opgeslagen in het knooppunt **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** .
 
-Leer hoe te om technische werkschema&#39;s in deze [ specifieke sectie ](monitor-technical-workflows.md) te controleren.
+De submap **[!UICONTROL Campaign process]** centraliseert de workflows die nodig zijn voor het uitvoeren van processen binnen de campagnes: taakmelding, voorraadbeheer, kostenberekening, enz.
 
+![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
+
+
+## Technische workflows beheren en maken {#manage-tech-workflows}
+
+De technische werkschema&#39;s van de campagne kunnen slechts door exploitanten met **toestemmingen van het Beleid** worden begonnen en worden gewijzigd. Leer hoe te om technische werkschema&#39;s in deze [ specifieke sectie ](monitor-technical-workflows.md) te controleren.
+
+U kunt aangepaste technische workflows maken in het knooppunt **[!UICONTROL Administration > Production > Technical workflows]** van de boomstructuur. Native sjablonen zijn beschikbaar voor het maken van technische workflows. Zij kunnen worden gevormd om aan uw behoeften te passen. Dit proces is echter voorbehouden aan professionele gebruikers. De activiteiten die beschikbaar zijn in technische werkstromen zijn hetzelfde als voor het richten van werkstromen. [Meer informatie](targeting-workflows.md).
 
 ## Lijst van technische werkstromen {#list-technical-workflows}
+
+De workflows die in deze pagina worden beschreven, worden geïnstalleerd met de ingebouwde Adobe Campaign-pakketten. Deze pakketten en de bijbehorende technische workflows zijn afhankelijk van uw licentieovereenkomst en invoegtoepassingen.
 
 | Technische workflow | Pakket | Beschrijving |
 |------|--------|-----------|
@@ -59,12 +52,12 @@ Leer hoe te om technische werkschema&#39;s in deze [ specifieke sectie ](monitor
 | **Schoonmaak van het Gegevensbestand** (schoonmaakbeurt) | Standaard geïnstalleerd | Dit werkschema is het werkschema van het gegevensbestandonderhoud: het maakt verschillende berekeningen van de statistieken en de processen, en schrapt verouderde gegevens uit het gegevensbestand volgens de bepaalde configuratie in de plaatsingsmedewerker. Het wordt teweeggebracht elke dag om 4.00 uur door gebrek. |
 | **Schrap geblokkeerde gebruikers van de LIJN** (deleteBlockedLineUsersV2) | LINE-kanaal | Deze workflow zorgt ervoor dat de gegevens van de gebruikers van de LIJN V2 worden verwijderd nadat ze de officiële account van de LIJN gedurende 180 dagen hebben geblokkeerd. |
 | **Schrap privacy verzoekt om gegevens** (deletePrivacyRequestsData) | Privacygegevensbeschermingsverordening | Deze workflow verwijdert de gegevens die de ontvanger in Adobe Campaign heeft opgeslagen. |
-| **de indicatoren van de Levering** (deliveryIndicators) | Middelsourcingsplatform | Deze werkstroom werkt leveringsvolgindicatoren voor een levering bij. Deze workflow wordt standaard elke uur geactiveerd. |
+| **de indicatoren van de Levering** (deliveryIndicators) | Standaard geïnstalleerd | Deze werkstroom werkt leveringsvolgindicatoren voor een levering bij. Deze workflow wordt standaard elke uur geactiveerd. |
 | **Verdeelde marketing processen** (centralLocalMgt) | Centrale/lokale Marketing (Distributed Marketing) | Deze workflow begint met het verwerken van de gedistribueerde marketingmodule. Het lanceert de verwezenlijking van lokale campagnes en beheert berichten met betrekking tot orden en campagnepakketbeschikbaarheid. |
 | **de purge van de Gebeurtenis** (webAnalyticsPurgeWebEvents) | Webanalytische connectors | Met deze workflow kunt u elke gebeurtenis uit het databaseveld verwijderen op basis van de periode die is geconfigureerd in het veld Lifespan. |
 | **het publiek van de Uitvoer aan Adobe Experience Cloud** (exportSharedAudience) | Integratie met Adobe Experience Cloud | Deze workflow exporteert soorten publiek als gedeeld publiek/segmenten. Deze doelgroepen kunnen worden gebruikt in de verschillende Adobe Experience Cloud-oplossingen die u gebruikt. |
 | **ffdaUnsuscribe** | Standaard geïnstalleerd | Deze workflow verwerkt afgeschreven berichten die als stuiterende mails zijn ontvangen (door gebruik te maken van de methode `<mailto>` List-Unsubscribe). Het loopt dagelijks, elke 1u, slechts op marketing instanties met een plaatsing van de Onderneming (FFDA).<br/><br/> het werkschema controleert uitzendingen van een bepaalde tijdwaaier (laatste verwerkingstijd en huidige tijd) die als afstotingen van het abonnement door de module inMail (merkteken dat in iFlags kolom van lijst NmsBroadLog wordt geplaatst) en processen een unsubscription afhankelijk van of de dienst van de breedband wordt geplaatst of niet:<ul><li>Als serviceId (niet bepaald) 0 is, zal de ontvanger worden gevoegd op lijst van gewenste personen.</li><li>Als serviceId niet 0 (verbonden aan een bestaande dienst) is, zal de ontvanger van die dienst worden afgemeld.</li></ul><br/> Nota: Dit werkschema behandelt slechts stuitende unsubscribes; unsubscribes die via opt-out verbinding worden gedaan en One-Click unsubscribtion (methode URL) worden afzonderlijk behandeld buiten dit werkschema. |
-| **Voorspelling** (het voorspellen) | Levering | Deze workflow analyseert leveringen die zijn opgeslagen in de voorlopige kalender (maakt voorlopige logbestanden). Het wordt teweeggebracht elke dag bij 1am door gebrek. |
+| **Voorspelling** (het voorspellen) | Standaard geïnstalleerd | Deze workflow analyseert leveringen die zijn opgeslagen in de voorlopige kalender (maakt voorlopige logbestanden). Het wordt teweeggebracht elke dag bij 1am door gebrek. |
 | **Volledige gezamenlijke berekening (propositionrcp kube)** (agg_nmspropositioncp_full) | Aanbiedingsengine (interactie) | Deze workflow werkt het volledige aggregaat voor de keuzelijst met voorstellen van aanbiedingen bij. Het wordt teweeggebracht elke dag om 6.00 uur door gebrek. In dit aggregaat worden de volgende afmetingen vastgelegd: Kanaal, Levering, Aanbieding en Datum van marketing. De blokje van het Voorstel van het Voorstel van het Voorstel van het Voorstel wordt dan gebruikt om rapporten te produceren die op voorstellen worden gebaseerd. Leer meer over kubussen in [ deze sectie ](../../v8/reporting/gs-cubes.md). |
 | **Identificatie van omgezette contacten** (webAnalyticsFindConverted) | Webanalytische connectors | Deze workflow indexeert bezoekers van de site die hun aankoop hebben voltooid na een campagne voor het opnieuw op de markt brengen van producten. De gegevens die door deze workflow worden hersteld, zijn toegankelijk via het efficiëntierapport voor opnieuw in de handel brengen (zie deze pagina). |
 | **het publiek van de Invoer van Adobe Experience Cloud** (importSharedAudience) | Integratie met Adobe Experience Cloud | Met deze workflow kunt u soorten publiek/segmenten van verschillende Adobe Experience Cloud-oplossingen importeren in Adobe Campaign. |
