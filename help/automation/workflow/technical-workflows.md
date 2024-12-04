@@ -5,9 +5,9 @@ description: Meer informatie over de technische workflows die beschikbaar zijn v
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 97ab8259c0044b65fec2ad5ddc44d28f0cbf65e5
+source-git-commit: e8546d56232c50dbf4aedf054a7d63838e3fd957
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Campaign wordt geleverd met een reeks ingebouwde technische workflows. Zij
 
 Standaard zijn technische workflows beschikbaar in een submap van het volgende knooppunt: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** .
 
-![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
+![](assets/navtree.png){width="50%" align="left" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -28,8 +28,7 @@ Standaard zijn technische workflows beschikbaar in een submap van het volgende k
 
 De submap **[!UICONTROL Campaign process]** centraliseert de workflows die nodig zijn voor het uitvoeren van processen binnen de campagnes: taakmelding, voorraadbeheer, kostenberekening, enz.
 
-![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
-
+![](assets/campaign-processes-wf.png)
 
 ## Technische workflows beheren en maken {#manage-tech-workflows}
 
@@ -37,7 +36,7 @@ De technische werkschema&#39;s van de campagne kunnen slechts door exploitanten 
 
 U kunt aangepaste technische workflows maken in het knooppunt **[!UICONTROL Administration > Production > Technical workflows]** van de boomstructuur. Native sjablonen zijn beschikbaar voor het maken van technische workflows. Zij kunnen worden gevormd om aan uw behoeften te passen. Dit proces is echter voorbehouden aan professionele gebruikers. De activiteiten die beschikbaar zijn in technische werkstromen zijn hetzelfde als voor het richten van werkstromen. [Meer informatie](targeting-workflows.md).
 
-## Lijst van technische werkstromen {#list-technical-workflows}
+## Ingebouwde technische workflows {#list-technical-workflows}
 
 De workflows die in deze pagina worden beschreven, worden geïnstalleerd met de ingebouwde Adobe Campaign-pakketten. Deze pakketten en de bijbehorende technische workflows zijn afhankelijk van uw licentieovereenkomst en invoegtoepassingen.
 
