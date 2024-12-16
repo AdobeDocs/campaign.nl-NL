@@ -5,10 +5,10 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: e465b846b3144a2138bb912b4baa09238f8c5b4c
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 67%
+source-wordcount: '1333'
+ht-degree: 65%
 
 ---
 
@@ -143,6 +143,10 @@ Voor meer informatie over dit, verwijs naar de [ profielen van het Product voor 
 
 
 1. Wijs in de categorie **[!UICONTROL eVars]** de twee **[!UICONTROL Conversion variables]** toe die zijn geconfigureerd in [!DNL Adobe Analytics].
+
+   >[!NOTE]
+   >
+   >De velden Campagne-id en Broadload-id worden via JavaScript verzameld op de landingspagina of via verwerkingsregels. [ leer meer bij verwerkingsregels ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
