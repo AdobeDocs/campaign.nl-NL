@@ -5,9 +5,9 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
+source-git-commit: 5b649e17f464d09124064f61712856d9301fc6d6
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '430'
 ht-degree: 15%
 
 ---
@@ -45,7 +45,7 @@ De volgende besturingssystemen en browsers zijn vereist voor het gebruik van de 
 Hieronder vindt u de Customer Relationship Management-systemen (CRM) die compatibel zijn met Adobe Campaign. Leer meer over de schakelaars van CRM [ in deze pagina ](../connect/crm.md).
 
 * **Salesforce** schakelaarAPI versie 49
-* **schakelaar van de Dynamica van Microsoft van 0} {, Web API: Dynamiek 365 op-gebouw en online**
+* **Microsoft Dynamics** schakelaar, Web API: Dynamiek 365 op-gebouw en online
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
@@ -53,7 +53,7 @@ Externe databases die compatibel zijn met de module Adobe Campaign Federated Dat
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]** , campagne v8.5 starten
-* **[!DNL Databricks]**, campagne v8.7 starten
+* **[!DNL Databricks]** , campagne v8.6.4 / v8.7 starten
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
@@ -64,7 +64,7 @@ Externe databases die compatibel zijn met de module Adobe Campaign Federated Dat
 
 ## Mobiele SDK {#MobileSDK}
 
-Om [ duw berichten ](../send/push.md) met Campagne te verzenden, gebruik Adobe Experience Platform Mobile SDK door de uitbreiding van Adobe Campaign Classic in de Inzameling UI van Gegevens te vormen.
+Om [ dupberichten ](../send/push.md) met Campagne te verzenden, gebruik Adobe Experience Platform Mobile SDK door de uitbreiding van Adobe Campaign Classic in de Inzameling UI van Gegevens te vormen.
 
 De compatibele versies voor iOS en Android zijn gedetailleerd in de [ documentatie van Adobe Developer ](https://developer.adobe.com/client-sdks/home/) {target="_blank"}.
 

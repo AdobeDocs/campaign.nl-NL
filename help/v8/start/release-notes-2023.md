@@ -5,21 +5,29 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: ad198540dc65152680e1d14c45286b94397948fd
+source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 21%
 
 ---
 
 # Opmerkingen bij de release 2023 {#2023-rn}
 
-Deze pagina bevat nieuwe mogelijkheden, verbeteringen en oplossingen die worden geleverd bij **2023 Campagne v8-releases**.
+Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen, en moeilijke situaties die met **2023 de Versies van de Campagne v8** komen.
 
+>[!BEGINSHADEBOX]
+
+**In deze pagina**
+
+* Campagne v8.5 - [ Versie 8.5.1 ](#release-8-5-1) | [ Versie 8.5.2 ](#release-8-5-2)
+* Campagne v8.4 - [ Versie 8.4.3 ](#release-8-4-3) | [ Versie 8.4.4 ](#release-8-4-4) | [ Versie 8.4.5 ](#release-8-4-5)
+
+>[!ENDSHADEBOX]
 
 ## Release 8.5.2 {#release-8-5-2}
 
-_2 aug. 2023_
+_aug 2, 2023_
 
 Oplossing voor een beveiligingsprobleem dat kon optreden bij de upgrade naar 8.5.1. (NEO-64767)
 
@@ -28,7 +36,7 @@ Oplossing voor een beveiligingsprobleem dat kon optreden bij de upgrade naar 8.5
 _zaterdag 30 juni 2023_
 
 
-**Enhanced Push Notification Service**
+**de Verbeterde dienst van het Pushbericht**
 
 Campagne v8.5.1 introduceert onze nieuwste Push-meldingsservice, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken. Deze mogelijkheid is alleen beschikbaar voor een geselecteerde groep klanten (beperkte beschikbaarheid).
 
@@ -43,14 +51,14 @@ Raadpleeg de [gedetailleerde documentatie](../send/push-data-collection.md) voor
 <td>
 <div>
 <p><strong>Verhoogde doorvoer van mobiele kanalen</strong></p>
-<p>De nieuwe Push-meldingsservice laat zien dat de doorvoer voor zowel Push Android als Push iOS aanzienlijk is verbeterd ten opzichte van onze vorige versie (v8.4). De gebruikers zullen met name verbeterde prestaties met de verbeterde dienst in de recentste versie (v8.5) ervaren. </p>
+<p>De nieuwe Push-meldingsservice laat zien dat de doorvoer voor Push Android en Push iOS aanzienlijk is verbeterd ten opzichte van onze vorige versie (v8.4). De gebruikers zullen met name verbeterde prestaties met de verbeterde dienst in de recentste versie (v8.5) ervaren. </p>
 <ul>
-<li>Pushmeldingen (Android): tot <strong>5x</strong> sneller </li>
-<li>Pushmeldingen (iOS): maximaal <strong>2,2 x</strong> sneller</li>
+<li>Push Notifications (Android): tot <strong> 5x </strong> sneller </li>
+<li>Push Notifications (iOS): tot <strong> 2.2x </strong> sneller</li>
 </ul>
 <p>De productie van SMS heeft aanzienlijke verhogingen door een reeks optimalisaties ondergaan, resulterend in opmerkelijke verbeteringen in snelheid en efficiency voor de mededeling van SMS. Deze upgrades hebben geleid tot een hogere doorvoer van de vorige versie (v8.4) naar de nieuwste versie (v8.5), die zowel updates voor verzenden als feedback omvat. Gebruikers kunnen nu profiteren van de voordelen van deze verbeterde SMS-service.</p>
 <ul>
-<li>SMS-doorvoer: maximaal <strong>5x</strong> sneller</li>
+<li>De productie van SMS: tot <strong> 5x </strong> sneller</li>
 </ul>
 <p><em>Deze maximum productieprestaties zijn gemeten door Adobe testende teams, in laboratoriumomstandigheden.</em></p>
 </div>
@@ -73,11 +81,11 @@ Raadpleeg de [gedetailleerde documentatie](../send/push-data-collection.md) voor
 
 **Compatibiliteitsupdates**
 
-* De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Raadpleeg voor meer informatie over het upgraden van uw besturingssysteem [technote](../../technotes/upgrades/console.md).
-* U kunt nu uw Campagne v8 instantie met uw Azure synapse externe gegevensbestand verbinden. Deze verbinding wordt beheerd via een nieuwe externe account. Meer informatie in [Matrixcompatibiliteitsmatrix voor campagnes](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+* De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Voor meer informatie over hoe te om uw werkend systeem te bevorderen, verwijs naar dit [ technote ](../../technotes/upgrades/console.md).
+* U kunt nu uw Campagne v8 instantie met uw Azure synapse externe gegevensbestand verbinden. Deze verbinding wordt beheerd via een nieuwe externe account. Leer meer in [ de verenigbaarheidsmatrijs van de Campagne ](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
 
 
-**Oplossingen**
+**Bevestigingen**
 
 * Er is een probleem verholpen waardoor speciale tekens in de HTML-content van een levering in verschillende browsers soms niet goed werden gecodeerd. (NEO-60081)
 * Probleem verholpen waardoor u geen rapport kon opslaan over een FFDA-implementatie (Campaign v8 Enterprise). (NEO-56836)
@@ -99,7 +107,7 @@ Raadpleeg de [gedetailleerde documentatie](../send/push-data-collection.md) voor
 
 _dinsdag 3 april 2023_
 
-**Oplossingen**
+**Bevestigingen**
 
 * Probleem verholpen die tot een fout met betrekking tot een dubbele sleutel kon leiden als meerdere goedkeuringswerkstromen op hetzelfde schema werden ingesteld. (NEO-48968)
 * Oplossing voor een regressieprobleem dat werd geïntroduceerd door NEO-54474 (8.4.4). Hierdoor werd het stijlkenmerk van de body-tag gewijzigd tijdens het uploaden van een afbeelding in de Digital Content Editor (DCE). (NEO-57697)
@@ -117,7 +125,7 @@ _donderdag 8 maart 2023_
 
 * Tomcat is bijgewerkt van versie 8.5.81 naar 8.5.85 om de beveiliging te verbeteren. (NEO-50530)
 
-**Oplossingen**
+**Bevestigingen**
 
 * Probleem verholpen waardoor scrollen soms niet mogelijk was in het tabblad **Bewerken** van de Digital Content Editor (DCE). (NEO-54474)
 * Probleem verholpen tijdens replicatie die tot een crash van een webserver kan leiden. (NEO-53670)
@@ -128,7 +136,7 @@ _donderdag 8 maart 2023_
 
 _zaterdag 27 januari 2023_
 
-**Oplossingen**
+**Bevestigingen**
 
 * Probleem met synchronisatie van een leveringsindicator tussen de marketingserver en de server voor midsourcing is opgelost. (NEO-50724) <!--OKKKK-->
 * Probleem verholpen dat tot een fout kon leiden bij het exporteren van een workflow. (NEO-50555) <!--OKKKK-->
@@ -137,16 +145,16 @@ _zaterdag 27 januari 2023_
 * Oplossing voor twee problemen met de voorbereiding van de levering. De voorbereiding van de levering zou kunnen mislukken wanneer het aantal potentiële aanbiedingen dat wordt gemanipuleerd te hoog was. De tweede kwestie kwam voor wanneer beeld URLs als URLs werd gedefinieerd om in een levering van het tekstformaat te volgen. (NEO-48807) <!--OKKKK-->
 * Probleem verholpen dat tot een workflowfout kon leiden waarbij een workflow de opslagnaam zou overschrijven die in de externe account voor niet-FFDA-accounts is gedefinieerd. (NEO-43209) <!--OKKKK-->
 * Verbeterde beveiliging van webtoepassingen om DoS-aanvallen te voorkomen. (NEO-50757) <!--OKKKK-->
-* Het beheer van geconsolideerde volggegevens is verbeterd in de **[!UICONTROL Consolidated tracking]** (nms:trackingStats) FFDA-tabel om dubbele gegevens te voorkomen. (NEO-46409)
-* Probleem met een logische operator verholpen bij workflowquery&#39;s bij gebruik van een `enableIf` in een logische operatorvoorwaarde. De vorige logische voorwaarde is overschreven. (NEO-45815)  <!--OKKKK-->
+* Het beheer van geconsolideerde volggegevens is verbeterd in de FFDA-tabel **[!UICONTROL Consolidated tracking]** (nms:trackingStats) om dubbele gegevens te voorkomen. (NEO-46409)
+* Probleem met een logische operator verholpen bij workflowquery&#39;s bij gebruik van een `enableIf` in een logische operatorvoorwaarde. De vorige logische voorwaarde is overschreven. (NEO-45815) <!--OKKKK-->
 * Het genereren van actieve profielen is geoptimaliseerd in de factureringsworkflow om de prestaties te verbeteren. (NEO-47658) <!--OKKKK-->
 * Er is een probleem verholpen met het importeren van HTML-bestanden wanneer afbeeldingsnodes (img) URL&#39;s met personalisatievelden bevatten. (NEO-48396)
-* Probleem verholpen met Snowflake (alle implementaties) bij gebruik van de sorteerparameter in een **Splitsen** workflowactiviteit. (NEO-45899) <!--OKKKK-->
+* Vaste een kwestie met Snowflake (alle plaatsingen) wanneer het gebruiken van de sorterende parameter in a **Gesplitste** werkschemaactiviteit. (NEO-45899) <!--OKKKK-->
 * Er is een probleem verholpen dat tot een fout leidde wanneer een gebruiker met leestoegangsrechten voor de map nmsDeliveryMapping probeerde een campagne of workflow uit te voeren. (NEO-48230)
 * Er is een probleem verholpen in het HTML-tabblad van een bezorging dat kon optreden voor grootschalige HTML-code. (NEO-47440)
 <!-- * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
 * Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)-->
-* Probleem verholpen waardoor gebruikers de **Geselecteerde lijnen samenvoegen** workflowoptie. (NEO-48488)
+* Oplossing een kwestie die gebruikers verhinderde **geselecteerde lijnen van de Fusie** werkschemaoptie te gebruiken. (NEO-48488)
 * Probleem verholpen met de FDA-aansluiting van de Snowflake die ertoe leidde dat records werden verwijderd wanneer tijdens het verrijken de optie &quot;0 of 1 cardinality simple join&quot; werd gebruikt. (NEO-48737)
 * De resterende verwijzingen naar de bibliotheek log4j zijn verwijderd uit de installatie van Campaign in Windows. (NEO-44851)
 * Er is een probleem verholpen dat tot een fout kon leiden bij het toevoegen van de indicator **Ontvangers die hebben geopend** (estimatedRecipientOpen) in de aanvullende gegevens van een **Query**-workflowactiviteit. (NEO-46665)
