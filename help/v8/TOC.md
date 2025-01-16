@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 17%
+source-wordcount: '691'
+ht-degree: 18%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 + Berichten verzenden{#send}
    + [Aan de slag met berichten](start/gs-message.md)
    + [Je eerste levering maken](start/create-message.md)
-   + [Best practices voor verzending](start/delivery-best-practices.md)
+   + [Best practices voor leveringen](start/delivery-best-practices.md)
    + E-mails {#emails}
       + [E-mails ontwerpen en valideren](send/email.md)
       + [Koppeling maken naar de spiegelpagina](send/mirror-page.md)
@@ -119,6 +119,7 @@ ht-degree: 17%
    + [Best practices](audiences/audiences-best-practices.md)
    + [Lidmaatschappen beheren](start/subscriptions.md)
 + Inhoudsbeheer {#content}
+   + [Openingspagina&#39;s maken](dev/landing-pages.md)
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Automatisering en workflows {#automation}
    + [ Gids van de Automatisering van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
