@@ -5,7 +5,7 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 02d7909c409bd25cfa3cc7aad189247ce7b5176e
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -121,7 +121,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
 Nu de authentificatieopties in Campagne worden gevormd, moet u de codes van douaneJavaScript tot stand brengen om gegevenssynchronisatie tussen Campagne en Adobe Experience Platform van uw landingspagina toe te staan.
 
-## Opties toevoegen bij uitvoering van werkstroom {#javacript}
+## Opties toevoegen bij uitvoering van werkstroom {#javascript}
 
 Als u gegevenssynchronisatie tussen bestemmingspagina&#39;s en Adobe Experience Platform wilt toestaan, moeten aangepaste JavaScript-codes aan Adobe Campaign worden toegevoegd. Voer de volgende stappen uit:
 
