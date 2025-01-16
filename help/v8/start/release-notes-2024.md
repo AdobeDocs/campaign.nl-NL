@@ -1,12 +1,12 @@
 ---
-title: Opmerkingen bij de release Campagne v8 (console) 2023
-description: Lijst met functies en verbeteringen die worden geleverd bij de 2023-campagne v8-releases
+title: Opmerkingen bij de release Campagne v8 (console) 2024
+description: Lijst met functies en verbeteringen die worden geleverd bij de 2024-campagne v8-releases
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+source-git-commit: 3bf433f3125183001d9f2a02a6a91011de1aa6ad
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 11%
+source-wordcount: '1191'
+ht-degree: 13%
 
 ---
 
@@ -18,36 +18,11 @@ Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen, en moeilijk
 
 **In deze pagina**
 
-* Campagne v8.7 - [ Versie 8.7.1 ](#release-8-7-1) | [ Versie 8.7.2 ](#release-8-7-2)
+* Campagne v8.7 - [ Versie 8.7.1 ](#release-8-7-1)
 * Campagne v8.6 - [ Versie 8.6.1 ](#release-8-6-1) | [ Versie 8.6.2 ](#release-8-6-2) | [ Versie 8.6.3 ](#release-8-6-3)
 * Campagne v8.5 - [ Versie 8.5.3 ](#release-8-5-3)
 
 >[!ENDSHADEBOX]
-
-
-## Release 8.7.2 {#release-8-7-2}
-
-_sep 3, 2024_
-
->[!AVAILABILITY]
->
->Deze versie is in **Beperkte Beschikbaarheid** (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
->
->Als gebruiker die van het Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration) {target="_blank"}.
-
-### Nieuwe functies {#new-8-7-2}
-
-* **Nieuwe SMS die schakelaar verzenden** - SMS die schakelaar verzenden is gemoderniseerd en verbeterd om de verbindingen van de zendwijzeSMPP toe te laten, blijvende verbindingen toe te laten SMPP, en betere verenigbaarheid voor milieu&#39;s te verzekeren die van Adobe Campaign Standard overgaan. Een nieuwe externe SMS-account is nu beschikbaar voor alle nieuwe SMS-implementaties. De bestaande implementatie wordt nog steeds ondersteund, maar de aanbeveling is om over te stappen op deze nieuwe, moderne en uitgebreide aansluiting. [Meer informatie](../send/sms/sms.md).
-
-* **Rich Push Bericht (GA)** - u kunt rijke dupberichten nu verzenden. Een veeleisende pushmelding is een verbeterde vorm van mobiele meldingen die verder gaat dan eenvoudige tekstberichten door het opnemen van multimedia-elementen, zoals afbeeldingen, interactieve knoppen of andere rijke media-inhoud. Met deze versie is een set sjablonen voor uitgebreide pushmeldingen nu beschikbaar voor uw iOS- en Android-apps. [Meer informatie](../send/rich-push-android.md).
-
-* **het Brandmerken** - de Brandende opties zijn nu beschikbaar voor alle kanalen, met inbegrip van SMS en Directe post. [ las meer ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html) {target="_blank"}
-
-### Oplossingen {#fixes-8-7-2}
-
-De volgende problemen zijn opgelost in deze release:
-
-NEO-48232, NEO-56832, NEO-72504, NEO-74855, NEO-75898, NEO-76097, NEO-76958, NEO-770 14, NEO-7795, NEO-78843, NEO-79328.
 
 
 
