@@ -4,16 +4,19 @@ description: Aan de slag met bestemmingspagina's
 feature: Landing Pages
 role: User, Developer
 level: Beginner
-source-git-commit: 45999f56c2d9e4417c6a54987d8395b69cdd2b2f
+exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
+source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
 # Landingspagina&#39;s maken en beheren {#ac-gs-lp}
 
-[ Adobe Campaign v8 Webgebruikersinterface ](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui) komt met een herbedacht gebruikerservaring voor het landen van pagina&#39;s. Met campagnes kunt u bestemmingspagina&#39;s maken, ontwerpen en delen. Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen waar zij hun gegevens kunnen bijwerken, uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief kunnen abonneren. Als gebruiker van Campagne v8 hebt u toegang tot deze nieuwe gebruikersinterface om taken uit te voeren en uw ervaring te vereenvoudigen terwijl u Adobe Campaign gebruikt. Meer informatie over
+Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen waar zij hun gegevens kunnen bijwerken, uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief kunnen abonneren.
+
+Om landende pagina&#39;s tot stand te brengen, doorblader aan het [ Web gebruikersinterface ](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign wordt geleverd met een vernieuwde gebruikerservaring voor het plaatsen van pagina&#39;s, die alleen beschikbaar is in de webgebruikersinterface.
 
 
 >[!AVAILABILITY]
