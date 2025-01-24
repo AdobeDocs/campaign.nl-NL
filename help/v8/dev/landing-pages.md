@@ -5,19 +5,18 @@ feature: Landing Pages
 role: User, Developer
 level: Beginner
 exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
-source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
+source-git-commit: 465d5d4ba10596ad2c3ced1fe621a93327fc48ab
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # Landingspagina&#39;s maken en beheren {#ac-gs-lp}
 
-Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen waar zij hun gegevens kunnen bijwerken, uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief kunnen abonneren.
+Een landingspagina is een speciale webpagina die is ontworpen met een specifiek marketingdoel. Bezoekers arriveren meestal op een bestemmingspagina nadat ze op een koppeling in een e-mail, een bericht op sociale media of het resultaat van een zoekmachine hebben geklikt. In tegenstelling tot algemene websitepagina&#39;s richten landingspagina&#39;s zich op het sturen van één, duidelijk gedefinieerde handeling, zoals het kopen van een aankoop, het abonneren of het opzeggen van een abonnement op een service of het downloaden van een resource. Met Adobe Campaign kunt u bestemmingspagina&#39;s maken om uw gebruikers naar een onlineformulier te leiden waar zij hun gegevens kunnen bijwerken, uw communicatie kunnen in- of uitschakelen of zich kunnen abonneren op een specifieke service, zoals een nieuwsbrief.
 
 Om landende pagina&#39;s tot stand te brengen, doorblader aan het [ Web gebruikersinterface ](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign wordt geleverd met een vernieuwde gebruikerservaring voor het plaatsen van pagina&#39;s, die alleen beschikbaar is in de webgebruikersinterface.
-
 
 >[!AVAILABILITY]
 >
