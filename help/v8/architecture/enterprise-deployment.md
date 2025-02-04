@@ -5,9 +5,9 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
+source-git-commit: 3235701e0939466d4275b1e9202f82694ccdb352
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1053'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ De database [!DNL Snowflake] aan de marketingzijde wordt gebruikt voor:
 * Sla alle klantgegevens op: profielen, aangepaste gegevens zoals transacties, producten, locaties, enz.
 * Sla alle gebeurtenissen en gedragsgegevens op die door Campagne worden gegenereerd of verzameld, zoals leveringslogboeken, trackinglogboeken, push-registraties, enzovoort.
 * Sla alle gegevensaggregaten van het bovenstaande op.
-* Een kopie (h+1) van referentietabellen opslaan (zoals leveringen, opsommingen, landen, enz.) die worden gebruikt in workflows, campagnes en rapporten.
+* Sla een kopie (h+1) op van referentietabellen (zoals leveringen, opsommingen, landen, enz.) die worden gebruikt in workflows, campagnes en rapporten.
 * Alle batchprocessen en werkbelastingen uitvoeren
 
 
@@ -63,7 +63,7 @@ De PostSQL-database van de marketinginstantie wordt gebruikt om:
 
 * Bepaalde werklasten uitvoeren, zoals API&#39;s met een laag volume.
 * Sla alle Campagnegegevens op, inclusief levering- en campagnemontages, workflow- en servicedefinities.
-* Alle ingebouwde referentietabellen opslaan (opsommingen, landen, enz.) die worden gerepliceerd naar [!DNL Snowflake] .
+* Sla alle ingebouwde referentietabellen (opsommingen, landen, enz.) op die worden gerepliceerd naar [!DNL Snowflake] .
 
   U kunt echter niet:
    * Maak aanpassingen voor klantgegevens, maak bijvoorbeeld geen huishoudelijke tabel in PostSQL, maar alleen in Snowflake
@@ -82,9 +82,7 @@ De PostgreSQL-database in de mid-sourcing-instantie wordt gebruikt om:
 
 ### [!DNL Campaign] Mechanisme voor API-staging{#staging-api}
 
-Met de [!DNL Campaign] Cloud-database worden algemene aanroepen niet aanbevolen vanwege de prestaties (latentie en gelijktijdige uitvoering). BUllens u zeer verzendend volume verzendt, moet de partijverrichting worden gebruikt om optimale prestaties van APIs te waarborgen, blijft de Campagne API vraag op het lokale gegevensbestandniveau behandelen.
-
-[Het mechanisme voor API-staging wordt in deze pagina beschreven](staging.md)
+Met de [!DNL Campaign] Cloud-database wordt het opblazen van eenheidaanroepen niet aanbevolen voor wat betreft prestaties (latentie en gelijktijdige uitvoering). Tenzij u een extreem laag volume verzendt, moeten batchbewerkingen worden gebruikt om optimale API-prestaties te garanderen. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database. [ Leer meer op het opvoeren mechanisme van API van de Campagne ](staging.md)
 
 ### Nieuwe API&#39;s{#new-apis}
 
