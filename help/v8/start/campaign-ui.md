@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+source-git-commit: 9d5a2ca1e9858a727377b8afa6bdd7e3761c1b56
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,7 @@ Als gebruiker van de Campagne v8 clientconsole, die versie v8.6.1 begint, hebt u
 >De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Identity Management van de Adobe (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html) {target="_blank"}.
 >
 
-Leer meer over het nieuwe Gebruikersinterface van het Web van de Campagne in [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html) {target="_blank"}.
+Leer meer over het nieuwe Gebruikersinterface van het Web van de Campagne in [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html) {target="_blank"}. U kunt de specifieke [ vaak Gestelde pagina van Vragen ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq) ook bezoeken {target="_blank"}, in de documentatie van het Gebruikersinterface van het Web van de Campagne.
 
 Aanvullende en geavanceerde mogelijkheden, configuratie en instellingen zijn alleen beschikbaar in de clientconsole. Leer meer over mogelijkheden beschikbaar in beide gebruikersinterfaces [ in de documentatie van het gebruikersinterface van het Web van de Campagne ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html) {target="_blank"}.
 
