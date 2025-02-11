@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+source-git-commit: d50c746d11b6f1bb0b5af0d5ddab5660b99dc359
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '692'
 ht-degree: 18%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 18%
    + [Versies en upgrades](start/upgrades.md)
    + [Laatste versies](start/release-notes.md)
    + Eerdere releases {#previous-rn}
+      + [2025](start/release-notes-2025.md)
       + [2024](start/release-notes-2024.md)
       + [2023](start/release-notes-2023.md)
       + [2022](start/release-notes-2022.md)
@@ -38,7 +39,7 @@ ht-degree: 18%
    + [Van Campaign Classic v7 naar v8](start/v7-to-v8.md)
    + [Van Campaign Standard naar v8](start/acs-to-v8.md)
    + [Veelgestelde vragen](start/campaign-faq.md)
-+ Campaign Management {#campaigns}
++ Campagnebeheer {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
    + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
 + Berichten verzenden{#send}
@@ -115,7 +116,7 @@ ht-degree: 18%
    + Soorten publiek maken {#create-audiences}
       + [Een lijst met contactpersonen maken](audiences/create-audiences.md)
       + [Filters maken en beheren](audiences/create-filters.md)
-      + [Publiek delen met oplossingen voor Adobe](start/shared-audiences.md)
+      + [Soorten publiek delen met Adobe-oplossingen](start/shared-audiences.md)
    + [Best practices](audiences/audiences-best-practices.md)
    + [Lidmaatschappen beheren](start/subscriptions.md)
 + Inhoudsbeheer {#content}
@@ -174,7 +175,7 @@ ht-degree: 18%
    + [Campagne + Analyse](connect/ac-aa.md)
    + [Campagne + Experience Manager](connect/ac-aem.md)
    + [Campagne + Doel](connect/ac-at.md)
-   + [Campagne + triggers voor Experiencen Cloud](connect/ac-triggers.md)
+   + [Campagne + Experience Cloud-triggers](connect/ac-triggers.md)
    + [Campagne + Workfront](connect/ac-workfront.md)
    + [Campagne + X (Twitter)](connect/ac-tw.md)
    + [Campagne + externe database](connect/fda.md)
