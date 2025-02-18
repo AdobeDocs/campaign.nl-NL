@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
+source-git-commit: a76d2c30d3e1c723bcd4881f28980d346aade3dc
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '565'
 ht-degree: 6%
 
 ---
@@ -15,6 +15,11 @@ ht-degree: 6%
 # E-mails ontwerpen en verzenden
 
 Met Adobe Campaign kunt u e-mailleveringen maken om persoonlijke e-mails naar de doelgroep te sturen. [Meer informatie](../send/send.md)
+
+>[!NOTE]
+>
+>Om fascinerend en individueel gerichte e-mails tot stand te brengen, doorblader aan het [ interface van de Webgebruiker ](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign wordt geleverd met de E-mail Designer, een intuïtieve drag-and-drop interface waarmee u alle inhoud voor elke e-mail kunt ontwerpen en verfijnen.
+
 
 Leer zeer belangrijke stappen om een levering in [ tot stand te brengen en te vormen deze pagina ](../start/create-message.md).
 
@@ -41,7 +46,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 1. **de Invoer uw inhoud**
 
-   Klik het **Source** lusje om uw inhoud van de HTML te kleven.
+   Klik het **Source** lusje om uw inhoud van HTML te kleven.
 
    ![](assets/paste-content.png)
 
