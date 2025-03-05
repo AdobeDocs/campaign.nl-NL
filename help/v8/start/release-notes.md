@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: dcc3802a165091597505c4556dd7626d6810266f
+source-git-commit: 15faa6850c035d2d26dd43dc221e0128c33999c2
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '566'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,15 @@ De verbinding met Adobe-oplossingen en -toepassingen via de externe account van 
 
 ### Compatibiliteitsupdates {#comp-8-6-4}
 
-Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Federated Data Access). Meer informatie vindt u [op deze pagina](compatibility-matrix.md#FederatedDataAccessFDA).
+* Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Federated Data Access). Meer informatie vindt u [op deze pagina](compatibility-matrix.md#FederatedDataAccessFDA).
+
+* Er is nu een nieuwe Amazon Redshift FDA ODBC-connector beschikbaar. Het biedt verbeterde connectiviteit, gemakkelijker onderhoud en verbeterde compatibiliteit. Deze nieuwe versie brengt de volgende verbeteringen aan:
+
+   * De nieuwe schakelaar is gebaseerd op de interface ODBC die zich op onze meest recente schakelaars FDA richt. Dit zorgt voor langdurige ondersteuning.
+   * Het introduceert ook een nieuw mechanisme voor het laden van gegevens gebruikend s3 emmers, beduidend verbeterend prestaties.
+   * Ondersteuning voor opnieuw verschuiven van spectrum is toegevoegd.
+
+  De oudere schakelaar kan nog worden gebruikt. Neem contact op met uw Adobe-vertegenwoordiger als u de nieuwe versie wilt uitproberen.
 
 ### Oplossingen {#fixes-8-6-4}
 
