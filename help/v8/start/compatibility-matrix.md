@@ -5,9 +5,9 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 5b649e17f464d09124064f61712856d9301fc6d6
+source-git-commit: ba27d1e56f7354e500e747f01a27412f8d553e2b
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 15%
 
 ---
@@ -51,7 +51,8 @@ Hieronder vindt u de Customer Relationship Management-systemen (CRM) die compati
 
 Externe databases die compatibel zijn met de module Adobe Campaign Federated Data Access (FDA) worden hieronder weergegeven. Leer meer over FDA [ in deze pagina ](../connect/fda.md).
 
-* **[!DNL Amazon Redshift]**
+* **[!DNL Amazon Redshift]** ODBC-connector, campagne v8.6.4 starten
+* **[!DNL Amazon Redshift]** verouderde connector
 * **[!DNL Azure Synapse]** , campagne v8.5 starten
 * **[!DNL Databricks]** , campagne v8.6.4 / v8.7 starten
 * **[!DNL Google Big Query]**
@@ -87,4 +88,4 @@ De volgende browsers zijn compatibel met Campagne voor de Toegang van het Web. L
 * [Campagne-clientconsole installeren](connect.md)
 * [ de versies van het Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) {target="_blank"}
 
-Om van de nieuwe versies van de oplossing van het Experience Cloud op de hoogte te worden gebracht, onderschrijf aan de [ Update van het Product van de Prioriteit van de Adobe ](https://www.adobe.com/nl/subscription/priority-product-update.html) {target="_blank"}.
+Om van nieuwe de oplossingsversies van Experience Cloud op de hoogte te worden gebracht, onderteken aan de [ Update van het Product van de Prioriteit van Adobe ](https://www.adobe.com/nl/subscription/priority-product-update.html) {target="_blank"}.
