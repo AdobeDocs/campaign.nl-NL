@@ -5,9 +5,9 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: ba27d1e56f7354e500e747f01a27412f8d553e2b
+source-git-commit: fb2cf4407750f8cff65ca53f0e87c32e9702de92
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 15%
 
 ---
@@ -51,7 +51,7 @@ Hieronder vindt u de Customer Relationship Management-systemen (CRM) die compati
 
 Externe databases die compatibel zijn met de module Adobe Campaign Federated Data Access (FDA) worden hieronder weergegeven. Leer meer over FDA [ in deze pagina ](../connect/fda.md).
 
-* **[!DNL Amazon Redshift]** ODBC-connector, campagne v8.6.4 starten
+* **[!DNL Amazon Redshift]** ODBC-connector, startcampagne v8.6.4 / v8.7.1
 * **[!DNL Amazon Redshift]** verouderde connector
 * **[!DNL Azure Synapse]** , campagne v8.5 starten
 * **[!DNL Databricks]** , campagne v8.6.4 / v8.7 starten
