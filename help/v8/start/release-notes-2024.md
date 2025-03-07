@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Campagne v8 (console) 2024
 description: Lijst met functies en verbeteringen die worden geleverd bij de 2024-campagne v8-releases
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 54cc5686cc5187a1ab0514abcaf9fcd69e7a1ede
+source-git-commit: 041df8d2d6128d72a04008affbc9680ba5b640a1
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 12%
+source-wordcount: '1308'
+ht-degree: 11%
 
 ---
 
@@ -48,7 +48,16 @@ _Mei 2, 2024_
 
 ### Compatibiliteitsupdates {#comp-8-7-1}
 
-* Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Federated Data Access). Meer informatie vindt u [op deze pagina](compatibility-matrix.md#FederatedDataAccessFDA).
+De volgende FDA-connectors zijn toegevoegd. Verwijs naar deze [ pagina ](compatibility-matrix.md#FederatedDataAccessFDA).
+
+* Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Federated Data Access).
+
+* Er is nu een nieuwe Amazon Redshift FDA ODBC-connector beschikbaar. Het biedt verbeterde connectiviteit, gemakkelijker onderhoud en verbeterde compatibiliteit. Deze nieuwe versie brengt de volgende verbeteringen aan:
+
+   * De nieuwe schakelaar is gebaseerd op de interface ODBC die zich op onze meest recente schakelaars FDA richt. Dit zorgt voor langdurige ondersteuning.
+   * Het introduceert ook een nieuw mechanisme voor het laden van gegevens gebruikend s3 emmers, beduidend verbeterend prestaties.
+
+  De oudere schakelaar kan nog worden gebruikt. Neem contact op met uw Adobe-vertegenwoordiger als u de nieuwe versie wilt uitproberen.
 
 ### Migratie naar externe server-naar-server-referentie {#change-8-7-1}
 

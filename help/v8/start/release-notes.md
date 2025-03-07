@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: ba27d1e56f7354e500e747f01a27412f8d553e2b
+source-git-commit: 041df8d2d6128d72a04008affbc9680ba5b640a1
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 2%
+source-wordcount: '566'
+ht-degree: 1%
 
 ---
 
@@ -69,7 +69,9 @@ De verbinding met Adobe-oplossingen en -toepassingen via de externe account van 
 
 ### Compatibiliteitsupdates {#comp-8-6-4}
 
-* Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Federated Data Access). Meer informatie vindt u [op deze pagina](compatibility-matrix.md#FederatedDataAccessFDA).
+De volgende FDA-connectors zijn toegevoegd. Verwijs naar deze [ pagina ](compatibility-matrix.md#FederatedDataAccessFDA).
+
+* Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Federated Data Access).
 
 * Er is nu een nieuwe Amazon Redshift FDA ODBC-connector beschikbaar. Het biedt verbeterde connectiviteit, gemakkelijker onderhoud en verbeterde compatibiliteit. Deze nieuwe versie brengt de volgende verbeteringen aan:
 
