@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 253f3be945cbfa304fa7342c68f0c73b079e2870
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Volg onderstaande stappen om een berichtsjabloon te maken:
 
 ## De inhoud maken{#create-message-content}
 
-De definitie van de inhoud van het transactiebericht is hetzelfde als voor alle leveringen in Adobe Campaign. Voor een e-maillevering kunt u bijvoorbeeld inhoud in HTML- of tekstindeling maken, bijlagen toevoegen of het bezorgingsobject aanpassen. [Meer informatie](../start/create-message.md).
+De definitie van de inhoud van het transactiebericht is hetzelfde als voor alle leveringen in Adobe Campaign. U kunt bijvoorbeeld voor het verzenden van e-mail inhoud in HTML- of tekstindeling maken, bijlagen toevoegen of het bezorgingsobject personaliseren. [Meer informatie](../start/create-message.md).
 
 >[!CAUTION]
 >
@@ -82,7 +82,7 @@ Een zaadadres laat u een voorproef van uw bericht tonen, een proef, en de person
 
 1. Wijs er later een label aan toe voor een eenvoudige selectie en voer vervolgens het beginadres in (afhankelijk van het communicatiekanaal via e-mail of mobiele telefoon).
 
-1. Voer de externe id in: in dit optionele veld kunt u een zakelijke sleutel invoeren (unieke id, naam + e-mail, enz.) Deze instelling geldt voor alle toepassingen op uw website die worden gebruikt om uw profielen te identificeren. Als dit veld ook aanwezig is in de Adobe Campaign-marketingdatabase, kunt u een gebeurtenis vervolgens afstemmen op een profiel in de database.
+1. Voer de externe id in: in dit optionele veld kunt u een bedrijfssleutel invoeren (unieke id, naam + e-mail, enz.) die wordt gebruikt voor alle toepassingen op uw website en waarmee uw profielen worden geïdentificeerd. Als dit veld ook aanwezig is in de Adobe Campaign-marketingdatabase, kunt u een gebeurtenis vervolgens afstemmen op een profiel in de database.
 
    ![](assets/messagecenter_create_seed_2.png)
 
@@ -161,7 +161,7 @@ In elke sjabloon kunt u proefdrukken openen via het tabblad **[!UICONTROL Audit]
 
 #### Overgang van [!DNL Campaign Classic] v7 {#transition-from-v7}
 
-Als u [ transitioning van Campaign Classic v7 ](../start/v7-to-v8.md) bent, gaan alle leveringen door de midsourcingsserver.
+Als u [ transitioning van Campaign Classic v7 ](../start/v7-to-v8.md), gaan alle leveringen door de midsourcing (MID) server.
 
 Nochtans, wanneer het creëren van een transactiemeldmalplaatje, is het verpletteren nodig voor het met succes te gebruiken malplaatje **interne e-maillevering**. Dit het verpletteren verhindert u proefdrukken te verzenden.
 
@@ -171,7 +171,7 @@ Derhalve om een bewijs voor u transactioneel berichtmalplaatje te verzenden, moe
 
 Zodra de proefdrukken zijn verzonden, moet u het verpletteren terug naar interne e-maillevering veranderen alvorens het transactionele berichtmalplaatje te publiceren.
 
-## De sjabloon Publish {#publish-message-template}
+## De sjabloon publiceren {#publish-message-template}
 
 Wanneer het gemaakte berichtmalplaatje <!-- on the control instance--> volledig is, kunt u het publiceren, die u zal toestaan om berichten te verzenden verbonden aan real time en partijgebeurtenissen.
 
