@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-source-git-commit: 1cb92c6075e9478b641b11eae52372a909258cd3
+source-git-commit: 286af4739c33b79c74b3cb7fa90ad167670a4b4c
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -33,7 +33,7 @@ De archiveringsbestemming is het BCC-e-mailadres van uw keuze, dat onzichtbaar b
 
 >[!NOTE]
 >
->Als Beheerde gebruiker van Cloud Servicen, [ contact Adobe ](../start/campaign-faq.md#support){target="_blank"} om het BCC e-mailadres mee te delen dat voor het archiveren moet worden gebruikt.
+>Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support){target="_blank"} om het BCC e-mailadres mee te delen dat voor het archiveren moet worden gebruikt.
 
 ## E-mail BCC inschakelen {#enable-bcc}
 
@@ -42,7 +42,7 @@ Om BCC voor een specifiek [ leveringsmalplaatje ](create-templates.md) toe te la
 1. Blader vanuit Campagneverkenner naar de map met leveringssjablonen. Standaard worden leveringssjablonen opgeslagen in de map **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** .
 1. Bewerk de leveringssjabloon om bij te werken met BCC.
 1. Klik op de knop **[!UICONTROL Properties]**.
-1. Controleer de optie **[!UICONTROL Email BCC]** op het tabblad **[!UICONTROL Delivery]** .
+1. Controleer de optie **[!UICONTROL Email BCC with enhanced Momentum]** op het tabblad **[!UICONTROL Delivery]** .
 
    ![](assets/email-bcc.png)
 
