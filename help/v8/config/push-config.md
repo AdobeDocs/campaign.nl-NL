@@ -1,14 +1,13 @@
 ---
 title: SDK's voor campagnes integreren met uw app
 description: Leer hoe u de SDK's van Android en iOS voor campagnes integreert met uw app
-version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 0%
@@ -21,17 +20,17 @@ Met de SDK&#39;s voor campagnes voor iOS en Android kunt u de integratie van uw 
 
 Android en iOS steunden versies, en de compatibele versies van SDKs van de Campagne voor Campagne v8 zijn vermeld in de [ matrijs van de Verenigbaarheid ](../start/compatibility-matrix.md#MobileSDK).
 
-Als beheerder van de Campagne, kunt u Campagne SDKs van de [ Distributie van de Software van het Experience Cloud downloaden ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Voor meer informatie, contacteer ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) de Zorg van de Klant van de Adobe [.
+Als beheerder van de Campagne, kunt u Campagne SDKs van de [ Distributie van de Software van Experience Cloud downloaden ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Voor meer informatie, contacteer ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) de Zorg van de Klant van 0} Adobe.[
 
 
 >[!NOTE]
 >
->U kunt de Adobe Experience Platform Mobile SDK ook gebruiken door de Adobe Campaign-extensie te configureren in de gebruikersinterface voor gegevensverzameling. [ leer meer in de documentatie van de Ontwikkelaar ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic) {target="_blank"}.
+>U kunt Adobe Experience Platform Mobile SDK ook gebruiken door de extensie Adobe Campaign te configureren in de gebruikersinterface voor gegevensverzameling. [ leer meer in de documentatie van de Ontwikkelaar ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic) {target="_blank"}.
 >
 
 ## Integratie-instellingen declareren {#declaring-integration-settings}
 
-Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de functionele beheerder de ontwikkelaar de volgende informatie geven:
+Om Campagne SDK in de mobiele toepassing te integreren, moet de functionele beheerder de ontwikkelaar de volgende informatie verstrekken:
 
 * **een integratiesleutel**: om het platform van Adobe Campaign toe te laten om de mobiele toepassing te identificeren.
 
@@ -63,11 +62,11 @@ Als u de campagne-SDK wilt integreren in de mobiele toepassing, moet de function
 
 Android SDK is een jar-bibliotheek geschreven in JAVA. Hiermee kunnen Android-ontwikkelaars integreren met Adobe Campaign: een nieuw apparaat registreren, het apparaat koppelen aan een gebruiker, gedrag bijhouden en nog veel meer.
 
-In deze sectie, leer hoe te om de SDK van Android in een toepassing te gebruiken die van Android [ het Overseinen van de Wolk van de Wolk van Google uitvoeren (FCM) ](https://firebase.google.com/docs/cloud-messaging/).
+In deze sectie, leer hoe te om Android SDK in een toepassing te gebruiken die van Android [ het Overseinen van de Wolk van de Vuurbasis van Google (FCM) uitvoeren ](https://firebase.google.com/docs/cloud-messaging/).
 
 >[!CAUTION]
 >
-> Voor Campagne v8 gebruikt u Campagne Android SDK v1.1.1.
+> Gebruik Campagne Android SDK v1.1.1 voor Campagne v8.
 
 ### FCM configureren
 
@@ -87,7 +86,7 @@ Leer hoe te om FCM in uw toepassing in [ documentatie van Google uit te voeren ]
 
 1. **initialiseer SDK**
 
-   Voordat u de SDK van Android kunt gebruiken, moet u deze initialiseren. De SDK-initialisatie kan worden uitgevoerd in de functie `onCreate` van een activiteit.
+   Voordat u de Android SDK kunt gebruiken, moet u deze initialiseren. De SDK-initialisatie kan worden uitgevoerd in de functie `onCreate` van een activiteit.
 
    ```sql
    /** Called when the activity is first created. */
@@ -499,7 +498,7 @@ Leer hoe te om FCM in uw toepassing in [ documentatie van Google uit te voeren ]
    Voor berichtberichten, moet de volgende ontvangst op twee niveau worden gevormd:
 
    * `onMessageReceived` (toepassing niet op de achtergrond): de implementatie is uitgevoerd in de vorige sectie
-   * `onCreate` van de lanceringsactiviteit (of de gerichte activiteit als `click_action` functie wordt gebruikt.) (Toepassing niet op de achtergrond).
+   * `onCreate` van de lanceringsactiviteit (of de gerichte activiteit als `click_action` functie wordt gebruikt.) (Toepassing niet in achtergrond).
 
    U dient dit op hetzelfde moment te doen als klikken op bijhouden of openen.
 
