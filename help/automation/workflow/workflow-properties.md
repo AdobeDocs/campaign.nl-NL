@@ -4,10 +4,10 @@ title: Workfloweigenschappen
 description: Meer informatie over de eigenschappen van de Campagneworkflow
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
+source-git-commit: 13723ebda8daf57c6885a05a2d583c0c38c86441
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 0%
+source-wordcount: '640'
+ht-degree: 1%
 
 ---
 
@@ -59,9 +59,11 @@ Deze sectie wordt alleen weergegeven in workflows voor campagnes.
 
   >[!NOTE]
   >
-  >Deze optie wordt gericht op geavanceerde gebruikers en zou voor **technische werkschema&#39;s** slechts moeten worden toegelaten.
+  >* Deze optie is beschikbaar vanaf versie 8.6.4.
   >
-  >Het wordt toegelaten door gebrek voor de gecentraliseerde replicatiewerkschema&#39;s beschikbaar met het `fullFdaMkt` pakket.
+  >* Deze optie wordt gericht op geavanceerde gebruikers en zou voor **technische werkschema&#39;s** slechts moeten worden toegelaten.
+  >
+  >* Deze optie wordt toegelaten door gebrek voor de gecentraliseerde replicatiewerkschema&#39;s beschikbaar context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md). [Meer informatie](../../v8/architecture/replication.md)
 
 ### Foutbeheer {#error-management}
 
