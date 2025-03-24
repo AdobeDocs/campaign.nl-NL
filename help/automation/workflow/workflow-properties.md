@@ -4,7 +4,7 @@ title: Workfloweigenschappen
 description: Meer informatie over de eigenschappen van de Campagneworkflow
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 63b7eaba3ea7b580d9b6c3c0e0c015c057539aa8
+source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Deze sectie wordt alleen weergegeven in workflows voor campagnes.
 
 * **[!UICONTROL Enable watchdog supervisor to keep workflow running permanently]**
 
-  Met deze optie worden workflows automatisch opnieuw opgestart nadat een fout is opgetreden. Als deze optie is ingeschakeld, controleert het opnieuw opstarten elke 30 seconden de status van de workflow en start het opnieuw wanneer dat nodig is. Als u het interval van 30 seconden wilt aanpassen, maakt u de technische optie `XtkWorkflow_WatchdogTimerTimeout` en gebruikt u een gegevenstype voor gehele getallen om de gewenste vertraging op te geven.
+  Met deze optie worden workflows automatisch opnieuw opgestart nadat een fout is opgetreden. Als deze optie is ingeschakeld, controleert het opnieuw opstarten elke 30 seconden de status van de workflow en start het opnieuw wanneer dat nodig is. Als u het interval van 30 seconden wilt aanpassen, maakt u de technische optie `XtkWorkflow_WatchdogRestartTimerTimeout` en gebruikt u een gegevenstype voor gehele getallen om de gewenste vertraging op te geven.
 
   >[!NOTE]
   >
