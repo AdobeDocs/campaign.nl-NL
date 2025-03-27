@@ -5,9 +5,9 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
+source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,13 @@ Deze functies worden hieronder beschreven.
 
 Enkele instructies en beperkingen met betrekking tot de uitgebreide beveiligingsfuncties worden op deze pagina weergegeven. Bovendien moet u ervoor zorgen al uw Veilige integratie CMK/Veilige het een tunnel graven van VPN gebruiksgevallen werken.
 
-Zodra deze mogelijkheden worden uitgevoerd, controleert de Adobe:
+Als deze mogelijkheden eenmaal zijn geïmplementeerd, bewaakt Adobe:
 
 * De beschikbaarheid van de instantie en ga verder met de waarschuwing als de sleutel niet beschikbaar is.
 
 * De tunnels van VPN, en ga met het alarm te werk voor het geval om het even welke kwestie zich voordoet.
 
-## Veilige integratie met door de klant beheerde sleutels {#secure-cmk-integration}
+## Veilige integratie van sleutels die door de klant worden beheerd {#secure-cmk-integration}
 
 De **Veilige Customer-Beheerde Zeer belangrijke (CMK) integratie** staat u toe om gegevens in rust te coderen gebruikend uw eigen sleutel door uw rekening van Amazon Web Services (AWS).
 
@@ -49,24 +49,24 @@ Voer de volgende stappen uit om de CMK-integratie met Campagne in te schakelen:
 
 1. Een sleutel met automatische rotatie genereren via de AWS Key Management Service (KMS). [ leer hoe ](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html) {target="_blank"}.
 
-1. Pas het beleid toe dat u via Adobe hebt ontvangen op uw AWS-account, zodat u toegang hebt tot uw bronnen. [ leer meer ](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html) {target="_blank"}. <!--link TBC-->
+1. Pas het beleid toe dat Adobe u biedt op uw AWS-account, zodat u toegang hebt tot uw bronnen. [ leer meer ](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html) {target="_blank"}. <!--link TBC-->
 
-1. Deel uw [ Naam van het Middel van Amazon (zeer belangrijke ARN) ](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html) {target="_blank"} met [!DNL Adobe Campaign]. Neem hiervoor contact op met uw Adobe. <!--or Adobe transition manager?-->
+1. Deel uw [ Naam van het Middel van Amazon (zeer belangrijke ARN) ](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html) {target="_blank"} met [!DNL Adobe Campaign]. Neem hiervoor contact op met uw Adobe-vertegenwoordiger. <!--or Adobe transition manager?-->
 
-1. Maak en test de Amazon EventBridge-regels om het controleren van uw toetsen op Adobe in te schakelen. &#x200B; [Meer informatie](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
+1. Maak en test de Amazon EventBridge-regels om het controleren van uw sleutels door Adobe mogelijk te maken. &#x200B; [Meer informatie](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
 
 ### Afvoerkanalen en beperkingen {#cmk-callouts}
 
 De volgende instructies en beperkingen zijn van toepassing op de CMK-integratie met Adobe Campaign v8:
 
-* De Adobe verstrekt geen [ Amazon Web Services (AWS) ](https://aws.amazon.com/) {target="_blank"} rekening. U moet uw eigen AWS-account hebben en deze instellen om uw sleutel te genereren en met Adobe te delen.
+* Adobe verstrekt geen [ Amazon Web Services (AWS) ](https://aws.amazon.com/) {target="_blank"} rekening. U moet uw eigen AWS-account hebben en deze instellen om uw sleutel te genereren en te delen met Adobe.
 
 * Slechts ](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html) {target="_blank"} (KMS) de sleutels van de Dienst van het Beheer van AWS de Zeer belangrijke worden gesteund. [ Er kunnen geen door de klant gegenereerde sleutels buiten KMS worden gebruikt. &#x200B;
 
 * Downtime wordt verwacht tijdens de eerste installatie. &#x200B;De downtime is afhankelijk van de grootte van de database.
 
-* Als klant hebt u de sleutel en houdt u deze bij. U moet de Adobe bereiken voor het geval u de toets wijzigt. &#x200B;
+* Als klant hebt u de sleutel en houdt u deze bij. Je moet Adobe bereiken voor het geval je sleutel verandert. &#x200B;
 
 * U kunt uw sleutel controleren gebruikend [ AWS CloudTrail ](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html) {target="_blank"} en het herroepen indien nodig. &#x200B;
 
@@ -100,7 +100,7 @@ Er worden drie gebruiksgevallen ondersteund:
 
 Volg onderstaande richtlijnen om ervoor te zorgen dat deze functie correct wordt gebruikt:
 
-* Opstelling uw kant VPN die op de Adobe-kant configuratie van VPN wordt gebaseerd.
+* Opstelling uw kant VPN die op de configuratie van Adobe-kantVPN wordt gebaseerd.
 
 * Houd beide tunnels omhoog voor Hoge Beschikbaarheid.
 
@@ -129,4 +129,4 @@ Alleen AWS-compatibele VPN-apparaten worden ondersteund. Een lijst van compatibe
 >
 >* De connectiviteit van VPN aan derden of externe verkopers wordt niet gesteund.
 >
->* Adobe-beheerde extra VPNs aan privé gegevensbestanden van de Wolk is niet inbegrepen.
+>* Door Adobe beheerde extra VPN&#39;s naar privéCloud-databases worden niet opgenomen.
