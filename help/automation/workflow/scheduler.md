@@ -5,10 +5,10 @@ description: Meer informatie over de workflowactiviteit van de planner
 feature: Workflows
 role: User
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: ba8cf031db178f6575104858340e16d4e7bd6a31
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 10%
+source-wordcount: '393'
+ht-degree: 8%
 
 ---
 
@@ -22,25 +22,25 @@ De **[!UICONTROL Scheduler]**-activiteit kan dus worden beschouwd als een geplan
 
 ## Best practices {#best-practices}
 
-* Plan geen workflow die meer dan om de 15 minuten wordt uitgevoerd, aangezien dit de algehele systeemprestaties kan belemmeren en blokken in de database kan maken.
+**herstart werkschema na het veranderen van plannertiming** - wanneer het veranderen van de geplande tijd van de **[!UICONTROL Scheduler]** activiteit, is het belangrijk om het werkschema opnieuw te beginnen. Dit zorgt ervoor dat de workflow op de bijgewerkte tijden wordt uitgevoerd. Als u de workflow niet opnieuw start, wordt deze verder uitgevoerd volgens het oude schema.
 
-* Nooit meer gebruiken dan één **[!UICONTROL Scheduler]** activiteit per vertakking in een werkstroom. Zie [Werken met activiteiten](workflow-best-practices.md#using-activities).
+**de frequentie van de Planner van de Beperking** - vermijd het plannen van werkschema&#39;s om vaker dan om de 15 minuten in werking te stellen. Het runnen van hen kan meer vaak systeemprestaties degraderen en in gegevensbestandcongestie resulteren.
 
-* Het gebruiken van een planneractiviteit kan tot verscheidene uitvoeringen van een werkschema leiden die tezelfdertijd lopen. Bijvoorbeeld, kunt u een planner hebben die de werkschemauitvoering elk uur teweegbrengt, maar soms neemt de uitvoering van het volledige werkschema meer dan een uur.
+**Gebruik één Planner per tak** - elke tak van uw werkschema zou slechts één **[!UICONTROL Scheduler]** activiteit moeten hebben. Voor meer informatie over beste praktijken voor het gebruiken van activiteiten in werkschema&#39;s, verwijs naar de [ best practices van het Werkschema pagina ](workflow-best-practices.md#using-activities).
 
-  U kunt de uitvoering overslaan als de workflow al wordt uitgevoerd. Raadpleeg voor meer informatie over het voorkomen van gelijktijdige uitvoering van een workflow de [deze pagina](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
+**verhindert werkschemagezamenlijke uitvoeringen** - als een werkschema door een planner wordt teweeggebracht, ben in gedachten dat de veelvoudige instanties van het werkschema tezelfdertijd zouden kunnen lopen. Bijvoorbeeld, als een planner de werkstroom elk uur teweegbrengt, maar de werkschemauitvoering meer dan een uur vergt, zou u kunnen eindigen met overlappende uitvoeringen.Overweeg opstellende controles om veelvoudige gelijktijdige uitvoeringen te verhinderen. [ Leer hoe te om gelijktijdige veelvoudige werkschemauitvoeringen ](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions) te verhinderen.
 
-* Merk op dat de overgang verscheidene uren later kan worden geactiveerd als het werkschema een taak op lange termijn, zoals het invoeren uitvoerde, of als de wfserver module voor een tijd werd tegengehouden. In dit geval, kan het noodzakelijk zijn om de uitvoering van de taak te beperken die door de planner tot een bepaalde tijdwaaier wordt geactiveerd.
+**Rekening voor vertraagde overgangen** - de Overgangen die door de planner worden teweeggebracht zouden kunnen worden vertraagd als het werkschema langlopende taken (als invoer) uitvoert, of als de wfserver module tijdelijk is tegengehouden. Om dit te verlichten, beperk de activeringstijden van de planner om taken te verzekeren die binnen een bepaald tijdvenster lopen.
 
 ## De planneractiviteit configureren {#configuring-scheduler-activity}
 
-De planner bepaalt het activeringsprogramma van de overgang. Om het te vormen, klik het grafische voorwerp tweemaal, dan klik **[!UICONTROL Change...]**
+De planner bepaalt het activeringsprogramma van de overgang. Dubbelklik op het grafische object en klik vervolgens op **[!UICONTROL Change...]** om het te configureren
 
 ![](assets/s_user_segmentation_scheduler.png)
 
 Met een wizard kunt u de frequentie en de geldigheidsperiode van de activiteit definiëren. De configuratiestappen zijn als volgt:
 
-1. Selecteer de activeringsfrequentie en klik op **[!UICONTROL Next]**.
+1. Selecteer de activeringsfrequentie en klik op **[!UICONTROL Next]** .
 
    ![](assets/s_user_segmentation_scheduler2.png)
 
@@ -52,6 +52,6 @@ Met een wizard kunt u de frequentie en de geldigheidsperiode van de activiteit d
 
    ![](assets/s_user_segmentation_scheduler4.png)
 
-1. Controleer de configuratie en klik op **[!UICONTROL Finish]** opslaan.
+1. Controleer de configuratie en klik op **[!UICONTROL Finish]** om op te slaan.
 
    ![](assets/s_user_segmentation_scheduler5.png)
