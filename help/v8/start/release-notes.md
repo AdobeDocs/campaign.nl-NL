@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 49ce7d776eb626d6a927da7630ed7d0e2644fda3
+source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 6%
+source-wordcount: '597'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ _vrijdag 10 april 2025_
 >
 >Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nieuwe functies {#features-8-7-4}
 
@@ -45,29 +45,6 @@ _vrijdag 10 april 2025_
 De volgende problemen zijn opgelost in deze release:
 
 NEO-80245, NEO-83559
-
-## Release 8.7.3 {#release-8-7-3}
-
-_feb 14, 2025_
-
->[!AVAILABILITY]
->
->Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
->
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
-
-### Nieuwe functies {#features-8-7-3}
-
-* **Dynamische Rapportering voor Transactionele berichten** - u kunt uw transactionele berichten in het Dynamische het gebruikersinterface van de Rapportering nu controleren. Deze rapporten verstrekken de capaciteit aan de teler om alle het melden metriek en dimensies van transactionele berichten, uitsplitsing van leveringen te bekijken die door een malplaatje in real time worden verzonden. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting)
-
-* **Transactionele overseinenREST APIs** - Op gebeurtenis-gebaseerde Transactionele APIs is nu beschikbaar voor E-mail. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages)
-
-### Oplossingen {#fixes-8-7-3}
-
-De volgende problemen zijn opgelost in deze release:
-
-NEO-79373, NEO-81908, NEO-83081.
-
 
 ## Release 8.6.4 {#release-8-6-4}
 
