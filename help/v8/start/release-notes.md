@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
+source-git-commit: 49ce7d776eb626d6a927da7630ed7d0e2644fda3
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 1%
+source-wordcount: '737'
+ht-degree: 6%
 
 ---
 
@@ -18,11 +18,33 @@ Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke
 
 **In deze pagina**
 
-* Campagne v8.6 - [ Versie 8.6.4 ](#release-8-6-4)
-* Campagne v8.7 - [ Versie 8.7.3 ](#release-8-7-3)
+* [Release 8.7.4](#release-8-7-4)
+* [ Versie 8.7.3 ](#release-8-7-3)
+* [Release 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
 
+## Release 8.7.4 {#release-8-7-4}
+
+_vrijdag 10 april 2025_
+
+>[!AVAILABILITY]
+>
+>Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
+>
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
+
+### Nieuwe functies {#features-8-7-4}
+
+* **REST API van SMS steun** - De Transactionele BEDRIJFSTAK API is nu beschikbaar voor het kanaal van SMS. Wanneer zowel e-mail als mobilePhone aanwezig zijn in de lading, kunt u het &quot;wishedChannel&quot;gebied gebruiken om het kanaal te specificeren. Indien niet opgegeven, wordt de e-mail standaard gebruikt, tenzij wishedChannel expliciet om SMS verzoekt.
+
+* **Meertalige leveringen** - de aanvang van de Versie van het Gebruikersinterface van het Web van de Campagne April, zult u veelvoudige e-mailleveringen in verschillende talen kunnen verzenden, en tot de verwante dynamische rapporten toegang hebben. Deze mogelijkheid is alleen beschikbaar in de Adobe Campaign Web User Interface eind april en vereist een serverupdate naar Campagne v8.7.4.
+
+### Oplossingen {#fixes-8-7-4}
+
+De volgende problemen zijn opgelost in deze release:
+
+NEO-80245, NEO-83559
 
 ## Release 8.7.3 {#release-8-7-3}
 
@@ -30,15 +52,15 @@ _feb 14, 2025_
 
 >[!AVAILABILITY]
 >
->Deze versie is in **Beperkte Beschikbaarheid** (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
+>Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration) {target="_blank"}.
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
 
 ### Nieuwe functies {#features-8-7-3}
 
-* **Dynamische Rapportering voor Transactionele berichten** - u kunt uw transactionele berichten in het Dynamische het gebruikersinterface van de Rapportering nu controleren. Deze rapporten verstrekken de capaciteit aan de teler om alle het melden metriek en dimensies van transactionele berichten, uitsplitsing van leveringen te bekijken die door een malplaatje in real time worden verzonden. [ las meer ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting) {target="_blank"}
+* **Dynamische Rapportering voor Transactionele berichten** - u kunt uw transactionele berichten in het Dynamische het gebruikersinterface van de Rapportering nu controleren. Deze rapporten verstrekken de capaciteit aan de teler om alle het melden metriek en dimensies van transactionele berichten, uitsplitsing van leveringen te bekijken die door een malplaatje in real time worden verzonden. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting)
 
-* **Transactionele overseinenREST APIs** - Op gebeurtenis-gebaseerde Transactionele APIs is nu beschikbaar voor E-mail. [ las meer ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages) {target="_blank"}
+* **Transactionele overseinenREST APIs** - Op gebeurtenis-gebaseerde Transactionele APIs is nu beschikbaar voor E-mail. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages)
 
 ### Oplossingen {#fixes-8-7-3}
 
@@ -60,7 +82,7 @@ _jan 15, 2025_
 
 ### Beveiligingsverbeteringen {#security-8-6-4}
 
-De verbinding met Adobe-oplossingen en -toepassingen via de externe account van **[!UICONTROL Adobe Experience Cloud]** is bijgewerkt om de beveiliging te verbeteren.
+De verbinding met Adobe-oplossingen en -toepassingen via het **[!UICONTROL Adobe Experience Cloud]** externe account is bijgewerkt om de beveiliging te verbeteren.
 
 <!--
 ### Connection to Campaign {#ims-8-6-4}
