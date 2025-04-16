@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
+source-git-commit: 66e4b59915eae595b28076622f7bcfb5b5a0ffa4
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '594'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,6 @@ Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke
 **In deze pagina**
 
 * [Release 8.7.4](#release-8-7-4)
-* [ Versie 8.7.3 ](#release-8-7-3)
 * [Release 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
