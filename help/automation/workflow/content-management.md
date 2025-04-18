@@ -5,7 +5,7 @@ description: Contentmanagement
 feature: Workflows, Data Management
 role: User
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: 9014c2d235fd3dde4afb961ef970334e4e909778
+source-git-commit: c73f9f3dc7958152c284dbaf06210d09115e5df8
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 2%
@@ -22,7 +22,7 @@ A **het beheer van de Inhoud** activiteit laat u een inhoud tot stand brengen en
 
 >[!NOTE]
 >
->Met de Adobe Campaign Web User Interface kunt u inhoudsfragmenten gebruiken voor uw inhoud. Op deze manier kunnen marketinggebruikers meerdere blokken aangepaste inhoud vooraf samenstellen, dankzij een herbruikbare component waarnaar in een of meer berichten kan worden verwezen, en kunt u de inhoud van berichten snel samenstellen in een verbeterd ontwerpproces. Meer over de fragmenten van de Inhoud leren, gelieve te verwijzen naar de [ documentatie van het Web van Adobe Campaign UI.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>Met de Adobe Campaign Web User Interface kunt u inhoudsfragmenten gebruiken voor uw inhoud. Op deze manier kunnen marketinggebruikers meerdere blokken aangepaste inhoud vooraf samenstellen, dankzij herbruikbare componenten waarnaar in een of meer berichten kan worden verwezen, zodat u de inhoud van berichten snel kunt samenstellen in een verbeterd ontwerpproces. Meer over de fragmenten van de Inhoud leren, gelieve te verwijzen naar de [ documentatie van het Web van Adobe Campaign UI.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 De eigenschappen van de activiteit zijn verdeeld in drie stappen:
 
