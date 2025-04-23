@@ -4,8 +4,9 @@ title: Aan de slag met marketingcampagnes
 description: Leer hoe u begint met marketingcampagnes
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 3%
@@ -30,27 +31,28 @@ De campagnes omvatten acties (leveringen) en processen (het invoeren of het hale
 
 De belangrijkste stappen voor het maken en uitvoeren van een marketingcampagne in Adobe Campaign worden hieronder weergegeven:
 
-1. **Stel uw plannen en programma&#39;s in** Stel de logica in om uw campagnes te ordenen. Een programma is een reeks marketingactiviteiten die voor een periode is gedefinieerd. Elk programma bevat campagnes die zijn gekoppeld aan een kalender, die een algemeen overzicht biedt. Het marketingplan kan meerdere programma&#39;s bevatten. In het verslag worden strategische doelstellingen voor een bepaalde periode vastgesteld, met een toegewezen budget, meetbare doelstellingen en bijbehorende documenten. Leer hoe u plannen en programma&#39;s maakt [in deze sectie](marketing-campaign-create.md#create-plan-and-program).
+1. **opstelling uw plannen en programma&#39;s** programma, opstelling de logica om uw campagnes te ordenen
+Een programma is een reeks marketingactiviteiten die voor een periode zijn gedefinieerd. Elk programma bevat campagnes die zijn gekoppeld aan een kalender, die een algemeen overzicht biedt. Het marketingplan kan meerdere programma&#39;s bevatten. In het verslag worden strategische doelstellingen voor een bepaalde periode vastgesteld, met een toegewezen budget, meetbare doelstellingen en bijbehorende documenten. Leer hoe te om plannen en programma&#39;s [ in deze sectie ](marketing-campaign-create.md#create-plan-and-program) tot stand te brengen.
 
-1. **Uw eerste campagne maken**
-Een campagne centraliseert alle elementen die verband houden met een marketingcampagne: leveringen, doelgerichte regels, kosten, exportbestanden, verwante documenten, enz. Elke campagne is aan een programma verbonden. Leer hoe u een campagne maakt [in deze sectie](marketing-campaign-create.md#create-a-campaign).
+1. **creeer uw eerste campagne**
+Een campagne centraliseert alle elementen die verband houden met een marketingcampagne: leveringen, doelgerichte regels, kosten, exportbestanden, verwante documenten, enz. Elke campagne is aan een programma verbonden. Leer hoe te om een campagne [ in deze sectie ](marketing-campaign-create.md#create-a-campaign) tot stand te brengen.
 
-1. **Selecteer het publiek**
-Soorten publiek kunnen worden geïmporteerd uit een lijst of worden ingebouwd in een campagnewerkstroom met behulp van query&#39;s. Leer hoe u het doelpubliek van een campagne definieert [in deze sectie](marketing-campaign-target.md#select-the-target-population).
+1. **selecteer het publiek**
+Soorten publiek kunnen worden geïmporteerd uit een lijst of worden ingebouwd in een campagnewerkstroom met behulp van query&#39;s. Leer hoe te om het doelpubliek van een campagne [ in deze sectie ](marketing-campaign-target.md#select-the-target-population) te bepalen.
 
-1. **Leveringen maken**
-Orchestreer de levering via het kanaal in uw campagnes. Stroomlijn uw communicatie met Adobe Campaign via persoonlijke e-mails, SMS, pushberichten en in-app berichten. U kunt ook direct-mailleveringen toevoegen. Leer hoe u leveringen in uw campagnes kunt maken, valideren en controleren [in deze sectie](marketing-campaign-deliveries.md).
+1. **creeer leveringen**
+Orchestreer de levering via het kanaal in uw campagnes. Stroomlijn uw communicatie met Adobe Campaign via persoonlijke e-mails, SMS, pushberichten en in-app berichten. U kunt ook direct-mailleveringen toevoegen. Leer om, leveringen in uw campagnes [ in deze sectie ](marketing-campaign-deliveries.md) tot stand te brengen te bevestigen en te controleren.
 
-1. **De algemene stroom instellen**
-Definieer revisoren en configureer de goedkeuringsstroom om de processen van de campagne te bewaken en te controleren: gericht maken, inhoud, budget, extractie en het verzenden van bewijzen. Leer hoe u goedkeuringen instelt [in deze sectie](marketing-campaign-approval.md).
+1. **opstelling de procale stroom**
+Definieer revisoren en configureer de goedkeuringsstroom om de processen van de campagne te bewaken en te controleren: gericht maken, inhoud, budget, extractie en het verzenden van bewijzen. Leer hoe te opstellingsgoedkeuringen [ in deze sectie ](marketing-campaign-approval.md).
 
-1. **Leveringen controleren**.
+1. **leveringen van de Monitor**.
 Houd uw campagnes vanaf het dashboard bij, controleer leveringsstatus en uitvoering via de interface van de campagne. [Meer informatie](marketing-campaign-monitoring.md).
 
-1. **Trackbudgetten, voorraden en bijbehorende kosten**.
+1. **de begrotingen van het spoor, aandelen en bijbehorende kosten**.
 Gebruik Adobe Campaign om de begrotingstoewijzing te controleren, uw leveranciers, voorraden en kosten te beheren. [Meer informatie](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
 
-Wanneer deze stappen zijn voltooid, kunt u [starten van de leveringen](marketing-campaign-deliveries.md#start-a-delivery)de gegevens, processen en informatie met betrekking tot de leveringen controleren en, indien nodig, [de bijbehorende documenten beheren](marketing-campaign-deliveries.md#manage-associated-documents). U kunt [de uitvoering volgen en controleren](marketing-campaign-monitoring.md) van uw campagnes en leveringen.
+Wanneer deze stappen zijn voltooid, kunt u [ de leveringen ](marketing-campaign-deliveries.md#start-a-delivery) beginnen, de gegevens, de processen en de informatie met betrekking tot de leveringen controleren en, indien nodig, [ de bijbehorende documenten ](marketing-campaign-deliveries.md#manage-associated-documents) beheren. U kunt [ ook volgen en de uitvoering ](marketing-campaign-monitoring.md) van uw campagnes en leveringen controleren.
 
 
 ## Belangrijke concepten in video {#key-concepts-video}

@@ -4,8 +4,9 @@ title: Doelgroep van marketingcampagne
 description: Leer hoe u het publiek van uw marketingcampagnes definieert
 feature: Campaigns, Audiences
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 0%
@@ -101,7 +102,7 @@ Doelworkflows kunnen handmatig worden gestart via de knop **[!UICONTROL Start]**
 
 Het richten kan voor automatische uitvoering volgens een programma (planner) of een gebeurtenis (extern signaal, dossierinvoer, enz.) worden geprogrammeerd.
 
-De acties met betrekking tot het uitvoeren van de doelworkflow (starten, stoppen, pauzeren, enz.) zijn **asynchrone** processen: het bevel wordt bewaard en zal van kracht worden zodra de server beschikbaar is om het toe te passen.
+De acties met betrekking tot het uitvoeren van het richten werkschema (lancering, einde, pauze, enz.) zijn **asynchrone** processen: het bevel wordt bewaard en zal van kracht worden zodra de server beschikbaar is om het toe te passen.
 
 Met de werkbalkpictogrammen kunt u actie ondernemen met betrekking tot de uitvoering van de doelworkflow.
 
@@ -247,4 +248,4 @@ Deze video verklaart hoe te om een controlegroep aan een campagne toe te voegen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-De extra Campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html) {target="_blank"}.
+De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

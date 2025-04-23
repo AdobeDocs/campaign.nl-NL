@@ -4,8 +4,9 @@ title: Leveringen voor marketingcampagnes
 description: Meer informatie over marketingcampagneleveringen
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 1%
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 # Leveringen voor marketingcampagnes {#marketing-campaign-deliveries}
 
-Orchestreer uw interkanaalleveringen in uw campagnes: stroomlijn uw communicatie met Adobe Campaign via persoonlijke e-mails, SMS, pushberichten en in-app berichten. U kunt rijke media zoals video&#39;s, emojis of GIFFEN gebruiken, en hen direct integreren.
+Orchestreer uw interkanaalleveringen in uw campagnes: stroomlijn uw communicatie met Adobe Campaign via persoonlijke e-mails, SMS, pushberichten en in-app berichten. U kunt rijke media zoals video&#39;s, emojis of GIFs gebruiken, en hen direct integreren.
 
 Leveringen kunnen worden gemaakt via het campagnedashboard, een campagneworkflow of rechtstreeks via het overzicht van leveringen. Wanneer de leveringen worden gemaakt op basis van een campagne, worden ze gekoppeld aan deze campagne en geconsolideerd op campagnereniveau.
 
