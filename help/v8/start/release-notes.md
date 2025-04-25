@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 66e4b59915eae595b28076622f7bcfb5b5a0ffa4
+source-git-commit: 5ece3ca4ebf9f3973d9cbd1a00ea57b29c1f2e93
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 5%
+source-wordcount: '781'
+ht-degree: 12%
 
 ---
 
@@ -18,10 +18,37 @@ Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke
 
 **In deze pagina**
 
+* [Release 8.6.5](#release-8-6-4)
 * [Release 8.7.4](#release-8-7-4)
 * [Release 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
+
+## Release 8.6.5 {#release-8-6-5}
+
+_zaterdag 25 april 2025_
+
+>[!AVAILABILITY]
+>
+>Deze versie is in **Beperkte Beschikbaarheid** (LA).
+
+### Nieuwe functies {#features-8-6-5}
+
+**Nieuwe SMS die schakelaar verzenden** - SMS die schakelaar verzenden is gemoderniseerd en verbeterd om de verbindingen van de zendwijzeSMPP toe te laten, blijvende verbindingen toe te laten SMPP, en betere verenigbaarheid voor milieu&#39;s te verzekeren die van Adobe Campaign Standard overgaan. Een nieuwe externe SMS-account is nu beschikbaar voor alle nieuwe SMS-implementaties. De bestaande implementatie wordt nog steeds ondersteund, maar de aanbeveling is om over te stappen op deze nieuwe, moderne en uitgebreide aansluiting. [Meer informatie](../send/sms/sms.md).
+
+### Algemene verbeteringen {#improvements-8-6-5}
+
+* De algemene prestaties van de toepassing zijn verbeterd in de context van een implementatie in het kader van een Enterprise-abonnement (FFDA), waaronder het verzenden van leveringsbewijzen en het opschonen van databases.
+
+* Om de beveiliging van alle communicatie tussen toepassingen te verbeteren, wordt mTLS nu ondersteund voor externe API-aanroepen.
+
+* Mail Transfer Agent (MTA) - Probleem opgelost met een verweesde onderliggende MTA die vast bleef zitten op de status **[!UICONTROL Start pending]**.
+
+### Oplossingen {#fixes-8-6-5}
+
+De volgende problemen zijn ook opgelost in deze release:
+
+NEO-67620, NEO-71534, NEO-80245, NEO-81105, NEO-81758, NEO-81908, NEO-82351, NEO-82742, NEO-83044, NEO-83138, NEO-83350, NEO-83729, NEO-83793, NEO-83809, NEO-84038, NEO-84108, NEO-85269, NEO-86121, NEO-86556, NEO-86739
 
 ## Release 8.7.4 {#release-8-7-4}
 
