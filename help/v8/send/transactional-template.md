@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1177'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Volg onderstaande stappen om een berichtsjabloon te maken:
    ![](assets/messagecenter_create_model_002.png)
 
 1. Wijzig indien nodig het label.
-1. Selecteer het type gebeurtenis dat overeenkomt met het bericht dat u wilt verzenden. Gebeurtenistypen die bestemd zijn om door Adobe Campaign te worden verwerkt, moeten vooraf worden gemaakt. [Meer informatie](#create-event-types)
+1. Selecteer het type gebeurtenis dat overeenkomt met het bericht dat u wilt verzenden. Gebeurtenistypen die bestemd zijn om door Adobe Campaign te worden verwerkt, moeten vooraf worden gemaakt. [Meer informatie](../send/transactional.md#create-event-types)
 
    ![](assets/messagecenter_create_model_003.png)
 
@@ -86,7 +86,7 @@ Een zaadadres laat u een voorproef van uw bericht tonen, een proef, en de person
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. Voeg testgegevens in. Zie [deze sectie](#personalization-data).
+1. Voeg testgegevens in. [ Leer meer op verpersoonlijkingsgegevens in de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-data.html){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
