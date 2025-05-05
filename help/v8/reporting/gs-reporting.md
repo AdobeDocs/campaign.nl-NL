@@ -46,10 +46,10 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
   ![](assets/desc-analysis-report.png)
 
-  De rapportage van de campagnebeschrijvende analyse wordt weergegeven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
+  De rapportage van de campagnebeschrijvende analyse wordt weergegeven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=nl-NL){target="_blank"}.
 
 * **Aangepaste rapporten**
 
   Gebruik Adobe Campaign om rapporten te maken over de gegevens in de database. Als deze eenmaal zijn gecreëerd, moet u ze in de juiste context toegankelijk maken.
 
-  De stappen om een rapport te creëren worden gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.
+  De stappen om een rapport te creëren worden gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=nl-NL){target="_blank"}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.

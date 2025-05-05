@@ -26,7 +26,7 @@ In het bovenste gedeelte van het configuratievenster voor deze activiteit kunt u
 
 >[!CAUTION]
 >
->Alleen &#39;platte&#39; structuurbestanden worden ondersteund (bijvoorbeeld CSV, TXT, enz.). Het gebruik van de XML-indeling wordt afgeraden. Met de clientconsole kunt u bestanden tot maximaal 150 MB laden. In de gebruikersinterface van het Web, heeft de het dossieractiviteit van de Lading een grens van 50MB. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
+>Alleen &#39;platte&#39; structuurbestanden worden ondersteund (bijvoorbeeld CSV, TXT, enz.). Het gebruik van de XML-indeling wordt afgeraden. Met de clientconsole kunt u bestanden tot maximaal 150 MB laden. In de gebruikersinterface van het Web, heeft de het dossieractiviteit van de Lading een grens van 50MB. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=nl-NL){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 

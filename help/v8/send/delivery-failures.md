@@ -40,7 +40,7 @@ De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij m
 
 Het **genegeerde** type van fout is gekend om tijdelijk, zoals &quot;uit bureau&quot;te zijn, of een technische fout, bijvoorbeeld als het afzendertype &quot;postmaster&quot;is.
 
-De feedbacklus werkt als e-mailberichten stuiteren: wanneer een gebruiker een e-mailbericht kwalificeert als spam, kunt u e-mailregels in Adobe Campaign configureren om alle leveringen aan deze gebruiker te blokkeren. De adressen van deze gebruikers worden gevoegd op lijst van gewenste personen alhoewel zij niet de unsubscription verbinding klikten. De adressen worden toegevoegd aan (**NmsAddress**) quarantainelijst en niet aan (**NmsRecipient**) ontvankelijke lijst met de **[!UICONTROL Denylisted]** status. Leer meer over terugkoppel lusmechanisme in de [ Gids van de Beste praktijken van de Levering van de Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"} .
+De feedbacklus werkt als e-mailberichten stuiteren: wanneer een gebruiker een e-mailbericht kwalificeert als spam, kunt u e-mailregels in Adobe Campaign configureren om alle leveringen aan deze gebruiker te blokkeren. De adressen van deze gebruikers worden gevoegd op lijst van gewenste personen alhoewel zij niet de unsubscription verbinding klikten. De adressen worden toegevoegd aan (**NmsAddress**) quarantainelijst en niet aan (**NmsRecipient**) ontvankelijke lijst met de **[!UICONTROL Denylisted]** status. Leer meer over terugkoppel lusmechanisme in de [ Gids van de Beste praktijken van de Levering van de Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#feedback-loops){target="_blank"} .
 
 ## Synchrone en asynchrone fouten {#synchronous-and-asynchronous-errors}
 
@@ -66,7 +66,7 @@ De manier waarop de postkwalificatie van de stuiterende in Adobe Campaign wordt 
 
 * **Synchrone fouten**: MTA bepaalt het stuitertype en de kwalificatie, en verzendt terug die informatie naar Campagne. De stuitkwalificaties in de **[!UICONTROL Delivery log qualification]** lijst worden niet gebruikt voor **synchrone** de foutenmeldingen van de leveringsmislukking.
 
-* **Asynchrone fouten**: De regels die door Campagne worden gebruikt om asynchrone leveringsmislukkingen te kwalificeren zijn vermeld in de **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knoop. Asynchrone stuiteringen worden door het inMail-proces via de **[!UICONTROL Inbound email]** -regels gekwalificeerd. Voor meer op dit, verwijs naar [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"} .
+* **Asynchrone fouten**: De regels die door Campagne worden gebruikt om asynchrone leveringsmislukkingen te kwalificeren zijn vermeld in de **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knoop. Asynchrone stuiteringen worden door het inMail-proces via de **[!UICONTROL Inbound email]** -regels gekwalificeerd. Voor meer op dit, verwijs naar [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=nl-NL#bounce-mail-qualification){target="_blank"} .
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,7 +111,7 @@ Bijvoorbeeld, als de geldigheidsperiode aan de standaardwaarde van 5 dagen in Ca
 
 Zodra een bericht 3.5 dagen in de MTA rij is geweest en niet heeft geleverd, zal het uit tijd en zijn status van **[!UICONTROL Sent]** aan **[!UICONTROL Failed]** in de leveringslogboeken worden bijgewerkt.
 
-Voor meer op de geldigheidsperiode, zie de [ documentatie van Adobe Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"} .
+Voor meer op de geldigheidsperiode, zie de [ documentatie van Adobe Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=nl-NL#defining-validity-period){target="_blank"} .
 
 
 ## Typen e-mailfouten {#email-error-types}

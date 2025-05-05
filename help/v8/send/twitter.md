@@ -149,7 +149,7 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
 >[!CAUTION]
 >
->U kunt niet meer dan 250 directe berichten per dag verzenden. Als u wilt voorkomen dat deze drempelwaarde wordt overschreden, kunt u in golven leveren. Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
+>U kunt niet meer dan 250 directe berichten per dag verzenden. Als u wilt voorkomen dat deze drempelwaarde wordt overschreden, kunt u in golven leveren. Raadpleeg voor meer informatie hierover [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=nl-NL#sending-using-multiple-waves){target="_blank"}.
 
 
 ## Gegevens voor bijhouden van toegang {#tw-tracking}
@@ -158,5 +158,5 @@ Ingebouwd **[!UICONTROL Tweet]** leveringssjabloon; reeksspatiëring is standaar
 
 Trackinggegevens kunnen worden weergegeven in de leveringsrapporten en in de **[!UICONTROL Edit > Tracking]** tabblad van de levering en de service.
 
-De volgende configuratie is het zelfde als voor een e-maillevering. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"}.
+De volgende configuratie is het zelfde als voor een e-maillevering. Meer informatie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=nl-NL){target="_blank"}.
 

@@ -67,11 +67,11 @@ Deze stap is transparant voor klanten:
 
 * **Welke bevestigingen moeten door de klanten worden in werking gesteld?**
 
-  Voor deze migratie zijn geen specifieke tests nodig. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  Voor deze migratie zijn geen specifieke tests nodig. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
 
 
 * **Kan ik om een verandering in Datum/Tijd in de geplande groef van de veiligheidsverbetering verzoeken?**
 
   Aangezien dit een verplichte migratie is, kunnen we geen wijzigingen in het bestaande schema aanbrengen.
 
-Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.

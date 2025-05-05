@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Productgeleiders{#guardrails}
 
-De rechten, de productbeperkingen en de prestatiegaranties worden vermeld in [Adobe Campaign Managed Cloud Services-productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+De rechten, de productbeperkingen en de prestatiegaranties worden vermeld in [Adobe Campaign Managed Cloud Services-productbeschrijvingspagina](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 Hieronder vindt u aanvullende instructies en beperkingen bij het gebruik [!DNL Adobe Campaign].
 

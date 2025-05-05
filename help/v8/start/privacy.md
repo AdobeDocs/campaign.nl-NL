@@ -16,12 +16,12 @@ ht-degree: 33%
 
 Afhankelijk van de aard van uw bedrijf en de rechtsgebieden waaronder het werkt, zijn uw gegevensbewerkingen mogelijk onderworpen aan wettelijke privacyregels. Deze verordeningen geven uw klanten vaak het recht om toegang tot de gegevens te verzoeken u van hen verzamelt, en het recht om de schrapping van die opgeslagen gegevens te verzoeken. Deze verzoeken van klanten om hun persoonlijke gegevens worden bedoeld als &quot;verzoeken van de Privacy&quot;door de documentatie.
 
-De Adobe biedt de Controllers van Gegevens de hulpmiddelen aan om de verzoeken van de Privacy voor gegevens tot stand te brengen en te verwerken die in Campagne worden opgeslagen. Nochtans, is het uw verantwoordelijkheid als Controlemechanisme van Gegevens om de identiteit van het Onderwerp te verifiëren dat het verzoek indient, en te bevestigen dat de gegevens aan het aanvrager zijn teruggekeerd over het Onderwerp van Gegevens zijn. Leer meer over persoonlijke gegevens en de verschillende entiteiten die gegevens in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#personal-data){target="_blank"}  beheren.
+De Adobe biedt de Controllers van Gegevens de hulpmiddelen aan om de verzoeken van de Privacy voor gegevens tot stand te brengen en te verwerken die in Campagne worden opgeslagen. Nochtans, is het uw verantwoordelijkheid als Controlemechanisme van Gegevens om de identiteit van het Onderwerp te verifiëren dat het verzoek indient, en te bevestigen dat de gegevens aan het aanvrager zijn teruggekeerd over het Onderwerp van Gegevens zijn. Leer meer over persoonlijke gegevens en de verschillende entiteiten die gegevens in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=nl-NL#personal-data){target="_blank"}  beheren.
 
 
 Om het verzoek van de Privacy in Campagne te beheren, moet u eerst [ een namespace ](#namespaces) bepalen. U kunt vervolgens privacyverzoeken maken en beheren. Om privacyverzoeken uit te voeren, gebruik de **Privacy Service van de Adobe** integratie. De verzoeken van de privacy die van de Privacy Service aan alle oplossingen van Adobe Experience Cloud worden geduwd worden automatisch behandeld door Campagne via een specifieke werkschema. [Meer informatie](#create-privacy-request)
 
-Leer over het **recht op Toegang** en het **Recht worden vergeten** (schrappingsverzoek) in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target="_blank"} .
+Leer over het **recht op Toegang** en het **Recht worden vergeten** (schrappingsverzoek) in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=nl-NL#right-access-forgotten){target="_blank"} .
 
 <!--
 >[!NOTE]
@@ -152,10 +152,10 @@ Hieronder vindt u de verschillende statussen voor privacyverzoeken in Adobe Camp
 
 **Verwante onderwerpen in Campaign Classic v7 documentatie:**
 
-* [ Privacy en toestemming ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"} 
+* [ Privacy en toestemming ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=nl-NL){target="_blank"} 
 
 * [ Begonnen het worden met het Beheer van de Privacy ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=nl){target="_blank"} 
 
-* [ Verordeningen op het beheer van de Privacy ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#privacy-management-regulations){target="_blank"}  (GDPR, CCPA, PDPA, en LGPD)
+* [ Verordeningen op het beheer van de Privacy ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=nl-NL#privacy-management-regulations){target="_blank"}  (GDPR, CCPA, PDPA, en LGPD)
 
-* [ Opt-out voor de Verkoop van Persoonlijke Informatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html){target="_blank"}  (specifiek voor CCPA)
+* [ Opt-out voor de Verkoop van Persoonlijke Informatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html?lang=nl-NL){target="_blank"}  (specifiek voor CCPA)

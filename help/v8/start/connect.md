@@ -26,7 +26,7 @@ Voordat u begint, moet u:
 
 >[!NOTE]
 >
->U kunt ook via een webbrowser verbinding maken met de gebruikersinterface van Campagne Web. Leer meer over het nieuwe Gebruikersinterface van het Web van de Campagne in [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} .
+>U kunt ook via een webbrowser verbinding maken met de gebruikersinterface van Campagne Web. Leer meer over het nieuwe Gebruikersinterface van het Web van de Campagne in [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"} .
 
 
 ## De clientconsole installeren{#download-ac-console}
@@ -75,7 +75,7 @@ U kunt zo veel verbindingen toevoegen als u nodig hebt om bijvoorbeeld verbindin
 
 ## Aanmelden bij Adobe Campaign {#logon-to-ac}
 
-Campagnegebruikers maken via hun Adobe ID verbinding met de Adobe Campaign-console, via Adobe Identity Management System (IMS). Zij kunnen zelfde identiteitskaart alle oplossingen van de Adobe gebruiken. De verbinding wordt bewaard wanneer het gebruiken van Adobe Campaign met andere oplossingen. Leer meer over Adobe IMS in [ deze pagina ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} .
+Campagnegebruikers maken via hun Adobe ID verbinding met de Adobe Campaign-console, via Adobe Identity Management System (IMS). Zij kunnen zelfde identiteitskaart alle oplossingen van de Adobe gebruiken. De verbinding wordt bewaard wanneer het gebruiken van Adobe Campaign met andere oplossingen. Leer meer over Adobe IMS in [ deze pagina ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} .
 
 Volg onderstaande stappen om u aan te melden bij een instantie:
 
@@ -125,12 +125,12 @@ De aanvang van de Versie van Campagne v8.6, hebt u toegang tot het nieuwe **de g
 
 >[!AVAILABILITY]
 >
->De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Identity Management van de Adobe (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} .
+>De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Identity Management van de Adobe (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} .
 >
 
 Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [ in deze pagina ](campaign-ui.md#ac-web-ui) toegang te hebben.
 
-Leer meer in de [ gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"} .
+Leer meer in de [ gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home){target="_blank"} .
 
 ### Webtoegang {#web-access}
 

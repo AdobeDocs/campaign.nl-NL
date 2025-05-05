@@ -25,7 +25,7 @@ Het Adobe Campaign-team voert de upgradeactiviteiten voor de Apache-versie uit d
 
 Van deze upgrade wordt verwacht dat deze automatisch buiten de normale kantooruren wordt uitgevoerd, zodat u de Campagneservice zonder onderbreking kunt blijven gebruiken.
 
-Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat we uw productie-instantie(s) upgraden. Aangezien dit een automatisch upgradeproces is dat eigendom is van de Adobe, is er geen actie van uw kant vereist. Als u echter problemen ondervindt, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat we uw productie-instantie(s) upgraden. Aangezien dit een automatisch upgradeproces is dat eigendom is van de Adobe, is er geen actie van uw kant vereist. Als u echter problemen ondervindt, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
 
 
 >[!NOTE]
@@ -53,7 +53,7 @@ Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat 
 
 * **Welke bevestigingen moeten door de klanten worden in werking gesteld?**
 
-  Er is geen specifieke test nodig voor deze beveiligingsupgrade. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  Er is geen specifieke test nodig voor deze beveiligingsupgrade. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
 
 
 * **Kan ik om een verandering in Datum/Tijd in de geplande groef van de veiligheidsverbetering verzoeken?**
@@ -61,4 +61,4 @@ Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat 
   Aangezien dit een veiligheidsmoeilijke situatie is, adviseren wij u sterk aan het bestaande programma aan te passen.
 
 
-Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.

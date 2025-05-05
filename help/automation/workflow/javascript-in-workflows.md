@@ -21,7 +21,7 @@ Deze voorbeelden laten zien hoe u JavaScript-code in een workflow kunt gebruiken
 * [Een workflow activeren met een statische SOAP-methode](#trigger-example)
 * [Interactie met het gegevensbestand, gebruikend een niet statische methode van de ZEEP](#interact-example)
 
-[Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"} over statische en niet-statische SOAP-methoden.
+[Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=nl-NL){target="_blank"} over statische en niet-statische SOAP-methoden.
 
 In deze voorbeelden wordt de extensie ECMAScript for XML (E4X) gebruikt. Met deze extensie kunt u JavaScript-aanroepen en XML-primitieven combineren in hetzelfde script.
 
@@ -51,7 +51,7 @@ Als u naar de database wilt schrijven, kunt u de statische `Write` op de `xtk:se
    1. Roep de `Write` op de `xtk:session` schema.
 
       >[!IMPORTANT]
-      > Als u Adobe Campaign v8 gebruikt, raden we u aan om het faseringsmechanisme te gebruiken met het **Inname** en **Gegevens bijwerken/verwijderen** API&#39;s voor de `Write` in een tabel met Snowflaken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
+      > Als u Adobe Campaign v8 gebruikt, raden we u aan om het faseringsmechanisme te gebruiken met het **Inname** en **Gegevens bijwerken/verwijderen** API&#39;s voor de `Write` in een tabel met Snowflaken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=nl-NL){target="_blank"}.
 
    1. Geef de XML-code door als een argument voor de schrijfaanvraag.
 
@@ -99,7 +99,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Een record verwijderen
 
-Gebruik de `DeleteCollection` methode. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}.
+Gebruik de `DeleteCollection` methode. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=nl-NL){target="_blank"}.
 
 Geef deze informatie op:
 
@@ -273,7 +273,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-De lus bevat een variabele voor lokale ontvangers. Voor elke ontvanger die in de inzameling van ontvangers is teruggekeerd, wordt de e-mail van de ontvanger gedrukt. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"} over de `logInfo` functie.
+De lus bevat een variabele voor lokale ontvangers. Voor elke ontvanger die in de inzameling van ontvangers is teruggekeerd, wordt de e-mail van de ontvanger gedrukt. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=nl-NL){target="_blank"} over de `logInfo` functie.
 
 #### Resultaten van een `getIfExists` bewerking
 
@@ -359,7 +359,7 @@ U kunt werkstromen programmatically, bijvoorbeeld, in technische werkschema&#39;
 
 Workflowactivering werkt door het gebruik van gebeurtenissen. U kunt deze functies voor gebeurtenissen gebruiken:
 
-* Als u een gebeurtenis wilt posten, kunt u de statische `PostEvent` methode. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}.
+* Als u een gebeurtenis wilt posten, kunt u de statische `PostEvent` methode. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=nl-NL){target="_blank"}.
 * Als u een gebeurtenis wilt ontvangen, kunt u de **[!UICONTROL External signal]** activiteit. [Meer informatie](external-signal.md).
 
 U kunt workflows op verschillende manieren activeren:
@@ -426,10 +426,10 @@ Voer de volgende stappen uit:
 
 1. Definieer de query:
 
-   * Een entiteit ophalen met de opdracht `create` methode op het overeenkomstige schema, bijvoorbeeld `xtk:workflow` schema. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}.
+   * Een entiteit ophalen met de opdracht `create` methode op het overeenkomstige schema, bijvoorbeeld `xtk:workflow` schema. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=nl-NL){target="_blank"}.
    * Gebruik de `queryDef` om een SQL-query uit te geven.
 
-1. Voer de query uit met de `ExecuteQuery` methode. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}.
+1. Voer de query uit met de `ExecuteQuery` methode. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=nl-NL){target="_blank"}.
 
    Gebruik de `for each` om de resultaten op te halen.
 
@@ -561,7 +561,7 @@ U kunt records invoegen, bijwerken en verwijderen. U kunt de `Write` in Adobe Ca
 * De `delete` bewerking
 
 >[!IMPORTANT]
-> Als u Adobe Campaign v8 gebruikt, raden we u aan om het faseringsmechanisme te gebruiken met het **Inname** en **Gegevens bijwerken/verwijderen** API&#39;s voor de `Write` in een tabel met Snowflaken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
+> Als u Adobe Campaign v8 gebruikt, raden we u aan om het faseringsmechanisme te gebruiken met het **Inname** en **Gegevens bijwerken/verwijderen** API&#39;s voor de `Write` in een tabel met Snowflaken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=nl-NL){target="_blank"}.
 
 #### Voorbeeld 1: een record invoegen of bijwerken
 
@@ -611,11 +611,11 @@ In deze video ziet u een voorbeeld van het gebruik van een niet-statische API-me
 
 ### API-documentatie
 
-* [Voorbeelden van SOAP-aanroepen](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}
+* [Voorbeelden van SOAP-aanroepen](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=nl-NL){target="_blank"}
 * Methoden:
-   * [Maken](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}
-   * [Schrijven](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html){target="_blank"}
-* [logInfo, functie](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"}
+   * [Maken](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=nl-NL){target="_blank"}
+   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=nl-NL){target="_blank"}
+   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=nl-NL){target="_blank"}
+   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=nl-NL){target="_blank"}
+   * [Schrijven](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=nl-NL){target="_blank"}
+* [logInfo, functie](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=nl-NL){target="_blank"}

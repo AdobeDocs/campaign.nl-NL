@@ -29,4 +29,4 @@ ht-degree: 19%
    + [32-bits versie van clientconsole](upgrades/console.md)
    + Beveiliging {#security}
       + [Rotatie van klantgegevens](security/credential-rotation-guide.md)
-+ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)

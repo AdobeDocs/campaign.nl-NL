@@ -327,10 +327,10 @@ Voor geavanceerde filtermogelijkheden gebruikt u functies om de inhoud van het f
 
 Leer hoe te om geavanceerde vragen in deze steekproeven van begin tot eind te bouwen:
 
-* Leer hoe u zich kunt richten op eenvoudige kenmerken voor ontvangers in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
-* Leer hoe u kunt filteren op ontvangers die de afgelopen 7 dagen geen contact hebben gehad in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
-* Leer hoe u de lijst met operatoren kunt herstellen door Active-accounts in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
-* Leer hoe u een e-mailpubliek voor uw verjaardag maakt in  [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}.
+* Leer hoe u zich kunt richten op eenvoudige kenmerken voor ontvangers in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"}.
+* Leer hoe u kunt filteren op ontvangers die de afgelopen 7 dagen geen contact hebben gehad in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=nl-NL){target="_blank"}.
+* Leer hoe u de lijst met operatoren kunt herstellen door Active-accounts in [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=nl-NL){target="_blank"}.
+* Leer hoe u een e-mailpubliek voor uw verjaardag maakt in  [deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=nl-NL){target="_blank"}.
 
 
 ### Geavanceerde parameters voor vooraf gedefinieerde filters {#param-for-data-filters}

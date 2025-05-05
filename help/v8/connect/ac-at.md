@@ -74,7 +74,7 @@ Vervolgens kunt u de afbeeldingsparameters definiëren:
 * De **[!UICONTROL Landing Page]** Hiermee kunt u de standaardafbeelding omleiden naar een standaardbestemmingspagina. Deze URL is alleen van toepassing wanneer de standaardafbeelding wordt weergegeven in het laatste e-mailbericht. Het is optioneel.
 * De **[!UICONTROL Additional decision parameters]**  definieert de toewijzing tussen de velden die zijn gedefinieerd in de Adobe Target-segmenten en de Adobe Campaign-velden. De Adobe Campaign-velden die worden gebruikt, moeten zijn opgegeven in de keuzelijst. In ons voorbeeld hebben we het veld Land toegevoegd.
 
-Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Meer informatie over Target Enterprise-machtigingen vindt u in [Adobe Target-documentatie](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
+Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Meer informatie over Target Enterprise-machtigingen vindt u in [Adobe Target-documentatie](https://experienceleague.adobe.com/nl/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
 ![](assets/target_13.png)
 
@@ -94,7 +94,7 @@ In ons geval hebben we twee doorgifteaanbiedingen nodig, de derde (de standaard)
 
    ![](assets/target_6.png)
 
-1. Volg dezelfde procedure voor het resterende doorleidingsaanbod. Raadpleeg voor meer informatie deze [Adobe Target-documentatie](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}.
+1. Volg dezelfde procedure voor het resterende doorleidingsaanbod. Raadpleeg voor meer informatie deze [Adobe Target-documentatie](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=nl-NL#experiences){target="_blank"}.
 
 ### Soorten publiek maken {#audiences-target}
 

@@ -32,7 +32,7 @@ U kunt het configuratiescherm rechtstreeks openen vanuit Adobe Experience Cloud.
 
 ## Veelgestelde vragen over configuratiescherm {#ac-control-faq}
 
-[Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"} om toegang te krijgen tot Veelgestelde vragen over het Configuratiescherm.
+[Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=nl-NL#control-panel){target="_blank"} om toegang te krijgen tot Veelgestelde vragen over het Configuratiescherm.
 
 ## SFTP-beheer {#ac-control-sftp}
 
@@ -42,7 +42,7 @@ In het configuratiescherm kunt u werken met alle SFTP-servers die verbonden zijn
 
 Leer hoe u de subdomeinen en hun certificaten kunt controleren.
 
-* [De subdomeinen controleren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html){target="_blank"}
+* [De subdomeinen controleren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=nl-NL){target="_blank"}
 * [Een nieuw subdomein instellen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl){target="_blank"}
 * [SSL-certificaten van uw subdomeinen controleren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl){target="_blank"}
 
@@ -54,7 +54,7 @@ Het Configuratiescherm biedt verschillende functies waarmee u uw instanties kunt
 ## Instantie-instellingen
 
 Leer hoe u de instellingen voor de campagneinstanties in het regelpaneel beheert.
-* [IP op de lijst van gewenste personen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html){target="_blank"}
+* [IP op de lijst van gewenste personen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=nl-NL){target="_blank"}
 * [URL-machtigingen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=nl){target="_blank"}
-* [Instantiedetails](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html){target="_blank"}
+* [Instantiedetails](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=nl-NL){target="_blank"}
 * [Beheer van GPG-sleutels](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=nl){target="_blank"}

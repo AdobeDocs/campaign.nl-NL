@@ -42,7 +42,7 @@ De **[!UICONTROL Audit trail]** De functionaliteit in Adobe Campaign biedt een g
 
 * **Optie audittrail** staat u toe om activiteiten en laatste wijzigingen te controleren die aan uw opties worden gedaan.
 
-  Raadpleeg deze voor meer informatie over opties [page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Raadpleeg deze voor meer informatie over opties [page](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Afleveringsaudittrail** kunt u de activiteiten en de laatste wijzigingen die u hebt aangebracht in uw leveringen controleren.
 

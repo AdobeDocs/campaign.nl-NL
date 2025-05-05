@@ -22,7 +22,7 @@ A **het beheer van de Inhoud** activiteit laat u een inhoud tot stand brengen en
 
 >[!NOTE]
 >
->Met de Adobe Campaign Web User Interface kunt u inhoudsfragmenten gebruiken voor uw inhoud. Op deze manier kunnen marketinggebruikers meerdere blokken aangepaste inhoud vooraf samenstellen, dankzij herbruikbare componenten waarnaar in een of meer berichten kan worden verwezen, zodat u de inhoud van berichten snel kunt samenstellen in een verbeterd ontwerpproces. Meer over de fragmenten van de Inhoud leren, gelieve te verwijzen naar de [ documentatie van het Web van Adobe Campaign UI.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>Met de Adobe Campaign Web User Interface kunt u inhoudsfragmenten gebruiken voor uw inhoud. Op deze manier kunnen marketinggebruikers meerdere blokken aangepaste inhoud vooraf samenstellen, dankzij herbruikbare componenten waarnaar in een of meer berichten kan worden verwezen, zodat u de inhoud van berichten snel kunt samenstellen in een verbeterd ontwerpproces. Meer over de fragmenten van de Inhoud leren, gelieve te verwijzen naar de [ documentatie van het Web van Adobe Campaign UI.](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 De eigenschappen van de activiteit zijn verdeeld in drie stappen:
 

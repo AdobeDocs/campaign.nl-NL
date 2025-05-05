@@ -166,4 +166,4 @@ ht-degree: 79%
    + [Campagnes openen](distributed-marketing/accessing-campaigns.md)
    + [Een campagne bijhouden](distributed-marketing/tracking-a-campaign.md)
    + [Gebruiksscenario’s](distributed-marketing/examples.md)
-+ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)

@@ -38,11 +38,11 @@ Adobe Campaign wordt geleverd met processen en instellingen waarmee u Campagne k
 
 * **de aanwinst van Gegevens**: Adobe Campaign laat u toe om gegevens, met inbegrip van persoonlijke en gevoelige informatie te verzamelen. Het is daarom van essentieel belang dat u toestemming krijgt en beheert van uw ontvangers.
 
-  Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#data-acquisition){target="_blank"} 
+  Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=nl-NL#data-acquisition){target="_blank"} 
 
 * **de toestemming van de Gebruiker en gegevensbehoud**: u moet gebruikerstoestemming krijgen, opstelling dubbele opt-in abonnementsmechanismen, vergemakkelijken opt-out en vormen gegevensbehoud.
 
-  Leer meer in [ Campaign Classic v7 privacydocumentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#consent){target="_blank"} 
+  Leer meer in [ Campaign Classic v7 privacydocumentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=nl-NL#consent){target="_blank"} 
 
 * **Privacy en gegevensbeschermingsverordeningen**: verwijs naar [ deze sectie ](privacy.md) voor informatie over privacyvereisten, en hoe deze verordeningen uw organisatie en Adobe Campaign beïnvloeden.
 
@@ -83,18 +83,18 @@ Voordat u begint met het verzenden van berichten en het maken van marketingcampa
    Campagnes, leveringen, taken of workflows zijn allemaal gebaseerd op een sjabloon waarin de belangrijkste instellingen en mogelijkheden zijn opgeslagen. Een ingebouwde sjabloon wordt geleverd voor elke component, waarvoor geen specifieke configuratie is gedefinieerd. U moet malplaatjes vormen en aanpassen aan uw behoeften en hen ter beschikking stellen aan eindgebruikers.
 
 
-   Leer hoe te met campagnemalplaatjes in [ te werken deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html){target="_blank"} .
+   Leer hoe te met campagnemalplaatjes in [ te werken deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=nl-NL){target="_blank"} .
 
-   Leer hoe te om een werkschemamalplaatje in [ te vormen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} .
+   Leer hoe te om een werkschemamalplaatje in [ te vormen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=nl-NL){target="_blank"} .
 
-   Leer meer over e-mailmalplaatjes in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target="_blank"} .
+   Leer meer over e-mailmalplaatjes in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=nl-NL){target="_blank"} .
 
 
 1. **vorm typologieregels**
 
    De typologieregels van de Campagne van de hefboomwerking aan filter, controle en monitorlevering die verzenden. Zo regelt u met vermoeidheidsregels de regelfrequentie en de hoeveelheid berichten om overmatige aansporing van ontvangers te voorkomen. Na implementatie worden er in leveringen naar typologische regels verwezen.
 
-   Leer meer over typologieën en vermoeidheidsbeheer in [ deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"} .
+   Leer meer over typologieën en vermoeidheidsbeheer in [ deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=nl-NL){target="_blank"} .
 
 1. **krijgt vertrouwd met de ingebouwde campagne gegevensmodel**
 

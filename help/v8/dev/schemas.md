@@ -198,9 +198,9 @@ Met kenmerken kunt u de velden definiëren waaruit het gegevensobject bestaat. U
 
 ![](assets/schemaextension_2.png)
 
-De volledige lijst met kenmerken is beschikbaar in de `<attribute>` elementsectie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Hier volgen enkele van de meer gebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+De volledige lijst met kenmerken is beschikbaar in de `<attribute>` elementsectie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=nl-NL#content-model){target="_blank"}. Hier volgen enkele van de meer gebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-Raadpleeg voor meer informatie over elk kenmerk de beschrijving van het kenmerk in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
+Raadpleeg voor meer informatie over elk kenmerk de beschrijving van het kenmerk in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=nl-NL#configuring-campaign-classic){target="_blank"}.
 
 ### Voorbeelden {#examples}
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe Campaign integreert een grafische module voor het definiëren en publiceren **Webformulieren** om pagina&#39;s te maken met invoer- en selectievelden, die gegevens uit de database kunnen bevatten. Zo kunt u webpagina&#39;s ontwerpen en plaatsen die gebruikers kunnen openen om informatie weer te geven of in te voeren.
 
-Leer webformulieren maken en publiceren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html#designing-content){target="_blank"}
+Leer webformulieren maken en publiceren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=nl-NL#designing-content){target="_blank"}
 
 ![](assets/sample.png)
 
@@ -24,4 +24,4 @@ Met Adobe Campaign kunt u ook dynamische en interactieve **Webtoepassingen** met
 
 U kunt pagina&#39;s maken, zoals een bewerkingsformulier op een extranet, of meldingsformulieren, inclusief gegevens uit de database met tabellen, grafieken, invoerformulieren enzovoort. Met deze functionaliteit kunt u webpagina&#39;s ontwerpen en plaatsen waar gebruikers informatie kunnen opzoeken of invoeren.
 
-Leer hoe u webtoepassingen kunt maken en publiceren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html#designing-content){target="_blank"}
+Leer hoe u webtoepassingen kunt maken en publiceren in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=nl-NL#designing-content){target="_blank"}

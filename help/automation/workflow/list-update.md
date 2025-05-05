@@ -74,4 +74,4 @@ Deze video laat zien hoe u een lijst met ontvangers in de Verkenner kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-Er zijn aanvullende instructievideo&#39;s beschikbaar voor campagnes [hier](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Er zijn aanvullende instructievideo&#39;s beschikbaar voor campagnes [hier](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.

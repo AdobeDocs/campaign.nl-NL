@@ -34,9 +34,9 @@ Campagne v8 kan verbinding maken met de volgende Adobe-oplossingen. Blader naar 
 
 U kunt ook uw **publiek** en **elementen** voor alle oplossingen voor Experiencen Cloud met mogelijkheden voor het delen van bedrijfsmiddelen en het delen van doelgroepen.
 
-Meer informatie over **Delen van publiek** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+Meer informatie over **Delen van publiek** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=nl-NL#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Meer informatie over **Elementen delen** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+Meer informatie over **Elementen delen** tussen Campagne en Experience Cloud oplossingen in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=nl-NL#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >

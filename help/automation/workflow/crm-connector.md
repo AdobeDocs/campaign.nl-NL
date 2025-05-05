@@ -28,4 +28,4 @@ Selecteer de externe rekening die CRM aanpast dat u synchronisatie met wilt vorm
 
 ![](assets/crm_task_select_obj.png)
 
-Voor meer informatie over CRM-connectors in Adobe Campaign raadpleegt u [deze sectie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}.
+Voor meer informatie over CRM-connectors in Adobe Campaign raadpleegt u [deze sectie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=nl-NL){target="_blank"}.

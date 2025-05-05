@@ -22,13 +22,13 @@ Workflows kunnen handig zijn om een aantal importprocessen te automatiseren. Of 
 
 ### Gegevens uit een lijst gebruiken: lijst lezen {#data-from-read-list}
 
-Bereid en structureer uw gegevens in een dossier om het met een werkschema in te voeren. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}.
+Bereid en structureer uw gegevens in een dossier om het met een werkschema in te voeren. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=nl-NL){target="_blank"}.
 
 ### Gegevens uit een bestand laden {#data-from-a-file}
 
-De gegevens die in een werkstroom worden verwerkt, kunnen uit een gestructureerd bestand worden geëxtraheerd, zodat het bestand in Adobe Campaign kan worden geïmporteerd. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html){target="_blank"}.
+De gegevens die in een werkstroom worden verwerkt, kunnen uit een gestructureerd bestand worden geëxtraheerd, zodat het bestand in Adobe Campaign kan worden geïmporteerd. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html?lang=nl-NL){target="_blank"}.
 
-Nadat gegevens zijn verzameld, kunt u deze gebruiken in uw workflows, bijvoorbeeld om een levering te verrijken of de database bij te werken. Raadpleeg voor meer informatie hierover [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}.
+Nadat gegevens zijn verzameld, kunt u deze gebruiken in uw workflows, bijvoorbeeld om een levering te verrijken of de database bij te werken. Raadpleeg voor meer informatie hierover [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=nl-NL){target="_blank"}.
 
 ## Invoer met één opname{#import-jobs}
 
@@ -38,4 +38,4 @@ Algemene invoer wordt beheerd vanuit de **[!UICONTROL Profiles and Targets > Job
 
 ![](assets/new-import-job.png)
 
-De stappen voor het uitvoeren van een generieke importbewerking worden beschreven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target="_blank"}.
+De stappen voor het uitvoeren van een generieke importbewerking worden beschreven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=nl-NL){target="_blank"}.

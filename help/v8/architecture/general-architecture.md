@@ -98,4 +98,4 @@ U kunt Adobe Campaign implementeren met behulp van de vooraf gedefinieerde datab
 
 De totale opslagruimte wordt opgesplitst tussen de hoofddatabase en de (facultatieve) secundaire database van de Snowflake. Waar de gegevens worden opgeslagen zou op implementatie of verbeteringstijd, afhankelijk van klant-specifieke gebruiks-gevallen moeten worden bepaald.
 
-Leer hoe u het databasegebruik kunt controleren in [Documentatie van het bedieningspaneel voor campagne](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
+Leer hoe u het databasegebruik kunt controleren in [Documentatie van het bedieningspaneel voor campagne](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=nl-NL){target="_blank"}.

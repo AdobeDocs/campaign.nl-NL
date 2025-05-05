@@ -87,7 +87,7 @@ Het bewerkingsbesturingselement past zich automatisch aan het overeenkomstige ge
 
 Elk veld wordt standaard weergegeven op één regel en neemt alle beschikbare ruimte in beslag, afhankelijk van het type gegevens.
 
-Alle formulierkenmerken worden vermeld in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}.
+Alle formulierkenmerken worden vermeld in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=nl-NL){target="_blank"}.
 
 ## Opmaak {#formatting}
 

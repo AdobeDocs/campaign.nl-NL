@@ -15,11 +15,11 @@ ht-degree: 0%
 
 De de moduleconfiguratie van de Interactie van de campagne wordt gereserveerd aan deskundige gebruikers. Geavanceerde instellingen worden gedetailleerd in **Campaign Classic v7-documentatie**:
 
-Meer informatie over het gebruik van aanvullende contextafhankelijke gegevens in aanbiedingen [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html){target="_blank"}.
+Meer informatie over het gebruik van aanvullende contextafhankelijke gegevens in aanbiedingen [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html?lang=nl-NL){target="_blank"}.
 
-Leer hoe u de criteria om in aanmerking te komen voor uw aanbiedingen verrijkt [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.
+Leer hoe u de criteria om in aanmerking te komen voor uw aanbiedingen verrijkt [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=nl-NL){target="_blank"}.
 
-Leer stappen om een testomgeving te maken  [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html){target="_blank"}.
+Leer stappen om een testomgeving te maken  [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html?lang=nl-NL){target="_blank"}.
 
-Leer hoe u haken kunt gebruiken om het standaardgedrag van de Offertenengine te wijzigen [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html){target="_blank"}.
+Leer hoe u haken kunt gebruiken om het standaardgedrag van de Offertenengine te wijzigen [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html?lang=nl-NL){target="_blank"}.
 

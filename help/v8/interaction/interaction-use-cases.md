@@ -16,10 +16,10 @@ ht-degree: 4%
 
 De mogelijkheden van de Interactie van de Campagne van de hefboomwerking door deze geleidelijke gebruiksgevallen beschikbaar in Campaign Classic v7 documentatie:
 
-[Een presentatieregel maken en toepassen](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
+[Een presentatieregel maken en toepassen](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html?lang=nl-NL){target="_blank"}
 
-[Verstuur een e-mailaanbieding](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Verstuur een e-mailaanbieding](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=nl-NL){target="_blank"}
 
-[Een voorstel presenteren aan een anonieme bezoeker](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Een voorstel presenteren aan een anonieme bezoeker](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=nl-NL){target="_blank"}
 
-[Voer een aanbiedingssimulatie uit](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Voer een aanbiedingssimulatie uit](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=nl-NL){target="_blank"}

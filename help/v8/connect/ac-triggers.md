@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt Experience Cloud Triggers gebruiken om gegevens tussen Adobe Campaign en Adobe Analytics te verbinden gebruikend de pijpleiding. De pijplijn haalt de acties van de gebruiker of trekkers van uw website terug. Een achterlating van een winkelwagen is een voorbeeld van een trigger. Triggers worden in Adobe Campaign verwerkt om e-mails in bijna real-time te verzenden.
 
-Meer informatie over Adobe Campaign en Experiencen Cloud Triggers op [deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html){target="_blank"}.
+Meer informatie over Adobe Campaign en Experiencen Cloud Triggers op [deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=nl-NL){target="_blank"}.
 
-Ontdek hoe u [een trigger voor een Experience Cloud maken](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html){target="_blank"} en kritieke consumentengedragingen identificeren, definiëren en bewaken.
+Ontdek hoe u [een trigger voor een Experience Cloud maken](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=nl-NL){target="_blank"} en kritieke consumentengedragingen identificeren, definiëren en bewaken.
 

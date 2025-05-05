@@ -212,4 +212,4 @@ Het invoegen van abonnements- en abonnementsgegevens is afhankelijk van de [Stap
 
 **Verwante onderwerpen**
 
-* [Campaign-JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
+* [Campaign-JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=nl-NL){target="_blank"}

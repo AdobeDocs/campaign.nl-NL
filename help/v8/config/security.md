@@ -52,7 +52,7 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **Hoofdletters toevoegen aan webtoepassingen**: voeg hoofdletters toe in uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
 
-Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
+Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=nl-NL#installing-campaign-classic){target="_blank"}.
 
 
 ## Personalisatie
@@ -147,4 +147,4 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **Hoofdletters toevoegen aan webtoepassingen**: voeg hoofdletters toe in uw openbare bestemmingspagina&#39;s en abonnementspagina&#39;s.
 
-Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
+Meer informatie in [Adobe Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=nl-NL#installing-campaign-classic){target="_blank"}.

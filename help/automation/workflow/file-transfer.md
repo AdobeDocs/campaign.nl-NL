@@ -15,7 +15,7 @@ ht-degree: 1%
 # Bestandsoverdracht{#file-transfer}
 
 De **Bestandsoverdracht** Met activiteit kunt u bestanden ontvangen of verzenden, testen op bestandsaanwezigheid of bestanden op een server weergeven. Het gebruikte protocol is Azure Blob Storage, Amazon Simple Storage Service (S3), FTP of SFTP.
-Met de S3-, Azure Blob Storage- of SFTP-verbinding kunt u ook gesegmenteerde gegevens importeren naar Adobe Campaign met een Adobe van het Real-Time Customer Data-platform. Raadpleeg voor meer informatie deze [documentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
+Met de S3-, Azure Blob Storage- of SFTP-verbinding kunt u ook gesegmenteerde gegevens importeren naar Adobe Campaign met een Adobe van het Real-Time Customer Data-platform. Raadpleeg voor meer informatie deze [documentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=nl-NL){target="_blank"}.
 
 ## Properties {#properties}
 

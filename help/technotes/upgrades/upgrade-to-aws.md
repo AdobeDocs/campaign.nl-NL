@@ -55,11 +55,11 @@ De productomgevingen die in **januari 2024**.
 
 * **Welke tests worden vereist door de klanten?**
 
-  Wij verwachten geen tests door klanten in verband met deze upgradegebeurtenis. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  Wij verwachten geen tests door klanten in verband met deze upgradegebeurtenis. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
 
 
 * **Kan ik om een verandering in Datum/Tijd in de geplande groef van de veiligheidsverbetering verzoeken?**
 
   Nee. Wij kunnen om het even welke gevraagde wijzigingen in het bestaande programma aanpassen aangezien dit waarschijnlijk de toegewezen verbeteringsgebeurtenis voor een andere klant zal verstoren.
 
-Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
