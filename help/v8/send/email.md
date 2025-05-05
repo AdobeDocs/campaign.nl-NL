@@ -90,7 +90,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
 
-Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [ gebruiksgeval ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html) in te voeren {target="_blank"}.
+Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [ gebruiksgeval ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"} in te voeren .
 
 >[!MORELIKETHIS]
 >

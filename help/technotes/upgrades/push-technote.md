@@ -27,7 +27,7 @@ Bovendien adviseert de Adobe hoogst om naar de op teken-gebaseerde verbinding aa
 
 ### Wat is er veranderd? {#fcm-changes}
 
-Als deel van Google dat voortdurend probeert om zijn diensten te verbeteren, zal erfenis FCM APIs op **22 Juli, 2024** worden opgeheven. Leer meer over het protocol van HTTP van het Overseinen van de Wolk van de Wolk van de Wolk van de Vuurstand van de Wolk van de Vuurstand van de Wolk van de Vuurstand in [ Google documentatie ](https://firebase.google.com/docs/cloud-messaging/migrate-v1) {target="_blank"}.
+Als deel van Google dat voortdurend probeert om zijn diensten te verbeteren, zal erfenis FCM APIs op **22 Juli, 2024** worden opgeheven. Leer meer over het protocol van HTTP van het Overseinen van de Wolk van de Wolk van de Wolk van de Vuurstand van de Wolk van de Vuurstand van de Wolk van de Vuurstand in [ Google documentatie ](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"} .
 
 Adobe Campaign Classic v7 en Adobe Campaign v8 ondersteunen al de nieuwste API&#39;s voor het verzenden van pushberichten. Sommige oude implementaties zijn echter nog steeds afhankelijk van de oudere API&#39;s. Deze implementaties moeten worden bijgewerkt.
 
@@ -48,9 +48,9 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 #### Vereisten {#fcm-transition-prerequisites}
 
-* Het JSON-bestand van de Android Firebase Admin SDK-service is nodig om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe te om dit dossier in [ documentatie van de Vuurbasis van Google ](https://firebase.google.com/docs/admin/setup#initialize-sdk) te krijgen {target="_blank"}.
+* Het JSON-bestand van de Android Firebase Admin SDK-service is nodig om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe te om dit dossier in [ documentatie van de Vuurbasis van Google ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} te krijgen .
 
-* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in versie 20.3.1. Als uw milieu op een oudere versie loopt, moet een eerste vereiste voor de overgang aan HTTP v1 uw milieu bevorderen aan het [ recentste Campaign Classic bouwen ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) {target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
+* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in versie 20.3.1. Als uw milieu op een oudere versie loopt, moet een eerste vereiste voor de overgang aan HTTP v1 uw milieu bevorderen aan het [ recentste Campaign Classic bouwen ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"} . Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
 
 * Als Campaign Classic v7 on-premise gebruiker, moet u zowel de Marketing als Real-Time uitvoeringsservers bevorderen.
 
@@ -58,7 +58,7 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 * Informatie over de Android die externe account routeert:
 
-   * Als Campaign Classic v7 on-premise of hybride gebruiker, controleer dat uw Android die externe rekening verplettert met `androidPushConnectorV2.js` wordt gevormd. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) {target="_blank"}.
+   * Als Campaign Classic v7 on-premise of hybride gebruiker, controleer dat uw Android die externe rekening verplettert met `androidPushConnectorV2.js` wordt gevormd. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} .
 
    * Voor de implementatie van hybride, gehoste en beheerde Cloud Servicen moet u ook verbinding maken met het zorgteam van de Adobe om te controleren of de `androidPushConnectorV2.js (nms)` -aansluiting is geselecteerd in Android die een externe account van uw mediumsourcingserver routeert.
 
@@ -156,7 +156,7 @@ U kunt ook bestaande leverings- en leveringssjablonen bijwerken die zijn gemaakt
       nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
       ```
 
-+++
+  +++
 
 ### Wat is het effect op mijn Android-apps? {#fcm-apps}
 
@@ -175,7 +175,7 @@ U kunt:
 * Stel het **[!UICONTROL Notification Priority]** -niveau van uw melding in op standaard, minimum, laag of hoog.
 * Stel het **[!UICONTROL Visibility]** -niveau van uw melding in op openbaar, privé of geheim.
 
-Voor meer op **[!UICONTROL HTTP v1 additional options]** en hoe te om deze gebieden te vullen, verwijs naar [ documentatie FCM ](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification) {target="_blank"}.
+Voor meer op **[!UICONTROL HTTP v1 additional options]** en hoe te om deze gebieden te vullen, verwijs naar [ documentatie FCM ](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"} .
 
 
 
@@ -191,7 +191,7 @@ Token-gebaseerde authentificatie biedt een stateless manier om met APNs te commu
 
 * U kunt één token gebruiken om meldingen te distribueren voor alle apps van uw bedrijf.
 
-Leer meer over op token-gebaseerde verbindingen aan APNs in [ de documentatie van de Ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns) {target="_blank"}.
+Leer meer over op token-gebaseerde verbindingen aan APNs in [ de documentatie van de Ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} .
 
 Adobe Campaign Classic v7 en Adobe Campaign v8 ondersteunen zowel tokengebaseerde als op certificaten gebaseerde verbindingen. Als uw implementatie afhankelijk is van een verbinding op basis van een certificaat, raadt de Adobe u ten zeerste aan om deze bij te werken naar een tokenverbinding.
 
@@ -212,9 +212,9 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 #### Vereisten {#ios-transition-prerequisites}
 
-* Voor Campaign Classic v7, is de steun van **op token-gebaseerde authentificatie** wijze toegevoegd in versie 20.2. Als uw milieu op een oudere versie loopt, is een voorwaarde voor deze verandering uw milieu aan het [ recentste Campaign Classic te bevorderen bouwt ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) {target="_blank"}. Voor Campagne v8, **op token-gebaseerde authentificatie** wordt wijze gesteund door alle versies, en geen verbetering is nodig.
+* Voor Campaign Classic v7, is de steun van **op token-gebaseerde authentificatie** wijze toegevoegd in versie 20.2. Als uw milieu op een oudere versie loopt, is een voorwaarde voor deze verandering uw milieu aan het [ recentste Campaign Classic te bevorderen bouwt ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"} . Voor Campagne v8, **op token-gebaseerde authentificatie** wordt wijze gesteund door alle versies, en geen verbetering is nodig.
 
-* U hebt een APNs-verificatietoken voor ondertekening nodig om de tokens te genereren die uw server gebruikt. U vraagt deze sleutel van uw Apple ontwikkelaarsrekening, zoals die in [ documentatie van de Ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns) {target="_blank"} wordt verklaard.
+* U hebt een APNs-verificatietoken voor ondertekening nodig om de tokens te genereren die uw server gebruikt. U vraagt deze sleutel van uw Apple ontwikkelaarsrekening, zoals die in [ documentatie van de Ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}  wordt verklaard.
 
 * Voor hybride, Gehoste en Managed Services plaatsingen, naast de hieronder overgangsprocedure, contacteer Adobe om uw Real-Time (RT) uitvoeringsserver bij te werken. De server voor middelste bronnen heeft geen invloed op deze server.
 

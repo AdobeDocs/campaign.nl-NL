@@ -20,7 +20,7 @@ Om landende pagina&#39;s tot stand te brengen, doorblader aan het [ Web gebruike
 
 >[!AVAILABILITY]
 >
->* De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Identity Management van de Adobe (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html) {target="_blank"}.
+>* De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Identity Management van de Adobe (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} .
 >
 >* De bestemmingspagina&#39;s die u in het gebruikersinterface van het Web van de Campagne creeert kunnen niet in de cliëntconsole van de Campagne worden getoond of worden uitgegeven.
 >
@@ -34,7 +34,7 @@ Met openingspagina&#39;s kunt u:
 * Verstrek uw ontvangers van het vermogen om van het ontvangen van uw mededelingen af te zien.
 
 
-Leer meer over het landen van pagina&#39;s in [ gebruikersinterfacedocumentatie van het Web van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp) {target="_blank"}.
+Leer meer over het landen van pagina&#39;s in [ gebruikersinterfacedocumentatie van het Web van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"} .
 
 U kunt ook door de volgende secties bladeren:
 

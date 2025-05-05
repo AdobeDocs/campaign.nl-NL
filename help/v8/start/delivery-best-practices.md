@@ -31,7 +31,7 @@ Om dit te vermijden, coördineer de planning van leveringen met de andere leden 
 
 * De workflowuitvoering: het controleren van uw workflows is essentieel om problemen met de prestaties van het platform te voorkomen. Volg de vermelde richtlijnen [ in dit document ](../../automation/workflow/workflow-best-practices.md#execution-and-performance).
 
-* Verbind met uw [ mogelijkheden van het Controlebord van de Campagne ](https://experienceleague.adobe.com/en/docs/control-panel/using/discover-control-panel/key-features) {target="_blank"} om uw platform te controleren, gebruikend [ prestaties controlerend ](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring) {target="_blank"} functies.
+* Verbind met uw [ mogelijkheden van het Controlebord van de Campagne ](https://experienceleague.adobe.com/en/docs/control-panel/using/discover-control-panel/key-features){target="_blank"}  om uw platform te controleren, gebruikend [ prestaties controlerend ](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}  functies.
 
 #### Quarantainebeheer {#quarantine-management}
 
@@ -40,9 +40,9 @@ Het is in uw belang om goede processen van het quarantainebeheer te handhaven.
 Wanneer u e-mailberichten op een nieuw platform gaat verzenden, kunt u een lijst met adressen gebruiken die niet volledig zijn gekwalificeerd. Als u naar ongeldige adressen of naar honeypot-adressen (brievenbussen slechts die aan truc spammers worden gecreeerd) verzendt, zal dit de reputatie van uw platform beginnen te verminderen. Goede quarantainebeheerprocessen helpen: de adreskwaliteit handhaven, lijst van gewezen personen door internettoegangsproviders vermijden, en uw foutenpercentage verminderen, leveringen en productie versnellen.
 
 
-Leer meer hoe te om een nieuw platform in de [ Gids van de Beste praktijken van de Levering van de Adobe te beginnen ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform) {target="_blank"}.
+Leer meer hoe te om een nieuw platform in de [ Gids van de Beste praktijken van de Levering van de Adobe te beginnen ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"} .
 
-De technische aanbevelingen worden vermeld in [ deze sectie ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations) {target="_blank"}.
+De technische aanbevelingen worden vermeld in [ deze sectie ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"} .
 
 
 +++ **las uit weinig beste praktijken**
@@ -68,7 +68,7 @@ De malplaatjes van de levering staan voor verhoogde efficiency toe door kant-en-
 
 ### Subdomeinen en branding {#subdomains-and-branding}
 
-Wanneer u meerdere merken beheert in Adobe Campaign, raadt Adobe aan één subdomein per merk te hebben. Een bank kan bijvoorbeeld verschillende subdomeinen hebben die overeenkomen met elk van haar regionale agentschappen. Als een bank eigenaar is van het bluebank.com-domein, kunnen de subdomeinen @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com enzovoort zijn. Als u één leveringssjabloon per subdomein hebt, kunt u altijd de juiste vooraf geconfigureerde parameters voor elk merk gebruiken. Hierdoor worden fouten voorkomen en bespaart u tijd. Leer meer over subdomain branding in de [ documentatie van het Controlebord van de Campagne ](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding) {target="_blank"}.
+Wanneer u meerdere merken beheert in Adobe Campaign, raadt Adobe aan één subdomein per merk te hebben. Een bank kan bijvoorbeeld verschillende subdomeinen hebben die overeenkomen met elk van haar regionale agentschappen. Als een bank eigenaar is van het bluebank.com-domein, kunnen de subdomeinen @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com enzovoort zijn. Als u één leveringssjabloon per subdomein hebt, kunt u altijd de juiste vooraf geconfigureerde parameters voor elk merk gebruiken. Hierdoor worden fouten voorkomen en bespaart u tijd. Leer meer over subdomain branding in de [ documentatie van het Controlebord van de Campagne ](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"} .
 
 ### Adressen configureren {#configure-addresses}
 
@@ -115,11 +115,11 @@ Om uw berichten aan te passen, kunt u de gegevens gebruiken van ontvangers die i
 
 * Controleer uw verpersoonlijkingsmontages - zorg ervoor uw berichtinhoud behoorlijk wordt ontworpen om het even welke fouten te vermijden, die met verpersoonlijking kunnen worden verwant. Een Adobe Campaign-personalisatiemarkering heeft altijd de volgende vorm: `<%=table.field%>`. Het onjuiste gebruik van parameters in verpersoonlijkingsblokken kan een kwestie zijn. Variabelen in JavaScript moeten bijvoorbeeld als volgt worden gebruikt:
 
-  ``
+  &grave;&grave;
   <%
   var brand = "xxx"
   %>
-  ``
+  &grave;&grave;
 
   Voor meer op verpersoonlijkingsblokken, verwijs naar [ deze sectie ](../send/personalization-blocks.md).
 
@@ -411,7 +411,7 @@ Om uw campagnes te controleren, moet u ervoor zorgen dat het bericht inderdaad a
 
 Van het dashboard van de levering van de Campagne, kunt u de verwerkte berichten en de logboeken van de leveringscontrole controleren. U kunt de status van de berichten in de leveringslogboeken ook controleren.
 
-[ leer meer over levering controle in Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html) {target="_blank"}
+[ leer meer over levering controle in Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"} 
 
 
 ## Traceergedrag {#track-behaviour}
@@ -421,4 +421,4 @@ Als u het gedrag van de ontvangers beter wilt weten, kunt u bijhouden hoe zij op
 Berichten bijhouden is standaard ingeschakeld. Om URLs te vormen, selecteer de optie van de Vertoning URLs in de lagere sectie van de leveringsmedewerker. Voor elke URL van het bericht kunt u kiezen of u reeksspatiëring wilt activeren.
 
 
-[ leer meer over het volgen mogelijkheden in Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages) {target="_blank"}
+[ leer meer over het volgen mogelijkheden in Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"} 

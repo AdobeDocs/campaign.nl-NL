@@ -35,7 +35,7 @@ Met de knop **[!UICONTROL Actions]** van de werkbalk hebt u toegang tot extra op
 
 * **[!UICONTROL Start]**
 
-  Deze actie laat u de uitvoering van een werkschema beginnen: een werkschema dat **** wordt geëindigd, **wordt uitgegeven** of **Gepauzeerde** verandert status in **Begonnen**. De workflow-engine handelt vervolgens de uitvoering van deze workflow af. Als de werkstroom is gepauzeerd, wordt deze hervat, anders wordt de werkstroom van het begin gestart en worden de initiële activiteiten geactiveerd.
+  Deze actie laat u de uitvoering van een werkschema beginnen: een werkschema dat **&#x200B;**&#x200B;wordt geëindigd, **wordt uitgegeven** of **Gepauzeerde** verandert status in **Begonnen**. De workflow-engine handelt vervolgens de uitvoering van deze workflow af. Als de werkstroom is gepauzeerd, wordt deze hervat, anders wordt de werkstroom van het begin gestart en worden de initiële activiteiten geactiveerd.
 
   Starten is een asynchroon proces: de aanvraag wordt opgeslagen en zo snel mogelijk verwerkt door een workflowserver.
 
@@ -64,7 +64,7 @@ Met de knop **[!UICONTROL Actions]** van de werkbalk hebt u toegang tot extra op
   Deze actie stopt en start de workflow opnieuw. Doorgaans kunt u sneller opnieuw opstarten. Het is ook handig om opnieuw starten te automatiseren wanneer het stoppen enige tijd in beslag neemt. Dit komt omdat de opdracht Stoppen niet beschikbaar is wanneer de workflow wordt gestopt.
 
   Merk op dat het **Begin** actie niet de variabelen van de werkschemainstantie in vergelijking met **Uitvoering** ontruimt, **Einde**, en **Begin** acties (de instantievariabelen die op actie van het Begin) ontruimen. Wanneer u een werkstroom opnieuw start, zijn instantievariabelen nog steeds beschikbaar voor gebruik met opgeslagen waarden. U kunt deze wissen door:
-   * Voer **Stoppen** en **3} acties van het Begin uit**.
+   * Voer **Stoppen** en **3&rbrace; acties van het Begin uit**.
    * Voeg onder javascript-code toe aan het einde van de workflowuitvoering:
 
      ```

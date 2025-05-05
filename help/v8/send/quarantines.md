@@ -73,7 +73,7 @@ De lijst met in quarantaine geplaatste adressen weergeven **voor het gehele plat
 >
 >Einde van jaar 1: (1&#42;0,33)/(1+0,5)=22%.
 >
-Einde van jaar 2: (1.22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
+>Einde van jaar 2: (1.22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
 
 Bovendien **[!UICONTROL Non-deliverables and bounces]** een ingebouwd rapport, beschikbaar via de **Rapporten** van deze homepage, toont informatie over de adressen in quarantaine, de types van aangetroffen fout, en een mislukkingsonderbreking door domein. U kunt gegevens filteren voor een specifieke levering, of dit rapport aanpassen zoals nodig.
 
@@ -104,7 +104,7 @@ Hun status verandert vervolgens in **[!UICONTROL Valid]**.
 
 >[!CAUTION]
 >
-Ontvangers met een adres in een **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** de status wordt nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
+>Ontvangers met een adres in een **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** de status wordt nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
 
 U kunt ook handmatig een adres uit de quarantainelijst verwijderen. Als u een adres uit quarantaine wilt verwijderen, kunt u:
 

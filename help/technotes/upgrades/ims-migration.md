@@ -218,7 +218,7 @@ De gebruiker van de Technische Rekening zal NIET in Adobe Campaign bestaan tot m
 
    ![](assets/do-not-localize/ims-updates-07.png)
 
-   Blader in het scherm Credentials omlaag om de **Technical Account Email **te zoeken en klik op de knop **Kopiëren** knop.
+   Blader in het scherm Credentials omlaag om de **Technical Account Email &#x200B;** te zoeken en klik op de knop **Kopiëren** knop.
 
    ![](assets/do-not-localize/ims-updates-08.png)
 

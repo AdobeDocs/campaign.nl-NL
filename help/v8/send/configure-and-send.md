@@ -42,7 +42,7 @@ Gebruik de optie **[!UICONTROL Test SMTP delivery]** om het verzenden via SMTP t
 >
 >* Deze optie mag niet worden ingesteld in mid-sourcing.
 >
->* Leer meer over SMTP serverconfiguratie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay) {target="_blank"}.
+>* Leer meer over SMTP serverconfiguratie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"} .
 
 ## Verzenden met meerdere golven {#sending-using-multiple-waves}
 

@@ -36,16 +36,16 @@ Leer hoe te om filters in [ tot stand te brengen en te beheren deze pagina ](../
 
 Het richten kan door een combinatie vragen in een grafische opeenvolging in een werkschema worden gecreeerd. U kunt een publiek maken dat afhankelijk van uw vereisten als doelgroep wordt gebruikt. Als u de werkstroomeditor wilt weergeven, klikt u op het tabblad **[!UICONTROL Targeting and workflows]** in het campagnedashboard.
 
-Leer hoe te om een publiek in een campagnewerkschema in [ te bouwen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html) {target="_blank"}.
+Leer hoe te om een publiek in een campagnewerkschema in [ te bouwen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"} .
 
 
 ## Actieve profielen {#active-profiles}
 
 Een actief profiel is een profiel waarmee de klant de afgelopen twaalf maanden via een willekeurig kanaal heeft geprobeerd te communiceren.
 
-Volgens uw contract worden al uw Campaign-instanties ingericht met een specifieke hoeveelheid actieve profielen die voor factureringsdoeleinden worden geteld. Raadpleeg het meest recente contract voor informatie over het aantal aangeschafte actieve profielen. Leer meer in [ het productbeschrijving van Adobe Campaign ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html) {target="_blank"}.
+Volgens uw contract worden al uw Campaign-instanties ingericht met een specifieke hoeveelheid actieve profielen die voor factureringsdoeleinden worden geteld. Raadpleeg het meest recente contract voor informatie over het aantal aangeschafte actieve profielen. Leer meer in [ het productbeschrijving van Adobe Campaign ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} .
 
-U kunt het aantal actieve profielen op uw instantie direct van het Controlebord van de Campagne controleren. Voor meer op dit, verwijs naar de [ documentatie van het Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html) {target="_blank"}.
+U kunt het aantal actieve profielen op uw instantie direct van het Controlebord van de Campagne controleren. Voor meer op dit, verwijs naar de [ documentatie van het Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"} .
 
 
 De volgende instructies en beperkingen zijn van toepassing:
@@ -58,5 +58,5 @@ De volgende instructies en beperkingen zijn van toepassing:
 
 Adobe Campaign is een krachtig instrument voor het verzamelen en verwerken van grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens. Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en gevoelige informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
 
-Leer hoe te om privacy en toestemming in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) te beheren {target="_blank"}.
+Leer hoe te om privacy en toestemming in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"} te beheren .
 

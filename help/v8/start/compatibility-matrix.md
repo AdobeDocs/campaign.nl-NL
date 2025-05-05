@@ -29,7 +29,7 @@ De volgende besturingssystemen en browsers zijn vereist voor het gebruik van de 
 ### Besturingssystemen {#op-systems}
 
 * **2019, 2016 van de Server van Microsoft Windows**
-* **11, 10 van de Vensters van 0} Microsoft**
+* **11, 10 van de Vensters van 0&rbrace; Microsoft**
 
 >[!NOTE]
 >De 32-bits versie van de clientconsole is afgekeurd sinds versie 8.5. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. Voor meer informatie over hoe te om uw systeem te bevorderen, verwijs naar dit [ technote ](../../technotes/upgrades/console.md).
@@ -38,7 +38,7 @@ De volgende besturingssystemen en browsers zijn vereist voor het gebruik van de 
 
 * **Microsoft Edge**
 
-* **Microsoft Edge WebView2**, recentste versie. Download het van [ de plaats van de Ontwikkelaar van Microsoft ](http://www.adobe.com/go/acc-ms-webview2-runtime-download) {target="_blank"}.
+* **Microsoft Edge WebView2**, recentste versie. Download het van [ de plaats van de Ontwikkelaar van Microsoft ](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"} .
 
 ## CRM-connectoren {#CRMconnectors}
 
@@ -67,7 +67,7 @@ Externe databases die compatibel zijn met de module Adobe Campaign Federated Dat
 
 Om [ dupberichten ](../send/push.md) met Campagne te verzenden, gebruik Adobe Experience Platform Mobile SDK door de uitbreiding van Adobe Campaign Classic in de Inzameling UI van Gegevens te vormen.
 
-De compatibele versies voor iOS en Android zijn gedetailleerd in de [ documentatie van Adobe Developer ](https://developer.adobe.com/client-sdks/home/) {target="_blank"}.
+De compatibele versies voor iOS en Android zijn gedetailleerd in de [ documentatie van Adobe Developer ](https://developer.adobe.com/client-sdks/home/){target="_blank"} .
 
 ## Webgebruikersinterface {#web-ui}
 
@@ -86,6 +86,6 @@ De volgende browsers zijn compatibel met Campagne voor de Toegang van het Web. L
 * [Updates van de campagneversie](upgrades.md)
 * [De versie van uw campagne controleren](upgrades.md#version)
 * [Campagne-clientconsole installeren](connect.md)
-* [ de versies van het Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) {target="_blank"}
+* [ de versies van het Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl){target="_blank"} 
 
-Om van nieuwe de oplossingsversies van Experience Cloud op de hoogte te worden gebracht, onderteken aan de [ Update van het Product van de Prioriteit van Adobe ](https://www.adobe.com/nl/subscription/priority-product-update.html) {target="_blank"}.
+Om van nieuwe de oplossingsversies van Experience Cloud op de hoogte te worden gebracht, onderteken aan de [ Update van het Product van de Prioriteit van Adobe ](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"} .

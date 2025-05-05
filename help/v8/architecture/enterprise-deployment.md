@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # [!DNL Campaign] Implementatie van FFDA {#gs-ac-ffda}
 
-Door het leveraging [[!DNL Snowflake] ](https://www.snowflake.com/) {target="_blank"}, een technologie van het wolkengegevensbestand, verbetert de plaatsing van de Volledige Federatieve Toegang van de Onderneming van Adobe Campaign (FFDA) dramatisch zijn schaal en snelheid, met de capaciteit om een significant aantal klantenprofielen, evenals veel hogere leveringspercentages en transacties per uur te beheren.
+Door het leveraging [[!DNL Snowflake] ](https://www.snowflake.com/){target="_blank"} , een technologie van het wolkengegevensbestand, verbetert de plaatsing van de Volledige Federatieve Toegang van de Onderneming van Adobe Campaign (FFDA) dramatisch zijn schaal en snelheid, met de capaciteit om een significant aantal klantenprofielen, evenals veel hogere leveringspercentages en transacties per uur te beheren.
 
 ## Voordelen {#ffda-benefits}
 
@@ -107,7 +107,7 @@ Een specifieke technische workflow behandelt de replicatie van tabellen die aan 
 
 De voorwerpen van de campagne v8 gebruiken nu a **Universally Unique identiteitskaart (UUID)**, die voor onbeperkte unieke waarden toestaat om gegevens te identificeren.
 
-Deze id is gebaseerd op een tekenreeks en is niet opeenvolgend. De primaire sleutel is geen numerieke waarde in Campagne v8, en u moet **auto** gebruiken en **automatische 3} attributen in uw schema&#39;s.**
+Deze id is gebaseerd op een tekenreeks en is niet opeenvolgend. De primaire sleutel is geen numerieke waarde in Campagne v8, en u moet **auto** gebruiken en **automatische 3&rbrace; attributen in uw schema&#39;s.**
 
 In Campaign Classic v7 en vroegere versies, wordt de eenheid van een sleutel binnen een schema (d.w.z. lijst) behandeld op het niveau van de gegevensbestandmotor. Meer in het algemeen, omvatten de Klassieke motoren van het Gegevensbestand zoals PostSQL, Oracle, of SQL Server een inheems mechanisme om het opnemen van gedupliceerde rijen te verhinderen die op een kolom of een reeks kolommen via primaire sleutels en/of unieke indexen worden gebaseerd. De gedupliceerde identiteitskaart bestaat niet in deze versies wanneer de juiste index en de primaire sleutels op het niveau van het Gegevensbestand worden geplaatst.
 

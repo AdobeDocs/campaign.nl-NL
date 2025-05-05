@@ -68,7 +68,7 @@ Volg de onderstaande stappen om bijvoorbeeld een productprofiel voor &#39;reviso
 #### De operatorgroep maken in Campagne{#create-op-group}
 
 1. Verbinding maken met Campagne, Verkenner openen en bladeren naar **[!UICONTROL Administration > Access management > Operator groups]**.
-1. Klikken **[!UICONTROL New]**en definieert u de naam van de operatorgroep en stelt u de interne naam ervan in (&#39;controleurs&#39;).
+1. Klikken **[!UICONTROL New]**&#x200B;en definieert u de naam van de operatorgroep en stelt u de interne naam ervan in (&#39;controleurs&#39;).
    ![](assets/new-op-group.png)
 1. Definieer de bijbehorende machtigingen door benoemde rechten te selecteren. Benoemde rechten worden gedetailleerd in [deze sectie](#use-named-rights)
 1. Sla de nieuwe operatorgroep op.

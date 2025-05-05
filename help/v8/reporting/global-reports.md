@@ -49,9 +49,9 @@ U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen: een w
 
 >[!NOTE]
 >
->U kunt het aantal leveringen ook controleren die per uur worden verzonden gebruikend het [ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html) {target="_blank"}.
+>U kunt het aantal leveringen ook controleren die per uur worden verzonden gebruikend het [ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"} .
 >
->Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerdertoegang tot een gebruiker te verlenen zijn gedetailleerd in [ deze pagina ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel) {target="_blank"}.
+>Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerdertoegang tot een gebruiker te verlenen zijn gedetailleerd in [ deze pagina ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel){target="_blank"} .
 >
 
 ## Gebruikersactiviteiten {#user-activities}

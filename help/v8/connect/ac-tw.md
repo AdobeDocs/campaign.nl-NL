@@ -36,16 +36,16 @@ Als u Adobe Campaign wilt configureren om tweets te posten naar uw X-accounts, k
 
 ## X-ontwikkelingsaccount {#dev-account}
 
-Om met deze integratie te beginnen, moet u omhoog voor a [ X ontwikkelaarsrekening ](https://developer.twitter.com) {target="_blank"} ondertekenen.
+Om met deze integratie te beginnen, moet u omhoog voor a [ X ontwikkelaarsrekening ](https://developer.twitter.com){target="_blank"}  ondertekenen.
 
-De campagne gebruikt versie 1.1 van X API. Om het te gebruiken, moet u voor Verhoogde toegang via het Portaal van de Ontwikkelaar aanvragen. Leer meer over X Verhoogde Toegang [ in deze pagina ](https://developer.twitter.com/en/portal/products/elevated) {target="_blank"}.
+De campagne gebruikt versie 1.1 van X API. Om het te gebruiken, moet u voor Verhoogde toegang via het Portaal van de Ontwikkelaar aanvragen. Leer meer over X Verhoogde Toegang [ in deze pagina ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"} .
 
 ## Een toepassing maken op X {#create-an-app-on-twitter}
 
 Zodra u met Verhoogde toegang bent goedgekeurd, creeer een X toepassing om Adobe Campaign toe te laten om posten op uw rekening van X tot stand te brengen. Hiervoor voert u de volgende stappen uit:
 
 1. Meld u aan bij uw X-account.
-1. Verbind met [ X ontwikkelaarsportaal ](https://developer.twitter.com/en/apps) {target="_blank"}.
+1. Verbind met [ X ontwikkelaarsportaal ](https://developer.twitter.com/en/apps){target="_blank"} .
 1. Selecteer **creeer een app**.
 1. Laat X de medewerker u door het proces begeleiden.
 1. Om Adobe Campaign toe te staan om posten op uw rekening tot stand te brengen, geef aan de **toestemmingen van de Toepassing** van de de authentificatieset van de Gebruiker van uw app uit. Selecteer **Gelezen, schrijven, en Directe Berichten**.
@@ -95,9 +95,9 @@ Als u instellingen wilt invoeren, hebt u toegang tot zowel de Adobe Campaign-cli
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Synchronize subscriptions]** optie wordt toegelaten door gebrek: deze optie herstelt automatisch de lijst van uw volgers van X zodat u hen directe berichten ](../send/twitter.md#direct-tw-messages) kunt [ verzenden. De synchronisatie wordt uitgevoerd door a [ specifiek technisch werkschema ](#synchro-tw-accounts).
+   >De **[!UICONTROL Synchronize subscriptions]** optie wordt toegelaten door gebrek: deze optie herstelt automatisch de lijst van uw volgers van X zodat u hen directe berichten [&#128279;](../send/twitter.md#direct-tw-messages) kunt  verzenden. De synchronisatie wordt uitgevoerd door a [ specifiek technisch werkschema ](#synchro-tw-accounts).
 
-1. Van uw app van X, kopieer de inhoud van de **Sleutel API** en **[API Zeer belangrijk Geheime]** gebieden en kleef hen in **[!UICONTROL Consumer key]** en **[!UICONTROL Consumer secret]** gebieden van uw 2} Twitter **dienst van de Campagne**.
+1. Van uw app van X, kopieer de inhoud van de **Sleutel API** en **[API Zeer belangrijk Geheime]** gebieden en kleef hen in **[!UICONTROL Consumer key]** en **[!UICONTROL Consumer secret]** gebieden van uw 2&rbrace; Twitter **dienst van de Campagne**.
 
 1. Van uw app van X, kopieer de inhoud van de **Token van de Toegang** en **Symbolische Geheime van de Toegang** gebieden en kleef hen in **[!UICONTROL Access token]** en **[!UICONTROL Access token secret]** gebieden van uw Campagne **Twitter** dienst.
 

@@ -36,7 +36,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [ in deze pagina ](campaign-ui.md#ac-web-ui) toegang te hebben.
 
-   Leer meer in de [ gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home) {target="_blank"}.
+   Leer meer in de [ gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"} .
 
 1. **kan Campagne v8 op een op-gebouw of hybride milieu worden geïnstalleerd?**
 
@@ -46,15 +46,15 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    E-maillevering, een essentieel onderdeel van het succes van het marketingprogramma van elke afzender, wordt gekenmerkt door voortdurend veranderende criteria en regels. Voor een effectieve navigatie in deze digitale wereld is een regelmatige afstemming van uw e-mailstrategie vereist, waarbij rekening wordt gehouden met belangrijke ontwikkelingen op het gebied van de leverbaarheid, zodat uw publiek het beste kan bereiken.
 
-   Verwijs naar deze gids om [ Aanbevolen Praktijken van de Levering te leren ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl) {target="_blank"}
+   Verwijs naar deze gids om [ Aanbevolen Praktijken van de Levering te leren ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"} 
 
-   Leer hoe te om leverbaarheid in Campagne [ in deze gids uit te voeren ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html) {target="_blank"}
+   Leer hoe te om leverbaarheid in Campagne [ in deze gids uit te voeren ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"} 
 
 1. **Hoe kan ik ervoor zorgen mijn levering zonder fouten wordt verzonden?**
 
    Adobe Campaign wordt geleverd met een reeks dashboards en tools om uw e-mailleveringen te controleren.
 
-   [ las uit Campaign Classic v7 documentatie om ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) {target="_blank"} te leren hoe te ervoor zorgen uw berichten worden verzonden, de uitvoering controleren en actie in werking stellen als een fout voorkomt.
+   [ las uit Campaign Classic v7 documentatie om ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"}  te leren hoe te ervoor zorgen uw berichten worden verzonden, de uitvoering controleren en actie in werking stellen als een fout voorkomt.
 
 1. **Kan ik werkschemauitvoering controleren?**
 
@@ -84,19 +84,19 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    U kunt het installatieprogramma en de cliëntconsole van het Centrum van de Download van de Adobe krijgen.
 
-   Als Admin gebruiker, heb toegang tot Adobe [ Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} om Adobe Campaign te downloaden.
+   Als Admin gebruiker, heb toegang tot Adobe [ Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}  om Adobe Campaign te downloaden.
 
-   Leer meer over het Centrum van de Distributie [ in deze pagina ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html) {target="_blank"}.
+   Leer meer over het Centrum van de Distributie [ in deze pagina ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"} .
 
 1. **kan ik met de deskundigen van de Campagne verbinden?**
 
-   Deelnemen aan de Campagne-gemeenschap: zoeken naar antwoorden in bestaande vragen of de experts raadplegen. [ sluit zich aan bij het gesprek ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community) {target="_blank"}
+   Deelnemen aan de Campagne-gemeenschap: zoeken naar antwoorden in bestaande vragen of de experts raadplegen. [ sluit zich aan bij het gesprek ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} 
 
 
 1. **Hoe kan ik een kwestie registreren?**
 
    U kunt een ticket maken om contact op te nemen met de Adobe-klantenondersteuning voor problemen die u ondervindt in Adobe-producten. In de Adobe Admin Console kunt u chatten met de Adobe-klantenondersteuning om uw problemen op te lossen.
 
-   Om een kwestie te registreren of een praatjezitting in dat nieuwe systeem te beginnen, verbind met [ Adobe Admin Console ](https://adminConsole.adobe.com/overview) {target="_blank"}.
+   Om een kwestie te registreren of een praatjezitting in dat nieuwe systeem te beginnen, verbind met [ Adobe Admin Console ](https://adminConsole.adobe.com/overview){target="_blank"} .
 
-   Dit systeem vereist individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u zich niet kunt aanmelden met uw Adobe ID, kunt u om toegang vragen via de Experience League. Het klantenserviceteam helpt u dan zo snel mogelijk. [ leer meer ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) {target="_blank"}
+   Dit systeem vereist individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u zich niet kunt aanmelden met uw Adobe ID, kunt u om toegang vragen via de Experience League. Het klantenserviceteam helpt u dan zo snel mogelijk. [ leer meer ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 

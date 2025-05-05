@@ -34,7 +34,7 @@ De leveringssjablonen worden opgeslagen in de map **[!UICONTROL Resources > Temp
 
 1. Adobe Campaign **ingebouwde** leveringsmalplaatjes - ingebouwde malplaatjes zijn beschikbaar voor elk kanaal. Zij mogen niet worden gewijzigd of geschrapt. Zij omvatten een basisconfiguratie voor elk leveringskanaal. Als Beheerder, kunt u standaardwaarden plaatsen, of bepaalde functies beperken tot eind - gebruikers, zoals het wijzigen van de volgende parameters, afzender e-mailadressen, en meer. Ingebouwde sjablonen worden vet weergegeven in de lijst met sjablonen.
 
-1. **leveringsmalplaatjes van de Douane van 0} {- als Beheerder van Adobe Campaign, kunt u nieuwe leveringsmalplaatjes tot stand brengen.** De beste manier is om een ingebouwde sjabloon te dupliceren en bij te werken in plaats van een geheel nieuwe sjabloon te maken. U kunt bijvoorbeeld een sjabloon voor e-maillevering configureren. Wanneer gebruikers een bezorging maken op basis van deze sjabloon, hoeven ze alleen de tekst of HTML-inhoud in te voeren. Alle andere instellingen zijn al gedefinieerd.
+1. **leveringsmalplaatjes van de Douane van 0&rbrace; &lbrace;- als Beheerder van Adobe Campaign, kunt u nieuwe leveringsmalplaatjes tot stand brengen.** De beste manier is om een ingebouwde sjabloon te dupliceren en bij te werken in plaats van een geheel nieuwe sjabloon te maken. U kunt bijvoorbeeld een sjabloon voor e-maillevering configureren. Wanneer gebruikers een bezorging maken op basis van deze sjabloon, hoeven ze alleen de tekst of HTML-inhoud in te voeren. Alle andere instellingen zijn al gedefinieerd.
 
 >[!NOTE]
 >
@@ -155,4 +155,4 @@ In deze video wordt uitgelegd hoe u een sjabloon voor ad-hoce-maillevering kunt 
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-De extra Campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html) {target="_blank"}.
+De extra Campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"} .

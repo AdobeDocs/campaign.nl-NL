@@ -33,7 +33,7 @@ Maak en voer een generieke importtaak voor gegevens uit om contactpersonen in de
 
 ![](assets/new-import.png)
 
-Leer hoe te om unitaire de invoerbanen in werking te stellen om uw gegevensbestand in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html) te voeren {target="_blank"}.
+Leer hoe te om unitaire de invoerbanen in werking te stellen om uw gegevensbestand in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target="_blank"} te voeren .
 
 ## Profielen verzamelen via webtoepassingen
 
@@ -41,7 +41,7 @@ Met Campagne kunt u webformulieren maken en profielgegevens eenvoudig en effici√
 
 ![](assets/web-form-page.png)
 
-Leer hoe te om Webvormen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html) tot stand te brengen {target="_blank"}.
+Leer hoe te om Webvormen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"} tot stand te brengen .
 
 **Verwante onderwerpen**
 

@@ -16,7 +16,7 @@ ht-degree: 65%
 
 U kunt Adobe Analytics configureren om Campagne en Analytics te integreren.
 
-Deze integratie staat Adobe Campaign en Adobe Analytics toe om door de **toe:voegen-op de schakelaars van de Analyse van het Web in wisselwerking te staan 0}.** Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
+Deze integratie staat Adobe Campaign en Adobe Analytics toe om door de **toe:voegen-op de schakelaars van de Analyse van het Web in wisselwerking te staan 0&rbrace;.** Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Voer de onderstaande stappen uit om uw **[!UICONTROL Report suite]** in [!DNL Ad
 
 1. Klik op de pagina **[!UICONTROL Report suite manager]** op **[!UICONTROL Create new]** en vervolgens op **[!UICONTROL Report suite]**.
 
-   Voor de gedetailleerde procedure op **[!UICONTROL Report suite]** verwezenlijking, verwijs naar [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites) {target="_blank"}.
+   Voor de gedetailleerde procedure op **[!UICONTROL Report suite]** verwezenlijking, verwijs naar [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"} .
 
    ![](assets/analytics_connnector_3.png)
 
@@ -85,7 +85,7 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
 
 1. Klik op **[!UICONTROL Add new]** om de id&#39;s te maken die nodig zijn voor het meten van de impact van de e-mailcampagne, dat wil zeggen de interne naam van de campagne (cid) en de tabel-id van de iNmsBroadlog (bid).
 
-   Leren hoe te om **[!UICONTROL Conversion variables]** uit te geven, verwijs naar deze [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools) {target="_blank"}.
+   Leren hoe te om **[!UICONTROL Conversion variables]** uit te geven, verwijs naar deze [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"} .
 
    ![](assets/analytics_connnector_6.png)
 
@@ -122,7 +122,7 @@ U moet nu uw **[!UICONTROL Web Analytics]** externe account in Adobe Campaign co
 
 Als een van uw **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** of **[!UICONTROL Success events]** niet zichtbaar is tijdens het configureren van uw externe account, betekent dit dat u geen toestemming hebt voor deze nieuwe gemaakte component in het **[!UICONTROL Product profile]** dat aan de gebruiker is gekoppeld.
 
-Voor meer informatie over dit, verwijs naar de [ profielen van het Product voor Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins) {target="_blank"} pagina.
+Voor meer informatie over dit, verwijs naar de [ profielen van het Product voor Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"}  pagina.
 
 1. Blader naar de map **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** van de Adobe Campaign Explorer-boomstructuur en klik op **[!UICONTROL New]** .
 

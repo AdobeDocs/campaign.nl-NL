@@ -16,9 +16,9 @@ ht-degree: 0%
 
 De LIJN is een toepassing voor vrij Onmiddellijk overseinen, stem en videovraag, beschikbaar op alle mobiele apparaten en op PC. U kunt Adobe Campaign gebruiken om LIJNberichten te verzenden.
 
-Verwijs naar dit [ voorbeeld van begin tot eind ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message) {target="_blank"} in Campaign Classic v7 documentatie om uw eerste levering van de LIJN tot stand te brengen en te verzenden.
+Verwijs naar dit [ voorbeeld van begin tot eind ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message){target="_blank"}  in Campaign Classic v7 documentatie om uw eerste levering van de LIJN tot stand te brengen en te verzenden.
 
 ![](../assets/do-not-localize/LINE-msg.jpeg){width="50%" align="left"}
 
-Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html) {target="_blank"}.
+Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html){target="_blank"} .
 

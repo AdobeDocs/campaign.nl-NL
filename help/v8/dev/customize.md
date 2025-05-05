@@ -34,7 +34,7 @@ Er zijn twee tabeluitbreidingsmodi beschikbaar:
 
 * Door de interface, door het **Nieuwe gebied** medewerker te gebruiken
 
-  Leer hoe te om een nieuw gebied in Campagne in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic) snel toe te voegen {target="_blank"}
+  Leer hoe te om een nieuw gebied in Campagne in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"} snel toe te voegen 
 
 * Programmaticaal, door het schema uit te breiden. Leer hoe te om een bestaand schema in [ uit te breiden deze sectie ](../dev/extend-schema.md).
 
@@ -44,9 +44,9 @@ Als u een geheel nieuw type gegevens wilt toevoegen dat niet in Adobe Campaign b
 
 **Verwante onderwerpen**
 
-Voorbeeld van schemageditie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic) {target="_blank"}
+Voorbeeld van schemageditie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"} 
 
-Het Geval van het gebruik: verbind een gebied met een bestaande verwijzingstabel in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link) {target="_blank"}
+Het Geval van het gebruik: verbind een gebied met een bestaande verwijzingstabel in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"} 
 
 
 ## Invoerformulieren wijzigen
@@ -61,7 +61,7 @@ De interface van Adobe Campaign gebruikt vele toepassingen van het Web om, tot o
 
 De ingebouwde toepassingen van het Web worden opgeslagen in het **Beleid > Configuratie > de toepassingen van het Web** omslag van de Ontdekkingsreiziger.
 
-Leer hoe te om een overzichtspagina in Campagne in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application) tot stand te brengen {target="_blank"}
+Leer hoe te om een overzichtspagina in Campagne in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application){target="_blank"} tot stand te brengen 
 
 
 ## Lijsten aanpassen en filters maken {#gs-lists-and-filters}
