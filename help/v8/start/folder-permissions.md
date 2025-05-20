@@ -5,9 +5,9 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: 0513b9f65e9431f5207b384a0e2d8c5aeb8e209f
+source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -18,31 +18,37 @@ ht-degree: 0%
 
 De toestemmingen van het gebruik op omslagen om toegang tot de gegevens van de Campagne te organiseren en te controleren.
 
-Mapbeheer wordt gedetailleerd in [deze pagina](../audiences/folders-and-views.md).
+Het beheer van de omslag is gedetailleerd in [ deze pagina ](../audiences/folders-and-views.md).
 
 Voer de volgende stappen uit als u machtigingen voor een specifieke map Campagne wilt bewerken:
 
-1. Klik met de rechtermuisknop op de map en selecteer **[!UICONTROL Properties...]**.
-1. Bladeren naar de **[!UICONTROL Security]** om machtigingen voor deze map weer te geven.
+1. Klik met de rechtermuisknop op de map en selecteer **[!UICONTROL Properties...]** .
+1. Blader naar het tabblad **[!UICONTROL Security]** om de machtigingen voor deze map weer te geven.
 
    ![](assets/folder-permissions.png)
 
-* Naar **een groep of een operator autoriseren** klikt u op de knop **[!UICONTROL Add]** en selecteert u de groep of operator om machtigingen voor deze map toe te wijzen.
-* Naar **een groep of een exploitant verbieden**, klikt u op **[!UICONTROL Delete]** en selecteert u de groep of operator om de autorisatie voor deze map te verwijderen.
-* Naar **de rechten selecteren die aan een groep of een exploitant zijn toegewezen** selecteert u de groep of operator, selecteert u de toegangsrechten die u wilt verlenen en deselecteert u de andere rechten.
+* Om **een groep of een exploitant** goed te keuren, klik de **[!UICONTROL Add]** knoop en selecteer de groep of de exploitant om toestemmingen voor deze omslag toe te wijzen.
+* Om **een groep of een exploitant** te verbieden, klik **[!UICONTROL Delete]** en selecteer de groep of de exploitant om vergunning voor deze omslag te verwijderen.
+* Om **te selecteren de rechten die aan een groep of een exploitant** worden toegewezen, de groep of de exploitant selecteren, de toegangsrechten selecteren u, en anderen willen verlenen unselect.
+
+>[!NOTE]
+>
+>U mag geen object maken waarvoor u niet ten minste één map met schrijfrechten hebt.
+>
+>U hoeft geen beheerder te zijn om fragmenten te maken, maar u moet schrijfrechten hebben voor ten minste één map voor visueel fragment &quot;Inhoud&quot;. Anders kunt u geen visueel fragment maken.
 
 ## Machtigingen voor doorgeven {#propagate-permissions}
 
-Om toestemmingen en toegangsrechten te verspreiden, selecteer **[!UICONTROL Propagate]** in de mapeigenschappen.
+Als u machtigingen en toegangsrechten wilt doorgeven, selecteert u de optie **[!UICONTROL Propagate]** in de mapeigenschappen.
 
 De autorisaties die in dit venster worden gedefinieerd, worden vervolgens toegepast op alle submappen van het huidige knooppunt. U kunt deze machtigingen altijd voor elk van de submappen te veel laden.
 
 >[!NOTE]
 >
->De optie Ongedaan maken **[!UICONTROL Propagate]** voor een map wordt deze niet gewist voor de submappen: u moet deze expliciet wissen voor elk van de submappen.
+>Als u de optie **[!UICONTROL Propagate]** voor een map uitschakelt, wordt deze niet gewist voor de submappen: u moet deze expliciet wissen voor elk van de submappen.
 
 ## Toegang verlenen aan alle marktdeelnemers {#grant-access-to-all-operators}
 
-In de **[!UICONTROL Security]** selecteert u de **[!UICONTROL System folder]** toegang verlenen tot alle operatoren, ongeacht hun machtigingen.
+Selecteer op het tabblad **[!UICONTROL Security]** de optie **[!UICONTROL System folder]** om toegang tot alle operatoren toe te staan, ongeacht hun machtigingen.
 
 Als deze optie wordt ontruimd, moet u de exploitant (of hun groep) terug aan de lijst van toestemmingen uitdrukkelijk toevoegen opdat zij toegang hebben.
