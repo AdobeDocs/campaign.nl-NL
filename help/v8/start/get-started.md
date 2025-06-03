@@ -5,7 +5,8 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 20%
@@ -18,13 +19,13 @@ Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klant
 
 Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor diverse marketing kanalen zoals e-mail, dupberichten, SMS, en directe post wordt gebouwd. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma&#39;s met een centrale focus op batchgeoriënteerde reizen. Het komt ook met een scalable Real-Time overseinenserver wordt geparseerd die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor mededelingen zoals wachtwoordterugstellen, orderbevestiging, e-kwitantie en veel meer worden gebaseerd.
 
-Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Het is beschikbaar als **Beheerde Cloud Service** die diensten combineert met proactief toezicht en tijdige aanpassing. Meer informatie over door campagne beheerde Cloud Servicen [op deze pagina](whats-new.md#acms-desc).
+Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Het is beschikbaar als a **Beheerde Cloud Service** die de diensten met pro-actief toezicht en het geschikte veranderen combineert. Leer meer over Campagne Beheerde Diensten van de Wolk [ in deze pagina ](whats-new.md#acms-desc).
 
 Campagne gebruiken om:
 
-* **Drive** personalisatie en betrokkenheid via één toegankelijke weergave van de klant
-* **Integreren** e-mail, mobiel, online en offline kanalen aan de reis van de klant
-* **Automatisch** de levering van zinvolle en tijdige berichten en aanbiedingen
+* **verpersoonlijking van de Aandrijving** en overeenkomst door één enkele toegankelijke mening van de klant
+* **integreer** e-mail, mobiele, online en off-line kanalen in de klantenreis
+* **automatiseer** de levering van zinvolle en geschikte berichten en aanbiedingen
 
 ![](assets/do-not-localize/ac-capabilities.png)
 
@@ -34,9 +35,9 @@ Profielen worden gecentraliseerd in een krachtige cloud-database. Er zijn vele m
 
 In Adobe Campaign zijn ontvangers de standaardprofielen voor het verzenden van leveringen (e-mails, sms’en, enzovoort). Dankzij de ontvangerdata die in de database worden opgeslagen, kunt u het doel filteren dat een bepaalde levering zal ontvangen en personalisatiedata in uw leveringscontent toevoegen. De database bevat andere typen profielen. Ze zijn ontworpen voor verschillende applicaties. Seed-profielen worden bijvoorbeeld gemaakt om de leveringen te testen voordat ze naar het uiteindelijke doel worden verzonden.
 
-De grondbeginselen van profielbeheer worden uitgelegd in [deze sectie](audiences.md).
+De het beheersgrondbeginselen van het profiel worden verklaard in [ deze sectie ](audiences.md).
 
-Leer hoe u profielen aan Campagne kunt toevoegen in [deze sectie](import.md).
+Leer hoe te om profielen aan Campagne in [ toe te voegen deze sectie ](import.md).
 
 ## Gerichte segmentatie {#targeted-segmentation}
 
@@ -44,13 +45,13 @@ Adobe Campaign beschikt over krachtige, gebruiksvriendelijke segmentatie- en tar
 
 De geavanceerde functionaliteit voor data management breidt de mogelijkheden voor dataverwerking uit. Het vereenvoudigt en optimaliseert het het richten proces door gegevens op te nemen niet die in datamart worden gemodelleerd.
 
-Meer informatie over segmentering en publiekscreatie in [deze sectie](audiences.md).
+Leer meer over segmentatie en publieksverwezenlijking in [ deze sectie ](audiences.md).
 
 ## Kanaaloverschrijdende campagneorchestratie {#cross-channel-campaign-orchestration}
 
 Met Adobe Campaign kunt u doelgerichte en gepersonaliseerde campagnes ontwerpen en organiseren op meerdere kanalen: e-mail, direct mail, sms, pushmelding. Één enkele interface voorziet u van alle functies die worden vereist om, al uw campagnes en mededelingen te plannen, te organiseren, te vormen, te personaliseren, uit te voeren en te meten.
 
-Leer hoe u in [deze sectie](campaigns.md).
+Leer hoe te om een campagne in [ te ontwerpen, te plannen en uit te voeren deze sectie ](campaigns.md).
 
 ## Workflows {#wf-gsv8}
 
@@ -65,7 +66,7 @@ Workflows kunnen in verschillende contexten worden gebruikt, zoals:
 * Gegevens importeren in de Campagne-database.
 * Technische processen zoals het opschonen van databases, het herstellen van trackinggegevens, enz.
 
-Leer hoe u workflows ontwerpt en uitvoert in [deze sectie](../config/workflows.md).
+Leer hoe te om werkschema&#39;s in [ te ontwerpen en uit te voeren deze sectie ](../config/workflows.md).
 
 ## Rapportage en analyse {#analysis-and-reporting}
 
@@ -76,21 +77,21 @@ Naast krachtige, out-of-the box rapporteringsmalplaatjes, kunt Adobe Campaign u 
 Met de functie voor campagnerapportage kunt u dynamische rapporten maken. U kunt variabelen voor slepen en neerzetten gebruiken om uw rapporten aan te passen en het succes van uw campagnes te analyseren. Afhankelijk van de complexiteit van uw query&#39;s en berekeningen, kunnen de gegevens worden samengevoegd in een lijstweergave of worden geopend in een indeling waarmee het eenvoudig is om marketinganalytische rapporten te genereren.
 
 
-Meer informatie over rapporten en traceringsmogelijkheden vindt u in [deze sectie](../reporting/gs-reporting.md).
+Leer meer over rapport en het volgen mogelijkheden in [ deze sectie ](../reporting/gs-reporting.md).
 
 ## Adobe Experience Cloud-integratie {#adobe-experience-cloud-integrations}
 
 U kunt de leveringsfuncties en de geavanceerde functies voor campagnebeheer van Adobe Campaign combineren met een reeks oplossingen die u helpen uw gebruikerservaring aan te passen: bijvoorbeeld Adobe Experience Manager, Adobe Analytics, Adobe Target of Adobe Experience Cloud.
 
-Leer hoe u met Adobe-services en -oplossingen kunt integreren in [deze sectie](../connect/integration.md).
+Leer hoe te met de diensten en de oplossingen van Adobe in [ deze sectie ](../connect/integration.md) te integreren.
 
 ## Meer informatie over de mogelijkheden van campagnes {#core-capabilities-and-add-ons}
 
-Adobe Campaign biedt een aantal mogelijkheden om u te helpen de functionaliteit voor marketing van gesprekken te implementeren en te optimaliseren, afhankelijk van uw behoeften en architectuur. Sommige zijn kernmogelijkheden en sommige hangen van de installatie van een pakket op uw configuratie af. Hier vindt u een gedetailleerde productbeschrijving: [Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
+Adobe Campaign biedt een aantal mogelijkheden om u te helpen de functionaliteit voor marketing van gesprekken te implementeren en te optimaliseren, afhankelijk van uw behoeften en architectuur. Sommige zijn kernmogelijkheden en sommige hangen van de installatie van een pakket op uw configuratie af. Een gedetailleerde productbeschrijving is hier beschikbaar: [ Adobe Campaign v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
-Hebt u al vertrouwd met Campaign Classic? Leer belangrijke verschillen tussen Campaign Classic en Campagne v8 in [deze pagina](v7-to-v8.md).
+Is Campaign Classic al bekend? Leer zeer belangrijke verschillen tussen Campaign Classic en Campagne v8 in [ deze pagina ](v7-to-v8.md).
 
-**Zie ook**
+**zie ook**
 
 * [Campagne, werkruimte](campaign-ui.md)
 * [Compatibiliteitsmatrix voor campagne v8](compatibility-matrix.md)

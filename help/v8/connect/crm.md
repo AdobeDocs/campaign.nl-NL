@@ -5,10 +5,11 @@ feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin, User
 level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -20,7 +21,7 @@ Deze schakelaars laten snelle en gemakkelijke gegevensintegratie toe: Adobe Camp
 
 Belangrijkste voordelen zijn:
 
-* Consistent overseinen tussen verkoop &amp; marketing: de integratie van Adobe Campaign met uw CRM verleent zowel systeemtoegang tot klanteninzicht als e-mailmarketing geschiedenis die alle berichten aan de klant toestaat om het zelfde verenigbare overseinen te delen.
+* Consistent overseinen tussen verkoop &amp; marketing: de integratie van Adobe Campaign met uw CRM geeft zowel systeemtoegang tot klant insight als e-mailmarketing geschiedenis die alle berichten aan de klant toestaat om het zelfde verenigbare overseinen te delen.
 
 * Holistische weergave van alle perspectiefgegevens en klantgegevens: door Adobe Campaign te integreren met uw CRM, is het mogelijk om e-mailmarketinggeschiedenis te delen en te openen voor elk contact vanuit het CRM-systeem.
 
@@ -29,11 +30,11 @@ Belangrijkste voordelen zijn:
 
 >[!NOTE]
 >
->Deze functie is beschikbaar in Adobe Campaign via de **CRM-connectors** toegewezen pakket.
+>Deze eigenschap is beschikbaar in Adobe Campaign door het **specifieke pakket 1} van de schakelaars van CRM**.
 
 ## Compatibele systemen {#compatible-crm-systems-and-limitations}
 
-Ondersteunde CRM&#39;s en versies worden in de campagne gedetailleerd weergegeven [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
+De gesteunde CRM en de versies zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [ ](../start/compatibility-matrix.md).
 
 >[!CAUTION]
 >
@@ -41,8 +42,8 @@ Ondersteunde CRM&#39;s en versies worden in de campagne gedetailleerd weergegeve
 
 ## Implementatiestappen {#crm-implementation-steps}
 
-Leer geleidelijke procedure om Campagne en de Dynamica van Microsoft in te verbinden [deze pagina](ac-ms-dyn.md).
+Leer geleidelijke procedure om Campagne en Microsoft Dynamics in [ te verbinden deze pagina ](ac-ms-dyn.md).
 
-Leer geleidelijke procedure om Campagne en Salesforce.com te verbinden in [deze pagina](ac-sfdc.md).
+Leer geleidelijke procedure om Campagne en Salesforce.com in [ te verbinden deze pagina ](ac-sfdc.md).
 
-Gegevenssynchronisatie tussen Adobe Campaign en de CRM wordt uitgevoerd via een specifieke workflowactiviteit. Bouw uw werkschema&#39;s om synchronisatie tussen Campagne en uw CRM te automatiseren. U kunt een werkschema tot stand brengen dat de contacten via de Dynamica van Microsoft invoert, hen synchroniseert met de bestaande gegevens van Adobe Campaign, dubbele contacten schrapt, en dan het gegevensbestand van Adobe Campaign bijwerkt. Meer informatie in [deze pagina](crm-data-sync.md).
+Gegevenssynchronisatie tussen Adobe Campaign en de CRM wordt uitgevoerd via een specifieke workflowactiviteit. Bouw uw werkschema&#39;s om synchronisatie tussen Campagne en uw CRM te automatiseren. U kunt een werkschema tot stand brengen dat de contacten via Microsoft Dynamics invoert, hen synchroniseert met de bestaande gegevens van Adobe Campaign, dubbele contacten schrapt, en dan het gegevensbestand van Adobe Campaign bijwerkt. Meer informatie vindt u [op deze pagina](crm-data-sync.md).

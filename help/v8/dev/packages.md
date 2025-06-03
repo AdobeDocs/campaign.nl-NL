@@ -4,7 +4,9 @@ description: Werken met gegevenspakketten
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
+exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '1941'
 ht-degree: 0%
@@ -19,23 +21,23 @@ Met gegevenspakketten kunt u aangepaste instellingen en gegevens van uw platform
 
 In de gegevenspakketten van de Campagne, worden de entiteiten van het gegevensbestand van Adobe Campaign getoond in de dossiers van XML. In een pakket wordt elke entiteit vertegenwoordigd met al haar gegevens.
 
-Het beginsel van **gegevenspakketten** moet een gegevensconfiguratie exporteren en integreren in een andere Adobe Campaign-omgeving. Leer hoe u een consistente set gegevenspakketten in deze [sectie](#data-package-best-practices).
+Het beginsel van **gegevenspakketten** moet een gegevensconfiguratie uitvoeren en het in een ander milieu van Adobe Campaign integreren. Leer hoe te om een verenigbare reeks gegevenspakketten in deze [ sectie ](#data-package-best-practices) te handhaven.
 
 ### Typen pakketten {#types-of-packages}
 
 U kunt in Adobe Campaign met drie typen pakketten werken: gebruikerspakketten, platformpakketten en beheerpakketten.
 
-* A **gebruikerspakket** Hiermee selecteert u de lijst met entiteiten die u wilt exporteren. Dit type pakket beheert afhankelijkheden en controleert fouten.
-* A **platformpakket** bevat alle toegevoegde technische bronnen (niet-standaard): schema&#39;s, JavaScript-code, enz.
-* An **beheerpakket** bevat alle toegevoegde sjablonen en bedrijfsobjecten (niet-standaard): sjablonen, bibliotheken, enz.
+* A **gebruikerspakket** laat u de lijst van uit te voeren entiteiten selecteren. Dit type pakket beheert afhankelijkheden en controleert fouten.
+* A **platformpakket** omvat alle toegevoegde technische middelen (niet standaard): schema&#39;s, de code van JavaScript, enz.
+* Een **admin pakket** omvat alle toegevoegde malplaatjes en bedrijfsvoorwerpen (niet standaard): malplaatjes, bibliotheken, enz.
 
 >[!CAUTION]
 >
->De **platform** en **admin** pakketten bevatten een vooraf gedefinieerde lijst met te exporteren entiteiten. Elke entiteit is verbonden met het filtreren voorwaarden die u toelaten om de uit-van-de-doosmiddelen van het gecreeerde pakket te verwijderen.
+>Het **platform** en **admin** pakketten bevatten een vooraf bepaalde lijst van te uitvoeren entiteiten. Elke entiteit is verbonden met het filtreren voorwaarden die u toelaten om de uit-van-de-doosmiddelen van het gecreeerde pakket te verwijderen.
 
 ## Gegevensstructuur {#data-structure}
 
-De beschrijving van een gegevenspakket is een gestructureerd XML-document dat voldoet aan de grammatica van de **xrk:navtree** gegevensschema, zoals in het onderstaande voorbeeld:
+De beschrijving van een gegevenspakket is een gestructureerd document van XML dat met de grammatica van **xrk voldoet:navtree** gegevensschema, zoals in het hieronder voorbeeld:
 
 ```xml
 <package>
@@ -53,9 +55,9 @@ De beschrijving van een gegevenspakket is een gestructureerd XML-document dat vo
 </package>
 ```
 
-Het XML-document moet beginnen en eindigen met het `<package>` element. Alle `<entities>` elementen die volgen, verdelen de gegevens per documenttype. An `<entities>` element bevat de gegevens van het pakket in de indeling van het gegevensschema dat is ingevoerd in het dialoogvenster **schema** kenmerk. De gegevens in een pakket mogen geen interne sleutels bevatten die niet compatibel zijn tussen databases, zoals automatisch gegenereerde toetsen (**automatische** ).
+Het XML-document moet beginnen en eindigen met het element `<package>` . Alle `<entities>` -elementen die volgen, verdelen de gegevens op documenttype. Een `<entities>` element bevat de gegevens van het pakket in het formaat van het gegevensschema ingegaan in het **schema** attribuut. De gegevens in een pakket moeten geen interne sleutels bevatten die niet compatibel tussen bases, zoals auto-geproduceerde sleutels (**automatische 1} optie) zijn.**
 
-In ons voorbeeld worden de `folder` en `company` koppelingen zijn vervangen door zogenaamde &quot;toetsen op hoog niveau&quot; in de doeltabellen:
+In ons voorbeeld zijn de verbindingen op de koppelingen `folder` en `company` vervangen door zogenaamde toetsen op hoog niveau in de doeltabellen:
 
 ```xml
 <recipient>
@@ -64,17 +66,17 @@ In ons voorbeeld worden de `folder` en `company` koppelingen zijn vervangen door
 </recipient>
 ```
 
-De `operation` kenmerk met de waarde `none` definieert een afstemmingskoppeling.
+Het kenmerk `operation` met de waarde `none` definieert een koppelingskoppeling.
 
-Een gegevenspakket kan manueel van om het even welke tekstredacteur worden gebouwd. U moet ervoor zorgen dat de structuur van het XML-document voldoet aan de `xtk:navtree` gegevensschema. De clientconsole heeft een export- en importmodule voor gegevenspakketten.
+Een gegevenspakket kan manueel van om het even welke tekstredacteur worden gebouwd. U moet ervoor zorgen dat de structuur van het XML-document voldoet aan het `xtk:navtree` -gegevensschema. De clientconsole heeft een export- en importmodule voor gegevenspakketten.
 
 ## Pakketten exporteren {#export-packages}
 
 U kunt pakketten op drie verschillende manieren exporteren:
 
-* Gebruik de **[!UICONTROL Package Export]** De assistent voor het exporteren van een set objecten in één pakket. [Meer informatie](#export-a-set-of-objects-in-a-package)
-* Als u een **één object**, klikt u er met de rechtermuisknop op en selecteert u **[!UICONTROL Actions > Export in a package]**.
-* Gebruik de **Pakketdefinities** om een pakketstructuur te maken waarin u objecten toevoegt die u later in een pakket wilt exporteren. [Meer informatie](#manage-package-definitions)
+* Gebruik de **[!UICONTROL Package Export]** -assistent om een set objecten in één pakket te exporteren. [Meer informatie](#export-a-set-of-objects-in-a-package)
+* Om a **enig voorwerp** uit te voeren, klik op het met de rechtermuisknop aan en selecteer **[!UICONTROL Actions > Export in a package]**.
+* Gebruik de **definities van het Pakket** om een pakketstructuur tot stand te brengen waarin u voorwerpen toevoegt die later op in een pakket moeten worden uitgevoerd. [Meer informatie](#manage-package-definitions)
 
 Nadat een pakket is geëxporteerd, kunt u het pakket en alle toegevoegde entiteiten importeren in een andere Campagne-instantie.
 
@@ -82,49 +84,49 @@ Nadat een pakket is geëxporteerd, kunt u het pakket en alle toegevoegde entitei
 
 Ga als volgt te werk om een set objecten in een gegevenspakket te exporteren:
 
-1. Blader naar de exportassistent voor het pakket via de **[!UICONTROL Tools > Advanced > Export package...]** menu van de verkenner.
-1. Selecteer de [typen pakketten](#types-of-packages).
+1. Blader naar de exportassistent voor pakketten via het **[!UICONTROL Tools > Advanced > Export package...]** -menu van de verkenner.
+1. Selecteer de [ types van pakketten ](#types-of-packages).
 
    ![](assets/package_type.png)
 
-1. Klik op de knop **Toevoegen** om de entiteiten te selecteren die u als een pakket wilt exporteren.
+1. Klik **toevoegen** knoop om de entiteiten te selecteren om als pakket uit te voeren.
 
    >[!CAUTION]
    >
-   >Als u een **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** of **[!UICONTROL Plan]** typemap, nooit selecteren **xtk:map** omdat u mogelijk gegevens kwijtraakt. Selecteer de entiteit die overeenkomt met de map: **nms:aanbiedingenCategorie** voor aanbiedingrubrieken, **nms:aanbiedingEnv** voor aanbiedingsomgevingen, **nms:programma** voor programma&#39;s, en **nms:plan** voor plannen.
+   >Als u een **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** of **[!UICONTROL Plan]** typemap uitvoert, selecteer nooit **xtk:omslag** aangezien u sommige gegevens kunt verliezen. Selecteer de entiteit die met de omslag beantwoordt: **nms:offerCategory** voor aanbiedingscategorieën, **nms:offerEnv** voor aanbiedingsmilieu&#39;s, **nms:programma** voor programma&#39;s, en **nms:plan** voor plannen.
 
-   Het afhankelijkheidsmechanisme bestuurt de uitvoersequentie van de entiteit. Raadpleeg voor meer informatie hierover [Afhankelijkheden beheren](#manage-dependencies).
+   Het afhankelijkheidsmechanisme bestuurt de uitvoersequentie van de entiteit. Voor meer op dit, verwijs naar [ het Leiden gebiedsdelen ](#manage-dependencies).
 
-1. Klikken **[!UICONTROL Next]** en definieert u de filterquery voor het type document dat u wilt extraheren. U moet de het filtreren clausule voor gegevensextractie vormen.
+1. Klik op **[!UICONTROL Next]** en definieer de filterquery voor het type document dat u wilt extraheren. U moet de het filtreren clausule voor gegevensextractie vormen.
 
    >[!NOTE]
    >
-   >De query-editor wordt weergegeven in [deze sectie](../../automation/workflow/query.md).
+   >De vraagredacteur wordt voorgesteld in [ deze sectie ](../../automation/workflow/query.md).
 
-1. Klikken **[!UICONTROL Next]** en selecteert u de sorteervolgorde van de geëxporteerde gegevens.
+1. Klik op **[!UICONTROL Next]** en selecteer de sorteervolgorde van de geëxporteerde gegevens.
 
 1. Bekijk een voorvertoning van de gegevens die u wilt extraheren om uw configuratie te controleren.
 
-1. Op de laatste pagina van de exportassistent voor pakketten kunt u het exporteren starten. De gegevens worden opgeslagen in het bestand dat in het dialoogvenster **[!UICONTROL File]** veld.
+1. Op de laatste pagina van de exportassistent voor pakketten kunt u het exporteren starten. De gegevens worden opgeslagen in het bestand dat wordt aangegeven in het veld **[!UICONTROL File]** .
 
 ### Afhankelijkheden beheren {#manage-dependencies}
 
 Tijdens het exportproces worden de koppelingen tussen de verschillende geëxporteerde elementen bijgehouden. Dit mechanisme wordt gedefinieerd door twee regels:
 
-* objecten die zijn gekoppeld aan een koppeling met een `own` of `owncopy` Tekstintegriteit wordt geëxporteerd in hetzelfde pakket als het geëxporteerde object.
-* objecten die gekoppeld zijn aan een koppeling met een `neutral` of `define` de tekstintegriteit (gedefinieerde koppeling) moet afzonderlijk worden geëxporteerd.
+* objecten die zijn gekoppeld aan een koppeling met een `own` - of `owncopy` -tekstintegriteit, worden geëxporteerd in hetzelfde pakket als het geëxporteerde object.
+* objecten die zijn gekoppeld aan een koppeling met een `neutral` - of `define` -tekstintegriteit (gedefinieerde koppeling), moeten afzonderlijk worden geëxporteerd.
 
 >[!NOTE]
 >
->Integriteitstypen die zijn gekoppeld aan schema-elementen worden gedefinieerd in [deze pagina](database-links.md).
+>De types van integriteit verbonden aan schemaelementen worden bepaald in [ deze pagina ](database-links.md).
 
 #### Een campagne exporteren {#export-a-campaign}
 
 Hieronder ziet u hoe u een campagne kunt exporteren. De uit te voeren marketingcampagne bevat:
-* a `MyTask`taak
-* a `campaignWorkflow` workflow in de volgende map: **[!UICONTROL Administration > Production > Technical workflows > Campaign processes > MyWorkflow]**.
+* a `MyTask` taak
+* a `campaignWorkflow` in de volgende map: **[!UICONTROL Administration > Production > Technical workflows > Campaign processes > MyWorkflow]** .
 
-De taak en de workflow worden in hetzelfde pakket als de campagne geëxporteerd, aangezien de overeenkomende schema&#39;s via koppelingen met een `own` typedonaliteit.
+De taak en de workflow worden geëxporteerd in hetzelfde pakket als de campagne, aangezien de overeenkomende schema&#39;s zijn verbonden door koppelingen naar een `own` type-integriteit.
 
 De inhoud van het pakket is:
 
@@ -171,22 +173,22 @@ label="" name="" namespace="" vendor="">
 </package>   
 ```
 
-De verbinding met een type pakket wordt bepaald in een schema met het `@pkgAdmin and @pkgPlatform` kenmerk. Beide eigenschappen ontvangen een XTK-expressie die de voorwaarden voor aansluiting bij het pakket definieert.
+De verbinding met een type pakket wordt gedefinieerd in een schema met het kenmerk `@pkgAdmin and @pkgPlatform` . Beide eigenschappen ontvangen een XTK-expressie die de voorwaarden voor aansluiting bij het pakket definieert.
 
 ```xml
 <element name="offerEnv" img="nms:offerEnv.png" 
 template="xtk:folder" pkgAdmin="@id != 0">
 ```
 
-Tot slot de `@pkgStatus` kunt u de exportregels voor deze elementen of kenmerken definiëren. Afhankelijk van de waarde van het kenmerk, wordt het element of kenmerk gevonden in het geëxporteerde pakket. De drie mogelijke waarden voor dit kenmerk zijn:
+Ten slotte kunt u met het kenmerk `@pkgStatus` de exportregels voor deze elementen of kenmerken definiëren. Afhankelijk van de waarde van het kenmerk, wordt het element of kenmerk gevonden in het geëxporteerde pakket. De drie mogelijke waarden voor dit kenmerk zijn:
 
-* `never`: exporteert het veld / de koppeling niet
+* `never`: exporteert het veld/de koppeling niet
 * `always`: forceert export voor dit veld
-* `preCreate`: staat oprichting van de gekoppelde entiteit toe
+* `preCreate`: staat het maken van de gekoppelde entiteit toe
 
 >[!NOTE]
 >
->De `preCreate` waarde wordt alleen geaccepteerd voor gebeurtenissen met het koppelingstype. Hiermee kunt u een entiteit maken of ernaar verwijzen die nog niet in het geëxporteerde pakket is geladen.
+>De waarde `preCreate` wordt alleen geaccepteerd voor koppelingstypegebeurtenissen. Hiermee kunt u een entiteit maken of ernaar verwijzen die nog niet in het geëxporteerde pakket is geladen.
 
 ## Pakketdefinities beheren {#manage-package-definitions}
 
@@ -194,9 +196,9 @@ Met pakketdefinities kunt u een pakketstructuur maken waarin u entiteiten toevoe
 
 ### Een pakketdefinitie maken {#create-a-package-definition}
 
-Pakketdefinities zijn toegankelijk via de **[!UICONTROL Administration > Configuration > Package management > Package definitions]** -menu.
+Pakketdefinities zijn toegankelijk via het menu **[!UICONTROL Administration > Configuration > Package management > Package definitions]** .
 
-Als u een pakketdefinitie wilt maken, klikt u op de knop **[!UICONTROL New]** en vul vervolgens de algemene informatie over de pakketdefinitie in.
+Als u een pakketdefinitie wilt maken, klikt u op de knop **[!UICONTROL New]** en vult u vervolgens de algemene informatie over de pakketdefinitie in.
 
 ![](assets/packagedefinition_create.png)
 
@@ -210,56 +212,56 @@ Vervolgens kunt u entiteiten toevoegen aan de pakketdefinitie en deze exporteren
 
 ### Entiteiten toevoegen aan een pakketdefinitie {#add-entities-to-a-package-definition}
 
-In de **[!UICONTROL Content]** klikt u op de knop **[!UICONTROL Add]** om de entiteiten te selecteren die u met het pakket wilt exporteren. Aanbevolen werkwijzen bij het selecteren van entiteiten in het dialoogvenster [deze sectie](#export-a-set-of-objects-in-a-package).
+Klik in het tabblad **[!UICONTROL Content]** op de knop **[!UICONTROL Add]** om de entiteiten te selecteren die u met het pakket wilt exporteren. De beste praktijken wanneer het selecteren van entiteiten worden voorgesteld in [ deze sectie ](#export-a-set-of-objects-in-a-package).
 
 ![](assets/packagedefinition_addentities.png)
 
 Entiteiten kunnen rechtstreeks vanaf hun locatie in de instantie aan een pakketdefinitie worden toegevoegd. Hiervoor voert u de volgende stappen uit:
 
-1. Klik met de rechtermuisknop op de gewenste entiteit en selecteer vervolgens **[!UICONTROL Actions > Export in a package]**.
+1. Klik met de rechtermuisknop op de gewenste entiteit en selecteer vervolgens **[!UICONTROL Actions > Export in a package]** .
 
-1. Selecteren **[!UICONTROL Add to a package definition]** Selecteer vervolgens de pakketdefinitie waaraan u de entiteit wilt toevoegen.
+1. Selecteer **[!UICONTROL Add to a package definition]** en selecteer vervolgens de pakketdefinitie waaraan u de entiteit wilt toevoegen.
 
-1. De entiteit wordt toegevoegd aan de pakketdefinitie en wordt geëxporteerd met het pakket (zie [deze sectie](#export-packages-from-a-package-definition)).
+1. De entiteit wordt toegevoegd aan de pakketdefinitie, zal het met het pakket (zie [ worden uitgevoerd deze sectie ](#export-packages-from-a-package-definition)).
 
 ### Genereren van pakketdefinities configureren {#configure-package-definitions-generation}
 
-Pakketgeneratie kan worden geconfigureerd via de pakketdefinitie **[!UICONTROL Content]** tab. Om dit te doen, klik **[!UICONTROL Generation parameters]** koppeling.
+Pakketgeneratie kan worden geconfigureerd via het tabblad pakketdefinitie **[!UICONTROL Content]** . Klik hiertoe op de koppeling **[!UICONTROL Generation parameters]** .
 
 ![](assets/packagedefinition_generationparameters.png)
 
-* Gebruik de **[!UICONTROL Include the definition]** -optie om de definitie op te nemen die momenteel wordt gebruikt in de pakketdefinitie.
-* Gebruik de **[!UICONTROL Include an installation script]** om een JavaScript-script toe te voegen dat moet worden uitgevoerd bij het importeren van het pakket. Als deze optie is geselecteerd, wordt een **[!UICONTROL Script]** wordt toegevoegd in het scherm met pakketdefinities.
-* Gebruik de **[!UICONTROL Include default values]** om de waarden van alle kenmerken van de entiteiten toe te voegen aan het pakket.
+* Gebruik de optie **[!UICONTROL Include the definition]** om de definitie op te nemen die momenteel wordt gebruikt in de pakketdefinitie.
+* Gebruik de optie **[!UICONTROL Include an installation script]** om een JavaScript-script toe te voegen dat moet worden uitgevoerd bij het importeren van het pakket. Als deze optie is geselecteerd, wordt een tab **[!UICONTROL Script]** toegevoegd aan het scherm met pakketdefinities.
+* Met de optie **[!UICONTROL Include default values]** kunt u de waarden van alle kenmerken van de entiteiten toevoegen aan het pakket.
 
   Deze optie is niet standaard geselecteerd om lange exportbewerkingen te voorkomen. Dit betekent dat kenmerken van entiteiten met standaardwaarden (&#39;lege tekenreeks&#39;, &#39;0&#39; en &#39;onwaar&#39; als deze niet anders in het schema zijn gedefinieerd) standaard niet aan het pakket worden toegevoegd en daarom niet worden geëxporteerd.
 
   >[!CAUTION]
   >
-  >Als de instantie waarin het pakket wordt geïmporteerd, entiteiten bevat die identiek zijn aan die van het pakket (bijvoorbeeld met dezelfde externe id), worden de kenmerken ervan niet bijgewerkt. Dit kan gebeuren als de kenmerken van de eerste instantie standaardwaarden hebben, omdat ze niet in het pakket zijn opgenomen. In dat geval selecteert u de **[!UICONTROL Include default values]** deze optie voorkomt dat versies worden samengevoegd , aangezien alle kenmerken van de eerste instantie samen met het pakket worden geëxporteerd .
+  >Als de instantie waarin het pakket wordt geïmporteerd, entiteiten bevat die identiek zijn aan die van het pakket (bijvoorbeeld met dezelfde externe id), worden de kenmerken ervan niet bijgewerkt. Dit kan gebeuren als de kenmerken van de eerste instantie standaardwaarden hebben, omdat ze niet in het pakket zijn opgenomen. In dat geval voorkomt u dat versies worden samengevoegd door de optie **[!UICONTROL Include default values]** te selecteren, aangezien alle kenmerken van de eerste instantie samen met het pakket worden geëxporteerd.
 
 ### Pakketten uit een pakketdefinitie exporteren {#export-packages-from-a-package-definition}
 
 Voer de volgende stappen uit om een pakket uit een pakketdefinitie te exporteren:
 
-1. Selecteer de pakketdefinitie die u wilt exporteren, klik op de knop **[!UICONTROL Actions]** en selecteert u **[!UICONTROL Export the package]**.
+1. Selecteer de te exporteren pakketdefinitie, klik op de knop **[!UICONTROL Actions]** en selecteer **[!UICONTROL Export the package]** .
 1. Controleer de naam en locatie van het geëxporteerde bestand.
 1. Klik op de knop **[!UICONTROL Start]** om het exporteren te starten.
 
 ## Pakketten importeren {#import-packages}
 
-De importassistent voor het pakket is toegankelijk via het hoofdmenu **[!UICONTROL Tools > Advanced > Import package]** van de clientconsole.
+De importassistent voor pakketten is toegankelijk via het hoofdmenu **[!UICONTROL Tools > Advanced > Import package]** van de clientconsole.
 
 ### Een pakket uit een bestand installeren {#install-a-package-from-a-file}
 
 Voer de volgende stappen uit om een bestaand gegevenspakket te importeren:
 
-1. De importassistent openen via het hoofdmenu **[!UICONTROL Tools > Advanced > Import package]** van de clientconsole.
-1. Selecteer het XML-bestand en klik op **[!UICONTROL Open]**.
+1. Toegang tot de importassistent via het hoofdmenu **[!UICONTROL Tools > Advanced > Import package]** van de clientconsole.
+1. Selecteer het XML-bestand en klik op **[!UICONTROL Open]** .
 
 De inhoud van het te importeren pakket wordt vervolgens in het middelste gedeelte van de editor weergegeven.
 
-Klikken **[!UICONTROL Next]** en **[!UICONTROL Start]** om het importeren te starten.
+Klik op **[!UICONTROL Next]** en **[!UICONTROL Start]** om het importeren te starten.
 
 ### Een ingebouwd pakket installeren {#install-a-standard-package}
 
@@ -278,7 +280,7 @@ U moet altijd importeren binnen dezelfde versie van het platform. U moet control
 
 >[!IMPORTANT]
 >
->Importeren tussen verschillende versies wordt niet ondersteund door de Adobe.
+>Het importeren tussen verschillende versies wordt niet ondersteund door Adobe.
 
 Let op het schema en de databasestructuur. Het invoeren van een pakket met schema moet door schemageneratie worden gevolgd.
 
@@ -294,7 +296,7 @@ Begin door verschillende typen pakketten te definiëren. Er worden slechts vier 
 
 Als u uw configuratie op een nieuw geval moet opstellen, kunt u al uw entiteitpakketten invoeren.
 
-**Functies**
+**Eigenschappen**
 
 Dit type pakket:
 * Beantwoord een cliëntvereiste/specificatie.
@@ -339,7 +341,7 @@ Bijvoorbeeld:
 
 >[!NOTE]
 >
->Forms mag alleen worden geïmporteerd **na** schema-updates.
+>Forms zou slechts **na** schemaupdates moeten worden ingevoerd.
 
 
 #### Pakketdocumentatie {#package-documentation}
@@ -351,4 +353,3 @@ U kunt het beste ook de datum van de update invoeren.
 >[!IMPORTANT]
 >
 >Het beschrijvingsveld mag maximaal 2.000 tekens bevatten.
-

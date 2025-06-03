@@ -1,18 +1,19 @@
 ---
-title: Best practices voor verzending
+title: Best practices voor leveringen
 description: Leer de beste werkwijzen bij het ontwerpen en verzenden van leveringen met Adobe Campaign
 feature: Email, Push, SMS, Direct Mail
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '2936'
 ht-degree: 1%
 
 ---
 
-# Best practices voor verzending {#delivery-best-practices}
+# Best practices voor leveringen {#delivery-best-practices}
 
 Lees de volgende beste praktijken met de leveringsmogelijkheden van de Campagne.
 
@@ -31,7 +32,7 @@ Om dit te vermijden, coördineer de planning van leveringen met de andere leden 
 
 * De workflowuitvoering: het controleren van uw workflows is essentieel om problemen met de prestaties van het platform te voorkomen. Volg de vermelde richtlijnen [ in dit document ](../../automation/workflow/workflow-best-practices.md#execution-and-performance).
 
-* Verbind met uw [ mogelijkheden van het Controlebord van de Campagne ](https://experienceleague.adobe.com/nl/docs/control-panel/using/discover-control-panel/key-features){target="_blank"}  om uw platform te controleren, gebruikend [ prestaties controlerend ](https://experienceleague.adobe.com/nl/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}  functies.
+* Verbind met uw [ mogelijkheden van het Controlebord van de Campagne ](https://experienceleague.adobe.com/en/docs/control-panel/using/discover-control-panel/key-features){target="_blank"} om uw platform te controleren, gebruikend [ prestaties controlerende ](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"} functies.
 
 #### Quarantainebeheer {#quarantine-management}
 
@@ -40,14 +41,14 @@ Het is in uw belang om goede processen van het quarantainebeheer te handhaven.
 Wanneer u e-mailberichten op een nieuw platform gaat verzenden, kunt u een lijst met adressen gebruiken die niet volledig zijn gekwalificeerd. Als u naar ongeldige adressen of naar honeypot-adressen (brievenbussen slechts die aan truc spammers worden gecreeerd) verzendt, zal dit de reputatie van uw platform beginnen te verminderen. Goede quarantainebeheerprocessen helpen: de adreskwaliteit handhaven, lijst van gewezen personen door internettoegangsproviders vermijden, en uw foutenpercentage verminderen, leveringen en productie versnellen.
 
 
-Leer meer hoe te om een nieuw platform in de [ Gids van de Beste praktijken van de Levering van de Adobe te beginnen ](https://experienceleague.adobe.com/nl/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"} .
+Leer meer hoe te om een nieuw platform in de [ Gids van de Beste praktijken van de Levering van Adobe te beginnen ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}.
 
-De technische aanbevelingen worden vermeld in [ deze sectie ](https://experienceleague.adobe.com/nl/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"} .
+De technische aanbevelingen worden vermeld in [ deze sectie ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}.
 
 
 +++ **las uit weinig beste praktijken**
 
-* Als u een lijst met ongeldige adressen hebt, kunt u het beste deze naar de quarantainetabel importeren via **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]** .
+* Als u een lijst met ongeldige adressen hebt, raadt Adobe u aan deze te importeren in de quarantainetabel via **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]** .
 
 * De ontvangers de waarvan adressen in quarantined zijn uitgesloten door gebrek tijdens de leveringsanalyse: zij worden niet gericht. Dit versnelt leveringen, aangezien het foutenpercentage een significant effect op leveringssnelheid heeft. Een e-mailadres kan in quarantaine worden geplaatst bijvoorbeeld wanneer inbox volledig is of als het adres niet bestaat.
 Adobe Campaign beheert onjuiste adressen op basis van het type geretourneerde fout. [ leer meer over quarantines ](../send/quarantines.md)
@@ -60,7 +61,7 @@ Adobe Campaign beheert onjuiste adressen op basis van het type geretourneerde fo
 
 ### Dubbele opt-in-regeling {#double-opt-in}
 
-Om te voorkomen dat berichten naar ongeldige adressen worden verzonden, onjuiste communicatie wordt beperkt en de reputatie van de afzender wordt verbeterd, raadt de Adobe aan een dubbele opt-in-mechanisme in te voeren voor bevestiging na abonnementen. Zo weet u zeker dat een ontvanger met opzet is geabonneerd.
+Om te voorkomen dat berichten naar ongeldige adressen worden verzonden, onjuiste communicatie wordt beperkt en de reputatie van de afzender wordt verbeterd, raadt Adobe aan een dubbele aanmeldingsprocedure voor bevestiging na abonnement in te voeren. Zo weet u zeker dat een ontvanger met opzet is geabonneerd.
 
 ## Sjablonen gebruiken {#use-templates}
 
@@ -68,7 +69,7 @@ De malplaatjes van de levering staan voor verhoogde efficiency toe door kant-en-
 
 ### Subdomeinen en branding {#subdomains-and-branding}
 
-Wanneer u meerdere merken beheert in Adobe Campaign, raadt Adobe aan één subdomein per merk te hebben. Een bank kan bijvoorbeeld verschillende subdomeinen hebben die overeenkomen met elk van haar regionale agentschappen. Als een bank eigenaar is van het bluebank.com-domein, kunnen de subdomeinen @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com enzovoort zijn. Als u één leveringssjabloon per subdomein hebt, kunt u altijd de juiste vooraf geconfigureerde parameters voor elk merk gebruiken. Hierdoor worden fouten voorkomen en bespaart u tijd. Leer meer over subdomain branding in de [ documentatie van het Controlebord van de Campagne ](https://experienceleague.adobe.com/nl/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"} .
+Als u meerdere merken beheert in Adobe Campaign, raadt Adobe aan één subdomein per merk te hebben. Een bank kan bijvoorbeeld verschillende subdomeinen hebben die overeenkomen met elk van haar regionale agentschappen. Als een bank eigenaar is van het bluebank.com-domein, kunnen de subdomeinen @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com enzovoort zijn. Als u één leveringssjabloon per subdomein hebt, kunt u altijd de juiste vooraf geconfigureerde parameters voor elk merk gebruiken. Hierdoor worden fouten voorkomen en bespaart u tijd. Leer meer over subdomain branding in de [ documentatie van het Controlebord van de Campagne ](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
 
 ### Adressen configureren {#configure-addresses}
 
@@ -85,11 +86,11 @@ Voer de onderstaande stappen uit om adressen in de Campagne-interface te configu
 
 1. In het [ leveringsmalplaatje ](../send/create-templates.md), klik de **[!UICONTROL From]** verbinding. Voer in het **[!UICONTROL Email header parameters]** -venster de instellingen in.
 
-1. Controleer in het veld **[!UICONTROL Sender address]** of het adresdomein hetzelfde is als het subdomein dat u aan de Adobe hebt gedelegeerd. U kunt het deel vóór &#39;@&#39; maar niet het domeinadres wijzigen.
+1. Controleer in het veld **[!UICONTROL Sender address]** of het adresdomein hetzelfde is als het subdomein dat u aan Adobe hebt gedelegeerd. U kunt het deel vóór &#39;@&#39; maar niet het domeinadres wijzigen.
 
 1. Gebruik in het veld **[!UICONTROL From]** een naam die gemakkelijk kan worden herkend door de ontvangers, zoals de naam van uw merk, om de openingsfrequentie van uw leveringen te verhogen. Om de ervaring van de ontvanger verder te verbeteren, kunt u de naam van een persoon toevoegen, bijvoorbeeld &quot;Emma van Megastore&quot;.
 
-1. In de velden **[!UICONTROL Reply address text]** wordt standaard het adres van de afzender gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
+1. In de velden **[!UICONTROL Reply address text]** wordt standaard het adres van de afzender gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van je merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
 
 ### Een controlegroep instellen {#set-up-control-group}
 
@@ -115,11 +116,11 @@ Om uw berichten aan te passen, kunt u de gegevens gebruiken van ontvangers die i
 
 * Controleer uw verpersoonlijkingsmontages - zorg ervoor uw berichtinhoud behoorlijk wordt ontworpen om het even welke fouten te vermijden, die met verpersoonlijking kunnen worden verwant. Een Adobe Campaign-personalisatiemarkering heeft altijd de volgende vorm: `<%=table.field%>`. Het onjuiste gebruik van parameters in verpersoonlijkingsblokken kan een kwestie zijn. Variabelen in JavaScript moeten bijvoorbeeld als volgt worden gebruikt:
 
-  &grave;&grave;
+  ``
   <%
   var brand = "xxx"
   %>
-  &grave;&grave;
+  ``
 
   Voor meer op verpersoonlijkingsblokken, verwijs naar [ deze sectie ](../send/personalization-blocks.md).
 
@@ -225,7 +226,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode. 
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#authentication).-->
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
 ## Afbeeldingen beheren {#manage-images}
 
@@ -252,13 +253,13 @@ Probeer de afbeeldingen responsief en vergroot of verkleind te maken om ze in al
 
 Om van buitenaf toegankelijk te zijn, moeten de beelden die in e-mail en openbare middelen verbonden aan campagnes worden gebruikt op een extern toegankelijke server aanwezig zijn.
 
-* Vanuit de bezorgingsassistent kunt u een HTML-pagina met afbeeldingen importeren of rechtstreeks afbeeldingen invoegen met de HTML-editor via het pictogram **[!UICONTROL Image]** .
+* Vanuit de bezorgingsassistent kunt u een HTML-pagina met afbeeldingen importeren of afbeeldingen rechtstreeks invoegen via de HTML-editor via het pictogram **[!UICONTROL Image]** .
 
 * Als afbeeldingen niet worden weergegeven, controleert u of de afbeeldingen beschikbaar zijn op de server. Om dit te doen, doorblader aan het **Source** lusje van uw levering. Zoek uw afbeeldingen en kopieer en plak de URL van elke afbeelding in een webbrowser. Als de afbeeldingen niet worden weergegeven, neemt u contact op met uw IT-beheerder of de externe leverancier die uw leveringsinhoud levert.
 
 ### Een voorbeeld van uw bericht bekijken en uw bericht testen {#preview-msg}
 
-Adobe raadt u aan een voorbeeld van uw bericht te bekijken om na te gaan hoe de inhoud van het bericht wordt aangepast en hoe de ontvangers de levering zien.
+Adobe raadt u aan een voorbeeld van uw bericht te bekijken om na te gaan wat de personalisatie is en hoe de ontvangers uw bericht zullen bekijken.
 
 In de bezorgingsassistent kunt u op het subtabblad **[!UICONTROL Preview]** de rendering van elke inhoud voor een ontvanger weergeven. De verpersoonlijkingsgebieden en de voorwaardelijke elementen van inhoud worden vervangen met de overeenkomstige informatie voor het geselecteerde profiel. [Meer informatie](../send/preview-and-proof.md).
 
@@ -411,7 +412,7 @@ Om uw campagnes te controleren, moet u ervoor zorgen dat het bericht inderdaad a
 
 Van het dashboard van de levering van de Campagne, kunt u de verwerkte berichten en de logboeken van de leveringscontrole controleren. U kunt de status van de berichten in de leveringslogboeken ook controleren.
 
-[ leer meer over levering controle in Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=nl-NL){target="_blank"} 
+[ Leer meer over levering controle in de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 
 ## Traceergedrag {#track-behaviour}
@@ -421,4 +422,4 @@ Als u het gedrag van de ontvangers beter wilt weten, kunt u bijhouden hoe zij op
 Berichten bijhouden is standaard ingeschakeld. Om URLs te vormen, selecteer de optie van de Vertoning URLs in de lagere sectie van de leveringsmedewerker. Voor elke URL van het bericht kunt u kiezen of u reeksspatiëring wilt activeren.
 
 
-[ leer meer over het volgen mogelijkheden in Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=nl-NL#sending-messages){target="_blank"} 
+[ Leer meer over het volgen mogelijkheden in de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}

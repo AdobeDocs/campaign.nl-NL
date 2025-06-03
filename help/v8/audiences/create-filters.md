@@ -5,7 +5,8 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%
@@ -327,10 +328,10 @@ Voor geavanceerde filtermogelijkheden gebruikt u functies om de inhoud van het f
 
 Leer hoe te om geavanceerde vragen in deze steekproeven van begin tot eind te bouwen:
 
-* Leer hoe te om op eenvoudige ontvankelijke attributen in [ te richten deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om op ontvangers te filtreren die niet tijdens de laatste 7 dagen in [ worden gecontacteerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om de lijst van exploitanten terug te krijgen door Actieve rekeningen in [ kan worden gefiltreerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om een e-mailpubliek van de verjaardag in [ te bouwen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=nl-NL){target="_blank"}.
+* Leer hoe te om op eenvoudige ontvankelijke attributen in [ te richten deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* Leer hoe te om op ontvangers te filtreren die niet tijdens de laatste 7 dagen in [ worden gecontacteerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* Leer hoe te om de lijst van exploitanten terug te krijgen door Actieve rekeningen in [ kan worden gefiltreerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
+* Leer hoe te om een e-mailpubliek van de verjaardag in [ te bouwen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}.
 
 
 ### Geavanceerde parameters voor vooraf gedefinieerde filters {#param-for-data-filters}

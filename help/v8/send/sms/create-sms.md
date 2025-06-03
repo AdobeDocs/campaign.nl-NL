@@ -4,13 +4,14 @@ description: Meer informatie over het maken van een SMS-levering
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
+version: Campaign v8, Campaign Classic v7
+exl-id: 3b15eb3e-8625-4049-bf0d-327407ae5ea6
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 2%
 
 ---
-
 
 # Je eerste SMS-levering maken {#sms-delivery}
 
@@ -50,5 +51,3 @@ Nadat u de levering hebt gemaakt, kunt u:
 ## SMS controleren en volgen {#sms-monitor}
 
 Na verzenden, [ leren hoe te om uw SMS ](sms-monitor.md) te controleren en te volgen.
-
-

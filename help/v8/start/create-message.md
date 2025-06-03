@@ -4,8 +4,9 @@ description: Je eerste levering maken
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 3%
@@ -58,7 +59,7 @@ De leveringsinhoud is klaar om te worden gevormd. De definitie van de inhoud van
 * [De e-mailcontent opgeven](../send/email.md)
 * [De SMS-inhoud definiëren](../send/sms/sms-content.md)
 * [Content van direct mail definiëren](../send/direct-mail.md)
-* [De inhoud van de pushmelding afzwakken](../send/push.md)
+* [De inhoud van het pushbericht definiëren](../send/push.md)
 
 
 ## Doelgroep definiëren {#target-population}
@@ -136,7 +137,7 @@ U kunt berichten verzenden naar profielen die niet in de database maar in een ex
 1. Selecteer het bestand met de ontvangers.
 1. Klik tijdens het importeren van de ontvangers op de koppeling **[!UICONTROL File format definition...]** om het externe bestand te selecteren en te configureren.
 
-   Voor meer informatie over gegevensinvoer, verwijs naar [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"} .
+   Voor meer informatie bij de invoer van gegevens, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
 
 1. Klik op **[!UICONTROL Finish]** en configureer de levering als standaardlevering.
 
@@ -150,7 +151,7 @@ Wanneer het bepalen van het [ publiek van een levering ](#target-population), wo
 
 >[!CAUTION]
 >
->Als deskundige gebruiker, voor specifieke gebruiksgevallen, kunt u deze montages veranderen, maar de Adobe adviseert om de standaardconfiguratie te houden.
+>Als deskundige gebruiker, voor specifieke gebruiksgevallen, kunt u deze montages veranderen, maar Adobe adviseert om de standaardconfiguratie te houden.
 
 U kunt adressen uitsluiten die een bepaald aantal opeenvolgende fouten hebben bereikt, of waarvan de kwaliteit onder een drempel is die in dit venster wordt gespecificeerd. U kunt ook kiezen of u niet-gekwalificeerde adressen waarvoor geen gegevens zijn geretourneerd, wilt autoriseren.
 
@@ -181,9 +182,9 @@ Voor meer bij proefontvangers en het verzenden, verwijs naar [ deze sectie ](../
 
 In deze video leert u hoe u zaden en proefdrukken aan een bestaande e-mail kunt toevoegen en hoe u deze kunt verzenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447005?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
-De extra Campaign Classic hoe te video&#39;s zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
+De extra hoe te video&#39;s van Campaign Classic zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
 
 ## De levering voorbereiden en valideren {#validate-the-delivery}
 

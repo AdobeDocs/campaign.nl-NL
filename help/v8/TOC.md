@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 18%
+source-wordcount: '712'
+ht-degree: 19%
 
 ---
 
@@ -41,17 +41,21 @@ ht-degree: 18%
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campagnebeheer {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
-   + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=nl-NL)
+   + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
 + Berichten verzenden{#send}
    + [Aan de slag met berichten](start/gs-message.md)
    + [Je eerste levering maken](start/create-message.md)
    + [Best practices voor leveringen](start/delivery-best-practices.md)
    + E-mails {#emails}
       + [E-mails ontwerpen en valideren](send/email.md)
+      + [De e-mailcontent opgeven](send/defining-the-email-content.md)
+      + [Interactieve content definiëren](send/defining-interactive-content.md)
       + [Koppeling maken naar de spiegelpagina](send/mirror-page.md)
       + [Een BCC-adres toevoegen](send/email-bcc.md)
       + [Aanvullende e-mailparameters definiëren](send/email-parameters.md)
       + [E-mails verzenden en controleren](send/send.md)
+      + [E-mails verzenden naar Japanse mobiele telefoons](send/sending-emails-on-japanese-mobiles.md)
+      + [Bestanden bijvoegen bij een e-mail](send/attaching-files.md)
    + Sms {#sms}
       + [Aan de slag met sms](send/sms/sms.md)
       + Sms-kanaal configureren {#config-sms}
@@ -124,7 +128,7 @@ ht-degree: 18%
    + [Openingspagina&#39;s maken](dev/landing-pages.md)
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Automatisering en workflows {#automation}
-   + [ Gids van de Automatisering van de Campagne > ](https://experienceleague.adobe.com/nl/docs/campaign/automation/home)
+   + [ Gids van de Automatisering van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
 + Privacy- en beveiligingsbeheer {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
    + [Beveiligingsrichtlijnen](config/security.md)
@@ -166,7 +170,7 @@ ht-degree: 18%
 + Data management {#data}
    + [Aan de slag met workflows](config/workflows.md)
    + [Gegevens importeren](start/import.md)
-   + [ Documentatie van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
+   + [ Documentatie van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integraties {#connect}
    + [Campagne verbinden met andere oplossingen](connect/integration.md)
    + Campagne + Experience Platform {#ac-aep}
@@ -229,6 +233,6 @@ ht-degree: 18%
       + [Invoerformulieren](dev/forms.md)
    + [Werken met gegevenspakketten](dev/packages.md)
    + [Campagne-API&#39;s](dev/api.md)
-+ [ Campagne technotes > ](https://experienceleague.adobe.com/nl/docs/campaign/technotes-ac/technotes-home)
-+ [ de documentatie van het Webgebruikersinterface van de Campagne > ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home)
++ [ Campagne technotes > ](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
++ [ de documentatie van het Webgebruikersinterface van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 

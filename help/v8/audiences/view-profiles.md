@@ -5,7 +5,8 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 2%
@@ -14,20 +15,20 @@ ht-degree: 2%
 
 # Bestaande profielen weergeven{#view-profiles}
 
-Bladeren naar **[!UICONTROL Profiles and targets]** om toegang te krijgen tot ontvangers die zijn opgeslagen in de Adobe Campaign-database.
+Blader naar **[!UICONTROL Profiles and targets]** om toegang te krijgen tot ontvangers die zijn opgeslagen in de Adobe Campaign-database.
 
-Op deze pagina kunt u [nieuwe ontvanger maken](create-profiles.md), bewerkt u een bestaande ontvanger en opent u de profieldetails.
+Van deze pagina, kunt u [ nieuwe ontvanger ](create-profiles.md) tot stand brengen, een bestaande ontvanger uitgeven en tot zijn profieldetails toegang hebben.
 
 ![](assets/profiles-and-targets.png)
 
-Voor geavanceerdere profielbewerkingen opent u de Campagne vanuit de **[!UICONTROL Explorer]** koppeling op de startpagina van Adobe Campaign.
+Voor geavanceerdere profielmanipulaties opent u de Campagnestructuur via de koppeling **[!UICONTROL Explorer]** op de startpagina van Adobe Campaign.
 
 ![](assets/recipients-in-explorer.png)
 
 
 >[!CAUTION]
 >
->Het ingebouwde scherm Ontvanger wordt bepaald door een schema van XML en zijn bijbehorende vorm. Het XML-schema wordt opgeslagen in het **[!UICONTROL Administration > Configuration > Data schemas]** knooppunt van de Adobe Campaign Explorer-boomstructuur. Alleen deskundige gebruikers kunnen wijzigingen aanbrengen in deze schema&#39;s.
+>Het ingebouwde scherm Ontvanger wordt bepaald door een schema van XML en zijn bijbehorende vorm. Het XML-schema wordt opgeslagen in het knooppunt **[!UICONTROL Administration > Configuration > Data schemas]** van de Adobe Campaign Explorer-boomstructuur. Alleen deskundige gebruikers kunnen wijzigingen aanbrengen in deze schema&#39;s.
 >
 
 ## Een profiel bewerken{#edit-a-profiles}
@@ -42,15 +43,15 @@ Voor een standaard ingebouwde ontvanger hebt u toegang tot de volgende tabbladen
 
 * **[!UICONTROL General]** voor alle algemene profielgegevens. Het bevat met name de achternaam, voornaam, e-mailadres, e-mailnotatie, enz.
 
-  Op dit tabblad wordt ook het dialoogvenster **opt-out** markering voor het profiel: wanneer de **[!UICONTROL No longer contact (by any channel)]** is geselecteerd, bevindt het profiel zich op lijst van gewezen personen. Deze informatie wordt toegevoegd aan de contactgegevens als de ontvanger bijvoorbeeld op een koppeling voor niet-abonnementen in een nieuwsbrief heeft geklikt. Deze ontvanger is niet meer gericht op enig kanaal (e-mail, direct mail, enz.). Raadpleeg [deze pagina](../send/quarantines.md) voor meer informatie.
+  Dit lusje slaat ook de **opt-out** vlag voor het profiel op: wanneer de **[!UICONTROL No longer contact (by any channel)]** optie wordt geselecteerd, is het profiel op lijst van gewezen personen. Deze informatie wordt toegevoegd aan de contactgegevens als de ontvanger bijvoorbeeld op een koppeling voor niet-abonnementen in een nieuwsbrief heeft geklikt. Deze ontvanger is niet meer gericht op enig kanaal (e-mail, direct mail, enz.). Raadpleeg [deze pagina](../send/quarantines.md) voor meer informatie.
 
-* **Contactgegevens**, die het directe-mailadres van het geselecteerde profiel bevat.
+* **de informatie van het Contact**, die het directe postadres van het geselecteerde profiel bevat.
 
   U kunt in dit scherm de kwaliteitsindex van het adres controleren, en hoeveel fouten het adres bevat. Deze informatie wordt rechtstreeks door de direct-mailprovider gebruikt, op basis van het aantal fouten dat tijdens eerdere leveringen is aangetroffen, en kan niet handmatig worden gewijzigd.
 
-* **Overige**, voor specifieke velden die u naar wens kunt aanpassen en vullen.
+* **Andere**, voor specifieke gebieden die afhankelijk van uw behoeften kunnen worden gepersonaliseerd en worden bevolkt.
 
-  Gebruik de **[!UICONTROL Field properties…]** contextueel menu om de namen van de velden te wijzigen en hun indeling te definiëren.
+  In het contextmenu **[!UICONTROL Field properties…]** kunt u de namen van de velden wijzigen en de indeling van de velden definiëren.
 
   ![](assets/other-tab-field-properties.png)
 
@@ -68,15 +69,15 @@ Voor een standaard ingebouwde ontvanger hebt u toegang tot de volgende tabbladen
   >
 
 
-* **Abonnementen**, voor alle actieve abonnementen op services. Gebruik de **Historie** tabblad voor toegang tot details over abonnementen en abonnementen voor deze contactpersoon.
+* **Abonnementen**, voor alle actieve abonnementen aan de diensten. Gebruik het **lusje van de Geschiedenis** aan toegangsdetails van abonnementen en oncessies voor dit contact.
 
   ![](assets/subscription-tab.png)
 
-  Meer informatie over abonnementen [in deze sectie](../start/subscriptions.md).
+  Leer meer over Abonnementen [ in deze sectie ](../start/subscriptions.md).
 
-* **Leveringen**, voor alle leveringslogboeken voor het geselecteerde profiel. Op dit tabblad hebt u via alle kanalen toegang tot de marketinggeschiedenis van de contactpersoon: labels, datums en status van alle leveringsacties die aan het profiel zijn gericht.
+* **levert**, voor alle leveringslogboeken voor het geselecteerde profiel. Op dit tabblad hebt u via alle kanalen toegang tot de marketinggeschiedenis van de contactpersoon: labels, datums en status van alle leveringsacties die aan het profiel zijn gericht.
 
 
-* **Tekstspatiëring**, voor alle trackinglogboeken voor het geselecteerde profiel. Deze informatie wordt gebruikt om profielgedrag na leveringen te volgen. Dit tabblad geeft het cumulatieve totaal weer van alle URL&#39;s die in leveringen worden bijgehouden. De lijst is configureerbaar en bevat meestal: de URL waarop is geklikt, de datum en tijd waarop is geklikt en het document dat de URL bevatte
+* **het Volgen**, voor alle het volgen logboeken voor het geselecteerde profiel. Deze informatie wordt gebruikt om profielgedrag na leveringen te volgen. Dit tabblad geeft het cumulatieve totaal weer van alle URL&#39;s die in leveringen worden bijgehouden. De lijst is configureerbaar en bevat meestal: de URL waarop is geklikt, de datum en tijd waarop is geklikt en het document dat de URL bevatte
 
-  Meer informatie over bijhouden [in deze sectie](../start/tracking.md).
+  Leer meer over het Volgen [ in deze sectie ](../start/tracking.md).

@@ -5,7 +5,8 @@ description: Meer informatie over de activiteit van de Query-workflow
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 71bad190894243f8c4dd82792dcc379faa947e04
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Voor meer informatie over vraagsteekproeven, verwijs naar dit [ deze sectie ](qu
 
 >[!NOTE]
 >
->Het Web UI van Adobe Campaign kenmerkt een krachtige vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd, die u toestaan om uw vraag gemakkelijker tot stand te brengen en te beheren. Meer over de modelleerling van de Vraag voor Web UI leren, gelieve te verwijzen naar de [ documentatie van het Web UI van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
+>Het Web UI van Adobe Campaign kenmerkt een krachtige vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd, die u toestaan om uw vraag gemakkelijker tot stand te brengen en te beheren. Meer over de modelleerling van de Vraag voor Web UI leren, gelieve te verwijzen naar de [ documentatie van het Web UI van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
 
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}

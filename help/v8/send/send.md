@@ -4,8 +4,9 @@ description: Meer informatie over het bereik en de specifieke kenmerken van het 
 feature: Email
 role: Data Engineer
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -19,20 +20,20 @@ Wanneer de levering wordt gevormd en klaar om worden verzonden, zorg ervoor u de
 
 Bevestig de levering om de levering van berichten te starten.
 
-Volg de uitvoering van de levering vanaf de **Aflevering** , toegankelijk via de details van deze levering of via de lijst van leveringen.
+Spoor de uitvoering van de levering van het **lusje van de Levering**, dat via het detail van deze levering of via de lijst van leveringen toegankelijk is.
 
 ## Uw e-mailberichten controleren {#email-monitoring}
 
-Controleer de leveringsstatus in het dialoogvenster **Delivery Dashboard** en toegang tot leveringslogboeken en rapporten om berichten te bevestigen werden correct verzonden.
+Zodra verzonden, controleer uw leveringsstatus in het **dashboard van de Levering** en de logboeken van de toegangslevering en rapporten om berichten te bevestigen werden correct verzonden.
 
 Van het leveringsdashboard, kunt u de verwerkte berichten en de logboeken van de leveringscontrole controleren. U kunt de status van de berichten in de leveringslogboeken ook controleren.
 
 >[!NOTE]
 >
->De leveringsstatus wordt niet in real time weergegeven. Meer informatie over E-mailfeedbackservice [in deze sectie](#email-feedback-service).
+>De leveringsstatus wordt niet in real time weergegeven. Leer meer over de Dienst van de Terugkoppeling E-mail [ in deze sectie ](#email-feedback-service).
 
 
-[Meer informatie over leveringscontrole in Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=nl-NL){target="_blank"}
+[ Leer meer over levering controle in de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## Campagne MTA {#mta}
 
@@ -42,7 +43,7 @@ Deze service is beschikbaar voor alle klanten van Campagne v8 en garandeert scha
 
 ### Voordelen
 
-Adobe Campaign gebruikt een Agent van de Overdracht van de Post (MTA) die commerciële e-mail MTA van SparkPost genoemd in werking stelt **Momentum**.
+Adobe Campaign gebruikt een Agent van de Overdracht van de Post (MTA) die commerciële e-mail MTA van SparkPost genoemd **Momentum** in werking stelt.
 
 Momentum vertegenwoordigt innovatieve, krachtige MTA-technologie, die slimmere stuiterende behandeling en een geautomatiseerde optimaliseringscapaciteit van de leverbaarheid omvat die afzenders helpt optimale inbusleversnelheden te bereiken en te handhaven.
 
@@ -52,15 +53,15 @@ Momentum vertegenwoordigt innovatieve, krachtige MTA-technologie, die slimmere s
 
 ### Stuitkwalificatie
 
-Voor **synchroon** De berichten van de mislukkingsfout van de levering, MTA bepaalt het stuitertype en de kwalificatie, en stuurt die informatie terug naar Campagne.
+Voor **synchrone** berichten van de mislukkingsfout van de levering, bepaalt MTA het stuittype en de kwalificatie, en stuurt terug die informatie naar Campagne.
 
 MTA kwalificeert de stuit SMTP en verzendt die kwalificatie terug naar Campaign in de vorm van een stuiterende code die aan een de stuiteringsreden en kwalificatie van de Campagne in kaart wordt gebracht.
 
 >[!NOTE]
 >
->Momenteel **asynchroon** de grenzen worden gekwalificeerd door het inMail proces door **[!UICONTROL Inbound email]** regels.
+>Momenteel **asynchrone** grenzen worden gekwalificeerd door het proces InMail door de **[!UICONTROL Inbound email]** regels.
 
-Meer informatie over leveringsfouten in [deze sectie](delivery-failures.md).
+Leer meer op leveringsmislukkingen in [ deze sectie ](delivery-failures.md).
 
 
 ### Specifieke MX-regels
@@ -71,40 +72,40 @@ MTA heeft zijn eigen MX regels die het toestaan om uw productie door domein aan 
 
 ### DKIM-ondertekening
 
-De Sleutels van het domein Identified Mail (DKIM) is een authentificatiemethode die wordt gebruikt om vervalste afzenderadressen (algemeen genoemd spoofing) te ontdekken.
+Domain Keys Identified Mail (DKIM) is een verificatiemethode waarmee vervalste afzenderadressen (vaak spoofing genoemd) worden gedetecteerd.
 
-In Adobe Campaign wordt DKIM ondertekenen van e-mailverificatie uitgevoerd door de MTA.
+In Adobe Campaign wordt de ondertekening van DKIM-e-mailverificatie uitgevoerd door de MTA.
 
-Meer informatie over DKIM in de [Handleiding voor beste praktijken bij de levering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#authentication){target="_blank"}.
+Leer meer op DKIM in de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## E-mailfeedbackservice {#email-feedback-service}
 
 Campagne Email Feedback Service (EFS) geeft aan wat de status is van elke e-maillevering die bij Adobe Campaign wordt verzonden.
 
-Wanneer de levering is gestart, is er geen wijziging in de **[!UICONTROL Success]** percentage wanneer het bericht met succes van Campagne aan MTA wordt afgelost. De leveringslogboeken tonen de **[!UICONTROL Taken into account by the service provider]** status voor elk gericht adres.
+Zodra de levering is begonnen, is er geen verandering in het **[!UICONTROL Success]** percentage wanneer het bericht met succes van Campagne aan MTA wordt afgelost. In de leveringslogboeken wordt de status **[!UICONTROL Taken into account by the service provider]** voor elk doeladres weergegeven.
 
-Wanneer het bericht werkelijk aan de gerichte profielen wordt geleverd en zodra deze informatie in real time van MTA wordt gemeld, tonen de leveringslogboeken **[!UICONTROL Sent]** status voor elk adres dat met succes het bericht ontving. De **[!UICONTROL Success]** het percentage wordt dienovereenkomstig verhoogd bij elke succesvolle levering.
+Wanneer het bericht werkelijk aan de gerichte profielen wordt geleverd en zodra deze informatie in echt - tijd van MTA wordt gemeld, tonen de leveringslogboeken de **[!UICONTROL Sent]** status voor elk adres dat met succes het bericht ontving. Het percentage **[!UICONTROL Success]** wordt dienovereenkomstig verhoogd bij elke succesvolle levering.
 
-Wanneer hard-bouncing berichten terug van MTA worden gemeld, verandert hun logboekstatus van **[!UICONTROL Taken into account by the service provider]** tot **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
+Wanneer hard-bouncing berichten van MTA worden gemeld, verandert hun logboekstatus van **[!UICONTROL Taken into account by the service provider]** in **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Wanneer de zachte die berichten terug van MTA worden gemeld, blijft hun logboekstatus onveranderd (**[!UICONTROL Taken into account by the service provider]**): alleen de [oorzaak van fout](delivery-failures.md#delivery-failure-reasons) is bijgewerkt<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. De **[!UICONTROL Success]** percentage blijft ongewijzigd. De zachte die berichten bewegen worden dan opnieuw geprobeerd door de levering [geldigheidsperiode](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=nl-NL#defining-validity-period){target="_blank"}:
+Wanneer de zachte-stuiterende berichten terug van MTA worden gemeld, blijft hun logboekstatus onveranderd (**[!UICONTROL Taken into account by the service provider]**): slechts wordt de [ foutenreden ](delivery-failures.md#delivery-failure-reasons) bijgewerkt <!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Het percentage **[!UICONTROL Success]** blijft ongewijzigd. De soft-bouncing berichten worden dan opnieuw geprobeerd door de levering [ geldigheidsperiode ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
 
-* Als een nieuwe poging is gelukt vóór het einde van de geldigheidsperiode, verandert de berichtstatus in **[!UICONTROL Sent]** en de **[!UICONTROL Success]** het percentage wordt dienovereenkomstig verhoogd.
+* Als het opnieuw proberen is gelukt vóór het einde van de geldigheidsperiode, verandert de berichtstatus in **[!UICONTROL Sent]** en wordt het **[!UICONTROL Success]** percentage dienovereenkomstig verhoogd.
 
-* Anders verandert de status in **[!UICONTROL Failed]**. De **[!UICONTROL Success]** <!--and **[!UICONTROL Bounces + errors]** -->percentage blijft ongewijzigd.
+* Anders verandert de status in **[!UICONTROL Failed]** . Het **[!UICONTROL Success]** <!--and **[!UICONTROL Bounces + errors]** --> percentage blijft onveranderd.
 
 >[!NOTE]
 >
->Zie voor meer informatie over harde en zachte golven [deze sectie](delivery-failures.md#delivery-failure-reasons).
+>Voor meer op harde en zachte grenzen, zie [ deze sectie ](delivery-failures.md#delivery-failure-reasons).
 >
->Voor meer informatie over pogingen na een tijdelijke mislukking van de levering, zie [deze sectie](delivery-failures.md#retries).
+>Voor meer op herpogingen na een tijdelijke mislukking van de levering, zie [ deze sectie ](delivery-failures.md#retries).
 
 De lijst toont hieronder hoe KPIs en het verzenden van logboekstatussen bij elke stap van het verzendende proces worden bijgewerkt.
 
 | Stap in het verzendende proces | KPI-overzicht | Status van logboeken verzenden |
 |--- |--- |--- |
-| Bericht wordt met succes van Campagne aan MTA afgelost | **[!UICONTROL Success]** percentage wordt niet weergegeven (begint bij 0%) | Door de dienstverlener in aanmerking genomen |
-| Fel-stuiterende berichten worden gemeld terug van MTA | Geen wijziging in **[!UICONTROL Success]** percentage | Mislukt |
-| De zachte die berichten bewegen worden gemeld terug van MTA | Geen wijziging in **[!UICONTROL Success]** percentage | Door de dienstverlener in aanmerking genomen |
-| Herhalingen van soft-bouncing berichten zijn succesvol | **[!UICONTROL Success]** percentage wordt dienovereenkomstig verhoogd | Verzonden |
-| Herhalingen van soft-bouncing berichten mislukken | Geen wijziging in **[!UICONTROL Success]** percentage | Mislukt |
+| Bericht wordt met succes van Campagne aan MTA afgelost | **[!UICONTROL Success]** percentage wordt niet weergegeven (begint bij 0%) | Door de dienstverlener in aanmerking genomen |
+| Fel-stuiterende berichten worden gemeld terug van MTA | Geen wijziging in **[!UICONTROL Success]** percentage | Mislukt |
+| De zachte die berichten bewegen worden gemeld terug van MTA | Geen wijziging in **[!UICONTROL Success]** percentage | Door de dienstverlener in aanmerking genomen |
+| Herhalingen van soft-bouncing berichten zijn succesvol | **[!UICONTROL Success]** percentage wordt dienovereenkomstig verhoogd | Verzonden |
+| Herhalingen van soft-bouncing berichten mislukken | Geen wijziging in **[!UICONTROL Success]** percentage | Mislukt |
