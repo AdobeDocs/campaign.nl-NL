@@ -25,7 +25,7 @@ U kunt tot ingebouwde rapporten van de homepage van de Campagne, het specifieke 
 
 Een lijst van zeer belangrijke rapporten is beschikbaar op de homepage en laat u tot leveringsgegevens snel toegang hebben. U kunt deze lijst naar wens wijzigen. U kunt ook leren hoe u uw eigen rapporten aan het tabblad **[!UICONTROL Reports]** kunt toevoegen.
 
-Voor meer informatie over deze douaneconfiguraties, verwijs naar deze [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html){target="_blank"}.
+Voor meer informatie over deze douaneconfiguraties, verwijs naar deze [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=nl-NL){target="_blank"}.
 
 
 ## Ingebouwde rapporten openen {#access-ootb-reports}
