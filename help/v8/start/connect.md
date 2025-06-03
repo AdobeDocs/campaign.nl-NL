@@ -39,7 +39,7 @@ Wanneer u Campagne voor de eerste keer gebruikt, moet u de Client Console downlo
 
 Er zijn twee opties beschikbaar om de clientconsole te downloaden:
 
-1. Als beheerder van de Campagne, verbind met de Distributie van de Software van Adobe [ ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}.
+1. Als beheerder van de Campagne, verbind met de Distributie van de Software van Adobe [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}.
 
 1. Als eindgebruiker, stelt uw beheerder van de Campagne de Console van de Cliënt voor u op, en stelt het beschikbaar door een specifieke URL.
 

@@ -20,7 +20,7 @@ Zodra configuratie wordt gedaan, wordt de gegevenssynchronisatie tussen systemen
 
 >[!NOTE]
 >
->De gesteunde versies van SFDC zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [ ](../start/compatibility-matrix.md).
+>De gesteunde versies van SFDC zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [&#128279;](../start/compatibility-matrix.md).
 
 Voer de onderstaande stappen uit om een speciale externe account te configureren voor het importeren en exporteren van Salesforce-gegevens naar Adobe Campaign.
 
@@ -40,7 +40,7 @@ Eerst moet u de externe Salesforce-account maken.
    * Voer uw Salesforce-wachtwoord in.
    * U kunt het veld **[!UICONTROL Client identifier]** negeren.
    * Salesforce kopiëren/plakken **[!UICONTROL Security token]**
-   * Selecteer de **[!UICONTROL API version]** . De gesteunde versies van SFDC API zijn vermeld in de matrijs van de Verenigbaarheid van de Campagne [ ](../start/compatibility-matrix.md).
+   * Selecteer de **[!UICONTROL API version]** . De gesteunde versies van SFDC API zijn vermeld in de matrijs van de Verenigbaarheid van de Campagne [&#128279;](../start/compatibility-matrix.md).
 
 1. Selecteer **toelaten** optie om de rekening in Campagne te activeren.
 

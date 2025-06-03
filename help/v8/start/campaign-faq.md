@@ -84,7 +84,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    U kunt het installatieprogramma en de clientconsole ophalen vanuit Adobe Download Center.
 
-   Als Admin gebruiker, heb toegang tot de Distributie van de Software van Adobe [ ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} om Adobe Campaign te downloaden.
+   Als Admin gebruiker, heb toegang tot de Distributie van de Software van Adobe [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}  om Adobe Campaign te downloaden.
 
    Leer meer over het Centrum van de Distributie [ in deze pagina ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
