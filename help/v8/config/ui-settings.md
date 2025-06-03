@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Leer hoe te om omslagen en meningen in [ te beheren deze pagina ](../audiences/f
 
 ## Lijsten beheren en aanpassen {#customize-lists}
 
-In de de cliëntconsole van de Campagne, worden de gegevens getoond in lijsten. U kunt deze lijsten aan uw behoeften aanpassen. U kunt bijvoorbeeld kolommen, filtergegevens, telrecords toevoegen, uw instellingen opslaan en delen.
+In de Console van de Cliënt van de Campagne, worden de gegevens getoond in lijsten. U kunt deze lijsten aan uw behoeften aanpassen. U kunt bijvoorbeeld kolommen, filtergegevens, telrecords toevoegen, uw instellingen opslaan en delen.
 
 Bovendien kunt u filters maken en opslaan.  Leer meer over filters in [ deze pagina ](../audiences/create-filters.md).
 
@@ -212,7 +212,7 @@ Voer de volgende stappen uit om een alias te maken:
 
 1. Sla uw wijzigingen op. De vervanging van waarden wordt uitgevoerd door het **Alias zuiverend** werkschema dat elke nacht wordt uitgevoerd. Verwijs naar [ gegevens van de Looppas zuiverend ](#running-data-cleansing).
 
-Voor alle gebieden die op deze opsomming worden gebaseerd, wanneer een gebruiker de waarde **Adobe** op een &quot;bedrijf&quot;gebied (in de de cliëntconsole van Adobe Campaign, in een Webvorm) ingaat, zal het automatisch door de waarde **Adobe** worden vervangen.
+Voor alle gebieden die op deze opsomming worden gebaseerd, wanneer een gebruiker de waarde **Adobe** op een &quot;bedrijf&quot;gebied (in de Console van de Cliënt van Adobe Campaign, in een Webvorm) ingaat, zal het automatisch door de waarde **Adobe** worden vervangen.
 
 #### Een onjuiste waarde omzetten in een alias{#convert-to-alias}
 

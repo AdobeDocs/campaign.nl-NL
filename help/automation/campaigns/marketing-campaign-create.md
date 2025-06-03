@@ -6,9 +6,9 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1298'
 ht-degree: 2%
 
 ---
@@ -159,14 +159,9 @@ Tijdens het bladeren door de kalender kunt u ook een programma of een campagne m
 Wanneer u een campagne maakt via het tabblad **[!UICONTROL Schedule]** van een programma, wordt de campagne automatisch gekoppeld aan het betreffende programma. Het veld **[!UICONTROL Program]** is in dit geval verborgen.
 
 
-## Campagne openen met een webbrowser {#use-the-web-interface}
+## De webinterface gebruiken {#use-the-web-interface-}
 
-
->[!AVAILABILITY]
->
->Campagne v8.6 starten, is Campagne beschikbaar in een webgebruikersinterface. De meeste marketing acties kunnen van deze nieuwe interface worden uitgevoerd. [Meer informatie](../../v8/start/campaign-ui.md#discover-the-user-interface).
-
-U hebt toegang tot enkele Adobe Campaign-clientconsoleschermen via een internetbrowser om alle campagnes en leveringen en rapporten en informatie over de profielen in uw database weer te geven. U kunt geen componenten maken van deze webtoegang, maar afhankelijk van toegangsrechten kunt u de gegevens in de database bekijken en/of bewerken. Doorgaans kunt u inhoud van de campagne goedkeuren en een levering opnieuw starten of stoppen, enzovoort.
+U kunt de Adobe Campaign Client Console-schermen openen via een internetbrowser om alle campagnes en leveringen, alsmede rapporten en informatie over de profielen in uw database weer te geven. Met deze toegang kunt u geen records maken. Afhankelijk van de rechten van de operator kunt u de gegevens in de database bekijken en/of bewerken. U kunt bijvoorbeeld de inhoud van de campagne goedkeuren, een levering opnieuw starten of stoppen, enzovoort.
 
 1. Meld u op de gebruikelijke manier aan via https://`<your instance>:<port>/view/home` .
 1. Via de menu&#39;s hebt u toegang tot de overzichten.
@@ -213,4 +208,4 @@ U kunt ook de koppeling gebruiken die zich in de meldingen bevindt. Raadpleeg [d
 
 In deze video ziet u hoe u een marketingplan, programma&#39;s en campagnes kunt maken.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449907?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

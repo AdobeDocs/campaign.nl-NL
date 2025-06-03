@@ -2,7 +2,7 @@
 title: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 description: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -25,9 +25,9 @@ Deze wijziging heeft invloed op:
 
 ## Wanneer vindt deze upgrade plaats?{#aws-timeline}
 
-De ontwikkeling en het opvoeren van milieu&#39;s die binnen begonnen zijn **Oktober 2023**.
+De ontwikkeling en het opvoeren milieu&#39;s upgrades begonnen in **Oktober 2023**.
 
-De productomgevingen die in **januari 2024**.
+De verbeteringen van de productiemilieu&#39;s begonnen in **Januari 2024**.
 
 ## Wat te verwachten?{#impact}
 
@@ -37,29 +37,29 @@ De productomgevingen die in **januari 2024**.
 
 ## Veelgestelde vragen {#aws-faq}
 
-* **Is dit verplicht?**
+* **is deze upgrade verplicht?**
 
   Ja. Als Campagneklant vereist uw functie voor het verzenden van e-mail het gebruik van een infrastructuur voor het verzenden van e-mail.
 
-* **Welke klanten worden gericht voor deze verbetering?**
+* **welke klanten voor deze verbetering worden gericht?**
 
   Alle hierboven genoemde klanten van de Campagne zullen hun milieu&#39;s hebben bevorderd.
 
-* **Wat is de verwachte onderbreking?**
+* **wat is de verwachte onderbreking?**
 
   De lengte van elke verbeteringsgolf kan afhankelijk van het aantal beïnvloede instanties van de Campagne variëren. Wanneer een golf van de productiereupgrade gepland is, zal het bericht een geschatte duur omvatten.
 
-* **Zijn er acties die door de klant voor verbetering worden vereist?**
+* **zijn er om het even welke acties die door de klant voor verbetering worden vereist?**
 
-  Er is geen actie vereist. Adobe zal het verbeteringsproces beheren, dat automatisch zal lopen.
+  Er is geen actie vereist. Adobe beheert het upgradeproces, dat automatisch wordt uitgevoerd.
 
-* **Welke tests worden vereist door de klanten?**
+* **wat het testen door de klanten wordt vereist?**
 
-  Wij verwachten geen tests door klanten in verband met deze upgradegebeurtenis. Indien een probleem wordt vastgesteld, kunt u contact opnemen met [Klantenservice Adoben](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
+  Wij verwachten geen tests door klanten in verband met deze upgradegebeurtenis. Voor het geval om het even welke kwestie wordt waargenomen, te bereiken gelieve uit [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
-* **Kan ik om een verandering in Datum/Tijd in de geplande groef van de veiligheidsverbetering verzoeken?**
+* **kan ik om een verandering in Datum/Tijd aan de geplande groef van de veiligheidsverbetering verzoeken?**
 
   Nee. Wij kunnen om het even welke gevraagde wijzigingen in het bestaande programma aanpassen aangezien dit waarschijnlijk de toegewezen verbeteringsgebeurtenis voor een andere klant zal verstoren.
 
-Voor elke andere vraag kunt u zich tot [Klantenservice Adoben](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
+Voor een andere vraag, kunt u uit aan [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"} bereiken.

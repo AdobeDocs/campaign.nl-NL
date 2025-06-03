@@ -5,10 +5,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
 workflow-type: tm+mt
 source-wordcount: '1581'
-ht-degree: 38%
+ht-degree: 37%
 
 ---
 
@@ -29,7 +29,7 @@ _vrijdag 28 oktober 2021_
 <tbody>
 <tr>
 <td>
-<p>Interactiebeheer in real time is nu beschikbaar voor binnenkomende kanalen. De module van de Interactie van de Campagne van het gebruik binnenkomende om de beste aanbieding aan uw klanten voor te stellen aangezien zij uw website bezoeken of uit naar uw vraagcentrum bereiken. Dit vermogen komt met Campagne v8 als optie en vereist specifieke configuratie op uw instantie. Bereid uit aan uw vertegenwoordiger van de Adobe om toegang tot de Binnenkomende module van de Interactie te hebben.</p>
+<p>Interactiebeheer in real time is nu beschikbaar voor binnenkomende kanalen. De module van de Interactie van de Campagne van het gebruik binnenkomende om de beste aanbieding aan uw klanten voor te stellen aangezien zij uw website bezoeken of uit naar uw vraagcentrum bereiken. Dit vermogen komt met Campagne v8 als optie en vereist specifieke configuratie op uw instantie. Vraag uw Adobe-medewerker om toegang tot de module Binnenkomende interactie.</p>
 <p>Raadpleeg de <a href="../interaction/interaction-architecture.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -45,7 +45,7 @@ _vrijdag 28 oktober 2021_
 <tbody> 
 <tr> 
 <td> <p>De module Campagne optimaliseren is nu beschikbaar. Met deze module kunt u het verzenden van leveringen beheren, filteren en controleren. Om conflicten tussen campagnes te vermijden kan Adobe Campaign diverse combinaties testen door specifieke beperkingsregels toe te passen. Dit garandeert dat de verzonden berichten voldoen aan de behoeften en verwachtingen van klanten en het communicatiebeleid van het bedrijf.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=nl-NL#campaign-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html#campaign-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -90,14 +90,14 @@ _vrijdag 28 oktober 2021_
 * Probleem opgelost waarbij e-mailleveringen met zaadadressen niet konden worden verzonden.
 * Probleem verholpen waardoor voorstellen niet konden worden opgeslagen in de tabel met aanbiedingsvoorstellen.
 * Er is een probleem opgelost waarbij netwerktime-outproblemen ten onrechte werden vastgelegd als scriptonderbrekingsproblemen in plaats van netwerkfouten. Dit probleem is opgetreden in het geval van HTTP-aanvragen die in JavaScript-activiteiten zijn opgenomen.
-* Probleem verholpen waarbij aanbiedingen niet konden worden gerepliceerd naar de live aanbiedingsomgeving op Snowflake.
+* Probleem opgelost waarbij aanbiedingen niet konden worden gerepliceerd naar de live aanbiedingsomgeving op Snowflake.
 * Probleem opgelost waarbij het kenmerk &#39;autoStg&#39; voor niet-uitgebreide ingebouwde schema&#39;s werd genegeerd.
 * Probleem verholpen waardoor gebruikers de koppeling **[!UICONTROL Country/Region]** niet konden selecteren bij het voorvertonen van een profiel.
 * Probleem verholpen waarbij de datepicker in aangepaste rapporten tot een scriptfout leidde. (NEO-36345)
 * Er is een probleem opgelost waardoor het systeem crashte bij het opnieuw genereren van de configuratie in geval van beschadigde configuratiebestanden.
 * Probleem verholpen waardoor de upgrade van de marketing- en besturingsinstanties niet kon worden voltooid.
 * Er is een probleem opgelost waardoor de factureringsworkflow kon crashen op marketinginstanties.
-* Probleem verholpen dat tot dubbele sleutels in FFDA Snowflake uit-van-de-doos lijsten kon leiden. (NEO-38583)
+* Probleem verholpen dat tot dubbele sleutels in FFDA Snowflake buiten-de-doos lijsten kon leiden. (NEO-38583)
 * Probleem verholpen waarbij tijdelijke workflowschema&#39;s verloren zouden kunnen gaan wanneer twee deduplicatieactiviteiten achterelkaar werden bewerkt. (NEO-34063)
 * Er is een probleem opgelost dat onjuiste resultaten opleverde bij het uitvoeren van de Amazon Redshift HoursDiff- en MinutesDiff-functies tijdens het extraheren van de tijdcomponent.(NEO-31673)
 * Probleem verholpen waardoor gebruikers zich niet konden aanmelden bij de console vanwege een probleem met de proxyconfiguratie. (NEO-38388)
@@ -115,16 +115,16 @@ _7 september 2021_
 
 **Verbeteringen**
 
-* Na het eind van zijn gebruiksduur is Flash verwijderd uit alle verwante Campaign-functies en onderdelen, en vervangen door HTML5. Het diagramtype **Gauge** is verwijderd. (NEO-30330) [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=nl-NL)
-* Wanneer u de clientconsole in Windows installeert, controleert het installatieprogramma nu of er een bovenliggend registerknooppunt is, en zo niet, dan wordt er een gemaakt. Hiermee voorkomt u potentiële problemen wanneer u de console start. (NEO-34854)
-* De functie voor het bijhouden van handtekeningen is verbeterd om fouten te voorkomen die gekoppeld zijn aan tools van derden (klant-e-mail, internetbrowsers, enz.) speciale tekens gebruiken. URL-parameters zijn nu gecodeerd.
+* Na het eind van zijn gebruiksduur is Flash verwijderd uit alle verwante Campaign-functies en onderdelen, en vervangen door HTML5. Het diagramtype **Gauge** is verwijderd. (NEO-30330) [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html)
+* Wanneer u de clientconsole in Windows installeert, controleert het installatieprogramma nu of er een bovenliggend registerknooppunt is en wordt er een gemaakt als dit knooppunt ontbreekt. Hiermee voorkomt u potentiële problemen wanneer u de console start. (NEO-34854)
+* De functie voor het bijhouden van handtekeningen is verbeterd om fouten te voorkomen met de manier waarop tools van derden (klant-e-mail, internetbrowsers, enz.) speciale tekens verwerken. URL-parameters zijn nu gecodeerd.
 
 **Andere wijzigingen**
 
-* Eerder vervangen Microsoft CRM-connectors (Office 365 en on-premise implementaties) zijn verwijderd uit de interface. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=nl-NL#configure-acc-for-microsoft)
+* Eerder vervangen Microsoft CRM-connectors (Office 365 en on-premise implementaties) zijn verwijderd uit de interface. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * Na de migratie aan Tomcat 8 is het IIS-instellingenscript bijgewerkt om IIS-integratiekwesties te bevestigen. (NEO-31019)
-* Er is een veiligheidsbarrière toegevoegd waarmee alleen de [technische workflow voor facturering](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=nl-NL#billing-report) op de marketingversie kan worden uitgevoerd.
+* Er is een veiligheidsbarrière toegevoegd waarmee alleen de [technische workflow voor facturering](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html#billing-report) op de marketingversie kan worden uitgevoerd.
 * De identificatie van de databron is verbeterd in de gegevens- en schematabbladen van het venster **Populatie weergeven** van de workflowtransities.
 * Ontbrekende database-indexen zijn toegevoegd aan de volgende schema&#39;s om problemen met database-updates te voorkomen: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 

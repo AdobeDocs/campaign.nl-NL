@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -16,30 +16,30 @@ ht-degree: 0%
 
 # Bekende problemen{#known-issues}
 
-Deze pagina bevat een lijst met bekende problemen die zijn geïdentificeerd in het dialoogvenster **nieuwste release van Campagne v8**. Bovendien worden de beperkingen die bij Campagne v8 worden geleverd, vermeld [op deze pagina](ac-guardrails.md).
+Deze pagina maakt een lijst van bekende kwesties die in de **recentste Versies van de Campagne v8** worden geïdentificeerd. Bovendien worden de beperkingen die met Campagne v8 komen vermeld [ in deze pagina ](ac-guardrails.md).
 
 
 >[!NOTE]
 >
->Adobe publiceert deze lijst van bekende problemen naar eigen goeddunken. Het is gebaseerd op het aantal klantenrapporten, de strengheid, en de tijdelijke beschikbaarheid. Als een probleem dat u tegenkomt niet in de lijst voorkomt, voldoet het mogelijk niet aan de criteria voor publicatie op deze pagina.
+>Adobe publiceert deze lijst met bekende problemen naar eigen goeddunken. Het is gebaseerd op het aantal klantenrapporten, de strengheid, en de tijdelijke beschikbaarheid. Als een probleem dat u tegenkomt niet in de lijst voorkomt, voldoet het mogelijk niet aan de criteria voor publicatie op deze pagina.
 
 ## Campagne v8.3.8{#8.3-issues}
 
-### Probleem met gegevensbronactiviteit wijzigen {#issue-2}
+### Probleem met Source-activiteit voor gegevens wijzigen {#issue-2}
 
 #### Beschrijving{#issue-2-desc}
 
-Bij het injecteren van gegevens in de wolkengegevensbestand van de Snowflake met een Campagne **Query** en **Gegevensbron wijzigen** activiteit, ontbreekt het proces wanneer een backslash karakter in de gegevens aanwezig is. De brontekenreeks wordt niet beschermd en gegevens worden niet correct verwerkt op de Snowflake.
+Wanneer het injecteren van gegevens in het wolkengegevensbestand van Snowflake met een Campagne **Vraag** en de activiteit van de Gegevens van de a **Verandering Source**, ontbreekt het proces wanneer een backslash karakter in de gegevens aanwezig is. De brontekenreeks wordt niet gewist en gegevens worden niet correct verwerkt op Snowflake.
 
-Dit probleem doet zich alleen voor als de backslash het einde van een tekenreeks is, bijvoorbeeld: `Barker\`.
+Dit probleem doet zich alleen voor als de backslash het einde van een tekenreeks is, bijvoorbeeld: `Barker\` .
 
 
 #### Reproductiestappen{#issue-2-repro}
 
 1. Maak verbinding met de clientconsole en maak een workflow.
-1. Voeg een **Query** activiteit en vorm het.
+1. Voeg de activiteit van de a **Vraag** toe en vorm het.
 1. Selecteer gegevens met de hierboven beschreven kenmerken.
-1. Voeg een **Gegevensbron wijzigen** activiteit en vorm het om de wolkengegevensbestand van de Snowflake te selecteren.
+1. Voeg de activiteit van de Gegevens van de a **Verandering Source** toe en vorm het om de wolkengegevensbestand van Snowflake te selecteren.
 1. Voer de workflow uit en controleer de logboeken van de workflow om de fout te zien.
 
 
@@ -65,15 +65,15 @@ Referentie: NEO-45549
 
 #### Beschrijving{#issue-3-desc}
 
-Wanneer u een bestand uploadt naar een Campagneserver met een **Gegevens laden (bestand)** het proces stopt bij 100% maar eindigt nooit.
+Wanneer het uploaden van een dossier op de server van de Campagne met het laden van a **Gegevens (dossier)** activiteit, de proceseinden bij 100% maar nooit beëindigt.
 
 #### Reproductiestappen{#issue-3-repro}
 
 1. Maak verbinding met de clientconsole en maak een workflow.
-1. Voeg een **Gegevens laden (bestand)** activiteit en vorm het.
-1. Selecteer de **Uploaden op server** -optie.
+1. Voeg het laden van a **Gegevens (dossier)** activiteit toe en vorm het.
+1. Selecteer **uploaden op server** optie.
 1. Selecteer het bestand op uw lokale computer.
-1. Klikken **Uploaden**
+1. Klik **uploaden**
 
 
 #### Foutbericht{#issue-3-error}
@@ -82,13 +82,13 @@ Het proces eindigt nooit.
 
 #### Workaround{#issue-3-workaround}
 
-De oplossing is om een oudere cliëntconsole te gebruiken. Vervolgens kunt u het bestand uploaden naar de server.
+De oplossing is het gebruik van een oudere clientconsole. Vervolgens kunt u het bestand uploaden naar de server.
 
-Als beheerder van de Campagne kunt u Campagne v8.3.1 cliëntconsole in downloaden [Softwaredistributie Adoben](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;layout by.sort=desc=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
+Als beheerder van de Campagne, kunt u Campagne v8.3.1 de Console van de Cliënt in [ de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;layout by.sort=desc=list&amp;p.offset=0&amp;p.limit=4){target="_blank"} downloaden.
 
-Leer hoe u toegang krijgt tot Adobe Software Distribution [op deze pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=nl-NL){target="_blank"}.
+Leer hoe te om tot de Distributie van de Software van Adobe [ in deze pagina ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"} toegang te hebben.
 
-Leer hoe u uw clientconsole kunt upgraden [op deze pagina](connect.md)
+Leer hoe te om uw Console van de Cliënt [ in deze pagina te bevorderen ](connect.md)
 
 #### Interne referentie{#issue-3-ref}
 

@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 19f85d4e19f756d8a45ce5364dd0601373128f50
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 1%
@@ -29,11 +29,11 @@ In Adobe Campaign, zijn de gebruikers **exploitanten** en **exploitantgroepen** 
 
 ## Belangrijke stappen om machtigingen te verlenen{#key-steps-permissions}
 
-Als productbeheerder, kunt u toestemmingen aan de gebruikers van uw organisatie verlenen. De toestemmingen worden verleend door Adobe Admin Console en de cliëntconsole van de Campagne. Gebruikers melden zich aan bij Adobe Campaign met hun Adobe ID. Leer hoe te met Adobe Campaign in [ te verbinden deze pagina ](connect.md).
+Als productbeheerder, kunt u toestemmingen aan de gebruikers van uw organisatie verlenen. Machtigingen worden verleend via Adobe Admin Console en Campagne Client Console. Gebruikers melden zich aan bij Adobe Campaign met hun Adobe ID. Leer hoe te met Adobe Campaign in [ te verbinden deze pagina ](connect.md).
 
 De belangrijkste stappen zijn:
 
-* **Stap 1**: Bepaal uw exploitantgroepen en wijs hen toestemmingen in de cliëntconsole van de Campagne toe. [ leer meer ](manage-permissions.md#create-product-profile).
+* **Stap 1**: Bepaal uw exploitantgroepen en wijs hen toestemmingen in de Console van de Cliënt van de Campagne toe. [ leer meer ](manage-permissions.md#create-product-profile).
 U kunt ook ingebouwde groepen operatoren gebruiken om mee te beginnen. Deze standaardgroepen, en hun toestemmingen, zijn vermeld in [ deze sectie ](manage-permissions.md#ootb-productprofiles).
 * **Stap 2**: Creeer productprofielen in Adobe Admin Console die met die groepen aanpassen. [ leer meer ](manage-permissions.md#create-product-profile).
 U kunt ingebouwde productprofielen gebruiken om met te beginnen. [Meer informatie](manage-permissions.md#ootb-productprofiles).
@@ -52,7 +52,7 @@ Leer hoe te om gebruikers in [ toe te voegen deze pagina ](manage-permissions.md
 
 Productprofielen zijn groepen producten en services die u aan gebruikers kunt toewijzen. In Adobe Experience Cloud zijn machtigingen gebaseerd op het profiel van een product, niet op de gebruiker. U kunt beheerrechten echter wel delegeren aan bepaalde gebruikers.
 
-In Admin Console, wordt elk Adobe Experience Cloud **productprofiel** voor Campagne geassocieerd aan een **exploitantgroep** in de cliëntconsole van de Campagne.
+In Admin Console, wordt elk Adobe Experience Cloud **productprofiel** voor Campagne geassocieerd aan een **exploitantgroep** in de Console van de Cliënt van de Campagne.
 
 Leer om productprofielen in [ tot stand te brengen en toe te wijzen deze pagina ](manage-permissions.md#create-a-product-profile).
 

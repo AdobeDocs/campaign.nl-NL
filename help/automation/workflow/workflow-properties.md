@@ -4,7 +4,7 @@ title: Workfloweigenschappen
 description: Meer informatie over de eigenschappen van de Campagneworkflow
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: d31040885ec45068d70a7d4c0b481269c8af7a33
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 1%
@@ -86,6 +86,6 @@ Deze sectie wordt alleen weergegeven in workflows voor campagnes.
 
   ![](assets/wf-properties_select-supervisors.png)
 
-  Het standaardmalplaatje **[!UICONTROL Notification to a workflow supervisor]** omvat een verbinding voor de toegang tot van de de cliëntconsole van Adobe Campaign via het Web zodat de ontvanger aan de kwestie kan werken zodra zij het programma worden geopend.
+  De standaardsjabloon van **[!UICONTROL Notification to a workflow supervisor]** bevat een koppeling voor toegang tot de Adobe Campaign Client Console via het web, zodat de ontvanger aan de uitgave kan werken zodra deze is aangemeld.
 
   Ga naar **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]** als u een gepersonaliseerde sjabloon wilt maken.

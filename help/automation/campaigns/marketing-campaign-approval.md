@@ -6,9 +6,9 @@ feature: Approvals, Campaigns
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2279'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Als een lijst met revisoren is gedefinieerd, wordt een taak goedgekeurd wanneer 
 
 ## Leveringen controleren en goedkeuren {#review-and-approve-deliveries}
 
-Voor elke campagne kunt u het leveringsdoel, [ leveringsinhoud ](#approving-content) en kosten goedkeuren. Adobe Campaign-operatoren die met de goedkeuring zijn belast, kunnen via e-mail op de hoogte worden gesteld en de goedkeuring van de clientconsole of via een webbrowser accepteren of afwijzen. [Meer informatie](#approving-processes).
+Voor elke campagne kunt u het leveringsdoel, [ leveringsinhoud ](#approving-content) en kosten goedkeuren. Adobe Campaign-operatoren die met de goedkeuring zijn belast, kunnen via e-mail op de hoogte worden gesteld en kunnen goedkeuring van de clientconsole of via een webverbinding accepteren of afwijzen. [Meer informatie](#approving-processes).
 
 Voor directe postleveringen, kunnen de exploitanten van Adobe Campaign het extractiedossier bekijken alvorens het naar de router wordt verzonden, en indien nodig kunnen zij het formaat veranderen en extractie opnieuw lanceren. [Meer informatie](#approve-an-extraction-file).
 
@@ -104,7 +104,7 @@ Wanneer deze validatiefasen zijn voltooid, kan de levering worden gestart. [Meer
 
 ### Stappen om een levering goed te keuren {#approving-processes}
 
-De stappen waarvoor goedkeuring is vereist, worden weergegeven op het campagnemdashboard (via de clientconsole of een webbrowser). Zij verschijnen ook in de levering volgende lijst en op het leveringsdashboard.
+De stadia die goedkeuring vereisen verschijnen op het campagnemashboard (via de Console van de Cliënt of de Webinterface). Zij verschijnen ook in de levering volgende lijst en op het leveringsdashboard.
 
 ![](assets/delivery-approval-actions.png)
 
@@ -166,7 +166,7 @@ Het is mogelijk om een cyclus van de inhoudsgoedkeuring te vormen. Selecteer hie
 
    * via het bericht e-mail: bevat het bericht e-mail een verbinding aan de reeds verzonden proeven, en misschien aan een teruggeven van het bericht voor de diverse webmails als **toe:voegen-op van de Leverbaarheid** voor deze instantie wordt toegelaten.
 
-   * via de clientconsole of een webbrowser, het bijhouden van de levering, het leveringsdashboard of het campagnemdashboard. In dit campagnemdashboard kunt u de lijst met proefdrukken weergeven die zijn verzonden door op de koppeling **[!UICONTROL Inbox rendering...]** te klikken. Als u hun inhoud wilt weergeven, klikt u op het pictogram **[!UICONTROL Detail]** rechts van de lijst.
+   * via de clientconsole of webinterface, het bijhouden van de levering, het bezorgdashboard of het campagnemdashboard. In dit campagnemdashboard kunt u de lijst met proefdrukken weergeven die zijn verzonden door op de koppeling **[!UICONTROL Inbox rendering...]** te klikken. Als u hun inhoud wilt weergeven, klikt u op het pictogram **[!UICONTROL Detail]** rechts van de lijst.
 
 1. Aan de voor de campagne verantwoordelijke persoon wordt een meldingsbericht gezonden waarin deze wordt meegedeeld of de inhoud al dan niet is goedgekeurd. De persoon die verantwoordelijk is voor de campagne kan de cyclus voor het goedkeuren van inhoud op elk gewenst moment opnieuw starten. Klik hiertoe op de koppeling op de regel **[!UICONTROL Content status]** van het campagnemdashboard (op leveringsniveau) en klik vervolgens op **[!UICONTROL Reset content approval to submit it again]** .
 
@@ -200,7 +200,7 @@ Met deze optie kunt u een externe operator definiëren die verantwoordelijk is v
 1. De externe contentmanager ontvangt een bericht via e-mail waarin wordt gemeld dat de inhoud is goedgekeurd en waarmee externe goedkeuring wordt aangevraagd.
 1. Het e-mailbericht bevat koppelingen naar de verzonden proefdrukken, waarmee u rendering van de levering kunt weergeven en een knop voor het goedkeuren of afwijzen van de leveringsinhoud.
 
-Deze koppelingen zijn alleen beschikbaar als een of meer proefdrukken zijn verzonden. Anders is rendering van levering alleen beschikbaar via de clientconsole of een webbrowser.
+Deze koppelingen zijn alleen beschikbaar als een of meer proefdrukken zijn verzonden. Anders is rendering van levering alleen beschikbaar via de clientconsole of de webinterface.
 
 ### Een extractiebestand goedkeuren {#approve-an-extraction-file}
 
@@ -220,7 +220,7 @@ Taken kunnen worden goedgekeurd op het campagnemdashboard, op het tabblad voor h
 
 ### Goedkeuren in het dashboard {#approval-via-the-dashboard}
 
-Als u een taak wilt goedkeuren via de clientconsole of via een webbrowser, klikt u op de desbetreffende koppeling op het campagnemdashboard.
+Als u een taak wilt goedkeuren via de clientconsole of de webinterface, klikt u op de desbetreffende koppeling op het campagnemdashboard.
 
 Als bijvoorbeeld de afleveringsanalyse is uitgevoerd:
 
@@ -308,7 +308,7 @@ De inhoud van e-mailberichten voor meldingen kan worden aangepast. Zie [ inhoud 
 
 ### Melding in-/uitschakelen {#enabling-disabling-notification}
 
-Door gebrek, worden de berichtberichten verzonden als de goedkeuring van de verwante baan in het campagnemalplaatje, de campagne, of de levering wordt toegelaten. Meldingen kunnen echter worden uitgeschakeld om alleen goedkeuringen van de clientconsole te kunnen autoriseren.
+Door gebrek, worden de berichtberichten verzonden als de goedkeuring van de verwante baan in het campagnemalplaatje, de campagne, of de levering wordt toegelaten. Meldingen kunnen echter alleen worden uitgeschakeld als u goedkeuringen van de clientconsole wilt autoriseren.
 
 Hiervoor bewerkt u het goedkeuringsvenster van de sjabloon voor de campagne of de campagne ( **[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign parameters...]** > **[!UICONTROL Approvals]** ) en selecteert u **[!UICONTROL Do not enable notification sending]** .
 

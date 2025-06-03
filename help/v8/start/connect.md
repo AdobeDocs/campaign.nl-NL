@@ -1,20 +1,22 @@
 ---
-title: Verbinden met Campagne met de cliëntconsole
-description: Leer hoe u de Campagne-clientconsole op uw computer installeert en verbinding maakt met Adobe Campaign
+title: Verbinding maken met Campagne v8
+description: Leer hoe u verbinding maakt met Adobe Campaign v8 en de console op uw computer installeert voor eenvoudige toegang.
 feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '1006'
 ht-degree: 2%
 
 ---
 
-# Verbinden met Campagne met de cliëntconsole{#gs-ac-connect}
+# Verbinding maken met Adobe Campaign v8{#gs-ac-connect}
 
-Om met Campagne met de cliëntconsole te verbinden, moet u het eerst installeren en vormen.
+Als u wilt gaan werken met Campagne, moet u de Client Console installeren en configureren.
+
+De clientconsole is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. De Console van de Cliënt van de campagne centraliseert alle mogelijkheden en montages, en vereist minimale bandbreedte aangezien het op een lokaal geheime voorgeheugen baseert. Campagne Client Console is ontworpen voor eenvoudige implementatie en kan worden geïmplementeerd vanuit een internetbrowser, automatisch worden bijgewerkt. Hiervoor is geen specifieke netwerkconfiguratie nodig omdat alleen HTTP(S)-verkeer wordt gegenereerd.
 
 Voordat u begint, moet u:
 
@@ -23,31 +25,25 @@ Voordat u begint, moet u:
 * Maak je Adobe ID of ontvang je gebruikersgegevens van je bedrijf
 * Installeer de Microsoft Edge Webview2-runtime op uw systeem. [Meer informatie](#webview)
 
-
->[!NOTE]
->
->U kunt ook via een webbrowser verbinding maken met de gebruikersinterface van Campagne Web. Leer meer over het nieuwe Gebruikersinterface van het Web van de Campagne in [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"} .
-
-
 ## De clientconsole installeren{#download-ac-console}
 
 ### Microsoft Edge Webview2-runtime {#webview}
 
-Vanuit Campaign Classic 8.4 is de installatieversie van Microsoft Edge Webview 2 runtime vereist voor elke installatie van de clientconsole.
+Vanuit Campaign Classic 8.4-versie is de installatie van Microsoft Edge Webview 2-runtime vereist voor elke installatie van de clientconsole.
 
-De webweergave wordt standaard geïnstalleerd als onderdeel van het besturingssysteem Windows 11. Als het niet reeds op uw systeem aanwezig is, zal het programma van de de cliëntconsole van de Campagne u ertoe aanzetten om het van [ de website van de Ontwikkelaar van Microsoft ](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}  te downloaden. De downloadkoppeling werkt niet in Internet Explorer 11, omdat Microsoft de ondersteuning heeft vervangen. Zorg ervoor dat u een andere browser gebruikt om de koppeling te openen.
+De webweergave wordt standaard geïnstalleerd als onderdeel van het besturingssysteem Windows 11. Als het niet reeds op uw systeem aanwezig is, zal het de installatieprogramma van de Console van de Campagne u ertoe aanzetten om het van [ Microsoft Developer website ](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"} te downloaden. De downloadkoppeling werkt niet in Internet Explorer 11, omdat Microsoft de ondersteuning heeft vervangen. Zorg ervoor dat u een andere browser gebruikt om de koppeling te openen.
 
 ### De console downloaden{#install-ac-console}
 
-Wanneer u Campagne voor het eerst gebruikt, moet u de clientconsole downloaden en installeren.
+Wanneer u Campagne voor de eerste keer gebruikt, moet u de Client Console downloaden en installeren.
 
 Er zijn twee opties beschikbaar om de clientconsole te downloaden:
 
-1. Als beheerder van de Campagne, verbind met de Distributie van de Software van de Adobe [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"} .
+1. Als beheerder van de Campagne, verbind met de Distributie van de Software van Adobe [ ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}.
 
-1. Als eindgebruiker, stelt uw beheerder van de Campagne de cliëntconsole voor u op, en stelt het beschikbaar door een specifieke URL.
+1. Als eindgebruiker, stelt uw beheerder van de Campagne de Console van de Cliënt voor u op, en stelt het beschikbaar door een specifieke URL.
 
-Wanneer het installatieprogramma van de clientconsole is gedownload, installeert u dit op uw lokale computer.
+Nadat het installatieprogramma van de clientconsole is gedownload, installeert u dit op uw lokale computer.
 
 U kunt de taal van de clientconsole niet wijzigen nadat u deze hebt geïnstalleerd.
 
@@ -75,7 +71,7 @@ U kunt zo veel verbindingen toevoegen als u nodig hebt om bijvoorbeeld verbindin
 
 ## Aanmelden bij Adobe Campaign {#logon-to-ac}
 
-Campagnegebruikers maken via hun Adobe ID verbinding met de Adobe Campaign-console, via Adobe Identity Management System (IMS). Zij kunnen zelfde identiteitskaart alle oplossingen van de Adobe gebruiken. De verbinding wordt bewaard wanneer het gebruiken van Adobe Campaign met andere oplossingen. Leer meer over Adobe IMS in [ deze pagina ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} .
+Campagnegebruikers maken via hun Adobe ID verbinding met de Adobe Campaign-console via Adobe Identity Management System (IMS). Ze kunnen dezelfde id gebruiken voor alle Adobe-oplossingen. De verbinding wordt bewaard wanneer het gebruiken van Adobe Campaign met andere oplossingen. Leer meer over Adobe IMS in [ deze pagina ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 
 Volg onderstaande stappen om u aan te melden bij een instantie:
 
@@ -95,11 +91,11 @@ U kunt zich vervolgens aanmelden bij Campagne met uw Adobe ID.
 >
 >Aangezien Microsoft Edge Webview2 geen volmachtsgeloofsbrieven opslaat, kan de Console u vragen om tweemaal bij uw eerste verbinding voor authentiek te verklaren.
 
-## Upgrade uw clientconsole uitvoeren{#upgrade-ac-console}
+## Uw clientconsole upgraden{#upgrade-ac-console}
 
-Wanneer uw systeem naar een nieuwere versie wordt geüpgraded, moet u uw cliëntconsole aan die zelfde versie bijwerken. Dit is een beste praktijk, en voor sommige versies is deze verbetering verplicht. In dat geval, wordt het vermeld in de [ Nota&#39;s van de Versie ](release-notes.md).
+Wanneer uw systeem is bijgewerkt naar een nieuwere versie, moet u de clientconsole bijwerken naar dezelfde versie. Dit is een beste praktijk, en voor sommige versies is deze verbetering verplicht. In dat geval, wordt het vermeld in de [ Nota&#39;s van de Versie ](release-notes.md).
 
-Als Beheerde gebruiker van Cloud Servicen, stelt de Adobe de cliëntconsole voor u op. Wanneer u verbinding maakt met uw geüpgrade omgeving, wordt u gevraagd om de meest recente versie van de clientconsole te downloaden in een pop-upvenster. U moet deze upgrade accepteren en de clientconsole naar wens bijwerken.
+Als gebruiker van Managed Cloud Services implementeert Adobe de Client Console voor u. Wanneer u verbinding maakt met uw geüpgrade omgeving, wordt u gevraagd om de nieuwste versie van de clientconsole te downloaden in een pop-upvenster. U moet deze upgrade accepteren en de clientconsole naar wens bijwerken.
 
 >[!CAUTION]
 >
@@ -121,20 +117,20 @@ Leer meer over gebruikers en hoe te om hun toestemmingen in [ te bepalen deze se
 
 ### Webgebruikersinterface {#connect-web-ui}
 
-De aanvang van de Versie van Campagne v8.6, hebt u toegang tot het nieuwe **de gebruikersinterface van het Web van de Campagne**, beschikbaar door het centrale milieu van Adobe Experience Cloud. Experience Cloud is de geïntegreerde familie van digitale marketingtoepassingen, producten en diensten van de Adobe. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services.
+De aanvang van de Versie van Campagne v8.6, hebt u toegang tot het nieuwe **de gebruikersinterface van het Web van de Campagne**, beschikbaar door het centrale milieu van Adobe Experience Cloud. Experience Cloud is een geïntegreerde Adobe-reeks met digitale marketingtoepassingen, producten en services. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services.
 
 >[!AVAILABILITY]
 >
->De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Identity Management van de Adobe (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} .
+>De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 >
 
 Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [ in deze pagina ](campaign-ui.md#ac-web-ui) toegang te hebben.
 
-Leer meer in de [ gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home){target="_blank"} .
+Leer meer in de [ gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
 ### Webtoegang {#web-access}
 
-Bepaalde delen van de toepassing zijn toegankelijk via een webbrowser met behulp van een HTML-gebruikersinterface: rapportage, goedkeuring van levering, controle van instanties en meer.
+Bepaalde delen van de toepassing zijn toegankelijk via een webbrowser via een HTML-gebruikersinterface: rapportage, goedkeuring van levering, controle van instanties en meer.
 
 De toegang van het Web verstrekt een interface die aan de console maar met een verminderde reeks functionaliteiten gelijkaardig is.
 

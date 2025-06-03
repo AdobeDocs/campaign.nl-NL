@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 6926d84576df1810b511ef1a9976593cb99585bb
+source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,21 @@ Adobe Campaign-componenten en algemene architectuur worden hieronder beschreven.
 
 ![](assets/do-not-localize//ac-components.png)
 
+### Presentatielaag{#presentation-layer}
 
+U kunt toegang krijgen tot Adobe Campaign via een rijke client, een dunne client of API-integratie.
+
+* Rijke client
+
+  Campagne Rich-client is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. [ Leer meer over de Console van de Cliënt van de Campagne ](../start/connect.md).
+
+* Dunne client
+
+  Met Adobe Campaign-mogelijkheden voor webtoegang hebt u via een HTML-gebruikersinterface toegang tot een subset van Campagnefuncties via een webbrowser. Gebruik deze webinterface om rapporten te openen, berichten te besturen en te valideren, toegang te krijgen tot controledashboards en nog veel meer.  [ leer meer over de Toegang van het Web van de Campagne ](../start/connect.md).
+
+* Externe toepassingen met API&#39;s
+
+  In bepaalde gevallen, kan het systeem van externe toepassingen worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van SOAP worden blootgesteld. [ Leer meer over Campagne APIs ](../dev/api.md).
 
 ### Persistentielaag{#persistance-layer}
 
@@ -36,9 +50,9 @@ De betrouwbaarheid van de database is van het grootste belang omdat de meeste Ad
 
 De logische toepassingslaag van de campagne is gemakkelijk configureerbaar om aan complexe bedrijfsbehoeften te voldoen. U kunt Campagne als één enkel platform met verschillende toepassingen gebruiken die combineren om een open en scalable architectuur tot stand te brengen. Elke Campagneinstantie is een inzameling van processen in de toepassingslaag, waarvan sommige worden gedeeld en wat specifiek zijn.
 
-## Door campagne beheerde Cloud Servicen{#ac-managed-services}
+## Campagne Managed Cloud Services{#ac-managed-services}
 
-Adobe Campaign v8 is as a Managed Service geïmplementeerd: alle componenten van Adobe Campaign, inclusief de gebruikersinterface, de uitvoeringsbeheerengine en de campagnedatabases, worden volledig gehost via Adobe, waaronder e-mailuitvoering, spiegelpagina&#39;s, trackingserver en extern gerichte webcomponenten, zoals pagina/voorkeurscentrum voor afmelden en bestemmingspagina&#39;s.
+Adobe Campaign v8 is geïmplementeerd in as a Managed Service: alle componenten van Adobe Campaign, inclusief de gebruikersinterface, de uitvoeringsbeheerengine en Campagne-databases, worden volledig gehost door Adobe, inclusief e-mailuitvoering, spiegelpagina&#39;s, trackingserver en naar buiten gerichte webcomponenten, zoals pagina/voorkeurscentrum voor afmelden en bestemmingspagina&#39;s.
 
 ## Campagneprocessen
 
@@ -46,7 +60,7 @@ De server van het Web van de campagne controleert de toegang tot de processen va
 
 ![](assets/do-not-localize/ac-processes.png)
 
-De de cliëntconsole van de campagne verbindt met de server van het Web gebruikend SOAP XML over HTTP. De server van het Web verstrekt de veiligheidslaag, gaat de verzoeken tot de laag van de Toepassing over gebruikend Javascript en de interne processen van de Campagne toegang tot het gegevensbestand gebruikend SQL.
+De Console van de Cliënt van de campagne verbindt met de server van het Web gebruikend SOAP XML over HTTP. De server van het Web verstrekt de veiligheidslaag, gaat de verzoeken tot de laag van de Toepassing over gebruikend Javascript en de interne processen van de Campagne toegang tot het gegevensbestand gebruikend SQL.
 
 <!--The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 

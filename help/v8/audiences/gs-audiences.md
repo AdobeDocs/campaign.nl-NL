@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 11%
@@ -18,23 +18,23 @@ Profielen zijn contacten die in het gegevensbestand van de Campagne, zoals klant
 
 
 
-Een profiel is een record in het dialoogvenster **nmsRecipient** een tabel of een externe tabel waarin alle profielkenmerken zijn opgeslagen, zoals voornaam, achternaam, e-mailadres, een cookie-id, de klant-id, de mobiele id of andere informatie die relevant is voor een bepaald kanaal. Andere lijsten verbonden aan de ontvankelijke lijst bevatten op profiel betrekking hebbende gegevens, bijvoorbeeld de lijst van leveringslogboeken die verslagen van alle leveringen bevat die naar ontvangers worden verzonden. Meer informatie over ingebouwde profielen en tabellen voor ontvangers vindt u in [deze sectie](../dev/datamodel.md#ootb-profiles).
+Een profiel is een verslag in de **nmsRecipient** lijst of een externe lijst die alle profielattributen, zoals voornaam, familienaam, e-mailadres, een koekjesidentiteitskaart, identiteitskaart van de Klant, mobiele herkenningsteken of andere informatie relevant voor een bepaald kanaal opslaat. Andere lijsten verbonden aan de ontvankelijke lijst bevatten op profiel betrekking hebbende gegevens, bijvoorbeeld de lijst van leveringslogboeken die verslagen van alle leveringen bevat die naar ontvangers worden verzonden. Leer meer over ingebouwde profielen en ontvankelijke lijsten in [ deze sectie ](../dev/datamodel.md#ootb-profiles).
 
 ![](assets/recipients-in-explorer.png)
 
-In Adobe Campaign: **ontvangers** Dit zijn de standaardprofielen die worden gebruikt voor het verzenden van leveringen (e-mails, SMS, enz.).
+In Adobe Campaign, **ontvangers** zijn de standaardprofielen die voor het verzenden van leveringen (e-mail, SMS, enz.) worden gericht.
 
 De ontvangende gegevens die in het gegevensbestand worden opgeslagen laten u toe om het doel te filtreren dat om het even welke bepaalde levering zal ontvangen en verpersoonlijkingsgegevens in uw leveringsinhoud toe te voegen. De database bevat andere typen profielen. Ze zijn ontworpen voor verschillende applicaties. Seed-profielen worden bijvoorbeeld gemaakt om de leveringen te testen voordat ze naar het uiteindelijke doel worden verzonden.
 
 Als u Adobe Campaign wilt vullen met profielgegevens, kunt u:
 
-* [gegevensbestanden importeren](../start/import.md) van een externe gegevensbron zoals een CRM-systeem of een plat bestand
-* [webformulieren maken](../dev/webapps.md) om klanten toe te staan om hun eigen informatie in te gaan en hun eigen profiel te creëren
-* [toewijzen aan een externe database](../connect/fda.md) waarin profielen zijn opgeslagen
-* Voer de profielen handmatig in in de clientconsole, zoals hieronder:
+* [ de dossiers van de de invoergegevens ](../start/import.md) van een externe gegevensbron zoals een systeem van CRM, of een plat dossier
+* [ creeer Webvormen ](../dev/webapps.md) om klanten toe te staan om hun eigen informatie in te gaan en hun eigen profiel te creëren
+* [ kaart aan een extern gegevensbestand ](../connect/fda.md) waar de profielen worden opgeslagen
+* Geef profielen handmatig op in de clientconsole, zoals hieronder:
 
 ![](assets/create-profile.png)
 
 <!--You can also select your message audience in an external file: recipients are stored not in the database, but in files. These are known as “external” deliveries. These contacts can be imported or not in Adobe Campaign. [Learn more](external-profiles.md).-->
 
-Nadat u de berichten hebt geïmporteerd, kunt u een publiek maken dat deze verzendt. Leer hoe u een publiek kunt maken [in deze sectie](create-audiences.md).
+Nadat u de berichten hebt geïmporteerd, kunt u een publiek maken dat deze verzendt. Leer hoe te om publiek [ in deze sectie ](create-audiences.md) tot stand te brengen.

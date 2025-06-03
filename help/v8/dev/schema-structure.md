@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 1%
@@ -124,7 +124,7 @@ De volgende regels moeten in acht worden genomen:
 
 Het gegevenstype is ingegaan via het **type** attribuut in **`<attribute>`** en **`<element>`** elementen.
 
-Een gedetailleerde lijst is beschikbaar in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=nl-NL#configuring-campaign-classic){target="_blank"} .
+Een gedetailleerde lijst is beschikbaar in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 Wanneer dit attribuut niet bevolkt is, **koord** is het standaardgegevenstype tenzij het element kindelementen bevat. Als het, wordt het gebruikt slechts om de elementen hiërarchisch te structureren (**`<location>`** element in ons voorbeeld).
 
@@ -180,13 +180,13 @@ De **`<elements>`** - en **`<attributes>`** -elementen van het gegevensschema ku
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
-  Het label kan worden weergegeven op het invoerformulier voor de Adobe Campaign-clientconsole:
+  Het label kan worden weergegeven op het invoerformulier voor de Adobe Campaign Client Console:
 
   ![](assets/schema_label.png)
 
 * Het **desc** bezit laat u een lange beschrijving ingaan.
 
-  De beschrijving is te zien vanaf het invoerformulier in de statusbalk van het hoofdvenster van de Adobe Campaign-clientconsole.
+  De beschrijving kan worden weergegeven op het invoerformulier in de statusbalk van het hoofdvenster van de Adobe Campaign Client Console.
 
   >[!NOTE]
   >
@@ -213,7 +213,7 @@ De waarde moet een expressie zijn die compatibel is met XPath-taal. Raadpleeg [d
 
   >[!NOTE]
   >
-  >In de Adobe Campaign-clientconsole wordt het knooppunt **[!UICONTROL Administration>Counters]** gebruikt om tellers te beheren.
+  >In de Adobe Campaign Client Console wordt het knooppunt **[!UICONTROL Administration>Counters]** gebruikt om tellers te beheren.
 
 Als u een standaardwaarde aan een veld wilt koppelen, kunt u de opdracht `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
@@ -237,7 +237,7 @@ Deze waarden worden weergegeven in een vervolgkeuzelijst van het invoerformulier
 
 >[!NOTE]
 >
->In de Adobe Campaign-clientconsole wordt het knooppunt **[!UICONTROL Administration > Enumerations]** gebruikt om opsommingen te beheren.
+>In de Adobe Campaign Client Console wordt het knooppunt **[!UICONTROL Administration > Enumerations]** gebruikt om opsommingen te beheren.
 
 #### Opsomming instellen {#set-enumeration}
 
@@ -360,7 +360,7 @@ Het is ook mogelijk complexe expressies te definiëren, zoals de volgende rekenk
 
 Er zijn functies op hoog niveau toegevoegd aan de expressies om het potentieel van deze taal te verrijken.
 
-U hebt toegang tot de lijst met beschikbare functies via een expressie-editor in de Adobe Campaign-clientconsole:
+U hebt toegang tot de lijst met beschikbare functies via een expressie-editor in de Adobe Campaign Client Console:
 
 ![](assets/schema_function.png)
 

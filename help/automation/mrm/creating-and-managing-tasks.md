@@ -5,9 +5,9 @@ description: Taken maken en beheren
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3757'
 ht-degree: 0%
 
 ---
@@ -467,7 +467,7 @@ Hieronder staan de fasen van een volledige taaklevenscyclus waarvoor de verantwo
 1. Na de voltooiing van de sectie die aan hen wordt toegewezen, kunnen de deelnemers de taak goedkeuren, of:
 
    * via het e-mailbericht.
-   * via de clientconsole of de webtoegang, in het taakdashboard.
+   * via de clientconsole of de webinterface in het taakdashboard.
 
      ![](assets/s_ncs_user_task_start_rea.png)
 
@@ -481,7 +481,7 @@ Hieronder staan de fasen van een volledige taaklevenscyclus waarvoor de verantwo
 
    ![](assets/s_ncs_user_task_follow_from_dashboard.png)
 
-1. Zodra de persoon die verantwoordelijk is voor de taak besluit dat het wordt gebeëindigd, kunnen zij het sluiten, gebruikend of de verbinding in het bericht e-mail die werd verzonden toen de taak werd begonnen, de cliëntconsole, of de interface.
+1. Zodra de verantwoordelijke persoon van de taak besluit dat het wordt gebeëindigd, kunnen zij het sluiten, gebruikend of de verbinding in het bericht e-mail die werd verzonden toen de taak werd begonnen, de Console van de Cliënt, of de interface.
 
    ![](assets/s_ncs_user_task_console_ressource_validation.png)
 
@@ -491,7 +491,7 @@ Hieronder staan de fasen van een volledige taaklevenscyclus waarvoor de verantwo
 
 1. De taakstatus verandert in **[!UICONTROL To approve]** en er wordt een melding verzonden naar de revisor.
 
-   Ze keuren de taak goed via de e-mail met meldingen, de clientconsole of met een webbrowser.
+   Ze keuren de taak goed via de e-mail met meldingen, de Clientconsole of de webinterface.
 
    Ze kunnen actie ondernemen via het campagnedashboard:
 

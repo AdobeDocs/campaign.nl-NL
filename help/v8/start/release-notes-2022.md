@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Campagne v8 2022
 description: Lijst met functies en verbeteringen die worden geleverd bij de 2022-campagne v8-releases
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
 workflow-type: tm+mt
 source-wordcount: '1943'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -49,8 +49,8 @@ _zaterdag 30 september 2022_
 <tbody> 
 <tr> 
 <td><p>Er zijn nu nieuwe bestemmings- en bronconnectors beschikbaar voor naadloze integratie tussen Adobe Campaign en Adobe Experience Platform:</p>
-<ul><li>Gebruik Adobe Campaign Managed Cloud Services-doelconnector om Experience Platforms segmenten naar Adobe Campaign te sturen voor activering.</li>
-<li>Gebruik de Adobe Campaign Managed Cloud Service source-connector om Adobe Campaign-bezorgings- en trackinglogboeken naar Adobe Experience Platform te verzenden.</li>
+<ul><li>Gebruik de Adobe Campaign Managed Cloud Services-doelconnector om Experience Platform-segmenten naar Adobe Campaign te sturen voor activering.</li>
+<li>Gebruik de Adobe Campaign Managed Cloud Service-bronconnector om Adobe Campaign-leverings- en trackinglogboeken naar Adobe Experience Platform te verzenden.</li>
 </ul>
 <p>Raadpleeg de <a href="../connect/ac-aep.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td> 
@@ -68,7 +68,7 @@ _zaterdag 30 september 2022_
 <tr> 
 <td> <p>Het <a href="../send/twitter.md"> sociale kanaal van X </a> is nu beschikbaar met Campagne v8. U kunt:</p>
 <ul> 
-<li><p>Verzend berichten op X (voorheen bekend als Twitter): met Adobe Campaign kunt u berichten rechtstreeks naar uw X-account posten. U kunt ook directe berichten verzenden naar al uw volgers.
+<li><p>Verzend berichten op X (voorheen bekend als Twitter): met Adobe Campaign kunt u berichten rechtstreeks naar uw X-account plaatsen. U kunt ook directe berichten verzenden naar al uw volgers.
 </p></li>
 <li><p>Verzamel nieuwe contacten: Adobe Campaign kan de profielgegevens automatisch terugkrijgen, die u toelaat om het richten campagnes uit te voeren en kanaalstrategieën uit te voeren.
 </p></li>
@@ -84,8 +84,8 @@ _zaterdag 30 september 2022_
 
 Om de beveiliging te optimaliseren, zijn beveiligingstokens verwijderd uit URL&#39;s die zijn gegenereerd door Campagne:
 
-* Deze wijziging geldt alleen voor GET-URL&#39;s. Andere typen, zoals POST-URL&#39;s, worden niet beïnvloed.
-* Als u aangepaste code gebruikt, worden beveiligingstokens niet meer opgehaald uit de beveiligingstoken-parameter GET URL. U moet een nieuw veiligheidstoken produceren gebruikend de volgende code JSSP:
+* Deze wijziging geldt alleen voor GET-URL&#39;s. Dit heeft geen invloed op andere typen, zoals POST-URL&#39;s.
+* Als u aangepaste code gebruikt, worden beveiligingstokens niet meer opgehaald uit de beveiligingstoken-parameter voor GET URL. U moet een nieuw veiligheidstoken produceren gebruikend de volgende code JSSP:
 
   ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
 
@@ -94,7 +94,7 @@ Om de beveiliging te optimaliseren, zijn beveiligingstokens verwijderd uit URL&#
 
 **Verbeteringen**
 
-* Na het eind van leven van Microsoft Internet Explorer 11, gebruikt de HTML die motor in de console teruggeeft nu **Chromium van Microsoft Edge**. Bovendien, wordt de installatie van **Microsoft Edge WebView 2** runtime nu vereist voor om het even welke installatie van de cliëntconsole.
+* Na het eind van leven van Microsoft Internet Explorer 11, gebruikt de HTML die motor in de console teruggeeft nu **Chromium van Microsoft Edge**. Bovendien, wordt de installatie van **Microsoft Edge WebView 2** runtime nu vereist voor om het even welke installatie van de Console van de Cliënt.
 * Verbeterde workflowuitvoering met een hoge beschikbaarheid van de workflow waardoor u gelijktijdige workflows kunt uitvoeren over verschillende containers om te voorkomen dat de workflowservice verloren gaat en gerelateerde uitvoeringsfouten te voorkomen. **Nota**: Dit nieuwe vermogen wordt vrijgegeven in Beperkte Beschikbaarheid aan een reeks slechts klanten.
 * De verzoeken van de privacy worden nu uitgevoerd in partij voor een bepaalde privacy namespace. Deze verbetering verhoogt de uitvoeringstijd voor aanvragen voor GDPR/privacy-verwijdering.
 
@@ -117,11 +117,11 @@ Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
 * Probleem verholpen waarbij de technische workflow van **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) werd verhinderd om te stoppen, zelfs als er een fout is opgetreden tijdens de uitvoering. (NEO-46280)
 * Om vertraging te verhinderen wanneer het verzenden van bewijs naar zaadadressen, worden alle opeenvolgende replicaties van zaadleden nu gegroepeerd aan één replicatieverzoek. (NEO-44844)
 * Probleem verholpen waarbij een fout werd weergegeven tijdens een voorvertoning van een levering in een gearchiveerde gebeurtenis in het Message Center. (NEO-43620)
-* Vaste een kwestie toen het injecteren van gegevens in het wolkengegevensbestand van de Snowflake met een 1&rbrace; activiteit van de Vraag van de Campagne **&lbrace;en de activiteit van de Gegevens van de a** Verandering Source **: het proces faalde toen een backslash karakter in de gegevens aanwezig is.** De brontekenreeks is niet beschermd en gegevens zijn niet correct verwerkt op de Snowflake. (NEO-45549)
+* Vaste een kwestie toen het injecteren van gegevens in het wolkengegevensbestand van Snowflake met een 1} activiteit van de Vraag van de Campagne **en de activiteit van de Gegevens van de a** Verandering Source **: het proces faalde wanneer een backslash karakter in de gegevens aanwezig is.** De brontekenreeks is niet gevonden en gegevens zijn niet correct verwerkt op Snowflake. (NEO-45549)
 * Vaste een kwestie wanneer het gebruiken van de **activiteit van de Vraag** en het filtreren van een lijst. Wanneer een kolomnaam het woord &quot;Update&quot;bevatte, kwam een compilatiefout met een ongeldige herkenningsteken en het volgende bericht voor: &quot;aantal rijen bijgewerkt&quot;. (NEO-46485)
 * De **schoonmaakbeurt van het Gegevensbestand** technische werkschema behandelt nu ook douanegraferingsschema&#39;s. (NEO-48974)
 * Probleem verholpen dat de leveringanalyse zou kunnen vertragen, tijdens de uitsluitingsfase van op de lijst met ongewenste personen staan ontvangers, wanneer grote aantallen ontvangers als doelgroep zouden worden genomen. (NEO-48019)
-* Verbeterde stabiliteit bij het verwerken van ongeldige XML-tekenreeksen tijdens SOAP aanroepen. (NEO-48027)
+* Verbeterde stabiliteit bij het verwerken van ongeldige XML-tekenreeksen tijdens SOAP-aanroepen. (NEO-48027)
 * Probleem opgelost dat leidde tot het maken van onnodige DeliveryParts wanneer de levering de kalender- en splitsingsmodi gebruikte. (NEO-48634)
 * Probleem opgelost met prestaties bij gebruik van op kalender gebaseerde golven. (NEO-48451)
 * Probleem verholpen die tot een foutbericht in het scherm met de leveringslijst kon leiden nadat een nieuwe doeltoewijzing op een aangepast schema was gemaakt. (NEO-49237)
@@ -131,7 +131,7 @@ Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
 
 >[!CAUTION]
 >
-> upgrade van de clientconsole is verplicht. Leer hoe te om uw cliëntconsole in deze [ pagina ](../start/connect.md#download-ac-console) te bevorderen.
+> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#download-ac-console) hoe u uw Client Console kunt upgraden.
 
 _zaterdag 7 oktober 2022_
 
@@ -140,7 +140,7 @@ _zaterdag 7 oktober 2022_
 * Probleem verholpen dat invloed had op de statusupdates van het leveringslogboek voor de MID-instantie toen de optie FeatureFlag_GZIP_Compression was ingeschakeld. (NEO-49183)
 * De **schoonmaakbeurt van het Gegevensbestand** technische werkschema behandelt nu ook douanegraferingsschema&#39;s. (NEO-48974)
 * Oplossing een kwestie die leveringen kon leiden om in **In afwachting van** status te blijven zelfs als de contactdatum werd bereikt. (NEO-48079, NEO-48251)
-* Verbeterde stabiliteit bij het verwerken van ongeldige XML-tekenreeksen tijdens SOAP aanroepen. (NEO-48027)
+* Verbeterde stabiliteit bij het verwerken van ongeldige XML-tekenreeksen tijdens SOAP-aanroepen. (NEO-48027)
 * Probleem verholpen dat de leveringanalyse zou kunnen vertragen, tijdens de uitsluitingsfase van op de lijst met ongewenste personen staan ontvangers, wanneer grote aantallen ontvangers als doelgroep zouden worden genomen. (NEO-48019)
 * Om vertraging te verhinderen wanneer het verzenden van bewijs naar zaadadressen, worden alle opeenvolgende replicaties van zaadleden nu gegroepeerd in één replicatieverzoek. (NEO-44844)
 * Probleem verholpen dat tot personalisatieproblemen leidde bij het verzenden van SMS-berichten via een externe leveringsmodus. (NEO-46415)
@@ -155,7 +155,7 @@ _zaterdag 7 oktober 2022_
 * Vaste een kwestie wanneer het gebruiken van de **activiteit van de Vraag** en het filtreren van een lijst. Wanneer een kolomnaam het woord &quot;Update&quot; bevatte, is een compilatiefout opgetreden met een ongeldige id en het volgende bericht: &quot;number of rows updated&quot;. (NEO-46485)
 * Probleem verholpen waarbij de technische workflow van **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) werd verhinderd om te stoppen, zelfs als er een fout is opgetreden tijdens de uitvoering. (NEO-46280)
 * Probleem verholpen waarbij gegevensverlies kan optreden als de testworkflow fout was en de bewaarperiode volledig is verstreken. (NEO-48975)
-* Vaste een kwestie toen het injecteren van gegevens in het wolkengegevensbestand van de Snowflake met een 1&rbrace; activiteit van de Vraag van de Campagne **&lbrace;en de activiteit van de Gegevens van de a** Verandering Source **: het proces faalde toen een backslash karakter in de gegevens aanwezig is.** De brontekenreeks is niet beschermd en gegevens zijn niet correct verwerkt op de Snowflake. (NEO-45549)
+* Vaste een kwestie toen het injecteren van gegevens in het wolkengegevensbestand van Snowflake met een 1} activiteit van de Vraag van de Campagne **en de activiteit van de Gegevens van de a** Verandering Source **: het proces faalde wanneer een backslash karakter in de gegevens aanwezig is.** De brontekenreeks is niet gevonden en gegevens zijn niet correct verwerkt op Snowflake. (NEO-45549)
 
 ## Release 8.3.8 {#release-8-3-8}
 
@@ -181,12 +181,12 @@ _Mei 18, 2022_
 <table> 
 <thead>
 <tr> 
-<th> <strong> Integratie van de Privacy Service van de Kern </strong><br /> </th> 
+<th> <strong> Integratie van de Kern Privacy Service </strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campagne v8 kan nu worden geïntegreerd met de Adobe Privacy Core Service. Verzoeken om toegang tot persoonsgegevens die van de Privacy-kernservice naar alle Experience Cloud-oplossingen worden gepusht, worden door Campaign automatisch behandeld via een speciale workflow.</p>
+<td> <p>Campagne v8 kan nu worden geïntegreerd met Adobe Privacy Core Service. Verzoeken om toegang tot persoonsgegevens die van de Privacy-kernservice naar alle Experience Cloud-oplossingen worden gepusht, worden door Campaign automatisch behandeld via een speciale workflow.</p>
 <p>Raadpleeg de <a href="privacy.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td> 
 </tr> 
@@ -240,7 +240,7 @@ Raadpleeg de [Campaign-compatibiliteitsmatrix](compatibility-matrix.md).
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * De veelvoudige actieve rekeningen van de LIJN kunnen nu op één enkele midsourcing worden gevormd.
 * Het aantal standaardverbindingen voor het webproces is verhoogd van 50 naar 150.
-* De campagne komt met een reeks nieuwe gidsen om toevoeging van dubbele sleutels in het gegevensbestand van de Snowflake te verhinderen. [Meer informatie](../architecture/keys.md)
+* Campagne wordt geleverd met een set nieuwe instructies om te voorkomen dat gedupliceerde sleutels worden ingevoegd in de Snowflake-database. [Meer informatie](../architecture/keys.md)
 
 **Bevestigingen**
 
