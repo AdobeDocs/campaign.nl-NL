@@ -101,8 +101,8 @@ Hier volgt de algemene workflow voor dit gebruiksscenario:
 
 Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en gevoelige informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
 
-* Zorg ervoor dat ontvangers altijd toestemming geven voor het ontvangen van communicatie. Daarvoor moet u opt-outverzoeken altijd zo snel mogelijk verwerken en moet u toestemming controleren via een dubbele opt-inprocedure. Zie [Een lidmaatschapsformulier maken met dubbele opt-in](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank} voor meer informatie.
-* Importeer geen frauduleuze lijsten en gebruik seedadressen om te controleren of uw clientbestand niet onrechtmatig wordt gebruikt. Zie [Seedadressen](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank} voor meer informatie.
+* Zorg ervoor dat ontvangers altijd toestemming geven voor het ontvangen van communicatie. Daarvoor moet u opt-outverzoeken altijd zo snel mogelijk verwerken en moet u toestemming controleren via een dubbele opt-inprocedure. Zie [Een lidmaatschapsformulier maken met dubbele opt-in](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank} voor meer informatie.
+* Importeer geen frauduleuze lijsten en gebruik seedadressen om te controleren of uw clientbestand niet onrechtmatig wordt gebruikt. Zie [Seedadressen](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank} voor meer informatie.
 * Via toestemmings- en rechtenbeheer kunt u de voorkeuren van uw ontvangers bijhouden en beheren wie binnen uw organisatie toegang heeft tot welke gegevens. Zie [deze sectie](#consent)voor meer informatie.
 * Faciliteer en beheer de verzoeken om toegang tot persoonsgegevens van uw ontvangers. Zie [deze sectie](#privacy-requests)voor meer informatie.
 
@@ -123,7 +123,7 @@ Oorspronkelijk biedt Adobe Campaign belangrijke functies die essentieel zijn voo
 
 * **Toestemmingsbeheer**: via de procedure van abonnementsbeheer kunt u de voorkeuren van uw ontvangers beheren en bijhouden welke ontvangers zich hebben aangemeld voor welke soorten abonnementen. Zie [Lidmaatschappen](../../automation/workflow/subscription-services.md) voor meer informatie hierover.
 * **Dataretentie**: alle ingebouwde standaard logtabellen bevatten vooraf ingestelde retentieperioden, waarbij de gegevensopslag over het algemeen is beperkt tot 6 maanden of korter. Er kunnen extra retentieperioden worden ingesteld met workflows. Neem hiervoor contact op met de adviseurs van Adobe of met technische beheerders.
-* **Rights Management**: Adobe Campaign biedt u de mogelijkheid om via verschillende standaard of aangepaste rollen de rechten te beheren die aan de verschillende Campaign-operators zijn toegewezen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Zie [Toegangscontrole](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank} voor meer informatie.
+* **Rights Management**: Adobe Campaign biedt u de mogelijkheid om via verschillende standaard of aangepaste rollen de rechten te beheren die aan de verschillende Campaign-operators zijn toegewezen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Zie [Toegangscontrole](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank} voor meer informatie.
 
 ### Privacyverzoeken {#privacy-requests}
 
@@ -146,7 +146,7 @@ Dankzij de trackingfuncties van Adobe Campaign kunt u bijhouden hoe verzendingso
 * Een **sessiecookie**: de **nlid**-cookie bevat de id van de e-mail die is verzonden naar de contactpersoon (**broadlogId**) en de id van de berichtsjabloon (**deliveryId**). Deze wordt toegevoegd wanneer de contactpersoon op een URL klikt die is opgenomen in een e-mail die door Adobe Campaign wordt verzonden. Hiermee kunt u het gedrag van de contactpersoon op het web volgen. Deze sessiecookie wordt automatisch gewist wanneer de browser wordt gesloten. De contactpersoon kan zijn browser configureren om cookies te weigeren.
 
 * Twee **permanente** cookies:
-   * Het **UUID**-cookie (Universal Unique IDentifier) wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Dit wordt één keer ingesteld totdat het verdwijnt uit de clientbrowser wanneer een nieuwe waarde wordt gegenereerd. Met dit cookie kunt u de gebruikers identificeren die met de Experience Cloud-oplossingen werken wanneer ze een website bezoeken. Het kan worden geplaatst door een introductiepagina (om onbekende klantenactiviteiten aan een ontvanger te koppelen) of door een verzending. De beschrijving van dit cookie is beschikbaar op [deze pagina](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html#ec-cookies).
+   * Het **UUID**-cookie (Universal Unique IDentifier) wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Dit wordt één keer ingesteld totdat het verdwijnt uit de clientbrowser wanneer een nieuwe waarde wordt gegenereerd. Met dit cookie kunt u de gebruikers identificeren die met de Experience Cloud-oplossingen werken wanneer ze een website bezoeken. Het kan worden geplaatst door een introductiepagina (om onbekende klantenactiviteiten aan een ontvanger te koppelen) of door een verzending. De beschrijving van dit cookie is beschikbaar op [deze pagina](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=nl-NL#ec-cookies).
    * Het **nllastdelid**-cookie (geïntroduceerd in Campaign Classic 20.3) is een permanente cookie die de **deliveryId** bevat van de laatste verzending waarvan de gebruiker op de koppeling heeft geklikt. Deze cookie wordt gebruikt wanneer de sessiecookie ontbreekt om te identificeren welke trackingtabel moet worden gebruikt.
 
 In verordeningen zoals de Algemene verordening gegevensbescherming (AVG) wordt bepaald dat bedrijven de toestemming van webgebruikers nodig hebben voordat ze cookies mogen installeren.
@@ -166,7 +166,7 @@ Met Adobe Campaign kunt u ook controleren hoe ontvangers door uw website bladere
 
 De configuratie van Web het volgen wordt verklaard in [ deze sectie ](../start/tracking.md).
 
-Met Adobe Campaign hebt u nog meer mogelijkheden om tracking te beheren, bijvoorbeeld met opt-outbanners. Hiermee stopt u met het volgen van het webgedrag van eindgebruikers die hebben aangegeven dat ze niet meer willen worden gevolgd. Zie [Afmelden voor tracking in de webapplicatie](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out){target=_blank} voor informatie hierover.
+Met Adobe Campaign hebt u nog meer mogelijkheden om tracking te beheren, bijvoorbeeld met opt-outbanners. Hiermee stopt u met het volgen van het webgedrag van eindgebruikers die hebben aangegeven dat ze niet meer willen worden gevolgd. Zie [Afmelden voor tracking in de webapplicatie](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out){target=_blank} voor informatie hierover.
 
 <!--
 Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:
@@ -201,7 +201,7 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **voegt kapitalen in Webtoepassingen** toe: voeg kapitalen in uw openbare het landen pagina&#39;s en abonnementspagina&#39;s toe.
 
-Leer meer in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
+Leer meer in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=nl-NL#installing-campaign-classic){target="_blank"}.
 
 
 ## Personalization
@@ -296,4 +296,4 @@ Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) a
 
 * **voegt kapitalen in Webtoepassingen** toe: voeg kapitalen in uw openbare het landen pagina&#39;s en abonnementspagina&#39;s toe.
 
-Leer meer in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
+Leer meer in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=nl-NL#installing-campaign-classic){target="_blank"}.

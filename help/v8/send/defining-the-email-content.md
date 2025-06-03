@@ -67,7 +67,7 @@ Berichten worden standaard in HTML of tekstindeling verzonden, afhankelijk van d
 
 * Als u HTML-inhoud wilt importeren, gebruikt u de knop **[!UICONTROL Open]** . U kunt de broncode ook rechtstreeks in de subtab **[!UICONTROL Source]** plakken.
 
-  Als u de Digitale Redacteur van de Inhoud (DCE) gebruikt, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html#step-3---selecting-a-content).
+  Als u de Digitale Redacteur van de Inhoud (DCE) gebruikt, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=nl-NL#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >
@@ -126,7 +126,7 @@ Met een extra tabblad kunt u inhoud invoeren die automatisch wordt geïntegreerd
 
 >[!NOTE]
 >
->Voor verdere informatie over inhoudsbeheer in Adobe Campaign, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html).
+>Voor verdere informatie over inhoudsbeheer in Adobe Campaign, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=nl-NL).
 
 ## emoticons invoegen {#inserting-emoticons}
 
@@ -139,7 +139,7 @@ U kunt emoticons invoegen in uw e-mailinhoud.
 
 1. Klik op de knop **[!UICONTROL Close]** als u klaar bent.
 
-Om de emoticonlijst aan te passen, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html).
+Om de emoticonlijst aan te passen, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html?lang=nl-NL).
 
 ## Afbeeldingen toevoegen {#adding-images}
 
@@ -150,7 +150,7 @@ E-mailleveringen in HTML-indeling kunnen afbeeldingen bevatten. Vanuit de bezorg
 
 Om prestatieproblemen te voorkomen, mogen afbeeldingen in e-mailberichten niet groter zijn dan 100 kB. Deze standaard ingestelde limiet kan worden gewijzigd met de optie `NmsDelivery_MaxDownloadedImageSize` . Adobe raadt echter sterk aan om grote afbeeldingen in uw e-mailleveringen te voorkomen.
 
-Leer meer op de lijst van de opties van de Campagne in de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
+Leer meer op de lijst van de opties van de Campagne in de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=nl-NL#delivery).
 
 ### Afbeeldingstypen {#img-types}
 
@@ -161,7 +161,7 @@ Afbeeldingen kunnen:
 
   Openbare bronnen zijn toegankelijk via het knooppunt **[!UICONTROL Resources > Online]** van de Adobe Campaign-hiërarchie. Ze zijn gegroepeerd in een bibliotheek en kunnen worden opgenomen in e-mailberichten, maar kunnen ook worden gebruikt voor campagnes of taken, of voor inhoudsbeheer.
 
-* An asset shared with Adobe Experience Cloud. Verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html).
+* An asset shared with Adobe Experience Cloud. Verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=nl-NL).
 
 ### Afbeeldingen invoegen en beheren {#manage-images}
 
