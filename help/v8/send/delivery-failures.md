@@ -34,7 +34,7 @@ De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP 
   Hier zijn enkele voorbeelden van harde grenzen: Adres bestaat niet, Account uitgeschakeld, Onjuiste syntaxis, Onjuist domein
 
 * **Zachte grenzen**
-De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. De zachte mislukkingen zullen ](#retries) veelvoudige tijden (met variantie afhankelijk van gebruik van douane of uit-van-doos leveringsmontages) opnieuw proberen om een succesvolle levering te proberen. [ Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren.
+De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. De zachte mislukkingen zullen [&#128279;](#retries) veelvoudige tijden (met variantie afhankelijk van gebruik van douane of uit-van-doos leveringsmontages) opnieuw proberen om een succesvolle levering te proberen.  Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren.
 
   Sommige gemeenschappelijke oorzaken van zachte grenzen omvatten het volgende: De volledige brievenbus, Ontvangend e-mailserver neer, de kwesties van de de reputatie van de Afzender
 
@@ -670,7 +670,7 @@ Door gebrek, haalt regex de **staat:** gebied zoals die door de **wordt bepaald 
 
   Deze regex wordt opgegeven op het tabblad **[!UICONTROL SMSC specificities]** van de externe account.
 
-  Door gebrek, haalt regex **err:** gebied zoals die door de **wordt bepaald Bijlage B** sectie van de **4} SMPP 3.4 specificatie**.
+  Door gebrek, haalt regex **err:** gebied zoals die door de **wordt bepaald Bijlage B** sectie van de **4&rbrace; SMPP 3.4 specificatie**.
 
 * Alles wat na het buissymbool (|) komt wordt slechts getoond in de **[!UICONTROL First text]** kolom van de **[!UICONTROL Delivery log qualification]** lijst. Deze inhoud wordt altijd vervangen door **#MESSAGE#** nadat het bericht is genormaliseerd. Dit proces voorkomt het hebben van veelvoudige ingangen voor gelijkaardige fouten en is het zelfde als voor e-mail.
 
