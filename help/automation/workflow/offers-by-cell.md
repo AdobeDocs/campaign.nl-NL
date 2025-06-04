@@ -4,8 +4,9 @@ title: Aanbiedingen per cel
 description: Aanbiedingen per cel
 feature: Workflows, Targeting Activity, Interaction
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: e2216dfd-1ef8-4747-b716-576fd6498fa6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 7%
@@ -16,19 +17,19 @@ ht-degree: 7%
 
 
 
-De **[!UICONTROL Offers by cell]** de activiteit laat u de binnenkomende bevolking (van een vraag bijvoorbeeld) in verscheidene segmenten verdelen en een aanbieding specificeren om voor elk van deze segmenten voor te stellen.
+Met de activiteit **[!UICONTROL Offers by cell]** kunt u de binnenkomende populatie (bijvoorbeeld van een query) in verschillende segmenten verdelen en een aanbieding opgeven om voor elk van deze segmenten voor te stellen.
 
-Deze activiteit kan alleen worden gebruikt met **Interactie**. Meer informatie over het beheer van aanbiedingen in [deze sectie](../../v8/interaction/interaction.md).
+Deze activiteit kan slechts met **Interactie** worden gebruikt. Leer meer over het beheer van de Aanbieding in [ deze sectie ](../../v8/interaction/interaction.md).
 
 Dit doet u als volgt:
 
-1. Voeg de **[!UICONTROL Offers by cell]** activiteit zodra u de doelpopulatie hebt gespecificeerd, dan open het.
-1. In de **[!UICONTROL General]** selecteert u de aanbiedingsruimte waarop u de voorstellen wilt weergeven.
-1. In de **[!UICONTROL Cells]** -tabblad, geeft u de verschillende subsets op met de **[!UICONTROL Add]** knop:
+1. Voeg de **[!UICONTROL Offers by cell]** activiteit toe zodra u de doelpopulatie hebt gespecificeerd, dan open het.
+1. Selecteer op het tabblad **[!UICONTROL General]** de aanbiedingsruimte waarop u de aanbiedingen wilt weergeven.
+1. Geef op het tabblad **[!UICONTROL Cells]** de verschillende subsets op met de knop **[!UICONTROL Add]** :
 
    * Geef de subsetpopulatie op met behulp van de beschikbare regels voor filteren en beperken.
    * Selecteer vervolgens het voorstel dat u aan de subset wilt presenteren. De beschikbare aanbiedingen zijn die welke in aanmerking komen op de aanbiedingsruimte die bij de vorige stap werd geselecteerd.
 
      ![](assets/int_offer_per_cell1.png)
 
-1. Dan vorm een leveringsactiviteit die aan uw gekozen kanaal beantwoordt. Zie [Kanaalleveringen](cross-channel-deliveries.md).
+1. Dan vorm een leveringsactiviteit die aan uw gekozen kanaal beantwoordt. Verwijs naar [ de leveringen van het Kanaal 1}.](cross-channel-deliveries.md)

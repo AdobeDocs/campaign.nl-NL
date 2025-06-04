@@ -3,11 +3,12 @@ product: campaign
 title: Lidmaatschapsservices
 description: Meer informatie over de workflowactiviteiten van Subscription Services
 feature: Workflows, Targeting Activity, Subscription Services Activity
+version: Campaign v8, Campaign Classic v7
 exl-id: 919630ed-b39f-40e5-b893-f3a203713b15
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -15,23 +16,23 @@ ht-degree: 1%
 
 
 
-A **Abonnementsdiensten** Met activiteit van het type -type kunt u een abonnement op een informatiedienst maken of verwijderen voor de populatie die in de overgang is opgegeven.
+A **de diensten van het Abonnement** - type activiteit laat u een abonnement aan een informatiedienst voor de bevolking tot stand brengen of schrappen die in de overgang wordt gespecificeerd.
 
 Om het te vormen, geef de activiteit uit en ga zijn etiket in, dan selecteer de uit te voeren actie (Abonnement of Unsubscription) en de dienst in kwestie, zoals in het volgende voorbeeld:
 
 ![](assets/edit_service_inscription.png)
 
 1. Voer het label van de activiteit in.
-1. Selecteren **[!UICONTROL Generate an outbound transition]** als u aan het einde van de uitvoering een overgang wilt maken.
+1. Selecteer **[!UICONTROL Generate an outbound transition]** als u een overgang wilt maken aan het einde van de uitvoering.
 
    Over het algemeen markeert een abonnement van een doel op een informatiedienst het einde van de doelworkflow. Daarom wordt de optie niet standaard geactiveerd.
 
-1. Klikken **[!UICONTROL Subscription]** of **[!UICONTROL Unsubscription]** als u zich wilt abonneren op of een abonnement wilt nemen op de opgegeven populatie van of naar de geselecteerde informatiedienst.
-1. Selecteren **[!UICONTROL Send a confirmation message]** om ontvangers op de hoogte te stellen van het feit dat zij zijn geabonneerd op of niet geabonneerd zijn op een service.
+1. Klik op **[!UICONTROL Subscription]** of **[!UICONTROL Unsubscription]** als u een abonnement wilt nemen op de opgegeven populatie of dit wilt opzeggen bij de geselecteerde informatieservice.
+1. Selecteer **[!UICONTROL Send a confirmation message]** om ontvangers op de hoogte te stellen van het feit dat ze zijn geabonneerd op of geen abonnement hebben op een service.
 
    De inhoud van dit bericht wordt gespecificeerd in een leveringsmalplaatje met betrekking tot de informatiedienst.
 
-## Voorbeeld: Een lijst met ontvangers abonneren op een nieuwsbrief {#example--subscribe-a-list-of-recipients-to-a-newsletter}
+## Voorbeeld: abonneer een lijst met ontvangers op een nieuwsbrief {#example--subscribe-a-list-of-recipients-to-a-newsletter}
 
 In één enkele operatie is de volgende workflow bedoeld om een lijst op te stellen van ontvangers die in aanmerking komen voor een nieuwsbrief, gericht op werkende mensen die in Parijs wonen, om hen te laten inschrijven.
 
@@ -52,16 +53,16 @@ Hiervoor moet u ook ontvangers uitsluiten die al zijn geabonneerd.
 1. Voeg een doorsnedeactiviteit toe om de verschillende resultaten te verwijzen.
 1. Voeg desgewenst een lijst bij om de lijst met de meest recente abonnees up-to-date te houden.
 1. Voeg een activiteit van de abonnementsdiensten in, dan klik dit tweemaal om het te vormen.
-1. Voer het activiteitenlabel in en selecteer **[!UICONTROL Subscription]**.
+1. Voer het activiteitslabel in en selecteer **[!UICONTROL Subscription]** .
 
-   Als u wilt, kunt u ontvangers op de hoogte stellen van hun abonnement op de nieuwsbrief door de **[!UICONTROL Send a confirmation message]** doos.
+   U kunt ontvangers desgewenst informeren over hun abonnement op de nieuwsbrief door het selectievakje **[!UICONTROL Send a confirmation message]** in te schakelen.
 
 1. Selecteer de map waarin de nieuwsbrief zich bevindt en selecteer vervolgens de nieuwsbrief in de lijst die wordt weergegeven.
-1. Laat de **[!UICONTROL Generate outbound transition]** niet geselecteerd zodat deze activiteit het eind van het werkschema zal merken, dan klik **[!UICONTROL Ok]**.
+1. Laat **[!UICONTROL Generate outbound transition]** uitgeschakeld zodat deze activiteit het einde van de workflow markeert en klik vervolgens op **[!UICONTROL Ok]** .
 
 Tijdens werkschemauitvoering, worden de ontvangers die aan alle drie vragen beantwoorden toegevoegd aan de lijst en aan nieuwsbrief geabonneerd.
 
-U kunt controleren of het abonnement is gelukt door naar de **[!UICONTROL Subscription]** voor uw ontvangers.
+U kunt controleren of het abonnement is gelukt door naar het tabblad **[!UICONTROL Subscription]** voor de ontvangers te gaan.
 
 ## Invoerparameters {#input-parameters}
 

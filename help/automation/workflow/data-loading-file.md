@@ -4,8 +4,9 @@ title: Gegevens laden (bestand)
 description: Meer informatie over de activiteiten in de workflow voor het laden van gegevens (bestanden)
 feature: Workflows, Data Management Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 14%
@@ -26,7 +27,7 @@ In het bovenste gedeelte van het configuratievenster voor deze activiteit kunt u
 
 >[!CAUTION]
 >
->Alleen &#39;platte&#39; structuurbestanden worden ondersteund (bijvoorbeeld CSV, TXT, enz.). Het gebruik van de XML-indeling wordt afgeraden. Met de clientconsole kunt u bestanden tot maximaal 150 MB laden. In de gebruikersinterface van het Web, heeft de het dossieractiviteit van de Lading een grens van 50MB. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=nl-NL){target="_blank"}
+>Alleen &#39;platte&#39; structuurbestanden worden ondersteund (bijvoorbeeld CSV, TXT, enz.). Het gebruik van de XML-indeling wordt afgeraden. Met de clientconsole kunt u bestanden tot maximaal 150 MB laden. In de gebruikersinterface van het Web, heeft de het dossieractiviteit van de Lading een grens van 50MB. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 
@@ -95,7 +96,7 @@ In het volgende voorbeeld kunt u elke dag een bestand op de server verzamelen, d
 
    Het tabblad **[!UICONTROL Directory]** bevat informatie over de bestanden die moeten worden hersteld. In ons voorbeeld worden alle bestanden in tekstopmaak waarvan de namen het woord &#39;klanten&#39; bevatten en die zijn opgeslagen in de map tmp/Adobe/Data/files van de server, hersteld.
 
-   Het gebruiken van **[!UICONTROL File collector]** is gedetailleerd in de [ 2&rbrace; sectie van de inzamelaar van het Dossier &lbrace;.](file-collector.md)
+   Het gebruiken van **[!UICONTROL File collector]** is gedetailleerd in de [ 2} sectie van de inzamelaar van het Dossier {.](file-collector.md)
 
    ![](assets/s_advuser_load_file_sample_1.png)
 
@@ -120,7 +121,7 @@ In het volgende voorbeeld kunt u elke dag een bestand op de server verzamelen, d
 
    De indelingsconfiguratie van het te laden bestand valt samen met de configuratie die is gedefinieerd tijdens het importeren van gegevens in Adobe Campaign.
 
-1. In de gespleten activiteit, specificeer de subsets om, volgens de **kolomwaarde van de Gebeurtenis** te creëren &lbrace;.
+1. In de gespleten activiteit, specificeer de subsets om, volgens de **kolomwaarde van de Gebeurtenis** te creëren {.
 
    De activiteit Splitsen wordt gedetailleerd beschreven in de sectie.
 

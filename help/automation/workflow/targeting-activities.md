@@ -3,8 +3,9 @@ product: campaign
 title: Targetingactiviteiten
 description: Targetingactiviteiten
 feature: Workflows, Audiences, Targeting Activity
+version: Campaign v8, Campaign Classic v7
 exl-id: e89c9f20-fc10-421f-9c14-2e33be562a8d
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 1%
@@ -15,23 +16,23 @@ ht-degree: 1%
 
 Met deze activiteiten kunt u een of meer doelen maken door sets te definiëren en deze sets te splitsen of te combineren met behulp van doorsnede-, samenvoegings- of uitsluitingsbewerkingen.
 
-* **[Cellen](cells.md)**: biedt een weergave van de verschillende subsets in de vorm van gegevenskolommen en vereenvoudigt het manipuleren van deze subsets wanneer er veel zijn.
-* **[CRM-connector](crm-connector.md)**: Hiermee kunt u de synchronisatie tussen Adobe Campaign en een CRM configureren.
-* **[Gegevensbron wijzigen](change-data-source.md)**: Hiermee kunt u de gegevensbron van een workflow wijzigen **[!UICONTROL Working table]**. Dit biedt meer flexibiliteit voor het beheer van gegevens in verschillende gegevensbronnen, zoals FDA, FFDA en de lokale database.
-* **[Dimensie wijzigen](change-dimension.md)**: Hiermee kunt u de doeldimensie wijzigen tijdens de bouwcyclus van de workflow.
-* **[Deduplicatie](deduplication.md)**: Hiermee kunt u duplicaten verwijderen uit binnenkomende activiteiten.
-* **[Overzicht van levering](delivery-outline.md)** (alleen in workflows voor campagnes): Hiermee kunt u een overzicht van de levering toevoegen.
-* **[Schema bewerken](edit-schema.md)**: Hiermee kunt u gegevens transformeren, standaardiseren en indien nodig verrijken.
-* **[Verrijking](enrichment.md)**: Hiermee kunt u kolommen toevoegen aan een werktabel of workflow.
-* **[Uitsluiting](exclusion.md)**: Hiermee kunt u een doel maken op basis van een hoofddoel waaruit een of meer andere doelen worden gehaald.
-* **[Incrementele query](incremental-query.md)**: laat u een vraag uitvoeren en zijn uitvoering plannen.
-* **[Intersectie](intersection.md)**: laat u slechts de bevolking met de zelfde binnenkomende activiteitenresultaten halen.
-* **[Lijstupdate](list-update.md)**: registreert het resultaat van binnenkomende activiteiten in een lijst.
-* **[Aanbiedingen per cel](offers-by-cell.md)**: Hiermee kunt u verschillende aanbiedingen koppelen aan elke subset van een populatie.
-* **[Aanbiedingsengine](offer-engine.md)**: Hiermee kunt u de engine voor de interactieaanbieding in een workflow aanroepen.
-* **[Query](query.md)**: Hiermee kunt u een query maken en uitvoeren.
-* **[Leeslijst](read-list.md)**: Hiermee kunt u gegevens in een lijst gebruiken.
-* **[Splitsen](split.md)**: Hiermee kunt u een doel opsplitsen in verschillende subsets.
-* **[Abonnementsservices](subscription-services.md)**: Hiermee kunt u abonnementen en abonnementen op een informatieservice beheren.
-* **[Unie](union.md)**: Hiermee kunt u het resultaat van verschillende activiteiten groeperen in één doel.
-* **[Gegevens bijwerken](update-data.md)**: Hiermee kunt u de gegevens in de database ingrijpend bijwerken.
+* **[Cellen](cells.md)**: verstrekt een mening van de diverse subsets in de vorm van gegevenskolommen, en vergemakkelijkt de manipulatie van deze subsets wanneer er veel van hen zijn.
+* **[Schakelaar van CRM](crm-connector.md)**: laat u de synchronisatie tussen Adobe Campaign en CRM vormen.
+* **[gegevensbron van de Verandering](change-data-source.md)**: laat u de gegevensbron van een werkschema **[!UICONTROL Working table]** veranderen. Dit biedt meer flexibiliteit voor het beheer van gegevens in verschillende gegevensbronnen, zoals FDA, FFDA en de lokale database.
+* **[dimensie van de Verandering](change-dimension.md)**: laat u de het richten dimensie tijdens de cyclus van de werkschemabouw veranderen.
+* **[Deduplicatie](deduplication.md)**: laat u duplicaten uit binnenkomende activiteiten verwijderen.
+* **[Overzicht van de Levering](delivery-outline.md)** (in campagnewerkschema&#39;s slechts): laat u een leveringsoverzicht toevoegen.
+* **[geef schema](edit-schema.md)** uit: laat u transformeren, normaliseren, en indien nodig verrijken gegevens.
+* **[Verrijking](enrichment.md)**: laat u kolommen aan een werkende lijst of een werkschema toevoegen.
+* **[Uitsluiting](exclusion.md)**: laat u een doel tot stand brengen dat op een belangrijkste doel wordt gebaseerd waarvan één of meerdere andere doelstellingen worden gehaald.
+* **[Incrementele vraag](incremental-query.md)**: laat u een vraag uitvoeren en zijn uitvoering plannen.
+* **[Intersection](intersection.md)**: laat u slechts de bevolking met de zelfde binnenkomende activiteitenresultaten halen.
+* **[update van de Lijst](list-update.md)**: registreert het resultaat van binnenkomende activiteiten in een lijst.
+* **[Aanbiedingen door cel](offers-by-cell.md)**: laat u verschillende aanbiedingen met elke ondergroep van een bevolking verbinden.
+* **[motor van de Aanbieding](offer-engine.md)**: laat u de motor van de Interactie in een werkschema roepen.
+* **[Vraag](query.md)**: laat u tot stand brengen en een vraag in werking stellen.
+* **[leest lijst](read-list.md)**: laat u gegevens gebruiken in een lijst.
+* **[Gesplitst](split.md)**: laat u een doel in verscheidene ondergroepen verdelen.
+* **[de Diensten van het Abonnement van het Abonnement](subscription-services.md)**: laat doelabonnementen en abonnementen aan de informatiedienst beheren.
+* **[Unie](union.md)**: laat u het resultaat van verscheidene activiteiten in één enkel doel groeperen.
+* **[gegevens van de Update](update-data.md)**: laat u de gegevens in het gegevensbestand massief bijwerken.

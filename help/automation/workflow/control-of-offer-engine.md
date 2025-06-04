@@ -1,35 +1,36 @@
 ---
 product: campaign
-title: Controle van de aanbiedingsengine
-description: Controle van de aanbiedingsengine
+title: Controle van de aanbiedingsmotor
+description: Controle van de aanbiedingsmotor
 feature: Workflows, Offers
 role: User
+version: Campaign v8, Campaign Classic v7
 topic-tags: technical-workflows
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 26%
+ht-degree: 3%
 
 ---
 
 
-# Controle van de aanbiedingsengine{#control-of-offer-engine}
+# Controle van de aanbiedingsmotor{#control-of-offer-engine}
 
 
 
-De hieronder beschreven workflow wordt geïnstalleerd met de **Besturing van de aanbiedingsengine met uitvoeringsinstantie** module standaard.
+Het hieronder gedetailleerde werkschema wordt geïnstalleerd met de **Controle van de aanbiedingsmotor met uitvoeringsinstantie** module door gebrek.
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Label</strong><br /> </td> 
-   <td> <strong>Interne naam</strong><br /> </td> 
+   <td> <strong> Interne naam </strong><br /> </td> 
    <td> <strong>Beschrijving</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Propositiesynchronisatie</span> <br /> </td> 
-   <td> <span class="uicontrol">propositionSynch</span> <br /> </td> 
-   <td> Deze workflow synchroniseert voorstellingen tussen de marketinginstantie en de uitvoeringsinstantie die voor interacties wordt gebruikt.<br /> </td> 
+   <td> <span class="uicontrol"> synchronisatie van de Positie </span> <br /> </td> 
+   <td> <span class="uicontrol"> propositionSynch </span> <br /> </td> 
+   <td> Dit werkschema synchroniseert voorstellingen tussen de marketing instantie en de uitvoeringsinstantie die voor interactie wordt gebruikt.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,8 +4,9 @@ title: Technische workflows controleren
 description: Technische workflows controleren
 feature: Workflows
 role: Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 5%
@@ -18,7 +19,7 @@ De technische werkstromen moeten worden bewaakt en er moeten maatregelen worden 
 
 ## Instance Monitoring dashboard {#instance-monitoring-dashboard}
 
-Het dashboard voor instance-controle is toegankelijk via de **[!UICONTROL Monitoring]** tab.
+Het dashboard voor instance-controle is toegankelijk via het tabblad **[!UICONTROL Monitoring]** .
 
 ![](assets/monitoring_technical_workflows1.png)
 
@@ -30,11 +31,11 @@ Controleer onder Systeemindicatoren en kernbestanden of er geen rode indicatoren
 
 ## Technische workflows {#technical-workflows}
 
-Technische workflows zijn beschikbaar via **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+Technische workflows zijn beschikbaar via **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** .
 
 Afhankelijk van de technische werkstroom, volg de hieronder beschreven stappen om ervoor te zorgen dat alles zoals verwacht werkt.
 
-Om beter te begrijpen wat elke technische werkstroom wordt verondersteld te doen, verwijs naar dit [sectie](technical-workflows.md).
+Om beter te begrijpen wat elk technisch werkschema zou moeten doen, verwijs naar dit [ sectie ](technical-workflows.md).
 
 Voor **[!UICONTROL Database Cleanup workflow ('cleanup')]**:
 
@@ -46,17 +47,17 @@ Controleer of de workflow voor bijhouden volgens schema wordt uitgevoerd (standa
 
 Voor **[!UICONTROL Deliverability update ('deliverabilityUpdate')]**:
 
-1. Controleer of de **[!UICONTROL Deliverability update]** de workflow wordt elke dag uitgevoerd en voltooid.
+1. Controleer of de **[!UICONTROL Deliverability update]** -workflow elke dag wordt uitgevoerd en voltooid.
 1. Verifieer in het dagboek dat de regels regelmatig worden bijgewerkt.
 
 Voor **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
-1. Bekijk alle workflows onder de **[!UICONTROL Campaign process]** map. Raadpleeg [deze pagina](technical-workflows.md) voor meer informatie.
+1. Kijk naar alle workflows onder de map **[!UICONTROL Campaign process]** . Raadpleeg [deze pagina](technical-workflows.md) voor meer informatie.
 1. Controleer of de workflows worden uitgevoerd zoals gepland en of het dagboek geen terugkerende fouten markeert.
 
 ## Workflowcontrole {#workflow-supervision}
 
-De **[!UICONTROL Workflow supervisors]** de groep moet exploitanten omvatten die op de hoogte moeten worden gehouden van tekortkomingen en die tijdig kunnen optreden.
+De **[!UICONTROL Workflow supervisors]** -groep moet operatoren bevatten die op de hoogte moeten worden gehouden van fouten en die tijdig actie kunnen ondernemen.
 
 ![](assets/monitoring_technical_workflows3.png)
 

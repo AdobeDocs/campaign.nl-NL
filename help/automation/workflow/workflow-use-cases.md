@@ -1,17 +1,18 @@
 ---
 product: campaign
-title: Gebruiksscenario's voor workflows
+title: Gebruiksscenario's voor workflowgebruik
 description: Meer informatie over gebruiksgevallen die u kunt uitvoeren met Campagneworkflows
 feature: Workflows, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 59%
+ht-degree: 52%
 
 ---
 
-# Gebruiksscenario&#39;s voor workflows {#about-workflow-use-cases}
+# Gebruiksscenario&#39;s voor workflowgebruik {#about-workflow-use-cases}
 
 Leer verschillende contexten waarin de werkschema&#39;s kunnen worden gebruikt en hoe te om hen door gebruiksgevallen van begin tot eind uit te voeren.
 
@@ -25,7 +26,7 @@ Leer verschillende contexten waarin de werkschema&#39;s kunnen worden gebruikt e
 * [Cross-channel leveringsworkflow](cross-channel-delivery-workflow.md)
 * [E-mailverrijking met aangepaste datumvelden](email-enrichment-with-custom-date-fields.md)
 
-## Controleren {#monitoring}
+## Toezicht {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
@@ -34,13 +35,13 @@ Leer verschillende contexten waarin de werkschema&#39;s kunnen worden gebruikt e
 * [Gepersonaliseerde waarschuwingen verzenden naar operatoren](send-alerts-to-operators.md)
 * [Een goedkeuringsproces voor ontvangers instellen voordat een levering wordt verzonden](local-approval-activity.md)
 
-## Data management {#management}
+## Gegevensbeheer {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
 * [Gegevensupdates coördineren](coordinate-data-updates.md)
 * [Een overzichtslijst maken](create-a-summary-list.md)
-* [Gegevens verrijken](enrich-data.md)
+* [Gegevens vergroten](enrich-data.md)
 * [Aggregaten gebruiken](using-aggregates.md)
 * [Gegevens versleutelen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](use-workflow-data.md#use-case-gpg-encrypt)
 * [Driemaandelijkse lijstupdate met een incrementele query](quarterly-list-update.md)

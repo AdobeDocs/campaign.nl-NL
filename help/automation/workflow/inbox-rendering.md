@@ -4,7 +4,8 @@ title: Technische workflow voor weergave in Postvak In
 description: In deze sectie wordt de technische workflow beschreven die met het Inbox-renderingpakket is geïnstalleerd.
 feature: Workflows, Inbox Rendering
 role: User, Admin
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+version: Campaign v8, Campaign Classic v7
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 3%
@@ -16,19 +17,19 @@ ht-degree: 3%
 
 
 
-De hieronder beschreven workflow wordt geïnstalleerd met de **Inbox rendering (IR)** module standaard.
+Het hieronder gedetailleerde werkschema wordt geïnstalleerd met **Inbox die (IRL) teruggeeft** module door gebrek.
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Label</strong><br /> </td> 
-   <td> <strong>Interne naam</strong><br /> </td> 
+   <td> <strong> Interne naam </strong><br /> </td> 
    <td> <strong>Beschrijving</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Zaadnetwerk bijwerken voor renderen in Postvak</strong><br /> </td> 
-   <td> <span class="uicontrol">updateRenderingSeeds</span> <br /> </td> 
-   <td> Deze workflow werkt e-mailadressen bij die worden gebruikt voor de weergave van Postvakken en werkt alleen als de HTTPS-poort open is voor <strong>deliverability.neolane.net</strong>.<br /> </td> 
+   <td> <strong> update zaadnetwerk voor het Teruggeven Inbox </strong><br /> </td> 
+   <td> <span class="uicontrol"> updateRenderingSeeds </span> <br /> </td> 
+   <td> Dit werkschema werkt e-mailadressen bij die voor het teruggeven Inbox worden gebruikt en slechts werkt als de haven HTTPS open voor <strong> is leverbability.neolane.net </strong>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

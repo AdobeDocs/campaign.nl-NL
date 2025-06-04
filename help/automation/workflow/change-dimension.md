@@ -4,8 +4,9 @@ title: Dimensie in een workflow wijzigen
 description: Leer hoe u de activiteit Dimensie wijzigen gebruikt
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 71f36413-377a-4be6-921c-9e794fe882fd
-source-git-commit: b77c37ab9ba9556fdefc563deac6b55ab0d91dc8
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 1%
@@ -14,17 +15,17 @@ ht-degree: 1%
 
 # Dimensie wijzigen{#change-dimension}
 
-Gebruik de **[!UICONTROL Change dimension]** activiteit om de het richten dimensie te veranderen aangezien u een publiek bouwt. Deze activiteit verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie. U schakelt bijvoorbeeld van de dimensie &#39;contracten&#39; over naar de dimensie &#39;clients&#39;.
+Gebruik de **[!UICONTROL Change dimension]** -activiteit om de doeldimensie te wijzigen terwijl u een publiek maakt. Deze activiteit verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie. U schakelt bijvoorbeeld van de dimensie &#39;contracten&#39; over naar de dimensie &#39;clients&#39;.
 
 U kunt deze activiteit ook gebruiken om de extra kolommen van het nieuwe doel te bepalen, en de criteria van de gegevensdeduplicatie te bepalen.
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat de **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u omvat **[!UICONTROL Enrichement]** tussen hen. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
+>De activiteiten **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u een **[!UICONTROL Enrichement]** activiteit binnen tussen hen omvat. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
 
-Om te vormen **[!UICONTROL Change dimension]** Voer de volgende stappen uit:
+Voer de volgende stappen uit om de **[!UICONTROL Change dimension]** -activiteit te configureren:
 
-1. Selecteer de nieuwe doeldimensie via de **[!UICONTROL Change dimension]** veld.
+1. Selecteer de nieuwe doeldimensie via het veld **[!UICONTROL Change dimension]** .
 
    ![](assets/s_user_change_dimension_param1.png)
 
@@ -34,7 +35,7 @@ Om te vormen **[!UICONTROL Change dimension]** Voer de volgende stappen uit:
 
    Wanneer u verkiest om slechts één verslag te houden, wordt een inzameling getoond in het het werkschema: Deze inzameling vertegenwoordigt alle verslagen die niet in het definitieve resultaat zullen worden gericht (aangezien slechts één verslag wordt gehouden). Net als bij alle andere verzamelingen kunt u met deze verzameling aggregaten berekenen of gegevens in kolommen herstellen.
 
-   Als u bijvoorbeeld de opdracht **[!UICONTROL Customers]** de **[!UICONTROL Recipients]** afmeting, zal het mogelijk zijn om klanten van een specifieke opslag te richten, terwijl het toevoegen van het aantal gemaakte aankopen.
+   Als u bijvoorbeeld de **[!UICONTROL Customers]** -dimensie wijzigt in de **[!UICONTROL Recipients]** -dimensie, kunt u zich richten op klanten van een specifieke winkel en tegelijkertijd het aantal aanschafacties toevoegen.
 
 1. Als u verkiest om al deze informatie niet te houden, kunt u de dubbele beheerswijze vormen.
 
@@ -44,23 +45,23 @@ Om te vormen **[!UICONTROL Change dimension]** Voer de volgende stappen uit:
 
    In het bovenstaande voorbeeld worden ontvangers eerst gededupliceerd op hun e-mailadres en vervolgens, indien nodig, op hun accountnummer.
 
-1. De **[!UICONTROL Result]** kunt u aanvullende informatie toevoegen.
+1. Op het tabblad **[!UICONTROL Result]** kunt u aanvullende informatie toevoegen.
 
-   U kunt bijvoorbeeld het land herstellen op basis van de postcode met behulp van een **Subtekenreeks** type functie. Dit doet u als volgt:
+   Bijvoorbeeld, kunt u het graafschap terugkrijgen dat op de postcode wordt gebaseerd door a **Substring** typefunctie te gebruiken. Dit doet u als volgt:
 
-   * Klik op de knop **[!UICONTROL Add data...]** koppelen en selecteren **[!UICONTROL Data linked to the filtering dimension]**.
+   * Klik op de koppeling **[!UICONTROL Add data...]** en selecteer **[!UICONTROL Data linked to the filtering dimension]** .
 
      ![](assets/wf_change-dimension_sample_01.png)
 
      >[!NOTE]
      >
-     >Voor informatie over het maken en beheren van extra kolommen raadpleegt u [Gegevens toevoegen](query.md#add-data).
+     >Voor informatie bij het creëren van en het leiden van extra kolommen, verwijs naar [ gegevens ](query.md#add-data) toevoegen.
 
-   * Selecteer de vorige gericht afmeting (vóór asschakelaar) en selecteer **[!UICONTROL Zip Code]** in de **[!UICONTROL Location]** substructuur, en klik vervolgens op **[!UICONTROL Edit expression]**.
+   * Selecteer de vorige doeldimensie (vóór de asschakelaar) en selecteer **[!UICONTROL Zip Code]** in de **[!UICONTROL Location]** -substructuur van de ontvanger en klik vervolgens op **[!UICONTROL Edit expression]** .
 
      ![](assets/wf_change-dimension_sample_02.png)
 
-   * Klikken **[!UICONTROL Advanced selection]** en kiest u **[!UICONTROL Edit the formula using an expression]**.
+   * Klik op **[!UICONTROL Advanced selection]** en kies **[!UICONTROL Edit the formula using an expression]** .
 
      ![](assets/wf_change-dimension_sample_03.png)
 

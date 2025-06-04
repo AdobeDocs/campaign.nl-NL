@@ -4,8 +4,9 @@ title: HeatMap van de Campagne-workflow
 description: Uw workflows controleren met Workflow HeatMap
 feature: Workflows, Heatmap
 role: Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 3%
@@ -135,7 +136,7 @@ Als Campagnebeheerder, helpt het Werkschema HeatMap u om de langste werkschema&#
    ![](assets/wkf_monitoring_long_duration.png)
 
 1. Neem meer resultaten op door het filter **[!UICONTROL Min duration]** te verlagen.
-1. Onderzoek de resultaten om de langste werkschema&#39;s te vinden, die potentieel meer invloed op de server en gegevensbestandmiddelen (cpu, RAM, netwerk, IOPS, etc.) kunnen hebben.
+1. Onderzoek de resultaten om de langste werkschema&#39;s te vinden, die potentieel meer invloed op de server en gegevensbestandmiddelen (CPU, RAM, netwerk, IOPS, etc.) kunnen hebben.
 1. Voer passende maatregelen uit:
 
    * Adviseer marketinggebruikers om de langste workflows te splitsen om de verwerkingstijd te verminderen.

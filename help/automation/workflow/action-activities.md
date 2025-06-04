@@ -4,8 +4,9 @@ title: Acties in workflows
 description: Actieactiviteiten
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: feed4cc1-d654-45e7-a3b2-2bc46418a90b
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -14,18 +15,18 @@ ht-degree: 1%
 
 # Acties in workflows{#about-action-activities}
 
-* **[Inhoud beheren](content-management.md)**: hiermee kunt u inhoud maken of aanpassen.
-* **[Doorlopende levering](continuous-delivery.md)**: laat u een levering van het scenario beginnen dat in de activiteit wordt gespecificeerd.
-* **[Kanaalleveringen](cross-channel-deliveries.md)** (Alleen workflows voor campagnes): hiermee kunt u een levering configureren op het bijbehorende kanaal: E-mail, Push, Mobile, Direct mail.
-* **[Gegevens laden (bestand)](data-loading-rdbms.md)**: hiermee hebt u toegang tot een externe gegevensbron om de gegevens te gebruiken.
-* **[Gegevens laden (RDBMS)](data-loading-rdbms.md)**: hiermee hebt u toegang tot een externe database om gegevens op te halen.
-* **[Aflevering](delivery.md)**: Hiermee kunt u een leveringsactie configureren.
-* **[Afleveringscontrole](delivery-control.md)**: hiermee kunt u een levering starten, pauzeren of stoppen.
-* **[Uitpakken (bestand)](extraction-file.md)**: hiermee kunt u gegevens uit een tabel in een bestand extraheren.
-* **[Laden (SOAP)](loading-soap.md)**: hiermee kunt u gegevens verzamelen via een SOAP-aanroep.
-* **[Lokale goedkeuring](local-approval.md)**: Hiermee kunt u goedkeuringen en doelgerichte meldingen uitvoeren binnen een gedistribueerde marketingcontext (optionele module).
-* **[Nlserver-module](nlserver-module.md)**: start een nlserver module met de argumenten ervan.
-* **[Terugkerende levering](recurring-delivery.md)**: Hiermee kunt u een exemplaar van een leveringssjabloon binnen een campagne configureren.
-* **[SQL-code en JavaScript-code](sql-code-and-javascript-code.md)**: voert het SQL-script of JavaScript uit dat in de activiteit is opgegeven.
-* **[SQL-gegevensbeheer](sql-data-management.md)**: hiermee kunt u uw eigen SQL-query&#39;s schrijven om werktabellen te maken en te vullen.
-* **[Samenvoegen bijwerken](update-aggregate.md)**: hiermee kunt u de geaggregeerde updatemodus (volledig of gedeeltelijk) selecteren.
+* **[Beheer van de Inhoud](content-management.md)**: laat u inhoud tot stand brengen of aanpassen.
+* **[Ononderbroken levering](continuous-delivery.md)**: laat u een levering van het scenario beginnen dat in de activiteit wordt gespecificeerd.
+* **[de Leveringen van het Kanaal van het Kanaal 1} (campagnewerkschema slechts): laat u een levering op het overeenkomstige kanaal vormen: E-mail, Duw, Mobiel, Directe post.](cross-channel-deliveries.md)**
+* **[het laden van Gegevens (dossier)](data-loading-rdbms.md)**: laat u tot een externe gegevensbron toegang hebben om zijn gegevens te gebruiken.
+* **[het laden van Gegevens (RDBMS)](data-loading-rdbms.md)**: laat u tot een extern gegevensbestand toegang hebben om gegevens te krijgen.
+* **[Levering](delivery.md)**: laat u een leveringsactie vormen.
+* **[de controle van de Levering](delivery-control.md)**: laat u beginnen, pauzeren of een levering tegenhouden.
+* **[Extractie (dossier)](extraction-file.md)**: laat u gegevens uit een lijst in een dossier halen.
+* **[Lading (SOAP)](loading-soap.md)**: staat u toe om gegevens via een vraag van SOAP te verzamelen.
+* **[Lokale goedkeuring](local-approval.md)**: laat u goedkeuringen en het richten van berichten binnen een verdeelde marketing context (facultatieve module) uitvoeren.
+* **[Nlserver module](nlserver-module.md)**: begint een nlserver module met zijn argumenten.
+* **[Terugkomende levering](recurring-delivery.md)**: laat u een voorkomen van het leveringsmalplaatje binnen een campagne vormen.
+* **[SQL code en de code van JavaScript](sql-code-and-javascript-code.md)**: voert het SQL manuscript of JavaScript uit in de activiteit wordt gespecificeerd die.
+* **[SQL het Beheer van Gegevens](sql-data-management.md)**: laat u uw eigen SQL vragen schrijven om het werklijsten tot stand te brengen en te bevolken.
+* **[Update aggregaat](update-aggregate.md)**: laat u de gezamenlijke updatemodus (volledig of gedeeltelijk) selecteren.

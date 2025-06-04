@@ -4,8 +4,9 @@ title: Technische workflows
 description: Meer informatie over de technische workflows die beschikbaar zijn via Campagne
 feature: Workflows
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: b8f774ce507cff67163064b6bd1341b31512c08f
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 0%
@@ -83,7 +84,7 @@ De workflows die in deze pagina worden beschreven, worden geïnstalleerd met de 
 | **Replicate de lijsten van de Verwijzing** (ffdaReplicateReferenceTables) | Geïnstalleerd door gebrek op [ de plaatsingen van de Onderneming van de Campagne (FFDA) slechts ](../../v8/architecture/enterprise-deployment.md) | Voert automatische replicatie van ingebouwde lijsten uit die op het lokale gegevensbestand van de Campagne (PostgreSQL) en het gegevensbestand van de Wolk ([!DNL Snowflake]) aanwezig moeten zijn. Het is gepland om elk uur uit te voeren, dagelijks. Als **lastModified** gebied bestaat, gebeurt de replicatie incrementeel, anders wordt de volledige lijst herhaald. [ leer meer over gegevensreplicatie ](../../v8/architecture/replication.md) |
 | **Herhaal het Opvoeren gegevens** (ffdaReplicateStagingData) | Geïnstalleerd door gebrek op [ de plaatsingen van de Onderneming van de Campagne (FFDA) slechts ](../../v8/architecture/enterprise-deployment.md) | Herhaalt het opvoeren gegevens voor unitaire vraag. Het is gepland om elk uur uit te voeren, dagelijks. [ leer meer over gegevensreplicatie ](../../v8/architecture/replication.md) |
 | **het Melden van aggregaten** (reportingAggregates) | Levering | Deze workflow werkt aggregaten bij die worden gebruikt in rapporten. Deze wordt standaard elke dag om 2 uur geactiveerd. |
-| **het verzenden van indicatoren en campagnerekenmerken** (webAnalyticsSendMetrics) | Webanalytische connectors | Met deze workflow kunt u e-mailcampagneindicatoren van Adobe Campaign naar Adobe Experience Cloud Suite verzenden via de connector voor Adobe® Analytics. De betrokken indicatoren zijn als volgt: Verzonden (Verzonden), Totaal aantal van opent (iTotalRecipientOpen), Totaal aantal ontvangers die klikte (iTotalRecipientClick), Fouten (iError), Opt-Out (opt-out) (iOptOut). |
+| **het verzenden van indicatoren en campagnerekenmerken** (webAnalyticsSendMetrics) | Webanalytische connectors | Met deze workflow kunt u e-mailcampagneindicatoren van Adobe Campaign naar Adobe Experience Cloud Suite verzenden via de Adobe® Analytics-connector. De betrokken indicatoren zijn als volgt: Verzonden (Verzonden), Totaal aantal van opent (iTotalRecipientOpen), Totaal aantal ontvangers die klikte (iTotalRecipientClick), Fouten (iError), Opt-Out (opt-out) (iOptOut). |
 | **Beeld: Orders en alarm** (stockMgt) | Standaard geïnstalleerd | Deze workflow start voorraadberekening op de orderregels en beheert drempelwaarden voor waarschuwingen. |
 | **de Mobiele apps van de Synchronisatie van de Inzameling van Gegevens van Adobe Experience Platform** (syncWithLaunch) | Standaard geïnstalleerd, vanaf versie 8.5 | Deze workflow synchroniseert automatisch mobiele eigenschappen van gegevensverzameling naar Adobe Campaign. |
 | **het Volgen** (het volgen) | Standaard geïnstalleerd | Deze workflow voert het herstel en de consolidatie van trackinggegevens uit. Het verzekert ook de herberekening van het volgen en leveringsstatistieken, vooral die gebruikt door het archiveren van het Centrum van het Bericht werkschema. Deze wordt standaard één keer per uur geactiveerd. |

@@ -4,10 +4,11 @@ title: Uitsluiting
 description: Meer informatie over de activiteit van de uitsluitingsworkflow
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 8ea831e2-8e6e-4ef0-ac05-f27ebf89ccb9
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 
 
-An **Uitsluiting**-type activiteit leidt tot een doel dat op een hoofddoel wordt gebaseerd waaruit één of meerdere andere doelstellingen worden gehaald.
+Een **Uitsluiting** - type activiteit leidt tot een doel dat op een belangrijkste doel wordt gebaseerd waaruit één of meerdere andere doelstellingen worden gehaald.
 
 Om deze activiteit te vormen, ga zijn etiket in en selecteer de belangrijkste ontvankelijke reeks: de bevolking van de belangrijkste reeks laat u het resultaat construeren. Profielen die door de hoofdset en ten minste een van de entry-activiteiten worden gedeeld, worden uitgesloten.
 
@@ -24,9 +25,9 @@ Om deze activiteit te vormen, ga zijn etiket in en selecteer de belangrijkste on
 
 >[!NOTE]
 >
->Voor meer bij het vormen van en het gebruiken van de uitsluitingsactiviteit, verwijs naar [Exclusief een populatie (Uitsluiting)](targeting-workflows.md#excluding-a-population--exclusion-).
+>Voor meer bij het vormen van en het gebruiken van de uitsluitingsactiviteit, verwijs naar [ exclusief een bevolking (Uitsluiting) ](targeting-workflows.md#excluding-a-population--exclusion-).
 
-Controleer de **[!UICONTROL Generate complement]** als u de overblijvende bevolking wilt uitbuiten. De aanvulling zal de belangrijkste inkomende bevolking min de uitgaande bevolking bevatten. Vervolgens wordt als volgt een extra uitvoerovergang aan de activiteit toegevoegd:
+Schakel de optie **[!UICONTROL Generate complement]** in als u de resterende populatie wilt benutten. De aanvulling zal de belangrijkste inkomende bevolking min de uitgaande bevolking bevatten. Vervolgens wordt als volgt een extra uitvoerovergang aan de activiteit toegevoegd:
 
 ![](assets/s_user_segmentation_exclu_compl.png)
 
@@ -34,9 +35,9 @@ Controleer de **[!UICONTROL Generate complement]** als u de overblijvende bevolk
 
 In het volgende voorbeeld wordt getracht een lijst op te stellen van ontvangers tussen 18 en 30 jaar oud, met uitzondering van inwoners van Parijs.
 
-1. Een **[!UICONTROL Exclusion]** -type activiteit na twee vragen. De eerste vraag richt ontvangers die in Parijs wonen. De tweede vraag richt zich die van 18 tot 30 jaar oud.
-1. Voer de hoofdset in. Hier is de hoofdset **18-30 jaar oud** query. Elementen die betrekking hebben op de tweede set, worden uitgesloten van het eindresultaat.
-1. Controleer de **[!UICONTROL Generate complement]** als u de gegevens wilt gebruiken die na de uitsluiting achterblijven. In dit geval bestaat de aanvulling uit ontvangers in de leeftijd van 18 tot 30 jaar die in Parijs wonen.
+1. Voeg een **[!UICONTROL Exclusion]** -type activiteit in en open deze na twee query&#39;s. De eerste vraag richt ontvangers die in Parijs wonen. De tweede vraag richt zich die van 18 tot 30 jaar oud.
+1. Voer de hoofdset in. Hier is de belangrijkste reeks de **18-30 jaar oude** vraag. Elementen die betrekking hebben op de tweede set, worden uitgesloten van het eindresultaat.
+1. Schakel de optie **[!UICONTROL Generate complement]** in als u de gegevens die na de uitsluiting overblijven, wilt gebruiken. In dit geval bestaat de aanvulling uit ontvangers in de leeftijd van 18 tot 30 jaar die in Parijs wonen.
 1. Goedkeuren van de uitsluitingsconfiguratie en voegen vervolgens een activiteit uit de updatelijst in het resultaat. U kunt waar nodig ook een extra lijstupdate aan het complement toevoegen.
 1. Voer de workflow uit. In dit voorbeeld bestaat het resultaat uit ontvangers tussen de 18 en 30 jaar, maar degenen die in Parijs wonen, worden uitgesloten en naar het complement gestuurd.
 
@@ -55,6 +56,6 @@ Elke binnenkomende gebeurtenis moet een doel specificeren dat door deze paramete
 * schema
 * recCount
 
-Deze reeks van drie waarden identificeert het doel dat uit de uitsluiting voortvloeit. **[!UICONTROL tableName]** is de naam van de lijst die de doelherkenningstekens registreert, **[!UICONTROL schema]** is het schema van de populatie (gewoonlijk nms:ontvanger) en **[!UICONTROL recCount]** is het aantal elementen in de tabel.
+Deze reeks van drie waarden identificeert het doel dat uit de uitsluiting voortvloeit. **[!UICONTROL tableName]** is de naam van de tabel waarin de doel-id&#39;s worden vastgelegd. **[!UICONTROL schema]** is het schema van de populatie (gewoonlijk nms:ontvanger) en **[!UICONTROL recCount]** is het aantal elementen in de tabel.
 
 De overgang verbonden aan het complement heeft de zelfde parameters.

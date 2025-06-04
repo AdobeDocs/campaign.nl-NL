@@ -4,8 +4,9 @@ title: Gegevensupdates coördineren
 description: Gegevensupdates coördineren
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 9faf7ee7-07c1-415b-b234-a945994792c7
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 3%
@@ -24,15 +25,15 @@ Het doel is te controleren of het updateproces is beëindigd voordat een andere 
 
 Deze workflow bestaat uit:
 
-* a **Planner** activiteit, die de werkstroom op een specifieke frequentie uitvoert.
-* a **Testen** activiteit die controleert of de workflow al wordt uitgevoerd.
-* **Query** en **Gegevens bijwerken** activiteiten voor het geval de werkstroom nog niet wordt uitgevoerd, gevolgd door een **Einde** activiteit die de werkschemainstantievariabele aan vals opnieuw initialiseert.
-* An **Einde** activiteit als de workflow al wordt uitgevoerd.
+* a **Planner** activiteit, die het werkschema op een specifieke frequentie uitvoert.
+* a **Test** activiteit die controleert als het werkschema reeds uitvoert.
+* **Vraag** en **gegevens van de Update** activiteiten in het geval dat het werkschema niet reeds uitvoert, die door een **Eind** activiteit wordt gevolgd die de variabele van de werkschemainstantie aan vals opnieuw initialiseert.
+* Een **Eind** activiteit als het werkschema reeds uitvoert.
 
 Volg onderstaande stappen om de workflow te maken:
 
-1. Voeg een **Planner** activiteit, dan vorm zijn frequentie op uw behoeften.
-1. Voeg een **Testen** om te controleren of de workflow al wordt uitgevoerd en het vervolgens te configureren zoals hieronder wordt beschreven.
+1. Voeg de activiteit van de a **Planner** toe, dan vormen zijn frequentie volgens uw behoeften.
+1. Voeg de activiteit van de a **Test** toe om te controleren als het werkschema reeds uitvoert, dan het zoals hieronder vormen.
 
    >[!NOTE]
    >
@@ -40,13 +41,13 @@ Volg onderstaande stappen om de workflow te maken:
 
    ![](assets/uc_dataupdate_test.png)
 
-1. Een **Einde** aan de **Nee** vork. Op deze manier wordt niets uitgevoerd als de workflow al wordt uitgevoerd.
-1. Voeg de gewenste activiteiten toe aan de **Ja** vork. In ons geval: **Query** en **Gegevens bijwerken** activiteiten.
-1. Open de eerste activiteit en voeg vervolgens de **instance.vars.isRunning = true** in de **[!UICONTROL Advanced]** tab. Op deze manier wordt de instantievariabele ingesteld als actief.
+1. Voeg een **Eindactiviteit** aan **toe Geen** vork. Op deze manier wordt niets uitgevoerd als de workflow al wordt uitgevoerd.
+1. Voeg de gewenste activiteiten aan **toe ja** vork. In ons geval, **Vraag** en **Werk Gegevens** activiteiten bij.
+1. Open de eerste activiteit, dan voeg **instance.vars.isRunning = waar** bevel in het **[!UICONTROL Advanced]** lusje toe. Op deze manier wordt de instantievariabele ingesteld als actief.
 
    ![](assets/uc_dataupdate_query.png)
 
-1. Een **Einde** aan het einde van de **[!UICONTROL Yes]** vork, dan voeg toe **instance.vars.isRunning = false** in de **[!UICONTROL Advanced]** tab.
+1. Voeg een **Eindactiviteit** aan het eind van het **[!UICONTROL Yes]** vork toe, dan voeg **instance.vars.isRunning = vals** bevel in het **[!UICONTROL Advanced]** lusje toe.
 
    Op deze manier wordt geen actie uitgevoerd zolang de workflow wordt uitgevoerd.
 

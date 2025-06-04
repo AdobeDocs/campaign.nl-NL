@@ -3,17 +3,18 @@ title: CRM-connectoractiviteit
 description: Meer informatie over de CRM-connector en configureren van gegevenssynchronisatie
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 9da636a7-ed57-440f-8166-6982dce0213c
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 2%
 
 ---
 
 # CRM-connector{#crm-connector}
 
-De **CRM-connector** U kunt de gegevenssynchronisatie tussen Adobe Campaign en een CRM-systeem configureren.
+De **schakelaar van CRM** activiteit laat u de gegevenssynchronisatie tussen Adobe Campaign en een systeem van CRM vormen.
 
 Met deze activiteit kunt u:
 
@@ -28,4 +29,4 @@ Selecteer de externe rekening die CRM aanpast dat u synchronisatie met wilt vorm
 
 ![](assets/crm_task_select_obj.png)
 
-Voor meer informatie over CRM-connectors in Adobe Campaign raadpleegt u [deze sectie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=nl-NL){target="_blank"}.
+Voor meer informatie over de schakelaars van CRM in Adobe Campaign, verwijs naar [ deze sectie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}.

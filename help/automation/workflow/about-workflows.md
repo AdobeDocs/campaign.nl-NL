@@ -3,12 +3,13 @@ product: campaign
 title: Workflows
 description: Automatiseer processen met workflows, beheer gegevens en doelgroepen, verzend berichten, en meer.
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 297aa4e3-b672-46b5-9016-5accee8568b8
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -42,11 +43,11 @@ Elke werkstroom bevat:
 
 * **[!UICONTROL Activities]**
 
-  Een activiteit beschrijft een taakmalplaatje. De verschillende beschikbare activiteiten worden op het diagram weergegeven door pictogrammen. Elk type heeft gemeenschappelijke eigenschappen en specifieke eigenschappen. Terwijl alle activiteiten bijvoorbeeld een naam en label hebben, worden alleen de **[!UICONTROL Approval]** activiteit heeft een toewijzing.
+  Een activiteit beschrijft een taakmalplaatje. De verschillende beschikbare activiteiten worden op het diagram weergegeven door pictogrammen. Elk type heeft gemeenschappelijke eigenschappen en specifieke eigenschappen. Terwijl alle activiteiten bijvoorbeeld een naam en label hebben, heeft alleen de **[!UICONTROL Approval]** -activiteit een toewijzing.
 
   In een workflowdiagram kan een bepaalde activiteit meerdere taken produceren, met name wanneer er een lus of terugkerende (periodieke) handelingen zijn.
 
-  Alle workflowactiviteiten worden vermeld in [deze sectie](activities.md), met inbegrip van gebruiksgevallen en monsters.
+  Alle werkschemaactiviteiten worden vermeld in [ deze sectie ](activities.md), met inbegrip van gebruiksgevallen en steekproeven.
 
 * **[!UICONTROL Transitions]**
 
@@ -58,22 +59,22 @@ Elke werkstroom bevat:
   >
   >Er kan nog steeds een workflow met niet-afgesloten overgangen worden uitgevoerd: er wordt een waarschuwingsbericht gegenereerd en de workflow wordt gepauzeerd zodra de overgang is bereikt, maar er wordt geen fout gegenereerd. Het is dus mogelijk om een werkstroom te starten zonder dat deze is voltooid en om deze tijdens het proces toe te voegen.
 
-  Voor meer informatie over hoe u een workflow kunt maken, raadpleegt u [deze sectie](build-a-workflow.md).
+  Voor meer informatie over hoe te om een werkschema te bouwen, verwijs naar [ deze sectie ](build-a-workflow.md).
 
 * **[!UICONTROL Worktables]**
 
   De werktabel bevat alle informatie die door de overgang wordt overgedragen. Voor elke workflow worden meerdere werktabellen gebruikt. De gegevens in deze tabellen kunnen gedurende de gehele levenscyclus van de werkstroom worden versneld en gebruikt, zolang deze niet worden gewist. Onbenodigde tabellen worden immers gewist wanneer de workflow wordt gepassiveerd en mogelijk tijdens de uitvoering van de grootste workflows om overbelasting van de server te voorkomen.
 
-  Meer informatie over workflowgegevens en tabellen in [deze sectie](use-workflow-data.md).
+  Leer meer over werkschemagegevens en lijsten in [ deze sectie ](use-workflow-data.md).
 
 ## Verwante secties
 
 Raadpleeg de volgende secties voor hulp en tips en trucs om processen te automatiseren met workflows:
 
-* Meer informatie over workflowactiviteiten in [deze pagina](use-workflow-data.md).
-* Leer hoe u een workflow maakt in [deze sectie](build-a-workflow.md).
-* Ontdek hoe u workflows kunt gebruiken om gegevens te importeren in Campagne in [deze sectie](campaign-workflows.md)..
-* Best practices voor workflows worden beschreven in [deze pagina](workflow-best-practices.md).
-* Raadpleeg de instructies over het uitvoeren van workflows in [deze sectie](start-a-workflow.md).
-* Leer hoe u workflows kunt controleren in [deze pagina](monitor-workflow-execution.md).
-* Leer hoe u gebruikers toegang biedt om workflows te gebruiken in [deze pagina](managing-rights.md).
+* Leer meer over werkschemaactiviteiten in [ deze pagina ](use-workflow-data.md).
+* Leer hoe te om een werkschema in [ te bouwen deze sectie ](build-a-workflow.md).
+* Ontdek hoe te om werkschema&#39;s te gebruiken om gegevens in Campagne in [ in te voeren deze sectie ](campaign-workflows.md).
+* De beste praktijken van het werkschema zijn gedetailleerd in [ deze pagina ](workflow-best-practices.md).
+* Vind begeleiding over werkschemauitvoering in [ deze sectie ](start-a-workflow.md).
+* Leer hoe te om werkschema&#39;s in [ te controleren deze pagina ](monitor-workflow-execution.md).
+* Leer hoe te om toegang tot gebruikers te verlenen om werkschema&#39;s in [ te gebruiken deze pagina ](managing-rights.md).
