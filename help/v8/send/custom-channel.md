@@ -3,13 +3,13 @@ title: Aan de slag met aangepaste externe kanalen
 description: Meer informatie over het maken en verzenden van aangepaste externe kanalen met Adobe Campaign Web
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4ba419c52d6804e4f25f88990c226081ef0a06e6
+exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
+source-git-commit: f94074d954137c4db39b2ef9f85141b79fe3356b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag met aangepaste externe kanalen {#gs-custom-channel}
 
@@ -17,7 +17,7 @@ Met Adobe Campaign kunt u aangepaste externe kanalen maken die zijn geïntegreer
 
 De levering en het verzenden kunnen zowel in de Console van de Cliënt als in het Web UI worden uitgevoerd. Het aangepaste externe kanaal wordt echter alleen uitgevoerd in de clientconsole.
 
-Leren hoe te om een levering tot stand te brengen en te verzenden die op een douane extern kanaal wordt gebaseerd, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=nl-NL).
+Leren hoe te om een levering tot stand te brengen en te verzenden die op een douane extern kanaal wordt gebaseerd, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html).
 
 Hier volgen de stappen voor het maken van een nieuw extern aangepast kanaal in de clientconsole:
 
@@ -69,5 +69,3 @@ Nu, creëren de nieuwe malplaatje verbonden aan het nieuwe kanaal.
    ![](assets/cus-template.png){zoomable="yes"}
 
 Het nieuwe kanaal is nu beschikbaar. Op basis van dit kanaal kunt u leveringen maken en uitvoeren.
-
-

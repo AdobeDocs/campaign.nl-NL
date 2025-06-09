@@ -16,27 +16,27 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Deze functies zijn alleen online zichtbaar voor de **Leveringsmanagers**.
+>Deze functies zijn slechts online zichtbaar en slechts aan de **managers van de Levering**.
 
 ## Geschiedenis van aanbiedingsvoorstellen{#offer-proposition-history}
 
 Zodra je voorstellen hebt gedaan, kun je de presentatiegeschiedenis bekijken.
 
-* Op het niveau van het aanbod, in de **[!UICONTROL Edit]** tabblad, klikt u op **[!UICONTROL Propositions]**.
+* Klik op het aanbiedingsniveau op het tabblad **[!UICONTROL Edit]** op **[!UICONTROL Propositions]** .
 
   ![](assets/offer_followup_006.png)
 
-* Klik vanuit het profiel van een ontvanger op de knop **[!UICONTROL Propositions]** tab.
+* Klik vanuit het profiel van een ontvanger op de tab **[!UICONTROL Propositions]** .
 
   ![](assets/offer_followup_002.png)
 
-* Klik op het niveau van de aanbiedingsruimte op de knop **[!UICONTROL Propositions]** tab.
+* Klik op de tab **[!UICONTROL Propositions]** op het niveau van de aanbiedingsruimte.
 
   ![](assets/offer_space_prop_001_b.png)
 
 ## Analyserapport van aanbiedingen{#offer-analysis-report}
 
-De **[!UICONTROL Offer analysis]** bevat een overzicht van het aantal geaccepteerde of afgewezen voorstellen.
+Het **[!UICONTROL Offer analysis]** -rapport geeft een overzicht van het aantal geaccepteerde of afgewezen voorstellen.
 
 Statistieken worden gesorteerd op basis van drie criteria:
 
@@ -52,4 +52,4 @@ Statistieken worden gesorteerd op basis van drie criteria:
 
   ![](assets/offer_report_perdeliveries.png)
 
-Gegevens kunnen worden gefilterd op basis van de verschillende criteria die beschikbaar zijn in de bovenste sectie van het rapport. Als u de gewenste criteria hebt geselecteerd, klikt u op de knop **[!UICONTROL Refresh]** koppeling om deze op het rapport toe te passen.
+Gegevens kunnen worden gefilterd op basis van de verschillende criteria die beschikbaar zijn in de bovenste sectie van het rapport. Nadat u de gewenste criteria hebt geselecteerd, klikt u op de koppeling **[!UICONTROL Refresh]** om deze toe te passen op het rapport.

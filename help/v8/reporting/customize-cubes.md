@@ -106,7 +106,7 @@ Als u een rapport wilt maken met deze opsomming, maakt u een kubus met de dimens
 
 Maak vervolgens een rapport op basis van deze kubus om de waarden weer te geven.
 
-U hoeft alleen de opsomming te wijzigen om het verwante rapport bij te werken. Bijvoorbeeld, creeer de **Adobe** waarde en voeg **adobe.com** alias toe en het rapport wordt automatisch bijgewerkt met de waarde van de Adobe op het opsommingsniveau.
+U hoeft alleen de opsomming te wijzigen om het verwante rapport bij te werken. Bijvoorbeeld, creeer de **Adobe** waarde en voeg **adobe.com** alias toe en het rapport wordt automatisch bijgewerkt met de waarde van Adobe op het opsommingsniveau.
 
 ![](assets/nmx_add_alias.png)
 

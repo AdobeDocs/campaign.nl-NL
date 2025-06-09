@@ -5,7 +5,8 @@ description: Leer hoe u een uitgebreide pushmelding van iOS ontwerpt met Adobe C
 feature: Push
 role: User
 level: Beginner
-source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
+exl-id: 75a57ddb-558e-4dd2-a684-e63e51545554
+source-git-commit: fef2c829da637b43067147b51aff7030d25c9744
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 3%
@@ -16,7 +17,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Alvorens een Rich Push Bericht te ontwerpen, moet u eerst uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) voor de gedetailleerde procedure.
+>Alvorens een Rich Push Bericht te ontwerpen, moet u eerst uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) voor de gedetailleerde procedure.
 
 ## De inhoud van een iOS-melding definiëren {#push-message}
 
@@ -187,4 +188,3 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 | **[!UICONTROL Click action]** | Stel de handeling in die aan een gebruiker is gekoppeld, en klik op het bericht. |
 | **[!UICONTROL Interruption level]** | <ul><li>Actief: standaard ingesteld, stelt het systeem het bericht onmiddellijk voor, licht het scherm op en kan een geluid afspelen. Meldingen doorbreken niet door de focusmodi.</li><li>Passief: het systeem voegt het bericht toe aan de meldingslijst zonder het scherm te belichten of een geluid af te spelen. Meldingen doorbreken niet door de focusmodi.</li><li> Tijdgevoelig: het systeem geeft de melding direct weer, licht het scherm op, kan een geluid afspelen en de modus Focus doorbreken. Voor dit niveau is geen speciale toestemming van Apple vereist.</li><li>Kritiek: Het systeem stelt onmiddellijk het bericht voor, licht omhoog het scherm, en mijdt de modusschakelaar of de nadrukwijzen over. Voor dit niveau is een speciale machtiging van Apple vereist.</li></ul> |
 | **[!UICONTROL Relevance score]** | Stel een relevantiescore in van 0 tot 100. Het systeem gebruikt dit om de berichten in het berichtoverzicht te sorteren. |
-

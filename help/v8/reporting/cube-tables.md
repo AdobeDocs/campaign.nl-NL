@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '950'
 ht-degree: 1%
 
 ---
@@ -25,15 +25,15 @@ Gebruik kubussen om rapporten te maken en om gegevens in de database te identifi
 
 ### Stap 1 - creeer een rapport dat op een kubus wordt gebaseerd {#step-1---create-a-report-based-on-a-cube}
 
-Wanneer de [kubus is geconfigureerd](cube-indicators.md), kan het als malplaatje voor het creëren van een nieuw rapport worden gebruikt.
+Zodra de [ kubus ](cube-indicators.md) wordt gevormd, kan het als malplaatje worden gebruikt voor het creëren van een nieuw rapport.
 
 Voer de volgende stappen uit om een rapport te maken dat is gebaseerd op een bestaande kubus:
 
-1. Klik op de knop **[!UICONTROL Create]** van de **[!UICONTROL Reports]** en selecteert u de kubus die u zojuist hebt gemaakt.
+1. Klik op de knop **[!UICONTROL Create]** van het tabblad **[!UICONTROL Reports]** en selecteer de kubus die u zojuist hebt gemaakt.
 
    ![](assets/new-report-based-on-cube.png)
 
-1. Klik op de knop **[!UICONTROL Create]** knoop om te bevestigen: dit zal u aan de rapportconfiguratie en het bekijken pagina nemen.
+1. Klik op de knop **[!UICONTROL Create]** om te bevestigen: hiermee gaat u naar de rapportconfiguratie en weergavepagina.
 
    Standaard worden de eerste twee beschikbare afmetingen aangeboden in lijnen en kolommen, maar er wordt geen waarde weergegeven in de tabel. Klik op het hoofdpictogram om de tabel te genereren:
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een rapport te maken dat is gebaseerd op een bes
 
 In de standaardweergave worden de eerste twee afmetingen van de kubus (in dit geval leeftijd en stad) weergegeven.
 
-De **[!UICONTROL Add]** met de knoppen op elke as kunt u dimensies toevoegen.
+Met de knoppen **[!UICONTROL Add]** op elke as kunt u afmetingen toevoegen.
 
 ![](assets/cube-switch.png)
 
@@ -63,7 +63,7 @@ De **[!UICONTROL Add]** met de knoppen op elke as kunt u dimensies toevoegen.
 
    Deze parameters zijn afhankelijk van het gegevenstype van de geselecteerde dimensie.
 
-   Voor datums kunnen bijvoorbeeld verschillende niveaus beschikbaar zijn. Raadpleeg voor meer informatie hierover [Weergaveopties](customize-cubes.md#display-measures).
+   Voor datums kunnen bijvoorbeeld verschillende niveaus beschikbaar zijn. Voor meer op dit, verwijs naar [ de maatregelen van de Vertoning ](customize-cubes.md#display-measures).
 
    In dat geval zijn de volgende opties beschikbaar:
 
@@ -77,9 +77,9 @@ De **[!UICONTROL Add]** met de knoppen op elke as kunt u dimensies toevoegen.
    * Geef de waarden weer in oplopende (a-z, 0-9) of aflopende (z-a, 9-0) volgorde.
    * Het aantal kolommen wijzigen dat bij het laden moet worden weergegeven (standaard: 200).
 
-1. Klikken **[!UICONTROL Ok]** ter bevestiging : de dimensie wordt toegevoegd aan de bestaande afmetingen .
+1. Klik op **[!UICONTROL Ok]** om te bevestigen: de dimensie wordt toegevoegd aan de bestaande afmetingen.
 
-   De gele banner boven de tabel geeft aan dat u wijzigingen hebt aangebracht: klik op de knop **[!UICONTROL Save]** om ze op te slaan.
+   De gele banner boven de tabel toont dat u wijzigingen hebt aangebracht: klik op de knop **[!UICONTROL Save]** om de wijzigingen op te slaan.
 
    ![](assets/cube-in-report.png)
 
@@ -93,7 +93,7 @@ Volg onderstaande stappen om maatregelen toe te voegen en te configureren:
 
    ![](assets/cube-measure-button.png)
 
-1. Met de **[!UICONTROL Use a measure]** selecteert u een van de bestaande maatregelen.
+1. Selecteer met de knop **[!UICONTROL Use a measure]** een van de bestaande maatregelen.
 
    ![](assets/cube-add-measure.png)
 
@@ -101,13 +101,13 @@ Volg onderstaande stappen om maatregelen toe te voegen en te configureren:
 
    ![](assets/cube-measure-options.png)
 
-   De algemene maatconfiguratie is ook beschikbaar via de **[!UICONTROL Edit the configuration of the pivot table]** in de koptekst.
+   De algemene maatconfiguratie is ook beschikbaar via het pictogram **[!UICONTROL Edit the configuration of the pivot table]** in de koptekst.
 
    ![](assets/cube-pivot-table-config.png)
 
    Vervolgens kunt u kiezen of u maatlabels wilt weergeven of niet. [Meer informatie](customize-cubes.md#configure-the-display).
 
-1. U kunt nieuwe maatregelen bouwen die op bestaande worden gebaseerd. Om dit te doen, klik **[!UICONTROL Create a measure]** en configureren.
+1. U kunt nieuwe maatregelen bouwen die op bestaande worden gebaseerd. Klik hiertoe op **[!UICONTROL Create a measure]** en configureer het.
 
    ![](assets/cube-create-new-measure.png)
 
@@ -125,7 +125,7 @@ Volg onderstaande stappen om maatregelen toe te voegen en te configureren:
 
    ![](assets/cube-display-new-measure.png)
 
-   Nadat u een maatregel hebt gemaakt, kunt u deze bewerken en de configuratie ervan wijzigen. Om dit te doen, klik **[!UICONTROL Measures]** en bladert u naar het tabblad van de maatregel die u wilt bewerken.
+   Nadat u een maatregel hebt gemaakt, kunt u deze bewerken en de configuratie ervan wijzigen. Klik hiertoe op de knop **[!UICONTROL Measures]** en blader naar het tabblad van de maatregel die u wilt bewerken.
 
    Klik vervolgens op **[!UICONTROL Edit the dynamic measure]** om het instellingenmenu te openen.
 
@@ -135,23 +135,23 @@ De rapporten bouwen gebruikend kubussen laten u toe om gegevens van de lijst te 
 
 Voer de volgende stappen uit om een populatie in een lijst te groeperen:
 
-1. Klik op de cellen die de te verzamelen populatie bevatten en selecteer deze. Klik vervolgens op de knop **[!UICONTROL Add to cart]** pictogram.
+1. Klik op de cellen die de te verzamelen populatie bevatten om deze te selecteren en klik vervolgens op het pictogram **[!UICONTROL Add to cart]** .
 
    ![](assets/cube-add-to-cart.png)
 
    Om dit zo vaak nodig te doen om diverse profielen te verzamelen
 
-1. Klik op de knop **[!UICONTROL Show cart]** om de inhoud weer te geven voordat u het exporteren uitvoert.
+1. Klik op de knop **[!UICONTROL Show cart]** om de inhoud ervan weer te geven voordat u het exporteren uitvoert.
 
    ![](assets/cube-show-cart.png)
 
-1. Gebruik de **[!UICONTROL Export]** om de items in het winkelwagentje in een lijst te groeperen.
+1. Gebruik de knop **[!UICONTROL Export]** om de items in het winkelwagentje in een lijst te groeperen.
 
    Voer de naam van de lijst in en selecteer het type export dat u wilt uitvoeren.
 
    ![](assets/cube-export-report.png)
 
-   Klikken **[!UICONTROL Start]** om het exporteren uit te voeren.
+   Klik op **[!UICONTROL Start]** om het exporteren uit te voeren.
 
 1. Zodra de uitvoer volledig is, bevestigt een bericht zijn uitvoering en het aantal verslagen die zijn verwerkt.
 
@@ -159,7 +159,7 @@ Voer de volgende stappen uit om een populatie in een lijst te groeperen:
 
    U kunt de inhoud van het winkelwagentje opslaan of leeg maken.
 
-   De nieuwe lijst is beschikbaar via de **[!UICONTROL Profiles and targets]** tab.
+   De nieuwe lijst is beschikbaar via het tabblad **[!UICONTROL Profiles and targets]** .
 
    ![](assets/cube-list-available.png)
 
@@ -171,8 +171,8 @@ Volg onderstaande stappen om een tabel te maken en de gegevens in een kubus te v
 
    ![](assets/cube-insert-in-report.png)
 
-1. In de **[!UICONTROL Data]** op de pagina selecteert u een kubus om de afmetingen ervan te verwerken en berekende metingen weer te geven.
+1. Selecteer op het tabblad **[!UICONTROL Data]** van de pagina een kubus om de afmetingen ervan te verwerken en berekende metingen weer te geven.
 
    ![](assets/cube-selected-in-report.png)
 
-   Dit laat u het rapport bouwen dat moet worden getoond. Raadpleeg voor meer informatie hierover [Stap 2 - selecteer lijnen en kolommen](#step-2---select-lines-and-columns).
+   Dit laat u het rapport bouwen dat moet worden getoond. Voor meer op dit, verwijs naar [ Stap 2 - selecteer lijnen en kolommen ](#step-2---select-lines-and-columns).

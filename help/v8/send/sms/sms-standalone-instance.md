@@ -7,13 +7,13 @@ hide: true
 hidefromtoc: true
 level: Beginner, Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 6926d84576df1810b511ef1a9976593cb99585bb
+exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
 
 ---
-
 
 # SMS in een standalone instantie {#sms-standalone}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Deze documentatie is voor Adobe Campaign v8.7.2 en hoger.
 >
->Voor oudere versies, gelieve de [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up) te lezen.
+>Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up) te lezen.
 
 In een standalone geval, vereist het verzenden van een levering van SMS:
 

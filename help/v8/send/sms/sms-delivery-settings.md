@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Deze documentatie is voor Adobe Campaign v8.7.2 en hoger.
 >
->Voor oudere versies, gelieve de [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up) te lezen.
+>Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up) te lezen.
 
 De technische montages nodig voor een levering van SMS zijn:
 
@@ -56,7 +56,7 @@ Hier volgt de informatie die u nodig hebt om dit formulier in te vullen. Elk vel
 
   In dit veld wordt het type SMS aangegeven dat u wilt overbrengen: normale of flash-berichten, die op de mobiele kaart of de simkaart worden opgeslagen. Deze instelling wordt verzonden in het optionele veld dest_addr_subunit in de SUBMIT_SM PDU.
 
-   * **Flash** plaatst de waarde aan 1. Er wordt een Flash-bericht verzonden dat op de mobiele telefoon verschijnt en niet in het geheugen is opgeslagen.
+   * **de Flits** plaatst de waarde aan 1. Er wordt een Flash-bericht verzonden dat op de mobiele telefoon verschijnt en niet in het geheugen is opgeslagen.
    * **Normaal** plaatst de waarde aan 0. Het stuurt een normaal bericht.
    * **sparen op mobiele** plaatst de waarde aan 2. Het vertelt de telefoon om SMS in intern geheugen op te slaan.
    * **sparen op terminal** plaatst de waarde aan 3. Het vertelt de telefoon om SMS in de kaart op te slaan SIM.

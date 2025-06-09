@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # Werken met schema&#39;s{#gs-ac-schemas}
 
-De fysieke en logische structuur van de data die in de applicatie worden overgedragen, wordt in XML beschreven. Het volgt een grammatica specifiek voor Adobe Campaign, genoemd een **schema**.
+De fysieke en logische structuur van de data die in de applicatie worden overgedragen, wordt in XML beschreven. Het volgt een grammatica specifiek voor Adobe Campaign, genoemd a **schema**.
 
 Een schema is een XML-document dat is gekoppeld aan een databasetabel. De code definieert de gegevensstructuur en beschrijft de SQL-definitie van de tabel:
 
@@ -38,17 +38,17 @@ Adobe Campaign past gegevensschema&#39;s toe op:
 * Definiëren van koppelingen tussen de verschillende dataobjecten in de Campaign-applicatie.
 * Definiëren en beschrijven van de afzonderlijke velden die in elk object zijn opgenomen.
 
-Voor een beter inzicht in ingebouwde lijsten van de Campagne en hun interactie, verwijs naar [deze sectie](datamodel.md).
+Voor een beter inzicht in de ingebouwde lijsten van de Campagne en hun interactie, verwijs naar [ deze sectie ](datamodel.md).
 
 >[!CAUTION]
 >
->Sommige ingebouwde schema&#39;s van de Campagne hebben een bijbehorend schema op het gegevensbestand van de Wolk. Deze schema&#39;s worden door de **XXL** naamruimte en mag niet worden gewijzigd of uitgebreid.
+>Sommige ingebouwde schema&#39;s van de Campagne hebben een bijbehorend schema op het gegevensbestand van de Wolk. Deze schema&#39;s worden geïdentificeerd door **Xxl** namespace en moeten niet worden gewijzigd of worden uitgebreid.
 
 ## Syntaxis van schema&#39;s {#syntax-of-schemas}
 
-Het hoofdelement van het schema is **`<srcschema>`**. Het bevat de **`<element>`** en **`<attribute>`** subelementen.
+Het hoofdelement van het schema is **`<srcschema>`** . Het bevat de subelementen **`<element>`** en **`<attribute>`** .
 
-De eerste **`<element>`** het subelement samenvalt met de hoofdmap van de entiteit.
+Het eerste subelement **`<element>`** valt samen met de hoofdmap van de entiteit.
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -68,13 +68,13 @@ De eerste **`<element>`** het subelement samenvalt met de hoofdmap van de entite
 
 ![](assets/schema_and_entity.png)
 
-De **`<element>`** -tags definiëren de namen van entiteitselementen. **`<attribute>`** de labels van het schema definiëren de namen van de kenmerken in het **`<element>`** tags waaraan zij zijn gekoppeld.
+Met de tags **`<element>`** worden de namen van entiteitelementen gedefinieerd. **`<attribute>`** -tags van het schema definiëren de namen van de kenmerken in de **`<element>`** -tags waaraan ze zijn gekoppeld.
 
 ## Identificatie van een schema {#identification-of-a-schema}
 
 Een gegevensschema wordt geïdentificeerd door zijn naam en zijn namespace.
 
-Met een naamruimte kunt u een set schema&#39;s groeperen op interessegebied. Bijvoorbeeld de **cus** namespace wordt gebruikt voor klant-specifieke configuratie (**klanten**).
+Met een naamruimte kunt u een set schema&#39;s groeperen op interessegebied. Bijvoorbeeld, wordt **focus** namespace gebruikt voor klant-specifieke configuratie (**klanten**).
 
 >[!CAUTION]
 >
@@ -84,27 +84,27 @@ Met een naamruimte kunt u een set schema&#39;s groeperen op interessegebied. Bij
 
 ## Gereserveerde naamruimten {#reserved-namespaces}
 
-Bepaalde naamruimten zijn gereserveerd voor beschrijvingen van de systeementiteiten die vereist zijn voor de werking van de Adobe Campaign-toepassing. De volgende naamruimte **mag niet worden gebruikt** om een nieuw schema, in om het even welke hogere/lagere combinatie te identificeren:
+Bepaalde naamruimten zijn gereserveerd voor beschrijvingen van de systeementiteiten die vereist zijn voor de werking van de Adobe Campaign-toepassing. De volgende namespace **moet niet worden gebruikt** om een nieuw schema, in om het even welke hogere/lagere casecombinatie te identificeren:
 
-* **xxl**: gereserveerd voor schema&#39;s van de Cloud-database
-* **xtk**: gereserveerd voor platformsysteemgegevens
-* **nl**: alleen voor het algemene gebruik van de toepassing
-* **nms**: gereserveerd voor leveringen (ontvanger, levering, tekstspatiëring, enz.)
-* **ncm**: gereserveerd voor inhoudsbeheer
-* **temp**: gereserveerd voor tijdelijke schema&#39;s
-* **crm**: gereserveerd voor integratie met CRM-connectors
+* **xxl**: gereserveerd aan de gegevensbestandschema&#39;s van de Wolk
+* **xtk**: gereserveerd aan gegevens van het platformsysteem
+* **nl**: gereserveerd aan het algemene gebruik van de toepassing
+* **nms**: gereserveerd aan leveringen (ontvanger, levering, het volgen, enz.)
+* **ncm**: gereserveerd aan inhoudsbeheer
+* **temp**: gereserveerd aan tijdelijke schema&#39;s
+* **crm**: gereserveerd aan de schakelaars van CRM integratie
 
-De identificatiesleutel van een schema is een tekenreeks die is samengesteld met behulp van de naamruimte en de naam gescheiden door een dubbele punt, bijvoorbeeld: **nms:ontvanger**.
+De identificatiesleutel van een schema is een koord dat wordt gebouwd gebruikend namespace en de naam die door een dubbelpunt wordt gescheiden; bijvoorbeeld: **nms:ontvanger**.
 
 ## Campagne-schema&#39;s maken of uitbreiden {#create-or-extend-schemas}
 
 Als u een veld of ander element wilt toevoegen aan een van de kerngegevensschema&#39;s in Campagne, zoals de ontvangende tabel (nms:ontvanger), moet u dat schema uitbreiden.
 
-Raadpleeg voor meer informatie hierover [Een schema uitbreiden](extend-schema.md).
+Voor meer op dit, verwijs naar [ een schema ](extend-schema.md) uitbreiden.
 
 Als u een geheel nieuw type gegevens wilt toevoegen dat niet bestaat in Adobe Campaign (bijvoorbeeld een contracttabel), kunt u rechtstreeks een aangepast schema maken.
 
-Raadpleeg voor meer informatie hierover [Een nieuw schema maken](create-schema.md).
+Voor meer op dit, verwijs naar [ creeer een nieuw schema ](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -134,7 +134,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->U kunt gebruiker-beheerde opsommingen (gewoonlijk onder **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) om de waarden voor een bepaald veld op te geven. Dit zijn in feite globale opsommingen, en een betere keus als uw opsomming buiten het specifieke schema kan worden gebruikt u binnen werkt.
+>U kunt door de gebruiker beheerde opsommingen ook gebruiken (meestal onder **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) om de waarden voor een bepaald veld op te geven. Dit zijn in feite globale opsommingen, en een betere keus als uw opsomming buiten het specifieke schema kan worden gebruikt u binnen werkt.
 
 <!--
 ## Index {#index} 
@@ -170,11 +170,11 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ## Toetsen {#keys}
 
-Elke lijst moet minstens één sleutel hebben, en vaak wordt het automatisch gevestigd in het belangrijkste element van het schema door te gebruiken **automatische** kenmerk ingesteld op **true**.
+Elke lijst moet minstens één sleutel hebben, en vaak wordt het automatisch gevestigd in het belangrijkste element van het schema door de **sectie** attributen te gebruiken die aan **waar** worden geplaatst.
 
-Bovendien in het kader van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), gebruikt u de **@autouuid** en stel deze in op **true**.
+Bovendien in de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), gebruik **@autouuid** en plaats het aan **waar**.
 
-De primaire sleutel kan ook worden gedefinieerd met de **internal** kenmerk.
+De primaire sleutel kan ook worden bepaald gebruikend het **interne** attribuut.
 
 Voorbeeld:
 
@@ -184,23 +184,23 @@ Voorbeeld:
 </key>
 ```
 
-In dit voorbeeld wordt in plaats van het **@automatische** of de **@autouuid** het attribuut leidt tot een standaard primaire sleutel genoemd &quot;id&quot;wij specificeren onze eigen &quot;huishoudenId&quot;primaire sleutel.
+In dit voorbeeld, in plaats van het laten **@autopk** of **@autouuid** attributen een standaard primaire sleutel tot stand brengen genoemd &quot;id&quot;wij specificeren onze eigen &quot;huishoudenId&quot;primaire sleutel.
 
 >[!CAUTION]
 >
 >Wanneer het creëren van een nieuw schema of tijdens een schemauitbreiding, moet u de zelfde primaire zeer belangrijke opeenvolgingswaarde (@pkSequence) voor het volledige schema houden.
 
-Meer informatie over toetsen in [deze sectie](database-mapping.md#management-of-keys).
+Leer meer over sleutels in [ deze sectie ](database-mapping.md#management-of-keys).
 
 ## Attributen (velden) {#attributes--fields-}
 
-Met kenmerken kunt u de velden definiëren waaruit het gegevensobject bestaat. U kunt de **[!UICONTROL Insert]** in de werkbalk van de schemaeditie om lege kenmerksjablonen naar uw XML te verplaatsen waar de cursor zich bevindt. Lees meer in [deze sectie](create-schema.md).
+Met kenmerken kunt u de velden definiëren waaruit het gegevensobject bestaat. U kunt de **[!UICONTROL Insert]** knoop in de toolbar van de schemageditie gebruiken om lege attributenmalplaatjes in uw XML te laten vallen waar uw curseur is. Lees meer in [deze sectie](create-schema.md).
 
 ![](assets/schemaextension_2.png)
 
-De volledige lijst met kenmerken is beschikbaar in de `<attribute>` elementsectie in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=nl-NL#content-model){target="_blank"}. Hier volgen enkele van de meer gebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+De volledige lijst van attributen is beschikbaar in de `<attribute>` elementensectie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Hier volgen een aantal veelgebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, 16}@name **,**@notNull **,**@required **,**@ref **,**@xml **,**@type **.**
 
-Raadpleeg voor meer informatie over elk kenmerk de beschrijving van het kenmerk in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=nl-NL#configuring-campaign-classic){target="_blank"}.
+Voor meer informatie over elk attribuut, verwijs naar de beschrijving van Attributen in [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 ### Voorbeelden {#examples}
 
@@ -216,13 +216,13 @@ Voorbeeld van het gebruik van een gemeenschappelijk kenmerk als een sjabloon voo
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
-Voorbeeld van een berekend veld dat is verborgen met het gereedschap **@advanced** kenmerk:
+Voorbeeld van een berekend veld dat verborgen is met het attribuut **@advanced** :
 
 ```
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
-Voorbeeld van een XML-veld dat ook is opgeslagen in een SQL-veld en dat een **@dataPolicy** kenmerk.
+Voorbeeld van een gebied van XML dat ook op een SQL gebied wordt opgeslagen en **@dataPolicy** attributen heeft.
 
 ```
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
@@ -238,7 +238,7 @@ Voorbeeld van een XML-veld dat ook is opgeslagen in een SQL-veld en dat een **@d
 
 De verbindingen zijn enkele laatste elementen in het belangrijkste element van uw schema. Ze definiëren hoe alle verschillende schema&#39;s in uw instantie op elkaar betrekking hebben.
 
-Koppelingen worden gedeclareerd in het schema dat de **buitenlandse sleutel** van de tabel waaraan het is gekoppeld.
+De verbindingen worden verklaard in het schema dat de **buitenlandse sleutel** van de lijst bevat waaraan het wordt verbonden.
 
 Er zijn drie soorten kardinaliteit: 1-1, 1-N, en N-N. Het is het type 1-N dat door gebrek wordt gebruikt.
 
@@ -286,4 +286,4 @@ Raadpleeg [deze sectie](update-database-structure.md) voor meer informatie.
 
 >[!NOTE]
 >
->Wanneer de wijzigingen niet de gegevensbestandstructuur beïnvloeden, moet u enkel schema&#39;s regenereren. Selecteer hiertoe de schema&#39;s die u wilt bijwerken, klik met de rechtermuisknop en kies **[!UICONTROL Actions > Regenerate selected schemas...]**.
+>Wanneer de wijzigingen niet de gegevensbestandstructuur beïnvloeden, moet u enkel schema&#39;s regenereren. Selecteer hiertoe de schema&#39;s die u wilt bijwerken, klik met de rechtermuisknop en kies **[!UICONTROL Actions > Regenerate selected schemas...]** .

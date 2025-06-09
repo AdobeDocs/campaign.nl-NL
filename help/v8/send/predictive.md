@@ -1,28 +1,29 @@
 ---
 title: Voorspellingsmogelijkheden voor gebruikersbetrokkenheid
-description: Leer hoe u voorspellende verzendtijd en betrokkenheidsscores kunt gebruiken
+description: Leer hoe u voorspellende verzendtijd en betrokkenheidsscoring kunt gebruiken
 feature: Send Time Optimization
 role: User
 level: Beginner
 exl-id: 648fefcc-6476-4af8-9f0d-c9a87a7a3019
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 67%
+source-wordcount: '783'
+ht-degree: 64%
 
 ---
 
 # Optimalisatie op korte termijn en voorspellende betrokkenheidsscoring{#optimize-message-delivery}
 
-Dankzij AI en computerleren kunnen de Send-Time Optimization en het Predictive Engagement Scoring van Adobe Campaign open tarieven, optimale verzendtijden en waarschijnlijke prijs analyseren en voorspellen op basis van historische betrokkenheidsmetriek.
+Dankzij AI en computerleren kunnen de Send-Time Optimization en de Predictive Engagement Scoring van Adobe Campaign open tarieven, optimale verzendtijden en waarschijnlijke prijs analyseren en voorspellen op basis van historische betrokkenheidsmetriek.
 
-Adobe Campaign biedt twee nieuwe modellen voor het leren van machines: [Optimalisatie van de verzendtijd](#predictive-send) en [Progressieve scores voor betrokkenheid](#predictive-scoring). Deze twee modellen zijn machine-leert modellen die specifiek voor het ontwerpen en het leveren van betere klantenreizen zijn.
+Adobe Campaign biedt twee nieuwe het Leren van de Machine modellen aan: [ voorspelt verzendt de Optimalisering van de Tijd ](#predictive-send) en [ het Predictieve Score van de Betrokkenheid ](#predictive-scoring). Deze twee modellen zijn machine-leert modellen die specifiek voor het ontwerpen en het leveren van betere klantenreizen zijn.
 
 >[!CAUTION]
 >
 >Deze mogelijkheid is niet rechtstreeks beschikbaar als onderdeel van het product. Het is alleen beschikbaar voor Adobe Campaign Managed Cloud Services-klanten die Adobe Campaign Classic v7 of Adobe Campaign v8 uitvoeren.
 >
->Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
+>Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met je Adobe-vertegenwoordiger voor meer informatie.
+>
 
 
 ## Voorspellende optimalisatie van verzendtijd{#predictive-send}
@@ -36,9 +37,9 @@ Binnen het Predictive Send-Time Optimization model, zijn er twee submodellen:
 * De voorspelbare verzendtijd voor klikken is de beste tijd om een bericht naar de klant te verzenden voor een maximale kans op klikken
 
 
-**Modelinvoer**: Leveringslogboeken, logbestanden bijhouden en profielkenmerken (niet-PII)
+**ModelInput**: Logboeken van de levering, het volgen logboeken en profielattributen (niet-PII)
 
-**Modeluitvoer**: Beste tijd om een bericht te verzenden (voor opent en klikt)
+**ModelOutput**: Beste tijd om een bericht (voor opent en klikt) te verzenden
 
 Uitvoerdetails:
 
@@ -63,12 +64,13 @@ Optimalisatie van de verzendtijd wordt opgeslagen op profielniveau:
 
 >[!NOTE]
 >
->Het model heeft minstens één maand aan data nodig om significante resultaten te produceren. Deze voorspellende mogelijkheden zijn alleen van toepassing op e-mail- en pushkanalen.
+>Het model heeft minstens één maand aan gegevens nodig om significante resultaten te produceren. Deze voorspellende mogelijkheden zijn alleen van toepassing op e-mail- en pushkanalen.
+>
 
 
 ## Voorspellende betrokkenheidsscore {#predictive-scoring}
 
-Met voorspellende scores voor betrokkenheid voorspelt u de waarschijnlijkheid dat een ontvanger een bericht zal ontvangen en de kans dat hij of zij het abonnement zal opzeggen (zal opzeggen) binnen de volgende 7 dagen na het volgende e-mailbericht. De waarschijnlijkheden worden verder verdeeld in emmers op basis van het verwachte niveau van betrokkenheid bij uw inhoud: hoog, gemiddeld of laag. Deze modellen bieden de klanten ook de percentiele positie van het niet-abonnementsrisico om te begrijpen waar de rang van een bepaalde klant ten opzichte van anderen is.
+Met voorspellende scores voor betrokkenheid voorspelt u de waarschijnlijkheid dat een ontvanger een bericht zal ontvangen en de kans dat hij of zij het abonnement zal opzeggen (zal opzeggen) binnen de volgende 7 dagen na het volgende e-mailbericht. De waarschijnlijkheid wordt verder verdeeld in emmers volgens het voorspelde niveau van betrokkenheid bij uw inhoud: hoog, gemiddeld of laag. Deze modellen bieden de klanten ook de percentiele positie van het niet-abonnementsrisico om te begrijpen waar de rang van een bepaalde klant ten opzichte van anderen is.
 
 Met voorspellende betrokkenheidsscore kunt u het volgende doen:
 

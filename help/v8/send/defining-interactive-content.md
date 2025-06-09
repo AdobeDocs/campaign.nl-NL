@@ -5,7 +5,8 @@ description: Leer hoe u interactieve en dynamische e-mailinhoud kunt definiëren
 feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+exl-id: 2a8b900b-ce0a-41b1-b4e4-b024ca93052e
+source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 3%
@@ -157,7 +158,7 @@ Dit doet u als volgt:
 1. Controleer of de optie voor het inschakelen van dynamische e-mail is ingeschakeld bij de desbetreffende e-mailprovider(s).
 1. Kopieer het adres van de afzender dat in het gebied van de levering **[!UICONTROL From]** wordt getoond en kleef het in de aangewezen sectie van de de rekeningsmontages van uw e-mailprovider.
 
-Voor verdere details, raadpleeg de [&#128279;](https://developers.google.com/gmail/ampemail/testing-dynamic-email) ontwikkelaarsdocumentatie 0&rbrace; Gmail &lbrace;.
+Voor verdere details, raadpleeg de ](https://developers.google.com/gmail/ampemail/testing-dynamic-email) ontwikkelaarsdocumentatie 0} Gmail {.[
 
 ![](assets/amp_from_field.png)
 

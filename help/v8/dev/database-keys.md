@@ -4,13 +4,13 @@ description: Belangrijk beheer in Adobe Campaign-schema's begrijpen
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+exl-id: cf1f5cfc-172f-44ec-ac97-804d15f9d628
+source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # Sleutelbeheer {#management-of-keys}
 
@@ -26,7 +26,7 @@ Een sleutel wordt verklaard van het belangrijkste element van het gegevensschema
 </key>
 ```
 
-Een sleutel wordt een &#39;primaire sleutel&#39; genoemd wanneer deze de eerste sleutel in het schema is die moet worden ingevuld, of als deze de `internal` kenmerk ingesteld op &quot;true&quot;.
+Een sleutel wordt een &#39;primaire sleutel&#39; genoemd wanneer deze de eerste sleutel in het schema is die moet worden ingevuld, of als deze het kenmerk `internal` bevat dat op &#39;true&#39; is ingesteld.
 
 Een toets kan naar een of meer velden in de tabel verwijzen.
 
@@ -108,7 +108,7 @@ Een toets kan naar een of meer velden in de tabel verwijzen.
 
 ## Primaire sleutel - Id{#primary-key}
 
-In de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md)is de primaire sleutel van Adobe Campaign-tabellen een **Universally Unique ID (UUID)** automatisch gegenereerd door de database-engine. De sleutelwaarde is uniek in het volledige gegevensbestand. De inhoud van de toets wordt automatisch gegenereerd bij het invoegen van de record.
+In de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), is de primaire sleutel van de lijsten van Adobe Campaign a **universeel Unieke identiteitskaart (UUID)** auto-geproduceerd door de gegevensbestandmotor. De sleutelwaarde is uniek in het volledige gegevensbestand. De inhoud van de toets wordt automatisch gegenereerd bij het invoegen van de record.
 
 **Voorbeeld**
 
@@ -142,4 +142,3 @@ Naast de definitie van de sleutel, is een numeriek gebied genoemd &quot;id&quot;
 >[!CAUTION]
 >
 >Bij het maken van de tabel wordt automatisch een record met de primaire sleutel ingesteld op 0 ingevoegd. Deze record wordt gebruikt om buitenste verbindingen te voorkomen, die niet effectief zijn op volumetabellen. Door gebrek, worden alle buitenlandse sleutels geïnitialiseerd met waarde 0 zodat een resultaat altijd kan zijn teruggekeerd op de verbinding wanneer het gegevenspunt niet bevolkt is.
-

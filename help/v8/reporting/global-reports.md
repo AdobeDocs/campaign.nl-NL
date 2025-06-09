@@ -7,7 +7,7 @@ exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -49,9 +49,9 @@ U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen: een w
 
 >[!NOTE]
 >
->U kunt het aantal leveringen ook controleren die per uur worden verzonden gebruikend het [ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=nl-NL){target="_blank"} .
+>U kunt het aantal leveringen ook controleren die per uur gebruikend het [ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"} worden verzonden.
 >
->Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerdertoegang tot een gebruiker te verlenen zijn gedetailleerd in [ deze pagina ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel){target="_blank"} .
+>Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel){target="_blank"}.
 >
 
 ## Gebruikersactiviteiten {#user-activities}

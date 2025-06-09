@@ -105,4 +105,4 @@ Standaard worden proefdrukberichten aangegeven met de vermelding `Proof #N` in h
 
 Leer hoe u een proef voor een e-maillevering verzendt en valideert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447005?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

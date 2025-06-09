@@ -18,7 +18,7 @@ Transactioneel overseinen (het Centrum van het Bericht) is een module van de Cam
 
 >[!NOTE]
 >
->Als Beheerde gebruiker van Cloud Servicen, [ contact Adobe ](../start/campaign-faq.md#support){target="_blank"} om het Transactionele overseinen van de Campagne in uw milieu te vormen.
+>Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support){target="_blank"} om het Transactionele overseinen van de Campagne in uw milieu te vormen.
 
 Transactieberichten worden gebruikt voor het verzenden van:
 
@@ -43,7 +43,7 @@ De belangrijkste stappen om dit in werking te stellen zijn hieronder beschreven:
 1. [ creeer een gebeurtenistype ](#create-event-types).
 1. [ creeer en ontwerp het berichtmalplaatje ](transactional-template.md#create-message-template). Tijdens deze stap moet u een gebeurtenis koppelen aan uw bericht.
 1. [ Test het bericht ](transactional-template.md#test-message-template).
-1. [ Publish het berichtmalplaatje ](transactional-template.md#publish-message-template).
+1. [ publiceer het berichtmalplaatje ](transactional-template.md#publish-message-template).
 
 Zodra u het transactionele berichtmalplaatje ontwierp en publiceerde, als een overeenkomstige gebeurtenis wordt teweeggebracht, worden de relevante gegevens verzonden naar Campagne via de methodes PushEvent en PushEvents [ SOAP ](../send/event-description.md), en de levering wordt verzonden naar de gerichte ontvangers.
 

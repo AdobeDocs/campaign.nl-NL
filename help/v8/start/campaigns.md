@@ -46,7 +46,7 @@ Adobe Campaign laat u alle marketing campagnes van een verenigd controlecentrum 
 
 ![](assets/calendar.png)
 
-Ontdek hoe te om tot marketing campagnes in [ toegang te hebben en uit te voeren deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=nl-NL){target="_blank"} .
+Ontdek hoe te om tot marketing campagnes in [ toegang te hebben en uit te voeren deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html){target="_blank"}.
 
 ## Belangrijkste stappen om te beginnen{#gs-ac-start}
 
@@ -56,13 +56,13 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    Definieer hiërarchie en planning, stel het budget in, voeg bronnen toe en selecteer operatoren.
 
-   Leer hoe te om een marketing plan tot stand te brengen en campagnes in [ te vormen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=nl-NL){target="_blank"} .
+   Leer hoe te om een marketing plan tot stand te brengen en campagnes in [ te vormen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html){target="_blank"}.
 
    Alle marketingcampagnes zijn gebaseerd op een sjabloon waarin de belangrijkste instellingen en mogelijkheden worden opgeslagen. Een ingebouwde sjabloon wordt geleverd om een campagne te maken waarvoor geen specifieke configuratie is gedefinieerd. U kunt uw campagnemalplaatjes tot stand brengen en vormen en dan campagnes van deze malplaatjes tot stand brengen.
 
-   Leer hoe te met campagnemalplaatjes in [ te werken deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=nl-NL){target="_blank"} .
+   Leer hoe te met campagnemalplaatjes in [ te werken deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html){target="_blank"}.
 
-   Ontdek terugkomende campagnes en hoe te om hen in [ te vormen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=nl-NL){target="_blank"} .
+   Ontdek terugkomende campagnes en hoe te om hen in [ te vormen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html){target="_blank"}.
 
 1. **bepalen publiek**
 
@@ -70,7 +70,7 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    ![](assets/campaign-wf.png)
 
-   Leer hoe te om het publiek van uw berichten in [ te bepalen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=nl-NL){target="_blank"} .
+   Leer hoe te om het publiek van uw berichten in [ te bepalen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}.
 
 1. **creeer leveringen**
 
@@ -86,7 +86,7 @@ De belangrijkste stappen om een kanaalmarketingcampagne te creëren zijn:
 
    Met Adobe Campaign kunt u gezamenlijke goedkeuringsprocessen instellen voor de belangrijkste fasen van de marketingcampagne. Voor elke campagne kunt u het leveringsdoel, de inhoud, en de kosten goedkeuren. Adobe Campaign-operatoren die met de goedkeuring zijn belast, kunnen via e-mail op de hoogte worden gesteld en kunnen goedkeuring van de console of via een webverbinding accepteren of afwijzen.
 
-   Leer hoe te opstelling en goedkeuringen in [ te beheren deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=nl-NL#campaign-orchestration){target="_blank"} .
+   Leer hoe te opstelling en goedkeuringen in [ te beheren deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#campaign-orchestration){target="_blank"}.
 
 
 ## Distributed Marketing Add-on{#distributed-marketing-add-on}
@@ -97,14 +97,14 @@ Adobe Campaign biedt toe:voegen-op van de a **Verdeelde Marketing** voor het uit
 >
 >Deze mogelijkheid is beschikbaar vanaf Campagne v8.3. Om uw versie te controleren, verwijs naar [ deze sectie ](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-Leer om Campagne te vormen en te gebruiken verdeelde de Marketingmogelijkheden in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=nl-NL){target="_blank"} .
+Leer om Campagne te vormen en te gebruiken verdeelde de Marketingmogelijkheden in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html){target="_blank"}.
 
 ## Invoegtoepassing responsbeheer{#response-manager-add-on}
 
-Adobe Campaign biedt toe:voegen-op van het Beheer van de Reactie van de a **&#x200B;**&#x200B;aan die u het succes en de rentabiliteit van marketing campagnes laat meten of voorstellen over communicatiekanalen aanbiedt: e-mail, mobiel, direct mail, enz.
+Adobe Campaign biedt toe:voegen-op van het Beheer van de Reactie van de a **** aan die u het succes en de rentabiliteit van marketing campagnes laat meten of voorstellen over communicatiekanalen aanbiedt: e-mail, mobiel, direct mail, enz.
 
 >[!NOTE]
 >
 >Deze mogelijkheid is beschikbaar vanaf Campagne v8.3. Om uw versie te controleren, verwijs naar [ deze sectie ](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[&#128279;](../assets/do-not-localize/book.png) Leer hoe te om de Manager van de Reactie van de Campagne in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=nl-NL){target="_blank"} te vormen en te gebruiken .
+[](../assets/do-not-localize/book.png) Leer hoe te om de Manager van de Reactie van de Campagne in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target="_blank"} te vormen en te gebruiken.

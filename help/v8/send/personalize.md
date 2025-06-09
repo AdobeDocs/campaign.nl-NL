@@ -62,7 +62,7 @@ Als u deze optie instelt op 0, is er geen tijdslimiet voor de verpersoonlijkings
 
 ### Interne variabelen{#internal-variables}
 
-De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen worden gebruikt maar moeten niet worden gewijzigd: **levering**, **bericht**, **dataSource**, **targetData**, **leverancier**, **coupon**, **couponValue**, **5&rbrace;.**
+De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen worden gebruikt maar moeten niet worden gewijzigd: **levering**, **bericht**, **dataSource**, **targetData**, **leverancier**, **coupon**, **couponValue**, **5}.**
 
 
 ## Video over zelfstudie {#personalization-video}
@@ -70,4 +70,4 @@ De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen
 Begrijp de verschillende soorten dynamische content en leer personalisatieblokken en voorwaardelijke verklaringen maken en toepassen op een levering.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452874?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

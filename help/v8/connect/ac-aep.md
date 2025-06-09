@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Soorten publiek delen en synchroniseren met Adobe Experience Platform {#gs-ac-aep}
 
-Met de Adobe Campaign Managed Cloud Service Destination and Source-connectors kunt u Adobe Campaign en Adobe Experience Platform naadloos integreren. Met deze integratie kunt u:
+De Adobe Campaign Managed Cloud Service Destination en Source connectors maken naadloze integratie tussen Adobe Campaign en Adobe Experience Platform mogelijk. Met deze integratie kunt u:
 
 * Adobe Experience Platform-publiek naar Adobe Campaign sturen en bezorgings- en trackinglogboeken terugsturen naar Adobe Experience Platform voor analysedoeleinden;
 * Breng Adobe Experience Platform-profielkenmerken naar Adobe Campaign en zorg dat er een synchronisatieproces is ingesteld zodat deze regelmatig kunnen worden bijgewerkt.
@@ -23,9 +23,9 @@ Met de Adobe Campaign Managed Cloud Service Destination and Source-connectors ku
 
 De belangrijkste stappen voor het verzenden van een Adobe Experience Platform-publiek naar Adobe Campaign en het terugsturen van bezorgings- en trackinglogboeken zijn als volgt:
 
-* Een Adobe Campaign Managed Cloud Services gebruiken **Doelverbinding** om segmenten van het Experience Platform naar Adobe Campaign te verzenden:
+* Gebruik een verbinding van de Bestemming van Adobe Campaign Managed Cloud Services **** om de segmenten van Experience Platform over naar Adobe Campaign te verzenden:
 
-   1. Open de catalogus met Adobe Experience Platform-doelen en maak een nieuwe **[!UICONTROL Adobe Campaign Managed Cloud Services]** verbinding.
+   1. Open de catalogus met Adobe Experience Platform-doelen en maak een nieuwe **[!UICONTROL Adobe Campaign Managed Cloud Services]** -verbinding.
    1. Geef informatie over de instantie Campagne die u wilt gebruiken en kies **[!UICONTROL Audience sync]** als het synchronisatietype.
 
       ![](assets/aep-audience-sync.png){width="800" align="center"}
@@ -36,11 +36,11 @@ De belangrijkste stappen voor het verzenden van een Adobe Experience Platform-pu
 
       ![](assets/aep-destination.png){width="800" align="center"}
 
-  Gedetailleerde informatie over hoe te om de bestemming te vormen is beschikbaar in [Adobe Campaign Managed Cloud Services-verbindingsdocumentatie](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
+  De gedetailleerde informatie over hoe te om de bestemming te vormen is beschikbaar in [ de verbindingsdocumentatie van Adobe Campaign Managed Cloud Services ](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
 
-* Een Adobe Campaign Managed Cloud Services gebruiken **Bronverbinding** om Adobe Campaign-leverings- en trackinglogboeken naar Adobe Experience Platform te verzenden:
+* Gebruik een verbinding van Adobe Campaign Managed Cloud Services **Source** om de levering van Adobe Campaign en het volgen logboeken over naar Adobe Experience Platform te verzenden:
 
-  Hiertoe configureert u een nieuwe Adobe Campaign Managed Cloud Services **Bronverbinding** om Campagne-gebeurtenissen in Adobe Ervaring Platform in te voeren. Verstrek details over de instantie van de Campagne en het te gebruiken schema, selecteer een dataset waar de gegevens zouden moeten worden opgenomen, dan vormen de gebieden om terug te winnen. [Leer hoe u een Adobe Campaign Managed Cloud Services-bronverbinding maakt](https://www.adobe.com/go/sources-campaign-ui-en)
+  Om dit te doen, vorm een nieuwe verbinding van Adobe Campaign Managed Cloud Services **Source** om de gebeurtenissen van de Campagne in Adobe Ervaren Platform in te nemen. Verstrek details over de instantie van de Campagne en het te gebruiken schema, selecteer een dataset waar de gegevens zouden moeten worden opgenomen, dan vormen de gebieden om terug te winnen. [ Leer hoe te om een Adobe Campaign Managed Cloud Services bronverbinding tot stand te brengen ](https://www.adobe.com/go/sources-campaign-ui-en)
 
   ![](assets/aep-logs.png){width="800" align="center"}
 
@@ -56,7 +56,7 @@ Stel bijvoorbeeld dat u waarden voor opt-in en opt-out vastlegt in Adobe Experie
 
 De belangrijkste stappen voor het synchroniseren van Adobe Experience Platform-profielkenmerken met Adobe Campaign zijn:
 
-1. Open de catalogus met Adobe Experience Platform-doelen en maak een nieuwe **[!UICONTROL Adobe Campaign Managed Cloud Services]** verbinding.
+1. Open de catalogus met Adobe Experience Platform-doelen en maak een nieuwe **[!UICONTROL Adobe Campaign Managed Cloud Services]** -verbinding.
 1. Geef informatie over de instantie Campagne die u wilt gebruiken en kies **[!UICONTROL Profile sync (Update only)]** als het synchronisatietype.
 
    ![](assets/aep-profile-sync.png){width="800" align="center"}
@@ -65,4 +65,4 @@ De belangrijkste stappen voor het synchroniseren van Adobe Experience Platform-p
 1. Configureer de profielkenmerken die u in Adobe Campaign wilt bijwerken.
 1. Zodra de stroom is gevormd, zullen de geselecteerde profielattributen met Adobe Campaign worden gesynchroniseerd en voor alle profielen bijgewerkt die door de segmenten worden gericht die in de bestemming worden gevormd.
 
-Gedetailleerde informatie over hoe te om de bestemming te vormen is beschikbaar in [Adobe Campaign Managed Cloud Services-verbindingsdocumentatie](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
+De gedetailleerde informatie over hoe te om de bestemming te vormen is beschikbaar in [ de verbindingsdocumentatie van Adobe Campaign Managed Cloud Services ](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}

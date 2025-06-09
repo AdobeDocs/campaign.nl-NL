@@ -8,11 +8,11 @@ exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
-# Voorwaardelijke content maken{#conditional-content}
+# Voorwaardelijke inhoud maken{#conditional-content}
 
 Door voorwaardelijke-contentvelden te configureren kunt u geavanceerde personalisaties maken. Volledige tekstblokken en/of afbeeldingen worden vervangen wanneer aan een bepaalde voorwaarde wordt voldaan.
 
@@ -27,35 +27,35 @@ In het onderstaande voorbeeld leert u hoe u een bericht maakt dat dynamisch is g
 Voer de volgende stappen uit om voorwaardelijke inhoud te maken op basis van de waarde van een veld:
 
 1. Open een bestaande levering of maak een nieuwe e-maillevering.
-1. Klik in de e-mailinhoudeditor op het pictogram voor aanpassen en selecteer **[!UICONTROL Conditional content > If]**.
+1. Klik in de e-mailinhoudeditor op het pictogram voor aanpassen en selecteer **[!UICONTROL Conditional content > If]** .
 
-   ![Een voorwaarde invoegen](assets/condition-insert.png)
+   ![ neem een voorwaarde ](assets/condition-insert.png) op
 
    De verpersoonlijkingselementen worden opgenomen in het berichtlichaam. U moet hen nu vormen.
 
-1. De parameters van de **indien** expressie.
+1. Vul de parameters van **in als** uitdrukking.
 
-   * Selecteer het eerste element van de expressie. **`<FIELD>`** en klikt u op het pictogram voor aanpassen om dit te vervangen door het testveld.
-   * Vervangen **`<VALUE>`** met de waarde van het veld waarvoor aan de voorwaarde wordt voldaan. Deze waarde moet tussen aanhalingstekens staan.
+   * Selecteer het eerste element van de expressie, **`<FIELD>`** , en klik op het verpersoonlijkingspictogram om dit te vervangen door het testveld.
+   * Vervang **`<VALUE>`** door de waarde van het veld waaraan aan de voorwaarde wordt voldaan. Deze waarde moet tussen aanhalingstekens staan.
    * Geef de inhoud op die moet worden ingevoegd wanneer aan de voorwaarde wordt voldaan. Dit kan tekst, een afbeelding, een formulier, een hypertekstkoppeling enzovoort zijn.
 
-   ![Voorwaarde in een e-mail](assets/condition-in-email.png)
+   ![ Voorwaarde in een e-mail ](assets/condition-in-email.png)
 
-1. Klik op de knop **[!UICONTROL Preview]** om de inhoud van het bericht weer te geven op basis van de geadresseerde van de levering. Selecteer een ontvanger waarvoor de voorwaarde waar is om de inhoud te controleren. Selecteer vervolgens een andere ontvanger waarvoor deze onwaar is en probeer het opnieuw.
+1. Klik op het tabblad **[!UICONTROL Preview]** om de inhoud van het bericht weer te geven op basis van de ontvanger van de zending. Selecteer een ontvanger waarvoor de voorwaarde waar is om de inhoud te controleren. Selecteer vervolgens een andere ontvanger waarvoor deze onwaar is en probeer het opnieuw.
 
-U kunt andere gevallen toevoegen en verschillende inhoud definiëren op basis van de waarden van een of meer velden. Om dit te doen, gebruik **[!UICONTROL Conditional content > Else]** en **[!UICONTROL Conditional content > Else if]**. Deze expressies zijn op dezelfde manier geconfigureerd als de **indien** expressie.
+U kunt andere gevallen toevoegen en verschillende inhoud definiëren op basis van de waarden van een of meer velden. Gebruik **[!UICONTROL Conditional content > Else]** en **[!UICONTROL Conditional content > Else if]** om dit te doen. Deze uitdrukkingen worden gevormd op de zelfde manier zoals **als** uitdrukking.
 
 >[!CAUTION]
 >
->De **%> &lt;%** tekens moeten worden verwijderd nadat ze zijn toegevoegd **Else** en **Anders indien** voorwaarden.
+>**%> &lt;%** karakters moet na het toevoegen van **anders** en **anders worden geschrapt als** voorwaarden.
 
 
 ## Hoofdlettergebruik: een meertalige e-mail maken {#creating-multilingual-email}
 
-In het onderstaande voorbeeld leert u hoe u een meertalige e-mail maakt. De inhoud wordt in de ene of de andere taal weergegeven, afhankelijk van de voorkeurstaal van de ontvanger.
+Leer in het onderstaande voorbeeld hoe u een meertalige e-mail kunt maken. De inhoud wordt in de ene of de andere taal weergegeven, afhankelijk van de voorkeurstaal van de ontvanger.
 
-1. Maak een e-mail en selecteer de doelpopulatie. In dit voorbeeld wordt de voorwaarde voor het weergeven van de ene versie of de andere gebaseerd op de **Taal** waarde van het profiel van de ontvanger. Deze waarden zijn ingesteld op **NL**, **FR**, **ES**.
-1. Klik in de HTML-inhoud van de e-mail op de knop **[!UICONTROL Source]** kunt u de volgende code plakken en op Tab drukken:
+1. Maak een e-mail en selecteer de doelpopulatie. In dit voorbeeld, zal de voorwaarde om één versie of andere te tonen op de **Taal** waarde van het profiel van de ontvanger worden gebaseerd. Deze waarden worden geplaatst aan **EN**, **FR**, **ES**.
+1. Klik in de HTML-inhoud voor e-mail op het tabblad **[!UICONTROL Source]** en plak de volgende code:
 
    ```
    <% if (language == "EN" ) { %>
@@ -76,7 +76,7 @@ In het onderstaande voorbeeld leert u hoe u een meertalige e-mail maakt. De inho
    <% } %>
    ```
 
-1. E-mailinhoud testen in het dialoogvenster **[!UICONTROL Preview]** door ontvangers met verschillende voorkeurstalen te selecteren.
+1. Test e-mailinhoud op het tabblad **[!UICONTROL Preview]** door ontvangers met verschillende voorkeurstalen te selecteren.
 
    >[!NOTE]
    >
@@ -86,4 +86,4 @@ In het onderstaande voorbeeld leert u hoe u een meertalige e-mail maakt. De inho
 
 Deze video laat zien hoe u voorwaardelijke content aan een levering kunt toevoegen, bijvoorbeeld aan een meertalige nieuwsbrief.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426537?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

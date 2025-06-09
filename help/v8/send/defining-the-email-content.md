@@ -5,7 +5,8 @@ description: Leer hoe u de e-mailinhoud definieert wanneer u Adobe Campaign gebr
 feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
+source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 0%
@@ -67,7 +68,7 @@ Berichten worden standaard in HTML of tekstindeling verzonden, afhankelijk van d
 
 * Als u HTML-inhoud wilt importeren, gebruikt u de knop **[!UICONTROL Open]** . U kunt de broncode ook rechtstreeks in de subtab **[!UICONTROL Source]** plakken.
 
-  Als u de Digitale Redacteur van de Inhoud (DCE) gebruikt, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=nl-NL#step-3---selecting-a-content).
+  Als u de Digitale Redacteur van de Inhoud (DCE) gebruikt, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >
@@ -126,7 +127,7 @@ Met een extra tabblad kunt u inhoud invoeren die automatisch wordt geïntegreerd
 
 >[!NOTE]
 >
->Voor verdere informatie over inhoudsbeheer in Adobe Campaign, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=nl-NL).
+>Voor verdere informatie over inhoudsbeheer in Adobe Campaign, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html).
 
 ## emoticons invoegen {#inserting-emoticons}
 
@@ -139,7 +140,7 @@ U kunt emoticons invoegen in uw e-mailinhoud.
 
 1. Klik op de knop **[!UICONTROL Close]** als u klaar bent.
 
-Om de emoticonlijst aan te passen, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html?lang=nl-NL).
+Om de emoticonlijst aan te passen, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html).
 
 ## Afbeeldingen toevoegen {#adding-images}
 
@@ -150,7 +151,7 @@ E-mailleveringen in HTML-indeling kunnen afbeeldingen bevatten. Vanuit de bezorg
 
 Om prestatieproblemen te voorkomen, mogen afbeeldingen in e-mailberichten niet groter zijn dan 100 kB. Deze standaard ingestelde limiet kan worden gewijzigd met de optie `NmsDelivery_MaxDownloadedImageSize` . Adobe raadt echter sterk aan om grote afbeeldingen in uw e-mailleveringen te voorkomen.
 
-Leer meer op de lijst van de opties van de Campagne in de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=nl-NL#delivery).
+Leer meer op de lijst van de opties van de Campagne in de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 ### Afbeeldingstypen {#img-types}
 
@@ -161,7 +162,7 @@ Afbeeldingen kunnen:
 
   Openbare bronnen zijn toegankelijk via het knooppunt **[!UICONTROL Resources > Online]** van de Adobe Campaign-hiërarchie. Ze zijn gegroepeerd in een bibliotheek en kunnen worden opgenomen in e-mailberichten, maar kunnen ook worden gebruikt voor campagnes of taken, of voor inhoudsbeheer.
 
-* An asset shared with Adobe Experience Cloud. Verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=nl-NL).
+* An asset shared with Adobe Experience Cloud. Verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html).
 
 ### Afbeeldingen invoegen en beheren {#manage-images}
 
@@ -281,7 +282,7 @@ Dan vorm de volgende elementen om uw behoeften aan te passen:
 
 1. Met het veld **[!UICONTROL Height]** kunt u de hoogte van de streepjescode configureren zonder de breedte te wijzigen door de hoeveelheid ruimte tussen de streepjes te wijzigen.
 
-   Er is geen restrictief besturingselement voor invoer afhankelijk van het type streepjescode. Als een streepjescodewaarde onjuist is, zal het slechts op **&#x200B;**&#x200B;wijze van de Voorproef zichtbaar zijn waar de streepjescode in rood zal worden gekruist.
+   Er is geen restrictief besturingselement voor invoer afhankelijk van het type streepjescode. Als een streepjescodewaarde onjuist is, zal het slechts op **** wijze van de Voorproef zichtbaar zijn waar de streepjescode in rood zal worden gekruist.
 
    >[!NOTE]
    >

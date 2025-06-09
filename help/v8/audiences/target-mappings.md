@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Werken met doeltoewijzingen{#gs-target-mappings}
 
-Standaard wordt in sjablonen voor e-mail- en sms-verzending de doelstelling **[!UICONTROL Recipients]**. Daarom worden bij de vaststelling van hun streefdoelen de gebieden van de **nms:ontvanger** tabel.
+Standaard is het doel van de sjablonen voor e-mail- en SMS-verzending **[!UICONTROL Recipients]** . Hun doelafbeelding gebruikt daarom de gebieden van **nms:ontvankelijke** lijst.
 
-Voor pushberichten is de standaarddoeltoewijzing **Abonnementstoepassingen (nms:appSubscriptionRcp)**, die is gekoppeld aan de tabel met ontvangers.
+Voor de Duw berichten, is de standaarddoelafbeelding **toepassingen van de Abonnee (nms:appSubscriptionRcp)**, die met de lijst van ontvangers verbonden is.
 
 U kunt andere doeltoewijzingen voor uw leveringen gebruiken, of een nieuwe doelafbeelding tot stand brengen.
 
@@ -42,11 +42,11 @@ U kunt ook een doeltoewijzing maken. U moet mogelijk een aangepaste doeltoewijzi
 * u gebruikt een aangepaste ontvankelijke lijst,
 * u vormt een het filtreren afmeting die van ingebouwde het richten afmeting op het scherm van de doelafbeelding verschillend is.
 
-Meer informatie over aangepaste tabellen voor ontvangers vindt u in [deze pagina](../dev/custom-recipient.md).
+Leer meer over douane ontvankelijke lijsten in [ deze pagina ](../dev/custom-recipient.md).
 
 Met de wizard voor het maken van Adobe Campaign-doeltoewijzingen kunt u alle schema&#39;s maken die nodig zijn om uw aangepaste doeltoewijzing te gebruiken.
 
-1. Bladeren naar **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** van Adobe Campaign Explorer.
+1. Blader naar **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** vanuit Adobe Campaign Explorer.
 
 1. Creeer een nieuwe doelafbeelding en selecteer uw douaneschema als het richten afmeting.
 
@@ -61,12 +61,12 @@ Met de wizard voor het maken van Adobe Campaign-doeltoewijzingen kunt u alle sch
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   U kunt kiezen of u uitsluitingen wilt opslaan (**excludelog**), met berichten (**uitzenden**) of in een aparte tabel.
+   U kunt verkiezen of om uitsluitingen (**excludelog**), met berichten (**uitzending**) of in een afzonderlijke lijst op te slaan.
 
-   U kunt ook kiezen of u het bijhouden van gegevens voor deze leveringstoewijzing wilt beheren (**trackinglog**).
+   U kunt ook kiezen of het volgen voor deze leveringsafbeelding (**trackinglog**) te beheren.
 
 1. Selecteer vervolgens de extensies waarmee u rekening wilt houden. Het extensietype is afhankelijk van de campagne-instellingen en invoegtoepassingen.
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   Klik op de knop **[!UICONTROL Save]** knop om het maken van de leveringstoewijzing te starten: alle gekoppelde tabellen worden automatisch gemaakt op basis van de geselecteerde parameters.
+   Klik op de knop **[!UICONTROL Save]** om het maken van de leveringstoewijzing te starten. Alle gekoppelde tabellen worden automatisch gemaakt op basis van de geselecteerde parameters.

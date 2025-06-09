@@ -32,7 +32,7 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
   Adobe Campaign wordt geleverd met rapporten over leveringen, campagnes, platformactiviteiten, optionele capaciteiten, enz. Deze verslagen zijn beschikbaar via de verschillende functies waarop zij betrekking hebben. Ze kunnen worden aangepast aan uw specifieke behoeften.
 
-  Gebruik de **Rapporten** voor toegang tot deze rapporten.
+  Gebruik het **lusje van Rapporten** om tot deze rapporten toegang te hebben.
 
   ![](assets/built-in-reports.png)
 
@@ -42,14 +42,14 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
   Adobe Campaign biedt een visueel hulpmiddel voor het produceren van statistieken over de gegevens in de database. U kunt beschrijvende analyserapporten maken met behulp van een toegewijde assistent en de inhoud en lay-out ervan aanpassen aan uw behoeften.
 
-  Gebruik de **[!UICONTROL Tools > Descriptive analysis...]** om een nieuw rapport te maken.
+  Gebruik het menu **[!UICONTROL Tools > Descriptive analysis...]** om een nieuw rapport te maken.
 
   ![](assets/desc-analysis-report.png)
 
-  De rapportage van de campagnebeschrijvende analyse wordt weergegeven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=nl-NL){target="_blank"}.
+  De beschrijvende analyse van de campagne rapporteert wordt voorgesteld in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
-* **Aangepaste rapporten**
+* **de rapporten van de Douane**
 
   Gebruik Adobe Campaign om rapporten te maken over de gegevens in de database. Als deze eenmaal zijn gecreëerd, moet u ze in de juiste context toegankelijk maken.
 
-  De stappen om een rapport te creëren worden gedetailleerd in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=nl-NL){target="_blank"}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.
+  De stappen om een rapport tot stand te brengen zijn gedetailleerd in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.

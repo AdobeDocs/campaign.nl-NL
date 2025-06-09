@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Gebruik het filtreren regels om berichten te selecteren om uit te sluiten gebaseerd op criteria die in een vraag worden bepaald. Deze regels zijn gekoppeld aan een doelgerichte dimensie.
 
-Filterregels kunnen worden gekoppeld aan andere soorten regels (controle, druk, enz.) in typologieën, of gegroepeerd in een specifiek **Filteren** typologie. [Meer informatie](#create-and-use-a-filtering-typology).
+Het filtreren van regels kan met andere soorten regels (controle, druk, enz.) in typologieën worden verbonden, of in een specifieke **het Filtreren** typologie worden gegroepeerd. [Meer informatie](#create-and-use-a-filtering-typology).
 
 ## Een filterregel maken {#create-a-filtering-rule}
 
@@ -23,16 +23,16 @@ Bijvoorbeeld, kunt u uw nieuwsbrief abonnees filtreren om mededelingen te verhin
 
 Pas de volgende stappen toe om dit filter te definiëren:
 
-1. Bladeren naar de **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** map Campagneexporter en klik op de knop **Nieuw** pictogram om een typologieregel te maken.
-1. Een **[!UICONTROL Filtering]** typologieregel die op alle kanalen van toepassing is.
+1. Blader naar de **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** omslag van de exporteur van de Campagne en klik het **Nieuwe** pictogram om een typologieregel tot stand te brengen.
+1. Maak een **[!UICONTROL Filtering]** typologieregel die op alle kanalen van toepassing is.
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. Van de **Filter** tabblad wijzigt u de standaarddimensie voor het opgeven van doelen in **Abonnementen** (**nms:abonnement**).
+1. Van het **lusje van de Filter** verandert het gebrek richtend afmeting aan **Abonnementen** (**nms:abonnement**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
-1. Maak het filter met het gereedschap **[!UICONTROL Edit the query from the targeting dimension...]** koppeling.
+1. Maak het filter met de koppeling **[!UICONTROL Edit the query from the targeting dimension...]** .
 
    ![](assets/campaign_opt_create_filter_03.png)
 
@@ -40,7 +40,7 @@ Pas de volgende stappen toe om dit filter te definiëren:
 
    ![](assets/campaign_opt_create_filter_03b.png)
 
-1. Van de **Typologieën** , koppelt u deze regel aan een campagnetypologie en slaat u deze op.
+1. Van het **lusje van Typologies**, verbind deze regel met een campagnetypologie en bewaar het.
 
    ![](assets/campaign_opt_create_filter_04.png)
 
@@ -52,7 +52,7 @@ Wanneer deze regel in een levering wordt gebruikt, worden minderjarige abonnees 
 
 U kunt het toepassingsgebied van de het filtreren regel beperken die op de verbonden levering of leveringsoverzicht wordt gebaseerd.
 
-Ga om dit te doen naar de **[!UICONTROL General]** selecteert u het type beperking dat u wilt toepassen en maakt u het filter.
+Hiervoor gaat u naar het tabblad **[!UICONTROL General]** van de typologieregel, selecteert u het type beperking dat u wilt toepassen en maakt u het filter.
 <!--
 ![](assets/campaign_opt_create_filter_06.png)
 -->
@@ -62,19 +62,19 @@ In dit geval wordt de regel, zelfs als deze aan alle leveringen is gekoppeld, al
 
 >[!NOTE]
 >
->Typologieën en filterregels kunnen worden gebruikt in een workflow, in het dialoogvenster **[!UICONTROL Delivery outline]** activiteit. [Meer informatie](../workflow/delivery-outline.md).
+>Typologieën en filterregels kunnen worden gebruikt in een workflow, in de **[!UICONTROL Delivery outline]** -activiteit. [Meer informatie](../workflow/delivery-outline.md).
 
 ## Filtertypologie maken en gebruiken {#create-and-use-a-filtering-typology}
 
-U kunt **[!UICONTROL Filtering]** typologieën: ze bevatten alleen filterregels.
+U kunt **[!UICONTROL Filtering]** -typologieën maken: deze bevatten alleen filterregels.
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-Deze specifieke typologieën kunnen aan een levering worden verbonden wanneer het doel wordt geselecteerd: in de leveringstovenaar, klik **[!UICONTROL To]** klikt u op de koppeling **[!UICONTROL Exclusions]** tab.
+Deze specifieke typologieën kunnen worden gekoppeld aan een levering wanneer het doel is geselecteerd: klik in de wizard voor levering op de koppeling **[!UICONTROL To]** en klik vervolgens op het tabblad **[!UICONTROL Exclusions]** .
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 
-Selecteer vervolgens de filtertypologie die op de levering moet worden toegepast. Om dit te doen, klik **[!UICONTROL Add]** en selecteert u de toe te passen typologieën.
+Selecteer vervolgens de filtertypologie die op de levering moet worden toegepast. Klik hiertoe op de knop **[!UICONTROL Add]** en selecteer de typologieën die u wilt toepassen.
 
 U kunt filterregels ook rechtstreeks via dit tabblad koppelen, zonder ze te groeperen in een typologie. Gebruik hiervoor de onderste sectie van het venster.
 
@@ -89,7 +89,7 @@ U kunt filterregels ook rechtstreeks via dit tabblad koppelen, zonder ze te groe
 
 ## Uitsluitingsregels voor standaardlevering {#default-deliverability-exclusion-rules}
 
-Twee het filtreren regels zijn beschikbaar door gebrek: **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) en **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). Tijdens de e-mailanalyse, vergelijken deze regels de ontvankelijke e-mailadressen met de verboden adressen of domeinnamen in een gecodeerde globale suppressielijst die in de leveringsinstantie wordt beheerd. Als er een gelijke is, wordt het bericht niet verzonden naar die ontvanger.
+Er zijn standaard twee filterregels beschikbaar: **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) en **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). Tijdens de e-mailanalyse, vergelijken deze regels de ontvankelijke e-mailadressen met de verboden adressen of domeinnamen in een gecodeerde globale suppressielijst die in de leveringsinstantie wordt beheerd. Als er een gelijke is, wordt het bericht niet verzonden naar die ontvanger.
 
 Hiermee voorkomt u dat de lijst van gewezen personen wordt toegevoegd vanwege kwaadwillige activiteiten, met name het gebruik van een Spamtrap. Als bijvoorbeeld een spamtrap wordt gebruikt om zich te abonneren via een van uw webformulieren, wordt automatisch een bevestigingsbericht verzonden naar die spamtrap. Hierdoor wordt uw adres automatisch toegevoegd aan de lijst van gewezen personen.
 

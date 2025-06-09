@@ -3,7 +3,8 @@ product: campaign
 title: Audit trail
 description: Leer hoe u uw exemplaar kunt controleren met het Campagne Audit Trail
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: bb74393f0b24fa5b9781eee15c4527daba527192
+exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
+source-git-commit: b4b361a4aabd1b33554166c2638989b99a02baec
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 2%
@@ -12,7 +13,7 @@ ht-degree: 2%
 
 # Audit trail{#audit-trail}
 
-De **[!UICONTROL Audit trail]** De functionaliteit in Adobe Campaign biedt een gedetailleerd overzicht van alle wijzigingen die zijn aangebracht aan belangrijke entiteiten in uw instantie, meestal entiteiten die een vlotte werking van de instantie aanzienlijk beïnvloeden. Als logboek in real time, vangt het een gedetailleerde lijst van acties en gebeurtenissen aangezien zij voorkomen.
+De **[!UICONTROL Audit trail]** -functionaliteit in Adobe Campaign biedt een gedetailleerd overzicht van alle wijzigingen die zijn aangebracht aan belangrijke entiteiten in uw instantie, meestal entiteiten die een vloeiende bewerking van de instantie aanzienlijk beïnvloeden. Als logboek in real time, vangt het een gedetailleerde lijst van acties en gebeurtenissen aangezien zij voorkomen.
 
 >[!NOTE]
 >
@@ -21,11 +22,11 @@ De **[!UICONTROL Audit trail]** De functionaliteit in Adobe Campaign biedt een g
 
 +++ Meer informatie over beschikbare entiteiten van het audittrail
 
-* **Schema audit trail**: staat u toe om de veranderingen te onderzoeken die aan uw schema&#39;s worden aangebracht, evenals te identificeren wie deze wijzigingen en toen zij voorkwamen.
+* **de auditspoor van het Schema**: staat u toe om de veranderingen te onderzoeken die aan uw schema&#39;s worden aangebracht, evenals te identificeren wie deze wijzigingen maakte en wanneer zij voorkwamen.
 
-  Raadpleeg voor meer informatie over schema&#39;s [page](../dev/schemas.md).
+  Voor gedetailleerde informatie over schema&#39;s, verwijs naar [ pagina ](../dev/schemas.md).
 
-* **Workflowaudittrail** Hiermee worden alle handelingen bijgehouden die betrekking hebben op uw workflows, waaronder:
+* **sporen van het de controlespoor van het 0} Werkschema alle acties met betrekking tot uw werkschema&#39;s, met inbegrip van:**
 
    * Starten
    * Pauzeren
@@ -36,58 +37,58 @@ De **[!UICONTROL Audit trail]** De functionaliteit in Adobe Campaign biedt een g
    * Wakeup die gelijk is aan de handeling Voer taken uit die in behandeling zijn.
    * Onvoorwaardelijk stoppen
 
-  Raadpleeg deze voor meer informatie over workflows [page](../../automation/workflow/about-workflows.md).
+  Voor meer informatie over werkschema&#39;s, verwijs naar deze [ pagina ](../../automation/workflow/about-workflows.md).
 
-  Raadpleeg voor meer informatie over het controleren van workflows de [speciale sectie](../../automation/workflow/monitor-workflow-execution.md).
+  Voor meer op hoe te om werkschema&#39;s te controleren, verwijs naar de [ specifieke sectie ](../../automation/workflow/monitor-workflow-execution.md).
 
-* **Optie audittrail** staat u toe om activiteiten en laatste wijzigingen te controleren die aan uw opties worden gedaan.
+* **de controlespoor van de Optie** staat u toe om activiteiten en laatste wijzigingen te controleren die aan uw opties worden gedaan.
 
-  Raadpleeg deze voor meer informatie over opties [page](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Voor meer informatie over opties, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
-* **Afleveringsaudittrail** kunt u de activiteiten en de laatste wijzigingen die u hebt aangebracht in uw leveringen controleren.
+* **de controletrail van de Levering** staat u toe om de activiteiten en de laatste wijzigingen te controleren die aan uw leveringen worden gedaan.
 
-  Raadpleeg de volgende secties voor meer informatie over leveringen [page](../start/create-message.md).
+  Voor meer informatie over leveringen, verwijs naar deze [ pagina ](../start/create-message.md).
 
-* **Externe account** kunt u wijzigingen controleren die in externe rekeningen worden aangebracht, die door technische processen zoals technische werkschema&#39;s of campagnewerkschema&#39;s worden gebruikt.
+* **Externe Rekening** staat u toe om wijzigingen te controleren die aan externe rekeningen worden aangebracht, die door technische processen zoals technische werkschema&#39;s of campagnewerkschema&#39;s worden gebruikt.
 
-  Voor meer informatie over externe account raadpleegt u deze [page](../config/external-accounts.md).
+  Voor meer informatie over externe rekening, verwijs naar deze [ pagina ](../config/external-accounts.md).
 
-* **Aflevering toewijzen** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Toewijzingen van de Levering worden aangebracht.
+* **Afbeelding van de Levering** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Toewijzingen van de Levering worden aangebracht.
 
-  Raadpleeg deze voor meer informatie over leveringstoewijzing [page](../audiences/target-mappings.md).
+  Voor meer informatie over leveringsafbeelding, verwijs naar deze [ pagina ](../audiences/target-mappings.md).
 
-* **Webtoepassing** Hiermee kunt u wijzigingen controleren die in webformulieren zijn aangebracht in Campagne V8 waarmee pagina&#39;s met invoer- en selectievelden worden gemaakt en die gegevens uit de database kunnen bevatten.
+* **Toepassing van het Web** staat u toe om wijzigingen te controleren die aan de vormen van het Web in Campagne V8 worden aangebracht om pagina&#39;s met input en selectievelden tot stand te brengen, en die gegevens van het gegevensbestand kunnen omvatten.
 
-  Raadpleeg deze voor meer informatie over webtoepassingen [page](../dev/webapps.md).
+  Voor meer informatie over Webtoepassing, verwijs naar deze [ pagina ](../dev/webapps.md).
 
-* **Voorstel** Hiermee kunt u de activiteiten en de laatste wijzigingen in uw voorstellen controleren.
+* **Aanbieding** staat u toe om de activiteiten en de laatste wijzigingen te controleren die aan uw aanbiedingen worden gedaan.
 
-  Raadpleeg voor meer informatie over aanbiedingen deze [page](../interaction/interaction.md).
+  Voor meer informatie over aanbieding, verwijs naar deze [ pagina ](../interaction/interaction.md).
 
-* **Operator** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Operatoren worden aangebracht.
+* **Exploitant** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Operatoren worden aangebracht.
 
-  Raadpleeg de volgende secties voor meer informatie over operatoren [page](../interaction/interaction-operators.md).
+  Voor meer informatie over exploitanten, verwijs naar deze [ pagina ](../interaction/interaction-operators.md).
 
 +++
 
 ## Audittrail openen {#accessing-audit-trail}
 
-Toegang krijgen tot de **[!UICONTROL Audit trail]**:
+Ga als volgt te werk om het exemplaar **[!UICONTROL Audit trail]** te openen:
 
-1. Toegang krijgen tot de **[!UICONTROL Explorer]** van uw instantie.
+1. Open het menu **[!UICONTROL Explorer]** van uw instantie.
 
-1. Onder de **[!UICONTROL Administration]** menu, selecteert u **[!UICONTROL Audit]** dan **[!UICONTROL Audit Trail]**.
+1. Selecteer **[!UICONTROL Audit]** then **[!UICONTROL Audit Trail]** onder het menu **[!UICONTROL Administration]** .
 
    ![](assets/audit-trail-1.png)
 
-1. De **[!UICONTROL Audit trail]** wordt geopend met de lijst van uw entiteiten. Adobe Campaign controleert het maken, bewerken en verwijderen van acties voor uw verschillende entiteiten.
+1. Het venster **[!UICONTROL Audit trail]** wordt geopend met de lijst met entiteiten. Adobe Campaign controleert het maken, bewerken en verwijderen van acties voor uw verschillende entiteiten.
 
    Selecteer een van de entiteiten voor meer informatie over de laatste wijzigingen.
 
-1. De **[!UICONTROL Audit entity]** het venster geeft u meer gedetailleerde informatie over de gekozen entiteit zoals:
+1. In het venster **[!UICONTROL Audit entity]** vindt u gedetailleerdere informatie over de gekozen entiteit, zoals:
 
    * **[!UICONTROL Type]**: Workflow, opties, leveringen of schema&#39;s.
-   * **[!UICONTROL Entity]**: Interne naam van uw activiteiten.
+   * **[!UICONTROL Entity]**: interne naam van uw activiteiten.
    * **[!UICONTROL Modified by]**: Gebruikersnaam van de laatste persoon die deze entiteit als laatste heeft gewijzigd.
    * **[!UICONTROL Action]**: De laatste actie die op deze entiteit is uitgevoerd, is gemaakt, gewijzigd of verwijderd.
    * **[!UICONTROL Modification date]**: Datum van de laatste actie die op deze entiteit is uitgevoerd.
@@ -96,7 +97,7 @@ Toegang krijgen tot de **[!UICONTROL Audit trail]**:
 
 >[!NOTE]
 >
->De bewaarperiode is standaard ingesteld op 180 dagen voor **[!UICONTROL Audit logs]**. Deze waarde kan in de plaatsingstovenaar worden gewijzigd.
+>De retentieperiode is standaard ingesteld op 180 dagen voor **[!UICONTROL Audit logs]** . Deze waarde kan in de plaatsingstovenaar worden gewijzigd.
 
 ## Audittrail in-/uitschakelen {#enable-disable-audit-trail}
 
@@ -104,9 +105,9 @@ Het audittrail kan gemakkelijk voor een specifieke activiteit worden geactiveerd
 
 Dit doet u als volgt:
 
-1. Toegang krijgen tot de **[!UICONTROL Explorer]** van uw instantie.
+1. Open het menu **[!UICONTROL Explorer]** van uw instantie.
 
-1. Onder de **[!UICONTROL Administration]** menu, selecteert u **[!UICONTROL Platform]** dan **[!UICONTROL Options]**.
+1. Selecteer **[!UICONTROL Platform]** then **[!UICONTROL Options]** onder het menu **[!UICONTROL Administration]** .
 
 1. Selecteer een van de volgende opties, afhankelijk van de entiteit die u wilt activeren/deactiveren:
 
@@ -115,7 +116,7 @@ Dit doet u als volgt:
    * Voor opties: **[!UICONTROL XtkAudit_Option]**
    * Voor leveringen: **[!UICONTROL XtkAudit_Delivery]**
    * Voor externe account: **[!UICONTROL XtkAudit_ExtAccount]**
-   * Voor leveringstoewijzing: **[!UICONTROL XtkAudit_DeliveryMapping]**
+   * Voor levering toewijzen: **[!UICONTROL XtkAudit_DeliveryMapping]**
    * Voor webtoepassing: **[!UICONTROL XtkAudit_WebApp]**
    * Voor voorstel: **[!UICONTROL XtkAudit_Offer]**
    * Voor operator: **[!UICONTROL XtkAudit_Operator]**
@@ -123,7 +124,7 @@ Dit doet u als volgt:
 
    ![](assets/audit-trail-3.png)
 
-1. Wijzig de **[!UICONTROL Value]** tot 1 als u de entiteit wilt toelaten of aan 0 als u het wilt onbruikbaar maken.
+1. Wijzig **[!UICONTROL Value]** in 1 als u de entiteit wilt inschakelen of in 0 als u deze wilt uitschakelen.
 
    ![](assets/audit-trail-4.png)
 

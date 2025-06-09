@@ -60,7 +60,7 @@ Raadpleeg de [gedetailleerde documentatie](../send/push-data-collection.md) voor
 <ul>
 <li>De productie van SMS: tot <strong> 5x </strong> sneller</li>
 </ul>
-<p><em>Deze maximum productieprestaties zijn gemeten door Adobe testende teams, in laboratoriumomstandigheden.</em></p>
+<p><em>Deze maximale uitvoerprestaties zijn gemeten door Adobe-testteams, onder laboratoriumomstandigheden.</em></p>
 </div>
 <p></p>
 </td>
@@ -82,7 +82,7 @@ Raadpleeg de [gedetailleerde documentatie](../send/push-data-collection.md) voor
 **Compatibiliteitsupdates**
 
 * De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Voor meer informatie over hoe te om uw werkend systeem te bevorderen, verwijs naar dit [ technote ](../../technotes/upgrades/console.md).
-* U kunt nu uw Campagne v8 instantie met uw Azure synapse externe gegevensbestand verbinden. Deze verbinding wordt beheerd via een nieuwe externe account. Leer meer in [ de verenigbaarheidsmatrijs van de Campagne ](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+* U kunt nu uw Campagne v8-exemplaar verbinden met uw externe Azure Synapse-database. Deze verbinding wordt beheerd via een nieuwe externe account. Leer meer in [ de verenigbaarheidsmatrijs van de Campagne ](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
 
 
 **Bevestigingen**
@@ -110,11 +110,11 @@ _dinsdag 3 april 2023_
 **Bevestigingen**
 
 * Probleem verholpen die tot een fout met betrekking tot een dubbele sleutel kon leiden als meerdere goedkeuringswerkstromen op hetzelfde schema werden ingesteld. (NEO-48968)
-* Oplossing voor een regressieprobleem dat werd geïntroduceerd door NEO-54474 (8.4.4). Hierdoor werd het stijlkenmerk van de body-tag gewijzigd tijdens het uploaden van een afbeelding in de Digital Content Editor (DCE). (NEO-57697)
+* Probleem met regressie verholpen die werd geïntroduceerd door NEO-54474 (8.4.4). Hierdoor werd het stijlkenmerk van de body-tag gewijzigd tijdens het uploaden van een afbeelding in de Digital Content Editor (DCE). (NEO-57697)
 * Probleem verholpen dat tot een fout kon leiden wanneer het uitvoeren van gegevens gebruikend een schakelaar van CRM als de tijdelijke lijst een primaire sleutel had die lang in plaats van uuid wordt bepaald. (NEO-54153)
 * Oplossing voor een regressieprobleem dat in 8.4.1 werd geïntroduceerd en dat tot fouten in pakketexport, FDA boven HTTP en rapportage kon leiden. (NEO-57731)
 * Oplossing voor een regressieprobleem dat in 8.3.8 werd geïntroduceerd en waardoor de leveringsstatus niet correct kon worden bijgewerkt voor leveringen met negatieve id&#39;s. (NEO-54675)
-* Probleem verholpen met Booleaanse velden bij het importeren van gegevens via de Big Query-connector (NEO-49181)
+* Probleem met booleaanse velden verholpen bij het importeren van gegevens via de Big Query-connector (NEO-49181)
 
 
 ## Release 8.4.4 {#release-8-4-4}
@@ -149,13 +149,13 @@ _zaterdag 27 januari 2023_
 * Probleem met een logische operator verholpen bij workflowquery&#39;s bij gebruik van een `enableIf` in een logische operatorvoorwaarde. De vorige logische voorwaarde is overschreven. (NEO-45815) <!--OKKKK-->
 * Het genereren van actieve profielen is geoptimaliseerd in de factureringsworkflow om de prestaties te verbeteren. (NEO-47658) <!--OKKKK-->
 * Er is een probleem verholpen met het importeren van HTML-bestanden wanneer afbeeldingsnodes (img) URL&#39;s met personalisatievelden bevatten. (NEO-48396)
-* Vaste een kwestie met Snowflake (alle plaatsingen) wanneer het gebruiken van de sorterende parameter in a **Gesplitste** werkschemaactiviteit. (NEO-45899) <!--OKKKK-->
+* Oplossing voor een kwestie met Snowflake (alle plaatsingen) wanneer het gebruiken van de sorterende parameter in a **Gesplitste** werkschemaactiviteit. (NEO-45899) <!--OKKKK-->
 * Er is een probleem verholpen dat tot een fout leidde wanneer een gebruiker met leestoegangsrechten voor de map nmsDeliveryMapping probeerde een campagne of workflow uit te voeren. (NEO-48230)
 * Er is een probleem verholpen in het HTML-tabblad van een bezorging dat kon optreden voor grootschalige HTML-code. (NEO-47440)
 <!-- * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
 * Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)-->
 * Oplossing een kwestie die gebruikers verhinderde **geselecteerde lijnen van de Fusie** werkschemaoptie te gebruiken. (NEO-48488)
-* Probleem verholpen met de FDA-aansluiting van de Snowflake die ertoe leidde dat records werden verwijderd wanneer tijdens het verrijken de optie &quot;0 of 1 cardinality simple join&quot; werd gebruikt. (NEO-48737)
+* Probleem verholpen met de Snowflake FDA-connector, die ertoe leidde dat records werden weggelaten bij gebruik van de optie &quot;0 of 1 cardinality simple join&quot; tijdens verrijking. (NEO-48737)
 * De resterende verwijzingen naar de bibliotheek log4j zijn verwijderd uit de installatie van Campaign in Windows. (NEO-44851)
 * Er is een probleem verholpen dat tot een fout kon leiden bij het toevoegen van de indicator **Ontvangers die hebben geopend** (estimatedRecipientOpen) in de aanvullende gegevens van een **Query**-workflowactiviteit. (NEO-46665)
 * Het beheer van URL&#39;s bijhouden is verbeterd in workflows met meerdere leveringen om de prestaties te verbeteren. (NEO-50894) <!--OKKKK-->

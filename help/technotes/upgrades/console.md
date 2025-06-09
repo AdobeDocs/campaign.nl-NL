@@ -22,7 +22,7 @@ Deze wijziging heeft alleen invloed op u als u de 32-bits versie van Windows 8 o
 
 ## Einde van ondersteuning{#eol}
 
-Het einde van de steun betekent dat de Adobe niet meer technische steun, met inbegrip van product en/of veiligheidsupdates, voor alle derivaten van een product of productversie (gelokaliseerde versies, minder belangrijke verbeteringen, werkende systemen, punt en dubbel-puntsversies, en schakelaarproducten) verleent.
+Het einde van de ondersteuning betekent dat Adobe niet langer technische ondersteuning biedt, inclusief product- en/of beveiligingsupdates, voor alle derivaten van een product of productversie (gelokaliseerde versies, kleine upgrades, besturingssystemen, puntreleases en connectorproducten).
 
 ## Aanbevelingen{#console-eol-recommendations}
 
@@ -56,7 +56,7 @@ Vanaf 8.6 ondersteunen alle versies van Campagne v8 geen 32-bits besturingssyste
 
 +++Hoe kan ik een upgrade uitvoeren van Windows (32-bits) naar Windows (64-bits)?
 
-Zorg ervoor dat de processor van uw computer de installatie van een 64-bits besturingssysteem ondersteunt. Als u een upgrade uitvoert van de 32-bits versie naar de 64-bits versie van Windows, moet u de vaste schijf opnieuw opmaken, de 64-bits versie van Windows installeren en vervolgens alle andere gegevens die u op uw apparaat had opnieuw installeren. Zie voor meer informatie [32-bits en 64-bits Windows: veelgestelde vragen](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
+Zorg ervoor dat de processor van uw computer de installatie van een 64-bits besturingssysteem ondersteunt. Als u een upgrade uitvoert van de 32-bits versie naar de 64-bits versie van Windows, moet u de vaste schijf opnieuw opmaken, de 64-bits versie van Windows installeren en vervolgens alle andere gegevens die u op uw apparaat had opnieuw installeren. Voor meer informatie, zie [ met 32 bits en met 64 bits Vensters: Veelgestelde vragen ](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
 
 +++
 

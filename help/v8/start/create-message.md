@@ -137,7 +137,7 @@ U kunt berichten verzenden naar profielen die niet in de database maar in een ex
 1. Selecteer het bestand met de ontvangers.
 1. Klik tijdens het importeren van de ontvangers op de koppeling **[!UICONTROL File format definition...]** om het externe bestand te selecteren en te configureren.
 
-   Voor meer informatie bij de invoer van gegevens, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
+   Voor meer informatie bij de invoer van gegevens, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
 
 1. Klik op **[!UICONTROL Finish]** en configureer de levering als standaardlevering.
 
@@ -182,7 +182,7 @@ Voor meer bij proefontvangers en het verzenden, verwijs naar [ deze sectie ](../
 
 In deze video leert u hoe u zaden en proefdrukken aan een bestaande e-mail kunt toevoegen en hoe u deze kunt verzenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447005?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 De extra hoe te video&#39;s van Campaign Classic zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
 

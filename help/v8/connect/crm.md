@@ -30,11 +30,11 @@ Belangrijkste voordelen zijn:
 
 >[!NOTE]
 >
->Deze eigenschap is beschikbaar in Adobe Campaign door het **specifieke pakket 1&rbrace; van de schakelaars van CRM**.
+>Deze eigenschap is beschikbaar in Adobe Campaign door het **specifieke pakket 1} van de schakelaars van CRM**.
 
 ## Compatibele systemen {#compatible-crm-systems-and-limitations}
 
-De gesteunde CRM en de versies zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [&#128279;](../start/compatibility-matrix.md).
+De gesteunde CRM en de versies zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [ ](../start/compatibility-matrix.md).
 
 >[!CAUTION]
 >

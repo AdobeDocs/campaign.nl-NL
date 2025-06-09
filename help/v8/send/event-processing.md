@@ -7,18 +7,18 @@ level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
 
 # Gebeurtenisverwerking {#event-processing}
 
-In de context van transactiemeldingen wordt een gebeurtenis gegenereerd door een extern informatiesysteem en wordt deze via het **[!UICONTROL PushEvent]** en **[!UICONTROL PushEvents]** methoden. Deze methoden worden beschreven in [deze sectie](event-description.md).
+In de context van transactiemeldingen wordt een gebeurtenis gegenereerd door een extern informatiesysteem en wordt deze via de methoden **[!UICONTROL PushEvent]** en **[!UICONTROL PushEvents]** naar Adobe Campaign verzonden. Deze methodes worden beschreven in [ deze sectie ](event-description.md).
 
 Deze gebeurtenis bevat gegevens die zijn gekoppeld aan de gebeurtenis, zoals:
 
-* haar [type](transactional.md#create-event-types): bevestiging van bestelling, aanmaken van account op een website, enz.,
+* zijn [ type ](transactional.md#create-event-types): ordesbevestiging, rekeningsverwezenlijking op een website, enz.,
 * het e-mailadres of telefoonnummer;
 * alle andere informatie die het transactiemelding vóór levering moet verrijken en personaliseren: contactgegevens van de klant, taal van het bericht, e-mailformaat, enz.
 
@@ -32,7 +32,7 @@ Om transactionele berichtengebeurtenissen te verwerken, worden de volgende stapp
 1. [Gebeurtenisoverdracht naar een berichtsjabloon](#routing-towards-a-template)
 1. Gebeurtenisverrijking met personalisatiegegevens
 1. [Uitvoering van levering](delivery-execution.md)
-1. [Recycling van gebeurtenissen](#event-recycling) waarvan de gekoppelde levering is mislukt (via een Adobe Campaign-workflow)
+1. [ Recycling van gebeurtenissen ](#event-recycling) de waarvan verbonden levering ontbrak (via een werkschema van Adobe Campaign)
 
 Zodra alle stappen worden bereikt, ontvangt elke gerichte ontvanger een gepersonaliseerd bericht.
 
@@ -40,17 +40,17 @@ Zodra alle stappen worden bereikt, ontvangt elke gerichte ontvanger een geperson
 
 Gebeurtenissen die door het informatiesysteem worden gegenereerd, kunnen in twee modi worden verzameld:
 
-* Met aanroepen van SOAP-methoden kunt u gebeurtenissen in Adobe Campaign duwen: met de PushEvent-methode kunt u één gebeurtenis tegelijk verzenden. Met de PushEvents-methode kunt u verschillende gebeurtenissen tegelijk verzenden. [Meer informatie](event-description.md).
+* Met aanroepen van SOAP-methoden kunt u gebeurtenissen in Adobe Campaign duwen: met de methode PushEvent kunt u één gebeurtenis tegelijk verzenden. Met de methode PushEvents kunt u verschillende gebeurtenissen tegelijk verzenden. [Meer informatie](event-description.md).
 
-* Als u een workflow maakt, kunt u gebeurtenissen herstellen door bestanden te importeren of via een SQL-gateway, met de [Federale gegevenstoegang](../connect/fda.md) -module.
+* Het creëren van een werkschema laat u gebeurtenissen terugkrijgen door dossiers of via een SQL gateway, met de [ Verdeelde module van de Toegang van Gegevens ](../connect/fda.md) in te voeren.
 
-Nadat de gebeurtenissen zijn verzameld, worden ze uitgesplitst naar technische workflows tussen realtime- en batchwachtrijen van de uitvoeringsinstantie(s), terwijl ze wachten op koppeling naar een [berichtsjabloon](transactional-template.md).
+Zodra zij worden verzameld, worden de gebeurtenissen verdeeld door technische werkschema&#39;s tussen real time en partijrijen van de uitvoeringsinstantie(s), terwijl het wachten om aan a [ berichtmalplaatje ](transactional-template.md) worden verbonden.
 
 ![](assets/mc-event-queues.png)
 
 >[!NOTE]
 >
->In de uitvoeringsinstanties worden de **[!UICONTROL Real time events]** of **[!UICONTROL Batch events]** mappen mogen niet worden ingesteld als weergaven, omdat dit tot problemen met toegangsrechten kan leiden. Raadpleeg voor meer informatie over het instellen van een map als weergave [deze sectie](../audiences/folders-and-views.md#turn-a-folder-to-a-view).
+>Op uitvoeringsinstanties moeten de mappen **[!UICONTROL Real time events]** of **[!UICONTROL Batch events]** niet worden ingesteld als weergaven, omdat dit tot problemen met toegangsrechten kan leiden. Voor meer bij het plaatsen van een omslag als mening, verwijs naar [ deze sectie ](../audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 ## Een gebeurtenis overbrengen naar een sjabloon {#event-to-template}
 
@@ -74,20 +74,20 @@ Door gebrek, baseert het verpletteren zich op de volgende informatie:
 
 ## Gebeurtenisstatus controleren {#event-statuses}
 
-Alle verwerkte gebeurtenissen worden gegroepeerd in één weergave, in het dialoogvenster **Gebeurtenisgeschiedenis** of de Explorer. Ze kunnen worden gecategoriseerd op gebeurtenistype of op **status**.
+Alle verwerkte gebeurtenissen worden gegroepeerd in één enkele mening, in de **de geschiedenisomslag van de Gebeurtenis** of Ontdekkingsreiziger. Zij kunnen door gebeurtenistype of door **status** worden gecategoriseerd.
 
 Mogelijke statussen zijn:
 
-* **In behandeling**
+* **In afwachting van**
 
-   * Een gebeurtenis in behandeling kan een gebeurtenis zijn die net is verzameld en die nog niet is verwerkt. De **[!UICONTROL Number of errors]** wordt de waarde 0 weergegeven. De e-mailsjabloon is nog niet gekoppeld.
-   * Een gebeurtenis in behandeling kan ook een gebeurtenis zijn die wordt verwerkt maar waarvan de bevestiging onjuist is. De **[!UICONTROL Number of errors]** de kolom toont een waarde die niet 0 is. Als u wilt weten wanneer deze gebeurtenis opnieuw wordt verwerkt, raadpleegt u de **[!UICONTROL Process requested on]** kolom.
+   * Een gebeurtenis in behandeling kan een gebeurtenis zijn die net is verzameld en die nog niet is verwerkt. In de kolom **[!UICONTROL Number of errors]** wordt de waarde 0 weergegeven. De e-mailsjabloon is nog niet gekoppeld.
+   * Een gebeurtenis in behandeling kan ook een gebeurtenis zijn die wordt verwerkt maar waarvan de bevestiging onjuist is. De kolom **[!UICONTROL Number of errors]** toont een waarde die niet 0 is. Raadpleeg de kolom **[!UICONTROL Process requested on]** als u wilt weten wanneer deze gebeurtenis opnieuw wordt verwerkt.
 
-* **In behandeling**
+* **Hangende levering**
 De gebeurtenis is verwerkt en de leveringssjabloon is gekoppeld. De e-mail is in afwachting van levering en het klassieke leveringsproces wordt toegepast. Voor meer informatie kunt u de levering openen.
-* **Verzonden**, **Genegeerd** en **Afleveringsfout**
-Deze leveringsstatussen worden teruggevorderd via de **updateEventsStatus** workflow. Voor meer informatie kunt u de relevante levering openen.
-* **Gebeurtenis niet gedekt**
+* **Verzonden**, **genegeerde** en **fout van de Levering**
+Deze leveringsstatussen worden teruggekregen via het **updateEventsStatus** werkschema. Voor meer informatie kunt u de relevante levering openen.
+* **niet behandelde Gebeurtenis**
 Het transactionele overseinen die fase verplettert ontbrak. Adobe Campaign heeft bijvoorbeeld het e-mailbericht dat als sjabloon voor de gebeurtenis fungeert, niet gevonden.
 * **Gebeurtenis verlopen**
 Het maximumaantal verzendpogingen is bereikt. De gebeurtenis wordt als null beschouwd.
@@ -96,8 +96,8 @@ Het maximumaantal verzendpogingen is bereikt. De gebeurtenis wordt als null besc
 
 Als de levering van een bericht op een specifiek kanaal mislukt, kan Adobe Campaign het bericht opnieuw verzenden via een ander kanaal. Als een levering op het SMS-kanaal bijvoorbeeld mislukt, wordt het bericht opnieuw verzonden via het e-mailkanaal.
 
-Hiertoe moet u een workflow configureren die alle gebeurtenissen opnieuw maakt met de **Afleveringsfout** en wijst er een ander kanaal aan toe.
+Om dit te doen, moet u een werkschema vormen dat alle gebeurtenissen met de **fout van de Levering** status ontspant, en een verschillend kanaal aan hen toewijst.
 
 >[!CAUTION]
 >
->Deze stap kan alleen worden uitgevoerd met behulp van een workflow en is daarom voorbehouden aan professionele gebruikers. Neem voor meer informatie contact op met het accountmanager van de Adobe.
+>Deze stap kan alleen worden uitgevoerd met behulp van een workflow en is daarom voorbehouden aan professionele gebruikers. Neem voor meer informatie contact op met de Adobe-accountmanager.

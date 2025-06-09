@@ -17,7 +17,8 @@ ht-degree: 28%
 Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 (client console) product en documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](start/release-notes.md). Blijf bijgewerkt met de recentste veranderingen in onze documentatie door de [ documentatieupdates ](start/documentation-updates.md) pagina te bezoeken.
 
 >[!BEGINTABS]
->[!TAB {de versie van 0} Campagne v8.6.4 is levende]  
+
+>{de versie van 0} Campagne v8.6.4 is levende ][!TAB 
 
 De nieuwste versie van Adobe Campaign is nu live. Lees de opmerkingen bij de release voor meer informatie.
 
@@ -111,5 +112,5 @@ In 2024 komt er een versie met enkele belangrijke wijzigingen voor de service FC
 
 ## Verdere bronnen
 
-[ Adobe Campaign v8 de Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}  - [ de gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"}  - [ Zelfstudies ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=nl-NL){target="_blank"}  - [[!DNL Adobe Campaign]  automatiseringsgids ](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=nl-NL){target="_blank"}  - [ Controlebord voor Campagne v8 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"} 
+[ Adobe Campaign v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [ de gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign]  automatiseringsgids ](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [ Controlebord voor Campagne v8 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
 

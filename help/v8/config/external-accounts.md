@@ -8,7 +8,7 @@ exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
 De **Stuits post** externe rekening specificeert de externe POP3 rekening die moet worden gebruikt om met de e-maildienst te verbinden. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
-Leer meer over binnenkomende e-mails in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=nl-NL){target="_blank"} .
+Leer meer over binnenkomende e-mails in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -68,7 +68,7 @@ U configureert als volgt de externe account van **[!UICONTROL Bounce mails (defa
 
 >[!CAUTION]
 >
->Voordat u uw POP3-externe account configureert met Microsoft OAuth 2.0, moet u uw toepassing eerst registreren in de Azure-portal. Voor meer op dit, verwijs naar deze [ pagina ](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"} .
+>Voordat u uw POP3-externe account configureert met Microsoft OAuth 2.0, moet u uw toepassing eerst registreren in de Azure-portal. Raadpleeg [deze pagina](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"} voor meer informatie.
 >
 
 Als u een POP3-bestand wilt configureren met Microsoft OAuth 2.0, schakelt u de optie **[!UICONTROL Microsoft OAuth 2.0]** in en vult u de volgende velden in:
@@ -118,7 +118,7 @@ In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbo
 
 ## Externe rekeningen voor gegevensoverdracht {#transfer-data-external-accounts}
 
-Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** -workflowactiviteit. Leer meer over **overdracht van het Dossier** in werkschema&#39;s in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=nl-NL){target="_blank"} .
+Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** -workflowactiviteit. Leer meer over **overdracht van het Dossier** in werkschema&#39;s in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 * **FTP en SFTP** - de **FTP** externe rekening laat u toegang tot een server buiten Adobe Campaign vormen en testen. Als u verbindingen wilt instellen met externe systemen, zoals SFTP- of FTP-servers 898 die worden gebruikt voor bestandsoverdracht, kunt u uw eigen externe accounts maken.
 
@@ -126,19 +126,19 @@ Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exp
 
   >[!NOTE]
   >
-  >Vanaf versie 8.5 kunt u nu veilig verifiëren met een persoonlijke sleutel wanneer u uw SFTP-externe account configureert. [ leer meer op zeer belangrijk beheer ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=nl-NL){target="_blank"} .
+  >Vanaf versie 8.5 kunt u nu veilig verifiëren met een persoonlijke sleutel wanneer u uw SFTP-externe account configureert. [ Leer meer op zeer belangrijk beheer ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **de Eenvoudige Dienst van de Opslag van Amazon (S3)** - de **schakelaar van AWS S3** kan worden gebruikt om gegevens in te voeren of uit te voeren naar Adobe Campaign gebruikend de activiteit van het a **[!UICONTROL Transfer file]** werkschema. Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
 
    * **[!UICONTROL AWS S3 Account Server]**: URL van uw server, als volgt ingevuld:   `<S3bucket name>.s3.amazonaws.com/<s3object path>`
 
-   * **[!UICONTROL AWS access key ID]**: Leer hoe te om uw de toegangs belangrijkste identiteitskaart van AWS in [ documentatie van Amazon ](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"} te vinden .
+   * **[!UICONTROL AWS access key ID]**: Leer hoe te om uw de toegangs belangrijkste identiteitskaart van AWS in [ documentatie van Amazon ](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"} te vinden.
 
-   * **[!UICONTROL Secret access key to AWS]**: Leer hoe te om uw geheime toegangstoets aan AWS in [ documentatie van Amazon ](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"} te vinden .
+   * **[!UICONTROL Secret access key to AWS]**: Leer hoe te om uw geheime toegangstoets aan AWS in [ documentatie van Amazon ](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"} te vinden.
 
-   * **[!UICONTROL AWS Region]**: Leer meer op de gebieden van AWS in [ documentatie van Amazon ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"} .
+   * **[!UICONTROL AWS Region]**: Leer meer op de gebieden van AWS in [ documentatie van Amazon ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
 
-   * Met het selectievakje **[!UICONTROL Use server side encryption]** kunt u het bestand opslaan in de modus S3-versleuteling. Leer hoe te om toegangs zeer belangrijke identiteitskaart en geheime toegangssleutel in [ documentatie van Amazon ](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"} te vinden .
+   * Met het selectievakje **[!UICONTROL Use server side encryption]** kunt u het bestand opslaan in de modus S3-versleuteling. Leer hoe te om toegangs zeer belangrijke identiteitskaart en geheime toegangssleutel in [ documentatie van Amazon ](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"} te vinden.
 
 * **Azure BlobOpslag** - de **Azure** externe rekening kan worden gebruikt om gegevens in te voeren of naar Adobe Campaign uit te voeren gebruikend een **[!UICONTROL Transfer file]** werkschemaactiviteit. Om de **Azure** externe rekening te vormen om met Adobe Campaign te werken, moet u de volgende details verstrekken:
 
@@ -146,4 +146,4 @@ Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exp
 
    * **[!UICONTROL Encryption]**: Type codering tussen **[!UICONTROL None]** of **[!UICONTROL SSL]** .
 
-   * **[!UICONTROL Access key]**: Leer hoe te om uw **[!UICONTROL Access key]** in [ documentatie van Microsoft ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}  te vinden.
+   * **[!UICONTROL Access key]**: Leer hoe te om uw **[!UICONTROL Access key]** in [ documentatie van Microsoft ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"} te vinden.

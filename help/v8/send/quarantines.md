@@ -20,29 +20,29 @@ Wanneer hun adres of telefoonaantal quarantined is, worden de ontvangers uitgesl
 
 <!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
 
-**Quarantine** is alleen van toepassing op een **adres**, **telefoonnummer** of een **apparaattoken**, maar niet aan het profiel zelf. Een profiel waarvan het e-mailadres in quarantaine is geplaatst, kan bijvoorbeeld zijn profiel bijwerken en een nieuw adres invoeren. Dit profiel kan dan opnieuw worden geactiveerd door leveringsacties. Eveneens, als twee profielen gebeuren om het zelfde telefoonaantal te hebben, zullen zij allebei worden beïnvloed als het aantal quarantined is. De in quarantaine geplaatste adressen of telefoonaantallen worden getoond in [uitsluitingslogboeken](#delivery-quarantines) (voor levering) of in de [quarantainelijst](#non-deliverable-bounces) (voor het gehele platform).
+**quarantaine** is slechts op een **adres**, a **telefoonaantal**, of a **apparatenteken** van toepassing, maar niet op het profiel zelf. Een profiel waarvan het e-mailadres in quarantaine is geplaatst, kan bijvoorbeeld zijn profiel bijwerken en een nieuw adres invoeren. Dit profiel kan dan opnieuw worden geactiveerd door leveringsacties. Eveneens, als twee profielen gebeuren om het zelfde telefoonaantal te hebben, zullen zij allebei worden beïnvloed als het aantal quarantined is. De quarantined adressen of telefoonaantallen worden getoond in [ uitsluitingslogboeken ](#delivery-quarantines) (voor een levering) of in de [ quarantainelijst ](#non-deliverable-bounces) (voor het volledige platform).
 
-Aan de andere kant kunnen profielen worden ingesteld op **lijst van gewezen personen** net als na een abonnement (opt-out), voor een bepaald kanaal: dit houdt in dat zij niet langer het doelwit zijn van enig kanaal. Als een profiel op de lijst van gewezen personen voor het e-mailkanaal twee e-mailadressen heeft, worden beide adressen daarom uitgesloten van levering. U kunt controleren of een profiel op de lijst van gewezen personen voor een of meer kanalen in het dialoogvenster **[!UICONTROL No longer contact]** van het profiel **[!UICONTROL General]** tab. [Meer informatie](../audiences/view-profiles.md)
+Anderzijds, kunnen de profielen op de **lijst van gewezen personen** zijn zoals na een unsubscription (opt-out), voor een bepaald kanaal: dit impliceert dat zij niet meer door om het even welk worden gericht. Als een profiel op de lijst van gewezen personen voor het e-mailkanaal twee e-mailadressen heeft, worden beide adressen daarom uitgesloten van levering. In de sectie **[!UICONTROL No longer contact]** van het tabblad **[!UICONTROL General]** van het profiel kunt u controleren of er zich op de lijst van gewezen personen een of meer kanalen bevinden in de sectie  van het profiel. [Meer informatie](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
->Wanneer de ontvangers uw bericht als spam melden of op een bericht van SMS met een sleutelwoord zoals &quot;STOP&quot;antwoorden, wordt hun adres of telefoonaantal quarantaine geplaatst zoals **[!UICONTROL Denylisted]**. Hun profiel wordt dienovereenkomstig bijgewerkt.
+>Wanneer de ontvangers uw bericht als spam melden of op een bericht van SMS met een sleutelwoord zoals &quot;STOP&quot;antwoorden, wordt hun adres of telefoonaantal quarantined als **[!UICONTROL Denylisted]**. Hun profiel wordt dienovereenkomstig bijgewerkt.
 
 <!--For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.?-->
 
 ## Waarom wordt een e-mail, telefoon of apparaat verzonden naar quarantaine {#quarantine-reason}
 
-Adobe Campaign beheert quarantaine op basis van het type leveringsfout en de oorzaak ervan. Deze worden toegewezen tijdens de kwalificatie van foutberichten. Meer informatie over beheer van leveringsfouten [op deze pagina](delivery-failures.md).
+Adobe Campaign beheert quarantaine op basis van het type leveringsfout en de oorzaak ervan. Deze worden toegewezen tijdens de kwalificatie van foutberichten. Leer meer over het beheer van de leveringsmislukking [ op deze pagina ](delivery-failures.md).
 
 Er kunnen twee typen of fouten worden vastgelegd:
 
-* **Harde fout**: het e-mailadres, telefoonnummer of apparaat wordt onmiddellijk naar quarantaine verzonden.
-* **Zachte fout**: de zachte fouten verhogen een foutenteller, en zouden een e-mail, telefoonaantal of apparatenteken in quarantaine kunnen plaatsen. Campagne voert uit [opnieuw proberen](delivery-failures.md#retries): wanneer de foutenteller de grensdrempel bereikt, wordt het adres, het telefoonaantal of het apparatenteken quarantined. [Meer informatie](delivery-failures.md#retries).
+* **Harde fout**: het e-mailadres, het telefoonaantal of het apparaat wordt onmiddellijk verzonden naar quarantaine.
+* **Zachte fout**: de zachte fouten verhogen een foutenteller, en zouden een e-mail, telefoonaantal of apparatenteken in quarantaine kunnen plaatsen. De campagne voert [ opnieuw probeert ](delivery-failures.md#retries) uit: wanneer de foutenteller de grensdrempel bereikt, wordt het adres, het telefoonaantal of het apparatenteken quarantined. [Meer informatie](delivery-failures.md#retries).
 
-In de lijst van quarantined adressen, **[!UICONTROL Error reason]** geeft aan waarom het geselecteerde adres in quarantaine is geplaatst. [Meer informatie](#identifying-quarantined-addresses-for-the-entire-platform).
+In de lijst van quarantined adressen, wijst het **[!UICONTROL Error reason]** gebied erop waarom het geselecteerde adres in quarantaine werd geplaatst. [Meer informatie](#identifying-quarantined-addresses-for-the-entire-platform).
 
 
-Als een gebruiker een e-mail als spam kwalificeert, wordt het bericht automatisch opnieuw gericht naar een technische brievenbus die door Adobe wordt geleid. Het e-mailadres van de gebruiker wordt vervolgens automatisch in quarantaine geplaatst met de status **[!UICONTROL Denylisted]**. Deze status verwijst alleen naar het adres, het profiel staat niet op de lijst van gewezen personen, zodat de gebruiker SMS-berichten en pushberichten blijft ontvangen. Meer informatie over feedbackloops in het dialoogvenster [Handleiding voor aanbevolen werkwijzen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#feedback-loops){target="_blank"}.
+Als een gebruiker een e-mail als spam kwalificeert, wordt het bericht automatisch opnieuw gericht naar een technische brievenbus die door Adobe wordt geleid. Het e-mailadres van de gebruiker wordt vervolgens automatisch in quarantaine geplaatst met de status **[!UICONTROL Denylisted]**. Deze status verwijst alleen naar het adres, het profiel staat niet op de lijst van gewezen personen, zodat de gebruiker SMS-berichten en pushberichten blijft ontvangen. Leer meer over de lijnen van de Terugkoppeling in de [ Gids van Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -56,14 +56,14 @@ De gekwalificeerde adressen kunnen voor een specifieke levering of voor het voll
 
 Quarantaineadressen worden vermeld tijdens de voorbereidingsfase van de levering, in de leveringslogboeken van het leveringsdashboard.
 
-Voor elke levering kunt u ook de optie **[!UICONTROL Delivery summary]** rapport: het toont het aantal adressen in quarantaine in het leveringsdoel, en toont:
+Voor elke levering, kunt u het **[!UICONTROL Delivery summary]** rapport ook controleren: het toont het aantal adressen in quarantaine in het leveringsdoel, en toont:
 
 * het aantal adressen dat tijdens de afleveringsanalyse in quarantaine wordt geplaatst;
 * Het aantal adressen die in quarantaine na de leveringsactie worden geplaatst.
 
 ### Niet-leverbare en stuitbare adressen{#non-deliverable-bounces}
 
-De lijst met in quarantaine geplaatste adressen weergeven **voor het gehele platform**, Campagnebeheerders kunnen bladeren naar  **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**. Deze sectie maakt een lijst van quarantined elementen voor **email**, **SMS** en **Pushmelding** kanalen.
+Om de lijst van quarantined adressen **voor het volledige platform** te bekijken, kunnen de Beheerders van de Campagne aan **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** doorbladeren. Deze sectie maakt een lijst van quarantined elementen voor **e-mail**, **SMS** en **Push bericht** kanalen.
 
 ![](assets/tech-quarantine.png)
 
@@ -71,44 +71,44 @@ De lijst met in quarantaine geplaatste adressen weergeven **voor het gehele plat
 >
 >Het aantal quarantaine neemt met de tijd toe. Als de levensduur van een e-mailadres bijvoorbeeld wordt beschouwd als drie jaar en de tabel met ontvangers elk jaar met 50% toeneemt, kan de toename van quarantaine als volgt worden berekend:
 >
->Einde van jaar 1: (1&#42;0,33)/(1+0,5)=22%.
+>Eind van Jaar 1: (1 &#42; 0.33)/(1+0.5)=22%.
 >
->Einde van jaar 2: (1.22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
+Eind van Jaar 2: (1.22 &#42; 0.33) + 0.33)/(1.5+0.75)=32.5%.
 
-Bovendien **[!UICONTROL Non-deliverables and bounces]** een ingebouwd rapport, beschikbaar via de **Rapporten** van deze homepage, toont informatie over de adressen in quarantaine, de types van aangetroffen fout, en een mislukkingsonderbreking door domein. U kunt gegevens filteren voor een specifieke levering, of dit rapport aanpassen zoals nodig.
+Bovendien **[!UICONTROL Non-deliverables and bounces]** ingebouwd rapport, beschikbaar bij de **2} sectie van Rapporten {van deze homepage, toont informatie over de adressen in quarantaine, de types van aangetroffen fout, en een mislukkingsonderbreking door domein.** U kunt gegevens filteren voor een specifieke levering, of dit rapport aanpassen zoals nodig.
 
-Meer informatie over stuitadressen in het dialoogvenster [Handleiding voor best practices voor levering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL){target="_blank"}.
+Leer meer over stuiterende adressen in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Gegarandeerd e-mailadres {#quarantined-recipient}
 
 U kunt de status van het e-mailadres van elke ontvanger opzoeken.
 
-Selecteer hiertoe het ontvangende profiel en klik op de knop **[!UICONTROL Deliveries]** tab. Voor alle leveringen aan die ontvanger, kunt u te weten komen of het ontbroken adres, tijdens analyse in quarantined, enz. was.
+Selecteer hiertoe het ontvangende profiel en klik op de tab **[!UICONTROL Deliveries]** . Voor alle leveringen aan die ontvanger, kunt u te weten komen of het ontbroken adres, tijdens analyse in quarantined, enz. was.
 
-Voor elke map kunt u alleen de ontvangers weergeven van wie het e-mailadres in quarantaine staat, met de **[!UICONTROL Quarantined email address]** ingebouwd filter, zoals hieronder:
+Voor elke map kunt u alleen de ontvangers weergeven van wie het e-mailadres in quarantaine staat, met het ingebouwde filter **[!UICONTROL Quarantined email address]** , zoals hieronder:
 
 ![](assets/quarantine-filter.png)
 
 
 ## Een in quarantaine geplaatst adres verwijderen {#remove-a-quarantined-address}
 
-Adressen die aan specifieke voorwaarden voldoen, worden automatisch uit de quarantainelijst verwijderd door de **Database opschonen** ingebouwde workflow.
+Adressen die specifieke voorwaarden aanpassen worden automatisch geschrapt van de quarantainelijst door het **ingebouwde werkschema van de Schoonmaak van het Gegevensbestand 0} {.**
 
 De adressen worden automatisch verwijderd uit de quarantainelijst in de volgende gevallen:
 
-* Adressen in een **[!UICONTROL With errors]** de status wordt na een geslaagde levering uit de quarantainelijst verwijderd .
-* Adressen in een **[!UICONTROL With errors]** de status wordt uit de quarantainelijst verwijderd als de laatste zachte stuit meer dan tien dagen geleden heeft plaatsgevonden . Zie voor meer informatie over softerror management [deze sectie](#soft-error-management).
-* Adressen in een **[!UICONTROL With errors]** status die met de **[!UICONTROL Mailbox full]** De fout wordt na 30 dagen uit de quarantainelijst verwijderd.
+* Adressen in de status **[!UICONTROL With errors]** worden na een geslaagde levering uit de quarantainelijst verwijderd.
+* Adressen in een status **[!UICONTROL With errors]** worden uit de quarantainelijst verwijderd als de laatste zachte stuit meer dan 10 dagen geleden plaatsvond. Voor meer op softfoutenbeheer, zie [ deze sectie ](#soft-error-management).
+* Adressen in een **[!UICONTROL With errors]** -status die met de **[!UICONTROL Mailbox full]** -fout zijn gemarkeerd, worden na 30 dagen uit de quarantainelijst verwijderd.
 
-Hun status verandert vervolgens in **[!UICONTROL Valid]**.
+De status verandert vervolgens in **[!UICONTROL Valid]** .
 
 >[!CAUTION]
 >
->Ontvangers met een adres in een **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** de status wordt nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
+Ontvangers met een adres in de status **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** worden nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
 
 U kunt ook handmatig een adres uit de quarantainelijst verwijderen. Als u een adres uit quarantaine wilt verwijderen, kunt u:
 
-* De status wijzigen in **[!UICONTROL Valid]** van de **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** knooppunt.
+* Wijzig zijn status in **[!UICONTROL Valid]** vanuit het knooppunt **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** .
 
   ![](assets/tech-quarantine-status.png)
 
@@ -118,10 +118,10 @@ Om dit uit te voeren, creeer een werkschema en voeg een vraag op uw quarantainet
 
 Hieronder volgen de geadviseerde richtlijnen voor deze vraag:
 
-* **Fouttekst (quarantainetekst)** bevat &quot;Momen_Code10_InvalidRecipient&quot;
-* **E-maildomein (@domein)** gelijk aan domain1.com OR **E-maildomein (@domein)** gelijk aan domain2.com OR **E-maildomein (@domein)** is gelijk aan domain3.com
-* **Status bijwerken (@lastModified)** op of na `MM/DD/YYYY HH:MM:SS AM`
-* **Status bijwerken (@lastModified)** op of voor `MM/DD/YYYY HH:MM:SS PM`
+* **tekst van de Fout (quarantainetekst)** bevat &quot;Momen_Code10_InvalidRecipient&quot;
+* **E-maildomein (@domein)** is gelijk aan domain1.com OF **E-maildomein (@domein)** gelijk aan domain2.com OF **E-maildomein (@domein)** gelijk aan domain3.com
+* **status van de Update (@lastModified)** op of na `MM/DD/YYYY HH:MM:SS AM`
+* **status van de Update (@lastModified)** op of vóór `MM/DD/YYYY HH:MM:SS PM`
 
-Als u de lijst met betrokken ontvangers hebt, voegt u een **[!UICONTROL Update data]** activiteit om hun status in te stellen op **[!UICONTROL Valid]** zodat zij uit de quarantainelijst worden verwijderd door **[!UICONTROL Database cleanup]** workflow. U kunt ze ook gewoon uit de quarantainetabel verwijderen.
+Als u de lijst met betrokken ontvangers hebt, voegt u een **[!UICONTROL Update data]** -activiteit toe om hun status in te stellen op **[!UICONTROL Valid]** , zodat ze uit de quarantainelijst worden verwijderd via de **[!UICONTROL Database cleanup]** -workflow. U kunt ze ook gewoon uit de quarantainetabel verwijderen.
 

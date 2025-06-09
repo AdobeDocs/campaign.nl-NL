@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van updates is bedoeld om de nieuwste en beste in uw handen te krijgen, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Adobe raadt alle klanten ten zeerste aan een upgrade uit te voeren naar de nieuwste versie.
 
-Als Beheerde gebruiker van Cloud Servicen, wordt uw instantie bevorderd door Adobe met elke nieuwe versie. Uw vertegenwoordiger van de Adobe neemt contact met u op om uw omgevingen te upgraden. De cliëntconsole van de campagne **moet aan de zelfde versie** worden bevorderd zoals de servers van de Campagne. Leer hoe te om uw cliëntconsole in [ te bevorderen deze pagina ](../start/connect.md#upgrade-ac-console).
+Als gebruiker van Managed Cloud Services wordt uw exemplaar bijgewerkt door Adobe met elke nieuwe versie. Uw Adobe-vertegenwoordiger neemt contact met u op om uw omgevingen te upgraden. De cliëntconsole van de campagne **moet aan de zelfde versie** worden bevorderd zoals de servers van de Campagne. Leer hoe te om uw cliëntconsole in [ te bevorderen deze pagina ](../start/connect.md#upgrade-ac-console).
 
 Bovendien als klant, zorg ervoor dat u de recentste gesteunde versies van de systemen gebruikt die in de [ matrijs van de Verenigbaarheid ](compatibility-matrix.md) worden vermeld.
 
@@ -32,12 +32,12 @@ Deze upgrades kunnen zijn:
 
 De gedetailleerde informatie over elke nieuwe versie is beschikbaar in de [ nota&#39;s van de Versie ](release-notes.md).
 
-Om een stabiele configuratie te verzekeren, adviseert de Adobe dat u **de nauwkeurige zelfde versie** op al uw servers van de Campagne installeert. Bovendien behalve anders vermeld in de [ nota&#39;s van de Versie ](release-notes.md), moet de cliëntconsole op **de nauwkeurige zelfde versie** zijn zoals de serverinstantie. Leer hoe te om uw cliëntconsole [ in deze pagina ](../start/connect.md#upgrade-ac-console) te bevorderen.
+Om een stabiele configuratie te verzekeren, adviseert Adobe dat u **de nauwkeurige zelfde versie** op al uw servers van de Campagne installeert. Bovendien behalve anders vermeld in de [ nota&#39;s van de Versie ](release-notes.md), moet de cliëntconsole op **de nauwkeurige zelfde versie** zijn zoals de serverinstantie. Leer hoe te om uw cliëntconsole [ in deze pagina ](../start/connect.md#upgrade-ac-console) te bevorderen.
 
 
 ## Campagne-upgrades {#ac-upgrades}
 
-Als klant van Managed Services van de Campagne, wanneer een nieuwe versie van de Campagne beschikbaar is, wordt uw infrastructuur bevorderd door Adobe zonder enige verdere actie.
+Als klant van Campagne Managed Services, wanneer een nieuwe versie van de Campagne beschikbaar is, wordt uw infrastructuur bevorderd door Adobe zonder enige verdere actie.
 
 Merk op dat, als klant, u moet ervoor zorgen dat u de recentste gesteunde versies van de systemen gebruikt die in de [ matrijs van de Verenigbaarheid ](compatibility-matrix.md) worden vermeld.
 
@@ -53,16 +53,16 @@ U hebt toegang tot de volgende informatie:
 
 * Het **versie** aantal van uw cliëntconsole en toepassingsserver. In het bovenstaande voorbeeld is de versie 8.1.5 voor zowel de clientconsole als de toepassingsserver.
 * Het SHA-getal tussen haakjes.
-* Een koppeling voor contact met de klantenservice van de Adobe.
-* Koppelingen naar het privacybeleid, de Gebruiksvoorwaarden en het Cookies-beleid van de Adobe.
+* Een koppeling om contact op te nemen met de klantenservice van Adobe.
+* Koppelingen naar het privacybeleid, de Gebruiksvoorwaarden en het Cookies-beleid van Adobe.
 
 ### Hoe kan ik op de hoogte worden gesteld van de vrijgave van een nieuwe versie? {#upgrades-0}
 
-De nieuwe versies en welke veranderingen zij brengen zijn vermeld in de [ Nota&#39;s van de Versie ](release-notes.md). Zodra een nieuwe versie beschikbaar is, neemt uw vertegenwoordiger van de Adobe contact met u op en verbetert u uw milieu&#39;s.
+De nieuwe versies en welke veranderingen zij brengen zijn vermeld in de [ Nota&#39;s van de Versie ](release-notes.md). Zodra er een nieuwe versie beschikbaar is, neemt uw Adobe-vertegenwoordiger contact met u op en voert u een upgrade uit van uw omgeving.
 
-Om van de nieuwe versies van de oplossing van het Experience Cloud en hun inhoud op de hoogte te worden gebracht, onderteken aan de [&#128279;](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"}  mededeling van de Updates van het Product van de Prioriteit van de Adobe  &lbrace;.
+Om van nieuwe de oplossingsversies van Experience Cloud en hun inhoud op de hoogte te worden gebracht, onderteken aan de ](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"} mededeling van de Updates van het Product van de Prioriteit van 0} Adobe {.[
 
-U kunt [ Gemeenschap van de Campagne ](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} ook bezoeken  om over versieupdates worden geïnformeerd.
+U kunt [ Gemeenschap van de Campagne ](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} ook bezoeken om over versieupdates worden geïnformeerd.
 
 
 ### Waarom heeft mijn organisatie een upgrade nodig? {#upgrades-1}
@@ -87,6 +87,6 @@ Als u een upgrade uitvoert naar de nieuwste versie, krijgt u doorgaans het volge
 
 ### Wat is het proces en de chronologie voor een verbetering? {#upgrades-2}
 
-Als v8-klant wordt u door de Adobe rechtstreeks op de hoogte gesteld als u hebt vastgesteld dat uw account moet worden bijgewerkt naar een nieuwe versie.
+Als klant van v8 stuurt Adobe rechtstreeks een melding naar uw account als u hebt vastgesteld dat u een upgrade naar een nieuwe versie moet uitvoeren.
 
-Het team van de Adobe is hier om uw organisatie door deze reis te leiden en te begeleiden. Er is een team van speciale vertegenwoordigers van de klantenservice, productmanagers, technici en technische medewerkers en productconsultants aanwezig om u te helpen en ervoor te zorgen dat de ervaring soepel verloopt.
+Het team van Adobe is hier om uw organisatie door deze reis te leiden en te begeleiden. Er is een team van speciale vertegenwoordigers van de klantenservice, productmanagers, technici en technische medewerkers en productconsultants aanwezig om u te helpen en ervoor te zorgen dat de ervaring soepel verloopt.

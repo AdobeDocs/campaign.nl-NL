@@ -8,38 +8,38 @@ exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
 # Operatorprofielen {#operator-profiles}
 
-Twee typen operatoren kunnen Campagne-interactie gebruiken: **Aanbiedingsmanagers** en **Leveringsmanagers**. Elk van hen heeft specifieke toestemmingen en beperkingen. Meer informatie over campagneoperatoren en -machtigingen in [deze pagina](../start/gs-permissions.md).
+Twee types van exploitanten kunnen de Interactie van de Campagne gebruiken: **managers van de Aanbieding** en **managers van de Levering**. Elk van hen heeft specifieke toestemmingen en beperkingen. Leer meer over de exploitanten en toestemmingen van de Campagne in [ deze pagina ](../start/gs-permissions.md).
 
-* De **[!UICONTROL Offer manager]** aanbiedingen maken en onderhouden.
-* De **[!UICONTROL Delivery manager]** goedkeurt en gebruikt voorstellen
+* In **[!UICONTROL Offer manager]** worden aanbiedingen gemaakt en onderhouden.
+* De **[!UICONTROL Delivery manager]** keurt en gebruikt voorstellen goed
 
 ## Een beheerder van een voorstel maken{#offer-manager}
 
 1. Maak een operator. [Meer informatie](../start/manage-permissions.md#add-users)
-1. Bladeren naar de **[!UICONTROL Groups and named rights]** venster, klikt u op **[!UICONTROL Add]** en selecteert u de **[!UICONTROL Offer manager]** groep.
+1. Blader naar het **[!UICONTROL Groups and named rights]** -venster, klik op **[!UICONTROL Add]** en selecteer de **[!UICONTROL Offer manager]** -groep.
 
-Machtigingen die zijn gekoppeld aan Offertenmanagers worden beschreven [hier](../start/manage-permissions.md#ootb-productprofiles)
+De toestemmingen verbonden aan de managers van de Aanbieding worden beschreven [ hier ](../start/manage-permissions.md#ootb-productprofiles)
 
 ## Een leveringsmanager-operator maken {#delivery-manager}
 
 1. Maak een operator. [Meer informatie](../start/manage-permissions.md#add-users)
-1. Bladeren naar de **[!UICONTROL Groups and named rights]** tabblad, klikt u op **[!UICONTROL Add]** en selecteert u de **[!UICONTROL Delivery manager]** groep.
+1. Blader naar de tab **[!UICONTROL Groups and named rights]** , klik op **[!UICONTROL Add]** en selecteer de groep **[!UICONTROL Delivery manager]** .
 
 Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uitvoeren:
 
-* Weergave **[!UICONTROL Live]** omgevingen.
+* Geef **[!UICONTROL Live]** -omgevingen weer.
 * Categorieën voorstellen weergeven en wijzigen.
 * Aanbiedingen goedkeuren als ze revisoren zijn.
 
   >[!NOTE]
   >
-  >**Leveringsmanagers** kan een aanbieding alleen goedkeuren als deze in de aanbiedingsconfiguratie als controleur is gedeclareerd.
+  >**de managers van de Levering** kunnen slechts een aanbieding goedkeuren als zij als recensenten in de aanbiedingsconfiguratie zijn verklaard.
 
 ## Machtigingsmatrix per interactie-operator {#recap-of-rights-according-to-operator}
 
@@ -47,58 +47,58 @@ Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uit
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>Aanbiedingsbeheer (ontwerpomgeving)</strong><br /> </td> 
-   <td> <strong>Aanbiedingsbeheer (Live-omgeving)</strong><br /> </td> 
+   <td> <strong> manager van de Aanbieding (het milieu van het Ontwerp) </strong><br /> </td> 
+   <td> <strong> manager van de Aanbieding (Levend milieu) </strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Boomstructuurniveau</strong><br /> </td> 
+   <td> <strong> de structuurniveau van de Boom </strong><br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Voorstellen die worden bewerkt/Live voorstellen<br /> </td> 
-   <td> Lezen/Schrijven<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Voorstellen die worden bewerkt/Live voorstellen <br /> </td> 
+   <td> Lezen/Schrijven <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Ontvanger - Milieu<br /> </td> 
-   <td> Lezen/Schrijven<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Ontvanger - Omgeving <br /> </td> 
+   <td> Lezen/Schrijven <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
    <td> Beheer<br /> </td> 
-   <td> Lezen/Schrijven<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Lezen/Schrijven <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Spaties<br /> </td> 
-   <td> Lezen/Schrijven<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Spaties <br /> </td> 
+   <td> Lezen/Schrijven <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> vooraf gedefinieerde aanbiedingsfilters<br /> </td> 
-   <td> Lezen/Schrijven<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Vooraf gedefinieerde aanbiedingsfilters <br /> </td> 
+   <td> Lezen/Schrijven <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Typologie<br /> </td> 
-   <td> Lezen/Schrijven<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Typologie <br /> </td> 
+   <td> Lezen/Schrijven <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Typologische regels<br /> </td> 
-   <td> Lezen/Schrijven<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Typologieregels <br /> </td> 
+   <td> Lezen/Schrijven <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Aanbiedingscatalogus<br /> </td> 
-   <td> Lezen/Schrijven<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Catalogus voorstel <br /> </td> 
+   <td> Lezen/Schrijven <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Aanbiedingscategorie<br /> </td> 
-   <td> Lezen/Schrijven<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Aanbiedingencategorie <br /> </td> 
+   <td> Lezen/Schrijven <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,23 +107,23 @@ Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uit
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>Leveringsmanager (Design Env.)</strong><br /> </td> 
-   <td> <strong>Leveringsmanager (Live Env.)</strong><br /> </td> 
+   <td> <strong> manager van de Levering (het Ontwerp env.) </strong><br /> </td> 
+   <td> <strong> manager van de Levering (Levende Omv.) </strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Boomstructuurniveau</strong><br /> </td> 
+   <td> <strong> de structuurniveau van de Boom </strong><br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Voorstellen die worden bewerkt/Live voorstellen<br /> </td> 
+   <td> Voorstellen die worden bewerkt/Live voorstellen <br /> </td> 
    <td> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Ontvanger - Milieu<br /> </td> 
+   <td> Ontvanger - Omgeving <br /> </td> 
    <td> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
    <td> Beheer<br /> </td> 
@@ -131,34 +131,34 @@ Met de aan leveringsmanagers toegekende rechten kunnen zij de volgende taken uit
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Spaties<br /> </td> 
+   <td> Spaties <br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> vooraf gedefinieerde aanbiedingsfilters<br /> </td> 
-   <td> Lezen<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Vooraf gedefinieerde aanbiedingsfilters <br /> </td> 
+   <td> Lezen <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Typologie<br /> </td> 
-   <td> Lezen<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Typologie <br /> </td> 
+   <td> Lezen <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Typologische regels<br /> </td> 
+   <td> Typologieregels <br /> </td> 
    <td> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Aanbiedingscatalogus<br /> </td> 
-   <td> Lezen<br /> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Catalogus voorstel <br /> </td> 
+   <td> Lezen <br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
   <tr> 
-   <td> Aanbiedingscategorie<br /> </td> 
+   <td> Aanbiedingencategorie <br /> </td> 
    <td> </td> 
-   <td> Lezen<br /> </td> 
+   <td> Lezen <br /> </td> 
   </tr> 
  </tbody> 
 </table>

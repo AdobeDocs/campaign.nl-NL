@@ -6,7 +6,7 @@ feature: Overview
 source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 79%
+ht-degree: 73%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 79%
       + [Een workflow starten](workflow/start-a-workflow.md)
       + [Levenscyclus van workflow](workflow/workflow-life-cycle.md)
       + [Goedkeuringen instellen](workflow/define-approvals.md)
-   + Workflows controleren {#monitoring-workflows}
+   + Workflows bewaken {#monitoring-workflows}
       + [Workflowuitvoering controleren](workflow/monitor-workflow-execution.md)
       + [Technische workflows controleren](workflow/monitor-technical-workflows.md)
       + [Workflowheatmap](workflow/heatmap.md)
    + Workflowactiviteiten {#wf-activities}
       + [Aan de slag met activiteiten](workflow/activities.md)
-      + Targetingactiviteiten {#targeting-activities}
+      + Gerichte activiteiten {#targeting-activities}
          + [Lijst van gerichte activiteiten](workflow/targeting-activities.md)
          + [Cellen](workflow/cells.md)
          + [Databron wijzigen](workflow/change-data-source.md)
@@ -70,7 +70,7 @@ ht-degree: 79%
          + [Testen](workflow/test.md)
          + [Tijdsbeperking](workflow/time-constraint.md)
          + [Wachten](workflow/wait.md)
-      + Actieactiviteiten {#action-activities}
+      + Acties {#action-activities}
          + [Lijst van activiteiten](workflow/action-activities.md)
          + [Contentmanagement](workflow/content-management.md)
          + [Doorlopende levering](workflow/continuous-delivery.md)
@@ -102,20 +102,20 @@ ht-degree: 79%
          + [Leveringscontent laden](workflow/load-delivery-content.md)
          + [Cross-channel leveringsworkflow](workflow/cross-channel-delivery-workflow.md)
          + [E-mailverrijking met aangepaste datumvelden](workflow/email-enrichment-with-custom-date-fields.md)
-      + Controle {#monitoring}
+      + Toezicht {#monitoring}
          + [Een rapport naar een lijst verzenden](workflow/send-a-report-to-a-list.md)
          + [Uw workflows controleren](workflow/workflow-supervision.md)
          + [Gepersonaliseerde waarschuwingen verzenden naar operatoren](workflow/send-alerts-to-operators.md)
-      + Data management {#data-management}
+      + Gegevensbeheer {#data-management}
          + [Gegevensupdates coördineren](workflow/coordinate-data-updates.md)
          + [Een overzichtslijst maken](workflow/create-a-summary-list.md)
          + [Gegevens verrijken](workflow/enrich-data.md)
          + [Aggregaten gebruiken](workflow/using-aggregates.md)
          + [De samenvoegfunctionaliteit van de deduplicatieactiviteit gebruiken](workflow/deduplication-merge.md)
          + [Een workflow instellen voor terugkerende importactiviteiten](workflow/recurring-import-workflow.md)
-      + Query&#39;s ontwerpen {#designing-queries}
+      + Ontwerpquery&#39;s {#designing-queries}
          + [Driemaandelijkse lijstupdate met een incrementele query](workflow/quarterly-list-update.md)
-      + Query&#39;s uitvoeren en filteren {#designing-queries}
+      + Query en filter {#designing-queries}
          + [Een query uitvoeren op de tabel met ontvangers](workflow/querying-recipient-table.md)
          + [Een query uitvoeren op de leveringssinformatie](workflow/query-delivery-info.md)
          + [Samengevoegde aggregaten berekenen](workflow/compute-aggregates.md)
@@ -133,7 +133,7 @@ ht-degree: 79%
       + [Machtigingen beheren](workflow/managing-rights.md)
       + [Activiteitsafbeeldingen wijzigen](workflow/change-activity-images.md)
       + [Tijdzones beheren](workflow/managing-time-zones.md)
-+ Campagneorkestratie {#campaign-orchestration}
++ Campagne-orkestatie {#campaign-orchestration}
    + [Aan de slag met marketingcampagnes](campaigns/set-up-campaigns.md)
    + [Programma&#39;s en campagnes maken](campaigns/marketing-campaign-create.md)
    + [Sjablonen maken en configureren](campaigns/marketing-campaign-templates.md)
@@ -144,7 +144,7 @@ ht-degree: 79%
    + [Herhalings- en periodieke campagnes](campaigns/recurring-periodic-campaigns.md)
    + [Uw campagnes controleren](campaigns/marketing-campaign-monitoring.md)
    + [Providers, voorraden en budgetten](campaigns/providers-stocks-and-budgets.md)
-+ De optimalisering van de campagne (toe:voegen-aan) {#campaign-optimization}
++ Campagne optimaliseren (add-on){#campaign-optimization}
    + [Aan de slag met campagnetypen](campaign-opt/campaign-typologies.md)
    + [Filterregels](campaign-opt/filtering-rules.md)
    + [Controleregels](campaign-opt/control-rules.md)
@@ -152,7 +152,7 @@ ht-degree: 79%
    + [Consistentieregels](campaign-opt/consistency-rules.md)
    + [Regels toepassen](campaign-opt/apply-rules.md)
    + [Campagnesimulaties](campaign-opt/campaign-simulations.md)
-+ Marketing Resource Management (add-on) {#mrm}
++ Marketing Resource Management (add-on){#mrm}
    + [Aan de slag met beheer van marketingbronnen](mrm/about-marketing-resource-management.md)
    + [Taken maken en beheren](mrm/creating-and-managing-tasks.md)
    + [Kosten beheersen](mrm/controlling-costs.md)
@@ -166,4 +166,4 @@ ht-degree: 79%
    + [Campagnes openen](distributed-marketing/accessing-campaigns.md)
    + [Een campagne bijhouden](distributed-marketing/tracking-a-campaign.md)
    + [Gebruiksscenario’s](distributed-marketing/examples.md)
-+ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

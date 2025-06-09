@@ -17,7 +17,7 @@ ht-degree: 1%
 
 * **[Beheer van de Inhoud](content-management.md)**: laat u inhoud tot stand brengen of aanpassen.
 * **[Ononderbroken levering](continuous-delivery.md)**: laat u een levering van het scenario beginnen dat in de activiteit wordt gespecificeerd.
-* **[de Leveringen van het Kanaal van het Kanaal 1&rbrace; (campagnewerkschema slechts): laat u een levering op het overeenkomstige kanaal vormen: E-mail, Duw, Mobiel, Directe post.](cross-channel-deliveries.md)**
+* **[de Leveringen van het Kanaal van het Kanaal 1} (campagnewerkschema slechts): laat u een levering op het overeenkomstige kanaal vormen: E-mail, Duw, Mobiel, Directe post.](cross-channel-deliveries.md)**
 * **[het laden van Gegevens (dossier)](data-loading-rdbms.md)**: laat u tot een externe gegevensbron toegang hebben om zijn gegevens te gebruiken.
 * **[het laden van Gegevens (RDBMS)](data-loading-rdbms.md)**: laat u tot een extern gegevensbestand toegang hebben om gegevens te krijgen.
 * **[Levering](delivery.md)**: laat u een leveringsactie vormen.

@@ -166,7 +166,7 @@ De kosten zijn in drie categorieën onderverdeeld:
 
 1. Berekende kosten
 
-   De berekende kosten zijn afhankelijk van het betrokken element (campagne, levering, taak, enz.) en de status ervan (wordt bewerkt, wordt uitgevoerd, is voltooid). In elk geval, als de reële kosten worden gespecificeerd, zullen de berekende kosten dit bedrag gebruiken.
+   De berekende kosten zijn afhankelijk van het betrokken element (campagne, levering, taak, enz.) en de status (bewerkt, in uitvoering, voltooid). In elk geval, als de reële kosten worden gespecificeerd, zullen de berekende kosten dit bedrag gebruiken.
 
    Indien de reële kosten niet worden opgegeven, gelden de volgende regels:
 

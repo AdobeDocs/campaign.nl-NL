@@ -30,12 +30,12 @@ Een ingebouwde sjabloon wordt geleverd om een campagne te maken waarvoor geen sp
 
 Volg onderstaande stappen om een campagnemalplaatje te maken:
 
-1. Open de Ontdekkingsreiziger van de Campagne **&#x200B;**, en doorblader aan **Middelen > Malplaatjes > de malplaatjes van de Campagne**.
+1. Open de Ontdekkingsreiziger van de Campagne ****, en doorblader aan **Middelen > Malplaatjes > de malplaatjes van de Campagne**.
 1. Klik **Nieuw** in de toolbar boven de lijst van malplaatjes.
 
 ![](assets/campaign-template-node.png)
 
-U kunt **&#x200B;**&#x200B;het ingebouwde malplaatje ook dupliceren om zijn configuratie opnieuw te gebruiken en aan te passen. Om dit te doen, klik op het malplaatje met de rechtermuisknop aan en selecteer **Dupliceer**.
+U kunt **** het ingebouwde malplaatje ook dupliceren om zijn configuratie opnieuw te gebruiken en aan te passen. Om dit te doen, klik op het malplaatje met de rechtermuisknop aan en selecteer **Dupliceer**.
 
 1. Voer het label van uw nieuwe campagnemalplaatje in.
 1. Klik **sparen** en open uw malplaatje opnieuw.

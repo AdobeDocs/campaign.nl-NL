@@ -1,43 +1,43 @@
 ---
 product: campaign
-title: Marketingresources (MRM)
-description: Marketingresources (MRM)
+title: Marketing Resources (MRM)
+description: Marketing Resources (MRM)
 feature: Workflows, Targeting Activity
 hide: true
 hidefromtoc: true
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 13%
+ht-degree: 2%
 
 ---
 
 
-# Marketingresources (MRM){#marketing-resources-mrm}
+# Marketing Resources (MRM){#marketing-resources-mrm}
 
-De hieronder beschreven workflows worden geïnstalleerd met de **Marketing resources (MRM)** module standaard.
+De hieronder gespecificeerde werkschema&#39;s zijn geïnstalleerd met de **middelen van de Marketing (MRM)** module door gebrek.
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Label</strong><br /> </td> 
-   <td> <strong>Interne naam</strong><br /> </td> 
+   <td> <strong> Interne naam </strong><br /> </td> 
    <td> <strong>Beschrijving</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Meldingen over marketingbronnen</span> <br /> </td> 
-   <td> <span class="uicontrol">assetManagement</span> <br /> </td> 
+   <td> <span class="uicontrol"> het middelberichten van de Marketing </span> <br /> </td> 
+   <td> <span class="uicontrol"> assetMgt </span> <br /> </td> 
    <td> Deze workflow beheert meldingen die verband houden met de goedkeuring en publicatie van marketingbronnen. <br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Taakmelding</span> <br /> </td> 
-   <td> <span class="uicontrol">taskMgt</span> <br /> </td> 
-   <td> Met deze workflow kunt u meldingen verzenden met betrekking tot taken in marketingcampagnes.<br /> </td> 
+   <td> <span class="uicontrol"> Bericht van de Taak </span> <br /> </td> 
+   <td> <span class="uicontrol"> taskMgt </span> <br /> </td> 
+   <td> Dit werkschema laat u berichtberichten met betrekking tot taken in marketing campagnes verzenden.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Discussieformeprocessen</span> <br /> </td> 
-   <td> <span class="uicontrol">newsgroupMgt</span> <br /> </td> 
-   <td> Deze workflow beheert de levering van meldingen van discussieforums. Het wordt geactiveerd wanneer een goedkeuringssignaal wordt ontvangen.<br /> </td> 
+   <td> <span class="uicontrol"> het forumprocessen van de Bespreking </span> <br /> </td> 
+   <td> <span class="uicontrol"> newsgroupMgt </span> <br /> </td> 
+   <td> Deze workflow beheert de levering van meldingen van discussieforums. Het wordt teweeggebracht wanneer een goedkeuringssignaal wordt ontvangen.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

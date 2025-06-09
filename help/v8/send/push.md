@@ -28,7 +28,7 @@ In deze sectie worden de specifieke elementen voor de levering van iOS- en Andro
 
 >[!IMPORTANT]
 >
->In de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), is de mobiele registratie nu asynchroon **&#x200B;**. [Meer informatie](../architecture/staging.md)
+>In de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), is de mobiele registratie nu asynchroon ****. [Meer informatie](../architecture/staging.md)
 
 
 Als u een nieuwe levering wilt maken, bladert u naar het tabblad **[!UICONTROL Campaigns]** , klikt u op **[!UICONTROL Deliveries]** en klikt u op de knop **[!UICONTROL Create]** boven de lijst met bestaande leveringen.
@@ -62,7 +62,7 @@ Voer de volgende stappen uit om berichten op iOS-apparaten te verzenden:
 
    >[!NOTE]
    >
-   >De **wijze van de Duw van 0&rbrace; Zijde** staat een &quot;stil&quot;bericht toe om naar een mobiele toepassing worden verzonden. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen.
+   >De **wijze van de Duw van 0} Zijde** staat een &quot;stil&quot;bericht toe om naar een mobiele toepassing worden verzonden. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen.
 
 1. Voer in het veld **[!UICONTROL Title]** het label in van de titel die u wilt weergeven in de lijst met meldingen die beschikbaar is in het meldingscentrum.
 

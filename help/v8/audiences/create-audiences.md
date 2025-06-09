@@ -26,7 +26,7 @@ U kunt een lijst tot stand brengen gebruikend de **lijst van de Update** activit
 
 Bekijk deze video voor meer informatie over Lijstbeheer in Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426463?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
 ## Een lijst met contactpersonen maken {#create-a-list-of-contacts}
@@ -103,7 +103,7 @@ In het onderstaande voorbeeld maakt u een lijst met alle ontvangers tussen 25 en
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Leer hoe te om een vraag in een werkschema in [ tot stand te brengen deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"} .
+   Leer hoe te om een vraag in een werkschema in [ tot stand te brengen deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. Voeg een label voor deze query toe en sla uw wijzigingen op.
 1. Voeg een **[!UICONTROL List update]** -activiteit toe en bewerk deze.
@@ -124,7 +124,7 @@ In het onderstaande voorbeeld maakt u een lijst met alle ontvangers tussen 25 en
 
    ![](assets/access-new-list.png)
 
-   U kunt deze werkstroom terugkomen door een planner aan het werkschema toe te voegen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=nl-NL){target="_blank"}.
+   U kunt deze werkstroom terugkomen door een planner aan het werkschema toe te voegen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 ## Een profiel uit een lijst verwijderen {#remove-a-profile-from-a-list}
 

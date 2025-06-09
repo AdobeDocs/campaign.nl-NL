@@ -27,7 +27,7 @@ Als voormalig [!DNL Campaign Classic] v7-gebruiker mag u geen grote verstoring v
 
 Adobe Campaign v8 is beschikbaar als a **Beheerde Cloud Service**.
 
-Adobe Campaign Managed Cloud Services biedt een Managed Cloud Services-platform voor het ontwerpen van ervaringen met klanten over meerdere kanalen en biedt een omgeving voor visuele campagneorchestratie, realtime interactiebeheer en uitvoering via meerdere kanalen. Leer meer over de Campagne Beheerde Diensten van de Wolk in de [ pagina van de productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} .
+Adobe Campaign Managed Cloud Services biedt een Managed Cloud Services-platform voor het ontwerpen van ervaringen met klanten over meerdere kanalen en biedt een omgeving voor visuele campagneorchestratie, realtime interactiebeheer en uitvoering via meerdere kanalen. Leer meer over de Campagne Beheerde Diensten van de Wolk in de [ pagina van de productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 Het nieuwe aanbod combineert services van topklasse met proactief toezicht en tijdige waarschuwingen, waarbij de nadruk ligt op drie gebieden:
 

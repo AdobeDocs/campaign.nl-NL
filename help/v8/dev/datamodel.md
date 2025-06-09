@@ -60,13 +60,13 @@ Het is mogelijk de tabel voor ontvangers uit te breiden, maar niet om het aantal
 
 Leer hoe te om een bestaand schema in [ uit te breiden deze sectie ](extend-schema.md).
 
-Ontdek voorbeelden van ingebouwde ontvankelijke lijstuitbreidingen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=nl-NL#extending-a-table){target="_blank"} 
+Ontdek voorbeelden van ingebouwde ontvankelijke lijstuitbreidingen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
 U kunt een verschillende ontvankelijke lijst ook gebruiken om beter met uw zaken of functionele vereisten te passen. Deze methode komt met beperkingen en wordt beschreven in [ deze sectie ](custom-recipient.md).
 
 ## Campagnetabellen en Cloud-database
 
-Voor een beter inzicht in lijstbeheer in Campagne v8, merk op dat, in de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), de lijsten tussen Campagne en zijn gegevensbestand van de Wolk van de Snowflake worden herhaald.
+Voor een beter inzicht in lijstbeheer in Campagne v8, merk op dat, in de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), de lijsten tussen Campagne en zijn gegevensbestand van de Wolk van Snowflake worden herhaald.
 
 Leer meer over replicatiestrategie en mechanismen in [ deze sectie ](../architecture/replication.md).
 

@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Er zijn twee milieu&#39;s voor elke het richten dimensie die wordt gebruikt wanneer het beheren van aanbiedingen:
 
-* A **ontwerp** omgeving waarin de aanbiedingsmanager zorgt voor het maken en categoriseren van aanbiedingen, het bewerken ervan en het starten van het goedkeuringsproces zodat deze kunnen worden gebruikt. De regels voor elke categorie, de aanbiedingsruimten waarop aanbiedingen kunnen worden ingediend, en de vooraf gedefinieerde filters die worden gebruikt om te bepalen of een aanbieding in aanmerking komt, worden ook in deze omgeving gedefinieerd.
+* A **ontwerp** milieu waarin de aanbiedingsmanager het creëren van en het categoriseren van aanbiedingen behandelt, hen uitgeeft, en het beginnen van het goedkeuringsproces zodat zij kunnen worden gebruikt. De regels voor elke categorie, de aanbiedingsruimten waarop aanbiedingen kunnen worden ingediend, en de vooraf gedefinieerde filters die worden gebruikt om te bepalen of een aanbieding in aanmerking komt, worden ook in deze omgeving gedefinieerd.
 
   Categorieën kunnen ook handmatig worden gepubliceerd in de online omgeving.
 
-  De procedure voor het goedkeuren van aanbiedingen is gedetailleerd [in deze sectie](interaction-offer.md#approve-offers).
+  Het proces om aanbiedingen goed te keuren is gedetailleerd [ in deze sectie ](interaction-offer.md#approve-offers).
 
-* A **leven** de omgeving waarin goedgekeurde aanbiedingen van de ontwerpomgeving en de verschillende aanbiedingsruimten, filters, categorieën en regels die in de ontwerpomgeving zijn geconfigureerd, kunnen worden gevonden. Tijdens een vraag aan de motor van de Aanbieding, zal de motor altijd aanbiedingen van het levende milieu gebruiken.
+* A **levend** milieu waarin de goedgekeurde aanbiedingen van het ontwerpmilieu, evenals de diverse aanbiedingsruimten, filters, categorieën en regels die in het ontwerpmilieu worden gevormd allen kunnen worden gevonden. Tijdens een vraag aan de motor van de Aanbieding, zal de motor altijd aanbiedingen van het levende milieu gebruiken.
 
 Een aanbieding wordt slechts opgesteld op de aanbiedingsruimten die tijdens het goedkeuringsproces worden geselecteerd. Daarom kan een aanbieding levend maar onbruikbaar op een aanbiedingsruimte zijn die ook levend is.
 
@@ -32,10 +32,10 @@ Een aanbieding wordt slechts opgesteld op de aanbiedingsruimten die tijdens het 
 
 In de module Adobe Campaign Interaction worden twee soorten interactie voorgesteld:
 
-* **binnenkomend** interacties, geïnitieerd door een contact. [Meer informatie](interaction-present-offers.md)
-* **uitgaand** interacties, geïnitieerd door een manager van de Levering van de Campagne. [Meer informatie](interaction-send-offers.md)
+* **binnenkomende** interactie, die door een contact in werking wordt gesteld. [Meer informatie](interaction-present-offers.md)
+* **uitgaande** interactie, die door een manager van de Levering van de Campagne in werking wordt gesteld. [Meer informatie](interaction-send-offers.md)
 
-Deze twee soorten interacties kunnen worden uitgevoerd in **unitaire modus** (aanbieding wordt berekend voor één enkel contact) of in **batchmodus** (de aanbieding wordt berekend voor een reeks contacten). Over het algemeen worden binnenkomende interacties uitgevoerd in monitaire modus en uitgaande interacties in batchmodus. Er kunnen echter bepaalde uitzonderingen zijn, namelijk [transactieberichten](../send/transactional.md) bijvoorbeeld, waarbij de uitgaande interactie plaatsvindt in monitaire modus.
+Deze twee soorten interactie kunnen of op **eenheidwijze** worden uitgevoerd (de aanbieding wordt berekend voor één enkel contact), of op **partijwijze** (de aanbieding wordt berekend voor een reeks contacten). Over het algemeen worden binnenkomende interacties uitgevoerd in monitaire modus en uitgaande interacties in batchmodus. Niettemin, kunnen er bepaalde uitzonderingen, voor [ transactionele berichten ](../send/transactional.md) bijvoorbeeld zijn, waarbij de uitgaande interactie op eenheidswijze wordt uitgevoerd.
 
 Zodra een aanbieding kan of moet worden voorgelegd (volgens de uitgevoerde configuraties), speelt de motor van de Aanbieding de intermediaire rol: het berekent automatisch de best mogelijke aanbieding voor een contact tussen beschikbare die door ontvangen gegevens over het contact en de verschillende regels te combineren die kunnen worden toegepast zoals gespecificeerd in de toepassing.
 
@@ -43,7 +43,7 @@ Zodra een aanbieding kan of moet worden voorgelegd (volgens de uitgevoerde confi
 
 ## Verdeelde architectuur
 
-Om scalability te kunnen steunen en de dienst 24/7 op het binnenkomende kanaal te verlenen, **Interactie** wordt uitgevoerd in een verdeelde architectuur. Dit type architectuur wordt al gebruikt met [Berichtencentrum](../architecture/architecture.md#transac-msg-archi) en bestaat uit verschillende gevallen:
+Om scalability te kunnen steunen en de dienst 24/7 op het binnenkomende kanaal te verlenen, wordt de **module van de Interactie** uitgevoerd in een verdeelde architectuur. Dit type van architectuur wordt reeds gebruikt met [ Centrum van het Bericht ](../architecture/architecture.md#transac-msg-archi) en uit verscheidene instanties samengesteld:
 
 * één of meerdere controleinstanties gewijd aan het uitgaande kanaal en die de marketing en de basis van het milieuontwerp bevatten
 * één of meerdere uitvoeringsinstanties specifiek voor het binnenkomende kanaal
@@ -78,15 +78,15 @@ U moet op de hoogte zijn van de volgende synchronisatiemechanismen:
 
 ### Pakketconfiguratie {#packages-configuration}
 
-Willekeurige schema-extensies die rechtstreeks zijn gekoppeld aan **Interactie** (aanbiedingen, voorstellen, ontvangers, enz.) moeten worden ingezet op de uitvoeringsinstanties.
+Om het even welke schemauitbreidingen direct verbonden aan **Interactie** (aanbiedingen, voorstellen, ontvangers, enz.) moeten op de uitvoeringsinstanties worden opgesteld.
 
-De **Interactie** het pakket is op alle instanties geïnstalleerd (controle en uitvoering). Er zijn twee extra pakketten beschikbaar: een pakket voor de besturingsinstanties en een ander pakket voor elke uitvoeringsinstantie.
+Het **pakket van de Interactie** is geïnstalleerd op alle instanties (controle en uitvoering). Er zijn twee extra pakketten beschikbaar: een pakket voor de besturingsinstanties en een ander pakket voor elke uitvoeringsinstantie.
 
 >[!NOTE]
 >
->Wanneer u het pakket installeert, **lang** tekstvelden van het dialoogvenster **nms:voorstel** tabel, zoals de propositie-id, wordt **int64** tekstvelden. Dit type gegevens wordt beschreven in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=nl-NL#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Wanneer het installeren van het pakket, worden de **lange** typegebieden van **nms:proposition** lijst zoals proposition identiteitskaart, **int64** typegebieden. Dit type van gegevens wordt gedetailleerd in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
-De duur van het gegevensbehoud wordt gevormd op elke instantie (via **[!UICONTROL Data purge]** in de implementatiewizard). Bij uitvoering moet deze periode overeenstemmen met de historische diepte die nodig is voor de berekening van de typologische regels (verschuivingstermijn) en de subsidiabiliteitsregels.
+De duur van het gegevensbehoud wordt gevormd op elke instantie (via het **[!UICONTROL Data purge]** venster in de plaatsingstovenaar). Bij uitvoering moet deze periode overeenstemmen met de historische diepte die nodig is voor de berekening van de typologische regels (verschuivingstermijn) en de subsidiabiliteitsregels.
 
 Op besturingsinstanties:
 
@@ -98,8 +98,8 @@ Op besturingsinstanties:
    * Selecteer **[!UICONTROL Execution instance]**.
    * Schakel de optie **[!UICONTROL Enabled]** in.
    * Voltooi de verbindingsparameters voor de uitvoeringsinstantie.
-   * Elke uitvoeringsinstantie moet aan een identiteitskaart worden verbonden. Deze id wordt toegewezen wanneer u op het tabblad **[!UICONTROL Initialize connection]** knop.
-   * Controleer het gebruikte type toepassing: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, of beide.
+   * Elke uitvoeringsinstantie moet aan een identiteitskaart worden verbonden. Deze id wordt toegewezen wanneer u op de knop **[!UICONTROL Initialize connection]** klikt.
+   * Controleer het type toepassing dat wordt gebruikt: **[!UICONTROL Message Center]** , **[!UICONTROL Interaction]** of beide.
    * Voer de gebruikte FDA-account in. Een exploitant moet op de uitvoeringsinstanties worden gecreeerd en moet de volgende lees- en schrijfrechten op het gegevensbestand van de betrokken instantie hebben:
 
      ```
@@ -122,7 +122,7 @@ Op besturingsinstanties:
      >
      >Als er een fout optreedt, kunt u de synchronisatieworkflows raadplegen en meldingen aanbieden. Deze zijn te vinden in de technische workflows van de toepassing.
 
-Als voor optimalisatie slechts een deel van de marketingdatabase wordt gedupliceerd op de uitvoeringsinstanties, kunt u een beperkt schema opgeven dat is gekoppeld aan de omgeving, zodat gebruikers alleen gegevens kunnen gebruiken die beschikbaar zijn op de uitvoeringsinstanties. U kunt een aanbieding maken met gegevens die niet beschikbaar zijn op uitvoeringsinstanties. Om dit te doen, moet u de regel op de andere kanalen deactiveren door deze regel op het uitgaande kanaal (**[!UICONTROL Taken into account if]** veld).
+Als voor optimalisatie slechts een deel van de marketingdatabase wordt gedupliceerd op de uitvoeringsinstanties, kunt u een beperkt schema opgeven dat is gekoppeld aan de omgeving, zodat gebruikers alleen gegevens kunnen gebruiken die beschikbaar zijn op de uitvoeringsinstanties. U kunt een aanbieding maken met gegevens die niet beschikbaar zijn op uitvoeringsinstanties. Om dit te doen, moet u de regel op de andere kanalen deactiveren door deze regel op het uitgaande kanaal (**[!UICONTROL Taken into account if]** gebied) te beperken.
 
 ![](assets/ita_filtering.png)
 
@@ -134,17 +134,17 @@ Hier is een lijst van onderhoudsopties beschikbaar op de controle instantie:
 >
 >Deze opties mogen alleen voor specifieke onderhoudsbeurten worden gebruikt.
 
-* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: laatste datum waarop een omgeving is gesynchroniseerd op een bepaalde instantie.
-* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: laatste datum waarop voorstellen uit een bepaald schema zijn gesynchroniseerd van de ene instantie naar de andere.
+* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: de laatste datum waarop een omgeving is gesynchroniseerd op een bepaalde instantie.
+* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: de laatste datum waarop de voorstellen van een bepaald schema van de ene instantie naar de andere zijn gesynchroniseerd.
 * **`NmsInteraction_MapWorkflowId`**: een optie die de lijst bevat van alle gegenereerde synchronisatieworkflows.
 
 De volgende optie is beschikbaar bij uitvoeringsinstanties:
 
-**NmsExecutionInstanceId**: optie met de instantie-id.
+**NmsExecutionInstanceId**: optie die instantiidentiteitskaart bevatten
 
 ### Installatie van pakketten {#packages-installation}
 
-Als uw instantie niet eerder het **Interactie** geen migratie nodig is. Standaard wordt de tabel met voorstellen weergegeven in 64 bits nadat de pakketten zijn geïnstalleerd.
+Als uw instantie niet eerder het **pakket van de Interactie** had, is geen migratie noodzakelijk. Standaard wordt de tabel met voorstellen weergegeven in 64 bits nadat de pakketten zijn geïnstalleerd.
 
 >[!CAUTION]
 >
@@ -160,7 +160,7 @@ Als uw instantie niet eerder het **Interactie** geen migratie nodig is. Standaar
 
 Er zijn twee methoden:
 
-**Werktabel** (aanbevolen)
+**Lijst van het Werk** (geadviseerd)
 
 ```
 CREATE TABLE NmsPropositionRcp_tmp AS SELECT * FROM nmspropositionrcp WHERE 0=1;
@@ -178,7 +178,7 @@ CREATE INDEX nmspropositionrcp_recipientidid ON NmsPropositionRcp (irecipientid)
 ALTER TABLE nmspropositionrcp_tmp RENAME TO nmspropositionrcp;
 ```
 
-**Tabel wijzigen**
+**Veranderende Lijst**
 
 ```
 ALTER TABLE nmspropositionrcp

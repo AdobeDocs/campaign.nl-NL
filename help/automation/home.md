@@ -8,7 +8,7 @@ exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
 source-git-commit: 143e90ef63fac4058008bc6864daf950c11ab2d1
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Bezoek de onderstaande hulplijnen en leer hoe u automatisering met Adobe Campaig
 <tr style="border: 0;">
   <td valign="top">
     <div><img src="assets/do-not-localize/workflow.jpeg">
-    <b>Workflows</b>
+    <b> Werkstromen </b>
     </div>
     <br>
     <div>
@@ -37,7 +37,7 @@ Bezoek de onderstaande hulplijnen en leer hoe u automatisering met Adobe Campaig
     </div>
     <br>     
     <div>
-    <a href="workflow/build-a-workflow.md">Uw eerste workflow maken</a>
+    <a href="workflow/build-a-workflow.md"> creeer uw eerste werkschema </a>
     </div>
     <br>
     <div>
@@ -47,7 +47,7 @@ Bezoek de onderstaande hulplijnen en leer hoe u automatisering met Adobe Campaig
   </td>
   <td valign="top">
     <div><img src="assets/do-not-localize/campaign.jpeg">
-    <b>Campagneorkestratie</b>
+    <b> Organiseren van de Campagne </b>
     </div>
     <br>
     <div>
@@ -55,29 +55,29 @@ Bezoek de onderstaande hulplijnen en leer hoe u automatisering met Adobe Campaig
     </div>
     <br>
     <div>
-    <a href="campaigns/marketing-campaign-create.md">Uw eerste campagne maken</a>
+    <a href="campaigns/marketing-campaign-create.md"> creeer uw eerste campagne </a>
     </div>
     <br>
     <div>
-    <a href="campaigns/marketing-campaign-deliveries.md">Berichten verzenden in een campagne</a>
+    <a href="campaigns/marketing-campaign-deliveries.md"> verzendt berichten in een campagne </a>
     </div>
     <br>
   </td>
   <td valign="top">
     <div><img src="assets/do-not-localize/add-on.jpeg">
-    <b>Invoegtoepassingen</b>
+    <b> toe:voegen-ons </b>
     </div>
     <br>
     <div>
-    <a href="distributed-marketing/about-distributed-marketing.md">Gedistribueerde marketing</a>
+    <a href="distributed-marketing/about-distributed-marketing.md"> Verdeelde marketing </a>
     </div>
     <br>
     <div>
-    <a href="campaign-opt/campaign-typologies.md">Campagneoptimalisatie</a>
+    <a href="campaign-opt/campaign-typologies.md"> optimalisering van de Campagne </a>
     </div>
     <br>
     <div>
-    <a href="mrm/about-marketing-resource-management.md">Marketing Resource Management (MRM)</a>
+    <a href="mrm/about-marketing-resource-management.md"> het Beheer van het Middel van de Marketing (MRM) </a>
     </div>
     <br>
   </td>

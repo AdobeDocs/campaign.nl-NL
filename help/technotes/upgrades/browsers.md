@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Webcomponenten en versie 100 van de campagne in Chrome Firefox, en browsers van de Rand
-description: Webcomponenten en versie 100 van de campagne in Chrome, Firefox, en browsers van de Rand
+title: Campagne maken met webcomponenten en versie 100 in Chrome Firefox- en Edge-browsers
+description: Webcomponenten en versie 100 van de campagne in Chrome, Firefox, en browsers van Edge
 hide: true
 hidefromtoc: true
 exl-id: 912ad71e-2b23-4b16-b5f9-47d547fc83d5
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Browserversie van 3 cijfers heeft invloed op webcomponenten voor campagnes {#version-100}
 
-Google en Mozilla waarschuwen dat Chrome en Firefox sommige websites kunnen verbreken vanwege de aanstaande versies van 3 cijfers.
+Google en Mozilla waarschuwen dat Chrome en Firefox sommige websites kunnen verbreken vanwege hun aanstaande versies van 3 cijfers.
 
-Chrome v100 is ingesteld voor release op **29 maart 2022** en Firefox v100 op **3 mei 2022**.
+Chrome v100 wordt geplaatst voor versie op **29 Maart, 2022**, en Firefox v100 op **3 Mei, 2022**.
 
 Microsoft heeft Edge v100 eerder uitgebracht in maart 2022.
 
@@ -44,8 +44,8 @@ Met deze instellingen stuurt de browser de tekenreeks new userAgent naar website
 
 Als u uw webpagina&#39;s wilt testen met Mozilla Firefox 100, kunt u de volgende wijziging van de gebruikersagent in uw webapps simuleren door de tekenreeks van de gebruikersagent handmatig te wijzigen.
 
-1. Firefox openen, voer `about:config` in de adresbar, en druk binnen.
-1. Zoeken naar `general.useragent.override`.
+1. Open Firefox, voer `about:config` in op de adresbalk en druk op Enter.
+1. Zoeken naar `general.useragent.override` .
 1. Selecteer &#39;String&#39; en klik op het plusteken (+).
 
    ![](assets/do-not-localize/force-user-agent-firefox.png)
@@ -59,33 +59,33 @@ Als u uw webpagina&#39;s wilt testen met Mozilla Firefox 100, kunt u de volgende
 1. Klik op het blauwe vinkje om de instelling op te slaan.
 1. Sluit de browser en start deze opnieuw.
 
-Om uw gebruikersagent terug naar zijn gebrek te veranderen, ga eenvoudig terug in `about:config` en zoek naar `general.useragent.override` opnieuw instellen.  Klik in dat geval op het prullenbakpictogram om de instelling te verwijderen en de browser opnieuw te starten.
+Als u de standaardversie van de gebruikersagent wilt herstellen, gaat u gewoon terug naar `about:config` en zoekt u nogmaals naar `general.useragent.override` -instelling.  Klik in dat geval op het prullenbakpictogram om de instelling te verwijderen en de browser opnieuw te starten.
 
 ### Testen met Chrome 100{#test-chrome-100}
 
 Als u de Google Chrome 100-gebruikersagent wilt testen op uw eigen webapps, kunt u deze test inschakelen door de volgende stappen uit te voeren:
 
-1. Chroom openen, typ `chrome://flags` in de adresbar, en druk binnen.
-1. Zoeken `Force major version to 100 in User-Agent` in het zoekveld en inschakelen zoals hieronder wordt weergegeven.
+1. Open Chrome, typ `chrome://flags` op de adresbalk en druk op Enter.
+1. Zoek `Force major version to 100 in User-Agent` in het zoekveld en schakel het in zoals hieronder wordt weergegeven.
 
    ![](assets/do-not-localize/force-user-agent-chrome.png)
 
 1. Start de browser opnieuw.
-1. Sluit het dialoogvenster `chrome://flags` tab.
+1. Sluit de tab `chrome://flags` .
 
-Om gebruikersagent terug naar zijn gebrek te veranderen, volg eenvoudig dit proces en verander het plaatsen van de vlag aan `Default` en start de browser opnieuw.
+Als u de standaardversie van de gebruikersagent wilt herstellen, volgt u dit proces en wijzigt u de instelling van de markering in `Default` en start u de browser opnieuw.
 
 
 ### Testen met Microsoft Edge 100{#test-ms-edge-100}
 
-Vanaf versie 97 kunnen siteeigenaars deze versie emuleren door de experimentatiemarkering in te schakelen  `#force-major-version-to-100` in `edge://flags`.
+Vanaf versie 97 kunnen siteeigenaars deze versie emuleren door de experimentatiemarkering `#force-major-version-to-100` in `edge://flags` in te schakelen.
 
-1. Microsoft Edge openen, voer `edge://flags` in de adresbar, en druk binnen.
-1. Zoeken naar `force-major-version-to-100` en inschakelen, zoals hieronder wordt weergegeven.
+1. Open Microsoft Edge, typ `edge://flags` op de adresbalk en druk op Enter.
+1. Zoek naar `force-major-version-to-100` gebied, en laat het zoals hieronder getoond toe.
 
    ![](assets/do-not-localize/force-user-agent-edge.png)
 
 1. Start de browser opnieuw.
-1. Sluit het dialoogvenster `edge://flags` tab.
+1. Sluit de tab `edge://flags` .
 
-Om gebruikersagent terug naar zijn gebrek te veranderen, volg eenvoudig dit proces en verander het plaatsen van de vlag aan `Default` en start de browser opnieuw.
+Als u de standaardversie van de gebruikersagent wilt herstellen, volgt u dit proces en wijzigt u de instelling van de markering in `Default` en start u de browser opnieuw.

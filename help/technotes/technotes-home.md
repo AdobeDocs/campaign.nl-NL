@@ -18,7 +18,7 @@ De nieuwste campagnemetechnologieën vindt u in deze sectie. Deze technologieën
 
 >[!BEGINTABS]
 
->[!TAB Wijzigingen in kanaal voor pushmelding]
+>{de veranderingen van het Kanaal van het Bericht van de duw ][!TAB 
 
 Enkele belangrijke wijzigingen in de Android Firebase Cloud Messaging (FCM)-service worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet uw configuratie met abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen.
 
@@ -26,7 +26,7 @@ Enkele belangrijke wijzigingen in de Android Firebase Cloud Messaging (FCM)-serv
 [![afbeelding](../v8//assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
 
 
->[!TAB Identity Management System (IMS)]
+>[!TAB  Systeem van Identity Management (IMS) ]
 
 Vanaf Campagne v8.6 wordt het verificatieproces naar Campagne v8 verbeterd. Alle operatoren gebruiken alleen Adobe Identity Management System (IMS) om verbinding te maken met Campagne
 
@@ -41,39 +41,39 @@ Vanaf Campagne v8.6 wordt het verificatieproces naar Campagne v8 verbeterd. Alle
     <td>
       <img src="../v8/assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Aan de slag</strong><br/><a href="../v8/start/campaign-ui.md">Gebruikersinterface</a> - <a href="../v8/start/ac-components.md">Onderdelen en processen</a> - <a href="../v8/start/v7-to-v8.md">Van Classic v7 naar v8</a> - <a href="../v8/start/campaign-faq.md">Veelgestelde vragen</a>
+      <strong> krijgen begonnen </strong><br/> <a href="../v8/start/campaign-ui.md"> gebruikersinterface </a> - <a href="../v8/start/ac-components.md"> Componenten &amp; processen </a> - <a href="../v8/start/v7-to-v8.md"> van Klassieke v7 aan v8 </a> - <a href="../v8/start/campaign-faq.md"> Veelgestelde vragen </a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Ervaring van de klant</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">Automatiseren met workflows</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Campagne-orkestatie</a> - <a href="../v8/interaction/interaction.md">Beslissingsbeheer</a> - <a href="../v8/send/personalize.md">Personalization</a>
+      <strong> de ervaring van de Klant </strong><br/> <a href="../automation/workflow/about-workflows.md" target="_blank"> Automatiseer met werkschema's </a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank"> Organiseren van de Campagne </a> - <a href="../v8/interaction/interaction.md"> Beslissingsbeheer </a> - <a href="../v8/send/personalize.md"> Personalization </a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>Berichten verzenden</strong><br/><a href="../v8/start/create-message.md">Aan de slag</a> - <a href="../v8/send/preview-and-proof.md">Voorvertoning en proefdrukken</a> - <a href="../v8/send/predictive.md">Optimalisatie bij verzending</a> - <a href="../v8/reporting/gs-reporting.md">Rapportage en analyse</a>
+      <strong> verzend berichten </strong><br/> <a href="../v8/start/create-message.md"> begonnen worden </a> - <a href="../v8/send/preview-and-proof.md"> Voorproef &amp; proef </a> - <a href="../v8/send/predictive.md"> Send-time optimalisering </a> - <a href="../v8/reporting/gs-reporting.md"> Rapporterend &amp; Analytics </a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="../v8/assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>Profielen en publiek</strong><br/><a href="../v8/audiences/create-profiles.md">Profielen toevoegen</a> - <a href="../v8/audiences/create-audiences.md">Soorten publiek maken</a> - <a href="../v8/start/subscriptions.md">Abonnementen beheren</a> - <a href="../v8/start/privacy.md">Privacy</a>
+      <strong> Profielen &amp; publiek </strong><br/> <a href="../v8/audiences/create-profiles.md"> voegt profielen </a> toe - <a href="../v8/audiences/create-audiences.md"> leidt publiek </a> - <a href="../v8/start/subscriptions.md"> beheert abonnementen </a> - <a href="../v8/start/privacy.md"> Privacy </a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong>Architectuur en configuratie</strong><br/><a href="../v8/architecture/architecture.md">Architectuur</a> - <a href="../v8/start/implement.md">Implementatie van campagne v8</a> - <a href="../v8/connect/integration.md">Verbinding maken met andere oplossingen</a> - <a href="../v8/start/gs-permissions.md">Gebruikers en machtigingen</a>
+      <strong> Architectuur &amp; configuratie </strong><br/> <a href="../v8/architecture/architecture.md"> Architectuur </a> - <a href="../v8/start/implement.md"> de implementatie van de Campagne v8 </a> - <a href="../v8/connect/integration.md"> verbindt met andere oplossingen </a> - <a href="../v8/start/gs-permissions.md"> Gebruikers &amp; toestemmingen </a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>Bronnen voor ontwikkelaars</strong><br/><a href="../v8/dev/datamodel.md">Campaign v8 datamodel</a> - <a href="../v8/dev/schemas.md">Schemas</a> - <a href="../v8/dev/api.md">API's</a>
+      <strong> middelen van de Ontwikkelaar </strong><br/> <a href="../v8/dev/datamodel.md"> Campagne v8 datamodel </a> - <a href="../v8/dev/schemas.md"> Schema's </a> - <a href="../v8/dev/api.md"> APIs </a>
     </td>
   </tr>
 </table>
 
 ## Verdere bronnen
 
-[Adobe Campaign v8-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web-gebruikersinterfacedocumentatie](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=nl-NL){target="_blank"} - [[!DNL Adobe Campaign] handleiding voor automatisering](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=nl-NL){target="_blank"} - [Configuratiescherm voor campagne v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
+[ Adobe Campaign v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [ de gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign]  automatiseringsgids ](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [ Controlebord voor Campagne v8 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
 

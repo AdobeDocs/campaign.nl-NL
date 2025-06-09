@@ -8,7 +8,7 @@ exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
 source-git-commit: 02d7909c409bd25cfa3cc7aad189247ce7b5176e
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ De belangrijkste stappen om deze integratie tot stand te brengen zijn:
 
 ## Een Oauth-verbinding instellen {#oauth}
 
-Adobe Cloud Platform API&#39;s gebruiken het OAuth 2.0-protocol voor verificatie en autorisatie. Als u Adobe Experience Platform met behulp van API-aanroepen wilt verbinden met Adobe Campaign, moet u een toegangstoken genereren met behulp van de OAuth Integration die in Adobe Developer Console is gemaakt.
+Adobe Cloud Platform-API&#39;s gebruiken het OAuth 2.0-protocol voor verificatie en verificatie. Als u Adobe Experience Platform met behulp van API-aanroepen wilt verbinden met Adobe Campaign, moet u een toegangstoken genereren met behulp van de OAuth Integration die in Adobe Developer Console is gemaakt.
 
 Ga als volgt te werk om dit te doen:
 
@@ -56,7 +56,7 @@ Nu de OAuth-verbinding is ingesteld, bestaat de volgende stap uit het maken van 
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. Configureer de verbinding afhankelijk van uw behoeften. De gedetailleerde informatie over hoe te om een verbinding van HTTP te vormen API is beschikbaar in [ Adobe Experience Platform brondocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=nl-NL){target="_blank"} .
+1. Configureer de verbinding afhankelijk van uw behoeften. De gedetailleerde informatie over hoe te om een verbinding van HTTP te vormen API is beschikbaar in [ Adobe Experience Platform brondocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
    Schakel in de stap **[!UICONTROL Authentication]** de optie **[!UICONTROL Enable authentication]** in om te verifiëren met het toegangstoken dat eerder is gegenereerd via de OAuth-integratie.
 
@@ -80,7 +80,7 @@ Blader op de onderstaande tabbladen naar de twee methoden:
 
 >[!BEGINTABS]
 
->[!TAB voegt opties van het menu van het Beleid  toe]
+>[!TAB  voegt opties van het menu van het Beleid ] toe
 
 1. Ga naar het menu **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** .
 1. Voeg de volgende opties toe met de bijbehorende waarden uit Adobe Developer Console:
@@ -98,7 +98,7 @@ Blader op de onderstaande tabbladen naar de twee methoden:
 
 >[!TAB  voegt opties toe gebruikend een de codeactiviteit van JavaScript ]
 
-Als u deze opties automatisch wilt configureren tijdens de uitvoering van de workflow voor het plaatsen van bestemmingspagina&#39;s, voegt u een **[!UICONTROL JavaScript code]** -activiteit toe aan de workflow met de onderstaande code. [ Leer hoe te om een de codeactiviteit van JavaScript ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=nl-NL#JavaScript-code){target="_blank"} te vormen .
+Als u deze opties automatisch wilt configureren tijdens de uitvoering van de workflow voor het plaatsen van bestemmingspagina&#39;s, voegt u een **[!UICONTROL JavaScript code]** -activiteit toe aan de workflow met de onderstaande code. [ Leer hoe te om een de codeactiviteit van JavaScript ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"} te vormen.
 
 Bij de uitvoering van de workflow worden de opties automatisch gemaakt in de Campagneconsole met de opgegeven waarden.
 
@@ -211,7 +211,7 @@ Nu de aangepaste JavaScript-codes in Adobe Campaign zijn gemaakt, kunt u de work
 
 Als de JavaScript-codes aan Adobe Campaign zijn toegevoegd, kunt u ze gebruiken voor de workflow op de bestemmingspagina met **[!UICONTROL JavaScript code]** -activiteiten:
 
-* Als u gegevens van het Experience Platform wilt laden voordat u de openingspagina laadt, voegt u een **[!UICONTROL JavaScript code]** -activiteit toe vóór de activiteit van de openingspagina en kopieert u Script 1.
+* Als u gegevens uit Experience Platform wilt laden voordat u de openingspagina laadt, voegt u een **[!UICONTROL JavaScript code]** -activiteit toe vóór de activiteit van de openingspagina en kopieert u Script 1.
 
 +++ Script 1 - Profielkenmerken laden vanuit Experience Platform
 
@@ -251,7 +251,7 @@ Als de JavaScript-codes aan Adobe Campaign zijn toegevoegd, kunt u ze gebruiken 
 
 +++
 
-* Als u de profielkenmerken van het Experience Platform wilt bijwerken met de gegevens die op de landingspagina worden verzonden, voegt u een **[!UICONTROL JavaScript code]** -activiteit toe na de activiteit van de openingspagina en kopieert u de plakbewerking Script 2.
+* Als u Experience Platform-profielkenmerken wilt bijwerken met de gegevens die op de landingspagina zijn verzonden, voegt u een **[!UICONTROL JavaScript code]** -activiteit toe na de activiteit van de openingspagina en kopieert u Script 2.
 
 +++ Script 2 - Experience Platform-profielkenmerken bijwerken
 
@@ -344,5 +344,5 @@ Hier volgt een voorbeeld van een landingspagina en een JavaScript-codeactiviteit
 ### Meer informatie
 
 * [Een JavaScript-codeactiviteit configureren](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [ creeer een het landen pagina ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=nl-NL){target="_blank"} 
+* [Een introductiepagina maken](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [Abonnementen en abonnementen beheren](../start/subscriptions.md)

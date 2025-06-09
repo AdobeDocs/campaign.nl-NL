@@ -21,7 +21,7 @@ Dankzij deze integratie kunt u gebruiksgevallen als volgt implementeren: wanneer
 >[!NOTE]
 >* De integratie ondersteunt alleen statische afbeeldingen. De andere typen inhoud kunnen niet worden gepersonaliseerd.
 >
->* Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om Experience Cloud trekkers met Campagne uit te voeren.
+>* Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support) om de trekkers van Experience Cloud met Campagne uit te voeren.
 
 Adobe Target kan de volgende gegevenstypen gebruiken:
 
@@ -31,7 +31,7 @@ Adobe Target kan de volgende gegevenstypen gebruiken:
 
 ## Dynamische inhoud invoegen
 
-In het onderstaande voorbeeld leert u hoe u kunt integreren **een dynamische aanbieding** van Adobe Target naar een Adobe Campaign-e-mail.
+In het voorbeeld hieronder, zult u leren hoe te om **een dynamische aanbieding** van Adobe Target in een e-mail van Adobe Campaign te integreren.
 
 We willen een boodschap maken met een beeld dat dynamisch zal veranderen afhankelijk van het land van de ontvanger. De gegevens worden samen met elke mbox-aanvraag verzonden en zijn afhankelijk van het IP-adres van de bezoeker.
 
@@ -59,22 +59,22 @@ Hiervoor geeft u de URL van de standaardafbeelding, de locatienaam en de velden 
 
 In Adobe Campaign kunt u op twee manieren een dynamische afbeelding van Target invoegen in een e-mailbericht:
 
-* Als u de editor voor digitale inhoud gebruikt, kiest u een bestaande afbeelding en selecteert u **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** op de werkbalk.
+* Als u de editor voor digitale inhoud gebruikt, kiest u een bestaande afbeelding en kiest u **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** op de werkbalk.
 
   ![](assets/target_5.png)
 
-* Als u de standaardeditor gebruikt, plaatst u de cursor op de plaats waar u de afbeelding wilt invoegen en selecteert u **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** in het vervolgkeuzemenu voor aanpassen.
+* Als u de standaardeditor gebruikt, plaatst u de cursor op de plaats waar u de afbeelding wilt invoegen en kiest u **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** in het vervolgkeuzemenu voor aanpassen.
 
   ![](assets/target_12.png)
 
 Vervolgens kunt u de afbeeldingsparameters definiëren:
 
-* De **[!UICONTROL Default image]** De URL van de gebruiker is de afbeelding die wordt weergegeven als aan geen van de voorwaarden is voldaan. U kunt ook een afbeelding selecteren in de middelenbibliotheek.
-* De **[!UICONTROL Target location]** Dit is de naam van de locatie van uw dynamische aanbieding. Je moet deze locatie selecteren in je Adobe Target-activiteit.
-* De **[!UICONTROL Landing Page]** Hiermee kunt u de standaardafbeelding omleiden naar een standaardbestemmingspagina. Deze URL is alleen van toepassing wanneer de standaardafbeelding wordt weergegeven in het laatste e-mailbericht. Het is optioneel.
-* De **[!UICONTROL Additional decision parameters]**  definieert de toewijzing tussen de velden die zijn gedefinieerd in de Adobe Target-segmenten en de Adobe Campaign-velden. De Adobe Campaign-velden die worden gebruikt, moeten zijn opgegeven in de keuzelijst. In ons voorbeeld hebben we het veld Land toegevoegd.
+* De URL van **[!UICONTROL Default image]** is de afbeelding die wordt weergegeven wanneer aan geen van de voorwaarden wordt voldaan. U kunt ook een afbeelding uit uw Assets-bibliotheek selecteren.
+* **[!UICONTROL Target location]** is de naam van de locatie van uw dynamische aanbieding. Je moet deze locatie selecteren in je Adobe Target-activiteit.
+* Met **[!UICONTROL Landing Page]** kunt u de standaardafbeelding omleiden naar een standaardbestemmingspagina. Deze URL is alleen van toepassing wanneer de standaardafbeelding wordt weergegeven in het laatste e-mailbericht. Het is optioneel.
+* De **[!UICONTROL Additional decision parameters]** definieert de toewijzing tussen de velden die zijn gedefinieerd in de Adobe Target-segmenten en de Adobe Campaign-velden. De Adobe Campaign-velden die worden gebruikt, moeten zijn opgegeven in de keuzelijst. In ons voorbeeld hebben we het veld Land toegevoegd.
 
-Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Meer informatie over Target Enterprise-machtigingen vindt u in [Adobe Target-documentatie](https://experienceleague.adobe.com/nl/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
+Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Leer meer over de toestemmingen van de Onderneming van het Doel in [ documentatie van Adobe Target ](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
 ![](assets/target_13.png)
 
@@ -84,7 +84,7 @@ In Adobe Target kunt u verschillende versies van uw voorstel maken. Afhankelijk 
 
 In ons geval hebben we twee doorgifteaanbiedingen nodig, de derde (de standaard) moet in Adobe Campaign worden gedefinieerd.
 
-1. Als u een nieuwe omleidingsaanbieding wilt maken in de Target Standard, gaat u naar de **[!UICONTROL Content]** tabblad, klikt u op **[!UICONTROL Code offers]**.
+1. Als u een nieuwe omleidingsaanbieding in Target Standard wilt maken, klikt u op het tabblad **[!UICONTROL Content]** op **[!UICONTROL Code offers]** .
 
 1. Klik op **[!UICONTROL Create]** en vervolgens op **[!UICONTROL Redirect Offer]**.
 
@@ -94,13 +94,13 @@ In ons geval hebben we twee doorgifteaanbiedingen nodig, de derde (de standaard)
 
    ![](assets/target_6.png)
 
-1. Volg dezelfde procedure voor het resterende doorleidingsaanbod. Raadpleeg voor meer informatie deze [Adobe Target-documentatie](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=nl-NL#experiences){target="_blank"}.
+1. Volg dezelfde procedure voor het resterende doorleidingsaanbod. Voor meer op dit, verwijs naar deze [ documentatie van Adobe Target ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}.
 
 ### Soorten publiek maken {#audiences-target}
 
 In Adobe Target moet u de twee soorten publiek maken waarin de personen die uw aanbieding bezoeken, worden ingedeeld voor de verschillende inhoud die moet worden geleverd. Voor elk publiek, voeg een regel toe om te bepalen wie de aanbieding zal kunnen zien.
 
-1. Als u een nieuw publiek wilt maken in Doel, gaat u als volgt te werk **[!UICONTROL Audiences]** tabblad, klikt u op **[!UICONTROL Create Audience]**.
+1. Als u een nieuw publiek wilt maken in Doel, klikt u op het tabblad **[!UICONTROL Audiences]** op **[!UICONTROL Create Audience]** .
 
    ![](assets/audiences_1.png)
 
@@ -108,7 +108,7 @@ In Adobe Target moet u de twee soorten publiek maken waarin de personen die uw a
 
    ![](assets/audiences_2.png)
 
-1. Klikken **[!UICONTROL Add a rule]** en selecteer een categorie. De regel gebruikt specifieke criteria om de bezoekers te richten. U kunt de regels verfijnen door voorwaarden toe te voegen of door nieuwe regels te maken in andere categorieën.
+1. Klik op **[!UICONTROL Add a rule]** en selecteer een categorie. De regel gebruikt specifieke criteria om de bezoekers te richten. U kunt de regels verfijnen door voorwaarden toe te voegen of door nieuwe regels te maken in andere categorieën.
 
 1. Volg dezelfde procedure voor het resterende publiek.
 
@@ -118,13 +118,13 @@ In Adobe Target moeten we een Experience Targeting-activiteit creëren, de versc
 
 Eerst moet u het publiek definiëren:
 
-1. Om een Ervaring te creëren richtend activiteit, van **[!UICONTROL Activities]** tabblad, klikt u op **[!UICONTROL Create Activity]** dan **[!UICONTROL Experience Targeting]**.
+1. Als u een Experience Targeting-activiteit wilt maken, klikt u op het tabblad **[!UICONTROL Activities]** op **[!UICONTROL Create Activity]** then **[!UICONTROL Experience Targeting]** .
 
    ![](assets/target_10.png)
 
-1. Selecteren **[!UICONTROL Form]** als **[!UICONTROL Experience Composer]**.
+1. Selecteer **[!UICONTROL Form]** als **[!UICONTROL Experience Composer]** .
 
-1. Kies een publiek door op de knop **[!UICONTROL Change audience]** knop.
+1. Kies een publiek door op de knop **[!UICONTROL Change audience]** te klikken.
 
    ![](assets/target_10_2.png)
 
@@ -132,7 +132,7 @@ Eerst moet u het publiek definiëren:
 
    ![](assets/target_10_3.png)
 
-1. Een andere ervaring maken door op **[!UICONTROL Add Experience Targeting]**.
+1. Maak een andere ervaring door op **[!UICONTROL Add Experience Targeting]** te klikken.
 
 Voeg vervolgens inhoud toe voor elk publiek:
 
@@ -140,7 +140,7 @@ Voeg vervolgens inhoud toe voor elk publiek:
 
    ![](assets/target_15.png)
 
-1. Klik op de vervolgkeuzelijst en selecteer **[!UICONTROL Change Redirect Offer]**.
+1. Klik op de vervolgkeuzelijst en selecteer **[!UICONTROL Change Redirect Offer]** .
 
    ![](assets/target_content.png)
 
@@ -150,13 +150,13 @@ Voeg vervolgens inhoud toe voor elk publiek:
 
 1. Voer dezelfde stappen uit voor de tweede ervaring.
 
-De **[!UICONTROL Target]** geeft een overzicht van uw activiteiten. Indien nodig kunt u andere ervaringen toevoegen.
+Het venster **[!UICONTROL Target]** geeft een overzicht van uw activiteiten. Indien nodig kunt u andere ervaringen toevoegen.
 
 ![](assets/target_experience.png)
 
-De **[!UICONTROL Goal & Settings]** kunt u uw activiteit aanpassen door een prioriteit, een doelstelling of een duur in te stellen.
+In het venster **[!UICONTROL Goal & Settings]** kunt u uw activiteit aanpassen door een prioriteit, een doelstelling of een duur in te stellen.
 
-De **[!UICONTROL Reporting Settings]** kunt u een actie selecteren en de parameters bewerken die bepalen wanneer uw doel wordt bereikt.
+In de sectie **[!UICONTROL Reporting Settings]** kunt u een handeling selecteren en de parameters bewerken die bepalen wanneer uw doel wordt bereikt.
 
 ![](assets/target_experience_2.png)
 

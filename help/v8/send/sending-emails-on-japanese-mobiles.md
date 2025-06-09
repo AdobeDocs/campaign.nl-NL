@@ -5,7 +5,8 @@ description: Leer hoe u e-mailberichten configureert, ontwerpt en verzendt die o
 feature: Email, Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+exl-id: 02cca21f-b1ac-4ac2-9761-015f6c7f5567
+source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Als u wilt dat de ontvanger berichten in een van deze indelingen correct ontvang
 
 Als u de optie **[!UICONTROL Email format]** echter als **[!UICONTROL Unknown]** , **[!UICONTROL HTML]** of **[!UICONTROL Text]** laat, detecteert Adobe Campaign automatisch (bij het verzenden van het e-mailbericht) de Japanse indeling voor gebruik, zodat het bericht correct wordt weergegeven.
 
-Dit automatische detectiesysteem is gebaseerd op de lijst met vooraf gedefinieerde domeinen die zijn gedefinieerd in de set met mailregels van **[!UICONTROL Management of Email Formats]** . Voor meer bij het beheren van e-mailformaten, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=nl-NL#managing-email-formats).
+Dit automatische detectiesysteem is gebaseerd op de lijst met vooraf gedefinieerde domeinen die zijn gedefinieerd in de set met mailregels van **[!UICONTROL Management of Email Formats]** . Voor meer bij het beheren van e-mailformaten, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#managing-email-formats).
 
 ## Beperkingen en aanbevelingen {#limitations-and-recommendations}
 

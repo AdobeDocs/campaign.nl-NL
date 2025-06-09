@@ -46,7 +46,7 @@ Als het **[!UICONTROL Unicity alerting]** (ffdaUnicity) werkschema sommige dubbe
 
 ![](assets/unicity-table.png)
 
-Als beheerder van het Gegevensbestand, kunt u een SQL activiteit gebruiken om de duplicaten te verwijderen of de Zorg van de Klant van de Adobe voor meer begeleiding te contacteren.
+Als databasebeheerder kunt u een SQL-activiteit gebruiken om de duplicaten te verwijderen of contact opnemen met de klantenservice van Adobe voor meer hulp.
 
 ### Waarschuwing{#unicity-wf-alerting}
 

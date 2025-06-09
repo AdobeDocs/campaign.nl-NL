@@ -11,9 +11,9 @@ ht-degree: 1%
 
 # Campagnebeheerders migreren naar Adobe Identity Management System (IMS) {#migrate-users-to-ims}
 
-Vanaf Campagne v8.6 wordt het verificatieproces naar Campagne v8 verbeterd. Alle exploitanten zullen [ het Systeem van Identity Management van de Adobe gebruiken (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}  **slechts** om met Campagne te verbinden. Verbinding maken met gebruiker/wachtwoord (ook wel native verificatie genoemd) is niet langer toegestaan. Adobe raadt aan deze migratie uit te voeren in Campagne v8.5.2 om probleemloos te kunnen migreren naar Campagne v8.6.
+Vanaf Campagne v8.6 wordt het verificatieproces naar Campagne v8 verbeterd. Alle exploitanten zullen [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} **slechts** gebruiken om met Campagne te verbinden. Verbinding maken met gebruiker/wachtwoord (ook wel native verificatie genoemd) is niet langer toegestaan. Adobe raadt aan deze migratie uit te voeren in Campagne v8.5.2 om probleemloos te kunnen migreren naar Campagne v8.6.
 
-Als Campaign Classic v7 beheerde de dienstenklant, als u aan Campagne v8 migreert, is deze procedure ook op u van toepassing.
+Als klant van de beheerde services van Campaign Classic v7 geldt deze procedure ook voor u als u naar Campagne v8 migreert.
 
 In dit artikel worden de stappen beschreven die nodig zijn om een technische operator naar een technische account op de Adobe Developer-console te migreren.
 
@@ -29,50 +29,50 @@ Deze verandering is van toepassing beginnend Campagne v8.5.2, en is **verplicht*
 
 Als de exploitanten in uw organisatie met de cliëntconsole van de Campagne gebruikend hun login/wachtwoord verbinden (alias. (native verificatie), heeft dit invloed op u en moet u deze operator(s) migreren naar Adobe IMS, zoals hieronder beschreven.
 
-De migratie aan [ Systeem van Identity Management van de Adobe (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}  is een veiligheidsvereiste om uw milieu&#39;s veilig en gestandaardiseerd te maken, aangezien de meeste andere oplossingen en apps van Adobe Experience Cloud reeds op IMS zijn.
+De migratie aan [ Identity Management Systeem van Adobe (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is een veiligheidsvereiste om uw milieu&#39;s veilig en gestandaardiseerd te maken, aangezien de meeste andere oplossingen en apps van Adobe Experience Cloud reeds op IMS zijn.
 
 ## Hoe migreren?{#ims-migration-procedure}
 
 ### Vereisten{#ims-migration-prerequisites}
 
-Voordat u met het migratieproces begint, moet u contact opnemen met uw Adobe-medewerker (Transition Manager), zodat technische teams van Adoben uw bestaande groepen met operatoren en benoemde rechten kunnen migreren naar het Adobe Identity Management System (IMS).
+Voordat u het migratieproces start, moet u contact opnemen met uw Adobe-vertegenwoordiger (Transition Manager), zodat technische teams van Adobe uw bestaande Operator-groepen en benoemde rechten kunnen migreren naar Adobe Identity Management System (IMS).
 
 ### Belangrijkste stappen {#ims-migration-steps}
 
 De belangrijkste stappen voor deze migratie worden hieronder weergegeven:
 
-1. Adobe verbetert uw omgevingen naar Campagne v8.5.2.
+1. Adobe upgradet uw omgevingen naar Campagne v8.5.2.
 1. Na de upgrade kunt u nog steeds nieuwe gebruikers maken met beide methoden, als native gebruiker of met IMS.
-1. Uw interne beheerder van de Campagne moet unieke e-mails aan alle inheemse gebruikers op de de cliëntconsole van de Campagne toevoegen, en aan uw Manager van de Overgang van de Adobe bevestigen zodra dit wordt gedaan. Deze stap wordt gedetailleerd in [ deze sectie ](#ims-migration-id).
-1. Werk met Adobe om een datum te beveiligen waarop Adobe automatisch kan worden uitgevoerd voor niet-technische gebruikers (operatoren) en productprofielen. Deze stap vereist een uurvenster zonder onderbreking aan om het even welk van uw instanties.
+1. Uw interne beheerder van de Campagne moet unieke e-mails toevoegen aan alle native gebruikers op de Campagne clientconsole en zodra dit is gebeurd, aan uw Adobe Transition Manager bevestigen. Deze stap wordt gedetailleerd in [ deze sectie ](#ims-migration-id).
+1. Werk samen met Adobe om een datum te beveiligen waarop Adobe de automatische migratie voor uw niet-technische gebruikers (operators) en productprofielen kan uitvoeren. Deze stap vereist een uurvenster zonder onderbreking aan om het even welk van uw instanties.
 1. Uw interne beheerder van de Campagne bevestigt deze veranderingen, en verstrekt aftekening. Na deze migratie moet u geen andere operator meer maken die wordt geverifieerd met zijn aanmeldingsnaam en wachtwoord.
 
 U kunt uw technische exploitant(s) nu migreren aan Adobe Developer Console zoals die in [ wordt gedetailleerd dit technologie ](ims-migration.md). Deze stap is verplicht als u campagne-API&#39;s gebruikt.
 
-Zodra deze migratie is voltooid, bevestigt u dit aan uw Adobe Overgangsmanager: de Adobe markeert de migratie vervolgens als voltooid en blokkeert het maken van nieuwe native gebruikers en het aanmelden van native gebruikers. Uw omgeving wordt dan beveiligd en gestandaardiseerd.
+Zodra deze migratie is voltooid, bevestigt u dit aan uw Adobe Transition Manager: Adobe markeert de migratie als voltooid en blokkeert het maken van nieuwe native gebruikers en het aanmelden van native gebruikers. Uw omgeving wordt dan beveiligd en gestandaardiseerd.
 
 ## Veelgestelde vragen {#ims-migration-faq}
 
 ### Wanneer kan ik de migratie starten? {#ims-migration-start}
 
-Een voorwaarde voor de migratie aan [ het Systeem van Identity Management van de Adobe (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}  is uw milieu aan Campagne v8.5.2 te bevorderen.
+Een voorwaarde voor de migratie aan [ Adobe Identity Management Systeem (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} moet uw milieu bevorderen aan Campagne v8.5.2.
 
 U kunt de migratie van IMS op uw werkgebiedomgeving starten zodra deze is bijgewerkt naar Campagne v8.5.2 en dienovereenkomstig plannen voor de productieomgeving.
 
 ### Wat gebeurt er na upgrade van de build naar Campagne v8.5.2? {#ims-migration-after-upgrade}
 
-Nadat uw milieu&#39;s aan Campagne v8.5.2 zijn bevorderd, kunt u uw overgang in werking stellen aan [ het Systeem van Identity Management van de Adobe (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} .
+Nadat uw milieu&#39;s aan Campagne v8.5.2 zijn bevorderd, kunt u uw overgang aan [ het Systeem van Adobe Identity Management (IMS) in werking stellen ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 
 Het maken van nieuwe native gebruikers is nog steeds toegestaan totdat de IMS-migratie is voltooid.
 
 ### Wanneer is de migratie voltooid? {#ims-migration-end}
 
-Zodra de migratie van de eindgebruiker en de technische gebruikersmigratie aan het Systeem van AdobeIdentity Management (IMS) wordt gedaan, moet u uw Manager van de Overgang van de Adobe contacteren zodat de Adobe uw migratie kan merken volledig, en gebruikersverwezenlijking van de cliëntconsole blokkeren, en inheemse gebruikerslogin onbruikbaar maken.
+Zodra de migratie van eindgebruikers en de migratie van technische gebruikers naar het Adobe Identity Management System (IMS) is voltooid, moet u contact opnemen met uw Adobe Transition Manager zodat Adobe uw migratie als voltooid kan markeren en het maken van gebruikers vanaf de clientconsole kan blokkeren en de aanmelding van de native gebruiker kan uitschakelen.
 
 
 ### Hoe kunt u na de migratie gebruikers maken? {#ims-migration-native}
 
-Zodra de volledige IMS-migratie is voltooid, past de Adobe de beperkingen toe die het maken van nieuwe native gebruikers blokkeren. Deze beperkingen worden niet toegepast totdat de IMS-migratie is voltooid.
+Zodra de volledige IMS-migratie is voltooid, past Adobe de beperkingen toe die het maken van nieuwe native gebruikers blokkeren. Deze beperkingen worden niet toegepast totdat de IMS-migratie is voltooid.
 
 Voor nieuwe klanten - het maken van nieuwe native gebruikers is niet vanaf het begin toegestaan.
 
@@ -130,7 +130,7 @@ Leer hoe te met Campagne met uw Adobe ID in [ te verbinden deze sectie ](../../v
 
 ### Zal er tijdens deze migratie een onderbreking plaatsvinden? {#ims-migration-downtime}
 
-Om de migratie te voltooien (gebruikers en productprofielen migreren), vereist de Adobe een uur zonder downtime voor een van uw instanties (workflows, enz.).
+Om de migratie af te ronden (gebruikers en productprofielen migreren), heeft Adobe een periode van één uur zonder downtime nodig voor een van uw instanties (workflows, enz.).
 
 Tijdens dit tijdsbestek moeten alle Campagnegebruikers zich afmelden en zich opnieuw aanmelden bij hun Adobe ID zodra de migratie naar IMS is voltooid.
 
@@ -144,7 +144,7 @@ Deze migratie kent twee aspecten: migratie van eindgebruikers en migratie van te
 
 Als al uw gebruikers (campagneoperatoren) zich op IMS bevinden, hoeft u deze migratie niet uit te voeren. Nochtans, moet u nog Technische gebruikers migreren u in douanecode zou kunnen gebruikt. Meer informatie vindt u [op deze pagina](ims-migration.md).
 
-Zodra deze migratie wordt gedaan, moet u uw Manager van de Overgang van de Adobe contacteren zodat de Adobe de migratie voltooit.
+Zodra deze migratie is voltooid, moet u contact opnemen met uw Adobe Transition Manager zodat Adobe de migratie kan voltooien.
 
 ### Hoe te om het de authentificatietype van uw Operatoren te bekijken?
 
@@ -170,4 +170,4 @@ U kunt de lijst van uw **Operatoren** en hun **Type van Authentificatie** nu zie
 * [Verbinding maken met Adobe Campaign v8](../../v8/start/connect.md)
 * [Toegang en machtigingen in Adobe Campaign v8](../../v8/start/gs-permissions.md)
 * [Opmerkingen bij de release van Adobe Campaign v8](../../v8/start/release-notes.md)
-* [ wat is het Systeem van Identity Management van de Adobe (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} 
+* [ wat is het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}

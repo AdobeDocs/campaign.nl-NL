@@ -32,13 +32,13 @@ _feb 14, 2025_
 >
 >Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nieuwe functies {#features-8-7-3}
 
-* **Dynamische Rapportering voor Transactionele berichten** - u kunt uw transactionele berichten in het Dynamische het gebruikersinterface van de Rapportering nu controleren. Deze rapporten verstrekken de capaciteit aan de teler om alle het melden metriek en dimensies van transactionele berichten, uitsplitsing van leveringen te bekijken die door een malplaatje in real time worden verzonden. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+* **Dynamische Rapportering voor Transactionele berichten** - u kunt uw transactionele berichten in het Dynamische het gebruikersinterface van de Rapportering nu controleren. Deze rapporten verstrekken de capaciteit aan de teler om alle het melden metriek en dimensies van transactionele berichten, uitsplitsing van leveringen te bekijken die door een malplaatje in real time worden verzonden. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
-* **Transactionele overseinenREST APIs** - Op gebeurtenis-gebaseerde Transactionele APIs is nu beschikbaar voor E-mail. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+* **Transactionele overseinenREST APIs** - Op gebeurtenis-gebaseerde Transactionele APIs is nu beschikbaar voor E-mail. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 
 ### Oplossingen {#fixes-8-7-3}
 
@@ -54,7 +54,7 @@ _sep 3, 2024_
 >
 >Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nieuwe functies {#new-8-7-2}
 
@@ -62,10 +62,10 @@ _sep 3, 2024_
 
 * **Rich Push Bericht (GA)** - u kunt rijke dupberichten nu verzenden. Een veeleisende pushmelding is een verbeterde vorm van mobiele meldingen die verder gaat dan eenvoudige tekstberichten door het opnemen van multimedia-elementen, zoals afbeeldingen, interactieve knoppen of andere rijke media-inhoud. Met deze versie is een set sjablonen voor uitgebreide pushmeldingen nu beschikbaar voor uw iOS- en Android-apps. [Meer informatie](../send/rich-push-android.md).
 
-* **het Brandmerken** - de Brandende opties zijn nu beschikbaar voor alle kanalen, met inbegrip van SMS en Directe post. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=nl-NL){target="_blank"}
+* **het Brandmerken** - de Brandende opties zijn nu beschikbaar voor alle kanalen, met inbegrip van SMS en Directe post. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html){target="_blank"}
 
 ### Oplossingen {#fixes-8-7-2}
 
 De volgende problemen zijn opgelost in deze release:
 
-NEO-48232, NEO-56832, NEO-72504, NEO-74855, NEO-75898, NEO-76097, NEO-76958, NEO-770 14, NEO-7795, NEO-78843, NEO-79328.
+NEO-48232, NEO-56832, NEO-72504, NEO-74855, NEO-75898, NEO-76097, NEO-76958, NEO-77014, NEO-7 7795, NEO-78843, NEO-79328.

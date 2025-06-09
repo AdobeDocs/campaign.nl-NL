@@ -7,20 +7,20 @@ level: Intermediate
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '429'
 ht-degree: 2%
 
 ---
 
 # Specifieke API&#39;s voor campagnes van FFDA{#gs-new-api}
 
-In de context van een [Implementatie in het kader van Enterprise (FFDA)](enterprise-deployment.md)Campagne v8 wordt geleverd met twee specifieke API&#39;s voor het beheer van gegevens tussen de lokale database van Campagne en de Cloud-database. De voorwaarden om hen te gebruiken moeten het het opvoeren mechanisme op het schema toelaten. [Meer informatie](staging.md)
+In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), komt de Campagne v8 met twee specifieke APIs om gegevens tussen het lokale gegevensbestand van de Campagne en het gegevensbestand van de Wolk te beheren. De voorwaarden om hen te gebruiken moeten het het opvoeren mechanisme op het schema toelaten. [Meer informatie](staging.md)
 
-* Ingestie-API: **xtk.session.ingest**
+* Ingestie API: **xtk.session.ingest**
 
   Deze API is alleen bedoeld voor het invoegen van gegevens. [Meer informatie](#data-insert-api)
 
-* API voor bijwerken/verwijderen van gegevens: **xtk.session.ingestExt**
+* De update/schrapt API van gegevens: **xtk.session.ingestExt**
 
   Deze API wordt gebruikt om gegevens bij te werken of te schrappen. [Meer informatie](#data-update-api)
 
@@ -28,13 +28,13 @@ Met een speciale ingebouwde workflow worden de gegevens in de cloud-database ges
 
 ## Gegevens invoegen{#data-insert-api}
 
-De **xtk.session.ingest** API is alleen bestemd voor gegevensinvoer. Geen update/verwijdering.
+**xtk.session.ingest** API wordt gewijd aan het Tussenvoegsel van Gegevens slechts. Geen update/verwijdering.
 
 ### Invoegen zonder afstemming{#insert-no-reconciliation}
 
-**In een workflow**
+**in een werkschema**
 
-Gebruik de volgende code in een **Javascript-code** activiteit om gegevens in het gegevensbestand van de Wolk zonder aanpassing op te nemen:
+Gebruik de volgende code in a **Javascript code** activiteit om gegevens in het gegevensbestand van de Wolk zonder verenigbaarheid op te nemen:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -48,7 +48,7 @@ logInfo(strUuid);
 
 Nadat de werkstroom is uitgevoerd, wordt de testtabel op de verwachte manier ingevoerd.
 
-**Van een SOAP-aanroep**
+**van een vraag van SOAP**
 
 1. Haal het verificatietoken op.
 1. Trigger de API. De lading is:
@@ -71,7 +71,7 @@ Nadat de werkstroom is uitgevoerd, wordt de testtabel op de verwachte manier ing
    </soapenv:Envelope>
    ```
 
-1. UUID wordt teruggestuurd naar de reactie van de ZEEP:
+1. UUID wordt teruggestuurd naar het SOAP-antwoord:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -89,9 +89,9 @@ Hierdoor wordt de testtabel op de verwachte manier gevoed.
 
 ### Invoegen met reconciliatie
 
-**In een workflow**
+**in een werkschema**
 
-Gebruik de volgende code in een **Javascript-code** activiteit om gegevens in het gegevensbestand van de Wolk met verenigbaarheid op te nemen:
+Gebruik de volgende code in a **Javascript code** activiteit om gegevens in het gegevensbestand van de Wolk met verzoening op te nemen:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -108,7 +108,7 @@ Nadat de werkstroom is uitgevoerd, wordt de testtabel op de verwachte manier ing
 ![](assets/with-reconciliation.png)
 
 
-**Van een SOAP-aanroep**
+**van een vraag van SOAP**
 
 1. Haal het verificatietoken op.
 1. Trigger de API. De lading is:
@@ -147,13 +147,13 @@ Hierdoor wordt de testtabel op de verwachte manier gevoed.
 
 ## Gegevens bijwerken of verwijderen{#data-update-api}
 
-De **xtk.session.IngestExt** API is geoptimaliseerd voor bijwerken/verwijderen van gegevens. Alleen invoegen, voorkeur **xtk.session.ingest**. Invoegen werkt of de recordsleutel zich niet in de testtabel bevindt.
+**xtk.session.IngestExt** API wordt geoptimaliseerd voor gegevensupdate/delete. Voor tussenvoegsel slechts, verkies **xtk.session.ingest**. Invoegen werkt of de recordsleutel zich niet in de testtabel bevindt.
 
 ### Invoegen/bijwerken
 
-**In een workflow**
+**in een werkschema**
 
-Gebruik de volgende code in een **Javascript-code** activiteit om gegevens in het gegevensbestand van de Wolk bij te werken:
+Gebruik de volgende code in a **Javascript code** activiteit om gegevens in het gegevensbestand van de Wolk bij te werken:
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -168,7 +168,7 @@ Nadat de workflow is uitgevoerd, wordt de testtabel op de verwachte manier bijge
 
 ![](assets/updated-data.png)
 
-**Van een SOAP-aanroep**
+**van een vraag van SOAP**
 
 1. Haal het verificatietoken op.
 1. Trigger de API. De lading is:
@@ -191,7 +191,7 @@ Nadat de workflow is uitgevoerd, wordt de testtabel op de verwachte manier bijge
    </soapenv:Envelope>
    ```
 
-1. De SOAP-reactie is:
+1. Het SOAP-antwoord is:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -205,11 +205,11 @@ Dientengevolge, wordt het opvoeren lijst bijgewerkt zoals verwacht.
 
 ## Abonnementsbeheer {#sub-apis}
 
-Abonnementsbeheer in campagne wordt beschreven in [deze pagina](../start/subscriptions.md).
+Het beheer van het abonnement in Campagne wordt beschreven in [ deze pagina ](../start/subscriptions.md).
 
-Het invoegen van abonnements- en abonnementsgegevens is afhankelijk van de [Stapelmechanisme](staging.md) in de lokale database van Campagne. De informatie van de abonnee is tijdelijk opgeslagen in het opvoeren van lijsten in het lokale gegevensbestand, en het synchronisatiewerkschema verzendt deze gegevens van het lokale gegevensbestand naar het gegevensbestand van de Wolk. Als gevolg hiervan zijn de processen voor abonnementen en abonnementen **asynchroon**. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt via een specifieke technische workflow. [Meer informatie](replication.md#tech-wf)
+De toevoeging van abonnement en unsubscription- gegevens baseert zich op het [ Staging mechanisme ](staging.md) in het lokale gegevensbestand van de Campagne. De informatie van de abonnee is tijdelijk opgeslagen in het opvoeren van lijsten in het lokale gegevensbestand, en het synchronisatiewerkschema verzendt deze gegevens van het lokale gegevensbestand naar het gegevensbestand van de Wolk. Dientengevolge, zijn de abonnement en unsubscription processen **asynchroon**. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt via een specifieke technische workflow. [Meer informatie](replication.md#tech-wf)
 
 
 **Verwante onderwerpen**
 
-* [Campaign-JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=nl-NL){target="_blank"}
+* [Campaign-JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}

@@ -33,7 +33,7 @@ Van het leveringsdashboard, kunt u de verwerkte berichten en de logboeken van de
 >De leveringsstatus wordt niet in real time weergegeven. Leer meer over de Dienst van de Terugkoppeling E-mail [ in deze sectie ](#email-feedback-service).
 
 
-[ Leer meer over levering controle in de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=nl-NL){target="_blank"}
+[ Leer meer over levering controle in de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## Campagne MTA {#mta}
 
@@ -76,7 +76,7 @@ Domain Keys Identified Mail (DKIM) is een verificatiemethode waarmee vervalste a
 
 In Adobe Campaign wordt de ondertekening van DKIM-e-mailverificatie uitgevoerd door de MTA.
 
-Leer meer op DKIM in de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#authentication){target="_blank"}.
+Leer meer op DKIM in de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## E-mailfeedbackservice {#email-feedback-service}
 
@@ -88,7 +88,7 @@ Wanneer het bericht werkelijk aan de gerichte profielen wordt geleverd en zodra 
 
 Wanneer hard-bouncing berichten van MTA worden gemeld, verandert hun logboekstatus van **[!UICONTROL Taken into account by the service provider]** in **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Wanneer de zachte-stuiterende berichten terug van MTA worden gemeld, blijft hun logboekstatus onveranderd (**[!UICONTROL Taken into account by the service provider]**): slechts wordt de [ foutenreden ](delivery-failures.md#delivery-failure-reasons) bijgewerkt <!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Het percentage **[!UICONTROL Success]** blijft ongewijzigd. De soft-bouncing berichten worden dan opnieuw geprobeerd door de levering [ geldigheidsperiode ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=nl-NL#defining-validity-period){target="_blank"}:
+Wanneer de zachte-stuiterende berichten terug van MTA worden gemeld, blijft hun logboekstatus onveranderd (**[!UICONTROL Taken into account by the service provider]**): slechts wordt de [ foutenreden ](delivery-failures.md#delivery-failure-reasons) bijgewerkt <!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Het percentage **[!UICONTROL Success]** blijft ongewijzigd. De soft-bouncing berichten worden dan opnieuw geprobeerd door de levering [ geldigheidsperiode ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
 
 * Als het opnieuw proberen is gelukt vóór het einde van de geldigheidsperiode, verandert de berichtstatus in **[!UICONTROL Sent]** en wordt het **[!UICONTROL Success]** percentage dienovereenkomstig verhoogd.
 

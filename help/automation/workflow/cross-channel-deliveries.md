@@ -29,7 +29,7 @@ In het onderstaande voorbeeld leert u hoe u een workflow maakt voor het verzende
 
    >[!NOTE]
    >
-   >Voor de duw berichten, gebruik de **doelafmeting van de 0&rbrace; abonneetoepassingen.**
+   >Voor de duw berichten, gebruik de **doelafmeting van de 0} abonneetoepassingen.**
 
    ![](assets/cross_channel_delivery_1.png)
 

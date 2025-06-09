@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # Federated Data Access (FDA){#gs-fda}
 
-Gebruik de FDA-connector (Federated Data Access) om de campagne aan te sluiten op een of meer **externe databases** en procesgegevens die in deze bestanden zijn opgeslagen, zonder dat dit van invloed is op de gegevens van de Campagne Cloud Database. U kunt externe gegevens vervolgens openen zonder de structuur van Adobe Campaign-gegevens te wijzigen.
+Gebruik de Schakelaar FDA (Federated Toegang van Gegevens) om Campagne met één of meerdere **externe gegevensbestanden** te verbinden en informatie te verwerken die in hen wordt opgeslagen zonder de gegevens van het Gegevensbestand van de Wolk van de Campagne te beïnvloeden. U kunt externe gegevens vervolgens openen zonder de structuur van Adobe Campaign-gegevens te wijzigen.
 
 >[!NOTE]
 >
->* De compatibele gegevensbestanden voor Federatieve Toegang van Gegevens zijn vermeld in [Compatibiliteitsmatrix](../start/compatibility-matrix.md).
+>* De compatibele gegevensbestanden voor Federatieve Toegang van Gegevens zijn vermeld in de [ matrijs van de Verenigbaarheid ](../start/compatibility-matrix.md).
 >
->* In de context van een [Implementatie in het kader van Enterprise (FFDA)](../architecture/enterprise-deployment.md), is er een specifieke externe account beschikbaar voor het beheer van de communicatie tussen de lokale database van Campagne en de clouddatabase van de Snowflake. Deze externe account is ingesteld op Adobe en **mogen** worden gewijzigd.
+>* In de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), is een specifieke externe rekening beschikbaar om mededeling tussen het lokale gegevensbestand van de Campagne en het wolkengegevensbestand van Snowflake te beheren. Deze externe rekening wordt opstelling voor u door Adobe en **moet niet** worden gewijzigd.
 >
->* Als gebruiker van beheerde Cloud Servicen, [contact Adobe](../start/campaign-faq.md#support) om uw externe database(s) te verbinden met Campagne.
+>* Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support) om uw externe gegevensbestand (s) met Campagne te verbinden.
 
 
 ## Best practices en beperkingen
@@ -39,7 +39,7 @@ Houd ook rekening met de volgende beperkingen en beste praktijken:
 
    * Verzamel de gegevens in de externe Adobe Campaign-database en voer de bewerkingen lokaal uit.
 
-  Als u personalisatie in uw leveringen wilt uitvoeren gebruikend gegevens van het externe gegevensbestand, verzamel de gegevens in een werkschema te gebruiken om het ter beschikking te stellen in een tijdelijke lijst. Dan gebruik de gegevens van de tijdelijke lijst om uw levering te personaliseren. Om dit uit te voeren, pre-proces berichtverpersoonlijking in een specifieke werkschema gebruikend **[!UICONTROL Prepare the personalization data with a workflow]** beschikbaar in het dialoogvenster **[!UICONTROL Analysis]** tabblad van de leveringseigenschappen. Tijdens de leveringsanalyse, leidt deze optie automatisch tot en voert een werkschema uit dat alle gegevens met betrekking tot het doel in een tijdelijke lijst, met inbegrip van gegevens van lijsten verbonden in een extern gegevensbestand opslaat.
+  Als u personalisatie in uw leveringen wilt uitvoeren gebruikend gegevens van het externe gegevensbestand, verzamel de gegevens in een werkschema te gebruiken om het ter beschikking te stellen in een tijdelijke lijst. Dan gebruik de gegevens van de tijdelijke lijst om uw levering te personaliseren. Hiervoor gebruikt u de optie **[!UICONTROL Prepare the personalization data with a workflow]** , beschikbaar op het tabblad **[!UICONTROL Analysis]** van de leveringseigenschappen, om berichten vóór de verwerking aan te passen in een specifieke workflow. Tijdens de leveringsanalyse, leidt deze optie automatisch tot en voert een werkschema uit dat alle gegevens met betrekking tot het doel in een tijdelijke lijst, met inbegrip van gegevens van lijsten verbonden in een extern gegevensbestand opslaat.
 
   >[!CAUTION]
   >
@@ -50,13 +50,13 @@ Houd ook rekening met de volgende beperkingen en beste praktijken:
 
 De campagne wordt geleverd met verschillende workflowactiviteiten die u kunt gebruiken voor interactie met gegevens uit uw externe database(s):
 
-* **Filter op externe gegevens** - Gebruik de **[!UICONTROL Query]** activiteit om externe gegevens toe te voegen en het te gebruiken in de bepaalde filterconfiguraties.
+* **Filter op externe gegevens** - gebruik de **[!UICONTROL Query]** activiteit om externe gegevens toe te voegen en het in de bepaalde filterconfiguraties te gebruiken.
 
-* **Subsets maken** - Gebruik de **[!UICONTROL Split]** activiteit om subsets te maken. U kunt externe gegevens gebruiken om de filtercriteria te bepalen aan gebruik.
+* **creeer ondergroepen** - gebruik de **[!UICONTROL Split]** activiteit om ondergroepen tot stand te brengen. U kunt externe gegevens gebruiken om de filtercriteria te bepalen aan gebruik.
 
-* **Externe database laden** - Gebruik de externe gegevens in de **[!UICONTROL Data loading (RDBMS)]** activiteit.
+* **Laad externe gegevensbestand** - gebruik de externe gegevens in de **[!UICONTROL Data loading (RDBMS)]** activiteit.
 
-* **Informatie en koppelingen toevoegen** - Gebruik de **[!UICONTROL Enrichment]** om aanvullende gegevens toe te voegen aan de werktabel van de werkstroom en aan een externe tabel. In deze context kan het gegevens uit een externe database gebruiken.
+* **Toevoegend informatie en verbindingen** - gebruik de **[!UICONTROL Enrichment]** activiteit om extra gegevens aan de werklijst van het werkschema, en verbindingen aan een externe lijst toe te voegen. In deze context kan het gegevens uit een externe database gebruiken.
 
 U kunt ook rechtstreeks een verbinding met een externe database definiëren vanuit alle hierboven vermelde workflowactiviteiten, voor een tijdelijk gebruik. In dit geval bevindt de database zich op een lokale externe database die alleen binnen de huidige workflow wordt gebruikt.
 
@@ -64,14 +64,14 @@ U kunt ook rechtstreeks een verbinding met een externe database definiëren vanu
 >
 >Dit type van configuratie moet slechts tijdelijk worden gebruikt om gegevens te verzamelen. De configuratie van de externe account verdient de voorkeur voor elk ander gebruik.
 
-In het dialoogvenster **[!UICONTROL Query]** activiteit, kunt u een tijdelijke verbinding aan een extern gegevensbestand als volgt bepalen:
+In de activiteit **[!UICONTROL Query]** kunt u bijvoorbeeld als volgt een tijdelijke verbinding met een externe database definiëren:
 
 1. Open de activiteit en klik op **[!UICONTROL Add data...]**
-1. Selecteer de **[!UICONTROL External data]** opties
-1. Selecteer de **[!UICONTROL Locally defining the data source]** option
+1. Selecteer de opties voor **[!UICONTROL External data]**
+1. Selecteer de optie **[!UICONTROL Locally defining the data source]**
 1. Selecteer de doeldatabase-engine in de vervolgkeuzelijst. Voer de naam van de server in en geef de verificatieparameters op. Geef ook de naam van de externe database op.
 1. Selecteer de tabel waarin de gegevens zijn opgeslagen. U kunt de naam van de tabel rechtstreeks in het desbetreffende veld invoeren of op het pictogram Bewerken klikken om de lijst met databasetabellen te openen.
-1. Klik op de knop **[!UICONTROL Add]** om een of meer afstemmingsvelden te definiëren tussen de externe databasegegevens en de gegevens in de Adobe Campaign-database. De **[!UICONTROL Edit expression]** pictogrammen van de **[!UICONTROL Remote field]** en **[!UICONTROL Local field]** geeft u toegang tot de lijst van gebieden van elk van de lijsten.
+1. Klik op de knop **[!UICONTROL Add]** om een of meerdere afstemmingsvelden te definiëren tussen de externe databasegegevens en de gegevens in de Adobe Campaign-database. Met de **[!UICONTROL Edit expression]** pictogrammen van de **[!UICONTROL Remote field]** en **[!UICONTROL Local field]** hebt u toegang tot de lijst met velden van elk van de tabellen.
 1. Geef zo nodig een filtervoorwaarde en de gegevenssorteermodus op.
-1. Selecteer de aanvullende gegevens die in de externe database moeten worden verzameld. Dubbelklik hiertoe op de velden die u wilt toevoegen om deze weer te geven in het dialoogvenster **[!UICONTROL Output columns]**.
-1. Klikken **[!UICONTROL Finish]** deze configuratie bevestigen.
+1. Selecteer de aanvullende gegevens die in de externe database moeten worden verzameld. Dubbelklik hiertoe op de velden die u wilt toevoegen om deze weer te geven in de **[!UICONTROL Output columns]** .
+1. Klik op **[!UICONTROL Finish]** om deze configuratie te bevestigen.

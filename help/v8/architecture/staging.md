@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Stapelmechanisme voor campagne-API
 
-In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), wordt het blasten van unitaire vraag niet geadviseerd met betrekking tot prestaties (latentie &amp; gelijktijdige). Tenzij u uiterst laag volume verzendt, moet de partijverrichting **&#x200B;**&#x200B;worden gebruikt. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
+In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), wordt het blasten van unitaire vraag niet geadviseerd met betrekking tot prestaties (latentie &amp; gelijktijdige). Tenzij u uiterst laag volume verzendt, moet de partijverrichting **** worden gebruikt. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
 
 De het opvoeren van de campagne capaciteit wordt toegelaten door gebrek op sommige ingebouwde schema&#39;s. Wij kunnen het op om het even welk douaneschema ook toelaten. Staging mechanisme in een notendop:
 
@@ -24,11 +24,11 @@ De het opvoeren van de campagne capaciteit wordt toegelaten door gebrek op sommi
 
 Sommige ingebouwde schema&#39;s zijn standaard gefaseerd, zoals nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
-API&#39;s van Campaign Classic v7 zijn nog steeds beschikbaar, maar kunnen niet profiteren van dit nieuwe staging-mechanisme: API-aanroepen gaan rechtstreeks naar de Cloud-database. Adobe raadt aan zoveel mogelijk gebruik te maken van het nieuwe staging-mechanisme om de algehele druk en latentie op de Campagne Cloud-database te verminderen.
+Campaign Classic v7-API&#39;s zijn nog steeds beschikbaar, maar kunnen geen baat hebben bij dit nieuwe staging-mechanisme: API-aanroepen gaan rechtstreeks naar de Cloud-database. Adobe raadt aan zoveel mogelijk gebruik te maken van het nieuwe staging-mechanisme om de algehele druk en latentie op de Campagne Cloud-database te verminderen.
 
 >[!CAUTION]
 >
->* Met dit nieuwe mechanisme, is de gegevenssynchronisatie voor kanaaloptout, abonnementen, abonnementen of mobiele registratie nu asynchroon **&#x200B;**.
+>* Met dit nieuwe mechanisme, is de gegevenssynchronisatie voor kanaaloptout, abonnementen, abonnementen of mobiele registratie nu asynchroon ****.
 >
 >* Staging is alleen van toepassing op schema&#39;s die zijn opgeslagen in de cloud-database. Laat het opvoeren op herhaalde schema&#39;s niet toe. Schakel Staging niet in voor lokale schema&#39;s. Staging niet inschakelen in een schema met werkstadia
 >

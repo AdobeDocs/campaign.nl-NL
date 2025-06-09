@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 36bb1e2c9e2391065360c3cd2ad97612373ec0c2
+exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 0%
 
 ---
-
 
 # SMS in een infrastructuur voor midsourcing {#sms-mid}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Deze documentatie is voor Adobe Campaign v8.7.2 en hoger.
 >
->Voor oudere versies, gelieve de [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up) te lezen.
+>Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up) te lezen.
 
 Voor het verzenden van SMS-leveringen met een infrastructuur voor midsourcing is het volgende vereist:
 

@@ -9,7 +9,7 @@ exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ De leveringssjablonen worden opgeslagen in de map **[!UICONTROL Resources > Temp
 
 1. Adobe Campaign **ingebouwde** leveringsmalplaatjes - ingebouwde malplaatjes zijn beschikbaar voor elk kanaal. Zij mogen niet worden gewijzigd of geschrapt. Zij omvatten een basisconfiguratie voor elk leveringskanaal. Als Beheerder, kunt u standaardwaarden plaatsen, of bepaalde functies beperken tot eind - gebruikers, zoals het wijzigen van de volgende parameters, afzender e-mailadressen, en meer. Ingebouwde sjablonen worden vet weergegeven in de lijst met sjablonen.
 
-1. **leveringsmalplaatjes van de Douane van 0&rbrace; &lbrace;- als Beheerder van Adobe Campaign, kunt u nieuwe leveringsmalplaatjes tot stand brengen.** De beste manier is om een ingebouwde sjabloon te dupliceren en bij te werken in plaats van een geheel nieuwe sjabloon te maken. U kunt bijvoorbeeld een sjabloon voor e-maillevering configureren. Wanneer gebruikers een bezorging maken op basis van deze sjabloon, hoeven ze alleen de tekst of HTML-inhoud in te voeren. Alle andere instellingen zijn al gedefinieerd.
+1. **leveringsmalplaatjes van de Douane van 0} {- als Beheerder van Adobe Campaign, kunt u nieuwe leveringsmalplaatjes tot stand brengen.** De beste manier is om een ingebouwde sjabloon te dupliceren en bij te werken in plaats van een geheel nieuwe sjabloon te maken. U kunt bijvoorbeeld een sjabloon voor e-maillevering configureren. Wanneer gebruikers een bezorging maken op basis van deze sjabloon, hoeven ze alleen de tekst of HTML-inhoud in te voeren. Alle andere instellingen zijn al gedefinieerd.
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ Volg onderstaande stappen om een levering naar een sjabloon om te zetten:
 
 >[!NOTE]
 >
->Om configuratiefouten te vermijden, adviseert de Adobe dat u [ een ingebouwd malplaatje ](#copy-an-existing-template) dupliceert en zijn eigenschappen eerder dan tot een nieuw malplaatje leidt.
+>Om configuratiefouten te vermijden, adviseert Adobe dat u [ een ingebouwd malplaatje ](#copy-an-existing-template) dupliceert en zijn eigenschappen eerder dan tot een nieuw malplaatje leidt.
 
 Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te configureren:
 
@@ -98,7 +98,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te con
 1. Van de **knoop van Eigenschappen**, pas de montages aan.
 1. In het **Algemene** lusje, bevestig of verander de plaatsen die in de **omslag van de Uitvoering** worden geselecteerd, **Omslag**, en **Verpletterend** drop-down menu&#39;s.
 1. Voltooi de **categorie van de Parameters van de E-mail** met uw e-mailonderwerp en gerichte bevolking.
-1. Voeg uw **inhoud van de HTML** toe om uw malplaatje te personaliseren, kunt u a [ spiegelpagina verbinding ](../send/mirror-page.md) en een unsubscription verbinding tonen.
+1. Voeg uw **inhoud van HTML** toe om uw malplaatje te personaliseren, kunt u de verbinding van de a [ spiegelpagina ](../send/mirror-page.md) en een unsubscription verbinding tonen.
 1. Selecteer het **lusje van de Voorproef**. In het **verpersoonlijking van de Test** drop-down menu, uitgezochte **Ontvanger** om uw malplaatje als gekozen profiel voor te vertonen.
 1. Klik **sparen**. Je template is nu klaar om te worden gebruikt in een levering.
 
@@ -121,7 +121,7 @@ Selecteer de leveringssjabloon die u wilt gebruiken en klik op **[!UICONTROL Ok]
 
 ### Een sjabloon uitvoeren {#execute-a-template}
 
-U kunt de uitvoering van een sjabloon rechtstreeks vanuit de sjabloonlijst starten zonder eerst een levering te maken. Het leveringsmalplaatje kan manueel, zoals hieronder gedetailleerd worden uitgevoerd, of door een gebeurtenis (uitgevoerd op een vastgestelde tijd, wanneer een dossier in de server, enz.) beschikbaar is, zoals die in [ wordt verklaard deze sectie ](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
+U kunt de uitvoering van een sjabloon rechtstreeks vanuit de sjabloonlijst starten zonder eerst een levering te maken. Het leveringsmalplaatje kan manueel, zoals hieronder gedetailleerd worden uitgevoerd, of door een gebeurtenis (uitgevoerd op een vastgestelde tijd, wanneer een dossier in de server, enz.) beschikbaar is, zoals die in [ wordt verklaard deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
 
 Voer de volgende stappen uit om een sjabloon handmatig uit te voeren:
 
@@ -147,12 +147,12 @@ De volgende video toont hoe u een sjabloon voor een ad-hoclevering kunt configur
 
 In de volgende video ziet u hoe u de eigenschappen van de leveringssjabloon instelt en wordt elke eigenschap in detail uitgelegd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443407?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### Hoe te om een ad hoc leveringsmalplaatje op te stellen
 
 In deze video wordt uitgelegd hoe u een sjabloon voor ad-hoce-maillevering kunt implementeren. In deze video wordt het verschil tussen een e-maillevering en een leveringsworkflow uitgelegd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444963?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-De extra Campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"} .
+De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

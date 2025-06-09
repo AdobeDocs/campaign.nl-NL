@@ -20,12 +20,12 @@ Met de SDK&#39;s voor campagnes voor iOS en Android kunt u de integratie van uw 
 
 Android en iOS steunden versies, en de compatibele versies van SDKs van de Campagne voor Campagne v8 zijn vermeld in de [ matrijs van de Verenigbaarheid ](../start/compatibility-matrix.md#MobileSDK).
 
-Als beheerder van de Campagne, kunt u Campagne SDKs van de [ Distributie van de Software van Experience Cloud downloaden ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Voor meer informatie, contacteer [&#128279;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) de Zorg van de Klant van 0&rbrace; Adobe.
+Als beheerder van de Campagne, kunt u Campagne SDKs van de [ Distributie van de Software van Experience Cloud downloaden ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Voor meer informatie, contacteer ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) de Zorg van de Klant van 0} Adobe.[
 
 
 >[!NOTE]
 >
->U kunt Adobe Experience Platform Mobile SDK ook gebruiken door de extensie Adobe Campaign te configureren in de gebruikersinterface voor gegevensverzameling. [ leer meer in de documentatie van de Ontwikkelaar ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"} .
+>U kunt Adobe Experience Platform Mobile SDK ook gebruiken door de extensie Adobe Campaign te configureren in de gebruikersinterface voor gegevensverzameling. [ leer meer in de documentatie van de Ontwikkelaar ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 >
 
 ## Integratie-instellingen declareren {#declaring-integration-settings}
@@ -886,7 +886,7 @@ Op dit niveau moet u:
 
 * Wijs de extensie van de inhoud toe aan de categorie die door Adobe Campaign is verzonden:
 
-  Als u uw mobiele toepassing een beeld wilt tonen, kunt u de categoriewaarde aan &quot;beeld&quot;in Adobe Campaign en in uw mobiele toepassing plaatsen, creeert u een berichtuitbreiding met de **parameter 0&rbrace; UNNotificationExtensionCategory die aan &quot;beeld&quot;wordt geplaatst.** Wanneer het pushbericht op het apparaat wordt ontvangen, wordt de extensie aangeroepen op basis van de gedefinieerde categoriewaarde.
+  Als u uw mobiele toepassing een beeld wilt tonen, kunt u de categoriewaarde aan &quot;beeld&quot;in Adobe Campaign en in uw mobiele toepassing plaatsen, creeert u een berichtuitbreiding met de **parameter 0} UNNotificationExtensionCategory die aan &quot;beeld&quot;wordt geplaatst.** Wanneer het pushbericht op het apparaat wordt ontvangen, wordt de extensie aangeroepen op basis van de gedefinieerde categoriewaarde.
 
 * De lay-out voor uw melding definiëren
 

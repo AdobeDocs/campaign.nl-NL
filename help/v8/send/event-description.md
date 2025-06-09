@@ -1,6 +1,6 @@
 ---
 title: Beschrijving van gebeurtenis begrijpen
-description: Leer hoe de transactie overseinengebeurtenissen in Adobe Campaign Classic gebruikend de SOAP methodes worden beheerd
+description: Meer informatie over het beheren van transactieberichtgebeurtenissen in Adobe Campaign Classic met de SOAP-methoden
 feature: Transactional Messaging
 role: User
 level: Intermediate
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Transactioneel overseinen baseert zich op het de gegevensmodel van Adobe Campaign, en gebruikt twee extra afzonderlijke lijsten. Deze lijsten, **NmsRtEvent** en **NmsBatchEvent**, bevatten de zelfde gebieden en laten u gebeurtenissen in real time aan de ene kant, en partijgebeurtenissen aan de andere kant beheren.
 
-## SOAP {#soap-methods}
+## Methoden van SOAP {#soap-methods}
 
-Deze sectie detailleert de SOAP methodes verbonden aan de schema&#39;s van de transactionele berichtmodule.
+In deze sectie worden de SOAP-methoden beschreven die zijn gekoppeld aan de schema&#39;s van de module Transactieberichten.
 
-Twee **PushEvent** of **PushEvents** SOAP methodes zijn verbonden met twee **nms:rtEvent** en **nms:BatchEvent** dataschemas. Het is het informatiesysteem dat bepaalt of een gebeurtenis een &quot;partij&quot;of &quot;real time&quot;type is.
+Twee **PushEvent** of **PushEvents** de methodes van SOAP zijn verbonden met twee **nms:rtEvent** en **nms:BatchEvent** dataschemas. Het is het informatiesysteem dat bepaalt of een gebeurtenis een &quot;partij&quot;of &quot;real time&quot;type is.
 
 * **PushEvent** laat u één enkele gebeurtenis in het bericht opnemen,
 * **PushEvents** laat u een reeks gebeurtenissen in het bericht opnemen.
@@ -32,7 +32,7 @@ Het WSDL-pad voor toegang tot beide methoden is:
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** om tot het typeschema in real time toegang te hebben.
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** om tot het batchtypeschema toegang te hebben.
 
-Beide methoden bevatten een **`<urn:sessiontoken>`** -element voor het aanmelden bij de module voor transactieberichten. Wij adviseren gebruikend een identificatiemethode via vertrouwde op IP adressen. Om het zittingsteken terug te winnen, voer een opening van een sessie SOAP vraag uit, dan krijgt het teken gevolgd door een logoff. Gebruik het zelfde teken voor verscheidene vraag van RT. De voorbeelden inbegrepen in deze sectie gebruiken de methode van het zittingsteken die geadviseerd is.
+Beide methoden bevatten een **`<urn:sessiontoken>`** -element voor het aanmelden bij de module voor transactieberichten. Wij adviseren gebruikend een identificatiemethode via vertrouwde op IP adressen. Om het zittingsteken terug te winnen, voer een openings van een sessievraag van SOAP uit, dan krijgt het teken gevolgd door een afmelding. Gebruik het zelfde teken voor verscheidene vraag van RT. De voorbeelden inbegrepen in deze sectie gebruiken de methode van het zittingsteken die geadviseerd is.
 
 Als u een taakgebalanceerde server gebruikt, kunt u de gebruiker/Wachtwoord authentificatie (op het niveau van het bericht van RT) gebruiken. Voorbeeld:
 
@@ -151,13 +151,13 @@ Gegevensvoorbeeld:
     </ctx>
 ```
 
-## Informatie die door de SOAP wordt geretourneerd {#information-returned-by-the-soap-call}
+## Informatie die wordt geretourneerd door de SOAP-oproep {#information-returned-by-the-soap-call}
 
 Wanneer Adobe Campaign een gebeurtenis ontvangt, genereert het een unieke retour-id. Dit is de id van de gearchiveerde versie van de gebeurtenis.
 
 >[!IMPORTANT]
 >
->Bij ontvangst van SOAP vraag, verifieert Adobe Campaign het formaat van het e-mailadres. Als een e-mailadres onjuist is opgemaakt, wordt een fout geretourneerd.
+>Bij het ontvangen van SOAP-aanroepen verifieert Adobe Campaign de indeling van het e-mailadres. Als een e-mailadres onjuist is opgemaakt, wordt een fout geretourneerd.
 
 * Voorbeeld van een id die door de methode wordt geretourneerd wanneer de gebeurtenisverwerking is geslaagd:
 

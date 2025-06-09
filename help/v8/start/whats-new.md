@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Adobe Campaign v8 is ontworpen voor kanaalaanbieders die de beste cloudoplossing in hun klasse nodig hebben voor het beheer van campagnes over meerdere kanalen op bedrijfsniveau. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma&#39;s met een centrale focus op batchgeoriënteerde reizen. Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 
-Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Het is beschikbaar als **Beheerde Cloud Service** die diensten combineert met proactief toezicht en tijdige aanpassing. Meer informatie over door campagne beheerde Cloud Servicen [in deze sectie](#acms-desc).
+Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Het is beschikbaar als a **Beheerde Cloud Service** die de diensten met pro-actief toezicht en het geschikte veranderen combineert. Leer meer over Campagne Beheerde Diensten van de Wolk [ in deze sectie ](#acms-desc).
 
 ![](assets/home-page.png)
 
@@ -66,20 +66,20 @@ U kunt ook voorspellende optimalisatie van de verzendtijd en voorspellende betro
 [Meer informatie over de integratie van campagnes](../connect/integration.md)
 
 
-### Beheerde Cloud Servicen {#acms-desc}
+### Beheerde Cloud Services {#acms-desc}
 
-Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service, die pro-actief toezicht, het geschikte alarm, en de dienstbestuur verstrekt. Adobe Managed Cloud Service biedt marketers een flexibelere, veiligere en schaalbare oplossing voor campagnebeheer over meerdere kanalen met lage totale eigendomskosten. Het nieuwe aanbod combineert services met proactief toezicht en tijdige waarschuwing.
+Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service die proactief toezicht, tijdige waarschuwingen en servicecontrole biedt. Adobe Managed Cloud Service biedt marketers een flexibelere, veiligere en schaalbaardere oplossing voor campagnebeheer over meerdere kanalen met lage totale eigendomskosten. Het nieuwe aanbod combineert services met proactief toezicht en tijdige waarschuwing.
 
-De beheerde de dienstenbenadering laat marketers toe om uit de operationele schaal en de economie van wolkeninfrastructuur zonder de behoefte aan zware steun van interne middelen van IT voordeel te halen. De Adobe adviserende en implementatieteams werken met u samen om uw marketing plannen, bestaande praktijken, gegevensvereisten, en overseinenvolume te beoordelen, en dan adviseren zij de meest aangewezen dienst, de steun, en de leveringspakketten. Het Adobe Campaign Managed Cloud Services-team kan dan de prestaties van de campagne, de reputatie van het merk, de ervaringen van de klant en nog veel meer controleren en rapporteren.
+De beheerde de dienstenbenadering laat marketers toe om uit de operationele schaal en de economie van wolkeninfrastructuur zonder de behoefte aan zware steun van interne middelen van IT voordeel te halen. De het raadplegen en implementatieteams van Adobe werken met u samen om uw marketing plannen, bestaande praktijken, gegevensvereisten, en overseinenvolume te beoordelen, en dan adviseren zij de meest aangewezen dienst, de steun, en de leverbaarheidspakketten. Het Adobe Campaign Managed Cloud Services-team kan dan de prestaties van de campagne, de reputatie van het merk, de ervaringen van de klant en nog veel meer controleren en rapporteren.
 
-[!BADGE PDF]{type=Informative}[Lees deze whitepaper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} voor meer informatie over de bedrijfswaarde van Adobe Campaign Managed Cloud Services.
+[!BADGE  PDF ]{type=Informative} [ las dit whitepaper ](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} om meer over de bedrijfswaarde van Adobe Campaign Managed Cloud Services te leren.
 
 De nieuwe cloudarchitectuur stelt Campagne in staat om processen te stroomlijnen, kosten te verlagen, risico&#39;s te beheren en de gegevensbeveiliging te verbeteren. Uw Campagne v8-omgeving wordt geleverd met een speciale Virtual Private Cloud (VPC) die vooraf voor u is geconfigureerd.
 
 
 >[!AVAILABILITY]
 >
->* Campagne v8 is **alleen** beschikbaar als Beheerde Cloud Service, en kan niet op een ongebouw of hybride milieu&#39;s worden opgesteld.
+>* Campagne v8 is **slechts** beschikbaar als Beheerde Cloud Service, en kan niet op een op-gebouw of hybride milieu&#39;s worden opgesteld.
 >
 >* Geautomatiseerde migratie vanuit een bestaande Campaign Classic v7-omgeving is nog niet beschikbaar.
 
@@ -88,23 +88,23 @@ De nieuwe cloudarchitectuur stelt Campagne in staat om processen te stroomlijnen
 
 Adobe Campaign kan nu databasetechnologieën op cloudschaal gebruiken om de schaal en snelheid ervan aanzienlijk te verbeteren.
 
-[Campagne v8 Enterprise](../architecture/enterprise-deployment.md) brengt het concept van **Volledige Federale Toegang van Gegevens** (FFDA): alle gegevens zijn nu extern beschikbaar in de Cloud Database. Met dit nieuwe aanbod vereenvoudigt Campagne v8 het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. [!DNL Snowflake] Dit is de Campagne Cloud Database, die u snelheid en duurzaamheid biedt: geen overbelasting van de pieken van de systeemactiviteit. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
+[ de Onderneming van de Campagne v8 ](../architecture/enterprise-deployment.md) brengt het concept **Volledige Federatieve Toegang van Gegevens** (FFDA): alle gegevens zijn nu ver op het Gegevensbestand van de Wolk. Met dit nieuwe aanbod vereenvoudigt Campagne v8 het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. [!DNL Snowflake] is de Campagne Cloud-database, die u snelheid en duurzaamheid biedt: geen overbelasting van de pieken in de systeemactiviteit. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
 
 [Meer informatie over de implementatie van Enterprise (FFDA)](../architecture/enterprise-deployment.md)
 
 
 ## Self-service admin interface{#self-service-admin}
 
-Als productbeheerder kunt u instellingen beheren en het gebruik van elk van uw Campagne v8-instanties bijhouden met **Campagne**.
+Als productbeheerder, kunt u montages beheren en gebruik van elk van uw Instanties van de Campagne v8 met **het Controlebord van de Campagne** volgen.
 
 Via een intuïtieve gebruikersinterface kunnen beheerders het gebruik van belangrijke elementen controleren, geavanceerde taken uitvoeren, zoals IP-adressen, maken vermelding, SFTP-opslagcontrole, sleutelbeheer en meer mogelijk. Deze zelfbedieningsinterface biedt u meer flexibiliteit en helpt u:
 
-* Breng snel zelf wijzigingen aan in de instellingen zonder de ondersteuning voor Adoben te vragen
+* Breng snel zelf wijzigingen aan in de instellingen zonder contact op te nemen met Adobe Support
 * Configureer instellingen op basis van uw verschillende bedrijfsbehoeften op verschillende momenten
 * Verbeter veiligheid door toegangsinstellingen op een behoefte-door-behoefte basis te controleren
 
 ![](assets/subdomain1.png)
 
-[Meer informatie over het configuratiescherm voor campagnes](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
+[ leer meer over het Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
 
 

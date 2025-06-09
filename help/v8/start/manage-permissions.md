@@ -94,7 +94,7 @@ Adobe Campaign komt met ingebouwde **productprofielen** die worden bepaald wanne
 
 ![](assets/ootb-product-profiles.png)
 
-Deze productprofielen passen met de exploitantgroepen van de Campagne **&#x200B;**&#x200B;aan. De standaardexploitantgroepen en hun [ genoemde rechten ](#use-named-rights) zijn hieronder vermeld:
+Deze productprofielen passen met de exploitantgroepen van de Campagne **** aan. De standaardexploitantgroepen en hun [ genoemde rechten ](#use-named-rights) zijn hieronder vermeld:
 
 1. **[!UICONTROL Administrator]** (admin)
 
@@ -186,7 +186,7 @@ Adobe Campaign wordt geleverd met een reeks benoemde rechten waarmee u de machti
 Rechten verlenen machtigingen aan:
 
 * Bewerkingen uitvoeren
-Bijvoorbeeld, analyseert **&#x200B;**&#x200B;knoop in de redacteur van de Levering wordt geactiveerd voor leden van de **3&rbrace; groep van de Exploitant van de Levering die** Gelegde Levering **hebben**
+Bijvoorbeeld, analyseert **** knoop in de redacteur van de Levering wordt geactiveerd voor leden van de **3} groep van de Exploitant van de Levering die** Gelegde Levering **hebben**
 
 * Toegang tot mappen
 Lidmaatschap van groepen met operatoren kan toegangsrechten verlenen of beperken tot mappen door de beveiligingsinstellingen voor mappen te wijzigen. [Meer informatie](folder-permissions.md#restrict-access-to-a-folder).

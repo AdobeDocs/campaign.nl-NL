@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: dde669980493b996c80baacc8726db87353585ad
+exl-id: eda6934a-e48a-4932-8c88-588f661005d6
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
 workflow-type: tm+mt
 source-wordcount: '4439'
 ht-degree: 0%
 
 ---
-
 
 # Een SMPP-verbinding valideren {#validate-smpp-connection}
 
@@ -141,7 +141,7 @@ Zodra alle controles volledig zijn, is de laatste actie te doen om uitgebreide s
 
 ### Algemene procedure voor probleemoplossing {#sms-general-troubleshooting}
 
-De sms-connector bestaat uit drie entiteiten: de SMPP-provider, de Adobe en u.
+De SMS-connector bestaat uit drie entiteiten: de SMPP-provider, Adobe en u.
 De belangrijkste deskundige van SMS is de leverancier SMPP, zodat zouden zij voor alle verkeer-gerelateerde kwesties van SMS (verbindingskwesties, verloren berichten, coderingsproblemen, landspecifieke regels, enz.) moeten worden betrokken.
 
 #### Speciaal proces inschakelen {#sms-dedicated-process}

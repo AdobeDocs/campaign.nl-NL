@@ -18,14 +18,14 @@ ht-degree: 2%
 
 De interactie werkt met twee soorten aanbiedingsmilieu&#39;s:
 
-* **[!UICONTROL Design]** bieden omgevingen aan die aanbiedingen bevatten die worden bewerkt en kunnen worden gewijzigd. Deze aanbiedingen zijn niet door de goedkeuringscyclus geweest en niet geleverd aan contacten.
-* **[!UICONTROL Live]** bieden omgevingen aan die goedgekeurde aanbiedingen bevatten terwijl deze aan contactpersonen worden aangeboden. De aanbiedingen in deze omgeving zijn alleen-lezen.
+* **[!UICONTROL Design]** biedt omgevingen die aanbiedingen bevatten die worden bewerkt en kunnen worden gewijzigd. Deze aanbiedingen zijn niet door de goedkeuringscyclus geweest en niet geleverd aan contacten.
+* **[!UICONTROL Live]** biedt omgevingen die goedgekeurde aanbiedingen bevatten terwijl deze aan contactpersonen worden aangeboden. De aanbiedingen in deze omgeving zijn alleen-lezen.
 
 ![](assets/offer_environments_overview_001.png)
 
-Elk **[!UICONTROL Design]** milieu is gekoppeld aan een **[!UICONTROL Live]** milieu. Wanneer een aanbieding is voltooid, worden de inhoud en de subsidiabiliteitsregels ervan onderworpen aan een goedkeuringscyclus. Zodra deze cyclus is voltooid, wordt het desbetreffende aanbod automatisch aan de **[!UICONTROL Live]** milieu. Vanaf dat moment is het beschikbaar voor levering.
+Elke **[!UICONTROL Design]** -omgeving is gekoppeld aan een **[!UICONTROL Live]** -omgeving. Wanneer een aanbieding is voltooid, worden de inhoud en de subsidiabiliteitsregels ervan onderworpen aan een goedkeuringscyclus. Zodra deze cyclus is voltooid, wordt de betreffende aanbieding automatisch opgesteld aan het **[!UICONTROL Live]** milieu. Vanaf dat moment is het beschikbaar voor levering.
 
-Campagne wordt standaard geleverd met een **[!UICONTROL Design]** milieu en **[!UICONTROL Live]** omgeving die eraan gekoppeld is. Beide omgevingen zijn vooraf geconfigureerd om de [ingebouwde tabel voor ontvangers](../dev/datamodel.md#ootb-profiles).
+Campagne wordt standaard geleverd met een **[!UICONTROL Design]** -omgeving en een **[!UICONTROL Live]** -omgeving die eraan gekoppeld zijn. Beide milieu&#39;s worden pre-gevormd om de [ ingebouwde ontvankelijke lijst ](../dev/datamodel.md#ootb-profiles) te richten.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Campagne wordt standaard geleverd met een **[!UICONTROL Design]** milieu en **[!
 
 ![](assets/offer_environments_overview_002.png)
 
-Leveringsmanagers kunnen alleen de **[!UICONTROL Live]** milieu en hefboomwerking bieden aan om hen te leveren. Aanbiedingsmanagers kunnen de functie **[!UICONTROL Design]** en bekijk de **[!UICONTROL Live]** milieu. [Meer informatie](interaction-operators.md)
+Leveringsmanagers kunnen alleen de **[!UICONTROL Live]** -omgeving en de hefboomfuncties bekijken om deze te leveren. Aanbiedingsmanagers kunnen de **[!UICONTROL Design]** -omgeving weergeven en gebruiken en de **[!UICONTROL Live]** -omgeving weergeven. [Meer informatie](interaction-operators.md)
 
 ## Een omgeving maken voor anonieme interacties{#create-an-offer-environment}
 
@@ -41,11 +41,11 @@ Door gebrek, komt de Campagne met een ingebouwde milieu om de ontvankelijke lijs
 
 Volg de onderstaande stappen:
 
-1. Bladeren naar **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]** klikt u met de rechtermuisknop op de doeltoewijzing die u wilt gebruiken en selecteert u **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**.
+1. Blader naar **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]** , klik met de rechtermuisknop op de doeltoewijzing die u wilt gebruiken en selecteer **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]** .
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. Klikken **[!UICONTROL Next]**, selecteert u de **[!UICONTROL Generate a storage schema for propositions]** en klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Next]** , selecteer de optie **[!UICONTROL Generate a storage schema for propositions]** en klik op **[!UICONTROL Save]** .
 
    ![](assets/offer_env_anonymous_002.png)
 
@@ -53,16 +53,16 @@ Volg de onderstaande stappen:
    >
    >Als de optie al is ingeschakeld, schakelt u deze uit en controleert u deze opnieuw.
 
-1. Adobe Campaign creëert twee omgevingen - **[!UICONTROL Design]** en **[!UICONTROL Live]** - met gerichte informatie uit de eerder ingeschakelde doeltoewijzing. Het milieu wordt preconfigured met het richten informatie.
+1. Adobe Campaign maakt twee omgevingen - **[!UICONTROL Design]** en **[!UICONTROL Live]** - met doelgegevens uit de eerder ingeschakelde doeltoewijzing. Het milieu wordt preconfigured met het richten informatie.
 
-Als u hebt geactiveerd **[!UICONTROL Visitor]** de **[!UICONTROL Environment dedicated to incoming anonymous interactions]** wordt automatisch ingeschakeld in de omgeving **[!UICONTROL General]** tab.
+Als u **[!UICONTROL Visitor]** mapping hebt geactiveerd, wordt het vak **[!UICONTROL Environment dedicated to incoming anonymous interactions]** automatisch ingeschakeld op het tabblad **[!UICONTROL General]** van de omgeving.
 
 Met deze optie kunt u anonieme interactiespecifieke functies activeren, vooral wanneer u omgevingen configureert die spaties bieden. U kunt opties ook vormen die u toestaan om van een &quot;geïdentificeerd&quot;milieu aan een &quot;anonieme&quot;milieu over te schakelen.
 
-U kunt bijvoorbeeld een koppeling maken tussen een ontvankelijke omgeving en een aanbiedingsruimte (geïdentificeerd contact) die overeenkomt met een bezoekersomgeving (niet-geïdentificeerd contact). Op deze manier worden verschillende aanbiedingen ter beschikking gesteld van de contactpersoon, afhankelijk van het feit of deze contactpersoon al dan niet wordt geïdentificeerd. Raadpleeg voor meer informatie hierover [Aanbiedingsruimten maken](interaction-offer-spaces.md).
+U kunt bijvoorbeeld een koppeling maken tussen een ontvankelijke omgeving en een aanbiedingsruimte (geïdentificeerd contact) die overeenkomt met een bezoekersomgeving (niet-geïdentificeerd contact). Op deze manier worden verschillende aanbiedingen ter beschikking gesteld van de contactpersoon, afhankelijk van het feit of deze contactpersoon al dan niet wordt geïdentificeerd. Voor meer op dit, verwijs naar [ Creërend aanbiedingsruimten ](interaction-offer-spaces.md).
 
 ![](assets/offer_env_anonymous_003.png)
 
 >[!NOTE]
 >
->Voor meer informatie over anonieme interacties op een binnenkomend kanaal, verwijs naar [Anonieme interacties](anonymous-interactions.md).
+>Voor meer informatie over anonieme interactie op een binnenkomend kanaal, verwijs naar [ Anonieme interactie ](anonymous-interactions.md).

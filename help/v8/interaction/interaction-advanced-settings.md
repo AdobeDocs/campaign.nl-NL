@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Geavanceerde instellingen van de module Interactie
 
-De de moduleconfiguratie van de Interactie van de campagne wordt gereserveerd aan deskundige gebruikers. Geavanceerde instellingen worden gedetailleerd in **Campaign Classic v7-documentatie**:
+De de moduleconfiguratie van de Interactie van de campagne wordt gereserveerd aan deskundige gebruikers. De geavanceerde montages zijn gedetailleerd in **Campaign Classic v7 documentatie**:
 
-Meer informatie over het gebruik van aanvullende contextafhankelijke gegevens in aanbiedingen [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html?lang=nl-NL){target="_blank"}.
+Leer hoe te om extra contextuele gegevens in aanbiedingen [ in deze pagina ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html){target="_blank"} te gebruiken.
 
-Leer hoe u de criteria om in aanmerking te komen voor uw aanbiedingen verrijkt [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=nl-NL){target="_blank"}.
+Leer hoe te om de toelatingscriteria van uw aanbiedingen [ in deze pagina ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"} te verrijken.
 
-Leer stappen om een testomgeving te maken  [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html?lang=nl-NL){target="_blank"}.
+Leer stappen om een testmilieu [ in deze pagina ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html){target="_blank"} tot stand te brengen.
 
-Leer hoe u haken kunt gebruiken om het standaardgedrag van de Offertenengine te wijzigen [op deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html?lang=nl-NL){target="_blank"}.
+Leer hoe te om haken te gebruiken om het standaardgedrag van de motor van de Aanbieding [ in deze pagina ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html){target="_blank"} te wijzigen.
 

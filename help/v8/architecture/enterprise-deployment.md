@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # [!DNL Campaign] Implementatie van FFDA {#gs-ac-ffda}
 
-Door het leveraging [[!DNL Snowflake] ](https://www.snowflake.com/){target="_blank"} , een technologie van het wolkengegevensbestand, verbetert de plaatsing van de Volledige Federatieve Toegang van de Onderneming van Adobe Campaign (FFDA) dramatisch zijn schaal en snelheid, met de capaciteit om een significant aantal klantenprofielen, evenals veel hogere leveringspercentages en transacties per uur te beheren.
+Door [[!DNL Snowflake] ](https://www.snowflake.com/){target="_blank"}, een technologie van het wolkengegevensbestand, de plaatsing van de Volledige Federale Toegang van de Onderneming van Adobe Campaign (FFDA) dramatisch verbetert zijn schaal en snelheid, met de capaciteit om een beduidend aantal klantenprofielen, evenals veel hogere leveringspercentages en transacties per uur te beheren.
 
 ## Voordelen {#ffda-benefits}
 
@@ -48,7 +48,7 @@ De algemene communicatie tussen servers en processen wordt uitgevoerd volgens he
 ![](assets/architecture.png)
 
 * De uitvoerings en stuitbeheersmodules zijn onbruikbaar gemaakt op de instantie.
-* De toepassing wordt gevormd om berichtuitvoering op een verre &quot;midsourced&quot;server uit te voeren die gebruikend SOAP vraag (over HTTP of HTTPS) wordt gedreven.
+* De toepassing wordt gevormd om berichtuitvoering op een verre &quot;midsourced&quot;server uit te voeren die gebruikend de vraag van SOAP (over HTTP of HTTPS) wordt gedreven.
 
 De database [!DNL Snowflake] aan de marketingzijde wordt gebruikt voor:
 
@@ -66,7 +66,7 @@ De PostSQL-database van de marketinginstantie wordt gebruikt om:
 * Sla alle ingebouwde referentietabellen (opsommingen, landen, enz.) op die worden gerepliceerd naar [!DNL Snowflake] .
 
   U kunt echter niet:
-   * Maak aanpassingen voor klantgegevens, maak bijvoorbeeld geen huishoudelijke tabel in PostSQL, maar alleen in Snowflake
+   * Maak aanpassingen voor klantgegevens, maak bijvoorbeeld geen huishoudelijke tabel in PostgreSQL, maar alleen in Snowflake
    * Sla leveringslogboeken, trackinglogboeken enz. op. inzake de FFDA-doeldimensie.
    * groot gegevensvolume opslaan.
 
@@ -98,7 +98,7 @@ Een specifieke technische workflow behandelt de replicatie van tabellen die aan 
 >[!NOTE]
 >
 > Er zijn meerdere replicatiebeleid gemaakt op basis van de grootte van de tabel (XS, XL, enz.).
-> Sommige tabellen worden in real-time gerepliceerd, andere worden per uur gerepliceerd. Sommige tabellen bevatten incrementele updates, andere worden volledig bijgewerkt.
+> > Sommige tabellen worden in real-time gerepliceerd, andere worden per uur gerepliceerd. Sommige tabellen bevatten incrementele updates, andere worden volledig bijgewerkt.
 >
 
 [Meer informatie over gegevensreplicatie](replication.md)
@@ -107,11 +107,11 @@ Een specifieke technische workflow behandelt de replicatie van tabellen die aan 
 
 De voorwerpen van de campagne v8 gebruiken nu a **Universally Unique identiteitskaart (UUID)**, die voor onbeperkte unieke waarden toestaat om gegevens te identificeren.
 
-Deze id is gebaseerd op een tekenreeks en is niet opeenvolgend. De primaire sleutel is geen numerieke waarde in Campagne v8, en u moet **auto** gebruiken en **automatische 3&rbrace; attributen in uw schema&#39;s.**
+Deze id is gebaseerd op een tekenreeks en is niet opeenvolgend. De primaire sleutel is geen numerieke waarde in Campagne v8, en u moet **auto** gebruiken en **automatische 3} attributen in uw schema&#39;s.**
 
-In Campaign Classic v7 en vroegere versies, wordt de eenheid van een sleutel binnen een schema (d.w.z. lijst) behandeld op het niveau van de gegevensbestandmotor. Meer in het algemeen, omvatten de Klassieke motoren van het Gegevensbestand zoals PostSQL, Oracle, of SQL Server een inheems mechanisme om het opnemen van gedupliceerde rijen te verhinderen die op een kolom of een reeks kolommen via primaire sleutels en/of unieke indexen worden gebaseerd. De gedupliceerde identiteitskaart bestaat niet in deze versies wanneer de juiste index en de primaire sleutels op het niveau van het Gegevensbestand worden geplaatst.
+In Campaign Classic v7 en eerdere versies wordt de uniciteit van een sleutel binnen een schema (dat wil zeggen tabel) verwerkt op het niveau van de database-engine. Meer in het algemeen, omvatten de Klassieke motoren van het Gegevensbestand zoals PostgreSQL, Oracle, of SQL Server een inheems mechanisme om het opnemen van gedupliceerde rijen te verhinderen die op een kolom of een reeks kolommen via primaire sleutels en/of unieke indexen worden gebaseerd. De gedupliceerde identiteitskaart bestaat niet in deze versies wanneer de juiste index en de primaire sleutels op het niveau van het Gegevensbestand worden geplaatst.
 
-Adobe Campaign v8 wordt geleverd met Snowflake als de kerndatabase. Aangezien het dramatisch de schaal van vragen verhoogt, verstrekt de verdeelde architectuur van het gegevensbestand van de Snowflake dergelijke mechanismen om dan de eenheid van een sleutel binnen een lijst te beheren te dwingen. Als gevolg hiervan verhindert niets met Adobe Campaign v8 de inname van dubbele sleutels in een tabel. Eindgebruikers zijn nu verantwoordelijk voor de consistentie van Toetsen in de Adobe Campaign-database. [Meer informatie](keys.md)
+Adobe Campaign v8 wordt geleverd met Snowflake als de kerndatabase. Aangezien het dramatisch de schaal van vragen verhoogt, verstrekt de verdeelde architectuur van het gegevensbestand van Snowflake dergelijke mechanismen om dan de eenheid van een sleutel binnen een lijst te beheren te handhaven. Als gevolg hiervan verhindert niets met Adobe Campaign v8 de inname van dubbele sleutels in een tabel. Eindgebruikers zijn nu verantwoordelijk voor de consistentie van Toetsen in de Adobe Campaign-database. [Meer informatie](keys.md)
 
 ### Beschikbaarheid van functies {#feature-availability}
 

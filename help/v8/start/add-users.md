@@ -14,29 +14,31 @@ ht-degree: 2%
 
 # Aan de slag met machtigingen
 
-In Adobe Campaign zijn gebruikers **operatoren** en **groepen met operatoren** vertegenwoordigen gebruikersrollen.
+In Adobe Campaign, zijn de gebruikers **exploitanten** en **exploitantgroepen** vertegenwoordigen gebruikersrollen.
 
-Een operator is een Adobe Campaign-gebruiker die gemachtigd is om zich aan te melden en handelingen uit te voeren. Operatoren worden standaard opgeslagen in de **[!UICONTROL Administration > Access management > Operators]** knooppunt.
+Een operator is een Adobe Campaign-gebruiker die gemachtigd is om zich aan te melden en handelingen uit te voeren. Operatoren worden standaard opgeslagen in het knooppunt **[!UICONTROL Administration > Access management > Operators]** .
 
-Adobe Campaign wordt geleverd met ingebouwde groepen operatoren, zoals Campagne Managers of Workflowsupervisors. Meer informatie over machtigingen in [deze sectie](../start/gs-permissions.md)
+Adobe Campaign wordt geleverd met ingebouwde groepen operatoren, zoals Campagne Managers of Workflowsupervisors. Leer meer over toestemmingen in [ deze sectie ](../start/gs-permissions.md)
 
-Als lid van een exploitantgroep, heeft een gebruiker rechten om verrichtingen uit te voeren, genoemd &quot;Benoemde Rechten&quot;, en heeft toegang tot gegevens, die in omslagen in **Verkenner** weergeven. Een operator kan lid zijn van meerdere groepen operatoren: rechten en toegangsmachtigingen zijn additief.
+Als lid van een exploitantgroep, heeft een gebruiker rechten om verrichtingen uit te voeren, genoemd &quot;Benoemde Rechten&quot;, en heeft toegang tot gegevens, die in omslagen in de **mening van de Ontdekkingsreiziger** bevat is. Een operator kan lid zijn van meerdere groepen operatoren: rechten en toegangsmachtigingen zijn additief.
 
 Rechten verlenen machtigingen aan:
 
-* Voer bijvoorbeeld bewerkingen uit op de knop **Analyseren** in de Editor voor levering wordt geactiveerd voor leden van de **Leveringsoperator** groep met de **Levering voorbereiden** Benoemd rechts
+* Bewerkingen uitvoeren
+Bijvoorbeeld, analyseert **** knoop in de redacteur van de Levering wordt geactiveerd voor leden van de **3} groep van de Exploitant van de Levering die** Gelegde Levering **hebben**
 
-* De toegang tot omslagen Lidmaatschap van de Groepen van de Exploitant kan toegangsrechten tot omslagen verlenen of beperken, door de veiligheidsmontages op omslagen te veranderen. Meer informatie in [deze pagina](../start/folder-permissions.md). Het kan bijvoorbeeld invloed hebben op: **Schrijftoegang** nieuwe entiteiten te creëren (zoals leveringen, profielen, enz.); **Leestoegang** entiteiten te gebruiken; **Toegang verwijderen** entiteiten verwijderen.
+* Toegang tot mappen
+Lidmaatschap van groepen met operatoren kan toegangsrechten verlenen of beperken tot mappen door de beveiligingsinstellingen voor mappen te wijzigen. Leer meer in [ deze pagina ](../start/folder-permissions.md). Bijvoorbeeld kan het beïnvloeden: **schrijf toegang** om nieuwe entiteiten (zoals leveringen, profielen, enz.) tot stand te brengen, **Gelezen toegang** om entiteiten te gebruiken, **schrapt toegang** om entiteiten te schrappen.
 
 ## Beveiligingszones
 
 Elke exploitant moet met een streek worden verbonden om aan een geval te login en exploitant IP moet in de adressen of adresreeksen worden omvat die in de veiligheidsstreek worden bepaald. Configuratie van de beveiligingszone wordt uitgevoerd in het configuratiebestand van de Adobe Campaign-server.
 
-De exploitanten worden verbonden met een veiligheidsstreek van zijn profiel in de console, die in **[!UICONTROL Administration > Access management > Operators]** knooppunt.
+Operatoren zijn vanuit hun profiel in de console gekoppeld aan een beveiligingszone, die toegankelijk is in het knooppunt **[!UICONTROL Administration > Access management > Operators]** .
 
 >[!NOTE]
 >
->Als Beheerde gebruiker van Cloud Servicen, plaatst de Adobe de veiligheidsstreken voor u. Voor meer informatie, [contact Adobe](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+>Als gebruiker van Managed Cloud Services stelt Adobe de beveiligingszones voor u in. Voor meer informatie, [ contact Adobe ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 **Meer informatie**
 
