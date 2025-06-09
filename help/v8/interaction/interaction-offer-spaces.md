@@ -90,7 +90,7 @@ Deze waarden worden niet standaard toegepast: ze moeten worden geconfigureerd.
 
 ### De status van de aanbieding wanneer het voorstel wordt gecreeerd {#configuring-the-status-when-the-proposition-is-created}
 
-Wanneer een aanbiedingsvoorstel **** wordt gecreeerd, wordt zijn status bijgewerkt.
+Wanneer een aanbiedingsvoorstel **&#x200B;**&#x200B;wordt gecreeerd, wordt zijn status bijgewerkt.
 
 In het **[!UICONTROL Design]** milieu, voor elke aanbiedingsruimte, vorm de status om van toepassing te zijn wanneer een voorstel wordt gecreeerd, afhankelijk van de informatie u in de aanbiedingsrapporten wilt tonen.
 
@@ -103,7 +103,7 @@ Hiervoor voert u de volgende stappen uit:
 
 ### De status van de aanbieding wanneer het voorstel wordt aanvaard {#configuring-the-status-when-the-proposition-is-accepted}
 
-Zodra een aanbiedingsvoorstel **** is goedgekeurd, gebruik één van de waarden die door gebrek worden verstrekt om de nieuwe status van het voorstel te vormen. De update wordt toegepast wanneer een ontvanger op een koppeling in de aanbieding klikt.
+Zodra een aanbiedingsvoorstel **&#x200B;**&#x200B;is goedgekeurd, gebruik één van de waarden die door gebrek worden verstrekt om de nieuwe status van het voorstel te vormen. De update wordt toegepast wanneer een ontvanger op een koppeling in de aanbieding klikt.
 
 Hiervoor voert u de volgende stappen uit:
 

@@ -93,7 +93,7 @@ Voer de volgende stappen uit om afmetingen te maken:
 
 Schakel de optie **[!UICONTROL Enable binning]** in om dit te doen. [Meer informatie](customize-cubes.md#data-binning).
 
-1. Voeg de dimensie van het a **type van de Datum** {toe. Hier willen we datums weergeven waarop het ontvangende profiel is gemaakt. Klik hiertoe op **[!UICONTROL Add]** en selecteer het veld **[!UICONTROL Creation date]** in de tabel met ontvangers.
+1. Voeg de dimensie van het a **type van de Datum** &lbrace;toe. Hier willen we datums weergeven waarop het ontvangende profiel is gemaakt. Klik hiertoe op **[!UICONTROL Add]** en selecteer het veld **[!UICONTROL Creation date]** in de tabel met ontvangers.
 U kunt de modus voor datumweergave aanpassen. Selecteer hiervoor de hiërarchie die u wilt gebruiken en de niveaus die u wilt genereren:
 
 ![](assets/cube-date-dimension.png)

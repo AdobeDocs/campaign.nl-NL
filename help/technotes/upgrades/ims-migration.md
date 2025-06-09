@@ -218,7 +218,7 @@ De gebruiker van de Technische Rekening zal NIET in Adobe Campaign bestaan tot m
 
    ![](assets/do-not-localize/ims-updates-07.png)
 
-   In het Scherm van Geloofsbrieven, scrol neer om van **Technical Account E-mail **zoeken en de **knoop van het Exemplaar** te klikken.
+   In het Scherm van Geloofsbrieven, scrol neer om van **Technical Account E-mail &#x200B;** zoeken en de **knoop van het Exemplaar** te klikken.
 
    ![](assets/do-not-localize/ims-updates-08.png)
 

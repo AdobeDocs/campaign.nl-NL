@@ -38,7 +38,7 @@ Voor elke typologie kunt u met het tabblad **[!UICONTROL Rules]** de toe te pass
 Zodra zij zijn gecreeerd, worden de typologische regels gegroepeerd in campagne **typologies** die in leveringen van verwijzingen worden voorzien. [Meer informatie](#apply-typologies).
 
 
-De campagne komt met een reeks standaard **Filtrerend** en **3} regels van de Controle {:**
+De campagne komt met een reeks standaard **Filtrerend** en **3&rbrace; regels van de Controle &lbrace;:**
 
 * **het Filtreren** regels worden gebruikt om een deel van het doel uit te sluiten dat op criteria wordt gebaseerd. [Meer informatie](filtering-rules.md).
 * **de regels van de Controle** laten u de geldigheid van berichten controleren alvorens zij worden verzonden. [Meer informatie](control-rules.md).

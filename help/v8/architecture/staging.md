@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Stapelmechanisme voor campagne-API
 
-In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), wordt het blasten van unitaire vraag niet geadviseerd met betrekking tot prestaties (latentie &amp; gelijktijdige). Tenzij u uiterst laag volume verzendt, moet de partijverrichting **** worden gebruikt. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
+In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), wordt het blasten van unitaire vraag niet geadviseerd met betrekking tot prestaties (latentie &amp; gelijktijdige). Tenzij u uiterst laag volume verzendt, moet de partijverrichting **&#x200B;**&#x200B;worden gebruikt. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
 
 De het opvoeren van de campagne capaciteit wordt toegelaten door gebrek op sommige ingebouwde schema&#39;s. Wij kunnen het op om het even welk douaneschema ook toelaten. Staging mechanisme in een notendop:
 
@@ -28,7 +28,7 @@ Campaign Classic v7-API&#39;s zijn nog steeds beschikbaar, maar kunnen geen baat
 
 >[!CAUTION]
 >
->* Met dit nieuwe mechanisme, is de gegevenssynchronisatie voor kanaaloptout, abonnementen, abonnementen of mobiele registratie nu asynchroon ****.
+>* Met dit nieuwe mechanisme, is de gegevenssynchronisatie voor kanaaloptout, abonnementen, abonnementen of mobiele registratie nu asynchroon **&#x200B;**.
 >
 >* Staging is alleen van toepassing op schema&#39;s die zijn opgeslagen in de cloud-database. Laat het opvoeren op herhaalde schema&#39;s niet toe. Schakel Staging niet in voor lokale schema&#39;s. Staging niet inschakelen in een schema met werkstadia
 >

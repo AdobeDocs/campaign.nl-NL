@@ -23,7 +23,7 @@ De Adobe Campaign Managed Cloud Service Destination en Source connectors maken n
 
 De belangrijkste stappen voor het verzenden van een Adobe Experience Platform-publiek naar Adobe Campaign en het terugsturen van bezorgings- en trackinglogboeken zijn als volgt:
 
-* Gebruik een verbinding van de Bestemming van Adobe Campaign Managed Cloud Services **** om de segmenten van Experience Platform over naar Adobe Campaign te verzenden:
+* Gebruik een verbinding van de Bestemming van Adobe Campaign Managed Cloud Services **&#x200B;**&#x200B;om de segmenten van Experience Platform over naar Adobe Campaign te verzenden:
 
    1. Open de catalogus met Adobe Experience Platform-doelen en maak een nieuwe **[!UICONTROL Adobe Campaign Managed Cloud Services]** -verbinding.
    1. Geef informatie over de instantie Campagne die u wilt gebruiken en kies **[!UICONTROL Audience sync]** als het synchronisatietype.

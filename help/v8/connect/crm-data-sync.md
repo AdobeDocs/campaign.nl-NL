@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Gegevens synchroniseren tussen Campagne en uw CRM {#data-synchronization}
 
-De synchronisatie van gegevens tussen Adobe Campaign en uw CRM wordt beheerd door de **werkschemaactiviteit 0} van de Schakelaar van CRM {.**
+De synchronisatie van gegevens tussen Adobe Campaign en uw CRM wordt beheerd door de **werkschemaactiviteit 0&rbrace; van de Schakelaar van CRM &lbrace;.**
 
 Als u bijvoorbeeld de Microsoft Dynamics-gegevens wilt importeren in Adobe Campaign, maakt u het volgende type workflow:
 

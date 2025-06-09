@@ -116,11 +116,11 @@ Om uw berichten aan te passen, kunt u de gegevens gebruiken van ontvangers die i
 
 * Controleer uw verpersoonlijkingsmontages - zorg ervoor uw berichtinhoud behoorlijk wordt ontworpen om het even welke fouten te vermijden, die met verpersoonlijking kunnen worden verwant. Een Adobe Campaign-personalisatiemarkering heeft altijd de volgende vorm: `<%=table.field%>`. Het onjuiste gebruik van parameters in verpersoonlijkingsblokken kan een kwestie zijn. Variabelen in JavaScript moeten bijvoorbeeld als volgt worden gebruikt:
 
-  ``
+  &grave;&grave;
   <%
   var brand = "xxx"
   %>
-  ``
+  &grave;&grave;
 
   Voor meer op verpersoonlijkingsblokken, verwijs naar [ deze sectie ](../send/personalization-blocks.md).
 

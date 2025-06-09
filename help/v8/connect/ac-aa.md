@@ -16,7 +16,7 @@ ht-degree: 66%
 
 U kunt Adobe Analytics configureren om Campagne en Analytics te integreren.
 
-Deze integratie staat Adobe Campaign en Adobe Analytics toe om door de **toe:voegen-op de schakelaars van de Analyse van het Web in wisselwerking te staan 0}.** Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
+Deze integratie staat Adobe Campaign en Adobe Analytics toe om door de **toe:voegen-op de schakelaars van de Analyse van het Web in wisselwerking te staan 0&rbrace;.** Deze integratie stuurt indicatoren en kenmerken van e-mailcampagnes die door Adobe Campaign aan Adobe Analytics worden geleverd.
 
 >[!NOTE]
 >

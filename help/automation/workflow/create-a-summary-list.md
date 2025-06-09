@@ -59,7 +59,7 @@ Deze gegevens staan in het tekstbestand &quot;Purchases.txt&quot;.
 
    Het **laden van Gegevens (dossier)** activiteit laat u de het werklijst van het werkschema met de verzamelde gegevens verrijken. Voor meer op deze activiteit, verwijs naar [ deze pagina ](data-loading-file.md).
 
-1. Vorm de **activiteit van de inzamelaar van het 0} Dossier {om tekst (&#42; te verzamelen.txt) typedossiers van de geselecteerde folder.**
+1. Vorm de **activiteit van de inzamelaar van het 0&rbrace; Dossier &lbrace;om tekst (&#42; te verzamelen.txt) typedossiers van de geselecteerde folder.**
 
    ![](assets/uc2_enrich_collecteur.png)
 
@@ -112,7 +112,7 @@ De gegevens in de werktabel na deze verrijking zijn als volgt:
 
 In deze stap wordt beschreven hoe u de geïmporteerde en verrijkte gegevens naar de tabel &quot;Aankopen&quot; schrijft. Om dit te doen, moeten wij een **gegevens van de Update** activiteit gebruiken.
 
-Een verzoening tussen de gegevens in de het werklijst van het werkschema en **Aankopen** richtend afmeting moet worden uitgevoerd alvorens de gegevens in de **3} lijst van Aankopen wordt bijgewerkt.**
+Een verzoening tussen de gegevens in de het werklijst van het werkschema en **Aankopen** richtend afmeting moet worden uitgevoerd alvorens de gegevens in de **3&rbrace; lijst van Aankopen wordt bijgewerkt.**
 
 1. Klik op het tabblad **[!UICONTROL Reconciliation]** van de verrijkingsactiviteit.
 1. Selecteer in dit geval de doeldimensie, het schema &quot;Aankopen&quot;.

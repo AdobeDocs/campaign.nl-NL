@@ -25,7 +25,7 @@ Als lid van een exploitantgroep, heeft een gebruiker rechten om verrichtingen ui
 Rechten verlenen machtigingen aan:
 
 * Bewerkingen uitvoeren
-Bijvoorbeeld, analyseert **** knoop in de redacteur van de Levering wordt geactiveerd voor leden van de **3} groep van de Exploitant van de Levering die** Gelegde Levering **hebben**
+Bijvoorbeeld, analyseert **&#x200B;**&#x200B;knoop in de redacteur van de Levering wordt geactiveerd voor leden van de **3&rbrace; groep van de Exploitant van de Levering die** Gelegde Levering **hebben**
 
 * Toegang tot mappen
 Lidmaatschap van groepen met operatoren kan toegangsrechten verlenen of beperken tot mappen door de beveiligingsinstellingen voor mappen te wijzigen. Leer meer in [ deze pagina ](../start/folder-permissions.md). Bijvoorbeeld kan het beïnvloeden: **schrijf toegang** om nieuwe entiteiten (zoals leveringen, profielen, enz.) tot stand te brengen, **Gelezen toegang** om entiteiten te gebruiken, **schrapt toegang** om entiteiten te schrappen.

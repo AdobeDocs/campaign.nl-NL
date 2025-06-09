@@ -26,7 +26,7 @@ De **[!UICONTROL Audit trail]** -functionaliteit in Adobe Campaign biedt een ged
 
   Voor gedetailleerde informatie over schema&#39;s, verwijs naar [ pagina ](../dev/schemas.md).
 
-* **sporen van het de controlespoor van het 0} Werkschema alle acties met betrekking tot uw werkschema&#39;s, met inbegrip van:**
+* **sporen van het de controlespoor van het 0&rbrace; Werkschema alle acties met betrekking tot uw werkschema&#39;s, met inbegrip van:**
 
    * Starten
    * Pauzeren

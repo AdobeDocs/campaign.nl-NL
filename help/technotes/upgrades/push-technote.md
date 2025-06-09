@@ -156,7 +156,7 @@ U kunt ook bestaande leverings- en leveringssjablonen bijwerken die zijn gemaakt
       nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
       ```
 
-+++
+  +++
 
 ### Wat is het effect op mijn Android-apps? {#fcm-apps}
 

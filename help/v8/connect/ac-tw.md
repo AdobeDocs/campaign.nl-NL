@@ -95,9 +95,9 @@ Als u instellingen wilt invoeren, hebt u zowel toegang tot uw Adobe Campaign Cli
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Synchronize subscriptions]** optie wordt toegelaten door gebrek: deze optie herstelt automatisch de lijst van uw volgers van X zodat u hen directe berichten ](../send/twitter.md#direct-tw-messages) kunt [ verzenden. De synchronisatie wordt uitgevoerd door a [ specifiek technisch werkschema ](#synchro-tw-accounts).
+   >De **[!UICONTROL Synchronize subscriptions]** optie wordt toegelaten door gebrek: deze optie herstelt automatisch de lijst van uw volgers van X zodat u hen directe berichten [&#128279;](../send/twitter.md#direct-tw-messages) kunt  verzenden. De synchronisatie wordt uitgevoerd door a [ specifiek technisch werkschema ](#synchro-tw-accounts).
 
-1. Van uw app van X, kopieer de inhoud van de **Sleutel API** en **[API Zeer belangrijk Geheime]** gebieden en kleef hen in **[!UICONTROL Consumer key]** en **[!UICONTROL Consumer secret]** gebieden van uw 2} Twitter **dienst van de Campagne**.
+1. Van uw app van X, kopieer de inhoud van de **Sleutel API** en **[API Zeer belangrijk Geheime]** gebieden en kleef hen in **[!UICONTROL Consumer key]** en **[!UICONTROL Consumer secret]** gebieden van uw 2&rbrace; Twitter **dienst van de Campagne**.
 
 1. Van uw app van X, kopieer de inhoud van de **Token van de Toegang** en **Symbolische Geheime van de Toegang** gebieden en kleef hen in **[!UICONTROL Access token]** en **[!UICONTROL Access token secret]** gebieden van uw Campagne **Twitter** dienst.
 

@@ -92,7 +92,7 @@ U kunt Adobe Campaign implementeren met behulp van de vooraf gedefinieerde datab
 >
 >Met **Beheerde de Diensten van de Wolk van de Campagne**, zijn uw milieu en aanvankelijke configuratie geplaatst door Adobe, volgens de termijnen van uw vergunningsovereenkomst. U mag geïnstalleerde ingebouwde pakketten, ingebouwde schema&#39;s of rapporten niet wijzigen.
 >
->Als u een toe:voegen-op van de Campagne of een specifiek vermogen moet gebruiken dat niet voor u is provisioned, moet u **de Zorg van de Klant van 0} Adobe contacteren.**
+>Als u een toe:voegen-op van de Campagne of een specifiek vermogen moet gebruiken dat niet voor u is provisioned, moet u **de Zorg van de Klant van 0&rbrace; Adobe contacteren.**
 
 ## Databaseopslag {#db-storage}
 

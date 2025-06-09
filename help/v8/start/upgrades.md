@@ -60,7 +60,7 @@ U hebt toegang tot de volgende informatie:
 
 De nieuwe versies en welke veranderingen zij brengen zijn vermeld in de [ Nota&#39;s van de Versie ](release-notes.md). Zodra er een nieuwe versie beschikbaar is, neemt uw Adobe-vertegenwoordiger contact met u op en voert u een upgrade uit van uw omgeving.
 
-Om van nieuwe de oplossingsversies van Experience Cloud en hun inhoud op de hoogte te worden gebracht, onderteken aan de ](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"} mededeling van de Updates van het Product van de Prioriteit van 0} Adobe {.[
+Om van nieuwe de oplossingsversies van Experience Cloud en hun inhoud op de hoogte te worden gebracht, onderteken aan de [&#128279;](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"} mededeling van de Updates van het Product van de Prioriteit van 0&rbrace; Adobe &lbrace;.
 
 U kunt [ Gemeenschap van de Campagne ](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} ook bezoeken om over versieupdates worden geïnformeerd.
 

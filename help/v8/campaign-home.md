@@ -17,8 +17,7 @@ ht-degree: 28%
 Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 (client console) product en documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](start/release-notes.md). Blijf bijgewerkt met de recentste veranderingen in onze documentatie door de [ documentatieupdates ](start/documentation-updates.md) pagina te bezoeken.
 
 >[!BEGINTABS]
-
->{de versie van 0} Campagne v8.6.4 is levende ][!TAB 
+>[!TAB {de versie van 0} Campagne v8.6.4 is levende]  
 
 De nieuwste versie van Adobe Campaign is nu live. Lees de opmerkingen bij de release voor meer informatie.
 

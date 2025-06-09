@@ -62,7 +62,7 @@ De volgende instructies en beperkingen zijn van toepassing op de CMK-integratie 
 
 * Adobe verstrekt geen [ Amazon Web Services (AWS) ](https://aws.amazon.com/){target="_blank"} rekening. U moet uw eigen AWS-account hebben en deze instellen om uw sleutel te genereren en te delen met Adobe.
 
-* Slechts worden de slechts ](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS) sleutels van de Dienst van het Beheer van AWS Key gesteund. [ Er kunnen geen door de klant gegenereerde sleutels buiten KMS worden gebruikt. &#x200B;
+* Slechts worden de slechts [&#128279;](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS) sleutels van de Dienst van het Beheer van AWS Key gesteund.  Er kunnen geen door de klant gegenereerde sleutels buiten KMS worden gebruikt. &#x200B;
 
 * Downtime wordt verwacht tijdens de eerste installatie. &#x200B;De downtime is afhankelijk van de grootte van de database.
 

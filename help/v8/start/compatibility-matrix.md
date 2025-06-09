@@ -29,7 +29,7 @@ De volgende besturingssystemen en browsers zijn vereist voor het gebruik van de 
 ### Besturingssystemen {#op-systems}
 
 * **2019, 2016 van de Server van Microsoft Windows**
-* **11, 10 van de Vensters van 0} Microsoft**
+* **11, 10 van de Vensters van 0&rbrace; Microsoft**
 
 >[!NOTE]
 >De 32-bits versie van de clientconsole is afgekeurd sinds versie 8.5. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. Voor meer informatie over hoe te om uw systeem te bevorderen, verwijs naar dit [ technote ](../../technotes/upgrades/console.md).

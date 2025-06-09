@@ -72,7 +72,7 @@ Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service die proactief to
 
 De beheerde de dienstenbenadering laat marketers toe om uit de operationele schaal en de economie van wolkeninfrastructuur zonder de behoefte aan zware steun van interne middelen van IT voordeel te halen. De het raadplegen en implementatieteams van Adobe werken met u samen om uw marketing plannen, bestaande praktijken, gegevensvereisten, en overseinenvolume te beoordelen, en dan adviseren zij de meest aangewezen dienst, de steun, en de leverbaarheidspakketten. Het Adobe Campaign Managed Cloud Services-team kan dan de prestaties van de campagne, de reputatie van het merk, de ervaringen van de klant en nog veel meer controleren en rapporteren.
 
-[!BADGE  PDF ]{type=Informative} [ las dit whitepaper ](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} om meer over de bedrijfswaarde van Adobe Campaign Managed Cloud Services te leren.
+[!BADGE &#x200B; PDF &#x200B;]{type=Informative} [ las dit whitepaper ](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} om meer over de bedrijfswaarde van Adobe Campaign Managed Cloud Services te leren.
 
 De nieuwe cloudarchitectuur stelt Campagne in staat om processen te stroomlijnen, kosten te verlagen, risico&#39;s te beheren en de gegevensbeveiliging te verbeteren. Uw Campagne v8-omgeving wordt geleverd met een speciale Virtual Private Cloud (VPC) die vooraf voor u is geconfigureerd.
 

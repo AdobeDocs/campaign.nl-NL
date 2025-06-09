@@ -17,8 +17,7 @@ ht-degree: 7%
 De nieuwste campagnemetechnologieën vindt u in deze sectie. Deze technologieën zijn van toepassing op Campaign v8.
 
 >[!BEGINTABS]
-
->{de veranderingen van het Kanaal van het Bericht van de duw ][!TAB 
+>[!TAB &lbrace;de veranderingen van het Kanaal van het Bericht van de duw]  
 
 Enkele belangrijke wijzigingen in de Android Firebase Cloud Messaging (FCM)-service worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet uw configuratie met abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen.
 

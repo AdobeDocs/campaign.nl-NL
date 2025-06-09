@@ -62,7 +62,7 @@ Als u deze optie instelt op 0, is er geen tijdslimiet voor de verpersoonlijkings
 
 ### Interne variabelen{#internal-variables}
 
-De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen worden gebruikt maar moeten niet worden gewijzigd: **levering**, **bericht**, **dataSource**, **targetData**, **leverancier**, **coupon**, **couponValue**, **5}.**
+De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen worden gebruikt maar moeten niet worden gewijzigd: **levering**, **bericht**, **dataSource**, **targetData**, **leverancier**, **coupon**, **couponValue**, **5&rbrace;.**
 
 
 ## Video over zelfstudie {#personalization-video}

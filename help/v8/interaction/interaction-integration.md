@@ -132,7 +132,7 @@ Als u de representatie van de HTML-aanbieding automatisch wilt genereren, kunt u
 
 ### Een voorstel presenteren {#presenting-an-offer}
 
-De module van de Interactie van de campagne **** laat u een knoop van XML aan de pagina terugkeren van HTML die de motor van de Aanbieding omhoog roept. Dit XML-knooppunt kan worden verwerkt door functies die aan de kant van de klant moeten worden ontwikkeld.
+De module van de Interactie van de campagne **&#x200B;**&#x200B;laat u een knoop van XML aan de pagina terugkeren van HTML die de motor van de Aanbieding omhoog roept. Dit XML-knooppunt kan worden verwerkt door functies die aan de kant van de klant moeten worden ontwikkeld.
 
 De vraag aan de motor van de Aanbieding kijkt als dit:
 

@@ -55,7 +55,7 @@ De beschrijving van een gegevenspakket is een gestructureerd document van XML da
 </package>
 ```
 
-Het XML-document moet beginnen en eindigen met het element `<package>` . Alle `<entities>` -elementen die volgen, verdelen de gegevens op documenttype. Een `<entities>` element bevat de gegevens van het pakket in het formaat van het gegevensschema ingegaan in het **schema** attribuut. De gegevens in een pakket moeten geen interne sleutels bevatten die niet compatibel tussen bases, zoals auto-geproduceerde sleutels (**automatische 1} optie) zijn.**
+Het XML-document moet beginnen en eindigen met het element `<package>` . Alle `<entities>` -elementen die volgen, verdelen de gegevens op documenttype. Een `<entities>` element bevat de gegevens van het pakket in het formaat van het gegevensschema ingegaan in het **schema** attribuut. De gegevens in een pakket moeten geen interne sleutels bevatten die niet compatibel tussen bases, zoals auto-geproduceerde sleutels (**automatische 1&rbrace; optie) zijn.**
 
 In ons voorbeeld zijn de verbindingen op de koppelingen `folder` en `company` vervangen door zogenaamde toetsen op hoog niveau in de doeltabellen:
 

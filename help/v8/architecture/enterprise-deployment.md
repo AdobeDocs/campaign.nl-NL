@@ -98,7 +98,7 @@ Een specifieke technische workflow behandelt de replicatie van tabellen die aan 
 >[!NOTE]
 >
 > Er zijn meerdere replicatiebeleid gemaakt op basis van de grootte van de tabel (XS, XL, enz.).
-> > Sommige tabellen worden in real-time gerepliceerd, andere worden per uur gerepliceerd. Sommige tabellen bevatten incrementele updates, andere worden volledig bijgewerkt.
+> &#x200B;> Sommige tabellen worden in real-time gerepliceerd, andere worden per uur gerepliceerd. Sommige tabellen bevatten incrementele updates, andere worden volledig bijgewerkt.
 >
 
 [Meer informatie over gegevensreplicatie](replication.md)
@@ -107,7 +107,7 @@ Een specifieke technische workflow behandelt de replicatie van tabellen die aan 
 
 De voorwerpen van de campagne v8 gebruiken nu a **Universally Unique identiteitskaart (UUID)**, die voor onbeperkte unieke waarden toestaat om gegevens te identificeren.
 
-Deze id is gebaseerd op een tekenreeks en is niet opeenvolgend. De primaire sleutel is geen numerieke waarde in Campagne v8, en u moet **auto** gebruiken en **automatische 3} attributen in uw schema&#39;s.**
+Deze id is gebaseerd op een tekenreeks en is niet opeenvolgend. De primaire sleutel is geen numerieke waarde in Campagne v8, en u moet **auto** gebruiken en **automatische 3&rbrace; attributen in uw schema&#39;s.**
 
 In Campaign Classic v7 en eerdere versies wordt de uniciteit van een sleutel binnen een schema (dat wil zeggen tabel) verwerkt op het niveau van de database-engine. Meer in het algemeen, omvatten de Klassieke motoren van het Gegevensbestand zoals PostgreSQL, Oracle, of SQL Server een inheems mechanisme om het opnemen van gedupliceerde rijen te verhinderen die op een kolom of een reeks kolommen via primaire sleutels en/of unieke indexen worden gebaseerd. De gedupliceerde identiteitskaart bestaat niet in deze versies wanneer de juiste index en de primaire sleutels op het niveau van het Gegevensbestand worden geplaatst.
 

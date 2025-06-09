@@ -80,7 +80,7 @@ Blader op de onderstaande tabbladen naar de twee methoden:
 
 >[!BEGINTABS]
 
->[!TAB  voegt opties van het menu van het Beleid ] toe
+>[!TAB voegt opties van het menu van het Beleid  toe]
 
 1. Ga naar het menu **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** .
 1. Voeg de volgende opties toe met de bijbehorende waarden uit Adobe Developer Console:

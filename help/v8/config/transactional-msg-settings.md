@@ -79,7 +79,7 @@ Hieronder ziet u een voorbeeld van een gebeurtenisconfiguratie voor het verzende
 
 U kunt de montages van de plaatsingstovenaar aanpassen om te vormen hoe lang de gegevens in het gegevensbestand moeten worden opgeslagen.
 
-De ontruiming van de gebeurtenis wordt uitgevoerd automatisch door het **technische werkschema van de Opschoonmaakbeurt van het 0} Gegevensbestand.** Dit werkschema zuiveert de gebeurtenissen die op de uitvoeringsinstanties en de gebeurtenissen worden ontvangen en worden opgeslagen die op een controleinstantie worden gearchiveerd.
+De ontruiming van de gebeurtenis wordt uitgevoerd automatisch door het **technische werkschema van de Opschoonmaakbeurt van het 0&rbrace; Gegevensbestand.** Dit werkschema zuiveert de gebeurtenissen die op de uitvoeringsinstanties en de gebeurtenissen worden ontvangen en worden opgeslagen die op een controleinstantie worden gearchiveerd.
 
 Gebruik de pijlen zoals aangewezen om de zuiveringsmontages voor de **Gebeurtenissen** (op een uitvoeringsinstantie) en **Gearchiveerde gebeurtenissen** (op een controleinstantie) te veranderen.
 

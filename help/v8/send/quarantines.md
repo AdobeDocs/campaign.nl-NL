@@ -73,9 +73,9 @@ Om de lijst van quarantined adressen **voor het volledige platform** te bekijken
 >
 >Eind van Jaar 1: (1 &#42; 0.33)/(1+0.5)=22%.
 >
-Eind van Jaar 2: (1.22 &#42; 0.33) + 0.33)/(1.5+0.75)=32.5%.
+>Eind van Jaar 2: (1.22 &#42; 0.33) + 0.33)/(1.5+0.75)=32.5%.
 
-Bovendien **[!UICONTROL Non-deliverables and bounces]** ingebouwd rapport, beschikbaar bij de **2} sectie van Rapporten {van deze homepage, toont informatie over de adressen in quarantaine, de types van aangetroffen fout, en een mislukkingsonderbreking door domein.** U kunt gegevens filteren voor een specifieke levering, of dit rapport aanpassen zoals nodig.
+Bovendien **[!UICONTROL Non-deliverables and bounces]** ingebouwd rapport, beschikbaar bij de **2&rbrace; sectie van Rapporten &lbrace;van deze homepage, toont informatie over de adressen in quarantaine, de types van aangetroffen fout, en een mislukkingsonderbreking door domein.** U kunt gegevens filteren voor een specifieke levering, of dit rapport aanpassen zoals nodig.
 
 Leer meer over stuiterende adressen in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
@@ -92,7 +92,7 @@ Voor elke map kunt u alleen de ontvangers weergeven van wie het e-mailadres in q
 
 ## Een in quarantaine geplaatst adres verwijderen {#remove-a-quarantined-address}
 
-Adressen die specifieke voorwaarden aanpassen worden automatisch geschrapt van de quarantainelijst door het **ingebouwde werkschema van de Schoonmaak van het Gegevensbestand 0} {.**
+Adressen die specifieke voorwaarden aanpassen worden automatisch geschrapt van de quarantainelijst door het **ingebouwde werkschema van de Schoonmaak van het Gegevensbestand 0&rbrace; &lbrace;.**
 
 De adressen worden automatisch verwijderd uit de quarantainelijst in de volgende gevallen:
 
@@ -104,7 +104,7 @@ De status verandert vervolgens in **[!UICONTROL Valid]** .
 
 >[!CAUTION]
 >
-Ontvangers met een adres in de status **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** worden nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
+>Ontvangers met een adres in de status **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** worden nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
 
 U kunt ook handmatig een adres uit de quarantainelijst verwijderen. Als u een adres uit quarantaine wilt verwijderen, kunt u:
 

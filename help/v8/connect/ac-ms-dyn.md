@@ -20,7 +20,7 @@ Zodra configuratie wordt gedaan, wordt de gegevenssynchronisatie tussen systemen
 
 >[!NOTE]
 >
->De gesteunde versies van Microsoft Dynamics zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [ ](../start/compatibility-matrix.md).
+>De gesteunde versies van Microsoft Dynamics zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [&#128279;](../start/compatibility-matrix.md).
 
 Voer de onderstaande stappen uit om een speciale externe account te configureren voor het importeren en exporteren van Microsoft Dynamics 365-gegevens naar Adobe Campaign.
 
@@ -89,7 +89,7 @@ Vervolgens moet u het certificaat coderen in base64. Hiertoe kunt u de hulp van 
 
 1. Navigeer aan **Azure Actieve Folder > de Registraties van de App** en selecteer de Toepassing die vroeger werd gecreeerd.
 1. Klik **Montages** op de hoogste linkerzijde.
-1. Op **Vereiste Toestemmingen**, klik **** toevoegen en **selecteer online API > Dynamische CRM**.
+1. Op **Vereiste Toestemmingen**, klik **&#x200B;**&#x200B;toevoegen en **selecteer online API > Dynamische CRM**.
 1. Klik **Uitgezochte**, laat **Dynamica 365 van de Toegang als organisatiegebruikers** checkbox toe en klik **Uitgezochte**.
 1. Dan, van uw app, selecteer **Manifest** onder **leidt** menu.
 1. Van de **Manifest** redacteur, plaats het `allowPublicClient` bezit van `null` aan `true` en klik **sparen**.

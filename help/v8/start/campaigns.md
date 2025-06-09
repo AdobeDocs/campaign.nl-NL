@@ -101,10 +101,10 @@ Leer om Campagne te vormen en te gebruiken verdeelde de Marketingmogelijkheden i
 
 ## Invoegtoepassing responsbeheer{#response-manager-add-on}
 
-Adobe Campaign biedt toe:voegen-op van het Beheer van de Reactie van de a **** aan die u het succes en de rentabiliteit van marketing campagnes laat meten of voorstellen over communicatiekanalen aanbiedt: e-mail, mobiel, direct mail, enz.
+Adobe Campaign biedt toe:voegen-op van het Beheer van de Reactie van de a **&#x200B;**&#x200B;aan die u het succes en de rentabiliteit van marketing campagnes laat meten of voorstellen over communicatiekanalen aanbiedt: e-mail, mobiel, direct mail, enz.
 
 >[!NOTE]
 >
 >Deze mogelijkheid is beschikbaar vanaf Campagne v8.3. Om uw versie te controleren, verwijs naar [ deze sectie ](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) Leer hoe te om de Manager van de Reactie van de Campagne in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target="_blank"} te vormen en te gebruiken.
+[&#128279;](../assets/do-not-localize/book.png) Leer hoe te om de Manager van de Reactie van de Campagne in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target="_blank"} te vormen en te gebruiken.
