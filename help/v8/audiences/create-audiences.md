@@ -26,7 +26,7 @@ U kunt een lijst tot stand brengen gebruikend de **lijst van de Update** activit
 
 Bekijk deze video voor meer informatie over Lijstbeheer in Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3426463?quality=12&captions=dut)
 
 
 ## Een lijst met contactpersonen maken {#create-a-list-of-contacts}

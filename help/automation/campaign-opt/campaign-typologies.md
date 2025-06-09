@@ -79,11 +79,11 @@ De gebruiksgevallen van de steekproef op druktypologische regels zijn beschikbaa
 
 In deze video wordt uitgelegd hoe u vermoeidheidsbeheer in Adobe Campaign kunt implementeren door gebruik te maken van typologische regels.
 
->[!VIDEO](https://video.tv.adobe.com/v/333787?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448337?quality=12&captions=dut)
 
 ### Vermoeidheidsbeheer instellen met behulp van vooraf gedefinieerde filters
 
 Moeheidsbeheer bepaalt de frequentie en de hoeveelheid van de berichten om de ontvangers niet te overspoelen. Als u niet de module van de campagnoptimalisering in uw campagneinstantie hebt, kunt u een vooraf bepaald filter vormen dat de doelbevolking door het aantal ontvangen berichten zal filtreren
 In deze video wordt uitgelegd hoe u vermoeidheidsbeheer in Adobe Campaign kunt implementeren met behulp van filters.
 
->[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444606?quality=12&captions=dut)

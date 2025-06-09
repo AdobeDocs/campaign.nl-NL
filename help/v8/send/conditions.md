@@ -86,4 +86,4 @@ Leer in het onderstaande voorbeeld hoe u een meertalige e-mail kunt maken. De in
 
 Deze video laat zien hoe u voorwaardelijke content aan een levering kunt toevoegen, bijvoorbeeld aan een meertalige nieuwsbrief.
 
->[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3426537?quality=12&captions=dut)

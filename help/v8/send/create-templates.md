@@ -147,12 +147,12 @@ De volgende video toont hoe u een sjabloon voor een ad-hoclevering kunt configur
 
 In de volgende video ziet u hoe u de eigenschappen van de leveringssjabloon instelt en wordt elke eigenschap in detail uitgelegd.
 
->[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3443407?quality=12&captions=dut)
 
 ### Hoe te om een ad hoc leveringsmalplaatje op te stellen
 
 In deze video wordt uitgelegd hoe u een sjabloon voor ad-hoce-maillevering kunt implementeren. In deze video wordt het verschil tussen een e-maillevering en een leveringsworkflow uitgelegd.
 
->[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444963?quality=12&captions=dut)
 
 De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.

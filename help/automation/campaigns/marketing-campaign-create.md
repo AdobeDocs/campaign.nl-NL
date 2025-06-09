@@ -208,4 +208,4 @@ U kunt ook de koppeling gebruiken die zich in de meldingen bevindt. Raadpleeg [d
 
 In deze video ziet u hoe u een marketingplan, programma&#39;s en campagnes kunt maken.
 
->[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3449907?quality=12&captions=dut)
