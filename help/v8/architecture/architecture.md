@@ -26,7 +26,7 @@ Er zijn twee typen omgevingen beschikbaar:
 
 U kunt pakketten van de ene omgeving naar de andere exporteren en importeren.
 
-Leer meer over pakketten in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
+Leer meer over pakketten in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=nl-NL){target="_blank"}
 
 ## Implementatiemodel {#ac-deployment}
 

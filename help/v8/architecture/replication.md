@@ -42,7 +42,7 @@ Het beleid van de replicatie bepaalt hoeveel gegevens van een lokale gegevensbes
 
 Campagne v8 is gebaseerd op specifieke technische workflows voor het beheer van geplande gegevensreplicatie. Deze technische workflows zijn beschikbaar via het knooppunt **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** van Campagne Explorer. **zij moeten niet worden gewijzigd.**
 
-Technische workflows voeren processen of taken uit, die regelmatig op de server worden gepland. De volledige lijst van technische werkschema&#39;s wordt gedetailleerd in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
+Technische workflows voeren processen of taken uit, die regelmatig op de server worden gepland. De volledige lijst van technische werkschema&#39;s wordt gedetailleerd in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=nl-NL){target="_blank"}.
 
 De technische werkschema&#39;s die gegevensreplicatie verzekeren zijn als volgt:
 
@@ -117,4 +117,4 @@ In deze video worden de belangrijkste concepten beschreven van welke databases A
 
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-De extra leerprogramma&#39;s van de Console van de Campagne v8 van de Cliënt zijn beschikbaar [ hier ](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview).
+De extra leerprogramma&#39;s van de Console van de Campagne v8 van de Cliënt zijn beschikbaar [ hier ](https://experienceleague.adobe.com/nl/docs/campaign-learn/tutorials/overview).

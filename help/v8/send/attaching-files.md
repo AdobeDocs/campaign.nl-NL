@@ -21,7 +21,7 @@ U kunt een of meer bestanden bijvoegen bij een e-maillevering.
 
 >[!NOTE]
 >
->Om prestatieproblemen te voorkomen, wordt aanbevolen niet meer dan één bijlage per e-mail op te nemen. De aanbevolen drempelwaarde kan worden geconfigureerd in de lijst met campagneopties. Verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
+>Om prestatieproblemen te voorkomen, wordt aanbevolen niet meer dan één bijlage per e-mail op te nemen. De aanbevolen drempelwaarde kan worden geconfigureerd in de lijst met campagneopties. Verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=nl-NL#delivery).
 
 Er zijn twee mogelijke gevallen:
 
@@ -30,7 +30,7 @@ Er zijn twee mogelijke gevallen:
 
 >[!NOTE]
 >
->Dit type van configuratie wordt over het algemeen uitgevoerd in de leveringsmalplaatjes. Voor meer op dit, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html).
+>Dit type van configuratie wordt over het algemeen uitgevoerd in de leveringsmalplaatjes. Voor meer op dit, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=nl-NL).
 
 ## Guardrails {#attachments-guardrails}
 
@@ -38,7 +38,7 @@ Om prestatieproblemen te voorkomen, mogen afbeeldingen in e-mailberichten niet g
 
 Adobe raadt ook aan de grootte en het aantal bijgevoegde bestanden te beperken. Standaard kunt u slechts één bestand als bijlage aan een e-mailbericht toevoegen. Deze drempel kan worden geconfigureerd via de optie `NmsDelivery_MaxRecommendedAttachments` .
 
-Leer meer in de lijst van de opties van de Campagne in de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
+Leer meer in de lijst van de opties van de Campagne in de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=nl-NL#delivery).
 
 ## Een lokaal bestand bijvoegen {#attaching-a-local-file}
 

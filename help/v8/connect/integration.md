@@ -34,9 +34,9 @@ Campagne v8 kan verbinding maken met de volgende Adobe-oplossingen. Blader naar 
 
 U kunt uw **publiek** en **activa** over de oplossingen van Experience Cloud met Activa ook combineren delend en het Publiek delend mogelijkheden.
 
-Leer meer over **publiek delend** tussen de oplossingen van de Campagne en van Experience Cloud in [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+Leer meer over **publiek delend** tussen de oplossingen van de Campagne en van Experience Cloud in [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=nl-NL#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Leer meer over **Activa delend** tussen de oplossingen van de Campagne en van Experience Cloud in [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+Leer meer over **Activa delend** tussen de oplossingen van de Campagne en van Experience Cloud in [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=nl-NL#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >

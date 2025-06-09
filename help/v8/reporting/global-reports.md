@@ -49,7 +49,7 @@ U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen: een w
 
 >[!NOTE]
 >
->U kunt het aantal leveringen ook controleren die per uur gebruikend het [ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"} worden verzonden.
+>U kunt het aantal leveringen ook controleren die per uur gebruikend het [ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=nl-NL){target="_blank"} worden verzonden.
 >
 >Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel){target="_blank"}.
 >

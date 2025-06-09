@@ -55,7 +55,7 @@ Voer de onderstaande stappen uit om uw **[!UICONTROL Report suite]** in [!DNL Ad
 
 1. Klik op de pagina **[!UICONTROL Report suite manager]** op **[!UICONTROL Create new]** en vervolgens op **[!UICONTROL Report suite]**.
 
-   Voor de gedetailleerde procedure betreffende **[!UICONTROL Report suite]** verwezenlijking, verwijs naar [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}.
+   Voor de gedetailleerde procedure betreffende **[!UICONTROL Report suite]** verwezenlijking, verwijs naar [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=nl-NL#prerequisites){target="_blank"}.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -85,7 +85,7 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
 
 1. Klik op **[!UICONTROL Add new]** om de id&#39;s te maken die nodig zijn voor het meten van de impact van de e-mailcampagne, dat wil zeggen de interne naam van de campagne (cid) en de tabel-id van de iNmsBroadlog (bid).
 
-   Leren hoe te om **[!UICONTROL Conversion variables]** uit te geven, verwijs naar deze [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}.
+   Leren hoe te om **[!UICONTROL Conversion variables]** uit te geven, verwijs naar deze [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=nl-NL#admin-tools){target="_blank"}.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -108,7 +108,7 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   Leren hoe te om **[!UICONTROL Success events]** te vormen, verwijs naar deze [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
+   Leren hoe te om **[!UICONTROL Success events]** te vormen, verwijs naar deze [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=nl-NL)
 
    ![](assets/analytics_connnector_8.png)
 
@@ -122,7 +122,7 @@ U moet nu uw **[!UICONTROL Web Analytics]** externe account in Adobe Campaign co
 
 Als een van uw **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** of **[!UICONTROL Success events]** niet zichtbaar is tijdens het configureren van uw externe account, betekent dit dat u geen toestemming hebt voor deze nieuwe gemaakte component in het **[!UICONTROL Product profile]** dat aan de gebruiker is gekoppeld.
 
-Raadpleeg voor meer informatie hierover de pagina [Productprofielen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"}.
+Raadpleeg voor meer informatie hierover de pagina [Productprofielen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=nl-NL#product-profile-admins){target="_blank"}.
 
 1. Blader naar de map **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** van de Adobe Campaign Explorer-boomstructuur en klik op **[!UICONTROL New]** .
 
@@ -146,7 +146,7 @@ Raadpleeg voor meer informatie hierover de pagina [Productprofielen voor Adobe A
 
    >[!NOTE]
    >
-   >De velden Campagne-id en Broadload-id worden via JavaScript verzameld op de landingspagina of via verwerkingsregels. [ leer meer bij verwerkingsregels ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >De velden Campagne-id en Broadload-id worden via JavaScript verzameld op de landingspagina of via verwerkingsregels. [ leer meer bij verwerkingsregels ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 

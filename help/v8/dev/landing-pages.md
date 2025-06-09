@@ -20,7 +20,7 @@ Om landende pagina&#39;s tot stand te brengen, doorblader aan het [ Web gebruike
 
 >[!AVAILABILITY]
 >
->* De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+>* De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
 >
 >* De bestemmingspagina&#39;s die u in het gebruikersinterface van het Web van de Campagne creeert kunnen niet in de cliëntconsole van de Campagne worden getoond of worden uitgegeven.
 >
@@ -34,34 +34,34 @@ Met openingspagina&#39;s kunt u:
 * Verstrek uw ontvangers van het vermogen om van het ontvangen van uw mededelingen af te zien.
 
 
-Leer meer over het landen van pagina&#39;s in [ de gebruikersinterfacedocumentatie van het Web van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+Leer meer over het landen van pagina&#39;s in [ de gebruikersinterfacedocumentatie van het Web van de Campagne ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
 
 U kunt ook door de volgende secties bladeren:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp">
+<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="Lood" src="assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp"><strong> creeer het landen pagina's </strong>
+<div><a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/create-lp"><strong> creeer het landen pagina's </strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content">
+<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/lp-content">
 <img alt="Validatie" src="assets/do-not-localize//lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content"><strong> Ontwerpen die pagina's </strong></a> landen
+<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/lp-content"><strong> Ontwerpen die pagina's </strong></a> landen
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">
+<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/lp-templates">
 <img alt="Validatie" src="assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates"><strong> Werk met het landen paginasjablonen </strong></a>
+<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/lp-templates"><strong> Werk met het landen paginasjablonen </strong></a>
 </div>
 <p>
 </td>

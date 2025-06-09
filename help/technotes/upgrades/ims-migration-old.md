@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Migratie van de technische actoren van de campagne naar Adobe Developer Console {#migrate-tech-users-to-ims}
 
-Vanaf Campagne v8.5 wordt het verificatieproces naar Campagne v8 verbeterd. De technische exploitanten moeten [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} gebruiken om met Campagne te verbinden. Een technische operator is een Campagnegebruikersprofiel dat expliciet is gemaakt voor API-integratie. In dit artikel worden de stappen beschreven die nodig zijn om een technische operator naar een technische account op de Adobe Developer-console te migreren.
+Vanaf Campagne v8.5 wordt het verificatieproces naar Campagne v8 verbeterd. De technische exploitanten moeten [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} gebruiken om met Campagne te verbinden. Een technische operator is een Campagnegebruikersprofiel dat expliciet is gemaakt voor API-integratie. In dit artikel worden de stappen beschreven die nodig zijn om een technische operator naar een technische account op de Adobe Developer-console te migreren.
 
 ## Wat is er veranderd?{#ims-changes}
 

@@ -17,7 +17,7 @@ Met Adobe Campaign kunt u aangepaste externe kanalen maken die zijn geïntegreer
 
 De levering en het verzenden kunnen zowel in de Console van de Cliënt als in het Web UI worden uitgevoerd. Het aangepaste externe kanaal wordt echter alleen uitgevoerd in de clientconsole.
 
-Leren hoe te om een levering tot stand te brengen en te verzenden die op een douane extern kanaal wordt gebaseerd, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html).
+Leren hoe te om een levering tot stand te brengen en te verzenden die op een douane extern kanaal wordt gebaseerd, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=nl-NL).
 
 Hier volgen de stappen voor het maken van een nieuw extern aangepast kanaal in de clientconsole:
 

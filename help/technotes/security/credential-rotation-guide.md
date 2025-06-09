@@ -45,19 +45,19 @@ Voor de specifieke technische operatoren `mc*` (bv. mc1, mc2, enz.) en `Interact
 
 Raadpleeg de onderstaande koppelingen voor rotatie van de mobiele services met betrekking tot persoonlijke sleutels en certificaten.
 
-* Voor Android, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
+* Voor Android, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
 Blader naar **creeer de mobiele toepassing van Android > vorm de API versie** sectie.
 
-* Voor iOS, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
+* Voor iOS, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
 Blader aan **Create iOS mobiele app->de wijze van de Authentificatie** sectie.
 
 ## GPG-toetsen {#ac-gpg-credentials}
 
 Voor het roteren van GPG sleutels, moeten de volgende stappen worden gevolgd:
 
-1. Decoderen van de bestaande gegevens met de bestaande sleutel. [Meer informatie](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. Decoderen van de bestaande gegevens met de bestaande sleutel. [Meer informatie](https://experienceleague.adobe.com/nl/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
-1. Maak een nieuw GPG-sleutelpaar. Leer meer over GPG zeer belangrijk beheer in [ deze documentatie ](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. Maak een nieuw GPG-sleutelpaar. Leer meer over GPG zeer belangrijk beheer in [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
 1. Vervang het bestaande gebruik van de GPG-sleutel in alle workflows door de nieuwe sleutel.
 

@@ -42,7 +42,7 @@ Er kunnen twee typen of fouten worden vastgelegd:
 In de lijst van quarantined adressen, wijst het **[!UICONTROL Error reason]** gebied erop waarom het geselecteerde adres in quarantaine werd geplaatst. [Meer informatie](#identifying-quarantined-addresses-for-the-entire-platform).
 
 
-Als een gebruiker een e-mail als spam kwalificeert, wordt het bericht automatisch opnieuw gericht naar een technische brievenbus die door Adobe wordt geleid. Het e-mailadres van de gebruiker wordt vervolgens automatisch in quarantaine geplaatst met de status **[!UICONTROL Denylisted]**. Deze status verwijst alleen naar het adres, het profiel staat niet op de lijst van gewezen personen, zodat de gebruiker SMS-berichten en pushberichten blijft ontvangen. Leer meer over de lijnen van de Terugkoppeling in de [ Gids van Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
+Als een gebruiker een e-mail als spam kwalificeert, wordt het bericht automatisch opnieuw gericht naar een technische brievenbus die door Adobe wordt geleid. Het e-mailadres van de gebruiker wordt vervolgens automatisch in quarantaine geplaatst met de status **[!UICONTROL Denylisted]**. Deze status verwijst alleen naar het adres, het profiel staat niet op de lijst van gewezen personen, zodat de gebruiker SMS-berichten en pushberichten blijft ontvangen. Leer meer over de lijnen van de Terugkoppeling in de [ Gids van Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Om de lijst van quarantined adressen **voor het volledige platform** te bekijken
 
 Bovendien **[!UICONTROL Non-deliverables and bounces]** ingebouwd rapport, beschikbaar bij de **2&rbrace; sectie van Rapporten &lbrace;van deze homepage, toont informatie over de adressen in quarantaine, de types van aangetroffen fout, en een mislukkingsonderbreking door domein.** U kunt gegevens filteren voor een specifieke levering, of dit rapport aanpassen zoals nodig.
 
-Leer meer over stuiterende adressen in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
+Leer meer over stuiterende adressen in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL){target="_blank"}.
 
 ### Gegarandeerd e-mailadres {#quarantined-recipient}
 

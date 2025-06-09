@@ -37,7 +37,7 @@ Voer de volgende stappen uit om uw app in te stellen met Adobe Experience Platfo
 
 ### Machtigingen instellen {#setup-permissions}
 
-Voordat u een mobiele toepassing maakt, moet u er eerst voor zorgen dat u over de juiste gebruikersmachtigingen voor tags in Adobe Experience Platform beschikt of deze toewijst. Gebruikersmachtigingen voor tags in Adobe Experience Platform worden aan gebruikers toegewezen via Adobe Admin Console. Leer meer in [ documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+Voordat u een mobiele toepassing maakt, moet u er eerst voor zorgen dat u over de juiste gebruikersmachtigingen voor tags in Adobe Experience Platform beschikt of deze toewijst. Gebruikersmachtigingen voor tags in Adobe Experience Platform worden aan gebruikers toegewezen via Adobe Admin Console. Leer meer in [ documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=nl-NL){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ Om **Bezit** en **bedrijf** rechten toe te wijzen, volg hieronder de stappen:
 
 1. Open de lus **[!DNL Admin Console]** .
 1. Selecteer op het tabblad **[!UICONTROL Products]** de **[!UICONTROL Adobe Experience Platform Data Collection]** -kaart.
-1. Selecteer een bestaande **[!UICONTROL Product Profile]** of maak een nieuwe **[!UICONTROL New profile]** met de knop. Leer hoe te om een nieuw **[!UICONTROL New profile]** in de [ Admin consoledocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"} tot stand te brengen.
+1. Selecteer een bestaande **[!UICONTROL Product Profile]** of maak een nieuwe **[!UICONTROL New profile]** met de knop. Leer hoe te om een nieuw **[!UICONTROL New profile]** in de [ Admin consoledocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=nl-NL#ui){target="_blank"} tot stand te brengen.
 1. Selecteer op het tabblad **[!UICONTROL Permissions]** de optie **[!UICONTROL Property Rights]**.
 1. Klik op **[!UICONTROL Add all]**. Hiermee voegt u het volgende recht toe aan uw productprofiel:
    * **[!UICONTROL Approve]**
@@ -79,7 +79,7 @@ Volg onderstaande stappen om deze **[!UICONTROL Product profile]** aan gebruiker
 
    >[!NOTE]
    >
-   >Als de gebruiker niet eerder in de console Admin werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"} toevoegen.
+   >Als de gebruiker niet eerder in de console Admin werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html#add-users){target="_blank"} toevoegen.
 
 ### Uw app configureren {#configure-app}
 
@@ -141,7 +141,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-Leer meer over [!DNL Adobe Experience Platform Data Collection] markeringen in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
+Leer meer over [!DNL Adobe Experience Platform Data Collection] markeringen in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=nl-NL){target="_blank"}.
 
 Nadat u de nieuwe eigenschap tag hebt gemaakt, opent u de nieuwe eigenschap tag en maakt u een bibliotheek. Dit doet u als volgt:
 

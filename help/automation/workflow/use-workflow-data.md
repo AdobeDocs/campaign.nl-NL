@@ -45,7 +45,7 @@ Selecteer hiertoe het relevante menu:
 
   Gebruik dit menu om toegang te krijgen tot de beschrijvende analysewizard waarmee u statistieken en rapporten over de overgangsgegevens kunt genereren.
 
-  Leer hoe te om de beschrijvende analysetovenaar in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"} te gebruiken.
+  Leer hoe te om de beschrijvende analysetovenaar in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=nl-NL){target="_blank"} te gebruiken.
 
 De doelgegevens worden gewist terwijl de workflow wordt uitgevoerd. Alleen de laatste werktabel is toegankelijk. U kunt de workflow zodanig configureren dat alle werktabellen toegankelijk blijven: controleer de optie **[!UICONTROL Keep the result of interim populations between two executions]** in de workfloweigenschappen.
 

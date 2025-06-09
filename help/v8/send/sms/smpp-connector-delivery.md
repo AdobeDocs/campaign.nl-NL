@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >Dit geldt voor Adobe Campaign v8.7.2 en hoger.
 >
->Voor oudere versies, verwijs naar de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+>Voor oudere versies, verwijs naar de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Gegevensstroom SMS-connector {#sms-data-flow}
 

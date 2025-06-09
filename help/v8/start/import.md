@@ -481,7 +481,7 @@ Met Campagne kunt u webformulieren maken en profielgegevens eenvoudig en effici√
 
 ![](assets/web-form-page.png)
 
-Leer hoe te om Webvormen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"} tot stand te brengen.
+Leer hoe te om Webvormen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=nl-NL){target="_blank"} tot stand te brengen.
 
 **Verwante onderwerpen**
 

@@ -20,7 +20,7 @@ Aanbiedingen kunnen op diverse aanbiedingsruimten worden voorgesteld gebruikend 
 
 Om een aanbieding door de motor van de Aanbieding te kunnen selecteren, moet het worden goedgekeurd en in een levende milieu beschikbaar zijn.
 
-Voor meer op dit, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}.
+Voor meer op dit, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=nl-NL#approving-offer-content){target="_blank"}.
 
 In de context van een binnenkomende contactpersoon kan de gebruiker die door de pagina bladert door de website worden geïdentificeerd of niet. De engine voor aanbiedingen biedt verschillende aanbiedingen voor geïdentificeerde profielen en voor anonieme profielen.
 

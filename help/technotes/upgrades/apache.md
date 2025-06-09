@@ -25,7 +25,7 @@ Het team van Adobe Campaign zal de Apache activiteit van de de verbeteringsverbe
 
 Van deze upgrade wordt verwacht dat deze automatisch buiten de normale kantooruren wordt uitgevoerd, zodat u de Campagneservice zonder onderbreking kunt blijven gebruiken.
 
-Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat we uw productie-instantie(s) upgraden. Aangezien dit een automatisch upgradeproces is dat eigendom is van Adobe, hoeft u niets te doen. Nochtans, als u om het even welke kwesties ervaart, gelieve [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"} te contacteren.
+Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat we uw productie-instantie(s) upgraden. Aangezien dit een automatisch upgradeproces is dat eigendom is van Adobe, hoeft u niets te doen. Nochtans, als u om het even welke kwesties ervaart, gelieve [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"} te contacteren.
 
 
 >[!NOTE]
@@ -53,7 +53,7 @@ Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat 
 
 * **Welke bevestigingen door de klanten moeten worden in werking gesteld?**
 
-  Er is geen specifieke test nodig voor deze beveiligingsupgrade. Voor het geval om het even welke kwestie wordt waargenomen, te bereiken gelieve uit [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  Er is geen specifieke test nodig voor deze beveiligingsupgrade. Voor het geval om het even welke kwestie wordt waargenomen, te bereiken gelieve uit [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
 
 
 * **kan ik om een verandering in Datum/Tijd aan de geplande groef van de veiligheidsverbetering verzoeken?**
@@ -61,4 +61,4 @@ Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat 
   Aangezien dit een veiligheidsmoeilijke situatie is, adviseren wij u sterk aan het bestaande programma aan te passen.
 
 
-Voor een andere vraag, kunt u uit aan [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"} bereiken.
+Voor een andere vraag, kunt u uit aan [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"} bereiken.

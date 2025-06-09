@@ -36,7 +36,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [ in deze pagina ](campaign-ui.md#ac-web-ui) toegang te hebben.
 
-   Leer meer in de [ gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+   Leer meer in de [ gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
 1. **kan Campagne v8 op een op-gebouw of hybride milieu worden geïnstalleerd?**
 
@@ -48,17 +48,17 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Verwijs naar deze gids om [ Aanbevolen Praktijken van de Levering te leren ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}
 
-   Leer hoe te om leverbaarheid in Campagne [ in deze gids uit te voeren ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
+   Leer hoe te om leverbaarheid in Campagne [ in deze gids uit te voeren ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=nl-NL){target="_blank"}
 
 1. **Hoe kan ik ervoor zorgen mijn levering zonder fouten wordt verzonden?**
 
    Adobe Campaign wordt geleverd met een reeks dashboards en tools om uw e-mailleveringen te controleren.
 
-   [ lees uit de documentatie van Campaign Classic v7 om ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} te leren hoe te ervoor zorgen uw berichten worden verzonden, de uitvoering controleren en actie aangaan als een fout voorkomt.
+   [ lees uit de documentatie van Campaign Classic v7 om ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=nl-NL){target="_blank"} te leren hoe te ervoor zorgen uw berichten worden verzonden, de uitvoering controleren en actie aangaan als een fout voorkomt.
 
 1. **Kan ik werkschemauitvoering controleren?**
 
-   Begrijp hoe te om het werkschemauitvoering van de Campagne [ te controleren deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html)
+   Begrijp hoe te om het werkschemauitvoering van de Campagne [ te controleren deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=nl-NL)
 
 1. **Welke systemen en componentenCampagne v8 is compatibel met?**
 
@@ -86,7 +86,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Als Admin gebruiker, heb toegang tot de Distributie van de Software van Adobe [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}  om Adobe Campaign te downloaden.
 
-   Leer meer over het Centrum van de Distributie [ in deze pagina ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
+   Leer meer over het Centrum van de Distributie [ in deze pagina ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=nl-NL){target="_blank"}.
 
 1. **kan ik met de deskundigen van de Campagne verbinden?**
 

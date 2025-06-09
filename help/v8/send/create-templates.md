@@ -121,7 +121,7 @@ Selecteer de leveringssjabloon die u wilt gebruiken en klik op **[!UICONTROL Ok]
 
 ### Een sjabloon uitvoeren {#execute-a-template}
 
-U kunt de uitvoering van een sjabloon rechtstreeks vanuit de sjabloonlijst starten zonder eerst een levering te maken. Het leveringsmalplaatje kan manueel, zoals hieronder gedetailleerd worden uitgevoerd, of door een gebeurtenis (uitgevoerd op een vastgestelde tijd, wanneer een dossier in de server, enz.) beschikbaar is, zoals die in [ wordt verklaard deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
+U kunt de uitvoering van een sjabloon rechtstreeks vanuit de sjabloonlijst starten zonder eerst een levering te maken. Het leveringsmalplaatje kan manueel, zoals hieronder gedetailleerd worden uitgevoerd, of door een gebeurtenis (uitgevoerd op een vastgestelde tijd, wanneer een dossier in de server, enz.) beschikbaar is, zoals die in [ wordt verklaard deze sectie ](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
 
 Voer de volgende stappen uit om een sjabloon handmatig uit te voeren:
 
@@ -155,4 +155,4 @@ In deze video wordt uitgelegd hoe u een sjabloon voor ad-hoce-maillevering kunt 
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.
