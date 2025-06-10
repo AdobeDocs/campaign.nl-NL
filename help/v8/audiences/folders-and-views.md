@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 567ca1cd8fa6e4f03c8871488152710753ea02f1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ Een weergave is een specifieke map die geen gegevens bevat, maar die gegevens we
 
 
 >[!NOTE]
->Als u weergaven wilt onderscheiden van standaardmappen, wordt hun naam weergegeven in lichtblauw in plaats van zwart.
 >
+>Als u weergaven wilt onderscheiden van standaardmappen, wordt hun naam weergegeven in lichtblauw in plaats van zwart.
 
 U kunt machtigingen toewijzen aan mappen om de toegang tot bepaalde gegevens te beperken. [Meer informatie](#restrict-access-to-a-folder)
 
@@ -52,14 +52,19 @@ Als u een ander type map wilt maken, klikt u met de rechtermuisknop op een besta
 ![](assets/add-new-folder.png)
 
 >[!CAUTION]
->Deze wijzigingen gelden voor alle campagnegebruikers.
 >
+>Deze wijzigingen gelden voor alle campagnegebruikers.
 
 ## Een map weergeven{#turn-a-folder-to-a-view}
 
 Een weergave is een specifieke map die geen gegevens bevat, maar die gegevens weergeeft die fysiek zijn opgeslagen in andere mappen van hetzelfde type.
 
 U kunt elke map naar een weergave verplaatsen, maar de map moet leeg zijn. Alle gegevens die in de map zijn opgeslagen, worden verwijderd wanneer u de map naar een weergave verplaatst.
+
+>[!IMPORTANT]
+>
+>Uit de vakmappen mag niet worden omgezet in een weergave.
+
 
 >[!CAUTION]
 >
