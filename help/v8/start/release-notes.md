@@ -3,22 +3,22 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 6d2425f7e7f35f5461151790fbda2bef2959bff4
+source-git-commit: 9187ac7fd0d17a6dc28c3b6564913bcd93e45943
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
 # Laatste versies {#latest-release}
 
-Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke situaties die met Campagne v8 (console) **&#x200B;**&#x200B;komen meest recente versies. Leer meer over de versies, versies, en verbeteringen van de Campagne in [ deze pagina ](upgrades.md). Andere versies worden vermeld in de sectie Vorige releases van deze documentatie.
+Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke situaties die met Campagne v8 (console) **** komen meest recente versies. Leer meer over de versies, versies, en verbeteringen van de Campagne in [ deze pagina ](upgrades.md). Andere versies worden vermeld in de sectie Vorige releases van deze documentatie.
 
 >[!BEGINSHADEBOX]
 
 **op deze pagina**
 
-* [Release 8.6.5](#release-8-6-4)
+* [Release 8.6.5](#release-8-6-5)
 * [Release 8.7.4](#release-8-7-4)
 * [Release 8.6.4](#release-8-6-4)
 
@@ -58,7 +58,7 @@ _vrijdag 10 april 2025_
 >
 >Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nieuwe functies {#features-8-7-4}
 
