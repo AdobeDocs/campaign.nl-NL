@@ -41,7 +41,7 @@ ht-degree: 23%
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campagnebeheer {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
-   + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
+   + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=nl-NL)
 + Berichten verzenden{#send}
    + [Aan de slag met berichten](start/gs-message.md)
    + [Je eerste levering maken](start/create-message.md)
@@ -134,7 +134,7 @@ ht-degree: 23%
    + [Openingspagina&#39;s maken](dev/landing-pages.md)
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Automatisering en workflows {#automation}
-   + [ Gids van de Automatisering van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
+   + [ Gids van de Automatisering van de Campagne > ](https://experienceleague.adobe.com/nl/docs/campaign/automation/home)
 + Privacy- en beveiligingsbeheer {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
    + [Beveiligingsrichtlijnen](config/security.md)
@@ -176,7 +176,7 @@ ht-degree: 23%
 + Data management {#data}
    + [Aan de slag met workflows](config/workflows.md)
    + [Gegevens importeren](start/import.md)
-   + [ Documentatie van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [ Documentatie van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
 + Integraties {#connect}
    + [Campagne verbinden met andere oplossingen](connect/integration.md)
    + Campagne + Experience Platform {#ac-aep}
@@ -239,6 +239,6 @@ ht-degree: 23%
       + [Invoerformulieren](dev/forms.md)
    + [Werken met gegevenspakketten](dev/packages.md)
    + [Campagne-API&#39;s](dev/api.md)
-+ [ Campagne technotes > ](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
-+ [ de documentatie van het Webgebruikersinterface van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
++ [ Campagne technotes > ](https://experienceleague.adobe.com/nl/docs/campaign/technotes-ac/technotes-home)
++ [ de documentatie van het Webgebruikersinterface van de Campagne > ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home)
 
