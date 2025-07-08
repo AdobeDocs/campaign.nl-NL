@@ -19,7 +19,7 @@ ht-degree: 8%
 
 Alvorens **te raken verzend** knoop, zorg ervoor dat uw bericht aan de ontvangers op een optimale manier op een verscheidenheid van Webcliënten, Webpost en apparaten zal worden getoond.
 
-Om dit toe te staan, gebruikt Adobe Campaign de [ web-based e-mailtestende oplossing 0} Litmus {om de teruggaven te vangen en hen beschikbaar te maken in een specifiek rapport. ](https://litmus.com/email-testing){target="_blank"} Hierdoor kunt u een voorvertoning van het verzonden bericht weergeven in de verschillende contexten waarin het kan worden ontvangen en de compatibiliteit van grote desktops en toepassingen controleren.
+Om dit toe te staan, gebruikt Adobe Campaign de [ web-based e-mailtestende oplossing 0&rbrace; Litmus &lbrace;om de teruggaven te vangen en hen beschikbaar te maken in een specifiek rapport. ](https://litmus.com/email-testing){target="_blank"} Hierdoor kunt u een voorvertoning van het verzonden bericht weergeven in de verschillende contexten waarin het kan worden ontvangen en de compatibiliteit van grote desktops en toepassingen controleren.
 
 >[!CAUTION]
 >Inbox het teruggeven is niet compatibel met [ terugkomende leveringen ](../../automation/workflow/recurring-delivery.md).
