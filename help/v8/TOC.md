@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: b4947c8c20e123877e24f57d5ad7a15aa3f304a2
+source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 23%
+source-wordcount: '790'
+ht-degree: 26%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 23%
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campagnebeheer {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
-   + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=nl-NL)
+   + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
 + Berichten verzenden{#send}
    + [Aan de slag met berichten](start/gs-message.md)
    + [Je eerste levering maken](start/create-message.md)
@@ -97,8 +97,8 @@ ht-degree: 23%
       + [Leveringsanalyse](send/delivery-analysis.md)
       + [De levering configureren en verzenden](send/configure-and-send.md)
       + [Tijdoptimalisatie verzenden](send/predictive.md)
-   + Mislukking, stort en quarantaine{#failures}
-      + [Quarantines](send/quarantines.md)
+   + Mislukking, stort en quarantaine {#failures}
+      + [Quarantine](send/quarantines.md)
       + [Leveringsfouten](send/delivery-failures.md)
    + Leverbaarheidsbeheer {#deliverability-management}
       + [Wat is afleverbaarheid?](send/about-deliverability.md)
@@ -134,7 +134,7 @@ ht-degree: 23%
    + [Openingspagina&#39;s maken](dev/landing-pages.md)
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Automatisering en workflows {#automation}
-   + [ Gids van de Automatisering van de Campagne > ](https://experienceleague.adobe.com/nl/docs/campaign/automation/home)
+   + [ Gids van de Automatisering van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
 + Privacy- en beveiligingsbeheer {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
    + [Beveiligingsrichtlijnen](config/security.md)
@@ -176,7 +176,7 @@ ht-degree: 23%
 + Data management {#data}
    + [Aan de slag met workflows](config/workflows.md)
    + [Gegevens importeren](start/import.md)
-   + [ Documentatie van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
+   + [ Documentatie van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integraties {#connect}
    + [Campagne verbinden met andere oplossingen](connect/integration.md)
    + Campagne + Experience Platform {#ac-aep}
@@ -239,6 +239,32 @@ ht-degree: 23%
       + [Invoerformulieren](dev/forms.md)
    + [Werken met gegevenspakketten](dev/packages.md)
    + [Campagne-API&#39;s](dev/api.md)
-+ [ Campagne technotes > ](https://experienceleague.adobe.com/nl/docs/campaign/technotes-ac/technotes-home)
-+ [ de documentatie van het Webgebruikersinterface van de Campagne > ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home)
+   + REST API&#39;s {#apis}
+      + [Aan de slag met REST API&#39;s](dev/api/get-started-apis.md)
+      + [Aanbevelingen en beperkingen](dev/api/limitations.md)
+      + [Waarom REST API&#39;s gebruiken](dev/api/why-using-campaign-standard-apis.md)
+      + [API-toegang instellen](dev/api/setting-up-api-access.md)
+      + Algemene concepten {#global-concepts}
+         + [Lees hier meer](dev/api/must-read.md)
+         + [Eindpunten](dev/api/endpoints.md)
+         + [Metadatamechanisme](dev/api/metadata-mechanism.md)
+         + [Werkwoorden](dev/api/verbs.md)
+         + [Aanvullende bewerkingen](dev/api/sorting.md)
+         + [Aangepaste bronnen](dev/api/custom-resources.md)
+      + [Interactie met aangepaste resources](dev/api/interacting-with-custom-resources.md)
+      + Profielen beheren {#managing-profiles}
+         + [Profielen ophalen](dev/api/retrieving-profiles.md)
+         + [Profielen bijwerken](dev/api/updating-profiles.md)
+         + [Profielen maken](dev/api/creating-profiles-api.md)
+      + Services en abonnement beheren {#managing-services-and-subscriptiopns}
+         + [Een service maken](dev/api/creating-a-service.md)
+         + [Lidmaatschappen ophalen](dev/api/retrieving-subscriptions.md)
+         + [Lidmaatschappen uitvoeren](dev/api/perform-subscriptions.md)
+         + [Lidmaatschappen verwijderen](dev/api/deleting-subscriptions.md)
+      + [Transactionele berichten beheren](dev/api/managing-transactional-messages.md)
+      + Workflows beheren {#managing-workflows}
+         + [Een workflow beheren](dev/api/controlling-a-workflow.md)
+         + [Een signaalactiviteit activeren](dev/api/triggering-a-signal-activity.md)
++ [ Campagne technotes > ](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
++ [ de documentatie van het Webgebruikersinterface van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 

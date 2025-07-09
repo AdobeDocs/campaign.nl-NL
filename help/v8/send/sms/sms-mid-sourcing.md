@@ -4,11 +4,10 @@ description: Leer hoe te om een levering van SMS in een midsourcinginfrastructuu
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze documentatie is voor Adobe Campaign v8.7.2 en hoger.
+>Deze documentatie is van toepassing op Adobe Campaign v8.7.2 en hoger. Om van erfenis aan de nieuwe schakelaar van SMS over te schakelen, verwijs naar dit [ technote ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up) te lezen.
+>Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
 
 Voor het verzenden van SMS-leveringen met een infrastructuur voor midsourcing is het volgende vereist:
 
@@ -104,7 +103,7 @@ Hiervoor voert u de volgende stappen uit:
    Definieer het accounttype als **[!UICONTROL Routing]** , schakel het selectievakje **[!UICONTROL Enabled]** in, selecteer **[!UICONTROL Mobile (SMS)]** voor het kanaal en **[!UICONTROL Bulk delivery]** voor de leveringsmodus.
    ![](assets/mid_extaccount.png){zoomable="yes"}
 
-1. Bewaar **[!UICONTROL Extended generic SMPP]** in de vervolgkeuzelijst **[!UICONTROL Connector]** op het tabblad **[!UICONTROL Mobile]** .
+1. Bewaar **[!UICONTROL Mobile]** in de vervolgkeuzelijst **[!UICONTROL Extended generic SMPP]** op het tabblad **[!UICONTROL Connector]** .
 
    Het vak **[!UICONTROL Send messages through a dedicated process]** is standaard ingeschakeld.
 

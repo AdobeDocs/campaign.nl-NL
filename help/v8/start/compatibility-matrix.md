@@ -5,7 +5,7 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: fb2cf4407750f8cff65ca53f0e87c32e9702de92
+source-git-commit: 329130d716054e5054fc0a5989a77d950c546ec0
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 19%
@@ -29,7 +29,7 @@ De volgende besturingssystemen en browsers zijn vereist voor het gebruik van de 
 ### Besturingssystemen {#op-systems}
 
 * **2019, 2016 van de Server van Microsoft Windows**
-* **11, 10 van de Vensters van 0&rbrace; Microsoft**
+* **11, 10 van de Vensters van 0} Microsoft**
 
 >[!NOTE]
 >De 32-bits versie van de clientconsole is afgekeurd sinds versie 8.5. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. Voor meer informatie over hoe te om uw systeem te bevorderen, verwijs naar dit [ technote ](../../technotes/upgrades/console.md).
@@ -58,6 +58,7 @@ Externe databases die compatibel zijn met de module Adobe Campaign Federated Dat
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
+* **[!DNL Fabrics]**
 
 
 >[!AVAILABILITY]

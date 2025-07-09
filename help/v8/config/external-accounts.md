@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: d43fb6dc75113e7e89315b731ed8b4a77951125c
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1118'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
 De **Stuits post** externe rekening specificeert de externe POP3 rekening die moet worden gebruikt om met de e-maildienst te verbinden. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
-Leer meer over binnenkomende e-mails in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=nl-NL){target="_blank"}.
+Leer meer over binnenkomende e-mails in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -118,7 +118,7 @@ In de context van transactioneel overseinen, zijn de uitvoeringsinstanties verbo
 
 ## Externe rekeningen voor gegevensoverdracht {#transfer-data-external-accounts}
 
-Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** -workflowactiviteit. Leer meer over **overdracht van het Dossier** in werkschema&#39;s in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=nl-NL){target="_blank"}.
+Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** -workflowactiviteit. Leer meer over **overdracht van het Dossier** in werkschema&#39;s in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 * **FTP en SFTP** - de **FTP** externe rekening laat u toegang tot een server buiten Adobe Campaign vormen en testen. Als u verbindingen wilt instellen met externe systemen, zoals SFTP- of FTP-servers 898 die worden gebruikt voor bestandsoverdracht, kunt u uw eigen externe accounts maken.
 
@@ -126,7 +126,7 @@ Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exp
 
   >[!NOTE]
   >
-  >Vanaf versie 8.5 kunt u nu veilig verifiëren met een persoonlijke sleutel wanneer u uw SFTP-externe account configureert. [ Leer meer op zeer belangrijk beheer ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=nl-NL){target="_blank"}.
+  >Vanaf versie 8.5 kunt u nu veilig verifiëren met een persoonlijke sleutel wanneer u uw SFTP-externe account configureert. [ Leer meer op zeer belangrijk beheer ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **de Eenvoudige Dienst van de Opslag van Amazon (S3)** - de **schakelaar van AWS S3** kan worden gebruikt om gegevens in te voeren of uit te voeren naar Adobe Campaign gebruikend de activiteit van het a **[!UICONTROL Transfer file]** werkschema. Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
 
@@ -147,3 +147,11 @@ Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exp
    * **[!UICONTROL Encryption]**: Type codering tussen **[!UICONTROL None]** of **[!UICONTROL SSL]** .
 
    * **[!UICONTROL Access key]**: Leer hoe te om uw **[!UICONTROL Access key]** in [ documentatie van Microsoft ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"} te vinden.
+
+* **de Stof van Microsoft** - de **** externe rekening van de Stof van Microsoft staat u toe om gegevens tussen de Stof van Microsoft en Adobe Campaign in te voeren gebruikend de **[!UICONTROL Transfer file]** werkschemaactiviteit. Voer de volgende gegevens in om deze integratie te configureren:
+
+   * **[!UICONTROL Server]**: URL van uw Microsoft Fabric-opslagserver.
+
+   * **[!UICONTROL Application ID]**: De unieke id van de toepassing die wordt gebruikt om Microsoft Fabric-bronnen te verifiëren en te openen.
+
+   * **[!UICONTROL Client secret]**: De verificatiesleutel of het wachtwoord die aan de toepassing is gekoppeld en die nodig is om veilig verbinding te maken met Microsoft Fabric.

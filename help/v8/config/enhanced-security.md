@@ -5,9 +5,9 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
+source-git-commit: 3f36d7c425dd5a9a13e1de7a77371b29a462dbea
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ De volgende instructies en beperkingen zijn van toepassing op de CMK-integratie 
 
 * Adobe verstrekt geen [ Amazon Web Services (AWS) ](https://aws.amazon.com/){target="_blank"} rekening. U moet uw eigen AWS-account hebben en deze instellen om uw sleutel te genereren en te delen met Adobe.
 
-* Slechts worden de slechts [&#128279;](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS) sleutels van de Dienst van het Beheer van AWS Key gesteund.  Er kunnen geen door de klant gegenereerde sleutels buiten KMS worden gebruikt. &#x200B;
+* Slechts worden de slechts [ (KMS) sleutels van de Dienst van het Beheer van AWS Key gesteund. ](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} Er kunnen geen door de klant gegenereerde sleutels buiten KMS worden gebruikt. &#x200B;
 
 * Downtime wordt verwacht tijdens de eerste installatie. &#x200B;De downtime is afhankelijk van de grootte van de database.
 
@@ -96,7 +96,7 @@ Er worden drie gebruiksgevallen ondersteund:
 
 >[!CAUTION]
 >
->Alleen on-premise databases en AWS-compatibele VPN-apparaten worden ondersteund. [Meer informatie](#vpn-databases)
+>Databases op locatie en in de cloud worden ondersteund. [Meer informatie](#vpn-databases)
 
 Volg onderstaande richtlijnen om ervoor te zorgen dat deze functie correct wordt gebruikt:
 
@@ -122,8 +122,9 @@ De volgende databases op locatie worden ondersteund:
 * Sybase
 * Teradata
 * Hadoop via HiveSQL
+* PostgreSQL
 
-Alleen AWS-compatibele VPN-apparaten worden ondersteund. Een lijst van compatibele apparaten is beschikbaar op [ deze pagina ](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}.
+Cloud-databases worden ondersteund. Verwijs naar de [ verenigbaarheidsmatrijs ](../start/compatibility-matrix.md#FederatedDataAccessFDA).
 
 >[!NOTE]
 >

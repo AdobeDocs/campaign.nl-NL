@@ -5,16 +5,19 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+source-git-commit: b52308bcbe68a7c382918fe28f8166e3bfcb6cde
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 21%
+source-wordcount: '1518'
+ht-degree: 22%
 
 ---
 
 # Opmerkingen bij de release 2023 {#2023-rn}
 
-Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen, en moeilijke situaties die met **2023 de Versies van de Campagne v8** komen.
+Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen, en moeilijke situaties die met **2023 de Versies van de Campagne v8** komen. Voor de recentste versie, verwijs naar [ deze pagina ](release-notes.md).
+
+Voor om het even welke nieuwe implementatie of verbetering aan een bestaand milieu, installeer [ de recentste versie ](release-notes.md).
+
 
 >[!BEGINSHADEBOX]
 

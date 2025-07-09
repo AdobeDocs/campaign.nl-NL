@@ -5,9 +5,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3666'
 ht-degree: 0%
 
 ---
@@ -286,7 +286,7 @@ In dit voorbeeld is 0x001E de tag van het optionele veld en is UUID de waarde va
 
 Als u deze waarde wilt vastleggen, kunt u nu de volgende regex instellen in het vak Extractie van de id in het veld SR:
 
-\b0x001E: ([ 0-9a-f] \{8 \} -[ 0-9a-f ] \{4 \} -[ 0-9a-f ] \ {4 \} - [ 0-9a-f ] \ {4 \} - [ 0-9a-f ] \ 2\&rbrace;)\b
+\b0x001E: ([ 0-9a-f] \{8 \} -[ 0-9a-f ] \{4 \} -[ 0-9a-f ] \ {4 \} - [ 0-9a-f ] \ {4 \} - [ 0-9a-f ] \ 2\})\b
 
 >[!IMPORTANT]
 >
@@ -332,6 +332,10 @@ Voor elk veld kunt u de bijbehorende tag en de indeling ervan instellen. Vraag d
 
 * Tag: de tagwaarde in decimale notatie (bijvoorbeeld 12345) of hexadecimaal met voorvoegsel 0x (bijvoorbeeld 0x12ab). Tags kunnen tussen 0 en 65535 liggen.
 * Indeling: opmaak die wordt gebruikt voor waarde. Binaire waarden zijn alle binaire waarden die met big-endian zijn ondertekend. Kies voor tekstvelden de codering die door de SMPP-provider wordt gebruikt.
+
+>[!NOTE]
+>
+>Als het **gebied van de Rekening van de Klant** leeg wordt verlaten, zal het met de korte code worden vervangen.
 
 ### Automatisch antwoord verzonden aan de MO
 
