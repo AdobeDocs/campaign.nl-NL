@@ -286,7 +286,7 @@ In dit voorbeeld is 0x001E de tag van het optionele veld en is UUID de waarde va
 
 Als u deze waarde wilt vastleggen, kunt u nu de volgende regex instellen in het vak Extractie van de id in het veld SR:
 
-\b0x001E: ([ 0-9a-f] \{8 \} -[ 0-9a-f ] \{4 \} -[ 0-9a-f ] \ {4 \} - [ 0-9a-f ] \ {4 \} - [ 0-9a-f ] \ 2\})\b
+\b0x001E: ([ 0-9a-f] \{8 \} -[ 0-9a-f ] \{4 \} -[ 0-9a-f ] \ {4 \} - [ 0-9a-f ] \ {4 \} - [ 0-9a-f ] \ 2\&rbrace;)\b
 
 >[!IMPORTANT]
 >

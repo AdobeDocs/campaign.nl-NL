@@ -148,7 +148,7 @@ Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exp
 
    * **[!UICONTROL Access key]**: Leer hoe te om uw **[!UICONTROL Access key]** in [ documentatie van Microsoft ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"} te vinden.
 
-* **de Stof van Microsoft** - de **** externe rekening van de Stof van Microsoft staat u toe om gegevens tussen de Stof van Microsoft en Adobe Campaign in te voeren gebruikend de **[!UICONTROL Transfer file]** werkschemaactiviteit. Voer de volgende gegevens in om deze integratie te configureren:
+* **de Stof van Microsoft** - de **&#x200B;**&#x200B;externe rekening van de Stof van Microsoft staat u toe om gegevens tussen de Stof van Microsoft en Adobe Campaign in te voeren gebruikend de **[!UICONTROL Transfer file]** werkschemaactiviteit. Voer de volgende gegevens in om deze integratie te configureren:
 
    * **[!UICONTROL Server]**: URL van uw Microsoft Fabric-opslagserver.
 

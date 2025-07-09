@@ -32,7 +32,7 @@ Anderzijds, **de profielen** kunnen op de **lijst van gewezen personen** zijn zo
 
 >[!NOTE]
 >
->Ontvangen ontvangers die zich niet hebben geabonneerd via de methode [ &quot;mailto&quot; List-Unsubscribe ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} , worden niet verzonden naar quarantaine. Zij of worden unsubscribed van de [ dienst ](../start/subscriptions.md) verbonden aan de levering, of verzonden naar de lijst van gewezen personen (zichtbaar in de 2} sectie van het profiel {) als geen dienst voor de levering werd bepaald.**[!UICONTROL No longer contact]**
+>Ontvangen ontvangers die zich niet hebben geabonneerd via de methode [ &quot;mailto&quot; List-Unsubscribe ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} , worden niet verzonden naar quarantaine. Zij of worden unsubscribed van de [ dienst ](../start/subscriptions.md) verbonden aan de levering, of verzonden naar de lijst van gewezen personen (zichtbaar in de 2&rbrace; sectie van het profiel &lbrace;) als geen dienst voor de levering werd bepaald.**[!UICONTROL No longer contact]**
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -81,7 +81,7 @@ Om de lijst van quarantined adressen **voor het volledige platform** te bekijken
 >
 >Eind van Jaar 2: (1.22 &#42; 0.33) + 0.33)/(1.5+0.75)=32.5%.
 
-Bovendien **[!UICONTROL Non-deliverables and bounces]** ingebouwd rapport, beschikbaar bij de **2} sectie van Rapporten {van deze homepage, toont informatie over de adressen in quarantaine, de types van aangetroffen fout, en een mislukkingsonderbreking door domein.** U kunt gegevens filteren voor een specifieke levering, of dit rapport aanpassen zoals nodig.
+Bovendien **[!UICONTROL Non-deliverables and bounces]** ingebouwd rapport, beschikbaar bij de **2&rbrace; sectie van Rapporten &lbrace;van deze homepage, toont informatie over de adressen in quarantaine, de types van aangetroffen fout, en een mislukkingsonderbreking door domein.** U kunt gegevens filteren voor een specifieke levering, of dit rapport aanpassen zoals nodig.
 
 Leer meer over stuiterende adressen in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
@@ -98,7 +98,7 @@ Voor elke map kunt u alleen de ontvangers weergeven van wie het e-mailadres in q
 
 ## Een in quarantaine geplaatst adres verwijderen {#remove-a-quarantined-address}
 
-Adressen die specifieke voorwaarden aanpassen worden automatisch geschrapt van de quarantainelijst door het **ingebouwde werkschema van de Schoonmaak van het Gegevensbestand 0} {.**
+Adressen die specifieke voorwaarden aanpassen worden automatisch geschrapt van de quarantainelijst door het **ingebouwde werkschema van de Schoonmaak van het Gegevensbestand 0&rbrace; &lbrace;.**
 
 De adressen worden automatisch verwijderd uit de quarantainelijst in de volgende gevallen:
 
