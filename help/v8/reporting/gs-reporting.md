@@ -18,7 +18,7 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
 * **Dynamische rapportering**
 
-  Beschikbaar met het Web UI van de Campagne, verstrekt de Dynamische Rapportering volledig klantgerichte en real-time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Verwijs naar de [ documentatie van het Web UI v7 ](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}.
+  Beschikbaar met het Web UI van de Campagne, verstrekt de Dynamische Rapportering volledig klantgerichte en real-time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Verwijs naar de [ documentatie van het Web UI v7 ](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=nl-NL){target="_blank"}.
 
 * **Kubussen**
 

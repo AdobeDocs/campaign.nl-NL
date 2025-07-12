@@ -88,7 +88,7 @@ _feb 14, 2025_
 
 ### Nieuwe functies {#features-8-7-3}
 
-* **Dynamische Rapportering voor Transactionele berichten** - u kunt uw transactionele berichten in het Dynamische het gebruikersinterface van de Rapportering nu controleren. Deze rapporten verstrekken de capaciteit aan de teler om alle het melden metriek en dimensies van transactionele berichten, uitsplitsing van leveringen te bekijken die door een malplaatje in real time worden verzonden. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
+* **Dynamische Rapportering voor Transactionele berichten** - u kunt uw transactionele berichten in het Dynamische het gebruikersinterface van de Rapportering nu controleren. Deze rapporten verstrekken de capaciteit aan de teler om alle het melden metriek en dimensies van transactionele berichten, uitsplitsing van leveringen te bekijken die door een malplaatje in real time worden verzonden. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=nl-NL){target="_blank"}
 
 * **Transactionele overseinenREST APIs** - Op gebeurtenis-gebaseerde Transactionele APIs is nu beschikbaar voor E-mail. [Meer informatie](../dev/api/get-started-apis.md)
 
