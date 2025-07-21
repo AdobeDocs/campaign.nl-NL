@@ -5,7 +5,7 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
-source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
+source-git-commit: 5c5d19c9b9b413bb630a4e5738c6697d2341665a
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Kenmerken van SMS-kanalen {#sms-channel}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >Deze mogelijkheid is beschikbaar voor alle FDA-omgevingen voor campagnes. Het is **niet** beschikbaar voor de Plaatsingen van FFDA van de Campagne. Deze documentatie is van toepassing op Adobe Campaign v8.7.2 en hoger. Om van erfenis aan de nieuwe schakelaar van SMS over te schakelen, verwijs naar dit [ technote ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
+>Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
 
 ## Typen SMS {#sms-types}
 
