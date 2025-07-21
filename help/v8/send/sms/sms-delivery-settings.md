@@ -5,20 +5,20 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
 
 # Instellingen voor SMS-verzending {#sms-settings}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
->Deze documentatie is van toepassing op Adobe Campaign v8.7.2 en hoger. Om van erfenis aan de nieuwe schakelaar van SMS over te schakelen, verwijs naar dit [ technote ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
+>Deze mogelijkheid is beschikbaar voor alle FDA-omgevingen voor campagnes. Het is **niet** beschikbaar voor de Plaatsingen van FFDA van de Campagne. Deze documentatie is van toepassing op Adobe Campaign v8.7.2 en hoger. Om van erfenis aan de nieuwe schakelaar van SMS over te schakelen, verwijs naar dit [ technote ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
+>Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
 
 De technische montages nodig voor een levering van SMS zijn:
 

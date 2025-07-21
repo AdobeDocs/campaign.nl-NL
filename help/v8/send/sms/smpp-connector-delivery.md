@@ -5,20 +5,20 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 1%
 
 ---
 
 # Beschrijving van SMPP-aansluiting {#smpp-connector-desc}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
->Deze documentatie is van toepassing op Adobe Campaign v8.7.2 en hoger. Om van de erfenis aan de nieuwe schakelaar van SMS over te schakelen, verwijs naar dit [ technote ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}.
+>Deze mogelijkheid is beschikbaar voor alle FDA-omgevingen voor campagnes. Het is **niet** beschikbaar voor de Plaatsingen van FFDA van de Campagne. Deze documentatie is van toepassing op Adobe Campaign v8.7.2 en hoger. Om van erfenis aan de nieuwe schakelaar van SMS over te schakelen, verwijs naar dit [ technote ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
+>Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
 
 ## Gegevensstroom SMS-connector {#sms-data-flow}
 
@@ -32,13 +32,13 @@ Het proces van SMS gastheren 2 belangrijke componenten: de schakelaar SMPP zelf 
 
 ### Gegevensstroom voor SMPP-accounts {#sms-data-flow-smpp-accounts}
 
-Het proces van SMS opiniepeilt nms:extAccount en paagt nieuwe verbindingen in zijn schakelaar SMPP, die montages van elke rekening overgaat. De opiniepeilingsfrequentie kan in serverConf, in het *configRefreshMillis* plaatsen worden aangepast.
+Het proces van SMS opiniepeilt nms :extAccount en paagt nieuwe verbindingen in zijn schakelaar SMPP, die montages van elke rekening overgaan. De opiniepeilingsfrequentie kan in serverConf, in het *configRefreshMillis* plaatsen worden aangepast.
 
 Voor elke actieve rekening SMPP, probeert de schakelaar SMPP om verbindingen actief te houden de hele tijd. De verbinding wordt opnieuw verbonden als de verbinding wordt verloren.
 
 ### Gegevensstroom tijdens verzenden van berichten {#sms-data-flow-sending-msg}
 
-* Het proces van SMS selecteert actieve leveringen door nms te scannen:levering. Een levering is actief wanneer:
+* Het proces van SMS selecteert actieve leveringen door nms :delivery af te tasten. Een levering is actief wanneer:
    * Zijn staat impliceert dat de berichten kunnen worden verzonden
    * De geldigheidsperiode is niet verstreken
    * Het is in feite een levering (het is bijvoorbeeld geen sjabloon, het wordt niet verwijderd)
@@ -47,30 +47,30 @@ Voor elke actieve rekening SMPP, probeert de schakelaar SMPP om verbindingen act
 * Het proces van SMS breidt het malplaatje met verpersoonlijkingsgegevens van het leveringsgedeelte uit.
 * De schakelaar SMPP produceert MT (SUBMIT_SM PDU) aanpassing van de inhoud en andere montages.
 * De schakelaar SMPP verzendt MT door een zender (of zendontvanger) verbinding.
-* De provider retourneert een id voor deze MT. Het wordt ingevoegd in nms:providerMsgId.
+* De provider retourneert een id voor deze MT. Het wordt opgenomen in nms :providerMsgId.
 * Het proces van SMS werkt het brede logboek aan de verzonden status bij.
-* In het geval van definitieve fout, werkt het proces van SMS het brede logboek dienovereenkomstig bij, en kan tot een nieuw soort fout in nms:wideLogMsg leiden.
+* In het geval van definitieve fout, werkt het proces van SMS het brede logboek dienovereenkomstig bij, en kan een nieuw soort fout in nms :broadLogMsg tot stand brengen.
 
 ### Gegevensstroom bij ontvangst van SR {#sms-data-flow-sr}
 
 * De schakelaar SMPP ontvangt en decodeert SR (DELIVER_SM PDU). Het gebruikt regexes die in de externe rekening worden bepaald om bericht identiteitskaart en status te krijgen.
-* Bericht-id en status worden ingevoegd in nms:providerMsgStatus
+* De id van het bericht en de status worden opgenomen in nms :providerMsgStatus
 * Nadat wordt opgenomen, beantwoordt de schakelaar SMPP met een PDU DELIVER_SM_RESP.
 * Als om het even wat tijdens het proces verkeerd ging, verzendt de schakelaar SMPP negatief DELIVER_SM_RESP PDU en registreert een bericht.
 
 ### Gegevensstroom bij ontvangst van een MO {#sms-data-flow-mo}
 
 * De schakelaar SMPP ontvangt en decodeert MO (DELIVER_SM PDU).
-* Het trefwoord wordt uit het bericht geëxtraheerd. Als de waarde overeenkomt met een gedeclareerd trefwoord, worden de bijbehorende handelingen uitgevoerd. Het kan aan nms:adres schrijven om quarantaine bij te werken.
+* Het trefwoord wordt uit het bericht geëxtraheerd. Als de waarde overeenkomt met een gedeclareerd trefwoord, worden de bijbehorende handelingen uitgevoerd. Het kan aan nms :address schrijven om quarantaine bij te werken.
 * Als aangepaste TLV wordt gedeclareerd, worden deze gedecodeerd volgens de desbetreffende instellingen.
-* De volledig gedecodeerde en verwerkte MO wordt opgenomen in de nms:inSms-tabel.
+* De volledig gedecodeerde en verwerkte MO wordt opgenomen in de nms :inSms lijst.
 * De schakelaar SMPP antwoordt met een PDU DELIVER_SM_RESP. Als er een fout is aangetroffen, wordt er een foutcode geretourneerd aan de provider.
 
 ### Gegevensstroom bij het in overeenstemming brengen van MT en SR {#sms-reconciling-mt-sr}
 
-* De component SR-aansluiting leest periodiek nms:providerMsgId en nms:providerMsgStatus. Gegevens uit beide tabellen worden samengevoegd.
-* Voor alle berichten die een ingang in beide lijsten hebben, wordt de passende nms:wideLog ingang bijgewerkt.
-* De tabel nms:wideLogMsg kan tijdens het proces worden bijgewerkt als er een nieuwe fout wordt gedetecteerd, of om tellers bij te werken voor fouten die niet handmatig zijn gemarkeerd.
+* De component van de verenigbaarheid SR leest periodiek nms :providerMsgId en nms :providerMsgStatus. Gegevens uit beide tabellen worden samengevoegd.
+* Voor alle berichten die een ingang in beide lijsten hebben, wordt de passende nms :broadLog ingang bijgewerkt.
+* De nms :broadLogMsg lijst kan in het proces worden bijgewerkt als een nieuw soort fout wordt ontdekt, of tellers voor fouten bijwerken die niet manueel werden gekwalificeerd.
 
 ## Overeenkomende MT-, SR- en Broadlog-vermeldingen {#sms-matching-entries}
 
@@ -84,18 +84,18 @@ Hier volgt een diagram waarin het hele proces wordt beschreven:
 * De schakelaar SMPP formatteert het als SUBMIT_SM MT PDU.
 * De MT wordt naar de leverancier SMPP verzonden.
 * De leverancier antwoordt met SUBMIT_SM_RESP. SUBMIT_SM en SUBMIT_SM_RESP worden aangepast door hun sequence_number.
-* SUBMIT_SM_RESP verstrekt een identiteitskaart die van de leverancier komt. Deze id wordt samen met brede logboekidentiteitskaart in de nms:providerMsgId- lijst opgenomen.
+* SUBMIT_SM_RESP verstrekt een identiteitskaart die van de leverancier komt. Deze identiteitskaart wordt opgenomen samen met brede logboekidentiteitskaart in de nms :providerMsgId lijst.
 
 **Fase 2**
 
 * De leverancier verzendt een PDU DELIVER_SM SR.
 * De SR wordt geparseerd om providerid, status en foutcode te extraheren. In deze stap worden extractieregexes gebruikt.
-* De provider-id en de bijbehorende status worden ingevoegd in nms:providerMsgStatus.
+* De leverancier identiteitskaart en zijn overeenkomstige status worden opgenomen in nms :providerMsgStatus.
 * Wanneer alle gegevens veilig in het gegevensbestand worden opgenomen, beantwoordt de schakelaar SMPP met DELIVER_SM_RESP. DELIVER_SM en DELIVER_SM_RESP worden aangepast door hun sequence_number.
 
 **Fase 3**
 
-* De SR-afstemmingscomponent van het SMS-proces controleert periodiek zowel nms:providerMsgId als nms:providerMsgStatus.
+* De SR aansluitingscomponent van het proces van SMS scant zowel nms :providerMsgId als nms :providerMsgStatus lijsten periodiek.
 * Als een rij overeenkomende provider-id&#39;s in beide tabellen bevat, worden de twee items bij elkaar gevoegd. Dit staat aanpassing van brede logboekidentiteitskaart (die in providerMsgId wordt opgeslagen) met de status (die in providerMsgStatus wordt opgeslagen) toe
 * Het brede logboek wordt bijgewerkt met de overeenkomstige status.
 

@@ -7,14 +7,18 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 83524feeb6a5de32a1b32c8d66f97a32d270f62d
+source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 53%
+source-wordcount: '238'
+ht-degree: 47%
 
 ---
 
 # Aan de slag met REST-API&#39;s voor campagnes {#get-started-apis}
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid is alleen op aanvraag beschikbaar voor alle FDA-omgevingen voor campagnes. Het is **niet** beschikbaar voor de Plaatsingen van FFDA van de Campagne. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 >[!CAUTION]
 >
