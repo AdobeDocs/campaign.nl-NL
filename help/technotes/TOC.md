@@ -5,9 +5,9 @@ type: Event
 title: Adobe Campaign-technieken
 description: Campagne-technieken
 breadcrumb-title: Campagne-technologie
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: d80d81bf8c25c467c909c9ccac7c31e6963409f0
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '73'
 ht-degree: 19%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 19%
 + [Campagne-technologie](technotes-home.md)
 + Upgrades{#tn-new}
    + [ de schakelaarmigratie van SMS ](upgrades/sms-migration.md)
-   + [de veranderingen van het Kanaal van het Bericht van de duw ](upgrades/push-technote.md)
+   + {de veranderingen van het Kanaal van het Bericht van de duw [](upgrades/push-technote.md)
    + [Gebruikers migreren naar IMS](upgrades/migrate-users-to-ims.md)
    + [Technische operatoren migreren naar Developer Console](upgrades/ims-migration.md)
    + [Technisch bedrijf migreren naar Developer Console](upgrades/ims-migration-old.md)
@@ -30,4 +30,5 @@ ht-degree: 19%
    + [32-bits versie van clientconsole](upgrades/console.md)
    + Beveiliging {#security}
       + [Rotatie van klantgegevens](security/credential-rotation-guide.md)
-+ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
+      + [Asymetrische codering](security/asymetric-encryption.md)
++ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
