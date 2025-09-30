@@ -7,16 +7,14 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
+source-git-commit: 115b7b6824f3736e03f9fb87898f1264f9bab636
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 43%
+source-wordcount: '231'
+ht-degree: 40%
 
 ---
 
 # Aan de slag met REST-API&#39;s voor campagnes {#get-started-apis}
-
-
 
 De REST APIs van de campagne wordt gericht op het laten van u **integraties** voor Adobe Campaign creëren en **uw eigen ecosysteem** bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt.
 
@@ -24,7 +22,7 @@ De REST APIs van de campagne wordt gericht op het laten van u **integraties** vo
 >
 >* Dit vermogen is slechts beschikbaar op bestelling, voor alle [ milieu&#39;s FDA van de Campagne ](../../architecture/fda-deployment.md). Het is **niet** beschikbaar voor [ de plaatsingen van de Onderneming (FFDA) ](../../architecture/enterprise-deployment.md). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 >
->* Controleer voordat u API-aanroepen uitvoert, de schaalbeperkingen bij uw licentieovereenkomst. Voor meer op dit, verwijs naar de [ pagina van de Beschrijving van het Product van de Campagne ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers){target="_blank"}.
+>* Controleer voordat u API-aanroepen uitvoert, de schaalbeperkingen bij uw licentieovereenkomst. Voor meer op dit, verwijs naar de [ Adobe Campaign v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 
 Met de Adobe Campaign REST API&#39;s hebt u toegang tot de volgende functies:
@@ -44,4 +42,3 @@ De API’s die we bieden, gebruiken **standaardconcepten** met een REST-interfac
 
 Alle eindpunten worden uitgebreid beschreven in deze documentatie met de algemene begrippen die u moet kennen voor het manipuleren van de API, de volledige API-referentie, codevoorbeelden en snelstarthandleidingen. Alle voorbeelden werken met Postman, maar u kunt gerust uw favoriete REST-client gebruiken.
 
-Als er iets ontbreekt of onjuist lijkt, kunt u informeren bij de [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community){target="_blank"}.
