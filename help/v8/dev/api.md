@@ -5,9 +5,9 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '280'
 ht-degree: 9%
 
 ---
@@ -19,16 +19,17 @@ ht-degree: 9%
 * in Scripts - in [!DNL Adobe Campaign] workflows
 * via API&#39;s - van externe systemen
 
-U kunt JavaScript API&#39;s gebruiken om te schrijven in de Campagnecloud-database of om te lezen van de database:
-
-* Bedrijfsspecifieke API&#39;s waarmee u op elk object kunt reageren: leveringen, workflows, abonnementen enzovoort. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=nl-NL){target="_blank"}.
-* Algemene API&#39;s voor gegevenstoegang voor het opvragen van gegevens van het gegevensmodel. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=nl-NL){target="_blank"}.
-
-Merk op dat in zijn [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), de Campagne met twee gegevensbestanden werkt: een lokaal gegevensbestand voor het gebruikersinterface overseinen en unitaire vragen in real time en schrijven door APIs, en een gegevensbestand van de Wolk voor campagneuitvoering, rapportering, gegevensopname, partijvragen en werkschemauitvoering.
-
 >[!NOTE]
 >
->* U kunt REST API&#39;s gebruiken met Campagne v8. [Meer informatie](../dev/api/get-started-apis.md).
+>* Afhankelijk van uw implementatiemodel kunt u ook REST API&#39;s gebruiken met Campagne v8. [Meer informatie](../dev/api/get-started-apis.md).
+
+
+U kunt JavaScript API&#39;s gebruiken om te schrijven in de Campagnecloud-database of om te lezen van de database:
+
+* Bedrijfsspecifieke API&#39;s waarmee u op elk object kunt reageren: leveringen, workflows, abonnementen enzovoort. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
+* Algemene API&#39;s voor gegevenstoegang voor het opvragen van gegevens van het gegevensmodel. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
+
+Merk op dat in zijn [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), de Campagne met twee gegevensbestanden werkt: een lokaal gegevensbestand voor het gebruikersinterface overseinen en unitaire vragen in real time en schrijven door APIs, en een gegevensbestand van de Wolk voor campagneuitvoering, rapportering, gegevensopname, partijvragen en werkschemauitvoering.
 
 >[!CAUTION]
 >
