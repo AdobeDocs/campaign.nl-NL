@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1033'
 ht-degree: 20%
 
 ---
@@ -28,6 +28,13 @@ Campagne gebruiken om:
 * **automatiseer** de levering van zinvolle en geschikte berichten en aanbiedingen
 
 ![](assets/do-not-localize/ac-capabilities.png)
+
+
+>[!AVAILABILITY]
+>
+>Behalve wanneer dit op de pagina&#39;s wordt vermeld, is de documentatie van Adobe Campaign (console) van toepassing op Campaign Classic v7 en Campaign v8.
+>
+>Houd er rekening mee dat bepaalde verwijzingen in de documentatie mogelijk nog steeds verwijzen naar eerdere branding, maar nog steeds van toepassing zijn op de huidige aanbieding.
 
 ## Geïntegreerd klantprofiel {#integrated-customer-profile}
 
@@ -95,5 +102,5 @@ Is Campaign Classic al bekend? Leer zeer belangrijke verschillen tussen Campaign
 
 * [Campagne, werkruimte](campaign-ui.md)
 * [Compatibiliteitsmatrix voor campagne v8](compatibility-matrix.md)
-* [Verbinding maken met campagne](connect.md)
+* [Verbinding maken met Campaign](connect.md)
 * [Veelgestelde vragen](campaign-faq.md)

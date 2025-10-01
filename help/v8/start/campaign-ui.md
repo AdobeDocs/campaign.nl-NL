@@ -4,10 +4,11 @@ description: Leer hoe u door de gebruikersinterface van Campagne kunt bladeren e
 feature: Overview
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 9d5a2ca1e9858a727377b8afa6bdd7e3761c1b56
+source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1235'
 ht-degree: 1%
 
 ---
@@ -16,47 +17,60 @@ ht-degree: 1%
 
 U kunt tot Adobe Campaign via zijn cliëntconsole of zijn gebruikersinterface van het Web toegang hebben. U kunt ook API&#39;s gebruiken om gegevens te beheren en taken uit te voeren in uw campagneplatform.
 
->[!CAUTION]
->
->Deze documentatie is geconcentreerd op het gebruik van de console van de Cliënt van de Campagne. Als u het de gebruikersinterface van het Web van de Campagne gebruikt, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"}.
-
 * **de console van de Cliënt** - de cliëntconsole van de campagne is een inheemse toepassing die met de de toepassingsserver van Adobe Campaign door standaard Internet protocollen, zoals SOAP en HTTP communiceert. De de cliëntconsole van de campagne centraliseert alle mogelijkheden en montages, en vereist minimale bandbreedte aangezien het op een lokaal geheime voorgeheugen baseert. Campagne-clientconsole is ontworpen voor eenvoudige implementatie en kan worden geïmplementeerd vanuit een internetbrowser, automatisch worden bijgewerkt. Hiervoor is geen specifieke netwerkconfiguratie nodig omdat alleen HTTP(S)-verkeer wordt gegenereerd. [Meer informatie](#ui-access)
 
   Leer hoe te om de cliëntconsole van de Campagne in [ te installeren en te vormen deze sectie ](../start/connect.md).
-
-* **gebruikersinterface van het Web** - als een gebruiker van de Campagne v8, die versie v8.6.1 begint, hebt u nu toegang tot een Webmilieu, beschikbaar door het centrale gebruikersinterface van Adobe Experience Cloud. Vervolgens kunt u vanuit een webbrowser verbinding maken met Adobe Campaign. Met deze nieuwe interface kunt u belangrijke marketingacties maken, beheren en uitvoeren. Alle campagnemogelijkheden zijn echter niet beschikbaar. [Meer informatie](#ac-web-ui).
-
-  >[!AVAILABILITY]
-  >
-  >De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
-  >
 
 * **toegang van het Web** - de mogelijkheden van de het Webtoegang van Adobe Campaign laten u tot een ondergroep van de eigenschappen van de Campagne met Webbrowser toegang hebben, gebruikend een gebruikersinterface van HTML. Gebruik deze webinterface om rapporten te openen, berichten te besturen en te valideren, toegang te krijgen tot controledashboards en nog veel meer.  Leer meer over de Toegang van het Web van de Campagne [ in deze sectie ](../start/connect.md#web-access).
 
 * **APIs** - om meer gebruiksgevallen te richten, kan het systeem van externe toepassingen worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van SOAP worden blootgesteld. Leer meer over Campagne APIs [ in deze pagina ](../dev/api.md).
 
+* **gebruikersinterface van het Web** - als een gebruiker van de Campagne v8, die versie v8.6.1 begint, hebt u nu toegang tot een Webmilieu, beschikbaar door het centrale gebruikersinterface van Adobe Experience Cloud. Vervolgens kunt u vanuit een webbrowser verbinding maken met Adobe Campaign. Met deze nieuwe interface kunt u belangrijke marketingacties maken, beheren en uitvoeren. Alle campagnemogelijkheden zijn echter niet beschikbaar. [Meer informatie](#ac-web-ui).
+
+  >[!AVAILABILITY]
+  >
+  >De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers van de Campagne v8 die met Campagne met hun Adobe ID verbinden. Leer meer over [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+  >
+
+>[!CAUTION]
+>
+>Deze documentatie is geconcentreerd op het gebruik van de console van de Cliënt van de Campagne. Als een gebruiker van de Campagne v8, als u het de gebruikersinterface van het Web van de Campagne gebruikt, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
 
 ## Werken met de clientconsole {#ui-access}
 
-Campagne-clientconsole is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. De de cliëntconsole van de campagne centraliseert alle mogelijkheden en montages, en vereist minimale bandbreedte aangezien het op een lokaal geheime voorgeheugen baseert. Campagne-clientconsole is ontworpen voor eenvoudige implementatie en kan worden geïmplementeerd vanuit een internetbrowser, automatisch worden bijgewerkt. Hiervoor is geen specifieke netwerkconfiguratie nodig omdat alleen HTTP(S)-verkeer wordt gegenereerd.  [ Leer meer over de cliëntconsole van de Campagne ](../start/connect.md). U kunt op het gebruikersinterface van het Web van de Campagne van de specifieke kaart in de homepage van de cliëntconsole schakelen.
+Campagne-clientconsole is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. De de cliëntconsole van de campagne centraliseert alle mogelijkheden en montages, en vereist minimale bandbreedte aangezien het op een lokaal geheime voorgeheugen baseert. Campagne-clientconsole is ontworpen voor eenvoudige implementatie en kan worden geïmplementeerd vanuit een internetbrowser, automatisch worden bijgewerkt. Hiervoor is geen specifieke netwerkconfiguratie nodig omdat alleen HTTP(S)-verkeer wordt gegenereerd.  [ Leer meer over de cliëntconsole van de Campagne ](../start/connect.md).
 
-![](assets/web-ui.png)
 
+
+>[!BEGINTABS]
+
+>[!TAB Campaign v8]
+
+Zodra u met Campagne wordt verbonden, hebt u toegang tot de homepage van Adobe Campaign. In Campagne v8, gebruik de centrale kaarten om het nieuwe de gebruikersinterface van het Web van de Campagne, en het Controlebord van de Campagne te doorbladeren.
+
+![ het Huis van de Console van de Cliënt van de Campagne v8 ](assets/web-ui.png)
 
 >[!NOTE]
 >
->Als de nieuwe toegangskaart niet wordt getoond, gelieve ervoor te zorgen dat de volgende gebieden niet leeg binnen uw externe rekening van Adobe Experience Cloud worden verlaten: **Server**, **Aannemer**, **Callback server**, en **het teken van de Vereniging**.
+>Als de kaart van het gebruikersinterface van het Web niet wordt getoond, zorg ervoor dat de volgende gebieden niet leeg binnen uw externe rekening van Experience Cloud van A [ worden verlaten ](../config/external-accounts.md): **Server**, **Haakzame**, **Callback server**, en **het teken van de Vereniging**.
+
+U kunt tot het [ Controlebord van de Campagne ](../config/self-service.md) van de homepage ook toegang hebben.
+
+>[!TAB Campaign Classic v7]
+
+Zodra u met Campagne wordt verbonden, hebt u toegang tot de homepage van Adobe Campaign met verbindingen en kortere weg aan toegangsmogelijkheden, documentatie, steunwebsite, en de gemeenschap van de Campagne.
+
+![ Campaign Classic v7 het Huis van de Console van de Cliënt 1}](assets/v7_user_interface_home.png)
+
+
+>[!ENDTABS]
 
 
 U kunt ook een webbrowser gebruiken om toegang te krijgen tot Campagne. In dit verband is slechts een subset van campagnemogelijkheden beschikbaar. [Meer informatie](#web-browser)
 
 ### Door de interface bladeren {#ui-browse}
 
-Zodra u met de cliëntconsole van de Campagne wordt verbonden, hebt u toegang tot de homepage. Blader door de koppelingen naar toegangsmogelijkheden. Welke mogelijkheden beschikbaar zijn in de interface, is afhankelijk van uw opties en machtigingen.
-
-Vanuit het centrale gedeelte van de startpagina gebruikt u koppelingen voor toegang tot het Help-materiaal voor campagnes, de community en de ondersteuningswebsite. Gebruik de centrale kaarten om het nieuwe de gebruikersinterface van het Web van de Campagne, en het Controlebord van de Campagne te doorbladeren.
-
-Blader door de tabbladen in de bovenste sectie naar de mogelijkheden van de Campagne-sleutel:
+Als u eenmaal verbinding hebt met de Campagne-clientconsole, bladert u door de tabbladen in de bovenste sectie naar de mogelijkheden van de Campagne-sleutel:
 
 ![](assets/overview-home.png)
 
@@ -108,25 +122,25 @@ In deze werkruimte hebt u toegang tot de Explorer-structuur om door alle functie
 
 ## Gebruikersinterface Campagne Web {#ac-web-ui}
 
-Als gebruiker van de Campagne v8 clientconsole, die versie v8.6.1 begint, hebt u nu toegang tot een webomgeving die beschikbaar is via de centrale Adobe Experience Cloud-gebruikersinterface. Experience Cloud is een geïntegreerde Adobe-reeks met digitale marketingtoepassingen, producten en services. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services.
+Als gebruiker van Campagne v8, die versie 8.6.1 begint, hebt u toegang tot een Webmilieu, beschikbaar door de centrale gebruikersinterface van Adobe Experience Cloud. Experience Cloud is een geïntegreerde Adobe-reeks met digitale marketingtoepassingen, producten en services. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services.
 
 ![ Web van Adobe Campaign Web User Interface Homepage ](assets/ac-web-home.png)
 
 >[!AVAILABILITY]
 >
->De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
+>De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers van de Campagne v8 die met Campagne met hun Adobe ID verbinden. Leer meer over [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 >
 
-Leer meer over het nieuwe Gebruikersinterface van het Web van de Campagne in [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"}. U kunt de specifieke [ Veelgestelde pagina van Vragen ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/faq){target="_blank"}, in de documentatie van het Gebruikersinterface van het Web van de Campagne ook bezoeken.
+Leer meer over het nieuwe Gebruikersinterface van het Web van de Campagne in [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}. U kunt de specifieke [ Veelgestelde pagina van Vragen ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"}, in de documentatie van het Gebruikersinterface van het Web van de Campagne ook bezoeken.
 
-Aanvullende en geavanceerde mogelijkheden, configuratie en instellingen zijn alleen beschikbaar in de clientconsole. Leer meer over mogelijkheden beschikbaar in beide gebruikersinterfaces [ in de documentatie van het het gebruikersinterface van het Web van de Campagne ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=nl-NL){target="_blank"}.
+Aanvullende en geavanceerde mogelijkheden, configuratie en instellingen zijn alleen beschikbaar in de clientconsole. Leer meer over mogelijkheden beschikbaar in beide gebruikersinterfaces [ in de documentatie van het het gebruikersinterface van het Web van de Campagne ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html){target="_blank"}.
 
 
 ## Ondersteunde talen {#languages}
 
 Welke talen worden ondersteund, is afhankelijk van de gebruikersinterface.
 
-* Voor de Campagne v8 client console-interface worden de volgende talen ondersteund:
+* Voor de interface van de clientconsole van Campagne zijn de ondersteunde talen:
 
    * Engels (VK)
    * Engels (VS)
@@ -137,10 +151,11 @@ Welke talen worden ondersteund, is afhankelijk van de gebruikersinterface.
 
   >[!CAUTION]
   >
-  >De taal wordt tijdens het installatieproces geselecteerd en kan daarna niet worden gewijzigd.
+  >De taal wordt geselecteerd tijdens het installatieproces, en **kan niet** achteraf worden veranderd.
 
-* Voor het gebruikersinterface van het Web van de Campagne gesteunde talen, [ verwijzen naar deze pagina ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=nl-NL#language-pref){target="_blank"}.
+* Voor het gebruikersinterface van het Web van de Campagne gesteunde talen, [ verwijzen naar deze pagina ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
 
+## Indelingen
 
 Taal is van invloed op datums en tijdnotaties.
 
@@ -162,13 +177,37 @@ De belangrijkste verschillen tussen het Engels van de VS en het Engels van het V
   </tr> 
   <tr> 
    <td> Korte datum <br /> </td> 
-   <td> <p>%2M/%2D/%4Y</p><p><strong>ex: 25-09-2018</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y</p><p><strong>ex: 25-09-2018</strong></p> </td> 
+   <td> <p>%2M/%2D/%4Y</p><p><strong>ex: 25-09-2025</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y</p><p><strong>ex: 25-09-2025</strong></p> </td> 
   </tr> 
   <tr> 
    <td> Korte datum met tijd <br /> </td> 
-   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 09/25/2018 10 :47: 25 PM</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2018 22 :47: 25</strong></p> </td> 
+   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 09/25/2025 10 :47: 25 PM</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2025 22 :47: 25</strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+## Standaardeenheden {#default-units}
+
+Op de gebieden die een duur (b.v. geldigheidsperiode van de middelen van een levering uitdrukken, goedkeuringsdeadline voor een taak, enz.), kan de waarde in de volgende **eenheden** worden uitgedrukt:
+
+* **[!UICONTROL s]** gedurende seconden,
+* **[!UICONTROL mn]** gedurende minuten,
+* **[!UICONTROL h]** gedurende uren,
+* **[!UICONTROL d]** dagen.
+
+
+## Opsomming {#enumeration}
+
+Als u de invoervelden gebruikt in een vervolgkeuzelijst, kunt u een opsommingswaarde invoeren die u kunt opslaan en vervolgens als een optie in de vervolgkeuzelijst kunt voorstellen.
+
+U kunt bijvoorbeeld in het veld **[!UICONTROL City]** van het tabblad **[!UICONTROL General]** van een ontvangend profiel Londen invoeren. Wanneer u op Enter drukt om deze waarde te bevestigen, wordt u gevraagd of u deze waarde wilt opslaan voor de opsomming die aan het veld is gekoppeld.  Als u op **[!UICONTROL Yes]** klikt, is deze waarde beschikbaar in de vervolgkeuzelijst van het desbetreffende veld.
+
+Opsommingen (ook wel &#39;gespecificeerde lijsten&#39; genoemd) worden beheerd door de beheerder via de sectie **[!UICONTROL Administration > Platform > Enumerations]** .
+
+Leer hoe te [ met opsommingen ](../dev/enumerations.md) werken
+
+Leer meer over [ Opsommingen in schema&#39;s ](../dev/schema-structure.md#enumerations)

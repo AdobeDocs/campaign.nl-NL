@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
+source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '793'
 ht-degree: 26%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 26%
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campagnebeheer {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
-   + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=nl-NL)
+   + [ Organiseren van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
 + Berichten verzenden{#send}
    + [Aan de slag met berichten](start/gs-message.md)
    + [Je eerste levering maken](start/create-message.md)
@@ -134,7 +134,7 @@ ht-degree: 26%
    + [Openingspagina&#39;s maken](dev/landing-pages.md)
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Automatisering en workflows {#automation}
-   + [ Gids van de Automatisering van de Campagne > ](https://experienceleague.adobe.com/nl/docs/campaign/automation/home)
+   + [ Gids van de Automatisering van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
 + Privacy- en beveiligingsbeheer {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
    + [Beveiligingsrichtlijnen](config/security.md)
@@ -176,7 +176,7 @@ ht-degree: 26%
 + Data management {#data}
    + [Aan de slag met workflows](config/workflows.md)
    + [Gegevens importeren](start/import.md)
-   + [ Documentatie van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
+   + [ Documentatie van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integraties {#connect}
    + [Campagne verbinden met andere oplossingen](connect/integration.md)
    + Campagne + Experience Platform {#ac-aep}
@@ -215,6 +215,7 @@ ht-degree: 26%
    + Implementatie {#implement}
       + [Implementatiestappen](start/implement.md)
       + [Instantie aanpassen](dev/customize.md)
+      + [Werken met opsommingen](dev/enumerations.md)
       + [Best practices voor het gegevensmodel](dev/datamodel-best-practices.md)
    + Instellingen en configuratie {#configuration}
       + [Gebruikersinterface-instellingen](config/ui-settings.md)
@@ -265,6 +266,6 @@ ht-degree: 26%
       + Workflows beheren {#managing-workflows}
          + [Een workflow beheren](dev/api/controlling-a-workflow.md)
          + [Een signaalactiviteit activeren](dev/api/triggering-a-signal-activity.md)
-+ [ Campagne technotes > ](https://experienceleague.adobe.com/nl/docs/campaign/technotes-ac/technotes-home)
-+ [ de documentatie van het Webgebruikersinterface van de Campagne > ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home)
++ [ Campagne technotes > ](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
++ [ de documentatie van het Webgebruikersinterface van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 
