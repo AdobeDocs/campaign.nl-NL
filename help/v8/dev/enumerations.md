@@ -74,7 +74,7 @@ Voer de volgende stappen uit om een alias te maken:
 >
 >Zodra deze stap is bevestigd, kunnen de vorige waarden niet meer worden teruggewonnen: ze worden vervangen.
 
-Aldus, wanneer een gebruiker de waarde **NEILSEN** op een &quot;bedrijf&quot;gebied (in de console van Adobe Campaign of in een vorm) ingaat, wordt het automatisch vervangen door de waarde **NIELSEN Ltd**. De waardevervanging wordt uitgevoerd door het **Alias zuiverend** werkschema. Verwijs naar [ gegevens van de Looppas zuiverend ](#running-data-cleansing).
+Aldus, wanneer een gebruiker de waarde **NEILSEN** op een &quot;bedrijf&quot;gebied (in de console van Adobe Campaign of in een vorm) ingaat, wordt het automatisch vervangen door de waarde **NIELSEN Ltd**. De waardevervanging wordt uitgevoerd door het **Alias zuiverend** werkschema. Verwijs naar [&#x200B; gegevens van de Looppas zuiverend &#x200B;](#running-data-cleansing).
 
 ![](assets/enumeration_alias_use.png)
 
@@ -94,13 +94,13 @@ Zodra de uitvoering is voltooid, wordt de alias toegevoegd aan de lijst met alia
 
 Wanneer gebruikers waarden invoeren die niet in de opsomming zijn opgenomen, worden deze opgeslagen op het tabblad **[!UICONTROL Alias]** .
 
-Het **Alias zuiveren** technische werkschema herstelt deze waarden elke nacht om de opsomming bij te werken. Verwijs naar [ gegevens van de Looppas zuiverend ](#running-data-cleansing)
+Het **Alias zuiveren** technische werkschema herstelt deze waarden elke nacht om de opsomming bij te werken. Verwijs naar [&#x200B; gegevens van de Looppas zuiverend &#x200B;](#running-data-cleansing)
 
-Indien nodig kan in de kolom **[!UICONTROL Hits]** het aantal keren worden weergegeven dat deze waarde is ingevoerd. Het berekenen van deze waarde kan echter zowel tijdrovend zijn als geheugenverbruikend. Voor meer op dit, verwijs naar [ berekent ingangsvoorkomen ](#calculating-entry-occurrences).
+Indien nodig kan in de kolom **[!UICONTROL Hits]** het aantal keren worden weergegeven dat deze waarde is ingevoerd. Het berekenen van deze waarde kan echter zowel tijdrovend zijn als geheugenverbruikend. Voor meer op dit, verwijs naar [&#x200B; berekent ingangsvoorkomen &#x200B;](#calculating-entry-occurrences).
 
 ### Gegevens wissen {#run-data-cleansing}
 
-De gegevens worden gewist door de technische workflow van **[!UICONTROL Alias cleansing]** . De configuraties die voor opsommingen worden gedefinieerd, worden tijdens de uitvoering toegepast. Verwijs naar [ Alias het zuiveren werkschema ](#alias-cleansing-workflow).
+De gegevens worden gewist door de technische workflow van **[!UICONTROL Alias cleansing]** . De configuraties die voor opsommingen worden gedefinieerd, worden tijdens de uitvoering toegepast. Verwijs naar [&#x200B; Alias het zuiveren werkschema &#x200B;](#alias-cleansing-workflow).
 
 Het opschonen kan worden geactiveerd via de koppeling **[!UICONTROL Cleanse values...]** .
 
