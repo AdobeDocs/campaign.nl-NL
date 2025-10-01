@@ -41,7 +41,7 @@ ht-degree: 26%
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campagnebeheer {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
-   + [&#x200B; Organiseren van de Campagne > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
+   + [&#x200B; Organiseren van de Campagne > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=nl-NL)
 + Berichten verzenden{#send}
    + [Aan de slag met berichten](start/gs-message.md)
    + [Je eerste levering maken](start/create-message.md)
@@ -134,7 +134,7 @@ ht-degree: 26%
    + [Openingspagina&#39;s maken](dev/landing-pages.md)
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Automatisering en workflows {#automation}
-   + [&#x200B; Gids van de Automatisering van de Campagne > &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
+   + [&#x200B; Gids van de Automatisering van de Campagne > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/home)
 + Privacy- en beveiligingsbeheer {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
    + [Beveiligingsrichtlijnen](config/security.md)
@@ -176,7 +176,7 @@ ht-degree: 26%
 + Data management {#data}
    + [Aan de slag met workflows](config/workflows.md)
    + [Gegevens importeren](start/import.md)
-   + [&#x200B; Documentatie van het Werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [&#x200B; Documentatie van het Werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
 + Integraties {#connect}
    + [Campagne verbinden met andere oplossingen](connect/integration.md)
    + Campagne + Experience Platform {#ac-aep}
@@ -266,6 +266,6 @@ ht-degree: 26%
       + Workflows beheren {#managing-workflows}
          + [Een workflow beheren](dev/api/controlling-a-workflow.md)
          + [Een signaalactiviteit activeren](dev/api/triggering-a-signal-activity.md)
-+ [&#x200B; Campagne technotes > &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
-+ [&#x200B; de documentatie van het Webgebruikersinterface van de Campagne > &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
++ [&#x200B; Campagne technotes > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/technotes-ac/technotes-home)
++ [&#x200B; de documentatie van het Webgebruikersinterface van de Campagne > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home)
 
