@@ -4,7 +4,7 @@ description: Leer hoe u aangepaste kanaalleveringen maakt en verzendt met Adobe 
 role: User
 level: Beginner, Intermediate
 exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
-source-git-commit: e2c7529fb7dc033f35f9c0d2e73273d7f20bac64
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Met Adobe Campaign kunt u aangepaste externe of API-kanalen maken die zijn geïn
 
 De levering en het verzenden kunnen zowel in de Console van de Cliënt als in het Web UI worden uitgevoerd. De aangepaste kanaalconfiguratie wordt echter alleen uitgevoerd in de clientconsole.
 
-Leren hoe te om een levering tot stand te brengen en te verzenden die op een douanekanaal wordt gebaseerd, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=nl-NL){target="_blank"}.
+Leren hoe te om een levering tot stand te brengen en te verzenden die op een douanekanaal wordt gebaseerd, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html){target="_blank"}.
 
 Hier volgen de stappen voor het configureren van een nieuw aangepast kanaal in de clientconsole. Deze stappen worden gebruikt voor aangepaste externe en API-kanalen:
 
@@ -33,7 +33,7 @@ Eerst, moet u het schema vormen om het nieuwe kanaal aan de lijst van beschikbar
 
 1. Van de Ontdekkingsreiziger van de Campagne, uitgezochte **Beleid** > **Configuratie** > **schema&#39;s van Gegevens**.
 
-1. Creeer een schemauitbreiding om de opsomming messageType met het nieuwe kanaal uit te breiden.
+1. Creeer een schemauitbreiding om **messageType** [ opsomming ](../config/enumerations.md) met het nieuwe kanaal uit te breiden.
 
    Bijvoorbeeld:
 
@@ -90,7 +90,7 @@ Van het Web UI van de Campagne, opstelling de definitie van het douanescherm:
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. Selecteer de tab die overeenkomt met uw kanaal en bepaal hoe de velden worden weergegeven in het inhoudsscherm van de levering. Voor meer informatie over het schermuitgave, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=nl-NL#fields){target="_blank"}.
+1. Selecteer de tab die overeenkomt met uw kanaal en bepaal hoe de velden worden weergegeven in het inhoudsscherm van de levering. Voor meer informatie over het schermuitgave, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}.
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 

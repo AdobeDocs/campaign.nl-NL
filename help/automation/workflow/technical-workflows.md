@@ -6,7 +6,7 @@ feature: Workflows
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 0%
@@ -43,7 +43,7 @@ De workflows die in deze pagina worden beschreven, worden geïnstalleerd met de 
 
 | Technische workflow | Pakket | Beschrijving |
 |------|--------|-----------|
-| **Alias het zuiveren** (aliasCleansing) | Standaard geïnstalleerd | Deze werkstroom normaliseert opsommingswaarden. Deze wordt standaard elke dag om 3 uur geactiveerd. |
+| **Alias het zuiveren** (aliasCleansing) | Standaard geïnstalleerd | Dit werkschema normaliseert [ opsommings ](../../v8/config/enumerations.md#alias-cleansing) waarden. Deze wordt standaard elke dag om 3 uur geactiveerd. |
 | **Facturering** (het factureren) | Standaard geïnstalleerd | Deze workflow stuurt het systeemactiviteitenrapport per e-mail naar de &#39;factureringsoperator&#39;. Het wordt teweeggebracht 25e van elke maand op de instantie van de Marketing. |
 | **de banen van de Campagne** (operationMgt) | Standaard geïnstalleerd | In deze workflow worden de taken voor marketingcampagnes beheerd (starttaken, bestanden uitpakken, enz.). Het leidt ook tot werkschema&#39;s met betrekking tot terugkomende en periodieke campagnes. |
 | **verzamel gegevens voor de dienst HeatMap** (collectDataHeatMapService) | Standaard geïnstalleerd | Deze werkstroom wint gegevens terug die door de dienst HeatMap worden vereist. |

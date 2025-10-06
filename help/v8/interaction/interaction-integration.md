@@ -5,9 +5,9 @@ description: Meer informatie over het toevoegen van een aanbieding op een webpag
 feature: Interaction, Offers
 role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Als u de representatie van de HTML-aanbieding automatisch wilt genereren, kunt u
 
 ### Een voorstel presenteren {#presenting-an-offer}
 
-De module van de Interactie van de campagne **&#x200B;**&#x200B;laat u een knoop van XML aan de pagina terugkeren van HTML die de motor van de Aanbieding omhoog roept. Dit XML-knooppunt kan worden verwerkt door functies die aan de kant van de klant moeten worden ontwikkeld.
+De module van de Interactie van de campagne **** laat u een knoop van XML aan de pagina terugkeren van HTML die de motor van de Aanbieding omhoog roept. Dit XML-knooppunt kan worden verwerkt door functies die aan de kant van de klant moeten worden ontwikkeld.
 
 De vraag aan de motor van de Aanbieding kijkt als dit:
 
@@ -175,7 +175,7 @@ In het onderstaande gebruiksgeval worden de configuraties beschreven die in Adob
 
    In dit schema worden de volgende velden gedefinieerd: Titel nummer 2 en prijs.
 
-   De naam van het schema in het voorbeeld is **focus:aanbieding**
+   De naam van het schema in het voorbeeld is **focus:offer**
 
    ```
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
@@ -318,11 +318,11 @@ De SOAP-webservices die voor het beheer van aanbiedingen worden aangeboden, vers
 
 ### Voorstel {#offer-proposition}
 
-Voor een aanbiedingsvoorstel via SOAP, voeg **nms toe:proposition#Propose** bevel dat door de volgende parameters wordt gevolgd:
+Voor een aanbiedingsvoorstel via SOAP, voeg het **nms :proposition #Propose** bevel toe dat door de volgende parameters wordt gevolgd:
 
 * **targetId**: primaire sleutel van de ontvanger (kan een samengestelde sleutel zijn).
 * **maxCount**: specificeert het aantal aanbiedingsvoorstellen voor het contact.
-* **context**: laat u contextinformatie in het ruimteschema toevoegen. Als het gebruikte schema **nms is:interactie**, **`<empty>`** zou moeten worden toegevoegd.
+* **context**: laat u contextinformatie in het ruimteschema toevoegen. Als het gebruikte schema **nms:interaction** is, **`<empty>`** zou moeten worden toegevoegd.
 * **categorieën**: specificeert de categorie(ën) de aanbiedingen moeten tot behoren.
 * **thema&#39;s**: specificeert de thema(s) die de aanbieding(en) moeten behoren tot.
 * **uuid**: waarde van het permanente koekje van Adobe Campaign (&quot;uuid230&quot;).
@@ -340,11 +340,11 @@ Als antwoord op de vraag, zal de dienst van SOAP de volgende parameters terugker
 
 ### Aanbieding bijwerken {#offer-update}
 
-Voeg **nms toe:interaction#UpdateStatus** bevel aan URL, die door deze parameters wordt gevolgd:
+Voeg het **nms :interaction #UpdateStatus** bevel aan URL toe, die door deze parameters wordt gevolgd:
 
 * **voorstel**: koord van karakters, bevat het propositie identiteitskaart die als output tijdens een aanbiedingsvoorstel wordt gegeven. Verwijs naar [ voorstel van de Aanbieding ](#offer-proposition).
-* **status**: koordtype, specificeert het de nieuwe status van de aanbieding. De mogelijke waarden zijn vermeld in de **propositionStatus** opsomming, in **nms:gemeenschappelijk** schema. Bijvoorbeeld, uit-van-de-doos, beantwoordt aantal 3 aan **Toegelaten** status.
-* **context**: Het element van XML, laat u contextinformatie in het ruimteschema toevoegen. Als het gebruikte schema **nms is:interactie**, **`<empty>`** zou moeten worden toegevoegd.
+* **status**: koordtype, specificeert het de nieuwe status van de aanbieding. De mogelijke waarden zijn vermeld in **propositionStatus** [ opsomming ](../config/enumerations.md), in het **nms:common** schema. Bijvoorbeeld, uit-van-de-doos, beantwoordt aantal 3 aan **Toegelaten** status.
+* **context**: Het element van XML, laat u contextinformatie in het ruimteschema toevoegen. Als het gebruikte schema **nms:interaction** is, **`<empty>`** zou moeten worden toegevoegd.
 
 ### Voorbeeld met een SOAP-aanroep {#example-using-a-soap-call}
 

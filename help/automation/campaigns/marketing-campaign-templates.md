@@ -6,7 +6,7 @@ feature: Campaigns, Templates
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -30,12 +30,12 @@ Een ingebouwde sjabloon wordt geleverd om een campagne te maken waarvoor geen sp
 
 Volg onderstaande stappen om een campagnemalplaatje te maken:
 
-1. Open de Ontdekkingsreiziger van de Campagne **&#x200B;**, en doorblader aan **Middelen > Malplaatjes > de malplaatjes van de Campagne**.
+1. Open de Ontdekkingsreiziger van de Campagne ****, en doorblader aan **Middelen > Malplaatjes > de malplaatjes van de Campagne**.
 1. Klik **Nieuw** in de toolbar boven de lijst van malplaatjes.
 
 ![](assets/campaign-template-node.png)
 
-U kunt **&#x200B;**&#x200B;het ingebouwde malplaatje ook dupliceren om zijn configuratie opnieuw te gebruiken en aan te passen. Om dit te doen, klik op het malplaatje met de rechtermuisknop aan en selecteer **Dupliceer**.
+U kunt **** het ingebouwde malplaatje ook dupliceren om zijn configuratie opnieuw te gebruiken en aan te passen. Om dit te doen, klik op het malplaatje met de rechtermuisknop aan en selecteer **Dupliceer**.
 
 1. Voer het label van uw nieuwe campagnemalplaatje in.
 1. Klik **sparen** en open uw malplaatje opnieuw.
@@ -169,8 +169,7 @@ Wanneer u een campagnemalplaatje creeert, moet u de volgende informatie ingaan:
 * Ga het **etiket** van het malplaatje in: het etiket is verplicht en is het standaardetiket voor alle campagnes die op dit malplaatje worden gebaseerd.
 * Selecteer de campagne **aard** van de drop-down lijst. De waarden in deze lijst zijn die welke zijn opgeslagen in de opsomming **[!UICONTROL natureOp]** .
 
-Leer om tot uw opsommingen in [ toegang te hebben en te vormen deze pagina ](../../v8/config/ui-settings.md#enumerations).
-
+  Leer om tot uw opsommingen in [ toegang te hebben en te vormen deze pagina ](../../v8/config/enumerations.md).
 
 * Selecteer het **type van campagne**: uniek, terugkerend, of periodiek. Standaard worden campagnemasjablonen toegepast op unieke campagnes. Het terugkomen en periodieke campagnes worden gedetailleerd in [ deze sectie ](recurring-periodic-campaigns.md).
 * Geef de duur van de campagne op, d.w.z. het aantal dagen waarop de campagne zal plaatsvinden. Wanneer u een campagne maakt op basis van deze sjabloon, worden de begin- en einddatums van de campagne automatisch ingevuld.

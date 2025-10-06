@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '4024'
+source-wordcount: '4027'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Met de koppeling **[!UICONTROL Advanced parameters]** hebt u toegang tot de volg
 
    * **[!UICONTROL Do not update enumerations]**
 
-     Selecteer deze optie om te voorkomen dat de lijst met opgesomde waarden in de database wordt verrijkt.
+     Selecteer deze optie om te voorkomen dat de lijst met opgesomde waarden in de database wordt verrijkt. Leer meer over [ opsommingen ](../config/enumerations.md).
 
 * **[!UICONTROL Variables]** tab
 
@@ -300,7 +300,7 @@ In de volgende stap van de importassistent kunt u de map selecteren of maken waa
 
 >[!NOTE]
 >
->Deze stap verschijnt wanneer het invoeren slechts ontvangers en wanneer het gebruiken van de standaardAdobe Campaign ontvangerslijst (**nms:ontvanger**).
+>Deze stap verschijnt wanneer het invoeren slechts ontvangers en wanneer het gebruiken van de standaardAdobe Campaign ontvangerslijst (**nms:recipient**).
 
 * Klik op de koppelingen in **[!UICONTROL Edit]** om de map, de lijst of de service te selecteren waaraan u de ontvangers wilt koppelen of zich erop wilt abonneren.
 
@@ -481,7 +481,7 @@ Met Campagne kunt u webformulieren maken en profielgegevens eenvoudig en effici√
 
 ![](assets/web-form-page.png)
 
-Leer hoe te om Webvormen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=nl-NL){target="_blank"} tot stand te brengen.
+Leer hoe te om Webvormen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"} tot stand te brengen.
 
 **Verwante onderwerpen**
 

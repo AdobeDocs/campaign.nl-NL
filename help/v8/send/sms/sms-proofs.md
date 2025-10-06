@@ -6,7 +6,7 @@ role: User
 level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Je kunt een bewijs voor je SMS-levering verzenden om het te valideren:
    U hebt meerdere modi om een proef te verzenden:
 
    * **[!UICONTROL Definition of a specific proof target]**: hiermee kunt u met filters zoeken naar de adressen in de database als het proefdrukdoel
-   * **[!UICONTROL Substitution of the address]**: hiermee kunt u uw testadressen invoeren en de gegevens van de doelontvanger gebruiken om de inhoud te valideren. U kunt de vervangende adressen handmatig invoeren of selecteren in de vervolgkeuzelijst. De gekoppelde opsomming is **[!UICONTROL Substitution address (rcpAddress)]** .
+   * **[!UICONTROL Substitution of the address]**: hiermee kunt u uw testadressen invoeren en de gegevens van de doelontvanger gebruiken om de inhoud te valideren. U kunt de vervangende adressen handmatig invoeren of selecteren in de vervolgkeuzelijst. De bijbehorende [ opsomming ](../../config/enumerations.md) is **[!UICONTROL Substitution address (rcpAddress)]**.
 Standaard wordt vervanging willekeurig uitgevoerd, maar u kunt een specifieke ontvanger selecteren in het hoofddoel via het pictogram **[!UICONTROL Detail]** .
    * **[!UICONTROL Seed addresses]**: hiermee hebt u toegang tot zaadadressen als proefdoel. Deze adressen kunnen uit een dossier worden ingevoerd of manueel ingegaan.
    * **[!UICONTROL Specific target and Seed addresses]**: hiermee kunt u zaadadressen en adressen van ontvangers combineren.

@@ -6,7 +6,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 1%
@@ -22,14 +22,14 @@ Gebruik gegevensbinding om de gegevensweergave te vereenvoudigen door waarden te
 Er zijn in totaal drie typen binding beschikbaar:
 
 1. Handmatig gedefinieerde waardebereiken gebruiken. Bijvoorbeeld leeftijd, gemiddelde winkelwagentje, aantal geopende leveringen, enz.). Voor meer op dit, verwijs naar [ het bepalen van elke bak ](#defining-each-bin).
-1. Afhankelijk van de waarden van een opsomming worden dynamisch alle andere waarden gegroepeerd in &#39;Overige&#39;, waarbij alleen de waarden in de opsomming worden weergegeven. Voor meer op dit, verwijs naar [ dynamisch het leiden bins ](#dynamically-managing-bins).
+1. Dynamisch, afhankelijk van de waarden van een [ opsomming ](../config/enumerations.md): slechts tonen de waarden in de opsomming, worden alle andere waarden gegroepeerd in &quot;Overige&quot;. Voor meer op dit, verwijs naar [ dynamisch het leiden bins ](#dynamically-managing-bins).
 1. Met waardebereiken worden alle andere reeksen gegroepeerd. Bijvoorbeeld 18- tot 25-jarigen, 26- tot 59-jarigen en de andere. Voor meer op dit, verwijs naar [ Creërend waardewaaiers ](#creating-value-ranges).
 
 Om het binden toe te laten, controleer de aangewezen doos wanneer het creëren van de afmeting.
 
 ![](assets/cube-class.png)
 
-U kunt mappen handmatig maken of ze koppelen aan een bestaande opsomming.
+U kunt of bakken manueel tot stand brengen of hen met een bestaande [ opsomming ](../config/enumerations.md) verbinden.
 
 Adobe Campaign biedt ook een assistent voor automatisch binden: waarden kunnen worden opgesplitst in N-groepen of worden gegroepeerd op basis van de meest voorkomende waarden in de database.
 
@@ -64,7 +64,7 @@ Voer de volgende stappen uit om dit type waardenbinding te maken:
 
    Wanneer de opsommingswaarden worden bijgewerkt, worden de overeenkomstige bakken automatisch aangepast.
 
-Leer meer over opsommingen in [ deze pagina ](../../v8/config/ui-settings.md#enumerations).
+   Leer meer over opsommingen in [ deze pagina ](../config/enumerations.md).
 
 ### Waardebereiken maken {#create-value-ranges}
 

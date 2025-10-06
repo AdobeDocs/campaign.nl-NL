@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '702'
 ht-degree: 2%
 
 ---
@@ -48,8 +48,9 @@ Het proefdrukdoel kan in het leveringsmalplaatje, of specifiek voor een levering
 Het type proefdrukdoel wordt geselecteerd in de vervolgkeuzelijst **[!UICONTROL Targeting mode]** .
 
 * Gebruik de optie **[!UICONTROL Definition of a specific proof target]** om ontvangers in de database als proefdrukdoel te selecteren.
-* Gebruik de optie **[!UICONTROL Substitution of the address]** om e-mailadressen in te voeren en de gegevens van de ontvanger te gebruiken om de inhoud te valideren. U kunt de vervangende adressen handmatig invoeren of selecteren in de vervolgkeuzelijst. De bijbehorende opsomming is het adres van de Vervanging (rcpAddress).
-Standaard wordt vervanging willekeurig uitgevoerd, maar u kunt een specifieke ontvanger selecteren in het hoofddoel via het pictogram **[!UICONTROL Detail]** .
+* Gebruik de optie **[!UICONTROL Substitution of the address]** om e-mailadressen in te voeren en de gegevens van de ontvanger te gebruiken om de inhoud te valideren. U kunt de vervangende adressen handmatig invoeren of selecteren in de vervolgkeuzelijst. De bijbehorende [ opsomming ](../config/enumerations.md) is **adres van de Vervanging (rcpAddress)**.
+
+  Standaard wordt vervanging willekeurig uitgevoerd, maar u kunt een specifieke ontvanger selecteren in het hoofddoel via het pictogram **[!UICONTROL Detail]** .
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
@@ -62,7 +63,7 @@ Standaard wordt vervanging willekeurig uitgevoerd, maar u kunt een specifieke on
 
   >[!NOTE]
   >
-  >De zaadadressen behoren niet tot de standaard ontvankelijke lijst (nms:ontvanger), zij worden gecreeerd in een afzonderlijke lijst. Als u de lijst van ontvangers met nieuwe gegevens uitbreidt, moet u de lijst van zaadadressen evenals met de zelfde gegevens uitbreiden.
+  >De zaadadressen behoren niet tot de standaard ontvankelijke lijst (nms :recipient), zij worden gecreeerd in een afzonderlijke lijst. Als u de lijst van ontvangers met nieuwe gegevens uitbreidt, moet u de lijst van zaadadressen evenals met de zelfde gegevens uitbreiden.
 
   Leer meer over zaadadressen in [ deze sectie ](../audiences/test-profiles.md).
 
@@ -105,4 +106,4 @@ Standaard worden proefdrukberichten aangegeven met de vermelding `Proof #N` in h
 
 Leer hoe u een proef voor een e-maillevering verzendt en valideert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447005?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

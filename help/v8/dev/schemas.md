@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1248'
 ht-degree: 5%
 
 ---
@@ -94,11 +94,11 @@ Bepaalde naamruimten zijn gereserveerd voor beschrijvingen van de systeementitei
 * **temp**: gereserveerd aan tijdelijke schema&#39;s
 * **crm**: gereserveerd aan de schakelaars van CRM integratie
 
-De identificatiesleutel van een schema is een koord dat wordt gebouwd gebruikend namespace en de naam die door een dubbelpunt wordt gescheiden; bijvoorbeeld: **nms:ontvanger**.
+De identificatiesleutel van een schema is een koord dat wordt gebouwd gebruikend namespace en de naam die door een dubbelpunt wordt gescheiden; bijvoorbeeld: **nms:recipient**.
 
 ## Campagne-schema&#39;s maken of uitbreiden {#create-or-extend-schemas}
 
-Als u een veld of ander element wilt toevoegen aan een van de kerngegevensschema&#39;s in Campagne, zoals de ontvangende tabel (nms:ontvanger), moet u dat schema uitbreiden.
+Om een gebied of ander element aan één van de schema&#39;s van kerngegevens in Campagne, zoals de ontvankelijke lijst (nms :recipient) toe te voegen, moet u dat schema uitbreiden.
 
 Voor meer op dit, verwijs naar [ een schema ](extend-schema.md) uitbreiden.
 
@@ -117,7 +117,7 @@ Opsommingen worden eerst gedefinieerd, vóór het hoofdelement van het schema. H
 
 Voorbeeld:
 
-```
+```xml
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
 <value label="Website" name="web" value="0"/>
 <value label="Call Center" name="phone" value="1"/>
@@ -127,7 +127,7 @@ Voorbeeld:
 
 Wanneer u velden definieert, kunt u deze opsomming als volgt gebruiken:
 
-```
+```xml
 <attribute desc="Type of Transaction" label="Transaction Type" name="transactionType" 
 type="string" enum="exTransactionTypeEnum"/>
 ```
@@ -178,7 +178,7 @@ De primaire sleutel kan ook worden bepaald gebruikend het **interne** attribuut.
 
 Voorbeeld:
 
-```
+```xml
 <key name="householdId" internal="true">
   <keyfield xpath="@householdId"/>
 </key>
@@ -198,33 +198,33 @@ Met kenmerken kunt u de velden definiëren waaruit het gegevensobject bestaat. U
 
 ![](assets/schemaextension_2.png)
 
-De volledige lijst van attributen is beschikbaar in de `<attribute>` elementensectie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=nl-NL#content-model){target="_blank"}. Hier volgen een aantal veelgebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, 16&rbrace;@name **,**@notNull **,**@required **,**@ref **,**@xml **,**@type **.**
+De volledige lijst van attributen is beschikbaar in de `<attribute>` elementensectie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Hier volgen een aantal veelgebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, 16}@name **,**@notNull **,**@required **,**@ref **,**@xml **,**@type **.**
 
-Voor meer informatie over elk attribuut, verwijs naar de beschrijving van Attributen in [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=nl-NL#configuring-campaign-classic){target="_blank"}.
+Voor meer informatie over elk attribuut, verwijs naar de beschrijving van Attributen in [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 ### Voorbeelden {#examples}
 
 Voorbeeld van het definiëren van een standaardwaarde:
 
-```
+```xml
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
 ```
 
 Voorbeeld van het gebruik van een gemeenschappelijk kenmerk als een sjabloon voor een veld dat ook als verplicht is gemarkeerd:
 
-```
+```xml
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
 Voorbeeld van een berekend veld dat verborgen is met het attribuut **@advanced** :
 
-```
+```xml
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
 Voorbeeld van een gebied van XML dat ook op een SQL gebied wordt opgeslagen en **@dataPolicy** attributen heeft.
 
-```
+```xml
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
@@ -246,19 +246,19 @@ Er zijn drie soorten kardinaliteit: 1-1, 1-N, en N-N. Het is het type 1-N dat do
 
 Een voorbeeld van een verbinding 1-N tussen de ontvankelijke lijst (out-of-the-box schema) en een lijst van douanetransacties:
 
-```
+```xml
 <element label="Recipient" name="lnkRecipient" revLink="lnkTransactions" target="nms:recipient" type="link"/>
 ```
 
 Een voorbeeld van een 1-1 verbinding tussen een douaneschema &quot;Auto&quot;(in &quot;cus&quot;namespace) en de ontvankelijke lijst:
 
-```
+```xml
 <element label="Car" name="lnkCar" revCardinality="single" revLink="recipient" target="cus:car" type="link"/>
 ```
 
 Voorbeeld van een externe verbinding tussen de ontvankelijke lijst en een lijst van adressen die op het e-mailadres en niet een primaire sleutel wordt gebaseerd:
 
-```
+```xml
 <element name="emailInfo" label="Email Info" revLink="recipient" target="nms:address" type="link" externalJoin="true">
   <join xpath-dst="@address" xpath-src="@email"/>
 </element>
@@ -272,7 +272,7 @@ Eén handig element dat u onder aan het schema wilt opnemen, is een trackingelem
 
 In het onderstaande voorbeeld kunt u velden opnemen die betrekking hebben op de aanmaakdatum, de gebruiker die de gegevens heeft gemaakt, de datum en de auteur van de laatste wijziging voor alle gegevens in de tabel:
 
-```
+```xml
 <element aggregate="xtk:common:auditTrail" name="auditTrail"/>
 ```
 
