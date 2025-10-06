@@ -27,7 +27,7 @@ U kunt instellen:
 
 >[!NOTE]
 >
->De gebruikersinterface van het Web van Adobe Campaign komt met een herbedacht canvas voor werkschema&#39;s, die toestaan om dynamischere en gepersonaliseerde klantenreizen tot stand te brengen. Meer over Werkschema&#39;s voor Web UI leren, gelieve te verwijzen naar [&#x200B; documentatie van het Web UI van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
+>De gebruikersinterface van het Web van Adobe Campaign komt met een herbedacht canvas voor werkschema&#39;s, die toestaan om dynamischere en gepersonaliseerde klantenreizen tot stand te brengen. Meer over Werkschema&#39;s voor Web UI leren, gelieve te verwijzen naar [&#x200B; documentatie van het Web UI van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
 
 
 ## Workflows ontwerpen en gebruiken {#gs-ac-wf}
@@ -36,26 +36,26 @@ Gebruik Adobe Campaign-workflows om de snelheid en schaal van elk aspect van uw 
 
 Meer informatie over de gebruikersinterface en uitvoering van workflows vindt u op de volgende pagina&#39;s:
 
-* [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target="_blank"}
+* [Aan de slag met workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL){target="_blank"}
 
-* [Best practices voor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
+* [Best practices voor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=nl-NL){target="_blank"}
 
-* [&#x200B; Ingebouwde technische werkschema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+* [&#x200B; Ingebouwde technische werkschema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=nl-NL){target="_blank"}
 
-* [&#x200B; de werkschema&#39;s van de Monitor uitvoering &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+* [&#x200B; de werkschema&#39;s van de Monitor uitvoering &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=nl-NL){target="_blank"}
 
-* [&#x200B; bouwt een publiek in een marketing campagnewerkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}
+* [&#x200B; bouwt een publiek in een marketing campagnewerkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=nl-NL){target="_blank"}
 
 ## Workflowactiviteiten {#wf-activities}
 
-Leer meer over de beschikbare werkschemaactiviteiten in [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target="_blank"}
+Leer meer over de beschikbare werkschemaactiviteiten in [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=nl-NL){target="_blank"}
 
 Workflowactiviteiten worden gegroepeerd op categorie. De vier categorieën activiteiten zijn beschikbaar:
 
-* [&#x200B; het richten activiteiten &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}: Vraag, Gelezen lijst, Verrijking, Vereniging, en meer
-* [&#x200B; de controleactiviteiten van de Stroom &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}: Planner, Bok, Alarm, Extern signaal, en meer
-* [&#x200B; activiteiten van de Actie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}: De leveringen van het dwars-kanaal, code Javascript, de activiteiten van CRM, Update aggregaat, en meer
-* [&#x200B; de activiteiten van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: De overdracht van het dossier, de download van het Web en meer
+* [&#x200B; het richten activiteiten &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=nl-NL){target="_blank"}: Vraag, Gelezen lijst, Verrijking, Vereniging, en meer
+* [&#x200B; de controleactiviteiten van de Stroom &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=nl-NL){target="_blank"}: Planner, Bok, Alarm, Extern signaal, en meer
+* [&#x200B; activiteiten van de Actie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=nl-NL){target="_blank"}: De leveringen van het dwars-kanaal, code Javascript, de activiteiten van CRM, Update aggregaat, en meer
+* [&#x200B; de activiteiten van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html?lang=nl-NL){target="_blank"}: De overdracht van het dossier, de download van het Web en meer
 
 <!--
 ### Change data source activity {#change-data-source-activity}
@@ -76,7 +76,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. Query your targeted recipients with a **[!UICONTROL Query]** activity. 
 
-    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"}.
 
 1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
     
@@ -84,7 +84,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
-    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html?lang=nl-NL){target="_blank"}.
 
 1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database. 
     
@@ -97,7 +97,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 Nadat u de workflow hebt gemaakt, hebt u toegang tot extra opties met de knop **[!UICONTROL Properties]** voor verdere configuratie.
 
-Leer meer over **eigenschappen van het Werkschema** in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}.
+Leer meer over **eigenschappen van het Werkschema** in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html?lang=nl-NL){target="_blank"}.
 
 Via het tabblad **[!UICONTROL Execution]** van de workflow **[!UICONTROL Properties]** kunt u de workflow aan verschillende opslagruimten koppelen en het werklastbeheer optimaliseren. Voor meer informatie over **Warehouses**, verwijs naar de [&#x200B; documentatie van Snowflake &#x200B;](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
@@ -119,7 +119,7 @@ Afhankelijk van het doel van uw workflow kunt u kiezen tussen de volgende drie o
 
 Regelterugkerende workflows ontwerpen en telkens wanneer de workflow wordt uitgevoerd, een nieuwe leveringsinstantie maken. Als uw workflow bijvoorbeeld eenmaal per week wordt uitgevoerd, levert dat na één jaar 52 leveringen op. Dit betekent ook dat de logboeken door elke leveringsinstantie zullen worden gescheiden.
 
-Leer hoe te om een terugkomende campagne in [&#x200B; tot stand te brengen deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html){target="_blank"}.
+Leer hoe te om een terugkomende campagne in [&#x200B; tot stand te brengen deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=nl-NL){target="_blank"}.
 
 
 ## Hefboomtriggergebeurtenissen
