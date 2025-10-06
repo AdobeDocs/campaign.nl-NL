@@ -182,7 +182,7 @@ Voor meer bij proefontvangers en het verzenden, verwijs naar [&#x200B; deze sect
 
 In deze video leert u hoe u zaden en proefdrukken aan een bestaande e-mail kunt toevoegen en hoe u deze kunt verzenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447005?quality=12&captions=dut)
 
 De extra hoe te video&#39;s van Campaign Classic zijn beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
 
