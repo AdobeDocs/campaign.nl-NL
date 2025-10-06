@@ -22,7 +22,7 @@ Indien beschikbaar worden de waarden weergegeven in een vervolgkeuzelijst. U kun
 
 Sommige consolevelden worden gevormd met opsommingen. Als een opsomming **open** is, kunt u nieuwe waarden op het gebied ook direct toevoegen.
 
-![ opsommingen van de Toegang ](../config/assets/enumerations-menu.png)
+![&#x200B; opsommingen van de Toegang &#x200B;](../config/assets/enumerations-menu.png)
 
 ## Soorten opsommingen {#types-of-enum}
 
@@ -52,7 +52,7 @@ In de opsommingsvelden kunt u een waarde selecteren of een aangepaste waarde inv
 
 Schakel de optie **[!UICONTROL Alias cleansing]** in om mogelijkheden voor het opschonen van gegevens te gebruiken voor een opsomming. Als deze optie is geselecteerd, wordt de tab **[!UICONTROL Alias]** onder in het venster weergegeven.
 
-Wanneer een gebruiker een waarde ingaat die niet in een Alias het zuiveren opsomming bestaat, wordt het toegevoegd aan de **lijst van Waarden**. U kunt [ aliassen van deze waarden ](#convert-to-alias) tot stand brengen, of [ nieuwe aliassen van kras ](#create-alias) creëren.
+Wanneer een gebruiker een waarde ingaat die niet in een Alias het zuiveren opsomming bestaat, wordt het toegevoegd aan de **lijst van Waarden**. U kunt [&#x200B; aliassen van deze waarden &#x200B;](#convert-to-alias) tot stand brengen, of [&#x200B; nieuwe aliassen van kras &#x200B;](#create-alias) creëren.
 
 ### Een alias maken{#create-alias}
 
@@ -61,11 +61,11 @@ Voer de volgende stappen uit om een alias te maken:
 1. Klik op de knop **[!UICONTROL Add]** op het tabblad **[!UICONTROL Alias]** .
 1. Voer de alias in die u wilt converteren en selecteer de waarde die u wilt toepassen in de vervolgkeuzelijst.
 
-   ![ creeer een nieuwe alias ](assets/new-alias.png)
+   ![&#x200B; creeer een nieuwe alias &#x200B;](assets/new-alias.png)
 
 1. Klik op **[!UICONTROL Ok]** en bevestig het.
 
-1. Sla uw wijzigingen op. De vervanging van waarden wordt uitgevoerd door het **Alias zuiverend** werkschema dat elke nacht wordt uitgevoerd. Verwijs naar [ gegevens van de Looppas zuiverend ](#running-data-cleansing).
+1. Sla uw wijzigingen op. De vervanging van waarden wordt uitgevoerd door het **Alias zuiverend** werkschema dat elke nacht wordt uitgevoerd. Verwijs naar [&#x200B; gegevens van de Looppas zuiverend &#x200B;](#running-data-cleansing).
 
 Voor alle gebieden die op deze opsomming worden gebaseerd, wanneer een gebruiker de waarde **Adobe** op een &quot;bedrijf&quot;gebied (in de Console van de Cliënt van Adobe Campaign, in een Webvorm) ingaat, zal het automatisch door de waarde **Adobe** worden vervangen.
 
@@ -75,7 +75,7 @@ U kunt ook een bestaande opsommingswaarde omzetten in een alias. Dit doet u als 
 
 1. Klik met de rechtermuisknop in de lijst met waarden van een opsomming en blader naar **[!UICONTROL Actions... > Convert values into aliases...]** .
 
-   ![ zet een waarde in alias ](assets/convert-into-aliases.png) om
+   ![&#x200B; zet een waarde in alias &#x200B;](assets/convert-into-aliases.png) om
 
 1. Selecteer de waarden die in aliassen moeten worden omgezet en klik op **[!UICONTROL Next]** .
 1. Klik op **[!UICONTROL Start]** om de conversie uit te voeren.
@@ -86,7 +86,7 @@ U kunt ook een bestaande opsommingswaarde omzetten in een alias. Dit doet u als 
 1. Klik het **Detail..** knoop.
 1. Selecteer de nieuwe waarde in de vervolgkeuzelijst.
 
-   ![ creeer een nieuwe alias ](assets/define-new-alias.png)
+   ![&#x200B; creeer een nieuwe alias &#x200B;](assets/define-new-alias.png)
 
 
 >[!NOTE]
