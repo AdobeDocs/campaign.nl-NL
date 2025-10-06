@@ -27,7 +27,7 @@ U kunt instellen:
 
 >[!NOTE]
 >
->De gebruikersinterface van het Web van Adobe Campaign komt met een herbedacht canvas voor werkschema&#39;s, die toestaan om dynamischere en gepersonaliseerde klantenreizen tot stand te brengen. Meer over Werkschema&#39;s voor Web UI leren, gelieve te verwijzen naar [ documentatie van het Web UI van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
+>De gebruikersinterface van het Web van Adobe Campaign komt met een herbedacht canvas voor werkschema&#39;s, die toestaan om dynamischere en gepersonaliseerde klantenreizen tot stand te brengen. Meer over Werkschema&#39;s voor Web UI leren, gelieve te verwijzen naar [&#x200B; documentatie van het Web UI van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
 
 
 ## Workflows ontwerpen en gebruiken {#gs-ac-wf}
@@ -40,22 +40,22 @@ Meer informatie over de gebruikersinterface en uitvoering van workflows vindt u 
 
 * [Best practices voor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
-* [ Ingebouwde technische werkschema&#39;s ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+* [&#x200B; Ingebouwde technische werkschema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
-* [ de werkschema&#39;s van de Monitor uitvoering ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+* [&#x200B; de werkschema&#39;s van de Monitor uitvoering &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
-* [ bouwt een publiek in een marketing campagnewerkschema ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}
+* [&#x200B; bouwt een publiek in een marketing campagnewerkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}
 
 ## Workflowactiviteiten {#wf-activities}
 
-Leer meer over de beschikbare werkschemaactiviteiten in [ deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target="_blank"}
+Leer meer over de beschikbare werkschemaactiviteiten in [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target="_blank"}
 
 Workflowactiviteiten worden gegroepeerd op categorie. De vier categorieën activiteiten zijn beschikbaar:
 
-* [ het richten activiteiten ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}: Vraag, Gelezen lijst, Verrijking, Vereniging, en meer
-* [ de controleactiviteiten van de Stroom ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}: Planner, Bok, Alarm, Extern signaal, en meer
-* [ activiteiten van de Actie ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}: De leveringen van het dwars-kanaal, code Javascript, de activiteiten van CRM, Update aggregaat, en meer
-* [ de activiteiten van de Gebeurtenis ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: De overdracht van het dossier, de download van het Web en meer
+* [&#x200B; het richten activiteiten &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}: Vraag, Gelezen lijst, Verrijking, Vereniging, en meer
+* [&#x200B; de controleactiviteiten van de Stroom &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}: Planner, Bok, Alarm, Extern signaal, en meer
+* [&#x200B; activiteiten van de Actie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}: De leveringen van het dwars-kanaal, code Javascript, de activiteiten van CRM, Update aggregaat, en meer
+* [&#x200B; de activiteiten van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: De overdracht van het dossier, de download van het Web en meer
 
 <!--
 ### Change data source activity {#change-data-source-activity}
@@ -97,9 +97,9 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 Nadat u de workflow hebt gemaakt, hebt u toegang tot extra opties met de knop **[!UICONTROL Properties]** voor verdere configuratie.
 
-Leer meer over **eigenschappen van het Werkschema** in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}.
+Leer meer over **eigenschappen van het Werkschema** in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}.
 
-Via het tabblad **[!UICONTROL Execution]** van de workflow **[!UICONTROL Properties]** kunt u de workflow aan verschillende opslagruimten koppelen en het werklastbeheer optimaliseren. Voor meer informatie over **Warehouses**, verwijs naar de [ documentatie van Snowflake ](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
+Via het tabblad **[!UICONTROL Execution]** van de workflow **[!UICONTROL Properties]** kunt u de workflow aan verschillende opslagruimten koppelen en het werklastbeheer optimaliseren. Voor meer informatie over **Warehouses**, verwijs naar de [&#x200B; documentatie van Snowflake &#x200B;](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
 ![](assets/warehouse.png)
 
@@ -119,20 +119,20 @@ Afhankelijk van het doel van uw workflow kunt u kiezen tussen de volgende drie o
 
 Regelterugkerende workflows ontwerpen en telkens wanneer de workflow wordt uitgevoerd, een nieuwe leveringsinstantie maken. Als uw workflow bijvoorbeeld eenmaal per week wordt uitgevoerd, levert dat na één jaar 52 leveringen op. Dit betekent ook dat de logboeken door elke leveringsinstantie zullen worden gescheiden.
 
-Leer hoe te om een terugkomende campagne in [ tot stand te brengen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html){target="_blank"}.
+Leer hoe te om een terugkomende campagne in [&#x200B; tot stand te brengen deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html){target="_blank"}.
 
 
 ## Hefboomtriggergebeurtenissen
 
 Het Transactionele overseinen van de Campagne van het gebruik om berichten te automatiseren die van gebeurtenissen worden geproduceerd die van informatiesystemen worden teweeggebracht. Deze transactiemeldingen kunnen bijvoorbeeld bestaan uit facturen, orderbevestiging, bevestiging van verzending, wijziging van het wachtwoord, kennisgeving van onbeschikbaarheid van het product, rekeningafschriften of het maken van websiteaccounts. Deze berichten kunnen individueel of in partij via e-mail, SMS of push berichten worden verzonden.
 
-Leer meer over transactionele overseinenmogelijkheden in [ deze sectie ](../send/transactional.md).
+Leer meer over transactionele overseinenmogelijkheden in [&#x200B; deze sectie &#x200B;](../send/transactional.md).
 
 Verbind Adobe Campaign en Adobe Analytics om gebruikersacties terug te winnen en dichtbij real-time gepersonaliseerde berichten te verzenden.
 
-Leer hoe te om Campagne met andere oplossingen in [ te integreren deze sectie ](../start/connect.md)
+Leer hoe te om Campagne met andere oplossingen in [&#x200B; te integreren deze sectie &#x200B;](../start/connect.md)
 
 
 ## Gebruiksgevallen van end-to-end werkstroom{#end-to-end-uc}
 
-Leer door gebruiksgevallen leveraging de werkstroommogelijkheden van de Campagne [ in deze sectie ](../../automation/workflow/workflow-use-cases.md).
+Leer door gebruiksgevallen leveraging de werkstroommogelijkheden van de Campagne [&#x200B; in deze sectie &#x200B;](../../automation/workflow/workflow-use-cases.md).

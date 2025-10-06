@@ -15,9 +15,9 @@ ht-degree: 2%
 
 # Een filter maken {#creating-a-filter}
 
-De filters beschikbaar in Adobe Campaign worden bepaald via het filtreren voorwaarden die gebruikend de zelfde werkende wijze zoals wanneer het bouwen van vragen in de [ redacteur van de Vraag ](../../v8/start/query-editor.md) worden gecreeerd.
+De filters beschikbaar in Adobe Campaign worden bepaald via het filtreren voorwaarden die gebruikend de zelfde werkende wijze zoals wanneer het bouwen van vragen in de [&#x200B; redacteur van de Vraag &#x200B;](../../v8/start/query-editor.md) worden gecreeerd.
 
-Het knooppunt **[!UICONTROL Administration > Configuration > Predefined filters]** bevat alle standaardfilters. Sommige worden gebruikt in lijsten en overzichten. Leer meer over [ ingebouwd vooraf bepaalde filters ](../../v8/audiences/create-filters.md).
+Het knooppunt **[!UICONTROL Administration > Configuration > Predefined filters]** bevat alle standaardfilters. Sommige worden gebruikt in lijsten en overzichten. Leer meer over [&#x200B; ingebouwd vooraf bepaalde filters &#x200B;](../../v8/audiences/create-filters.md).
 
 De lijst met operatoren kan bijvoorbeeld worden gefilterd door **[!UICONTROL Active accounts]** :
 

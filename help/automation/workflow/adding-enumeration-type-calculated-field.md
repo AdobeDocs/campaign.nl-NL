@@ -31,7 +31,7 @@ Hier willen we een query maken met een berekend veld van het type **[!UICONTROL 
 
 Voer de volgende stappen uit:
 
-1. Open de [ Algemene vraagredacteur ](../../v8/start/query-editor.md) en selecteer de Ontvankelijke lijst (**[!UICONTROL nms:recipient]**).
+1. Open de [&#x200B; Algemene vraagredacteur &#x200B;](../../v8/start/query-editor.md) en selecteer de Ontvankelijke lijst (**[!UICONTROL nms:recipient]**).
 1. Selecteer **[!UICONTROL Data to extract]** , **[!UICONTROL Last name]** en **[!UICONTROL First name]** in het **[!UICONTROL Gender]** -venster.
 
    ![](assets/query_editor_nveau_73.png)
@@ -52,7 +52,7 @@ Voer de volgende stappen uit:
 
    ![](assets/query_editor_nveau_76.png)
 
-   Bepaal de **Source** en **3} waarden van de Bestemming: de bestemmingswaarde maakt het vraagresultaat gemakkelijker te lezen.** Deze vraag zou ontvankelijk geslacht moeten terugkeren en het resultaat zal of 0, 1, of 2 zijn.
+   Bepaal de **Source** en **3&rbrace; waarden van de Bestemming: de bestemmingswaarde maakt het vraagresultaat gemakkelijker te lezen.** Deze vraag zou ontvankelijk geslacht moeten terugkeren en het resultaat zal of 0, 1, of 2 zijn.
 
    Voor elke &quot;bron-bestemming&quot;lijn die moet worden ingegaan, klik **[!UICONTROL Add]** in **[!UICONTROL List of enumeration values]**:
 

@@ -46,7 +46,7 @@ Het is mogelijk om typologische regels zodanig te configureren dat deze alleen b
 
 Klik op de koppeling **[!UICONTROL Edit the rule application conditions...]** op het tabblad **[!UICONTROL General]** om de toepassingsvoorwaarden van een regel te definiëren.
 
-Dan gebruik de [ vraagredacteur ](../../v8/start/query-editor.md) om het filtreren voorwaarden te bepalen. In het volgende voorbeeld heeft de capaciteitsregel alleen betrekking op leveringen met het woord &quot;aanbieding&quot; op het etiket of op leveringen die vóór 1 april 2013 zijn gemaakt.
+Dan gebruik de [&#x200B; vraagredacteur &#x200B;](../../v8/start/query-editor.md) om het filtreren voorwaarden te bepalen. In het volgende voorbeeld heeft de capaciteitsregel alleen betrekking op leveringen met het woord &quot;aanbieding&quot; op het etiket of op leveringen die vóór 1 april 2013 zijn gemaakt.
 
 ![](assets/campaign_opt_create_capacity_criterion.png)
 
@@ -145,4 +145,4 @@ Op het tabblad **[!UICONTROL Distributed Marketing]** kunt u de typologieën en/
 >[!NOTE]
 >
 >In typologieën en typologieregels wordt het tabblad **[!UICONTROL Distributed Marketing]** toegevoegd als uw licentie deze optie bevat: controleer de licentieovereenkomst.\
->Voor meer informatie over Verdeelde Marketing, verwijs naar [ deze sectie ](../distributed-marketing/about-distributed-marketing.md).
+>Voor meer informatie over Verdeelde Marketing, verwijs naar [&#x200B; deze sectie &#x200B;](../distributed-marketing/about-distributed-marketing.md).
