@@ -5,10 +5,10 @@ feature: Configuration, Application Settings
 role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: a1f479538a2d93a2ec13e35cb6813e09c8c4a5f8
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 0%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 Een opsomming (ook wel een gedetailleerde lijst genoemd) is een vooraf gedefinieerde lijst met waarden die u kunt gebruiken om bepaalde velden in te vullen. Opsommingen helpen bij het standaardiseren van veldwaarden, het consistenter maken van gegevens en het vereenvoudigen van query&#39;s.
 
-Indien beschikbaar worden de waarden weergegeven in een vervolgkeuzelijst. U kunt een waarde rechtstreeks selecteren of beginnen te typen. Bij voorspellende invoer worden overeenkomende waarden voorgesteld en automatisch ingevuld.
+Wanneer deze zijn gedefinieerd, worden de waarden weergegeven in een vervolgkeuzelijst. Een waarde kan rechtstreeks worden geselecteerd of worden ingevoerd met behulp van voorspellende invoer, die overeenkomende items voorstelt en voltooit. Sommige velden bevatten vooraf gedefinieerde opsommingen en indien nodig kunnen aanvullende opsommingen worden gemaakt.
 
 ![](assets/enum_values.png)
 
-Sommige consolevelden worden gevormd met opsommingen. Als een opsomming **open** is, kunt u nieuwe waarden op het gebied ook direct toevoegen.
-
-![&#x200B; opsommingen van de Toegang &#x200B;](../config/assets/enumerations-menu.png)
 
 ## Soorten opsommingen {#types-of-enum}
 
 Opsommingen worden opgeslagen in de map **[!UICONTROL Administration > Platform > Enumerations]** van de browser.
 
-Ze kunnen zijn: Open, System, Emoticon of Closed.
+![ opsommingen van de Toegang ](../config/assets/enumerations-menu.png)
+
+
+Een opsomming kan zijn: **Open**, **Systeem**, **Emoticon** of **Gesloten**.
 
 * Een **Open** opsomming staat gebruikers toe om nieuwe waarden direct op de gebieden toe te voegen die op deze opsomming worden gebaseerd.
 * A **Gesloten** opsomming heeft een vaste lijst van waarden die slechts van de **[!UICONTROL Administration > Platform > Enumerations]** omslag van de ontdekkingsreiziger kunnen worden gewijzigd.
@@ -44,15 +44,16 @@ Voor **Open** en **Gesloten** opsommingen, zijn de specifieke opties beschikbaar
 
 ## Aliasreiniging {#alias-cleansing}
 
-In de opsommingsvelden kunt u een waarde selecteren of een aangepaste waarde invoeren die niet beschikbaar is in de vervolgkeuzelijst. U kunt aangepaste waarden toevoegen aan de bestaande opsommingswaarden als een nieuwe waarde. In dit geval moet de optie **[!UICONTROL Open]** zijn geselecteerd. Deze aangepaste waarden kunnen worden gereinigd met gebruik van aliasreinigingsmogelijkheden. Als een gebruiker bijvoorbeeld `Adob` invoert in plaats van `Adobe` , kan het proces voor het opschonen van aliassen het automatisch vervangen door de juiste term.
+In opsommingsvelden kan een waarde worden geselecteerd in de vervolgkeuzelijst of handmatig worden ingevoerd als deze niet beschikbaar is in de lijst. Aangepaste waarden kunnen aan de opsomming worden toegevoegd wanneer de optie **[!UICONTROL Open]** is ingeschakeld. Deze waarden kunnen later worden gestandaardiseerd via het opschonen van aliassen, waardoor variaties automatisch worden vervangen door de juiste term (bijvoorbeeld door `Adob` om te zetten in `Adobe` ).
+
 
 >[!CAUTION]
 >
->Het zuiveren van gegevens is een kritiek proces dat de gegevens in het gegevensbestand beïnvloedt. Adobe Campaign voert massagegevensupdates uit, wat ertoe kan leiden dat sommige waarden worden verwijderd. Deze bewerking is daarom voorbehouden aan professionele gebruikers.
+>Het zuiveren van gegevens is een kritieke verrichting die gegevensbestandwaarden beïnvloedt. Adobe Campaign voert updates van massagegevens uit, wat kan leiden tot het verwijderen van bepaalde waarden. Deze bewerking is alleen bedoeld voor professionele gebruikers.
 
 Schakel de optie **[!UICONTROL Alias cleansing]** in om mogelijkheden voor het opschonen van gegevens te gebruiken voor een opsomming. Als deze optie is geselecteerd, wordt de tab **[!UICONTROL Alias]** onder in het venster weergegeven.
 
-Wanneer een gebruiker een waarde ingaat die niet in een Alias het zuiveren opsomming bestaat, wordt het toegevoegd aan de **lijst van Waarden**. U kunt [&#x200B; aliassen van deze waarden &#x200B;](#convert-to-alias) tot stand brengen, of [&#x200B; nieuwe aliassen van kras &#x200B;](#create-alias) creëren.
+Wanneer een gebruiker een waarde ingaat die niet in een Alias het zuiveren opsomming bestaat, wordt het toegevoegd aan de **lijst van Waarden**. U kunt [ aliassen van deze waarden ](#convert-to-alias) tot stand brengen, of [ nieuwe aliassen van kras ](#create-alias) creëren.
 
 ### Een alias maken{#create-alias}
 
@@ -61,11 +62,11 @@ Voer de volgende stappen uit om een alias te maken:
 1. Klik op de knop **[!UICONTROL Add]** op het tabblad **[!UICONTROL Alias]** .
 1. Voer de alias in die u wilt converteren en selecteer de waarde die u wilt toepassen in de vervolgkeuzelijst.
 
-   ![&#x200B; creeer een nieuwe alias &#x200B;](assets/new-alias.png)
+   ![ creeer een nieuwe alias ](assets/new-alias.png)
 
 1. Klik op **[!UICONTROL Ok]** en bevestig het.
 
-1. Sla uw wijzigingen op. De vervanging van waarden wordt uitgevoerd door het **Alias zuiverend** werkschema dat elke nacht wordt uitgevoerd. Verwijs naar [&#x200B; gegevens van de Looppas zuiverend &#x200B;](#running-data-cleansing).
+1. Sla uw wijzigingen op. De vervanging van waarden wordt uitgevoerd door het **Alias zuiverend** werkschema dat elke nacht wordt uitgevoerd. Verwijs naar [ gegevens van de Looppas zuiverend ](#running-data-cleansing).
 
 Voor alle gebieden die op deze opsomming worden gebaseerd, wanneer een gebruiker de waarde **Adobe** op een &quot;bedrijf&quot;gebied (in de Console van de Cliënt van Adobe Campaign, in een Webvorm) ingaat, zal het automatisch door de waarde **Adobe** worden vervangen.
 
@@ -75,7 +76,7 @@ U kunt ook een bestaande opsommingswaarde omzetten in een alias. Dit doet u als 
 
 1. Klik met de rechtermuisknop in de lijst met waarden van een opsomming en blader naar **[!UICONTROL Actions... > Convert values into aliases...]** .
 
-   ![&#x200B; zet een waarde in alias &#x200B;](assets/convert-into-aliases.png) om
+   ![ zet een waarde in alias ](assets/convert-into-aliases.png) om
 
 1. Selecteer de waarden die in aliassen moeten worden omgezet en klik op **[!UICONTROL Next]** .
 1. Klik op **[!UICONTROL Start]** om de conversie uit te voeren.
@@ -86,7 +87,7 @@ U kunt ook een bestaande opsommingswaarde omzetten in een alias. Dit doet u als 
 1. Klik het **Detail..** knoop.
 1. Selecteer de nieuwe waarde in de vervolgkeuzelijst.
 
-   ![&#x200B; creeer een nieuwe alias &#x200B;](assets/define-new-alias.png)
+   ![ creeer een nieuwe alias ](assets/define-new-alias.png)
 
 
 >[!NOTE]
