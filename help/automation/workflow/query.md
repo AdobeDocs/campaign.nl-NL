@@ -6,9 +6,9 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -20,16 +20,13 @@ ht-degree: 0%
 ## Een query maken {#creating-a-query}
 
 Met een query kunt u een doel selecteren op basis van criteria. U kunt een segmentcode aan het vraagresultaat associëren en extra gegevens opnemen in het.
-Voor meer informatie over vraagsteekproeven, verwijs naar dit [ deze sectie ](querying-recipient-table.md).
-
->[!NOTE]
->
->Het Web UI van Adobe Campaign kenmerkt een krachtige vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd, die u toestaan om uw vraag gemakkelijker tot stand te brengen en te beheren. Meer over de modelleerling van de Vraag voor Web UI leren, gelieve te verwijzen naar de [ documentatie van het Web UI van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
-
+Leer hoe te om vragen door gebruiksgevallen in [ te bouwen deze sectie ](querying-recipient-table.md). Zie ook de sectie over de [ redacteur van de Vraag ](../../v8/start/query-editor.md).
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
-Voor meer bij het gebruiken van en het beheren van extra gegevens, verwijs naar [ gegevens ](#adding-data) toevoegen.
+>[!NOTE]
+>
+>De gebruikersinterface van het Web van Adobe Campaign kenmerkt een krachtige vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd, die u toestaan om uw vraag tot stand te brengen en gemakkelijker te beheren. Meer over de modelleerling van de Vraag voor Web UI leren, gelieve te verwijzen naar de [ documentatie van het Web UI van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
 
 Met de koppeling **[!UICONTROL Edit query...]** kunt u het doeltype, de beperkingen en de selectiecriteria voor de bevolking als volgt definiëren:
 
@@ -160,7 +157,7 @@ In het volgende voorbeeld probeert de query mannen tussen 18 en 30 jaar te ident
 * schema
 * recCount
 
-Deze reeks van drie waarden identificeert de bevolking die door de vraag wordt gericht. **[!UICONTROL tableName]** is de naam van de tabel waarin de doel-id&#39;s worden vastgelegd. **[!UICONTROL schema]** is het schema van de populatie (gewoonlijk nms:ontvanger) en **[!UICONTROL recCount]** is het aantal elementen in de tabel.
+Deze reeks van drie waarden identificeert de bevolking die door de vraag wordt gericht. **[!UICONTROL tableName]** is de naam van de lijst die de doelherkenningstekens registreert, **[!UICONTROL schema]** is het schema van de bevolking (gewoonlijk nms :recipient) en **[!UICONTROL recCount]** is het aantal elementen in de lijst.
 
 Deze waarde is het schema van de het werklijst. Deze parameter is geldig voor alle overgangen met **[!UICONTROL tableName]** en **[!UICONTROL schema]** .
 

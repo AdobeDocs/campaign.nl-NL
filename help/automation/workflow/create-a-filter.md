@@ -6,18 +6,18 @@ feature: Query Editor, Workflows
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '220'
 ht-degree: 2%
 
 ---
 
 # Een filter maken {#creating-a-filter}
 
-De filters die beschikbaar zijn in Adobe Campaign worden gedefinieerd door filtervoorwaarden die worden gemaakt in dezelfde besturingsmodus als query&#39;s.
+De filters beschikbaar in Adobe Campaign worden bepaald via het filtreren voorwaarden die gebruikend de zelfde werkende wijze zoals wanneer het bouwen van vragen in de [ redacteur van de Vraag ](../../v8/start/query-editor.md) worden gecreeerd.
 
-Het knooppunt **[!UICONTROL Administration > Configuration > Predefined filters]** bevat alle filters die worden gebruikt in de lijsten en overzichten.
+Het knooppunt **[!UICONTROL Administration > Configuration > Predefined filters]** bevat alle standaardfilters. Sommige worden gebruikt in lijsten en overzichten. Leer meer over [ ingebouwd vooraf bepaalde filters ](../../v8/audiences/create-filters.md).
 
 De lijst met operatoren kan bijvoorbeeld worden gefilterd door **[!UICONTROL Active accounts]** :
 

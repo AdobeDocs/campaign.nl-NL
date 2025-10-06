@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Gebruik het laatste tabblad om een voorvertoning van de gefilterde gegevens weer
 ![](assets/built-in-filter-preview.png)
 
 
-Ingebouwde vooraf gedefinieerde filters zijn:
++++  Geïntegreerde voorgedefinieerde filters
 
 <table> 
  <tbody> 
@@ -159,6 +159,7 @@ Ingebouwde vooraf gedefinieerde filters zijn:
  </tbody> 
 </table>
 
++++
 
 ### Standaardfilters{#default-filters}
 
@@ -328,10 +329,10 @@ Voor geavanceerde filtermogelijkheden gebruikt u functies om de inhoud van het f
 
 Leer hoe te om geavanceerde vragen in deze steekproeven van begin tot eind te bouwen:
 
-* Leer hoe te om op eenvoudige ontvankelijke attributen in [ te richten deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om op ontvangers te filtreren die niet tijdens de laatste 7 dagen in [ worden gecontacteerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om de lijst van exploitanten terug te krijgen door Actieve rekeningen in [ kan worden gefiltreerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om een e-mailpubliek van de verjaardag in [ te bouwen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=nl-NL){target="_blank"}.
+* Leer hoe te om op eenvoudige ontvankelijke attributen in [ te richten deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* Leer hoe te om op ontvangers te filtreren die niet tijdens de laatste 7 dagen in [ worden gecontacteerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* Leer hoe te om de lijst van exploitanten terug te krijgen door Actieve rekeningen in [ kan worden gefiltreerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
+* Leer hoe te om een e-mailpubliek van de verjaardag in [ te bouwen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}.
 
 
 ### Geavanceerde parameters voor vooraf gedefinieerde filters {#param-for-data-filters}
@@ -353,3 +354,6 @@ Geavanceerde parameters zijn beschikbaar voor vooraf gedefinieerde filters. Blad
 
    * U kunt een SQL-tabel aan het filter koppelen om deze te gebruiken voor alle editors die de tabel delen.
    * Als u wilt voorkomen dat een gebruiker het filter overschrijft, selecteert u de optie **[!UICONTROL Do not restrict the filter]** . Deze optie is bijvoorbeeld actief voor de filters &quot;Ontvangers van een levering&quot; en &quot;Ontvangers van leveringen die tot een map behoren&quot; die beschikbaar zijn in de wizard voor levering. Deze filters kunnen niet worden overbelast.
+
+
+### Operatoren

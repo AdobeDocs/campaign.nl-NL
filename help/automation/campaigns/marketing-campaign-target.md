@@ -6,7 +6,7 @@ feature: Campaigns, Audiences
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 0%
@@ -222,7 +222,7 @@ Deze populatie kan uit een lijst van ontvangers komen of u kunt het door een spe
 
 >[!NOTE]
 >
->De vraagredacteur van Adobe Campaign wordt voorgesteld in [ deze sectie ](../workflow/query.md).
+>De vraagredacteur van Adobe Campaign wordt voorgesteld in [ deze sectie ](../../v8/start/query-editor.md).
 
 ### Extraheer de controlegroep uit het hoofddoel {#extract-the-control-group-from-the-main-target}
 
@@ -248,4 +248,4 @@ Deze video verklaart hoe te om een controlegroep aan een campagne toe te voegen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.
+De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

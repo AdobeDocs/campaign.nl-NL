@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 3%
@@ -94,7 +94,7 @@ Volg onderstaande stappen om de ontvangers van een levering te selecteren:
 
    De volgende doeltypen zijn beschikbaar:
 
-   * **[!UICONTROL Filtering conditions]** : gebruik deze optie om een query te definiëren en het resultaat weer te geven. Leer hoe te om een vraag in [ te ontwerpen deze sectie ](../../automation/workflow/query.md).
+   * **[!UICONTROL Filtering conditions]** : gebruik deze optie om een query te definiëren en het resultaat weer te geven. Leer hoe te om een vraag in [ te ontwerpen deze sectie ](../start/query-editor.md).
    * **[!UICONTROL A list of recipients]** : gebruik deze optie om een lijst met profielen als doel in te stellen. Leer meer over lijsten in [ deze sectie ](../audiences/create-audiences.md).
    * **[!UICONTROL A recipient]** : gebruik deze optie om een specifiek profiel in de database te selecteren.
    * **[!UICONTROL Recipients included in a folder]** : gebruik deze optie om alle profielen in een specifieke map als doel in te stellen.
@@ -137,7 +137,7 @@ U kunt berichten verzenden naar profielen die niet in de database maar in een ex
 1. Selecteer het bestand met de ontvangers.
 1. Klik tijdens het importeren van de ontvangers op de koppeling **[!UICONTROL File format definition...]** om het externe bestand te selecteren en te configureren.
 
-   Voor meer informatie bij de invoer van gegevens, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
+   Voor meer informatie bij de invoer van gegevens, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
 
 1. Klik op **[!UICONTROL Finish]** en configureer de levering als standaardlevering.
 
@@ -182,7 +182,7 @@ Voor meer bij proefontvangers en het verzenden, verwijs naar [ deze sectie ](../
 
 In deze video leert u hoe u zaden en proefdrukken aan een bestaande e-mail kunt toevoegen en hoe u deze kunt verzenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447005?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 De extra hoe te video&#39;s van Campaign Classic zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
 

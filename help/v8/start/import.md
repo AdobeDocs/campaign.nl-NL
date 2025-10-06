@@ -6,35 +6,22 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '4027'
+source-wordcount: '3832'
 ht-degree: 0%
 
 ---
 
 # Gegevens importeren in campagne {#ootb-profiles}
 
-Met de campagne kunt u contactpersonen toevoegen aan de Cloud-database. U kunt een dossier laden, veelvoudige contactupdates plannen en automatiseren, gegevens op het Web verzamelen, of profielinformatie direct in de ontvankelijke lijst ingaan.
-
-Beginnen met [&#x200B; publiek &#x200B;](audiences.md)
-
-Begrijp Campagne [&#x200B; gegevensmodel &#x200B;](../dev/datamodel.md)
-
-## Profielen importeren in een workflow
+De campagne helpt u contacten aan het gegevensbestand toevoegen. U kunt een dossier laden, veelvoudige contactupdates plannen en automatiseren, gegevens op het Web verzamelen, of profielinformatie direct in de ontvankelijke lijst ingaan.
 
 De invoer van het profiel wordt gevormd in specifieke malplaatjes die door werkschema&#39;s via de **invoer** activiteit worden uitgevoerd. Ze kunnen automatisch volgens een schema worden herhaald, bijvoorbeeld om de gegevensuitwisseling tussen verschillende informatiesystemen te automatiseren. Lees meer in [deze sectie](../../automation/workflow/recurring-import-workflow.md).
 
 ![](assets/import-wf.png)
 
-
-## Eenheidsimporten uitvoeren
-
-Maak en voer een generieke importtaak voor gegevens uit om contactpersonen in de Cloud-database te laden.
-
-![](assets/new-import.png)
-
-### Gegevens importeren
+## Importeren uitvoeren
 
 Met Adobe Campaign kunt u gegevens uit een of meer bestanden in tekst-, CSV-, TAB- of XML-indeling importeren in de database. Deze bestanden zijn gekoppeld aan een tabel (hoofd of gekoppeld) en elk veld van het bronbestand of de bronbestanden is gekoppeld aan een veld van de database.
 
@@ -42,19 +29,18 @@ Met Adobe Campaign kunt u gegevens uit een of meer bestanden in tekst-, CSV-, TA
 >
 >U kunt gegevens importeren zonder deze toe te wijzen aan de databasegegevens met behulp van de functie **[!UICONTROL Import a list]** . De gegevens kunnen vervolgens uitsluitend in workflows via het **[!UICONTROL Read list]** -object worden gebruikt. Raadpleeg [deze pagina](../../automation/workflow/read-list.md) voor meer informatie.
 
+
+## De importassistent gebruiken
+
 Met de importassistent kunt u een importbewerking configureren, opties ervan definiëren (zoals gegevenstransformatie) en uitvoering starten. Het is een reeks schermen waarvan de inhoud afhankelijk is van het type import (enkelvoudig of meervoudig) en de rechten van de operator.
 
 De importassistent wordt weergegeven nadat een nieuwe importtaak is gemaakt.
 
->[!NOTE]
->
->Als u een server van het Web IIS gebruikt, kan een configuratie noodzakelijk zijn om het uploaden van grote dossiers (>28 MB) toe te staan.
-
-#### Source-bestand {#source-file}
+![](assets/new-import.png)
 
 In het bronbestand valt elke regel samen met een record. De gegevens in records worden gescheiden door scheidingstekens (spatie, tab, teken, enz.). Dit betekent dat de gegevens in de vorm van kolommen worden teruggewonnen, en elke kolom wordt geassocieerd met een gebied van het gegevensbestand.
 
-## Stap 1 - Kies de importsjabloon {#step-1---choosing-the-import-template}
+### Stap 1 - Kies de importsjabloon {#step-1---choosing-the-import-template}
 
 Wanneer u de importassistent start, moet u eerst een sjabloon selecteren. Als voorbeeld, om de invoer van ontvangers te vormen die een nieuwsbrief ontvingen, volg de stappen hieronder:
 
@@ -78,43 +64,13 @@ Wanneer u de importassistent start, moet u eerst een sjabloon selecteren. Als vo
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Telkens wanneer een bestand wordt toegevoegd, wordt het scherm van de **[!UICONTROL File to import]** assistent weergegeven. Zie sectie [&#x200B; Stap 2 - het dossierselectie van Source &#x200B;](#step-2---source-file-selection) en volg de stappen in de medewerker om de invoeropties zoals voor een eenvoudige invoer te bepalen.
+   Telkens wanneer een bestand wordt toegevoegd, wordt het scherm van de **[!UICONTROL File to import]** assistent weergegeven. Zie sectie [ Stap 2 - het dossierselectie van Source ](#step-2---source-file-selection) en volg de stappen in de medewerker om de invoeropties zoals voor een eenvoudige invoer te bepalen.
 
    >[!NOTE]
    >
    >Meerdere importen moeten alleen aan specifieke behoeften voldoen en worden niet aanbevolen.
 
-### Geavanceerde parameters {#advanced-parameters}
-
-Met de koppeling **[!UICONTROL Advanced parameters]** hebt u toegang tot de volgende opties:
-
-* **[!UICONTROL General]** tab
-
-   * **[!UICONTROL Stop execution if there are too many rejects]**
-
-     Deze optie is standaard ingeschakeld. U kunt de selectie opheffen als u het importeren wilt blijven uitvoeren, ongeacht het aantal afwijzingen. De uitvoering wordt standaard gestopt wanneer de eerste 100 regels worden geweigerd.
-
-   * **[!UICONTROL Trace mode]**
-
-     Selecteer deze optie om de uitvoering van het importeren voor elke regel bij te houden.
-
-   * **[!UICONTROL Start the job in a detached process]**
-
-     Deze optie is standaard ingeschakeld. Hiermee kunt u de uitvoering van het importeren loskoppelen, zodat dit geen invloed heeft op andere taken in de database.
-
-   * **[!UICONTROL Do not update enumerations]**
-
-     Selecteer deze optie om te voorkomen dat de lijst met opgesomde waarden in de database wordt verrijkt. Leer meer over [&#x200B; opsommingen &#x200B;](../config/enumerations.md).
-
-* **[!UICONTROL Variables]** tab
-
-  U kunt variabelen definiëren die aan de taak zijn gekoppeld en die toegankelijk zijn in de query-editors en berekende velden. Als u een variabele wilt maken, klikt u op **[!UICONTROL Add]** en gebruikt u de variabele-editor.
-
-  >[!IMPORTANT]
-  >
-  >Het tabblad **[!UICONTROL Variables]** is alleen bedoeld voor gebruik bij workflowprogrammering en moet alleen door deskundige gebruikers worden geconfigureerd.
-
-## Stap 2 - Source-bestandsselectie {#step-2---source-file-selection}
+#### Stap 2 - Source-bestandsselectie {#step-2---source-file-selection}
 
 Het bronbestand kan de tekstindeling (txt, csv, tab, vaste kolommen) of xml hebben.
 
@@ -146,7 +102,7 @@ U kunt het resultaat van de configuratie weergeven in de voorvertoningszone in h
 
 Klik op **[!UICONTROL OK]** om de opmaak op te slaan en klik vervolgens op **[!UICONTROL Next]** om de volgende stap weer te geven.
 
-## Stap 3 - Toewijzing van velden {#step-3---field-mapping}
+### Stap 3 - Toewijzing van velden {#step-3---field-mapping}
 
 U moet dan het bestemmingsschema selecteren en de gegevens van elke kolom op gebieden in het gegevensbestand in kaart brengen.
 
@@ -173,7 +129,7 @@ U moet dan het bestemmingsschema selecteren en de gegevens van elke kolom op geb
 
 * U kunt berekende velden toevoegen met het juiste pictogram rechts van de centrale tabel. Met berekende velden kunt u complexe transformaties uitvoeren, virtuele kolommen toevoegen of de gegevens van meerdere kolommen samenvoegen. Raadpleeg de volgende secties voor meer informatie over de verschillende mogelijkheden.
 
-### Berekende velden {#calculated-fields}
+#### Berekende velden {#calculated-fields}
 
 Berekende velden zijn nieuwe kolommen die aan het bronbestand worden toegevoegd en uit andere kolommen worden berekend. Berekende velden kunnen vervolgens worden gekoppeld aan velden in de Adobe Campaign-database. Afstemmingen zijn echter niet mogelijk op berekende velden.
 
@@ -190,7 +146,7 @@ Er zijn vier typen berekende velden:
 
   ![](assets/s_ncs_user_import_wizard03_4.png)
 
-#### Stap 4 - Verzoening {#step-4---reconciliation}
+### Stap 4 - Verzoening {#step-4---reconciliation}
 
 Met de afstemmingsstap van de importassistent kunt u de modus definiëren waarmee de gegevens uit het bestand worden afgestemd op de bestaande gegevens in de database en kunt u de prioriteitsregels instellen tussen de bestandsgegevens en de databasegegevens. Het configuratievenster ziet er als volgt uit:
 
@@ -292,7 +248,7 @@ U kunt een bestand met deze records genereren via het pictogram **[!UICONTROL Ex
 
 ![](assets/s_ncs_user_import_errors_export.png)
 
-#### Stap 5 - Extra stap bij het importeren van ontvangers {#step-5---additional-step-when-importing-recipients}
+### Stap 5 - Extra stap bij het importeren van ontvangers {#step-5---additional-step-when-importing-recipients}
 
 In de volgende stap van de importassistent kunt u de map selecteren of maken waarin gegevens worden geïmporteerd, kunt u geïmporteerde ontvangers automatisch toewijzen aan een (nieuwe of bestaande) lijst en kunt u ontvangers aan een service toewijzen.
 
@@ -310,7 +266,7 @@ In de volgende stap van de importassistent kunt u de map selecteren of maken waa
 
       >[!NOTE]
       >
-      >De standaardmap voor een operator is de eerste map waarvoor de operator schrijftoegang heeft. Leer meer in [&#x200B; leidt omslagen en meningen &#x200B;](../audiences/folders-and-views.md).
+      >De standaardmap voor een operator is de eerste map waarvoor de operator schrijftoegang heeft. Leer meer in [ leidt omslagen en meningen ](../audiences/folders-and-views.md).
 
       Als u de importmap wilt selecteren, klikt u op de pijl rechts van het veld **[!UICONTROL Folder]** en selecteert u de desbetreffende map. U kunt het pictogram **[!UICONTROL Select link]** ook gebruiken om de structuur in een nieuw venster weer te geven of een nieuwe map te maken.
 
@@ -342,21 +298,21 @@ In de volgende stap van de importassistent kunt u de map selecteren of maken waa
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 
-      U kunt een nieuwe service voor deze ontvangers maken door op **[!UICONTROL Select link]** en vervolgens op het pictogram **[!UICONTROL Create]** te klikken. Het beheer van de informatiediensten wordt voorgesteld in [&#x200B; deze sectie &#x200B;](../start/subscriptions.md).
+      U kunt een nieuwe service voor deze ontvangers maken door op **[!UICONTROL Select link]** en vervolgens op het pictogram **[!UICONTROL Create]** te klikken. Het beheer van de informatiediensten wordt voorgesteld in [ deze sectie ](../start/subscriptions.md).
 
 * Gebruik het veld **[!UICONTROL Origin]** om informatie over de oorsprong van ontvangers toe te voegen aan hun profielen. Deze informatie is met name nuttig in het kader van een meervoudige import.
 
 Klik op **[!UICONTROL Next]** om deze stap te valideren en de volgende stap weer te geven.
 
-## Stap 6 - Het importeren starten {#step-6---launching-the-import}
+### Stap 6 - Het importeren starten {#step-6---launching-the-import}
 
 In de laatste stap van de assistent kunt u gegevensimport starten. Klik hiertoe op de knop **[!UICONTROL Start]** .
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-U kunt de uitvoering van de de invoerbaan dan controleren (zie [&#x200B; de werkschemauitvoering van de Monitor &#x200B;](../../automation/workflow/monitor-workflow-execution.md)).
+U kunt de uitvoering van de de invoerbaan dan controleren (zie [ de werkschemauitvoering van de Monitor ](../../automation/workflow/monitor-workflow-execution.md)).
 
-### Gegevens exporteren
+## Gegevens exporteren
 
 Met de exporttaken hebt u toegang tot gegevens in de database en kunt u deze ophalen: contactpersonen, clients, lijsten, segmenten enzovoort.
 
@@ -366,7 +322,7 @@ Met de exportassistent kunt u een exportbewerking configureren, opties definiër
 
 De exportassistent wordt weergegeven nadat een nieuwe exporttaak is gemaakt.
 
-#### Stap 1 - Kies de exportsjabloon {#step-1---choosing-the-export-template}
+### Stap 1 - Kies de exportsjabloon {#step-1---choosing-the-export-template}
 
 Wanneer u de exportassistent start, moet u eerst een sjabloon selecteren. Als voorbeeld, om de uitvoer van ontvangers te vormen die onlangs registreerden, volg de stappen hieronder:
 
@@ -382,7 +338,7 @@ Wanneer u de exportassistent start, moet u eerst een sjabloon selecteren. Als vo
 1. Voer in het veld **[!UICONTROL Label]** een naam in voor het exporteren. U kunt een beschrijving toevoegen.
 1. Selecteer het exporttype. Er zijn twee mogelijke exporttypen: **[!UICONTROL Simple export]** om slechts één bestand te exporteren en **[!UICONTROL Multiple export]** om meerdere bestanden in één uitvoering uit een of meer typen brondocument te exporteren.
 
-## Stap 2 - Type bestand dat moet worden geëxporteerd {#step-2---type-of-file-to-export}
+### Stap 2 - Type bestand dat moet worden geëxporteerd {#step-2---type-of-file-to-export}
 
 Selecteer het type document dat u wilt exporteren, dat wil zeggen het schema van de gegevens die u wilt exporteren.
 
@@ -415,7 +371,7 @@ Selecteer een uitvoerindeling voor het exportbestand. De volgende indelingen kun
 * Geef de datumnotatie en getalnotatie op. Klik hiertoe op de knop **[!UICONTROL Edit]** voor het desbetreffende veld en gebruik de editor.
 * Voor velden met opsommingswaarden kunt u **[!UICONTROL Export labels instead of internal values of enumerations]** selecteren. Bijvoorbeeld, kan de titel in de vorm **worden opgeslagen 1=Mr.**, **2=Onjuffrouw**, **3=Mevrouw.**. Als deze optie wordt geselecteerd, **Mr.**, **juf** en **mevrouw** zal worden uitgevoerd.
 
-#### Stap 4 - Selectie van gegevens {#step-4---data-selection}
+### Stap 4 - Selectie van gegevens {#step-4---data-selection}
 
 Selecteer de te exporteren velden. Dit doet u als volgt:
 
@@ -426,19 +382,19 @@ Selecteer de te exporteren velden. Dit doet u als volgt:
 
 1. Klik op de knop **[!UICONTROL Add]** om functies aan te roepen.
 
-#### Stap 5 - Kolommen sorteren {#step-5---sorting-columns}
+### Stap 5 - Kolommen sorteren {#step-5---sorting-columns}
 
 Selecteer de sorteervolgorde van de kolommen.
 
 ![](assets/s_ncs_user_export_wizard05.png)
 
-#### Stap 6 - Filtervoorwaarden {#step-6---filter-conditions-}
+### Stap 6 - Filtervoorwaarden {#step-6---filter-conditions-}
 
 U kunt filtervoorwaarden toevoegen om het exporteren van alle gegevens te voorkomen. De configuratie van dit het filtreren is het zelfde als ontvankelijke het richten in de leveringsmedewerker.
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
-#### Stap 7 - Gegevensopmaak {#step-7---data-formatting}
+### Stap 7 - Gegevensopmaak {#step-7---data-formatting}
 
 U kunt de volgorde en het label van de velden voor het uitvoerbestand wijzigen en transformaties op de brongegevens toepassen.
 
@@ -458,7 +414,7 @@ Als u een verzameling elementen exporteert (bijvoorbeeld abonnementen van ontvan
 
 ![](assets/s_ncs_user_export_wizard06_c.png)
 
-#### Stap 8 - Voorvertoning gegevens {#step-8---data-preview}
+### Stap 8 - Voorvertoning gegevens {#step-8---data-preview}
 
 Klik op **[!UICONTROL Start the preview of the data]** voor een voorvertoning van het exportresultaat. Standaard worden de eerste 200 regels weergegeven. Als u deze waarde wilt wijzigen, klikt u op de pijlen rechts van het veld **[!UICONTROL Lines to display]** .
 
@@ -466,7 +422,7 @@ Klik op **[!UICONTROL Start the preview of the data]** voor een voorvertoning va
 
 Klik de lusjes bij de bodem van de medewerker om van de voorproef van resultaten in kolommen aan de resultaten in XML over te schakelen. U kunt de gegenereerde SQL-query&#39;s ook weergeven.
 
-#### Stap 9 - Het exporteren starten {#step-9---launching-the-export}
+### Stap 9 - Het exporteren starten {#step-9---launching-the-export}
 
 Klik op **[!UICONTROL Start]** om het exporteren van gegevens te starten.
 
@@ -481,10 +437,11 @@ Met Campagne kunt u webformulieren maken en profielgegevens eenvoudig en effici�
 
 ![](assets/web-form-page.png)
 
-Leer hoe te om Webvormen in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=nl-NL){target="_blank"} tot stand te brengen.
+Leer hoe te om Webvormen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"} tot stand te brengen.
 
 **Verwante onderwerpen**
 
 * [Soorten publiek maken](audiences.md)
 * [Gedupliceerde profielen](../../automation/workflow/deduplication-merge.md)
 * [Profielgegevens vergroten](../../automation/workflow/enrich-data.md)
+* Begrijp Campagne [ gegevensmodel ](../dev/datamodel.md)

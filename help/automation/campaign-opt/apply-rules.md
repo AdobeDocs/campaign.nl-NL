@@ -4,7 +4,7 @@ title: Typologieregels toepassen
 description: Leer hoe u typologische regels toepast
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 7%
@@ -46,7 +46,7 @@ Het is mogelijk om typologische regels zodanig te configureren dat deze alleen b
 
 Klik op de koppeling **[!UICONTROL Edit the rule application conditions...]** op het tabblad **[!UICONTROL General]** om de toepassingsvoorwaarden van een regel te definiëren.
 
-Dan gebruik de vraagredacteur om het filtreren voorwaarden te bepalen. In het volgende voorbeeld heeft de capaciteitsregel alleen betrekking op leveringen met het woord &quot;aanbieding&quot; op het etiket of op leveringen die vóór 1 april 2013 zijn gemaakt.
+Dan gebruik de [ vraagredacteur ](../../v8/start/query-editor.md) om het filtreren voorwaarden te bepalen. In het volgende voorbeeld heeft de capaciteitsregel alleen betrekking op leveringen met het woord &quot;aanbieding&quot; op het etiket of op leveringen die vóór 1 april 2013 zijn gemaakt.
 
 ![](assets/campaign_opt_create_capacity_criterion.png)
 
@@ -97,7 +97,7 @@ Bijvoorbeeld, wordt een drukregel met een uitvoeringsorde van 20 uitgevoerd vó�
 
 ### Controleregels {#control-rules}
 
-Voor **[!UICONTROL Control]** -regels kunt u bepalen op welk punt van de levenscyclus van de levering de regel wordt toegepast: voor of na het opgeven van de regel, bij het begin van de personalisatie, aan het einde van de analyse. Selecteer op het tabblad **[!UICONTROL General]** van de typologieregel de waarde die u wilt toepassen in de vervolgkeuzelijst van het veld **[!UICONTROL Phase]** .
+Voor **[!UICONTROL Control]** -regels kunt u bepalen op welk punt van de levenscyclus van de levering de regel wordt toegepast: voor of na het opgeven van de regel, bij het begin van de personalisatie, aan het einde van de analyse. Selecteer op het tabblad **[!UICONTROL Phase]** van de typologieregel de waarde die u wilt toepassen in de vervolgkeuzelijst van het veld **[!UICONTROL General]** .
 
 ![](assets/campaign_opt_define_control_phase.png)
 
