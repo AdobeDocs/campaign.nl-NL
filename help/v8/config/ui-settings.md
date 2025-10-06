@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 0%
@@ -27,13 +27,13 @@ In Adobe Campaign, voor gebieden die een duur (b.v. geldigheidsperiode van de mi
 
 U kunt mappen toevoegen aan Campagneverkenner, weergaven maken en machtigingen toewijzen.
 
-Leer hoe te om omslagen en meningen in [&#x200B; te beheren deze pagina &#x200B;](../audiences/folders-and-views.md)
+Leer hoe te om omslagen en meningen in [ te beheren deze pagina ](../audiences/folders-and-views.md)
 
 ## Lijsten beheren en aanpassen {#customize-lists}
 
 In de Console van de Cliënt van de Campagne, worden de gegevens getoond in lijsten. U kunt deze lijsten aan uw behoeften aanpassen. U kunt bijvoorbeeld kolommen, filtergegevens, telrecords toevoegen, uw instellingen opslaan en delen.
 
-Bovendien kunt u filters maken en opslaan.  Leer meer over filters in [&#x200B; deze pagina &#x200B;](../audiences/create-filters.md).
+Bovendien kunt u filters maken en opslaan.  Leer meer over filters in [ deze pagina ](../audiences/create-filters.md).
 
 ### Aantal records {#number-of-records}
 
@@ -41,7 +41,7 @@ Standaard laadt Adobe Campaign de eerste 200 records van een lijst. Dit betekent
 
 In het lagere rechterdeel van het lijstscherm, a **teller** toont hoeveel verslagen zijn geladen en het totale aantal verslagen in het gegevensbestand (na het toepassen van om het even welke filters):
 
-![&#x200B; het totale aantal verslagen van de vertoning in een lijst &#x200B;](assets/number-of-records.png)
+![ het totale aantal verslagen van de vertoning in een lijst ](assets/number-of-records.png)
 
 Als er een vraagteken wordt weergegeven in plaats van het nummer aan de rechterkant, bijvoorbeeld `240/?` , klikt u op de teller om de berekening te starten.
 
@@ -60,18 +60,18 @@ Voor elke lijst, kan de ingebouwde kolomconfiguratie worden aangepast om meer in
 
 Wanneer gegevens in het detail van een record worden weergegeven, klikt u met de rechtermuisknop op het veld en selecteert u **[!UICONTROL Add in the list]** .
 
-![&#x200B; voeg een gebied in de lijst &#x200B;](assets/add-in-the-list.png) toe
+![ voeg een gebied in de lijst ](assets/add-in-the-list.png) toe
 
 De kolom wordt rechts van de bestaande kolommen toegevoegd.
 
-![&#x200B; voeg een gebiedskolom &#x200B;](assets/add-a-column.png) toe
+![ voeg een gebiedskolom ](assets/add-a-column.png) toe
 
 U kunt het scherm van de lijstconfiguratie ook gebruiken om kolommen toe te voegen en te verwijderen:
 
 1. Klik in een lijst met records op het pictogram **[!UICONTROL Configure list]** in de rechterbenedensectie.
 1. Dubbelklik op de velden die u wilt toevoegen aan de lijst **[!UICONTROL Available fields]** : deze worden toegevoegd aan de lijst van **[!UICONTROL Output columns]** .
 
-   ![&#x200B; het configuratiescherm van de Lijst &#x200B;](assets/list-config-screen.png)
+   ![ het configuratiescherm van de Lijst ](assets/list-config-screen.png)
 
 
    >[!NOTE]
@@ -127,7 +127,7 @@ Volg onderstaande stappen om een lijstconfiguratie op te slaan zodat deze opnieu
 1. Klik op **[!UICONTROL Advanced settings]** en geef een naam op in het veld **[!UICONTROL Configuration]** .
 1. Klik op **[!UICONTROL OK]** en vervolgens op **[!UICONTROL Save]** .
 
-U kunt deze configuratie dan toepassen om het even welke andere omslag van het zelfde type. Leer meer over omslagen in [&#x200B; deze pagina &#x200B;](../audiences/folders-and-views.md).
+U kunt deze configuratie dan toepassen om het even welke andere omslag van het zelfde type. Leer meer over omslagen in [ deze pagina ](../audiences/folders-and-views.md).
 
 ### Een lijst exporteren {#exporting-a-list}
 
@@ -160,4 +160,4 @@ U kunt ook sorteren configureren of sorteercriteria combineren. Hiervoor voert u
 ## Aanvullende bronnen
 
 * **[Begin met het de gebruikersinterface van de Campagne](../start/campaign-ui.md)** - ontdekt hoe te om tot de interface van Adobe Campaign toegang te hebben en te doorbladeren.
-* **[Werk met Opsommingen](../dev/enumerations.md)** - normaliseer gebiedswaarden met vooraf bepaalde drop-down lijsten voor snellere, consistentere gegevensingang.
+* **[Werk met Opsommingen](../config/enumerations.md)** - normaliseer gebiedswaarden met vooraf bepaalde drop-down lijsten voor snellere, consistentere gegevensingang.
