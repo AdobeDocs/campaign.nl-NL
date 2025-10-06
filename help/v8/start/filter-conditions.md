@@ -5,7 +5,7 @@ feature: Query Editor
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 79cfde18cce2f9f48cbd6d77026350dec1a71536
 workflow-type: tm+mt
 source-wordcount: '3323'
 ht-degree: 33%
@@ -259,7 +259,7 @@ Koppeling maken naar een tabel en verzamelingselement:
 
 >[!NOTE]
 >
->* Gebruik de knop **[!UICONTROL Add]** (boven de zijpictogrambalk) om een uitvoerkolom toe te voegen waarin u de expressie wilt bewerken. Voor meer bij het uitgeven van een uitdrukking, verwijs naar [&#x200B; deze sectie &#x200B;](#building-expressions).
+>* Gebruik de knop **[!UICONTROL Add]** (boven de zijpictogrambalk) om een uitvoerkolom toe te voegen waarin u de expressie wilt bewerken. Voor meer bij het uitgeven van een uitdrukking, verwijs naar [ deze sectie ](#building-expressions).
 >* Schrap een outputkolom door rode &quot;x&quot;te klikken (**Schrapping**).
 >* Wijzig de volgorde van de uitvoerkolommen met de pijlen.
 >* De **[!UICONTROL Distribution of values]** fungeert als een manier om de verspreiding van de waarden van het geselecteerde veld te bekijken (bijvoorbeeld de distributies die gekoppeld zijn aan de ontvangende steden, de ontvangende talen, enz.).
@@ -288,7 +288,7 @@ Er zijn vier typen berekende velden:
 
   Het is mogelijk om de bronwaarde van een kolom te gebruiken en het een bestemmingswaarde te geven. Deze bestemmingswaarde zal in de nieuwe outputkolom worden getoond.
 
-  Een voorbeeld van het toevoegen van berekend gebiedstype **[!UICONTROL Enumerations]** is beschikbaar, verwijs naar [&#x200B; deze sectie &#x200B;](../../workflow/using/adding-enumeration-type-calculated-field.md).
+  Een voorbeeld van het toevoegen van berekend gebiedstype **[!UICONTROL Enumerations]** is beschikbaar, verwijs naar [ deze sectie ](../../workflow/using/adding-enumeration-type-calculated-field.md).
 
   ![](assets/query_editor_nveau_63.png)
 
@@ -344,7 +344,7 @@ Hier volgt een gedetailleerde weergave van de opties die beschikbaar zijn in het
 
    ![](assets/query_editor_nveau_71.png)
 
-   Voor een lijst van alle beschikbare functies, verwijs naar [&#x200B; Lijst van functies &#x200B;](#list-of-functions).
+   Voor een lijst van alle beschikbare functies, verwijs naar [ Lijst van functies ](#list-of-functions).
 
 ## Lijst met functies {#list-of-functions}
 
@@ -352,7 +352,7 @@ Als u een **[!UICONTROL Expression]** -typeformule kiest, gaat u naar het venste
 
 De expressie-editor ziet er als volgt uit:
 
-![](assets/s_ncs_user_filter_define_expression.png)
+![](assets/filter-define-expression.png)
 
 Hiermee kunt u velden in de databasetabellen selecteren en er geavanceerde functies aan toevoegen. De volgende functies zijn beschikbaar:
 
