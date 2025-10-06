@@ -57,7 +57,7 @@ Hiervoor moet u het schema van de tabel maken en de databasestructuur bijwerken 
 
    >[!NOTE]
    >
-   >Standaard worden schema&#39;s die door gebruikers worden gemaakt, opgeslagen in de naamruimte &#39;cus&#39;. Voor meer op dit, verwijs naar [ Identificatie van een schema ](extend-schema.md#identification-of-a-schema).
+   >Standaard worden schema&#39;s die door gebruikers worden gemaakt, opgeslagen in de naamruimte &#39;cus&#39;. Voor meer op dit, verwijs naar [&#x200B; Identificatie van een schema &#x200B;](extend-schema.md#identification-of-a-schema).
 
 1. Maak de inhoud van de tabel. Wij adviseren gebruikend de specifieke medewerker om ervoor te zorgen geen montages ontbreken. Klik hiertoe op de knop **[!UICONTROL Insert]** en kies het type instelling dat u wilt toevoegen.
 

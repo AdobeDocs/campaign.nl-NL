@@ -18,7 +18,7 @@ Transactioneel overseinen (het Centrum van het Bericht) is een module van de Cam
 
 >[!NOTE]
 >
->Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support){target="_blank"} om het Transactionele overseinen van de Campagne in uw milieu te vormen.
+>Als Beheerde gebruiker van de Diensten van de Wolk, [&#x200B; contacteer Adobe &#x200B;](../start/campaign-faq.md#support){target="_blank"} om het Transactionele overseinen van de Campagne in uw milieu te vormen.
 
 Transactieberichten worden gebruikt voor het verzenden van:
 
@@ -26,9 +26,9 @@ Transactieberichten worden gebruikt voor het verzenden van:
 * een individuele reactie in real time op een klantenactie
 * niet-promotionele inhoud
 
-De montages van het Transactionele overseinen zijn gedetailleerd in [ deze sectie ](../config/transactional-msg-settings.md).
+De montages van het Transactionele overseinen zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../config/transactional-msg-settings.md).
 
-Begrijp transactie overseinenarchitectuur op [ deze pagina ](../architecture/architecture.md#transac-msg-archi).
+Begrijp transactie overseinenarchitectuur op [&#x200B; deze pagina &#x200B;](../architecture/architecture.md#transac-msg-archi).
 
 ## Operationeel beginsel van het transactieverkeer {#transactional-messaging-operating-principle}
 
@@ -40,18 +40,18 @@ Met Adobe Campaign kunt u een meldingsbericht verzenden naar klanten die product
 
 De belangrijkste stappen om dit in werking te stellen zijn hieronder beschreven:
 
-1. [ creeer een gebeurtenistype ](#create-event-types).
-1. [ creeer en ontwerp het berichtmalplaatje ](transactional-template.md#create-message-template). Tijdens deze stap moet u een gebeurtenis koppelen aan uw bericht.
-1. [ Test het bericht ](transactional-template.md#test-message-template).
-1. [ publiceer het berichtmalplaatje ](transactional-template.md#publish-message-template).
+1. [&#x200B; creeer een gebeurtenistype &#x200B;](#create-event-types).
+1. [&#x200B; creeer en ontwerp het berichtmalplaatje &#x200B;](transactional-template.md#create-message-template). Tijdens deze stap moet u een gebeurtenis koppelen aan uw bericht.
+1. [&#x200B; Test het bericht &#x200B;](transactional-template.md#test-message-template).
+1. [&#x200B; publiceer het berichtmalplaatje &#x200B;](transactional-template.md#publish-message-template).
 
-Zodra u het transactionele berichtmalplaatje ontwierp en publiceerde, als een overeenkomstige gebeurtenis wordt teweeggebracht, worden de relevante gegevens verzonden naar Campagne via de methodes PushEvent en PushEvents [ SOAP ](../send/event-description.md), en de levering wordt verzonden naar de gerichte ontvangers.
+Zodra u het transactionele berichtmalplaatje ontwierp en publiceerde, als een overeenkomstige gebeurtenis wordt teweeggebracht, worden de relevante gegevens verzonden naar Campagne via de methodes PushEvent en PushEvents [&#x200B; SOAP &#x200B;](../send/event-description.md), en de levering wordt verzonden naar de gerichte ontvangers.
 
 ## Gebeurtenistypen maken {#create-event-types}
 
 Om ervoor te zorgen elke gebeurtenis in een gepersonaliseerd bericht kan worden veranderd, moet u eerst **gebeurtenistypen** creëren.
 
-Wanneer [ creërend een berichtmalplaatje ](#create-message-template), zult u het type van gebeurtenis selecteren die het bericht aanpast u wilt verzenden.
+Wanneer [&#x200B; creërend een berichtmalplaatje &#x200B;](#create-message-template), zult u het type van gebeurtenis selecteren die het bericht aanpast u wilt verzenden.
 
 >[!CAUTION]
 >
@@ -73,6 +73,6 @@ Voer de volgende stappen uit om gebeurtenistypen te maken die door Adobe Campaig
 
 >[!NOTE]
 >
->Leer meer over [ opsommingen ](../config/enumerations.md).
+>Leer meer over [&#x200B; opsommingen &#x200B;](../config/enumerations.md).
 
-Voor volgende stap, leer hoe te [ uw malplaatje voor Transactioneel overseinen ](transactional-template.md) creëren en publiceren.
+Voor volgende stap, leer hoe te [&#x200B; uw malplaatje voor Transactioneel overseinen &#x200B;](transactional-template.md) creëren en publiceren.

@@ -90,7 +90,7 @@ De inhoud van de aanbiedingsweergave wordt door de aanbiedingsengine aan de HTML
 
 ### Een geïdentificeerde aanbieding presenteren {#presenting-an-identified-offer}
 
-Om een aanbieding aan een geïdentificeerd contact voor te stellen, is het proces gelijkaardig zoals gedetailleerd [ in deze sectie ](#presenting-an-anonymous-offer).
+Om een aanbieding aan een geïdentificeerd contact voor te stellen, is het proces gelijkaardig zoals gedetailleerd [&#x200B; in deze sectie &#x200B;](#presenting-an-anonymous-offer).
 
 In de inhoud van de Web-pagina, moet u het volgende manuscript toevoegen dat de contact tijdens de vraag aan de motor van de Aanbieding zal identificeren:
 
@@ -132,7 +132,7 @@ Als u de representatie van de HTML-aanbieding automatisch wilt genereren, kunt u
 
 ### Een voorstel presenteren {#presenting-an-offer}
 
-De module van de Interactie van de campagne **** laat u een knoop van XML aan de pagina terugkeren van HTML die de motor van de Aanbieding omhoog roept. Dit XML-knooppunt kan worden verwerkt door functies die aan de kant van de klant moeten worden ontwikkeld.
+De module van de Interactie van de campagne **&#x200B;**&#x200B;laat u een knoop van XML aan de pagina terugkeren van HTML die de motor van de Aanbieding omhoog roept. Dit XML-knooppunt kan worden verwerkt door functies die aan de kant van de klant moeten worden ontwikkeld.
 
 De vraag aan de motor van de Aanbieding kijkt als dit:
 
@@ -167,9 +167,9 @@ In het onderstaande gebruiksgeval worden de configuraties beschreven die in Adob
 
 1. **creeer een milieu en een aanbiedingsruimte**
 
-   Voor meer bij het creëren van een milieu, verwijs naar [ deze pagina ](interaction-env.md).
+   Voor meer bij het creëren van een milieu, verwijs naar [&#x200B; deze pagina &#x200B;](interaction-env.md).
 
-   Voor meer bij het creëren van een aanbiedingsruimte, verwijs naar [ deze pagina ](interaction-offer-spaces.md).
+   Voor meer bij het creëren van een aanbiedingsruimte, verwijs naar [&#x200B; deze pagina &#x200B;](interaction-offer-spaces.md).
 
 1. **breid het aanbiedingsschema uit om nieuwe gebieden toe te voegen**
 
@@ -253,7 +253,7 @@ In het onderstaande gebruiksgeval worden de configuraties beschreven die in Adob
 
 1. **Een aanbieding maken**
 
-   Voor meer bij het creëren van aanbiedingen, verwijs naar [ deze pagina ](interaction-offer.md).
+   Voor meer bij het creëren van aanbiedingen, verwijs naar [&#x200B; deze pagina &#x200B;](interaction-offer.md).
 
    In het volgende gebruiksgeval wordt de aanbieding als volgt vermeld:
 
@@ -342,8 +342,8 @@ Als antwoord op de vraag, zal de dienst van SOAP de volgende parameters terugker
 
 Voeg het **nms :interaction #UpdateStatus** bevel aan URL toe, die door deze parameters wordt gevolgd:
 
-* **voorstel**: koord van karakters, bevat het propositie identiteitskaart die als output tijdens een aanbiedingsvoorstel wordt gegeven. Verwijs naar [ voorstel van de Aanbieding ](#offer-proposition).
-* **status**: koordtype, specificeert het de nieuwe status van de aanbieding. De mogelijke waarden zijn vermeld in **propositionStatus** [ opsomming ](../config/enumerations.md), in het **nms:common** schema. Bijvoorbeeld, uit-van-de-doos, beantwoordt aantal 3 aan **Toegelaten** status.
+* **voorstel**: koord van karakters, bevat het propositie identiteitskaart die als output tijdens een aanbiedingsvoorstel wordt gegeven. Verwijs naar [&#x200B; voorstel van de Aanbieding &#x200B;](#offer-proposition).
+* **status**: koordtype, specificeert het de nieuwe status van de aanbieding. De mogelijke waarden zijn vermeld in **propositionStatus** [&#x200B; opsomming &#x200B;](../config/enumerations.md), in het **nms:common** schema. Bijvoorbeeld, uit-van-de-doos, beantwoordt aantal 3 aan **Toegelaten** status.
 * **context**: Het element van XML, laat u contextinformatie in het ruimteschema toevoegen. Als het gebruikte schema **nms:interaction** is, **`<empty>`** zou moeten worden toegevoegd.
 
 ### Voorbeeld met een SOAP-aanroep {#example-using-a-soap-call}

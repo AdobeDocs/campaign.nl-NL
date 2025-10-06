@@ -38,7 +38,7 @@ Adobe Campaign past gegevensschema&#39;s toe op:
 * Definiëren van koppelingen tussen de verschillende dataobjecten in de Campaign-applicatie.
 * Definiëren en beschrijven van de afzonderlijke velden die in elk object zijn opgenomen.
 
-Voor een beter inzicht in de ingebouwde lijsten van de Campagne en hun interactie, verwijs naar [ deze sectie ](datamodel.md).
+Voor een beter inzicht in de ingebouwde lijsten van de Campagne en hun interactie, verwijs naar [&#x200B; deze sectie &#x200B;](datamodel.md).
 
 >[!CAUTION]
 >
@@ -100,11 +100,11 @@ De identificatiesleutel van een schema is een koord dat wordt gebouwd gebruikend
 
 Om een gebied of ander element aan één van de schema&#39;s van kerngegevens in Campagne, zoals de ontvankelijke lijst (nms :recipient) toe te voegen, moet u dat schema uitbreiden.
 
-Voor meer op dit, verwijs naar [ een schema ](extend-schema.md) uitbreiden.
+Voor meer op dit, verwijs naar [&#x200B; een schema &#x200B;](extend-schema.md) uitbreiden.
 
 Als u een geheel nieuw type gegevens wilt toevoegen dat niet bestaat in Adobe Campaign (bijvoorbeeld een contracttabel), kunt u rechtstreeks een aangepast schema maken.
 
-Voor meer op dit, verwijs naar [ creeer een nieuw schema ](create-schema.md).
+Voor meer op dit, verwijs naar [&#x200B; creeer een nieuw schema &#x200B;](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -172,7 +172,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 Elke lijst moet minstens één sleutel hebben, en vaak wordt het automatisch gevestigd in het belangrijkste element van het schema door de **sectie** attributen te gebruiken die aan **waar** worden geplaatst.
 
-Bovendien in de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), gebruik **@autouuid** en plaats het aan **waar**.
+Bovendien in de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), gebruik **@autouuid** en plaats het aan **waar**.
 
 De primaire sleutel kan ook worden bepaald gebruikend het **interne** attribuut.
 
@@ -190,7 +190,7 @@ In dit voorbeeld, in plaats van het laten **@autopk** of **@autouuid** attribute
 >
 >Wanneer het creëren van een nieuw schema of tijdens een schemauitbreiding, moet u de zelfde primaire zeer belangrijke opeenvolgingswaarde (@pkSequence) voor het volledige schema houden.
 
-Leer meer over sleutels in [ deze sectie ](database-mapping.md#management-of-keys).
+Leer meer over sleutels in [&#x200B; deze sectie &#x200B;](database-mapping.md#management-of-keys).
 
 ## Attributen (velden) {#attributes--fields-}
 
@@ -198,9 +198,9 @@ Met kenmerken kunt u de velden definiëren waaruit het gegevensobject bestaat. U
 
 ![](assets/schemaextension_2.png)
 
-De volledige lijst van attributen is beschikbaar in de `<attribute>` elementensectie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Hier volgen een aantal veelgebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, 16}@name **,**@notNull **,**@required **,**@ref **,**@xml **,**@type **.**
+De volledige lijst van attributen is beschikbaar in de `<attribute>` elementensectie in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Hier volgen een aantal veelgebruikte kenmerken: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, 16&rbrace;@name **,**@notNull **,**@required **,**@ref **,**@xml **,**@type **.**
 
-Voor meer informatie over elk attribuut, verwijs naar de beschrijving van Attributen in [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
+Voor meer informatie over elk attribuut, verwijs naar de beschrijving van Attributen in [&#x200B; de documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 ### Voorbeelden {#examples}
 

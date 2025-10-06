@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Met de campagne kunt u contactpersonen toevoegen aan de Cloud-database. U kunt een dossier laden, veelvoudige contactupdates plannen en automatiseren, gegevens op het Web verzamelen, of profielinformatie direct in de ontvankelijke lijst ingaan.
 
-Beginnen met [ publiek ](audiences.md)
+Beginnen met [&#x200B; publiek &#x200B;](audiences.md)
 
-Begrijp Campagne [ gegevensmodel ](../dev/datamodel.md)
+Begrijp Campagne [&#x200B; gegevensmodel &#x200B;](../dev/datamodel.md)
 
 ## Profielen importeren in een workflow
 
@@ -78,7 +78,7 @@ Wanneer u de importassistent start, moet u eerst een sjabloon selecteren. Als vo
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Telkens wanneer een bestand wordt toegevoegd, wordt het scherm van de **[!UICONTROL File to import]** assistent weergegeven. Zie sectie [ Stap 2 - het dossierselectie van Source ](#step-2---source-file-selection) en volg de stappen in de medewerker om de invoeropties zoals voor een eenvoudige invoer te bepalen.
+   Telkens wanneer een bestand wordt toegevoegd, wordt het scherm van de **[!UICONTROL File to import]** assistent weergegeven. Zie sectie [&#x200B; Stap 2 - het dossierselectie van Source &#x200B;](#step-2---source-file-selection) en volg de stappen in de medewerker om de invoeropties zoals voor een eenvoudige invoer te bepalen.
 
    >[!NOTE]
    >
@@ -104,7 +104,7 @@ Met de koppeling **[!UICONTROL Advanced parameters]** hebt u toegang tot de volg
 
    * **[!UICONTROL Do not update enumerations]**
 
-     Selecteer deze optie om te voorkomen dat de lijst met opgesomde waarden in de database wordt verrijkt. Leer meer over [ opsommingen ](../config/enumerations.md).
+     Selecteer deze optie om te voorkomen dat de lijst met opgesomde waarden in de database wordt verrijkt. Leer meer over [&#x200B; opsommingen &#x200B;](../config/enumerations.md).
 
 * **[!UICONTROL Variables]** tab
 
@@ -310,7 +310,7 @@ In de volgende stap van de importassistent kunt u de map selecteren of maken waa
 
       >[!NOTE]
       >
-      >De standaardmap voor een operator is de eerste map waarvoor de operator schrijftoegang heeft. Leer meer in [ leidt omslagen en meningen ](../audiences/folders-and-views.md).
+      >De standaardmap voor een operator is de eerste map waarvoor de operator schrijftoegang heeft. Leer meer in [&#x200B; leidt omslagen en meningen &#x200B;](../audiences/folders-and-views.md).
 
       Als u de importmap wilt selecteren, klikt u op de pijl rechts van het veld **[!UICONTROL Folder]** en selecteert u de desbetreffende map. U kunt het pictogram **[!UICONTROL Select link]** ook gebruiken om de structuur in een nieuw venster weer te geven of een nieuwe map te maken.
 
@@ -342,7 +342,7 @@ In de volgende stap van de importassistent kunt u de map selecteren of maken waa
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 
-      U kunt een nieuwe service voor deze ontvangers maken door op **[!UICONTROL Select link]** en vervolgens op het pictogram **[!UICONTROL Create]** te klikken. Het beheer van de informatiediensten wordt voorgesteld in [ deze sectie ](../start/subscriptions.md).
+      U kunt een nieuwe service voor deze ontvangers maken door op **[!UICONTROL Select link]** en vervolgens op het pictogram **[!UICONTROL Create]** te klikken. Het beheer van de informatiediensten wordt voorgesteld in [&#x200B; deze sectie &#x200B;](../start/subscriptions.md).
 
 * Gebruik het veld **[!UICONTROL Origin]** om informatie over de oorsprong van ontvangers toe te voegen aan hun profielen. Deze informatie is met name nuttig in het kader van een meervoudige import.
 
@@ -354,7 +354,7 @@ In de laatste stap van de assistent kunt u gegevensimport starten. Klik hiertoe 
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-U kunt de uitvoering van de de invoerbaan dan controleren (zie [ de werkschemauitvoering van de Monitor ](../../automation/workflow/monitor-workflow-execution.md)).
+U kunt de uitvoering van de de invoerbaan dan controleren (zie [&#x200B; de werkschemauitvoering van de Monitor &#x200B;](../../automation/workflow/monitor-workflow-execution.md)).
 
 ### Gegevens exporteren
 
@@ -481,7 +481,7 @@ Met Campagne kunt u webformulieren maken en profielgegevens eenvoudig en effici√
 
 ![](assets/web-form-page.png)
 
-Leer hoe te om Webvormen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"} tot stand te brengen.
+Leer hoe te om Webvormen in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"} tot stand te brengen.
 
 **Verwante onderwerpen**
 

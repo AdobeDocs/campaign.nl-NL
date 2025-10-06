@@ -21,15 +21,15 @@ Gebruik gegevensbinding om de gegevensweergave te vereenvoudigen door waarden te
 
 Er zijn in totaal drie typen binding beschikbaar:
 
-1. Handmatig gedefinieerde waardebereiken gebruiken. Bijvoorbeeld leeftijd, gemiddelde winkelwagentje, aantal geopende leveringen, enz.). Voor meer op dit, verwijs naar [ het bepalen van elke bak ](#defining-each-bin).
-1. Dynamisch, afhankelijk van de waarden van een [ opsomming ](../config/enumerations.md): slechts tonen de waarden in de opsomming, worden alle andere waarden gegroepeerd in &quot;Overige&quot;. Voor meer op dit, verwijs naar [ dynamisch het leiden bins ](#dynamically-managing-bins).
-1. Met waardebereiken worden alle andere reeksen gegroepeerd. Bijvoorbeeld 18- tot 25-jarigen, 26- tot 59-jarigen en de andere. Voor meer op dit, verwijs naar [ Creërend waardewaaiers ](#creating-value-ranges).
+1. Handmatig gedefinieerde waardebereiken gebruiken. Bijvoorbeeld leeftijd, gemiddelde winkelwagentje, aantal geopende leveringen, enz.). Voor meer op dit, verwijs naar [&#x200B; het bepalen van elke bak &#x200B;](#defining-each-bin).
+1. Dynamisch, afhankelijk van de waarden van een [&#x200B; opsomming &#x200B;](../config/enumerations.md): slechts tonen de waarden in de opsomming, worden alle andere waarden gegroepeerd in &quot;Overige&quot;. Voor meer op dit, verwijs naar [&#x200B; dynamisch het leiden bins &#x200B;](#dynamically-managing-bins).
+1. Met waardebereiken worden alle andere reeksen gegroepeerd. Bijvoorbeeld 18- tot 25-jarigen, 26- tot 59-jarigen en de andere. Voor meer op dit, verwijs naar [&#x200B; Creërend waardewaaiers &#x200B;](#creating-value-ranges).
 
 Om het binden toe te laten, controleer de aangewezen doos wanneer het creëren van de afmeting.
 
 ![](assets/cube-class.png)
 
-U kunt of bakken manueel tot stand brengen of hen met een bestaande [ opsomming ](../config/enumerations.md) verbinden.
+U kunt of bakken manueel tot stand brengen of hen met een bestaande [&#x200B; opsomming &#x200B;](../config/enumerations.md) verbinden.
 
 Adobe Campaign biedt ook een assistent voor automatisch binden: waarden kunnen worden opgesplitst in N-groepen of worden gegroepeerd op basis van de meest voorkomende waarden in de database.
 
@@ -64,7 +64,7 @@ Voer de volgende stappen uit om dit type waardenbinding te maken:
 
    Wanneer de opsommingswaarden worden bijgewerkt, worden de overeenkomstige bakken automatisch aangepast.
 
-   Leer meer over opsommingen in [ deze pagina ](../config/enumerations.md).
+   Leer meer over opsommingen in [&#x200B; deze pagina &#x200B;](../config/enumerations.md).
 
 ### Waardebereiken maken {#create-value-ranges}
 
@@ -114,7 +114,7 @@ De opsomming **[!UICONTROL Domains]** wordt gebruikt om ingebouwde rapporten te 
 
 U kunt andere opsommingen maken die zijn gereserveerd voor binden en deze gebruiken in andere kubussen: alle aliaswaarden worden opnieuw gegroepeerd in de vakken die zijn opgegeven op het eerste tabblad voor opsomming.
 
-Leer meer over opsommingen in [ deze pagina ](../../v8/config/ui-settings.md#enumerations).
+Leer meer over opsommingen in [&#x200B; deze pagina &#x200B;](../../v8/config/ui-settings.md#enumerations).
 
 ## Samengevoegde kubussen {#calculate-and-use-aggregates}
 
@@ -137,7 +137,7 @@ Voer de volgende stappen uit om een nieuw aggregaat te maken:
 1. Selecteer een dimensie en een niveau. Herhaal dit proces voor elke dimensie en elk niveau.
 1. Klik op het tabblad **[!UICONTROL Workflow]** om de samenvoegingsworkflow te maken.
 
-   * Met de **[!UICONTROL Scheduler]** -activiteit kunt u de frequentie van de berekening-updates definiëren. De planner wordt gedetailleerd in [ deze sectie ](../../automation/workflow/scheduler.md).
+   * Met de **[!UICONTROL Scheduler]** -activiteit kunt u de frequentie van de berekening-updates definiëren. De planner wordt gedetailleerd in [&#x200B; deze sectie &#x200B;](../../automation/workflow/scheduler.md).
    * Met de activiteit **[!UICONTROL Aggregate update]** kunt u de updatemodus selecteren die u wilt toepassen: volledig of gedeeltelijk.
 
      Standaard wordt bij elke berekening een volledige update uitgevoerd. Als u een gedeeltelijke update wilt inschakelen, selecteert u de desbetreffende optie en definieert u de updatevoorwaarden.

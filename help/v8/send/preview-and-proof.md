@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Uw e-mail voorvertonen en testen {#preview-test}
 
-Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [ gepersonaliseerde inhoud ](personalize.md) opnam, kunt u controleren hoe deze inhoud in het bericht wordt getoond, gebruikend de gegevens van het testprofiel. Als u bovendien mogelijke fouten in de inhoud van het bericht of de instellingen voor personalisatie wilt detecteren, verzendt u proefdrukken naar testprofielen. Telkens wanneer een wijziging wordt aangebracht, moet een bewijs worden verzonden om de meest recente inhoud te valideren.
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [&#x200B; gepersonaliseerde inhoud &#x200B;](personalize.md) opnam, kunt u controleren hoe deze inhoud in het bericht wordt getoond, gebruikend de gegevens van het testprofiel. Als u bovendien mogelijke fouten in de inhoud van het bericht of de instellingen voor personalisatie wilt detecteren, verzendt u proefdrukken naar testprofielen. Telkens wanneer een wijziging wordt aangebracht, moet een bewijs worden verzonden om de meest recente inhoud te valideren.
 
 ## Voorvertoning van inhoud {#preview-content}
 
@@ -48,7 +48,7 @@ Het proefdrukdoel kan in het leveringsmalplaatje, of specifiek voor een levering
 Het type proefdrukdoel wordt geselecteerd in de vervolgkeuzelijst **[!UICONTROL Targeting mode]** .
 
 * Gebruik de optie **[!UICONTROL Definition of a specific proof target]** om ontvangers in de database als proefdrukdoel te selecteren.
-* Gebruik de optie **[!UICONTROL Substitution of the address]** om e-mailadressen in te voeren en de gegevens van de ontvanger te gebruiken om de inhoud te valideren. U kunt de vervangende adressen handmatig invoeren of selecteren in de vervolgkeuzelijst. De bijbehorende [ opsomming ](../config/enumerations.md) is **adres van de Vervanging (rcpAddress)**.
+* Gebruik de optie **[!UICONTROL Substitution of the address]** om e-mailadressen in te voeren en de gegevens van de ontvanger te gebruiken om de inhoud te valideren. U kunt de vervangende adressen handmatig invoeren of selecteren in de vervolgkeuzelijst. De bijbehorende [&#x200B; opsomming &#x200B;](../config/enumerations.md) is **adres van de Vervanging (rcpAddress)**.
 
   Standaard wordt vervanging willekeurig uitgevoerd, maar u kunt een specifieke ontvanger selecteren in het hoofddoel via het pictogram **[!UICONTROL Detail]** .
 
@@ -65,7 +65,7 @@ Het type proefdrukdoel wordt geselecteerd in de vervolgkeuzelijst **[!UICONTROL 
   >
   >De zaadadressen behoren niet tot de standaard ontvankelijke lijst (nms :recipient), zij worden gecreeerd in een afzonderlijke lijst. Als u de lijst van ontvangers met nieuwe gegevens uitbreidt, moet u de lijst van zaadadressen evenals met de zelfde gegevens uitbreiden.
 
-  Leer meer over zaadadressen in [ deze sectie ](../audiences/test-profiles.md).
+  Leer meer over zaadadressen in [&#x200B; deze sectie &#x200B;](../audiences/test-profiles.md).
 
 * Gebruik de optie **[!UICONTROL Specific target and Seed addresses]** om zaadadressen en specifieke e-mailadressen te combineren. De gerelateerde configuraties worden vervolgens in twee aparte subtabbladen gedefinieerd.
 

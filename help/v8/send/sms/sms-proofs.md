@@ -26,7 +26,7 @@ Je kunt een bewijs voor je SMS-levering verzenden om het te valideren:
    U hebt meerdere modi om een proef te verzenden:
 
    * **[!UICONTROL Definition of a specific proof target]**: hiermee kunt u met filters zoeken naar de adressen in de database als het proefdrukdoel
-   * **[!UICONTROL Substitution of the address]**: hiermee kunt u uw testadressen invoeren en de gegevens van de doelontvanger gebruiken om de inhoud te valideren. U kunt de vervangende adressen handmatig invoeren of selecteren in de vervolgkeuzelijst. De bijbehorende [ opsomming ](../../config/enumerations.md) is **[!UICONTROL Substitution address (rcpAddress)]**.
+   * **[!UICONTROL Substitution of the address]**: hiermee kunt u uw testadressen invoeren en de gegevens van de doelontvanger gebruiken om de inhoud te valideren. U kunt de vervangende adressen handmatig invoeren of selecteren in de vervolgkeuzelijst. De bijbehorende [&#x200B; opsomming &#x200B;](../../config/enumerations.md) is **[!UICONTROL Substitution address (rcpAddress)]**.
 Standaard wordt vervanging willekeurig uitgevoerd, maar u kunt een specifieke ontvanger selecteren in het hoofddoel via het pictogram **[!UICONTROL Detail]** .
    * **[!UICONTROL Seed addresses]**: hiermee hebt u toegang tot zaadadressen als proefdoel. Deze adressen kunnen uit een dossier worden ingevoerd of manueel ingegaan.
    * **[!UICONTROL Specific target and Seed addresses]**: hiermee kunt u zaadadressen en adressen van ontvangers combineren.
@@ -44,4 +44,4 @@ Adobe Campaign voert alle controle uit alvorens de verzending van bewijs te beve
 
 1. Klik op **[!UICONTROL Confirm delivery]** om de proefdruk van uw SMS-levering te verzenden.
 
-Als allen op dit stadium juist is, kunt u vooruit gaan en [ uw levering van SMS verzenden naar het publiek ](sms-audience.md).
+Als allen op dit stadium juist is, kunt u vooruit gaan en [&#x200B; uw levering van SMS verzenden naar het publiek &#x200B;](sms-audience.md).
