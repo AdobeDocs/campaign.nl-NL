@@ -5,14 +5,14 @@ feature: Configuration, Application Settings
 role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
 
-# Opsommingen beheren {#manage-enumerations}
+# Werken met opsommingen {#enumerations}
 
 Een opsomming (ook wel een gedetailleerde lijst genoemd) is een vooraf gedefinieerde lijst met waarden die u kunt gebruiken om bepaalde velden in te vullen. Opsommingen helpen bij het standaardiseren van veldwaarden, het consistenter maken van gegevens en het vereenvoudigen van query&#39;s.
 
@@ -22,101 +22,97 @@ Indien beschikbaar worden de waarden weergegeven in een vervolgkeuzelijst. U kun
 
 Sommige consolevelden worden gevormd met opsommingen. Als een opsomming **open** is, kunt u nieuwe waarden op het gebied ook direct toevoegen.
 
-## Opsommingen openen
+![ opsommingen van de Toegang ](assets/enumerations-menu.png)
 
-De waarden die in deze velden worden gebruikt, worden centraal beheerd. U kunt hen toevoegen, uitgeven, bijwerken of schrappen van de boom van de Ontdekkingsreiziger, onder **Beleid** `>` **Platform** `>` **Opsommingen**.
+## Soorten opsommingen {#types-of-enum}
 
-* De bovenste sectie bevat een lijst met velden waarvoor een opsomming is gedefinieerd.
-* In de onderste sectie worden de beschikbare waarden weergegeven.
+Opsommingen worden opgeslagen in de map **[!UICONTROL Administration > Platform > Enumerations]** van de browser.
 
-Wanneer een opsomming **[!UICONTROL Open]** is, kunnen gebruikers een nieuwe waarde direct in het overeenkomstige gebied in het gebruikersinterface ingaan.
+Ze kunnen zijn: Open, System, Emoticon of Closed.
 
-Wanneer een opsomming **[!UICONTROL Closed]** is, kunnen de nieuwe waarden slechts van het **Opsommings** menu worden toegevoegd.
+* Een **Open** opsomming staat gebruikers toe om nieuwe waarden direct op de gebieden toe te voegen die op deze opsomming worden gebaseerd.
+* A **Gesloten** opsomming heeft een vaste lijst van waarden die slechts van de **[!UICONTROL Administration > Platform > Enumerations]** omslag van de ontdekkingsreiziger kunnen worden gewijzigd.
+* Een **Emoticon** opsomming wordt gebruikt om de emoticonlijst bij te werken. Meer informatie
+* De opsomming van het A **Systeem** wordt geassocieerd aan systeemgebieden en komt met een Interne naam.
 
-## Een nieuwe waarde toevoegen
+Voor **Open** en **Gesloten** opsommingen, zijn de specifieke opties beschikbaar:
 
-Als u een nieuwe opsommingswaarde wilt maken, klikt u op de knop **[!UICONTROL Add]** .
-
-![](assets/enumeration_screen.png)
-
-Voer het label van de waarde in.
+* **Eenvoudige opsomming** is het standaardtype.
+* **Alias zuiverend** opsomming wordt gebruikt om de opsommingswaarden te harmoniseren die in het gegevensbestand worden opgeslagen. [Meer informatie](#alias-cleansing)
+* **Gereserveerd voor het binden** is een optie die u toestaat om kubuswaarden aan deze opsomming te verbinden. [Meer informatie](../reporting/gs-cubes.md)
 
 
 ## Aliasreiniging {#alias-cleansing}
 
-In de opsommingsgebieden, kunt u waarden buiten opsommingswaarden ingaan. Deze kunnen worden opgeslagen zoals ze zijn of worden gereinigd.
+In de opsommingsvelden kunt u een waarde selecteren of een aangepaste waarde invoeren die niet beschikbaar is in de vervolgkeuzelijst. U kunt aangepaste waarden toevoegen aan de bestaande opsommingswaarden als een nieuwe waarde. In dit geval moet de optie **[!UICONTROL Open]** zijn geselecteerd. Deze aangepaste waarden kunnen worden gereinigd met gebruik van aliasreinigingsmogelijkheden. Als een gebruiker bijvoorbeeld `Adob` invoert in plaats van `Adobe` , kan het proces voor het opschonen van aliassen het automatisch vervangen door de juiste term.
 
 >[!CAUTION]
 >
 >Het zuiveren van gegevens is een kritiek proces dat de gegevens in het gegevensbestand beïnvloedt. Adobe Campaign voert massagegevensupdates uit, wat ertoe kan leiden dat sommige waarden worden verwijderd. Deze bewerking is daarom voorbehouden aan professionele gebruikers.
 
-De ingevoerde waarde is dan:
+Schakel de optie **[!UICONTROL Alias cleansing]** in om mogelijkheden voor het opschonen van gegevens te gebruiken voor een opsomming. Als deze optie is geselecteerd, wordt de tab **[!UICONTROL Alias]** onder in het venster weergegeven.
 
-* Toegevoegd aan de gespecificeerde lijstwaarden: in dit geval moet de **[!UICONTROL Open]** optie worden geselecteerd,
-* of automatisch vervangen door de bijbehorende alias: in dit geval moet dit geval worden gedefinieerd op het tabblad **[!UICONTROL Alias]** van de gespecificeerde lijst,
-* of wordt opgeslagen in de lijst met aliassen: er wordt later een alias aan toegewezen.
+Wanneer een gebruiker een waarde ingaat die niet in een Alias het zuiveren opsomming bestaat, wordt het toegevoegd aan de **lijst van Waarden**. U kunt [ aliassen van deze waarden ](#convert-to-alias) tot stand brengen, of [ nieuwe aliassen van kras ](#create-alias) creëren.
 
-### Een alias maken {#creating-an-alias}
-
-Met de optie **[!UICONTROL Alias cleansing]** kunt u aliassen gebruiken voor de geselecteerde gespecificeerde lijst. Als deze optie is geselecteerd, wordt de tab **[!UICONTROL Alias]** onder in het venster weergegeven.
+### Een alias maken{#create-alias}
 
 Voer de volgende stappen uit om een alias te maken:
 
-1. Blader naar de opsomming die u wilt bijwerken als u op **[!UICONTROL Add]** klikt.
+1. Klik op de knop **[!UICONTROL Add]** op het tabblad **[!UICONTROL Alias]** .
+1. Voer de alias in die u wilt converteren en selecteer de waarde die u wilt toepassen in de vervolgkeuzelijst.
 
-   ![](assets/enumeration_alias_create.png)
+   ![ creeer een nieuwe alias ](assets/new-alias.png)
 
-1. Voer de alias die u wilt omzetten en de waarde in die u wilt toepassen en klik op **[!UICONTROL Ok]** .
+1. Klik op **[!UICONTROL Ok]** en bevestig het.
 
-1. Controleer parameters voordat u deze bewerking bevestigt.
+1. Sla uw wijzigingen op. De vervanging van waarden wordt uitgevoerd door het **Alias zuiverend** werkschema dat elke nacht wordt uitgevoerd. Verwijs naar [ gegevens van de Looppas zuiverend ](#running-data-cleansing).
 
->[!CAUTION]
->
->Zodra deze stap is bevestigd, kunnen de vorige waarden niet meer worden teruggewonnen: ze worden vervangen.
+Voor alle gebieden die op deze opsomming worden gebaseerd, wanneer een gebruiker de waarde **Adobe** op een &quot;bedrijf&quot;gebied (in de Console van de Cliënt van Adobe Campaign, in een Webvorm) ingaat, zal het automatisch door de waarde **Adobe** worden vervangen.
 
-Aldus, wanneer een gebruiker de waarde **NEILSEN** op een &quot;bedrijf&quot;gebied (in de console van Adobe Campaign of in een vorm) ingaat, wordt het automatisch vervangen door de waarde **NIELSEN Ltd**. De waardevervanging wordt uitgevoerd door het **Alias zuiverend** werkschema. Verwijs naar [&#x200B; gegevens van de Looppas zuiverend &#x200B;](#running-data-cleansing).
+### Een onjuiste waarde omzetten in een alias{#convert-to-alias}
 
-![](assets/enumeration_alias_use.png)
+U kunt ook een bestaande opsommingswaarde omzetten in een alias. Dit doet u als volgt:
 
-### Waarden omzetten in aliassen {#values-into-aliases}
+1. Klik met de rechtermuisknop in de lijst met waarden van een opsomming en blader naar **[!UICONTROL Actions... > Convert values into aliases...]** .
 
-U kunt bestaande waarden omzetten in aliassen. Voer de volgende stappen uit om dit te doen:
+   ![ zet een waarde in alias ](assets/convert-into-aliases.png) om
 
-1. Klik met de rechtermuisknop in de lijst met waarden en kies **[!UICONTROL Convert values into aliases...]** .
-
-1. Kies de waarden die u wilt omzetten en klik op **[!UICONTROL Next]** .
-
+1. Selecteer de waarden die in aliassen moeten worden omgezet en klik op **[!UICONTROL Next]** .
 1. Klik op **[!UICONTROL Start]** om de conversie uit te voeren.
 
-Zodra de uitvoering is voltooid, wordt de alias toegevoegd aan de lijst met aliassen.
+   Zodra de uitvoering volledig is, worden aliassen toegevoegd aan de lijst, in **Alias** tabel. U kunt een correcte waarde associëren om verkeerde ingangen te vervangen. Dit doet u als volgt:
 
-### Aliasresultaten ophalen {#alias-hits}
+1. Selecteer een waarde die u wilt opschonen.
+1. Klik het **Detail..** knoop.
+1. Selecteer de nieuwe waarde in de vervolgkeuzelijst.
 
-Wanneer gebruikers waarden invoeren die niet in de opsomming zijn opgenomen, worden deze opgeslagen op het tabblad **[!UICONTROL Alias]** .
+   ![ creeer een nieuwe alias ](assets/define-new-alias.png)
 
-Het **Alias zuiveren** technische werkschema herstelt deze waarden elke nacht om de opsomming bij te werken. Verwijs naar [&#x200B; gegevens van de Looppas zuiverend &#x200B;](#running-data-cleansing)
 
-Indien nodig kan in de kolom **[!UICONTROL Hits]** het aantal keren worden weergegeven dat deze waarde is ingevoerd. Het berekenen van deze waarde kan echter zowel tijdrovend zijn als geheugenverbruikend. Voor meer op dit, verwijs naar [&#x200B; berekent ingangsvoorkomen &#x200B;](#calculating-entry-occurrences).
+>[!NOTE]
+>
+>U kunt de instanties van een alias bijhouden in de kolom **[!UICONTROL Hits]** op het subtabblad **[!UICONTROL Alias]** . Het aantal keren dat deze waarde is ingevoerd, kan worden weergegeven.  [Meer informatie](#calculate-entry-occurrences).
 
-### Gegevens wissen {#run-data-cleansing}
+### Gegevens wissen {#running-data-cleansing}
 
-De gegevens worden gewist door de technische workflow van **[!UICONTROL Alias cleansing]** . De configuraties die voor opsommingen worden gedefinieerd, worden tijdens de uitvoering toegepast. Verwijs naar [&#x200B; Alias het zuiveren werkschema &#x200B;](#alias-cleansing-workflow).
+De gegevens worden gewist door de technische workflow van **[!UICONTROL Alias cleansing]** . Standaard wordt de transactie dagelijks uitgevoerd.
 
-Het opschonen kan worden geactiveerd via de koppeling **[!UICONTROL Cleanse values...]** .
+Het opschonen kan ook worden geactiveerd via de koppeling **[!UICONTROL Cleanse values...]** .
 
 Met de koppeling **[!UICONTROL Advanced parameters...]** kunt u de datum instellen vanaf welke verzamelde waarden in aanmerking worden genomen.
 
 Klik op de knop **[!UICONTROL Start]** om gegevens te wissen.
 
-### Voorvallen van item berekenen {#entry-occurrences}
+### Voorvallen monitoren {#calculate-entry-occurrences}
 
-Het subtabblad **[!UICONTROL Alias]** van een gespecificeerde lijst kan het aantal exemplaren van een alias weergeven voor alle ingevoerde waarden. Deze informatie is een schatting en wordt weergegeven in de kolom **[!UICONTROL Hits]** .
+Het subtabblad **[!UICONTROL Alias]** van een opsomming kan het aantal exemplaren van een alias weergeven voor alle ingevoerde waarden. Deze informatie is een schatting en wordt weergegeven in de kolom **[!UICONTROL Hits]** .
 
 >[!CAUTION]
 >
->Het berekenen van voorvallen van aliasinggegevens kan lang duren. Daarom is voorzichtigheid geboden wanneer het gebruiken van deze functie.
+>Het berekenen van voorvallen van aliasinggegevens kan lang duren.
+>
 
-U kunt de aanraakberekening handmatig uitvoeren via de koppeling **[!UICONTROL Cleanse values...]** . Klik hiertoe op de koppeling **[!UICONTROL Advanced parameters...]** en selecteer de gewenste optie(s).
+U kunt de aanraakberekening handmatig uitvoeren via de koppeling **[!UICONTROL Cleanse values...]** . Klik hiertoe op de koppeling **[!UICONTROL Advanced parameters...]** en selecteer een of meer opties.
 
 * **[!UICONTROL Update the number of alias hits]** : hiermee kunt u treffers bijwerken die al zijn berekend op basis van de ingevoerde datum.
 * **[!UICONTROL Recalculate the number of alias hits from the start]**: hiermee kunt u berekeningen uitvoeren op het hele Adobe Campaign-platform.
@@ -127,11 +123,3 @@ Hiertoe maakt u een kopie van de **[!UICONTROL Alias cleansing]** -workflow, wij
 
 * **- updateHits** om het aantal aliashits bij te werken,
 * **- updateHits:full** om alle aliashits opnieuw te berekenen.
-
-### Workflow voor Aliasverwijdering {#alias-cleansing-workflow}
-
-Het **Alias zuiveren** werkschema stelt opsommingswaarde het zuiveren in werking. Standaard wordt de transactie dagelijks uitgevoerd.
-
-Het wordt benaderd via het knooppunt **[!UICONTROL Administration > Production > Technical workflows]** .
-
-

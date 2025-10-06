@@ -5,9 +5,9 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Zodra configuratie wordt gedaan, wordt de gegevenssynchronisatie tussen systemen
 
 >[!NOTE]
 >
->De gesteunde versies van SFDC zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [&#128279;](../start/compatibility-matrix.md).
+>De gesteunde versies van SFDC zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [ ](../start/compatibility-matrix.md).
 
 Voer de onderstaande stappen uit om een speciale externe account te configureren voor het importeren en exporteren van Salesforce-gegevens naar Adobe Campaign.
 
@@ -40,7 +40,7 @@ Eerst moet u de externe Salesforce-account maken.
    * Voer uw Salesforce-wachtwoord in.
    * U kunt het veld **[!UICONTROL Client identifier]** negeren.
    * Salesforce kopiëren/plakken **[!UICONTROL Security token]**
-   * Selecteer de **[!UICONTROL API version]** . De gesteunde versies van SFDC API zijn vermeld in de matrijs van de Verenigbaarheid van de Campagne [&#128279;](../start/compatibility-matrix.md).
+   * Selecteer de **[!UICONTROL API version]** . De gesteunde versies van SFDC API zijn vermeld in de matrijs van de Verenigbaarheid van de Campagne [ ](../start/compatibility-matrix.md).
 
 1. Selecteer **toelaten** optie om de rekening in Campagne te activeren.
 
@@ -79,3 +79,5 @@ Adobe Campaign en Salesforce.com zijn nu verbonden. U kunt gegevenssynchronisati
 Als u gegevens wilt synchroniseren tussen Adobe Campaign-gegevens en SFDC, maakt u een workflow en gebruikt u de **[!UICONTROL CRM connector]** -activiteit.
 
 Leer meer over gegevenssynchronisatie [ in deze pagina ](crm-data-sync.md).
+
+Leer meer over opsommingsbeheer in Campagne [ in deze pagina ](../dev/enumerations.md).

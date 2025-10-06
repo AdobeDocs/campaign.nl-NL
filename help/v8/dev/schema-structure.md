@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ De volgende regels moeten in acht worden genomen:
 
 Het gegevenstype is ingegaan via het **type** attribuut in **`<attribute>`** en **`<element>`** elementen.
 
-Een gedetailleerde lijst is beschikbaar in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=nl-NL#configuring-campaign-classic){target="_blank"}.
+Een gedetailleerde lijst is beschikbaar in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 Wanneer dit attribuut niet bevolkt is, **koord** is het standaardgegevenstype tenzij het element kindelementen bevat. Als het, wordt het gebruikt slechts om de elementen hiërarchisch te structureren (**`<location>`** element in ons voorbeeld).
 
@@ -222,6 +222,8 @@ Als u een standaardwaarde aan een veld wilt koppelen, kunt u de opdracht `<defau
 `<sqldefault>`: hiermee kunt u een toegevoegde waarde krijgen wanneer u een veld maakt. Deze waarde wordt weergegeven als een SQL-resultaat. Tijdens een schema-update worden alleen de nieuwe records beïnvloed door deze waarde.
 
 ### Opsommingen {#enumerations}
+
+Gebruik vrije, vaste, of op gegevensbestand-gebaseerde [ opsommingen ](../dev/enumerations.md) om gebiedswaarden te controleren. Zij verstrekken drop-down lijsten voor gemakkelijkere input, verenigbare gegevens, en flexibel schemaontwerp.
 
 #### Vrije opsomming {#free-enumeration}
 

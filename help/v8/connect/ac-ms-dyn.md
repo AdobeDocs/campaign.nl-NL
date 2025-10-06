@@ -5,9 +5,9 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1386'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Zodra configuratie wordt gedaan, wordt de gegevenssynchronisatie tussen systemen
 
 >[!NOTE]
 >
->De gesteunde versies van Microsoft Dynamics zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [&#128279;](../start/compatibility-matrix.md).
+>De gesteunde versies van Microsoft Dynamics zijn gedetailleerd in de matrijs van de Verenigbaarheid van de Campagne [ ](../start/compatibility-matrix.md).
 
 Voer de onderstaande stappen uit om een speciale externe account te configureren voor het importeren en exporteren van Microsoft Dynamics 365-gegevens naar Adobe Campaign.
 
@@ -89,7 +89,7 @@ Vervolgens moet u het certificaat coderen in base64. Hiertoe kunt u de hulp van 
 
 1. Navigeer aan **Azure Actieve Folder > de Registraties van de App** en selecteer de Toepassing die vroeger werd gecreeerd.
 1. Klik **Montages** op de hoogste linkerzijde.
-1. Op **Vereiste Toestemmingen**, klik **&#x200B;**&#x200B;toevoegen en **selecteer online API > Dynamische CRM**.
+1. Op **Vereiste Toestemmingen**, klik **** toevoegen en **selecteer online API > Dynamische CRM**.
 1. Klik **Uitgezochte**, laat **Dynamica 365 van de Toegang als organisatiegebruikers** checkbox toe en klik **Uitgezochte**.
 1. Dan, van uw app, selecteer **Manifest** onder **leidt** menu.
 1. Van de **Manifest** redacteur, plaats het `allowPublicClient` bezit van `null` aan `true` en klik **sparen**.
@@ -132,7 +132,7 @@ De gebruiker van de app is de gebruiker die de hierboven geregistreerde toepassi
 1. Wijs **identiteitskaart van de Toepassing** voor [ toe de toepassing u vroeger ](#get-client-id-microsoft) creeerde.
 1. Klik op **leiden Rollen** en kies de **beheerder van het Systeem** rol aan de gebruiker.
 
-## Campagne configureren {#configure-acc-for-microsoft}
+## Campaign configureren {#configure-acc-for-microsoft}
 
 ### Verbinding maken{#new-ms-dyn-external-account}
 
@@ -194,6 +194,8 @@ Adobe Campaign en Microsoft Dynamics 365 zijn nu verbonden. U kunt gegevenssynch
 Als u gegevens wilt synchroniseren tussen Adobe Campaign-gegevens en Microsoft CRM, maakt u een workflow en gebruikt u de **[!UICONTROL CRM connector]** -activiteit.
 
 Leer meer over gegevenssynchronisatie [ in deze pagina ](crm-data-sync.md).
+
+Leer meer over opsommingsbeheer in Campagne [ in deze pagina ](../dev/enumerations.md).
 
 ### Ondersteunde veldgegevenstypen {#ms-dyn-supported-types}
 
