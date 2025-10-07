@@ -41,7 +41,7 @@ ht-degree: 28%
    + [Veelgestelde vragen](start/campaign-faq.md)
 + Campagnebeheer {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
-   + [&#x200B; Organiseren van de Campagne > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
+   + [&#x200B; Organiseren van de Campagne > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=nl-NL)
 + Berichten verzenden{#send}
    + [Aan de slag met berichten](start/gs-message.md)
    + [Je eerste levering maken](start/create-message.md)
@@ -135,7 +135,7 @@ ht-degree: 28%
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Workflows {#workflows}
    + [Aan de slag met workflows](config/workflows.md)
-   + [&#x200B; Documentatie van het Werkschema > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [&#x200B; Documentatie van het Werkschema > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
 + Privacy- en beveiligingsbeheer {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
    + [Beveiligingsrichtlijnen](config/security.md)
@@ -175,7 +175,7 @@ ht-degree: 28%
          + [Berekening van ingebouwde metriek](reporting/metrics-calculation.md)
       + [Aangepaste rapporten](reporting/custom-reports.md)
 + Data management {#data}
-   + [&#x200B; Documentatie van het Werkschema > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [&#x200B; Documentatie van het Werkschema > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
    + [Gegevens importeren](start/import.md)
    + Query&#39;s maken {#query}
       + [Query&#39;s ontwerpen](start/query-editor.md)
@@ -269,6 +269,6 @@ ht-degree: 28%
       + Workflows beheren {#managing-workflows}
          + [Een workflow beheren](dev/api/controlling-a-workflow.md)
          + [Een signaalactiviteit activeren](dev/api/triggering-a-signal-activity.md)
-+ [&#x200B; Campagne technotes > &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
-+ [&#x200B; de documentatie van het Webgebruikersinterface van de Campagne > &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
++ [&#x200B; Campagne technotes > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/technotes-ac/technotes-home)
++ [&#x200B; de documentatie van het Webgebruikersinterface van de Campagne > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home)
 

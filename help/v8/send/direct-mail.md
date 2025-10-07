@@ -71,17 +71,17 @@ Met deze koppeling hebt u toegang tot de extractieassistent en definieert u de i
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-U kunt een gepersonaliseerde URL in het extractiedossier opnemen. Voor meer op dit, verwijs naar de Adobe Campaign Classic [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"}.
+U kunt een gepersonaliseerde URL in het extractiedossier opnemen. Voor meer op dit, verwijs naar de Adobe Campaign Classic [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=nl-NL){target="_blank"}.
 
 >[!NOTE]
 >
->Deze assistent omvat de stappen van de uitvoerassistent gedetailleerd de Adobe Campaign Classic [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}.
+>Deze assistent omvat de stappen van de uitvoerassistent gedetailleerd de Adobe Campaign Classic [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=nl-NL){target="_blank"}.
 
 ## De levering valideren{#validating}
 
 Controleer het resultaat van de analyse en de inhoud van het uitvoerbestand.
 
-In het kader van een marketingcampagne wordt op de extractiedatum het extractiebestand gemaakt. U kunt de inhoud van het geëxtraheerde bestand weergeven, goedkeuren of de indeling wijzigen en de extractie indien nodig opnieuw starten. Zodra het dossier is goedgekeurd, kunt u het bericht e-mail naar de router verzenden. Meer informatie vindt u [op deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
+In het kader van een marketingcampagne wordt op de extractiedatum het extractiebestand gemaakt. U kunt de inhoud van het geëxtraheerde bestand weergeven, goedkeuren of de indeling wijzigen en de extractie indien nodig opnieuw starten. Zodra het dossier is goedgekeurd, kunt u het bericht e-mail naar de router verzenden. Meer informatie vindt u [op deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=nl-NL){target="_blank"}.
 
 De globale concepten wanneer het bevestigen van een levering worden voorgesteld in [&#x200B; deze sectie &#x200B;](../start/create-message.md#validate-the-delivery).
 
@@ -118,4 +118,4 @@ Zodra u het extractiedossier bevestigde, klik **bevestig levering** een bevestig
 
 De bevestiging start de gegevensextractie in het opgegeven bestand.
 
-In het kader van een marketingcampagne, wanneer alle goedkeuringen zijn verleend, worden de extractiebestanden gemaakt via een speciale workflow die, in de standaardconfiguratie, automatisch wordt gestart wanneer een direct mailbericht in behandeling is voor extractie. Lees meer in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html){target="_blank"}.
+In het kader van een marketingcampagne, wanneer alle goedkeuringen zijn verleend, worden de extractiebestanden gemaakt via een speciale workflow die, in de standaardconfiguratie, automatisch wordt gestart wanneer een direct mailbericht in behandeling is voor extractie. Lees meer in [deze sectie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=nl-NL){target="_blank"}.
