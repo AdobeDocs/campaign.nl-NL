@@ -5,10 +5,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
-source-wordcount: '1581'
-ht-degree: 37%
+source-wordcount: '1577'
+ht-degree: 36%
 
 ---
 
@@ -45,7 +45,7 @@ _vrijdag 28 oktober 2021_
 <tbody> 
 <tr> 
 <td> <p>De module Campagne optimaliseren is nu beschikbaar. Met deze module kunt u het verzenden van leveringen beheren, filteren en controleren. Om conflicten tussen campagnes te vermijden kan Adobe Campaign diverse combinaties testen door specifieke beperkingsregels toe te passen. Dit garandeert dat de verzonden berichten voldoen aan de behoeften en verwachtingen van klanten en het communicatiebeleid van het bedrijf.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=nl-NL#campaign-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html#campaign-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -115,18 +115,18 @@ _7 september 2021_
 
 **Verbeteringen**
 
-* Na het eind van zijn gebruiksduur is Flash verwijderd uit alle verwante Campaign-functies en onderdelen, en vervangen door HTML5. Het diagramtype **Gauge** is verwijderd. (NEO-30330) [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=nl-NL)
+* Na het eind van zijn gebruiksduur is Flash verwijderd uit alle verwante Campaign-functies en onderdelen, en vervangen door HTML5. Het diagramtype **Gauge** is verwijderd. (NEO-30330) [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html)
 * Wanneer u de clientconsole in Windows installeert, controleert het installatieprogramma nu of er een bovenliggend registerknooppunt is en wordt er een gemaakt als dit knooppunt ontbreekt. Hiermee voorkomt u potentiële problemen wanneer u de console start. (NEO-34854)
 * De functie voor het bijhouden van handtekeningen is verbeterd om fouten te voorkomen met de manier waarop tools van derden (klant-e-mail, internetbrowsers, enz.) speciale tekens verwerken. URL-parameters zijn nu gecodeerd.
 
 **Andere wijzigingen**
 
-* Eerder vervangen Microsoft CRM-connectors (Office 365 en on-premise implementaties) zijn verwijderd uit de interface. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=nl-NL#configure-acc-for-microsoft)
+* Eerder vervangen Microsoft CRM-connectors (Office 365 en on-premise implementaties) zijn verwijderd uit de interface. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * Na de migratie aan Tomcat 8 is het IIS-instellingenscript bijgewerkt om IIS-integratiekwesties te bevestigen. (NEO-31019)
-* Er is een veiligheidsbarrière toegevoegd waarmee alleen de [technische workflow voor facturering](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=nl-NL#billing-report) op de marketingversie kan worden uitgevoerd.
+* Er is een veiligheidsbarrière toegevoegd waarmee alleen de [technische workflow voor facturering](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html#billing-report) op de marketingversie kan worden uitgevoerd.
 * De identificatie van de databron is verbeterd in de gegevens- en schematabbladen van het venster **Populatie weergeven** van de workflowtransities.
-* Ontbrekende database-indexen zijn toegevoegd aan de volgende schema&#39;s om problemen met database-updates te voorkomen: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+* Ontbrekende gegevensbestandindexen werden toegevoegd aan de volgende schema&#39;s om de kwesties van de gegevensbestandupdate te verhinderen: xtk :rights, nms :dlvExclusion, nms :seedMember, nms :trackingUrl
 
 **Patches**
 
@@ -176,7 +176,7 @@ _zaterdag 23 juli 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Het <a href="../send/line.md"> kanaal van de LIJN </a> is nu beschikbaar met Campagne v8, met inbegrip van de volgende verhogingen wanneer gecombineerd met de <a href="../send/transactional.md"> transactionele overseinen </a> module:
+<td> <p>Het <a href="../send/line/line.md"> kanaal van de LIJN </a> is nu beschikbaar met Campagne v8, met inbegrip van de volgende verhogingen wanneer gecombineerd met de <a href="../send/transactional.md"> transactionele overseinen </a> module:
 <ul> 
 <li><p>Probleem verholpen waardoor bezoekers zich niet konden richten op een lijnlevering. 
 </p></li>

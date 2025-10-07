@@ -4,8 +4,9 @@ description: Leer hoe u Adobe Experience Platform Mobile SDK kunt integreren met
 feature: Push
 role: Admin, Developer
 level: Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 4%
@@ -37,7 +38,7 @@ Voer de volgende stappen uit om uw app in te stellen met Adobe Experience Platfo
 
 ### Machtigingen instellen {#setup-permissions}
 
-Voordat u een mobiele toepassing maakt, moet u er eerst voor zorgen dat u over de juiste gebruikersmachtigingen voor tags in Adobe Experience Platform beschikt of deze toewijst. Gebruikersmachtigingen voor tags in Adobe Experience Platform worden aan gebruikers toegewezen via Adobe Admin Console. Leer meer in [ documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=nl-NL){target="_blank"}.
+Voordat u een mobiele toepassing maakt, moet u er eerst voor zorgen dat u over de juiste gebruikersmachtigingen voor tags in Adobe Experience Platform beschikt of deze toewijst. Gebruikersmachtigingen voor tags in Adobe Experience Platform worden aan gebruikers toegewezen via Adobe Admin Console. Leer meer in [ documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -47,7 +48,7 @@ Om **Bezit** en **bedrijf** rechten toe te wijzen, volg hieronder de stappen:
 
 1. Open de lus **[!DNL Admin Console]** .
 1. Selecteer op het tabblad **[!UICONTROL Products]** de **[!UICONTROL Adobe Experience Platform Data Collection]** -kaart.
-1. Selecteer een bestaande **[!UICONTROL Product Profile]** of maak een nieuwe **[!UICONTROL New profile]** met de knop. Leer hoe te om een nieuw **[!UICONTROL New profile]** in de [ Admin consoledocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=nl-NL#ui){target="_blank"} tot stand te brengen.
+1. Selecteer een bestaande **[!UICONTROL Product Profile]** of maak een nieuwe **[!UICONTROL New profile]** met de knop. Leer hoe te om een nieuw **[!UICONTROL New profile]** in de [ Admin consoledocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"} tot stand te brengen.
 1. Selecteer op het tabblad **[!UICONTROL Permissions]** de optie **[!UICONTROL Property Rights]**.
 1. Klik op **[!UICONTROL Add all]**. Hiermee voegt u het volgende recht toe aan uw productprofiel:
    * **[!UICONTROL Approve]**
@@ -79,7 +80,7 @@ Volg onderstaande stappen om deze **[!UICONTROL Product profile]** aan gebruiker
 
    >[!NOTE]
    >
-   >Als de gebruiker niet eerder in de console Admin werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html#add-users){target="_blank"} toevoegen.
+   >Als de gebruiker niet eerder in de console Admin werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"} toevoegen.
 
 ### Uw app configureren {#configure-app}
 
@@ -141,7 +142,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-Leer meer over [!DNL Adobe Experience Platform Data Collection] markeringen in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=nl-NL){target="_blank"}.
+Leer meer over [!DNL Adobe Experience Platform Data Collection] markeringen in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
 Nadat u de nieuwe eigenschap tag hebt gemaakt, opent u de nieuwe eigenschap tag en maakt u een bibliotheek. Dit doet u als volgt:
 
@@ -166,7 +167,7 @@ Voer de onderstaande stappen uit om een service te maken voor het verzenden van 
 
    >[!NOTE]
    >
-   >De standaarddoeltoewijzing **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** is gekoppeld aan de tabel met ontvangers. Als u een andere doelafbeelding wilt gebruiken, moet u een nieuwe doeltoewijzing maken en deze invoeren in het veld **[!UICONTROL Target mapping]** van de service. Leer meer over doelafbeeldingen in [ deze pagina ](../audiences/target-mappings.md).
+   >Het gebrek **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** doelafbeelding is verbonden met de ontvankelijkheidstabel. Als u een andere doelafbeelding wilt gebruiken, moet u een nieuwe doeltoewijzing maken en deze invoeren in het veld **[!UICONTROL Target mapping]** van de service. Leer meer over doelafbeeldingen in [ deze pagina ](../audiences/target-mappings.md).
 
 1. Vervolgens gebruikt u het pictogram **[!UICONTROL Add]** rechts in het scherm om de mobiele toepassingen te definiëren die deze service gebruiken.
 
@@ -187,7 +188,7 @@ Ga als volgt te werk om een app voor iOS-apparaten te maken:
 
    ![](assets/ios-app-parameters.png){width="600" align="left"}
 
-1. Blader naar het tabblad **[!UICONTROL Subscription parameters]** om de toewijzing te definiëren met een extensie van het schema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** .
+1. Blader naar het **[!UICONTROL Subscription parameters]** lusje om de afbeelding met een uitbreiding van het **[!UICONTROL Subscriber applications (nms:appsubscriptionRcpte bepalen)]** schema.
 
 1. Blader naar het tabblad **[!UICONTROL Sounds]** om het af te spelen geluid te definiëren. Klik op **[!UICONTROL Add]** en vul **[!UICONTROL Internal name]** veld in dat de naam moet bevatten van het bestand dat is ingesloten in de toepassing of de naam van het systeemgeluid.
 

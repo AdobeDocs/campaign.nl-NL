@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a523e76d-776c-47d3-9c15-34241cee1092
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 6%
@@ -47,7 +47,7 @@ Adobe Campaign v8 wordt geleverd met de onderstaande leveringskanalen. Welke kan
 
 * **E-mailkanaal**: De e-mailleveringen laten u gepersonaliseerde e-mails naar de doelbevolking verzenden. [Meer informatie](../send/email.md)
 
-* **Mobiele kanalen**: de leveringen op mobiele kanalen laten u gepersonaliseerde berichten op mobiele apparaten naar de doelbevolking verzenden. U kunt [ SMS ](../send/sms/sms.md) verzenden en [ LIJN ](../send/line.md) berichten op mobiles.
+* **Mobiele kanalen**: de leveringen op mobiele kanalen laten u gepersonaliseerde berichten op mobiele apparaten naar de doelbevolking verzenden. U kunt [ SMS ](../send/sms/sms.md) verzenden en [ LIJN ](../send/line/line.md) berichten op mobiles.
 
 * **Mobiel toepassingskanaal**: U kunt Adobe Campaign gebruiken om gepersonaliseerde en gesegmenteerde [ dupberichten ](../send/push.md) op iOS en Android mobiele apparaten, door specifieke apps te verzenden. Nadat configuratie- en integratiestappen zijn uitgevoerd, kunnen iOS- en Android-leveringen worden gemaakt en verzonden met Adobe Campaign. U kunt ook uitgebreide berichten met afbeeldingen of video&#39;s ontwerpen en verzenden naar Android-apparaten.
 
@@ -109,4 +109,4 @@ U kunt:
 
 Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken. U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
 
-Leer hoe te om uw leveringen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=nl-NL#sending-messages){target="_blank"} te controleren
+Leer hoe te om uw leveringen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages){target="_blank"} te controleren

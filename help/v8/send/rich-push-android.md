@@ -5,8 +5,9 @@ description: Leer hoe u een uitgebreide pushmelding ontwerpt met Adobe Campaign 
 feature: Push
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 1%
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Alvorens een Rich Push Bericht te ontwerpen, moet u eerst uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) voor de gedetailleerde procedure.
+>Alvorens een Rich Push Bericht te ontwerpen, moet u eerst uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) voor de gedetailleerde procedure.
 
 Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
@@ -55,7 +56,7 @@ Navigeer door de lusjes hieronder om meer te leren over hoe te om deze malplaatj
 
 >[!TAB  Gebrek ]
 
-1. Selecteer **[!UICONTROL Default]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+1. Selecteer **[!UICONTROL Notification type]** in de vervolgkeuzelijst **[!UICONTROL Default]** .
 
    ![](assets/rich_push_default.png)
 
@@ -73,7 +74,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Basis ]
 
-1. Selecteer **[!UICONTROL Basic]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Basic]** .
 
    ![](assets/rich_push_basic.png)
 
@@ -106,7 +107,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [&#128279;](https://developer.android.com/training/app-links).
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [.](https://developer.android.com/training/app-links)
 
    ![](assets/rich_push_basic_3.png)
 
@@ -118,7 +119,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Carousel ]
 
-1. Selecteer **[!UICONTROL Carousel]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Carousel]** .
 
    ![](assets/rich_push_carousel.png)
 
@@ -153,7 +154,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  de knopen van het Pictogram ]
 
-1. Selecteer **[!UICONTROL Icon buttons]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Icon buttons]** .
 
    ![](assets/rich_push_icon.png)
 
@@ -177,7 +178,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  doos van de Input ]
 
-1. Selecteer **[!UICONTROL Input box]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Input box]** .
 
    ![](assets/rich_push_input.png)
 
@@ -206,7 +207,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Catalogus van het Product ]
 
-1. Selecteer **[!UICONTROL Product catalog]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Product catalog]** .
 
    ![](assets/rich_push_catalog.png)
 
@@ -246,7 +247,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Classificatie van het Product ]
 
-1. Selecteer **[!UICONTROL Product rating]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Product rating]** .
 
    ![](assets/rich_push_rating.png)
 
@@ -284,7 +285,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Tijdopnemer ]
 
-1. Selecteer **[!UICONTROL Timer]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Timer]** .
 
    ![](assets/rich_push_timer.png)
 
@@ -310,7 +311,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Zero Bezel ]
 
-1. Selecteer **[!UICONTROL Zero bezel]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Zero bezel]** .
 
    ![](assets/rich_push_bezel.png)
 

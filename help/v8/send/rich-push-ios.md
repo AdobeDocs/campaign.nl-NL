@@ -5,8 +5,9 @@ description: Leer hoe u een uitgebreide pushmelding van iOS ontwerpt met Adobe C
 feature: Push
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 75a57ddb-558e-4dd2-a684-e63e51545554
-source-git-commit: fef2c829da637b43067147b51aff7030d25c9744
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Alvorens een Rich Push Bericht te ontwerpen, moet u eerst uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) voor de gedetailleerde procedure.
+>Alvorens een Rich Push Bericht te ontwerpen, moet u eerst uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) voor de gedetailleerde procedure.
 
 ## De inhoud van een iOS-melding definiëren {#push-message}
 
@@ -37,7 +38,7 @@ Navigeer door de lusjes hieronder om meer te leren over hoe te om deze malplaatj
 
 1. Kies **[!UICONTROL General notification (Alert, Sound, Badge)]** als uw **[!UICONTROL Notification type]** .
 
-1. Selecteer **[!UICONTROL Default]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Default]** .
 
    ![](assets/rich_push_ios_default_1.png)
 
@@ -67,7 +68,7 @@ Navigeer door de lusjes hieronder om meer te leren over hoe te om deze malplaatj
 
 1. Kies **[!UICONTROL General notification (Alert, Sound, Badge)]** als uw **[!UICONTROL Notification type]** .
 
-1. Selecteer **[!UICONTROL Basic]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Basic]** .
 
    ![](assets/rich_push_ios_basic_1.png)
 
@@ -97,7 +98,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 1. Kies **[!UICONTROL General notification (Alert, Sound, Badge)]** als uw **[!UICONTROL Notification type]** .
 
-1. Selecteer **[!UICONTROL Carousel]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Carousel]** .
 
    ![](assets/rich_push_ios_carousel_1.png)
 
@@ -115,7 +116,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 1. Voer in het menu **[!UICONTROL Color options]** hexadecimale kleurcodes in voor de **[!UICONTROL Title]** , **[!UICONTROL Message]** en **[!UICONTROL Background]** .
 
-1. Kies op het tabblad **[!UICONTROL Carousel options]** hoe **[!UICONTROL Carousel]** werkt:
+1. Kies op het tabblad **[!UICONTROL Carousel]** hoe **[!UICONTROL Carousel options]** werkt:
 
    * **[!UICONTROL Auto]**: doorloopt afbeeldingen automatisch als dia&#39;s en gaat u met vooraf gedefinieerde intervallen verder.
    * **[!UICONTROL Manual]**: hiermee kunnen gebruikers handmatig tussen dia&#39;s vegen om door de afbeeldingen te navigeren.
@@ -132,7 +133,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 1. Kies **[!UICONTROL General notification (Alert, Sound, Badge)]** als uw **[!UICONTROL Notification type]** .
 
-1. Selecteer **[!UICONTROL Timer]** in de vervolgkeuzelijst **[!UICONTROL Notification Type]** .
+1. Selecteer **[!UICONTROL Notification Type]** in de vervolgkeuzelijst **[!UICONTROL Timer]** .
 
    ![](assets/rich_push_ios_timer_1.png)
 

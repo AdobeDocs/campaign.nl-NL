@@ -5,7 +5,7 @@ description: LINE-kanaal
 feature: Workflows, Line App
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # LINE-kanaal{#line-channel}
 
-De hieronder gedetailleerde werkschema&#39;s worden geïnstalleerd met de **het kanaal van de LIJN** module door gebrek. Voor meer op deze module, verwijs naar [ deze pagina ](../../v8/send/line.md).
+De hieronder gedetailleerde werkschema&#39;s worden geïnstalleerd met de **het kanaal van de LIJN** module door gebrek. Voor meer op deze module, verwijs naar [ deze pagina ](../../v8/send/line/line.md).
 
 <table> 
  <tbody> 
