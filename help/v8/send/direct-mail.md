@@ -33,7 +33,7 @@ Voer de volgende stappen uit om een nieuwe levering via e-mail te maken:
 
 >[!NOTE]
 >
->De globale concepten op leveringsverwezenlijking worden voorgesteld in [ deze sectie ](../start/create-message.md).
+>De globale concepten op leveringsverwezenlijking worden voorgesteld in [&#x200B; deze sectie &#x200B;](../start/create-message.md).
 
 1. Maak een nieuwe levering, bijvoorbeeld via het dashboard Levering.
 1. Selecteer het leveringsmalplaatje **leveren door directe post (document)**.
@@ -71,11 +71,11 @@ Met deze koppeling hebt u toegang tot de extractieassistent en definieert u de i
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-U kunt een gepersonaliseerde URL in het extractiedossier opnemen. Voor meer op dit, verwijs naar de Adobe Campaign Classic [ documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"}.
+U kunt een gepersonaliseerde URL in het extractiedossier opnemen. Voor meer op dit, verwijs naar de Adobe Campaign Classic [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"}.
 
 >[!NOTE]
 >
->Deze assistent omvat de stappen van de uitvoerassistent gedetailleerd de Adobe Campaign Classic [ documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}.
+>Deze assistent omvat de stappen van de uitvoerassistent gedetailleerd de Adobe Campaign Classic [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}.
 
 ## De levering valideren{#validating}
 
@@ -83,13 +83,13 @@ Controleer het resultaat van de analyse en de inhoud van het uitvoerbestand.
 
 In het kader van een marketingcampagne wordt op de extractiedatum het extractiebestand gemaakt. U kunt de inhoud van het geëxtraheerde bestand weergeven, goedkeuren of de indeling wijzigen en de extractie indien nodig opnieuw starten. Zodra het dossier is goedgekeurd, kunt u het bericht e-mail naar de router verzenden. Meer informatie vindt u [op deze pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
 
-De globale concepten wanneer het bevestigen van een levering worden voorgesteld in [ deze sectie ](../start/create-message.md#validate-the-delivery).
+De globale concepten wanneer het bevestigen van een levering worden voorgesteld in [&#x200B; deze sectie &#x200B;](../start/create-message.md#validate-the-delivery).
 
-Het outputdossier van een directe postlevering wordt geproduceerd tijdens de leveringsanalyse. De inhoud van het dossier hangt van de geselecteerde outputkolommen (verwijs naar dit [ sectiedossier ](#defining-the-direct-mail-content)) af.
+Het outputdossier van een directe postlevering wordt geproduceerd tijdens de leveringsanalyse. De inhoud van het dossier hangt van de geselecteerde outputkolommen (verwijs naar dit [&#x200B; sectiedossier &#x200B;](#defining-the-direct-mail-content)) af.
 
 >[!NOTE]
 >
->De analysefase wordt gedetailleerd in deze [ sectie ](delivery-analysis.md).
+>De analysefase wordt gedetailleerd in deze [&#x200B; sectie &#x200B;](delivery-analysis.md).
 
 Tijdens de analysefase wordt het bestand gegenereerd, maar wordt informatie over ontvangers (d.w.z. leveringslogboeken) niet bijgewerkt. U kunt deze taak dus annuleren zonder risico&#39;s te lopen.
 

@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # LINE-kanaal{#line-channel}
 
-De hieronder gedetailleerde werkschema&#39;s worden geïnstalleerd met de **het kanaal van de LIJN** module door gebrek. Voor meer op deze module, verwijs naar [ deze pagina ](../../v8/send/line/line.md).
+De hieronder gedetailleerde werkschema&#39;s worden geïnstalleerd met de **het kanaal van de LIJN** module door gebrek. Voor meer op deze module, verwijs naar [&#x200B; deze pagina &#x200B;](../../v8/send/line/line.md).
 
 <table> 
  <tbody> 
