@@ -6,7 +6,7 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 ## Een query maken {#creating-a-query}
 
 Met een query kunt u een doel selecteren op basis van criteria. U kunt een segmentcode aan het vraagresultaat associëren en extra gegevens opnemen in het.
-Leer hoe te om vragen door gebruiksgevallen in [&#x200B; te bouwen deze sectie &#x200B;](querying-recipient-table.md). Zie ook de sectie over de [&#x200B; redacteur van de Vraag &#x200B;](../../v8/start/query-editor.md).
+Leer hoe te om vragen door gebruiksgevallen in [ te bouwen deze sectie ](querying-recipient-table.md). Zie ook de sectie over de [ redacteur van de Vraag ](../../v8/start/query-editor.md).
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
 >[!NOTE]
 >
->De gebruikersinterface van het Web van Adobe Campaign kenmerkt een krachtige vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd, die u toestaan om uw vraag tot stand te brengen en gemakkelijker te beheren. Meer over de modelleerling van de Vraag voor Web UI leren, gelieve te verwijzen naar de [&#x200B; documentatie van het Web UI van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
+>De gebruikersinterface van het Web van Adobe Campaign kenmerkt een krachtige vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd, die u toestaan om uw vraag tot stand te brengen en gemakkelijker te beheren. Meer over de modelleerling van de Vraag voor Web UI leren, gelieve te verwijzen naar de [ documentatie van het Web UI van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
 
 Met de koppeling **[!UICONTROL Edit query...]** kunt u het doeltype, de beperkingen en de selectiecriteria voor de bevolking als volgt definiëren:
 
@@ -36,7 +36,7 @@ Met de koppeling **[!UICONTROL Edit query...]** kunt u het doeltype, de beperkin
 
    De filterdimensie maakt het mogelijk deze elementen te verzamelen, bijvoorbeeld informatie over de doelpersoon (contracten, volledige en definitieve schikkingen, enz.).
 
-   Voor meer op dit, verwijs naar [&#x200B; het richten en het filtreren dimensies &#x200B;](targeting-workflows.md#targeting-and-filtering-dimensions).
+   Voor meer op dit, verwijs naar [ het richten en het filtreren dimensies ](targeting-workflows.md#targeting-and-filtering-dimensions).
 
    ![](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
 
@@ -50,9 +50,9 @@ Met de koppeling **[!UICONTROL Edit query...]** kunt u het doeltype, de beperkin
 
 1. Als u **[!UICONTROL Filtering conditions]** hebt geselecteerd bij stap 1 of de optie **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** gebruikt, moet u later handmatig filtercriteria toevoegen.
 
-   U kunt ook voorwaarden voor gegevensgroepering toevoegen door het desbetreffende vak in te schakelen. Om dit te doen, moet de het filtreren dimensie aan de vraag richten afmeting verschillend zijn. Voor meer informatie bij het groeperen, verwijs naar deze [&#x200B; sectie &#x200B;](query-grouping-management.md).
+   U kunt ook voorwaarden voor gegevensgroepering toevoegen door het desbetreffende vak in te schakelen. Om dit te doen, moet de het filtreren dimensie aan de vraag richten afmeting verschillend zijn. Voor meer informatie bij het groeperen, verwijs naar deze [ sectie ](query-grouping-management.md).
 
-   U kunt meer criteria ook toevoegen door de bouwer van de Uitdrukking te gebruiken en het te combineren met de logische opties EN, OF, en BEHALVE.
+   U kunt meer criteria ook toevoegen door de [ bouwer van de Uitdrukking te gebruiken ](../../v8/start/filter-conditions.md#using-and--or--except) en het te combineren met de logische opties EN, OF, en UITZONDEREN.
 
    Sla het filter op als u het later opnieuw wilt gebruiken.
 
@@ -69,7 +69,7 @@ Selecteer eerst het type gegevens dat u wilt toevoegen:
 ![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * Selecteer **[!UICONTROL Data linked to the filtering dimension]** om de gegevens in de Adobe Campaign-database te selecteren.
-* Selecteer **[!UICONTROL External data]** om gegevens uit een externe database toe te voegen. Deze optie is slechts beschikbaar als u de **Federated optie van de Toegang van Gegevens** hebt gekocht. Voor meer op dit, verwijs naar [&#x200B; Toegang tot een extern gegevensbestand (FDA) &#x200B;](accessing-an-external-database-fda.md).
+* Selecteer **[!UICONTROL External data]** om gegevens uit een externe database toe te voegen. Deze optie is slechts beschikbaar als u de **Federated optie van de Toegang van Gegevens** hebt gekocht. Voor meer op dit, verwijs naar [ Toegang tot een extern gegevensbestand (FDA) ](accessing-an-external-database-fda.md).
 * Selecteer de optie **[!UICONTROL An offer proposition]** om een set kolommen toe te voegen waarin u de beste propositie kunt opslaan die door de aanbiedingsengine wordt gegenereerd. Deze optie is slechts beschikbaar als u de **module van de Interactie** hebt gekocht.
 
 Als er geen optionele module op het platform is geïnstalleerd, wordt dit werkgebied niet weergegeven. U wordt rechtstreeks naar de volgende fase geleid.
@@ -86,10 +86,10 @@ Gegevens toevoegen uit de Adobe Campaign-database:
 
    U kunt toevoegen:
 
-   * Een veld dat wordt berekend op basis van gegevens van de doelpopulatie of een geaggregeerd (aantal lopende aankopen in de laatste maand, gemiddeld bedrag van een ontvangstbewijs enz.). Voor een voorbeeld, ga naar [&#x200B; Uitgezochte gegevens &#x200B;](targeting-workflows.md#selecting-data).
+   * Een veld dat wordt berekend op basis van gegevens van de doelpopulatie of een geaggregeerd (aantal lopende aankopen in de laatste maand, gemiddeld bedrag van een ontvangstbewijs enz.). Voor een voorbeeld, ga naar [ Uitgezochte gegevens ](targeting-workflows.md#selecting-data).
    * Een nieuw veld, gemaakt met de knop **[!UICONTROL Add]** rechts van de lijst met uitvoerkolommen.
 
-     U kunt ook een verzameling gegevens toevoegen, bijvoorbeeld een lijst met contracten, de laatste vijf leveringen, enzovoort. Verzamelingen komen overeen met velden die meerdere waarden kunnen hebben voor hetzelfde profiel (1-N relatie). Voor meer op dit, verwijs naar [&#x200B; geef extra gegevens &#x200B;](targeting-workflows.md#editing-additional-data) uit.
+     U kunt ook een verzameling gegevens toevoegen, bijvoorbeeld een lijst met contracten, de laatste vijf leveringen, enzovoort. Verzamelingen komen overeen met velden die meerdere waarden kunnen hebben voor hetzelfde profiel (1-N relatie). Voor meer op dit, verwijs naar [ geef extra gegevens ](targeting-workflows.md#editing-additional-data) uit.
 
 Een verzameling gegevens toevoegen die verband houden met een doelgroep:
 
@@ -125,7 +125,7 @@ In het volgende voorbeeld probeert de query mannen tussen 18 en 30 jaar te ident
 
 >[!NOTE]
 >
->De extra vraagsteekproeven worden voorgesteld in [&#x200B; deze sectie &#x200B;](querying-recipient-table.md).
+>De extra vraagsteekproeven worden voorgesteld in [ deze sectie ](querying-recipient-table.md).
 
 1. Geef de query een naam en selecteer vervolgens de koppeling **[!UICONTROL Edit query...]** .
 1. Selecteer **[!UICONTROL Filtering conditions]** in de lijst met beschikbare filtertypen.
@@ -203,7 +203,7 @@ Het equivalent van de het filtreren afmeting in SQL is de binnenvoeging:
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-Voor meer bij het filtreren van dimensies, verwijs naar [&#x200B; deze sectie &#x200B;](build-a-workflow.md#targeting-and-filtering-dimensions).
+Voor meer bij het filtreren van dimensies, verwijs naar [ deze sectie ](build-a-workflow.md#targeting-and-filtering-dimensions).
 
 ### Architectuur {#architecture}
 
