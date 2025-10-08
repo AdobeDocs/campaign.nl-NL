@@ -6,22 +6,22 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Filters maken en beheren{#create-filters}
+# Werken met filters{#create-filters}
 
-Het filtreren van gegevens is het proces om een kleiner deel van uw gegevensreeks, slechts die verslagen te selecteren die bepaalde criteria aanpassen, en die ondergroep voor specifieke acties (updates, publieksverwezenlijking) of analyse te gebruiken.
+Het filtreren van gegevens is het proces om een dataset aan slechts die verslagen te vernauwen die specifieke criteria aanpassen. Deze subset kan vervolgens worden gebruikt voor doelgerichte acties (zoals updates of het creëren van een publiek) of voor analyse.
 
-Wanneer u in de **[!UICONTROL Explorer]** -campagne bladert, worden de gegevens weergegeven in lijsten. U kunt bestaande ingebouwde filters gebruiken om tot een specifieke ondergroep van deze gegevens toegang te hebben: quarantined adressen, niet-gerichte ontvangers, een specifieke leeftijdswaaier of aanmaakdatum bijvoorbeeld.
+Tijdens het bladeren in Campagne worden gegevens weergegeven in lijsten. U kunt ingebouwde filters toepassen om tot een bepaalde ondergroep, zoals quarantined adressen, niet-gerichte ontvangers, of verslagen binnen een specifieke leeftijdswaaier of aanmaakdatum snel toegang te hebben.
 
-U kunt ook uw eigen filters maken, deze opslaan voor toekomstig gebruik of deze delen met andere campagnegebruikers.
+Bovendien kunt u aangepaste filters maken, deze opslaan voor toekomstig gebruik en deze delen met andere campagnegebruikers.
 
-Met de filterconfiguratie kunt u gegevens in een lijst selecteren **[!UICONTROL dynamically]** : wanneer de gegevens worden gewijzigd, worden de gefilterde gegevens bijgewerkt.
+De filters worden toegepast **dynamisch**: wanneer de gegevens veranderen, worden de gefilterde resultaten automatisch bijgewerkt.
 
 >[!NOTE]
 >
@@ -29,7 +29,67 @@ Met de filterconfiguratie kunt u gegevens in een lijst selecteren **[!UICONTROL 
 
 De volgende filtertypen zijn beschikbaar in Adobe Campaign:
 
+* [Vooraf gedefinieerde filters](#predefined-filters)
+* [Snelle filters](#quick-filters)
+* [Geavanceerde aangepaste filters](#advanced-filters)
+
 ## Vooraf gedefinieerde filters{#predefined-filters}
+
+### Vooraf gedefinieerde filters in de dashboards
+
+Standaard geeft Adobe Campaign alle databaserecords weer die de operator mag lezen. U kunt deze gegevens filteren met de opties in de bovenste sectie van het browservenster.
+
+![](assets/filter_web_zone.png)
+
+Er zijn verschillende manieren om de gegevens te filteren die moeten worden weergegeven. Indien nodig kunnen deze samen worden gebruikt.
+
+* Filter op omslagen, verwijs naar [ Filter door omslag ](#filter-by-folder),
+* Filter door status, verwijs naar [ Filter door status ](#filter-by-status),
+* Het sorteren van gegevens, verwijs naar [ Orde door ](#order-by),
+* Onderzoek, verwijs naar [ Snel onderzoek ](#quick-search).
+
+
+>[!BEGINTABS]
+
+>[!TAB  Filter door omslag ]
+
+Als u gegevens wilt filteren op basis van hun map, klikt u op het pictogram **[!UICONTROL Folder]** en selecteert u de map met de gegevens die u wilt weergeven.
+
+![](assets/filter_web_select_folder.png)
+
+Alleen de profielen in de map worden weergegeven:
+
+![](assets/filter_web_folder_display.png)
+
+Gebruik het kruisje rechts van het veld voor mapselectie om terug te keren naar de standaardweergavemodus.
+
+>[!TAB  Filter door status ]
+
+Afhankelijk van het type informatie dat wordt weergegeven, kunt u een filter toepassen op status of op status.
+
+Voor leveringen kunt u er bijvoorbeeld voor kiezen om alleen voltooide leveringen weer te geven, zoals hieronder wordt weergegeven:
+
+![](assets/d_ncs_user_interface_filter_delivery.png)
+
+>[!TAB  Orde door ]
+
+U kunt de sorteervolgorde van de gegevens op pagina&#39;s selecteren via de vervolgkeuzelijst rechts van het filterveld &#39;per map&#39;. De inhoud van dit veld is afhankelijk van het type gegevens op de pagina.
+
+U kunt taken bijvoorbeeld sorteren op prioriteit, aanmaakdatum of alfabetische volgorde.
+
+![](assets/order_data_sample.png)
+
+>[!TAB  Snelle onderzoek ]
+
+Gebruik het zoekveld om snel toegang te krijgen tot het item dat u zoekt: voer de tekens in die in het label staan of de interne naam van het item dat u wilt weergeven, en bevestig vervolgens dat u een automatisch filter op de gegevens op de pagina wilt toepassen.
+
+![](assets/d_ncs_user_interface_filter_search.png)
+
+Als u alle items opnieuw wilt weergeven, klikt u op het kruisje om de inhoud van het zoekveld te verwijderen.
+
+>[!ENDTABS]
+
+### Vooraf gedefinieerde filters in Verkenner
 
 De vooraf bepaalde filters zijn beschikbaar bij de **knoop van Filters** boven elke lijst.
 
@@ -52,7 +112,7 @@ Gebruik het laatste tabblad om een voorvertoning van de gefilterde gegevens weer
 ![](assets/built-in-filter-preview.png)
 
 
-+++  Geïntegreerde voorgedefinieerde filters
++++  Ingebouwde, vooraf gedefinieerde filters voor profielen
 
 <table> 
  <tbody> 
@@ -161,7 +221,7 @@ Gebruik het laatste tabblad om een voorvertoning van de gefilterde gegevens weer
 
 +++
 
-### Standaardfilters{#default-filters}
+#### Standaardfilters{#default-filters}
 
 De gebieden boven elke lijst laten u de **vooraf bepaalde standaardfilter** voor deze lijst gebruiken. In de lijst met ontvangers kunt u standaard op de naam en het e-mailadres filteren.
 
@@ -191,7 +251,7 @@ Voer de volgende stappen uit:
 
 ## Snelle filters{#quick-filters}
 
-Gebruik en combineer **Snelle filters** om filters op specifieke gebieden te bepalen.
+U kunt plaatsen en combineren **Snelle filters** om douanefilters op specifieke gebieden te bouwen.
 
 Zodra u een snelfilterveld hebt toegevoegd, worden dit boven de gegevenslijst weergegeven, een na een. Ze kunnen onafhankelijk van elkaar worden verwijderd.
 
@@ -199,7 +259,7 @@ Snelle filters zijn specifiek voor elke operator en worden telkens opnieuw geïn
 
 Als u een filter opnieuw moet gebruiken, creeer een **geavanceerde filter** en bewaar het. [Meer informatie](#advanced-filters).
 
-Om a **snelle filter** tot stand te brengen, volg de stappen:
+Om a **snelle filter** tot stand te brengen, volg deze stappen:
 
 1. Klik met de rechtermuisknop op het veld waarop u wilt filteren en selecteer **[!UICONTROL Filter on this field]** .
 
@@ -216,7 +276,7 @@ Om a **snelle filter** tot stand te brengen, volg de stappen:
    ![](assets/add-filter-above-the-list.png)
 
 
-Als u wilt filteren op een veld dat niet beschikbaar is in het formulier, ziet u dit in de kolommen en filtert u op die kolom. Om dit te doen,
+Als u moet filteren op een veld dat niet beschikbaar is in het formulier, maar in de kolommen, en vervolgens op die kolom filteren. Om dit te doen,
 
 1. Klik op het pictogram **[!UICONTROL Configure list]** .
 
@@ -236,7 +296,7 @@ Als u wilt filteren op een veld dat niet beschikbaar is in het formulier, ziet u
 
 ## Geavanceerde filters{#advanced-filters}
 
-Combineer complexe criteria in **Geavanceerde filters**. Gebruik deze filters om een complexe vraag of een combinatie vragen over uw gegevens tot stand te brengen. Deze filters kunnen worden opgeslagen en gedeeld met andere Campagnegebruikers.
+Combineer complexe criteria in douane **Geavanceerde filters**. Gebruik deze filters om een complexe vraag of een combinatie vragen over uw gegevens tot stand te brengen. Deze filters kunnen worden opgeslagen en gedeeld met andere Campagnegebruikers.
 
 ### Een geavanceerd filter maken{#create-adv-filters}
 
@@ -280,7 +340,7 @@ Als u dit filter wilt bewerken of wijzigen, klikt u op de beschrijvingskoppeling
 
 ### Een geavanceerd filter opslaan{#save-adv-filters}
 
-U kunt een geavanceerd filter als a [&#x200B; bewaren vooraf bepaalde filter &#x200B;](#predefined-filters), zodat u het kunt hergebruiken en het met de andere gebruikers van de Campagne delen.
+U kunt een geavanceerd filter als a [ bewaren vooraf bepaalde filter ](#predefined-filters), zodat u het kunt hergebruiken en het met de andere gebruikers van de Campagne delen.
 
 Volg onderstaande stappen om een geavanceerd filter op te slaan:
 
@@ -293,7 +353,7 @@ Volg onderstaande stappen om een geavanceerd filter op te slaan:
 
    ![](assets/application-filter-save.png)
 
-Het filter wordt toegevoegd aan de [&#x200B; vooraf bepaalde filters &#x200B;](#predefined-filters). Het kan vanaf dit knooppunt worden bijgewerkt.
+Het filter wordt toegevoegd aan de [ vooraf bepaalde filters ](#predefined-filters). Het kan vanaf dit knooppunt worden bijgewerkt.
 
 ![](assets/added-to-predefined-filters.png)
 
@@ -329,10 +389,10 @@ Voor geavanceerde filtermogelijkheden gebruikt u functies om de inhoud van het f
 
 Leer hoe te om geavanceerde vragen in deze steekproeven van begin tot eind te bouwen:
 
-* Leer hoe te om op eenvoudige ontvankelijke attributen in [&#x200B; te richten deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om op ontvangers te filtreren die niet tijdens de laatste 7 dagen in [&#x200B; worden gecontacteerd deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om de lijst van exploitanten terug te krijgen door Actieve rekeningen in [&#x200B; kan worden gefiltreerd deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om een e-mailpubliek van de verjaardag in [&#x200B; te bouwen deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=nl-NL){target="_blank"}.
+* Leer hoe te om op eenvoudige ontvankelijke attributen in [ te richten deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* Leer hoe te om op ontvangers te filtreren die niet tijdens de laatste 7 dagen in [ worden gecontacteerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* Leer hoe te om de lijst van exploitanten terug te krijgen door Actieve rekeningen in [ kan worden gefiltreerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
+* Leer hoe te om een e-mailpubliek van de verjaardag in [ te bouwen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}.
 
 
 ### Geavanceerde parameters voor vooraf gedefinieerde filters {#param-for-data-filters}
@@ -355,5 +415,3 @@ Geavanceerde parameters zijn beschikbaar voor vooraf gedefinieerde filters. Blad
    * U kunt een SQL-tabel aan het filter koppelen om deze te gebruiken voor alle editors die de tabel delen.
    * Als u wilt voorkomen dat een gebruiker het filter overschrijft, selecteert u de optie **[!UICONTROL Do not restrict the filter]** . Deze optie is bijvoorbeeld actief voor de filters &quot;Ontvangers van een levering&quot; en &quot;Ontvangers van leveringen die tot een map behoren&quot; die beschikbaar zijn in de wizard voor levering. Deze filters kunnen niet worden overbelast.
 
-
-### Operatoren

@@ -5,12 +5,10 @@ description: Aanstaande wijzigingen in het kanaal voor pushmeldingen
 feature: Push
 role: Admin
 level: Experienced
-badge-v7: label="v7" type="Informative" tooltip="Ook van toepassing op Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Is van toepassing op campagne v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a9aa9cb508ca1f5cdcd59e61b5be029e3de1a82f
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -50,7 +48,7 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 * Het JSON-bestand van de Android Firebase Admin SDK-service is nodig om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe te om dit dossier in [ documentatie van de Vuurbasis van Google ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} te krijgen.
 
-* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in release 20.3.1. Als uw milieu op een oudere versie loopt, moet een eerste vereiste voor de overgang aan HTTP v1 uw milieu aan [ bevorderen recentste Campaign Classic bouwen ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl-NL){target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
+* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in release 20.3.1. Als uw milieu op een oudere versie loopt, moet een eerste vereiste voor de overgang aan HTTP v1 uw milieu aan [ bevorderen recentste Campaign Classic bouwen ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
 
 * Als gebruiker van Campaign Classic v7 op locatie, moet u zowel de Marketing als Real-Time uitvoeringsservers bijwerken.
 
@@ -58,7 +56,7 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 * Informatie over de Android die externe account routeert:
 
-   * Als Campaign Classic v7-gebruiker op locatie of hybride gebruiker, controleert u of uw Android die externe account routeert, is geconfigureerd met `androidPushConnectorV2.js` . Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+   * Als Campaign Classic v7-gebruiker op locatie of hybride gebruiker, controleert u of uw Android die externe account routeert, is geconfigureerd met `androidPushConnectorV2.js` . Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
 
    * Voor de implementatie van Hybride, Hosted en Managed Cloud Services moet u ook verbinding maken met het Adobe-team van de klantenservice om te controleren of de `androidPushConnectorV2.js (nms)` -connector is geselecteerd in Android die een externe account van uw mediumsourcingserver routeert.
 
@@ -112,7 +110,7 @@ U kunt ook bestaande leverings- en leveringssjablonen bijwerken die zijn gemaakt
   >Het script moet worden uitgevoerd op uw on-premise marketinginstantie.
 
 
-  +++Stappen om bestaande leveringen en sjablonen bij te werken (alleen op locatie)
+  +++Stappen voor het bijwerken van bestaande leveringen en sjablonen (alleen op locatie)
 
   Voer de volgende stappen uit om alle leverings- en leveringstemplates te repareren die zijn gemaakt vóór de upgrade naar een versie die HTTP v1 ondersteunt:
 
@@ -212,7 +210,7 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 #### Vereisten {#ios-transition-prerequisites}
 
-* Voor Campaign Classic v7, is de steun van **op token-gebaseerde authentificatie** wijze toegevoegd in versie 20.2. Als uw milieu op een oudere versie loopt, is een eerste vereiste voor deze verandering uw milieu aan [ te bevorderen de recentste Campaign Classic bouwt ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl-NL){target="_blank"}. Voor Campagne v8, **op token-gebaseerde authentificatie** wordt wijze gesteund door alle versies, en geen verbetering is nodig.
+* Voor Campaign Classic v7, is de steun van **op token-gebaseerde authentificatie** wijze toegevoegd in versie 20.2. Als uw milieu op een oudere versie loopt, is een eerste vereiste voor deze verandering uw milieu aan [ te bevorderen de recentste Campaign Classic bouwt ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campagne v8, **op token-gebaseerde authentificatie** wordt wijze gesteund door alle versies, en geen verbetering is nodig.
 
 * U hebt een APNs-verificatietoken voor ondertekening nodig om de tokens te genereren die uw server gebruikt. U vraagt deze sleutel van uw Apple ontwikkelaarsrekening, zoals die in [ documentatie van de Ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} wordt verklaard.
 
