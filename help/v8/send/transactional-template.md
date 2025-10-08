@@ -86,7 +86,7 @@ Een zaadadres laat u een voorproef van uw bericht tonen, een proef, en de person
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. Voeg testgegevens in. [&#x200B; Leer meer op verpersoonlijkingsgegevens in de documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. Voeg testgegevens in. [&#x200B; Leer meer op verpersoonlijkingsgegevens in de documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
