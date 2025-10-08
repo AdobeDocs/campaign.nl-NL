@@ -6,14 +6,14 @@ role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: ec1b41ccf532b044e75c69e795eabfb19a523ec2
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 2%
 
 ---
 
-# Bestaande profielen weergeven{#view-profiles}
+# Bestaande profielen weergeven {#view-profiles}
 
 Blader naar **[!UICONTROL Profiles and targets]** om toegang te krijgen tot ontvangers die zijn opgeslagen in de Adobe Campaign-database.
 
@@ -28,10 +28,10 @@ Voor geavanceerdere profielmanipulaties opent u de Campagnestructuur via de kopp
 
 >[!CAUTION]
 >
->Het ingebouwde scherm Ontvanger wordt bepaald door een schema van XML en zijn bijbehorende vorm. Het XML-schema wordt opgeslagen in het knooppunt **[!UICONTROL Administration > Configuration > Data schemas]** van de Adobe Campaign Explorer-boomstructuur. Alleen deskundige gebruikers kunnen wijzigingen aanbrengen in deze schema&#39;s.
+>Het ingebouwde scherm van de Ontvanger wordt bepaald door een schema van XML en zijn bijbehorende vorm. Het XML-schema wordt opgeslagen in het knooppunt **[!UICONTROL Administration > Configuration > Data schemas]** van de Adobe Campaign Explorer-boomstructuur. Alleen deskundige gebruikers kunnen wijzigingen aanbrengen in deze schema&#39;s.
 >
 
-## Een profiel bewerken{#edit-a-profiles}
+## Een profiel bewerken {#edit-a-profiles}
 
 Selecteer een profiel om details op een nieuw tabblad weer te geven.
 
