@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: 24a5c4f1d73ea08e40d271db483da33bf5615fb2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,7 @@ Standaard geeft Adobe Campaign alle databaserecords weer die de operator mag lez
 
 ![](assets/filter_web_zone.png)
 
-Er zijn verschillende manieren om de gegevens te filteren die moeten worden weergegeven. Indien nodig kunnen deze samen worden gebruikt.
-
-* Filter op omslagen, verwijs naar [&#x200B; Filter door omslag &#x200B;](#filter-by-folder),
-* Filter door status, verwijs naar [&#x200B; Filter door status &#x200B;](#filter-by-status),
-* Het sorteren van gegevens, verwijs naar [&#x200B; Orde door &#x200B;](#order-by),
-* Onderzoek, verwijs naar [&#x200B; Snel onderzoek &#x200B;](#quick-search).
+Er zijn verschillende manieren om de gegevens te filteren die moeten worden weergegeven. Indien nodig kunnen deze samen worden gebruikt. Blader op de onderstaande tabbladen voor meer informatie over filteropties.
 
 
 >[!BEGINTABS]
@@ -69,7 +64,7 @@ Afhankelijk van het type informatie dat wordt weergegeven, kunt u een filter toe
 
 Voor leveringen kunt u er bijvoorbeeld voor kiezen om alleen voltooide leveringen weer te geven, zoals hieronder wordt weergegeven:
 
-![](assets/d_ncs_user_interface_filter_delivery.png)
+![](assets/filter_delivery.png)
 
 >[!TAB  Orde door ]
 
@@ -83,7 +78,7 @@ U kunt taken bijvoorbeeld sorteren op prioriteit, aanmaakdatum of alfabetische v
 
 Gebruik het zoekveld om snel toegang te krijgen tot het item dat u zoekt: voer de tekens in die in het label staan of de interne naam van het item dat u wilt weergeven, en bevestig vervolgens dat u een automatisch filter op de gegevens op de pagina wilt toepassen.
 
-![](assets/d_ncs_user_interface_filter_search.png)
+![](assets/filter_search.png)
 
 Als u alle items opnieuw wilt weergeven, klikt u op het kruisje om de inhoud van het zoekveld te verwijderen.
 
@@ -340,7 +335,7 @@ Als u dit filter wilt bewerken of wijzigen, klikt u op de beschrijvingskoppeling
 
 ### Een geavanceerd filter opslaan{#save-adv-filters}
 
-U kunt een geavanceerd filter als a [&#x200B; bewaren vooraf bepaalde filter &#x200B;](#predefined-filters), zodat u het kunt hergebruiken en het met de andere gebruikers van de Campagne delen.
+U kunt een geavanceerd filter als a [ bewaren vooraf bepaalde filter ](#predefined-filters), zodat u het kunt hergebruiken en het met de andere gebruikers van de Campagne delen.
 
 Volg onderstaande stappen om een geavanceerd filter op te slaan:
 
@@ -353,7 +348,7 @@ Volg onderstaande stappen om een geavanceerd filter op te slaan:
 
    ![](assets/application-filter-save.png)
 
-Het filter wordt toegevoegd aan de [&#x200B; vooraf bepaalde filters &#x200B;](#predefined-filters). Het kan vanaf dit knooppunt worden bijgewerkt.
+Het filter wordt toegevoegd aan de [ vooraf bepaalde filters ](#predefined-filters). Het kan vanaf dit knooppunt worden bijgewerkt.
 
 ![](assets/added-to-predefined-filters.png)
 
@@ -389,10 +384,10 @@ Voor geavanceerde filtermogelijkheden gebruikt u functies om de inhoud van het f
 
 Leer hoe te om geavanceerde vragen in deze steekproeven van begin tot eind te bouwen:
 
-* Leer hoe te om op eenvoudige ontvankelijke attributen in [&#x200B; te richten deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om op ontvangers te filtreren die niet tijdens de laatste 7 dagen in [&#x200B; worden gecontacteerd deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om de lijst van exploitanten terug te krijgen door Actieve rekeningen in [&#x200B; kan worden gefiltreerd deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=nl-NL){target="_blank"}.
-* Leer hoe te om een e-mailpubliek van de verjaardag in [&#x200B; te bouwen deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=nl-NL){target="_blank"}.
+* Leer hoe te om op eenvoudige ontvankelijke attributen in [ te richten deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* Leer hoe te om op ontvangers te filtreren die niet tijdens de laatste 7 dagen in [ worden gecontacteerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* Leer hoe te om de lijst van exploitanten terug te krijgen door Actieve rekeningen in [ kan worden gefiltreerd deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
+* Leer hoe te om een e-mailpubliek van de verjaardag in [ te bouwen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}.
 
 
 ### Geavanceerde parameters voor vooraf gedefinieerde filters {#param-for-data-filters}
