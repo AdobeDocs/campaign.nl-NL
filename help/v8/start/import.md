@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
 workflow-type: tm+mt
-source-wordcount: '3832'
+source-wordcount: '3845'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Wanneer u de importassistent start, moet u eerst een sjabloon selecteren. Als vo
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Telkens wanneer een bestand wordt toegevoegd, wordt het scherm van de **[!UICONTROL File to import]** assistent weergegeven. Zie sectie [&#x200B; Stap 2 - het dossierselectie van Source &#x200B;](#step-2---source-file-selection) en volg de stappen in de medewerker om de invoeropties zoals voor een eenvoudige invoer te bepalen.
+   Telkens wanneer een bestand wordt toegevoegd, wordt het scherm van de **[!UICONTROL File to import]** assistent weergegeven. Zie sectie [ Stap 2 - het dossierselectie van Source ](#step-2---source-file-selection) en volg de stappen in de medewerker om de invoeropties zoals voor een eenvoudige invoer te bepalen.
 
    >[!NOTE]
    >
@@ -266,7 +266,7 @@ In de volgende stap van de importassistent kunt u de map selecteren of maken waa
 
       >[!NOTE]
       >
-      >De standaardmap voor een operator is de eerste map waarvoor de operator schrijftoegang heeft. Leer meer in [&#x200B; leidt omslagen en meningen &#x200B;](../audiences/folders-and-views.md).
+      >De standaardmap voor een operator is de eerste map waarvoor de operator schrijftoegang heeft. Leer meer in [ leidt omslagen en meningen ](../audiences/folders-and-views.md).
 
       Als u de importmap wilt selecteren, klikt u op de pijl rechts van het veld **[!UICONTROL Folder]** en selecteert u de desbetreffende map. U kunt het pictogram **[!UICONTROL Select link]** ook gebruiken om de structuur in een nieuw venster weer te geven of een nieuwe map te maken.
 
@@ -298,7 +298,7 @@ In de volgende stap van de importassistent kunt u de map selecteren of maken waa
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 
-      U kunt een nieuwe service voor deze ontvangers maken door op **[!UICONTROL Select link]** en vervolgens op het pictogram **[!UICONTROL Create]** te klikken. Het beheer van de informatiediensten wordt voorgesteld in [&#x200B; deze sectie &#x200B;](../start/subscriptions.md).
+      U kunt een nieuwe service voor deze ontvangers maken door op **[!UICONTROL Select link]** en vervolgens op het pictogram **[!UICONTROL Create]** te klikken. Het beheer van de informatiediensten wordt voorgesteld in [ deze sectie ](../start/subscriptions.md).
 
 * Gebruik het veld **[!UICONTROL Origin]** om informatie over de oorsprong van ontvangers toe te voegen aan hun profielen. Deze informatie is met name nuttig in het kader van een meervoudige import.
 
@@ -310,7 +310,7 @@ In de laatste stap van de assistent kunt u gegevensimport starten. Klik hiertoe 
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-U kunt de uitvoering van de de invoerbaan dan controleren (zie [&#x200B; de werkschemauitvoering van de Monitor &#x200B;](../../automation/workflow/monitor-workflow-execution.md)).
+U kunt de uitvoering van de de invoerbaan dan controleren (zie [ de werkschemauitvoering van de Monitor ](../../automation/workflow/monitor-workflow-execution.md)).
 
 ## Gegevens exporteren
 
@@ -416,9 +416,13 @@ Als u een verzameling elementen exporteert (bijvoorbeeld abonnementen van ontvan
 
 ### Stap 8 - Voorvertoning gegevens {#step-8---data-preview}
 
-Klik op **[!UICONTROL Start the preview of the data]** voor een voorvertoning van het exportresultaat. Standaard worden de eerste 200 regels weergegeven. Als u deze waarde wilt wijzigen, klikt u op de pijlen rechts van het veld **[!UICONTROL Lines to display]** .
+Klik op **[!UICONTROL Start the preview of the data]** voor een voorvertoning van het exportresultaat.
 
 ![](assets/s_ncs_user_export_wizard07.png)
+
+>[!NOTE]
+>
+>Net als in alle lijsten die beschikbaar zijn in de console, worden standaard alleen de eerste 200 regels weergegeven in het **[!UICONTROL Data preview]** -venster. Als u dit wilt wijzigen, typt u een getal in het vak **[!UICONTROL Lines to display]** en klikt u op **[!UICONTROL Start the preview of the data]** . [Meer informatie](../config/ui-settings.md#manage-and-customize-lists)
 
 Klik de lusjes bij de bodem van de medewerker om van de voorproef van resultaten in kolommen aan de resultaten in XML over te schakelen. U kunt de gegenereerde SQL-query&#39;s ook weergeven.
 
@@ -437,11 +441,11 @@ Met Campagne kunt u webformulieren maken en profielgegevens eenvoudig en effici√
 
 ![](assets/web-form-page.png)
 
-Leer hoe te om Webvormen in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=nl-NL){target="_blank"} tot stand te brengen.
+Leer hoe te om Webvormen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"} tot stand te brengen.
 
 **Verwante onderwerpen**
 
 * [Soorten publiek maken](audiences.md)
 * [Gedupliceerde profielen](../../automation/workflow/deduplication-merge.md)
 * [Profielgegevens vergroten](../../automation/workflow/enrich-data.md)
-* Begrijp Campagne [&#x200B; gegevensmodel &#x200B;](../dev/datamodel.md)
+* Begrijp Campagne [ gegevensmodel ](../dev/datamodel.md)
