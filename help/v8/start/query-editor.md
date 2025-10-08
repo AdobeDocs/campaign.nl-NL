@@ -20,10 +20,10 @@ Het verstrekt een specifieke medewerker — de generische vraagredacteur — toe
 
 De generische vraagredacteur centraliseert alle het vragen mogelijkheden. Het staat de verwezenlijking en de opslag van beperkingsfilters toe, die dan in andere contexten, zoals het vakje van de Vraag van een het richten werkschema kunnen worden opnieuw gebruikt.
 
-![ heb toegang tot de vraagredacteur en selecteer een lijst ](assets/query_editor_nveau_21.png)
+![&#x200B; heb toegang tot de vraagredacteur en selecteer een lijst &#x200B;](assets/query_editor_nveau_21.png)
 
 
-De stappen om een vraag tot stand te brengen zijn gedetailleerd [ op deze pagina ](design-queries.md).
+De stappen om een vraag tot stand te brengen zijn gedetailleerd [&#x200B; op deze pagina &#x200B;](design-queries.md).
 
 <!--
 Contexts to use the query editor iin Campaign are listed below:

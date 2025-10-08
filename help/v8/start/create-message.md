@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Je eerste levering maken {#create-a-msg}
 
-Leer op deze pagina hoe u één opname maakt van één levering. U kunt andere typen leveringen maken om uw gebruiksgevallen samen te stellen. Leer meer over de verschillende soorten leveringen en hoe te om hen in [ tot stand te brengen deze pagina ](gs-message.md).
+Leer op deze pagina hoe u één opname maakt van één levering. U kunt andere typen leveringen maken om uw gebruiksgevallen samen te stellen. Leer meer over de verschillende soorten leveringen en hoe te om hen in [&#x200B; tot stand te brengen deze pagina &#x200B;](gs-message.md).
 
 De belangrijkste stappen bij het maken van een eenmalige levering zijn:
 
@@ -29,7 +29,7 @@ Vervolgens kunt u berichten voorbereiden, testen, verzenden en controleren met A
 
 >[!NOTE]
 >
->De stappen die in deze sectie worden beschreven veronderstellen dat alle doelontvangers en hun profielen in het gegevensbestand, behalve in het geval van externe levering worden opgeslagen. Zie [ Selecterend externe ontvangers ](#selecting-external-recipients).
+>De stappen die in deze sectie worden beschreven veronderstellen dat alle doelontvangers en hun profielen in het gegevensbestand, behalve in het geval van externe levering worden opgeslagen. Zie [&#x200B; Selecterend externe ontvangers &#x200B;](#selecting-external-recipients).
 
 ## De levering maken {#create-the-delivery}
 
@@ -76,7 +76,7 @@ Daarnaast kunt u in het kader van een marketingcampagne het volgende toevoegen:
 
 ### Selecteer de belangrijkste ontvangers van de levering {#select-the-main-target}
 
-In de meeste gevallen wordt het hoofddoel opgehaald uit de Adobe Campaign-database (standaardmodus). Nochtans, kunnen de ontvangers ook in een [ extern dossier ](#selecting-external-recipients) worden opgeslagen.
+In de meeste gevallen wordt het hoofddoel opgehaald uit de Adobe Campaign-database (standaardmodus). Nochtans, kunnen de ontvangers ook in een [&#x200B; extern dossier &#x200B;](#selecting-external-recipients) worden opgeslagen.
 
 Volg onderstaande stappen om de ontvangers van een levering te selecteren:
 
@@ -85,7 +85,7 @@ Volg onderstaande stappen om de ontvangers van een levering te selecteren:
 
    ![](../send/sms/assets/audience_to.png){zoomable="yes"}
 
-1. Selecteer de [ doelafbeelding ](../audiences/target-mappings.md) in de **[!UICONTROL Target mapping]** drop-down lijst.
+1. Selecteer de [&#x200B; doelafbeelding &#x200B;](../audiences/target-mappings.md) in de **[!UICONTROL Target mapping]** drop-down lijst.
 1. Klik op de knop **[!UICONTROL Add]** om beperkingsfilters te definiëren.
 
    ![](assets/target-type.png){width="60%" align="left" zoomable="yes"}
@@ -94,8 +94,8 @@ Volg onderstaande stappen om de ontvangers van een levering te selecteren:
 
    De volgende doeltypen zijn beschikbaar:
 
-   * **[!UICONTROL Filtering conditions]** : gebruik deze optie om een aangepaste query te definiëren voor het ophalen van de ontvangers. Leer hoe te om een vraag in [ te ontwerpen deze sectie ](../start/query-editor.md).
-   * **[!UICONTROL A list of recipients]** : gebruik deze optie om een lijst met profielen als doel in te stellen. Leer meer over lijsten in [ deze sectie ](../audiences/create-audiences.md).
+   * **[!UICONTROL Filtering conditions]** : gebruik deze optie om een aangepaste query te definiëren voor het ophalen van de ontvangers. Leer hoe te om een vraag in [&#x200B; te ontwerpen deze sectie &#x200B;](../start/query-editor.md).
+   * **[!UICONTROL A list of recipients]** : gebruik deze optie om een lijst met profielen als doel in te stellen. Leer meer over lijsten in [&#x200B; deze sectie &#x200B;](../audiences/create-audiences.md).
    * **[!UICONTROL A recipient]** : gebruik deze optie om een specifiek profiel in de database te selecteren.
    * **[!UICONTROL Recipients included in a folder]** : gebruik deze optie om alle profielen in een specifieke map als doel in te stellen.
    * **[!UICONTROL Recipients of a delivery]**: gebruik deze optie om het doel te maken van de ontvangers van een levering. U moet dan de levering in de lijst selecteren:
@@ -118,7 +118,7 @@ Volg onderstaande stappen om de ontvangers van een levering te selecteren:
 
      ![](assets/target-service.png)
 
-   * **[!UICONTROL User filters]**: met deze optie hebt u toegang tot de vooraf geconfigureerde filters om deze te gebruiken als filtercriteria voor profielen in de database. Vooraf gevormde filters worden voorgesteld in [ deze sectie ](../audiences/create-filters.md#default-filters).
+   * **[!UICONTROL User filters]**: met deze optie hebt u toegang tot de vooraf geconfigureerde filters om deze te gebruiken als filtercriteria voor profielen in de database. Vooraf gevormde filters worden voorgesteld in [&#x200B; deze sectie &#x200B;](../audiences/create-filters.md#default-filters).
    * Met de optie **[!UICONTROL Exclude recipients from this segment]** kunt u zich richten op ontvangers die niet aan de gedefinieerde doelcriteria voldoen. Als u deze optie wilt gebruiken, selecteert u het desbetreffende vak en past u vervolgens de focus toe, zoals eerder is gedefinieerd, om de resulterende profielen uit te sluiten.
 
 1. Voer in het veld **[!UICONTROL Label]** een naam in voor dit doel. Standaard is het label het label van het eerste doelcriterium. Wanneer het combineren van het filtreren criteria, wordt het geadviseerd om een expliciete naam te gebruiken.
@@ -137,7 +137,7 @@ U kunt berichten verzenden naar profielen die niet in de database maar in een ex
 1. Selecteer het bestand met de ontvangers.
 1. Klik tijdens het importeren van de ontvangers op de koppeling **[!UICONTROL File format definition...]** om het externe bestand te selecteren en te configureren.
 
-   Voor meer informatie bij de invoer van gegevens, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
+   Voor meer informatie bij de invoer van gegevens, verwijs naar [&#x200B; de documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
 
 1. Klik op **[!UICONTROL Finish]** en configureer de levering als standaardlevering.
 
@@ -147,7 +147,7 @@ U kunt berichten verzenden naar profielen die niet in de database maar in een ex
 
 ### Uitsluitingsinstellingen {#define-exclusion-settings}
 
-Wanneer het bepalen van het [ publiek van een levering ](#target-population), wordt het **[!UICONTROL Exclusions]** lusje gebruikt om het aantal berichten te beperken. Standaardparameters worden aanbevolen, maar u kunt de instellingen naar wens aanpassen. Deze opties mogen echter alleen door een deskundige gebruiker worden gewijzigd om elk misbruik en elke fout te voorkomen.
+Wanneer het bepalen van het [&#x200B; publiek van een levering &#x200B;](#target-population), wordt het **[!UICONTROL Exclusions]** lusje gebruikt om het aantal berichten te beperken. Standaardparameters worden aanbevolen, maar u kunt de instellingen naar wens aanpassen. Deze opties mogen echter alleen door een deskundige gebruiker worden gewijzigd om elk misbruik en elke fout te voorkomen.
 
 >[!CAUTION]
 >
@@ -163,7 +163,7 @@ Als u de standaardconfiguratie wilt wijzigen, klikt u op de koppeling **[!UICONT
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: deze optie is standaard actief en verwijdert dubbele e-mailadressen tijdens levering. De toegepaste strategie kan variëren afhankelijk van hoe Adobe Campaign wordt gebruikt en het type gegevens in het gegevensbestand. De waarde van de optie kan voor elke leveringsmalplaatje worden gevormd.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** , d.w.z. ontvangers wier e-mailadressen in de lijst van gewezen personen staan (&#39;Weigeren&#39;). Deze optie moet geselecteerd blijven om de beroepsethiek van e-marketing in acht te nemen.
-* **[!UICONTROL Exclude quarantined recipients]** : met deze optie kunt u profielen met een adres dat in quarantaine is geplaatst, uitsluiten van het doel. We raden u ten zeerste aan deze optie geselecteerd te houden. Leer meer over quarantainebeheer in [ deze sectie ](../send/quarantines.md).
+* **[!UICONTROL Exclude quarantined recipients]** : met deze optie kunt u profielen met een adres dat in quarantaine is geplaatst, uitsluiten van het doel. We raden u ten zeerste aan deze optie geselecteerd te houden. Leer meer over quarantainebeheer in [&#x200B; deze sectie &#x200B;](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** aan een bepaald aantal berichten. Met deze optie kunt u het maximum aantal berichten invoeren dat moet worden verzonden. Als het doelpubliek het aantal vermelde berichten overschrijdt, wordt een willekeurige selectie toegepast op het doel. Houd deze waarde in op &#39;0&#39; om alle berichten te verzenden.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: met deze optie kunnen meerdere leveringen worden verzonden naar ontvangers die aan verschillende doelcriteria voldoen.
 +++
@@ -175,7 +175,7 @@ Voor e-mailleveringen kunt u proefdrukken verzenden om uw berichtinhoud te valid
 
 Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvorens het naar het belangrijkste publiek te verzenden. Ontvangers van de proefdruk zijn verantwoordelijk voor het goedkeuren van het bericht: rendering, content, personalisatie-instellingen, configuratie.
 
-Voor meer bij proefontvangers en het verzenden, verwijs naar [ deze sectie ](../send/preview-and-proof.md#send-proofs).
+Voor meer bij proefontvangers en het verzenden, verwijs naar [&#x200B; deze sectie &#x200B;](../send/preview-and-proof.md#send-proofs).
 
 
 #### Video over zelfstudie {#seeds-and-proofs-video}
@@ -184,7 +184,7 @@ In deze video leert u hoe u zaden en proefdrukken aan een bestaande e-mail kunt 
 
 >[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
-De extra hoe te video&#39;s van Campaign Classic zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
+De extra hoe te video&#39;s van Campaign Classic zijn beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=nl).
 
 ## De levering voorbereiden en valideren {#validate-the-delivery}
 
@@ -205,4 +205,4 @@ Dit doet u als volgt:
 
 Heb toegang tot de leveringsparameters om meer montages te vormen en te bepalen hoe te om uw berichten te verzenden. U kunt leveringsprioriteit bepalen, opstelling verzendende golven, de retry montages bevestigen, en uw levering testen verzendend. Zodra deze configuratie wordt gedaan, kunt u het verzenden bevestigen. De berichten worden dan verzonden onmiddellijk, of gebaseerd op het leveringsprogramma.
 
-Leer hoe te om uw leveringsmontages in [ te vormen deze pagina ](../send/configure-and-send.md).
+Leer hoe te om uw leveringsmontages in [&#x200B; te vormen deze pagina &#x200B;](../send/configure-and-send.md).
