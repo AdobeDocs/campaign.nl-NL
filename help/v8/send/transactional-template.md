@@ -86,7 +86,7 @@ Een zaadadres laat u een voorproef van uw bericht tonen, een proef, en de person
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. Voeg testgegevens in. [ Leer meer op verpersoonlijkingsgegevens in de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. Voeg testgegevens in. [&#x200B; Leer meer op verpersoonlijkingsgegevens in de documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
@@ -136,11 +136,11 @@ U kunt berichtlevering testen door een bewijs naar een eerder gecreeerd zaadadre
 
 Bij het verzenden van een bewijs wordt hetzelfde proces gebruikt als bij elke levering.
 
-Leer meer over proeven in [ deze sectie ](../send/preview-and-proof.md#proofs-send).
+Leer meer over proeven in [&#x200B; deze sectie &#x200B;](../send/preview-and-proof.md#proofs-send).
 
 Als u echter een bewijs van een transactiebericht wilt verzenden, moet u de volgende bewerkingen uitvoeren:
 
-* Creeer één of meerdere [ zaadadressen ](#add-seeds) met de gegevens van de verpersoonlijkingstest
+* Creeer één of meerdere [&#x200B; zaadadressen &#x200B;](#add-seeds) met de gegevens van de verpersoonlijkingstest
 * Berichtinhoud maken
 
 Het bewijs verzenden:
@@ -161,7 +161,7 @@ In elke sjabloon kunt u proefdrukken openen via het tabblad **[!UICONTROL Audit]
 
 #### Overgang van [!DNL Campaign Classic] v7 {#transition-from-v7}
 
-Als u [ transitioning van Campaign Classic v7 ](../start/v7-to-v8.md), gaan alle leveringen door de midsourcing (MID) server.
+Als u [&#x200B; transitioning van Campaign Classic v7 &#x200B;](../start/v7-to-v8.md), gaan alle leveringen door de midsourcing (MID) server.
 
 Nochtans, wanneer het creëren van een transactiemeldmalplaatje, is het verpletteren nodig voor het met succes te gebruiken malplaatje **interne e-maillevering**. Dit het verpletteren verhindert u proefdrukken te verzenden.
 
