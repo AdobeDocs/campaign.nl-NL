@@ -1,154 +1,44 @@
 ---
-title: Ontwerpquery's in campagne v8
-description: Meer informatie over het maken van query's
+title: Werken met de query-editor
+description: Leer hoe het werk met de vraagredacteur
 feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 46f97303adf21e88aaa3417c6596dcb62e453c9e
+source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 11%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
 # Query Campaign-database
 
-U vindt de Adobe Campaign-querytool op meerdere niveaus van de software: om een doelpopulatie te maken, klanten te segmenteren, trackinglogboeken te extraheren en filteren, filters te bouwen, enzovoort.
+Het vraaghulpmiddel is beschikbaar op diverse niveaus van de toepassing en kan worden gebruikt om doelpopulaties, segmentklanten, extract en filter het volgen logboeken te bepalen, filters, en meer tot stand te brengen.
 
-Het de vraaghulpmiddel van Adobe Campaign laat u een gegevensbestand vragen gebruikend een specifieke medewerker: de generische vraagredacteur. Deze wordt geopend via het menu **[!UICONTROL Tools > Generic query editor...]** . Hiermee kunt u gegevens ophalen die in een database zijn opgeslagen en deze gegevens ordenen, groeperen, sorteren, enzovoort. De gebruiker kan bijvoorbeeld ontvangers ophalen die gedurende een bepaalde periode meer dan ‘n’ keer op de koppeling van een nieuwsbrief hebben geklikt. Met dit gereedschap kunt u resultaten verzamelen, sorteren en weergeven op basis van uw behoeften.
+Het verstrekt een specifieke medewerker — de generische vraagredacteur — toegankelijk van het **[!UICONTROL Tools > Generic query editor...]** menu. Deze redacteur laat gegevensbestandvragen toe om, informatie te halen te organiseren, te groeperen en te sorteren. Het kan bijvoorbeeld ontvangers ophalen die tijdens een bepaalde periode meer dan n keer op een nieuwsbrief hebben geklikt.
 
-Met deze tool combineert u alle querymogelijkheden van Adobe Campaign. Zo kunt u bijvoorbeeld beperkingsfilters maken en opslaan. Dit betekent dat een gebruikersfilter dat in de generieke query-editor is gemaakt, in het vakje Query van een targetingworkflow, enzovoort, kan worden gebruikt.
+De generische vraagredacteur centraliseert alle het vragen mogelijkheden. Het staat de verwezenlijking en de opslag van beperkingsfilters toe, die dan in andere contexten, zoals het vakje van de Vraag van een het richten werkschema kunnen worden opnieuw gebruikt.
 
-Vragen worden gemaakt met velden uit de geselecteerde tabel of met een formule.
-
-De stappen voor het bouwen van een vraag in Adobe Campaign zijn als volgt:
-
-1. Selecteer de werktabel. Verwijs naar [&#x200B; Stap 1 - kies een lijst &#x200B;](#step-1---choose-a-table).
-1. Selecteer de gegevens die u wilt extraheren. Verwijs naar [&#x200B; Stap 2 - kies gegevens om &#x200B;](#step-2---choose-data-to-extract) te halen.
-1. Definieer de gegevenssorteervolgorde. Verwijs naar [&#x200B; Stap 3 - de gegevens van de Soort &#x200B;](#step-3---sort-data).
-1. Filter de gegevens. Verwijs naar [&#x200B; Stap 4 - de gegevens van de Filter &#x200B;](#step-4---filter-data).
-1. Maak de gegevens op. Verwijs naar [&#x200B; Stap 5 - de gegevens van het Formaat &#x200B;](#step-5---format-data).
-1. Geef het resultaat weer. Verwijs naar [&#x200B; Stap 6 - de gegevens van de Voorproef &#x200B;](#step-6---preview-data).
+![ heb toegang tot de vraagredacteur en selecteer een lijst ](assets/query_editor_nveau_21.png)
 
 
->[!NOTE]
->
->* Al deze stappen zijn beschikbaar in de generische vraagredacteur. Wanneer een query in een andere context wordt gemaakt, kunnen sommige stappen worden weggelaten.
->
->* Meer over Vragen leren en hoe te om hen tot stand te brengen, verwijs naar de [&#x200B; het werkschemadocumentatie van de Campagne &#x200B;](../../automation/workflow/query.md).
+De stappen om een vraag tot stand te brengen zijn gedetailleerd [ op deze pagina ](design-queries.md).
 
-Om het gegevensbestand van de Campagne te vragen, open de **Algemene vraagredacteur**, en volg deze stappen:
+<!--
+Contexts to use the query editor iin Campaign are listed below:
 
-## Stap 1 - Kies een tabel {#step-1---choose-a-table}
-
-Selecteer in het **[!UICONTROL Document type]** -venster de tabel met de gegevens waarop u een query wilt uitvoeren. Indien nodig, filtert u de gegevens met het filterveld of de knop **[!UICONTROL Filters]** .
-
-![](assets/query_editor_nveau_21.png)
-
-## Stap 2 - Kies de gegevens die u wilt extraheren {#step-2---choose-data-to-extract}
-
-Selecteer in het **[!UICONTROL Data to extract]** -venster de gegevens die u wilt weergeven: deze velden vormen de uitvoerkolommen.
-
-Selecteer bijvoorbeeld **[!UICONTROL Age]** , **[!UICONTROL Primary key]** , **[!UICONTROL Email domain]** en **[!UICONTROL City]** . De resultaten worden op basis van deze selectie geordend. Gebruik de blauwe pijlen rechts van het venster om de kolomvolgorde te wijzigen.
-
-![](assets/query_editor_nveau_01.png)
-
-U kunt een expressie bewerken door er een formule in op te nemen of door een proces uit te voeren voor een statistische functie. Klik hiertoe op het kolomveld **[!UICONTROL Expression]** en selecteer **[!UICONTROL Edit expression]** .
-
-![](assets/query_editor_nveau_97.png)
-
-U kunt uitvoerkolomgegevens groeperen: hiervoor schakelt u **[!UICONTROL Yes]** in de **[!UICONTROL Group]** -kolom van het **[!UICONTROL Data to extract]** -venster in. Deze functie genereert een resultaat rond de geselecteerde groeperingsas. Een voorbeeld van een vraag met groepering is beschikbaar in [&#x200B; deze sectie &#x200B;](../../automation/workflow/query-delivery-info.md).
-
-![](assets/query_editor_nveau_56.png)
-
-* Met de functie **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** kunt u groeperen op en selecteren wat is gegroepeerd (&quot;hebben&quot;). Deze functie is van toepassing op alle velden in de uitvoerkolom. Met deze optie kunt u bijvoorbeeld alle keuzen van een uitvoerkolom groeperen en een bepaald type informatie herstellen, zoals ontvangers tussen 35 en 50.
-
-  Raadpleeg [deze sectie](../../automation/workflow/query-grouping-management.md) voor meer informatie.
-
-* Met de functie **[!UICONTROL Remove duplicate rows (DISTINCT)]** kunt u identieke resultaten dedupliceren die in de uitvoerkolom zijn verkregen. Als u bijvoorbeeld een telling uitvoert door de velden Achternaam, Voornaam en E-mail te selecteren in de uitvoerkolom, worden de velden met identieke gegevens verwijderd, omdat dit betekent dat dezelfde contactpersoon meerdere malen in de database is ingevoerd: er wordt slechts één resultaat in aanmerking genomen.
-
-## Stap 3 - Gegevens sorteren {#step-3---sort-data}
-
-In het **[!UICONTROL Sorting]** -venster kunt u kolominhoud sorteren. Gebruik de pijlen om de kolomvolgorde te wijzigen:
-
-* Met de kolom **[!UICONTROL Sorting]** kunt u eenvoudig sorteren en de kolominhoud in oplopende volgorde rangschikken van A naar Z.
-* In **[!UICONTROL Descending sort]** wordt de inhoud gerangschikt van Z naar A en in aflopende volgorde. Dit is bijvoorbeeld handig voor het weergeven van recordverkopen: de hoogste cijfers worden boven aan de lijst weergegeven.
-
-In dit voorbeeld worden de gegevens in oplopende volgorde gesorteerd op basis van de leeftijd van de ontvanger.
-
-![](assets/query_editor_nveau_57.png)
-
-## Stap 4 - Gegevens filteren {#step-4---filter-data}
-
-Met de query-editor kunt u gegevens filteren om uw zoekopdracht te verfijnen.
-
-De aangeboden filters zijn afhankelijk van de tabel waarop de query betrekking heeft.
-
-![](assets/query_editor_nveau_09.png)
-
-Als u de sectie **[!UICONTROL Filtering conditions]** hebt geselecteerd, krijgt u toegang tot de sectie **[!UICONTROL Target elements]** . Hiermee kunt u definiëren hoe de te verzamelen gegevens worden gefilterd.
-
-* Als u een nieuw filter wilt maken, selecteert u de velden, operatoren en waarden die nodig zijn voor het maken van de formule die moet worden gecontroleerd voordat de gegevens worden geselecteerd. U kunt verscheidene voorwaarden ook combineren zoals gedetailleerd [&#x200B; op deze pagina &#x200B;](filter-conditions.md).
-* Als u eerder opgeslagen filters wilt gebruiken, opent u de vervolgkeuzelijst door op de knop **[!UICONTROL Add]** te klikken, op **[!UICONTROL Predefined filter]** te klikken en de gewenste filter te selecteren.
-
-  ![](assets/query_editor_15.png)
-
-* De filters die in **[!UICONTROL Generic query editor]** worden gecreeerd zijn beschikbaar in andere vraagtoepassingen en vice versa. Klik op het pictogram **[!UICONTROL Save]** om een filter op te slaan.
-
-  >[!NOTE]
-  >
-  >Voor meer bij het creëren van en het gebruiken van filters, verwijs naar [&#x200B; het Filtreren opties &#x200B;](filter-conditions.md).
-
-Zoals aangetoond in het volgende voorbeeld, om alle Engels-sprekende ontvangers terug te krijgen, selecteer: &quot;ontvankelijke taal **gelijk aan** EN&quot;.
-
-![](assets/query_editor_nveau_89.png)
-
->[!NOTE]
->
->U kunt tot een optie direct toegang hebben door de volgende formule op het **gebied van de Waarde** te typen: **$ (opties :OPTION_NAME)**.
-
-Klik op de tab **[!UICONTROL Preview]** om het resultaat van de filtervoorwaarde weer te geven. In dit geval worden alle Engelstalige ontvangers weergegeven met hun naam, voornaam en e-mailadres.
-
-![](assets/query_editor_nveau_98.png)
-
-Gebruikers die bekend zijn met SQL kunnen op **[!UICONTROL Generate SQL query]** klikken om de query in SQL weer te geven.
-
-![](assets/query_editor_nveau_99.png)
-
-## Stap 5 - Gegevens opmaken {#step-5---format-data}
-
-Als u de beperkingsfilters hebt geconfigureerd, opent u het **[!UICONTROL Data formatting]** -venster. In dit venster kunt u de uitvoerkolommen opnieuw rangschikken, gegevens transformeren en het hoofdlettergebruik van de kolomlabels wijzigen. Hiermee kunt u ook een formule op het uiteindelijke resultaat toepassen met een berekend veld.
-
->[!NOTE]
->
->Voor meer informatie over de types van berekende gebieden, verwijs naar [&#x200B; creeer berekende gebieden &#x200B;](filter-conditions.md#creating-calculated-fields).
-
-Niet-geselecteerde kolommen worden niet weergegeven in het venster met gegevensvoorvertoning.
-
-![](assets/query_editor_nveau_10.png)
-
-Met de kolom **[!UICONTROL Transformation]** kunt u een kolomlabel wijzigen in hoofdletters of kleine letters. Selecteer de kolom en klik in de kolom **[!UICONTROL Transformation]** . U kunt kiezen:
-
-* **[!UICONTROL Switch to lower case]**,
-* **[!UICONTROL Switch to upper case]**,
-* **[!UICONTROL First letter in upper case]**.
-
-![](assets/query_editor_nveau_42.png)
-
-## Stap 6 - Voorbeeldgegevens {#step-6---preview-data}
-
-Het **[!UICONTROL Data preview]** -venster is het laatste werkgebied. Klik op **[!UICONTROL Start the preview of the data]** om het queryresultaat op te halen. Deze optie is beschikbaar in kolommen of in XML-indeling. Klik op het tabblad **[!UICONTROL Generated SQL queries]** om de query in SQL-indeling weer te geven.
-
-In dit voorbeeld worden gegevens in oplopende volgorde gesorteerd op basis van de leeftijd van de ontvanger.
-
-![](assets/query_editor_nveau_11.png)
-
->[!NOTE]
->
->Standaard worden alleen de eerste 200 regels weergegeven in het **[!UICONTROL Data preview]** -venster. Als u dit wilt wijzigen, typt u een getal in het vak **[!UICONTROL Lines to display]** en klikt u op **[!UICONTROL Start the preview of the data]** .
-
-
+|Usage|Example|
+|  ---  |  ---  |
+|**Define a Query activity in a workflow**: Define the criteria to query Campaign database in a workflow. [Learn how to configure the Query activity](../../automation/workflow/query.md)|![Image showing how to configure a query activity in a workflow](../../automation/workflow/assets/query-activity.png){width="200" align="center" zoomable="yes"}|
+|**Define audiences**: Specify the population you want to target in your messages, and effortlessly create new audiences tailored to your needs. [Learn how to build audiences](../start/create-message.md#define-the-target-audience)|![Image showing how to access the audience creation interface](../send/sms/assets/audience_to.png){width="200" align="center" zoomable="yes"}|
+|**Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs. [Learn how to build audiences](../audiences/create-audiences.md)|![Image showing how to access the audience creation interface](../audiences/assets/targeting-wf-age-filter.png){width="200" align="center" zoomable="yes"}|
+|**Customize workflow activities**: Apply rules within workflow activities, such as **Split** and **Reconciliation**, to align with your specific requirements. [Learn more about workflow activities](../../automation/workflow/activities.md)|![Image showing how to access workflow customization options](assets/access-workflow.png){width="200" align="center" zoomable="yes"}|
+|**Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery. [Learn how to work with predefined filters](../get-started/predefined-filters.md)|![Image showing how to access predefined filters](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"}|
+|**Filter reports data**: Add rules to filter the data displayed in reports. [Learn how to work with reports](../reporting/gs-reports.md)|![Image showing how to filter data in reports](assets/access-reports.png){width="200" align="center" zoomable="yes"}|
+|**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients or deliveries lists. [Learn how to filter lists](../get-started/list-filters.md#list-built-in-filters)|![Image showing how to customize list filters](assets/access-lists.png){width="200" align="center" zoomable="yes"}|
+|**Build conditional content**: Make email content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging. [Learn how to build conditional content](../personalization/conditions.md)|![Image showing how to create conditional content](assets/conditional-content.png){width="200" align="center" zoomable="yes"}|
+-->
 
 **Verwante onderwerpen**
 
