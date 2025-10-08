@@ -39,7 +39,7 @@ U kunt een voorbeeld van een ontvankelijke schemauitbreiding vinden die dit gebr
 
 De belangrijkste eigenschappen zijn:
 
-* **[!UICONTROL visibleIf]**: verbergt de gebieden van de meta-gegevens, vandaar zij niet binnen een schemamening, of kolomselectie, of een [ Bouwer van de Uitdrukking ](../../v8/start/filter-conditions.md#list-of-functions) kunnen worden betreden. Maar dit verbergt geen gegevens, als de veldnaam handmatig wordt ingevoerd in een expressie, wordt de waarde weergegeven.
+* **[!UICONTROL visibleIf]**: verbergt de gebieden van de meta-gegevens, vandaar zij niet binnen een schemamening, of kolomselectie, of een [&#x200B; Bouwer van de Uitdrukking &#x200B;](../../v8/start/filter-conditions.md#list-of-functions) kunnen worden betreden. Maar dit verbergt geen gegevens, als de veldnaam handmatig wordt ingevoerd in een expressie, wordt de waarde weergegeven.
 * **[!UICONTROL accessibleIf]**: verbergt de gegevens (vervangt deze door lege waarden) uit de resulterende query. Als visibleIf leeg is, krijgt het dezelfde expressie als **[!UICONTROL accessibleIf]** .
 
 Hier volgen de gevolgen van het gebruik van dit kenmerk in Campagne:
