@@ -31,7 +31,7 @@ Deze versie wordt ook geleverd met een set functies die beschikbaar zijn in de g
 * [&#x200B; de Verrijking van het Profiel in Transactionele Berichten &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
 * [&#x200B; Meertalige Mogelijkheden voor Transactioneel Overseinen, de Berichten van de Duw en SMS &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
-Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
+Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL){target="_blank"}
 
 ### Oplossingen {#fixes-8-8-2}
 
