@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Laatste versies {#latest-release}
 
-Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke situaties die met Campagne v8 (console) **** komen meest recente versies. Leer meer over de versies, versies, en verbeteringen van de Campagne in [ deze pagina ](upgrades.md). Andere versies worden vermeld in de sectie Vorige releases van deze documentatie.
+Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke situaties die met Campagne v8 (console) **&#x200B;**&#x200B;komen meest recente versies. Leer meer over de versies, versies, en verbeteringen van de Campagne in [&#x200B; deze pagina &#x200B;](upgrades.md). Andere versies worden vermeld in de sectie Vorige releases van deze documentatie.
 
 ## Release 8.8.2 {#release-8-8-2}
 
@@ -24,14 +24,14 @@ _9 okt, 2025_
 
 ### Nieuwe functies {#features-8-8-2}
 
-Het **nieuwe SMS verzenden schakelaar** is nu beschikbaar voor [ Plaatsingen FFDA van de Campagne ](../architecture/enterprise-deployment.md). Verwijs naar de [ gedetailleerde documentatie ](../send/sms/sms.md).
+Het **nieuwe SMS verzenden schakelaar** is nu beschikbaar voor [&#x200B; Plaatsingen FFDA van de Campagne &#x200B;](../architecture/enterprise-deployment.md). Verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](../send/sms/sms.md).
 
 Deze versie wordt ook geleverd met een set functies die beschikbaar zijn in de gebruikersinterface van Campagne Web:
 
-* [ de Verrijking van het Profiel in Transactionele Berichten ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
-* [ Meertalige Mogelijkheden voor Transactioneel Overseinen, de Berichten van de Duw en SMS ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [&#x200B; de Verrijking van het Profiel in Transactionele Berichten &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [&#x200B; Meertalige Mogelijkheden voor Transactioneel Overseinen, de Berichten van de Duw en SMS &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
-Verwijs naar UI van het Web van de Campagne [ versienota&#39;s ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
+Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
 
 ### Oplossingen {#fixes-8-8-2}
 
