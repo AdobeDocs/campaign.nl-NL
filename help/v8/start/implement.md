@@ -38,11 +38,11 @@ Adobe Campaign wordt geleverd met processen en instellingen waarmee u Campagne k
 
 * **de aanwinst van Gegevens**: Adobe Campaign laat u toe om gegevens, met inbegrip van persoonlijke en gevoelige informatie te verzamelen. Het is daarom van essentieel belang dat u toestemming krijgt en beheert van uw ontvangers.
 
-  Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#data-acquisition){target="_blank"}
+  Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=nl-NL#data-acquisition){target="_blank"}
 
 * **de toestemming van de Gebruiker en gegevensbehoud**: u moet gebruikerstoestemming krijgen, opstelling dubbele opt-in abonnementsmechanismen, vergemakkelijken opt-out en vormen gegevensbehoud.
 
-  Leer meer in [ Campaign Classic v7 privacydocumentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#consent){target="_blank"}
+  Leer meer in [ Campaign Classic v7 privacydocumentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=nl-NL#consent){target="_blank"}
 
 * **Privacy en gegevensbeschermingsverordeningen**: verwijs naar [ deze sectie ](privacy.md) voor informatie over privacyvereisten, en hoe deze verordeningen uw organisatie en Adobe Campaign beïnvloeden.
 
