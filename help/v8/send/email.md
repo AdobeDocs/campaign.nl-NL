@@ -6,9 +6,9 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '566'
 ht-degree: 6%
 
 ---
@@ -91,7 +91,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
 
-Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [ gebruiksgeval ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=nl-NL){target="_blank"} in te voeren.
+Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [ gebruiksgeval ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"} in te voeren.
 
 >[!MORELIKETHIS]
 >
@@ -100,7 +100,7 @@ Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [ 
 >* [ selecteer het publiek van uw e-mail ](../audiences/gs-audiences.md)
 >* [ bevestigt een levering en verzendt proefdrukken ](preview-and-proof.md)
 >* [ vorm en verzend de levering ](configure-and-send.md)
->* [Best practices voor verzending](../start/delivery-best-practices.md)
+>* [Best practices voor verzending](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## Uw e-mails testen en valideren
 

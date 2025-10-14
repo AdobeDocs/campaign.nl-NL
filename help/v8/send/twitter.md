@@ -4,10 +4,10 @@ description: Leer hoe u de Adobe Campaign Social Marketing-module kunt gebruiken
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 2%
+source-wordcount: '782'
+ht-degree: 3%
 
 ---
 
@@ -149,7 +149,7 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
 >[!CAUTION]
 >
->U kunt niet meer dan 250 directe berichten per dag verzenden. Als u wilt voorkomen dat deze drempelwaarde wordt overschreden, kunt u in golven leveren. Voor meer op dit, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=nl-NL#sending-using-multiple-waves){target="_blank"}.
+>U kunt niet meer dan 250 directe berichten per dag verzenden. Als u wilt voorkomen dat deze drempelwaarde wordt overschreden, kunt u in golven leveren. Raadpleeg deze [sectie](configure-and-send.md#sending-using-multiple-waves) voor meer informatie.
 
 
 ## Gegevens voor bijhouden van toegang {#tw-tracking}
@@ -158,5 +158,5 @@ In de ingebouwde leveringssjabloon van **[!UICONTROL Tweet]** wordt het bijhoude
 
 Trackinggegevens kunnen worden weergegeven in de leveringsrapporten en op het tabblad **[!UICONTROL Edit > Tracking]** van de levering en de service.
 
-De volgende configuratie is het zelfde als voor een e-maillevering. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=nl-NL){target="_blank"}.
+De volgende configuratie is het zelfde als voor een e-maillevering. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"}.
 

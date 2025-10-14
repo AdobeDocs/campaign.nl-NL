@@ -6,9 +6,9 @@ feature: Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '742'
 ht-degree: 4%
 
 ---
@@ -25,11 +25,11 @@ Volg de onderstaande principes bij het ontwerpen van uw berichtinhoud:
 * [ verbinding Unsubscription ](#opt-out) en landende pagina: de unsubscription verbinding is essentieel. Het formulier moet zichtbaar en geldig zijn en moet functioneel zijn.
 * Voorproef: gebruik de hulpmiddelen die door Adobe Campaign worden aangeboden om de inhoud van uw e-mail te controleren en te optimaliseren ([ Inbox teruggevend ](#message-responsiveness), [ SpamAssassin ](#spamassassin)).
 
-Voor extra uiteinden om leverbaarheid te optimaliseren wanneer het ontwerpen van inhoud, zie de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=nl-NL){target="_blank"}.
+Voor extra uiteinden om leverbaarheid te optimaliseren wanneer het ontwerpen van inhoud, zie de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html){target="_blank"}.
 
 >[!NOTE]
 >
->Voor meer informatie bij het uitgeven van e-mailinhoud, zie [ de e-mailinhoud ](defining-the-email-content.md) bepalen.
+>Voor meer informatie bij het uitgeven van e-mailinhoud, zie deze [ pagina ](defining-the-email-content.md).
 
 ## Adres van afzender {#sender-address}
 
@@ -37,7 +37,7 @@ Bepaalde ISPs controleren de geldigheid van het afzenderadres (**[!UICONTROL Fro
 
 U moet ervoor zorgen dat het juiste adres wordt opgegeven op instantieniveau (menu **[!UICONTROL Tools > Advanced > deployment wizard...]**) of in de meest gebruikte scenario&#39;s.
 
-Voor meer bij het bepalen van het adres van de afzender, zie [ deze pagina ](defining-the-email-content.md#sender).
+Voor meer bij het bepalen van het adres van de afzender, zie deze [ pagina ](defining-the-email-content.md#sender).
 
 ## Personalization {#personalization}
 

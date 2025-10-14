@@ -6,7 +6,7 @@ feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 8%
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 Alvorens **te raken verzend** knoop, zorg ervoor dat uw bericht aan de ontvangers op een optimale manier op een verscheidenheid van Webcliënten, Webpost en apparaten zal worden getoond.
 
-Om dit toe te staan, gebruikt Adobe Campaign de [ web-based e-mailtestende oplossing 0&rbrace; Litmus &lbrace;om de teruggaven te vangen en hen beschikbaar te maken in een specifiek rapport. ](https://litmus.com/email-testing){target="_blank"} Hierdoor kunt u een voorvertoning van het verzonden bericht weergeven in de verschillende contexten waarin het kan worden ontvangen en de compatibiliteit van grote desktops en toepassingen controleren.
+Om dit toe te staan, gebruikt Adobe Campaign de [ web-based e-mailtestende oplossing 0} Litmus {om de teruggaven te vangen en hen beschikbaar te maken in een specifiek rapport. ](https://litmus.com/email-testing){target="_blank"} Hierdoor kunt u een voorvertoning van het verzonden bericht weergeven in de verschillende contexten waarin het kan worden ontvangen en de compatibiliteit van grote desktops en toepassingen controleren.
 
 >[!CAUTION]
 >Inbox het teruggeven is niet compatibel met [ terugkomende leveringen ](../../automation/workflow/recurring-delivery.md).
@@ -62,7 +62,8 @@ Doorgaans wordt de renderfunctie Inbox gebruikt om het HTML-framework van een ni
 
 Voer onderstaande stappen uit als u de e-maillevering hebt gemaakt en de content en de doelpopulatie ervan hebt bepaald.
 
-Voor meer bij het creëren van, het ontwerpen van en het richten van een levering, verwijs naar [ deze sectie ](defining-the-email-content.md).
+Voor meer bij het creëren van, het ontwerpen van en het richten van een levering, verwijs naar deze [ pagina ](defining-the-email-content.md).
+
 
 1. Klik op de knop **[!UICONTROL Inbox rendering]** op de bovenste balk van de levering.
 
