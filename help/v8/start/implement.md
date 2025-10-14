@@ -38,17 +38,17 @@ Adobe Campaign wordt geleverd met processen en instellingen waarmee u Campagne k
 
 * **de aanwinst van Gegevens**: Adobe Campaign laat u toe om gegevens, met inbegrip van persoonlijke en gevoelige informatie te verzamelen. Het is daarom van essentieel belang dat u toestemming krijgt en beheert van uw ontvangers.
 
-  Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#data-acquisition){target="_blank"}
+  Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#data-acquisition){target="_blank"}
 
 * **de toestemming van de Gebruiker en gegevensbehoud**: u moet gebruikerstoestemming krijgen, opstelling dubbele opt-in abonnementsmechanismen, vergemakkelijken opt-out en vormen gegevensbehoud.
 
-  Leer meer in [ Campaign Classic v7 privacydocumentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#consent){target="_blank"}
+  Leer meer in [&#x200B; Campaign Classic v7 privacydocumentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#consent){target="_blank"}
 
-* **Privacy en gegevensbeschermingsverordeningen**: verwijs naar [ deze sectie ](privacy.md) voor informatie over privacyvereisten, en hoe deze verordeningen uw organisatie en Adobe Campaign beïnvloeden.
+* **Privacy en gegevensbeschermingsverordeningen**: verwijs naar [&#x200B; deze sectie &#x200B;](privacy.md) voor informatie over privacyvereisten, en hoe deze verordeningen uw organisatie en Adobe Campaign beïnvloeden.
 
 ### Beveiliging
 
-Leer veiligheidsrichtlijnen en principes met Adobe Campaign in [ checklist van de Veiligheid van de Campagne ](../config/security.md).
+Leer veiligheidsrichtlijnen en principes met Adobe Campaign in [&#x200B; checklist van de Veiligheid van de Campagne &#x200B;](../config/security.md).
 
 ## Campagne-instellingen definiëren{#implementation-ac-settings}
 
@@ -56,13 +56,13 @@ Leer veiligheidsrichtlijnen en principes met Adobe Campaign in [ checklist van d
 
 U kunt gebruikers handmatig toevoegen aan Campagne en deze koppelen aan groepen, uitgelijnd op uw rolhiërarchie. De gebruikers zullen dan login en tot de gegevens en de toestemmingen kunnen toegang hebben die voor hen aangewezen zijn.
 
-Leer hoe te om gebruikers aan Adobe Campaign in [ toe te voegen deze sectie ](../start/gs-permissions.md).
+Leer hoe te om gebruikers aan Adobe Campaign in [&#x200B; toe te voegen deze sectie &#x200B;](../start/gs-permissions.md).
 
 ### Campagne-clientconsole installeren{#implementation-install-console}
 
 De hoofdgebruikersinterface van de toepassing is een rijke client, met andere woorden een native toepassing (Windows) die alleen communiceert met de Adobe Campaign-toepassingsserver met standaard internetprotocollen (SOAP, HTTP, enzovoort). Adobe Campaign Client Console biedt geweldige gebruiksvriendelijkheid voor productiviteit, gebruikt zeer weinig bandbreedte (door het gebruik van een lokale cache) en is ontworpen voor eenvoudige implementatie. Deze console kan vanuit een internetbrowser worden geïmplementeerd, kan automatisch worden bijgewerkt en vereist geen specifieke netwerkconfiguratie omdat alleen HTTP(S)-verkeer wordt gegenereerd.
 
-[ Leer meer over de cliëntconsole van de Campagne ](connect.md).
+[&#x200B; Leer meer over de cliëntconsole van de Campagne &#x200B;](connect.md).
 
 ## Uw omgeving voorbereiden{#implementation-prepare-your-env}
 
@@ -72,35 +72,35 @@ Voordat u begint met het verzenden van berichten en het maken van marketingcampa
 
    Met de campagne kunt u contactpersonen toevoegen aan de Cloud-database. U kunt een dossier laden, veelvoudige contactupdates plannen en automatiseren, gegevens op het Web verzamelen, of profielinformatie direct in de ontvankelijke lijst ingaan.
 
-   [ leer hoe te om profielen ](import.md) in te voeren.
+   [&#x200B; leer hoe te om profielen &#x200B;](import.md) in te voeren.
 
    De soorten publiek worden gegroepeerd in lijsten en kunnen door werkschema&#39;s worden tot stand gebracht. Deze kunnen vervolgens worden gebruikt voor leveringen tussen kanalen.
 
-   [ leer hoe te om publiek ](audiences.md) te bepalen.
+   [&#x200B; leer hoe te om publiek &#x200B;](audiences.md) te bepalen.
 
 1. **Sjablonen gebruiken**
 
    Campagnes, leveringen, taken of workflows zijn allemaal gebaseerd op een sjabloon waarin de belangrijkste instellingen en mogelijkheden zijn opgeslagen. Een ingebouwde sjabloon wordt geleverd voor elke component, waarvoor geen specifieke configuratie is gedefinieerd. U moet malplaatjes vormen en aanpassen aan uw behoeften en hen ter beschikking stellen aan eindgebruikers.
 
 
-   Leer hoe te met campagnemalplaatjes in [ te werken deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html){target="_blank"}.
+   Leer hoe te met campagnemalplaatjes in [&#x200B; te werken deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html){target="_blank"}.
 
-   Leer hoe te om een werkschemamalplaatje in [ te vormen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}.
+   Leer hoe te om een werkschemamalplaatje in [&#x200B; te vormen deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}.
 
-   Leer meer over e-mailmalplaatjes in deze [ pagina ](../send/create-templates.md).
+   Leer meer over e-mailmalplaatjes in deze [&#x200B; pagina &#x200B;](../send/create-templates.md).
 
 
 1. **vorm typologieregels**
 
    De typologieregels van de Campagne van de hefboomwerking aan filter, controle en monitorlevering die verzenden. Zo regelt u met vermoeidheidsregels de regelfrequentie en de hoeveelheid berichten om overmatige aansporing van ontvangers te voorkomen. Na implementatie worden er in leveringen naar typologische regels verwezen.
 
-   Leer meer over typologieën en vermoeidheidsbeheer in [ deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
+   Leer meer over typologieën en vermoeidheidsbeheer in [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 1. **krijgt vertrouwd met de ingebouwde campagne gegevensmodel**
 
    Adobe Campaign bevat een vooraf gedefinieerd datamodel. Als u uw omgeving wilt implementeren en aanpassen, moet u vertrouwd zijn met de ingebouwde tabellen van het Adobe Campaign-gegevensmodel en hoe deze op elkaar betrekking hebben.
 
-   [ leer meer over het gegevensmodel van de Campagne ](../dev/datamodel.md).
+   [&#x200B; leer meer over het gegevensmodel van de Campagne &#x200B;](../dev/datamodel.md).
 
 ## Instantie aanpassen{#implementation-custom-your-instance}
 
@@ -110,7 +110,7 @@ U kunt vele verschillende campagnegebieden en mogelijkheden aanpassen. De meeste
 
    Adobe Campaign wordt geleverd met algemene schema&#39;s voor het identificeren van gegevens, zoals ontvangers, leveringslogboeken, abonnementen en meer.
 
-   Verwijs naar deze sectie om meer over [ te leren ingebouwde de gegevensmodel van de Campagne ](../dev/datamodel.md).
+   Verwijs naar deze sectie om meer over [&#x200B; te leren ingebouwde de gegevensmodel van de Campagne &#x200B;](../dev/datamodel.md).
 
    U kunt bestaande schema&#39;s uitbreiden of nieuwe schema&#39;s van kras tot stand brengen. Meer informatie vindt u [op deze pagina](../dev/customize.md).
 
@@ -118,7 +118,7 @@ U kunt vele verschillende campagnegebieden en mogelijkheden aanpassen. De meeste
 
    U kunt lijsten eenvoudig configureren, velden toevoegen en verwijderen en kolommen aanpassen.
 
-   Leer hoe te om filters en lijsten in Campagne in [ te beheren deze pagina ](../dev/customize.md#gs-lists-and-filters).
+   Leer hoe te om filters en lijsten in Campagne in [&#x200B; te beheren deze pagina &#x200B;](../dev/customize.md#gs-lists-and-filters).
 
    Afhankelijk van uw behoeften kunt u ook nieuwe dashboards maken om Campagnegegevens weer te geven.
 
@@ -130,18 +130,18 @@ U kunt vele verschillende campagnegebieden en mogelijkheden aanpassen. De meeste
 
    Naast ingebouwde rapporten kunt u in Adobe Campaign rapporten in verschillende contexten genereren en aan verschillende behoeften voldoen. In dit document worden beginselen van gebruik en uitvoeringsmodi uiteengezet.
 
-   Leer meer over het melden van mogelijkheden in Campagne in [ deze pagina ](../reporting/gs-reporting.md).
+   Leer meer over het melden van mogelijkheden in Campagne in [&#x200B; deze pagina &#x200B;](../reporting/gs-reporting.md).
 
 
 ## Campagne automatiseren instellen{#implementation-automation}
 
 Als u complexe marketingcampagnes op verschillende kanalen wilt ordenen, kunt u de automatiseringsmogelijkheden van de campagne benutten.
 
-* Gebruik **werkschema&#39;s** om processen en gegevens te beheren. Leer meer in [ deze documentatie ](../../automation/workflow/about-workflows.md)
+* Gebruik **werkschema&#39;s** om processen en gegevens te beheren. Leer meer in [&#x200B; deze documentatie &#x200B;](../../automation/workflow/about-workflows.md)
 
-* De opstelling **processen van het abonnement** en **landende pagina&#39;s**.  Leer meer in [ deze pagina ](../start/subscriptions.md)
+* De opstelling **processen van het abonnement** en **landende pagina&#39;s**.  Leer meer in [&#x200B; deze pagina &#x200B;](../start/subscriptions.md)
 
-* Vorm **typologieregels** om vermoeidheid en controlebeheer te bepalen.  Leer meer in [ deze documentatie ](../../automation/campaign-opt/campaign-typologies.md)
+* Vorm **typologieregels** om vermoeidheid en controlebeheer te bepalen.  Leer meer in [&#x200B; deze documentatie &#x200B;](../../automation/campaign-opt/campaign-typologies.md)
 
 
 ## Uw implementatie uitbreiden{#implementation-extend}
@@ -162,22 +162,22 @@ Als u andere Adobe-oplossingen gebruikt, kunt u deze aansluiten op uw Campagneom
 
 U kunt Single Sign-On (SSO) alleen gebruiken om verbinding te maken met Campaign. Meer informatie vindt u [op deze pagina](connect.md).
 
-Ontdek de volledige lijst van de oplossing van Adobe die met Adobe Campaign [ in deze pagina ](../connect/integration.md) kan worden geïntegreerd.
+Ontdek de volledige lijst van de oplossing van Adobe die met Adobe Campaign [&#x200B; in deze pagina &#x200B;](../connect/integration.md) kan worden geïntegreerd.
 
 ### Aansluitingen{#implementation-connectors}
 
 Verbind Campagne met derdesystemen om een grote waaier van mogelijkheden te combineren en processen te automatiseren.
 
-Leer meer over beschikbare schakelaars in [ deze sectie ](../connect/integration.md).
+Leer meer over beschikbare schakelaars in [&#x200B; deze sectie &#x200B;](../connect/integration.md).
 
 **verbind uw CRM met Campagne**
 
 U kunt uw Adobe Campaign-platform aansluiten op uw CRM-systemen van derden en gegevens synchroniseren: contactpersonen, accounts, aankopen, enzovoort.
 
-Leer hoe te om uw systeem van CRM aan Campagne in [ te verbinden deze sectie ](../connect/integration.md#gs-crm-connectors)
+Leer hoe te om uw systeem van CRM aan Campagne in [&#x200B; te verbinden deze sectie &#x200B;](../connect/integration.md#gs-crm-connectors)
 
 **verbind met een extern gegevensbestand**
 
 U kunt de Campagne Cloud-database verbinden met externe systemen via de FDA-module (Federated Data Access).
 
-Leer hoe te om de module van FDA van de Campagne te vormen om toegangsparameters in [ te bepalen deze sectie ](../connect/integration.md#gs-fda)
+Leer hoe te om de module van FDA van de Campagne te vormen om toegangsparameters in [&#x200B; te bepalen deze sectie &#x200B;](../connect/integration.md#gs-fda)

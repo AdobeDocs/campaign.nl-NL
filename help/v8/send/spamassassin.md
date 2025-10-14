@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # SpamAssassin{#spamassassin}
 
-Adobe Campaign kan worden gevormd om met [ te werken SpamAssassin ](https://spamassassin.apache.org){target="_blank"}, een derdedienst die voor het filtreren van e-mailspam wordt gebruikt. Dit staat u toe om e-mailberichten te scoren om te bepalen of een bericht het risico loopt om als spam door de anti-anti-spamhulpmiddelen worden beschouwd die op ontvangstbewijs worden gebruikt.
+Adobe Campaign kan worden gevormd om met [&#x200B; te werken SpamAssassin &#x200B;](https://spamassassin.apache.org){target="_blank"}, een derdedienst die voor het filtreren van e-mailspam wordt gebruikt. Dit staat u toe om e-mailberichten te scoren om te bepalen of een bericht het risico loopt om als spam door de anti-anti-spamhulpmiddelen worden beschouwd die op ontvangstbewijs worden gebruikt.
 
 SpamAssassin maakt gebruik van diverse spamdetectietechnieken, waaronder:
 
@@ -35,7 +35,7 @@ SpamAssassin maakt gebruik van diverse spamdetectietechnieken, waaronder:
 
 Nadat u de e-maillevering hebt gemaakt en de inhoud ervan hebt gedefinieerd, volgt u de onderstaande stappen om de risico&#39;s te evalueren.
 
-Voor meer bij het creëren van en het ontwerpen van een levering, verwijs naar deze [ pagina ](defining-the-email-content.md).
+Voor meer bij het creëren van en het ontwerpen van een levering, verwijs naar deze [&#x200B; pagina &#x200B;](defining-the-email-content.md).
 
 
 1. Ga naar de tab **[!UICONTROL Preview]** .

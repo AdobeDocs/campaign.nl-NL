@@ -19,18 +19,18 @@ ht-degree: 8%
 
 Alvorens **te raken verzend** knoop, zorg ervoor dat uw bericht aan de ontvangers op een optimale manier op een verscheidenheid van Webcliënten, Webpost en apparaten zal worden getoond.
 
-Om dit toe te staan, gebruikt Adobe Campaign de [ web-based e-mailtestende oplossing 0} Litmus {om de teruggaven te vangen en hen beschikbaar te maken in een specifiek rapport. ](https://litmus.com/email-testing){target="_blank"} Hierdoor kunt u een voorvertoning van het verzonden bericht weergeven in de verschillende contexten waarin het kan worden ontvangen en de compatibiliteit van grote desktops en toepassingen controleren.
+Om dit toe te staan, gebruikt Adobe Campaign de [&#x200B; web-based e-mailtestende oplossing 0&rbrace; Litmus &lbrace;om de teruggaven te vangen en hen beschikbaar te maken in een specifiek rapport. &#x200B;](https://litmus.com/email-testing){target="_blank"} Hierdoor kunt u een voorvertoning van het verzonden bericht weergeven in de verschillende contexten waarin het kan worden ontvangen en de compatibiliteit van grote desktops en toepassingen controleren.
 
 >[!CAUTION]
->Inbox het teruggeven is niet compatibel met [ terugkomende leveringen ](../../automation/workflow/recurring-delivery.md).
+>Inbox het teruggeven is niet compatibel met [&#x200B; terugkomende leveringen &#x200B;](../../automation/workflow/recurring-delivery.md).
 
 Litmus is een functie-rijke e-mailbevestiging en previewing toepassing. Hiermee kunnen makers van e-mailinhoud hun berichtinhoud voorvertonen in meer dan 70 e-mailrenderers, zoals de Gmail inbox of de Apple Mail client.
 
-De mobiele, overseinen en webmail cliënten beschikbaar voor **Inbox teruggevend** in Adobe Campaign zijn vermeld op de [ website van de Samenvatting ](https://litmus.com/email-testing){target="_blank"} (klik **Mening alle e-mailcliënten**).
+De mobiele, overseinen en webmail cliënten beschikbaar voor **Inbox teruggevend** in Adobe Campaign zijn vermeld op de [&#x200B; website van de Samenvatting &#x200B;](https://litmus.com/email-testing){target="_blank"} (klik **Mening alle e-mailcliënten**).
 
 >[!NOTE]
 >
->Rendering in doos is niet nodig om personalisatie in leveringen te testen. Personalization kan met de hulpmiddelen van Adobe Campaign zoals **[!UICONTROL Preview]** en [ Proofs ](preview-and-proof.md#send-proofs) worden gecontroleerd.
+>Rendering in doos is niet nodig om personalisatie in leveringen te testen. Personalization kan met de hulpmiddelen van Adobe Campaign zoals **[!UICONTROL Preview]** en [&#x200B; Proofs &#x200B;](preview-and-proof.md#send-proofs) worden gecontroleerd.
 
 ## Informatie over Litmus tokens {#about-litmus-tokens}
 
@@ -52,7 +52,7 @@ Telkens wanneer u de functie **[!UICONTROL Inbox rendering]** in een levering ge
 >* Als u voor dezelfde levering de rendering Inbox opnieuw genereert, wordt het aantal beschikbare tokens opnieuw verminderd met het aantal gegenereerde renderingen.
 >
 
-Het aantal resterende beschikbare tokens wordt getoond in het [ Inbox teruggevend rapport ](#inbox-rendering-report).
+Het aantal resterende beschikbare tokens wordt getoond in het [&#x200B; Inbox teruggevend rapport &#x200B;](#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -62,7 +62,7 @@ Doorgaans wordt de renderfunctie Inbox gebruikt om het HTML-framework van een ni
 
 Voer onderstaande stappen uit als u de e-maillevering hebt gemaakt en de content en de doelpopulatie ervan hebt bepaald.
 
-Voor meer bij het creëren van, het ontwerpen van en het richten van een levering, verwijs naar deze [ pagina ](defining-the-email-content.md).
+Voor meer bij het creëren van, het ontwerpen van en het richten van een levering, verwijs naar deze [&#x200B; pagina &#x200B;](defining-the-email-content.md).
 
 
 1. Klik op de knop **[!UICONTROL Inbox rendering]** op de bovenste balk van de levering.
@@ -71,7 +71,7 @@ Voor meer bij het creëren van, het ontwerpen van en het richten van een leverin
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   Er wordt een bewijs verzonden. De renderingminiaturen zijn enkele minuten na het verzenden van de e-mails toegankelijk in die proefdruk. Voor meer bij het verzenden van proeven, verwijs naar [ deze sectie ](preview-and-proof.md#send-proofs).
+   Er wordt een bewijs verzonden. De renderingminiaturen zijn enkele minuten na het verzenden van de e-mails toegankelijk in die proefdruk. Voor meer bij het verzenden van proeven, verwijs naar [&#x200B; deze sectie &#x200B;](preview-and-proof.md#send-proofs).
 
 1. Na verzending wordt de proefdruk weergegeven in de leveringslijst. Dubbelklik erop.
 

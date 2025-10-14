@@ -30,7 +30,7 @@ Van het leveringsdashboard, kunt u de verwerkte berichten en de logboeken van de
 
 >[!NOTE]
 >
->De leveringsstatus wordt niet in real time weergegeven. Leer meer over de Dienst van de Terugkoppeling E-mail [ in deze sectie ](#email-feedback-service).
+>De leveringsstatus wordt niet in real time weergegeven. Leer meer over de Dienst van de Terugkoppeling E-mail [&#x200B; in deze sectie &#x200B;](#email-feedback-service).
 
 ## Campagne MTA {#mta}
 
@@ -58,7 +58,7 @@ MTA kwalificeert de stuit SMTP en verzendt die kwalificatie terug naar Campaign 
 >
 >Momenteel **asynchrone** grenzen worden gekwalificeerd door het proces InMail door de **[!UICONTROL Inbound email]** regels.
 
-Leer meer op leveringsmislukkingen in [ deze sectie ](delivery-failures.md).
+Leer meer op leveringsmislukkingen in [&#x200B; deze sectie &#x200B;](delivery-failures.md).
 
 
 ### Specifieke MX-regels
@@ -73,7 +73,7 @@ Domain Keys Identified Mail (DKIM) is een verificatiemethode waarmee vervalste a
 
 In Adobe Campaign wordt de ondertekening van DKIM-e-mailverificatie uitgevoerd door de MTA.
 
-Leer meer op DKIM in de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
+Leer meer op DKIM in de [&#x200B; Gids van de Beste praktijken van de Levering van Adobe &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## E-mailfeedbackservice {#email-feedback-service}
 
@@ -85,7 +85,7 @@ Wanneer het bericht werkelijk aan de gerichte profielen wordt geleverd en zodra 
 
 Wanneer hard-bouncing berichten van MTA worden gemeld, verandert hun logboekstatus van **[!UICONTROL Taken into account by the service provider]** in **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Wanneer de zachte-stuiterende berichten terug van MTA worden gemeld, blijft hun logboekstatus onveranderd (**[!UICONTROL Taken into account by the service provider]**): slechts wordt de [ foutenreden ](delivery-failures.md#delivery-failure-reasons) bijgewerkt <!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Het percentage **[!UICONTROL Success]** blijft ongewijzigd. De soft-bouncing berichten worden dan opnieuw geprobeerd door de levering [ geldigheidsperiode ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels){target="_blank"}:
+Wanneer de zachte-stuiterende berichten terug van MTA worden gemeld, blijft hun logboekstatus onveranderd (**[!UICONTROL Taken into account by the service provider]**): slechts wordt de [&#x200B; foutenreden &#x200B;](delivery-failures.md#delivery-failure-reasons) bijgewerkt <!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Het percentage **[!UICONTROL Success]** blijft ongewijzigd. De soft-bouncing berichten worden dan opnieuw geprobeerd door de levering [&#x200B; geldigheidsperiode &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels){target="_blank"}:
 
 * Als het opnieuw proberen is gelukt vóór het einde van de geldigheidsperiode, verandert de berichtstatus in **[!UICONTROL Sent]** en wordt het **[!UICONTROL Success]** percentage dienovereenkomstig verhoogd.
 
@@ -93,9 +93,9 @@ Wanneer de zachte-stuiterende berichten terug van MTA worden gemeld, blijft hun 
 
 >[!NOTE]
 >
->Voor meer op harde en zachte grenzen, zie [ deze sectie ](delivery-failures.md#delivery-failure-reasons).
+>Voor meer op harde en zachte grenzen, zie [&#x200B; deze sectie &#x200B;](delivery-failures.md#delivery-failure-reasons).
 >
->Voor meer op herpogingen na een tijdelijke mislukking van de levering, zie [ deze sectie ](delivery-failures.md#retries).
+>Voor meer op herpogingen na een tijdelijke mislukking van de levering, zie [&#x200B; deze sectie &#x200B;](delivery-failures.md#retries).
 
 De lijst toont hieronder hoe KPIs en het verzenden van logboekstatussen bij elke stap van het verzendende proces worden bijgewerkt.
 

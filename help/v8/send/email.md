@@ -19,10 +19,10 @@ Met Adobe Campaign kunt u e-mailleveringen maken om persoonlijke e-mails naar de
 
 >[!NOTE]
 >
->Om fascinerend en individueel gerichte e-mails tot stand te brengen, doorblader aan het [ interface van de Webgebruiker ](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign wordt geleverd met de E-mail Designer, een intuïtieve drag-and-drop interface waarmee u alle inhoud voor elke e-mail kunt ontwerpen en verfijnen.
+>Om fascinerend en individueel gerichte e-mails tot stand te brengen, doorblader aan het [&#x200B; interface van de Webgebruiker &#x200B;](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign wordt geleverd met de E-mail Designer, een intuïtieve drag-and-drop interface waarmee u alle inhoud voor elke e-mail kunt ontwerpen en verfijnen.
 
 
-Leer zeer belangrijke stappen om een levering in [ tot stand te brengen en te vormen deze pagina ](../start/create-message.md).
+Leer zeer belangrijke stappen om een levering in [&#x200B; tot stand te brengen en te vormen deze pagina &#x200B;](../start/create-message.md).
 
 ## Een e-maillevering maken
 
@@ -67,7 +67,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
      ![](assets/perso-check.png)
 
-     Leer meer over verpersoonlijkingsopties in [ deze sectie ](personalize.md).
+     Leer meer over verpersoonlijkingsopties in [&#x200B; deze sectie &#x200B;](personalize.md).
 
    * Een bijgehouden koppeling invoegen
 
@@ -79,11 +79,11 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
    * Een spiegelpagina toevoegen
 
-     Om uw ontvangers toe te staan om uw leveringsinhoud in Webbrowser te bekijken, voeg een verbinding aan de [ spiegelpagina ](mirror-page.md) van uw bericht toe.
+     Om uw ontvangers toe te staan om uw leveringsinhoud in Webbrowser te bekijken, voeg een verbinding aan de [&#x200B; spiegelpagina &#x200B;](mirror-page.md) van uw bericht toe.
 
      Plaats de cursor op de plaats waar u deze koppeling wilt invoegen, klik op het laatste pictogram op de werkbalk en klik vervolgens op **[!UICONTROL Include]** en selecteer **[!UICONTROL link to mirror page]** .
 
-     Leer meer over het beheren van de spiegelpagina in [ deze sectie ](mirror-page.md#link-to-mirror-page).
+     Leer meer over het beheren van de spiegelpagina in [&#x200B; deze sectie &#x200B;](mirror-page.md#link-to-mirror-page).
 
 1. U kunt aanvullende parameters voor uw e-mail definiëren, zoals het verzenden van een kopie van uw berichten naar een BBC-adres, het wijzigen van de berichtindeling, het instellen van een specifieke codering, enzovoort. Lees meer in [deze sectie](email-parameters.md).
 
@@ -91,20 +91,20 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
 
-Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [ gebruiksgeval ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"} in te voeren.
+Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [&#x200B; gebruiksgeval &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"} in te voeren.
 
 >[!MORELIKETHIS]
 >
->* [ creeer een levering ](../start/create-message.md)
->* [ creeer en gebruik een e-mailmalplaatje ](create-templates.md)
->* [ selecteer het publiek van uw e-mail ](../audiences/gs-audiences.md)
->* [ bevestigt een levering en verzendt proefdrukken ](preview-and-proof.md)
->* [ vorm en verzend de levering ](configure-and-send.md)
+>* [&#x200B; creeer een levering &#x200B;](../start/create-message.md)
+>* [&#x200B; creeer en gebruik een e-mailmalplaatje &#x200B;](create-templates.md)
+>* [&#x200B; selecteer het publiek van uw e-mail &#x200B;](../audiences/gs-audiences.md)
+>* [&#x200B; bevestigt een levering en verzendt proefdrukken &#x200B;](preview-and-proof.md)
+>* [&#x200B; vorm en verzend de levering &#x200B;](configure-and-send.md)
 >* [Best practices voor verzending](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## Uw e-mails testen en valideren
 
-De campagne biedt verschillende manieren om uw e-mails te testen en te valideren voordat u ze naar uw publiek stuurt. Leer hoe te om uw e-mailinhoud in [ te voorproef en te testen deze sectie ](../send/preview-and-proof.md).
+De campagne biedt verschillende manieren om uw e-mails te testen en te valideren voordat u ze naar uw publiek stuurt. Leer hoe te om uw e-mailinhoud in [&#x200B; te voorproef en te testen deze sectie &#x200B;](../send/preview-and-proof.md).
 
 U kunt:
 
