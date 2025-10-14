@@ -91,7 +91,7 @@ In het volgende voorbeeld leert u hoe u een e-maillevering ontwerpt in Adobe Cam
 
 Uw eerste e-maillevering is gereed. U moet nu het publiek definiëren, de levering valideren en verzenden.
 
-Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [&#x200B; gebruiksgeval &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"} in te voeren.
+Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [&#x200B; gebruiksgeval &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=nl-NL){target="_blank"} in te voeren.
 
 >[!MORELIKETHIS]
 >
@@ -100,7 +100,7 @@ Leer hoe te om een werkschema tot stand te brengen om een e-mailinhoud in dit [&
 >* [&#x200B; selecteer het publiek van uw e-mail &#x200B;](../audiences/gs-audiences.md)
 >* [&#x200B; bevestigt een levering en verzendt proefdrukken &#x200B;](preview-and-proof.md)
 >* [&#x200B; vorm en verzend de levering &#x200B;](configure-and-send.md)
->* [Best practices voor verzending](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
+>* [Best practices voor verzending](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=nl-NL){target="_blank"}
 
 ## Uw e-mails testen en valideren
 

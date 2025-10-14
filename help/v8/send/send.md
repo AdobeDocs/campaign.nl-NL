@@ -73,7 +73,7 @@ Domain Keys Identified Mail (DKIM) is een verificatiemethode waarmee vervalste a
 
 In Adobe Campaign wordt de ondertekening van DKIM-e-mailverificatie uitgevoerd door de MTA.
 
-Leer meer op DKIM in de [&#x200B; Gids van de Beste praktijken van de Levering van Adobe &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
+Leer meer op DKIM in de [&#x200B; Gids van de Beste praktijken van de Levering van Adobe &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#authentication){target="_blank"}.
 
 ## E-mailfeedbackservice {#email-feedback-service}
 

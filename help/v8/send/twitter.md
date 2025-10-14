@@ -158,5 +158,5 @@ In de ingebouwde leveringssjabloon van **[!UICONTROL Tweet]** wordt het bijhoude
 
 Trackinggegevens kunnen worden weergegeven in de leveringsrapporten en op het tabblad **[!UICONTROL Edit > Tracking]** van de levering en de service.
 
-De volgende configuratie is het zelfde als voor een e-maillevering. Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"}.
+De volgende configuratie is het zelfde als voor een e-maillevering. Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=nl-NL){target="_blank"}.
 
