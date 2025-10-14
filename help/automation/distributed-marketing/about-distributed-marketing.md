@@ -59,7 +59,7 @@ De centrale entiteit verstrekt campagnes die lokale entiteiten kunnen gebruiken.
 
   De mate van autonomie van de lokale entiteit hangt af van de gebruikte implementatie.
 
-  Verwijs naar [ Creërend een lokale campagne ](creating-a-local-campaign.md).
+  Verwijs naar [&#x200B; Creërend een lokale campagne &#x200B;](creating-a-local-campaign.md).
 
 * **Samenwerkende campagne**
 
@@ -70,7 +70,7 @@ De centrale entiteit verstrekt campagnes die lokale entiteiten kunnen gebruiken.
    * **[!UICONTROL Collaborative campaign (by target approval)]** : aanbevolen voor campagnes gericht op duizenden lokale entiteiten. De lokale entiteit ontvangt een lijst van contacten die door de centrale entiteit vooraf is bepaald. De lokale entiteit beslist of bepaalde contacten op basis van de inhoud van de campagne al dan niet via een webformulier worden onderhouden. Lokale entiteiten worden afgeleid van de lijst met geselecteerde contactpersonen. Om aan de campagne deel te nemen, heeft de lokale entiteit enkel Webtoegang nodig.
    * **[!UICONTROL Collaborative campaign (simple)]** : deze modus zorgt voor compatibiliteit met de specifieke uitvoeringsprocessen van eerdere versies.
 
-  Verwijs naar [ Creërend een samenwerkingscampagne ](creating-a-collaborative-campaign.md).
+  Verwijs naar [&#x200B; Creërend een samenwerkingscampagne &#x200B;](creating-a-collaborative-campaign.md).
 
 **die tot campagnepakketten opdracht geven**
 
@@ -116,7 +116,7 @@ Elke organisatorische entiteit bevat identificatiegegevens (label, interne naam,
 
 >[!NOTE]
 >
->Het goedkeuringsproces wordt voorgesteld in de [ sectie van het proces van de Goedkeuring ](creating-a-local-campaign.md#approval-process).
+>Het goedkeuringsproces wordt voorgesteld in de [&#x200B; sectie van het proces van de Goedkeuring &#x200B;](creating-a-local-campaign.md#approval-process).
 
 ## Implementatie {#implementation}
 

@@ -23,7 +23,7 @@ In het algemeen moeten operatoren die op workflows reageren, toegang krijgen tot
 
 Ze moeten ook worden toegewezen aan de benoemde rechten die samenvallen met de acties die worden uitgevoerd door workflows die ze beïnvloeden (importeren van ontvangers, bestandstoegang, fusie, uitvoering van SQL-scripts, enzovoort).
 
-Voor meer bij het beheren van exploitanten en toestemmingen, verwijs naar [ deze sectie ](../../v8/start/gs-permissions.md).
+Voor meer bij het beheren van exploitanten en toestemmingen, verwijs naar [&#x200B; deze sectie &#x200B;](../../v8/start/gs-permissions.md).
 
 ## Exploitantgroepen {#operator-groups-wf}
 

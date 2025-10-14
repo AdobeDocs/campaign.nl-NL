@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Sleutelbeheer en eenheid {#key-management}
 
-In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), is de primaire sleutel een Universally Unique IDentifier (UUID), die een koord van karakters is. Om deze UUID tot stand te brengen, moet het belangrijkste element van het schema **auto** bevatten en **automatische** attributen die aan **waar** worden geplaatst.
+In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](enterprise-deployment.md), is de primaire sleutel een Universally Unique IDentifier (UUID), die een koord van karakters is. Om deze UUID tot stand te brengen, moet het belangrijkste element van het schema **auto** bevatten en **automatische** attributen die aan **waar** worden geplaatst.
 
 Adobe Campaign v8 gebruikt [!DNL Snowflake] als de hoofddatabase. De verspreide architectuur van de [!DNL Snowflake] -database biedt geen mechanisme om de eenheid van een sleutel binnen een tabel te garanderen: eindgebruikers zijn verantwoordelijk voor de consistentie van de sleutel binnen de Adobe Campaign-database.
 
@@ -61,7 +61,7 @@ De campagne wordt geleverd met een set nieuwe instructies om te voorkomen dat ee
 
 >[!NOTE]
 >
->Deze instructies zijn beschikbaar vanaf Campagne v8.3. Om uw versie te controleren, verwijs naar [ deze sectie ](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>Deze instructies zijn beschikbaar vanaf Campagne v8.3. Om uw versie te controleren, verwijs naar [&#x200B; deze sectie &#x200B;](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 ### Aflevering voorbereiden {#remove-duplicates-delivery-preparation}
 
@@ -71,13 +71,13 @@ Adobe Campaign verwijdert automatisch gedupliceerde UUID&#39;s uit een publiek t
 
 ### Gegevens bijwerken in een workflow {#duplicates-update-data}
 
-In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), kunt u geen interne sleutel (UUID) als gebied selecteren om gegevens in een werkschema bij te werken.
+In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](enterprise-deployment.md), kunt u geen interne sleutel (UUID) als gebied selecteren om gegevens in een werkschema bij te werken.
 
 ![](assets/update-data-no-internal-key.png)
 
 ### Een query uitvoeren op een schema met duplicaten {#query-with-duplicates}
 
-Wanneer een werkschema begint vraag op een schema in werking te stellen, controleert Adobe Campaign als om het even welk gedupliceerd verslag in de [ lijst van de Uniciteit van de Controle ](#unicity-wf) wordt gemeld. Als dat het geval is, wordt een waarschuwing weergegeven als de volgende bewerking op de gedupliceerde gegevens mogelijk van invloed is op het resultaat van de workflow.
+Wanneer een werkschema begint vraag op een schema in werking te stellen, controleert Adobe Campaign als om het even welk gedupliceerd verslag in de [&#x200B; lijst van de Uniciteit van de Controle &#x200B;](#unicity-wf) wordt gemeld. Als dat het geval is, wordt een waarschuwing weergegeven als de volgende bewerking op de gedupliceerde gegevens mogelijk van invloed is op het resultaat van de workflow.
 
 ![](assets/query-with-duplicates.png)
 

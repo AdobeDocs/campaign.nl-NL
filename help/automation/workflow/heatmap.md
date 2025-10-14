@@ -27,14 +27,14 @@ Meer bepaald, helpt het de platformbeheerders om:
 * Workflows filteren op duur om te zien in welke workflows problemen kunnen optreden
 * Filteren van activiteiten op duur om te zien welke activiteiten problemen kunnen tegenkomen
 * Gemakkelijk individuele workflows en alle verwante activiteiten (met hun duur) vinden
-* Filter door werkschematype: [ technische werkschema&#39;s ](technical-workflows.md) of [ campagnewerkschema&#39;s ](campaign-workflows.md)
+* Filter door werkschematype: [&#x200B; technische werkschema&#39;s &#x200B;](technical-workflows.md) of [&#x200B; campagnewerkschema&#39;s &#x200B;](campaign-workflows.md)
 * Zoeken naar een specifieke workflow die moet worden geanalyseerd
 
 >[!NOTE]
 >
->Naast **Heatmap van het Werkschema**, kunt u een werkschema tot stand brengen dat u het statuut van een reeks werkschema&#39;s zal laten controleren en terugkomende berichten naar supervisors zal verzenden. Voor meer op dit, verwijs naar de [ specifieke sectie ](workflow-supervision.md).
+>Naast **Heatmap van het Werkschema**, kunt u een werkschema tot stand brengen dat u het statuut van een reeks werkschema&#39;s zal laten controleren en terugkomende berichten naar supervisors zal verzenden. Voor meer op dit, verwijs naar de [&#x200B; specifieke sectie &#x200B;](workflow-supervision.md).
 
-Het gebruiken van het Werkschema HeatMap vereist om een goed begrip van de volgende concepten te hebben: [ Werkstromen ](about-workflows.md), [ Activiteiten ](activities.md) en [ Beste praktijken van het Werkschema ](workflow-best-practices.md).
+Het gebruiken van het Werkschema HeatMap vereist om een goed begrip van de volgende concepten te hebben: [&#x200B; Werkstromen &#x200B;](about-workflows.md), [&#x200B; Activiteiten &#x200B;](activities.md) en [&#x200B; Beste praktijken van het Werkschema &#x200B;](workflow-best-practices.md).
 
 ## De workflow HeatMap aanpassen {#using-the-heatmap}
 
@@ -72,8 +72,8 @@ Het gebruiken van het Werkschema HeatMap vereist om een goed begrip van de volge
 
 1. U kunt ook filteren op **[!UICONTROL Workflow type]** :
 
-   * **[!UICONTROL Technical]**: Slechts [ ingebouwde technische werkschema&#39;s ](technical-workflows.md) en [ werkschema&#39;s van het gegevensbeheer ](targeting-workflows.md#data-management) worden getoond.
-   * **[!UICONTROL Marketing]**: Slechts worden de werkschema&#39;s verbonden aan een marketing campagne, die als [ wordt bekend campagnewerkschema&#39;s ](campaign-workflows.md), getoond.
+   * **[!UICONTROL Technical]**: Slechts [&#x200B; ingebouwde technische werkschema&#39;s &#x200B;](technical-workflows.md) en [&#x200B; werkschema&#39;s van het gegevensbeheer &#x200B;](targeting-workflows.md#data-management) worden getoond.
+   * **[!UICONTROL Marketing]**: Slechts worden de werkschema&#39;s verbonden aan een marketing campagne, die als [&#x200B; wordt bekend campagnewerkschema&#39;s &#x200B;](campaign-workflows.md), getoond.
 
 1. Als u een specifieke workflow op naam wilt doorzoeken, kunt u ook het veld **[!UICONTROL Workflow name filter]** gebruiken.
 

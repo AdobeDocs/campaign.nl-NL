@@ -18,7 +18,7 @@ De campagneinfrastructuur is afhankelijk van systemen van derden die regelmatig 
 
 Als a **Beheerde klant van de Diensten van de Wolk**, informeert Adobe u over deze verbeteringen wanneer zij nodig zijn. Uw omgevingen moeten overeenkomstig de aanbevelingen worden geüpgraded om naleving te garanderen.
 
-Voor veiligheidsredenen, moet Adobe [ de recentste Bouwstijl van de Campagne ](#ac-upgrade) installeren, en dan uw [ werkend systeem ](#os-upgrade) en/of uw [ Systeem van het Beheer van het Gegevensbestand van de Verhouding (RDBMS) ](#pg-upgrade) bevorderen.
+Voor veiligheidsredenen, moet Adobe [&#x200B; de recentste Bouwstijl van de Campagne &#x200B;](#ac-upgrade) installeren, en dan uw [&#x200B; werkend systeem &#x200B;](#os-upgrade) en/of uw [&#x200B; Systeem van het Beheer van het Gegevensbestand van de Verhouding (RDBMS) &#x200B;](#pg-upgrade) bevorderen.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Voor veiligheidsredenen, moet Adobe [ de recentste Bouwstijl van de Campagne ](#
 
 **Heeft dit gevolgen voor u?**
 
-Als u door de [ werkend systeemverbetering ](#os-upgrade) en/of de [ hieronder gedetailleerde verbetering van het gegevensbestandsysteem ](#pg-upgrade) wordt beïnvloed, moet Adobe uw milieu&#39;s van de Campagne aan [ recentste versie 8.4.3 ](../../v8/start/release-notes.md) bevorderen, die met deze systemen compatibel is.
+Als u door de [&#x200B; werkend systeemverbetering &#x200B;](#os-upgrade) en/of de [&#x200B; hieronder gedetailleerde verbetering van het gegevensbestandsysteem &#x200B;](#pg-upgrade) wordt beïnvloed, moet Adobe uw milieu&#39;s van de Campagne aan [&#x200B; recentste versie 8.4.3 &#x200B;](../../v8/start/release-notes.md) bevorderen, die met deze systemen compatibel is.
 
 **Hoe kan ik bijwerken?**
 

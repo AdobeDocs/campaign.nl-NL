@@ -20,7 +20,7 @@ De clientconsole is een native toepassing die communiceert met de Adobe Campaign
 
 Voordat u begint, moet u:
 
-* Controleer uw systeem en hulpmiddelverenigbaarheid met Adobe Campaign in de [ matrijs van de Verenigbaarheid ](compatibility-matrix.md)
+* Controleer uw systeem en hulpmiddelverenigbaarheid met Adobe Campaign in de [&#x200B; matrijs van de Verenigbaarheid &#x200B;](compatibility-matrix.md)
 * URL van campagneserver ophalen
 * Maak je Adobe ID of ontvang je gebruikersgegevens van je bedrijf
 * Installeer de Microsoft Edge Webview2-runtime op uw systeem. [Meer informatie](#webview)
@@ -31,7 +31,7 @@ Voordat u begint, moet u:
 
 Vanuit Campaign Classic 8.4-versie is de installatie van Microsoft Edge Webview 2-runtime vereist voor elke installatie van de clientconsole.
 
-De webweergave wordt standaard geïnstalleerd als onderdeel van het besturingssysteem Windows 11. Als het niet reeds op uw systeem aanwezig is, zal het de installatieprogramma van de Console van de Campagne u ertoe aanzetten om het van [ Microsoft Developer website ](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"} te downloaden. De downloadkoppeling werkt niet in Internet Explorer 11, omdat Microsoft de ondersteuning heeft vervangen. Zorg ervoor dat u een andere browser gebruikt om de koppeling te openen.
+De webweergave wordt standaard geïnstalleerd als onderdeel van het besturingssysteem Windows 11. Als het niet reeds op uw systeem aanwezig is, zal het de installatieprogramma van de Console van de Campagne u ertoe aanzetten om het van [&#x200B; Microsoft Developer website &#x200B;](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"} te downloaden. De downloadkoppeling werkt niet in Internet Explorer 11, omdat Microsoft de ondersteuning heeft vervangen. Zorg ervoor dat u een andere browser gebruikt om de koppeling te openen.
 
 ### De console downloaden{#install-ac-console}
 
@@ -71,7 +71,7 @@ U kunt zo veel verbindingen toevoegen als u nodig hebt om bijvoorbeeld verbindin
 
 ## Aanmelden bij Adobe Campaign {#logon-to-ac}
 
-Campagnegebruikers maken via hun Adobe ID verbinding met de Adobe Campaign-console via Adobe Identity Management System (IMS). Ze kunnen dezelfde id gebruiken voor alle Adobe-oplossingen. De verbinding wordt bewaard wanneer het gebruiken van Adobe Campaign met andere oplossingen. Leer meer over Adobe IMS in [ deze pagina ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
+Campagnegebruikers maken via hun Adobe ID verbinding met de Adobe Campaign-console via Adobe Identity Management System (IMS). Ze kunnen dezelfde id gebruiken voor alle Adobe-oplossingen. De verbinding wordt bewaard wanneer het gebruiken van Adobe Campaign met andere oplossingen. Leer meer over Adobe IMS in [&#x200B; deze pagina &#x200B;](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
 
 Volg onderstaande stappen om u aan te melden bij een instantie:
 
@@ -93,7 +93,7 @@ U kunt zich vervolgens aanmelden bij Campagne met uw Adobe ID.
 
 ## Uw clientconsole upgraden{#upgrade-ac-console}
 
-Wanneer uw systeem is bijgewerkt naar een nieuwere versie, moet u de clientconsole bijwerken naar dezelfde versie. Dit is een beste praktijk, en voor sommige versies is deze verbetering verplicht. In dat geval, wordt het vermeld in de [ Nota&#39;s van de Versie ](release-notes.md).
+Wanneer uw systeem is bijgewerkt naar een nieuwere versie, moet u de clientconsole bijwerken naar dezelfde versie. Dit is een beste praktijk, en voor sommige versies is deze verbetering verplicht. In dat geval, wordt het vermeld in de [&#x200B; Nota&#39;s van de Versie &#x200B;](release-notes.md).
 
 Als gebruiker van Managed Cloud Services implementeert Adobe de Client Console voor u. Wanneer u verbinding maakt met uw geüpgrade omgeving, wordt u gevraagd om de nieuwste versie van de clientconsole te downloaden in een pop-upvenster. U moet deze upgrade accepteren en de clientconsole naar wens bijwerken.
 
@@ -110,7 +110,7 @@ Met Adobe Campaign kunt u de rechten definiëren en beheren die aan de verschill
 
 Als campagnebeheerder bent u verantwoordelijk voor het maken van de operatoren en het delen van hun referenties met de gebruikers.
 
-Leer meer over gebruikers en hoe te om hun toestemmingen in [ te bepalen deze sectie ](gs-permissions.md).
+Leer meer over gebruikers en hoe te om hun toestemmingen in [&#x200B; te bepalen deze sectie &#x200B;](gs-permissions.md).
 
 
 ## Campagne openen met een webbrowser {#connect-web-ac}
@@ -121,12 +121,12 @@ De aanvang van de Versie van Campagne v8.6, hebt u toegang tot het nieuwe **de g
 
 >[!AVAILABILITY]
 >
->De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
+>De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [&#x200B; het Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
 >
 
-Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [ in deze pagina ](campaign-ui.md#ac-web-ui) toegang te hebben.
+Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [&#x200B; in deze pagina &#x200B;](campaign-ui.md#ac-web-ui) toegang te hebben.
 
-Leer meer in de [ gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+Leer meer in de [&#x200B; gebruikersinterfacedocumentatie van het Web van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
 ### Webtoegang {#web-access}
 

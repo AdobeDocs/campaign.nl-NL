@@ -22,7 +22,7 @@ De belangrijkste implementatiestappen voor dit gebruiksgeval zijn:
 
 * Maak een lijst met ontvangers voor dit rapport. [Meer informatie](#step-1--create-the-recipient-list).
 * Maak een leveringssjabloon die elke keer dat de workflow wordt uitgevoerd een nieuwe levering maakt. [Meer informatie](#step-2--create-the-delivery-template).
-* Maak een workflow die het rapport genereert in PDF-indeling en verstuurt het naar de lijst met ontvangers. [ leer meer ](#step-3--create-the-workflow)).
+* Maak een workflow die het rapport genereert in PDF-indeling en verstuurt het naar de lijst met ontvangers. [&#x200B; leer meer &#x200B;](#step-3--create-the-workflow)).
 
 ## Stap 1: Maak de lijst met ontvangers {#step-1--create-the-recipient-list}
 
@@ -32,7 +32,7 @@ Voer de volgende stappen uit om de lijst met doelontvangers te maken:
 1. Klik op de knop **[!UICONTROL Create]**.
 1. Selecteer **[!UICONTROL New list]** en maak een nieuwe lijst met ontvangers waarnaar het rapport moet worden verzonden.
 
-Voor meer bij het creëren van lijsten, verwijs naar [ deze sectie ](../../v8/audiences/create-audiences.md).
+Voor meer bij het creëren van lijsten, verwijs naar [&#x200B; deze sectie &#x200B;](../../v8/audiences/create-audiences.md).
 
 ## Stap 2: De leveringssjabloon maken {#step-2--create-the-delivery-template}
 
@@ -40,11 +40,11 @@ Volg onderstaande stappen om de leveringssjabloon te maken:
 
 1. Blader naar het knooppunt **[!UICONTROL Resources > Templates > Delivery templates]** van de Adobe Campaign Explorer en dupliceer de **[!UICONTROL Email delivery]** ingebouwde sjabloon.
 
-   Voor meer bij het creëren van een leveringsmalplaatje, verwijs naar [ deze sectie ](../../v8/send/create-templates.md).
+   Voor meer bij het creëren van een leveringsmalplaatje, verwijs naar [&#x200B; deze sectie &#x200B;](../../v8/send/create-templates.md).
 
 1. Voer de sjabloonparameters in: label, doel (de lijst met eerder gemaakte ontvangers), onderwerp en inhoud.
 
-   Telkens als het werkschema wordt uitgevoerd, wordt het **[!UICONTROL Tracking indicators]** rapport bijgewerkt zoals verklaard in [ Stap 3: Creeer het werkschema ](#step-3--creating-the-workflow)).
+   Telkens als het werkschema wordt uitgevoerd, wordt het **[!UICONTROL Tracking indicators]** rapport bijgewerkt zoals verklaard in [&#x200B; Stap 3: Creeer het werkschema &#x200B;](#step-3--creating-the-workflow)).
 
 1. Als u de meest recente versie van het rapport in de levering wilt opnemen, moet u een **[!UICONTROL Calculated attachment]** toevoegen:
 
@@ -64,7 +64,7 @@ Volg onderstaande stappen om de leveringssjabloon te maken:
 
      >[!CAUTION]
      >
-     >De weg en de naam moeten aan die ingegaan in de **[!UICONTROL JavaScript code]** typeactiviteit van het werkschema, zoals die in [ wordt verklaard Stap 3 zijn: Creeer het werkschema ](#step-3--creating-the-workflow).
+     >De weg en de naam moeten aan die ingegaan in de **[!UICONTROL JavaScript code]** typeactiviteit van het werkschema, zoals die in [&#x200B; wordt verklaard Stap 3 zijn: Creeer het werkschema &#x200B;](#step-3--creating-the-workflow).
 
    * Selecteer de tab **[!UICONTROL Advanced]** en controleer **[!UICONTROL Script the name of the file name displayed in the mails sent]** . Voer in de tekstzone de naam van de bijlage in bij de uiteindelijke levering.
 
@@ -93,7 +93,7 @@ Volg onderstaande stappen om deze workflow te maken:
 
    ![](assets/use_case_report_9.png)
 
-   Voor meer bij het vormen van de planner, verwijs naar [ Planner ](scheduler.md).
+   Voor meer bij het vormen van de planner, verwijs naar [&#x200B; Planner &#x200B;](scheduler.md).
 
 1. Voeg vervolgens een **[!UICONTROL JavaScript code]** type-activiteit toe.
 
@@ -120,7 +120,7 @@ Volg onderstaande stappen om deze workflow te maken:
 
      >[!CAUTION]
      >
-     >Het bestand moet op de server worden opgeslagen. U moet de zelfde weg en de zelfde naam zoals in het **[!UICONTROL General]** lusje van uitgeven venster voor de berekende gehechtheid ingaan, zoals gedetailleerd [ hier ](#step-2--create-the-delivery-template)).
+     >Het bestand moet op de server worden opgeslagen. U moet de zelfde weg en de zelfde naam zoals in het **[!UICONTROL General]** lusje van uitgeven venster voor de berekende gehechtheid ingaan, zoals gedetailleerd [&#x200B; hier &#x200B;](#step-2--create-the-delivery-template)).
 
    * **var exportFormat**: ga het uitvoerformaat van het dossier (&quot;PDF&quot;) in.
    * **var _ctx** (context): in dit geval, gebruiken wij het **[!UICONTROL Tracking indicators]** rapport in zijn globale context.

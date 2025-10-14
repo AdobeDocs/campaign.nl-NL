@@ -42,8 +42,8 @@ De gesteunde CRM en de versies zijn gedetailleerd in de matrijs van de Verenigba
 
 ## Implementatiestappen {#crm-implementation-steps}
 
-Leer geleidelijke procedure om Campagne en Microsoft Dynamics in [ te verbinden deze pagina ](ac-ms-dyn.md).
+Leer geleidelijke procedure om Campagne en Microsoft Dynamics in [&#x200B; te verbinden deze pagina &#x200B;](ac-ms-dyn.md).
 
-Leer geleidelijke procedure om Campagne en Salesforce.com in [ te verbinden deze pagina ](ac-sfdc.md).
+Leer geleidelijke procedure om Campagne en Salesforce.com in [&#x200B; te verbinden deze pagina &#x200B;](ac-sfdc.md).
 
 Gegevenssynchronisatie tussen Adobe Campaign en de CRM wordt uitgevoerd via een specifieke workflowactiviteit. Bouw uw werkschema&#39;s om synchronisatie tussen Campagne en uw CRM te automatiseren. U kunt een werkschema tot stand brengen dat de contacten via Microsoft Dynamics invoert, hen synchroniseert met de bestaande gegevens van Adobe Campaign, dubbele contacten schrapt, en dan het gegevensbestand van Adobe Campaign bijwerkt. Meer informatie vindt u [op deze pagina](crm-data-sync.md).

@@ -33,7 +33,7 @@ Dit doet u als volgt:
 
 Het configuratieproces voor deze activiteit is gelijkaardig aan dat van het creëren van een leveringsmalplaatje in termen van de beschikbare opties.
 
-Voor een voorbeeld van deze activiteit die wordt gebruikt, verwijs naar deze [ sectie ](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+Voor een voorbeeld van deze activiteit die wordt gebruikt, verwijs naar deze [&#x200B; sectie &#x200B;](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## Hoe te opstelling terugkomende levering
 
@@ -55,4 +55,4 @@ Deze video verklaart hoe te om een terugkomende levering en een planneractivitei
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.
+De extra campagne hoe-aan video&#39;s is beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.

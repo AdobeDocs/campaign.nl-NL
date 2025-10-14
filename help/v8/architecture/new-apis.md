@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Specifieke API&#39;s voor campagnes van FFDA{#gs-new-api}
 
-In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), komt de Campagne v8 met twee specifieke APIs om gegevens tussen het lokale gegevensbestand van de Campagne en het gegevensbestand van de Wolk te beheren. De voorwaarden om hen te gebruiken moeten het het opvoeren mechanisme op het schema toelaten. [Meer informatie](staging.md)
+In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](enterprise-deployment.md), komt de Campagne v8 met twee specifieke APIs om gegevens tussen het lokale gegevensbestand van de Campagne en het gegevensbestand van de Wolk te beheren. De voorwaarden om hen te gebruiken moeten het het opvoeren mechanisme op het schema toelaten. [Meer informatie](staging.md)
 
 * Ingestie API: **xtk.session.ingest**
 
@@ -205,9 +205,9 @@ Dientengevolge, wordt het opvoeren lijst bijgewerkt zoals verwacht.
 
 ## Abonnementsbeheer {#sub-apis}
 
-Het beheer van het abonnement in Campagne wordt beschreven in [ deze pagina ](../start/subscriptions.md).
+Het beheer van het abonnement in Campagne wordt beschreven in [&#x200B; deze pagina &#x200B;](../start/subscriptions.md).
 
-De toevoeging van abonnement en unsubscription- gegevens baseert zich op het [ Staging mechanisme ](staging.md) in het lokale gegevensbestand van de Campagne. De informatie van de abonnee is tijdelijk opgeslagen in het opvoeren van lijsten in het lokale gegevensbestand, en het synchronisatiewerkschema verzendt deze gegevens van het lokale gegevensbestand naar het gegevensbestand van de Wolk. Dientengevolge, zijn de abonnement en unsubscription processen **asynchroon**. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt via een specifieke technische workflow. [Meer informatie](replication.md#tech-wf)
+De toevoeging van abonnement en unsubscription- gegevens baseert zich op het [&#x200B; Staging mechanisme &#x200B;](staging.md) in het lokale gegevensbestand van de Campagne. De informatie van de abonnee is tijdelijk opgeslagen in het opvoeren van lijsten in het lokale gegevensbestand, en het synchronisatiewerkschema verzendt deze gegevens van het lokale gegevensbestand naar het gegevensbestand van de Wolk. Dientengevolge, zijn de abonnement en unsubscription processen **asynchroon**. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt via een specifieke technische workflow. [Meer informatie](replication.md#tech-wf)
 
 
 **Verwante onderwerpen**

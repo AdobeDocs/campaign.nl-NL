@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL Campaign] FDA-implementatie{#gs-fda}
 
-In zijn (standaard) plaatsing van FDA van de Campagne, [!DNL Adobe Campaign] v8 kan met [!DNL Snowflake] worden verbonden om tot gegevens door [ tot stand te brengen Federated het vermogen van de Toegang van Gegevens ](../connect/fda.md): u kunt tot externe gegevens en informatie dan toegang hebben en verwerken die in uw [!DNL Snowflake] gegevensbestand worden opgeslagen zonder de structuur van de gegevens van Adobe Campaign te veranderen.
+In zijn (standaard) plaatsing van FDA van de Campagne, [!DNL Adobe Campaign] v8 kan met [!DNL Snowflake] worden verbonden om tot gegevens door [&#x200B; tot stand te brengen Federated het vermogen van de Toegang van Gegevens &#x200B;](../connect/fda.md): u kunt tot externe gegevens en informatie dan toegang hebben en verwerken die in uw [!DNL Snowflake] gegevensbestand worden opgeslagen zonder de structuur van de gegevens van Adobe Campaign te veranderen.
 
 >[!NOTE]
 >

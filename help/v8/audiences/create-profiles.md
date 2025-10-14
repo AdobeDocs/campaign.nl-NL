@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Profielen handmatig maken{#create-profiles-manual}
 
-Om uw gegevensbestand van de Campagne te bevolken, kunt u [ profielen invoeren ](import-profiles.md) of hen toevoegen manueel zoals hieronder gedetailleerd.
+Om uw gegevensbestand van de Campagne te bevolken, kunt u [&#x200B; profielen invoeren &#x200B;](import-profiles.md) of hen toevoegen manueel zoals hieronder gedetailleerd.
 
 Voer de onderstaande stappen uit om een ontvanger handmatig te maken:
 
@@ -29,6 +29,6 @@ Voer de onderstaande stappen uit om een ontvanger handmatig te maken:
 
    ![](assets/new-recipient.png)
 
-   Leer meer over de ontvankelijke ingebouwde vorm in [ deze pagina ](view-profiles.md#edit-a-profiles).
+   Leer meer over de ontvankelijke ingebouwde vorm in [&#x200B; deze pagina &#x200B;](view-profiles.md#edit-a-profiles).
 
 1. Klik op **[!UICONTROL Save]**: het profiel wordt toegevoegd aan Campagne, in de standaard ontvangende map.

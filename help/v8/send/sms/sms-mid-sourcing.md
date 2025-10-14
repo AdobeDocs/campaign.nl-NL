@@ -16,16 +16,16 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze mogelijkheid is beschikbaar voor alle FDA-omgevingen voor campagnes. Het is **niet** beschikbaar voor de Plaatsingen van FFDA van de Campagne. Deze documentatie is van toepassing op Adobe Campaign v8.7.2 en hoger. Om van erfenis aan de nieuwe schakelaar van SMS over te schakelen, verwijs naar dit [ technote ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
+>Deze mogelijkheid is beschikbaar voor alle FDA-omgevingen voor campagnes. Het is **niet** beschikbaar voor de Plaatsingen van FFDA van de Campagne. Deze documentatie is van toepassing op Adobe Campaign v8.7.2 en hoger. Om van erfenis aan de nieuwe schakelaar van SMS over te schakelen, verwijs naar dit [&#x200B; technote &#x200B;](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
+>Voor oudere versies, gelieve de [&#x200B; documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
 
 Voor het verzenden van SMS-leveringen met een infrastructuur voor midsourcing is het volgende vereist:
 
-1. Een SMS-operator op de middelste server. [ Leer hoe te om het te creëren hier ](#sms-operator-mid)
-1. Een externe rekening van SMS op de server van de Marketing die de eerder gecreeerd exploitant zal gebruiken. [ Leer hoe te om het te creëren hier ](#sms-external-account)
-1. Een externe SMPP-account op de mediaserver die de modus Kanaal en Levering halverwege de sourcing opgeeft. [ Leer hoe te om het te creëren hier ](#smpp-external-account-mid)
-1. Een leveringsmalplaatje dat verwijzingen de externe rekening om het verzendende proces te stroomlijnen. [ Leer hoe te om het te creëren hier ](#sms-delivery-template)
+1. Een SMS-operator op de middelste server. [&#x200B; Leer hoe te om het te creëren hier &#x200B;](#sms-operator-mid)
+1. Een externe rekening van SMS op de server van de Marketing die de eerder gecreeerd exploitant zal gebruiken. [&#x200B; Leer hoe te om het te creëren hier &#x200B;](#sms-external-account)
+1. Een externe SMPP-account op de mediaserver die de modus Kanaal en Levering halverwege de sourcing opgeeft. [&#x200B; Leer hoe te om het te creëren hier &#x200B;](#smpp-external-account-mid)
+1. Een leveringsmalplaatje dat verwijzingen de externe rekening om het verzendende proces te stroomlijnen. [&#x200B; Leer hoe te om het te creëren hier &#x200B;](#sms-delivery-template)
 
 ## Maak de SMS-operator op de middelste server {#sms-operator-mid}
 
@@ -63,7 +63,7 @@ In een infrastructuur halverwege, moet u een externe rekening van SMS op de serv
 
 >[!IMPORTANT]
 >
->Het gebruik van hetzelfde account en wachtwoord voor meerdere externe SMS-accounts kan leiden tot conflicten en overlapping tussen de accounts. Leer meer op [ het oplossen van problemenpagina van SMS ](smpp-connection.md#sms-troubleshooting).
+>Het gebruik van hetzelfde account en wachtwoord voor meerdere externe SMS-accounts kan leiden tot conflicten en overlapping tussen de accounts. Leer meer op [&#x200B; het oplossen van problemenpagina van SMS &#x200B;](smpp-connection.md#sms-troubleshooting).
 
 1. Klik in **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** op het pictogram **[!UICONTROL New]**
 
@@ -85,7 +85,7 @@ In een infrastructuur halverwege, moet u een externe rekening van SMS op de serv
 
 >[!IMPORTANT]
 >
->Het gebruik van hetzelfde account en wachtwoord voor meerdere externe SMS-accounts kan leiden tot conflicten en overlapping tussen de accounts. Verwijs naar de [ het oplossen van problemenpagina van SMS ](smpp-connection.md#sms-troubleshooting).
+>Het gebruik van hetzelfde account en wachtwoord voor meerdere externe SMS-accounts kan leiden tot conflicten en overlapping tussen de accounts. Verwijs naar de [&#x200B; het oplossen van problemenpagina van SMS &#x200B;](smpp-connection.md#sms-troubleshooting).
 
 Het doel is nu om uw externe rekening SMPP op de middelste-server te vestigen.
 
@@ -109,7 +109,7 @@ Hiervoor voert u de volgende stappen uit:
 
    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 
-   Als u de verbinding wilt instellen, moet u de tabbladen van dit formulier invullen. Voor details, [ leren meer over externe rekening SMPP ](smpp-external-account.md#smpp-connection-settings).
+   Als u de verbinding wilt instellen, moet u de tabbladen van dit formulier invullen. Voor details, [&#x200B; leren meer over externe rekening SMPP &#x200B;](smpp-external-account.md#smpp-connection-settings).
 
 ## De leveringssjabloon configureren {#sms-delivery-template}
 
@@ -131,4 +131,4 @@ Op het tabblad **[!UICONTROL SMS]** kunt u optionele parameters aan de sjabloon 
 
 ![](assets/sms_template_properties.png){zoomable="yes"}
 
-[ leer meer over deze het lusjeconfiguratie van SMS ](sms-delivery-settings.md).
+[&#x200B; leer meer over deze het lusjeconfiguratie van SMS &#x200B;](sms-delivery-settings.md).

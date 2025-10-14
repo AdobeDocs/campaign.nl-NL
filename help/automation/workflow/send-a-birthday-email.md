@@ -22,7 +22,7 @@ Voor het instellen van dit gebruiksgeval hebben we de volgende workflow voor doe
 
 Met deze (dagelijkse) workflow worden alle ontvangers geselecteerd die op de huidige datum jarig zijn.
 
-Om dit te doen, creeer een campagne en voeg a [ campagnewerkschema ](campaign-workflows.md) toe.
+Om dit te doen, creeer een campagne en voeg a [&#x200B; campagnewerkschema &#x200B;](campaign-workflows.md) toe.
 
 Voer vervolgens de hieronder beschreven stappen uit.
 
@@ -110,7 +110,7 @@ Nadat u de **[!UICONTROL Scheduler]** -activiteit hebt geconfigureerd, zodat de 
 
 ![](assets/birthday-workflow_usecase_2.png)
 
-Het selecteren van ontvangers de waarvan verjaardag aan de huidige datum beantwoordt wordt voorgesteld in [ het identificeren van ontvangers de waarvan verjaardag het ](#identifying-recipients-whose-birthday-it-is) sectie is.
+Het selecteren van ontvangers de waarvan verjaardag aan de huidige datum beantwoordt wordt voorgesteld in [&#x200B; het identificeren van ontvangers de waarvan verjaardag het &#x200B;](#identifying-recipients-whose-birthday-it-is) sectie is.
 
 ### Stap 2: Geef aan of het een schrikkeljaar is {#step-2--select-whether-or-not-it-is-a-leap-year}
 
@@ -190,7 +190,7 @@ Voeg a **Terugkomende die levering** activiteit toe op het malplaatje wordt geba
 
 >[!CAUTION]
 >
->Om de workflows uit te voeren, moeten de technische workflows met betrekking tot het campagnepakket worden gestart. Voor meer op dit, verwijs naar de [ Lijst van technische werkschema&#39;s ](technical-workflows.md) sectie.
+>Om de workflows uit te voeren, moeten de technische workflows met betrekking tot het campagnepakket worden gestart. Voor meer op dit, verwijs naar de [&#x200B; Lijst van technische werkschema&#39;s &#x200B;](technical-workflows.md) sectie.
 >
 >Als de goedkeuringsstappen voor de campagne zijn ingeschakeld, worden de leveringen pas verzonden nadat deze stappen zijn bevestigd. Raadpleeg voor meer informatie de   sectie.
 

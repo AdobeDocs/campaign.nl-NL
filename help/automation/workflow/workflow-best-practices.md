@@ -57,17 +57,17 @@ Alle geplande workflows die op productieomgevingen worden uitgevoerd, moeten wor
 
 In de werkschemaeigenschappen, selecteer een groep van de Supervisor, of het gebrek **[!UICONTROL Workflow supervisors]** of een douanegroep. Zorg ervoor dat ten minste één operator tot deze groep behoort, met een e-mailinstelling.
 
-Voordat u een workflow gaat maken, moet u workflowsupervisors definiëren. Zij zullen per e-mail op de hoogte worden gesteld in het geval van fouten. Voor meer op dit, verwijs naar [ het Leiden fouten ](monitor-workflow-execution.md#managing-errors).
+Voordat u een workflow gaat maken, moet u workflowsupervisors definiëren. Zij zullen per e-mail op de hoogte worden gesteld in het geval van fouten. Voor meer op dit, verwijs naar [&#x200B; het Leiden fouten &#x200B;](monitor-workflow-execution.md#managing-errors).
 
-Controleer regelmatig het tabblad **[!UICONTROL Monitoring]** om de algemene status van de actieve workflows weer te geven. Voor meer op dit, verwijs naar [ toezicht van de Instantie ](monitor-workflow-execution.md#instance-supervision).
+Controleer regelmatig het tabblad **[!UICONTROL Monitoring]** om de algemene status van de actieve workflows weer te geven. Voor meer op dit, verwijs naar [&#x200B; toezicht van de Instantie &#x200B;](monitor-workflow-execution.md#instance-supervision).
 
-Met de Workflow HeatMap kunnen beheerders van het Adobe Campaign-platform de belasting op de instantie controleren en workflows dienovereenkomstig plannen. Voor meer op dit, verwijs naar [ Controle van het Werkschema ](heatmap.md).
+Met de Workflow HeatMap kunnen beheerders van het Adobe Campaign-platform de belasting op de instantie controleren en workflows dienovereenkomstig plannen. Voor meer op dit, verwijs naar [&#x200B; Controle van het Werkschema &#x200B;](heatmap.md).
 
 ## Activiteiten {#using-activities}
 
 >[!CAUTION]
 >
->U kunt activiteiten kopiëren en plakken binnen dezelfde workflow. We raden echter niet aan plakactiviteiten over verschillende workflows te kopiëren. Sommige instellingen die zijn gekoppeld aan activiteiten zoals Leveringen en Planner kunnen leiden tot conflicten en fouten tijdens het uitvoeren van de doelworkflow. In plaats daarvan, adviseerden wij u **&#x200B;**&#x200B;werkschema&#39;s dupliceren. Voor meer informatie, zie [ het Dupliceren werkschema&#39;s ](build-a-workflow.md#duplicate-workflows).
+>U kunt activiteiten kopiëren en plakken binnen dezelfde workflow. We raden echter niet aan plakactiviteiten over verschillende workflows te kopiëren. Sommige instellingen die zijn gekoppeld aan activiteiten zoals Leveringen en Planner kunnen leiden tot conflicten en fouten tijdens het uitvoeren van de doelworkflow. In plaats daarvan, adviseerden wij u **&#x200B;**&#x200B;werkschema&#39;s dupliceren. Voor meer informatie, zie [&#x200B; het Dupliceren werkschema&#39;s &#x200B;](build-a-workflow.md#duplicate-workflows).
 
 ### Naam van de activiteit {#name-of-the-activity}
 
@@ -78,11 +78,11 @@ U vindt de naam van de activiteit op het tabblad **[!UICONTROL Advanced]** . Laa
 ### Eerste en laatste activiteiten {#first-and-last-activities}
 
 * Start de workflow altijd met een **[!UICONTROL Start]** activiteit of een **[!UICONTROL Scheduler]** activiteit. Indien relevant, kunt u ook een **[!UICONTROL External signal]** activiteit gebruiken.
-* Gebruik bij het samenstellen van uw workflow slechts één **[!UICONTROL Scheduler]** activiteit per vertakking. Als de zelfde tak van een werkschema verscheidene planners (verbonden aan elkaar) heeft, zal het aantal uit te voeren taken exponentieel worden vermenigvuldigd, die het gegevensbestand aanzienlijk zou overbelasten. Deze regel is ook van toepassing op alle activiteiten met een tab **[!UICONTROL Scheduling & History]** . Leer meer op [ Plannend ](scheduler.md).
+* Gebruik bij het samenstellen van uw workflow slechts één **[!UICONTROL Scheduler]** activiteit per vertakking. Als de zelfde tak van een werkschema verscheidene planners (verbonden aan elkaar) heeft, zal het aantal uit te voeren taken exponentieel worden vermenigvuldigd, die het gegevensbestand aanzienlijk zou overbelasten. Deze regel is ook van toepassing op alle activiteiten met een tab **[!UICONTROL Scheduling & History]** . Leer meer op [&#x200B; Plannend &#x200B;](scheduler.md).
 
   ![](assets/wf-scheduler.png)
 
-* Gebruik **[!UICONTROL End]** -activiteiten voor elke workflow. Hierdoor kan Adobe Campaign tijdelijke ruimte vrijmaken die wordt gebruikt voor berekeningen binnen workflows. Voor meer op dit, verwijs naar: [ Begin en eind ](start-and-end.md).
+* Gebruik **[!UICONTROL End]** -activiteiten voor elke workflow. Hierdoor kan Adobe Campaign tijdelijke ruimte vrijmaken die wordt gebruikt voor berekeningen binnen workflows. Voor meer op dit, verwijs naar: [&#x200B; Begin en eind &#x200B;](start-and-end.md).
 
 ### JavaScript binnen een activiteit {#javascript-within-an-activity}
 
@@ -126,7 +126,7 @@ Alleen de werktabellen van de laatste uitvoering van de workflow worden bewaard.
 De **SQL vragen van het Logboek in het dagboek** optie is beschikbaar in het **[!UICONTROL Execution]** lusje van werkschemaeigenschappen. Deze optie registreert alle SQL vragen van de verschillende activiteiten, en verstrekt een manier om te zien wat eigenlijk door het platform wordt uitgevoerd. Nochtans, zou deze optie slechts **tijdelijk** tijdens ontwikkeling moeten worden gebruikt en **niet geactiveerd op productie**.
 
 De beste manier is om de logboeken te wissen wanneer ze niet meer nodig zijn. De historie van de workflow wordt niet automatisch gewist: alle berichten worden standaard bijgehouden. De geschiedenis kan worden gewist via het menu **[!UICONTROL File > Actions]** of door op de knop Handelingen in de werkbalk boven de lijst te klikken. Selecteer Geschiedenis leegmaken.
-Leren hoe te om uw logboeken te zuiveren, verwijs naar deze [ documentatie ](start-a-workflow.md).
+Leren hoe te om uw logboeken te zuiveren, verwijs naar deze [&#x200B; documentatie &#x200B;](start-a-workflow.md).
 
 ### Workflowplanning {#workflow-planning}
 

@@ -17,13 +17,13 @@ De werkstroom kan worden gebruikt om het gegevensbestand te vragen en uw gegeven
 
 Met doelgerichte workflows kunt u verschillende leveringsdoelen maken. U kunt query&#39;s maken, samenvoegingen of uitsluitingen definiëren op basis van specifieke criteria, planning toevoegen dankzij workflowactiviteiten. Het resultaat van deze gerichte actie kan automatisch worden overgedragen naar een lijst die als doel van leveringsacties kan dienen
 
-Naast deze activiteiten kunt u met de opties voor gegevensbeheer gegevens manipuleren en geavanceerde functies gebruiken om complexe doelproblemen op te lossen. Voor meer op dit, verwijs naar [ Beheer van Gegevens ](targeting-workflows.md#data-management).
+Naast deze activiteiten kunt u met de opties voor gegevensbeheer gegevens manipuleren en geavanceerde functies gebruiken om complexe doelproblemen op te lossen. Voor meer op dit, verwijs naar [&#x200B; Beheer van Gegevens &#x200B;](targeting-workflows.md#data-management).
 
 Al deze activiteiten vindt u op het eerste tabblad van de workflow.
 
 >[!NOTE]
 >
->Het richten activiteiten zijn gedetailleerd in [ deze sectie ](activities.md).
+>Het richten activiteiten zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](activities.md).
 
 Doelworkflows kunnen worden gemaakt en bewerkt via het knooppunt **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** van de Adobe Campaign-structuur of via het menu **[!UICONTROL Profiles and Targets > Targeting workflows]** van de startpagina.
 
@@ -35,11 +35,11 @@ Het richten van werkschema&#39;s binnen het kader van een campagne wordt opgesla
 
 De stappen voor het maken van een doelworkflow worden in de volgende secties beschreven:
 
-1. **identificeer** gegevens in het gegevensbestand - zie [ vragen ](#create-queries) creëren
-1. **bereidt** gegevens voor om leveringsbehoeften te voldoen - zie [ Verrijken en gegevens wijzigen ](#enrich-and-modify-data)
-1. **Gegevens van het Gebruik** om updates of binnen een levering uit te voeren - zie [ het gegevensbestand ](use-workflow-data.md#update-the-database) bijwerken
+1. **identificeer** gegevens in het gegevensbestand - zie [&#x200B; vragen &#x200B;](#create-queries) creëren
+1. **bereidt** gegevens voor om leveringsbehoeften te voldoen - zie [&#x200B; Verrijken en gegevens wijzigen &#x200B;](#enrich-and-modify-data)
+1. **Gegevens van het Gebruik** om updates of binnen een levering uit te voeren - zie [&#x200B; het gegevensbestand &#x200B;](use-workflow-data.md#update-the-database) bijwerken
 
-De resultaten van alle verrijkingen en alle handgrepen die tijdens het richten worden uitgevoerd worden opgeslagen en toegankelijk op verpersoonlijkingsgebieden, met name voor gebruik wanneer het creëren van gepersonaliseerde berichten. Voor meer op dit, verwijs naar [ gegevens van het Doel ](use-workflow-data.md#target-data).
+De resultaten van alle verrijkingen en alle handgrepen die tijdens het richten worden uitgevoerd worden opgeslagen en toegankelijk op verpersoonlijkingsgebieden, met name voor gebruik wanneer het creëren van gepersonaliseerde berichten. Voor meer op dit, verwijs naar [&#x200B; gegevens van het Doel &#x200B;](use-workflow-data.md#target-data).
 
 ## Afmetingen gericht en filteren {#targeting-and-filtering-dimensions}
 
@@ -65,9 +65,9 @@ Terwijl voor **Bezoekers**, zal de lijst de volgende het filtreren dimensies bev
 
 Met een **[!UICONTROL Query]** -activiteit kunt u basisgegevens selecteren om de doelpopulatie samen te stellen. Raadpleeg [deze sectie](query.md#create-a-query) voor meer informatie.
 
-U kunt de volgende activiteiten ook gebruiken om gegevens van het gegevensbestand te vragen en te raffineren: [ Incrementele vraag ](incremental-query.md), [ leest lijst ](read-list.md).
+U kunt de volgende activiteiten ook gebruiken om gegevens van het gegevensbestand te vragen en te raffineren: [&#x200B; Incrementele vraag &#x200B;](incremental-query.md), [&#x200B; leest lijst &#x200B;](read-list.md).
 
-Het is mogelijk aanvullende gegevens te verzamelen die gedurende de gehele levenscyclus van de werkstroom moeten worden doorgestuurd en verwerkt. Voor meer op dit, verwijs naar [ gegevens ](query.md#add-data) toevoegen en [ geef extra gegevens ](#edit-additional-data) uit.
+Het is mogelijk aanvullende gegevens te verzamelen die gedurende de gehele levenscyclus van de werkstroom moeten worden doorgestuurd en verwerkt. Voor meer op dit, verwijs naar [&#x200B; gegevens &#x200B;](query.md#add-data) toevoegen en [&#x200B; geef extra gegevens &#x200B;](#edit-additional-data) uit.
 
 ### Aanvullende gegevens bewerken {#edit-additional-data}
 
@@ -174,7 +174,7 @@ Met het snijpunt kunt u alleen de regels herstellen die worden gedeeld door de p
 
 Bovendien is het mogelijk om slechts een selectie van kolommen te houden, of slechts de kolommen die door de binnenkomende bevolking worden gedeeld.
 
-De intersectieactiviteit is gedetailleerd in de [ sectie van de Intersectie ](intersection.md).
+De intersectieactiviteit is gedetailleerd in de [&#x200B; sectie van de Intersectie &#x200B;](intersection.md).
 
 ### Een populatie uitsluiten (Uitsluiting) {#exclude-a-population--exclusion-}
 
@@ -206,7 +206,7 @@ Om het te vormen, moet u eerst criteria selecteren:
 
    ![](assets/split-subset-config-all-data.png)
 
-   Een voorbeeld dat toont hoe te om het filtreren voorwaarden in de **[!UICONTROL Split]** activiteit te gebruiken om het doel in verschillende populaties te segmenteren wordt beschreven in [ deze sectie ](cross-channel-delivery-workflow.md).
+   Een voorbeeld dat toont hoe te om het filtreren voorwaarden in de **[!UICONTROL Split]** activiteit te gebruiken om het doel in verschillende populaties te segmenteren wordt beschreven in [&#x200B; deze sectie &#x200B;](cross-channel-delivery-workflow.md).
 
    In het veld **[!UICONTROL Label]** kunt u de nieuwe subset een naam geven die overeenkomt met de uitgaande overgang.
 
@@ -243,7 +243,7 @@ U kunt al deze subsets groeperen in één uitvoerovergang. In dit geval is de ko
 Bijvoorbeeld, kunt u één enkele leveringsactiviteit plaatsen en de leveringsinhoud personaliseren die op de segmentcode van elke ontvankelijke reeks wordt gebaseerd.
 
 
-Subsets kunnen ook worden gemaakt met behulp van de **[!UICONTROL Cells]** -activiteit. Voor meer op dit, verwijs naar de [ sectie van Cellen ](cells.md).
+Subsets kunnen ook worden gemaakt met behulp van de **[!UICONTROL Cells]** -activiteit. Voor meer op dit, verwijs naar de [&#x200B; sectie van Cellen &#x200B;](cells.md).
 
 ### Doelgegevens gebruiken {#using-targeted-data}
 
@@ -251,15 +251,15 @@ Zodra de gegevens zijn geïdentificeerd en opgesteld, kunnen ze in de volgende c
 
 * U kunt de gegevens in de database bijwerken na gegevensmanipulatie in de verschillende werkstroomfasen.
 
-  Voor meer op dit, [ gegevens van de Update ](update-data.md).
+  Voor meer op dit, [&#x200B; gegevens van de Update &#x200B;](update-data.md).
 
 * U kunt ook de inhoud van bestaande lijsten vernieuwen.
 
-  Voor meer op dit, verwijs naar [ update van de Lijst ](list-update.md).
+  Voor meer op dit, verwijs naar [&#x200B; update van de Lijst &#x200B;](list-update.md).
 
 * U kunt leveringen rechtstreeks voorbereiden of starten in de workflow.
 
-  Voor meer op dit, verwijs naar [ Levering ](delivery.md), [ de controle van de Levering ](delivery-control.md) en [ Ononderbroken levering ](continuous-delivery.md).
+  Voor meer op dit, verwijs naar [&#x200B; Levering &#x200B;](delivery.md), [&#x200B; de controle van de Levering &#x200B;](delivery-control.md) en [&#x200B; Ononderbroken levering &#x200B;](continuous-delivery.md).
 
 ## Data management {#data-management}
 
@@ -271,9 +271,9 @@ In Adobe Campaign combineert het gegevensbeheer een reeks activiteiten om comple
 
 Voor de uitvoering van deze transacties biedt Adobe Campaign:
 
-* De activiteiten van de inzameling van gegevens: [ overdracht van het Dossier ](file-transfer.md), [ het laden van Gegevens (dossier) ](data-loading-file.md), [ het laden van Gegevens (RDBMS) ](data-loading-rdbms.md), [ gegevens van de Update ](update-data.md). In deze eerste stap voor het verzamelen van gegevens worden de gegevens voorbereid, zodat ze in andere activiteiten kunnen worden verwerkt. Verschillende parameters moeten worden gecontroleerd om ervoor te zorgen dat de workflow correct wordt uitgevoerd en de verwachte resultaten oplevert. Wanneer u bijvoorbeeld gegevens importeert, moet de primaire sleutel (sleutel) voor deze gegevens uniek zijn voor elke record.
-* Het richten activiteiten die met de opties van het Beheer van Gegevens zijn verrijkt: [ Vraag ](query.md), [ Unie ](union.md), [ Intersectie ](intersection.md), [ Gesplitst ](split.md). Zo kunt u een samenvoeging of een doorsnede configureren tussen gegevens van verschillende doeldimensies, zolang de gegevens met elkaar in overeenstemming kunnen worden gebracht.
-* De transformatieactiviteiten van gegevens: [ Verrijking ](enrichment.md), [ dimensie van de Verandering ](change-dimension.md).
+* De activiteiten van de inzameling van gegevens: [&#x200B; overdracht van het Dossier &#x200B;](file-transfer.md), [&#x200B; het laden van Gegevens (dossier) &#x200B;](data-loading-file.md), [&#x200B; het laden van Gegevens (RDBMS) &#x200B;](data-loading-rdbms.md), [&#x200B; gegevens van de Update &#x200B;](update-data.md). In deze eerste stap voor het verzamelen van gegevens worden de gegevens voorbereid, zodat ze in andere activiteiten kunnen worden verwerkt. Verschillende parameters moeten worden gecontroleerd om ervoor te zorgen dat de workflow correct wordt uitgevoerd en de verwachte resultaten oplevert. Wanneer u bijvoorbeeld gegevens importeert, moet de primaire sleutel (sleutel) voor deze gegevens uniek zijn voor elke record.
+* Het richten activiteiten die met de opties van het Beheer van Gegevens zijn verrijkt: [&#x200B; Vraag &#x200B;](query.md), [&#x200B; Unie &#x200B;](union.md), [&#x200B; Intersectie &#x200B;](intersection.md), [&#x200B; Gesplitst &#x200B;](split.md). Zo kunt u een samenvoeging of een doorsnede configureren tussen gegevens van verschillende doeldimensies, zolang de gegevens met elkaar in overeenstemming kunnen worden gebracht.
+* De transformatieactiviteiten van gegevens: [&#x200B; Verrijking &#x200B;](enrichment.md), [&#x200B; dimensie van de Verandering &#x200B;](change-dimension.md).
 
 >[!CAUTION]
 >
@@ -285,8 +285,8 @@ Voor de uitvoering van deze transacties biedt Adobe Campaign:
 
 Naast het richten afmeting, laat de het filtreren afmeting u de aard van de verzamelde gegevens specificeren. Zie [deze sectie](targeting-workflows.md#targeting-and-filtering-dimensions).
 
-De geïdentificeerde en verzamelde gegevens kunnen worden verrijkt, geaggregeerd en gemanipuleerd om de doelconstructie te optimaliseren. Om dit te doen, naast de activiteiten van de gegevensmanipulatie die in [ worden gedetailleerd deze sectie ](#segmen-data), gebruik het volgende:
+De geïdentificeerde en verzamelde gegevens kunnen worden verrijkt, geaggregeerd en gemanipuleerd om de doelconstructie te optimaliseren. Om dit te doen, naast de activiteiten van de gegevensmanipulatie die in [&#x200B; worden gedetailleerd deze sectie &#x200B;](#segmen-data), gebruik het volgende:
 
-* Met de activiteit **[!UICONTROL Enrichment]** kunt u tijdelijk kolommen aan een schema toevoegen en informatie aan bepaalde elementen toevoegen. Het is gedetailleerd in de [ sectie van de Verrijking ](enrichment.md) van de bewaarplaats van activiteiten.
-* Met de **[!UICONTROL Edit schema]** -activiteit kunt u de structuur van een schema wijzigen. Het wordt gedetailleerd in [ uitgeeft schema ](edit-schema.md) sectie van de bewaarplaats van activiteiten.
-* Met de **[!UICONTROL Change dimension]** -activiteit kunt u de doeldimensie tijdens de constructiecyclus van het doel wijzigen. Het wordt gedetailleerd in de [ dimensie van de Verandering ](change-dimension.md) sectie.
+* Met de activiteit **[!UICONTROL Enrichment]** kunt u tijdelijk kolommen aan een schema toevoegen en informatie aan bepaalde elementen toevoegen. Het is gedetailleerd in de [&#x200B; sectie van de Verrijking &#x200B;](enrichment.md) van de bewaarplaats van activiteiten.
+* Met de **[!UICONTROL Edit schema]** -activiteit kunt u de structuur van een schema wijzigen. Het wordt gedetailleerd in [&#x200B; uitgeeft schema &#x200B;](edit-schema.md) sectie van de bewaarplaats van activiteiten.
+* Met de **[!UICONTROL Change dimension]** -activiteit kunt u de doeldimensie tijdens de constructiecyclus van het doel wijzigen. Het wordt gedetailleerd in de [&#x200B; dimensie van de Verandering &#x200B;](change-dimension.md) sectie.

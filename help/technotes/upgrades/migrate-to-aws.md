@@ -51,7 +51,7 @@ Deze stap is transparant voor klanten:
 
   Adobe is van plan het oude datacenter uit te schakelen, Adobe Campaign-instanties die daar actief zijn, moeten worden overgebracht naar het nieuwe referentiecentrum in Amazon Web Services (AWS).
 
-  De Adobe Managed Services-cloud wordt gehost op Amazon Web Services (AWS), een moderne, veilige en geoptimaliseerde omgeving. [ leer meer over Amazon Web Services ](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
+  De Adobe Managed Services-cloud wordt gehost op Amazon Web Services (AWS), een moderne, veilige en geoptimaliseerde omgeving. [&#x200B; leer meer over Amazon Web Services &#x200B;](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
 
 * **Welke klanten worden gericht voor deze migratie?**
 
@@ -67,11 +67,11 @@ Deze stap is transparant voor klanten:
 
 * **Welke bevestigingen door de klanten moeten worden in werking gesteld?**
 
-  Voor deze migratie zijn geen specifieke tests nodig. Voor het geval om het even welke kwestie wordt waargenomen, te bereiken gelieve uit [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
+  Voor deze migratie zijn geen specifieke tests nodig. Voor het geval om het even welke kwestie wordt waargenomen, te bereiken gelieve uit [&#x200B; de Zorg van de Klant van Adobe &#x200B;](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
 
 
 * **kan ik om een verandering in Datum/Tijd aan de geplande groef van de veiligheidsverbetering verzoeken?**
 
   Aangezien dit een verplichte migratie is, kunnen we geen wijzigingen in het bestaande schema aanbrengen.
 
-Voor een andere vraag, kunt u uit aan [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"} bereiken.
+Voor een andere vraag, kunt u uit aan [&#x200B; de Zorg van de Klant van Adobe &#x200B;](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"} bereiken.

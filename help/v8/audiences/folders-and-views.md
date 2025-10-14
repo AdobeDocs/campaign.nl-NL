@@ -86,12 +86,12 @@ In het onderstaande voorbeeld maken we een nieuwe map waarin alleen Amerikaanse 
 
    >[!NOTE]
    >
-   >Leer hoe te om vragen in [ te ontwerpen deze pagina ](create-filters.md#advanced-filters)
+   >Leer hoe te om vragen in [&#x200B; te ontwerpen deze pagina &#x200B;](create-filters.md#advanced-filters)
 
 
 >[!CAUTION]
 >
->Wanneer het beheren van [ transactieoverseinen ](../send/transactional.md) gebeurtenissen, moeten de **[!UICONTROL Real time events]** of **[!UICONTROL Batch events]** omslagen niet als meningen op de uitvoeringsinstanties worden geplaatst, aangezien dit tot toestemmingskwesties zou kunnen leiden.
+>Wanneer het beheren van [&#x200B; transactieoverseinen &#x200B;](../send/transactional.md) gebeurtenissen, moeten de **[!UICONTROL Real time events]** of **[!UICONTROL Batch events]** omslagen niet als meningen op de uitvoeringsinstanties worden geplaatst, aangezien dit tot toestemmingskwesties zou kunnen leiden.
 
 ## Uw mappen ordenen{#organize-your-folders}
 
@@ -115,4 +115,4 @@ De map hieronder bevat bijvoorbeeld alleen contactpersonen met een e-mailadres e
 
 ## Toegang tot een map beperken{#restrict-access-to-a-folder}
 
-De toestemmingen van het gebruik op omslagen om toegang tot de gegevens van de Campagne te organiseren en te controleren. Leer meer over toestemmingen op omslagen in [ deze sectie ](../start/folder-permissions.md).
+De toestemmingen van het gebruik op omslagen om toegang tot de gegevens van de Campagne te organiseren en te controleren. Leer meer over toestemmingen op omslagen in [&#x200B; deze sectie &#x200B;](../start/folder-permissions.md).

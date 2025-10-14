@@ -21,11 +21,11 @@ De activiteiten van het werkschema worden gegroepeerd door categorie, in vier ve
 
 Afhankelijk van uw machtigingen, uw implementatie en de context waarin de workflow is ontworpen, kunnen de beschikbare activiteiten afwijken.
 
-Bijvoorbeeld, hebben de werkschema&#39;s die in een campagne worden gecreeerd een specifiek **Leveringen** lusje, met alle kanalen. Dit lusje is niet beschikbaar in [ technisch werkschema ](technical-workflows.md).
+Bijvoorbeeld, hebben de werkschema&#39;s die in een campagne worden gecreeerd een specifiek **Leveringen** lusje, met alle kanalen. Dit lusje is niet beschikbaar in [&#x200B; technisch werkschema &#x200B;](technical-workflows.md).
 
 ![](assets/campaign-wf-activities.png)
 
-De technische werkschema&#39;s hebben een specifiek **Gebeurtenissen** lusje dat niet beschikbaar in [ campagnewerkschema&#39;s ](campaign-workflows.md) is.
+De technische werkschema&#39;s hebben een specifiek **Gebeurtenissen** lusje dat niet beschikbaar in [&#x200B; campagnewerkschema&#39;s &#x200B;](campaign-workflows.md) is.
 
 ![](assets/tech-wf-activities.png)
 

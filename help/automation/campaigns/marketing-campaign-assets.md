@@ -78,7 +78,7 @@ Als u een overzicht van de levering wilt maken, klikt u op het subtabblad **[!UI
 
 >[!NOTE]
 >
->Als dit tabblad niet wordt weergegeven, is deze functie niet beschikbaar voor deze campagne of is de directe verzending niet ingeschakeld in uw exemplaar. Verwijs naar de [ configuratie van het campagnemalplaatje ](marketing-campaign-templates.md#campaign-templates) of naar uw vergunningsovereenkomst.
+>Als dit tabblad niet wordt weergegeven, is deze functie niet beschikbaar voor deze campagne of is de directe verzending niet ingeschakeld in uw exemplaar. Verwijs naar de [&#x200B; configuratie van het campagnemalplaatje &#x200B;](marketing-campaign-templates.md#campaign-templates) of naar uw vergunningsovereenkomst.
 
 Klik vervolgens op **[!UICONTROL Add a delivery outline]** en maak een hiërarchie van contouren voor de campagne:
 
@@ -121,4 +121,4 @@ In het volgende voorbeeld worden het label, de geschatte kosten en de beschrijvi
 
 ![](assets/campaign-export-template.png)
 
-Het exportmodel moet worden gekoppeld aan de dienstverlener die voor de betrokken levering is geselecteerd. Zie [ deze sectie ](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+Het exportmodel moet worden gekoppeld aan de dienstverlener die voor de betrokken levering is geselecteerd. Zie [&#x200B; deze sectie &#x200B;](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).

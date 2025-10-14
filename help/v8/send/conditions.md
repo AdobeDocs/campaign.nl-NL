@@ -29,7 +29,7 @@ Voer de volgende stappen uit om voorwaardelijke inhoud te maken op basis van de 
 1. Open een bestaande levering of maak een nieuwe e-maillevering.
 1. Klik in de e-mailinhoudeditor op het pictogram voor aanpassen en selecteer **[!UICONTROL Conditional content > If]** .
 
-   ![ neem een voorwaarde ](assets/condition-insert.png) op
+   ![&#x200B; neem een voorwaarde &#x200B;](assets/condition-insert.png) op
 
    De verpersoonlijkingselementen worden opgenomen in het berichtlichaam. U moet hen nu vormen.
 
@@ -39,7 +39,7 @@ Voer de volgende stappen uit om voorwaardelijke inhoud te maken op basis van de 
    * Vervang **`<VALUE>`** door de waarde van het veld waaraan aan de voorwaarde wordt voldaan. Deze waarde moet tussen aanhalingstekens staan.
    * Geef de inhoud op die moet worden ingevoegd wanneer aan de voorwaarde wordt voldaan. Dit kan tekst, een afbeelding, een formulier, een hypertekstkoppeling enzovoort zijn.
 
-   ![ Voorwaarde in een e-mail ](assets/condition-in-email.png)
+   ![&#x200B; Voorwaarde in een e-mail &#x200B;](assets/condition-in-email.png)
 
 1. Klik op het tabblad **[!UICONTROL Preview]** om de inhoud van het bericht weer te geven op basis van de ontvanger van de zending. Selecteer een ontvanger waarvoor de voorwaarde waar is om de inhoud te controleren. Selecteer vervolgens een andere ontvanger waarvoor deze onwaar is en probeer het opnieuw.
 

@@ -12,18 +12,18 @@ ht-degree: 13%
 
 # Opmerkingen bij de release 2024 {#2024-rn}
 
-Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen, en moeilijke situaties die met **komen 2024 de Versies van de Campagne v8**. Voor de recentste versie, verwijs naar [ deze pagina ](release-notes.md).
+Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen, en moeilijke situaties die met **komen 2024 de Versies van de Campagne v8**. Voor de recentste versie, verwijs naar [&#x200B; deze pagina &#x200B;](release-notes.md).
 
-Voor om het even welke nieuwe implementatie of verbetering aan een bestaand milieu, installeer [ de recentste versie ](release-notes.md).
+Voor om het even welke nieuwe implementatie of verbetering aan een bestaand milieu, installeer [&#x200B; de recentste versie &#x200B;](release-notes.md).
 
 
 >[!BEGINSHADEBOX]
 
 **In deze pagina**
 
-* Campagne v8.7 - [ Versie 8.7.1 ](#release-8-7-1) | [ Versie 8.7.2 ](#release-8-7-2)
-* Campagne v8.6 - [ Versie 8.6.1 ](#release-8-6-1) | [ Versie 8.6.2 ](#release-8-6-2) | [ Versie 8.6.3 ](#release-8-6-3)
-* Campagne v8.5 - [ Versie 8.5.3 ](#release-8-5-3)
+* Campagne v8.7 - [&#x200B; Versie 8.7.1 &#x200B;](#release-8-7-1) | [&#x200B; Versie 8.7.2 &#x200B;](#release-8-7-2)
+* Campagne v8.6 - [&#x200B; Versie 8.6.1 &#x200B;](#release-8-6-1) | [&#x200B; Versie 8.6.2 &#x200B;](#release-8-6-2) | [&#x200B; Versie 8.6.3 &#x200B;](#release-8-6-3)
+* Campagne v8.5 - [&#x200B; Versie 8.5.3 &#x200B;](#release-8-5-3)
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +35,7 @@ _sep 3, 2024_
 >
 >Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [&#x200B; het document van het Webgebruikersinterface van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nieuwe functies {#new-8-7-2}
 
@@ -59,7 +59,7 @@ _vrijdag 2 mei 2024_
 >
 >Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [&#x200B; het document van het Webgebruikersinterface van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nieuwe functies {#new-8-7-1}
 
@@ -73,7 +73,7 @@ _vrijdag 2 mei 2024_
 
 ### Compatibiliteitsupdates {#comp-8-7-1}
 
-De volgende FDA-connectors zijn toegevoegd. Verwijs naar deze [ pagina ](compatibility-matrix.md#FederatedDataAccessFDA).
+De volgende FDA-connectors zijn toegevoegd. Verwijs naar deze [&#x200B; pagina &#x200B;](compatibility-matrix.md#FederatedDataAccessFDA).
 
 * Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Federated Data Access).
 
@@ -88,7 +88,7 @@ De volgende FDA-connectors zijn toegevoegd. Verwijs naar deze [ pagina ](compati
 
 Omdat de aanmeldingsgegevens van het serviceaccount (JWT) door Adobe worden beëindigd, zijn vanaf deze versie de uitgaande integraties van Campaign met oplossingen en apps van Adobe nu gebaseerd op de OAuth-server-naar-server-aanmeldingsgegevens. Adobe zal de migratie van JWT naar OAuth voor uw uitgaande integraties uitvoeren, zoals de integratie van Campaign-Analytics en de integratie van Experience Cloud-triggers.
 
-Als u binnenkomende integratie met Campagne hebt uitgevoerd, moet u uw Technische Rekening zoals die in [ wordt gedetailleerd deze documentatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"} migreren. De bestaande geloofsbrieven van de Rekening van de Dienst (JWT) zullen tot **30 juni, 2025** blijven werken.
+Als u binnenkomende integratie met Campagne hebt uitgevoerd, moet u uw Technische Rekening zoals die in [&#x200B; wordt gedetailleerd deze documentatie &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"} migreren. De bestaande geloofsbrieven van de Rekening van de Dienst (JWT) zullen tot **30 juni, 2025** blijven werken.
 
 ### Algemene verbeteringen {#improvements-8-7-1}
 
@@ -153,11 +153,11 @@ _feb 14, 2024_
 
 ### Nieuwe functies {#new-8-6-1}
 
-* Beginnend deze versie, hebt u toegang tot het nieuwe **gebruikersinterface van het Web van de Campagne**, beschikbaar door het centrale milieu van Adobe Experience Cloud. Experience Cloud is een geïntegreerde Adobe-reeks met digitale marketingtoepassingen, producten en services. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services. Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [ in deze pagina ](campaign-ui.md#ac-web-ui) toegang te hebben.
+* Beginnend deze versie, hebt u toegang tot het nieuwe **gebruikersinterface van het Web van de Campagne**, beschikbaar door het centrale milieu van Adobe Experience Cloud. Experience Cloud is een geïntegreerde Adobe-reeks met digitale marketingtoepassingen, producten en services. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services. Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [&#x200B; in deze pagina &#x200B;](campaign-ui.md#ac-web-ui) toegang te hebben.
 
   >[!AVAILABILITY]
   >
-  >De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
+  >De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [&#x200B; het Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
   >
 
 * Adobe Campaign v8 integreert nu met **Adobe Experience Manager as a Cloud Service**, met auteursrecht uitsluitend beschikbaar via het Gebruikersinterface van het Web van Adobe Campaign. [Meer informatie](../connect/ac-aem.md)

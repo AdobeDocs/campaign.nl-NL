@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support) om Campagne met X te verbinden. **het Leiden sociale netwerken (Sociale Marketing)** toe:voegen-op moet op uw milieu, door het specifieke pakket worden geïnstalleerd, en de Externe Rekening Twitter moet worden gevormd.
+>Als Beheerde gebruiker van de Diensten van de Wolk, [&#x200B; contacteer Adobe &#x200B;](../start/campaign-faq.md#support) om Campagne met X te verbinden. **het Leiden sociale netwerken (Sociale Marketing)** toe:voegen-op moet op uw milieu, door het specifieke pakket worden geïnstalleerd, en de Externe Rekening Twitter moet worden gevormd.
 
 
 Als u Adobe Campaign wilt configureren om tweets te posten naar uw X-accounts, kunt u voor deze accounts schrijfrechten delegeren aan Adobe Campaign. Hiervoor moet u:
@@ -36,16 +36,16 @@ Als u Adobe Campaign wilt configureren om tweets te posten naar uw X-accounts, k
 
 ## X-ontwikkelingsaccount {#dev-account}
 
-Om met deze integratie te beginnen, moet u omhoog voor a [ X ontwikkelaarsrekening ](https://developer.twitter.com){target="_blank"} ondertekenen.
+Om met deze integratie te beginnen, moet u omhoog voor a [&#x200B; X ontwikkelaarsrekening &#x200B;](https://developer.twitter.com){target="_blank"} ondertekenen.
 
-De campagne gebruikt versie 1.1 van X API. Om het te gebruiken, moet u voor Verhoogde toegang via het Portaal van de Ontwikkelaar aanvragen. Leer meer over X Verhoogde Toegang [ in deze pagina ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
+De campagne gebruikt versie 1.1 van X API. Om het te gebruiken, moet u voor Verhoogde toegang via het Portaal van de Ontwikkelaar aanvragen. Leer meer over X Verhoogde Toegang [&#x200B; in deze pagina &#x200B;](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
 
 ## Een toepassing maken op X {#create-an-app-on-twitter}
 
 Zodra u met Verhoogde toegang bent goedgekeurd, creeer een X toepassing om Adobe Campaign toe te laten om posten op uw rekening van X tot stand te brengen. Hiervoor voert u de volgende stappen uit:
 
 1. Meld u aan bij uw X-account.
-1. Verbind met [ X ontwikkelaarsportaal ](https://developer.twitter.com/en/apps){target="_blank"}.
+1. Verbind met [&#x200B; X ontwikkelaarsportaal &#x200B;](https://developer.twitter.com/en/apps){target="_blank"}.
 1. Selecteer **creeer een app**.
 1. Laat X de medewerker u door het proces begeleiden.
 1. Om Adobe Campaign toe te staan om posten op uw rekening tot stand te brengen, geef aan de **toestemmingen van de Toepassing** van de de authentificatieset van de Gebruiker van uw app uit. Selecteer **Gelezen, schrijven, en Directe Berichten**.
@@ -72,7 +72,7 @@ Om uw instantie van de Campagne met uw rekening van X te verbinden, creeer de di
 
 >[!CAUTION]
 >
->Creeer één **Twitter** dienst per rekening van X. Dientengevolge, moet u een andere testdienst tot stand brengen om proeven naar uw [ testrekening ](#tw-test-account) te verzenden.
+>Creeer één **Twitter** dienst per rekening van X. Dientengevolge, moet u een andere testdienst tot stand brengen om proeven naar uw [&#x200B; testrekening &#x200B;](#tw-test-account) te verzenden.
 >
 >Elke **Twitter** dienst moet ook door Adobe op uw mid-sourcing (MID) instantie worden gecreeerd. Neem contact op met uw Adobe-vertegenwoordiger om uw omgeving te configureren.
 >
@@ -95,7 +95,7 @@ Als u instellingen wilt invoeren, hebt u zowel toegang tot uw Adobe Campaign Cli
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Synchronize subscriptions]** optie wordt toegelaten door gebrek: deze optie herstelt automatisch de lijst van uw volgers van X zodat u hen directe berichten [&#128279;](../send/twitter.md#direct-tw-messages) kunt  verzenden. De synchronisatie wordt uitgevoerd door a [ specifiek technisch werkschema ](#synchro-tw-accounts).
+   >De **[!UICONTROL Synchronize subscriptions]** optie wordt toegelaten door gebrek: deze optie herstelt automatisch de lijst van uw volgers van X zodat u hen directe berichten [&#128279;](../send/twitter.md#direct-tw-messages) kunt  verzenden. De synchronisatie wordt uitgevoerd door a [&#x200B; specifiek technisch werkschema &#x200B;](#synchro-tw-accounts).
 
 1. Van uw app van X, kopieer de inhoud van de **Sleutel API** en **[API Zeer belangrijk Geheime]** gebieden en kleef hen in **[!UICONTROL Consumer key]** en **[!UICONTROL Consumer secret]** gebieden van uw 2&rbrace; Twitter **dienst van de Campagne**.
 
@@ -138,7 +138,7 @@ Zodra deze configuratie wordt gedaan, kunt u berichten op uw rekeningen van X to
 
 ## Een testaccount maken op X {#tw-test-account}
 
-Naast de rekening van X, creeer een privé rekening van X die voor het verzenden van [ tweet proef ](../send/twitter.md#send-tw-proofs) kan worden gebruikt. Hiervoor voert u de volgende stappen uit:
+Naast de rekening van X, creeer een privé rekening van X die voor het verzenden van [&#x200B; tweet proef &#x200B;](../send/twitter.md#send-tw-proofs) kan worden gebruikt. Hiervoor voert u de volgende stappen uit:
 
 1. Maak een nieuw X-account.
 1. Heb toegang tot de rekening **Montages**.

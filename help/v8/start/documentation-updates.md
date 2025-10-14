@@ -36,9 +36,9 @@ Er is een opmerking toegevoegd waarin wordt aangegeven hoe instantievariabelen m
 
 ## Mei 2024 {#may-2024}
 
-* De lijst van kanalen en types van leveringen zijn nu vermeld in [ deze pagina ](create-message.md).
+* De lijst van kanalen en types van leveringen zijn nu vermeld in [&#x200B; deze pagina &#x200B;](create-message.md).
 * De leveringsmontages en de secties van het golfbeheer zijn gereorganiseerd en verbeterd. [Meer informatie](../send/configure-and-send.md).
-* Er is een opmerking toegevoegd om op te geven dat **[!UICONTROL Change Dimension]** - en **[!UICONTROL Change Data source]** -activiteiten niet in één rij mogen worden toegevoegd en dat er een **[!UICONTROL Enrichement]** -activiteit tussen moet worden uitgevoerd. Lees meer in de [ Dimensie van de Verandering ](../../automation/workflow/change-dimension.md) en [ Gegevensbron van de Verandering ](../../automation/workflow/change-data-source.md) secties.
+* Er is een opmerking toegevoegd om op te geven dat **[!UICONTROL Change Dimension]** - en **[!UICONTROL Change Data source]** -activiteiten niet in één rij mogen worden toegevoegd en dat er een **[!UICONTROL Enrichement]** -activiteit tussen moet worden uitgevoerd. Lees meer in de [&#x200B; Dimensie van de Verandering &#x200B;](../../automation/workflow/change-dimension.md) en [&#x200B; Gegevensbron van de Verandering &#x200B;](../../automation/workflow/change-data-source.md) secties.
 
 ## februari 2024 {#feb-2024}
 
@@ -49,4 +49,4 @@ Er is een opmerking toegevoegd waarin wordt aangegeven hoe instantievariabelen m
 ## Januari 2024 {#jan-2024}
 
 * Er is informatie toegevoegd over de manier waarop het standaardveld postalAddress voor Direct Mail is gedefinieerd en waarom het belangrijk is dat de adressen volledig zijn. [Meer informatie](../send/direct-mail.md)
-* Adobe Campaign v8 [ documentatiehuis ](../campaign-home.md) pagina is opnieuw ontworpen.
+* Adobe Campaign v8 [&#x200B; documentatiehuis &#x200B;](../campaign-home.md) pagina is opnieuw ontworpen.

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 De toestemmingen van het gebruik op omslagen om toegang tot de gegevens van de Campagne te organiseren en te controleren.
 
-Het beheer van de omslag is gedetailleerd in [ deze pagina ](../audiences/folders-and-views.md).
+Het beheer van de omslag is gedetailleerd in [&#x200B; deze pagina &#x200B;](../audiences/folders-and-views.md).
 
 Voer de volgende stappen uit als u machtigingen voor een specifieke map Campagne wilt bewerken:
 

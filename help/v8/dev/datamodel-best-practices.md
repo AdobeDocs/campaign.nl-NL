@@ -18,11 +18,11 @@ Dit document bevat belangrijke aanbevelingen bij het ontwerpen van uw Adobe Camp
 
 Het Adobe Campaign-systeem is zeer flexibel en kan verder worden uitgebreid dan de eerste implementatie. Hoewel de mogelijkheden oneindig zijn, is het echter van essentieel belang om verstandige beslissingen te nemen en sterke fundamenten te leggen voor het ontwerpen van uw gegevensmodel.
 
-Voor een beter begrip van de ingebouwde lijsten van de Campagne en hoe zij met elkaar betrekking hebben, verwijs naar [ deze sectie ](datamodel.md).
+Voor een beter begrip van de ingebouwde lijsten van de Campagne en hoe zij met elkaar betrekking hebben, verwijs naar [&#x200B; deze sectie &#x200B;](datamodel.md).
 
-Lees uit [ deze sectie ](schemas.md) om met de schema&#39;s van de Campagne begonnen te worden.
+Lees uit [&#x200B; deze sectie &#x200B;](schemas.md) om met de schema&#39;s van de Campagne begonnen te worden.
 
-Leer hoe te om uitbreidingsschema&#39;s te vormen om het conceptuele gegevensmodel van het gegevensbestand van Adobe Campaign in [ uit te breiden deze pagina ](extend-schema.md).
+Leer hoe te om uitbreidingsschema&#39;s te vormen om het conceptuele gegevensmodel van het gegevensbestand van Adobe Campaign in [&#x200B; uit te breiden deze pagina &#x200B;](extend-schema.md).
 
 ## Gegevensmodelarchitectuur {#data-model-architecture}
 
@@ -37,7 +37,7 @@ Ga naar **[!UICONTROL Admin > Configuration > Data schemas]** om de beschrijving
 
 >[!NOTE]
 >
->Adobe Campaign staat toe om a [ douane ontvankelijke lijst ](custom-recipient.md) te bouwen. Nochtans, in de meeste gevallen, wordt het geadviseerd om de ingebouwde [ Ontvanger lijst ](datamodel.md#ootb-profiles) te hefboomwerking die reeds extra lijsten en eigenschappen heeft vooraf gebouwd.
+>Adobe Campaign staat toe om a [&#x200B; douane ontvankelijke lijst &#x200B;](custom-recipient.md) te bouwen. Nochtans, in de meeste gevallen, wordt het geadviseerd om de ingebouwde [&#x200B; Ontvanger lijst &#x200B;](datamodel.md#ootb-profiles) te hefboomwerking die reeds extra lijsten en eigenschappen heeft vooraf gebouwd.
 
 ### Gegevens voor Adobe Campaign {#data-for-campaign}
 
@@ -72,13 +72,13 @@ Een veld moet in een tabel worden opgeslagen als het een doel of een doel voor p
 
 ### Keuze van sleutels {#choice-of-keys}
 
-Naast **autoUtouuid** en **automatisch** die door gebrek in de meeste lijsten wordt bepaald, zou u moeten overwegen één of andere logische of bedrijfssleutels (rekeningsaantal, cliëntaantal, etc.) toe te voegen. Het kan later worden gebruikt voor invoer/verzoening of gegevenspakketten. Voor meer op dit, zie [ Herkenningstekens ](#identifiers).
+Naast **autoUtouuid** en **automatisch** die door gebrek in de meeste lijsten wordt bepaald, zou u moeten overwegen één of andere logische of bedrijfssleutels (rekeningsaantal, cliëntaantal, etc.) toe te voegen. Het kan later worden gebruikt voor invoer/verzoening of gegevenspakketten. Voor meer op dit, zie [&#x200B; Herkenningstekens &#x200B;](#identifiers).
 
 Efficiënte toetsen zijn essentieel voor de prestaties. Met Snowflake kunt u numerieke of op tekenreeks gebaseerde gegevenstypen invoegen als sleutels voor tabellen.
 
 >[!NOTE]
 >
->Het **autouuid** attribuut is slechts op [ de plaatsingen van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md) van toepassing.
+>Het **autouuid** attribuut is slechts op [&#x200B; de plaatsingen van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md) van toepassing.
 
 ## Id&#39;s {#identifiers}
 
@@ -92,7 +92,7 @@ In de volgende tabel worden deze id&#39;s en hun doel beschreven.
 | Naam (of interne naam) | <ul><li>Deze informatie is een unieke id van een record in een tabel. Deze waarde kan handmatig worden bijgewerkt, meestal met een gegenereerde naam.</li><li>Deze id behoudt zijn waarde wanneer deze wordt geïmplementeerd in een andere instantie van Adobe Campaign en mag niet leeg zijn.</li></ul> | <ul><li>Wijzig de naam van de record die wordt gegenereerd door Adobe Campaign als het object moet worden geïmplementeerd vanuit een omgeving naar een andere.</li><li>Wanneer een voorwerp een namespace attribuut (*schema* bijvoorbeeld) heeft, zal dit gemeenschappelijke namespace over alle gecreeerde douanevoorwerpen leveraged worden. Sommige gereserveerde namespaces zouden niet moeten worden gebruikt: *nms*, *xtk*, enz.  Sommige naamruimten zijn alleen intern. [Meer informatie](schemas.md#reserved-namespaces).</li><li>Wanneer een voorwerp geen namespace (*werkschema* of *levering* bijvoorbeeld) heeft, zou dit namespace begrip als prefix van een intern naamobject worden toegevoegd: *namespaceMyObjectName*.</li><li>Gebruik geen speciale tekens zoals spatie &quot;&quot;, puntkolom &quot;:&quot; of afbreekstreepje &quot;-&quot;. Al deze tekens worden vervangen door een onderstrepingsteken &quot;_&quot; (toegestaan teken). &quot;abc-def&quot; en &quot;abc:def&quot; worden bijvoorbeeld opgeslagen als &quot;abc_def&quot; en worden elkaar overschreven.</li></ul> |
 | Label | <ul><li>Het label is de bedrijfsidentificatie van een object of record in Adobe Campaign.</li><li>Voor dit object zijn spaties en speciale tekens toegestaan.</li><li>Het garandeert niet dat een record uniek is.</li></ul> | <ul><li>Het wordt aanbevolen een structuur voor de objectlabels te bepalen.</li><li>Dit is de meest gebruikersvriendelijke oplossing om een record of object voor een Adobe Campaign-gebruiker te identificeren.</li></ul> |
 
-In de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), is de primaire sleutel van Adobe Campaign auto-geproduceerde UUID voor alle ingebouwde lijsten. Een UUID kan ook worden gebruikt voor aangepaste tabellen. [Meer informatie](../architecture/keys.md)
+In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), is de primaire sleutel van Adobe Campaign auto-geproduceerde UUID voor alle ingebouwde lijsten. Een UUID kan ook worden gebruikt voor aangepaste tabellen. [Meer informatie](../architecture/keys.md)
 
 Zelfs als het aantal id&#39;s oneindig is, moet u de grootte van uw database in acht nemen om optimale prestaties te garanderen. Om problemen te voorkomen, moet u de instellingen voor het opschonen van de instantie aanpassen. Zie [deze sectie](#data-retention)voor meer informatie.
 
@@ -112,7 +112,7 @@ Bij het maken van een aangepaste tabel hebt u twee opties:
 >[!CAUTION]
 >
 >* Een autoID zou niet als verwijzing in werkschema&#39;s moeten worden gebruikt.
-> * Het **autouuid** attribuut is slechts op [ de plaatsingen van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md) van toepassing.
+> * Het **autouuid** attribuut is slechts op [&#x200B; de plaatsingen van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md) van toepassing.
 >
 
 ## Koppelingen en kardinaliteit {#links-and-cardinality}
@@ -121,7 +121,7 @@ Bij het maken van een aangepaste tabel hebt u twee opties:
 
 Let op de &#39;eigen&#39; integriteit voor grote tabellen. Het schrappen van verslagen die grote lijsten in &quot;eigen&quot;integriteit hebben kan de instantie potentieel tegenhouden. De tabel is vergrendeld en de verwijderingen worden een voor een gemaakt. Het is dus beter om &quot;neutrale&quot;integriteit op kindlijsten te gebruiken die grote volumes hebben.
 
-Het declareren van een koppeling als externe verbinding is niet geschikt voor de prestaties. De nul-id verslag emuleert de externe aansluit zich aan bij functionaliteit. In de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), is het niet noodzakelijk om externe te verklaren toetreedt als de verbinding **autouuid** gebruikt.
+Het declareren van een koppeling als externe verbinding is niet geschikt voor de prestaties. De nul-id verslag emuleert de externe aansluit zich aan bij functionaliteit. In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), is het niet noodzakelijk om externe te verklaren toetreedt als de verbinding **autouuid** gebruikt.
 
 Hoewel het mogelijk is om zich aan te sluiten bij een tabel in een workflow, raadt Adobe aan om gemeenschappelijke koppelingen tussen bronnen rechtstreeks in de definitie van de gegevensstructuur te definiëren.
 

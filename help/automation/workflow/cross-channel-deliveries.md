@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Cross-channel leveringen{#cross-channel-deliveries}
 
-De leveringen van het dwars-kanaal zijn beschikbaar in het **[!UICONTROL Deliveries]** lusje van [ campagnewerkschema ](campaign-workflows.md) activiteiten.
+De leveringen van het dwars-kanaal zijn beschikbaar in het **[!UICONTROL Deliveries]** lusje van [&#x200B; campagnewerkschema &#x200B;](campaign-workflows.md) activiteiten.
 
 Selecteer de sjabloon waarop u de levering wilt baseren en definieer de inhoud ervan.
 

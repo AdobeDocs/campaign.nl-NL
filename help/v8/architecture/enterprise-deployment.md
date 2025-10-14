@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # [!DNL Campaign] Implementatie van FFDA {#gs-ac-ffda}
 
-Door [[!DNL Snowflake] ](https://www.snowflake.com/){target="_blank"}, een technologie van het wolkengegevensbestand, de plaatsing van de Volledige Federale Toegang van de Onderneming van Adobe Campaign (FFDA) dramatisch verbetert zijn schaal en snelheid, met de capaciteit om een beduidend aantal klantenprofielen, evenals veel hogere leveringspercentages en transacties per uur te beheren.
+Door [[!DNL Snowflake] &#x200B;](https://www.snowflake.com/){target="_blank"}, een technologie van het wolkengegevensbestand, de plaatsing van de Volledige Federale Toegang van de Onderneming van Adobe Campaign (FFDA) dramatisch verbetert zijn schaal en snelheid, met de capaciteit om een beduidend aantal klantenprofielen, evenals veel hogere leveringspercentages en transacties per uur te beheren.
 
 ## Voordelen {#ffda-benefits}
 
@@ -37,11 +37,11 @@ Om het even welk ingebouwd schema/lijst die moet worden bewogen of in het Gegeve
 
 ## Campagne Enterprise (FFDA)-architectuur{#ffda-archi}
 
-In een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee gegevensbestanden: een lokaal [!DNL Campaign] gegevensbestand voor het gebruikersinterface overseinen in real time en unitaire vragen en schrijven door APIs, en een gegevensbestand van de Wolk [!DNL Snowflake] voor campagneuitvoering, partijvragen en werkschemauitvoering.
+In een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 werkt met twee gegevensbestanden: een lokaal [!DNL Campaign] gegevensbestand voor het gebruikersinterface overseinen in real time en unitaire vragen en schrijven door APIs, en een gegevensbestand van de Wolk [!DNL Snowflake] voor campagneuitvoering, partijvragen en werkschemauitvoering.
 
 De Onderneming van de campagne v8 brengt het concept **Volledige Federatieve Toegang van Gegevens** (FFDA): alle gegevens zijn nu ver op het Gegevensbestand van de Wolk.
 
-Er zijn specifieke API&#39;s beschikbaar voor het beheer van gegevens tussen de lokale en de clouddatabase. Leer hoe deze nieuwe APIs werkt en hoe te om hen in [ te gebruiken deze pagina ](new-apis.md).
+Er zijn specifieke API&#39;s beschikbaar voor het beheer van gegevens tussen de lokale en de clouddatabase. Leer hoe deze nieuwe APIs werkt en hoe te om hen in [&#x200B; te gebruiken deze pagina &#x200B;](new-apis.md).
 
 De algemene communicatie tussen servers en processen wordt uitgevoerd volgens het volgende schema:
 
@@ -82,7 +82,7 @@ De PostgreSQL-database in de mid-sourcing-instantie wordt gebruikt om:
 
 ### [!DNL Campaign] Mechanisme voor API-staging{#staging-api}
 
-Met de [!DNL Campaign] Cloud-database wordt het opblazen van eenheidaanroepen niet aanbevolen voor wat betreft prestaties (latentie en gelijktijdige uitvoering). Tenzij u een extreem laag volume verzendt, moeten batchbewerkingen worden gebruikt om optimale API-prestaties te garanderen. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database. [ Leer meer op het opvoeren mechanisme van API van de Campagne ](staging.md)
+Met de [!DNL Campaign] Cloud-database wordt het opblazen van eenheidaanroepen niet aanbevolen voor wat betreft prestaties (latentie en gelijktijdige uitvoering). Tenzij u een extreem laag volume verzendt, moeten batchbewerkingen worden gebruikt om optimale API-prestaties te garanderen. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database. [&#x200B; Leer meer op het opvoeren mechanisme van API van de Campagne &#x200B;](staging.md)
 
 ### Nieuwe API&#39;s{#new-apis}
 

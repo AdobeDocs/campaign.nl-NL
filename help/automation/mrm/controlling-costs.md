@@ -144,7 +144,7 @@ Volgens de gekozen kostencategorieën worden de overeenkomstige kostenstructuren
 
 >[!NOTE]
 >
->De categorieën en de structuren van kosten worden voorgesteld in [ deze pagina ](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
+>De categorieën en de structuren van kosten worden voorgesteld in [&#x200B; deze pagina &#x200B;](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
 
 ## Vastleggingsverplichting, berekening en toerekening van kosten {#cost-commitment--calculation-and-charging}
 
@@ -187,7 +187,7 @@ De kosten zijn in drie categorieën onderverdeeld:
 
 De kosten worden berekend via kostenstructuren en worden in rekening gebracht op de in de betrokken campagnes, leveringen of taken geselecteerde budgetten.
 
-De bedragen die via de goedkeuring van de begroting voor campagnes zijn vastgelegd, kunnen worden gecontroleerd. Er kunnen extra taken in de vorm van een controlepunt worden gemaakt in een campagne om andere goedkeuringen in te stellen. Zie [ Types van taak ](creating-and-managing-tasks.md#types-of-task).
+De bedragen die via de goedkeuring van de begroting voor campagnes zijn vastgelegd, kunnen worden gecontroleerd. Er kunnen extra taken in de vorm van een controlepunt worden gemaakt in een campagne om andere goedkeuringen in te stellen. Zie [&#x200B; Types van taak &#x200B;](creating-and-managing-tasks.md#types-of-task).
 
 ### Voorbeeld {#example}
 
@@ -277,7 +277,7 @@ Wanneer u de berekende kosten bewerkt, kunt u de uitsplitsing van de kosten en d
 
 #### Stap 5 - Taken maken {#step-5---creating-tasks}
 
-Aan deze campagne, zullen wij de twee taken toevoegen waarvoor de kostenstructuren [ vroeger ](#step-2---configuring-the-service-provider-and-defining-the-cost-structures) werden gecreeerd.
+Aan deze campagne, zullen wij de twee taken toevoegen waarvoor de kostenstructuren [&#x200B; vroeger &#x200B;](#step-2---configuring-the-service-provider-and-defining-the-cost-structures) werden gecreeerd.
 
 Klik hiertoe op de knop **[!UICONTROL Add a task]** in het campagnemdashboard. Geef een naam op voor de taak en klik op **[!UICONTROL Save]** .
 

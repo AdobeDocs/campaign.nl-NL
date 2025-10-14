@@ -23,7 +23,7 @@ Hoewel de meeste e-mailclients afbeeldingen zonder problemen renderen, kunnen be
 
 De spiegelpagina die door Adobe Campaign wordt gegenereerd, bevat alle aanpassingsgegevens.
 
-![ de steekproef van de spiegelverbinding ](assets/mirror-page-link.png){width="600" align="left"}
+![&#x200B; de steekproef van de spiegelverbinding &#x200B;](assets/mirror-page-link.png){width="600" align="left"}
 
 ## Een koppeling toevoegen aan de spiegelpagina {#link-to-mirror-page}
 
@@ -34,7 +34,7 @@ In Adobe Campaign, kunt u een verbinding aan de spiegelpagina in de e-mailinhoud
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-Voor meer bij het opnemen van de blokken van de verpersoonlijkingsinhoud, verwijs naar [ de blokken van de Aanpassing ](personalization-blocks.md).
+Voor meer bij het opnemen van de blokken van de verpersoonlijkingsinhoud, verwijs naar [&#x200B; de blokken van de Aanpassing &#x200B;](personalization-blocks.md).
 
 ## Het genereren van spiegel beheren {#mirror-page-generation}
 

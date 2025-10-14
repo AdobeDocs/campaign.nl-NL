@@ -20,7 +20,7 @@ Personalization-gegevens kunnen worden opgehaald uit verschillende typen bronnen
 
 In het meest algemene geval, worden de verpersoonlijkingsgegevens opgeslagen in het gegevensbestand. Velden voor &#39;persoonlijke voorkeur van ontvangers&#39; zijn bijvoorbeeld alle velden die zijn gedefinieerd in de tabel met ontvangers, standaardvelden (doorgaans: achternaam, voornaam, adres, plaats, geboortedatum, enz.) of aangepaste velden.
 
-![ de verpersoonlijkingsgebieden van de Campagne in e-mail ](assets/perso-campaign-datasource.png)
+![&#x200B; de verpersoonlijkingsgebieden van de Campagne in e-mail &#x200B;](assets/perso-campaign-datasource.png)
 
 
 ## Externe bestandsgegevensbron
@@ -29,18 +29,18 @@ U kunt een extern bestand gebruiken dat alle velden bevat die in kolommen zijn g
 
 Om het dossier te selecteren om als gegevensbron te gebruiken, doorblader aan te verbinden in het venster van de berichtverwezenlijking en selecteer **Gedefinieerd in een extern dossier** optie. Zodra het dossier wordt geladen, heb toegang tot de ontvankelijke gegevens in de verpersoonlijkingsopties, van de **Gebieden van de dossier** ingang.
 
-![ gegevens van Personalization van een dossier ](assets/perso-from-file.png)
+![&#x200B; gegevens van Personalization van een dossier &#x200B;](assets/perso-from-file.png)
 
 
 ## FDA-gegevensbron
 
-De gegevens van Personalization kunnen uit een externe lijst door [ Federated Toegang van Gegevens ](../connect/fda.md) worden getrokken.  Als u personalisatie in uw leveringen wilt uitvoeren gebruikend gegevens van het externe gegevensbestand, verzamel de gegevens in een werkschema te gebruiken om het ter beschikking te stellen in een tijdelijke lijst.
+De gegevens van Personalization kunnen uit een externe lijst door [&#x200B; Federated Toegang van Gegevens &#x200B;](../connect/fda.md) worden getrokken.  Als u personalisatie in uw leveringen wilt uitvoeren gebruikend gegevens van het externe gegevensbestand, verzamel de gegevens in een werkschema te gebruiken om het ter beschikking te stellen in een tijdelijke lijst.
 
-Om dit uit te voeren, voeg de activiteit van de a **Vraag** in het richten werkschema toe en gebruik **gegevens toevoegen...** verbinding om het externe gegevensbestand te selecteren. Het gedetailleerde proces is beschikbaar in [ deze sectie ](../../automation/workflow/query.md#adding-data).
+Om dit uit te voeren, voeg de activiteit van de a **Vraag** in het richten werkschema toe en gebruik **gegevens toevoegen...** verbinding om het externe gegevensbestand te selecteren. Het gedetailleerde proces is beschikbaar in [&#x200B; deze sectie &#x200B;](../../automation/workflow/query.md#adding-data).
 
 Dan gebruik de gegevens van de tijdelijke lijst om uw levering te personaliseren. Zodra de vraagactiviteit wordt gevormd, heb toegang tot de externe gegevens in de verpersoonlijkingsopties, van de **uitbreiding van het Doel** ingang.
 
-![ gegevens van Personalization van een extern gegevensbestand ](assets/perso-external-db.png)
+![&#x200B; gegevens van Personalization van een extern gegevensbestand &#x200B;](assets/perso-external-db.png)
 
 Wanneer het gebruiken van externe gegevens die in FDA worden betreden, wordt het geadviseerd om berichtverpersoonlijking in een specifiek werkschema vooraf te verwerken gebruikend **de verpersoonlijkingsgegevens met een werkschema** optie zoals hieronder gedetailleerd voor te bereiden.
 
@@ -70,4 +70,4 @@ Wanneer de analyse is voltooid, gaat u naar de workflow **[!UICONTROL Properties
 
 Wanneer een levering in de context van een werkschema wordt gecreeerd, kunt u de gegevens van de tijdelijke werkschematabel gebruiken. De gegevens die in de tijdelijke werkstroomlijst worden opgeslagen, zijn beschikbaar voor verpersoonlijkingstaken. Gegevens kunnen worden gebruikt in de verpersoonlijkingsvelden.
 
-Deze gegevens worden gegroepeerd in het menu **[!UICONTROL Target extension]** . Voor meer op dit, verwijs naar [ deze sectie ](../../automation/workflow/use-workflow-data.md#target-data).
+Deze gegevens worden gegroepeerd in het menu **[!UICONTROL Target extension]** . Voor meer op dit, verwijs naar [&#x200B; deze sectie &#x200B;](../../automation/workflow/use-workflow-data.md#target-data).

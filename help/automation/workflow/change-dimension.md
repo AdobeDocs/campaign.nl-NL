@@ -55,7 +55,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Change dimension]** -activiteit
 
      >[!NOTE]
      >
-     >Voor informatie bij het creëren van en het leiden van extra kolommen, verwijs naar [ gegevens ](query.md#add-data) toevoegen.
+     >Voor informatie bij het creëren van en het leiden van extra kolommen, verwijs naar [&#x200B; gegevens &#x200B;](query.md#add-data) toevoegen.
 
    * Selecteer de vorige doeldimensie (vóór de asschakelaar) en selecteer **[!UICONTROL Zip Code]** in de **[!UICONTROL Location]** -substructuur van de ontvanger en klik vervolgens op **[!UICONTROL Edit expression]** .
 

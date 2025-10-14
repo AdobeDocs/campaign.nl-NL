@@ -20,7 +20,7 @@ Testprofielen worden gemaakt als beginadressen. Ze worden gebruikt om ontvangers
 
 De zaadadressen hebben de volgende voordelen:
 
-* Willekeurige vervanging van velden door gegevens uit ontvangende profielen: hiermee kunt u alleen het e-mailadres invoeren, bijvoorbeeld in de sectie met het zaadadres, en Campagne automatisch de andere velden van het profiel laten invullen. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=nl-NL){target="_blank"}.
+* Willekeurige vervanging van velden door gegevens uit ontvangende profielen: hiermee kunt u alleen het e-mailadres invoeren, bijvoorbeeld in de sectie met het zaadadres, en Campagne automatisch de andere velden van het profiel laten invullen. Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=nl-NL){target="_blank"}.
 * Wanneer u een workflow met functies voor gegevensbeheer gebruikt, kunnen de aanvullende gegevens die in leveringen worden verwerkt, op het niveau van het zaadadres worden ingevoerd om waarden af te dwingen: dit verlaagt de vervanging van willekeurige waarden.
 * Zaadadressen worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]** .
 
@@ -30,13 +30,13 @@ De zaadadressen worden toegevoegd aan het doel van leveringen door worden ingevo
 >
 >De zaadadressen worden niet gecreeerd in de ontvangers lijst, maar in een afzonderlijke lijst. Als u de lijst van ontvangers met nieuwe gegevens uitbreidt, moet u de lijst van zaadadressen evenals met de zelfde gegevens uitbreiden. Anders, zullen zij uitgebreide gebieden niet in aanmerking worden genomen voor zaadadressen.
 >
->Een voorbeeld van hoe te om de zaadadreslijst uit te breiden wordt voorgesteld in [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=nl-NL){target="_blank"}.
+>Een voorbeeld van hoe te om de zaadadreslijst uit te breiden wordt voorgesteld in [&#x200B; de documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=nl-NL){target="_blank"}.
 
 ## Seedadressen maken
 
 Zaadadressen worden niet beheerd via standaardprofielen en -doelen, maar in een speciaal knooppunt van de Adobe Campaign Explorer: **[!UICONTROL Resources > Campaign management > Seed addresses]** . U kunt submappen maken om de zaadadressen te ordenen.
 
-Met Adobe Campaign kunt u ook zaadadressjablonen maken die worden geïmporteerd in leveringen of campagnes en die worden aangepast aan de specifieke behoeften van de desbetreffende leveringen en campagnes. Verwijs naar [ zaadadresmalplaatjes ](#creating-seed-address-templates) creëren.
+Met Adobe Campaign kunt u ook zaadadressjablonen maken die worden geïmporteerd in leveringen of campagnes en die worden aangepast aan de specifieke behoeften van de desbetreffende leveringen en campagnes. Verwijs naar [&#x200B; zaadadresmalplaatjes &#x200B;](#creating-seed-address-templates) creëren.
 
 ### Adressen definiëren {#defining-addresses}
 
@@ -63,7 +63,7 @@ U kunt adressjablonen maken die voor elke levering kunnen worden geïmporteerd e
 
 ### Adressen voor directe postzendingen {#direct-mail-seed-addresses}
 
-Voor [ directe postleveringen ](../send/direct-mail.md), worden de zaadadressen toegevoegd tijdens extractie en in het outputdocument gemengd.
+Voor [&#x200B; directe postleveringen &#x200B;](../send/direct-mail.md), worden de zaadadressen toegevoegd tijdens extractie en in het outputdocument gemengd.
 
 Voor direct-mailleveringen moet de indeling van het extractiebestand voldoen aan de volgende beperkingen:
 
@@ -79,13 +79,13 @@ Er zijn drie mogelijke invoegmodi:
 
 1. Voer enkele zaadadressen in.  Klik hiertoe op de knop **[!UICONTROL Add]** en definieer de inhoud van de adresvelden. Herhaal dit voor elk adres.
 
-1. De invoer [ malplaatjes van het zaadadres ](#creating-seed-address-template) en past hen aan uw behoeften aan. Klik hiertoe op de koppeling **[!UICONTROL Import seed templates...]** en selecteer de map die de adressjablonen bevat.
+1. De invoer [&#x200B; malplaatjes van het zaadadres &#x200B;](#creating-seed-address-template) en past hen aan uw behoeften aan. Klik hiertoe op de koppeling **[!UICONTROL Import seed templates...]** en selecteer de map die de adressjablonen bevat.
 
    Indien nodig kunt u dubbelklikken op de knoppen **[!UICONTROL Detail...]** nadat u deze hebt toegevoegd om de inhoud van elk adres aan te passen.
 
 1. Creeer een voorwaarde om dynamisch de controleadressen te selecteren die moeten worden opgenomen. Klik hiertoe op de koppeling **[!UICONTROL Edit the dynamic condition...]** en voer vervolgens de selectieparameters voor het zaadadres in. Bijvoorbeeld, kon u alle zaadadressen omvatten in een specifieke omslag, of zaadadressen die tot een specifieke afdeling van uw organisatie behoren.
 
-   Een voorbeeld van dit wordt voorgesteld in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=nl-NL){target="_blank"}.
+   Een voorbeeld van dit wordt voorgesteld in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=nl-NL){target="_blank"}.
 
 Voor leveringen kunt u ook de manier aanpassen waarop adressen worden ingevoegd in het extractiebestand. Deze worden standaard ingevoegd in de sorteervolgorde van het uitvoerbestand, maar u kunt ervoor kiezen ze aan het einde of het begin van het bestand in te voegen, of willekeurig onder de ontvangers van het hoofddoel.
 

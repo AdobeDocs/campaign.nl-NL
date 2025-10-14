@@ -32,7 +32,7 @@ De gebruikelijke Adobe Campaign-implementatie van oplossingen bestaat uit de vol
 
 De toepassing kan op verschillende manieren worden benaderd: de gebruikersinterface van het Web, de cliëntconsole (rijke cliënt), Webtoegang (dunne cliënt), of API integratie.
 
-[ Leer meer over het gebruikersinterface van de Campagne ](../start/campaign-ui.md).
+[&#x200B; Leer meer over het gebruikersinterface van de Campagne &#x200B;](../start/campaign-ui.md).
 
 ## Ontwikkelingsomgeving {#dev-env}
 
@@ -81,7 +81,7 @@ Er zijn ook andere meer technische processen beschikbaar:
 
 ## Databasecontainers {#db-containers}
 
-In zijn [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), baseert het gegevensbestand van de Wolk van Adobe Campaign zich op [!DNL Snowflake] die de functionele gegevens (profielen, abonnementen, inhoud, enz.), de technische gegevens (leveringsbanen en logboeken, het volgen logboeken, enz.) en de het werkgegevens (aankopen, leiden) voor de oplossing bevat, en alle componenten van Adobe Campaign communiceren met het gegevensbestand om hun specifieke taken uit te voeren.
+In zijn [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](enterprise-deployment.md), baseert het gegevensbestand van de Wolk van Adobe Campaign zich op [!DNL Snowflake] die de functionele gegevens (profielen, abonnementen, inhoud, enz.), de technische gegevens (leveringsbanen en logboeken, het volgen logboeken, enz.) en de het werkgegevens (aankopen, leiden) voor de oplossing bevat, en alle componenten van Adobe Campaign communiceren met het gegevensbestand om hun specifieke taken uit te voeren.
 
 U kunt Adobe Campaign implementeren met behulp van de vooraf gedefinieerde database en schema&#39;s en indien nodig kan deze vooraf gedefinieerde omgeving worden uitgebreid. Alle gegevens binnen de datamarkt worden betreden door Adobe Campaign via SQL vraag. Adobe Campaign biedt ook een volledige aanvulling op de ETL-gereedschappen (Extract Transform and Load) voor het importeren en exporteren van gegevens naar en vanuit het systeem.
 
@@ -98,4 +98,4 @@ U kunt Adobe Campaign implementeren met behulp van de vooraf gedefinieerde datab
 
 De totale opslagruimte wordt verdeeld tussen de hoofddatabase en de (facultatieve) secundaire Snowflake-database. Waar de gegevens worden opgeslagen zou op implementatie of verbeteringstijd, afhankelijk van klant-specifieke gebruiks-gevallen moeten worden bepaald.
 
-Leer hoe te om uw gegevensbestandgebruik in [ documentatie van het Controlebord van de Campagne te controleren ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=nl-NL){target="_blank"}.
+Leer hoe te om uw gegevensbestandgebruik in [&#x200B; documentatie van het Controlebord van de Campagne te controleren &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=nl-NL){target="_blank"}.

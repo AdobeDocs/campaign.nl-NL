@@ -17,7 +17,7 @@ ht-degree: 0%
 
 De belangrijkste taak van deze activiteiten bestaat uit het wachten op een gebeurtenis. Dit kan bijvoorbeeld het ontvangen zijn van een bestand, een e-mail of een signaal dat door een systeem van derden is verzonden.
 
-Deze activiteiten zijn niet beschikbaar in [ campagne-specifieke werkschema&#39;s ](campaign-workflows.md).
+Deze activiteiten zijn niet beschikbaar in [&#x200B; campagne-specifieke werkschema&#39;s &#x200B;](campaign-workflows.md).
 
 
 * **[inzamelaar van het Dossier](file-collector.md)**: controleert de aankomst van één of meerdere dossiers in een folder en laat overgang voor elk ontvangen dossier toe.

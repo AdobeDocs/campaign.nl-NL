@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Migratie van de technische actoren van de campagne naar Adobe Developer Console {#migrate-tech-users-to-ims}
 
-Als onderdeel van de inspanningen om het beveiligings- en verificatieproces te versterken, te beginnen met Campagne v8.5, wordt het verificatieproces voor Campagne v8 verbeterd. De technische exploitanten kunnen het [ Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} nu gebruiken om met Campagne te verbinden. Leer meer over de nieuwe server aan het proces van de serverauthentificatie in [ documentatie van Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Als onderdeel van de inspanningen om het beveiligings- en verificatieproces te versterken, te beginnen met Campagne v8.5, wordt het verificatieproces voor Campagne v8 verbeterd. De technische exploitanten kunnen het [&#x200B; Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} nu gebruiken om met Campagne te verbinden. Leer meer over de nieuwe server aan het proces van de serverauthentificatie in [&#x200B; documentatie van Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 Een technische operator is een Campagnegebruikersprofiel dat expliciet is gemaakt voor API-integratie. In dit artikel worden de stappen beschreven die nodig zijn om een technische operator via de Adobe Developer-console naar een technische account te migreren.
 
@@ -52,9 +52,9 @@ Voor andere gevallen moet u contact opnemen met de Adobe Transition Manager, zod
 
 ### Stap 1 - Maak uw Campagne-project in de Adobe Developer Console {#ims-migration-step-1}
 
-De integratie wordt gecreeerd als deel van a **Project** binnen Adobe Developer Console. Leer meer over Projecten in [ documentatie van Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+De integratie wordt gecreeerd als deel van a **Project** binnen Adobe Developer Console. Leer meer over Projecten in [&#x200B; documentatie van Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-U kunt elk project gebruiken dat u eerder hebt gemaakt of u kunt een nieuw project maken. De stappen om een project tot stand te brengen zijn gedetailleerd in de [ documentatie van Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}. U vindt hieronder de belangrijkste stappen
+U kunt elk project gebruiken dat u eerder hebt gemaakt of u kunt een nieuw project maken. De stappen om een project tot stand te brengen zijn gedetailleerd in de [&#x200B; documentatie van Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}. U vindt hieronder de belangrijkste stappen
 
 <!--
 For this migration, you must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.
@@ -141,13 +141,13 @@ Herzie uw project om het te verzekeren kijkt gelijkaardig aan hieronder met **I/
 
 ### Stap 7 - Valideer uw configuratie {#ims-migration-step-7}
 
-Om de verbinding uit te proberen, volg de stappen in de [ de geloofsbrieven van Adobe Developer Console gids ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} voor het produceren van een toegangstoken worden gedetailleerd en kopieer het bevel van de Steekproef cURL verstrekte. U kunt een soapaanroep maken met deze gegevens om te testen of u de Adobe Campaign-instantie(s) correct kunt verifiëren en er verbinding mee kunt maken. We raden u aan deze validatie uit te voeren voordat u alle wijzigingen aanbrengt in de integratie van de externe API.
+Om de verbinding uit te proberen, volg de stappen in de [&#x200B; de geloofsbrieven van Adobe Developer Console gids &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} voor het produceren van een toegangstoken worden gedetailleerd en kopieer het bevel van de Steekproef cURL verstrekte. U kunt een soapaanroep maken met deze gegevens om te testen of u de Adobe Campaign-instantie(s) correct kunt verifiëren en er verbinding mee kunt maken. We raden u aan deze validatie uit te voeren voordat u alle wijzigingen aanbrengt in de integratie van de externe API.
 
 ### Stap 8 - De integratie van de externe API bijwerken {#ims-migration-step-8}
 
 U moet nu alle API-integraties bijwerken en aanroepen naar Adobe Campaign uitvoeren om het zojuist gemaakte technische account te kunnen gebruiken.
 
-Voor verdere details over API integratiestappen, met inbegrip van een steekproefcode voor vlotte integratie, verwijs naar [ de authentificatiedocumentatie van Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Voor verdere details over API integratiestappen, met inbegrip van een steekproefcode voor vlotte integratie, verwijs naar [&#x200B; de authentificatiedocumentatie van Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 Hieronder vindt u voorbeelden van SOAP-aanroepen die de aanroepen voor en na migratie naar systemen van derden weergeven.
 
@@ -210,7 +210,7 @@ Zodra het migratieproces wordt bereikt en bevestigd, worden de Vraag van Soap al
 
 Deze stap is optioneel en alleen beschikbaar binnen de marketinginstantie(s), niet binnen een Message Center-instantie. Indien specifieke mapmachtigingen of benoemde rechten zijn gedefinieerd voor de technische exploitant, niet via de toegewezen groep(en) bedieners. U moet nu de nieuwe gebruiker van de technische account in de Admin Console bijwerken om de vereiste machtigingen voor mappen of benoemde rechten te verlenen.
 
-De gebruiker van de Technische Rekening zal NIET in Adobe Campaign bestaan tot minstens één API vraag aan de Instantie van de Campagne wordt gemaakt, waarbij IMS de gebruiker binnen Campagne zal creëren. Als u niet van de technische gebruikers binnen Campagne kunt de plaats bepalen, verzeker u een API vraag zoals geschetst [ in Stap 7 ](#ims-migration-step-7) met succes kunt verzenden.
+De gebruiker van de Technische Rekening zal NIET in Adobe Campaign bestaan tot minstens één API vraag aan de Instantie van de Campagne wordt gemaakt, waarbij IMS de gebruiker binnen Campagne zal creëren. Als u niet van de technische gebruikers binnen Campagne kunt de plaats bepalen, verzeker u een API vraag zoals geschetst [&#x200B; in Stap 7 &#x200B;](#ims-migration-step-7) met succes kunt verzenden.
 
 1. Als u de wijzigingen die nodig zijn voor de nieuwe gebruiker van de technische account wilt toepassen, zoekt u deze via e-mailadres in de clientconsole van de campagne. Dit e-mailadres is gemaakt tijdens de bovenstaande stappen voor het maken en verifiëren van projecten.
 

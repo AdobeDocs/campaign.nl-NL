@@ -103,7 +103,7 @@ In het onderstaande voorbeeld maakt u een lijst met alle ontvangers tussen 25 en
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Leer hoe te om een vraag in een werkschema in [ tot stand te brengen deze sectie ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"}.
+   Leer hoe te om een vraag in een werkschema in [&#x200B; tot stand te brengen deze sectie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"}.
 
 1. Voeg een label voor deze query toe en sla uw wijzigingen op.
 1. Voeg een **[!UICONTROL List update]** -activiteit toe en bewerk deze.

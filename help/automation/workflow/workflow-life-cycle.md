@@ -40,4 +40,4 @@ De karakters **574 - O.K.** getoond boven de overgang na de **activiteit van de 
 
 Het werkschema is begonnen en wacht op een exploitant die tot de groep behoort die in de **wordt gespecificeerd van de Goedkeuring** activiteit om een besluit te nemen. De operatoren die tot de groep behoren en een e-mailadres of mobiel nummer hebben, worden op de hoogte gesteld.
 
-Voor meer op hoe te om u werkschema&#39;s te controleren, verwijs naar [ deze sectie ](monitor-workflow-execution.md).
+Voor meer op hoe te om u werkschema&#39;s te controleren, verwijs naar [&#x200B; deze sectie &#x200B;](monitor-workflow-execution.md).

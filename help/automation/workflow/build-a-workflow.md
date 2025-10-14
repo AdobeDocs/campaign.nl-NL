@@ -19,13 +19,13 @@ ht-degree: 0%
 
 De workflow voor het maken van werkstromen is afhankelijk van het type werkstroom. U kunt:
 
-* Creeer [ het richten werkschema&#39;s ](#targeting-workflows) van **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** knoop van de Ontdekkingsreiziger of van het **[!UICONTROL Profiles and Targets]** lusje van de homepage, via **[!UICONTROL Targeting workflows]** sub-tab.
+* Creeer [&#x200B; het richten werkschema&#39;s &#x200B;](#targeting-workflows) van **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** knoop van de Ontdekkingsreiziger of van het **[!UICONTROL Profiles and Targets]** lusje van de homepage, via **[!UICONTROL Targeting workflows]** sub-tab.
 
   ![](assets/create-targeting-wf.png)
 
-* Creeer [ werkschema&#39;s van de Campagne ](#campaign-workflows) van het **[!UICONTROL Targeting and workflows]** lusje van een campagne
+* Creeer [&#x200B; werkschema&#39;s van de Campagne &#x200B;](#campaign-workflows) van het **[!UICONTROL Targeting and workflows]** lusje van een campagne
 
-* Creeer [ Technische werkstromen ](#technical-workflows) van **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** knoop van de Ontdekkingsreiziger. U kunt het beste een specifieke werkstroommap maken om uw technische workflows op te slaan.
+* Creeer [&#x200B; Technische werkstromen &#x200B;](#technical-workflows) van **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** knoop van de Ontdekkingsreiziger. U kunt het beste een specifieke werkstroommap maken om uw technische workflows op te slaan.
 
 Klik op de knop **[!UICONTROL New]** boven de lijst met workflows.
 
@@ -45,10 +45,10 @@ U moet nu de verschillende activiteiten definiëren en deze koppelen in het diag
 
 De activiteiten worden gegroepeerd op categorie in de verschillende tabbladen van het palet. De beschikbare tabbladen en activiteiten kunnen variëren afhankelijk van het type workflow (technisch, doelgericht of campagneworkflow).
 
-* Het eerste tabblad bevat bewerkingen voor het activeren van doelen en gegevens. Deze activiteiten zijn gedetailleerd in [ het richten activiteiten ](targeting-activities.md).
-* Het tweede tabblad bevat de planningsactiviteiten, die hoofdzakelijk worden gebruikt voor de coördinatie van andere activiteiten. Deze activiteiten zijn gedetailleerd in [ de controleactiviteiten van de Stroom ](flow-control-activities.md).
-* Het derde tabblad bevat gereedschappen en handelingen die in de workflow kunnen worden gebruikt. Deze activiteiten zijn gedetailleerd in [ activiteiten van de Actie ](action-activities.md).
-* Het vierde tabblad bevat activiteiten die afhankelijk zijn van een bepaalde gebeurtenis, zoals de ontvangst van een e-mail of de aankomst van een bestand op een server. Deze activiteiten zijn gedetailleerd in [ activiteiten van de Gebeurtenis ](event-activities.md).
+* Het eerste tabblad bevat bewerkingen voor het activeren van doelen en gegevens. Deze activiteiten zijn gedetailleerd in [&#x200B; het richten activiteiten &#x200B;](targeting-activities.md).
+* Het tweede tabblad bevat de planningsactiviteiten, die hoofdzakelijk worden gebruikt voor de coördinatie van andere activiteiten. Deze activiteiten zijn gedetailleerd in [&#x200B; de controleactiviteiten van de Stroom &#x200B;](flow-control-activities.md).
+* Het derde tabblad bevat gereedschappen en handelingen die in de workflow kunnen worden gebruikt. Deze activiteiten zijn gedetailleerd in [&#x200B; activiteiten van de Actie &#x200B;](action-activities.md).
+* Het vierde tabblad bevat activiteiten die afhankelijk zijn van een bepaalde gebeurtenis, zoals de ontvangst van een e-mail of de aankomst van een bestand op een server. Deze activiteiten zijn gedetailleerd in [&#x200B; activiteiten van de Gebeurtenis &#x200B;](event-activities.md).
 
 Het diagram maken
 
@@ -70,7 +70,7 @@ Het diagram maken
 
 >[!CAUTION]
 >
->U kunt activiteiten kopiëren en plakken binnen dezelfde workflow. We raden echter niet aan plakactiviteiten over verschillende workflows te kopiëren. Sommige instellingen die zijn gekoppeld aan activiteiten zoals Leveringen en Planner kunnen leiden tot conflicten en fouten tijdens het uitvoeren van de doelworkflow. In plaats daarvan, adviseerden wij u **&#x200B;**&#x200B;werkschema&#39;s dupliceren. Voor meer informatie, zie [ werkschema&#39;s ](#duplicate-workflows) dupliceren.
+>U kunt activiteiten kopiëren en plakken binnen dezelfde workflow. We raden echter niet aan plakactiviteiten over verschillende workflows te kopiëren. Sommige instellingen die zijn gekoppeld aan activiteiten zoals Leveringen en Planner kunnen leiden tot conflicten en fouten tijdens het uitvoeren van de doelworkflow. In plaats daarvan, adviseerden wij u **&#x200B;**&#x200B;werkschema&#39;s dupliceren. Voor meer informatie, zie [&#x200B; werkschema&#39;s &#x200B;](#duplicate-workflows) dupliceren.
 
 U kunt de weergave en lay-out van het diagram wijzigen met de volgende elementen:
 
@@ -97,7 +97,7 @@ U kunt de weergave en lay-out van het diagram wijzigen met de volgende elementen
 
 * **het beheer van het Beeld**
 
-  U kunt het achtergrondbeeld van het diagram evenals die aanpassen met betrekking tot de diverse activiteiten. Verwijs naar [ de activiteitenbeelden van de Verandering ](change-activity-images.md).
+  U kunt het achtergrondbeeld van het diagram evenals die aanpassen met betrekking tot de diverse activiteiten. Verwijs naar [&#x200B; de activiteitenbeelden van de Verandering &#x200B;](change-activity-images.md).
 
 ## Activiteiten configureren {#configure-activities}
 
@@ -105,7 +105,7 @@ Dubbelklik op een activiteit om deze te configureren of klik met de rechtermuisk
 
 >[!NOTE]
 >
->De het werkschemaactiviteiten van de campagne zijn gedetailleerd in [ deze sectie ](activities.md).
+>De het werkschemaactiviteiten van de campagne zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](activities.md).
 
 Het eerste lusje bevat de basisconfiguratie. Het tabblad **[!UICONTROL Advanced]** bevat de aanvullende parameters die met name worden gebruikt voor het definiëren van gedrag wanneer een fout optreedt, het opgeven van de uitvoeringstijd voor een activiteit en het invoeren van een initialisatiescript.
 

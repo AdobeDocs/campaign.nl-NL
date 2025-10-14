@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Met workflowactiviteiten kunt u meerdere taken uitvoeren. Hieronder vindt u voorbeelden van het gebruik om de database bij te werken door lijsten te maken, abonnementen te beheren, berichten te verzenden via een workflow of uw leveringen en het publiek te verrijken.
 
-Een reeks gevallen van het werkschemagebruik is beschikbaar in [ deze sectie ](workflow-use-cases.md).
+Een reeks gevallen van het werkschemagebruik is beschikbaar in [&#x200B; deze sectie &#x200B;](workflow-use-cases.md).
 
 ## Levenscyclus van gegevens {#data-life-cycle}
 
@@ -45,7 +45,7 @@ Selecteer hiertoe het relevante menu:
 
   Gebruik dit menu om toegang te krijgen tot de beschrijvende analysewizard waarmee u statistieken en rapporten over de overgangsgegevens kunt genereren.
 
-  Leer hoe te om de beschrijvende analysetovenaar in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=nl-NL){target="_blank"} te gebruiken.
+  Leer hoe te om de beschrijvende analysetovenaar in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=nl-NL){target="_blank"} te gebruiken.
 
 De doelgegevens worden gewist terwijl de workflow wordt uitgevoerd. Alleen de laatste werktabel is toegankelijk. U kunt de workflow zodanig configureren dat alle werktabellen toegankelijk blijven: controleer de optie **[!UICONTROL Keep the result of interim populations between two executions]** in de workfloweigenschappen.
 
@@ -58,7 +58,7 @@ De doelgegevens worden gewist terwijl de workflow wordt uitgevoerd. Alleen de la
 
 ### Gebruik van doelgegevens {#target-data}
 
-De gegevens die in de tijdelijke werkstroomlijst worden opgeslagen, zijn beschikbaar voor verpersoonlijkingstaken. De gegevens kunnen in de [ verpersoonlijkingsgebieden ](../../v8/send/personalization-fields.md) worden gebruikt.
+De gegevens die in de tijdelijke werkstroomlijst worden opgeslagen, zijn beschikbaar voor verpersoonlijkingstaken. De gegevens kunnen in de [&#x200B; verpersoonlijkingsgebieden &#x200B;](../../v8/send/personalization-fields.md) worden gebruikt.
 
 Hiermee kunt u gegevens die via een lijst zijn verzameld, bijvoorbeeld in een levering gebruiken. Hiervoor gebruikt u de volgende syntaxis:
 
@@ -131,12 +131,12 @@ De gegevens van de Adobe Campaign-databank en de bestaande lijsten kunnen worden
 
   ![](assets/s_user_create_list.png)
 
-  Verwijs naar [ update van de Lijst ](list-update.md).
+  Verwijs naar [&#x200B; update van de Lijst &#x200B;](list-update.md).
 
 * De **[!UICONTROL Update data]** -activiteit voert een massa-update uit van de velden in de database.
 
-  Voor meer op dit, verwijs naar [ gegevens van de Update ](update-data.md).
+  Voor meer op dit, verwijs naar [&#x200B; gegevens van de Update &#x200B;](update-data.md).
 
 ### Lidmaatschappen beheren {#subscription-management}
 
-Om te weten te komen over het intekenen van en het opzeggen van ontvangers aan de informatiedienst via een werkschema, verwijs naar [ Diensten van het Abonnement ](subscription-services.md).
+Om te weten te komen over het intekenen van en het opzeggen van ontvangers aan de informatiedienst via een werkschema, verwijs naar [&#x200B; Diensten van het Abonnement &#x200B;](subscription-services.md).

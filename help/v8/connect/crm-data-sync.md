@@ -28,10 +28,10 @@ De **[!UICONTROL CRM Connector]** -activiteit moet worden geconfigureerd om gege
 
 Met deze activiteit kunt u:
 
-* De invoer van CRM - [ leert meer ](#importing-from-the-crm)
-* De uitvoer naar CRM - [ leert meer ](#exporting-to-the-crm)
-* De voorwerpen van de invoer die in CRM worden geschrapt - [ leren meer ](#importing-objects-deleted-in-the-crm)
-* De voorwerpen van de schrapping in CRM - [ leren meer ](#deleting-objects-in-the-crm)
+* De invoer van CRM - [&#x200B; leert meer &#x200B;](#importing-from-the-crm)
+* De uitvoer naar CRM - [&#x200B; leert meer &#x200B;](#exporting-to-the-crm)
+* De voorwerpen van de invoer die in CRM worden geschrapt - [&#x200B; leren meer &#x200B;](#importing-objects-deleted-in-the-crm)
+* De voorwerpen van de schrapping in CRM - [&#x200B; leren meer &#x200B;](#deleting-objects-in-the-crm)
 
 ![](assets/crm-remote-op.png)
 
@@ -53,7 +53,7 @@ Om gegevens via CRM in Adobe Campaign te importeren, moet u het volgende type wo
 
    Als u een veld wilt toevoegen, klikt u op de knop **[!UICONTROL Add]** op de werkbalk en vervolgens op het pictogram **[!UICONTROL Edit expression]** .
 
-   Wijzig zo nodig de gegevensindeling met de vervolgkeuzelijst van de kolommen **[!UICONTROL Conversion]** . De mogelijke omzettingstypes zijn gedetailleerd in [ deze sectie ](#data-format).
+   Wijzig zo nodig de gegevensindeling met de vervolgkeuzelijst van de kolommen **[!UICONTROL Conversion]** . De mogelijke omzettingstypes zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](#data-format).
 
    >[!CAUTION]
    >
@@ -69,7 +69,7 @@ Om gegevens via CRM in Adobe Campaign te importeren, moet u het volgende type wo
 
    >[!CAUTION]
    >
-   >De beperkingen met betrekking tot gegevens het filtreren wijzen zijn gedetailleerd in [ deze sectie ](#filtering-data).
+   >De beperkingen met betrekking tot gegevens het filtreren wijzen zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](#filtering-data).
 
 1. Selecteer de optie **[!UICONTROL Use automatic index...]** om de incrementele objectsynchronisatie tussen uw CRM en Adobe Campaign automatisch te beheren, afhankelijk van de datum en de laatste wijziging.
 
@@ -166,7 +166,7 @@ Als u gegevens wilt exporteren naar uw CRM, maakt u het volgende type workflow:
    >
    >Als geen gelijke voor een gebied wordt bepaald, kunnen de waarden niet worden bijgewerkt: zij worden opgenomen direct in uw CRM.
 
-   Wijzig zo nodig de gegevensindeling met de vervolgkeuzelijst van de kolommen **[!UICONTROL Conversion]** . De mogelijke omzettingstypes zijn gedetailleerd in [ deze sectie ](#data-format).
+   Wijzig zo nodig de gegevensindeling met de vervolgkeuzelijst van de kolommen **[!UICONTROL Conversion]** . De mogelijke omzettingstypes zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](#data-format).
 
    >[!NOTE]
    >
@@ -220,4 +220,4 @@ U kunt objecten die in uw CRM zijn verwijderd, importeren naar Adobe Campaign.
 
 Om voorwerpen op uw CRM te schrappen, specificeer de primaire sleutel van de verre te schrappen elementen.
 
-Op het tabblad **[!UICONTROL Behavior]** kunt u de verwerking van afwijzingen inschakelen. Met deze optie wordt een tweede uitvoerovergang voor de **[!UICONTROL CRM connector]** -activiteit gegenereerd. Voor meer op dit, verwijs naar [ verwerking van de Fout ](#error-processing).
+Op het tabblad **[!UICONTROL Behavior]** kunt u de verwerking van afwijzingen inschakelen. Met deze optie wordt een tweede uitvoerovergang voor de **[!UICONTROL CRM connector]** -activiteit gegenereerd. Voor meer op dit, verwijs naar [&#x200B; verwerking van de Fout &#x200B;](#error-processing).

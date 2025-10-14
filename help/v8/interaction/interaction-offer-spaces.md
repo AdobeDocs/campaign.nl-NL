@@ -156,4 +156,4 @@ Als een ontvanger niet in aanmerking komt voor een voorstel, wordt dit weergegev
 
 In de voorvertoning kunnen contexten worden genegeerd wanneer deze beperkt zijn tot een spatie. Dit is het geval wanneer het interactieschema is uitgebreid om velden toe te voegen waarnaar in een ruimte wordt verwezen met een binnenkomend kanaal.
 
-Voor meer op dit, verwijs naar deze steekproef in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=nl-NL){target="_blank"}.
+Voor meer op dit, verwijs naar deze steekproef in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=nl-NL){target="_blank"}.

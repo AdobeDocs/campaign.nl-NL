@@ -163,7 +163,7 @@ De levering slaat automatisch de rangschikking en het gewicht van de aanbiedinge
 
 Met de activiteit **[!UICONTROL Offer engine]** kunt u ook een aanroep naar de engine voor voorstellen opgeven voordat de levering plaatsvindt.
 
-Voor meer op de **motor van de Aanbieding** activiteit, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=nl-NL){target="_blank"}.
+Voor meer op de **motor van de Aanbieding** activiteit, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=nl-NL){target="_blank"}.
 
 Deze activiteit werkt op het zelfde beginsel zoals de **Verrijking** activiteit met een motorvraag, door de binnenkomende bevolkingsgegevens met een aanbieding te verrijken die door de motor wordt berekend, vóór een levering.
 
@@ -186,7 +186,7 @@ Na het vormen van uw **Vraag** activiteit:
 
 Met de activiteit **[!UICONTROL Offers by cell]** kunt u de binnenkomende populatie (bijvoorbeeld van een query) in verschillende segmenten verdelen en een aanbieding opgeven om voor elk van deze segmenten voor te stellen.
 
-Voor meer op de **Aanbieding door cel** activiteit, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=nl-NL){target="_blank"}.
+Voor meer op de **Aanbieding door cel** activiteit, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=nl-NL){target="_blank"}.
 
 Hiervoor gebruikt u het volgende proces:
 

@@ -19,4 +19,4 @@ Versnel de levering van campagnes door Campagne met Adobe Workfront te telegrafe
 De stappen om deze integratie te vormen worden gedetailleerd in de documentatie van Adobe Workfront.
 
 
-[ Adobe Campaign modules in Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html?lang=nl-NL){target="_blank"}.
+[&#x200B; Adobe Campaign modules in Adobe Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html?lang=nl-NL){target="_blank"}.

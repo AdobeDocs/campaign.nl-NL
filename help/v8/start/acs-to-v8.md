@@ -20,9 +20,9 @@ Als gebruiker van Campagne v8 hebt u nu toegang tot zowel de nieuwe webgebruiker
 
 **Nuttige verbindingen voor u om met te beginnen:**
 
-* Leer zeer belangrijke verschillen en hoe te worden begonnen in [ deze Gids van de Goedkeuring ](https://experienceleague.adobe.com/nl/docs/campaign-web/acs-to-ac/home){target="_blank"}.
+* Leer zeer belangrijke verschillen en hoe te worden begonnen in [&#x200B; deze Gids van de Goedkeuring &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/acs-to-ac/home){target="_blank"}.
 
-* Leer meer over het nieuwe Web van de Campagne gebruikersinterface in [ deze documentatie ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"}.
+* Leer meer over het nieuwe Web van de Campagne gebruikersinterface in [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"}.
 
 <!--
 * Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in [this documentation](https://experienceleague.adobe.com/nl/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}.-->

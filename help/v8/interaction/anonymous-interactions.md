@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Omgeving voor anonieme interacties {#environment-for-anonymous-interactions}
 
-Door gebrek, komt de module van de Interactie van de Campagne **met een pre-gevormd milieu om de ingebouwde ontvankelijke lijst (geïdentificeerde aanbiedingen) te richten.** Als u een andere lijst, een bezoekerslijst voor anonieme aanbiedingen of een douane ontvankelijke lijst bijvoorbeeld moet richten, moet u de tovenaar van de doelafbeelding gebruiken om het milieu tot stand te brengen. [ leer meer over milieu&#39;s ](interaction-env.md).
+Door gebrek, komt de module van de Interactie van de Campagne **met een pre-gevormd milieu om de ingebouwde ontvankelijke lijst (geïdentificeerde aanbiedingen) te richten.** Als u een andere lijst, een bezoekerslijst voor anonieme aanbiedingen of een douane ontvankelijke lijst bijvoorbeeld moet richten, moet u de tovenaar van de doelafbeelding gebruiken om het milieu tot stand te brengen. [&#x200B; leer meer over milieu&#39;s &#x200B;](interaction-env.md).
 
 Wanneer u via de wizard voor het maken van toewijzingen een anonieme omgeving maakt, wordt het selectievakje **[!UICONTROL Environment dedicated to incoming anonymous interactions]** automatisch ingeschakeld op het tabblad **[!UICONTROL General]** van de omgeving.
 
@@ -34,7 +34,7 @@ Het veld **[!UICONTROL Visitor folder]** wordt weergegeven. De koppeling naar de
 
 Net als uitgaande interacties worden inkomende interacties georganiseerd in een aanbiedingencatalogus die bestaat uit categorieën en aanbiedingen.
 
-Als u categorieën en spaties wilt maken, past u hetzelfde proces toe als voor bepaalde bezoekers. Verwijs naar [ creeer een aanbiedingscategorie ](interaction-offer-catalog.md#creating-offer-categories) en [ creeer een aanbiedingsmilieu ](interaction-env.md#creating-an-offer-environment)).
+Als u categorieën en spaties wilt maken, past u hetzelfde proces toe als voor bepaalde bezoekers. Verwijs naar [&#x200B; creeer een aanbiedingscategorie &#x200B;](interaction-offer-catalog.md#creating-offer-categories) en [&#x200B; creeer een aanbiedingsmilieu &#x200B;](interaction-env.md#creating-an-offer-environment)).
 
 ## Anonieme bezoekers {#anonymous-visitors}
 

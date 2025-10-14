@@ -51,4 +51,4 @@ En tot slot het tabblad **[!UICONTROL Audit]** met alle details tijdens het star
 
 De fouttypen en de redenen voor een mislukking voor SMS zijn gelijk aan die voor e-mailberichten.
 
-Leer meer over [ leveringsmislukkingen ](../delivery-failures.md) en specifiek over [ SMS quarantines ](../delivery-failures.md#sms-quarantines).
+Leer meer over [&#x200B; leveringsmislukkingen &#x200B;](../delivery-failures.md) en specifiek over [&#x200B; SMS quarantines &#x200B;](../delivery-failures.md#sms-quarantines).

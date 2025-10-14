@@ -27,7 +27,7 @@ Als u de levering wilt voorbereiden, moet u controleren of de inhoud en het doel
 
 1. Klik op **[!UICONTROL Analyze]** om de analyse handmatig te starten. Op de voortgangsbalk ziet u de voortgang van de analyse.
 
-   Tijdens de leveringsanalyse worden een aantal controleregels toegepast. Deze regels worden bepaald in a **typologie**, die in het **[!UICONTROL Typology]** lusje in de leveringseigenschappen wordt geselecteerd. Leer meer over typologieën in [ deze sectie ](../../automation/campaign-opt/campaign-typologies.md).
+   Tijdens de leveringsanalyse worden een aantal controleregels toegepast. Deze regels worden bepaald in a **typologie**, die in het **[!UICONTROL Typology]** lusje in de leveringseigenschappen wordt geselecteerd. Leer meer over typologieën in [&#x200B; deze sectie &#x200B;](../../automation/campaign-opt/campaign-typologies.md).
 
    Voor e-mails worden standaard de volgende punten in de analyse behandeld:
 

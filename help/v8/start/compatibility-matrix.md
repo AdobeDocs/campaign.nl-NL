@@ -20,7 +20,7 @@ Aangezien specifieke versies van deze systemen en hulpmiddelen van derden het ei
 
 >[!NOTE]
 >
->Adobe Campaign-server en Campagne-clientconsole moeten zich op dezelfde versie bevinden. [ Leer hoe te om uw versie ](upgrades.md#version) te controleren.
+>Adobe Campaign-server en Campagne-clientconsole moeten zich op dezelfde versie bevinden. [&#x200B; Leer hoe te om uw versie &#x200B;](upgrades.md#version) te controleren.
 
 ## Clientconsole {#ClientConsoleoperatingsystems}
 
@@ -32,24 +32,24 @@ De volgende besturingssystemen en browsers zijn vereist voor het gebruik van de 
 * **11, 10 van de Vensters van 0&rbrace; Microsoft**
 
 >[!NOTE]
->De 32-bits versie van de clientconsole is afgekeurd sinds versie 8.5. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. Voor meer informatie over hoe te om uw systeem te bevorderen, verwijs naar dit [ technote ](../../technotes/upgrades/console.md).
+>De 32-bits versie van de clientconsole is afgekeurd sinds versie 8.5. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. Voor meer informatie over hoe te om uw systeem te bevorderen, verwijs naar dit [&#x200B; technote &#x200B;](../../technotes/upgrades/console.md).
 
 ### Webbrowser {#web-browsers}
 
 * **Microsoft Edge**
 
-* **Microsoft Edge WebView2**, recentste versie. Download het van [ de plaats van de Ontwikkelaar van Microsoft ](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}.
+* **Microsoft Edge WebView2**, recentste versie. Download het van [&#x200B; de plaats van de Ontwikkelaar van Microsoft &#x200B;](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}.
 
 ## CRM-connectoren {#CRMconnectors}
 
-Hieronder vindt u de Customer Relationship Management-systemen (CRM) die compatibel zijn met Adobe Campaign. Leer meer over de schakelaars van CRM [ in deze pagina ](../connect/crm.md).
+Hieronder vindt u de Customer Relationship Management-systemen (CRM) die compatibel zijn met Adobe Campaign. Leer meer over de schakelaars van CRM [&#x200B; in deze pagina &#x200B;](../connect/crm.md).
 
 * **Salesforce** schakelaarAPI versie 49
 * **Microsoft Dynamics** schakelaar, Web API: Dynamiek 365 op-gebouw en online
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
-Externe databases die compatibel zijn met de module Adobe Campaign Federated Data Access (FDA) worden hieronder weergegeven. Leer meer over FDA [ in deze pagina ](../connect/fda.md).
+Externe databases die compatibel zijn met de module Adobe Campaign Federated Data Access (FDA) worden hieronder weergegeven. Leer meer over FDA [&#x200B; in deze pagina &#x200B;](../connect/fda.md).
 
 * **[!DNL Amazon Redshift]** ODBC-connector, startcampagne v8.6.4 / v8.7.1
 * **[!DNL Amazon Redshift]** verouderde connector
@@ -62,23 +62,23 @@ Externe databases die compatibel zijn met de module Adobe Campaign Federated Dat
 
 
 >[!AVAILABILITY]
->Bovendien met [ Uitgebreide Veiligheid toe:voegen-op ](../config/enhanced-security.md#secure-vpn-tunneling), kunt u tot uw gegevensbestanden op-gebouw, door het veilige stempelen van VPN toegang hebben. [Meer informatie](../config/enhanced-security.md#vpn-callouts)
+>Bovendien met [&#x200B; Uitgebreide Veiligheid toe:voegen-op &#x200B;](../config/enhanced-security.md#secure-vpn-tunneling), kunt u tot uw gegevensbestanden op-gebouw, door het veilige stempelen van VPN toegang hebben. [Meer informatie](../config/enhanced-security.md#vpn-callouts)
 
 ## Mobiele SDK {#MobileSDK}
 
-Om [ dupberichten ](../send/push.md) met Campagne te verzenden, gebruik Adobe Experience Platform Mobile SDK door de uitbreiding van Adobe Campaign Classic in de Inzameling UI van Gegevens te vormen.
+Om [&#x200B; dupberichten &#x200B;](../send/push.md) met Campagne te verzenden, gebruik Adobe Experience Platform Mobile SDK door de uitbreiding van Adobe Campaign Classic in de Inzameling UI van Gegevens te vormen.
 
-De compatibele versies voor iOS en Android zijn gedetailleerd in de [ documentatie van Adobe Developer ](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
+De compatibele versies voor iOS en Android zijn gedetailleerd in de [&#x200B; documentatie van Adobe Developer &#x200B;](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
 
 ## Webgebruikersinterface {#web-ui}
 
-De volgende browsers zijn compatibel met de Gebruikersinterface van het Web van de Campagne. Leer meer over het Web UI van de Campagne [ in deze pagina ](campaign-ui.md#ac-web-ui).
+De volgende browsers zijn compatibel met de Gebruikersinterface van het Web van de Campagne. Leer meer over het Web UI van de Campagne [&#x200B; in deze pagina &#x200B;](campaign-ui.md#ac-web-ui).
 
 * **Microsoft Edge**, **Google Chrome**, **Safari** (recentste versies)
 
 ## Webtoegang {#web-access}
 
-De volgende browsers zijn compatibel met Campagne voor de Toegang van het Web. Leer meer over de toegang van het Web van de Campagne [ in deze pagina ](connect.md#web-access).
+De volgende browsers zijn compatibel met Campagne voor de Toegang van het Web. Leer meer over de toegang van het Web van de Campagne [&#x200B; in deze pagina &#x200B;](connect.md#web-access).
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (recentste versies)
 

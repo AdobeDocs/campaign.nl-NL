@@ -136,7 +136,7 @@ Gebruik het tabblad **[!UICONTROL Content]** om de inhoud van de aanbieding te d
       </div>
    ```
 
-   Leer hoe te om acceptatie URL in [ te bepalen deze sectie ](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
+   Leer hoe te om acceptatie URL in [&#x200B; te bepalen deze sectie &#x200B;](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
 
    ![](assets/offer_content_create_002.png)
 
@@ -182,13 +182,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 U kunt de aanbieding nu goedkeuren en activeren om het in het **Levende** milieu ter beschikking te stellen.
 
-Voor meer op dit, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=nl-NL#approving-offer-content){target="_blank"}.
+Voor meer op dit, verwijs naar [&#x200B; de documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=nl-NL#approving-offer-content){target="_blank"}.
 
 ## Presentatie van aanbieding beheren{#offer-presentation}
 
 Met Campagne kunt u de stroom van aanbiedingsvoorstellen bepalen aan de hand van presentatieregels. Deze regels, die voor de Interactie van de Campagne specifiek zijn, zijn **typologische regels**. Hiermee kunt u aanbiedingen uitsluiten op basis van de geschiedenis van voorstellen die al aan een ontvanger zijn gedaan. Er wordt naar verwezen in de omgeving.
 
-Voor meer op dit, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=nl-NL#managing-offers){target="_blank"}.
+Voor meer op dit, verwijs naar [&#x200B; de documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=nl-NL#managing-offers){target="_blank"}.
 
 ## Aanbiedingssimulatie
 
@@ -196,4 +196,4 @@ De **module van de Simulatie** laat u de distributie van aanbiedingen testen die
 
 Bij de simulatie wordt rekening gehouden met de context en de subsidiabiliteitsregels die eerder op de aanbiedingen van toepassing waren, en met hun presentatieregels. Dit laat u diverse versies van uw aanbiedingsvoorstel testen en verfijnen zonder eigenlijk een aanbieding of over/onder het eisen van een doel te gebruiken, aangezien de simulatie geen effect op de gerichte ontvangers heeft.
 
-Voor meer op de simulatie van het Aanbod, verwijs naar [ de documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=nl-NL){target="_blank"}.
+Voor meer op de simulatie van het Aanbod, verwijs naar [&#x200B; de documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=nl-NL){target="_blank"}.

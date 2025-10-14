@@ -16,11 +16,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support) om de trekkers van Experience Cloud met Campagne uit te voeren.
+>Als Beheerde gebruiker van de Diensten van de Wolk, [&#x200B; contacteer Adobe &#x200B;](../start/campaign-faq.md#support) om de trekkers van Experience Cloud met Campagne uit te voeren.
 
 U kunt Experience Cloud Triggers gebruiken om gegevens tussen Adobe Campaign en Adobe Analytics aan te sluiten gebruikend de pijpleiding. De pijplijn haalt de acties van de gebruiker of trekkers van uw website terug. Een achterlating van een winkelwagen is een voorbeeld van een trigger. Triggers worden in Adobe Campaign verwerkt om e-mails in bijna real-time te verzenden.
 
-Leer meer over Adobe Campaign en de Trekkers van Experience Cloud op [ deze pagina ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=nl-NL){target="_blank"}.
+Leer meer over Adobe Campaign en de Trekkers van Experience Cloud op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=nl-NL){target="_blank"}.
 
-Ontdek hoe te om [ een trekker van Experience Cloud ](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=nl-NL){target="_blank"} tot stand te brengen en, kritiek consumentengedrag te identificeren te bepalen en te controleren.
+Ontdek hoe te om [&#x200B; een trekker van Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=nl-NL){target="_blank"} tot stand te brengen en, kritiek consumentengedrag te identificeren te bepalen en te controleren.
 

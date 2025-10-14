@@ -64,7 +64,7 @@ Deze sectie wordt alleen weergegeven in workflows voor campagnes.
   >
   >* Deze optie wordt gericht op geavanceerde gebruikers en zou voor **technische werkschema&#39;s** slechts moeten worden toegelaten.
   >
-  >* Deze optie wordt toegelaten door gebrek voor de gecentraliseerde replicatiewerkschema&#39;s beschikbaar context van een [ plaatsing van de Onderneming (FFDA) ](../../v8/architecture/enterprise-deployment.md). [Meer informatie](../../v8/architecture/replication.md)
+  >* Deze optie wordt toegelaten door gebrek voor de gecentraliseerde replicatiewerkschema&#39;s beschikbaar context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../../v8/architecture/enterprise-deployment.md). [Meer informatie](../../v8/architecture/replication.md)
 
 ### Foutbeheer {#error-management}
 

@@ -21,7 +21,7 @@ Met gegevenspakketten kunt u aangepaste instellingen en gegevens van uw platform
 
 In de gegevenspakketten van de Campagne, worden de entiteiten van het gegevensbestand van Adobe Campaign getoond in de dossiers van XML. In een pakket wordt elke entiteit vertegenwoordigd met al haar gegevens.
 
-Het beginsel van **gegevenspakketten** moet een gegevensconfiguratie uitvoeren en het in een ander milieu van Adobe Campaign integreren. Leer hoe te om een verenigbare reeks gegevenspakketten in deze [ sectie ](#data-package-best-practices) te handhaven.
+Het beginsel van **gegevenspakketten** moet een gegevensconfiguratie uitvoeren en het in een ander milieu van Adobe Campaign integreren. Leer hoe te om een verenigbare reeks gegevenspakketten in deze [&#x200B; sectie &#x200B;](#data-package-best-practices) te handhaven.
 
 ### Typen pakketten {#types-of-packages}
 
@@ -85,7 +85,7 @@ Nadat een pakket is geëxporteerd, kunt u het pakket en alle toegevoegde entitei
 Ga als volgt te werk om een set objecten in een gegevenspakket te exporteren:
 
 1. Blader naar de exportassistent voor pakketten via het **[!UICONTROL Tools > Advanced > Export package...]** -menu van de verkenner.
-1. Selecteer de [ types van pakketten ](#types-of-packages).
+1. Selecteer de [&#x200B; types van pakketten &#x200B;](#types-of-packages).
 
    ![](assets/package_type.png)
 
@@ -95,13 +95,13 @@ Ga als volgt te werk om een set objecten in een gegevenspakket te exporteren:
    >
    >Als u een **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** of **[!UICONTROL Plan]** typemap uitvoert, selecteer nooit **xtk:omslag** aangezien u sommige gegevens kunt verliezen. Selecteer de entiteit die met de omslag beantwoordt: **nms:offerCategory** voor aanbiedingscategorieën, **nms:offerEnv** voor aanbiedingsmilieu&#39;s, **nms:programma** voor programma&#39;s, en **nms:plan** voor plannen.
 
-   Het afhankelijkheidsmechanisme bestuurt de uitvoersequentie van de entiteit. Voor meer op dit, verwijs naar [ het Leiden gebiedsdelen ](#manage-dependencies).
+   Het afhankelijkheidsmechanisme bestuurt de uitvoersequentie van de entiteit. Voor meer op dit, verwijs naar [&#x200B; het Leiden gebiedsdelen &#x200B;](#manage-dependencies).
 
 1. Klik op **[!UICONTROL Next]** en definieer de filterquery voor het type document dat u wilt extraheren. U moet de het filtreren clausule voor gegevensextractie vormen.
 
    >[!NOTE]
    >
-   >De vraagredacteur wordt voorgesteld in [ deze sectie ](../../automation/workflow/query.md).
+   >De vraagredacteur wordt voorgesteld in [&#x200B; deze sectie &#x200B;](../../automation/workflow/query.md).
 
 1. Klik op **[!UICONTROL Next]** en selecteer de sorteervolgorde van de geëxporteerde gegevens.
 
@@ -118,7 +118,7 @@ Tijdens het exportproces worden de koppelingen tussen de verschillende geëxport
 
 >[!NOTE]
 >
->De types van integriteit verbonden aan schemaelementen worden bepaald in [ deze pagina ](database-links.md).
+>De types van integriteit verbonden aan schemaelementen worden bepaald in [&#x200B; deze pagina &#x200B;](database-links.md).
 
 #### Een campagne exporteren {#export-a-campaign}
 
@@ -212,7 +212,7 @@ Vervolgens kunt u entiteiten toevoegen aan de pakketdefinitie en deze exporteren
 
 ### Entiteiten toevoegen aan een pakketdefinitie {#add-entities-to-a-package-definition}
 
-Klik in het tabblad **[!UICONTROL Content]** op de knop **[!UICONTROL Add]** om de entiteiten te selecteren die u met het pakket wilt exporteren. De beste praktijken wanneer het selecteren van entiteiten worden voorgesteld in [ deze sectie ](#export-a-set-of-objects-in-a-package).
+Klik in het tabblad **[!UICONTROL Content]** op de knop **[!UICONTROL Add]** om de entiteiten te selecteren die u met het pakket wilt exporteren. De beste praktijken wanneer het selecteren van entiteiten worden voorgesteld in [&#x200B; deze sectie &#x200B;](#export-a-set-of-objects-in-a-package).
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -222,7 +222,7 @@ Entiteiten kunnen rechtstreeks vanaf hun locatie in de instantie aan een pakketd
 
 1. Selecteer **[!UICONTROL Add to a package definition]** en selecteer vervolgens de pakketdefinitie waaraan u de entiteit wilt toevoegen.
 
-1. De entiteit wordt toegevoegd aan de pakketdefinitie, zal het met het pakket (zie [ worden uitgevoerd deze sectie ](#export-packages-from-a-package-definition)).
+1. De entiteit wordt toegevoegd aan de pakketdefinitie, zal het met het pakket (zie [&#x200B; worden uitgevoerd deze sectie &#x200B;](#export-packages-from-a-package-definition)).
 
 ### Genereren van pakketdefinities configureren {#configure-package-definitions-generation}
 

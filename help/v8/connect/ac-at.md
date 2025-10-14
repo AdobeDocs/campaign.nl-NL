@@ -21,7 +21,7 @@ Dankzij deze integratie kunt u gebruiksgevallen als volgt implementeren: wanneer
 >[!NOTE]
 >* De integratie ondersteunt alleen statische afbeeldingen. De andere typen inhoud kunnen niet worden gepersonaliseerd.
 >
->* Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support) om de trekkers van Experience Cloud met Campagne uit te voeren.
+>* Als Beheerde gebruiker van de Diensten van de Wolk, [&#x200B; contacteer Adobe &#x200B;](../start/campaign-faq.md#support) om de trekkers van Experience Cloud met Campagne uit te voeren.
 
 Adobe Target kan de volgende gegevenstypen gebruiken:
 
@@ -74,7 +74,7 @@ Vervolgens kunt u de afbeeldingsparameters definiëren:
 * Met **[!UICONTROL Landing Page]** kunt u de standaardafbeelding omleiden naar een standaardbestemmingspagina. Deze URL is alleen van toepassing wanneer de standaardafbeelding wordt weergegeven in het laatste e-mailbericht. Het is optioneel.
 * De **[!UICONTROL Additional decision parameters]** definieert de toewijzing tussen de velden die zijn gedefinieerd in de Adobe Target-segmenten en de Adobe Campaign-velden. De Adobe Campaign-velden die worden gebruikt, moeten zijn opgegeven in de keuzelijst. In ons voorbeeld hebben we het veld Land toegevoegd.
 
-Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Leer meer over de toestemmingen van de Onderneming van het Doel in [ documentatie van Adobe Target ](https://experienceleague.adobe.com/nl/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
+Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Leer meer over de toestemmingen van de Onderneming van het Doel in [&#x200B; documentatie van Adobe Target &#x200B;](https://experienceleague.adobe.com/nl/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
 ![](assets/target_13.png)
 
@@ -94,7 +94,7 @@ In ons geval hebben we twee doorgifteaanbiedingen nodig, de derde (de standaard)
 
    ![](assets/target_6.png)
 
-1. Volg dezelfde procedure voor het resterende doorleidingsaanbod. Voor meer op dit, verwijs naar deze [ documentatie van Adobe Target ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=nl-NL#experiences){target="_blank"}.
+1. Volg dezelfde procedure voor het resterende doorleidingsaanbod. Voor meer op dit, verwijs naar deze [&#x200B; documentatie van Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=nl-NL#experiences){target="_blank"}.
 
 ### Soorten publiek maken {#audiences-target}
 

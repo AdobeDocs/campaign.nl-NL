@@ -75,7 +75,7 @@ Nadat de levering wordt gebeëindigd, controleer de volgende dingen:
 * Controleren of alle berichten zijn verzonden (niet noodzakelijkerwijs ontvangen)
 * Er moet absoluut nul PDU met command_status niet 0x00000000 zijn, tenzij dit uitdrukkelijk door de leverancier als normale verrichting wordt verklaard
 * De verbindingen moeten absoluut stabiel (geen BIND PDU) tijdens het volledige leveringsproces blijven.
-* Controle dat alle berichten een SR hebben en dat het correct (zie [ Controle correct werd verwerkt dat SR behoorlijk ](#real-test) wordt verwerkt). Als een klein percentage fouten bevat, controleert u of dit echte SR-terugkerende fouten zijn, niet fouten tijdens het verzenden of verwerken aan de Campagnezijde.
+* Controle dat alle berichten een SR hebben en dat het correct (zie [&#x200B; Controle correct werd verwerkt dat SR behoorlijk &#x200B;](#real-test) wordt verwerkt). Als een klein percentage fouten bevat, controleert u of dit echte SR-terugkerende fouten zijn, niet fouten tijdens het verzenden of verwerken aan de Campagnezijde.
 * Als u niet zeker bent over prestaties, controleer dat latentie redelijk is, vooral tussen een PDU en zijn overeenkomstige RESP, die meer dan 500ms latentie heeft een probleem voor hoge productie kan zijn. Gebruik die latentie om de verzendende vensterformule te controleren (zie het Verzenden venster plaatsen voor meer details)
 
 ### PDU&#39;s controleren {#pdu}
@@ -178,7 +178,7 @@ De leverancier heeft geen manier om te vertellen van welke externe rekening PDU 
 
 Als de leverancier veelvoudige korte codes voor de zelfde login/wachtwoordcombinatie steunt, zult u hen moeten vragen waar te om die korte code in BIND PDU te zetten. Merk op dat dit stuk van informatie binnen BIND PDU, en niet in SUBMIT_SM moet worden gezet, omdat BIND PDU de enige plaats is die het verpletteren van MOs correct zal toestaan.
 
-Zie de [ Informatie in elk soort PDU ](#pdu) sectie hierboven om te weten welke gebieden in BIND PDU beschikbaar zijn, over het algemeen zou u de korte code in *address_range* zetten, maar dat vereist speciale steun van de leverancier. Contacteer hen om te weten hoe zij verwachten om veelvoudige korte codes onafhankelijk te leiden.
+Zie de [&#x200B; Informatie in elk soort PDU &#x200B;](#pdu) sectie hierboven om te weten welke gebieden in BIND PDU beschikbaar zijn, over het algemeen zou u de korte code in *address_range* zetten, maar dat vereist speciale steun van de leverancier. Contacteer hen om te weten hoe zij verwachten om veelvoudige korte codes onafhankelijk te leiden.
 
 Adobe Campaign biedt ondersteuning voor het verwerken van meerdere korte codes op dezelfde externe account. Het is dus vaak prima om slechts één account voor al het verkeer te gebruiken.
 
@@ -206,7 +206,7 @@ Aanbevolen wordt contact te houden met de provider en vaak belangrijke wijziging
 * Controleer of het netwerk correct is geconfigureerd, zodat de TCP-verbinding tot stand kan worden gebracht met de provider.
 * Vraag de leverancier om te controleren dat zij behoorlijk IP adressen van de instantie van Adobe Campaign (de meeste leveranciers vereisen dit) toetoestonden.
 * Controleer de instellingen van de externe account. Vraag het de leverancier in geval van twijfel over de waarde van sommige gebieden.
-* Als de verbinding succesvol maar onstabiel is, controleer de [ Kwesties met instabiele verbindingen ](#unstable-connections). hieronder.
+* Als de verbinding succesvol maar onstabiel is, controleer de [&#x200B; Kwesties met instabiele verbindingen &#x200B;](#unstable-connections). hieronder.
 * Als de verbindingskwesties moeilijk zijn te diagnostiseren, zal een netwerk vangen u veel informatie brengen. Zorg ervoor dat het netwerk vangt gelijktijdig loopt terwijl het probleem verschijnt zodat kan het efficiënt worden geanalyseerd. U zou ook van de nauwkeurige tijd moeten nota nemen waarop het probleem verschijnt zodat is het gemakkelijker om het probleem in netwerkvangt te vinden.
 
 #### Problemen met instabiele verbindingen {#unstable-connections}
@@ -247,7 +247,7 @@ Een verbinding wordt als instabiel beschouwd als een van deze dingen gebeurt:
 Duplicaten worden vaak veroorzaakt door nieuwe pogingen. Het is normaal om duplicaten te hebben wanneer het opnieuw proberen van berichten, zodat zou u uw inspanningen moeten concentreren op het elimineren van de worteloorzaak van herpogingen.
 
 * Als u duplicaten ziet die precies 60 seconden van elkaar worden verzonden (of om het even welke andere verdacht &quot;regelmatige&quot;periode), is het waarschijnlijk een probleem aan de leverancierskant, verzenden zij niet snel genoeg een SUBMIT_SM_RESP.
-* Als u vele BIND/UNBIND ziet, hebt u een instabiele verbinding: zie de [ Kwesties met instabiele verbindingen ](#unstable-connections) sectie voor oplossingen alvorens te proberen om dubbele berichtkwesties op te lossen.
+* Als u vele BIND/UNBIND ziet, hebt u een instabiele verbinding: zie de [&#x200B; Kwesties met instabiele verbindingen &#x200B;](#unstable-connections) sectie voor oplossingen alvorens te proberen om dubbele berichtkwesties op te lossen.
 * Controleer of alle PDU&#39;s SUBMIT_SM kort daarna overeenkomen met SUBMIT_SM_RESP. Als zij niet of SUBMIT_SM_RESP te langzaam zijn, is de kwestie op de leverancierskant.
 
 Het verminderen van de hoeveelheid duplicaten wanneer er opnieuw wordt geprobeerd:

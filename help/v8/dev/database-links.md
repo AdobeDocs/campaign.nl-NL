@@ -35,7 +35,7 @@ Voor join-relaties met FDA (Federated Database Access):
 * ![](assets/do-not-localize/join_fda_11.png): Kardinaliteit 1-1
 * ![](assets/do-not-localize/join_fda_1m.png): Kardinaliteit 1-N
 
-Voor meer informatie over lijsten FDA, verwijs naar [ Toegang hebbend tot een extern gegevensbestand ](../connect/fda.md).
+Voor meer informatie over lijsten FDA, verwijs naar [&#x200B; Toegang hebbend tot een extern gegevensbestand &#x200B;](../connect/fda.md).
 
 Een koppeling moet worden gedeclareerd in het schema met de externe sleutel van de tabel die is gekoppeld via het hoofdelement:
 

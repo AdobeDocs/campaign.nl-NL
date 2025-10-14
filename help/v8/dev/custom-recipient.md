@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Een aangepaste tabel voor ontvangers gebruiken{#gs-ac-custom-recipient}
 
-Adobe Campaign komt met een ingebouwde profiellijst: **nmsRecipient**. Deze tabel bevat een aantal vooraf gedefinieerde velden en tabellen die u eenvoudig kunt uitbreiden. Leer meer over deze lijst in [ deze pagina ](datamodel.md#ootb-profiles).
+Adobe Campaign komt met een ingebouwde profiellijst: **nmsRecipient**. Deze tabel bevat een aantal vooraf gedefinieerde velden en tabellen die u eenvoudig kunt uitbreiden. Leer meer over deze lijst in [&#x200B; deze pagina &#x200B;](datamodel.md#ootb-profiles).
 
 De ingebouwde tabeluitbreiding biedt flexibiliteit, maar het is niet toegestaan om enkele ongebruikte velden of koppelingen te verwijderen. Als gevolg hiervan kan het gebruik van een aangepaste ontvangende tabel een goede optie zijn wanneer uw gegevensmodel sterk afwijkt van de geïntegreerde tabelstructuur van de campagne voor ontvangers of wanneer u een groot aantal profielen hebt.  Bij de toepassing van deze methode zijn echter bepaalde voorzorgsmaatregelen vereist.
 
-Leer hoe te om uw instantie te vormen om een douane ontvankelijke lijst in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html?lang=nl-NL){target="_blank"} te gebruiken.
+Leer hoe te om uw instantie te vormen om een douane ontvankelijke lijst in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html?lang=nl-NL){target="_blank"} te gebruiken.

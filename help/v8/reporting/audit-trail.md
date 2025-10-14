@@ -24,7 +24,7 @@ De **[!UICONTROL Audit trail]** -functionaliteit in Adobe Campaign biedt een ged
 
 * **de auditspoor van het Schema**: staat u toe om de veranderingen te onderzoeken die aan uw schema&#39;s worden aangebracht, evenals te identificeren wie deze wijzigingen maakte en wanneer zij voorkwamen.
 
-  Voor gedetailleerde informatie over schema&#39;s, verwijs naar [ pagina ](../dev/schemas.md).
+  Voor gedetailleerde informatie over schema&#39;s, verwijs naar [&#x200B; pagina &#x200B;](../dev/schemas.md).
 
 * **sporen van het de controlespoor van het 0&rbrace; Werkschema alle acties met betrekking tot uw werkschema&#39;s, met inbegrip van:**
 
@@ -37,37 +37,37 @@ De **[!UICONTROL Audit trail]** -functionaliteit in Adobe Campaign biedt een ged
    * Wakeup die gelijk is aan de handeling Voer taken uit die in behandeling zijn.
    * Onvoorwaardelijk stoppen
 
-  Voor meer informatie over werkschema&#39;s, verwijs naar deze [ pagina ](../../automation/workflow/about-workflows.md).
+  Voor meer informatie over werkschema&#39;s, verwijs naar deze [&#x200B; pagina &#x200B;](../../automation/workflow/about-workflows.md).
 
-  Voor meer op hoe te om werkschema&#39;s te controleren, verwijs naar de [ specifieke sectie ](../../automation/workflow/monitor-workflow-execution.md).
+  Voor meer op hoe te om werkschema&#39;s te controleren, verwijs naar de [&#x200B; specifieke sectie &#x200B;](../../automation/workflow/monitor-workflow-execution.md).
 
 * **de controlespoor van de Optie** staat u toe om activiteiten en laatste wijzigingen te controleren die aan uw opties worden gedaan.
 
-  Voor meer informatie over opties, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Voor meer informatie over opties, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **de controletrail van de Levering** staat u toe om de activiteiten en de laatste wijzigingen te controleren die aan uw leveringen worden gedaan.
 
-  Voor meer informatie over leveringen, verwijs naar deze [ pagina ](../start/create-message.md).
+  Voor meer informatie over leveringen, verwijs naar deze [&#x200B; pagina &#x200B;](../start/create-message.md).
 
 * **Externe Rekening** staat u toe om wijzigingen te controleren die aan externe rekeningen worden aangebracht, die door technische processen zoals technische werkschema&#39;s of campagnewerkschema&#39;s worden gebruikt.
 
-  Voor meer informatie over externe rekening, verwijs naar deze [ pagina ](../config/external-accounts.md).
+  Voor meer informatie over externe rekening, verwijs naar deze [&#x200B; pagina &#x200B;](../config/external-accounts.md).
 
 * **Afbeelding van de Levering** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Toewijzingen van de Levering worden aangebracht.
 
-  Voor meer informatie over leveringsafbeelding, verwijs naar deze [ pagina ](../audiences/target-mappings.md).
+  Voor meer informatie over leveringsafbeelding, verwijs naar deze [&#x200B; pagina &#x200B;](../audiences/target-mappings.md).
 
 * **Toepassing van het Web** staat u toe om wijzigingen te controleren die aan de vormen van het Web in Campagne V8 worden aangebracht om pagina&#39;s met input en selectievelden tot stand te brengen, en die gegevens van het gegevensbestand kunnen omvatten.
 
-  Voor meer informatie over Webtoepassing, verwijs naar deze [ pagina ](../dev/webapps.md).
+  Voor meer informatie over Webtoepassing, verwijs naar deze [&#x200B; pagina &#x200B;](../dev/webapps.md).
 
 * **Aanbieding** staat u toe om de activiteiten en de laatste wijzigingen te controleren die aan uw aanbiedingen worden gedaan.
 
-  Voor meer informatie over aanbieding, verwijs naar deze [ pagina ](../interaction/interaction.md).
+  Voor meer informatie over aanbieding, verwijs naar deze [&#x200B; pagina &#x200B;](../interaction/interaction.md).
 
 * **Exploitant** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Operatoren worden aangebracht.
 
-  Voor meer informatie over exploitanten, verwijs naar deze [ pagina ](../interaction/interaction-operators.md).
+  Voor meer informatie over exploitanten, verwijs naar deze [&#x200B; pagina &#x200B;](../interaction/interaction-operators.md).
 
 +++
 

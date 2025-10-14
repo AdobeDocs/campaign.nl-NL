@@ -107,4 +107,4 @@ In specifieke gevallen moet u echter mogelijk de systeemfilters van de ingebouwd
 
 1. Maak een extensie voor het ingebouwde schema of open een bestaande extensie.
 1. Voeg een onderliggend element **`<sysfilter name="<filter name>" _operation="delete"/>`** toe in het hoofdelement om het filter onder het zelfde in het ingebouwde schema te negeren.
-1. U kunt een nieuwe filter toevoegen, zoals die in de [ de filters van het Systeem ](#system-filters) sectie wordt gedetailleerd.
+1. U kunt een nieuwe filter toevoegen, zoals die in de [&#x200B; de filters van het Systeem &#x200B;](#system-filters) sectie wordt gedetailleerd.

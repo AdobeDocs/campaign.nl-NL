@@ -16,7 +16,7 @@ ht-degree: 6%
 
 # Vroege aanvullende informatie {#e-new-release}
 
-Op deze pagina vindt u een beschrijving van de verbeteringen en correcties die zijn opgenomen in de volgende versie van Campagne v8. **de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
+Op deze pagina vindt u een beschrijving van de verbeteringen en correcties die zijn opgenomen in de volgende versie van Campagne v8. **de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md), bij de versiedatum.
 
 
 ## Release 8.7.2 {#release-8-7-2}
@@ -27,7 +27,7 @@ _sep 3, 2024_
 >
 >Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/acs-migration.html?lang=nl-NL){target="_blank"}.
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [&#x200B; het document van het Webgebruikersinterface van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/start/acs-migration.html?lang=nl-NL){target="_blank"}.
 
 ### Nieuwe functies {#new-8-7-2}
 

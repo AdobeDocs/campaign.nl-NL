@@ -35,7 +35,7 @@ Technische workflows zijn beschikbaar via **[!UICONTROL Administration]** > **[!
 
 Afhankelijk van de technische werkstroom, volg de hieronder beschreven stappen om ervoor te zorgen dat alles zoals verwacht werkt.
 
-Om beter te begrijpen wat elk technisch werkschema zou moeten doen, verwijs naar dit [ sectie ](technical-workflows.md).
+Om beter te begrijpen wat elk technisch werkschema zou moeten doen, verwijs naar dit [&#x200B; sectie &#x200B;](technical-workflows.md).
 
 Voor **[!UICONTROL Database Cleanup workflow ('cleanup')]**:
 

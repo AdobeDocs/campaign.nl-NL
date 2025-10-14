@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Bekende problemen{#known-issues}
 
-Deze pagina maakt een lijst van bekende kwesties die in de **recentste Versies van de Campagne v8** worden geïdentificeerd. Bovendien worden de beperkingen die met Campagne v8 komen vermeld [ in deze pagina ](ac-guardrails.md).
+Deze pagina maakt een lijst van bekende kwesties die in de **recentste Versies van de Campagne v8** worden geïdentificeerd. Bovendien worden de beperkingen die met Campagne v8 komen vermeld [&#x200B; in deze pagina &#x200B;](ac-guardrails.md).
 
 
 >[!NOTE]
@@ -84,11 +84,11 @@ Het proces eindigt nooit.
 
 De oplossing is het gebruik van een oudere clientconsole. Vervolgens kunt u het bestand uploaden naar de server.
 
-Als beheerder van de Campagne, kunt u Campagne v8.3.1 de Console van de Cliënt in [ de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;layout by.sort=desc=list&amp;p.offset=0&amp;p.limit=4){target="_blank"} downloaden.
+Als beheerder van de Campagne, kunt u Campagne v8.3.1 de Console van de Cliënt in [&#x200B; de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&layout by.sort=desc=list&amp;p.offset=0&amp;p.limit=4){target="_blank"} downloaden.
 
-Leer hoe te om tot de Distributie van de Software van Adobe [ in deze pagina ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=nl-NL){target="_blank"} toegang te hebben.
+Leer hoe te om tot de Distributie van de Software van Adobe [&#x200B; in deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=nl-NL){target="_blank"} toegang te hebben.
 
-Leer hoe te om uw Console van de Cliënt [ in deze pagina te bevorderen ](connect.md)
+Leer hoe te om uw Console van de Cliënt [&#x200B; in deze pagina te bevorderen &#x200B;](connect.md)
 
 #### Interne referentie{#issue-3-ref}
 

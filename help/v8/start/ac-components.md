@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe Campaign is een oplossing voor kanaalmarketing die e-mail, mobiele, sociale en offlinecampagnes automatiseert. Adobe Campaign biedt een centrale locatie voor toegang tot de gegevens en profielen van uw klanten. Met Adobe Campaign kunt u consistente ervaringen voor uw klanten ordenen, ontwerpen, uitvoeren en uw marketing aanpassen via verschillende kanalen, terwijl de ervaringen van klanten op elk apparaat en aanraakpunt worden verbeterd. Met Adobe Campaign kunt u meerdere gegevensbronnen beheren, uw publiekssegmenten definiëren en meerstapscampagnes voor meerdere kanalen plannen en uitvoeren via een visuele workflowinterface voor slepen en neerzetten.
 
-Leer meer over de belangrijkste mogelijkheden van de Campagne in [ deze pagina ](../start/get-started.md).
+Leer meer over de belangrijkste mogelijkheden van de Campagne in [&#x200B; deze pagina &#x200B;](../start/get-started.md).
 
 ## Campagne-onderdelen {#ac-components}
 
@@ -30,15 +30,15 @@ U kunt toegang krijgen tot Adobe Campaign via een rijke client, een dunne client
 
 * Rijke client
 
-  Campagne Rich-client is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. [ Leer meer over de Console van de Cliënt van de Campagne ](../start/connect.md).
+  Campagne Rich-client is een native toepassing die communiceert met de Adobe Campaign-toepassingsserver via standaard internetprotocollen, zoals SOAP en HTTP. [&#x200B; Leer meer over de Console van de Cliënt van de Campagne &#x200B;](../start/connect.md).
 
 * Dunne client
 
-  Met Adobe Campaign-mogelijkheden voor webtoegang hebt u via een HTML-gebruikersinterface toegang tot een subset van Campagnefuncties via een webbrowser. Gebruik deze webinterface om rapporten te openen, berichten te besturen en te valideren, toegang te krijgen tot controledashboards en nog veel meer.  [ leer meer over de Toegang van het Web van de Campagne ](../start/connect.md).
+  Met Adobe Campaign-mogelijkheden voor webtoegang hebt u via een HTML-gebruikersinterface toegang tot een subset van Campagnefuncties via een webbrowser. Gebruik deze webinterface om rapporten te openen, berichten te besturen en te valideren, toegang te krijgen tot controledashboards en nog veel meer.  [&#x200B; leer meer over de Toegang van het Web van de Campagne &#x200B;](../start/connect.md).
 
 * Externe toepassingen met API&#39;s
 
-  In bepaalde gevallen, kan het systeem van externe toepassingen worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van SOAP worden blootgesteld. [ Leer meer over Campagne APIs ](../dev/api.md).
+  In bepaalde gevallen, kan het systeem van externe toepassingen worden geroepen gebruikend de Diensten APIs van het Web die via het protocol van SOAP worden blootgesteld. [&#x200B; Leer meer over Campagne APIs &#x200B;](../dev/api.md).
 
 ### Persistentielaag{#persistance-layer}
 
@@ -68,4 +68,4 @@ De Console van de Cliënt van de campagne verbindt met de server van het Web geb
 
 De gebruiker verbindt met de de toepassingsserver van de Campagne gebruikend HTTP. Alle gegevens en informatie worden beheerd in het gegevensbestand van de Campagne. Als een ontwikkelaar van de Campagne om het even welke configuratieveranderingen uitvoert, wordt het gevangen in het gegevensbestand. Als een markeerteken een nieuwe campagne maakt, worden alle informatie en gegevens met betrekking tot deze nieuwe campagne ook beheerd in de database. Wanneer een teller een campagne uitvoert, worden de e-mailleveringen verzonden naar profielen van de server van de Campagne door de server SMTP. Als profielen reageren op e-mailleveringen, zoals het openen van de e-mail, worden deze gegevens teruggestuurd naar de trackingserver.
 
-[ leer meer over de processen van de Campagne ](../architecture/general-architecture.md#dev-env).
+[&#x200B; leer meer over de processen van de Campagne &#x200B;](../architecture/general-architecture.md#dev-env).

@@ -40,6 +40,6 @@ Deze integratie ondersteunt twee typen Adobe Experience Cloud-id&#39;s:
 
 Zie:
 
-[ documentatie van Adobe Audience Manager ](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=nl-NL){target="_blank"}
+[&#x200B; documentatie van Adobe Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=nl-NL){target="_blank"}
 
-[ de Centrale Gids van Componenten van de Interface van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=nl-NL){target="_blank"}
+[&#x200B; de Centrale Gids van Componenten van de Interface van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=nl-NL){target="_blank"}

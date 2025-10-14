@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Cross-channel leveringsworkflow{#cross-channel-delivery-workflow}
 
-In dit geval wordt een voorbeeld weergegeven met een workflow voor levering over meerdere kanalen. Het algemene concept van dwars-kanaalleveringen wordt voorgesteld in [ deze sectie ](cross-channel-deliveries.md).
+In dit geval wordt een voorbeeld weergegeven met een workflow voor levering over meerdere kanalen. Het algemene concept van dwars-kanaalleveringen wordt voorgesteld in [&#x200B; deze sectie &#x200B;](cross-channel-deliveries.md).
 
 Het doel is een publiek van de ontvangers van uw gegevensbestand in verschillende groepen te segmenteren met als doel een e-mail naar een groep en een SMS-bericht naar een andere groep te verzenden.
 
@@ -36,7 +36,7 @@ De belangrijkste stappen voor de implementatie van dit gebruiksgeval zijn als vo
 Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
 1. Maak een campagne. Meer informatie vindt u [op deze pagina](../campaigns/marketing-campaign-create.md).
-1. In het **[!UICONTROL Targeting and workflows]** lusje van uw campagne, voeg de activiteit van de a **Vraag** aan uw werkschema toe. Voor meer bij het gebruiken van deze activiteit, verwijs naar [ deze sectie ](query.md).
+1. In het **[!UICONTROL Targeting and workflows]** lusje van uw campagne, voeg de activiteit van de a **Vraag** aan uw werkschema toe. Voor meer bij het gebruiken van deze activiteit, verwijs naar [&#x200B; deze sectie &#x200B;](query.md).
 1. Bepaal de ontvangers die uw leveringen zullen ontvangen. Selecteer bijvoorbeeld &#39;Gold&#39;-leden als doeldimensie.
 1. Voeg filtervoorwaarden aan uw vraag toe. Selecteer in dit voorbeeld ontvangers met een e-mailadres en een mobiel nummer.
 
@@ -51,7 +51,7 @@ Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
    ![](assets/wkf_cross-channel_1.png)
 
-   Voor meer bij het integreren van een aanbieding in het lichaam van een bericht, verwijs naar [ deze pagina ](../../v8/send/email.md).
+   Voor meer bij het integreren van een aanbieding in het lichaam van een bericht, verwijs naar [&#x200B; deze pagina &#x200B;](../../v8/send/email.md).
 
 1. Sla uw wijzigingen op.
 1. Klik met de rechtermuisknop op de **[!UICONTROL Email delivery]** -activiteit om deze te openen.
@@ -69,7 +69,7 @@ Om uw doel te bepalen, creeer een vraag om de ontvangers te identificeren.
 
 Zodra uw doel wordt geïdentificeerd en uw eerste levering gecreeerd, moet u het doel in verschillende populaties segmenteren gebruikend het filtreren voorwaarden.
 
-1. Voeg a **Gesplitste** activiteit aan het werkschema toe en open het. Voor meer bij het gebruiken van deze activiteit, verwijs naar [ deze sectie ](split.md).
+1. Voeg a **Gesplitste** activiteit aan het werkschema toe en open het. Voor meer bij het gebruiken van deze activiteit, verwijs naar [&#x200B; deze sectie &#x200B;](split.md).
 1. Creeer drie segmenten van de bevolking die stroomopwaarts in de vraag wordt berekend.
 
    ![](assets/wkf_cross-channel_6.png)

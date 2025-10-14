@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Deze sectie geeft informatie over hoe te om de uitvoering van uw werkschema&#39;s te controleren.
 
-Een gebruiksgeval op hoe te om een werkschema tot stand te brengen dat u de status van een reeks werkschema&#39;s laat controleren die &quot;gepauzeerd&quot;zijn, &quot;gestopt&quot;of &quot;met fouten&quot;is ook beschikbaar in [ deze sectie ](workflow-supervision.md#supervising-workflows).
+Een gebruiksgeval op hoe te om een werkschema tot stand te brengen dat u de status van een reeks werkschema&#39;s laat controleren die &quot;gepauzeerd&quot;zijn, &quot;gestopt&quot;of &quot;met fouten&quot;is ook beschikbaar in [&#x200B; deze sectie &#x200B;](workflow-supervision.md#supervising-workflows).
 
-Bovendien, kunnen de beheerders van de instantie het **spoor van de Controle** gebruiken om activiteiten en laatste wijzigingen te controleren die aan werkschema&#39;s, de staat van uw werkschema&#39;s worden gedaan. Leer meer over het spoor van de Controle in deze [ pagina ](../../v8/reporting/audit-trail.md){target="_blank"}.
+Bovendien, kunnen de beheerders van de instantie het **spoor van de Controle** gebruiken om activiteiten en laatste wijzigingen te controleren die aan werkschema&#39;s, de staat van uw werkschema&#39;s worden gedaan. Leer meer over het spoor van de Controle in deze [&#x200B; pagina &#x200B;](../../v8/reporting/audit-trail.md){target="_blank"}.
 
 ## Voortgang weergeven {#displaying-progress}
 
@@ -91,7 +91,7 @@ Het logboek toont de chronologische lijst van uitvoeringsberichten met betrekkin
 
 ## De logbestanden leegmaken {#purging-the-logs}
 
-De historie van de workflow wordt niet automatisch gewist: alle berichten worden standaard bijgehouden. De geschiedenis kan worden gewist via het menu **[!UICONTROL File > Actions]** of door op de knop **[!UICONTROL Actions]** op de werkbalk boven de lijst te klikken. Selecteer **[!UICONTROL Purge history]**. De opties beschikbaar in het **[!UICONTROL Actions]** menu worden gedetailleerd in de [ werkbalk van Acties ](start-a-workflow.md) sectie.
+De historie van de workflow wordt niet automatisch gewist: alle berichten worden standaard bijgehouden. De geschiedenis kan worden gewist via het menu **[!UICONTROL File > Actions]** of door op de knop **[!UICONTROL Actions]** op de werkbalk boven de lijst te klikken. Selecteer **[!UICONTROL Purge history]**. De opties beschikbaar in het **[!UICONTROL Actions]** menu worden gedetailleerd in de [&#x200B; werkbalk van Acties &#x200B;](start-a-workflow.md) sectie.
 
 ![](assets/purge_historique.png)
 
@@ -101,7 +101,7 @@ De workflow geeft worktables weer die via bepaalde activiteiten kunnen worden be
 
 Het is ook mogelijk om verbindingen tussen diverse het werkdimensies tot stand te brengen en afmetingsveranderingen te bepalen. Voor elk contract dat bijvoorbeeld in de database is opgenomen, richt u zich tot de hoofdhouder en gebruikt u de gegevens van de medehouder in de aanvullende informatie.
 
-De werktafels van de workflow worden automatisch verwijderd wanneer de workflow wordt gepassiveerd. Als u wenst om een het werklijst te houden, bewaar het in een lijst via de **[!UICONTROL List update]** activiteit (verwijs naar [ update van de Lijst ](list-update.md)).
+De werktafels van de workflow worden automatisch verwijderd wanneer de workflow wordt gepassiveerd. Als u wenst om een het werklijst te houden, bewaar het in een lijst via de **[!UICONTROL List update]** activiteit (verwijs naar [&#x200B; update van de Lijst &#x200B;](list-update.md)).
 
 ## Fouten beheren {#managing-errors}
 
@@ -222,7 +222,7 @@ Let op:
   logInfo("Workflow already running, parallel execution not allowed.");
   ```
 
-Een gebruiksgeval wordt voorgesteld in deze sectie: [ Coördinerend gegevensupdates ](coordinate-data-updates.md).
+Een gebruiksgeval wordt voorgesteld in deze sectie: [&#x200B; Coördinerend gegevensupdates &#x200B;](coordinate-data-updates.md).
 
 ## Database-onderhoud {#database-maintenance}
 
@@ -230,14 +230,14 @@ Workflows gebruiken veel werktabellen die ruimte verbruiken en het hele platform
 
 De **schoonmaakbeurt van het Gegevensbestand** werkschema toegankelijk via het **Beleid > Productie > Technische werkschema&#39;s** knoop, laat u verouderde gegevens schrappen om exponentiële groei van het gegevensbestand te vermijden. De workflow wordt automatisch geactiveerd zonder tussenkomst van de gebruiker.
 
-U kunt ook specifieke technische workflows maken om overbodige gegevensverbruikende ruimte te wissen. Zie   en deze [ sectie ](#purging-the-logs).
+U kunt ook specifieke technische workflows maken om overbodige gegevensverbruikende ruimte te wissen. Zie   en deze [&#x200B; sectie &#x200B;](#purging-the-logs).
 
 ## Afhandeling van gepauzeerde workflows {#handling-of-paused-workflows}
 
 Als een werkstroom wordt gepauzeerd, worden de werktabellen standaard niet gewist. Vanaf build 8880 worden workflows die al te lang in een pauzestatus zijn gepauzeerd, automatisch gestopt en worden hun werktabellen gewist. Dit gedrag wordt als volgt geactiveerd:
 
 * De werkschema&#39;s die sinds meer dan 7 dagen zijn gepauzeerd verschijnen als waarschuwing in het controledashboard (en controle API) en een bericht wordt verzonden naar de supervisorgroep.
-* Dit gebeurt elke week, wanneer de **[!UICONTROL cleanupPausedWorkflows]** technische workflow wordt geactiveerd. Voor meer details over het werkschema, verwijs naar [ deze sectie ](delivery.md).
+* Dit gebeurt elke week, wanneer de **[!UICONTROL cleanupPausedWorkflows]** technische workflow wordt geactiveerd. Voor meer details over het werkschema, verwijs naar [&#x200B; deze sectie &#x200B;](delivery.md).
 * Na 4 meldingen (dat wil zeggen een maand in de pauzestatus) wordt de workflow onvoorwaardelijk gestopt. Er wordt een logboek weergegeven in de workflow nadat het is gestopt. De tabellen worden gewist bij de volgende **[!UICONTROL cleanup]** uitvoeringsworkflow
 
 Deze periodes kunnen via de optie NmsServer_PausedWorkflowPeriod worden gevormd.
@@ -263,7 +263,7 @@ Dit doet u als volgt:
 
 1. Klik met de rechtermuisknop op de map waaraan u de weergave wilt toevoegen.
 1. Selecteer in **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]** de weergave die u wilt toevoegen.
-1. Nadat de map aan de structuur is toegevoegd, configureert u deze als een weergave, zodat alle workflows worden weergegeven, ongeacht de oorspronkelijke map. Voor meer op hoe te om meningen te vormen, verwijs naar [ deze pagina ](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
+1. Nadat de map aan de structuur is toegevoegd, configureert u deze als een weergave, zodat alle workflows worden weergegeven, ongeacht de oorspronkelijke map. Voor meer op hoe te om meningen te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 Naast deze weergaven kunt u ook mappen met filters instellen waarmee u de lijst met workflows kunt filteren op basis van hun uitvoeringsstatus. Dit doet u als volgt:
 

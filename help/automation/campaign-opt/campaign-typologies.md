@@ -71,7 +71,7 @@ De gedetailleerde stappen worden vermeld in de volgende sectie:
 
 Tijdens de voorbereiding van de levering worden ontvangers uitgesloten wanneer aan het criterium wordt voldaan. U kunt logboeken controleren om toezicht te houden op uitsluitingen.
 
-De gebruiksgevallen van de steekproef op druktypologische regels zijn beschikbaar in [ deze pagina ](pressure-rules.md#use-cases-on-pressure-rules).
+De gebruiksgevallen van de steekproef op druktypologische regels zijn beschikbaar in [&#x200B; deze pagina &#x200B;](pressure-rules.md#use-cases-on-pressure-rules).
 
 ## Zelfstudievideo&#39;s {#typologies-video}
 

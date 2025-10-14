@@ -22,9 +22,9 @@ Deze activiteit leidt niet tot een unie van binnenkomende populaties. Als meerde
 >
 >Splitsen kan niet worden uitgevoerd voor tabellen met verschillende bronnen. Voor dit doel, moet u een **Verrijking** activiteit vóór de **Gesplitste** activiteit toevoegen.
 
-* Voor een voorbeeld van de gespleten activiteit die wordt gebruikt, verwijs naar [ deze sectie ](targeting-workflows.md#create-subsets-using-the-split-activity).
-* Een voorbeeld dat illustreert hoe te om de Gesplitste activiteit te gebruiken om het doel in verschillende populaties te segmenteren gebruikend het filtreren voorwaarden wordt beschreven in [ deze sectie ](cross-channel-delivery-workflow.md).
-* Een voorbeeld dat toont hoe te om een instantievariabele in een Gesplitste activiteit te gebruiken is beschikbaar in [ deze sectie ](javascript-scripts-and-templates.md).
+* Voor een voorbeeld van de gespleten activiteit die wordt gebruikt, verwijs naar [&#x200B; deze sectie &#x200B;](targeting-workflows.md#create-subsets-using-the-split-activity).
+* Een voorbeeld dat illustreert hoe te om de Gesplitste activiteit te gebruiken om het doel in verschillende populaties te segmenteren gebruikend het filtreren voorwaarden wordt beschreven in [&#x200B; deze sectie &#x200B;](cross-channel-delivery-workflow.md).
+* Een voorbeeld dat toont hoe te om een instantievariabele in een Gesplitste activiteit te gebruiken is beschikbaar in [&#x200B; deze sectie &#x200B;](javascript-scripts-and-templates.md).
 
 Als u deze activiteit wilt configureren, definieert u de inhoud en het label van de subset op het tabblad **[!UICONTROL Subsets]** en kiest u vervolgens de doeldimensie op het tabblad **[!UICONTROL General]** .
 
@@ -124,15 +124,15 @@ Als u bijvoorbeeld het veld **[!UICONTROL Language]** selecteert als een groepsv
 
 ## Het aantal subsetrecords per gegevensdistributie beperken {#limit-the-number-of-subset-records-per-data-distribution}
 
-Als uw groeperingsvelden een te groot aantal waarden bevatten of als u wilt voorkomen dat waarden opnieuw worden ingesteld voor elke nieuwe gesplitste activiteit, kunt u met Adobe Campaign een beperking per gegevensdistributie maken. Wanneer het selecteren van [ waarden van de gegevensbeperking ](#create-subsets) sectie), selecteer de **[!UICONTROL By data distribution]** optie en selecteer een malplaatje van het drop-down menu. Hieronder ziet u hoe u een sjabloon voor gegevensdistributie maakt.
+Als uw groeperingsvelden een te groot aantal waarden bevatten of als u wilt voorkomen dat waarden opnieuw worden ingesteld voor elke nieuwe gesplitste activiteit, kunt u met Adobe Campaign een beperking per gegevensdistributie maken. Wanneer het selecteren van [&#x200B; waarden van de gegevensbeperking &#x200B;](#create-subsets) sectie), selecteer de **[!UICONTROL By data distribution]** optie en selecteer een malplaatje van het drop-down menu. Hieronder ziet u hoe u een sjabloon voor gegevensdistributie maakt.
 
-Voor een voorbeeld van de **[!UICONTROL Local approval]** activiteit met een distributiemalplaatje, verwijs naar [ deze pagina ](local-approval-activity.md).
+Voor een voorbeeld van de **[!UICONTROL Local approval]** activiteit met een distributiemalplaatje, verwijs naar [&#x200B; deze pagina &#x200B;](local-approval-activity.md).
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
 >[!CAUTION]
 >
->Deze functie is slechts beschikbaar met [ Verdeelde toe:voegen-aan ](../distributed-marketing/about-distributed-marketing.md). Controleer hiervoor uw licentieovereenkomst.
+>Deze functie is slechts beschikbaar met [&#x200B; Verdeelde toe:voegen-aan &#x200B;](../distributed-marketing/about-distributed-marketing.md). Controleer hiervoor uw licentieovereenkomst.
 
 Met de sjabloon voor gegevensdistributie kunt u het aantal records beperken aan de hand van een lijst met groeperingswaarden. Voer de volgende stappen uit om een sjabloon voor gegevensdistributie te maken:
 
@@ -150,11 +150,11 @@ Met de sjabloon voor gegevensdistributie kunt u het aantal records beperken aan 
    * **[!UICONTROL Targeting dimension]** : voer de doeldimensie in waarop de gegevensdistributie wordt toegepast, bijvoorbeeld **[!UICONTROL Recipient]** . Dit schema moet altijd compatibel zijn met de gegevens die worden gebruikt in de doelworkflow.
    * **[!UICONTROL Distribution field]**: selecteer een veld via de doeldimensie. Als u bijvoorbeeld het veld **[!UICONTROL Email domain]** selecteert, wordt de lijst met ontvangers uitgesplitst naar domein.
    * **[!UICONTROL Distribution type]** : selecteer de manier waarop de beperkingswaarde van het doel wordt opgesplitst op de tab **[!UICONTROL Distribution]** **[!UICONTROL Percentage]** of **[!UICONTROL Set]** .
-   * **[!UICONTROL Approval storage]**: als u de activiteit van de a [ Lokale goedkeuring ](local-approval.md) in uw het richten werkschema gebruikt, ga het schema in waarin de goedkeuringsresultaten zullen worden opgeslagen. U moet één opslagschema per het richten schema specificeren. Als u het **[!UICONTROL Recipients]** richtingsschema gebruikt, voert u het standaard **[!UICONTROL Local approval of recipients]** -opslagschema in.
+   * **[!UICONTROL Approval storage]**: als u de activiteit van de a [&#x200B; Lokale goedkeuring &#x200B;](local-approval.md) in uw het richten werkschema gebruikt, ga het schema in waarin de goedkeuringsresultaten zullen worden opgeslagen. U moet één opslagschema per het richten schema specificeren. Als u het **[!UICONTROL Recipients]** richtingsschema gebruikt, voert u het standaard **[!UICONTROL Local approval of recipients]** -opslagschema in.
 
      Als er sprake is van een eenvoudige beperking door gegevensgroepering zonder lokale goedkeuring, hoeft u het veld **[!UICONTROL Approvals storage]** niet in te voeren.
 
-1. Als u a [ Lokale goedkeurings ](local-approval.md) activiteit gebruikt, ga **[!UICONTROL Advanced settings]** voor het distributiemalplaatje in:
+1. Als u a [&#x200B; Lokale goedkeurings &#x200B;](local-approval.md) activiteit gebruikt, ga **[!UICONTROL Advanced settings]** voor het distributiemalplaatje in:
 
    ![](assets/local_validation_data_distribution_3.png)
 
@@ -188,7 +188,7 @@ Met de sjabloon voor gegevensdistributie kunt u het aantal records beperken aan 
      Deze kolom wordt gedefinieerd door het veld **[!UICONTROL Distribution type]** op de tab **[!UICONTROL General]** .
 
    * **[!UICONTROL Label]** : voer het label in dat aan elke waarde is gekoppeld.
-   * **[!UICONTROL Group or operator]**: als u a [ Lokale goedkeuring ](local-approval.md) activiteit gebruikt, selecteer de exploitant of de groep exploitanten die aan elke verdelingswaarde worden toegewezen.
+   * **[!UICONTROL Group or operator]**: als u a [&#x200B; Lokale goedkeuring &#x200B;](local-approval.md) activiteit gebruikt, selecteer de exploitant of de groep exploitanten die aan elke verdelingswaarde worden toegewezen.
 
      Als er sprake is van een eenvoudige beperking door gegevensgroepering zonder lokale goedkeuring, hoeft u het veld **[!UICONTROL Group or operator]** niet in te voeren.
 

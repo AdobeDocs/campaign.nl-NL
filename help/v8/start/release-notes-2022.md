@@ -18,9 +18,9 @@ Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke
 
 **In deze pagina**
 
-* Campagne v8.4 - [ Versie 8.4.1 ](#release-8-4-1) | [ Versie 8.4.2 ](#release-8-4-2)
-* Campagne v8.3 - [ Versie 8.3.8 ](#release-8-3-8) | [ Versie 8.3.9 ](#release-8-3-9)
-* Campagne v8.2 - [ Versie 8.2.10 ](#release-8-2-10)
+* Campagne v8.4 - [&#x200B; Versie 8.4.1 &#x200B;](#release-8-4-1) | [&#x200B; Versie 8.4.2 &#x200B;](#release-8-4-2)
+* Campagne v8.3 - [&#x200B; Versie 8.3.8 &#x200B;](#release-8-3-8) | [&#x200B; Versie 8.3.9 &#x200B;](#release-8-3-9)
+* Campagne v8.2 - [&#x200B; Versie 8.2.10 &#x200B;](#release-8-2-10)
 
 >[!ENDSHADEBOX]
 

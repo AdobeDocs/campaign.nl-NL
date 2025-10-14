@@ -96,7 +96,7 @@ In het volgende voorbeeld kunt u elke dag een bestand op de server verzamelen, d
 
    Het tabblad **[!UICONTROL Directory]** bevat informatie over de bestanden die moeten worden hersteld. In ons voorbeeld worden alle bestanden in tekstopmaak waarvan de namen het woord &#39;klanten&#39; bevatten en die zijn opgeslagen in de map tmp/Adobe/Data/files van de server, hersteld.
 
-   Het gebruiken van **[!UICONTROL File collector]** is gedetailleerd in de [ 2&rbrace; sectie van de inzamelaar van het Dossier &lbrace;.](file-collector.md)
+   Het gebruiken van **[!UICONTROL File collector]** is gedetailleerd in de [&#x200B; 2&rbrace; sectie van de inzamelaar van het Dossier &lbrace;.](file-collector.md)
 
    ![](assets/s_advuser_load_file_sample_1.png)
 
@@ -108,7 +108,7 @@ In het volgende voorbeeld kunt u elke dag een bestand op de server verzamelen, d
 
    Klik hiertoe op de knop **[!UICONTROL Change...]** in de rechterbenedensectie van het bewerkgereedschap en configureer het schema.
 
-   Voor meer op dit, verwijs naar [ Planner ](scheduler.md).
+   Voor meer op dit, verwijs naar [&#x200B; Planner &#x200B;](scheduler.md).
 
 1. Configureer vervolgens de activiteit voor het laden van gegevens (bestand) om aan te geven hoe de verzamelde bestanden moeten worden gelezen. Selecteer hiertoe een voorbeeldbestand met dezelfde structuur als de bestanden die u wilt laden.
 
@@ -137,4 +137,4 @@ In het volgende voorbeeld kunt u elke dag een bestand op de server verzamelen, d
 
 1. Geef vervolgens aan welke processen voor elk type bevolking moeten worden uitgevoerd. In ons voorbeeld gaan we naar **[!UICONTROL Update the data]** in de database. Hiervoor plaatst u een **[!UICONTROL Update data]** -activiteit aan het einde van elke uitgaande overgang van de gesplitste activiteit.
 
-   De **[!UICONTROL Update data]** activiteit is gedetailleerd in de [ gegevens van de Update ](update-data.md) sectie.
+   De **[!UICONTROL Update data]** activiteit is gedetailleerd in de [&#x200B; gegevens van de Update &#x200B;](update-data.md) sectie.

@@ -23,7 +23,7 @@ Klik op de koppeling **[!UICONTROL From]** om de naam en het adres te definiëre
 
 In dit venster kunt u alle gegevens invoeren die nodig zijn om de e-mailberichtkoppen te maken. Deze informatie kan worden gepersonaliseerd. Hiervoor gebruikt u de knoppen rechts van de invoervelden om aanpassingsvelden in te voegen.
 
-Om te weten te komen hoe te om verpersoonlijkingsgebieden op te nemen en te gebruiken, verwijs naar [ deze sectie ](personalize.md).
+Om te weten te komen hoe te om verpersoonlijkingsgebieden op te nemen en te gebruiken, verwijs naar [&#x200B; deze sectie &#x200B;](personalize.md).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ In het bovenstaande bericht is het onderwerp van het bericht bijvoorbeeld gepers
 
 >[!NOTE]
 >
->Het gebruik van verpersoonlijkingsgebieden wordt voorgesteld in [ deze sectie ](personalize.md).
+>Het gebruik van verpersoonlijkingsgebieden wordt voorgesteld in [&#x200B; deze sectie &#x200B;](personalize.md).
 
 U kunt ook emoticons invoegen in uw onderwerpregel via het pop-upvenster van **[!UICONTROL Insert emoticon]** .
 
@@ -64,11 +64,11 @@ U kunt ook emoticons invoegen in uw onderwerpregel via het pop-upvenster van **[
 
 De inhoud van het bericht wordt bepaald in de lagere sectie van het venster van de leveringsconfiguratie.
 
-Berichten worden standaard in HTML of tekstindeling verzonden, afhankelijk van de voorkeur van de ontvanger. We raden u aan inhoud in beide indelingen te maken om ervoor te zorgen dat berichten correct kunnen worden weergegeven in elk e-mailsysteem. Voor meer op dit, verwijs naar [ Selecterend berichtformaten ](email-parameters.md#selecting-message-formats).
+Berichten worden standaard in HTML of tekstindeling verzonden, afhankelijk van de voorkeur van de ontvanger. We raden u aan inhoud in beide indelingen te maken om ervoor te zorgen dat berichten correct kunnen worden weergegeven in elk e-mailsysteem. Voor meer op dit, verwijs naar [&#x200B; Selecterend berichtformaten &#x200B;](email-parameters.md#selecting-message-formats).
 
 * Als u HTML-inhoud wilt importeren, gebruikt u de knop **[!UICONTROL Open]** . U kunt de broncode ook rechtstreeks in de subtab **[!UICONTROL Source]** plakken.
 
-  Als u de Digitale Redacteur van de Inhoud (DCE) gebruikt, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=nl-NL#step-3---selecting-a-content).
+  Als u de Digitale Redacteur van de Inhoud (DCE) gebruikt, verwijs naar de [&#x200B; documentatie van Campaign Classic &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=nl-NL#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >
@@ -84,13 +84,13 @@ Berichten worden standaard in HTML of tekstindeling verzonden, afhankelijk van d
 
   ![](assets/s_ncs_user_wizard_email01_18.png)
 
-  Bibliotheekafbeeldingen zijn toegankelijk via de map **[!UICONTROL Resources>Online>Public resources]** in de mappenstructuur. Ook verwijs naar [ het Toevoegen van beelden ](#adding-images).
+  Bibliotheekafbeeldingen zijn toegankelijk via de map **[!UICONTROL Resources>Online>Public resources]** in de mappenstructuur. Ook verwijs naar [&#x200B; het Toevoegen van beelden &#x200B;](#adding-images).
 
   Met de laatste knop op de werkbalk kunt u aanpassingsvelden invoegen.
 
   >[!NOTE]
   >
-  >Het gebruik van verpersoonlijkingsgebieden wordt voorgesteld in [ deze sectie ](personalize.md).
+  >Het gebruik van verpersoonlijkingsgebieden wordt voorgesteld in [&#x200B; deze sectie &#x200B;](personalize.md).
 
   Met de tabbladen onder aan de pagina kunt u de HTML-code weergeven van de pagina die wordt gemaakt en kunt u de weergave van het bericht met de personalisatie bekijken. Klik op **[!UICONTROL Preview]** en selecteer een ontvanger met de knop **[!UICONTROL Test personalization]** op de werkbalk om deze weergave te starten. U kunt een ontvanger selecteren bij de gedefinieerde doelgroep(en) of een andere ontvanger kiezen.
 
@@ -111,7 +111,7 @@ Berichten worden standaard in HTML of tekstindeling verzonden, afhankelijk van d
 
 ## Interactieve content definiëren {#amp-for-email-format}
 
-Adobe Campaign laat u toe om nieuwe interactieve [ AMP voor E-mail ](https://amp.dev/about/email/) formaat te proberen, dat toelaat om dynamische e-mails, onder bepaalde voorwaarden te verzenden.
+Adobe Campaign laat u toe om nieuwe interactieve [&#x200B; AMP voor E-mail &#x200B;](https://amp.dev/about/email/) formaat te proberen, dat toelaat om dynamische e-mails, onder bepaalde voorwaarden te verzenden.
 
 Zie [deze sectie](defining-interactive-content.md)voor meer informatie.
 
@@ -127,7 +127,7 @@ Met een extra tabblad kunt u inhoud invoeren die automatisch wordt geïntegreerd
 
 >[!NOTE]
 >
->Voor verdere informatie over inhoudsbeheer in Adobe Campaign, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=nl-NL).
+>Voor verdere informatie over inhoudsbeheer in Adobe Campaign, verwijs naar de [&#x200B; documentatie van Campaign Classic &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=nl-NL).
 
 ## emoticons invoegen {#inserting-emoticons}
 
@@ -140,7 +140,7 @@ U kunt emoticons invoegen in uw e-mailinhoud.
 
 1. Klik op de knop **[!UICONTROL Close]** als u klaar bent.
 
-Om de emoticonlijst aan te passen, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html?lang=nl-NL).
+Om de emoticonlijst aan te passen, verwijs naar de [&#x200B; documentatie van Campaign Classic &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html?lang=nl-NL).
 
 ## Afbeeldingen toevoegen {#adding-images}
 
@@ -151,7 +151,7 @@ E-mailleveringen in HTML-indeling kunnen afbeeldingen bevatten. Vanuit de bezorg
 
 Om prestatieproblemen te voorkomen, mogen afbeeldingen in e-mailberichten niet groter zijn dan 100 kB. Deze standaard ingestelde limiet kan worden gewijzigd met de optie `NmsDelivery_MaxDownloadedImageSize` . Adobe raadt echter sterk aan om grote afbeeldingen in uw e-mailleveringen te voorkomen.
 
-Leer meer op de lijst van de opties van de Campagne in de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=nl-NL#delivery).
+Leer meer op de lijst van de opties van de Campagne in de [&#x200B; documentatie van Campaign Classic &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=nl-NL#delivery).
 
 ### Afbeeldingstypen {#img-types}
 
@@ -162,7 +162,7 @@ Afbeeldingen kunnen:
 
   Openbare bronnen zijn toegankelijk via het knooppunt **[!UICONTROL Resources > Online]** van de Adobe Campaign-hiërarchie. Ze zijn gegroepeerd in een bibliotheek en kunnen worden opgenomen in e-mailberichten, maar kunnen ook worden gebruikt voor campagnes of taken, of voor inhoudsbeheer.
 
-* An asset shared with Adobe Experience Cloud. Verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=nl-NL).
+* An asset shared with Adobe Experience Cloud. Verwijs naar de [&#x200B; documentatie van Campaign Classic &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=nl-NL).
 
 ### Afbeeldingen invoegen en beheren {#manage-images}
 

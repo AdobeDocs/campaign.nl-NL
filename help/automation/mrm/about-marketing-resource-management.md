@@ -26,7 +26,7 @@ Tot slot wordt de capaciteit voor begrotingsbeheer uitgebreid tot het beheer van
 
 >[!AVAILABILITY]
 >
->Het Beheer van het Middel van de marketing (MRM) is niet beschikbaar in de context van een [ plaatsing van de Onderneming (FFDA) ](../../v8/architecture/enterprise-deployment.md) van Campagne.
+>Het Beheer van het Middel van de marketing (MRM) is niet beschikbaar in de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../../v8/architecture/enterprise-deployment.md) van Campagne.
 
 ## Concepten en terminologie {#core-concepts}
 
@@ -36,13 +36,13 @@ In het kader van Adobe Campaign Marketing Resource Management zijn de volgende c
 
   Een taak komt overeen met een actie in het kader van een campagne. Een taak wordt toegewezen aan een groep of persoon. Een kindtaak kan van een oudertaak afhankelijk zijn, betekenend dat de oudertaak niet zal worden uitgevoerd tot alle kindtaken volledig zijn. Voorbeelden van taken zijn: verwijzen naar een website, een begrotingsherziening, een samenvatting, enz.
 
-  Voor meer op dit, verwijs naar [ creeer en beheer taken ](creating-and-managing-tasks.md).
+  Voor meer op dit, verwijs naar [&#x200B; creeer en beheer taken &#x200B;](creating-and-managing-tasks.md).
 
 * **de middelen van de Marketing**
 
   Met Adobe Campaign kunt u de voortgang volgen van gezamenlijke marketingprojecten, zoals communicatiemedia, actieplannen, nieuwsbrieven, enz. De aanmaak- en goedkeuringscyclus van deze marketingbronnen kan vanaf het dashboard van de bron worden gevolgd tot de publicatie ervan.
 
-  Voor meer op dit, verwijs naar [ beheer marketing middelen ](managing-marketing-resources.md).
+  Voor meer op dit, verwijs naar [&#x200B; beheer marketing middelen &#x200B;](managing-marketing-resources.md).
 
 <!--
 >[!NOTE]
@@ -58,6 +58,6 @@ Met de toevoeging van het Beheer van het Middel van de Marketing (MRM), komen de
 
 * **het beheer van de Begroting**. [Meer informatie](controlling-costs.md)
 
-* **Taakbeheer**. [ leer meer ](creating-and-managing-tasks.md)
+* **Taakbeheer**. [&#x200B; leer meer &#x200B;](creating-and-managing-tasks.md)
 
 * **het beheer van het Middel**. [Meer informatie](managing-marketing-resources.md)

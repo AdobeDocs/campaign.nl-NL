@@ -41,7 +41,7 @@ In dit voorbeeld worden verschillende e-mails verzonden naar verschillende bevol
 * Het queryresultaat opslaan
 * Segmenteer het resultaat om meerdere leveringen te verzenden
 
-  ![ de vorkactiviteit volgt de doorsnede van twee vragen en voorafgaat een activiteit van de lijstupdate en een gespleten activiteit.](assets/wkf_fork_example.png)
+  ![&#x200B; de vorkactiviteit volgt de doorsnede van twee vragen en voorafgaat een activiteit van de lijstupdate en een gespleten activiteit.](assets/wkf_fork_example.png)
 
 De workflow omvat de volgende activiteiten:
 
@@ -66,14 +66,14 @@ De workflow omvat de volgende activiteiten:
 
 ## Kwestie gebruiken: een e-mail voor een geboortedatum verzenden
 
-Een terugkerende e-mail wordt verzonden naar een lijst met ontvangers op hun verjaardag. Een **[!UICONTROL Fork]** -activiteit wordt gebruikt om ontvangers op te nemen die op 29 februari op een schrikkeljaar zijn geboren. [ Leer meer ](send-a-birthday-email.md) over dit gebruiksgeval.
+Een terugkerende e-mail wordt verzonden naar een lijst met ontvangers op hun verjaardag. Een **[!UICONTROL Fork]** -activiteit wordt gebruikt om ontvangers op te nemen die op 29 februari op een schrikkeljaar zijn geboren. [&#x200B; Leer meer &#x200B;](send-a-birthday-email.md) over dit gebruiksgeval.
 
-![ de vorkactiviteit volgt een testactiviteit en voorafgaat twee vraagactiviteiten.](assets/birthday-workflow_usecase_1.png)
+![&#x200B; de vorkactiviteit volgt een testactiviteit en voorafgaat twee vraagactiviteiten.](assets/birthday-workflow_usecase_1.png)
 
 ## Hoofdlettergebruik: inhoud automatiseren met een workflow
 
 
-U kunt elke uitgaande overgangen dan vormen, dan hen samenvoegen gebruikend [ EN-sluit zich ](and-join.md) activiteit aan, indien nodig. Op deze manier wordt de rest van de workflow alleen uitgevoerd als de uitgaande overgangen van de **[!UICONTROL Fork]** -activiteit zijn voltooid.
+U kunt elke uitgaande overgangen dan vormen, dan hen samenvoegen gebruikend [&#x200B; EN-sluit zich &#x200B;](and-join.md) activiteit aan, indien nodig. Op deze manier wordt de rest van de workflow alleen uitgevoerd als de uitgaande overgangen van de **[!UICONTROL Fork]** -activiteit zijn voltooid.
 
 ## Verwante onderwerpen
 

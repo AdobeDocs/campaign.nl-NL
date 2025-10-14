@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Selecteer het publiek van uw levering van SMS {#sms-audience}
 
-Alvorens uw publiek te selecteren, [ leer meer over publiek hier ](../../audiences/gs-audiences.md).
+Alvorens uw publiek te selecteren, [&#x200B; leer meer over publiek hier &#x200B;](../../audiences/gs-audiences.md).
 
-In de meeste gevallen wordt het hoofddoel van een levering opgehaald uit de Adobe Campaign-database (standaardmodus). Het publiek kan echter ook in een extern bestand worden opgeslagen. [ leer meer in deze sectie ](#external-audience).
+In de meeste gevallen wordt het hoofddoel van een levering opgehaald uit de Adobe Campaign-database (standaardmodus). Het publiek kan echter ook in een extern bestand worden opgeslagen. [&#x200B; leer meer in deze sectie &#x200B;](#external-audience).
 
 ## Publiek in Adobe Campaign
 
@@ -31,7 +31,7 @@ Volg onderstaande stappen om het publiek van uw levering te selecteren:
 
 1. Selecteer de **[!UICONTROL Target mapping]** in de vervolgkeuzelijst. Standaard doeltoewijzing voor Adobe Campaign is Ontvangers op basis van **[!UICONTROL nms:recipient]** -schema.
 
-   Andere doeltoewijzingen zijn beschikbaar, en sommige kunnen met uw specifieke configuratie verwant zijn. Voor meer op doelafbeeldingen, verwijs naar [ Werk met doelafbeeldingen ](../../audiences/target-mappings.md).
+   Andere doeltoewijzingen zijn beschikbaar, en sommige kunnen met uw specifieke configuratie verwant zijn. Voor meer op doelafbeeldingen, verwijs naar [&#x200B; Werk met doelafbeeldingen &#x200B;](../../audiences/target-mappings.md).
 
 1. Klik op de knop **[!UICONTROL Add]** om beperkingsfilters te definiëren.
 
@@ -72,7 +72,7 @@ Hier volgen de volgende stappen:
 
    ![](assets/audience_externalfile.png){zoomable="yes"}
 
-1. Ontvangers worden standaard in de database geïmporteerd. In dat geval moet u **[!UICONTROL Target mapping]** selecteren. Voor meer op doelafbeeldingen, verwijs naar [ Werk met doelafbeeldingen ](../../audiences/target-mappings.md).
+1. Ontvangers worden standaard in de database geïmporteerd. In dat geval moet u **[!UICONTROL Target mapping]** selecteren. Voor meer op doelafbeeldingen, verwijs naar [&#x200B; Werk met doelafbeeldingen &#x200B;](../../audiences/target-mappings.md).
 
    Anders kunt u ook **[!UICONTROL Do not import the recipients into the database]** kiezen.
 

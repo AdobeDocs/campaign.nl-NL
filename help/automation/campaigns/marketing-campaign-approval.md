@@ -65,7 +65,7 @@ In het volgende voorbeeld is voor de leveringsinhoud geen goedkeuring vereist:
 >
 >Controleer dat de recensenten de **aangewezen toestemmingen** voor het goedkeuren hebben, en dat hun veiligheidsstreek correct wordt bepaald. [Meer informatie](#selecting-reviewers).
 
-Het goedkeuringsproces voor leveringen wordt gedetailleerd in [ deze sectie ](#review-and-approve-deliveries).
+Het goedkeuringsproces voor leveringen wordt gedetailleerd in [&#x200B; deze sectie &#x200B;](#review-and-approve-deliveries).
 
 ## Revisoren selecteren {#select-reviewers}
 
@@ -91,7 +91,7 @@ Als een lijst met revisoren is gedefinieerd, wordt een taak goedgekeurd wanneer 
 
 ## Leveringen controleren en goedkeuren {#review-and-approve-deliveries}
 
-Voor elke campagne kunt u het leveringsdoel, [ leveringsinhoud ](#approving-content) en kosten goedkeuren. Adobe Campaign-operatoren die met de goedkeuring zijn belast, kunnen via e-mail op de hoogte worden gesteld en kunnen goedkeuring van de clientconsole of via een webverbinding accepteren of afwijzen. [Meer informatie](#approving-processes).
+Voor elke campagne kunt u het leveringsdoel, [&#x200B; leveringsinhoud &#x200B;](#approving-content) en kosten goedkeuren. Adobe Campaign-operatoren die met de goedkeuring zijn belast, kunnen via e-mail op de hoogte worden gesteld en kunnen goedkeuring van de clientconsole of via een webverbinding accepteren of afwijzen. [Meer informatie](#approving-processes).
 
 Voor directe postleveringen, kunnen de exploitanten van Adobe Campaign het extractiedossier bekijken alvorens het naar de router wordt verzonden, en indien nodig kunnen zij het formaat veranderen en extractie opnieuw lanceren. [Meer informatie](#approve-an-extraction-file).
 
@@ -244,7 +244,7 @@ Als een proces is geweigerd, wordt de informatie als volgt getoond in het leveri
 
 ### Goedkeuren via de kennisgevingsberichten {#approval-via-notification-messages}
 
-Om een baan van het [ bericht ](#notifications) goed te keuren:
+Om een baan van het [&#x200B; bericht &#x200B;](#notifications) goed te keuren:
 
 1. Klik op de koppeling in het bericht.
 1. Meld u aan bij Adobe Campaign.
@@ -304,7 +304,7 @@ Met deze methode voor het inschakelen van goedkeuringen kunt u doelgericht werke
 
 Meldingen zijn specifieke e-mailberichten die naar revisoren worden verzonden om hen te laten weten dat een proces in afwachting is van goedkeuring. Wanneer de exploitant de verbinding in het bericht klikt, verschijnt een authentificatiepagina en, na het programma openen, kan de exploitant de informatie bekijken en de baan goedkeuren of verwerpen. U kunt ook een opmerking invoeren in het goedkeuringsvenster.
 
-De inhoud van e-mailberichten voor meldingen kan worden aangepast. Zie [ inhoud van het Bericht ](#notification-content).
+De inhoud van e-mailberichten voor meldingen kan worden aangepast. Zie [&#x200B; inhoud van het Bericht &#x200B;](#notification-content).
 
 ### Melding in-/uitschakelen {#enabling-disabling-notification}
 

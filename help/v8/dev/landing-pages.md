@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Een landingspagina is een speciale webpagina die is ontworpen met een specifiek marketingdoel. Bezoekers arriveren meestal op een bestemmingspagina nadat ze op een koppeling in een e-mail, een bericht op sociale media of het resultaat van een zoekmachine hebben geklikt. In tegenstelling tot algemene websitepagina&#39;s richten landingspagina&#39;s zich op het sturen van één, duidelijk gedefinieerde handeling, zoals het kopen van een aankoop, het abonneren of het opzeggen van een abonnement op een service of het downloaden van een resource. Met Adobe Campaign kunt u bestemmingspagina&#39;s maken om uw gebruikers naar een onlineformulier te leiden waar zij hun gegevens kunnen bijwerken, uw communicatie kunnen in- of uitschakelen of zich kunnen abonneren op een specifieke service, zoals een nieuwsbrief.
 
-Om landende pagina&#39;s tot stand te brengen, doorblader aan het [ Web gebruikersinterface ](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign wordt geleverd met een vernieuwde gebruikerservaring voor het plaatsen van pagina&#39;s, die alleen beschikbaar is in de webgebruikersinterface.
+Om landende pagina&#39;s tot stand te brengen, doorblader aan het [&#x200B; Web gebruikersinterface &#x200B;](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign wordt geleverd met een vernieuwde gebruikerservaring voor het plaatsen van pagina&#39;s, die alleen beschikbaar is in de webgebruikersinterface.
 
 >[!AVAILABILITY]
 >
->* De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
+>* De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers die met Adobe Campaign met hun Adobe ID verbinden. Leer meer over [&#x200B; het Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
 >
 >* De bestemmingspagina&#39;s die u in het gebruikersinterface van het Web van de Campagne creeert kunnen niet in de cliëntconsole van de Campagne worden getoond of worden uitgegeven.
 >
@@ -34,7 +34,7 @@ Met openingspagina&#39;s kunt u:
 * Verstrek uw ontvangers van het vermogen om van het ontvangen van uw mededelingen af te zien.
 
 
-Leer meer over het landen van pagina&#39;s in [ de gebruikersinterfacedocumentatie van het Web van de Campagne ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+Leer meer over het landen van pagina&#39;s in [&#x200B; de gebruikersinterfacedocumentatie van het Web van de Campagne &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
 
 U kunt ook door de volgende secties bladeren:
 

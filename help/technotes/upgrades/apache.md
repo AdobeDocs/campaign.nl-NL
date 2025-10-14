@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Adobe Campaign werkt met hulpprogramma&#39;s van derden en de compatibiliteit wordt regelmatig bijgewerkt, zodat alleen ondersteunde versies kunnen worden geïmplementeerd en de nieuwste correcties en verbeteringen kunnen worden toegepast.
 
-Adobe Campaign bevat Apache Tomcat, die via HTTP als ingangspunt fungeert in de toepassingsserver, en die is geïntegreerd met Apache Web-server. De Apache Software Foundation heeft Apache HTTP Server 2.4.53 uitgebracht. Deze versie verhelpt kwetsbaarheden die een externe aanvaller in staat kunnen stellen de controle over een beïnvloed systeem te verkrijgen. Leer meer in [ Apache 2.4.53 aankondiging ](https://downloads.apache.org/httpd/Announcement2.4.html){target="_blank"}.
+Adobe Campaign bevat Apache Tomcat, die via HTTP als ingangspunt fungeert in de toepassingsserver, en die is geïntegreerd met Apache Web-server. De Apache Software Foundation heeft Apache HTTP Server 2.4.53 uitgebracht. Deze versie verhelpt kwetsbaarheden die een externe aanvaller in staat kunnen stellen de controle over een beïnvloed systeem te verkrijgen. Leer meer in [&#x200B; Apache 2.4.53 aankondiging &#x200B;](https://downloads.apache.org/httpd/Announcement2.4.html){target="_blank"}.
 
 Het team van Adobe Campaign zal de Apache activiteit van de de verbeteringsverbetering van de versieveiligheid tegen **15 Juni, 2022** leiden om deze kwetsbaarheid van Apache te verlichten en uw instantiemilieu veiliger te maken. Deze upgrade is van toepassing op alle klanten van Campaign Classic v7 Managed Cloud Services, Campaign v8 en Campaign Standard die op een kwetsbare versie van Apache HTTP Server werken. Adobe heeft al contact met u opgenomen om u op de hoogte te stellen van deze upgrade.
 
 Van deze upgrade wordt verwacht dat deze automatisch buiten de normale kantooruren wordt uitgevoerd, zodat u de Campagneservice zonder onderbreking kunt blijven gebruiken.
 
-Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat we uw productie-instantie(s) upgraden. Aangezien dit een automatisch upgradeproces is dat eigendom is van Adobe, hoeft u niets te doen. Nochtans, als u om het even welke kwesties ervaart, gelieve [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"} te contacteren.
+Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat we uw productie-instantie(s) upgraden. Aangezien dit een automatisch upgradeproces is dat eigendom is van Adobe, hoeft u niets te doen. Nochtans, als u om het even welke kwesties ervaart, gelieve [&#x200B; de Zorg van de Klant van Adobe &#x200B;](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"} te contacteren.
 
 
 >[!NOTE]
@@ -53,7 +53,7 @@ Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat 
 
 * **Welke bevestigingen door de klanten moeten worden in werking gesteld?**
 
-  Er is geen specifieke test nodig voor deze beveiligingsupgrade. Voor het geval om het even welke kwestie wordt waargenomen, te bereiken gelieve uit [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
+  Er is geen specifieke test nodig voor deze beveiligingsupgrade. Voor het geval om het even welke kwestie wordt waargenomen, te bereiken gelieve uit [&#x200B; de Zorg van de Klant van Adobe &#x200B;](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
 
 
 * **kan ik om een verandering in Datum/Tijd aan de geplande groef van de veiligheidsverbetering verzoeken?**
@@ -61,4 +61,4 @@ Uw niet-productie-instantie(s) worden eerst door onze teams geüpgraded voordat 
   Aangezien dit een veiligheidsmoeilijke situatie is, adviseren wij u sterk aan het bestaande programma aan te passen.
 
 
-Voor een andere vraag, kunt u uit aan [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"} bereiken.
+Voor een andere vraag, kunt u uit aan [&#x200B; de Zorg van de Klant van Adobe &#x200B;](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"} bereiken.

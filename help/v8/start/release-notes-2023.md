@@ -14,17 +14,17 @@ ht-degree: 22%
 
 # Opmerkingen bij de release 2023 {#2023-rn}
 
-Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen, en moeilijke situaties die met **2023 de Versies van de Campagne v8** komen. Voor de recentste versie, verwijs naar [ deze pagina ](release-notes.md).
+Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen, en moeilijke situaties die met **2023 de Versies van de Campagne v8** komen. Voor de recentste versie, verwijs naar [&#x200B; deze pagina &#x200B;](release-notes.md).
 
-Voor om het even welke nieuwe implementatie of verbetering aan een bestaand milieu, installeer [ de recentste versie ](release-notes.md).
+Voor om het even welke nieuwe implementatie of verbetering aan een bestaand milieu, installeer [&#x200B; de recentste versie &#x200B;](release-notes.md).
 
 
 >[!BEGINSHADEBOX]
 
 **In deze pagina**
 
-* Campagne v8.5 - [ Versie 8.5.1 ](#release-8-5-1) | [ Versie 8.5.2 ](#release-8-5-2)
-* Campagne v8.4 - [ Versie 8.4.3 ](#release-8-4-3) | [ Versie 8.4.4 ](#release-8-4-4) | [ Versie 8.4.5 ](#release-8-4-5)
+* Campagne v8.5 - [&#x200B; Versie 8.5.1 &#x200B;](#release-8-5-1) | [&#x200B; Versie 8.5.2 &#x200B;](#release-8-5-2)
+* Campagne v8.4 - [&#x200B; Versie 8.4.3 &#x200B;](#release-8-4-3) | [&#x200B; Versie 8.4.4 &#x200B;](#release-8-4-4) | [&#x200B; Versie 8.4.5 &#x200B;](#release-8-4-5)
 
 >[!ENDSHADEBOX]
 
@@ -84,8 +84,8 @@ Raadpleeg de [gedetailleerde documentatie](../send/push-data-collection.md) voor
 
 **Compatibiliteitsupdates**
 
-* De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Voor meer informatie over hoe te om uw werkend systeem te bevorderen, verwijs naar dit [ technote ](../../technotes/upgrades/console.md).
-* U kunt nu uw Campagne v8-exemplaar verbinden met uw externe Azure Synapse-database. Deze verbinding wordt beheerd via een nieuwe externe account. Leer meer in [ de verenigbaarheidsmatrijs van de Campagne ](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+* De 32-bits versie van de clientconsole is nu vervangen. Vanaf 8.6 is de clientconsole alleen beschikbaar in 64 bits. De upgrade naar de 64-bits versie van de clientconsole is naadloos. Voor meer informatie over hoe te om uw werkend systeem te bevorderen, verwijs naar dit [&#x200B; technote &#x200B;](../../technotes/upgrades/console.md).
+* U kunt nu uw Campagne v8-exemplaar verbinden met uw externe Azure Synapse-database. Deze verbinding wordt beheerd via een nieuwe externe account. Leer meer in [&#x200B; de verenigbaarheidsmatrijs van de Campagne &#x200B;](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
 
 
 **Bevestigingen**

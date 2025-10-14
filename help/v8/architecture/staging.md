@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Stapelmechanisme voor campagne-API
 
-In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), wordt het blasten van unitaire vraag niet geadviseerd met betrekking tot prestaties (latentie &amp; gelijktijdige). Tenzij u uiterst laag volume verzendt, moet de partijverrichting **&#x200B;**&#x200B;worden gebruikt. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
+In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](enterprise-deployment.md), wordt het blasten van unitaire vraag niet geadviseerd met betrekking tot prestaties (latentie &amp; gelijktijdige). Tenzij u uiterst laag volume verzendt, moet de partijverrichting **&#x200B;**&#x200B;worden gebruikt. Om de prestaties te verbeteren, worden API&#39;s voor inname omgeleid naar de lokale database.
 
 De het opvoeren van de campagne capaciteit wordt toegelaten door gebrek op sommige ingebouwde schema&#39;s. Wij kunnen het op om het even welk douaneschema ook toelaten. Staging mechanisme in een notendop:
 
@@ -52,7 +52,7 @@ Voer de volgende stappen uit om het staging-mechanisme voor campagnes op een spe
    </srcSchema>
    ```
 
-   Leer meer over de verwezenlijking van het douaneschema in [ deze pagina ](../dev/create-schema.md).
+   Leer meer over de verwezenlijking van het douaneschema in [&#x200B; deze pagina &#x200B;](../dev/create-schema.md).
 
 1. Sla de databasestructuur op en werk deze bij.  [Meer informatie](../dev/update-database-structure.md)
 

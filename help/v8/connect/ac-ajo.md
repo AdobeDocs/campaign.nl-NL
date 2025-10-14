@@ -22,7 +22,7 @@ De basisstappen moeten een transactiemalplaatje van het bericht in Campagne tot 
 ![](assets/ajo-integration.png)
 
 
-[ ontdekt deze integratie in deze steekproef van begin tot eind ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
+[&#x200B; ontdekt deze integratie in deze steekproef van begin tot eind &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
 
 
-[ leer meer in de documentatie van Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
+[&#x200B; leer meer in de documentatie van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.

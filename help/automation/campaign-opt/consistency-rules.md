@@ -38,7 +38,7 @@ Volg onderstaande stappen om een nieuwe capaciteitsregel te ontwerpen:
 
    >[!NOTE]
    >
-   >Beschikbaarheidsregels dienen alleen ter informatie. Als u berichten moet uitsluiten wanneer de capaciteitsgrens wordt bereikt, verwijs naar [ deze sectie ](#exclude-messages-when-capacity-limit-reached).
+   >Beschikbaarheidsregels dienen alleen ter informatie. Als u berichten moet uitsluiten wanneer de capaciteitsgrens wordt bereikt, verwijs naar [&#x200B; deze sectie &#x200B;](#exclude-messages-when-capacity-limit-reached).
 
 1. Koppel deze regel aan een typologie en verwijs de typologie in uw levering om deze capaciteitsregel toe te passen. Raadpleeg [deze sectie](apply-rules.md#apply-a-typology-to-a-delivery) voor meer informatie.
 1. U kunt het verbruik controleren met de tabbladen **[!UICONTROL Consumptions]** en **[!UICONTROL Capacity]** .
@@ -51,7 +51,7 @@ Volg onderstaande stappen om een nieuwe capaciteitsregel te ontwerpen:
 
 ## De maximale belasting definiëren {#define-the-maximum-load}
 
-Om de maximumlading te bepalen, moet u beschikbaarheidslijnen bepalen. Om dit te doen, zijn twee opties beschikbaar: u kunt manueel [ tot één of meerdere beschikbaarheidslijnen ](#add-availability-lines-one-by-one) leiden of beschikbaarheidswaaiers creëren. De frequentie van deze tijdsperiodes kan worden geautomatiseerd. [Meer informatie](#add-a-set-of-availability-lines).
+Om de maximumlading te bepalen, moet u beschikbaarheidslijnen bepalen. Om dit te doen, zijn twee opties beschikbaar: u kunt manueel [&#x200B; tot één of meerdere beschikbaarheidslijnen &#x200B;](#add-availability-lines-one-by-one) leiden of beschikbaarheidswaaiers creëren. De frequentie van deze tijdsperiodes kan worden geautomatiseerd. [Meer informatie](#add-a-set-of-availability-lines).
 
 ### Beschikbaarheidsregels een voor een toevoegen {#add-availability-lines-one-by-one}
 

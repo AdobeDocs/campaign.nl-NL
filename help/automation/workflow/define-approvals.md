@@ -56,7 +56,7 @@ Voor technische workflows kunt u de taken die de gebruiker kan goedkeuren, opene
 Een goedkeuring wordt toegekend aan een groep operatoren, één exploitant of een reeks operatoren die via een filtervoorwaarde zijn geselecteerd.
 
 1. Voor de eenvoudigste vorm van goedkeuring, wordt de taak gebeëindigd zodra een exploitant antwoordt. Elke andere exploitant die probeert te reageren, wordt op de hoogte gebracht dat iemand het al heeft gedaan.
-1. Voor veelvoudige goedkeuringen, verwijs naar [ Veelvoudige goedkeuring ](#multiple-approval).
+1. Voor veelvoudige goedkeuringen, verwijs naar [&#x200B; Veelvoudige goedkeuring &#x200B;](#multiple-approval).
 
 De groepen van marktdeelnemers voor goedkeuringen moeten worden aangewezen als rollen of functies in plaats van als benoemde personen. Een groep ‘Campagne budget’ verdient bijvoorbeeld de voorkeur boven &#39;Harry&#39;s group&#39;. We raden aan ten minste twee personen in een groep te hebben die een taak kunnen goedkeuren. Op deze manier, als één afwezig is, kan de andere antwoorden.
 

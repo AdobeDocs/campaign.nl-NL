@@ -25,7 +25,7 @@ De belangrijkste stappen om het datamodel van de Campagne aan te passen zijn:
 >[!CAUTION]
 >Ingebouwd schema mag niet rechtstreeks worden gewijzigd. Als u een ingebouwd schema moet aanpassen, moet u het uitbreiden.
 
-Voor een beter begrip van de ingebouwde lijsten van de Campagne en hun interactie, verwijs naar [ deze pagina ](datamodel.md). Zie ook aanbevelingen wanneer het creëren van een nieuw schema in [ deze pagina ](create-schema.md).
+Voor een beter begrip van de ingebouwde lijsten van de Campagne en hun interactie, verwijs naar [&#x200B; deze pagina &#x200B;](datamodel.md). Zie ook aanbevelingen wanneer het creëren van een nieuw schema in [&#x200B; deze pagina &#x200B;](create-schema.md).
 
 Voer de volgende stappen uit om een schema uit te breiden:
 

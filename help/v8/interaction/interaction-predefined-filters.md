@@ -18,7 +18,7 @@ Vooraf gedefinieerde filters maken om de subsidiabiliteitsregels voor de doelpop
 
 >[!NOTE]
 >
->Adobe Campaign Web UI biedt u een gebruikersvriendelijke interface om vooraf bepaalde filters gemakkelijk te beheren en aan te passen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik. Meer over Vooraf bepaalde filters voor Web UI leren, gelieve te verwijzen naar de [ documentatie van het Web UI van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
+>Adobe Campaign Web UI biedt u een gebruikersvriendelijke interface om vooraf bepaalde filters gemakkelijk te beheren en aan te passen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik. Meer over Vooraf bepaalde filters voor Web UI leren, gelieve te verwijzen naar de [&#x200B; documentatie van het Web UI van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
 
 
 Pas het volgende proces toe om een vooraf gedefinieerd filter te maken:

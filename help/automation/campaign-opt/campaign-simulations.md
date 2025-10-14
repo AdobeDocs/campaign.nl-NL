@@ -125,7 +125,7 @@ Wanneer de uitvoering is voltooid, opent u de simulatie en klikt u op het tabbla
 1. De subtab **[!UICONTROL Alerts]** groepeert alle waarschuwingsberichten die tijdens de simulatie worden gegenereerd. Waarschuwingsberichten kunnen worden verzonden in geval van capaciteitsoverbelasting (als het aantal beoogde ontvangers de ingestelde capaciteit overschrijdt, bijvoorbeeld).
 1. Met het subtabblad **[!UICONTROL Exploration of the exclusions]** kunt u een tabel voor resultaatanalyse maken. De gebruiker moet variabelen in de abscis/ordinates-assen aangeven.
 
-   Voor een voorbeeld van de verwezenlijking van de analystabel, verwijs naar het eind van [ deze sectie ](#explore-results).
+   Voor een voorbeeld van de verwezenlijking van de analystabel, verwijs naar het eind van [&#x200B; deze sectie &#x200B;](#explore-results).
 
 ### Resultaten weergeven {#view-results}
 
@@ -192,7 +192,7 @@ Als u resultaten wilt vergelijken, moet u rapporten gebruiken. In Adobe Campaign
 
 ### Assen rapporteren {#reporting-axes}
 
-Op het tabblad **[!UICONTROL Calculations]** kunt u rapportassen voor het doel definiëren. Deze assen zullen tijdens [ resultaatanalyse ](#explore-results) worden gebruikt.
+Op het tabblad **[!UICONTROL Calculations]** kunt u rapportassen voor het doel definiëren. Deze assen zullen tijdens [&#x200B; resultaatanalyse &#x200B;](#explore-results) worden gebruikt.
 
 >[!NOTE]
 >

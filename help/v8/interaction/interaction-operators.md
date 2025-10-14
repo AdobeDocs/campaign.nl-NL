@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Operatorprofielen {#operator-profiles}
 
-Twee types van exploitanten kunnen de Interactie van de Campagne gebruiken: **managers van de Aanbieding** en **managers van de Levering**. Elk van hen heeft specifieke toestemmingen en beperkingen. Leer meer over de exploitanten en toestemmingen van de Campagne in [ deze pagina ](../start/gs-permissions.md).
+Twee types van exploitanten kunnen de Interactie van de Campagne gebruiken: **managers van de Aanbieding** en **managers van de Levering**. Elk van hen heeft specifieke toestemmingen en beperkingen. Leer meer over de exploitanten en toestemmingen van de Campagne in [&#x200B; deze pagina &#x200B;](../start/gs-permissions.md).
 
 * In **[!UICONTROL Offer manager]** worden aanbiedingen gemaakt en onderhouden.
 * De **[!UICONTROL Delivery manager]** keurt en gebruikt voorstellen goed
@@ -24,7 +24,7 @@ Twee types van exploitanten kunnen de Interactie van de Campagne gebruiken: **ma
 1. Maak een operator. [Meer informatie](../start/manage-permissions.md#add-users)
 1. Blader naar het **[!UICONTROL Groups and named rights]** -venster, klik op **[!UICONTROL Add]** en selecteer de **[!UICONTROL Offer manager]** -groep.
 
-De toestemmingen verbonden aan de managers van de Aanbieding worden beschreven [ hier ](../start/manage-permissions.md#ootb-productprofiles)
+De toestemmingen verbonden aan de managers van de Aanbieding worden beschreven [&#x200B; hier &#x200B;](../start/manage-permissions.md#ootb-productprofiles)
 
 ## Een leveringsmanager-operator maken {#delivery-manager}
 

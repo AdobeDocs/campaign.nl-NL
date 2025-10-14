@@ -34,26 +34,26 @@ Er zijn twee tabeluitbreidingsmodi beschikbaar:
 
 * Door de interface, door het **Nieuwe gebied** medewerker te gebruiken
 
-  Leer hoe te om een nieuw gebied in Campagne in [ Campaign Classic v7 documentatie snel toe te voegen ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=nl-NL#configuring-campaign-classic){target="_blank"}
+  Leer hoe te om een nieuw gebied in Campagne in [&#x200B; Campaign Classic v7 documentatie snel toe te voegen &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=nl-NL#configuring-campaign-classic){target="_blank"}
 
-* Programmaticaal, door het schema uit te breiden. Leer hoe te om een bestaand schema in [ uit te breiden deze sectie ](../dev/extend-schema.md).
+* Programmaticaal, door het schema uit te breiden. Leer hoe te om een bestaand schema in [&#x200B; uit te breiden deze sectie &#x200B;](../dev/extend-schema.md).
 
 U kunt ook nieuwe tabellen maken in de Campagne-database en het ingebouwde gegevensmodel uitbreiden.
 
-Als u een geheel nieuw type gegevens wilt toevoegen dat niet in Adobe Campaign buiten het vak bestaat (bijvoorbeeld een contracttabel), kunt u rechtstreeks een aangepast schema maken. Voor meer op dit, verwijs naar [ dit voorbeeld ](../dev/create-schema.md#example--creating-a-contract-table).
+Als u een geheel nieuw type gegevens wilt toevoegen dat niet in Adobe Campaign buiten het vak bestaat (bijvoorbeeld een contracttabel), kunt u rechtstreeks een aangepast schema maken. Voor meer op dit, verwijs naar [&#x200B; dit voorbeeld &#x200B;](../dev/create-schema.md#example--creating-a-contract-table).
 
 **Verwante onderwerpen**
 
-Voorbeeld van schemageditie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=nl-NL#configuring-campaign-classic){target="_blank"}
+Voorbeeld van schemageditie in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=nl-NL#configuring-campaign-classic){target="_blank"}
 
-Het Geval van het gebruik: verbind een gebied met een bestaande verwijzingstabel in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=nl-NL#uc-link){target="_blank"}
+Het Geval van het gebruik: verbind een gebied met een bestaande verwijzingstabel in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=nl-NL#uc-link){target="_blank"}
 
 
 ## Invoerformulieren wijzigen
 
 Invoerformulieren voor campagnes kunnen worden aangepast aan uw implementatie. U kunt formuliervelden toevoegen of verwijderen door de XML-inhoud te wijzigen.
 
-Leer hoe te om een bestaande inputvorm te wijzigen of een nieuwe vorm in [ tot stand te brengen deze sectie ](../dev/forms.md).
+Leer hoe te om een bestaande inputvorm te wijzigen of een nieuwe vorm in [&#x200B; tot stand te brengen deze sectie &#x200B;](../dev/forms.md).
 
 ## dashboards aanpassen{#gs-custom-dashboards}
 
@@ -61,7 +61,7 @@ De interface van Adobe Campaign gebruikt vele toepassingen van het Web om, tot o
 
 De ingebouwde toepassingen van het Web worden opgeslagen in het **Beleid > Configuratie > de toepassingen van het Web** omslag van de Ontdekkingsreiziger.
 
-Leer hoe te om een overzichtspagina in Campagne in [ Campaign Classic v7 documentatie tot stand te brengen ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=nl-NL#creating-a-single-page-web-application){target="_blank"}
+Leer hoe te om een overzichtspagina in Campagne in [&#x200B; Campaign Classic v7 documentatie tot stand te brengen &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=nl-NL#creating-a-single-page-web-application){target="_blank"}
 
 
 ## Lijsten aanpassen en filters maken {#gs-lists-and-filters}
@@ -70,8 +70,8 @@ Campagnemelijsten worden geleverd met vooraf gedefinieerde filters om navigatie 
 
 Wanneer u in de boom van de Ontdekkingsreiziger van Adobe Campaign navigeert, worden de gegevens in het gegevensbestand getoond in lijsten. U kunt deze lijsten filteren, zoekopdrachten uitvoeren, informatie toevoegen, filteren en sorteren.
 
-Leer hoe te om lijsten te vormen en een lijstconfiguratie in [ te bewaren deze pagina ](../start/campaign-ui.md).
+Leer hoe te om lijsten te vormen en een lijstconfiguratie in [&#x200B; te bewaren deze pagina &#x200B;](../start/campaign-ui.md).
 
 U kunt filter op deze lijsten toepassen om alleen de gegevens weer te geven die de operator nodig heeft. Dan kunnen de acties op de gefiltreerde gegevens worden uitgevoerd. Met filterconfiguratie kunt u dynamisch gegevens in een lijst selecteren. Als de gegevens worden gewijzigd, worden de gefilterde gegevens bijgewerkt.
 
-Leer meer over het filtreren opties in [ deze pagina ](../audiences/create-filters.md).
+Leer meer over het filtreren opties in [&#x200B; deze pagina &#x200B;](../audiences/create-filters.md).

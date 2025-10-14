@@ -20,7 +20,7 @@ Deze integratie staat Adobe Campaign en Adobe Analytics toe om door de **toe:voe
 
 >[!NOTE]
 >
->Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
+>Als Beheerde gebruiker van de Diensten van de Wolk, [&#x200B; contacteer Adobe &#x200B;](../start/campaign-faq.md#support) om Campagne met de diensten en de oplossingen van Adobe Experience Cloud te verbinden. De de schakelaartoe:voegen-op van de Analyse van het Web moet op uw milieu, door het specifieke pakket worden geïnstalleerd.
 
 Met Adobe Analytics Connector kan Adobe Campaign de internetdoelgroep meten (Web Analytics). Met de hulpprogramma&#39;s voor webanalyse kan Adobe Campaign indicatoren en campagnerekenmerken doorsturen naar Analytics.
 
@@ -55,7 +55,7 @@ Voer de onderstaande stappen uit om uw **[!UICONTROL Report suite]** in [!DNL Ad
 
 1. Klik op de pagina **[!UICONTROL Report suite manager]** op **[!UICONTROL Create new]** en vervolgens op **[!UICONTROL Report suite]**.
 
-   Voor de gedetailleerde procedure betreffende **[!UICONTROL Report suite]** verwezenlijking, verwijs naar [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=nl-NL#prerequisites){target="_blank"}.
+   Voor de gedetailleerde procedure betreffende **[!UICONTROL Report suite]** verwezenlijking, verwijs naar [&#x200B; Documentatie van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=nl-NL#prerequisites){target="_blank"}.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -85,7 +85,7 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
 
 1. Klik op **[!UICONTROL Add new]** om de id&#39;s te maken die nodig zijn voor het meten van de impact van de e-mailcampagne, dat wil zeggen de interne naam van de campagne (cid) en de tabel-id van de iNmsBroadlog (bid).
 
-   Leren hoe te om **[!UICONTROL Conversion variables]** uit te geven, verwijs naar deze [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=nl-NL#admin-tools){target="_blank"}.
+   Leren hoe te om **[!UICONTROL Conversion variables]** uit te geven, verwijs naar deze [&#x200B; Documentatie van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=nl-NL#admin-tools){target="_blank"}.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -108,7 +108,7 @@ Nadat u uw **[!UICONTROL Report suite]** hebt gemaakt, moet u de **[!UICONTROL C
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   Leren hoe te om **[!UICONTROL Success events]** te vormen, verwijs naar deze [ Documentatie van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=nl-NL)
+   Leren hoe te om **[!UICONTROL Success events]** te vormen, verwijs naar deze [&#x200B; Documentatie van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=nl-NL)
 
    ![](assets/analytics_connnector_8.png)
 
@@ -146,7 +146,7 @@ Raadpleeg voor meer informatie hierover de pagina [Productprofielen voor Adobe A
 
    >[!NOTE]
    >
-   >De velden Campagne-id en Broadload-id worden via JavaScript verzameld op de landingspagina of via verwerkingsregels. [ leer meer bij verwerkingsregels ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >De velden Campagne-id en Broadload-id worden via JavaScript verzameld op de landingspagina of via verwerkingsregels. [&#x200B; leer meer bij verwerkingsregels &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
@@ -242,7 +242,7 @@ Als u wilt dat de Adobe Experience Cloud de activiteit op de sites kan volgen wa
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. Open de leveringseigenschappen.
-1. Ga naar het tabblad **[!UICONTROL Web Analytics]** en selecteer het eerder gemaakte externe account. Verwijs naar [ vorm uw externe rekening in Adobe Campaign ](#external-account-ac).
+1. Ga naar het tabblad **[!UICONTROL Web Analytics]** en selecteer het eerder gemaakte externe account. Verwijs naar [&#x200B; vorm uw externe rekening in Adobe Campaign &#x200B;](#external-account-ac).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
@@ -262,7 +262,7 @@ Adobe Campaign biedt persoonlijke leveringssjablonen die u kunt gebruiken of zel
 1. Personaliseer de sjabloon naar wens en sla deze op.
 1. Maak een nieuwe campagne en selecteer de sjabloon **[!UICONTROL Re-marketing campaign]** in de vervolgkeuzelijst.
 1. Klik op de koppeling **[!UICONTROL Configure...]** om het segment en de leveringssjabloon op te geven die aan de campagne zijn gekoppeld.
-1. Selecteer Analytics e [ externe rekening ](#external-account-ac), en het betrokken segment.
+1. Selecteer Analytics e [&#x200B; externe rekening &#x200B;](#external-account-ac), en het betrokken segment.
 1. Selecteer de leveringsjabloon die voor deze remarketingcampagne moet worden gebruikt en klik vervolgens op **[!UICONTROL Finish]** om het venster te sluiten.
 1. Klik op **[!UICONTROL OK]** om het campagnevenster te sluiten.
 

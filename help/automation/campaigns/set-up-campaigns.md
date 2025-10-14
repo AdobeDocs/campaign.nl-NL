@@ -32,19 +32,19 @@ De campagnes omvatten acties (leveringen) en processen (het invoeren of het hale
 De belangrijkste stappen voor het maken en uitvoeren van een marketingcampagne in Adobe Campaign worden hieronder weergegeven:
 
 1. **opstelling uw plannen en programma&#39;s** programma, opstelling de logica om uw campagnes te ordenen
-Een programma is een reeks marketingactiviteiten die voor een periode zijn gedefinieerd. Elk programma bevat campagnes die zijn gekoppeld aan een kalender, die een algemeen overzicht biedt. Het marketingplan kan meerdere programma&#39;s bevatten. In het verslag worden strategische doelstellingen voor een bepaalde periode vastgesteld, met een toegewezen budget, meetbare doelstellingen en bijbehorende documenten. Leer hoe te om plannen en programma&#39;s [ in deze sectie ](marketing-campaign-create.md#create-plan-and-program) tot stand te brengen.
+Een programma is een reeks marketingactiviteiten die voor een periode zijn gedefinieerd. Elk programma bevat campagnes die zijn gekoppeld aan een kalender, die een algemeen overzicht biedt. Het marketingplan kan meerdere programma&#39;s bevatten. In het verslag worden strategische doelstellingen voor een bepaalde periode vastgesteld, met een toegewezen budget, meetbare doelstellingen en bijbehorende documenten. Leer hoe te om plannen en programma&#39;s [&#x200B; in deze sectie &#x200B;](marketing-campaign-create.md#create-plan-and-program) tot stand te brengen.
 
 1. **creeer uw eerste campagne**
-Een campagne centraliseert alle elementen die verband houden met een marketingcampagne: leveringen, doelgerichte regels, kosten, exportbestanden, verwante documenten, enz. Elke campagne is aan een programma verbonden. Leer hoe te om een campagne [ in deze sectie ](marketing-campaign-create.md#create-a-campaign) tot stand te brengen.
+Een campagne centraliseert alle elementen die verband houden met een marketingcampagne: leveringen, doelgerichte regels, kosten, exportbestanden, verwante documenten, enz. Elke campagne is aan een programma verbonden. Leer hoe te om een campagne [&#x200B; in deze sectie &#x200B;](marketing-campaign-create.md#create-a-campaign) tot stand te brengen.
 
 1. **selecteer het publiek**
-Soorten publiek kunnen worden geïmporteerd uit een lijst of worden ingebouwd in een campagnewerkstroom met behulp van query&#39;s. Leer hoe te om het doelpubliek van een campagne [ in deze sectie ](marketing-campaign-target.md#select-the-target-population) te bepalen.
+Soorten publiek kunnen worden geïmporteerd uit een lijst of worden ingebouwd in een campagnewerkstroom met behulp van query&#39;s. Leer hoe te om het doelpubliek van een campagne [&#x200B; in deze sectie &#x200B;](marketing-campaign-target.md#select-the-target-population) te bepalen.
 
 1. **creeer leveringen**
-Orchestreer de levering via het kanaal in uw campagnes. Stroomlijn uw communicatie met Adobe Campaign via persoonlijke e-mails, SMS, pushberichten en in-app berichten. U kunt ook direct-mailleveringen toevoegen. Leer om, leveringen in uw campagnes [ in deze sectie ](marketing-campaign-deliveries.md) tot stand te brengen te bevestigen en te controleren.
+Orchestreer de levering via het kanaal in uw campagnes. Stroomlijn uw communicatie met Adobe Campaign via persoonlijke e-mails, SMS, pushberichten en in-app berichten. U kunt ook direct-mailleveringen toevoegen. Leer om, leveringen in uw campagnes [&#x200B; in deze sectie &#x200B;](marketing-campaign-deliveries.md) tot stand te brengen te bevestigen en te controleren.
 
 1. **opstelling de procale stroom**
-Definieer revisoren en configureer de goedkeuringsstroom om de processen van de campagne te bewaken en te controleren: gericht maken, inhoud, budget, extractie en het verzenden van bewijzen. Leer hoe te opstellingsgoedkeuringen [ in deze sectie ](marketing-campaign-approval.md).
+Definieer revisoren en configureer de goedkeuringsstroom om de processen van de campagne te bewaken en te controleren: gericht maken, inhoud, budget, extractie en het verzenden van bewijzen. Leer hoe te opstellingsgoedkeuringen [&#x200B; in deze sectie &#x200B;](marketing-campaign-approval.md).
 
 1. **leveringen van de Monitor**.
 Houd uw campagnes vanaf het dashboard bij, controleer leveringsstatus en uitvoering via de interface van de campagne. [Meer informatie](marketing-campaign-monitoring.md).
@@ -52,7 +52,7 @@ Houd uw campagnes vanaf het dashboard bij, controleer leveringsstatus en uitvoer
 1. **de begrotingen van het spoor, aandelen en bijbehorende kosten**.
 Gebruik Adobe Campaign om de begrotingstoewijzing te controleren, uw leveranciers, voorraden en kosten te beheren. [Meer informatie](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
 
-Wanneer deze stappen zijn voltooid, kunt u [ de leveringen ](marketing-campaign-deliveries.md#start-a-delivery) beginnen, de gegevens, de processen en de informatie met betrekking tot de leveringen controleren en, indien nodig, [ de bijbehorende documenten ](marketing-campaign-deliveries.md#manage-associated-documents) beheren. U kunt [ ook volgen en de uitvoering ](marketing-campaign-monitoring.md) van uw campagnes en leveringen controleren.
+Wanneer deze stappen zijn voltooid, kunt u [&#x200B; de leveringen &#x200B;](marketing-campaign-deliveries.md#start-a-delivery) beginnen, de gegevens, de processen en de informatie met betrekking tot de leveringen controleren en, indien nodig, [&#x200B; de bijbehorende documenten &#x200B;](marketing-campaign-deliveries.md#manage-associated-documents) beheren. U kunt [&#x200B; ook volgen en de uitvoering &#x200B;](marketing-campaign-monitoring.md) van uw campagnes en leveringen controleren.
 
 
 ## Belangrijke concepten in video {#key-concepts-video}

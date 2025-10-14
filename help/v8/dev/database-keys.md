@@ -108,7 +108,7 @@ Een toets kan naar een of meer velden in de tabel verwijzen.
 
 ## Primaire sleutel - Id{#primary-key}
 
-In de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), is de primaire sleutel van de lijsten van Adobe Campaign a **universeel Unieke identiteitskaart (UUID)** auto-geproduceerd door de gegevensbestandmotor. De sleutelwaarde is uniek in het volledige gegevensbestand. De inhoud van de toets wordt automatisch gegenereerd bij het invoegen van de record.
+In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), is de primaire sleutel van de lijsten van Adobe Campaign a **universeel Unieke identiteitskaart (UUID)** auto-geproduceerd door de gegevensbestandmotor. De sleutelwaarde is uniek in het volledige gegevensbestand. De inhoud van de toets wordt automatisch gegenereerd bij het invoegen van de record.
 
 **Voorbeeld**
 

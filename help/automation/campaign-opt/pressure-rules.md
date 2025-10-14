@@ -61,7 +61,7 @@ Voer de volgende stappen uit om een typologieregel **[!UICONTROL Pressure]** te 
 
    >[!NOTE]
    >
-   >In de context van een [ plaatsing van de Onderneming (FFDA) ](../../v8/architecture/enterprise-deployment.md) van Campagne, worden de gesneden leveringen niet in aanmerking genomen.
+   >In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../../v8/architecture/enterprise-deployment.md) van Campagne, worden de gesneden leveringen niet in aanmerking genomen.
 
 1. Definieer de methode voor het berekenen van het hoogste aantal berichten.
 
@@ -75,7 +75,7 @@ Voer de volgende stappen uit om een typologieregel **[!UICONTROL Pressure]** te 
 
    ![](assets/campaign_opt_create_a_rule_04.png)
 
-   Voor meer op dit, verwijs naar [ Maximum aantal berichten ](#maximum-number-of-messages).
+   Voor meer op dit, verwijs naar [&#x200B; Maximum aantal berichten &#x200B;](#maximum-number-of-messages).
 
 1. Geef de methode op voor de berekening van het leveringsgewicht.
 
@@ -112,7 +112,7 @@ U kunt het aantal geoorloofde berichten volgens het segment indexeren waartot de
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-Om de drempel te bepalen, kunt u een afmeting gebruiken verbonden aan de het richten afmeting: bijvoorbeeld, om berichten te omvatten die aan de ontvankelijke profielen worden geleverd in de [ bezoekerslijst ](../../v8/audiences/target-mappings.md) worden opgeslagen of te vermijden verzendend meer dan één bericht per week naar het zelfde huishouden, (dat naar verscheidene e-mailadressen kan verwijzen) die in een afmeting met die van de ontvangers worden geïdentificeerd.
+Om de drempel te bepalen, kunt u een afmeting gebruiken verbonden aan de het richten afmeting: bijvoorbeeld, om berichten te omvatten die aan de ontvankelijke profielen worden geleverd in de [&#x200B; bezoekerslijst &#x200B;](../../v8/audiences/target-mappings.md) worden opgeslagen of te vermijden verzendend meer dan één bericht per week naar het zelfde huishouden, (dat naar verscheidene e-mailadressen kan verwijzen) die in een afmeting met die van de ontvangers worden geïdentificeerd.
 
 Selecteer hiertoe de optie **[!UICONTROL Count messages on a linked dimension]** en selecteer vervolgens de bezoeker of de tabel met contactpersonen.
 
@@ -327,8 +327,8 @@ Eerst, vorm de drukregel.
 Maak en configureer nu een workflow voor elke levering waarop u de drukregel wilt toepassen.
 
 1. Maak een campagne. [Meer informatie](../campaigns/marketing-campaign-create.md#create-a-campaign).
-1. In het **[!UICONTROL Targeting and workflows]** lusje van uw campagne, voeg de activiteit van de a **Vraag** aan uw werkschema toe. Voor meer bij het gebruiken van deze activiteit, verwijs naar [ deze sectie ](../workflow/query.md).
-1. Voeg een **[!UICONTROL Email delivery]** activiteit aan het werkschema toe en open het. Voor meer bij het gebruiken van deze activiteit, verwijs naar [ deze sectie ](../workflow/delivery.md).
+1. In het **[!UICONTROL Targeting and workflows]** lusje van uw campagne, voeg de activiteit van de a **Vraag** aan uw werkschema toe. Voor meer bij het gebruiken van deze activiteit, verwijs naar [&#x200B; deze sectie &#x200B;](../workflow/query.md).
+1. Voeg een **[!UICONTROL Email delivery]** activiteit aan het werkschema toe en open het. Voor meer bij het gebruiken van deze activiteit, verwijs naar [&#x200B; deze sectie &#x200B;](../workflow/delivery.md).
 1. Ga naar het tabblad **[!UICONTROL Approvals]** van **[!UICONTROL Delivery properties]** en schakel alle goedkeuringen uit.
 
    ![](assets/campaign_opt_pressure_example_2.png)

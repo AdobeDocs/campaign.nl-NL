@@ -16,9 +16,9 @@ ht-degree: 3%
 
 Adobe Campaign wordt regelmatig bijgewerkt. Deze regelmatige frequentie van updates is bedoeld om de nieuwste en beste in uw handen te krijgen, uw omgeving veilig te houden en uw ervaring met ons product te verbeteren. Adobe raadt alle klanten ten zeerste aan een upgrade uit te voeren naar de nieuwste versie.
 
-Als gebruiker van Managed Cloud Services wordt uw exemplaar bijgewerkt door Adobe met elke nieuwe versie. Uw Adobe-vertegenwoordiger neemt contact met u op om uw omgevingen te upgraden. De cliëntconsole van de campagne **moet aan de zelfde versie** worden bevorderd zoals de servers van de Campagne. Leer hoe te om uw cliëntconsole in [ te bevorderen deze pagina ](../start/connect.md#upgrade-ac-console).
+Als gebruiker van Managed Cloud Services wordt uw exemplaar bijgewerkt door Adobe met elke nieuwe versie. Uw Adobe-vertegenwoordiger neemt contact met u op om uw omgevingen te upgraden. De cliëntconsole van de campagne **moet aan de zelfde versie** worden bevorderd zoals de servers van de Campagne. Leer hoe te om uw cliëntconsole in [&#x200B; te bevorderen deze pagina &#x200B;](../start/connect.md#upgrade-ac-console).
 
-Bovendien als klant, zorg ervoor dat u de recentste gesteunde versies van de systemen gebruikt die in de [ matrijs van de Verenigbaarheid ](compatibility-matrix.md) worden vermeld.
+Bovendien als klant, zorg ervoor dat u de recentste gesteunde versies van de systemen gebruikt die in de [&#x200B; matrijs van de Verenigbaarheid &#x200B;](compatibility-matrix.md) worden vermeld.
 
 ## Campagneversies {#versions}
 
@@ -30,16 +30,16 @@ Deze upgrades kunnen zijn:
 * **Kleine verbeteringen**, van een minder belangrijke versie aan een andere, bijvoorbeeld van v8.5 aan v8.6. Deze verbeteringen brengen verbeteringen, verenigbaarheid en veiligheidsupdates, en moeilijke situaties.
 * **verbeteringen van het Flek**, van een flardversie aan een andere, bijvoorbeeld van v8.5.1 aan v8.5.2. Deze verbeteringen brengen veiligheidsupdates en moeilijke situaties.
 
-De gedetailleerde informatie over elke nieuwe versie is beschikbaar in de [ nota&#39;s van de Versie ](release-notes.md).
+De gedetailleerde informatie over elke nieuwe versie is beschikbaar in de [&#x200B; nota&#39;s van de Versie &#x200B;](release-notes.md).
 
-Om een stabiele configuratie te verzekeren, adviseert Adobe dat u **de nauwkeurige zelfde versie** op al uw servers van de Campagne installeert. Bovendien behalve anders vermeld in de [ nota&#39;s van de Versie ](release-notes.md), moet de cliëntconsole op **de nauwkeurige zelfde versie** zijn zoals de serverinstantie. Leer hoe te om uw cliëntconsole [ in deze pagina ](../start/connect.md#upgrade-ac-console) te bevorderen.
+Om een stabiele configuratie te verzekeren, adviseert Adobe dat u **de nauwkeurige zelfde versie** op al uw servers van de Campagne installeert. Bovendien behalve anders vermeld in de [&#x200B; nota&#39;s van de Versie &#x200B;](release-notes.md), moet de cliëntconsole op **de nauwkeurige zelfde versie** zijn zoals de serverinstantie. Leer hoe te om uw cliëntconsole [&#x200B; in deze pagina &#x200B;](../start/connect.md#upgrade-ac-console) te bevorderen.
 
 
 ## Campagne-upgrades {#ac-upgrades}
 
 Als klant van Campagne Managed Services, wanneer een nieuwe versie van de Campagne beschikbaar is, wordt uw infrastructuur bevorderd door Adobe zonder enige verdere actie.
 
-Merk op dat, als klant, u moet ervoor zorgen dat u de recentste gesteunde versies van de systemen gebruikt die in de [ matrijs van de Verenigbaarheid ](compatibility-matrix.md) worden vermeld.
+Merk op dat, als klant, u moet ervoor zorgen dat u de recentste gesteunde versies van de systemen gebruikt die in de [&#x200B; matrijs van de Verenigbaarheid &#x200B;](compatibility-matrix.md) worden vermeld.
 
 ## Veelgestelde vragen {#upgrades-faq}
 
@@ -58,11 +58,11 @@ U hebt toegang tot de volgende informatie:
 
 ### Hoe kan ik op de hoogte worden gesteld van de vrijgave van een nieuwe versie? {#upgrades-0}
 
-De nieuwe versies en welke veranderingen zij brengen zijn vermeld in de [ Nota&#39;s van de Versie ](release-notes.md). Zodra er een nieuwe versie beschikbaar is, neemt uw Adobe-vertegenwoordiger contact met u op en voert u een upgrade uit van uw omgeving.
+De nieuwe versies en welke veranderingen zij brengen zijn vermeld in de [&#x200B; Nota&#39;s van de Versie &#x200B;](release-notes.md). Zodra er een nieuwe versie beschikbaar is, neemt uw Adobe-vertegenwoordiger contact met u op en voert u een upgrade uit van uw omgeving.
 
 Om van nieuwe de oplossingsversies van Experience Cloud en hun inhoud op de hoogte te worden gebracht, onderteken aan de [&#128279;](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"} mededeling van de Updates van het Product van de Prioriteit van 0&rbrace; Adobe &lbrace;.
 
-U kunt [ Gemeenschap van de Campagne ](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} ook bezoeken om over versieupdates worden geïnformeerd.
+U kunt [&#x200B; Gemeenschap van de Campagne &#x200B;](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} ook bezoeken om over versieupdates worden geïnformeerd.
 
 
 ### Waarom heeft mijn organisatie een upgrade nodig? {#upgrades-1}

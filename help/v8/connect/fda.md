@@ -18,11 +18,11 @@ Gebruik de Schakelaar FDA (Federated Toegang van Gegevens) om Campagne met één
 
 >[!NOTE]
 >
->* De compatibele gegevensbestanden voor Federatieve Toegang van Gegevens zijn vermeld in de [ matrijs van de Verenigbaarheid ](../start/compatibility-matrix.md).
+>* De compatibele gegevensbestanden voor Federatieve Toegang van Gegevens zijn vermeld in de [&#x200B; matrijs van de Verenigbaarheid &#x200B;](../start/compatibility-matrix.md).
 >
->* In de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), is een specifieke externe rekening beschikbaar om mededeling tussen het lokale gegevensbestand van de Campagne en het wolkengegevensbestand van Snowflake te beheren. Deze externe rekening wordt opstelling voor u door Adobe en **moet niet** worden gewijzigd.
+>* In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), is een specifieke externe rekening beschikbaar om mededeling tussen het lokale gegevensbestand van de Campagne en het wolkengegevensbestand van Snowflake te beheren. Deze externe rekening wordt opstelling voor u door Adobe en **moet niet** worden gewijzigd.
 >
->* Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support) om uw externe gegevensbestand (s) met Campagne te verbinden.
+>* Als Beheerde gebruiker van de Diensten van de Wolk, [&#x200B; contacteer Adobe &#x200B;](../start/campaign-faq.md#support) om uw externe gegevensbestand (s) met Campagne te verbinden.
 
 
 ## Best practices en beperkingen

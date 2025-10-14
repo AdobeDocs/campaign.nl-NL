@@ -38,5 +38,5 @@ De hieronder gedetailleerde werkschema&#39;s worden geïnstalleerd met de **moto
  </tbody> 
 </table>
 
-Leer meer over kubussen en aggregaten in [ deze sectie ](../../v8/reporting/gs-cubes.md).
+Leer meer over kubussen en aggregaten in [&#x200B; deze sectie &#x200B;](../../v8/reporting/gs-cubes.md).
 

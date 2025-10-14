@@ -14,14 +14,14 @@ ht-degree: 4%
 
 # Transactionele berichtinstellingen {#mc-settings}
 
-Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van teweeggebrachte berichten wordt ontworpen. Leer meer over Transactioneel overseinen in [ deze sectie ](../send/transactional.md).
+Transactioneel overseinen (het Centrum van het Bericht) is een module van de Campagne die voor het beheren van teweeggebrachte berichten wordt ontworpen. Leer meer over Transactioneel overseinen in [&#x200B; deze sectie &#x200B;](../send/transactional.md).
 
-Begrijp transactie overseinenarchitectuur in [ deze pagina ](../architecture/architecture.md#transac-msg-archi).
+Begrijp transactie overseinenarchitectuur in [&#x200B; deze pagina &#x200B;](../architecture/architecture.md#transac-msg-archi).
 
 
 >[!NOTE]
 >
->Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
+>Als Beheerde gebruiker van de Diensten van de Wolk, [&#x200B; contacteer Adobe &#x200B;](../start/campaign-faq.md#support) om het Transactionele overseinen van de Campagne in uw milieu te installeren en te vormen.
 
 ## Machtigingen definiëren {#mc-permissions}
 
@@ -29,11 +29,11 @@ Neem contact op met uw Adobe Transition Manager als u nieuwe gebruikers wilt mak
 
 ## Schema-extensies  {#mc-schema-ext}
 
-Alle schemauitbreidingen die op de schema&#39;s worden gemaakt door [ technische werkschema&#39;s van het Centrum van het Bericht ](#technical-workflows) op of controle of uitvoeringsinstanties worden gebruikt moeten op de andere instanties worden gedupliceerd die door de module van het de transactiemelding van Adobe Campaign worden gebruikt.
+Alle schemauitbreidingen die op de schema&#39;s worden gemaakt door [&#x200B; technische werkschema&#39;s van het Centrum van het Bericht &#x200B;](#technical-workflows) op of controle of uitvoeringsinstanties worden gebruikt moeten op de andere instanties worden gedupliceerd die door de module van het de transactiemelding van Adobe Campaign worden gebruikt.
 
 ## Transactie-pushmeldingen verzenden {#mc-transactional-push}
 
-Wanneer gecombineerd met [ Mobiele module van het toepassingskanaal ](../send/push.md), laat het transactionele overseinen u toe om transactionele berichten door berichten op mobiele apparaten te duwen.
+Wanneer gecombineerd met [&#x200B; Mobiele module van het toepassingskanaal &#x200B;](../send/push.md), laat het transactionele overseinen u toe om transactionele berichten door berichten op mobiele apparaten te duwen.
 
 Als u pushmeldingen over transacties wilt verzenden, moet u de volgende configuraties uitvoeren:
 

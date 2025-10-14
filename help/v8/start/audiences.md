@@ -18,34 +18,34 @@ ht-degree: 11%
 
 Profielen vertegenwoordigen de contactpersonen die in uw Adobe Campaign-database zijn opgeslagen. Door gebrek, **ontvangers** zijn de primaire profielen die wanneer het verzenden van leveringen zoals e-mail, SMS, of directe post worden gebruikt. De ontvankelijke gegevens die in het gegevensbestand worden opgeslagen staan u toe om uw doelpubliek te bepalen en te filtreren, evenals leveringsinhoud te personaliseren. Naast ontvangers bestaan er andere profieltypen voor specifieke doeleinden. Met zaadprofielen kunt u bijvoorbeeld leveringen testen voordat ze naar het werkelijke publiek worden verzonden.
 
-Leer om profielen en publiek [ in deze sectie ](../audiences/gs-audiences.md) in te voeren bij te werken en te beheren.
+Leer om profielen en publiek [&#x200B; in deze sectie &#x200B;](../audiences/gs-audiences.md) in te voeren bij te werken en te beheren.
 
 ## Lijsten maken{#create-lists}
 
 Een lijst is een statische reeks contacten die in leveringsacties kunnen worden gericht of tijdens de invoer of een andere werkschemaactie worden bijgewerkt. Bijvoorbeeld, kan een populatie die uit het gegevensbestand via een vraag wordt gehaald als lijst worden opgeslagen.
 
-Leer om lijsten in [ tot stand te brengen en te beheren deze pagina ](../audiences/create-audiences.md).
+Leer om lijsten in [&#x200B; tot stand te brengen en te beheren deze pagina &#x200B;](../audiences/create-audiences.md).
 
 ## De database filteren{#filter-the-database}
 
 Met de filterconfiguratie kunt u gegevens in een lijst selecteren **[!UICONTROL dynamically]** : wanneer de gegevens worden gewijzigd, worden de gefilterde gegevens bijgewerkt. U kunt uw eigen filters maken of de ingebouwde filters gebruiken om een doelgroep te definiëren.
 
-Leer hoe te om filters in [ tot stand te brengen en te beheren deze pagina ](../audiences/create-filters.md).
+Leer hoe te om filters in [&#x200B; tot stand te brengen en te beheren deze pagina &#x200B;](../audiences/create-filters.md).
 
 ## Een publiek maken in een workflow
 
 Het richten kan door een combinatie vragen in een grafische opeenvolging in een werkschema worden gecreeerd. U kunt een publiek maken dat afhankelijk van uw vereisten als doelgroep wordt gebruikt. Als u de werkstroomeditor wilt weergeven, klikt u op het tabblad **[!UICONTROL Targeting and workflows]** in het campagnedashboard.
 
-Leer hoe te om een publiek in een campagnewerkschema in [ te bouwen deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=nl-NL){target="_blank"}.
+Leer hoe te om een publiek in een campagnewerkschema in [&#x200B; te bouwen deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=nl-NL){target="_blank"}.
 
 
 ## Actieve profielen {#active-profiles}
 
 Een actief profiel is een profiel waarmee de klant de afgelopen twaalf maanden via een willekeurig kanaal heeft geprobeerd te communiceren.
 
-Volgens uw contract worden al uw Campaign-instanties ingericht met een specifieke hoeveelheid actieve profielen die voor factureringsdoeleinden worden geteld. Raadpleeg het meest recente contract voor informatie over het aantal aangeschafte actieve profielen. Leer meer in [ het productbeschrijving van Adobe Campaign ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Volgens uw contract worden al uw Campaign-instanties ingericht met een specifieke hoeveelheid actieve profielen die voor factureringsdoeleinden worden geteld. Raadpleeg het meest recente contract voor informatie over het aantal aangeschafte actieve profielen. Leer meer in [&#x200B; het productbeschrijving van Adobe Campaign &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-U kunt het aantal actieve profielen op uw instantie direct van het Controlebord van de Campagne controleren. Voor meer op dit, verwijs naar de [ documentatie van het Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=nl-NL){target="_blank"}.
+U kunt het aantal actieve profielen op uw instantie direct van het Controlebord van de Campagne controleren. Voor meer op dit, verwijs naar de [&#x200B; documentatie van het Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=nl-NL){target="_blank"}.
 
 
 De volgende instructies en beperkingen zijn van toepassing:
@@ -58,5 +58,5 @@ De volgende instructies en beperkingen zijn van toepassing:
 
 Adobe Campaign is een krachtig instrument voor het verzamelen en verwerken van grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens. Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en gevoelige informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
 
-Leer hoe te om privacy en toestemming in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=nl-NL){target="_blank"} te beheren.
+Leer hoe te om privacy en toestemming in [&#x200B; Adobe Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=nl-NL){target="_blank"} te beheren.
 

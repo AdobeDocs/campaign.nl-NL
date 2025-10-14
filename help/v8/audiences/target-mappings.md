@@ -42,7 +42,7 @@ U kunt ook een doeltoewijzing maken. U moet mogelijk een aangepaste doeltoewijzi
 * u gebruikt een aangepaste ontvankelijke lijst,
 * u vormt een het filtreren afmeting die van ingebouwde het richten afmeting op het scherm van de doelafbeelding verschillend is.
 
-Leer meer over douane ontvankelijke lijsten in [ deze pagina ](../dev/custom-recipient.md).
+Leer meer over douane ontvankelijke lijsten in [&#x200B; deze pagina &#x200B;](../dev/custom-recipient.md).
 
 Met de wizard voor het maken van Adobe Campaign-doeltoewijzingen kunt u alle schema&#39;s maken die nodig zijn om uw aangepaste doeltoewijzing te gebruiken.
 

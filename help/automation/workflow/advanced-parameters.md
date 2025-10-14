@@ -35,7 +35,7 @@ Dit veld bevat de interne naam van de activiteit.
 
 ## Afbeelding {#image}
 
-In dit veld kunt u de afbeelding wijzigen die aan een activiteit is gekoppeld. Voor meer op dit, verwijs naar [ de activiteitenbeelden van de Verandering ](change-activity-images.md).
+In dit veld kunt u de afbeelding wijzigen die aan een activiteit is gekoppeld. Voor meer op dit, verwijs naar [&#x200B; de activiteitenbeelden van de Verandering &#x200B;](change-activity-images.md).
 
 ## Execution {#execution}
 
@@ -65,7 +65,7 @@ In dit veld kunt u het gedrag definiëren dat moet worden toegepast bij het gebr
 
 ## Tijdzone {#time-zone}
 
-In dit veld kunt u de tijdzone van de activiteit selecteren. Voor meer op dit: [ beheert tijdstreken ](managing-time-zones.md).
+In dit veld kunt u de tijdzone van de activiteit selecteren. Voor meer op dit: [&#x200B; beheert tijdstreken &#x200B;](managing-time-zones.md).
 
 ## Bij fouten {#in-case-of-errors}
 
@@ -77,7 +77,7 @@ In dit veld kunt u de actie definiëren die moet worden uitgevoerd wanneer de ac
 
 ## Initialisatiescript {#initialization-script}
 
-In dit veld kunt u variabelen initialiseren of eigenschappen van activiteit wijzigen. Voor meer op dit, verwijs naar: [ de manuscripten en de malplaatjes van JavaScript ](javascript-scripts-and-templates.md).
+In dit veld kunt u variabelen initialiseren of eigenschappen van activiteit wijzigen. Voor meer op dit, verwijs naar: [&#x200B; de manuscripten en de malplaatjes van JavaScript &#x200B;](javascript-scripts-and-templates.md).
 
 ## Opmerking {#comment}
 

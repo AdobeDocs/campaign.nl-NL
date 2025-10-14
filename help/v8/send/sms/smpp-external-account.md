@@ -63,7 +63,7 @@ Stel de verbinding in in de transceivermodus of in de gescheiden zender+ontvange
 Alleen beschikbaar in de modus zender+ontvanger.
 Als het selectievakje is uitgeschakeld, worden dezelfde instellingen gebruikt voor zender en ontvanger. Als het selectievakje is ingeschakeld, zijn de standaardinstellingen alleen van toepassing op de zender, terwijl de ontvangerinstellingen alleen op de ontvanger van toepassing zijn.
 * **Ontvangerserver, haven, rekening, wachtwoord, systeemtype**
-Deze instellingen zijn van toepassing op de ontvanger in de modus zender+ontvanger. Zij werken als het zenderdeel, zie hierboven voor [ meer details ](#smpp-connection-settings).
+Deze instellingen zijn van toepassing op de ontvanger in de modus zender+ontvanger. Zij werken als het zenderdeel, zie hierboven voor [&#x200B; meer details &#x200B;](#smpp-connection-settings).
 * **laat uitgebreide sporen SMPP in het logboekdossier** toe
 Als deze optie is ingeschakeld, worden extra logbestanden uitgevoerd naar het logbestand. Dit is zeer nuttig voor het oplossen van problemen, maar zou op hoge productievertoningen moeten worden onbruikbaar gemaakt als geen het oplossen van problemen wordt vereist.
 
@@ -79,7 +79,7 @@ Als dit selectievakje is uitgeschakeld, mislukt de tekstcodering als de tekenree
 
 Als dit selectievakje is ingeschakeld, probeert de tekstcodering de tekenreeks om te zetten in een versie die bij benadering overeenkomt in plaats van te mislukken. Als sommige tekens geen equivalent hebben in de doelcodering, mislukt de tekstcodering.
 
-Zie [ een specifieke afbeelding van coderingen bepalen die ](#mapping-encodings) voor een meer algemene verklaring van het het coderen proces plaatsen.
+Zie [&#x200B; een specifieke afbeelding van coderingen bepalen die &#x200B;](#mapping-encodings) voor een meer algemene verklaring van het het coderen proces plaatsen.
 
 ### Source-nummer
 
@@ -151,7 +151,7 @@ inquire_link is een speciaal soort PDU die wordt verzonden om de verbinding leve
 
 ## Toewijzing van coderingen {#mapping-encodings}
 
-Gelieve te zien de [ de tekstcoderende sectie van SMS ](sms-channel.md#sms-text-encoding) voor details over tekstcodering.
+Gelieve te zien de [&#x200B; de tekstcoderende sectie van SMS &#x200B;](sms-channel.md#sms-text-encoding) voor details over tekstcodering.
 
 Met deze instelling kunt u een aangepaste coderingstoewijzing definiëren die afwijkt van de specificatie. U kunt een lijst met coderingen declareren, samen met de waarde data_coding. De MTA probeert te coderen met de eerste codering in de lijst. Als dit mislukt, wordt de volgende codering in de lijst gebruikt, enzovoort.. Als het bericht niet kan worden gecodeerd, treedt er een fout op. Zodra het coderen wordt gevonden, zal MTA SUBMIT_SM PDU met de gecodeerde tekst en het data_coding gebied tot stand brengen met de waarde die in de lijst wordt gespecificeerd.
 

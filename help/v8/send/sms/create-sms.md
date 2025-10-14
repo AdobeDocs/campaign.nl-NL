@@ -17,11 +17,11 @@ ht-degree: 2%
 
 Volg onderstaande stappen om een nieuwe SMS-levering te maken:
 
-1. Creeer een nieuwe levering en selecteer het [ leveringsmalplaatje van SMS ](sms-mid-sourcing.md#sms-delivery-template) u voor uw verzending van SMS creeerde.
+1. Creeer een nieuwe levering en selecteer het [&#x200B; leveringsmalplaatje van SMS &#x200B;](sms-mid-sourcing.md#sms-delivery-template) u voor uw verzending van SMS creeerde.
 
    ![](assets/sms_create.png){zoomable="yes"}
 
-   De aanmaakstappen van de levering zijn gedetailleerd in [ deze pagina ](../../start/create-message.md).
+   De aanmaakstappen van de levering zijn gedetailleerd in [&#x200B; deze pagina &#x200B;](../../start/create-message.md).
 
 <!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
 * For mid-sourcing infrastructure, -->
@@ -30,24 +30,24 @@ Volg onderstaande stappen om een nieuwe SMS-levering te maken:
 
 1. Klik op de knop **[!UICONTROL Continue]** . Nu hebt u alle instellingen van uw sjabloon in de levering.
 
-1. U kunt de knop **[!UICONTROL Properties]** inchecken, zodat alles naar wens is ingesteld. [ leer meer over het lusje van SMS ](sms-delivery-settings.md#sms-tab)
+1. U kunt de knop **[!UICONTROL Properties]** inchecken, zodat alles naar wens is ingesteld. [&#x200B; leer meer over het lusje van SMS &#x200B;](sms-delivery-settings.md#sms-tab)
 
    ![](assets/sms_settings.png){zoomable="yes"}
 
-1. [ bepaal de inhoud ](sms-content.md) van uw levering.
+1. [&#x200B; bepaal de inhoud &#x200B;](sms-content.md) van uw levering.
 
-1. [ selecteer het publiek ](sms-audience.md).
+1. [&#x200B; selecteer het publiek &#x200B;](sms-audience.md).
 
-De stappen om een publiek te bepalen zijn gedetailleerd op [ deze pagina ](../../audiences/create-audiences.md).
+De stappen om een publiek te bepalen zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](../../audiences/create-audiences.md).
 
 ## SMS valideren en verzenden {#sms-validate}
 
 Nadat u de levering hebt gemaakt, kunt u:
 
-1. [ verzendt proef ](sms-proofs.md) om het teruggeven en de inhoud te bevestigen,
+1. [&#x200B; verzendt proef &#x200B;](sms-proofs.md) om het teruggeven en de inhoud te bevestigen,
 
-1. Dan, [ verzend naar het definitieve publiek ](sms-send.md).
+1. Dan, [&#x200B; verzend naar het definitieve publiek &#x200B;](sms-send.md).
 
 ## SMS controleren en volgen {#sms-monitor}
 
-Na verzenden, [ leren hoe te om uw SMS ](sms-monitor.md) te controleren en te volgen.
+Na verzenden, [&#x200B; leren hoe te om uw SMS &#x200B;](sms-monitor.md) te controleren en te volgen.

@@ -45,7 +45,7 @@ Alvorens, als Campagne **Beheerder** te beginnen, zorg ervoor u de volgende take
 1. Gebruikersprofielen maken. [Meer informatie](interaction-operators.md)
 1. (facultatief) creeer een aanbiedingsmilieu voor elke het richten dimensie. [Meer informatie](interaction-env.md)
 1. Maak typologische regels voor elke omgeving. [Meer informatie](interaction-offer.md#offer-presentation)
-1. Maak aanbiedingsruimten voor elke omgeving en configureer renderfuncties. [ Leer meer ](interaction-offer-spaces.md)
+1. Maak aanbiedingsruimten voor elke omgeving en configureer renderfuncties. [&#x200B; Leer meer &#x200B;](interaction-offer-spaces.md)
 Als de ruimte door een eenheidkanaal op bepaalde wijze wordt bepaald, moet u de geavanceerde parameters voor deze ruimte specificeren.
 
    >[!NOTE]
@@ -54,7 +54,7 @@ Als de ruimte door een eenheidkanaal op bepaalde wijze wordt bepaald, moet u de 
 
 1. Vorm de motor van de Aanbieding voor binnenkomende interactie om één of verscheidene aanbiedingen voor te stellen en bij te werken.
 
-   De diverse integratiemodi zijn gedetailleerd in [ deze sectie ](interaction-present-offers.md).
+   De diverse integratiemodi zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](interaction-present-offers.md).
 
    >[!NOTE]
    >

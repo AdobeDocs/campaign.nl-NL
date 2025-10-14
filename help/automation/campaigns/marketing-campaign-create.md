@@ -21,7 +21,7 @@ Een marketingprogramma bestaat uit campagnes die bestaan uit leveringen, middele
 
 ![](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [ ontdekt programma&#39;s en campagnes in video ](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ontdekt programma&#39;s en campagnes in video &#x200B;](#video)
 
 ## Werken met programma&#39;s en plannen{#work-with-plan-and-program}
 
@@ -116,13 +116,13 @@ Voor elke campagne zijn de volgende mogelijkheden beschikbaar:
 
 Voor elke campagne worden banen, middelen en leveringen gecentraliseerd in een dashboard. Met deze interface kunt u marketingacties beheren en ordenen.
 
-Met Adobe Campaign kunt u samenwerkingsprocessen opzetten voor het maken en goedkeuren van de verschillende stappen van uw campagnes: goedkeuring van het budget, het doel, de inhoud, enzovoort. Dit orkest wordt gedetailleerd in [ deze sectie ](marketing-campaign-approval.md).
+Met Adobe Campaign kunt u samenwerkingsprocessen opzetten voor het maken en goedkeuren van de verschillende stappen van uw campagnes: goedkeuring van het budget, het doel, de inhoud, enzovoort. Dit orkest wordt gedetailleerd in [&#x200B; deze sectie &#x200B;](marketing-campaign-approval.md).
 
 ![](assets/campaigns-dashboard-approval-tab.png)
 
 >[!NOTE]
 >
->De componenten beschikbaar in een campagne hangen van zijn malplaatje af. De het malplaatjeconfiguratie van de campagne wordt voorgesteld in [ deze sectie ](marketing-campaign-templates.md#campaign-templates).
+>De componenten beschikbaar in een campagne hangen van zijn malplaatje af. De het malplaatjeconfiguratie van de campagne wordt voorgesteld in [&#x200B; deze sectie &#x200B;](marketing-campaign-templates.md#campaign-templates).
 
 Zodra de campagne is voltooid, gebruikt u de koppeling **[!UICONTROL Reports]** om de campagnerapporten te openen.
 

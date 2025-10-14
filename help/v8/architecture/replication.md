@@ -17,18 +17,18 @@ ht-degree: 2%
 
 ## Beginsel
 
-In de context van een [ plaatsing van de Onderneming (FFDA) ](enterprise-deployment.md), zorgt de gegevensreplicatie ervoor dat de twee gegevensbestanden, het lokale gegevensbestand van de Campagne (PostgreSQL) en het gegevensbestand van de Wolk ([!DNL Snowflake]), in parallel operationeel zijn en in real time gesynchroniseerd blijven.
+In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](enterprise-deployment.md), zorgt de gegevensreplicatie ervoor dat de twee gegevensbestanden, het lokale gegevensbestand van de Campagne (PostgreSQL) en het gegevensbestand van de Wolk ([!DNL Snowflake]), in parallel operationeel zijn en in real time gesynchroniseerd blijven.
 
 De Cloud-database ([!DNL Snowflake]) is geoptimaliseerd voor het verwerken van grote gegevensbatches, zoals het bijwerken van 1 miljoen adressen. Ondertussen, is het lokale gegevensbestand van de Campagne (PostgreSQL) geschikter voor individuele of kleine volumeverrichtingen, als het bijwerken van één enkel zaadadres. De synchronisatie komt automatisch en transparant op de achtergrond voor, die ervoor zorgt dat gegevens in Lokale gegevensbestand van de Campagne (PostSQL) in het gegevensbestand van de Wolk ([!DNL Snowflake]) in real time worden gedupliceerd, die beide gegevensbestanden houden gesynchroniseerd. De synchronisatie van gegevens impliceert schema&#39;s en lijsten, en gegevens.
 
-➡️ [ ontdekt hoe de gegevensreplicatie in video ](#video) werkt
+➡️ [&#x200B; ontdekt hoe de gegevensreplicatie in video &#x200B;](#video) werkt
 
 ## Replicatiemodi {#modes}
 
 De replicatie van gegevens kan op verschillende wijzen afhankelijk van het gebruiksgeval voorkomen.
 
 * **handvatten van de replicatie op de vlucht** gevallen waar de duplicatie in real time essentieel is. Het baseert zich op specifieke technische draden om gegevens voor gebruiksgevallen zoals het creëren van een verspreiding of het bijwerken van een zaadadres onmiddellijk te herhalen.
-* **Geplande replicatie** wordt gebruikt wanneer de directe synchronisatie niet wordt vereist. De geplande replicatie gebruikt specifieke [ technische werkschema&#39;s ](#workflows) die elk uur in werking stellen om gegevens, zoals typologische regels te synchroniseren.
+* **Geplande replicatie** wordt gebruikt wanneer de directe synchronisatie niet wordt vereist. De geplande replicatie gebruikt specifieke [&#x200B; technische werkschema&#39;s &#x200B;](#workflows) die elk uur in werking stellen om gegevens, zoals typologische regels te synchroniseren.
 
 ## Replicatiebeleid
 
@@ -42,7 +42,7 @@ Het beleid van de replicatie bepaalt hoeveel gegevens van een lokale gegevensbes
 
 Campagne v8 is gebaseerd op specifieke technische workflows voor het beheer van geplande gegevensreplicatie. Deze technische workflows zijn beschikbaar via het knooppunt **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** van Campagne Explorer. **zij moeten niet worden gewijzigd.**
 
-Technische workflows voeren processen of taken uit, die regelmatig op de server worden gepland. De volledige lijst van technische werkschema&#39;s wordt gedetailleerd in [ deze pagina ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=nl-NL){target="_blank"}.
+Technische workflows voeren processen of taken uit, die regelmatig op de server worden gepland. De volledige lijst van technische werkschema&#39;s wordt gedetailleerd in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=nl-NL){target="_blank"}.
 
 De technische werkschema&#39;s die gegevensreplicatie verzekeren zijn als volgt:
 
@@ -117,4 +117,4 @@ In deze video worden de belangrijkste concepten beschreven van welke databases A
 
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-De extra leerprogramma&#39;s van de Console van de Campagne v8 van de Cliënt zijn beschikbaar [ hier ](https://experienceleague.adobe.com/nl/docs/campaign-learn/tutorials/overview).
+De extra leerprogramma&#39;s van de Console van de Campagne v8 van de Cliënt zijn beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-learn/tutorials/overview).

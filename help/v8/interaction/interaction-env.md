@@ -25,7 +25,7 @@ De interactie werkt met twee soorten aanbiedingsmilieu&#39;s:
 
 Elke **[!UICONTROL Design]** -omgeving is gekoppeld aan een **[!UICONTROL Live]** -omgeving. Wanneer een aanbieding is voltooid, worden de inhoud en de subsidiabiliteitsregels ervan onderworpen aan een goedkeuringscyclus. Zodra deze cyclus is voltooid, wordt de betreffende aanbieding automatisch opgesteld aan het **[!UICONTROL Live]** milieu. Vanaf dat moment is het beschikbaar voor levering.
 
-Campagne wordt standaard geleverd met een **[!UICONTROL Design]** -omgeving en een **[!UICONTROL Live]** -omgeving die eraan gekoppeld zijn. Beide milieu&#39;s worden pre-gevormd om de [ ingebouwde ontvankelijke lijst ](../dev/datamodel.md#ootb-profiles) te richten.
+Campagne wordt standaard geleverd met een **[!UICONTROL Design]** -omgeving en een **[!UICONTROL Live]** -omgeving die eraan gekoppeld zijn. Beide milieu&#39;s worden pre-gevormd om de [&#x200B; ingebouwde ontvankelijke lijst &#x200B;](../dev/datamodel.md#ootb-profiles) te richten.
 
 >[!NOTE]
 >
@@ -59,10 +59,10 @@ Als u **[!UICONTROL Visitor]** mapping hebt geactiveerd, wordt het vak **[!UICON
 
 Met deze optie kunt u anonieme interactiespecifieke functies activeren, vooral wanneer u omgevingen configureert die spaties bieden. U kunt opties ook vormen die u toestaan om van een &quot;geïdentificeerd&quot;milieu aan een &quot;anonieme&quot;milieu over te schakelen.
 
-U kunt bijvoorbeeld een koppeling maken tussen een ontvankelijke omgeving en een aanbiedingsruimte (geïdentificeerd contact) die overeenkomt met een bezoekersomgeving (niet-geïdentificeerd contact). Op deze manier worden verschillende aanbiedingen ter beschikking gesteld van de contactpersoon, afhankelijk van het feit of deze contactpersoon al dan niet wordt geïdentificeerd. Voor meer op dit, verwijs naar [ Creërend aanbiedingsruimten ](interaction-offer-spaces.md).
+U kunt bijvoorbeeld een koppeling maken tussen een ontvankelijke omgeving en een aanbiedingsruimte (geïdentificeerd contact) die overeenkomt met een bezoekersomgeving (niet-geïdentificeerd contact). Op deze manier worden verschillende aanbiedingen ter beschikking gesteld van de contactpersoon, afhankelijk van het feit of deze contactpersoon al dan niet wordt geïdentificeerd. Voor meer op dit, verwijs naar [&#x200B; Creërend aanbiedingsruimten &#x200B;](interaction-offer-spaces.md).
 
 ![](assets/offer_env_anonymous_003.png)
 
 >[!NOTE]
 >
->Voor meer informatie over anonieme interactie op een binnenkomend kanaal, verwijs naar [ Anonieme interactie ](anonymous-interactions.md).
+>Voor meer informatie over anonieme interactie op een binnenkomend kanaal, verwijs naar [&#x200B; Anonieme interactie &#x200B;](anonymous-interactions.md).

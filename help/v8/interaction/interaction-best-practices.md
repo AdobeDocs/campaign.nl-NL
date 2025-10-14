@@ -99,7 +99,7 @@ U kunt aanvullende velden toevoegen, zoals een veld `@rank` :
 
 Omdat er een veld in de tabel met profielen met de naam `@rank` staat, wordt de waarde in de tabel met werkstroomsjablonen gekopieerd.
 
-Voor meer bij het opslaan van extra gebieden in de propositielijst, verwijs naar [ deze sectie ](interaction-send-offers.md#storing-offer-rankings-and-weights).
+Voor meer bij het opslaan van extra gebieden in de propositielijst, verwijs naar [&#x200B; deze sectie &#x200B;](interaction-send-offers.md#storing-offer-rankings-and-weights).
 
 Voor uitgaande aanbiedingen met interactie is dit handig wanneer er meerdere aanbiedingen zijn geselecteerd en u wilt opnemen in welke volgorde deze in een e-mail worden weergegeven.
 

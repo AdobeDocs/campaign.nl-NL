@@ -66,4 +66,4 @@ Deze video laat zien hoe u een doorlopende levering configureert met een stapsge
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.
+De extra campagne hoe-aan video&#39;s is beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.

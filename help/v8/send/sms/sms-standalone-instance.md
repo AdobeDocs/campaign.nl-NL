@@ -20,19 +20,19 @@ ht-degree: 0%
 >
 >Deze documentatie is voor Adobe Campaign v8.7.2 en hoger.
 >
->Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up) te lezen.
+>Voor oudere versies, gelieve de [&#x200B; documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up) te lezen.
 
 In een standalone geval, vereist het verzenden van een levering van SMS:
 
-1. Een **externe rekening** die een schakelaar en het type van bericht specificeren, [ leren meer hier ](#external-account)
+1. Een **externe rekening** die een schakelaar en het type van bericht specificeren, [&#x200B; leren meer hier &#x200B;](#external-account)
 
-1. A **leveringsmalplaatje** waarin deze externe rekening van verwijzingen wordt voorzien, [ meer hier ](#sms-delivery-template) leren
+1. A **leveringsmalplaatje** waarin deze externe rekening van verwijzingen wordt voorzien, [&#x200B; meer hier &#x200B;](#sms-delivery-template) leren
 
 ## Een externe account maken {#external-account}
 
 >[!IMPORTANT]
 >
->Het gebruik van hetzelfde account en wachtwoord voor meerdere externe SMS-accounts kan leiden tot conflicten en overlapping tussen de accounts. Leer meer op [ het oplossen van problemenpagina van SMS ](smpp-connection.md#sms-troubleshooting).
+>Het gebruik van hetzelfde account en wachtwoord voor meerdere externe SMS-accounts kan leiden tot conflicten en overlapping tussen de accounts. Leer meer op [&#x200B; het oplossen van problemenpagina van SMS &#x200B;](smpp-connection.md#sms-troubleshooting).
 
 Hier volgen de stappen voor het maken van uw externe SMPP-account:
 
@@ -49,7 +49,7 @@ Het vak **[!UICONTROL Send messages through a dedicated process]** is standaard 
 
    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 
-   Als u de verbinding wilt instellen, moet u de tabbladen van dit formulier invullen. Voor details, [ leren meer over externe rekening SMPP ](smpp-external-account.md#smpp-connection-settings).
+   Als u de verbinding wilt instellen, moet u de tabbladen van dit formulier invullen. Voor details, [&#x200B; leren meer over externe rekening SMPP &#x200B;](smpp-external-account.md#smpp-connection-settings).
 
 
 ## De leveringssjabloon configureren {#sms-delivery-template}
@@ -72,4 +72,4 @@ Op het tabblad **[!UICONTROL SMS]** kunt u optionele parameters aan de sjabloon 
 
 ![](assets/sms_template_properties.png){zoomable="yes"}
 
-[ leer meer over deze het lusjeconfiguratie van SMS ](sms-delivery-settings.md).
+[&#x200B; leer meer over deze het lusjeconfiguratie van SMS &#x200B;](sms-delivery-settings.md).

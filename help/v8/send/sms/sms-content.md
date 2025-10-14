@@ -29,7 +29,7 @@ Om de inhoud van uw levering van SMS te vormen:
 
    ![](assets/sms_perso_recipient.png){zoomable="yes"}
 
-   Leer meer over verpersoonlijking in Adobe Campaign in [ deze sectie ](../personalize.md).
+   Leer meer over verpersoonlijking in Adobe Campaign in [&#x200B; deze sectie &#x200B;](../personalize.md).
 
 1. U kunt een voorvertoning van uw inhoud weergeven via het tabblad **[!UICONTROL Preview]** . Als u uw aanpassingsinstellingen wilt controleren, klikt u op de vervolgkeuzelijst **[!UICONTROL Test personalization]** en selecteert u een ontvanger.
 
@@ -41,10 +41,10 @@ Om de inhoud van uw levering van SMS te vormen:
 
 >[!NOTE]
 >
->* SMS-berichten mogen niet langer zijn dan 160 tekens als de codepagina Latin-1 (ISO-8859-1) wordt gebruikt. Als het bericht in Unicode wordt geschreven, moet het niet 70 karakters overschrijden. Bepaalde speciale tekens kunnen de lengte van het bericht beïnvloeden. Voor meer informatie over berichtlengte, verwijs naar [ het karaktervertaling van SMS ](smpp-external-account.md#smpp-channel-settings) sectie.
+>* SMS-berichten mogen niet langer zijn dan 160 tekens als de codepagina Latin-1 (ISO-8859-1) wordt gebruikt. Als het bericht in Unicode wordt geschreven, moet het niet 70 karakters overschrijden. Bepaalde speciale tekens kunnen de lengte van het bericht beïnvloeden. Voor meer informatie over berichtlengte, verwijs naar [&#x200B; het karaktervertaling van SMS &#x200B;](smpp-external-account.md#smpp-channel-settings) sectie.
 >
 >* Wanneer verpersoonlijkingsgebieden of voorwaardelijke inhoudsgebieden aanwezig zijn, varieert de grootte van het bericht van één ontvanger aan andere. De lengte van het bericht moet worden geëvalueerd wanneer de personalisatie is uitgevoerd.
 >
 >*Wanneer u de analyse lanceert, wordt de lengte van berichten gecontroleerd en een waarschuwing getoond in het geval van overstroming.
 
-Na het creëren van de inhoud van uw levering, kunt u [ uw publiek ](sms-audience.md) selecteren.
+Na het creëren van de inhoud van uw levering, kunt u [&#x200B; uw publiek &#x200B;](sms-audience.md) selecteren.

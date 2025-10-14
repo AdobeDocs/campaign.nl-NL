@@ -16,9 +16,9 @@ ht-degree: 3%
 
 # Samenvoeging bijwerken{#update-aggregate}
 
-De samengevoegde groepen die in [ worden bepaald kubussen ](../../v8/reporting/gs-cubes.md) voor het melden van doeleinden kunnen met een specifieke activiteit worden bijgewerkt. Er is een tabblad **[!UICONTROL Workflow]** beschikbaar wanneer u het aggregaat configureert.
+De samengevoegde groepen die in [&#x200B; worden bepaald kubussen &#x200B;](../../v8/reporting/gs-cubes.md) voor het melden van doeleinden kunnen met een specifieke activiteit worden bijgewerkt. Er is een tabblad **[!UICONTROL Workflow]** beschikbaar wanneer u het aggregaat configureert.
 
-Leer meer over kubussen en aggregaten in [ deze sectie ](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
+Leer meer over kubussen en aggregaten in [&#x200B; deze sectie &#x200B;](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
 
 Als u een aggregaat wilt bijwerken, bewerkt u de **[!UICONTROL Update aggregate]** -activiteit en selecteert u de kubus en het aggregaat die u wilt bijwerken.
 

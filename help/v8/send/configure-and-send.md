@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # De levering configureren en verzenden {#configure-delivery}
 
-Heb toegang tot de leveringsparameters om meer montages te vormen en te bepalen hoe te om uw berichten te verzenden. U kunt levering [ prioriteit ](#delivery-priority) bepalen, opstelling [ golven ](#sending-using-multiple-waves), en uw levering testen die verzendt. Zodra deze configuratie wordt gedaan, kunt u het verzenden bevestigen zoals die in [ wordt beschreven deze sectie ](#confirm-delivery). De berichten worden dan verzonden onmiddellijk, of gebaseerd op het levering [ programma ](#schedule-delivery-sending).
+Heb toegang tot de leveringsparameters om meer montages te vormen en te bepalen hoe te om uw berichten te verzenden. U kunt levering [&#x200B; prioriteit &#x200B;](#delivery-priority) bepalen, opstelling [&#x200B; golven &#x200B;](#sending-using-multiple-waves), en uw levering testen die verzendt. Zodra deze configuratie wordt gedaan, kunt u het verzenden bevestigen zoals die in [&#x200B; wordt beschreven deze sectie &#x200B;](#confirm-delivery). De berichten worden dan verzonden onmiddellijk, of gebaseerd op het levering [&#x200B; programma &#x200B;](#schedule-delivery-sending).
 
 ## Aanvullende parameters instellen {#delivery-additional-parameters}
 
@@ -42,7 +42,7 @@ Gebruik de optie **[!UICONTROL Test SMTP delivery]** om het verzenden via SMTP t
 >
 >* Deze optie mag niet worden ingesteld in mid-sourcing.
 >
->* Leer meer over SMTP serverconfiguratie in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=nl-NL#smtp-relay){target="_blank"}.
+>* Leer meer over SMTP serverconfiguratie in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=nl-NL#smtp-relay){target="_blank"}.
 
 ## Verzenden met meerdere golven {#sending-using-multiple-waves}
 
@@ -79,17 +79,17 @@ U kunt de grootte van elke golf definiëren of toevoegen aan een kalender.
 
 ### Wave-planningcontrole {#check-waves}
 
-Een specifieke typologieregel, **[!UICONTROL Wave scheduling check]** , zorgt ervoor dat de laatste golf vóór de geldigheidsgrens van de levering wordt gepland. De typologieën van de campagne en hun regels, die in het **[!UICONTROL Typology]** lusje van de leveringseigenschappen worden gevormd, worden voorgesteld in [ deze sectie ](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+Een specifieke typologieregel, **[!UICONTROL Wave scheduling check]** , zorgt ervoor dat de laatste golf vóór de geldigheidsgrens van de levering wordt gepland. De typologieën van de campagne en hun regels, die in het **[!UICONTROL Typology]** lusje van de leveringseigenschappen worden gevormd, worden voorgesteld in [&#x200B; deze sectie &#x200B;](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
 >[!IMPORTANT]
 >
->* Zorg ervoor dat de laatste golven de leveringstermijn niet overschrijden, die is gedefinieerd op het tabblad **[!UICONTROL Validity]** . Anders kunnen sommige berichten niet worden verzonden. Leer meer over de geldigheidsperiode van een levering in [ deze sectie ](delivery-failures.md#valid-period).
+>* Zorg ervoor dat de laatste golven de leveringstermijn niet overschrijden, die is gedefinieerd op het tabblad **[!UICONTROL Validity]** . Anders kunnen sommige berichten niet worden verzonden. Leer meer over de geldigheidsperiode van een levering in [&#x200B; deze sectie &#x200B;](delivery-failures.md#valid-period).
 >
->* U moet ook voldoende tijd instellen voor nieuwe pogingen wanneer u de laatste golven configureert. Leer meer over pogingen in [ deze sectie ](delivery-failures.md#retries).
+>* U moet ook voldoende tijd instellen voor nieuwe pogingen wanneer u de laatste golven configureert. Leer meer over pogingen in [&#x200B; deze sectie &#x200B;](delivery-failures.md#retries).
 
 ### Monitorgolven {#monitor-waves}
 
-Blader naar de leveringslogboeken om uw verzendingen te controleren. Zie [ deze pagina ](send.md)
+Blader naar de leveringslogboeken om uw verzendingen te controleren. Zie [&#x200B; deze pagina &#x200B;](send.md)
 
 U kunt de leveringen zien die reeds in de verwerkte golven (**[!UICONTROL Sent]** status) werden verzonden en de te verzenden leveringen in de resterende golven (**[!UICONTROL Pending]** status).
 

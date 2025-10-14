@@ -18,7 +18,7 @@ De grenzen zijn het resultaat van een leveringspoging en mislukking waar ISP ach
 
 Hierdoor wordt voorkomen dat systemen ongeldige e-mailadressen blijven verzenden. De grenzen zijn één van de belangrijkste stukken van gegevens die ISPs gebruikt om IP reputatie te bepalen. Het is belangrijk om deze maatstaf in de gaten te houden. &quot;Geleverd&quot; versus &quot;teruggestort&quot; is waarschijnlijk de meest gebruikelijke manier om de levering van marketingberichten te meten: hoe hoger het geleverde percentage, hoe beter.
 
-Als een bericht niet naar een profiel kan worden verzonden, verzendt de externe server automatisch een foutbericht naar Adobe Campaign. Deze fout is gekwalificeerd om te bepalen of het e-mailadres, het telefoonnummer of het apparaat in quarantaine moet worden geplaatst. Zie [ stuiteren postbeheer ](#bounce-mail-qualification).
+Als een bericht niet naar een profiel kan worden verzonden, verzendt de externe server automatisch een foutbericht naar Adobe Campaign. Deze fout is gekwalificeerd om te bepalen of het e-mailadres, het telefoonnummer of het apparaat in quarantaine moet worden geplaatst. Zie [&#x200B; stuiteren postbeheer &#x200B;](#bounce-mail-qualification).
 
 Zodra een bericht wordt verzonden, kunt u de leveringsstatus voor elk profiel en het bijbehorende mislukkingstype en de reden in de leveringslogboeken bekijken.
 
@@ -26,7 +26,7 @@ Wanneer een e-mailadres in quarantaine wordt geplaatst, of als een profiel op li
 
 ## Waarom is de berichtlevering mislukt {#delivery-failure-reasons}
 
-Er zijn twee typen fouten wanneer een bericht mislukt. Elk type van leveringsmislukking bepaalt als een adres wordt verzonden naar [ quarantaine ](quarantines.md#quarantine-reason) of niet.
+Er zijn twee typen fouten wanneer een bericht mislukt. Elk type van leveringsmislukking bepaalt als een adres wordt verzonden naar [&#x200B; quarantaine &#x200B;](quarantines.md#quarantine-reason) of niet.
 
 * **Harde grenzen**
 De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP een postingspoging aan een abonneeadres als niet te leveren niet bepaalt. In Adobe Campaign worden harde golven die als niet-leverbaar zijn gecategoriseerd, toegevoegd aan de quarantainelijst, wat betekent dat ze niet opnieuw zouden worden opgewekt. In sommige gevallen wordt een harde stuit genegeerd als de oorzaak van de fout onbekend is.
@@ -34,13 +34,13 @@ De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP 
   Hier zijn enkele voorbeelden van harde grenzen: Adres bestaat niet, Account uitgeschakeld, Onjuiste syntaxis, Onjuist domein
 
 * **Zachte grenzen**
-De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. De zachte mislukkingen zullen [ veelvoudige tijden (met variantie afhankelijk van gebruik van douane of uit-van-doos leveringsmontages) opnieuw proberen om een succesvolle levering te proberen. ](#retries) Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren.
+De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. De zachte mislukkingen zullen [&#x200B; veelvoudige tijden (met variantie afhankelijk van gebruik van douane of uit-van-doos leveringsmontages) opnieuw proberen om een succesvolle levering te proberen. &#x200B;](#retries) Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren.
 
   Sommige gemeenschappelijke oorzaken van zachte grenzen omvatten het volgende: De volledige brievenbus, Ontvangend e-mailserver neer, de kwesties van de de reputatie van de Afzender
 
 Het **genegeerde** type van fout is gekend om tijdelijk, zoals &quot;uit bureau&quot;te zijn, of een technische fout, bijvoorbeeld als het afzendertype &quot;postmaster&quot;is.
 
-De feedbacklus werkt als e-mailberichten stuiteren: wanneer een gebruiker een e-mailbericht kwalificeert als spam, kunt u e-mailregels in Adobe Campaign configureren om alle leveringen aan deze gebruiker te blokkeren. De adressen van deze gebruikers worden gevoegd op lijst van gewenste personen alhoewel zij niet de unsubscription verbinding klikten. De adressen worden toegevoegd aan (**NmsAddress**) quarantainelijst en niet aan (**NmsRecipient**) ontvankelijke lijst met de **[!UICONTROL Denylisted]** status. Leer meer over terugkoppel lusmechanisme in de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#feedback-loops){target="_blank"}.
+De feedbacklus werkt als e-mailberichten stuiteren: wanneer een gebruiker een e-mailbericht kwalificeert als spam, kunt u e-mailregels in Adobe Campaign configureren om alle leveringen aan deze gebruiker te blokkeren. De adressen van deze gebruikers worden gevoegd op lijst van gewenste personen alhoewel zij niet de unsubscription verbinding klikten. De adressen worden toegevoegd aan (**NmsAddress**) quarantainelijst en niet aan (**NmsRecipient**) ontvankelijke lijst met de **[!UICONTROL Denylisted]** status. Leer meer over terugkoppel lusmechanisme in de [&#x200B; Gids van de Beste praktijken van de Levering van Adobe &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#feedback-loops){target="_blank"}.
 
 ## Synchrone en asynchrone fouten {#synchronous-and-asynchronous-errors}
 
@@ -66,7 +66,7 @@ De manier waarop de postkwalificatie van de stuiterende in Adobe Campaign wordt 
 
 * **Synchrone fouten**: MTA bepaalt het stuitertype en de kwalificatie, en verzendt terug die informatie naar Campagne. De stuitkwalificaties in de **[!UICONTROL Delivery log qualification]** lijst worden niet gebruikt voor **synchrone** de foutenmeldingen van de leveringsmislukking.
 
-* **Asynchrone fouten**: De regels die door Campagne worden gebruikt om asynchrone leveringsmislukkingen te kwalificeren zijn vermeld in de **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knoop. Asynchrone stuiteringen worden door het inMail-proces via de **[!UICONTROL Inbound email]** -regels gekwalificeerd. Voor meer op dit, verwijs naar [ de documentatie van Adobe Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=nl-NL#bounce-mail-qualification){target="_blank"}.
+* **Asynchrone fouten**: De regels die door Campagne worden gebruikt om asynchrone leveringsmislukkingen te kwalificeren zijn vermeld in de **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knoop. Asynchrone stuiteringen worden door het inMail-proces via de **[!UICONTROL Inbound email]** -regels gekwalificeerd. Voor meer op dit, verwijs naar [&#x200B; de documentatie van Adobe Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=nl-NL#bounce-mail-qualification){target="_blank"}.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -372,7 +372,7 @@ Tijdens de leveringsanalyse, worden alle apparaten die van het doel worden uitge
 
 **voor Android V2**
 
-Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. Hetzelfde geldt voor de abonnementen en uitsluitingen-update. Voor meer op dit verwijs naar [ Android V1 ](#android-quarantine) sectie.
+Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. Hetzelfde geldt voor de abonnementen en uitsluitingen-update. Voor meer op dit verwijs naar [&#x200B; Android V1 &#x200B;](#android-quarantine) sectie.
 
 <table> 
  <tbody> 

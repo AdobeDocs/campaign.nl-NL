@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Gebeurtenisverwerking {#event-processing}
 
-In de context van transactiemeldingen wordt een gebeurtenis gegenereerd door een extern informatiesysteem en wordt deze via de methoden **[!UICONTROL PushEvent]** en **[!UICONTROL PushEvents]** naar Adobe Campaign verzonden. Deze methodes worden beschreven in [ deze sectie ](event-description.md).
+In de context van transactiemeldingen wordt een gebeurtenis gegenereerd door een extern informatiesysteem en wordt deze via de methoden **[!UICONTROL PushEvent]** en **[!UICONTROL PushEvents]** naar Adobe Campaign verzonden. Deze methodes worden beschreven in [&#x200B; deze sectie &#x200B;](event-description.md).
 
 Deze gebeurtenis bevat gegevens die zijn gekoppeld aan de gebeurtenis, zoals:
 
-* zijn [ type ](transactional.md#create-event-types): ordesbevestiging, rekeningsverwezenlijking op een website, enz.,
+* zijn [&#x200B; type &#x200B;](transactional.md#create-event-types): ordesbevestiging, rekeningsverwezenlijking op een website, enz.,
 * het e-mailadres of telefoonnummer;
 * alle andere informatie die het transactiemelding vóór levering moet verrijken en personaliseren: contactgegevens van de klant, taal van het bericht, e-mailformaat, enz.
 
@@ -32,7 +32,7 @@ Om transactionele berichtengebeurtenissen te verwerken, worden de volgende stapp
 1. [Gebeurtenisoverdracht naar een berichtsjabloon](#routing-towards-a-template)
 1. Gebeurtenisverrijking met personalisatiegegevens
 1. [Uitvoering van levering](delivery-execution.md)
-1. [ Recycling van gebeurtenissen ](#event-recycling) de waarvan verbonden levering ontbrak (via een werkschema van Adobe Campaign)
+1. [&#x200B; Recycling van gebeurtenissen &#x200B;](#event-recycling) de waarvan verbonden levering ontbrak (via een werkschema van Adobe Campaign)
 
 Zodra alle stappen worden bereikt, ontvangt elke gerichte ontvanger een gepersonaliseerd bericht.
 
@@ -42,15 +42,15 @@ Gebeurtenissen die door het informatiesysteem worden gegenereerd, kunnen in twee
 
 * Met aanroepen van SOAP-methoden kunt u gebeurtenissen in Adobe Campaign duwen: met de methode PushEvent kunt u één gebeurtenis tegelijk verzenden. Met de methode PushEvents kunt u verschillende gebeurtenissen tegelijk verzenden. [Meer informatie](event-description.md).
 
-* Het creëren van een werkschema laat u gebeurtenissen terugkrijgen door dossiers of via een SQL gateway, met de [ Verdeelde module van de Toegang van Gegevens ](../connect/fda.md) in te voeren.
+* Het creëren van een werkschema laat u gebeurtenissen terugkrijgen door dossiers of via een SQL gateway, met de [&#x200B; Verdeelde module van de Toegang van Gegevens &#x200B;](../connect/fda.md) in te voeren.
 
-Zodra zij worden verzameld, worden de gebeurtenissen verdeeld door technische werkschema&#39;s tussen real time en partijrijen van de uitvoeringsinstantie(s), terwijl het wachten om aan a [ berichtmalplaatje ](transactional-template.md) worden verbonden.
+Zodra zij worden verzameld, worden de gebeurtenissen verdeeld door technische werkschema&#39;s tussen real time en partijrijen van de uitvoeringsinstantie(s), terwijl het wachten om aan a [&#x200B; berichtmalplaatje &#x200B;](transactional-template.md) worden verbonden.
 
 ![](assets/mc-event-queues.png)
 
 >[!NOTE]
 >
->Op uitvoeringsinstanties moeten de mappen **[!UICONTROL Real time events]** of **[!UICONTROL Batch events]** niet worden ingesteld als weergaven, omdat dit tot problemen met toegangsrechten kan leiden. Voor meer bij het plaatsen van een omslag als mening, verwijs naar [ deze sectie ](../audiences/folders-and-views.md#turn-a-folder-to-a-view).
+>Op uitvoeringsinstanties moeten de mappen **[!UICONTROL Real time events]** of **[!UICONTROL Batch events]** niet worden ingesteld als weergaven, omdat dit tot problemen met toegangsrechten kan leiden. Voor meer bij het plaatsen van een omslag als mening, verwijs naar [&#x200B; deze sectie &#x200B;](../audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 ## Een gebeurtenis overbrengen naar een sjabloon {#event-to-template}
 

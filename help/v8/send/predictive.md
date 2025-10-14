@@ -16,7 +16,7 @@ ht-degree: 64%
 
 Dankzij AI en computerleren kunnen de Send-Time Optimization en de Predictive Engagement Scoring van Adobe Campaign open tarieven, optimale verzendtijden en waarschijnlijke prijs analyseren en voorspellen op basis van historische betrokkenheidsmetriek.
 
-Adobe Campaign biedt twee nieuwe het Leren van de Machine modellen aan: [ voorspelt verzendt de Optimalisering van de Tijd ](#predictive-send) en [ het Predictieve Score van de Betrokkenheid ](#predictive-scoring). Deze twee modellen zijn machine-leert modellen die specifiek voor het ontwerpen en het leveren van betere klantenreizen zijn.
+Adobe Campaign biedt twee nieuwe het Leren van de Machine modellen aan: [&#x200B; voorspelt verzendt de Optimalisering van de Tijd &#x200B;](#predictive-send) en [&#x200B; het Predictieve Score van de Betrokkenheid &#x200B;](#predictive-scoring). Deze twee modellen zijn machine-leert modellen die specifiek voor het ontwerpen en het leveren van betere klantenreizen zijn.
 
 >[!CAUTION]
 >

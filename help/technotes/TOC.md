@@ -17,8 +17,8 @@ ht-degree: 19%
 
 + [Campagne-technologie](technotes-home.md)
 + Upgrades{#tn-new}
-   + [ de schakelaarmigratie van SMS ](upgrades/sms-migration.md)
-   + [de veranderingen van het Kanaal van het Bericht van de duw ](upgrades/push-technote.md)
+   + [&#x200B; de schakelaarmigratie van SMS &#x200B;](upgrades/sms-migration.md)
+   + [de veranderingen van het Kanaal van het Bericht van de duw &#x200B;](upgrades/push-technote.md)
    + [Gebruikers migreren naar IMS](upgrades/migrate-users-to-ims.md)
    + [Technische operatoren migreren naar Developer Console](upgrades/ims-migration.md)
    + [Technisch bedrijf migreren naar Developer Console](upgrades/ims-migration-old.md)
@@ -31,4 +31,4 @@ ht-degree: 19%
    + Beveiliging {#security}
       + [Rotatie van klantgegevens](security/credential-rotation-guide.md)
       + [Asymetrische codering](security/asymetric-encryption.md)
-+ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Terug naar de documentatie bij Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)

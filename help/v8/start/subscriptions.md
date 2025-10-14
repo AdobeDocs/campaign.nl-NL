@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Met Adobe Campaign kunt u informatieservices zoals nieuwsbrieven maken en controleren en abonnementen op deze services beheren. Verschillende diensten kunnen parallel worden gedefinieerd, bijvoorbeeld: gespecialiseerde nieuwsbrieven voor bepaalde productcategorieën, thema&#39;s of gebieden van een website, abonnementen op verschillende typen waarschuwingsberichten en realtime meldingen.
 
-Leer hoe te om de informatiedienst tot stand te brengen, nieuwsbrief te verzenden en opt-in en opt-out in [ Campaign Classic v7 documentatie te beheren ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=nl-NL){target="_blank"}
+Leer hoe te om de informatiedienst tot stand te brengen, nieuwsbrief te verzenden en opt-in en opt-out in [&#x200B; Campaign Classic v7 documentatie te beheren &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=nl-NL){target="_blank"}
 
 Als u een profiel wilt abonneren (aanmelden) op een service, zijn de volgende opties beschikbaar:
 
@@ -24,7 +24,7 @@ Als u een profiel wilt abonneren (aanmelden) op een service, zijn de volgende op
 
   ![](assets/subscribe-to-a-service.png)
 
-  Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=nl-NL#deliveries-tab){target="_blank"}
+  Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=nl-NL#deliveries-tab){target="_blank"}
 
 * Schrijf automatisch een reeks ontvangers aan de dienst in. De lijst met ontvangers kan afkomstig zijn van een filterbewerking, een groep, een map, een importbewerking of een directe handmatige selectie. Als u zich op deze ontvangers wilt abonneren, selecteert u de profielen en klikt u met de rechtermuisknop. Selecteer **[!UICONTROL Actions > Subscribe selection to a service...]**.
 
@@ -34,12 +34,12 @@ Als u een profiel wilt abonneren (aanmelden) op een service, zijn de volgende op
 
   ![](assets/subscribe-confirm.png)
 
-  Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=nl-NL#deliveries-tab){target="_blank"}
+  Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=nl-NL#deliveries-tab){target="_blank"}
 
 
 * Importeer ontvangers en meld ze automatisch aan bij een informatieservice. Selecteer hiertoe de desbetreffende service in de laatste stap van de wizard Importeren.
 
-  Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=nl-NL#step-5---additional-step-when-importing-recipients){target="_blank"}.
+  Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=nl-NL#step-5---additional-step-when-importing-recipients){target="_blank"}.
 
 * Gebruik een webformulier zodat ontvangers zich op een service kunnen abonneren.
 
@@ -49,7 +49,7 @@ Als u een profiel wilt abonneren (aanmelden) op een service, zijn de volgende op
 
   ![](assets/web-app.png)
 
-  Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=nl-NL#create-a-subscription--form-with-double-opt-in){target="_blank"}.
+  Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=nl-NL#create-a-subscription--form-with-double-opt-in){target="_blank"}.
 
 
 * Maak een doelworkflow en gebruik een **[!UICONTROL Subscription service]** -activiteit.
@@ -71,12 +71,12 @@ Als u een profiel wilt afmelden bij een service, kunt u het volgende doen:
 * Geef een maximumduur voor de informatiedienst op: ontvangers worden automatisch afgemeld wanneer de geldigheidsperiode is verlopen. Deze periode wordt opgegeven op het tabblad Bewerken van de service-eigenschappen. Het wordt uitgedrukt in dagen.
 * Stel een workflow voor abonnementen in voor een populatie.
 
-Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=nl-NL#unsubscribing-a-recipient-from-a-service){target="_blank"}.
+Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=nl-NL#unsubscribing-a-recipient-from-a-service){target="_blank"}.
 
 
 >[!CAUTION]
 >
->In de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), zijn de abonnementen en de unsubscriptions **asynchrone** processen. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt. [Meer informatie](../architecture/new-apis.md#sub-apis)
+>In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), zijn de abonnementen en de unsubscriptions **asynchrone** processen. Aanvragen om te weigeren of te weigeren worden elk uur verwerkt. [Meer informatie](../architecture/new-apis.md#sub-apis)
 
 <!--
 You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages. 

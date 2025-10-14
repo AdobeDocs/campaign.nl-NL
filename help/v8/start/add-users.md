@@ -18,7 +18,7 @@ In Adobe Campaign, zijn de gebruikers **exploitanten** en **exploitantgroepen** 
 
 Een operator is een Adobe Campaign-gebruiker die gemachtigd is om zich aan te melden en handelingen uit te voeren. Operatoren worden standaard opgeslagen in het knooppunt **[!UICONTROL Administration > Access management > Operators]** .
 
-Adobe Campaign wordt geleverd met ingebouwde groepen operatoren, zoals Campagne Managers of Workflowsupervisors. Leer meer over toestemmingen in [ deze sectie ](../start/gs-permissions.md)
+Adobe Campaign wordt geleverd met ingebouwde groepen operatoren, zoals Campagne Managers of Workflowsupervisors. Leer meer over toestemmingen in [&#x200B; deze sectie &#x200B;](../start/gs-permissions.md)
 
 Als lid van een exploitantgroep, heeft een gebruiker rechten om verrichtingen uit te voeren, genoemd &quot;Benoemde Rechten&quot;, en heeft toegang tot gegevens, die in omslagen in de **mening van de Ontdekkingsreiziger** bevat is. Een operator kan lid zijn van meerdere groepen operatoren: rechten en toegangsmachtigingen zijn additief.
 
@@ -28,7 +28,7 @@ Rechten verlenen machtigingen aan:
 Bijvoorbeeld, analyseert **&#x200B;**&#x200B;knoop in de redacteur van de Levering wordt geactiveerd voor leden van de **3&rbrace; groep van de Exploitant van de Levering die** Gelegde Levering **hebben**
 
 * Toegang tot mappen
-Lidmaatschap van groepen met operatoren kan toegangsrechten verlenen of beperken tot mappen door de beveiligingsinstellingen voor mappen te wijzigen. Leer meer in [ deze pagina ](../start/folder-permissions.md). Bijvoorbeeld kan het beïnvloeden: **schrijf toegang** om nieuwe entiteiten (zoals leveringen, profielen, enz.) tot stand te brengen, **Gelezen toegang** om entiteiten te gebruiken, **schrapt toegang** om entiteiten te schrappen.
+Lidmaatschap van groepen met operatoren kan toegangsrechten verlenen of beperken tot mappen door de beveiligingsinstellingen voor mappen te wijzigen. Leer meer in [&#x200B; deze pagina &#x200B;](../start/folder-permissions.md). Bijvoorbeeld kan het beïnvloeden: **schrijf toegang** om nieuwe entiteiten (zoals leveringen, profielen, enz.) tot stand te brengen, **Gelezen toegang** om entiteiten te gebruiken, **schrapt toegang** om entiteiten te schrappen.
 
 ## Beveiligingszones
 
@@ -38,7 +38,7 @@ Operatoren zijn vanuit hun profiel in de console gekoppeld aan een beveiligingsz
 
 >[!NOTE]
 >
->Als gebruiker van Managed Cloud Services stelt Adobe de beveiligingszones voor u in. Voor meer informatie, [ contact Adobe ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+>Als gebruiker van Managed Cloud Services stelt Adobe de beveiligingszones voor u in. Voor meer informatie, [&#x200B; contact Adobe &#x200B;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 **Meer informatie**
 

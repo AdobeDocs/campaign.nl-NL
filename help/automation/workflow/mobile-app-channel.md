@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Mobiel App-kanaal{#mobile-app-channel}
 
-Het hieronder gedetailleerde werkschema wordt geïnstalleerd met de **Mobiele module van het Kanaal van de App** door gebrek. Voor meer op deze module, verwijs naar [ deze sectie ](../../v8/send/push.md).
+Het hieronder gedetailleerde werkschema wordt geïnstalleerd met de **Mobiele module van het Kanaal van de App** door gebrek. Voor meer op deze module, verwijs naar [&#x200B; deze sectie &#x200B;](../../v8/send/push.md).
 
 <table> 
  <tbody> 

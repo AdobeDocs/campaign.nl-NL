@@ -27,4 +27,4 @@ Alle campagneworkflows worden gecentraliseerd onder het knooppunt **[!UICONTROL 
 
 ![](assets/campaigns_wf.png)
 
-De werkschema&#39;s en de implementatievoorbeelden van de campagne zijn gedetailleerd in [ deze sectie ](../campaigns/marketing-campaign-target.md).
+De werkschema&#39;s en de implementatievoorbeelden van de campagne zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../campaigns/marketing-campaign-target.md).

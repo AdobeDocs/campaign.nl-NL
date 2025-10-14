@@ -35,15 +35,15 @@ U kunt leveringen op twee manieren toevoegen aan uw marketingcampagnes:
 
   Nadat de workflow is gestart, wordt de levering toegevoegd aan het campagnemdashboard.
 
-Leer hoe te opstelling en de stroom van de leveringsgoedkeuring [ in deze pagina ](marketing-campaign-approval.md) uit te voeren.
+Leer hoe te opstelling en de stroom van de leveringsgoedkeuring [&#x200B; in deze pagina &#x200B;](marketing-campaign-approval.md) uit te voeren.
 
 ## Levering starten {#start-a-delivery}
 
 Een levering kan worden verzonden zodra alle goedkeuringen zijn verleend. Het uitvoeringsproces van de levering is afhankelijk van het kanaal.
 
-* Voor e-mail of mobiele kanaalleveringen, verwijs naar [ deze sectie ](#start-an-online-delivery)
+* Voor e-mail of mobiele kanaalleveringen, verwijs naar [&#x200B; deze sectie &#x200B;](#start-an-online-delivery)
 
-* Voor directe postleveringen, verwijs naar [ deze sectie ](#start-an-offline-delivery)
+* Voor directe postleveringen, verwijs naar [&#x200B; deze sectie &#x200B;](#start-an-offline-delivery)
 
 ### Een e-mail of mobiele levering starten {#start-an-online-delivery}
 
@@ -64,7 +64,7 @@ Nochtans, kunt u de campagneeigenaar ook toestaan om te bevestigen verzendt, zel
 
 ### Een directe postbezorging starten {#start-an-offline-delivery}
 
-Zodra alle goedkeuringen zijn verleend, verandert de leveringsstatus in **[!UICONTROL Pending extraction]**. De extractiedossiers worden gecreeerd via een specifiek [ technisch werkschema ](../workflow/technical-workflows.md) dat, in een standaardconfiguratie, automatisch begint wanneer een directe postlevering extractie in afwachting is. Wanneer een proces bezig is, wordt het getoond in het dashboard en kan via zijn verbinding worden uitgegeven.
+Zodra alle goedkeuringen zijn verleend, verandert de leveringsstatus in **[!UICONTROL Pending extraction]**. De extractiedossiers worden gecreeerd via een specifiek [&#x200B; technisch werkschema &#x200B;](../workflow/technical-workflows.md) dat, in een standaardconfiguratie, automatisch begint wanneer een directe postlevering extractie in afwachting is. Wanneer een proces bezig is, wordt het getoond in het dashboard en kan via zijn verbinding worden uitgegeven.
 
 Nadat de extractieworkflow is voltooid, moet het extractiebestand worden goedgekeurd (mits de goedkeuring van het extractiebestand is geselecteerd in de leveringsinstellingen). [Meer informatie](marketing-campaign-approval.md#approving-an-extraction-file).
 
@@ -113,4 +113,4 @@ De bestandsuitwinning start twee processen: budgetberekening en voorraadberekeni
 
   >[!NOTE]
   >
-  >Leer meer over begrotingen [ in deze sectie ](providers-stocks-and-budgets.md).
+  >Leer meer over begrotingen [&#x200B; in deze sectie &#x200B;](providers-stocks-and-budgets.md).

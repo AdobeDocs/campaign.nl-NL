@@ -28,7 +28,7 @@ Standaard worden ze in submappen gesorteerd op leveringsmaand. Dit kan in de eig
 
 ## Monitorberichten {#monitor-transactional-msg}
 
-Om uw transactionele berichten te controleren, controleer de [ leveringslogboeken ](send.md).
+Om uw transactionele berichten te controleren, controleer de [&#x200B; leveringslogboeken &#x200B;](send.md).
 
 De transactionele leveringen die van de uitvoeringsinstantie worden verzonden worden gesynchroniseerd terug naar de controleinstantie door een technisch werkschema (**[!UICONTROL Message Center execution instance]**) dat elk uur in werking stelt.
 
@@ -75,7 +75,7 @@ De indicatoren die in de sectie **[!UICONTROL Indicators over the period]** word
 
 >[!NOTE]
 >
->De drempelwaarden voor de waarschuwings- (oranje) en waarschuwingsindicator (rood) kunnen worden geconfigureerd in de implementatiewizard van Adobe Campaign. Verwijs naar [ drempels van de Monitor ](#thresholds).
+>De drempelwaarden voor de waarschuwings- (oranje) en waarschuwingsindicator (rood) kunnen worden geconfigureerd in de implementatiewizard van Adobe Campaign. Verwijs naar [&#x200B; drempels van de Monitor &#x200B;](#thresholds).
 
 
 
@@ -98,7 +98,7 @@ De indicatoren die in de sectie **[!UICONTROL Indicators over the period]** word
 
 >[!NOTE]
 >
->De drempelwaarden voor de waarschuwings- (oranje) en waarschuwingsindicator (rood) kunnen worden geconfigureerd in de implementatiewizard van Adobe Campaign. Verwijs naar [ drempels van de Monitor ](#thresholds).
+>De drempelwaarden voor de waarschuwings- (oranje) en waarschuwingsindicator (rood) kunnen worden geconfigureerd in de implementatiewizard van Adobe Campaign. Verwijs naar [&#x200B; drempels van de Monitor &#x200B;](#thresholds).
 
 ### Drempels controleren {#thresholds}
 

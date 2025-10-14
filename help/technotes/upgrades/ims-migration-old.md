@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Migratie van de technische actoren van de campagne naar Adobe Developer Console {#migrate-tech-users-to-ims}
 
-Vanaf Campagne v8.5 wordt het verificatieproces naar Campagne v8 verbeterd. De technische exploitanten moeten [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} gebruiken om met Campagne te verbinden. Een technische operator is een Campagnegebruikersprofiel dat expliciet is gemaakt voor API-integratie. In dit artikel worden de stappen beschreven die nodig zijn om een technische operator naar een technische account op de Adobe Developer-console te migreren.
+Vanaf Campagne v8.5 wordt het verificatieproces naar Campagne v8 verbeterd. De technische exploitanten moeten [&#x200B; het Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} gebruiken om met Campagne te verbinden. Een technische operator is een Campagnegebruikersprofiel dat expliciet is gemaakt voor API-integratie. In dit artikel worden de stappen beschreven die nodig zijn om een technische operator naar een technische account op de Adobe Developer-console te migreren.
 
 ## Wat is er veranderd?{#ims-changes}
 
 Campagne voor gewone gebruikers maakt al verbinding met de Adobe Campaign-console via hun Adobe ID, via Adobe Identity Management System (IMS). Als onderdeel van de inspanning om veiligheid en authentificatieproces te versterken, roept de toepassing van de Cliënt van Adobe Campaign nu Campagne APIs direct gebruikend het technische IMS accountteken.
 
-Leer meer over de nieuwe server aan het proces van de serverauthentificatie in [ documentatie van Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Leer meer over de nieuwe server aan het proces van de serverauthentificatie in [&#x200B; documentatie van Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 Deze verandering is van toepassing beginnend Campagne v8.5, en zal **verplicht** aanvang Campagne v8.6 zijn.
 
@@ -36,7 +36,7 @@ De belangrijkste stappen zijn:
 
 1. Maak eerst de technische rekening die overeenkomt met de technische exploitant. Bijvoorbeeld, veronderstel de pas gecreëerde technische rekening (TA1) voor technische exploitant (TO1).
 1. Voer de hieronder beschreven stappen uit op technische rekening TA1
-   [ Stap 4 ](#ims-migration-step-4) is facultatief en slechts vereist als de technische exploitant specifieke omslagtoestemmingen heeft.
+   [&#x200B; Stap 4 &#x200B;](#ims-migration-step-4) is facultatief en slechts vereist als de technische exploitant specifieke omslagtoestemmingen heeft.
 1. Migreer alle de integratieimplementatie van de Campagne API aan de pas gecreëerde technische rekening TA1.
 1. Zodra alle klant die met API/Integratie te maken heeft volledig functioneel begint op TA1, vervang de technische exploitant TO1 door technische rekening TA1.
 
@@ -46,9 +46,9 @@ Voordat u het migratieproces start, moet u contact opnemen met uw Adobe Transiti
 
 ### Stap 1 - Uw Campagne-project maken/bijwerken in Adobe Developer Console{#ims-migration-step-1}
 
-De integratie wordt gecreeerd als deel van a **Project** binnen Adobe Developer Console. Leer meer over Projecten in [ documentatie van Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+De integratie wordt gecreeerd als deel van a **Project** binnen Adobe Developer Console. Leer meer over Projecten in [&#x200B; documentatie van Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-U kunt elk project gebruiken dat u eerder hebt gemaakt of u kunt een nieuw project maken. De stappen om een project tot stand te brengen zijn gedetailleerd in de [ documentatie van Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+U kunt elk project gebruiken dat u eerder hebt gemaakt of u kunt een nieuw project maken. De stappen om een project tot stand te brengen zijn gedetailleerd in de [&#x200B; documentatie van Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
 
 Voor deze migratie, moet u onder APIs in uw project toevoegen: **I/O Beheer API** en **Adobe Campaign**.
 
@@ -57,7 +57,7 @@ Voor deze migratie, moet u onder APIs in uw project toevoegen: **I/O Beheer API*
 
 ### Stap 2 - voeg API aan uw project toe gebruikend Server aan de authentificatie van de Server{#ims-migration-step-2}
 
-Zodra uw project in Adobe Developer Console wordt gecreeerd, voeg API toe die server-aan-Server authentificatie gebruikt. Leer hoe te opstelling de Server-aan-Server referentie OAuth in [ documentatie van Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
+Zodra uw project in Adobe Developer Console wordt gecreeerd, voeg API toe die server-aan-Server authentificatie gebruikt. Leer hoe te opstelling de Server-aan-Server referentie OAuth in [&#x200B; documentatie van Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
 Wanneer de API met succes is verbonden, kunt u tot de onlangs geproduceerde geloofsbrieven met inbegrip van identiteitskaart van de Cliënt en Geheim van de Cliënt toegang hebben, evenals een toegangstoken produceren.
 
@@ -174,14 +174,14 @@ You can also update the technical operator programmatically, using SQL scripts o
 
 ### Stap 5 - bevestig uw configuratie {#ims-migration-step-5}
 
-Om de verbinding uit te proberen, volg de stappen in de [ de geloofsbrieven van Adobe Developer Console gids ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} voor het produceren van een toegangstoken worden gedetailleerd en kopieer het bevel van de Steekproef cURL verstrekte.
+Om de verbinding uit te proberen, volg de stappen in de [&#x200B; de geloofsbrieven van Adobe Developer Console gids &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} voor het produceren van een toegangstoken worden gedetailleerd en kopieer het bevel van de Steekproef cURL verstrekte.
 
 
 ### Stap 6 - Werk de externe API-integratie bij {#ims-migration-step-6}
 
 U moet de API-integratie bijwerken met systemen van derden.
 
-Voor verdere details over API integratiestappen, met inbegrip van een steekproefcode voor vlotte integratie, verwijs naar [ de authentificatiedocumentatie van Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Voor verdere details over API integratiestappen, met inbegrip van een steekproefcode voor vlotte integratie, verwijs naar [&#x200B; de authentificatiedocumentatie van Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 
 ### Stap 7 - Verwijder de oude technische operator {#ims-migration-step-7}

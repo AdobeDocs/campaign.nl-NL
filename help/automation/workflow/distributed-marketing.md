@@ -17,7 +17,7 @@ ht-degree: 2%
 
 
 
-Het hieronder gedetailleerde werkschema wordt geïnstalleerd met de **Verdeelde module van de Marketing** door gebrek. Voor meer op deze module, verwijs naar [ deze sectie ](../distributed-marketing/about-distributed-marketing.md).
+Het hieronder gedetailleerde werkschema wordt geïnstalleerd met de **Verdeelde module van de Marketing** door gebrek. Voor meer op deze module, verwijs naar [&#x200B; deze sectie &#x200B;](../distributed-marketing/about-distributed-marketing.md).
 
 <table> 
  <tbody> 

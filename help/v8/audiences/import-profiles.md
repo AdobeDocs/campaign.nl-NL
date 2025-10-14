@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Profielen importeren uit een bestand{#create-profiles}
 
-Om uw gegevensbestand van de Campagne te bevolken, kunt u [ profielen manueel ](create-profiles.md) toevoegen of profielen invoeren zoals hieronder gedetailleerd. U kunt ook geïmporteerde bestanden gebruiken om contactgegevens bij te werken.
+Om uw gegevensbestand van de Campagne te bevolken, kunt u [&#x200B; profielen manueel &#x200B;](create-profiles.md) toevoegen of profielen invoeren zoals hieronder gedetailleerd. U kunt ook geïmporteerde bestanden gebruiken om contactgegevens bij te werken.
 
 ## Profielen importeren met een workflow {#import-profiles-with-a-wf}
 
@@ -38,4 +38,4 @@ Algemene importbewerkingen worden beheerd via het menu **[!UICONTROL Profiles an
 
 ![](assets/new-import-job.png)
 
-De stappen om een generische invoer uit te voeren zijn gedetailleerd in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=nl-NL){target="_blank"}.
+De stappen om een generische invoer uit te voeren zijn gedetailleerd in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=nl-NL){target="_blank"}.

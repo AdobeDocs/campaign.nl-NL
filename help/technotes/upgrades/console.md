@@ -56,7 +56,7 @@ Vanaf 8.6 ondersteunen alle versies van Campagne v8 geen 32-bits besturingssyste
 
 +++Hoe kan ik een upgrade uitvoeren van Windows (32-bits) naar Windows (64-bits)?
 
-Zorg ervoor dat de processor van uw computer de installatie van een 64-bits besturingssysteem ondersteunt. Als u een upgrade uitvoert van de 32-bits versie naar de 64-bits versie van Windows, moet u de vaste schijf opnieuw opmaken, de 64-bits versie van Windows installeren en vervolgens alle andere gegevens die u op uw apparaat had opnieuw installeren. Voor meer informatie, zie [ met 32 bits en met 64 bits Vensters: Veelgestelde vragen ](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
+Zorg ervoor dat de processor van uw computer de installatie van een 64-bits besturingssysteem ondersteunt. Als u een upgrade uitvoert van de 32-bits versie naar de 64-bits versie van Windows, moet u de vaste schijf opnieuw opmaken, de 64-bits versie van Windows installeren en vervolgens alle andere gegevens die u op uw apparaat had opnieuw installeren. Voor meer informatie, zie [&#x200B; met 32 bits en met 64 bits Vensters: Veelgestelde vragen &#x200B;](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
 
 +++
 

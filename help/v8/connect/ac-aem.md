@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Dankzij de integratie tussen Adobe Campaign en Adobe Experience Manager kunt u de inhoud van uw e-mailleveringen en uw formulieren direct in Adobe Experience Manager beheren.
 
-[ ontdekt hoe te om uw Adobe Experience Manager als inhoud van Cloud Service binnen de Interface van het Web van de Campagne uit te geven ](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=nl-NL){target="_blank"}.
+[&#x200B; ontdekt hoe te om uw Adobe Experience Manager als inhoud van Cloud Service binnen de Interface van het Web van de Campagne uit te geven &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=nl-NL){target="_blank"}.
 
-[ Leer meer over Adobe Experience Manager in dit document ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=nl-NL#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
+[&#x200B; Leer meer over Adobe Experience Manager in dit document &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=nl-NL#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
 
 
 >[!NOTE]
 >
->Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support) om Adobe Experience Manager met Campagne te integreren.
+>Als Beheerde gebruiker van de Diensten van de Wolk, [&#x200B; contacteer Adobe &#x200B;](../start/campaign-faq.md#support) om Adobe Experience Manager met Campagne te integreren.
 
 ## Inhoud importeren uit Adobe Experience Manager {#integrating-with-aem}
 
@@ -47,7 +47,7 @@ Deze integratie kan bijvoorbeeld worden gebruikt voor het maken van een nieuwsbr
 
    ![](assets/aem_authoring_3.png)
 
-1. Pas uw e-mailinhoud aan door componenten toe te voegen, zoals personalisatievelden van Adobe Campaign. Leer meer in [ documentatie van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=nl-NL#editing-email-content){target="_blank"}.
+1. Pas uw e-mailinhoud aan door componenten toe te voegen, zoals personalisatievelden van Adobe Campaign. Leer meer in [&#x200B; documentatie van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=nl-NL#editing-email-content){target="_blank"}.
 
 1. Wanneer uw e-mail gereed is, navigeert u naar het menu **[!UICONTROL Page information]** en klikt u op **[!UICONTROL Start workflow]** .
 
@@ -95,7 +95,7 @@ Uw e-mail kan nu naar uw publiek worden verzonden.
 
 ## Elementen importeren uit Adobe Experience Manager Assets-bibliotheek {#assets-library}
 
-U kunt ook rechtstreeks elementen van uw [!DNL Adobe Experience Manager Assets Library] invoegen tijdens het bewerken van een e-mail- of landingspagina in Adobe Campaign. Deze functionaliteit wordt gedetailleerd in [ documentatie van Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=nl-NL){target="_blank"}.
+U kunt ook rechtstreeks elementen van uw [!DNL Adobe Experience Manager Assets Library] invoegen tijdens het bewerken van een e-mail- of landingspagina in Adobe Campaign. Deze functionaliteit wordt gedetailleerd in [&#x200B; documentatie van Adobe Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=nl-NL){target="_blank"}.
 
 **van Adobe Experience Manager:**
 
@@ -103,7 +103,7 @@ U kunt ook rechtstreeks elementen van uw [!DNL Adobe Experience Manager Assets L
 
    ![](assets/aem_assets_1.png)
 
-1. Klik **creëren** toen **Dossiers** om uw activa in uw **Bibliotheek van Adobe Experience Manager Assets** in te voeren. Leer meer in [ documentatie van de Manager van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=nl-NL#uploading-assets){target="_blank"}.
+1. Klik **creëren** toen **Dossiers** om uw activa in uw **Bibliotheek van Adobe Experience Manager Assets** in te voeren. Leer meer in [&#x200B; documentatie van de Manager van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=nl-NL#uploading-assets){target="_blank"}.
 
    ![](assets/aem_assets_2.png)
 

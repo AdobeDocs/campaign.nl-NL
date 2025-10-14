@@ -20,7 +20,7 @@ A **[!UICONTROL Union]** groepeert het resultaat van verscheidene binnenkomende 
 
 >[!NOTE]
 >
->Voor meer bij het vormen van en het gebruiken van de **[!UICONTROL Union]** activiteit, verwijs naar [ deze pagina ](targeting-workflows.md#combining-several-targets--union-).
+>Voor meer bij het vormen van en het gebruiken van de **[!UICONTROL Union]** activiteit, verwijs naar [&#x200B; deze pagina &#x200B;](targeting-workflows.md#combining-several-targets--union-).
 
 ## Voorbeeld van Vereniging {#union-example}
 
@@ -34,7 +34,7 @@ In het volgende voorbeeld zijn de resultaten van twee query&#39;s gecombineerd o
 
    Specificeer dit definitieve aantal door het maximumaantal ontvangers in te gaan en door de vraag te selecteren waarvan de bevolking prioriteit zal nemen.
 
-1. Goedkeur de **[!UICONTROL Union]** activiteit dan vormen de [ update ](list-update.md) activiteit van de Lijst.
+1. Goedkeur de **[!UICONTROL Union]** activiteit dan vormen de [&#x200B; update &#x200B;](list-update.md) activiteit van de Lijst.
 1. Start de workflow. Het aantal resultaten wordt weergegeven en de lijst die is gedefinieerd in de updateactiviteit van de lijst, wordt gemaakt of bijgewerkt. Deze lijst bevat de reeks ontvangers voor beide query&#39;s of, indien van toepassing, het nummer dat bij de vorige stap is gedefinieerd.
 
    ![](assets/union_example.png)

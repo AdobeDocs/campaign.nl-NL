@@ -91,7 +91,7 @@ Voor elke bron, laat het **[!UICONTROL Forum]** lusje deelnemers informatie dele
 
 ![](assets/mkt-resource-forum.png)
 
-Leer meer in de [ forums van de Bespreking ](discussion-forums.md) sectie.
+Leer meer in de [&#x200B; forums van de Bespreking &#x200B;](discussion-forums.md) sectie.
 
 ### Goedkeuringsproces {#approval-process}
 
@@ -132,7 +132,7 @@ Adobe Campaign kan alleen publiceren als u een geschikte workflow maakt en deze 
 De workflow wordt uitgevoerd:
 
 * Wanneer de controleur op de koppeling **[!UICONTROL Publish resource]** klikt (of, als er geen controleur is gedefinieerd, op de persoon die de bron beheert).
-* Als de bron wordt beheerd via een marketingtaak voor het maken van resources, wordt deze uitgevoerd wanneer de taak is ingesteld op **[!UICONTROL Finished]** , zolang het vak **[!UICONTROL Publish the marketing resource]** in de taak is ingecheckt. [ leer meer ](creating-and-managing-tasks.md#marketing-resource-creation-task))
+* Als de bron wordt beheerd via een marketingtaak voor het maken van resources, wordt deze uitgevoerd wanneer de taak is ingesteld op **[!UICONTROL Finished]** , zolang het vak **[!UICONTROL Publish the marketing resource]** in de taak is ingecheckt. [&#x200B; leer meer &#x200B;](creating-and-managing-tasks.md#marketing-resource-creation-task))
 
 Als een werkstroom niet onmiddellijk wordt gestart (als de werkstroom bijvoorbeeld wordt gestopt), verandert de status van de bron in **[!UICONTROL Pending publication]** . Zodra de werkstroom is gestart, verandert de status van de bron in **[!UICONTROL Published]** . Deze status houdt geen rekening met mogelijke fouten in het publicatieproces. Controleer de status van uw workflow om er zeker van te zijn dat deze correct is uitgevoerd.
 
@@ -140,7 +140,7 @@ Als een werkstroom niet onmiddellijk wordt gestart (als de werkstroom bijvoorbee
 
 ### Verwijzing naar een marketingbron {#referencing-a-marketing-resource}
 
-De marketing middelen kunnen met campagnes worden geassocieerd, op voorwaarde dat deze eigenschap in het [ campagnemalplaatje ](../campaigns/marketing-campaign-templates.md) werd geselecteerd.
+De marketing middelen kunnen met campagnes worden geassocieerd, op voorwaarde dat deze eigenschap in het [&#x200B; campagnemalplaatje &#x200B;](../campaigns/marketing-campaign-templates.md) werd geselecteerd.
 
 Blader naar het tabblad **[!UICONTROL Edit > Documents > Resources]** in het campagnedashboard en klik vervolgens op **[!UICONTROL Add]** om de desbetreffende bron te selecteren.
 
@@ -154,7 +154,7 @@ Gebruik de knop **[!UICONTROL Details]** om de bron te bewerken en voor te verto
 
 Marketingbronnen kunnen worden gekoppeld aan leveringen via leveringscontouren.
 
-Leer meer over leveringsoverzichten in [ deze sectie ](../campaigns/marketing-campaign-deliveries.md).
+Leer meer over leveringsoverzichten in [&#x200B; deze sectie &#x200B;](../campaigns/marketing-campaign-deliveries.md).
 
 Om dit te doen, klik op een leveringsoverzicht met de rechtermuisknop aan en selecteer **Nieuw > Middel**.
 
@@ -172,7 +172,7 @@ U kunt een marketingbron koppelen aan een of meer voorraden om uw voorraad te be
 
 Volg onderstaande stappen om een marketingbron te koppelen aan een bestand:
 
-1. Een bestand bewerken of een nieuw bestand maken. Leer meer over aandelen in [ deze sectie ](../campaigns/providers-stocks-and-budgets.md#stock-management).
+1. Een bestand bewerken of een nieuw bestand maken. Leer meer over aandelen in [&#x200B; deze sectie &#x200B;](../campaigns/providers-stocks-and-budgets.md#stock-management).
 
 1. Voeg een voorraadlijn toe, en selecteer de overeenkomstige marketing middel.
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Een workflow starten, pauzeren, stoppen {#starting-a-workflow}
 
-Een workflow wordt altijd handmatig gestart. Wanneer begonnen, kan het echter inactief afhankelijk van de informatie blijven die via een planner wordt gespecificeerd (zie [ Planner ](scheduler.md)) of activiteit die plannen.
+Een workflow wordt altijd handmatig gestart. Wanneer begonnen, kan het echter inactief afhankelijk van de informatie blijven die via een planner wordt gespecificeerd (zie [&#x200B; Planner &#x200B;](scheduler.md)) of activiteit die plannen.
 
 De acties met betrekking tot het richten van werkschemauitvoering (lancering, einde, pauze, enz.) zijn **asynchrone** processen: de orde wordt geregistreerd en zal van kracht zijn zodra de server beschikbaar is om het toe te passen.
 
@@ -76,7 +76,7 @@ Met de knop **[!UICONTROL Actions]** van de werkbalk hebt u toegang tot extra op
 
 * **[!UICONTROL Purge history]**
 
-  Met deze handeling kunt u de historie van de workflow wissen. Voor meer op dit, verwijs naar [ het Schrappen van de logboeken ](monitor-workflow-execution.md#purging-the-logs).
+  Met deze handeling kunt u de historie van de workflow wissen. Voor meer op dit, verwijs naar [&#x200B; het Schrappen van de logboeken &#x200B;](monitor-workflow-execution.md#purging-the-logs).
 
 * **[!UICONTROL Start in simulation mode]**
 
@@ -122,7 +122,7 @@ De volgende opties zijn beschikbaar in het klikmenu met de rechtermuisknop:
 
 **[!UICONTROL Open]** : met deze optie hebt u toegang tot de eigenschappen activity.
 
-**[!UICONTROL Display logs:]** met deze optie kunt u het logboek voor taakuitvoering weergeven voor de geselecteerde activiteit. Verwijs naar [ Weergevend logboeken ](monitor-workflow-execution.md#displaying-logs).
+**[!UICONTROL Display logs:]** met deze optie kunt u het logboek voor taakuitvoering weergeven voor de geselecteerde activiteit. Verwijs naar [&#x200B; Weergevend logboeken &#x200B;](monitor-workflow-execution.md#displaying-logs).
 
 **[!UICONTROL Execute pending task(s) now:]** hiermee kunt u taken die in behandeling zijn, zo snel mogelijk starten.
 
@@ -132,7 +132,7 @@ De volgende opties zijn beschikbaar in het klikmenu met de rechtermuisknop:
 
 Met deze optie kunt u een screenshot maken van alle activiteiten. **[!UICONTROL Copy as bitmap:]**
 
-**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** deze opties zijn ook beschikbaar op het tabblad **[!UICONTROL Advanced]** van de eigenschappen activity. Zij zijn gedetailleerd in [ Uitvoering ](advanced-parameters.md#execution).
+**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** deze opties zijn ook beschikbaar op het tabblad **[!UICONTROL Advanced]** van de eigenschappen activity. Zij zijn gedetailleerd in [&#x200B; Uitvoering &#x200B;](advanced-parameters.md#execution).
 
 Met **[!UICONTROL Save / Cancel:]** kunt u de wijzigingen in een workflow opslaan of annuleren.
 
