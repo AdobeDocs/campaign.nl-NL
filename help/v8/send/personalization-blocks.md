@@ -4,8 +4,9 @@ description: Leer hoe u ingebouwde aanpassingsblokken in uw berichtinhoud kunt g
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Personalisatieblokken zijn dynamische inhoud die een specifieke rendering bevat die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een begroetingsbericht of een koppeling naar een spiegelpagina toevoegen.
 
-Blader naar het knooppunt **[!UICONTROL Resources > Campaign Management > Personalization blocks]** van de verkenner om toegang te krijgen tot gepersonaliseerde inhoudsblokken. De ingebouwde verpersoonlijkingsblokken zijn vermeld in [&#x200B; deze sectie &#x200B;](#ootb-personalization-blocks).
+Blader naar het knooppunt **[!UICONTROL Resources > Campaign Management > Personalization blocks]** van de verkenner om toegang te krijgen tot gepersonaliseerde inhoudsblokken. De ingebouwde verpersoonlijkingsblokken zijn vermeld in [ deze sectie ](#ootb-personalization-blocks).
 
 U kunt ook nieuwe blokken definiëren om uw leveringen te optimaliseren. [Meer informatie](#create-custom-personalization-blocks).
 
@@ -42,7 +43,7 @@ Ingebouwde verpersoonlijkingsblokken zijn:
 * **[!UICONTROL Formatting function for proper nouns]**: genereert de functie **[!UICONTROL toSmartCase]** Javascript, die de eerste letter van elk woord in hoofdletters wijzigt.
 * **[!UICONTROL Greetings]** : voegt begroetingen in met de volledige naam van de ontvanger, gevolgd door een komma. Voorbeeld: &quot;Hello John Doe,&quot;.
 * **[!UICONTROL Insert logo]** : voegt een logo in dat is gedefinieerd in de instantie-instellingen.
-* **[!UICONTROL Link to mirror page]**: neemt een verbinding aan de [&#x200B; spiegelpagina &#x200B;](mirror-page.md) op. De standaardnotatie is: &quot;Als u dit bericht niet correct kunt weergeven, klikt u hier&quot;.
+* **[!UICONTROL Link to mirror page]**: neemt een verbinding aan de [ spiegelpagina ](mirror-page.md) op. De standaardnotatie is: &quot;Als u dit bericht niet correct kunt weergeven, klikt u hier&quot;.
 * **[!UICONTROL Mirror page URL]**: voegt de URL van de spiegelpagina in, waardoor de leveringsontwerpers de koppeling kunnen controleren.
 * **[!UICONTROL Offer acceptance URL in unitary mode]** : voegt een URL in waarmee een aanbieding kan worden ingesteld op **[!UICONTROL Accepted]** . (Dit blok is beschikbaar als de module van de Interactie wordt toegelaten)
 * **[!UICONTROL Registration confirmation]** : voegt een koppeling in waarmee u uw abonnement kunt bevestigen.

@@ -4,8 +4,9 @@ description: Leer hoe u verpersoonlijkingsgegevens invoegt in uw berichtinhoud
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 14a741dd-794e-4760-bfa3-bafbe993a3f7
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Gebruik verpersoonlijkingsgebieden om gepersonaliseerde inhoud op een één-aan-
 
 Een verpersoonlijkingsgebied is één enkele verwijzing van het gegevensgebied die wanneer het personaliseren van een levering voor een specifieke ontvanger wordt gebruikt. De werkelijke gegevenswaarde wordt ingevoegd tijdens de fase van de leveringsanalyse.
 
-![&#x200B; steekproef van de berichtverpersoonlijking &#x200B;](assets/perso-name-sample.png)
+![ steekproef van de berichtverpersoonlijking ](assets/perso-name-sample.png)
 
 ## Syntaxis
 
@@ -34,11 +35,11 @@ Als u bijvoorbeeld de naam van de ontvanger wilt invoegen, die is opgeslagen in 
 
 Als u verpersoonlijkingsvelden wilt invoegen, klikt u op het vervolgkeuzepictogram dat toegankelijk is vanuit een veld voor de koptekst, het onderwerp of de berichttekst.
 
-![&#x200B; neem een verpersoonlijkingsgebied &#x200B;](assets/perso-field-insert.png) op
+![ neem een verpersoonlijkingsgebied ](assets/perso-field-insert.png) op
 
 De verpersoonlijkingsgebieden worden opgenomen, en klaar om door Adobe Campaign te worden geïnterpreteerd: tijdens berichtvoorbereiding, worden de gebieden vervangen door hun waarde voor een bepaalde ontvanger.
 
-![&#x200B; verpersoonlijkingsgebieden in e-mail &#x200B;](assets/perso-fields-in-msg.png)
+![ verpersoonlijkingsgebieden in e-mail ](assets/perso-fields-in-msg.png)
 
 Deze vervanging kan vervolgens worden getest op het tabblad **[!UICONTROL Preview]** .
 

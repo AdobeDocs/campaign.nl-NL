@@ -4,8 +4,9 @@ description: Leer hoe u de inhoud van berichten kunt aanpassen
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 5%
@@ -16,7 +17,7 @@ ht-degree: 5%
 
 Om optimaal te profiteren van elke marketingcampagne, biedt Adobe Campaign u een manier om aangepaste inhoud te leveren die klanten op hun niveau spreekt. Gebaseerd op profielgegevens, verpersoonlijkingsmogelijkheden om een douaneervaring voor verschillende groepen en individuen tot stand te brengen: u kunt uw berichten aan elke specifieke ontvanger aanpassen door de gegevens en de informatie te gebruiken u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en nog veel meer.
 
-Adobe Campaign vereenvoudigt verpersoonlijking: u kunt verschillende soorten inhoud tonen die voor elke ontvanger wordt aangepast gebruikend één enkel [&#x200B; berichtmalplaatje &#x200B;](create-templates.md). In je transactieberichten, zoals het e-mailbericht voor bevestiging van de aankoop of het verlaten van het winkelwagentje, moet je voor elk individu informatie over productaanbiedingen opnemen in één e-mailtemplate.
+Adobe Campaign vereenvoudigt verpersoonlijking: u kunt verschillende soorten inhoud tonen die voor elke ontvanger wordt aangepast gebruikend één enkel [ berichtmalplaatje ](create-templates.md). In je transactieberichten, zoals het e-mailbericht voor bevestiging van de aankoop of het verlaten van het winkelwagentje, moet je voor elk individu informatie over productaanbiedingen opnemen in één e-mailtemplate.
 
 
 ## Personalization-strategieën {#personalization-strategy}
@@ -62,7 +63,7 @@ Als u deze optie instelt op 0, is er geen tijdslimiet voor de verpersoonlijkings
 
 ### Interne variabelen{#internal-variables}
 
-De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen worden gebruikt maar moeten niet worden gewijzigd: **levering**, **bericht**, **dataSource**, **targetData**, **leverancier**, **coupon**, **couponValue**, **5&rbrace;.**
+De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen worden gebruikt maar moeten niet worden gewijzigd: **levering**, **bericht**, **dataSource**, **targetData**, **leverancier**, **coupon**, **couponValue**, **5}.**
 
 
 ## Video over zelfstudie {#personalization-video}
@@ -70,4 +71,4 @@ De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen
 Begrijp de verschillende soorten dynamische content en leer personalisatieblokken en voorwaardelijke verklaringen maken en toepassen op een levering.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452874?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)
