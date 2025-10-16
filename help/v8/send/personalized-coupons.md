@@ -18,7 +18,7 @@ Door coupons toe te voegen aan uw leveringen kunnen uw ontvangers meer waarde kr
 
 >[!AVAILABILITY]
 >
->Couponbeheer is niet beschikbaar in Campaign v8 in de context van een implementatie voor bedrijven (FFDA). Leer meer in [ documentatie van de Campagne v8 ](../architecture/enterprise-deployment.md).
+>Couponbeheer is niet beschikbaar in Campaign v8 in de context van een implementatie voor bedrijven (FFDA). Leer meer in [&#x200B; documentatie van de Campagne v8 &#x200B;](../architecture/enterprise-deployment.md).
 
 Couponbeheer is afhankelijk van een pakket dat moet worden geïnstalleerd. Controleer **[!UICONTROL Administration > Configuration > Package management > Installed packages.]** om te bevestigen dat u Coupon-beheer hebt
 
@@ -53,11 +53,11 @@ Voordat u de onderstaande stappen uitvoert, moet u weten welk type coupon u wilt
    1. Voer een unieke code voor de afzonderlijke coupon in als u hierom wordt gevraagd door het pop-upvenster.
    1. Klik op **[!UICONTROL Save]** om de coupon te genereren.
 
-   Voor meer details over het lusje van Coupons, zie [ individuele coupons ](#configuring-individual-coupons) vormen.
+   Voor meer details over het lusje van Coupons, zie [&#x200B; individuele coupons &#x200B;](#configuring-individual-coupons) vormen.
 
    >[!NOTE]
    >
-   >Individuele coupons kunnen bulksgewijs worden ingevoerd. Voor details betreffende het invoeren en het uitvoeren, verwijs naar [ deze sectie ](../start/import.md).
+   >Individuele coupons kunnen bulksgewijs worden ingevoerd. Voor details betreffende het invoeren en het uitvoeren, verwijs naar [&#x200B; deze sectie &#x200B;](../start/import.md).
 
 ### Afzonderlijke coupons configureren {#configuring-individual-coupons}
 
@@ -74,7 +74,7 @@ De waarden voor **[!UICONTROL status]** , **[!UICONTROL channel]** en **[!UICONT
 
 ## Een coupon invoegen in een e-maillevering {#inserting-a-coupon-into-an-email-delivery}
 
-In het onderstaande voorbeeld wordt de levering gemaakt op de startpagina. Voor gedetailleerde instructies op hoe te om een levering te creëren, verwijs naar [ deze sectie ](email.md)
+In het onderstaande voorbeeld wordt de levering gemaakt op de startpagina. Voor gedetailleerde instructies op hoe te om een levering te creëren, verwijs naar [&#x200B; deze sectie &#x200B;](email.md)
 1. Ga naar **[!UICONTROL Campaigns]** en kies **[!UICONTROL Deliveries]** .
 1. Klik op **[!UICONTROL Create]**.
 
@@ -135,7 +135,7 @@ In het onderstaande voorbeeld wordt de levering gemaakt op de startpagina. Voor 
 
 >[!NOTE]
 >
->Voor instructies op hoe te om ontoereikende coupons voor een levering te beheren, zie [ ontoereikende coupons beheren ](#managing-insufficient-coupons)
+>Voor instructies op hoe te om ontoereikende coupons voor een levering te beheren, zie [&#x200B; ontoereikende coupons beheren &#x200B;](#managing-insufficient-coupons)
 
 Bevestig dat de levering succesvol was:
 
@@ -150,7 +150,7 @@ Bevestig dat de levering succesvol was:
 >
 >Door gebrek, gebruikt de module van het couponbeheer een **nms:recipient** lijst. [Meer informatie](../dev/datamodel.md#ootb-profiles).
 >
->Leer hoe te om een douane ontvankelijke lijst [ in deze pagina ](../dev/custom-recipient.md) te gebruiken.
+>Leer hoe te om een douane ontvankelijke lijst [&#x200B; in deze pagina &#x200B;](../dev/custom-recipient.md) te gebruiken.
 
 ## Onvoldoende coupons beheren {#managing-insufficient-coupons}
 
