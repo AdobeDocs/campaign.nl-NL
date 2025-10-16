@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Om optimaal te profiteren van elke marketingcampagne, biedt Adobe Campaign u een manier om aangepaste inhoud te leveren die klanten op hun niveau spreekt. Gebaseerd op profielgegevens, verpersoonlijkingsmogelijkheden om een douaneervaring voor verschillende groepen en individuen tot stand te brengen: u kunt uw berichten aan elke specifieke ontvanger aanpassen door de gegevens en de informatie te gebruiken u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en nog veel meer.
 
-Adobe Campaign vereenvoudigt verpersoonlijking: u kunt verschillende soorten inhoud tonen die voor elke ontvanger wordt aangepast gebruikend één enkel [ berichtmalplaatje ](create-templates.md). In je transactieberichten, zoals het e-mailbericht voor bevestiging van de aankoop of het verlaten van het winkelwagentje, moet je voor elk individu informatie over productaanbiedingen opnemen in één e-mailtemplate.
+Adobe Campaign vereenvoudigt verpersoonlijking: u kunt verschillende soorten inhoud tonen die voor elke ontvanger wordt aangepast gebruikend één enkel [&#x200B; berichtmalplaatje &#x200B;](create-templates.md). In je transactieberichten, zoals het e-mailbericht voor bevestiging van de aankoop of het verlaten van het winkelwagentje, moet je voor elk individu informatie over productaanbiedingen opnemen in één e-mailtemplate.
 
 
 ## Personalization-strategieën {#personalization-strategy}
@@ -63,7 +63,7 @@ Als u deze optie instelt op 0, is er geen tijdslimiet voor de verpersoonlijkings
 
 ### Interne variabelen{#internal-variables}
 
-De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen worden gebruikt maar moeten niet worden gewijzigd: **levering**, **bericht**, **dataSource**, **targetData**, **leverancier**, **coupon**, **couponValue**, **5}.**
+De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen worden gebruikt maar moeten niet worden gewijzigd: **levering**, **bericht**, **dataSource**, **targetData**, **leverancier**, **coupon**, **couponValue**, **5&rbrace;.**
 
 
 ## Video over zelfstudie {#personalization-video}

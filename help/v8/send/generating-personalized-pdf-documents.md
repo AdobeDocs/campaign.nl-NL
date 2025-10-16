@@ -22,7 +22,7 @@ De volgende extensies worden ondersteund: &quot;.docx&quot;, &quot;.doc&quot; en
 
 Voor het personaliseren van uw documenten zijn dezelfde JavaScript-functies beschikbaar als voor het aanpassen van e-mails.
 
-U moet de optie **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** activeren. Deze optie is toegankelijk wanneer u het bestand bijvoegt bij de e-mail voor levering. Voor meer bij het vastmaken van een berekend dossier, verwijs de [ documentatie van de Campagne v8 ](attaching-files.md).
+U moet de optie **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** activeren. Deze optie is toegankelijk wanneer u het bestand bijvoegt bij de e-mail voor levering. Voor meer bij het vastmaken van een berekend dossier, verwijs de [&#x200B; documentatie van de Campagne v8 &#x200B;](attaching-files.md).
 
 Als u dynamische tabellen wilt genereren of afbeeldingen wilt opnemen via een URL, moet u een specifiek proces volgen.
 
