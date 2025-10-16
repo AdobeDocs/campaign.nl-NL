@@ -71,4 +71,4 @@ De volgende variabelen zijn interne variabelen die voor verpersoonlijking kunnen
 Begrijp de verschillende soorten dynamische content en leer personalisatieblokken en voorwaardelijke verklaringen maken en toepassen op een levering.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452874?captions=dut&quality=12)
