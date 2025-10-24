@@ -6,9 +6,9 @@ feature: Campaigns, Audiences
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1484'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 In een marketingcampagne kunt u voor elke levering het volgende definiëren:
 
-* Het doelpubliek. U kunt berichten naar a [&#x200B; lijst van ontvanger &#x200B;](#send-to-a-group) verzenden of een [&#x200B; publiek in een werkschema bouwen &#x200B;](#build-the-main-target-in-a-workflow)
-* Een controlegroep. U kunt [&#x200B; een controlegroep &#x200B;](#add-a-control-group) toevoegen om ontvangers te controleren gedrag na berichtlevering
-* De adressen van het zaad - leren meer in [&#x200B; deze sectie &#x200B;](../../v8/audiences/test-profiles.md).—>
+* Het doelpubliek. U kunt berichten naar a [ lijst van ontvanger ](#send-to-a-group) verzenden of een [ publiek in een werkschema bouwen ](#build-the-main-target-in-a-workflow)
+* Een controlegroep. U kunt [ een controlegroep ](#add-a-control-group) toevoegen om ontvangers te controleren gedrag na berichtlevering
+* Zaadadressen - leer meer in [ deze sectie ](../../v8/audiences/test-profiles.md).
 
-Sommige van deze informatie kan van het [&#x200B; campagnemalplaatje &#x200B;](marketing-campaign-templates.md#campaign-templates) worden geërft.
+Sommige van deze informatie kan van het [ campagnemalplaatje ](marketing-campaign-templates.md#campaign-templates) worden geërft.
 
 <!--
 To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in [this section](../../delivery/using/steps-defining-the-target-population.md).
@@ -63,7 +63,7 @@ Het richten kan door een combinatie filtervoorwaarden in een grafische opeenvolg
 
 ![](assets/targeting-and-wf-tab.png)
 
-De doelpopulatie wordt geëxtraheerd uit de Adobe Campaign-database via een of meer query&#39;s die in een workflow zijn geplaatst. Leer hoe te om een vraag in [&#x200B; te bouwen deze sectie &#x200B;](../workflow/query.md).
+De doelpopulatie wordt geëxtraheerd uit de Adobe Campaign-database via een of meer query&#39;s die in een workflow zijn geplaatst. Leer hoe te om een vraag in [ te bouwen deze sectie ](../workflow/query.md).
 
 U kunt query&#39;s starten en populaties delen via vakken zoals Union, Intersection, Sharing, Exclusion enzovoort.
 
@@ -75,7 +75,7 @@ In het diagram, verbind omhoog het richten en het plannen van vragen die voor do
 
 >[!NOTE]
 >
->De voorbeelden en de procedure om vragen te bepalen zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../workflow/query.md).
+>De voorbeelden en de procedure om vragen te bepalen zijn gedetailleerd in [ deze sectie ](../workflow/query.md).
 
 Het linkergedeelte van de editor bevat een bibliotheek met grafische objecten die activiteiten vertegenwoordigen. Het eerste lusje bevat de het richten activiteiten, en het tweede lusje bevat de stroom-controle activiteiten, die af en toe worden gebruikt om het richten activiteiten te coördineren.
 
@@ -85,7 +85,7 @@ De functies voor het uitvoeren en opmaken van werkstromen voor het opgeven van d
 
 >[!NOTE]
 >
->De activiteiten beschikbaar om het diagram te bouwen evenals alle vertoning en lay-outeigenschappen zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../workflow/about-workflows.md).
+>De activiteiten beschikbaar om het diagram te bouwen evenals alle vertoning en lay-outeigenschappen zijn gedetailleerd in [ deze sectie ](../workflow/about-workflows.md).
 
 U kunt verschillende doelworkflows voor één campagne maken. Een workflow toevoegen:
 
@@ -177,6 +177,10 @@ Een controlegroep is een populatie die de levering niet zal ontvangen; het wordt
 
 De controlegroep kan uit het belangrijkste doel worden gehaald en/of uit een specifieke groep of een vraag komen.
 
+>[!CAUTION]
+>
+>U kunt geen controlegroepen gebruiken wanneer het laden van de doelpopulatie uit een extern dossier.
+
 ### De controlegroep voor een campagne activeren {#activate-the-control-group-for-a-campaign}
 
 U kunt een controlegroep op campagneniveau bepalen, waarbij de controlegroep op elke levering van de betrokken campagne zal worden toegepast.
@@ -191,7 +195,7 @@ U kunt een controlegroep op campagneniveau bepalen, waarbij de controlegroep op 
 
    ![](assets/edit-control-group.png)
 
-De volledige procedure wordt gedetailleerd in [&#x200B; deze sectie &#x200B;](#extract-the-control-group-from-the-main-target). Leer meer over controlegroepen in [&#x200B; deze sectie &#x200B;](#add-a-population).
+De volledige procedure wordt gedetailleerd in [ deze sectie ](#extract-the-control-group-from-the-main-target). Leer meer over controlegroepen in [ deze sectie ](#add-a-population).
 
 ### De controlegroep voor een levering activeren {#activate-the-control-group-for-a-delivery}
 
@@ -210,7 +214,7 @@ Door gebrek, is de configuratie van de controlegroep die op het campagneniveau w
 
 1. Klik **[!UICONTROL Edit...]** om de controlegroep te vormen.
 
-De volledige procedure wordt gedetailleerd in [&#x200B; deze sectie &#x200B;](#extract-the-control-group-from-the-main-target).
+De volledige procedure wordt gedetailleerd in [ deze sectie ](#extract-the-control-group-from-the-main-target).
 
 ### Een nieuwe populatie gebruiken als een controlegroep {#add-a-population}
 
@@ -222,7 +226,7 @@ Deze populatie kan uit een lijst van ontvangers komen of u kunt het door een spe
 
 >[!NOTE]
 >
->De vraagredacteur van Adobe Campaign wordt voorgesteld in [&#x200B; deze sectie &#x200B;](../../v8/start/query-editor.md).
+>De vraagredacteur van Adobe Campaign wordt voorgesteld in [ deze sectie ](../../v8/start/query-editor.md).
 
 ### Extraheer de controlegroep uit het hoofddoel {#extract-the-control-group-from-the-main-target}
 
@@ -248,4 +252,4 @@ Deze video verklaart hoe te om een controlegroep aan een campagne toe te voegen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-De extra campagne hoe-aan video&#39;s is beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.
+De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

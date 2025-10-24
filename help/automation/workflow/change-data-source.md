@@ -5,16 +5,16 @@ feature: Workflows, Data Management, Federated Data Access
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 2%
+source-wordcount: '304'
+ht-degree: 1%
 
 ---
 
 # Databron wijzigen {#change-data-source}
 
-Gebruik de **[!UICONTROL Change data source]** activiteit om de gegevensbron van a [&#x200B; werkschema werkende lijst &#x200B;](use-workflow-data.md#workflow-temporary-work-table) te veranderen. Deze activiteit verstrekt meer flexibiliteit om gegevens over verschillende gegevensbronnen zoals Federated Data Access (FDA), het gegevensbestand van de Wolk van de Campagne (FFDA) en het Lokale gegevensbestand van de Campagne te beheren.
+Gebruik de **[!UICONTROL Change data source]** activiteit om de gegevensbron van a [ werkschema werkende lijst ](use-workflow-data.md#workflow-temporary-work-table) te veranderen. Deze activiteit verstrekt meer flexibiliteit om gegevens over verschillende gegevensbronnen zoals Federated Data Access (FDA), het gegevensbestand van de Wolk van de Campagne (FFDA) en het Lokale gegevensbestand van de Campagne te beheren.
 
 De workflow **[!UICONTROL Working table]** wordt gebruikt om gegevens af te handelen en te delen met de workflowactiviteiten.
 
@@ -29,13 +29,17 @@ Wanneer u de **[!UICONTROL Change Data Source]** -activiteit gebruikt, moet u te
 >
 >De activiteiten **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u een **[!UICONTROL Enrichement]** activiteit binnen tussen hen omvat. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
 
+>[!NOTE]
+>
+>De **activiteit van de Gegevens van de Verandering Source** kan een maximum van één miljoen verslagen per uitvoering verwerken. Neem contact op met uw Adobe-vertegenwoordiger als u deze limiet wilt verhogen.
+
 Als u de **[!UICONTROL Change Data Source]** -activiteit wilt gebruiken, moet u:
 
 1. Maak een workflow.
 
 1. Vraag de beoogde ontvangers naar een **[!UICONTROL Query]** -activiteit.
 
-   Voor meer informatie over de **[!UICONTROL Query]** activiteit, verwijs naar deze [&#x200B; pagina &#x200B;](query.md#create-a-query).
+   Voor meer informatie over de **[!UICONTROL Query]** activiteit, verwijs naar deze [ pagina ](query.md#create-a-query).
 
 1. Voeg een **[!UICONTROL Change data source]** activiteit toe.
 
@@ -49,7 +53,7 @@ Als u de **[!UICONTROL Change Data Source]** -activiteit wilt gebruiken, moet u:
 
 1. Voeg een **[!UICONTROL JavaScript code]** activiteit toe om unitaire verrichtingen op de het werk lijst uit te voeren.
 
-   Voor meer informatie over de **[!UICONTROL JavaScript code]** activiteit, verwijs naar [&#x200B; deze pagina &#x200B;](sql-code-and-javascript-code.md#javascript-code).
+   Voor meer informatie over de **[!UICONTROL JavaScript code]** activiteit, verwijs naar [ deze pagina ](sql-code-and-javascript-code.md#javascript-code).
 
 1. Voeg nog een **[!UICONTROL Change data source]** -activiteit toe om terug te schakelen naar de Cloud-database.
 
