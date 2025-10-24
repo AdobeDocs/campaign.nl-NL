@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Databron wijzigen {#change-data-source}
 
-Gebruik de **[!UICONTROL Change data source]** activiteit om de gegevensbron van a [ werkschema werkende lijst ](use-workflow-data.md#workflow-temporary-work-table) te veranderen. Deze activiteit verstrekt meer flexibiliteit om gegevens over verschillende gegevensbronnen zoals Federated Data Access (FDA), het gegevensbestand van de Wolk van de Campagne (FFDA) en het Lokale gegevensbestand van de Campagne te beheren.
+Gebruik de **[!UICONTROL Change data source]** activiteit om de gegevensbron van a [&#x200B; werkschema werkende lijst &#x200B;](use-workflow-data.md#workflow-temporary-work-table) te veranderen. Deze activiteit verstrekt meer flexibiliteit om gegevens over verschillende gegevensbronnen zoals Federated Data Access (FDA), het gegevensbestand van de Wolk van de Campagne (FFDA) en het Lokale gegevensbestand van de Campagne te beheren.
 
 De workflow **[!UICONTROL Working table]** wordt gebruikt om gegevens af te handelen en te delen met de workflowactiviteiten.
 
@@ -39,7 +39,7 @@ Als u de **[!UICONTROL Change Data Source]** -activiteit wilt gebruiken, moet u:
 
 1. Vraag de beoogde ontvangers naar een **[!UICONTROL Query]** -activiteit.
 
-   Voor meer informatie over de **[!UICONTROL Query]** activiteit, verwijs naar deze [ pagina ](query.md#create-a-query).
+   Voor meer informatie over de **[!UICONTROL Query]** activiteit, verwijs naar deze [&#x200B; pagina &#x200B;](query.md#create-a-query).
 
 1. Voeg een **[!UICONTROL Change data source]** activiteit toe.
 
@@ -53,7 +53,7 @@ Als u de **[!UICONTROL Change Data Source]** -activiteit wilt gebruiken, moet u:
 
 1. Voeg een **[!UICONTROL JavaScript code]** activiteit toe om unitaire verrichtingen op de het werk lijst uit te voeren.
 
-   Voor meer informatie over de **[!UICONTROL JavaScript code]** activiteit, verwijs naar [ deze pagina ](sql-code-and-javascript-code.md#javascript-code).
+   Voor meer informatie over de **[!UICONTROL JavaScript code]** activiteit, verwijs naar [&#x200B; deze pagina &#x200B;](sql-code-and-javascript-code.md#javascript-code).
 
 1. Voeg nog een **[!UICONTROL Change data source]** -activiteit toe om terug te schakelen naar de Cloud-database.
 
