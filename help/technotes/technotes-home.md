@@ -5,10 +5,10 @@ title: Technische Adobe Campaign-artikelen
 role: Developer
 level: Experienced
 exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
-source-git-commit: 0844a4fcd34220d825ae30368b284cbcaf93d02b
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 7%
+source-wordcount: '118'
+ht-degree: 10%
 
 ---
 
@@ -16,22 +16,25 @@ ht-degree: 7%
 
 De nieuwste campagnemetechnologieën vindt u in deze sectie. Deze technologieën zijn van toepassing op Campaign v8.
 
+<!--
 >[!BEGINTABS]
->[!TAB &lbrace;de veranderingen van het Kanaal van het Bericht van de duw]  
 
-Enkele belangrijke wijzigingen in de Android Firebase Cloud Messaging (FCM)-service worden in 2024 gepubliceerd en kunnen van invloed zijn op uw Adobe Campaign-implementatie. Mogelijk moet uw configuratie met abonnementsservices voor Android-pushberichten worden bijgewerkt om deze wijziging te ondersteunen.
+>[!TAB Push Notification Channel changes] 
 
-
-[![afbeelding](../v8//assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
+Some important changes to the Android Firebase Cloud Messaging (FCM) service are released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change.
 
 
->[!TAB  Systeem van Identity Management (IMS) ]
+[![image](../v8//assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
 
-Vanaf Campagne v8.6 wordt het verificatieproces naar Campagne v8 verbeterd. Alle operatoren gebruiken alleen Adobe Identity Management System (IMS) om verbinding te maken met Campagne
 
-[![afbeelding](../v8/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
+>[!TAB Identity Management System (IMS)]
+
+Starting Campaign v8.6, the authentication process to Campaign v8 is being improved. All operators will use Adobe Identity Management System (IMS) only to connect to Campaign
+
+[![image](../v8/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
 
 >[!ENDTABS]
+-->
 
 ## De documentatie verkennen
 
@@ -74,5 +77,5 @@ Vanaf Campagne v8.6 wordt het verificatieproces naar Campagne v8 verbeterd. Alle
 
 ## Verdere bronnen
 
-[&#x200B; Adobe Campaign v8 Beschrijving van het Product &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [&#x200B; de gebruikersinterfacedocumentatie van het Web van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"} - [&#x200B; Leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=nl-NL){target="_blank"} - [[!DNL Adobe Campaign]  automatiseringsgids &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=nl-NL){target="_blank"} - [&#x200B; Controlebord voor Campagne v8 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
+[ Adobe Campaign v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [ de gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign]  automatiseringsgids ](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [ Controlebord voor Campagne v8 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
 

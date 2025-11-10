@@ -5,10 +5,10 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '185'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ Gebruik Adobe Campaign om tekstberichten naar uw klanten op hun mobiele apparate
 
 Als u SMS wilt leveren aan mobiele apparaten met Adobe Campaign, hebt u het volgende nodig:
 
-* Een externe account die op het **[!UICONTROL Mobile (SMS)]** -kanaal is geconfigureerd. Leer hoe te om het kanaal van SMS op uw [&#x200B; midsourcing infrastructuur &#x200B;](sms-mid-sourcing.md) te vormen. Voor deze configuratie, moet u de [&#x200B; SMPP externe accountparameters &#x200B;](smpp-external-account.md) en de [&#x200B; het kanaalkenmerken van SMS &#x200B;](sms-channel.md) begrijpen.
+* Een externe account die op het **[!UICONTROL Mobile (SMS)]** -kanaal is geconfigureerd. Leer hoe te om het kanaal van SMS op uw [ midsourcing infrastructuur ](sms-mid-sourcing.md) te vormen. Voor deze configuratie, moet u de [ SMPP externe accountparameters ](smpp-external-account.md) en de [ het kanaalkenmerken van SMS ](sms-channel.md) begrijpen.
 Na deze opstelling, controleer uw verbinding SMPP en weet hoe te om het problemen op te lossen indien nodig. [Meer informatie](smpp-connection.md).
 
 * Een SMS-leveringssjabloon die correct is gekoppeld aan deze externe account.
@@ -26,8 +26,9 @@ Na deze opstelling, controleer uw verbinding SMPP en weet hoe te om het probleme
 
 >[!NOTE]
 >
->U kunt Adobe Campaign ook gebruiken om [&#x200B; duw berichten &#x200B;](../push.md) en [&#x200B; LIJN &#x200B;](../line/line.md) berichten naar mobiele apparaten te verzenden.
-
+>U kunt Adobe Campaign ook gebruiken om [ duw berichten ](../push.md) en [ LIJN ](../line/line.md) berichten naar mobiele apparaten te verzenden.
+>
+> Voor klanten die de verouderde schakelaar van SMS gebruiken, blijft de bestaande implementatie gesteund. Nochtans, adviseren wij zich aan de nieuwe schakelaar te bewegen. Neem contact op met Adobe als u een overgang wilt maken.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

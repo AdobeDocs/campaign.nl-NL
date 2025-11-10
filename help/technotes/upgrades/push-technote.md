@@ -5,8 +5,10 @@ description: Aanstaande wijzigingen in het kanaal voor pushmeldingen
 feature: Push
 role: Admin
 level: Experienced
+hide: true
+hidefromtoc: true
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 1%
@@ -25,7 +27,7 @@ Daarnaast raadt Adobe ten zeerste aan om over te schakelen naar de tokengebaseer
 
 ### Wat is er veranderd? {#fcm-changes}
 
-Als deel van Google dat voortdurend probeert om zijn diensten te verbeteren, zal erfenis FCM APIs op **22 Juli, 2024** worden opgeheven. Leer meer over het protocol van HTTP van het Overseinen van de Wolk van de Wolk van de Wolk van de Vuurstand van de Wolk van de Vuurstand van de Wolk van de Vuurstand in [&#x200B; Google documentatie &#x200B;](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
+Als deel van Google dat voortdurend probeert om zijn diensten te verbeteren, zal erfenis FCM APIs op **22 Juli, 2024** worden opgeheven. Leer meer over het protocol van HTTP van het Overseinen van de Wolk van de Wolk van de Wolk van de Vuurstand van de Wolk van de Vuurstand van de Wolk van de Vuurstand in [ Google documentatie ](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 Adobe Campaign Classic v7 en Adobe Campaign v8 ondersteunen al de nieuwste API&#39;s voor het verzenden van pushberichten. Sommige oude implementaties zijn echter nog steeds afhankelijk van de oudere API&#39;s. Deze implementaties moeten worden bijgewerkt.
 
@@ -46,9 +48,9 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 #### Vereisten {#fcm-transition-prerequisites}
 
-* Het JSON-bestand van de Android Firebase Admin SDK-service is nodig om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe te om dit dossier in [&#x200B; documentatie van de Vuurbasis van Google &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} te krijgen.
+* Het JSON-bestand van de Android Firebase Admin SDK-service is nodig om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe te om dit dossier in [ documentatie van de Vuurbasis van Google ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} te krijgen.
 
-* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in release 20.3.1. Als uw milieu op een oudere versie loopt, moet een eerste vereiste voor de overgang aan HTTP v1 uw milieu aan [&#x200B; bevorderen recentste Campaign Classic bouwen &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl-NL){target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
+* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in release 20.3.1. Als uw milieu op een oudere versie loopt, moet een eerste vereiste voor de overgang aan HTTP v1 uw milieu aan [ bevorderen recentste Campaign Classic bouwen ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
 
 * Als gebruiker van Campaign Classic v7 op locatie, moet u zowel de Marketing als Real-Time uitvoeringsservers bijwerken.
 
@@ -56,7 +58,7 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 * Informatie over de Android die externe account routeert:
 
-   * Als Campaign Classic v7-gebruiker op locatie of hybride gebruiker, controleert u of uw Android die externe account routeert, is geconfigureerd met `androidPushConnectorV2.js` . Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+   * Als Campaign Classic v7-gebruiker op locatie of hybride gebruiker, controleert u of uw Android die externe account routeert, is geconfigureerd met `androidPushConnectorV2.js` . Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
 
    * Voor de implementatie van Hybride, Hosted en Managed Cloud Services moet u ook verbinding maken met het Adobe-team van de klantenservice om te controleren of de `androidPushConnectorV2.js (nms)` -connector is geselecteerd in Android die een externe account van uw mediumsourcingserver routeert.
 
@@ -81,7 +83,7 @@ Ga als volgt te werk om uw omgeving te verplaatsen naar HTTP v1:
 1. U kunt desgewenst ook de inhoud van een pushbericht verrijken met wat **[!UICONTROL Application variables]** . Deze zijn volledig aanpasbaar en een deel van de berichtlading wordt verzonden naar het mobiele apparaat.
 1. Klik op **[!UICONTROL Finish]** en vervolgens op **[!UICONTROL Save]**.
 
-   Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te passen. Deze opties zijn gedetailleerd [&#x200B; hier &#x200B;](#fcm-apps).
+   Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te passen. Deze opties zijn gedetailleerd [ hier ](#fcm-apps).
 
    | Berichttype | Configureerbaar berichtelement (FCM-ladenaam) | Configureerbare opties (FCM-ladenaam) |
    |:-:|:-:|:-:|
@@ -95,7 +97,7 @@ Ga als volgt te werk om uw omgeving te verplaatsen naar HTTP v1:
 
 #### Bestaande sjablonen bijwerken {#fcm-transition-update}
 
-Zodra de overgangHTTP v1 wordt gedaan, moet u uw **leveringsmalplaatjes** voor de duw berichten van Android bijwerken om het aantal partijberichten te verhogen. Om dit te doen, doorblader aan de eigenschappen van uw Android leveringsmalplaatje en, in het **lusje van de Levering**, plaats de [&#x200B; Hoeveelheid van de Batch van het Bericht &#x200B;](../../v8/send/configure-and-send.md#delivery-batch-quantity) aan **256**. Pas deze wijziging toe op alle leveringssjablonen die worden gebruikt voor uw Android-leveringen en op al uw bestaande Android-leveringen.
+Zodra de overgangHTTP v1 wordt gedaan, moet u uw **leveringsmalplaatjes** voor de duw berichten van Android bijwerken om het aantal partijberichten te verhogen. Om dit te doen, doorblader aan de eigenschappen van uw Android leveringsmalplaatje en, in het **lusje van de Levering**, plaats de [ Hoeveelheid van de Batch van het Bericht ](../../v8/send/configure-and-send.md#delivery-batch-quantity) aan **256**. Pas deze wijziging toe op alle leveringssjablonen die worden gebruikt voor uw Android-leveringen en op al uw bestaande Android-leveringen.
 
 U kunt ook bestaande leverings- en leveringssjablonen bijwerken die zijn gemaakt vóór de upgrade naar een versie die HTTP v1 ondersteunt. Dit doet u als volgt:
 
@@ -103,7 +105,7 @@ U kunt ook bestaande leverings- en leveringssjablonen bijwerken die zijn gemaakt
 
 * Voor on-premise omgevingen downloadt u het `fcm-httpv1-migration.js` -script en voert u dit hieronder uit.
 
-  Download [&#x200B; fcm-httpv1-migration.zip &#x200B;](assets/do-not-localize/fcm-httpv1-migration-js.zip).
+  Download [ fcm-httpv1-migration.zip ](assets/do-not-localize/fcm-httpv1-migration-js.zip).
 
   >[!CAUTION]
   >
@@ -173,7 +175,7 @@ U kunt:
 * Stel het **[!UICONTROL Notification Priority]** -niveau van uw melding in op standaard, minimum, laag of hoog.
 * Stel het **[!UICONTROL Visibility]** -niveau van uw melding in op openbaar, privé of geheim.
 
-Voor meer op **[!UICONTROL HTTP v1 additional options]** en hoe te om deze gebieden te vullen, verwijs naar [&#x200B; documentatie FCM &#x200B;](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
+Voor meer op **[!UICONTROL HTTP v1 additional options]** en hoe te om deze gebieden te vullen, verwijs naar [ documentatie FCM ](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
 
 
@@ -189,7 +191,7 @@ Token-gebaseerde authentificatie biedt een stateless manier om met APNs te commu
 
 * U kunt één token gebruiken om meldingen te distribueren voor alle apps van uw bedrijf.
 
-Leer meer over op token-gebaseerde verbindingen aan APNs in [&#x200B; documentatie van de Ontwikkelaar van Apple &#x200B;](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+Leer meer over op token-gebaseerde verbindingen aan APNs in [ documentatie van de Ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 Adobe Campaign Classic v7 en Adobe Campaign v8 ondersteunen zowel tokengebaseerde als op certificaten gebaseerde verbindingen. Als uw implementatie afhankelijk is van een verbinding op basis van een certificaat, raadt Adobe u ten zeerste aan deze bij te werken naar een tokenverbinding.
 
@@ -210,9 +212,9 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 #### Vereisten {#ios-transition-prerequisites}
 
-* Voor Campaign Classic v7, is de steun van **op token-gebaseerde authentificatie** wijze toegevoegd in versie 20.2. Als uw milieu op een oudere versie loopt, is een eerste vereiste voor deze verandering uw milieu aan [&#x200B; te bevorderen de recentste Campaign Classic bouwt &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl-NL){target="_blank"}. Voor Campagne v8, **op token-gebaseerde authentificatie** wordt wijze gesteund door alle versies, en geen verbetering is nodig.
+* Voor Campaign Classic v7, is de steun van **op token-gebaseerde authentificatie** wijze toegevoegd in versie 20.2. Als uw milieu op een oudere versie loopt, is een eerste vereiste voor deze verandering uw milieu aan [ te bevorderen de recentste Campaign Classic bouwt ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campagne v8, **op token-gebaseerde authentificatie** wordt wijze gesteund door alle versies, en geen verbetering is nodig.
 
-* U hebt een APNs-verificatietoken voor ondertekening nodig om de tokens te genereren die uw server gebruikt. U vraagt deze sleutel van uw Apple ontwikkelaarsrekening, zoals die in [&#x200B; documentatie van de Ontwikkelaar van Apple &#x200B;](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} wordt verklaard.
+* U hebt een APNs-verificatietoken voor ondertekening nodig om de tokens te genereren die uw server gebruikt. U vraagt deze sleutel van uw Apple ontwikkelaarsrekening, zoals die in [ documentatie van de Ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} wordt verklaard.
 
 * Voor Hybride, Gehoste en Managed Services plaatsingen, naast de hieronder overgangsprocedure, contacteer Adobe om uw Real-Time (RT) uitvoeringsserver bij te werken. De server voor middelste bronnen heeft geen invloed op deze server.
 

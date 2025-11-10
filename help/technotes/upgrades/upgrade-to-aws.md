@@ -1,8 +1,10 @@
 ---
 title: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
 description: Upgrade van infrastructuur voor verzenden van e-mail voor campagne
+hide: true
+hidefromtoc: true
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -55,11 +57,11 @@ De verbeteringen van de productiemilieu&#39;s begonnen in **Januari 2024**.
 
 * **wat het testen door de klanten wordt vereist?**
 
-  Wij verwachten geen tests door klanten in verband met deze upgradegebeurtenis. Voor het geval om het even welke kwestie wordt waargenomen, te bereiken gelieve uit [&#x200B; de Zorg van de Klant van Adobe &#x200B;](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"}.
+  Wij verwachten geen tests door klanten in verband met deze upgradegebeurtenis. Voor het geval om het even welke kwestie wordt waargenomen, te bereiken gelieve uit [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **kan ik om een verandering in Datum/Tijd aan de geplande groef van de veiligheidsverbetering verzoeken?**
 
   Nee. Wij kunnen om het even welke gevraagde wijzigingen in het bestaande programma aanpassen aangezien dit waarschijnlijk de toegewezen verbeteringsgebeurtenis voor een andere klant zal verstoren.
 
-Voor een andere vraag, kunt u uit aan [&#x200B; de Zorg van de Klant van Adobe &#x200B;](https://experienceleague.adobe.com/nl?support-solution=Campaign#support){target="_blank"} bereiken.
+Voor een andere vraag, kunt u uit aan [ de Zorg van de Klant van Adobe ](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"} bereiken.
