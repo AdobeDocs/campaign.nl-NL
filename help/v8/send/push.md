@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Met de levering van mobiele apps kunt u meldingen verzenden naar iOS- en Android-apparaten.
 
-Voordat u pushberichten met Adobe Campaign gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en voor tags in Adobe Experience Platform. [ leer meer over dupconfiguratie.](push-settings.md).
+Voordat u pushberichten met Adobe Campaign gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en voor tags in Adobe Experience Platform. [&#x200B; leer meer over dupconfiguratie.](push-settings.md).
 
 >[!CAUTION]
 >
@@ -29,7 +29,7 @@ In deze sectie worden de specifieke elementen voor de levering van iOS- en Andro
 
 >[!IMPORTANT]
 >
->In de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), is de mobiele registratie nu asynchroon ****. [Meer informatie](../architecture/staging.md)
+>In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), is de mobiele registratie nu asynchroon **&#x200B;**. [Meer informatie](../architecture/staging.md)
 
 
 Als u een nieuwe levering wilt maken, bladert u naar het tabblad **[!UICONTROL Campaigns]** , klikt u op **[!UICONTROL Deliveries]** en klikt u op de knop **[!UICONTROL Create]** boven de lijst met bestaande leveringen.
@@ -63,7 +63,7 @@ Voer de volgende stappen uit om berichten op iOS-apparaten te verzenden:
 
    >[!NOTE]
    >
-   >De **wijze van de Duw van 0} Zijde** staat een &quot;stil&quot;bericht toe om naar een mobiele toepassing worden verzonden. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen.
+   >De **wijze van de Duw van 0&rbrace; Zijde** staat een &quot;stil&quot;bericht toe om naar een mobiele toepassing worden verzonden. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen.
 
 1. Voer in het veld **[!UICONTROL Title]** het label in van de titel die u wilt weergeven in de lijst met meldingen die beschikbaar is in het meldingscentrum.
 
@@ -139,7 +139,7 @@ Voer de volgende stappen uit om berichten op Android-apparaten te verzenden:
 
    >[!NOTE]
    > 
-   >Met recentste FCM APIs (HTTP v1), moet u uw **leveringsmalplaatjes** voor de duw berichten van Android bijwerken om het aantal partijberichten te verhogen. Om dit te doen, doorblader aan de eigenschappen van uw Android leveringsmalplaatje en, in het **lusje van de Levering**, plaats de [ Hoeveelheid van de Batch van het Bericht ](../../v8/send/configure-and-send.md#delivery-batch-quantity) aan **256**. Pas deze wijziging toe op alle leveringssjablonen die worden gebruikt voor uw Android-leveringen en op al uw bestaande Android-leveringen.
+   >Met recentste FCM APIs (HTTP v1), moet u uw **leveringsmalplaatjes** voor de duw berichten van Android bijwerken om het aantal partijberichten te verhogen. Om dit te doen, doorblader aan de eigenschappen van uw Android leveringsmalplaatje en, in het **lusje van de Levering**, plaats de [&#x200B; Hoeveelheid van de Batch van het Bericht &#x200B;](../../v8/send/configure-and-send.md#delivery-batch-quantity) aan **256**. Pas deze wijziging toe op alle leveringssjablonen die worden gebruikt voor uw Android-leveringen en op al uw bestaande Android-leveringen.
 
 
 1. Als u het doel van de melding wilt definiëren, klikt u op de koppeling **[!UICONTROL To]** en vervolgens op **[!UICONTROL Add]** .
@@ -169,9 +169,9 @@ Voer de volgende stappen uit om berichten op Android-apparaten te verzenden:
 
 Om een bewijs te verzenden en de uiteindelijke levering te verzenden, gebruikt u hetzelfde proces als voor andere leveringen.
 
-Leer hoe te om een levering in [ te bevestigen deze pagina ](preview-and-proof.md).
+Leer hoe te om een levering in [&#x200B; te bevestigen deze pagina &#x200B;](preview-and-proof.md).
 
-Leer om de levering in [ te bevestigen en te verzenden deze pagina ](send.md)
+Leer om de levering in [&#x200B; te bevestigen en te verzenden deze pagina &#x200B;](send.md)
 
-Nadat u berichten hebt verzonden, kunt u de leveringen controleren en volgen. Leer meer over de mislukkingsredenen van de pushmelding in [ deze pagina ](delivery-failures.md#push-error-types).
+Nadat u berichten hebt verzonden, kunt u de leveringen controleren en volgen. Leer meer over de mislukkingsredenen van de pushmelding in [&#x200B; deze pagina &#x200B;](delivery-failures.md#push-error-types).
 

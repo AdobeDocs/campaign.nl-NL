@@ -14,7 +14,7 @@ ht-degree: 16%
 
 ## Nieuwe functies
 
-Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 (client console) product en documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](start/release-notes.md). Blijf bijgewerkt met de recentste veranderingen in onze documentatie door de [ documentatieupdates ](start/documentation-updates.md) pagina te bezoeken.
+Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 (client console) product en documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](start/release-notes.md). Blijf bijgewerkt met de recentste veranderingen in onze documentatie door de [&#x200B; documentatieupdates &#x200B;](start/documentation-updates.md) pagina te bezoeken.
 
 >[!BEGINTABS]
 
@@ -112,5 +112,5 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
 
 ## Verdere bronnen
 
-[ Adobe Campaign v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [ de gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign]  automatiseringsgids ](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [ Controlebord voor Campagne v8 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
+[&#x200B; Adobe Campaign v8 Beschrijving van het Product &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [&#x200B; de gebruikersinterfacedocumentatie van het Web van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [&#x200B; Leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign]  automatiseringsgids &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [&#x200B; Controlebord voor Campagne v8 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
 
