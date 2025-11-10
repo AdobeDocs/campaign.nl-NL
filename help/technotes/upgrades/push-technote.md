@@ -50,7 +50,7 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 * Het JSON-bestand van de Android Firebase Admin SDK-service is nodig om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe te om dit dossier in [&#x200B; documentatie van de Vuurbasis van Google &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} te krijgen.
 
-* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in release 20.3.1. Als uw milieu op een oudere versie loopt, moet een eerste vereiste voor de overgang aan HTTP v1 uw milieu aan [&#x200B; bevorderen recentste Campaign Classic bouwen &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
+* Voor Campaign Classic v7 is de ondersteuning van HTTP v1 toegevoegd in release 20.3.1. Als uw milieu op een oudere versie loopt, moet een eerste vereiste voor de overgang aan HTTP v1 uw milieu aan [&#x200B; bevorderen recentste Campaign Classic bouwen &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl-NL){target="_blank"}. Voor Campagne v8 wordt HTTP v1 door alle versies gesteund, en geen verbetering is nodig.
 
 * Als gebruiker van Campaign Classic v7 op locatie, moet u zowel de Marketing als Real-Time uitvoeringsservers bijwerken.
 
@@ -58,7 +58,7 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 * Informatie over de Android die externe account routeert:
 
-   * Als Campaign Classic v7-gebruiker op locatie of hybride gebruiker, controleert u of uw Android die externe account routeert, is geconfigureerd met `androidPushConnectorV2.js` . Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+   * Als Campaign Classic v7-gebruiker op locatie of hybride gebruiker, controleert u of uw Android die externe account routeert, is geconfigureerd met `androidPushConnectorV2.js` . Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
 
    * Voor de implementatie van Hybride, Hosted en Managed Cloud Services moet u ook verbinding maken met het Adobe-team van de klantenservice om te controleren of de `androidPushConnectorV2.js (nms)` -connector is geselecteerd in Android die een externe account van uw mediumsourcingserver routeert.
 
@@ -212,7 +212,7 @@ Om te controleren als u wordt beïnvloed, kunt u uw **Diensten en Abonnementen**
 
 #### Vereisten {#ios-transition-prerequisites}
 
-* Voor Campaign Classic v7, is de steun van **op token-gebaseerde authentificatie** wijze toegevoegd in versie 20.2. Als uw milieu op een oudere versie loopt, is een eerste vereiste voor deze verandering uw milieu aan [&#x200B; te bevorderen de recentste Campaign Classic bouwt &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Voor Campagne v8, **op token-gebaseerde authentificatie** wordt wijze gesteund door alle versies, en geen verbetering is nodig.
+* Voor Campaign Classic v7, is de steun van **op token-gebaseerde authentificatie** wijze toegevoegd in versie 20.2. Als uw milieu op een oudere versie loopt, is een eerste vereiste voor deze verandering uw milieu aan [&#x200B; te bevorderen de recentste Campaign Classic bouwt &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl-NL){target="_blank"}. Voor Campagne v8, **op token-gebaseerde authentificatie** wordt wijze gesteund door alle versies, en geen verbetering is nodig.
 
 * U hebt een APNs-verificatietoken voor ondertekening nodig om de tokens te genereren die uw server gebruikt. U vraagt deze sleutel van uw Apple ontwikkelaarsrekening, zoals die in [&#x200B; documentatie van de Ontwikkelaar van Apple &#x200B;](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} wordt verklaard.
 
