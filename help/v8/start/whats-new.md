@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Adobe Campaign v8 is ontworpen voor kanaalaanbieders die de beste cloudoplossing in hun klasse nodig hebben voor het beheer van campagnes over meerdere kanalen op bedrijfsniveau. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma&#39;s met een centrale focus op batchgeoriënteerde reizen. Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 
-Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Het is beschikbaar als a **Beheerde Cloud Service** die de diensten met pro-actief toezicht en het geschikte veranderen combineert. Leer meer over Campagne Beheerde Diensten van de Wolk [&#x200B; in deze sectie &#x200B;](#acms-desc).
+Adobe Campaign v8 biedt aanzienlijke verbeteringen op het gebied van infrastructuur, beveiliging, leverbaarheid en bewaking. Het is beschikbaar als a **Beheerde Cloud Service** die de diensten met pro-actief toezicht en het geschikte veranderen combineert. Leer meer over Campagne Beheerde Diensten van de Wolk [ in deze sectie ](#acms-desc).
 
 ![](assets/home-page.png)
 
@@ -72,7 +72,7 @@ Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service die proactief to
 
 De beheerde de dienstenbenadering laat marketers toe om uit de operationele schaal en de economie van wolkeninfrastructuur zonder de behoefte aan zware steun van interne middelen van IT voordeel te halen. De het raadplegen en implementatieteams van Adobe werken met u samen om uw marketing plannen, bestaande praktijken, gegevensvereisten, en overseinenvolume te beoordelen, en dan adviseren zij de meest aangewezen dienst, de steun, en de leverbaarheidspakketten. Het Adobe Campaign Managed Cloud Services-team kan dan de prestaties van de campagne, de reputatie van het merk, de ervaringen van de klant en nog veel meer controleren en rapporteren.
 
-[!BADGE &#x200B; PDF &#x200B;]{type=Informative} [&#x200B; las dit whitepaper &#x200B;](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} om meer over de bedrijfswaarde van Adobe Campaign Managed Cloud Services te leren.
+[!BADGE  PDF ]{type=Informative} [ las dit whitepaper ](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} om meer over de bedrijfswaarde van Adobe Campaign Managed Cloud Services te leren.
 
 De nieuwe cloudarchitectuur stelt Campagne in staat om processen te stroomlijnen, kosten te verlagen, risico&#39;s te beheren en de gegevensbeveiliging te verbeteren. Uw Campagne v8-omgeving wordt geleverd met een speciale Virtual Private Cloud (VPC) die vooraf voor u is geconfigureerd.
 
@@ -88,7 +88,7 @@ De nieuwe cloudarchitectuur stelt Campagne in staat om processen te stroomlijnen
 
 Adobe Campaign kan nu databasetechnologieën op cloudschaal gebruiken om de schaal en snelheid ervan aanzienlijk te verbeteren.
 
-[&#x200B; de Onderneming van de Campagne v8 &#x200B;](../architecture/enterprise-deployment.md) brengt het concept **Volledige Federatieve Toegang van Gegevens** (FFDA): alle gegevens zijn nu ver op het Gegevensbestand van de Wolk. Met dit nieuwe aanbod vereenvoudigt Campagne v8 het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. [!DNL Snowflake] is de Campagne Cloud-database, die u snelheid en duurzaamheid biedt: geen overbelasting van de pieken in de systeemactiviteit. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
+[ de Onderneming van de Campagne v8 ](../architecture/enterprise-deployment.md) brengt het concept **Volledige Federatieve Toegang van Gegevens** (FFDA): alle gegevens zijn nu ver op het Gegevensbestand van de Wolk. Met dit nieuwe aanbod vereenvoudigt Campagne v8 het gegevensbeheer: er is geen index vereist voor de Cloud Database. U hoeft alleen de tabellen te maken, de gegevens te kopiëren en te starten. [!DNL Snowflake] is de Campagne Cloud-database, die u snelheid en duurzaamheid biedt: geen overbelasting van de pieken in de systeemactiviteit. De Cloud-databasetechnologie vereist geen specifiek onderhoud om het prestatieniveau te garanderen.
 
 [Meer informatie over de implementatie van Enterprise (FFDA)](../architecture/enterprise-deployment.md)
 
@@ -105,6 +105,6 @@ Via een intuïtieve gebruikersinterface kunnen beheerders het gebruik van belang
 
 ![](assets/subdomain1.png)
 
-[&#x200B; leer meer over het Controlebord van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
+[ leer meer over het Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
 
 
