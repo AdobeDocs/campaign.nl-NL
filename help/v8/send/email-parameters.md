@@ -19,7 +19,7 @@ In deze sectie worden de opties en parameters weergegeven die beschikbaar zijn i
 
 ## E-mail BCC gebruiken {#email-bcc}
 
-U kunt Adobe Campaign zo configureren dat een kopie van de e-mails die u van uw platform hebt ontvangen, bewaard blijft. Deze optie wordt gedetailleerd in [ deze pagina ](email-bcc.md).
+U kunt Adobe Campaign zo configureren dat een kopie van de e-mails die u van uw platform hebt ontvangen, bewaard blijft. Deze optie wordt gedetailleerd in [&#x200B; deze pagina &#x200B;](email-bcc.md).
 
 ## Berichtindelingen selecteren {#selecting-message-formats}
 
@@ -70,11 +70,11 @@ Op het tabblad **[!UICONTROL SMTP]** van de leveringseigenschappen kunt u ook he
 
 * **[!UICONTROL Bounce address]**: U kunt ook een ander adres definiëren waarnaar de onverwerkte teruggestuurde e-mails worden doorgestuurd. Met dit adres kunt u de redenen voor het stuiteren onderzoeken wanneer e-mails niet automatisch kunnen worden gekwalificeerd door de toepassing.
 
-Elk van deze velden kan worden gepersonaliseerd met behulp van het toegewezen pictogram. Leer meer op verpersoonlijkingsgebieden in [ deze sectie ](personalization-fields.md).
+Elk van deze velden kan worden gepersonaliseerd met behulp van het toegewezen pictogram. Leer meer op verpersoonlijkingsgebieden in [&#x200B; deze sectie &#x200B;](personalization-fields.md).
 
 ![](assets/email-smtp-bounce.png)
 
-Voor meer bij stuiteren postbeheer, zie [ deze sectie ](delivery-failures.md#bounce-mail-management).
+Voor meer bij stuiteren postbeheer, zie [&#x200B; deze sectie &#x200B;](delivery-failures.md#bounce-mail-management).
 
 ## Enable One-click List-unsubscribe {#one-click-list-unsubscribe}
 
@@ -117,7 +117,7 @@ Afhankelijk van de e-mailcliënt en de methode zij gebruiken om opt-out uit uit 
 
 >[!NOTE]
 >
->U kunt [ ook plaatsen één-Klik lijst-Unsubscribe ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} en [ &quot;mailto&quot;lijst-Unsubscribe ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} methodes manueel. De gedetailleerde stappen worden beschreven in de Gids van de Beste praktijken van de Levering van Experience Cloud [ ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}.
+>U kunt [&#x200B; ook plaatsen één-Klik lijst-Unsubscribe &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} en [&#x200B; &quot;mailto&quot;lijst-Unsubscribe &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} methodes manueel. De gedetailleerde stappen worden beschreven in de Gids van de Beste praktijken van de Levering van Experience Cloud [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}.
 
 
 ## SMTP-koppen toevoegen {#adding-smtp-headers}
@@ -141,4 +141,4 @@ Waarden worden indien nodig automatisch gecodeerd.
 
 De spiegelpagina is een HTML-pagina die online toegankelijk is via een webbrowser. De inhoud is identiek aan de e-mail. Het kan handig zijn als uw ontvangers problemen ondervinden met het renderen of als ze uw e-mail proberen weer te geven in hun Postvak IN.
 
-Leer hoe te om een verbinding aan de spiegelpagina in te voegen [ deze sectie ](mirror-page.md)
+Leer hoe te om een verbinding aan de spiegelpagina in te voegen [&#x200B; deze sectie &#x200B;](mirror-page.md)
