@@ -78,7 +78,7 @@ Voor meer bij stuiteren postbeheer, zie [&#x200B; deze sectie &#x200B;](delivery
 
 ## Enable One-click List-unsubscribe {#one-click-list-unsubscribe}
 
-De één-klik lijst-unsubscribe URL is een verbinding of knoop die naast de e-mailzenderinformatie wordt getoond die ontvangers onmiddellijk om uit uw het posten lijsten met één enkele klik laat kiezen. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
+De één-klik lijst-unsubscribe URL is een verbinding of knoop die naast de e-mailzenderinformatie wordt getoond die ontvangers onmiddellijk om uit uw het posten lijsten met één enkele klik laat kiezen. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=nl-NL#list-unsubscribe){target="_blank"}-->
 
 Het toont als **Unsubscribe** verbinding in de ISPs&#39; e-mailinterfaces. Bijvoorbeeld:
 
@@ -117,7 +117,7 @@ Afhankelijk van de e-mailcliënt en de methode zij gebruiken om opt-out uit uit 
 
 >[!NOTE]
 >
->U kunt [&#x200B; ook plaatsen één-Klik lijst-Unsubscribe &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} en [&#x200B; &quot;mailto&quot;lijst-Unsubscribe &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} methodes manueel. De gedetailleerde stappen worden beschreven in de Gids van de Beste praktijken van de Levering van Experience Cloud [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}.
+>U kunt [&#x200B; ook plaatsen één-Klik lijst-Unsubscribe &#x200B;](https://experienceleague.adobe.com/nl/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} en [&#x200B; &quot;mailto&quot;lijst-Unsubscribe &#x200B;](https://experienceleague.adobe.com/nl/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} methodes manueel. De gedetailleerde stappen worden beschreven in de Gids van de Beste praktijken van de Levering van Experience Cloud [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=nl-NL#list-unsubscribe){target="_blank"}.
 
 
 ## SMTP-koppen toevoegen {#adding-smtp-headers}
