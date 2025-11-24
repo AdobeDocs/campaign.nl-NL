@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 6b70ad987b828dc1c17bc4f0683046be4eff0408
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 7%
+source-wordcount: '862'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ In deze sectie worden de opties en parameters weergegeven die beschikbaar zijn i
 
 ## E-mail BCC gebruiken {#email-bcc}
 
-U kunt Adobe Campaign zo configureren dat een kopie van de e-mails die u van uw platform hebt ontvangen, bewaard blijft. Deze optie wordt gedetailleerd in [&#x200B; deze pagina &#x200B;](email-bcc.md).
+U kunt Adobe Campaign zo configureren dat een kopie van de e-mails die u van uw platform hebt ontvangen, bewaard blijft. Deze optie wordt gedetailleerd in [ deze pagina ](email-bcc.md).
 
 ## Berichtindelingen selecteren {#selecting-message-formats}
 
@@ -70,17 +70,61 @@ Op het tabblad **[!UICONTROL SMTP]** van de leveringseigenschappen kunt u ook he
 
 * **[!UICONTROL Bounce address]**: U kunt ook een ander adres definiëren waarnaar de onverwerkte teruggestuurde e-mails worden doorgestuurd. Met dit adres kunt u de redenen voor het stuiteren onderzoeken wanneer e-mails niet automatisch kunnen worden gekwalificeerd door de toepassing.
 
-Elk van deze velden kan worden gepersonaliseerd met behulp van het toegewezen pictogram. Leer meer op verpersoonlijkingsgebieden in [&#x200B; deze sectie &#x200B;](personalization-fields.md).
+Elk van deze velden kan worden gepersonaliseerd met behulp van het toegewezen pictogram. Leer meer op verpersoonlijkingsgebieden in [ deze sectie ](personalization-fields.md).
 
 ![](assets/email-smtp-bounce.png)
 
-Voor meer bij stuiteren postbeheer, zie [&#x200B; deze sectie &#x200B;](delivery-failures.md#bounce-mail-management).
+Voor meer bij stuiteren postbeheer, zie [ deze sectie ](delivery-failures.md#bounce-mail-management).
+
+## Enable One-click List-unsubscribe {#one-click-list-unsubscribe}
+
+De één-klik lijst-unsubscribe URL is een verbinding of knoop die naast de e-mailzenderinformatie wordt getoond die ontvangers onmiddellijk om uit uw het posten lijsten met één enkele klik laat kiezen. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
+
+Het toont als **Unsubscribe** verbinding in de ISPs&#39; e-mailinterfaces. Bijvoorbeeld:
+
+![](assets/email-list-unsubscribe-example.png)
+
+Het toevoegen van een kopbal SMTP genoemd lijst-Unsubscribe is verplicht om optimaal leveringsbaarheidsbeheer te verzekeren, en kan als alternatief aan het &quot;Rapport als SPAM&quot;pictogram worden gebruikt. Het gebruik van deze functie verlaagt de klachtenkosten en helpt uw reputatie te beschermen.
+
+>[!IMPORTANT]
+>
+>Als u één klik wilt weergeven, klikt u op de URL voor afmelden in de e-mailheader, moet de e-mailclient van de ontvangers deze functie ondersteunen.
+
+Selecteer de optie **[!UICONTROL Addition of One-click List-Unsubscription Header]** op het tabblad **[!UICONTROL SMTP]** van de leveringseigenschappen om deze functionaliteit in te schakelen.
+
+>[!NOTE]
+>
+>Deze optie is standaard ingeschakeld.
+
+![](assets/email-smtp-list-unsubscribe.png)
+
+<!--
+>[!WARNING]
+>
+>If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.-->
+
+Afhankelijk van de e-mailcliënt en de methode zij gebruiken om opt-out uit uit te voeren, kan het klikken van de **Unsubscribe** verbinding in de e-mailkopbal de volgende gevolgen hebben:
+
+* Als de e-mailcliënt **één-Klik** lijst-opheft methode gebruikt, wordt de ontvanger direct uit geopteerd.
+
+  >[!NOTE]
+  >
+  >Belangrijke ISP&#39;s zoals Google en Yahoo! Vereisen afzenders om **te voldoen één-Klik lijst-Unsubscribe**.
+
+* Als de e-mailcliënt niet één-Klik lijst-Unsubscribe steunt, kunnen zij nog **&quot;mailto&quot;** lijst-opzeggen methode gebruiken, die een vooraf ingevulde e-mail naar het afmeldingsadres verzendt dat in de e-mailkopbal wordt gespecificeerd.
+
+  U kunt het adres expliciet instellen in de koptekst of een dynamisch adres gebruiken (bijvoorbeeld met &lt;%=errorAddress%> of de optie &#39;NmsEmail_DefaultErrorAddr&#39;) die kan worden ingesteld via de implementatietovenaar.
+
+>[!NOTE]
+>
+>U kunt [ ook plaatsen één-Klik lijst-Unsubscribe ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} en [ &quot;mailto&quot;lijst-Unsubscribe ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} methodes manueel. De gedetailleerde stappen worden beschreven in de Gids van de Beste praktijken van de Levering van Experience Cloud [ ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}.
+
 
 ## SMTP-koppen toevoegen {#adding-smtp-headers}
 
 Het is mogelijk om kopballen SMTP aan uw leveringen toe te voegen. Hiervoor gebruikt u de desbetreffende sectie van het tabblad **[!UICONTROL SMTP]** in de levering.
 
-Het manuscript ingegaan in dit venster moet één kopbal per lijn in de volgende vorm van verwijzingen voorzien: **naam:waarde**.
+Het manuscript ingegaan in dit venster moet één kopbal per lijn in de volgende vorm van verwijzingen voorzien: **naam:value**.
 
 Waarden worden indien nodig automatisch gecodeerd.
 
@@ -97,4 +141,4 @@ Waarden worden indien nodig automatisch gecodeerd.
 
 De spiegelpagina is een HTML-pagina die online toegankelijk is via een webbrowser. De inhoud is identiek aan de e-mail. Het kan handig zijn als uw ontvangers problemen ondervinden met het renderen of als ze uw e-mail proberen weer te geven in hun Postvak IN.
 
-Leer hoe te om een verbinding aan de spiegelpagina in te voegen [&#x200B; deze sectie &#x200B;](mirror-page.md)
+Leer hoe te om een verbinding aan de spiegelpagina in te voegen [ deze sectie ](mirror-page.md)
