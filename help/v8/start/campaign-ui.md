@@ -29,12 +29,12 @@ U kunt tot Adobe Campaign via zijn cliëntconsole of zijn gebruikersinterface va
 
   >[!AVAILABILITY]
   >
-  >De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers van de Campagne v8 die met Campagne met hun Adobe ID verbinden. Leer meer over [&#x200B; het Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+  >De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers van de Campagne v8 die met Campagne met hun Adobe ID verbinden. Leer meer over [&#x200B; het Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
   >
 
 >[!CAUTION]
 >
->Deze documentatie is geconcentreerd op het gebruik van de console van de Cliënt van de Campagne. Als een gebruiker van de Campagne v8, als u het de gebruikersinterface van het Web van de Campagne gebruikt, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+>Deze documentatie is geconcentreerd op het gebruik van de console van de Cliënt van de Campagne. Als een gebruiker van de Campagne v8, als u het de gebruikersinterface van het Web van de Campagne gebruikt, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"}.
 
 ## Werken met de clientconsole {#ui-access}
 
@@ -126,12 +126,12 @@ Als gebruiker van Campagne v8, die versie 8.6.1 begint, hebt u toegang tot een W
 
 >[!AVAILABILITY]
 >
->De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers van de Campagne v8 die met Campagne met hun Adobe ID verbinden. Leer meer over [&#x200B; het Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+>De gebruikersinterface van het Web van de campagne is slechts beschikbaar aan gebruikers van de Campagne v8 die met Campagne met hun Adobe ID verbinden. Leer meer over [&#x200B; het Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
 >
 
-Leer meer over het nieuwe Gebruikersinterface van het Web van de Campagne in [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}. U kunt de specifieke [&#x200B; Veelgestelde pagina van Vragen &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"}, in de documentatie van het Gebruikersinterface van het Web van de Campagne ook bezoeken.
+Leer meer over het nieuwe Gebruikersinterface van het Web van de Campagne in [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"}. U kunt de specifieke [&#x200B; Veelgestelde pagina van Vragen &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/faq){target="_blank"}, in de documentatie van het Gebruikersinterface van het Web van de Campagne ook bezoeken.
 
-Aanvullende en geavanceerde mogelijkheden, configuratie en instellingen zijn alleen beschikbaar in de clientconsole. Leer meer over mogelijkheden beschikbaar in beide gebruikersinterfaces [&#x200B; in de documentatie van het het gebruikersinterface van het Web van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html){target="_blank"}.
+Aanvullende en geavanceerde mogelijkheden, configuratie en instellingen zijn alleen beschikbaar in de clientconsole. Leer meer over mogelijkheden beschikbaar in beide gebruikersinterfaces [&#x200B; in de documentatie van het het gebruikersinterface van het Web van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=nl-NL){target="_blank"}.
 
 
 ## Ondersteunde talen {#languages}
@@ -151,7 +151,7 @@ Welke talen worden ondersteund, is afhankelijk van de gebruikersinterface.
   >
   >De taal wordt geselecteerd tijdens het installatieproces, en **kan niet** achteraf worden veranderd.
 
-* Voor het gebruikersinterface van het Web van de Campagne gesteunde talen, [&#x200B; verwijzen naar de het gebruikersinterfacedocumentatie van het Web van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
+* Voor het gebruikersinterface van het Web van de Campagne gesteunde talen, [&#x200B; verwijzen naar de het gebruikersinterfacedocumentatie van het Web van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=nl-NL#language-pref){target="_blank"}.
 
 ## Indelingen
 
