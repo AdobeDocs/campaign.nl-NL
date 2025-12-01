@@ -36,7 +36,7 @@ Adobe Campaign v8 biedt a **nieuw Webgebruikersinterface** naast de traditionele
 
 Vanaf Campagne v8.6 is de interface van het Web van de Campagne beschikbaar door Adobe Experience Cloud, toelatend naadloze toegang tot alle oplossingen van Adobe.
 
-[&#x200B; leer meer over het de gebruikersinterface van het Web van de Campagne &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}
+[&#x200B; leer meer over het de gebruikersinterface van het Web van de Campagne &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 
 ### Centraal workflowbeheer{#central-wf-mgt}
 
