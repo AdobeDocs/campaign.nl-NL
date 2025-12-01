@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Deze documentatie behandelt gegevensgeoriënteerde APIs voor het vragen van het gegevensbestand programmatically. Voor REST APIs, verwijs naar [ begonnen wordt met REST APIs ](api/get-started-apis.md). Voor het visuele vraaggebouw, verwijs naar [ Werk met de vraagredacteur ](../start/query-editor.md).
+>Deze documentatie behandelt gegevensgeoriënteerde APIs voor het vragen van het gegevensbestand programmatically. Voor REST APIs, verwijs naar [&#x200B; begonnen wordt met REST APIs &#x200B;](api/get-started-apis.md). Voor het visuele vraaggebouw, verwijs naar [&#x200B; Werk met de vraagredacteur &#x200B;](../start/query-editor.md).
 
 ## Wat is NLWS? {#what-is-nlws}
 
 `NLWS` (Neolane Web Services) is het algemene JavaScript-object dat wordt gebruikt voor toegang tot de op SOAP gebaseerde API-methoden van [!DNL Adobe Campaign] . Schema&#39;s zijn eigenschappen van het `NLWS` -object, zodat u programmatisch kunt communiceren met campagneentiteiten.
 
-Volgens de [ documentatie van JSAPI van de Campagne ](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}, &quot;zijn de schema&#39;s &quot;NLWS&quot;globale voorwerpen.&quot; De syntaxis voor toegang tot schemamethoden volgt dit patroon:
+Volgens de [&#x200B; documentatie van JSAPI van de Campagne &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}, &quot;zijn de schema&#39;s &quot;NLWS&quot;globale voorwerpen.&quot; De syntaxis voor toegang tot schemamethoden volgt dit patroon:
 
 ```javascript
 NLWS.<namespace><SchemaName>.<method>()
@@ -85,7 +85,7 @@ Statische SOAP-methoden worden benaderd door een methode aan te roepen voor het 
 
 ### Niet-statische methoden {#non-static-methods}
 
-Als u niet-statische SOAP-methoden wilt gebruiken, moet u eerst een entiteit ophalen met de methoden `load` of `create` in de desbetreffende schema&#39;s. Leer meer in de [ documentatie van JSAPI van de Campagne ](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}.
+Als u niet-statische SOAP-methoden wilt gebruiken, moet u eerst een entiteit ophalen met de methoden `load` of `create` in de desbetreffende schema&#39;s. Leer meer in de [&#x200B; documentatie van JSAPI van de Campagne &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}.
 
 ### Entiteiten laden, opslaan en maken {#load-save-create}
 
@@ -138,7 +138,7 @@ Het `xtk:queryDef` -schema biedt methoden om databasequery&#39;s te maken en uit
 * `getIfExists` - Eén record ophalen, null retourneren als deze niet is gevonden
 * `count` - Records tellen die aan de criteria voldoen
 
-Leer meer over methodes queryDef in de [ documentatie van JSAPI van de Campagne ](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}.
+Leer meer over methodes queryDef in de [&#x200B; documentatie van JSAPI van de Campagne &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}.
 
 ## Query uitvoeren met JSON {#query-json}
 
@@ -265,7 +265,7 @@ for each(var delivery in deliveries.delivery) {
 >* Gebruik `lineCount` om het maximale aantal resultaten expliciet in te stellen
 >* Voor grote datasets (>1000 verslagen), gebruik werkschema&#39;s in plaats van queryDef. Workflows zijn ontworpen om miljoenen rijen efficiënt te verwerken.
 
-Leer meer over [ ExecuteQuery ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"} en [ vraag beste praktijken ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}.
+Leer meer over [&#x200B; ExecuteQuery &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"} en [&#x200B; vraag beste praktijken &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}.
 
 ## Overgangsgegevens van querywerkstroom {#workflow-transition-data}
 
@@ -310,7 +310,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->Gebruik altijd geparameteriiseerde query&#39;s met `$(sz)` voor tekenreeksen en `$(l)` voor gehele getallen om SQL-injectiekwetsbaarheden te voorkomen. Leer meer in de [ documentatie van JSAPI van de Campagne ](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"}.
+>Gebruik altijd geparameteriiseerde query&#39;s met `$(sz)` voor tekenreeksen en `$(l)` voor gehele getallen om SQL-injectiekwetsbaarheden te voorkomen. Leer meer in de [&#x200B; documentatie van JSAPI van de Campagne &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"}.
 
 ## Records tellen {#count-records}
 
@@ -438,7 +438,7 @@ logInfo("Name: " + mapping.$exclusionTypeName);
 logInfo("Label: " + mapping.$exclusionTypeLabel);
 ```
 
-Leer meer over [ analyseer optie ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#the-analyze-option){target="_blank"}.
+Leer meer over [&#x200B; analyseer optie &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#the-analyze-option){target="_blank"}.
 
 ## Paginering {#pagination}
 
@@ -473,7 +473,7 @@ var recipients = query.ExecuteQuery();
 >
 >**Paginering vereist orderBy:** Zonder een `orderBy` clausule, zijn de vraagresultaten niet gewaarborgd om in een verenigbare orde te zijn. Volgende aanroepen kunnen verschillende pagina&#39;s of dubbele records retourneren. Neem altijd een `orderBy` op wanneer u paginering gebruikt.
 
-Leer meer over [ paginering ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#pagination){target="_blank"}.
+Leer meer over [&#x200B; paginering &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#pagination){target="_blank"}.
 
 ## Dynamische queryconstructie {#dynamic-queries}
 
@@ -561,7 +561,7 @@ logInfo("Generated SQL: " + sql);
 // Output: "SELECT iRecipientId, sEmail FROM NmsRecipient WHERE sEmail IS NOT NULL"
 ```
 
-Leer meer over [ BuildQuery ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html){target="_blank"}.
+Leer meer over [&#x200B; BuildQuery &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html){target="_blank"}.
 
 ### BuildQueryEx - SQL ophalen met indelingstekenreeks {#build-query-ex}
 
@@ -586,7 +586,7 @@ logInfo("Format: " + format);
 var results = sqlSelect(format, sql);
 ```
 
-Leer meer over [ BuildQueryEx ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html){target="_blank"}.
+Leer meer over [&#x200B; BuildQueryEx &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html){target="_blank"}.
 
 ### Alles selecteren - Alle velden toevoegen om te selecteren {#select-all}
 
@@ -609,7 +609,7 @@ var result = query.ExecuteQuery();
 // Result contains all recipient fields
 ```
 
-Leer meer over [ SelectAll ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html){target="_blank"}.
+Leer meer over [&#x200B; SelectAll &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html){target="_blank"}.
 
 ### Bijwerken - Update-records voor massa {#mass-update}
 
@@ -639,7 +639,7 @@ logInfo("Mass update completed");
 >
 >De updates van de massa beïnvloeden alle verslagen die de waar clausule aanpassen. Test altijd waar de voorwaarden met een uitgezochte vraag eerst om te verifiëren welke verslagen zullen worden beïnvloed.
 
-Leer meer over [ Update ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}.
+Leer meer over [&#x200B; Update &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}.
 
 ### GetInstanceFromModel - Query-sjablooninstanties {#get-instance-from-model}
 
@@ -662,7 +662,7 @@ var query = NLWS.xtkQueryDef.create(
 var instance = query.GetInstanceFromModel("nms:delivery");
 ```
 
-Leer meer over [ GetInstanceFromModel ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html){target="_blank"}.
+Leer meer over [&#x200B; GetInstanceFromModel &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html){target="_blank"}.
 
 ## Batchbewerkingen {#batch-operations}
 
@@ -749,13 +749,13 @@ for each(var record in xml.collection) {
 >
 >* Gebruikersinvoer altijd valideren en ontsmetten
 >* Gebruik geparametereerde query&#39;s met `$(sz)` , `$(l)` , `$(dt)` enz.
->* Ben zich bewust van de verschillen tussen de lokale en wolkengegevensbestanden in [ plaatsingen FFDA ](../architecture/enterprise-deployment.md)
+>* Ben zich bewust van de verschillen tussen de lokale en wolkengegevensbestanden in [&#x200B; plaatsingen FFDA &#x200B;](../architecture/enterprise-deployment.md)
 
 ## Best practices {#best-practices}
 
 Bij het werken met queryDef- en NLWS-methoden:
 
-* **werkschema&#39;s van het Gebruik voor grote datasets** - QueryDef wordt niet ontworpen voor de verwerking van high-volume gegevens. Voor datasets met meer dan 1.000 verslagen, gebruikwerkschema&#39;s die miljoenen rijen efficiënt kunnen behandelen. Leer meer in de [ documentatie van SDK van de Campagne ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
+* **werkschema&#39;s van het Gebruik voor grote datasets** - QueryDef wordt niet ontworpen voor de verwerking van high-volume gegevens. Voor datasets met meer dan 1.000 verslagen, gebruikwerkschema&#39;s die miljoenen rijen efficiënt kunnen behandelen. Leer meer in de [&#x200B; documentatie van SDK van de Campagne &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
 * **Gebruik de parameters bepaalde vragen** - gebruik altijd gebonden parameters (`$(sz)`, `$(l)`) met `sqlExec` om SQL injectie te verhinderen
 * **vastgestelde expliciete grenzen** - Gebruik `lineCount` om resultaatgrootte te controleren. De standaardlimieten van de campagne variëren per context (200-10.000 records)
 * **Gebruik orderBy met paginering** - omvat altijd een `orderBy` clausule wanneer het gebruiken `startLine` en `lineCount` om verenigbare paginering te verzekeren
@@ -763,7 +763,7 @@ Bij het werken met queryDef- en NLWS-methoden:
 * **Analyseer van het Gebruik voor opsommingen** - voeg `analyze: true` toe om knopen te selecteren om gebruikersvriendelijke opsommingsnamen en etiketten te krijgen
 * **optimaliseer vragen** - voeg aangewezen `where` voorwaarden toe om resultaatreeksen te beperken
 * **verwerking van de Partij** - de veelvoudige verslagen in partijen verwerken om geheugenkwesties en onderbrekingen te vermijden
-* **bewustzijn FFDA** - In [ de plaatsingen van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), ben zich ervan bewust dat [!DNL Campaign] met twee gegevensbestanden werkt
+* **bewustzijn FFDA** - In [&#x200B; de plaatsingen van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), ben zich ervan bewust dat [!DNL Campaign] met twee gegevensbestanden werkt
 
 
 
@@ -900,9 +900,9 @@ Volledige structuur van het object `queryDef` :
 ## Verwante onderwerpen {#related-topics}
 
 * [Aan de slag met campagne-API&#39;s](api.md)
-* [ Campagne JavaScript SDK - de Vraag API ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
-* [ queryDef API Verwijzing ](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
-* [ de documentatie van JSAPI van de Campagne ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
+* [&#x200B; Campagne JavaScript SDK - de Vraag API &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
+* [&#x200B; queryDef API Verwijzing &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
+* [&#x200B; de documentatie van JSAPI van de Campagne &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
 * [Werken met schema&#39;s](schemas.md)
 * [Werken met de query-editor](../start/query-editor.md)
 
