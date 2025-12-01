@@ -8,9 +8,9 @@ keywords: Veelgestelde vragen, campagne v8, vragen, antwoorden, Help, ondersteun
 version: Campaign v8
 hide: true
 hidefromtoc: true
-source-git-commit: e09936490f04a8bd85021cbb0da8f39940a36027
+source-git-commit: abbbe4c59847a64142cc80704c1a77348a7c35ff
 workflow-type: tm+mt
-source-wordcount: '13018'
+source-wordcount: '9819'
 ht-degree: 4%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 Geniet van snelle antwoorden op de meest voorkomende vragen over Adobe Campaign v8. Of u enkel begonnen bent of het zoeken naar geavanceerde configuratiehulp, zult u antwoorden vinden die door onderwerp hieronder worden georganiseerd.
 
-**Nieuw aan Campagne?** Begin met [&#x200B; Algemene Vragen &#x200B;](#general) en [&#x200B; Zeer belangrijke Concepten &#x200B;](#key-concepts).\
-**Heb hulp met versies nodig?** Controle [&#x200B; Verbeteringen &#x200B;](#upgrades) voor versieinformatie en verbeteringsprocessen.\
-**migrerend van v7 of Standaard?** zie [&#x200B; Campagne v8 vs Vorige Versies &#x200B;](#v7-differences) voor verschillen en overgangsbegeleiding.\
-**technische hulp nodig?** Controle [&#x200B; Ontwikkelaars &#x200B;](#developers) en [&#x200B; de Montages van de Campagne &#x200B;](#settings).\
-**Kan uw antwoord niet vinden?** Bezoek onze [&#x200B; Communautaire Forums &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} of [&#x200B; contactsteun &#x200B;](#get-help).
+**Nieuw aan Campagne?** Begin met [ Algemene Vragen ](#general) en [ Zeer belangrijke Concepten ](#key-concepts).\
+**Heb hulp met versies nodig?** Controle [ Verbeteringen ](#upgrades) voor versieinformatie en verbeteringsprocessen.\
+**migrerend van v7 of Standaard?** zie [ Campagne v8 vs Vorige Versies ](#v7-differences) voor verschillen en overgangsbegeleiding.\
+**technische hulp nodig?** Controle [ Ontwikkelaars ](#developers) en [ de Montages van de Campagne ](#settings).\
+**Kan uw antwoord niet vinden?** Bezoek onze [ Communautaire Forums ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} of [ contactsteun ](#get-help).
 
 **Uiteinde:** Gebruik Ctrl+F (Cmd+F op Mac) om naar specifieke sleutelwoorden op deze pagina te zoeken. Klik op een vraag om het antwoord uit te vouwen.
 
@@ -38,12 +38,12 @@ U moet de clientconsole van Campagne downloaden en installeren om verbinding te 
 
 De aanvang van de Versie van Campagne v8.6, hebt u toegang tot het **de gebruikersinterface van het Web van de Campagne**, beschikbaar door het centrale milieu van Adobe Experience Cloud. Experience Cloud is een geïntegreerde Adobe-reeks met digitale marketingtoepassingen, producten en services.
 
-Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [&#x200B; in deze pagina &#x200B;](campaign-ui.md#ac-web-ui) toegang te hebben. Leer meer in de [&#x200B; gebruikersinterfacedocumentatie van het Web van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [ in deze pagina ](campaign-ui.md#ac-web-ui) toegang te hebben. Leer meer in de [ gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
 
 **Verwante onderwerpen:**
 
-[&#x200B; installeer de cliëntconsole &#x200B;](connect.md) | [&#x200B; Campagne gebruikersinterface &#x200B;](campaign-ui.md) | [&#x200B; de toestemmingen van de Gebruiker &#x200B;](gs-permissions.md)
+[ installeer de cliëntconsole ](connect.md) | [ Campagne gebruikersinterface ](campaign-ui.md) | [ de toestemmingen van de Gebruiker ](gs-permissions.md)
 
 +++
 
@@ -51,59 +51,35 @@ Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het
 
 E-maillevering, een essentieel onderdeel van het succes van het marketingprogramma van elke afzender, wordt gekenmerkt door voortdurend veranderende criteria en regels. Voor een effectieve navigatie in deze digitale wereld is een regelmatige afstemming van uw e-mailstrategie vereist, waarbij rekening wordt gehouden met belangrijke ontwikkelingen op het gebied van de leverbaarheid, zodat uw publiek het beste kan bereiken.
 
-Verwijs naar deze gids om [&#x200B; Aanbevolen Praktijken van de Levering te leren &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}
+Verwijs naar deze gids om [ Aanbevolen Praktijken van de Levering te leren ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}
 
-Leer hoe te om leverbaarheid in Campagne [&#x200B; in deze gids uit te voeren &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=nl-NL){target="_blank"}
+Leer hoe te om leverbaarheid in Campagne [ in deze gids uit te voeren ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
 
 **Verwante onderwerpen:**
 
-[&#x200B; worden begonnen met bevrediging &#x200B;](../send/about-deliverability.md) | [&#x200B; het berichtinhoud van de Controle &#x200B;](../send/control-message-content.md) | [&#x200B; de leverbaarheid van de Monitor &#x200B;](../send/monitoring-deliverability.md) | [&#x200B; SpamAssassin &#x200B;](../send/spamassassin.md)
+[ worden begonnen met bevrediging ](../send/about-deliverability.md) | [ het berichtinhoud van de Controle ](../send/control-message-content.md) | [ de leverbaarheid van de Monitor ](../send/monitoring-deliverability.md) | [ SpamAssassin ](../send/spamassassin.md)
 
 +++
 
 +++ Hoe kan ik ervoor zorgen dat mijn levering zonder fouten wordt verzonden?
 
-Voer de volgende stappen uit om ervoor te zorgen dat de levering succesvol is:
+**alvorens te verzenden:** de leveringsanalyse van de Looppas, verzendt testproeven, herziet waarschuwingen, verifieer doeltelling.
 
-**alvorens te verzenden:**
+**tijdens/na het verzenden:** de leveringsdashboard van de Monitor (verzonden, geleverd, stuiters, fouten), controleleveringslogboeken, spoorsucces/stuittarieven, overzicht quarantined adressen.
 
-* Leveringsanalyse uitvoeren om fouten te detecteren (personalisatie ontbreekt, ontvangers zijn ongeldig, problemen met inhoud)
-* Testproefdrukken verzenden om rendering en personalisatie te verifiëren
-* Waarschuwingen tijdens voorbereiding bekijken
-* Aantal doelpopulatie controleren
+**Beste praktijken:** Het alarm van de opstelling, gebruikgolven voor grote volumes, test met kleine volumes eerst, schoon ontvankelijk gegevensbestand regelmatig, de reputatie van de monitor.
 
-**tijdens en na het verzenden:**
-
-* Controleer het leveringsdashboard voor statistieken in real time (verzonden, geleverd, grenzen, fouten)
-* Leveringslogs controleren op status op berichtniveau
-* Traceersuccespercentage, stuitsnelheid en foutberichten
-* In quarantaine geplaatste adressen controleren
-
-**Beste praktijken:**
-
-* Waarschuwingen voor foutdrempels instellen
-* Golven gebruiken (batchverzending) voor grote volumes
-* Test eerst met kleine volumes
-* Beheer regelmatig uw database voor ontvangers
-* De reputatie van de afzender van de monitor
-
-Leer meer over [&#x200B; controlerende leveringen &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=nl-NL){target="_blank"} en [&#x200B; levering beste praktijken &#x200B;](delivery-best-practices.md).
+[ leveringen van de Monitor ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} | [ Beste praktijken van de Levering ](delivery-best-practices.md)
 
 +++
 
 +++ Kan ik de uitvoering van de workflow controleren?
 
-Ja. De campagne biedt verschillende gereedschappen om de uitvoering van de workflow te controleren:
+Ja. De campagne biedt meerdere controlemiddelen: werkstroomdashboard (real-time status en fouten), werkstroomlogboeken (gedetailleerde uitvoeringslogboeken), heatmap (activiteiten en knelpunten visualiseren), audittrail (spoorwijzigingen) en waarschuwingen (meldingen voor fouten).
 
-* **[dashboard van het Werkschema &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"}** - de status van de Mening in real time, vooruitgang, en fouten voor elke werkschemaactiviteit
-* **[Logboeken van het Werkschema &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#displaying-logs){target="_blank"}** - toegang gedetailleerde uitvoeringslogboeken om kwesties problemen op te lossen
-* **[Heatmap &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/monitoring-workflows/heatmap){target="_blank"}** - visualiseer werkschemaactiviteit en identificeer prestatiesknelpunten
-* **[spoor van de Controle](../reporting/audit-trail.md)** - spoor alle wijzigingen die aan werkschema&#39;s worden aangebracht
-* **[Alarm &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators){target="_blank"}** - de berichten van de opstelling voor werkschemamislukkingen of vertragingen
+Om te controleren, open het werkschema en klik de **Logboeken** tabel. Mislukte activiteiten worden rood weergegeven.
 
-Om een werkschema te controleren, open het en klik de **Logboeken** tabel. Mislukte activiteiten worden rood gemarkeerd en u kunt de foutgegevens weergeven door erop te klikken.
-
-Leer meer over [&#x200B; controle werkschemauitvoering &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} en [&#x200B; werkschemabeste praktijken &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=nl-NL){target="_blank"}.
+[ de werkschemauitvoering van de Monitor ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [ Beste praktijken van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 +++
 
@@ -111,9 +87,9 @@ Leer meer over [&#x200B; controle werkschemauitvoering &#x200B;](https://experie
 
 U kunt het installatieprogramma en de clientconsole ophalen vanuit Adobe Download Center.
 
-Als Admin gebruiker, heb toegang tot de Distributie van de Software van Adobe [&#x200B; &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"} om Adobe Campaign te downloaden.
+Als Admin gebruiker, heb toegang tot de Distributie van de Software van Adobe [ ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"} om Adobe Campaign te downloaden.
 
-Leer meer over het Centrum van de Distributie [&#x200B; op deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=nl-NL){target="_blank"}.
+Leer meer over het Centrum van de Distributie [ op deze pagina ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
 +++
 
@@ -129,74 +105,48 @@ Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken 
 
 +++ Hoe kan ik een probleem registreren?
 
-U kunt een ticket maken om contact op te nemen met de Adobe-klantenondersteuning voor problemen die u ondervindt in Adobe-producten. In de Adobe Admin Console kunt u chatten met de Adobe-klantenondersteuning om uw problemen op te lossen.
+Om de Steun van de Klant van Adobe te contacteren, verbind met [ Adobe Admin Console ](https://adminconsole.adobe.com/overview){target="_blank"} om een geval tot stand te brengen of een praatjezitting te beginnen.
 
-Als u een probleem wilt melden of een chatsessie wilt starten in dat nieuwe systeem, maakt u verbinding met de [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"}.
+Vereist afzonderlijke accounts met de juiste machtigingen. Als u zich niet kunt aanmelden, kunt u toegang aanvragen via Experience League. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
-Dit systeem vereist individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u zich niet kunt aanmelden met uw Adobe ID, kunt u om toegang vragen via de Experience League. Het klantenserviceteam helpt u dan zo snel mogelijk. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
-
-Deelnemen aan de Campagne-gemeenschap: zoeken naar antwoorden in bestaande vragen of de experts raadplegen. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+Alternatief, sluit zich aan bij [ Gemeenschap van de Campagne ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} aan onderzoek naar antwoorden of vraag deskundigen.
 
 +++
 
 +++ Met welke systemen en componenten is Campagne v8 compatibel?
 
-U kunt de lijst van alle systemen en componenten krijgen die voor de recentste bouw van Campagne in [&#x200B; de matrijs van de Verenigbaarheid van Adobe Campaign &#x200B;](compatibility-matrix.md) worden gesteund.
+U kunt de lijst van alle systemen en componenten krijgen die voor de recentste bouw van Campagne in [ de matrijs van de Verenigbaarheid van Adobe Campaign ](compatibility-matrix.md) worden gesteund.
 
 +++
 
 +++ Kan ik Campaign v8 gebruiken met andere Adobe-oplossingen?
 
-Ja. Campagne v8 kan naadloos worden geïntegreerd met Adobe Experience Cloud-oplossingen om een krachtig, uniform marketingecosysteem te creëren. Als beheerde Cloud Service is v8 ontworpen voor systeemeigen integratie met Adobe-bedrijfstoepassingen.
+Ja. Campagne v8 kan naadloos worden geïntegreerd met Adobe Experience Cloud-oplossingen voor een uniform ecosysteem voor marketing.
 
-**Belangrijke beschikbare integratie:**
+**Zeer belangrijke integratie:** Adobe Experience Platform (verenigde profielen, gegevens in real time), Adobe Analytics (prestatiesmeting), Adobe Target (verpersoonlijking), Adobe Experience Manager (inhoudsbeheer), Adobe Audience Manager (publiekssegmenten).
 
-* **Adobe Experience Platform** - Leverage verenigde klantenprofielen en gegevens in real time
-* **Adobe Analytics** - de campagneprestaties en klantengedrag van de maatregel over kanalen
-* **Adobe Target** - Personaliseer inhoud die op klantensegmenten en gedrag wordt gebaseerd
-* **Adobe Experience Manager** - centraliseer inhoudsverwezenlijking en activabeheer
-* **Adobe Audience Manager** - bouw en activeer publiekssegmenten over platforms
+**Opstelling:** vereist de authentificatie van Adobe IMS, automatisch gevormd voor Campagne v8 Beheerde Diensten van de Wolk.
 
-**Voordelen:** Verenigde klantengegevens, verenigbare gebruikerservaringen, gestroomlijnde werkschema&#39;s, en verbeterde verpersoonlijkingsmogelijkheden.
-
-**Opstelling:** de integratie met de oplossingen van Adobe vereist de authentificatie van het Systeem van Adobe Identity Management (IMS), automatisch gevormd voor Campagne v8 Beheerde Diensten van de Wolk.
-
-**Verwante onderwerpen:**
-
-[&#x200B; de integraties van Adobe Campaign &#x200B;](../connect/integration.md) | [&#x200B; verbind met Adobe ID &#x200B;](connect.md)
+[ de integraties van Adobe Campaign ](../connect/integration.md) | [ verbind met Adobe ID ](connect.md)
 
 +++
 
 +++ Wat zijn de beperkingen van Campaign v8?
 
-Campagne v8 introduceert architectuurveranderingen (met name in implementaties van FFDA) die significante prestatieverbeteringen maar ook enkele verschillen van Campaign Classic v7 brengen. Als u deze opties begrijpt, kunt u migraties plannen en de juiste verwachtingen instellen.
+Campagne v8 levert aanzienlijke prestatieverbeteringen op, maar heeft enkele architectuurverschillen ten opzichte van Campaign Classic v7, met name in FFDA-implementaties.
 
-**Belangrijkste v8 overwegingen:**
+**Zeer belangrijke overwegingen:**
 
-* **architectuur FFDA** - de plaatsingen van de Onderneming gebruiken wolkengegevensbestand (Snowflake) met verschillende patronen van de gegevenstoegang
-* **de updates van de Eenheid** - de updates van Gegevens zouden in werkschema&#39;s, niet door APIs of directe gegevensbestandtoegang moeten worden gedaan
-* **In real time schrijft** - Geoptimaliseerd voor partijverrichtingen eerder dan high-frequency individuele updates
-* **Model van Gegevens** - sommige schemaaanpassingen vereisen verschillende benaderingen
-* **Externe gegevensbestandtoegang** - FDA (Federated Data Access) configuratie verschilt van v7
+* **architectuur FFDA** - gebruikt wolkengegevensbestand (Snowflake) met verschillende patronen van de gegevenstoegang
+* **de updates van Gegevens** - zou in werkschema&#39;s, niet via directe gegevensbestandtoegang moeten worden gedaan
+* **batch-geoptimaliseerde** - geoptimaliseerd voor partijverrichtingen eerder dan high-frequency individuele updates
+* **niet beschikbaar in FFDA** - Enquêtes, het Beheer van het Middel van de Marketing (MRM), sommige specifieke schakelaars
 
-**Eigenschappen niet beschikbaar in plaatsingen FFDA:**
+**Effect van de Migratie:** de code van de Douane die het directe gegevensbestand gebruikt schrijft behoeften refactoring; API de integraties kunnen aanpassing voor partijverwerking vereisen.
 
-* Enquêtes (beschikbaar in standaard v8-implementaties)
-* Marketing Resource Management (MRM)
-* Bepaalde specifieke verbindingsconfiguraties
+Deze beperkingen veranderen naarmate Adobe versie 8 verbetert. Raadpleeg de nieuwste documentatie voor de huidige status.
 
-**Overwegingen van de Migratie:**
-
-* De code van de douane die het directe gegevensbestand gebruikt schrijft behoeften refactoring
-* Voor API-integratie is mogelijk aanpassing voor batchverwerking vereist
-* Workflows moeten de beste praktijken van de FFDA voor gegevensbewerkingen volgen
-* Testen is essentieel voor het valideren van aangepaste ontwikkelingen
-
-**Belangrijk:** Deze beperkingen evolueren aangezien Adobe v8 blijft verbeteren. Raadpleeg de nieuwste documentatie voor de huidige status en routekaart.
-
-**Verwante onderwerpen:**
-
-[&#x200B; Campagne v7 aan v8 migratie &#x200B;](../start/v7-to-v8.md#limitations) | [&#x200B; architectuur FFDA &#x200B;](../architecture/enterprise-deployment.md)
+[ Campagne v7 aan v8 migratie ](../start/v7-to-v8.md#limitations) | [ architectuur FFDA ](../architecture/enterprise-deployment.md)
 
 +++
 
@@ -208,7 +158,7 @@ Campagne v8 is **slechts** beschikbaar als Beheerde Cloud Service, en kan niet o
 
 Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie over het migratieproces.
 
-Leer meer in de [&#x200B; Campagne v8 vs Vorige versies &#x200B;](#v7-differences) sectie.
+Leer meer in de [ Campagne v8 vs Vorige versies ](#v7-differences) sectie.
 
 +++
 
@@ -226,7 +176,7 @@ Ja! Dankzij de integratie met de IMS (Adobe Identity Management System) maken ge
 * Veiliger beleid voor wachtwoordbeheer.
 * Gebruik van Federated ID-accounts (externe id-provider).
 
-[&#x200B; leer meer &#x200B;](connect.md) over de toegang tot van Campagne v8 met een Adobe ID.
+[ leer meer ](connect.md) over de toegang tot van Campagne v8 met een Adobe ID.
 
 +++
 
@@ -240,21 +190,21 @@ Dit zijn een reeks rechten en beperkingen waarbij wordt toegestaan of geweigerd 
 * Toegang tot bepaalde gegevens
 * Gegevens maken, wijzigen en/of verwijderen
 
-[&#x200B; leer meer &#x200B;](../start/gs-permissions.md) over gebruikerstoestemmingen in Campagne v8.
+[ leer meer ](../start/gs-permissions.md) over gebruikerstoestemmingen in Campagne v8.
 
 **Verwante onderwerpen:**
 
-[&#x200B; krijgen begonnen met toestemmingen &#x200B;](gs-permissions.md) | [&#x200B; leiden gebruikerstoestemmingen &#x200B;](manage-permissions.md) | [&#x200B; voeg toestemmingen op omslagen &#x200B;](folder-permissions.md) toe
+[ krijgen begonnen met toestemmingen ](gs-permissions.md) | [ leiden gebruikerstoestemmingen ](manage-permissions.md) | [ voeg toestemmingen op omslagen ](folder-permissions.md) toe
 
 +++
 
 +++ Wat zijn de concepten van het gebruikersinterface van de Campagne ik zou moeten weten?
 
-Verwijs naar [&#x200B; deze sectie &#x200B;](campaign-ui.md) om meer over de grondbeginselen van het gebruikersinterface van Adobe Campaign te leren.
+Verwijs naar [ deze sectie ](campaign-ui.md) om meer over de grondbeginselen van het gebruikersinterface van Adobe Campaign te leren.
 
 Beginnende Versie van Campagne v8.6, hebt u ook toegang tot het nieuwe **de gebruikersinterface van het Web van de Campagne**, beschikbaar door het centrale milieu van Adobe Experience Cloud.
 
-[&#x200B; leer meer in de gebruikersinterfacedocumentatie van het Web van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+[ leer meer in de gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
 +++
 
@@ -262,7 +212,7 @@ Beginnende Versie van Campagne v8.6, hebt u ook toegang tot het nieuwe **de gebr
 
 Met Adobe Campaign kunt u verschillende strategieën gebruiken om doelgroepen te maken en doelontvangers te selecteren.
 
-[&#x200B; leer meer &#x200B;](../audiences/gs-audiences.md) over hoe te om publiek in Campagne v8 te bepalen.
+[ leer meer ](../audiences/gs-audiences.md) over hoe te om publiek in Campagne v8 te bepalen.
 
 +++
 
@@ -274,114 +224,61 @@ U kunt bijvoorbeeld een workflow gebruiken om een bestand van een server te down
 
 Een workflow kan ook een of meer operatoren omvatten die op de hoogte moeten worden gebracht of die keuzes kunnen maken en processen kunnen goedkeuren. Op deze manier is het mogelijk om een leveringsactie te maken, een taak toe te wijzen aan een of meer operatoren om aan content te werken, doelen op te geven en proeven goed te keuren voordat de levering wordt gestart.
 
-[&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL){target="_blank"} over werkschema&#39;s. U kunt ook [de best practices voor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=nl-NL){target="_blank"} lezen.
+[ leer meer ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target="_blank"} over werkschema&#39;s. U kunt ook [de best practices voor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} lezen.
 
 **Verwante onderwerpen:**
 
-[&#x200B; worden begonnen met werkschema&#39;s &#x200B;](../config/workflows.md) | [&#x200B; bouwt uw eerste werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=nl-NL){target="_blank"} | [&#x200B; het gebruiksgevallen van het Werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [&#x200B; de werkschemauitvoering van de Monitor &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=nl-NL){target="_blank"}
+[ worden begonnen met werkschema&#39;s ](../config/workflows.md) | [ bouwt uw eerste werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [ het gebruiksgevallen van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [ de werkschemauitvoering van de Monitor ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
 +++ Hoe maak en verzend een eerste e-mail?
 
-Het maken van uw eerste e-mail in Campagne v8 omvat verschillende belangrijke stappen:
+**5 zeer belangrijke stappen:**
 
-1. **creeer de levering** - Begin door een nieuwe e-maillevering van een malplaatje of van kras te creëren
-1. **bepaalt het publiek** - selecteer uw doelontvangers gebruikend vragen, lijsten, of werkschema&#39;s
-1. **Ontwerp de inhoud** - gebruik de e-mailontwerper om uw bericht met verpersoonlijking tot stand te brengen
-1. **Test met proeven** - verzend teste-mails om inhoud en verpersoonlijking te bevestigen
-1. **analyseert en verzendt** - de leveringsanalyse van de Looppas om fouten te controleren, dan uw e-mail te verzenden
+1. Levering maken op basis van sjabloon
+2. Het publiek definiëren (query&#39;s, lijsten of workflows)
+3. Inhoud ontwerpen met persoonlijke voorkeur
+4. Testproefdrukken verzenden om te valideren
+5. Analyse uitvoeren en verzenden
 
-Campagne v8 biedt twee interfaces voor het maken van e-mail:
+De campagne v8 biedt twee interfaces aan: **de console van de Cliënt** (volledig-gekenmerkte) en **UI van het Web van de Campagne** (modern, intuïtief).
 
-* **de console van de Cliënt** - Volledig-gekenmerkte Desktoptoepassing met geavanceerde mogelijkheden
-* **UI van het Web van de Campagne** - Moderne, intuïtieve Webinterface voor snellere e-mailverwezenlijking
-
-[&#x200B; Leer meer over e-mailontwerp en bevestiging &#x200B;](../send/email.md) in Campagne v8.
-
-**Verwante onderwerpen:**
-
-[&#x200B; creeer uw eerste levering &#x200B;](create-message.md) | [&#x200B; Werk met leveringsmalplaatjes &#x200B;](../send/create-templates.md) | [&#x200B; Beste praktijken van de Levering &#x200B;](delivery-best-practices.md) | [&#x200B; Bepaal de e-mailinhoud &#x200B;](../send/defining-the-email-content.md) | [&#x200B; Voorproef en proef &#x200B;](../send/preview-and-proof.md) | [&#x200B; vormen en verzenden &#x200B;](../send/configure-and-send.md) | [&#x200B; Personaliseer inhoud &#x200B;](../send/personalize.md)
+[ E-mailontwerp en bevestiging ](../send/email.md) | [ creeer eerste levering ](create-message.md) | [ de malplaatjes van de Levering ](../send/create-templates.md) | [ Personaliseer inhoud ](../send/personalize.md)
 
 +++
 
 +++ Hoe je SMS-berichten verzendt?
 
-Voor het verzenden van SMS-berichten met Campagne v8 is eerst een configuratie nodig en daarna volgt u een eenvoudig leveringsproces:
+Het verzenden van SMS vereist aanvankelijke opstelling (vorm het kanaal van SMS, verbinding SMPP, het verpletteren) toen standaardleveringsverwezenlijking.
 
-**Aanvankelijke Opstelling (éénmalige configuratie):**
+**Basis proces:**
 
-1. **vorm het kanaal van SMS** - opstelling de de leveringsmontages van SMS en externe rekening
-1. **vorm verbinding SMPP** - verbind met uw dienstverlener van SMS via protocol SMPP
-1. **Test de verbinding** - bevestigt connectiviteit met uw leverancier van SMS
-1. **opstelling die** verplettert - bepaalt hoe de berichten van SMS door uw leverancier worden verpletterd
+1. SMS-kanaal en providerverbinding configureren (eenmalige installatie)
+2. SMS-levering maken van sjabloon
+3. Ontvangers definiëren en inhoud schrijven (standaard 160 tekens, automatische samenvoeging voor langer)
+4. Aanpassing toevoegen en proefdrukken verzenden
+5. Analyseren en verzenden
 
-**Creërend en verzendend SMS:**
+**Mogelijkheden:** Veelvoudige schakelaars SMPP, levering het volgen, GSM7/de steun van Unicode, lange autosamenvoeging van SMS, bidirectionele SMS met werkschema&#39;s.
 
-1. **creeer levering van SMS** - Begin een nieuwe levering van SMS van een malplaatje
-1. **bepaal ontvangers** - selecteer uw mobiel publiek gebruikend de gebieden van het telefoonaantal
-1. **schrijf de inhoud van SMS** - creeer uw bericht (160 karakters standaard, of langer met aaneenschakeling)
-1. **voeg verpersoonlijking** toe - omvat dynamische gebieden specifiek voor elke ontvanger
-1. **verzend proef** - de levering van SMS van de Test om inhoud en levering te bevestigen
-1. **analyseert en verzendt** - de analyse van de Looppas en verzendt naar uw publiek
-
-**Zeer belangrijke mogelijkheden van SMS:**
-
-* **Veelvoudige schakelaars SMPP** - Steun voor diverse leveranciers van SMS en protocollen
-* **de rapporten van de Levering** - Spoor verzonden, geleverde, en ontbroken berichten
-* **het coderen van het Karakter** - Steun voor GSM7, Unicode, en speciale karakters
-* **Lange steun van SMS** - Automatische berichtaaneenschakeling voor langere teksten
-* **bidirectionele SMS** - de Binnenkomende reacties van SMS met werkschema&#39;s behandelen
-
-[&#x200B; leer meer over de configuratie en het verzenden van SMS &#x200B;](../send/sms/sms.md) in Campagne v8.
-
-**Verwante onderwerpen:**
-
-[&#x200B; worden begonnen met SMS &#x200B;](../send/sms/sms.md) | [&#x200B; de leveringsmontages van SMS &#x200B;](../send/sms/sms-delivery-settings.md) | [&#x200B; SMPP externe rekeningsmontages &#x200B;](../send/sms/smpp-external-account.md) | [&#x200B; creeer een levering van SMS &#x200B;](../send/sms/create-sms.md) | [&#x200B; inhoud van SMS &#x200B;](../send/sms/sms-content.md) | [&#x200B; verzend de proef van SMS &#x200B;](../send/sms/sms-proofs.md) | [&#x200B; Monitor SMS &#x200B;](../send/sms/sms-monitor.md)
+[ leer meer over de configuratie en het verzenden van SMS ](../send/sms/sms.md) | [ de leveringsmontages van SMS ](../send/sms/sms-delivery-settings.md) | [ creeer levering van SMS ](../send/sms/create-sms.md)
 
 +++
 
 +++ Hoe kan ik pushmeldingen verzenden?
 
-Als u pushberichten verzendt met Campagne v8, moet u de integratie van uw mobiele app configureren en aantrekkelijke meldingen maken:
+Voor het verzenden van pushberichten is eerst de integratie van de mobiele app ingesteld en daarna standaard het maken van de levering vereist.
 
-**Aanvankelijke Opstelling (éénmalige configuratie):**
+**Basis proces:**
 
-1. **vorm duw kanaal** - de montages van het de duw- berichtkanaal van de opstelling in Campagne
-1. **integreer de Campagne SDK** - voeg Adobe Campaign SDK aan uw mobiele app (of gebruik de Inzameling van Gegevens) toe
-1. **Vorm mobiele app** - registreer uw iOS en Android apps in Campagne
-1. **Certificaten van de opstelling** - vorm het certificaat van APNs (iOS) en sleutel FCM (Android)
-1. **registratie van de Test** - verifieer apparaten kunnen tokens registreren en ontvangen
+1. **Aanvankelijke opstelling** (eenmalig): Vorm drukkanaal, integreer Campagne SDK of de Inzameling van Gegevens, registreer iOS/Android apps, vorm APNs/FCM certificaten
+2. **creeer levering**: Creeer duw van malplaatje, selecteer platform, bepaal publiek, ontwerpbericht met rijke media
+3. **Test en verzend**: Valideer op echte apparaten, dan verzend
 
-**het Creëren en het verzenden van de Duw Meldingen:**
+**Mogelijkheden:** Rijke duw (beelden, video&#39;s, knopen), verpersoonlijking, diep het verbinden, het plannen, het testen A/B, het volgen. Platformspecifieke functies voor iOS en Android.
 
-1. **creeer duimlevering** - Begin een nieuw duw bericht van een malplaatje
-1. **Uitgezochte platform** - kies iOS, Android, of beide platforms
-1. **bepaal publiek** - doel app abonnees die mobiele gegevens van het toepassingsabonnement gebruiken
-1. **Bericht van het Ontwerp** - creeer titel, bericht, en rijke media inhoud
-1. **vorm gedrag** - plaats klikacties, diepe verbindingen, en douanegegevens
-1. **verzendt testberichten** - bevestigt op echte apparaten alvorens te verzenden
-1. **analyseert en verzendt** - het Overzicht richtend en verzendt naar uw mobiel publiek
-
-**het berichtmogelijkheden van de duw:**
-
-* **rijke dupberichten** - omvat beelden, video&#39;s, en interactieve knopen (iOS en Android)
-* **Personalization** - Dynamische inhoud die op gebruikersprofiel en gedrag wordt gebaseerd
-* **Deep die** verbindt - directe gebruikers aan specifieke toepassingsschermen of inhoud
-* **Plannend** - verzend op optimale tijden die op gebruikerstimezone worden gebaseerd
-* **het testen A/B** - test verschillende berichten en optimaliseer overeenkomst
-* **het Volgen** - de Monitor opent, klikt, en omzettingen
-
-**Platform-specifieke eigenschappen:**
-
-* **iOS** - de Stille berichten, berichtcategorieën, correcte aanpassing
-* **Android** - de rijke duw malplaatjes, berichtkanalen, douanelay-outs
-
-[&#x200B; Leer meer over de configuratie van het dupbericht &#x200B;](../send/push-settings.md) in Campagne v8.
-
-**Verwante onderwerpen:**
-
-[&#x200B; creeer en verzend dupberichten &#x200B;](../send/push.md) | [&#x200B; vorm duw berichtkanaal &#x200B;](../send/push-settings.md) | [&#x200B; Ontwerp een rijke duw van Android &#x200B;](../send/rich-push-android.md) | [&#x200B; Ontwerp een rijke duw van iOS &#x200B;](../send/rich-push-ios.md) | [&#x200B; vormt met de Inzameling van Gegevens &#x200B;](../send/push-data-collection.md) | [&#x200B; Spoor en monitor &#x200B;](tracking.md)
+[ Leer meer over dupberichten ](../send/push.md) | [ vorm duw kanaal ](../send/push-settings.md) | [ rijke duw van Android ](../send/rich-push-android.md) | [ rijke duw van iOS ](../send/rich-push-ios.md)
 
 +++
 
@@ -389,21 +286,21 @@ Als u pushberichten verzendt met Campagne v8, moet u de integratie van uw mobiel
 
 U kunt de digitale inhoudeditor van Adobe Campaign gebruiken om bestemmingspagina&#39;s te ontwerpen en toewijzingen te definiëren met databasevelden.
 
-[&#x200B; leer meer &#x200B;](../dev/landing-pages.md) in de documentatie van de Campagne v8.
+[ leer meer ](../dev/landing-pages.md) in de documentatie van de Campagne v8.
 
-U kunt het de gebruikersinterface van het Web van de Campagne ook gebruiken om het landen pagina&#39;s tot stand te brengen en te publiceren - [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+U kunt het de gebruikersinterface van het Web van de Campagne ook gebruiken om het landen pagina&#39;s tot stand te brengen en te publiceren - [ leer meer ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
 
 +++
 
 +++ Hoe kan ik leveringen volgen?
 
-U kunt leveringen volgen die met Campagne v8 door specifieke [&#x200B; leveringsrapporten &#x200B;](../reporting/delivery-reports.md) worden verzonden en dan uw leveringen controleren.
+U kunt leveringen volgen die met Campagne v8 door specifieke [ leveringsrapporten ](../reporting/delivery-reports.md) worden verzonden en dan uw leveringen controleren.
 
-Leer meer over het volgen beheer in Campagne [&#x200B; in deze pagina &#x200B;](../start/tracking.md).
+Leer meer over het volgen beheer in Campagne [ in deze pagina ](../start/tracking.md).
 
 **Verwante onderwerpen:**
 
-[&#x200B; Spoor en monitorberichten &#x200B;](tracking.md) | [&#x200B; Leveringsrapporten &#x200B;](../reporting/delivery-reports.md) | [&#x200B; Begrijp leveringsmislukkingen &#x200B;](../send/delivery-failures.md) | [&#x200B; vorm getraceerde verbindingen &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html){target="_blank"}
+[ Spoor en monitorberichten ](tracking.md) | [ Leveringsrapporten ](../reporting/delivery-reports.md) | [ Begrijp leveringsmislukkingen ](../send/delivery-failures.md) | [ vorm getraceerde verbindingen ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html){target="_blank"}
 
 +++
 
@@ -415,11 +312,11 @@ Een foutbericht wordt weergegeven in een vreemde taal? Alle foutberichten en de 
 
 +++ Kan ik een webformulier maken en antwoorden verzamelen in Campagne?
 
-Ja. Creeer Webvormen gebruikend &lbrace;de Toepassingen van het Web van de Campagne &amp; Forms **(cliëntconsole) voor volledige controle over vormlogica en bevestiging, of gebruik** het Landen van de Campagne Pagina&#39;s van de Pagina&#39;s **(Web UI) met een moderne belemmering-en-dalingsinterface voor abonnementen en loodgeneratie.** Zowel verzamelen gegevens rechtstreeks in Campagne en integreren met werkschema&#39;s voor geautomatiseerde acties.
+Ja. Creeer Webvormen gebruikend {de Toepassingen van het Web van de Campagne &amp; Forms **(cliëntconsole) voor volledige controle over vormlogica en bevestiging, of gebruik** het Landen van de Campagne Pagina&#39;s van de Pagina&#39;s **(Web UI) met een moderne belemmering-en-dalingsinterface voor abonnementen en loodgeneratie.** Zowel verzamelen gegevens rechtstreeks in Campagne en integreren met werkschema&#39;s voor geautomatiseerde acties.
 
 **Verwante onderwerpen:**
 
-[&#x200B; leer meer over Webtoepassingen en vormen &#x200B;](../dev/webapps.md) | [&#x200B; het landen van UI van het Web van de Campagne pagina&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+[ leer meer over Webtoepassingen en vormen ](../dev/webapps.md) | [ het landen van UI van het Web van de Campagne pagina&#39;s ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 +++
 
@@ -442,7 +339,7 @@ Deze regelmatige frequentie van updates is bedoeld om de nieuwste en beste in uw
 
 **Nota:** als Beheerde gebruiker van de Diensten van de Wolk, wordt uw instantie bevorderd door Adobe met nieuwe versies.
 
-Leer meer over [&#x200B; versies en verbeteringen van de Campagne &#x200B;](upgrades.md).
+Leer meer over [ versies en verbeteringen van de Campagne ](upgrades.md).
 
 +++
 
@@ -451,15 +348,15 @@ Leer meer over [&#x200B; versies en verbeteringen van de Campagne &#x200B;](upgr
 Houd via de volgende kanalen op de hoogte van nieuwe campagnereleases:
 
 * **vertegenwoordiger van Adobe** - Contacteert u direct wanneer een nieuwe versie beschikbaar is
-* **de Nota&#39;s van de Versie** - Alle versies en veranderingen die in [&#x200B; worden gedocumenteerd de Nota&#39;s van de Versie van de Campagne &#x200B;](release-notes.md)
-* **Updates van het Product van de Prioriteit van Adobe** - [&#x200B; Abonneren &#x200B;](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"} voor e-mailberichten
-* **Gemeenschap van de Campagne** - sluit zich aan bij [&#x200B; besprekingen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} voor vroege updates
+* **de Nota&#39;s van de Versie** - Alle versies en veranderingen die in [ worden gedocumenteerd de Nota&#39;s van de Versie van de Campagne ](release-notes.md)
+* **Updates van het Product van de Prioriteit van Adobe** - [ Abonneren ](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"} voor e-mailberichten
+* **Gemeenschap van de Campagne** - sluit zich aan bij [ besprekingen ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} voor vroege updates
 
 Als gebruiker van Managed Cloud Services handelt Adobe upgrades en coördineert de timing met u.
 
 **Verwante onderwerpen:**
 
-[&#x200B; de Nota&#39;s van de Versie &#x200B;](release-notes.md) | [&#x200B; wat nieuw is &#x200B;](whats-new.md) | [&#x200B; de versies en verbeteringen van de Campagne &#x200B;](upgrades.md)
+[ de Nota&#39;s van de Versie ](release-notes.md) | [ wat nieuw is ](whats-new.md) | [ de versies en verbeteringen van de Campagne ](upgrades.md)
 
 +++
 
@@ -478,7 +375,7 @@ Adobe raadt u ten zeerste aan de meest recente versie uit te voeren. Als klant v
 
 **Verwante onderwerpen:**
 
-[&#x200B; de versies en verbeteringen van de Campagne &#x200B;](upgrades.md) | [&#x200B; wat nieuw is &#x200B;](whats-new.md) | [&#x200B; de matrijs van de Verenigbaarheid &#x200B;](compatibility-matrix.md)
+[ de versies en verbeteringen van de Campagne ](upgrades.md) | [ wat nieuw is ](whats-new.md) | [ de matrijs van de Verenigbaarheid ](compatibility-matrix.md)
 
 +++
 
@@ -498,7 +395,7 @@ Als klant van Managed Cloud Services beheert Adobe het volledige upgradeproces m
 **Uw verantwoordelijkheden:**
 
 * Coördinatie van interne belanghebbenden voor timing
-* [&#x200B; de cliëntconsoles van de Verbetering &#x200B;](connect.md#upgrade-ac-console) aan de nieuwe versie
+* [ de cliëntconsoles van de Verbetering ](connect.md#upgrade-ac-console) aan de nieuwe versie
 * Campagnes en workflows testen na upgrade
 * Problemen met Adobe-ondersteuning melden
 
@@ -506,7 +403,7 @@ Adobe voert de infrastructuurupgrade uit. U hoeft geen technische handelingen ui
 
 **Verwante onderwerpen:**
 
-[&#x200B; de versies en verbeteringen van de Campagne &#x200B;](upgrades.md) | [&#x200B; de cliëntconsole van de Verbetering &#x200B;](connect.md#upgrade-ac-console) | [&#x200B; de Nota&#39;s van de Versie &#x200B;](release-notes.md)
+[ de versies en verbeteringen van de Campagne ](upgrades.md) | [ de cliëntconsole van de Verbetering ](connect.md#upgrade-ac-console) | [ de Nota&#39;s van de Versie ](release-notes.md)
 
 +++
 
@@ -527,7 +424,7 @@ Nee. De campagne v8 is exclusief beschikbaar als a **Beheerde Cloud Service**, v
 * Geen infrastructuurbeheer of IT-overhead
 * Ingebouwde hoge beschikbaarheid en noodherstel
 
-Leer meer over [&#x200B; de architectuur van de Campagne v8 &#x200B;](../architecture/architecture.md) en [&#x200B; verschillen tussen Campagne v8 en Klassieke v7 &#x200B;](../start/v7-to-v8.md).
+Leer meer over [ de architectuur van de Campagne v8 ](../architecture/architecture.md) en [ verschillen tussen Campagne v8 en Klassieke v7 ](../start/v7-to-v8.md).
 
 +++
 
@@ -541,81 +438,35 @@ Campagne v8 is gebaseerd op een moderne cloudnative architectuur met aanzienlijk
 * **Automatische verbeteringen** - altijd op de recentste versie met nul onderbreking
 * **Verbeterde eigenschappen** - de Medewerker van AI, rijke dupberichten, bevorderd SMS, verbeterde integratie met Adobe Experience Cloud
 
-**voor de gebruikers van Campaign Classic v7:** Leer over [&#x200B; overgaand van v7 aan v8 &#x200B;](v7-to-v8.md) met inbegrip van architectuurveranderingen, onbeschikbare eigenschappen, en migratieoverwegingen.
+**voor de gebruikers van Campaign Classic v7:** Leer over [ overgaand van v7 aan v8 ](v7-to-v8.md) met inbegrip van architectuurveranderingen, onbeschikbare eigenschappen, en migratieoverwegingen.
 
-**voor de gebruikers van Campaign Standard:** ontdekt de [&#x200B; overgangspad aan v8 &#x200B;](acs-to-v8.md) en [&#x200B; de migratiegids van Campaign Standard &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+**voor de gebruikers van Campaign Standard:** ontdekt de [ overgangspad aan v8 ](acs-to-v8.md) en [ de migratiegids van Campaign Standard ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 **Verwante onderwerpen:**
 
-[&#x200B; de belangrijkste mogelijkheden van de Campagne v8 &#x200B;](whats-new.md) | [&#x200B; Campagne v8 architectuur &#x200B;](../architecture/architecture.md) | [&#x200B; matrijs van de Mogelijkheid &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [&#x200B; Grafieken en beperkingen &#x200B;](ac-guardrails.md)
+[ de belangrijkste mogelijkheden van de Campagne v8 ](whats-new.md) | [ Campagne v8 architectuur ](../architecture/architecture.md) | [ matrijs van de Mogelijkheid ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [ Grafieken en beperkingen ](ac-guardrails.md)
 
 +++
 
 +++ Moet ik migreren van Campaign Classic v7 of Campaign Standard naar v8?
 
-**Campagne v8 is ideaal voor organisaties die nodig hebben:**
+Campagne v8 is een strategisch Adobe-platform dat ideaal is voor organisaties die grootschalige campagnes nodig hebben (20M-bewerkingen per uur), moderne webinterface, cloudnative voordelen en ondersteuning op lange termijn. Eerdere versies zullen de komende jaren het einde van de ondersteuning bereiken.
 
-* **campagnes van het hoog-volume** - verzend miljoenen berichten met betere prestaties en betrouwbaarheid (20M verrichtingen/uur)
-* **scalability van de Onderneming** - Groei uw gegevensbestand en campagnes zonder prestatieszorgen
-* **Modern Web gebruikersinterface** - Intuïtieve, ontvankelijke UI van het Web van de Campagne voor snellere campagneverwezenlijking en betere gebruikerservaring
-* **wolk-inheemse voordelen** - de automatische updates van de hefboomwerking, beheerde infrastructuur, elastisch schrapen, en pro-actieve controle
-* **langdurige steun** - de Campagne v8 is het strategische platform van Adobe met uitgebreide steun, terwijl de vorige versies het Eind van Steun in de komende jaren zullen bereiken
-* **Verminderde overheadkosten van IT** - Elimineer infrastructuurbeheer en verbeterings planning
-* **Geavanceerde mogelijkheden** - AI Medewerker, rijke duw, verbeterde SMS, de integratie van Adobe Experience Platform
+**Zeer belangrijke voordelen:**
 
-**voor de gebruikers van Campaign Standard:**
+* **voor de gebruikers van Campaign Standard** - het Vertrouwde Web UI, eigenschappariteit (Dynamische Rapportering, REST APIs, het Bestaan van Pagina&#39;s), vlotte gegevensmigratie
+* **voor Campaign Classic v7 gebruikers** - Dubbele interface (console + Web UI), betere prestaties, automatische verbeteringen, verbeterde architectuur FFDA
 
-Campaign Standard-gebruikers komen nu in aanmerking voor de overgang naar Beheerde Cloud Services voor Campagne v8. Belangrijkste voordelen zijn:
+**overweegt migrerend als u:**
 
-* **Vertrouwde interface** - Het Web UI van de Campagne deelt vele gelijkenissen met Campaign Standard, die de het leren kromme minimaliseren
-* **pariteit van de Eigenschap** - de Zeer belangrijke mogelijkheden van Campaign Standard zijn toegevoegd aan v8 (Dynamische Rapportering, Gecentraliseerde Branding, REST APIs, het Bestaan van Pagina&#39;s, Visuele Fragmenten)
-* **Verbeterde steun** - Top-notch hulp met vlotte overgang en aan de gang zijnde platform controle
-* **de migratie van Gegevens** - al uw gegevens van Campaign Standard worden ingevoerd met minimale verstoring
-* **Consistente gebruikerservaring** - blijf het werken met vertrouwde werkschema&#39;s en interface
+* Grote gegevensvolumes verwerken of prestatieproblemen ervaren
+* Wil IT-overhead en infrastructuurbeheer verminderen
+* Integratie met Adobe Experience Cloud/Platform vereist
+* Kies voor toekomstbestendige technologie met automatische updates
 
-**voor Campaign Classic v7 gebruikers:**
+**Volgende stappen:** Contacteer uw vertegenwoordiger van Adobe om migratiebereidheid en toegangsmigratiehulpmiddelen te beoordelen.
 
-Campagne v8 biedt aanzienlijke verbeteringen en behoudt tegelijkertijd de kernmogelijkheden voor campagnes:
-
-* **Dubbele interface** - heb toegang tot zowel de krachtige cliëntconsole als de moderne UI van het Web van de Campagne
-* **Betere prestaties** - significant betere vraagprestaties en gegevensverwerking
-* **de voordelen van de Wolk** - Automatische verbeteringen, veiligheidspatches, steun/terugwinning die door Adobe wordt beheerd
-* **Moderne architectuur** - verbeterde architectuur FFDA met PostgreSQL voor betere scalability
-
-**wanneer om het migreren te overwegen:**
-
-* De huidige Campagne-instantie verwerkt grote gegevensvolumes (miljoenen profielen)
-* Er zijn prestatieproblemen met complexe workflows of het kiezen voor
-* U wilt de kosten voor infrastructuurbeheer en onderhoud verlagen
-* U hebt naadloze integratie met Adobe Experience Cloud of Adobe Experience Platform nodig
-* U bent toch van plan een belangrijke upgrade uit te voeren of de infrastructuur te vernieuwen
-* **u wilt toekomstbestendige technologie** - de Vorige versies zullen Einde van Steun bereiken
-* **Uw team heeft een moderne interface** nodig - Het Web UI van de Campagne biedt betere toegankelijkheid voor marketers aan
-
-**Overwegingen van de Migratie:**
-
-* Adobe biedt ondersteuning voor migratie, begeleiding en tools
-* v8 is alleen beheerde Cloud Service (geen on-premise of hybride implementatie)
-* Sommige technische implementaties kunnen verschillen - herzie de [&#x200B; vermogensmatrijs &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
-* Gegevensmigratie en testen vereisen planning en bronnen
-* **voor de gebruikers van Campaign Standard** - de Overgang wordt ontworpen om met minimale werkschemaverstoring glad te zijn
-
-**Volgende stappen:**
-
-Neem contact op met uw Adobe-vertegenwoordiger om:
-
-* Evalueer uw gereedheid en tijdlijn voor migratie
-* Begrijp de specifieke voordelen voor uw gebruiksgeval
-* De migratiestrategie en de toewijzing van middelen plannen
-* Toegang tot migratiehulpmiddelen en support
-
-**Verwante onderwerpen:**
-
-**voor Campaign Classic v7 gebruikers:** [&#x200B; van Campaign Classic v7 aan v8 &#x200B;](v7-to-v8.md) | [&#x200B; v7 aan v8 gedetailleerde gids &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}
-
-**voor de gebruikers van Campaign Standard:** [&#x200B; overgang van Campaign Standard aan v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [&#x200B; Gids van de Goedkeuring van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/acs-to-ac/home){target="_blank"} | [&#x200B; van Campaign Standard aan v8 overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/acs-to-ac/overview){target="_blank"} | [&#x200B; worden begonnen begonnen voor marketers &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/acs-to-ac/marketers){target="_blank"} | [&#x200B; krijgen begonnen voor admin/ontwikkelaars &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/acs-to-ac/admin-developers){target="_blank"}
-
-**Algemene middelen:** [&#x200B; de capaciteitmatrijs van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [&#x200B; de matrijs van de Verenigbaarheid &#x200B;](compatibility-matrix.md)
+**leer meer:** [ van Campaign Classic v7 aan v8 ](v7-to-v8.md) | [ de overgangsgids van Campaign Standard ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [ de matrijs van de Mogelijkheid ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 
 +++
 
@@ -632,70 +483,35 @@ Migratie naar Adobe Managed Services biedt een strategisch pad van &#39;on-premi
 
 **Begonnen het worden:** contacteer uw vertegenwoordiger van Adobe om uw milieu te beoordelen en een gedetailleerd migratieplan met Adobe Professional Services te ontwikkelen.
 
-Leer meer over [&#x200B; migrerend aan Managed Services &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"} met inbegrip van uitdagingen, beste praktijken, en gedetailleerde migratie roadmap.
+Leer meer over [ migrerend aan Managed Services ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"} met inbegrip van uitdagingen, beste praktijken, en gedetailleerde migratie roadmap.
 
 +++
 
 +++ Wat zijn de belangrijkste terminologie en eigenschapverschillen in Campaign v8?
 
-Campagne v8 biedt de meeste Campaign Classic v7- en Campaign Standard-mogelijkheden verbeteringen, maar sommige functies hebben wijzigingen als gevolg van de native architectuur van de cloud en sommige terminologie verschilt per versie.
+Campagne v8 biedt de meeste v7/Standard-mogelijkheden met verbeteringen, maar sommige terminologie en functies verschillen als gevolg van de architectuur in de cloud.
 
-**Terminologieverschillen (Campaign Standard aan v8):**
+**Zeer belangrijke terminologieveranderingen (Campaign Standard → v8):**
 
-* **de middelen van de Douane** zijn nu **Schema&#39;s**
-* **Berichten** worden bedoeld als **Leveringen**
-* **de gebruikers van het Product** zijn nu **Operatoren**
-* **Rollen** worden gevormd met **Benoemde Rechten**
-* **de Groepen van de Veiligheid** zijn nu **Groepen van de Exploitant**
-* **Organisatorische eenheden** worden beheerd door **Toestemmingen van de Omslag**
+* De middelen van de douane → **Schemas** | Berichten → **Leveringen** | De gebruikers van het product → **Exploitanten**
+* De groepen van de veiligheid → **groepen van de Exploitant** | Organisatorische eenheden → **Toestemmingen van de Omslag**
 
-**de terminologieupdates van het Web van de Campagne UI:**
+**updates van het Web UI van de Campagne:**
 
-De volgende termijnen zijn bijgewerkt in het Web UI van de Campagne (de gebruiks traditionele termijnen van de cliëntconsole):
-
-* **Ontvangers** zijn nu **Profielen**
-* **zaadadressen** zijn nu **profielen van de Test**
-* **de analyse van de Levering** is nu **voorbereiding van de Levering** (klik **voorbereidingen treffen** knoop)
-* **E-mailVoorproef** is beschikbaar door **inhoud** knoop simuleren
-* **Lijsten** zijn nu **Publiek**
+* Ontvangers → **Profielen** | Zaadadressen → **de profielen van de Test** | Leveringsanalyse → **Voorbereiding van de Levering**
+* Lijsten → **Soorten publiek** | E-mailvoorproef → **simuleert inhoud**
 
 **niet beschikbaar in v8:**
 
-* **Op-gebouw en hybride plaatsingen** - v8 is de Beheerde Diensten van de Wolk slechts
-* **Directe gegevensbestandtoegang** - Gebruik verstrekte APIs en hulpmiddelen in plaats daarvan
-* **Klantbeheerde infrastructuur** - Adobe beheert alle infrastructuur
-* **Hand bouwt verbeteringen** - nu automatisch (beheerde Adobe)
+* On-premise/hybride implementaties (alleen Managed Cloud Services)
+* Directe databasetoegang (gebruik-API&#39;s)
+* Handmatig infrastructuurbeheer (Adobe beheerd)
 
-**Verschillende implementaties in v8:**
+**Nieuwe eigenschappen voor de gebruikers van Campaign Standard:**
 
-* **Technische werkschema&#39;s** - wat voor wolkenarchitectuur wordt geoptimaliseerd, kan verschillend werken
-* **structuur van het Gegevensbestand** - de verbeterde architectuur FFDA kan schemaaanpassingen vereisen
-* **de Integraties van de Douane** - kan updates voor op wolk-gebaseerde architectuur nodig hebben
-* **Aanpassingen op laag niveau** - sommige vereisen verschillende benaderingen in beheerd milieu
+* Dynamische rapportage, gecentraliseerde branding, REST API&#39;s, verbeteringen in bestemmingspagina&#39;s, visuele fragmenten
 
-**Verbeterd of vervangen in v8:**
-
-* **bouwt verbeteringen** - Automatisch met ononderbroken leveringsmodel in plaats van handboek
-* **Prestaties het stemmen** - die door de infrastructuuroptimalisering van Adobe wordt behandeld
-* **de flarden van de Veiligheid** - die automatisch door Adobe worden toegepast
-* **Steun en terugwinning** - die door Adobe als deel van de dienst wordt beheerd
-* **Gebruikersinterface** - het Nieuwe Web UI van de Campagne naast cliëntconsole
-
-**Eigenschappen die voor de gebruikers van Campaign Standard worden toegevoegd die aan v8 overgaan:**
-
-* **Dynamische Rapportering** - Aanpasbare, rapporten in real time met demografische analyse
-* **Gecentraliseerde Branding** - bepaal merk visuele en technische richtlijnen
-* **REST APIs** - creeer integraties en bouw uw ecosysteem
-* **het Bestaan de Verbeteringen van Pagina&#39;s** - Verbeterde eigenschappariteit met Campaign Standard
-* **Visuele Fragments** - opnieuw bruikbare visuele componenten voor e-mail en inhoudsmalplaatjes
-
-**Belangrijk:** de meeste marketing en operationele eigenschappen zijn beschikbaar en verbeterd in v8. In de cloudomgeving worden functies op technisch en infrastructuurniveau door Adobe beheerd.
-
-**Verwante onderwerpen:**
-
-[&#x200B; matrijs van de Mogelijkheid &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [&#x200B; de matrijs van de Verenigbaarheid &#x200B;](compatibility-matrix.md) | [&#x200B; Grafieken en beperkingen &#x200B;](ac-guardrails.md) | [&#x200B; v7 aan v8 overgangsgids &#x200B;](v7-to-v8.md)
-
-[&#x200B; Campaign Standard aan v8 overgang &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration){target="_blank"}
+**leer meer:** [ matrijs van de Mogelijkheid ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [ v7 aan v8 overgangsgids ](v7-to-v8.md) | [ Campaign Standard aan v8 overgang ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 +++
 
@@ -710,7 +526,7 @@ Handmatig ontvangers maken in de clientconsole voor afzonderlijke profielen, imp
 
 **Verwante onderwerpen:**
 
-[&#x200B; creeer manueel profielen &#x200B;](../audiences/create-profiles.md) | [&#x200B; de profielen van de Invoer van een dossier &#x200B;](../audiences/import-profiles.md) | [&#x200B; verzamel profielen met Webvormen &#x200B;](../audiences/collect-profiles.md)
+[ creeer manueel profielen ](../audiences/create-profiles.md) | [ de profielen van de Invoer van een dossier ](../audiences/import-profiles.md) | [ verzamel profielen met Webvormen ](../audiences/collect-profiles.md)
 
 +++
 
@@ -722,7 +538,7 @@ Bereid voor het importeren van bestanden uw gegevensbestand voor (CSV/TXT, UTF-8
 
 **Verwante onderwerpen:**
 
-[&#x200B; de gegevensgids van de Invoer &#x200B;](../start/import.md) | [&#x200B; Terugkerend de invoerwerkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=nl-NL){target="_blank"} | [&#x200B; het laden van Gegevens activiteit &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=nl-NL){target="_blank"}
+[ de gegevensgids van de Invoer ](../start/import.md) | [ Terugkerend de invoerwerkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"} | [ het laden van Gegevens activiteit ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
 
 +++
 
@@ -730,7 +546,7 @@ Bereid voor het importeren van bestanden uw gegevensbestand voor (CSV/TXT, UTF-8
 
 De campagne biedt veelvoudige het richten methodes aan: bouwt vragen met visuele criteria, richt bestaande lijsten of segmenten, invoerontvangers uit externe dossiers (CSV, TXT), of pas vooraf bepaalde filters toe. U kunt criteria met logica combineren AND/OR, specifieke populaties uitsluiten, controlegroepen gebruiken, en voor het testen A/B verdelen. Geef altijd een voorvertoning weer van de grootte van de doelpopulatie voordat u deze verzendt.
 
-[&#x200B; bepalen campagnedoelstellingen &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=nl-NL){target="_blank"} | [&#x200B; de activiteit van de Vraag &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"} | [&#x200B; creeer publiek &#x200B;](../audiences/create-audiences.md)
+[ bepalen campagnedoelstellingen ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"} | [ de activiteit van de Vraag ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [ creeer publiek ](../audiences/create-audiences.md)
 
 +++
 
@@ -750,7 +566,7 @@ Een lijst is een statische reeks ontvangers die u in leveringen en hergebruik ov
 
 **Verwante onderwerpen:**
 
-[&#x200B; creeer publiek &#x200B;](../audiences/create-audiences.md) | [&#x200B; de updateactiviteit van de Lijst &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html?lang=nl-NL){target="_blank"}
+[ creeer publiek ](../audiences/create-audiences.md) | [ de updateactiviteit van de Lijst ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html){target="_blank"}
 
 +++
 
@@ -760,7 +576,7 @@ Gebruik de **[!UICONTROL Deduplication]** -activiteit in een werkstroom om dubbe
 
 **Uiteinde:** dedupliceer altijd alvorens te verzenden om ervoor te zorgen elke persoon uw bericht slechts eenmaal ontvangt.
 
-Leer meer over de [&#x200B; activiteit van de Deduplicatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=nl-NL){target="_blank"}
+Leer meer over de [ activiteit van de Deduplicatie ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}
 
 +++
 
@@ -776,7 +592,7 @@ De campagne volgt abonnement/unsubscription geschiedenis en beheert automatisch 
 
 **Verwante onderwerpen:**
 
-[&#x200B; beheert abonnementen &#x200B;](../start/subscriptions.md) | [&#x200B; de activiteit van de Vraag &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"}
+[ beheert abonnementen ](../start/subscriptions.md) | [ de activiteit van de Vraag ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
 
@@ -784,7 +600,7 @@ De campagne volgt abonnement/unsubscription geschiedenis en beheert automatisch 
 
 Gebruik de activiteit **[!UICONTROL Exclusion]** in een werkstroom om ongewenste profielen uit uw doel te verwijderen. Plaats het na uw gerichte activiteiten en bepaal welke populatie om uit te sluiten.
 
-Leer meer over de [&#x200B; activiteit van de Uitsluiting &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html?lang=nl-NL){target="_blank"}
+Leer meer over de [ activiteit van de Uitsluiting ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html){target="_blank"}
 
 +++
 
@@ -798,7 +614,7 @@ Ja, met Campagne v8 kunt u werken met externe profielen die zijn opgeslagen in e
 
 Testprofielen zijn speciale ontvangers die worden gebruikt om proefdrukken te verzenden en leveringen te valideren zonder dat dit gevolgen heeft voor uw productiedatabase. Maak ze in **[!UICONTROL Profiles and Targets > Test profiles]** of gebruik de functie **[!UICONTROL Seed addresses]** om automatisch testontvangers aan uw leveringen toe te voegen voor kwaliteitsborging en controle in de Postvak IN.
 
-Leer meer over [&#x200B; profielen van de Test &#x200B;](../audiences/test-profiles.md)
+Leer meer over [ profielen van de Test ](../audiences/test-profiles.md)
 
 +++
 
@@ -810,7 +626,7 @@ Leer hoe u effectieve marketingberichten kunt ontwerpen in Campaign v8, inclusie
 
 Belangrijke richtlijnen: zorg voor een ontwerp dat reageert op mobiele apparaten, gebruik HTML 4.0/XHTML-compatibele code met inline CSS, optimaliseer afbeeldingen (onder 100 KB) met alternatieve tekst, gebruik velden voor het samenvoegen van personalisatie, test voor alle e-mailclients voordat u het verzendt en voeg een gewone tekstversie toe. Doel voor totale e-mailgrootte van minder dan 500 kB voor optimale prestaties.
 
-[&#x200B; het ontwerpgids van de E-mail &#x200B;](../send/email.md) | [&#x200B; Beste praktijken van de Levering &#x200B;](delivery-best-practices.md)
+[ het ontwerpgids van de E-mail ](../send/email.md) | [ Beste praktijken van de Levering ](delivery-best-practices.md)
 
 +++
 
@@ -818,7 +634,7 @@ Belangrijke richtlijnen: zorg voor een ontwerp dat reageert op mobiele apparaten
 
 Een leveringsmalplaatje is een pre-gevormde levering die alle montages en parameters voor hergebruik over veelvoudige campagnes bewaart. De malplaatjes omvatten doelregels, inhoudsontwerp, verpersoonlijking, technische montages (afzender, antwoord-aan), en typologieregels. Creëer eens en hergebruik om consistentie te behouden en het creëren van campagnes te versnellen.
 
-Leer hoe te [&#x200B; leveringsmalplaatjes &#x200B;](../send/create-templates.md) creëren
+Leer hoe te [ leveringsmalplaatjes ](../send/create-templates.md) creëren
 
 +++
 
@@ -828,7 +644,7 @@ Ja. Importeer HTML-inhoud via directe kopiëren/plakken in de inhoudeditor, uplo
 
 **Uiteinde:** voor de beste ervaring van het e-mailontwerp, gebruik **E-mail Designer** in het Web UI van de Campagne, die moderne belemmering-en-dalingsmogelijkheden en ingebouwde ontvankelijke malplaatjes, eerder dan het invoeren van ruwe HTML aanbiedt.
 
-Leer hoe te [&#x200B; de inhoud van HTML van de Invoer &#x200B;](../send/defining-the-email-content.md)
+Leer hoe te [ de inhoud van HTML van de Invoer ](../send/defining-the-email-content.md)
 
 +++
 
@@ -836,7 +652,7 @@ Leer hoe te [&#x200B; de inhoud van HTML van de Invoer &#x200B;](../send/definin
 
 Ja. Gebruik de informatieservices van Campagne om nieuwsbrieven te beheren. De belangrijkste mogelijkheden omvatten automatische opt-in/opt-out behandeling, abonnement volgen, nalevingsbeheer (GDPR, CAN-SPAM), multi-nieuwsbrief steun, Webintegratie voor sign-up vormen, en gerichte levering aan abonnees.
 
-Leer hoe te [&#x200B; abonnementen &#x200B;](../start/subscriptions.md) beheren
+Leer hoe te [ abonnementen ](../start/subscriptions.md) beheren
 
 +++
 
@@ -855,7 +671,7 @@ Test personalisatie alvorens te verzenden om fusievelden en voorwaardelijke logi
 
 **Verwante onderwerpen:**
 
-[&#x200B; de gids van Personalization &#x200B;](../send/personalize.md) | [&#x200B; de gebieden van de Personalisatie &#x200B;](../send/personalization-fields.md) | [&#x200B; Voorwaardelijke inhoud &#x200B;](../send/conditions.md)
+[ de gids van Personalization ](../send/personalize.md) | [ de gebieden van de Personalisatie ](../send/personalization-fields.md) | [ Voorwaardelijke inhoud ](../send/conditions.md)
 
 +++
 
@@ -867,7 +683,7 @@ Belangrijkste functies: automatische duplicatie van inhoud, automatisch verzende
 
 De clientconsole ondersteunt ook meertalige inhoud met behulp van voorwaardelijke inhoud en workflows, maar vereist meer handmatige configuratie.
 
-[&#x200B; Meertalige leveringen (Web UI) &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [&#x200B; Voorwaardelijke inhoud (de console van de Cliënt) &#x200B;](../send/conditions.md)
+[ Meertalige leveringen (Web UI) ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [ Voorwaardelijke inhoud (de console van de Cliënt) ](../send/conditions.md)
 
 +++
 
@@ -875,7 +691,7 @@ De clientconsole ondersteunt ook meertalige inhoud met behulp van voorwaardelijk
 
 Ja. Campagne voor webtoepassingen ondersteunt meertalige lokalisatie. Definieer vertalingen voor alle formulierelementen (labels, knoppen, berichten, fouttekst) met automatische taaldetectie op basis van het profiel van de ontvanger of de browserinstellingen. Meerdere taalversies worden ondersteund in één webtoepassing, waarbij zo nodig een standaardtaal wordt gebruikt.
 
-Leer meer over [&#x200B; de toepassingslocalisatie van het Web &#x200B;](../dev/webapps.md)
+Leer meer over [ de toepassingslocalisatie van het Web ](../dev/webapps.md)
 
 +++
 
@@ -893,7 +709,7 @@ Ja, maar **slechts door het Web UI van de Campagne**. AI Assistant, aangedreven 
 
 **Nota:** De Medewerker AI is beschikbaar uitsluitend in het Web UI van de Campagne en steunt momenteel slechts Engels. Gebruikers hebben de juiste machtigingen nodig en moeten akkoord gaan met een gebruikersovereenkomst.
 
-[&#x200B; AI Hulpoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [&#x200B; AI Hulpgevallen van het gebruiksgeval &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [&#x200B; Merk groepering &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
+[ AI Hulpoverzicht ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [ AI Hulpgevallen van het gebruiksgeval ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [ Merk groepering ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
 
 +++
 
@@ -907,7 +723,7 @@ De analyse van de levering is een looppas van de de bevestigingsfase Campagne al
 
 Campagne genereert logboeken met waarschuwingen en fouten. Fouten bij blokoplevering en moeten worden gecorrigeerd. Waarschuwingen zijn een advies. Analyselogs altijd controleren voordat ze worden verzonden.
 
-Leer meer in de [&#x200B; de analysegids van de Levering &#x200B;](../send/delivery-analysis.md)
+Leer meer in de [ de analysegids van de Levering ](../send/delivery-analysis.md)
 
 +++
 
@@ -917,7 +733,7 @@ Proofs zijn testberichten die uw levering bevestigen alvorens naar uw belangrijk
 
 Proefdrukken helpen fouten af te vangen voordat ze duizenden ontvangers bereiken, maken goedkeuring van belanghebbenden en plaatsing van inbox testen mogelijk. Verzend proef naar veelvoudige e-mailcliënten en apparaten, en verkrijg altijd goedkeuring alvorens de productie verzendt.
 
-Leer meer in de [&#x200B; Proefdrukken en voorproefgids &#x200B;](../send/preview-and-proof.md)
+Leer meer in de [ Proefdrukken en voorproefgids ](../send/preview-and-proof.md)
 
 +++
 
@@ -932,7 +748,7 @@ Zaadadressen zijn speciale ontvangers die automatisch aan elke levering voor het
 
 Zaadadressen beheren in **[!UICONTROL Resources > Campaign management > Seed addresses]** . Houd lijsten klein om te voorkomen dat de leveringswaarden worden beïnvloed.
 
-[&#x200B; zaadadresgids &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html?lang=nl-NL){target="_blank"}
+[ zaadadresgids ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html){target="_blank"}
 
 +++
 
@@ -950,7 +766,7 @@ Gebruik **proeven als uw goedkeuringsproces**. Verzend proefdrukken naar uw goed
 
 **Verwante onderwerpen:**
 
-[&#x200B; Bevestiging van de Levering &#x200B;](../send/preview-and-proof.md) | [&#x200B; Goedkeuringen van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=nl-NL){target="_blank"}
+[ Bevestiging van de Levering ](../send/preview-and-proof.md) | [ Goedkeuringen van de Campagne ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}
 
 +++
 
@@ -967,7 +783,7 @@ De typologische regels zijn geautomatiseerde bedrijfslogica die tijdens levering
 
 De regels worden gegroepeerd in typologieën en tijdens leveringsanalyse toegepast. De campagne kan ontvangers uitsluiten, de levering blokkeren, of waarschuwingen produceren die op de regels worden gebaseerd.
 
-[&#x200B; de gids van de Typologieregels &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=nl-NL){target="_blank"}
+[ de gids van de Typologieregels ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}
 
 +++
 
@@ -981,7 +797,7 @@ In uw leveringseigenschappen, laat golf toe die en bepaalt het aantal golven (of
 
 Gebruik golven voor grote campagnes, controleer eerste golfprestaties alvorens verder te gaan, en sta voldoende tijd tussen golven toe om schommelingen en opt-outs te verwerken.
 
-Leer hoe te om [&#x200B; golf te vormen die &#x200B;](../send/configure-and-send.md#sending-using-multiple-waves) verzendt
+Leer hoe te om [ golf te vormen die ](../send/configure-and-send.md#sending-using-multiple-waves) verzendt
 
 +++
 
@@ -1009,7 +825,7 @@ Het creëren van een e-mail in Campagne v8 impliceert deze belangrijkste stappen
 
 **Verwante onderwerpen:**
 
-[&#x200B; creeer uw eerste e-mail &#x200B;](create-message.md) | [&#x200B; E-mail ontwerpgids &#x200B;](../send/email.md)
+[ creeer uw eerste e-mail ](create-message.md) | [ E-mail ontwerpgids ](../send/email.md)
 
 +++
 
@@ -1025,7 +841,7 @@ Met campagnes kunt u leveringen plannen voor toekomstig verzending om verzendtij
 
 De campagne steunt ook optimalisering van de contactdatum (het beste verzendt tijd per ontvanger) en aanpassing van de tijdzone (zelfde lokale tijd voor alle ontvangers).
 
-Leer hoe te [&#x200B; levering van het Programma verzendend &#x200B;](../send/configure-and-send.md#schedule-delivery-sending)
+Leer hoe te [ levering van het Programma verzendend ](../send/configure-and-send.md#schedule-delivery-sending)
 
 +++
 
@@ -1042,7 +858,7 @@ Ja. De campagne steunt statische gehechtheid (het zelfde dossier voor alle ontva
 
 Gebruik veilige bestandsindelingen (PDF, JPEG, PNG, DOCX) en test met zaadadressen voordat de productie wordt verzonden.
 
-Leer meer in de [&#x200B; gids van de Bijlagen E-mail &#x200B;](../send/email.md#attachments)
+Leer meer in de [ gids van de Bijlagen E-mail ](../send/email.md#attachments)
 
 +++
 
@@ -1061,7 +877,7 @@ De campagne volgt inhoudsverbindingen, spiegelt paginakoppelingen, unsubscribe v
 
 **Verwante onderwerpen:**
 
-[&#x200B; het volgen van de Verbinding gids &#x200B;](../start/tracking.md) | [&#x200B; het Volgen beste praktijken &#x200B;](../send/send.md)
+[ het volgen van de Verbinding gids ](../start/tracking.md) | [ het Volgen beste praktijken ](../send/send.md)
 
 +++
 
@@ -1080,7 +896,7 @@ Gebruik deze logboeken om leveringskwesties problemen op te lossen, betrokkenhei
 
 **Verwante onderwerpen:**
 
-[&#x200B; Controle van de Levering &#x200B;](../send/send.md) | [&#x200B; het Volgen gids &#x200B;](../start/tracking.md)
+[ Controle van de Levering ](../send/send.md) | [ het Volgen gids ](../start/tracking.md)
 
 +++
 
@@ -1099,7 +915,7 @@ De rapporten zijn beschikbaar in zowel de cliëntconsole als het Web UI van de C
 
 **Verwante onderwerpen:**
 
-[&#x200B; Ingebouwde leveringsrapporten &#x200B;](../reporting/delivery-reports.md) | [&#x200B; Campagne die &#x200B;](../reporting/gs-reporting.md) rapporteert
+[ Ingebouwde leveringsrapporten ](../reporting/delivery-reports.md) | [ Campagne die ](../reporting/gs-reporting.md) rapporteert
 
 +++
 
@@ -1127,7 +943,7 @@ Open quarantainebeheer in **[!UICONTROL Administration > Campaign Management > N
 
 **Verwante onderwerpen:**
 
-[&#x200B; het beheersgids van de quarantaine &#x200B;](../send/quarantines.md) | [&#x200B; Stuitbeheer &#x200B;](../send/delivery-failures.md)
+[ het beheersgids van de quarantaine ](../send/quarantines.md) | [ Stuitbeheer ](../send/delivery-failures.md)
 
 +++
 
@@ -1150,321 +966,124 @@ Veelvoorkomende workflowpatronen: gegevensimport, publiekssegmentatie, verzendin
 
 **Verwante onderwerpen:**
 
-[&#x200B; bouwt een werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=nl-NL){target="_blank"} | [&#x200B; de activiteiten van het Werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [&#x200B; Beste praktijken van het Werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=nl-NL){target="_blank"} | [&#x200B; het gebruiksgevallen van het Werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
+[ bouwt een werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [ de activiteiten van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [ Beste praktijken van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [ het gebruiksgevallen van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
 
 +++
 
 +++ Hoe kan ik gegevens importeren in Campagne?
 
-Importeer gegevens naar Campagne met meerdere methoden, afhankelijk van uw behoeften:
+**Methoden:** de tovenaar van de Invoer (eenmalige CSV/TXT), op werkschema-gebaseerde invoer (**[!UICONTROL Data loading (file)]** activiteit voor complexe/terugkomende invoer met transformaties), REST APIs (programmatic/real-time synchronisatie).
 
-**Eenvoudige dossierinvoer:**
+**Beste praktijken:** Test met kleine steekproeven, gebruik UTF-8 codering, kaartgebieden correct, pas deduplicatie toe, programma grote invoer buiten piek.
 
-* De wizard Importeren gebruiken voor eenmalige CSV/TXT-import met een geleide interface
-* Ideaal voor handmatig uploaden en snel laden van gegevens
-
-**Op werkschema-gebaseerde invoer:**
-
-* Workflows maken met **[!UICONTROL Data loading (file)]** activiteit voor complexe importbewerkingen
-* Gegevenstransformaties, verrijking en deduplicatie toevoegen
-* Herhalende import plannen vanuit SFTP, lokale mappen of cloudopslag
-
-**API integratie:**
-
-* REST API&#39;s gebruiken om gegevens via programmacode te importeren van externe systemen
-* Ideaal voor realtime synchronisatie met CRM, e-commerce of andere platforms
-
-**Beste praktijken:** altijd test met kleine steekproeven, gebruik UTF-8 codering, kaartgebieden correct, pas deduplicatieregels toe, en programma grote invoer tijdens off-piekuren.
-
-**Verwante onderwerpen:**
-
-[&#x200B; de beste praktijken van de Invoer &#x200B;](../start/import.md) | [&#x200B; het laden van Gegevens activiteit &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=nl-NL){target="_blank"} | [&#x200B; Terugkerend de invoerwerkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=nl-NL){target="_blank"}
+[ de beste praktijken van de Invoer ](../start/import.md) | [ het laden van Gegevens activiteit ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [ Terugkerend de invoerwerkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 
 +++
 
 +++ Wat zijn algemene voorbeelden van workflowgebruik in Campagne?
 
-Campagne-workflows kunnen vrijwel elk marketingproces automatiseren. Hier volgen de meest gebruikte gevallen:
+Workflows automatiseren marketingprocessen, waaronder:
 
-**het beheer van Gegevens:**
+**het beheer van Gegevens:** Invoer/ladingsgegevens, zuiverend, verrijking, lijstbeheer\
+**de automatisering van de Campagne:** Welkome reeksen, verjaardagscampagnes, re-engagement, wortelbeëindiging\
+**Geavanceerd het richten:** het testen A/B, dynamische segmentatie, lood het scoren, dwars-kanaalorkest\
+**Controle:** Werkschema/levering controle, alarm, gegevensbestandonderhoud\
+**Integratie:** synchronisatie CRM, API integratie, gebeurtenis-teweeggebrachte werkschema&#39;s
 
-* **de Invoer en ladingsgegevens** - Automatiseer dossierinvoer van SFTP, API, of wolkenopslag
-* **het zuiveren van Gegevens** - Dedupliceerde profielen, normaliseer formaten, verwijder ongeldige verslagen
-* **de verrijking van Gegevens** - verbeter profielen met externe gegevens of berekende gebieden
-* **beheer van de Lijst** - werk automatisch segmenten bij die op gedrag of criteria worden gebaseerd
-
-**automatisering van de Campagne:**
-
-* **Welkome reeksen** - de Trekker automatiseerde onboarding e-mails voor nieuwe abonnees
-* **campagnes van de Verjaardag** - verzend gepersonaliseerde berichten op klanten verjaardagen of verjaardagen
-* **re-engagement** - de Inactieve abonnees van het doel met win-back campagnes
-* **Verlaat van de Kaart** - verzend herinneringen aan klanten die punten in kar verlieten
-
-**Geavanceerd het richten:**
-
-* **het testen A/B** - Splits publiek en test verschillende inhoudvariaties
-* **Dynamische segmentatie** - creeer segmenten die op gedrag in real time of attributen worden gebaseerd
-* **Lood het scoren** - bereken en werk loodscores bij die op overeenkomst worden gebaseerd
-* **Kanaalorkestatie** - Coördineer overseinen over e-mail, SMS, en duw
-
-**Controle en alarm:**
-
-* **de controle van het Werkschema** - de werkschemastatus van het spoor en verzendt alarm over mislukkingen
-* **de controle van de Levering** - de prestaties van de campagne van de monitor en stuitende tarieven
-* **onderhoud van het Gegevensbestand** - Automatiseer schoonmaakbeurt van oude logboeken en tijdelijke gegevens
-
-**Integratie en synchronisatie:**
-
-* **synchronisatie van CRM** - houd klantgegevens die met Salesforce, Dynamica, enz. worden gesynchroniseerd.
-* **API integraties** - verbind met e-commerceplatforms, analysehulpmiddelen, of douanesystemen
-* **gebeurtenis-teweeggebrachte werkschema&#39;s** - Reageer aan gebeurtenissen in real time van websites of apps
-
-**Verwante onderwerpen:**
-
-[&#x200B; het gebruikscasebibliotheek van het Werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [&#x200B; Bouw een werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=nl-NL){target="_blank"} | [&#x200B; Beste praktijken van het Werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=nl-NL){target="_blank"} | [&#x200B; het richten werkschema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=nl-NL){target="_blank"} | [&#x200B; de werkschema&#39;s van het gegevensbeheer &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/about-data-management.html){target="_blank"}
+[ het gebruikscasebibliotheek van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [ Bouw een werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [ Beste praktijken van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 +++
 
 +++ Hoe kan ik Campagnegegevens bijwerken met een workflow?
 
-Gebruik de **[!UICONTROL Update data]** -activiteit in workflows om bulkbewerkingen uit te voeren op uw database:
+Gebruik **[!UICONTROL Update data]** -activiteit voor bulkdatabasebewerkingen: invoegen (nieuwe records toevoegen), bijwerken (bestaande wijzigingen aanbrengen), invoegen of bijwerken (upsert), verwijderen (overeenkomende records verwijderen).
 
-**Gesteunde verrichtingen:**
+**gemeenschappelijk gebruik:** de profielattributen van de Update, synchroniseren met externe systemen, handhaven lijstlidmaatschap, schone/dedupliceren gegevens, passen bulkstatusveranderingen toe.
 
-* **Tussenvoegsel** - voeg nieuwe verslagen aan het gegevensbestand toe
-* **Update** - wijzig bestaande verslagen die op passende criteria worden gebaseerd
-* **Tussenvoegsel of update** - voeg nieuwe verslagen toe of werk bestaande degenen (oppas) bij
-* **Schrapping** - verwijder verslagen die specifieke criteria aanpassen
+Configureer de afstemmingssleutels voor nauwkeurige afstemming en kies updateopties.
 
-**Gemeenschappelijke gebruiksgevallen:**
-
-* Profielkenmerken bijwerken na gegevensverrijking
-* Gegevens synchroniseren met externe systemen
-* Laaglidmaatschap behouden op basis van gedrag
-* Gegevens opschonen en dupliceren
-* Wijzigingen in de bulkstatus toepassen (bijvoorbeeld Weigeren, quarantaine)
-
-Configureer de afstemmingssleutels zodat deze op de juiste wijze overeenkomen met de records en kies updateopties (werk alle velden bij of gebruik alleen lege velden).
-
-**Verwante onderwerpen:**
-
-[&#x200B; de gegevensactiviteit van de Update &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=nl-NL){target="_blank"} | [&#x200B; de beheersactiviteiten van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
+[ de gegevensactiviteit van de Update ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"} | [ de beheersactiviteiten van Gegevens ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
 
 +++
 
 +++ Hoe kan ik mogelijkheden voor gegevensbeheer benutten?
 
-De activiteiten van het gegevensbeheer van de campagne laten verfijnde gegevensverrichtingen binnen werkschema&#39;s voor complexe het richten en segmentatie toe.
+De activiteiten van het gegevensbeheer laten verfijnde verrichtingen toe: Verrijking (voeg gegevens van verwante lijsten toe), Splitsen (segmentpopulaties), Deduplicatie (verwijder duplicaten), Update data (bulkverrichtingen), Veranderingsdimensie (schakelaar richtend dimensies), Intersection/Union/Exclusion (combinatie/filterpopulaties).
 
-**Zeer belangrijke activiteiten van het gegevensbeheer:**
+**gemeenschappelijk gebruik:** verrijkt met aankoop/gedragsgegevens, segmentpubliek, verwijder duplicaten, integreer externe gegevensbestanden (FDA), creeer complexe multi-table vragen.
 
-* **Verrijking** - voeg gegevens van verwante lijsten of externe bronnen aan uw werkende bevolking toe
-* **Gesplitste** - de populaties van het segment die op criteria worden gebaseerd of willekeurig verdelen
-* **Deduplicatie** - verwijder dubbele verslagen die op gespecificeerde sleutels worden gebaseerd
-* **gegevens van de Update** - voer bulktussenvoegsel uit, werk, of schrap verrichtingen bij
-* **dimensie van de Verandering** - schakelaar richtend dimensies (b.v., van ontvangers aan abonnementen)
-* **Intersection/Union/Exclusion** - combineer of filter veelvoudige populaties
-
-**Gemeenschappelijke gebruiksgevallen:**
-
-* Profielen verrijken met aankoopgeschiedenis of gedragsgegevens
-* Het publiek van het segment in veelvoudige groepen voor verschillende berichten
-* Duplicaten verwijderen vóór levering
-* Gegevens uit externe databases (FDA - Federated Data Access) integreren
-* Complexe multitable query&#39;s en verbindingen maken
-
-Deze activiteiten staan u toe om met gegevens niet direct in de belangrijkste ontvankelijke lijst te werken en geavanceerde gegevensbestandverrichtingen uit te voeren.
-
-**Verwante onderwerpen:**
-
-[&#x200B; de beheersactiviteiten van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [&#x200B; het richten werkschema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=nl-NL){target="_blank"} | [&#x200B; de activiteit van de Verrijking &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=nl-NL){target="_blank"}
+[ de beheersactiviteiten van Gegevens ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [ de activiteit van de Verrijking ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
 +++
 
 +++ Kan ik het verzenden van persoonlijke berichten automatiseren?
 
-Ja. De werkstromen laten volledig geautomatiseerde gepersonaliseerde berichtcampagnes toe die op ontvankelijke gegevens, gedrag, en douanecriteria worden gebaseerd.
+Ja. Geautomatiseerde workflows maken: query (doelgroep) → Verrijking (verrijking toevoegen) → Splitsen (optionele segmenten) → Aflevering (gepersonaliseerde berichten) → Planner (terugkerende uitvoering).
 
-**het werkschemastructuur van de Automatisering:**
+**Personalization:** de profielgegevens van het Gebruik, gedragsgegevens, voorwaardelijke inhoud, dynamische waarden. Veelvoorkomende scenario&#39;s: verjaardagscampagnes, het verlaten van het winkelwagentje, loyaliteitsprogramma&#39;s, win-back, gebeurtenisgestuurde berichten.
 
-1. **Vraag** - selecteer uw doelpubliek dat op criteria wordt gebaseerd
-1. **Verrijking** - voeg verpersoonlijkingsgegevens van verwante lijsten toe
-1. **Gesplitst** - Segment in groepen voor verschillende (facultatieve) berichtvarianten
-1. **Levering** - verzend gepersonaliseerde berichten met fusievelden
-1. **Planner** - Opstelling terugkomende uitvoering voor geautomatiseerde campagnes
-
-**de opties van Personalization:**
-
-* Bronprofielgegevens gebruiken (naam, locatie, voorkeuren)
-* Inclusief gedragsgegevens (aankoopgeschiedenis, betrokkenheidsscores)
-* Voorwaardelijke inhoud toepassen op basis van segmenten of kenmerken
-* Dynamische waarden berekenen (loyaliteitspunten, vervaldatums)
-
-Veelvoorkomende scenario&#39;s: verjaardagscampagnes, het verlaten van het winkelwagentje, loyaliteitsprogramma&#39;s, win-back campagnes, en gebeurtenis-teweeggebrachte berichten.
-
-**Verwante onderwerpen:**
-
-[&#x200B; de gids van Personalization &#x200B;](../send/personalize.md) | [&#x200B; het gebruikscase van het Werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=nl-NL){target="_blank"} | [&#x200B; de activiteit van de Verrijking &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=nl-NL){target="_blank"}
+[ de gids van Personalization ](../send/personalize.md) | [ het gebruikscase van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}
 
 +++
 
 +++ Hoe kan ik een publiek in subsets splitsen met een workflow?
 
-Gebruik de **[!UICONTROL Split]** -activiteit om één populatie te verdelen in meerdere subsets op basis van criteria of distributieregels.
+Gebruik **[!UICONTROL Split]** -activiteit om populaties te verdelen: filteromstandigheden (leeftijd, locatie, VIP-status), procentuele distributie (A/B-tests), limietrecords (eerste N, bovenste X%), gegevensgroepering (één subset per waarde).
 
-**Gesplitste methodes:**
+**gemeenschappelijk gebruik:** het testen A/B, kanaalvoorkeur die, progressieve uitrol, segmentspecifiek overseinen, lading het in evenwicht brengen verplettert. Elke subset stroomt naar een aparte overgang voor verschillende verwerking.
 
-* **het Filtreren voorwaarden** - creeer subsets die op criteria (b.v., leeftijdsgroepen, plaats, status van VIP worden gebaseerd)
-* **distributie van het Percentage** - Splits willekeurig in gelijke of douanepercentages voor het testen A/B
-* **verslagen van de Grensgrens** - Beperk subsetgrootte (eerste N verslagen, bovenkant X%, willekeurige selectie)
-* **Gegevens groeperen** - creeer één ondergroep per verschillende waarde (bijvoorbeeld, één ondergroep per land)
-
-**Gemeenschappelijke gebruiksgevallen:**
-
-* A/B-tests met controlegroepen
-* Kanaalvoorkeur voor routering (e-mail versus SMS)
-* Progressieve rollout (verstuur naar 10% en vervolgens naar 90%)
-* Segmentspecifieke berichten (VIP, reguliere, nieuwe klanten)
-* Taakverdeling over meerdere leveringsservers
-
-Elke gesplitste subset leidt naar een aparte overgang, waardoor verschillende verwerking of levering voor elke groep mogelijk is.
-
-**Verwante onderwerpen:**
-
-[&#x200B; Gesplitste activiteit &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=nl-NL){target="_blank"} | [&#x200B; A/B testende gids &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
+[ Gesplitste activiteit ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} | [ A/B testende gids ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
 
 +++
 
 +++ Hoe kan ik ontvangergegevens bijwerken uit een extern bestand?
 
-Ja. Gebruik workflows om Campagnegegevens bij te werken met waarden uit externe bestanden (CSV, TXT).
+Ja. Workflow: gegevens laden (bestand) → Verrijking (optioneel) → Afstemming (sleutels zoals e-mail/id) → Gegevens bijwerken (records bijwerken komen overeen, nieuwe invoegen indien geen overeenkomst is).
 
-**structuur van het Werkschema:**
+**gemeenschappelijk gebruik:** de profielattributen van de Update van CRM, vernieuw abonnementstatussen, synchroniseer loyaliteitspunten, update opt-in/opt-out voorkeur.
 
-1. **het laden van Gegevens (dossier)** - Laad het externe dossier en kaartkolommen
-1. **Verrijking** (facultatief) - voeg extra gegevens of transformaties toe
-1. **Verzoening** - bepaal sleutels om dossierverslagen met gegevensbestandverslagen (b.v., e-mailadres, ontvankelijke identiteitskaart) aan te passen
-1. **gegevens van de Update** - kies updateopties:
-   * Alleen overeenkomende records bijwerken
-   * Bestaande velden of alleen lege velden bijwerken
-   * Nieuwe records invoegen als er geen overeenkomst is gevonden
+**Beste praktijken:** Gebruik unieke herkenningstekens, bevestig eerst gegevens, test met steekproeven, programma regelmatige updates.
 
-**Gemeenschappelijke scenario&#39;s:**
-
-* Profielkenmerken bijwerken van CRM-export
-* Abonnementsstatussen vernieuwen vanaf externe systemen
-* Synchroniseer loyaliteitspunten of klantenscores
-* Voorkeuren voor opt-in/opt-out bijwerken
-* Profielen verrijken met gedragsgegevens
-
-**Beste praktijken:** gebruik unieke herkenningstekens voor verzoening, bevestigt gegevens vóór update, test met kleine steekproeven, en programma regelmatige updates voor aan de gang zijnde synchronisatie.
-
-**Verwante onderwerpen:**
-
-[&#x200B; de gegevensgids van de Invoer &#x200B;](../start/import.md) | [&#x200B; het laden van Gegevens activiteit &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=nl-NL){target="_blank"} | [&#x200B; de gegevensactiviteit van de Update &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=nl-NL){target="_blank"}
+[ de gegevensgids van de Invoer ](../start/import.md) | [ het laden van Gegevens activiteit ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [ de gegevensactiviteit van de Update ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}
 
 +++
 
 +++ Hoe kan ik nieuwe ontvangers identificeren en richten?
 
-De werkschema&#39;s van het gebruik met vraagactiviteiten om onlangs toegevoegde ontvangers te identificeren en geautomatiseerde welkomstcampagnes teweeg te brengen.
+Vraag **[!UICONTROL Created date]** veld om ontvangers te selecteren die binnen specifieke tijdlijn zijn toegevoegd.
 
-**benadering van de Vraag:**
+**Geautomatiseerde welkomstwerkschema:** Planner (looppas dagelijks) → Vraag (uitgezochte nieuwe ontvangers) → Deduplicatie (facultatief) → Levering (welkomstbericht) → Update gegevens (merk zoals &quot;verwelkomd&quot;).
 
-Maak een query-filtering op het veld **[!UICONTROL Created date]** om ontvangers te selecteren die binnen een specifiek tijdsbestek zijn toegevoegd (bijvoorbeeld vorige week, afgelopen 24 uur).
+**Geavanceerd:** gebruik samengevoegde functies om recente toevoegingen dynamisch te identificeren.
 
-**Geautomatiseerde welkomstwerkschemastructuur:**
-
-1. **Planner** - Looppas dagelijks of bij specifieke intervallen
-1. **Vraag** - Uitgezochte ontvangers die sinds laatste uitvoering worden gecreeerd
-1. **Deduplicatie** (facultatief) - verzeker geen duplicaten
-1. **Levering** - verzend welkomstbericht
-1. **gegevens van de Update** (facultatief) - de ontvangers van het teken als &quot;verwelkomd&quot;
-
-**Geavanceerde techniek met aggregaten:**
-
-Gebruik statistische functies om de meest recente toevoegingen dynamisch te identificeren en te vergelijken met eerder verwerkte ontvangers voor geavanceerde nieuwe ontvankelijkheidsdetectie.
-
-**Verwante onderwerpen:**
-
-[&#x200B; activiteit van de Vraag &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"} | [&#x200B; Gebruikend aggregaten &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=nl-NL){target="_blank"} | [&#x200B; Welkome programma&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=nl-NL){target="_blank"}
+[ activiteit van de Vraag ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [ Gebruikend aggregaten ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
 
 +++
 
 +++ Hoe gebruik ik workflowactiviteiten?
 
-De workflows van de campagne worden gebouwd gebruikend vier hoofdcategorieën van activiteiten, elk die specifieke doeleinden dienen:
+Vier activiteitscategorieën:
 
-**richtend activiteiten** - bepaal en verfijn uw publiek
+**gericht:** Vraag, Splitst, Deduplicatie, Verrijking, Intersection, Vereniging, Uitsluiting (bepaal/verfijnen publiek)\
+**controle van de Stroom:** de Planner, wacht, Test, vork, EN-sluit zich aan, OF-sluit zich aan, (beheer logica/timing)\
+**Actie:** Levering, Gegevens van de Update, het laden/de extractie van Gegevens, de code van JavaScript (voer verrichtingen uit)\
+**Gebeurtenis:** Extern signaal, de inzamelaar van het Dossier, de overdracht van HTTP (op trekkers reageert)
 
-* Query, splitsen, dedupliceren, verrijken, doorsnede, Vereniging, Uitsluiting
-* Gebruik deze om ontvangers, segmentpopulaties en gegevensbronnen te selecteren
+Sleep vanuit het palet en dubbelklik om te configureren, verbinding te maken met overgangen.
 
-**de controleactiviteiten van de Stroom** - beheer werkschemalogica en timing
-
-* Planner, Wacht, Test, Fork, AND-join, OR-join, Jump
-* De uitvoeringsstroom van de controle, voegt voorwaarden toe en beheert parallelle wegen
-
-**activiteiten van de Actie** - voer verrichtingen uit en verzend berichten
-
-* Levering, Gegevens bijwerken, Gegevens laden (bestand), Gegevens extraheren (bestand), JavaScript-code
-* Voer databasebewerkingen, bestandsoverdrachten en het verzenden van berichten uit
-
-**de activiteiten van de Gebeurtenis** - Reageer aan externe trekkers
-
-* Extern signaal, Bestandscollector, HTTP-overdracht, SMS, e-mail
-* Binnenkomende gegevens en externe systeeminteracties verwerken
-
-Als u activiteiten wilt gebruiken, sleept u deze van het palet naar het werkstroomcanvas, dubbelklikt u om parameters te configureren en verbindt u ze met overgangen.
-
-**Verwante onderwerpen:**
-
-[&#x200B; het richten activiteitenverwijzing &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=nl-NL){target="_blank"} | [&#x200B; Verwijzing van de de controleactiviteiten van de Stroom &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=nl-NL){target="_blank"} | [&#x200B; de activiteitenverwijzing van de Actie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=nl-NL){target="_blank"} | [&#x200B; Verwijzing van de activiteiten van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html?lang=nl-NL){target="_blank"}
+[ het richten activiteiten ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"} | [ controle van de Stroom ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"} | [ de activiteiten van de Actie ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}
 
 +++
 
 +++ Wat zijn best practices voor workflows?
 
-Volg deze best practices om efficiënte, onderhoudsbare en betrouwbare workflows te maken:
+**Ontwerp:** Duidelijke namen, voeg etiketten/beschrijvingen, groep verwante activiteiten toe, onderbreek complexe processen in kleinere werkschema&#39;s\
+**Prestaties:** de vraaggrootte van de grens, gebruik tijdelijke lijsten, programma off-peak, vermijd bovenmatige lijnen\
+**de behandeling van de Fout:** voeg foutenwegen toe, vorm alarm, test met steekproeven, overzichtslogboeken\
+**Onderhoud:** de verouderde werkschema&#39;s van het Archief, versiecontrole, beperk ingewikkeldheid (&lt;20 activiteiten), gebruiksmalplaatjes\
+**Veiligheid:** pas toestemmingen toe, schoon tijdelijke gegevens, gebruikvariabelen niet hard - gecodeerde waarden
 
-**Ontwerp en organisatie:**
-
-* Gebruik duidelijke, beschrijvende namen voor workflows en activiteiten
-* Labels en beschrijvingen toevoegen aan documentlogica
-* Gerelateerde activiteiten visueel groeperen voor leesbaarheid
-* Complexe processen onderbrengen in meerdere kleinere workflows
-
-**optimalisering van Prestaties:**
-
-* Grootte van queryresultaten beperken met de juiste filters
-* Tijdelijke tabellen gebruiken voor tussentijdse gegevensopslag
-* Workflows plannen die veel resources vereisen tijdens niet-piekuren
-* Overbodige lussen en herhalingen voorkomen
-
-**de behandeling en controle van de Fout:**
-
-* Paden voor foutafhandeling toevoegen met toezichthouders
-* Waarschuwingen voor mislukte workflows configureren
-* Testen met kleine gegevensmonsters vóór volledige uitvoering
-* Regelmatig uitvoeringslogboeken controleren voor prestatieproblemen
-
-**Onderhoud en bestuur:**
-
-* Verouderde workflows archiveren of verwijderen
-* Wijzigingen in werkstroom van versiebeheer en documentwijzigingen
-* Complexiteit werkstroom beperken (doel voor &lt; 20 activiteiten)
-* Workflowsjablonen gebruiken voor terugkerende patronen
-
-**Veiligheid en gegevensbeheer:**
-
-* Pas de juiste operatormachtigingen toe
-* Tijdelijke gegevens opschonen met werkstroomopruiming
-* Harde-coderingswaarden vermijden—variabelen gebruiken en opties
-* Workflows die slecht presteren regelmatig evalueren en optimaliseren
-
-**Verwante onderwerpen:**
-
-[&#x200B; de beste praktijken van het Werkschema gids &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=nl-NL){target="_blank"} | [&#x200B; Bouw een werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=nl-NL){target="_blank"} | [&#x200B; werkschema&#39;s van de Monitor &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=nl-NL){target="_blank"}
+[ de beste praktijken van het Werkschema gids ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [ werkschema&#39;s van de Monitor ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
@@ -1492,7 +1111,7 @@ Het hangt van welke interface af u gebruikt. De **taal van de cliëntconsole** i
 
 **Verwante onderwerpen:**
 
-[&#x200B; taal van de Verandering in het Web UI van de Campagne &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [&#x200B; krijgen begonnen met de cliëntconsole van de Campagne &#x200B;](connect.md)
+[ taal van de Verandering in het Web UI van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [ krijgen begonnen met de cliëntconsole van de Campagne ](connect.md)
 
 +++
 
@@ -1518,7 +1137,7 @@ Het Controlebord van de campagne is een web-based administratieve interface die 
 
 **Aanvullende middelen:**
 
-[&#x200B; documentatie van het Controlebord &#x200B;](https://experienceleague.adobe.com/nl/docs/control-panel/using/control-panel-home){target="_blank"} | [&#x200B; de zelfstudievideo&#39;s van het Comité van de Controle &#x200B;](https://experienceleague.adobe.com/nl/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
+[ documentatie van het Controlebord ](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home){target="_blank"} | [ de zelfstudievideo&#39;s van het Comité van de Controle ](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
 
 +++
 
@@ -1545,7 +1164,7 @@ Campagne v8 biedt uitgebreide tracering om de interactie tussen ontvangers en uw
 
 **Verwante onderwerpen:**
 
-[&#x200B; Spoor en controleer leveranties &#x200B;](tracking.md) | [&#x200B; vorm getraceerde verbindingen &#x200B;](../send/email.md)
+[ Spoor en controleer leveranties ](tracking.md) | [ vorm getraceerde verbindingen ](../send/email.md)
 
 +++
 
@@ -1573,59 +1192,27 @@ De e-mailleverbaarheid is afhankelijk van de technische configuratie, de kwalite
 
 **Verwante onderwerpen:**
 
-[&#x200B; Ongeveer leverability in Campagne &#x200B;](../send/about-deliverability.md) | [&#x200B; Gids van de Beste praktijken van de Levering &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}
+[ Ongeveer leverability in Campagne ](../send/about-deliverability.md) | [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}
 
 +++
 
 +++ Met welke externe databases kan ik een campagne verbinden?
 
-Campagne v8 biedt ondersteuning voor FDA-verbindingen (Federated Data Access) met grote databasesystemen voor bedrijven, zodat u de bestaande gegevensinfrastructuur kunt benutten.
+Campagne v8 ondersteunt FDA-verbindingen (Federated Data Access) met grote databasesystemen van ondernemingen (cloud databases, bedrijfsdatabases, data warehouses, big data platforms).
 
-**Gesteunde gegevensbestanden:**
+Ondersteunde databaseversies en verbindingsvereisten variëren. Controleer de [ matrijs van de Verenigbaarheid ](compatibility-matrix.md) voor uw versie van de Campagne v8 om steun voor specifieke gegevensbestanden te bevestigen en behoorlijk vergunning te verzekeren voor schakelaars FDA.
 
-* **de gegevensbestanden van de Wolk:** Amazon Redshift, Google BigQuery, Snowflake, Azure Synapse Analytics
-* **de gegevensbestanden van de Onderneming:** Oracle, de Server van Microsoft SQL, PostgreSQL, MySQL
-* **de entrepots van Gegevens:** Teradata, Vertica, SAP HANA
-* **Grote gegevens:** Hadoop via Hive
-
-**Platform-specifieke overwegingen:** de gesteunde gegevensbestandversies en de verbindingsvereisten variëren. Campagne v8 als Beheerde Cloud Service kan specifieke netwerk- en beveiligingsvereisten voor externe databasetoegang hebben.
-
-**Belangrijk:** controleer altijd de officiële verenigbaarheidsmatrijs voor uw versie van de Campagne v8 om steun voor specifieke gegevensbestandversies te bevestigen en behoorlijk vergunning te verzekeren voor externe gegevensbestandschakelaars.
-
-**Verwante onderwerpen:**
-
-[&#x200B; de matrijs van de Verenigbaarheid &#x200B;](compatibility-matrix.md) | [&#x200B; vormen verbindingen FDA &#x200B;](../connect/fda.md)
+[FDA-verbindingen configureren](../connect/fda.md)
 
 +++
 
 +++ Kan Adobe Campaign integreren met CRM-systemen?
 
-Ja. De campagne verstrekt inheemse schakelaars van CRM voor naadloze bidirectionele synchronisatie tussen Campagne en uw systeem van CRM, die verenigbare klantengegevens over platforms verzekeren.
+Ja. De campagne verstrekt inheemse schakelaars van CRM voor tweerichtingssynchronisatie met belangrijke systemen van CRM. Hiermee synchroniseert u contactgegevens, leads, accounts, leveringslogbestanden, gegevens voor bijhouden en gegevens over betrokkenheid. Ondersteunt de synchronisatiemodi voor geplande, handmatige en realtime (via API).
 
-**Ondersteunde systemen van CRM:**
+De de schakelaarmedewerker van CRM van CRM van het Gebruik van de Campagne aan kaartgebieden, uitgezochte lijsten, en planningssynchronisatie. Controle [ de matrijs van de Verenigbaarheid ](compatibility-matrix.md) voor de gesteunde versies van CRM.
 
-* **Salesforce** - Leads, contacten, rekeningen, kansen, campagnes
-* **Microsoft Dynamics 365** - Contacten, rekeningen, lood, douaneentiteiten
-* Andere CRM&#39;s via aangepaste API-integratie
-
-**wat syncs:**
-
-* **van CRM aan Campagne:** de verslagen van het Contact, rekeningsinformatie, leidt, douanegebieden, segmentatiegegevens
-* **van Campagne aan CRM:** Logboeken van de levering, het volgen gegevens, betrokkenheidsmetriek, campagnereacties, abonnementsstatus
-
-**de wijzen van de Synchronisatie:**
-
-* **Gepland** - Automatische synchronisatie bij bepaalde intervallen (uur, dagelijks)
-* **Hand** - op bestelling synchronisatie die door exploitanten wordt teweeggebracht
-* **Real-time** - via API voor directe updates (douaneontwikkeling)
-
-**Configuratie:** de ingebouwde de schakelaarmedewerker van CRM van de Campagne van het Gebruik aan kaartCRM gebieden aan de attributen van de Campagne, uitgezochte lijsten aan synchronisatie, en planningssynchronisatie. De schakelaar behandelt conflictoplossing en handhaaft gegevensconsistentie.
-
-**Beste praktijken:** Begin met read-only synchronisatie aan testafbeelding, dan laat bidirectionele synchronisatie toe. Synchronisatielogboeken controleren op fouten en in beide systemen schone gegevens bijhouden.
-
-**Verwante onderwerpen:**
-
-[&#x200B; de schakelaarconfiguratie van CRM &#x200B;](../connect/crm.md) | [&#x200B; de activiteiten van CRM van het Werkschema &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html?lang=nl-NL){target="_blank"}
+[ de schakelaarconfiguratie van CRM ](../connect/crm.md) | [ de activiteiten van CRM van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html){target="_blank"}
 
 +++
 
@@ -1672,11 +1259,10 @@ Ja. Campagnebeheerders kunnen de gebruikersinterface aanpassen aan de branding v
 
 * **Instantie-breed** - is op alle gebruikers van toepassing (vereist beheerderrechten)
 * **gebruiker-specifiek** - Individuele voorkeur en persoonlijke montages
-* **groep van de Exploitant** - Montages die door alle groepsleden worden geërft
 
 **Verwante onderwerpen:**
 
-[&#x200B; vorm montages UI &#x200B;](../config/ui-settings.md) | [&#x200B; de toestemmingen van de Gebruiker &#x200B;](gs-permissions.md)
+[ vorm montages UI ](../config/ui-settings.md) | [ de toestemmingen van de Gebruiker ](gs-permissions.md)
 
 +++
 
@@ -1701,7 +1287,7 @@ Ja. Het flexibele gegevensmodel van de campagne staat u toe om ingebouwde schema
 
 **Verwante onderwerpen:**
 
-[&#x200B; breid gegevensmodel &#x200B;](../dev/extend-schema.md) uit | [&#x200B; de structuur van het Schema &#x200B;](../dev/schemas.md) | [&#x200B; beste praktijken van het gegevensmodel &#x200B;](../dev/datamodel-best-practices.md)
+[ breid gegevensmodel ](../dev/extend-schema.md) uit | [ de structuur van het Schema ](../dev/schemas.md) | [ beste praktijken van het gegevensmodel ](../dev/datamodel-best-practices.md)
 
 +++
 
@@ -1711,21 +1297,20 @@ Krijg inzicht in de rapporteringsmogelijkheden van de Campagne, met inbegrip van
 
 +++ Hoe kan ik nieuwe rapporten maken?
 
-De campagne biedt meerdere rapportopties afhankelijk van uw behoeften en technische expertise. U kunt ingebouwde rapporten gebruiken, douanerapporten in de cliëntconsole tot stand brengen, of visuele dashboards ontwerpen in het Web UI van de Campagne.
+De campagne biedt veelvoudige rapporteringsopties afhankelijk van uw behoeften en technische deskundigheid aan: ingebouwde rapporten, beschrijvende analyse, douanerapporten in de cliëntconsole, en kubussen.
 
 **het Melden van opties:**
 
 * **Ingebouwde rapporten** - klaar-aan-gebruiklevering, campagne, en het volgen rapporten toegankelijk van het **[!UICONTROL Reports]** lusje
 * **Beschrijvende analyse** - Snelle statistische rapporten over om het even welke gegevens met een tovenaar-gedreven interface
 * **de rapporten van de Douane** - Geavanceerde die rapporten door technische gebruikers worden gebouwd gebruikend de rapporteringsredacteur
-* **Web UI dashboards** - Moderne visuele rapporten en dashboards met belemmering-en-dalingsinterface
 * **Kubussen** - Multidimensionale gegevensexploratie en de analyse van de spillijst
 
 **Belangrijk:** de Campagne wordt ontworpen voor het op de markt brengen van verrichtingen die, niet als gespecialiseerd bedrijfsintelligentiehulpmiddel melden. Voor complexe analytische behoeften kunt u overwegen om te integreren met Adobe Analytics of specifieke BI-platforms.
 
 **Verwante onderwerpen:**
 
-[&#x200B; worden begonnen met het melden &#x200B;](../reporting/gs-reporting.md) | [&#x200B; rapporten UI van het Web van de Campagne &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[ worden begonnen met het melden ](../reporting/gs-reporting.md) | [ rapporten UI van het Web van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1745,13 +1330,13 @@ Gebruik het beschrijvende analysehulpmiddel van de Campagne om statistische rapp
 
 **het Delen:** de rapporten van de Uitvoer aan Excel/PDF of sparen hen aan de **[!UICONTROL Reports]** omslag voor teamtoegang met aangewezen toestemmingen.
 
-Leer meer over [&#x200B; Beschrijvende analyse &#x200B;](../reporting/built-in-reports.md)
+Leer meer over [ Beschrijvende analyse ](../reporting/built-in-reports.md)
 
 +++
 
 +++ Hoe kan ik geavanceerde rapporten over mijn gegevens ontwerpen?
 
-De campagne biedt twee benaderingen voor het creëren van geavanceerde douanerapporten aan: technische rapporten in de cliëntconsole voor complexe analyse, en visuele dashboards voor gemakkelijkere rapportbouw.
+Gebruik de cliëntconsole om geavanceerde douanerapporten met complexe analysemogelijkheden tot stand te brengen.
 
 In de clientconsole kunt u:
 
@@ -1760,21 +1345,20 @@ In de clientconsole kunt u:
 * Voorwaardelijke opmaak en dynamische inhoud ontwerpen
 * Toegang tot het volledige gegevensmodel van de Campagne en externe gegevensbestanden (FDA)
 
-Leer hoe te om [&#x200B; douanerapporten (cliëntconsole) te creëren &#x200B;](../reporting/custom-reports.md)
+Leer hoe te om [ douanerapporten (cliëntconsole) te creëren ](../reporting/custom-reports.md)
 
 +++
 
 +++ Wat is een kubus en hoe kan ik deze gebruiken voor rapportage?
 
-De kubussen zijn multidimensionele gegevensstructuren die bedrijfsgebruikers toelaten om de gegevens van de Campagne door spillijsten zonder technische vaardigheden te onderzoeken en te analyseren. Beschouw ze als vooraf geconfigureerde gegevensmodellen die complexe rapportage vereenvoudigen.
-
+De kubussen zijn multidimensionele gegevensstructuren die bedrijfsgebruikers toelaten om de gegevens van de Campagne door spillijsten zonder technische vaardigheden te onderzoeken en te analyseren. Beschouw ze als vooraf geconfigureerde gegevensmodellen die complexe rapportage vereenvoudigen. Dit rapporteringshulpmiddel is beschikbaar in zowel de cliëntconsole als het Web UI van de Campagne.
 
 * De technische gebruikers creëren en vormen kubussen die afmetingen (tijd, aardrijkskunde, kanalen) en maatregelen (opent, klikt, opbrengst) bepalen
 * Zakelijke gebruikers selecteren een kubus wanneer ze rapporten maken en dimensies slepen en neerzetten om gegevens te verkennen
 * Gegevens worden automatisch samengevoegd en berekend op basis van de kubusconfiguratie
 * De resultaten kunnen worden weergegeven als draaitabellen, grafieken of worden geëxporteerd naar Excel
 
-Leer hoe te [&#x200B; gegevens met kubussen &#x200B;](../reporting/gs-cubes.md) ontdekken
+Leer hoe te [ gegevens met kubussen ](../reporting/gs-cubes.md) ontdekken
 
 +++
 
@@ -1793,12 +1377,6 @@ Ja! De campagne omvat een module van het Onderzoek die u toestaat om online vrag
 * Antwoorden van enquêtes naar Excel, PDF of CSV exporteren voor verdere analyse
 * De onderzoeksgegevens van het gebruik in het richten van werkschema&#39;s om campagnes te personaliseren
 
-**Ingebouwde enquêterapporten:**
-
-* **Algemeen rapport** - de tendensen van de Reactie in tijd, distributie door oorsprong en taal
-* **Uitsplitsing van reacties** - Gedetailleerde uitsplitsing van antwoorden voor elke vraag
-* **het rapport van de Documentatie** - Visuele vertegenwoordiging van de onderzoeksstructuur
-
 **Geavanceerde analyse:**
 
 * enquêteantwoorden openen op het tabblad **[!UICONTROL Responses]** en gegevens exporteren
@@ -1808,33 +1386,23 @@ Ja! De campagne omvat een module van het Onderzoek die u toestaat om online vrag
 
 **Verwante onderwerpen:**
 
-[&#x200B; worden begonnen met onderzoeken &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [&#x200B; de rapporten van het Onderzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
+[ worden begonnen met onderzoeken ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [ de rapporten van het Onderzoek ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
 +++
 
 +++ Hoe kan ik de toegang tot mijn rapporten delen?
 
-De campagne verstrekt flexibele opties om rapporten met verschillende gebruikersgroepen te delen, die zicht en toegangstoestemmingen controleren die op rollen en verantwoordelijkheden worden gebaseerd.
+De rapportzichtbaarheid beheren via mapmachtigingen en benoemde rechten in Campagne.
 
-**de toegangscontrole van het Rapport:**
+**de controlemethodes van de Toegang:**
 
-* **toestemmingen van de Omslag** - Plaats rapporten in omslagen met aangewezen lees/schrijf toegang voor gebruikersgroepen
-* **Genoemde rechten** - wijs specifieke rechten toe om, rapporten te bekijken tot stand te brengen of te wijzigen
-* **context van de Vertoning** - bepaal waar de rapporten verschijnen: in **[!UICONTROL Reports]** omslag, campagnelusjes, of leveringsschermen
-* **het delen van het Web UI** - het dashboardverbindingen van het aandeel met teamleden door het Web UI van de Campagne
+* {de toestemmingen van de Omslag 0} **- Plaats rapporten in omslagen met aangewezen toegang voor gebruikersgroepen**
+* **Genoemde rechten** - wijs rechten toe om, rapporten te bekijken tot stand te brengen of te wijzigen
+* **context van de Vertoning** - bepaal waar de rapporten verschijnen (de omslag van Rapporten, campagnelusjes, leveringsschermen)
 
-**hoe te om toegang te vormen:**
+**Opstelling:** sparen rapport aan specifieke omslag → vorm omslagtoegang voor exploitantgroepen → bepaal rapporteigenschappen en vertoningscontext.
 
-1. Sla uw rapport op in een specifieke map in de clientconsole
-2. Machtigingen voor maptoegang configureren voor relevante groepen operatoren
-3. Bepaal rapporteigenschappen: rapporttype, vertoningscontext, en beschikbaarheid
-4. Toegang testen met een gebruiker uit de doelgroep voordat de toepassing breder wordt
-
-**Beste praktijken:** creeer specifieke rapportomslagen voor verschillende teams (marketing, verrichtingen, beheer) met op maat gemaakte toegangstoestemmingen. Het rapportdoel van het document en verfrist programma&#39;s.
-
-**Verwante onderwerpen:**
-
-[&#x200B; de rapporten van de Douane &#x200B;](../reporting/custom-reports.md) | [&#x200B; de toestemmingen van de Gebruiker &#x200B;](gs-permissions.md)
+[ de rapporten van de Douane ](../reporting/custom-reports.md) | [ de toestemmingen van de Gebruiker ](gs-permissions.md)
 
 +++
 
@@ -1865,7 +1433,7 @@ Ja, steunt de Campagne veelvoudige uitvoerformaten voor zowel cliëntconsole als
 
 **Verwante onderwerpen:**
 
-[&#x200B; de rapporten van de Douane &#x200B;](../reporting/custom-reports.md) | [&#x200B; rapporten UI van het Web van de Campagne &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[ de rapporten van de Douane ](../reporting/custom-reports.md) | [ rapporten UI van het Web van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1875,263 +1443,122 @@ Toegang tot technische informatie voor ontwikkelaars, waaronder gegevens over ge
 
 +++ Wat is het gegevensmodel van de Campagne?
 
-Het gegevensmodel van de campagne is een schema-gedreven relationele gegevensbestandstructuur die bepaalt hoe de marketing gegevens wordt georganiseerd en verwant. Het bestaat uit ingebouwde lijsten voor kern marketing voorwerpen (ontvangers, leveringen, campagnes) en kan worden uitgebreid om aan uw specifieke bedrijfsbehoeften te voldoen.
+Het gegevensmodel van de campagne is een schema-gedreven relationele gegevensbestandstructuur die uit ingebouwde lijsten (ontvangers, leveringen, campagnes) bestaat die voor uw bedrijfsbehoeften kunnen worden uitgebreid.
 
-**Zeer belangrijke concepten van het gegevensmodel:**
+**Zeer belangrijke concepten:** Schema&#39;s (de definities van XML), ingebouwde lijsten, verbindingen (verhoudingen), opsommingen (waardelijsten), uitbreidingen (douanegebieden/lijsten).
 
-* **Schema&#39;s** - de definities van XML beschrijvend lijststructuur, gebieden, en verhoudingen
-* **Ingebouwde lijsten** - de marketing van de Kern entiteiten (ontvangers, leveringen, werkschema&#39;s, campagnes)
-* **Verbindingen** - Verhoudingen tussen lijsten (1-1, 1-N, N-N)
-* **Opsommingen** - Vooraf bepaalde waardelijsten voor dropdown gebieden
-* **Uitbreidingen** - de gebieden en de lijsten van de Douane die aan het standaardmodel worden toegevoegd
+**Belangrijkste schema&#39;s:** Ontvanger (`nms:recipient`), Levering (`nms:delivery`), Werkschema (`xtk:workflow`), Campagne (`nms:operation`), het Volgen logboeken.
 
-**Belangrijkste ingebouwde schema&#39;s:**
+Kennis van het gegevensmodel is essentieel voor workflows, query&#39;s, schema-extensies en integratie.
 
-* **Ontvanger (nms :recipient)** - de profielen van de Klant en contactinformatie
-* **Levering (nms :delivery)** - E-mail, SMS, en duwcampagnes
-* **Werkschema (xtk :workflow)** - de processen van de Automatisering
-* **Campagne (nms :operation)** - de campagneorkest van de marketing
-* **het Volgen logboeken** - opent, klikt, en betrokkenheidsgegevens
-
-**waarom het van belang is:** Begrijpen van het gegevensmodel is essentieel voor het creëren van werkschema&#39;s, het bouwen van vragen, het uitbreiden van schema&#39;s, en het ontwikkelen van douaneintegratie. De op schema-gebaseerde benadering verzekert gegevensconsistentie en laat krachtige het vragen mogelijkheden toe.
-
-**Verwante onderwerpen:**
-
-[&#x200B; het gegevensmodel van de Campagne &#x200B;](../dev/datamodel.md) | [&#x200B; Beste praktijken van het gegevensmodel &#x200B;](../dev/datamodel-best-practices.md)
+[ het gegevensmodel van de Campagne ](../dev/datamodel.md) | [ Beste praktijken van het gegevensmodel ](../dev/datamodel-best-practices.md)
 
 +++
 
 +++ Hoe te met de schema&#39;s van de Campagne werken?
 
-De schema&#39;s zijn de stichting van de gegevensstructuur van de Campagne, die lijsten, gebieden, en verhoudingen in het formaat van XML bepaalt. Kennis van schema&#39;s is van cruciaal belang voor aanpassing, integratie en geavanceerde workflowontwikkeling.
-
-**Welke schema&#39;s bepalen:**
-
-* **structuur van de Lijst** - de lijsten van het Gegevensbestand en hun overeenkomstige toepassingsvoorwerpen
-* **Eigenschappen van het Gebied** - de types van Gegevens, etiketten, bevestigingsregels, en standaardwaarden
-* **Verhoudingen** - Verbindingen tussen lijsten (toetreedt) en kardinaliteit
-* **Indexen** - de optimalisering van het Gegevensbestand voor vraagprestaties
-* **controle van de Toegang** - welke gebieden gebruikers kunnen bekijken en wijzigen
+De schema&#39;s bepalen de gegevensstructuur van de Campagne in het formaat van XML, die lijststructuur, gebiedseigenschappen, verhoudingen, indexen, en toegangsbeheer specificeren.
 
 **Werkend met schema&#39;s:**
 
-* **schema&#39;s van de Mening:** Toegang via **[!UICONTROL Administration > Configuration > Data schemas]** in de cliëntconsole
-* **breidt schema&#39;s uit:** creeer uitbreidingsschema&#39;s (b.v., `cus:recipient` breidt `nms:recipient`) uit om douanevelden toe te voegen zonder kernschema&#39;s te wijzigen
-* **creeer douaneschema&#39;s:** bouw volledig nieuwe lijsten voor zaken-specifieke gegevens
-* **gegevensbestand van de Update:** pas schemaveranderingen toe gebruikend **[!UICONTROL Tools > Advanced > Update database structure]**
+* **Mening:** Toegang via **[!UICONTROL Administration > Configuration > Data schemas]**
+* **breid uit:** creeer uitbreidingsschema&#39;s (b.v., `cus:recipient`) om douanevelden toe te voegen zonder kernschema&#39;s te wijzigen
+* **creeer:** bouw nieuwe lijsten voor zaken-specifieke gegevens
+* **Update:** pas veranderingen via **[!UICONTROL Tools > Advanced > Update database structure]** toe
 
-**Gemeenschappelijke gebruiksgevallen:**
+**Gemeenschappelijk gebruik:** voeg douanegebieden aan ontvankelijke lijst toe, creeer douanetabellen, bepaal verhoudingen, voer zaken-specifieke modellen uit.
 
-* Aangepaste velden toevoegen aan de tabel met ontvangers (bedrijfs-id, loyaliteitslaag, voorkeuren)
-* Aangepaste tabellen maken voor producten, winkels of transacties
-* Relaties definiëren tussen aangepaste en ingebouwde tabellen
-* Bedrijfsspecifieke gegevensmodellen implementeren
+**Belangrijk:** wijzig nooit direct ingebouwde schema&#39;s. Gebruik altijd extensieschema&#39;s voor upgradecompatibiliteit.
 
-**Belangrijk:** wijzig nooit direct ingebouwde schema&#39;s. Gebruik altijd extensieschema&#39;s om de compatibiliteit met upgrades en Adobe-ondersteuning te behouden.
-
-**Verwante onderwerpen:**
-
-[&#x200B; worden begonnen met schema&#39;s &#x200B;](../dev/schemas.md) | [&#x200B; breid een schema &#x200B;](../dev/extend-schema.md) uit
+[ worden begonnen met schema&#39;s ](../dev/schemas.md) | [ breid een schema ](../dev/extend-schema.md) uit
 
 +++
 
 +++ Hoe te om een douane ontvankelijke lijst te gebruiken?
 
-De campagne staat u toe om een douanetabel in plaats van de ingebouwde ontvankelijke lijst te gebruiken wanneer uw zaken een verschillende gegevensstructuur voor het richten vereisen (b.v., B2B rekeningen, abonnees, lood, of externe contacten).
+Gebruik een douane ontvankelijke lijst wanneer het richten van B2B rekeningen, afzonderlijke abonneegegevens, externe systemen, of multibrand architecturen in plaats van de standaard ontvankelijke lijst.
 
-**waarom gebruik een douane ontvankelijke lijst:**
+**Implementatie:** creeer douaneschema met verplichte gebieden (e-mail, primaire sleutel, uitsluitingen) → Vorm doelafbeeldingen → Update leveringsmalplaatjes → Pas werkschema&#39;s/vragen aan.
 
-* Doel B2B-ondernemingen of organisatorische eenheden in plaats van individuele contacten
-* Afzonderlijke abonneegegevens van belangrijkste klantengegevensbestand
-* Een bestaande klantentabel van een ander systeem gebruiken
-* Implementeer architecturen voor meerdere merken met aparte contacttabellen
-* Voldoen aan specifieke vereisten inzake gegevensbeheer
+**Zeer belangrijke overwegingen:** moet vereiste leveringsgebieden omvatten, hebben de werkschema&#39;s/de vormen aanpassing nodig, het testen kritiek vóór productiemigratie.
 
-**de stappen van de Implementatie:**
+**Beste praktijken:** breid eerst de standaard ontvankelijke lijst uit. Gebruik alleen aangepaste tabellen wanneer dit echt nodig is vanwege de toegevoegde complexiteit.
 
-1. Uw aangepaste schema maken voor het definiëren van de tabelstructuur voor de ontvanger
-2. Inclusief verplichte velden (e-mail, primaire sleutel, uitsluitingsvlaggen)
-3. Doeltoewijzingen configureren om uw tabel te koppelen aan leveringen
-4. De leveringsmalplaatjes van de update om de nieuwe doelafbeelding te gebruiken
-5. Workflows en query&#39;s aanpassen om naar de aangepaste tabel te verwijzen
-
-**Zeer belangrijke overwegingen:**
-
-* Aangepaste tabellen voor ontvangers moeten vereiste velden voor leveringen bevatten (e-mail, uitsluitingen, bijhouden)
-* Workflows en formulieren moeten worden aangepast aan de aangepaste structuur
-* Voor sommige ingebouwde functies moet de configuratie mogelijk worden aangepast
-* Testen is van essentieel belang voordat productiecampagnes worden gemigreerd
-
-**Beste praktijken:** Begin met het uitbreiden van de standaard ontvankelijke lijst alvorens een douanetabel te overwegen. Aangepaste ontvankelijke lijsten voegen ingewikkeldheid toe en zouden slechts moeten worden gebruikt wanneer echt noodzakelijk.
-
-**Verwante onderwerpen:**
-
-[&#x200B; de ontvankelijke lijst van de Douane &#x200B;](../dev/custom-recipient.md) | [&#x200B; de afbeeldingen van het Doel &#x200B;](../audiences/target-mappings.md)
+[ de ontvankelijke lijst van de Douane ](../dev/custom-recipient.md) | [ de afbeeldingen van het Doel ](../audiences/target-mappings.md)
 
 +++
 
 +++ Wat zijn de beste praktijken om vragen in Campagne te bepalen?
 
-De vraagredacteur van de campagne is een krachtig visueel hulpmiddel om gegevensbestandvragen zonder SQL kennis op te bouwen. Het beheersen van het is essentieel voor efficiënte richten, segmentatie, en gegevensanalyse.
+De vraagredacteur van de campagne bouwt visueel gegevensbestandvragen zonder SQL, die in werkschemaactiviteiten, levering het richten, lijsten, rapporten, en filters worden gebruikt.
 
-**waar de vragen worden gebruikt:**
+**Beste praktijken:**
 
-* **de activiteiten van het Werkschema** - Vraag, Gesplitst, gegevens van de Update, de activiteiten van de Verrijking
-* **Levering richtend** - bepaal ontvankelijke populaties voor campagnes
-* **Lijsten** - creeer dynamische of statische ontvankelijke lijsten
-* **Rapporten** - bouw de extracties en de analyse van douanegegevens
-* **Filters** - creeer herbruikbare het richten criteria
+* Eenvoudig starten - stapsgewijs samenstellen, elke stap testen
+* Filterdimensies gebruiken - hefboomtabelrelaties
+* Prestaties optimaliseren - indexvelden met vragen, complexe berekeningen vermijden
+* Vooraf gedefinieerde filters opnieuw gebruiken voor consistentie
+* Test eerst met kleine monsters
+* Complexe query&#39;s voor documenten
 
-**beste praktijken van de Vraag:**
+**Gemeenschappelijke patronen:** de leveringsopeners van het Doel, vinden inactieve contacten, segment door gedrag, sluiten vorige ontvangers uit.
 
-* **Begin eenvoudig** - bouw vragen incrementeel, het testen bij elke stap
-* **het filtreren van het gebruik dimensies** - de verhoudingen van de hefboomwerking tussen lijsten (ontvangers → leveringen → volgende logboeken)
-* **optimaliseer prestaties** - Index vaak vraagde gebieden, vermijd complexe berekende gebieden
-* **Hefboomwerking predefined filters** - hergebruik en combineer bestaande filters voor consistentie
-* **Test met kleine steekproeven** - bevestigt vraaglogica alvorens op volledig gegevensbestand te lopen
-* **complexe vragen van het Document** - voeg beschrijvingen voor onderhoud en kennisoverdracht toe
+**Toegang:** **[!UICONTROL Tools > Generic query editor]** voor ad hoc exploratie.
 
-**Gemeenschappelijke vraagpatronen:**
-
-* Doelontvangers die specifieke levering hebben geopend: Filter op trackinglogboeken gekoppeld aan ontvangers
-* Inactieve contactpersonen zoeken: query op laatste leveringsdatum of trackingactiviteit
-* Segmenteren op gedrag: criteria voor levering, bijhouden en profiel combineren
-* Eerdere ontvangers uitsluiten: gebruik ingestelde bewerkingen (union, intersection, exclusion)
-
-**de generische vraagredacteur van de Toegang:** **[!UICONTROL Tools > Generic query editor]** voor ad hoc gegevensbestandexploratie en gegevensextractie buiten werkschema&#39;s.
-
-**Verwante onderwerpen:**
-
-[&#x200B; redacteur van de Vraag &#x200B;](../start/query-editor.md) | [&#x200B; de activiteit van de Vraag in werkschema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=nl-NL){target="_blank"}
+[ redacteur van de Vraag ](../start/query-editor.md) | [ de activiteit van de Vraag ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
 
 +++ Hoe kan ik een gegevenspakket importeren?
 
-Met gegevenspakketten kunt u Campagnerconfiguraties (schema&#39;s, workflows, typologieën, filters) en gegevens tussen instanties exporteren en importeren. Dit is essentieel voor het opstellen van configuraties van ontwikkeling aan productie of het delen van componenten over organisaties.
+Importeer pakketten via **[!UICONTROL Tools > Advanced > Import package]** in de clientconsole. De pakketten bevatten de configuraties van de Campagne (schema&#39;s, werkschema&#39;s, typologieën) en gegevens voor het opstellen tussen instanties.
 
-**wat kan worden verpakt:**
+**de types van Pakket:** het pakket van de Gebruiker (douane vormt), het pakket van het Platform (Adobe-Geleverd), het pakket van Gegevens (daadwerkelijke gegevens).
 
-* **de voorwerpen van de Configuratie** - Schema&#39;s, werkschema&#39;s, typologische regels, vormen, filters
-* **componenten van de Campagne** - de malplaatjes van de Levering, campagnemalplaatjes, inhoudsblokken
-* **montages van de Toepassing** - Exploitanten, exploitantgroepen, omslagstructuren
-* **Gegevens** - de Ontvankelijke lijsten, zaadadressen, inhoudsfragmenten
-* **de ontwikkelingen van de Douane** - de code van JavaScript, SQL manuscripten, Webtoepassingen
+**Beste praktijken:** Test eerst in dev, file alvorens in te voeren, voer uit zelfde/oudere versie uit.
 
-
-**de types van Pakket:**
-
-* **het pakket van de Gebruiker** - de configuraties van de Douane u creeert en uitvoert
-* **het pakket van het Platform** - Adobe-Verstrekte eigenschappen en updates
-* **het pakket van Gegevens** - bevat daadwerkelijke gegevensverslagen, niet alleen structuur
-
-**Beste praktijken:**
-
-* Pakketten altijd exporteren vanuit dezelfde of een oudere versie van Campagne
-* Invoer van testpakketten in de ontwikkelomgeving vóór de productie
-* Inhoud en afhankelijkheden van documentpakketten
-* Versiebeheer gebruiken voor pakket-XML-bestanden
-* Back-up maken van instantie vóór grote pakketimport
-
-Leer meer over hoe te [&#x200B; werken met gegevenspakketten &#x200B;](../dev/packages.md)
+[Werken met gegevenspakketten](../dev/packages.md)
 
 +++
 
 +++ Waar vind ik de lijst met API&#39;s voor Campagne v8?
 
-Campagne v8 biedt uitgebreide API-documentatie die zowel SOAP API&#39;s (voor interactie met de clientconsole) als REST API&#39;s (voor moderne integratie) omvat. De API-naslaggids bevat alle beschikbare methoden, parameters en responsindelingen.
+Campagne v8 biedt SOAP API&#39;s (clientconsolebewerkingen), REST API&#39;s (moderne integratie) en JavaScript API&#39;s (workflowscripting).
 
-**Campagne API types:**
+**gemeenschappelijk gebruik:** integreer met CRM/ERP, automatiseer campagnes, synchroniseer gegevens, bouw controleoplossingen, creeer externe interfaces.
 
-* **SOAP APIs** - Traditionele APIs voor de verrichtingen van de de cliëntconsole van de Campagne, schemamanipulatie, en werkschemacontrole
-* **REST APIs** - Moderne HTTP APIs voor externe systeemintegratie, profielbeheer, en gebeurtenis die teweegbrengen
-* **JavaScript APIs** - server-zij scripting APIs voor werkschemaactiviteiten en douane bedrijfslogica
-
-**API documentatiemiddelen:**
-
-* **Volledige API verwijzing:** Uitgebreide documentatie van SOAP API met methodehandtekeningen, parameters, en voorbeelden
-* **REST API gids:** Moderne eindpunten van REST voor profielen, gebeurtenissen, en organisatorische eenheden
-* **JavaScript API:** server-zijfuncties beschikbaar in werkschemamuscripten en Webtoepassingen
-
-**Gemeenschappelijke API gebruiksgevallen:**
-
-* Integreer Campagne met CRM, ERP, of douanetoepassingen
-* Campagne en workflowuitvoering automatiseren
-* Gegevens synchroniseren tussen systemen in real-time
-* Aangepaste oplossingen voor bewaking en waarschuwingen ontwikkelen
-* Externe interfaces maken voor Campagnegegevens en -bewerkingen
-
-**Toegang:** [&#x200B; de documentatie van de Campagne v8 API &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=nl){target="_blank"}
+**Toegang:** [ de documentatie van de Campagne v8 API ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=nl){target="_blank"}
 
 +++
 
 
 +++ Hoe kan ik workflows controleren vanuit API?
 
-Met campagne-API&#39;s kunt u de uitvoering van de workflow programmatisch beheren en controleren, externe bewakingssystemen, geautomatiseerde waarschuwingen en aangepaste orchestratieoplossingen inschakelen.
+Met campagne-API&#39;s kunt u workflows programmatisch beheren: starten, pauzeren/hervatten, stoppen, querystatus, logbestanden ophalen, de voortgang van de activiteit controleren.
 
-**wat u via API kunt doen:**
+**API eindpunt:** `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
-* **werkschema&#39;s van het Begin** - de werkschemauitvoering van de trekker programmatically
-* **de werkschema&#39;s van de Pauze/van de Hervat** - de stroom van de werkschemauitvoering van de controle
-* **werkschema&#39;s van het Einde** - beëindig lopende werkschema&#39;s
-* **het werkschemastatus van de Vraag** - controleer als de werkschema&#39;s lopen, gepauzeerd of voltooid zijn
-* **wint logboeken** terug - de logboeken van de werkschemauitvoering van de toegang en foutenmeldingen
-* **de activiteitenvooruitgang van de Monitor** - de voltooiing van de individuele werkschemaactiviteit van het spoor
+**Bevelen:** `{"method":"start"}`, `{"method":"pause"}`, `{"method":"resume"}`, `{"method":"stop"}`
 
-**API eindpunt:**
+**de gevallen van het Gebruik:** bouw controledashboards, voer geautomatiseerde alarm, orkesteren van externe planners uit, creeer gebiedsdelen over instanties, produceer douanerapporten.
 
-Alle werkschemacontrolebevelen gebruiken het zelfde eindpunt van POST met verschillende methodeparameters:
+**Beste praktijken:** combineer API controle met controlespoor voor uitvoerig bestuur.
 
-`POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
-
-**Beschikbare bevelen:**
-
-* `{"method":"start"}` - Een workflow starten
-* `{"method":"pause"}` - Een actieve workflow pauzeren
-* `{"method":"resume"}` - Een gepauzeerde workflow hervatten
-* `{"method":"stop"}` - Een workflow stoppen
-
-**Gemeenschappelijke gebruiksgevallen:**
-
-* Aangepaste controledashboards maken met de status van de workflow
-* Automatische waarschuwingen implementeren wanneer workflows mislukken of te lang duren
-* Workflows ordenen van externe planners of gebeurtenissystemen
-* Workflowafhankelijkheden maken voor meerdere campagneinstanties
-* Rapporten voor aangepaste workflowuitvoering genereren
-
-**Beste praktijken:** combineer API controle met het spoor van de werkschemacontrole voor uitvoerig werkschemabeheer. Gebruik externe controlehulpmiddelen om werkschema SLAs en prestatiesmetriek te volgen.
-
-Leer hoe te [&#x200B; werkschema&#39;s van de Controle via API &#x200B;](../dev/api/controlling-a-workflow.md)
+[Workflows beheren via API](../dev/api/controlling-a-workflow.md)
 
 +++
 
 +++ Hoe kan ik de databasestructuur bijwerken?
 
-Na het wijzigen van de schema&#39;s van de Campagne (het toevoegen van gebieden, het creëren van lijsten, het veranderen van gegevenstypes), moet u de fysieke gegevensbestandstructuur bijwerken om uw veranderingen toe te passen. Deze synchronisatie zorgt ervoor dat de database overeenkomt met uw schemadefinities.
+Nadat u schema&#39;s hebt gewijzigd (velden toevoegen, tabellen maken, gegevenstypen wijzigen), werkt u de fysieke databasestructuur via **[!UICONTROL Tools > Advanced > Update database structure]** bij om wijzigingen toe te passen.
 
-**wanneer de gegevensbestandupdates nodig zijn:**
+**wanneer nodig:** Toevoegend gebieden, creërend/uitbreidend lijsten, wijzigend gebiedseigenschappen, toevoegend/verwijderend verbindingen, creërend indexen.
 
-* Nieuwe velden toevoegen aan bestaande schema&#39;s
-* Aangepaste tabellen maken of ingebouwde tabellen uitbreiden
-* Veldeigenschappen wijzigen (gegevenstype, lengte, vereiste status)
-* Koppelingen tussen tabellen toevoegen of verwijderen
-* Nieuwe indexen maken voor queryoptimalisatie
+**Belangrijk:** Steun eerst, test in dev, plan onderbreking voor grote veranderingen, coördineer met de steun van Adobe (Beheerde Diensten van de Wolk), merk op sommige veranderingen gegevensverlies kunnen veroorzaken.
 
+**Beste praktijken:** het schema van het gebruik versioning, documenteert alle wijzigingen.
 
-**Belangrijke overwegingen:**
-
-* **Steun eerst** - altijd file uw gegevensbestand vóór structurele veranderingen
-* **Test in ontwikkeling** - bevestigt schemaveranderingen in dev milieu vóór productie
-* **planning van de Onderbreking** - de grote structurele veranderingen kunnen korte onderhoudvensters vereisen
-* **voor de Beheerde Diensten van de Wolk** - coördineer belangrijke veranderingen met de steun van Adobe
-* **Omkeerbaarheid** - sommige veranderingen (als het verwijderen van gebieden) kunnen gegevensverlies veroorzaken
-
-**Beste praktijken:** het schema van het gebruik versioning en verandering het volgen. Documenteer alle wijzigingen van het douaneschema voor onderhoud en het oplossen van problemen.
-
-**Verwante onderwerpen:**
-
-[&#x200B; de gegevensbestandstructuur van de Update &#x200B;](../dev/update-database-structure.md) | [&#x200B; breid schema &#x200B;](../dev/extend-schema.md) uit
+[ de gegevensbestandstructuur van de Update ](../dev/update-database-structure.md) | [ breid schema ](../dev/extend-schema.md) uit
 
 +++
 
@@ -2145,7 +1572,7 @@ De campagne helpt u aan privacyverordeningen (GDPR, CCPA, PDPA, LGPD) door hulpm
 
 Als Datacontrole, bent u verantwoordelijk voor de behandeling van gegevensonderwerpverzoeken, het handhaven van toestemmingsverslagen, en het verzekeren van transparant gegevensgebruik.
 
-Leer meer over [&#x200B; het beheer van de Privacy &#x200B;](../start/privacy.md)
+Leer meer over [ het beheer van de Privacy ](../start/privacy.md)
 
 +++
 
@@ -2163,7 +1590,7 @@ Campagne biedt tools voor privacynaleving, maar u bent wettelijk verantwoordelij
 
 De campagne biedt de integratie van de Kern van de Privacy, toestemming het volgen, geautomatiseerde verwijderingswerkschema&#39;s, en controletrails voor naleving aan.
 
-Leer meer over [&#x200B; het beheer van de Privacy &#x200B;](../start/privacy.md)
+Leer meer over [ het beheer van de Privacy ](../start/privacy.md)
 
 +++
 
@@ -2187,7 +1614,7 @@ Raadpleeg de juridische adviseur om ervoor te zorgen dat uw implementatie voldoe
 
 **Verwante onderwerpen:**
 
-[&#x200B; de diensten van het Abonnement &#x200B;](../start/subscriptions.md) | [&#x200B; Privacy en toestemming &#x200B;](../start/privacy.md#consent-retention-roles) | [&#x200B; Het beheer van de Privacy &#x200B;](../start/privacy.md)
+[ de diensten van het Abonnement ](../start/subscriptions.md) | [ Privacy en toestemming ](../start/privacy.md#consent-retention-roles) | [ Het beheer van de Privacy ](../start/privacy.md)
 
 +++
 
@@ -2201,7 +1628,7 @@ U kunt schrappingswerkingsgebied aanpassen door verbindingsintegriteit in schema
 
 **Verwante onderwerpen:**
 
-[&#x200B; het beheer van de Privacy &#x200B;](../start/privacy.md) | [&#x200B; de verbindingen van het Schema &#x200B;](../dev/schemas.md)
+[ het beheer van de Privacy ](../start/privacy.md) | [ de verbindingen van het Schema ](../dev/schemas.md)
 
 +++
 
@@ -2213,7 +1640,7 @@ De algemene leveringsstatistieken en prestatiesmetriek blijven intact, terwijl d
 
 **Verwante onderwerpen:**
 
-[&#x200B; het beheer van de Privacy &#x200B;](../start/privacy.md) | [&#x200B; Rapporten &#x200B;](../reporting/gs-reporting.md)
+[ het beheer van de Privacy ](../start/privacy.md) | [ Rapporten ](../reporting/gs-reporting.md)
 
 +++
 
@@ -2227,7 +1654,7 @@ Als Data Controller bent u verantwoordelijk voor de volledige verwijdering van g
 
 **Verwante onderwerpen:**
 
-[&#x200B; het beheer van de Privacy &#x200B;](../start/privacy.md) | [&#x200B; de werkschema&#39;s van de Invoer &#x200B;](../config/workflows.md)
+[ het beheer van de Privacy ](../start/privacy.md) | [ de werkschema&#39;s van de Invoer ](../config/workflows.md)
 
 +++
 
@@ -2239,7 +1666,7 @@ In het audittrail van Campaign worden zowel de gebeurtenis die werd verwijderd a
 
 **Verwante onderwerpen:**
 
-[&#x200B; het beheer van de Privacy &#x200B;](../start/privacy.md) | [&#x200B; Abonnementen &#x200B;](../start/subscriptions.md)
+[ het beheer van de Privacy ](../start/privacy.md) | [ Abonnementen ](../start/subscriptions.md)
 
 +++
 
@@ -2251,15 +1678,15 @@ Kun je niet vinden wat je zoekt? Hier zijn aanvullende bronnen om u te helpen sl
 
 Maak contact met andere campagnegebruikers en Adobe-experts om kennis te delen en antwoorden te krijgen.
 
-* **[Gemeenschap van Adobe Campaign &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}** - stel vragen, deel oplossingen, en verbind met de gemeenschap van de Campagne
-* **[Forums van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/){target="_blank"}** - doorblader besprekingen over alle producten van Adobe
-* **[de Uren van het Communautair Bureau van de Campagne &#x200B;](https://experienceleague.adobe.com/nl){target="_blank"}** - sluit zich aan bij levende zittingen met de deskundigen van Adobe
+* **[Gemeenschap van Adobe Campaign ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}** - stel vragen, deel oplossingen, en verbind met de gemeenschap van de Campagne
+* **[Forums van Experience League ](https://experienceleaguecommunities.adobe.com/){target="_blank"}** - doorblader besprekingen over alle producten van Adobe
+* **[de Uren van het Communautair Bureau van de Campagne ](https://experienceleague.adobe.com/){target="_blank"}** - sluit zich aan bij levende zittingen met de deskundigen van Adobe
 
 ### Documentatie en leren
 
 Toegang tot uitgebreide handleidingen, zelfstudies en trainingsmateriaal.
 
-* **[&#128279;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=nl-NL){target="_blank"} de Zelfstudies van de Campagne - Step-by-step videogidsen en hands-on leerprogramma&#39;s**
+* **[](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} de Zelfstudies van de Campagne - Step-by-step videogidsen en hands-on leerprogramma&#39;s**
 * **[wat](whats-new.md)** nieuw is - de Meest recente eigenschappen en mogelijkheden
 * **[Nota&#39;s van de Versie](release-notes.md)** - Huidige en vorige versieinformatie
 * **[Versies en Verbeteringen](upgrades.md)** - Leer over de versies van de Campagne, verbeteringen, en hoe te om uw versie te controleren
@@ -2268,7 +1695,7 @@ Toegang tot uitgebreide handleidingen, zelfstudies en trainingsmateriaal.
 
 Zoek gedetailleerde technische documentatie en ontwikkelaarsmiddelen.
 
-* **[Campagne APIs &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=nl){target="_blank"}** - Volledige API verwijzingsdocumentatie
+* **[Campagne APIs ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=nl){target="_blank"}** - Volledige API verwijzingsdocumentatie
 * **[Matrijs van de Verenigbaarheid](compatibility-matrix.md)** - Ondersteunde systemen en versies
 * **[Veelgestelde vragen van Versies en van Verbeteringen Veelgestelde vragen](upgrades.md#upgrades-faq)** - controleer uw versie en leer over verbeteringen
 
@@ -2276,23 +1703,23 @@ Zoek gedetailleerde technische documentatie en ontwikkelaarsmiddelen.
 
 Vraag hulp aan het ondersteuningsteam van Adobe en beheer uw exemplaar.
 
-* **[Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/){target="_blank"}** - de steungevallen van het logboek en leiden gebruikers
-* **[de Zorg van de Klant van Adobe &#x200B;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - contacteer het ondersteuningsteam
-* **[Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target="_blank"}** - beheer uw de instantiemontages van de Campagne
-* **[Status van het Systeem &#x200B;](https://status.adobe.com/){target="_blank"}** - de status van de Diensten van Adobe van de Controle
+* **[Adobe Admin Console ](https://adminconsole.adobe.com/){target="_blank"}** - de steungevallen van het logboek en leiden gebruikers
+* **[de Zorg van de Klant van Adobe ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - contacteer het ondersteuningsteam
+* **[Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target="_blank"}** - beheer uw de instantiemontages van de Campagne
+* **[Status van het Systeem ](https://status.adobe.com/){target="_blank"}** - de status van de Diensten van Adobe van de Controle
 
 ### Training en certificering
 
 Werk uw vaardigheden verder met officiële Adobe-trainings- en certificeringsprogramma&#39;s.
 
-* **[Hulp van Experience League &#x200B;](https://experienceleague.adobe.com/nl/browse/campaign/campaign-v8){target="_blank"}** - de middelen van de Hulp voor Campagne v8 (Web UI en console CLient)
-* **[&#128279;](https://learning.adobe.com/){target="_blank"} de Digitale Lerende Diensten van Adobe** - Officiële instructeur-geleide en zelf-afgepaste cursussen
-* **[de Certificatie van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/docs/certification/program/overview.html?lang=nl-NL){target="_blank"}** - bevestigt uw deskundigheid met professionele certificatie
-* **[Experience League Lerende Wegen &#x200B;](https://experienceleague.adobe.com/nl?lang=en#dashboard/learning){target="_blank"}** - Geleide het leren reizen
+* **[Hulp van Experience League ](https://experienceleague.adobe.com/en/browse/campaign/campaign-v8){target="_blank"}** - de middelen van de Hulp voor Campagne v8 (Web UI en console CLient)
+* **[](https://learning.adobe.com/){target="_blank"} de Digitale Lerende Diensten van Adobe** - Officiële instructeur-geleide en zelf-afgepaste cursussen
+* **[de Certificatie van Adobe Campaign ](https://experienceleague.adobe.com/docs/certification/program/overview.html){target="_blank"}** - bevestigt uw deskundigheid met professionele certificatie
+* **[Experience League Lerende Wegen ](https://experienceleague.adobe.com/?lang=en#dashboard/learning){target="_blank"}** - Geleide het leren reizen
 
 ### Andere nuttige bronnen
 
-* **[de Documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=nl){target="_blank"}** - Verwijzing voor Klassieke v7 gebruikers
-* **[&#128279;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home){target="_blank"} de Documentatie van het Web UI van de Campagne - Nieuwe gids van de Webinterface**
-* **[Beste praktijken van de Levering &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}** - optimaliseer e-maillevering
+* **[de Documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=nl){target="_blank"}** - Verwijzing voor Klassieke v7 gebruikers
+* **[](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"} de Documentatie van het Web UI van de Campagne - Nieuwe gids van de Webinterface**
+* **[Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}** - optimaliseer e-maillevering
 
