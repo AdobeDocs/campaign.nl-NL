@@ -23,12 +23,12 @@ ht-degree: 8%
 >
 >Afhankelijk van uw implementatiemodel kunt u ook REST API&#39;s gebruiken met Campagne v8. [Meer informatie](../dev/api/get-started-apis.md).
 
-U kunt [ Campagne JavaScript APIs ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"} gebruiken om in het wolkengegevensbestand van de Campagne te schrijven of van het gegevensbestand te lezen:
+U kunt [&#x200B; Campagne JavaScript APIs &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"} gebruiken om in het wolkengegevensbestand van de Campagne te schrijven of van het gegevensbestand te lezen:
 
-* Bedrijfsspecifieke API&#39;s waarmee u op elk object kunt reageren: leveringen, workflows, abonnementen enzovoort. Leer meer in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
-* Algemene API&#39;s voor gegevenstoegang waarmee gegevens van het gegevensmodel kunnen worden opgevraagd met de methoden queryDef en NLWS. Leer meer in [ Vraag het gegevensbestand met queryDef ](query-api.md).
+* Bedrijfsspecifieke API&#39;s waarmee u op elk object kunt reageren: leveringen, workflows, abonnementen enzovoort. Leer meer in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
+* Algemene API&#39;s voor gegevenstoegang waarmee gegevens van het gegevensmodel kunnen worden opgevraagd met de methoden queryDef en NLWS. Leer meer in [&#x200B; Vraag het gegevensbestand met queryDef &#x200B;](query-api.md).
 
-Merk op dat in zijn [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), de Campagne met twee gegevensbestanden werkt: een lokaal gegevensbestand voor het gebruikersinterface overseinen en unitaire vragen in real time en schrijven door APIs, en een gegevensbestand van de Wolk voor campagneuitvoering, rapportering, gegevensopname, partijvragen en werkschemauitvoering.
+Merk op dat in zijn [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), de Campagne met twee gegevensbestanden werkt: een lokaal gegevensbestand voor het gebruikersinterface overseinen en unitaire vragen in real time en schrijven door APIs, en een gegevensbestand van de Wolk voor campagneuitvoering, rapportering, gegevensopname, partijvragen en werkschemauitvoering.
 
 >[!CAUTION]
 >
@@ -55,4 +55,4 @@ Als u API&#39;s wilt gebruiken en met [!DNL Adobe Campaign] wilt communiceren, m
 
 * [De database opvragen met queryDef](query-api.md)
 * [Best practices voor het gegevensmodel](datamodel-best-practices.md)
-* [ de documentatie van JSAPI van de Campagne ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
+* [&#x200B; de documentatie van JSAPI van de Campagne &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
