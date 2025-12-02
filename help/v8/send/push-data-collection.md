@@ -6,9 +6,9 @@ role: Data Engineer
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
+source-git-commit: 11a9f17bc5c1ec8388de294395a6d7b7a5e8a7e6
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1353'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Campaign v8.5 introduceert onze nieuwste pushmeldingsservice, aangedreven door e
 
 >[!AVAILABILITY]
 >
-> Deze functie is uitsluitend toegankelijk voor nieuwe klanten vanaf Campagne v8.5 en wordt geleidelijk aan doorgestuurd naar een aantal geselecteerde klanten. Als uw milieu vóór Juni 2023 werd provisioned, is deze pagina niet op u van toepassing, en u moet de procedures volgen die [&#x200B; in deze pagina &#x200B;](push-settings.md) worden gedetailleerd.
+> Deze functie is uitsluitend toegankelijk voor nieuwe klanten vanaf Campagne v8.5 en wordt geleidelijk aan doorgestuurd naar een aantal geselecteerde klanten. Als uw milieu vóór Juni 2023 werd provisioned, is deze pagina niet op u van toepassing, en u moet de procedures volgen die [ in deze pagina ](push-settings.md) worden gedetailleerd.
 
 Voer in het kader van deze bijgewerkte implementatie de volgende stappen uit om pushberichten te verzenden naar Adobe Campaign:
 
@@ -29,7 +29,7 @@ Voer in het kader van deze bijgewerkte implementatie de volgende stappen uit om 
 
 1. [Een mobiele eigenschap maken en configureren in de gegevensverzameling van Adobe Experience Platform](#create-mobile-property)
 
-1. [&#x200B; voegt de uitbreiding van Adobe Adobe Experience Platform Assurance &#x200B;](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} (geadviseerd) toe
+1. [ voegt de uitbreiding van Adobe Adobe Experience Platform Assurance ](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} (geadviseerd) toe
 
 1. [Campaign Classic toevoegen aan uw mobiele toepassing](#campaign-mobile-ap)
 
@@ -55,37 +55,43 @@ De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te
 
 1. Selecteer in **[!UICONTROL Mobile Application Configuration]** het besturingssysteem:
 
-   * **voor iOS**
+>[!BEGINTABS]
 
-     ![](assets/push-config-2.png)
+>[!TAB  iOS ]
 
-      1. Ga mobiele app **BundelIdentiteitskaart** op het **[!UICONTROL App ID (iOS Bundle ID)]** gebied in.
+![](assets/push-config-2.png)
 
-         Identiteitskaart van de app Bundel kan in het **Algemene** lusje van het primaire doel in **XCode** van uw Apple ontwikkelaarsrekening worden gevonden.
+1. Ga mobiele app **BundelIdentiteitskaart** op het **[!UICONTROL App ID (iOS Bundle ID)]** gebied in.
 
-      1. Schakel **[!UICONTROL Push Credentials]** in om uw referenties toe te voegen.
+   Identiteitskaart van de app Bundel kan in het **Algemene** lusje van het primaire doel in **XCode** van uw Apple ontwikkelaarsrekening worden gevonden.
 
-      1. Sleep het .p8 Apple Push Notification Authentication Key-bestand naar het bestand.
+1. Schakel **[!UICONTROL Push Credentials]** in om uw referenties toe te voegen.
 
-         Deze sleutel kan van de **Certificaten** worden verkregen, **Herkenningstekens** en **Profielen** pagina van uw de ontwikkelaarsrekening van Apple.
+1. Sleep het .p8 Apple Push Notification Authentication Key-bestand naar het bestand.
 
-      1. Verstrek **Zeer belangrijke identiteitskaart**. Dit is een tekenreeks van 10 tekens die wordt toegewezen tijdens het maken van de p8-auttoets.
+   Deze sleutel kan van de **Certificaten** worden verkregen, **Herkenningstekens** en **Profielen** pagina van uw de ontwikkelaarsrekening van Apple.
 
-         Het kan onder **Sleutels** lusje in **Certificaten**, **Herkenningstekens** en **Pagina van Profielen** van uw de ontwikkelaarsrekening van Apple worden gevonden.
+1. Verstrek **Zeer belangrijke identiteitskaart**. Dit is een tekenreeks van 10 tekens die wordt toegewezen tijdens het maken van de p8-auttoets.
 
-      1. Verstrek **identiteitskaart van het Team**. Dit is een koordwaarde die onder het **Lidmaatschap** tabel kan worden gevonden.
-
-   * **voor Android**
-
-     ![](assets/push-config-3.png)
-
-      1. Geef de **[!UICONTROL App ID (Android package name)]** op. Meestal is de pakketnaam de toepassings-id in het `build.gradle` -bestand.
-
-      1. Schakel **[!UICONTROL Push Credentials]** in om uw referenties toe te voegen.
-
-      1. Sleep de FCM-pushgegevens en zet deze neer. Voor meer details op hoe te om de dupgeloofsbrieven te krijgen verwijs naar [&#x200B; Documentatie van Google &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+        het kan onder **Sleutels** lusje in **Certificates*, **Identifiers** en **Profiles** pagina van uw Apple ontwikkelaarsrekening worden gevonden.
+   
+1. Verstrek **identiteitskaart van het Team**. Dit is een koordwaarde die onder het **Lidmaatschap** tabel kan worden gevonden.
 
 1. Klik op **[!UICONTROL Save]** om uw toepassingsconfiguratie te maken.
+
+>[!TAB  Android ]
+
+![](assets/push-config-3.png)
+
+1. Geef de **[!UICONTROL App ID (Android package name)]** op. Meestal is de pakketnaam de toepassings-id in het `build.gradle` -bestand.
+
+1. Schakel **[!UICONTROL Push Credentials]** in om uw referenties toe te voegen.
+
+1. Sleep de FCM-pushgegevens en zet deze neer. Voor meer details op hoe te om de dupgeloofsbrieven te krijgen verwijs naar [ Documentatie van Google ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+
+1. Klik op **[!UICONTROL Save]** om uw toepassingsconfiguratie te maken.
+
+>[!ENDTABS]
 
 ## Toepassingsinstellingen configureren in Adobe Campaign{#push-config-campaign}
 
@@ -105,7 +111,7 @@ Voer de onderstaande stappen uit om een service te maken voor het verzenden van 
 
    >[!NOTE]
    >
-   >De standaarddoeltoewijzing **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** is gekoppeld aan de tabel met ontvangers. Als u een andere doelafbeelding wilt gebruiken, moet u een nieuwe doeltoewijzing maken en deze invoeren in het veld **[!UICONTROL Target mapping]** van de service. Leer meer over doelafbeeldingen in [&#x200B; deze pagina &#x200B;](../audiences/target-mappings.md).
+   >Het gebrek **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** doelafbeelding is verbonden met de ontvankelijkheidstabel. Als u een andere doelafbeelding wilt gebruiken, moet u een nieuwe doeltoewijzing maken en deze invoeren in het veld **[!UICONTROL Target mapping]** van de service. Leer meer over doelafbeeldingen in [ deze pagina ](../audiences/target-mappings.md).
 
 1. Vervolgens gebruikt u het pictogram **[!UICONTROL Add]** rechts in het scherm om de mobiele toepassingen te definiëren die deze service gebruiken.
 
@@ -135,7 +141,7 @@ Ga als volgt te werk om een app voor iOS-apparaten te maken:
 
    ![](assets/push-config-8.png)
 
-1. Blader naar het tabblad **[!UICONTROL Subscription parameters]** om de toewijzing te definiëren met een extensie van het schema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** .
+1. Blader naar het **[!UICONTROL Subscription parameters]** lusje om de afbeelding met een uitbreiding van het **[!UICONTROL Subscriber applications (nms:appsubscriptionRcpte bepalen)]** schema.
 
 1. Blader naar het tabblad **[!UICONTROL Sounds]** om het af te spelen geluid te definiëren. Klik op **[!UICONTROL Add]** en vul **[!UICONTROL Internal name]** veld in dat de naam moet bevatten van het bestand dat is ingesloten in de toepassing of de naam van het systeemgeluid.
 
@@ -145,7 +151,7 @@ Ga als volgt te werk om een app voor iOS-apparaten te maken:
 
    Zorg ervoor dat dezelfde **[!UICONTROL Integration key]** is gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
 
-   Leer meer in [&#x200B; de documentatie van de Ontwikkelaar &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   Leer meer in [ de documentatie van de Ontwikkelaar ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]
@@ -180,7 +186,7 @@ Ga als volgt te werk om een app voor Android-apparaten te maken:
 
    Zorg ervoor dat dezelfde **[!UICONTROL Integration key]** is gedefinieerd in Adobe Campaign en in de toepassingscode via de SDK.
 
-   Leer meer in [&#x200B; de documentatie van de Ontwikkelaar &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   Leer meer in [ de documentatie van de Ontwikkelaar ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
    >[!NOTE]
    >
@@ -192,7 +198,7 @@ Ga als volgt te werk om een app voor Android-apparaten te maken:
 
 1. (optioneel) U kunt desgewenst de inhoud van een pushbericht verrijken met wat **[!UICONTROL Application variables]** . Deze zijn volledig aanpasbaar en een deel van de berichtlading wordt verzonden naar het mobiele apparaat.
 
-1. Blader naar het tabblad **[!UICONTROL Subscription parameters]** om de toewijzing te definiëren met een extensie van het schema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** .
+1. Blader naar het **[!UICONTROL Subscription parameters]** lusje om de afbeelding met een uitbreiding van het **[!UICONTROL Subscriber applications (nms:appsubscriptionRcpte bepalen)]** schema.
 
 1. Klik op **[!UICONTROL Finish]** en vervolgens op **[!UICONTROL Save]**.
 
@@ -227,14 +233,14 @@ Hieronder vindt u de namen van FCM-ladingen om uw pushmelding verder aan te pass
 
    ![](assets/push-config-15.png)
 
-1. Installeer de extensie **[!DNL Adobe Campaign Classic]** . [&#x200B; Leer meer op de uitbreiding van de Campagne &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configure-campaign-classic-extension)
+1. Installeer de extensie **[!DNL Adobe Campaign Classic]** . [ Leer meer op de uitbreiding van de Campagne ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configure-campaign-classic-extension)
 
    ![](assets/push-config-16.png)
 
 1. Voer de instantiedetails in:
 
    * **[!UICONTROL Registration endpoint]** of **[!UICONTROL Tracking endpoint]** URL&#39;s vindt u in het menu **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]** in Campagne.
-   * **[!UICONTROL Integration keys]** kan in mobiele toepassing worden gevonden die in [&#x200B; wordt gevormd deze sectie &#x200B;](#create-app).
+   * **[!UICONTROL Integration keys]** kan in mobiele toepassing worden gevonden die in [ wordt gevormd deze sectie ](#create-app).
 
    ![](assets/push-config-17.png)
 
@@ -248,10 +254,10 @@ Uw mobiele eigenschap wordt nu automatisch gesynchroniseerd met de technische wo
 
 De Adobe Experience Platform Mobile-SDK maakt de Experience Cloud-oplossingen en -services van Adobe in uw mobiele apps mogelijk. De configuratie SDKs wordt beheerd door de Inzameling UI van Gegevens voor flexibele configuratie en verlengbare, op regels-gebaseerde integratie.
 
-[&#x200B; leer meer in de documentatie van Adobe Developer &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
+[ leer meer in de documentatie van Adobe Developer ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 
 ## Uw pushmelding maken{#push-create}
 
 Zodra u de mobiele toepassing hebt geconfigureerd in Gegevensverzameling, kunt u nu pushmeldingen maken en verzenden in Adobe Campaign.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](push.md#push-create) voor de gedetailleerde elementen specifiek voor de levering van de berichten van iOS en van Android.
+Verwijs naar [ deze pagina ](push.md#push-create) voor de gedetailleerde elementen specifiek voor de levering van de berichten van iOS en van Android.
