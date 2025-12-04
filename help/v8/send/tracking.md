@@ -5,9 +5,9 @@ feature: Monitoring, Email
 role: User
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 90ed82673b893b62a185227dd8cdfe80cc8f1455
+source-git-commit: 57e177dc6c30502f2ed3bb08b18586fa5399e89c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '455'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ Dit rapport bevat de lijst met bezochte pagina&#39;s na een levering.
 
 Met dit voorbeeld kunt u beter het verschil zien dat personen en ontvangers in Adobe Campaign kunnen bijhouden.
 
-Leer meer over persoon/mensen en ontvangers in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=nl-NL#reporting){target="_blank"}
+[Meer informatie over doelpersonen en ontvangers](../reporting/metrics-calculation.md#targeted-persons---recipients)
 
 **Trackingsindicatoren**
 
