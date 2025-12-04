@@ -3,10 +3,8 @@ title: Naar de nieuwe SMS-connector v2
 description: Leer hoe u naar de nieuwe SMS-connector v2 gaat
 feature: Technote
 role: Admin
-hide: true
-hidefromtoc: true
 exl-id: 61a5a3e8-59f8-47ea-afc9-66ec243b8265
-source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
+source-git-commit: ed9e784c1610a6f042b99223ac0d4cc0cf312b09
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -23,7 +21,7 @@ Het specifieke proces van SMS introduceert steun voor de wijze van de zendontvan
 
 ## Verschillen tussen v1- en v2-connectors
 
-De speciale SMS-connector in Adobe Campaign v8 introduceert verschillende architecturale wijzigingen in vergelijking met de MTA-connector. Één zeer belangrijk verschil is het standaardgebruik van de zendontvangerwijze van SMPP, die het aantal verbindingen vermindert door te combineren verzend en ontvangt functies. Als de provider deze modus niet ondersteunt, is het nog steeds mogelijk om aparte transmissie- en ontvangerverbindingen te gebruiken. In tegenstelling tot de schakelaar MTA, heeft het toelaten van automatische antwoorden geen effect op verbindentelling, en alle ontvangerverbindingen kunnen om het even welk type van inkomend bericht behandelen.
+De speciale SMS-connector in Adobe Campaign v8 introduceert verschillende architecturale wijzigingen in vergelijking met de MTA-connector. Één zeer belangrijk verschil is het standaardgebruik van de zendontvangerwijze van SMPP, die het aantal verbindingen vermindert door te combineren verzend en ontvangt functies. Als de leverancier deze wijze niet steunt, is het nog mogelijk om afzonderlijke zender en ontvangerverbindingen te gebruiken. In tegenstelling tot de schakelaar MTA, heeft het toelaten van automatische antwoorden geen effect op verbindentelling, en alle ontvangerverbindingen kunnen om het even welk type van inkomend bericht behandelen.
 
 Het aantal verbindingen wordt nu berekend met een andere formule:
 
