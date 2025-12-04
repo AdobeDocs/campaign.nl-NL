@@ -4,10 +4,10 @@ description: Maak integraties en bouw uw eigen ecosysteem door een interface tus
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 115b7b6824f3736e03f9fb87898f1264f9bab636
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 40%
@@ -20,9 +20,9 @@ De REST APIs van de campagne wordt gericht op het laten van u **integraties** vo
 
 >[!AVAILABILITY]
 >
->* Dit vermogen is slechts beschikbaar op bestelling, voor alle [&#x200B; milieu&#39;s FDA van de Campagne &#x200B;](../../architecture/fda-deployment.md). Het is **niet** beschikbaar voor [&#x200B; de plaatsingen van de Onderneming (FFDA) &#x200B;](../../architecture/enterprise-deployment.md). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>* Dit vermogen is slechts beschikbaar op bestelling, voor alle [ milieu&#39;s FDA van de Campagne ](../../architecture/fda-deployment.md). Het is **niet** beschikbaar voor [ de plaatsingen van de Onderneming (FFDA) ](../../architecture/enterprise-deployment.md). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 >
->* Controleer voordat u API-aanroepen uitvoert, de schaalbeperkingen bij uw licentieovereenkomst. Voor meer op dit, verwijs naar de [&#x200B; Adobe Campaign v8 Beschrijving van het Product &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+>* Controleer voordat u API-aanroepen uitvoert, de schaalbeperkingen bij uw licentieovereenkomst. Voor meer op dit, verwijs naar de [ Adobe Campaign v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 
 Met de Adobe Campaign REST API&#39;s hebt u toegang tot de volgende functies:

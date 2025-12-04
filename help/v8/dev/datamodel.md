@@ -2,10 +2,10 @@
 title: Aan de slag met het gegevensmodel van de campagne
 description: Ga aan de slag met het datamodel van Campaign en maak gebruik van gegevens van uw bronnen om te profiteren van uw communicatie- en marketinguitvoer.
 feature: Data Model
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 4%
@@ -18,7 +18,7 @@ Adobe Campaign bevat een vooraf gedefinieerd datamodel. In deze sectie vindt u e
 
 De basisstructuur van het Adobe Campaign-gegevensmodel kan als volgt worden beschreven:
 
-* **Ontvankelijke lijst**: Het gegevensmodel baseert zich op een belangrijkste lijst die door gebrek de Ontvankelijke lijst (**nmsRecipient**) is. In deze tabel worden alle marketingprofielen opgeslagen. Leer meer over de ontvankelijke lijst in [&#x200B; deze sectie &#x200B;](#ootb-profiles).
+* **Ontvankelijke lijst**: Het gegevensmodel baseert zich op een belangrijkste lijst die door gebrek de Ontvankelijke lijst (**nmsRecipient**) is. In deze tabel worden alle marketingprofielen opgeslagen. Leer meer over de ontvankelijke lijst in [ deze sectie ](#ootb-profiles).
 
 * **lijst van de Levering**: Deze lijst slaat één verslag per leveringsactie op. Gewoonlijk is het de lijst van de Levering (**NmsDelivery**). in deze tabel staat voor een leveringsactie of een leveringssjabloon. Het bevat alle parameters die nodig zijn voor het uitvoeren van leveringen, zoals doel, inhoud, enz. Elke record wordt meerdere malen bijgewerkt om de voortgang van de levering te weerspiegelen
 
@@ -38,12 +38,12 @@ De basisstructuur van het Adobe Campaign-gegevensmodel kan als volgt worden besc
 
 Wanneer u begint met Adobe Campaign, moet u het standaardgegevensmodel beoordelen om te controleren welke tabel het meest geschikt is om uw marketinggegevens op te slaan.
 
-U kunt de standaard Ontvanger lijst met de uit-van-de-doos gebieden gebruiken, zoals die in [&#x200B; wordt beschreven deze sectie &#x200B;](#ootb-profiles). Indien nodig, kunt u het uitbreiden met twee mechanismen:
+U kunt de standaard Ontvanger lijst met de uit-van-de-doos gebieden gebruiken, zoals die in [ wordt beschreven deze sectie ](#ootb-profiles). Indien nodig, kunt u het uitbreiden met twee mechanismen:
 
-* [&#x200B; breid een bestaande lijst &#x200B;](extend-schema.md) met nieuwe gebieden uit. U kunt bijvoorbeeld een nieuw veld Loyalty toevoegen aan de tabel Ontvanger.
-* [&#x200B; creeer een nieuwe lijst &#x200B;](create-schema.md), bijvoorbeeld een lijst van de &quot;Aankoop&quot;die van alle aankopen een lijst maakt die door elk profiel van het gegevensbestand worden gemaakt, en verbind het met de Ontvankelijke lijst.
+* [ breid een bestaande lijst ](extend-schema.md) met nieuwe gebieden uit. U kunt bijvoorbeeld een nieuw veld Loyalty toevoegen aan de tabel Ontvanger.
+* [ creeer een nieuwe lijst ](create-schema.md), bijvoorbeeld een lijst van de &quot;Aankoop&quot;die van alle aankopen een lijst maakt die door elk profiel van het gegevensbestand worden gemaakt, en verbind het met de Ontvankelijke lijst.
 
-Ontdek beste praktijken wanneer het werken met het gegevensmodel van de Campagne in [&#x200B; deze sectie &#x200B;](datamodel-best-practices.md).
+Ontdek beste praktijken wanneer het werken met het gegevensmodel van de Campagne in [ deze sectie ](datamodel-best-practices.md).
 
 ## Ingebouwde profielentabel {#ootb-profiles}
 
@@ -58,19 +58,19 @@ De voordelen van de standaardtabel voor ontvangers zijn:
 
 Het is mogelijk de tabel voor ontvangers uit te breiden, maar niet om het aantal velden of koppelingen in de tabel te verminderen.
 
-Leer hoe te om een bestaand schema in [&#x200B; uit te breiden deze sectie &#x200B;](extend-schema.md).
+Leer hoe te om een bestaand schema in [ uit te breiden deze sectie ](extend-schema.md).
 
-Ontdek voorbeelden van ingebouwde ontvankelijke lijstuitbreidingen in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=nl-NL#extending-a-table){target="_blank"}
+Ontdek voorbeelden van ingebouwde ontvankelijke lijstuitbreidingen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
-U kunt een verschillende ontvankelijke lijst ook gebruiken om beter met uw zaken of functionele vereisten te passen. Deze methode komt met beperkingen en wordt beschreven in [&#x200B; deze sectie &#x200B;](custom-recipient.md).
+U kunt een verschillende ontvankelijke lijst ook gebruiken om beter met uw zaken of functionele vereisten te passen. Deze methode komt met beperkingen en wordt beschreven in [ deze sectie ](custom-recipient.md).
 
 ## Campagnetabellen en Cloud-database
 
-Voor een beter inzicht in lijstbeheer in Campagne v8, merk op dat, in de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), de lijsten tussen Campagne en zijn gegevensbestand van de Wolk van Snowflake worden herhaald.
+Voor een beter inzicht in lijstbeheer in Campagne v8, merk op dat, in de context van een [ plaatsing van de Onderneming (FFDA) ](../architecture/enterprise-deployment.md), de lijsten tussen Campagne en zijn gegevensbestand van de Wolk van Snowflake worden herhaald.
 
-Leer meer over replicatiestrategie en mechanismen in [&#x200B; deze sectie &#x200B;](../architecture/replication.md).
+Leer meer over replicatiestrategie en mechanismen in [ deze sectie ](../architecture/replication.md).
 
 **Verwante onderwerpen**
 
-Ontdek hoe te om profielen in [&#x200B; in deze sectie in te voeren &#x200B;](../start/import.md)
-Leer meer over het publiek van de Campagne in [&#x200B; deze sectie &#x200B;](../start/audiences.md)
+Ontdek hoe te om profielen in [ in deze sectie in te voeren ](../start/import.md)
+Leer meer over het publiek van de Campagne in [ deze sectie ](../start/audiences.md)

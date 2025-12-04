@@ -3,12 +3,12 @@ product: campaign
 title: Vraag die een vele-aan-vele verhouding gebruikt
 description: Leer hoe te om vragen uit te voeren gebruikend een vele-aan-vele verhouding
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Dit voorbeeld toont ook hoe te om een filter met betrekking tot de keus van een 
 
 * Welke tabel moet worden geselecteerd?
 
-  De ontvankelijke lijst (**nms:ontvanger**)
+  De ontvankelijke lijst (**nms:recipient**)
 
 * Velden die moeten worden geselecteerd voor de uitvoerkolom
 
@@ -36,7 +36,7 @@ Dit voorbeeld toont ook hoe te om een filter met betrekking tot de keus van een 
 Voer de volgende stappen uit:
 
 1. Open de Algemene vraagredacteur en selecteer de Ontvangerlijst **[!UICONTROL (nms:recipient)]**.
-1. Selecteer **[!UICONTROL Primary key]** , **[!UICONTROL First name]** , **[!UICONTROL Last name]** en **[!UICONTROL Email]** in het **[!UICONTROL Data to extract]** -venster.
+1. Selecteer **[!UICONTROL Data to extract]** , **[!UICONTROL Primary key]** , **[!UICONTROL First name]** en **[!UICONTROL Last name]** in het **[!UICONTROL Email]** -venster.
 
    ![](assets/query_editor_nveau_33.png)
 
@@ -44,7 +44,7 @@ Voer de volgende stappen uit:
 
    ![](assets/query_editor_nveau_34.png)
 
-1. Selecteer **[!UICONTROL Filtering conditions]** in het **[!UICONTROL Data filtering]** -venster.
+1. Selecteer **[!UICONTROL Data filtering]** in het **[!UICONTROL Filtering conditions]** -venster.
 1. In het **[!UICONTROL Target element]** -venster bestaat de filtervoorwaarde voor het extraheren van profielen zonder trackinglogbestand gedurende de laatste 7 dagen uit twee stappen. Het element dat u moet selecteren, is een veel-op-veel-koppeling.
 
    * Selecteer eerst het verzamelingselement **[!UICONTROL Recipient delivery logs (broadlog)]** (oranje knooppunt) voor de eerste **[!UICONTROL Value]** -kolom.
@@ -57,7 +57,7 @@ Voer de volgende stappen uit:
 
      ![](assets/query_editor_nveau_36.png)
 
-     Selecteer **[!UICONTROL Event date]** met de operator **[!UICONTROL greater than or equal to]** . Selecteer de waarde **[!UICONTROL DaysAgo (7)]** . Klik hiertoe op **[!UICONTROL Edit expression]** in het veld **[!UICONTROL Value]** . Selecteer **[!UICONTROL Process on dates]** en **[!UICONTROL Current date minus n days]** in het **[!UICONTROL Formula type]** -venster en geef &quot;7&quot; als een waarde.
+     Selecteer **[!UICONTROL Event date]** met de operator **[!UICONTROL greater than or equal to]** . Selecteer de waarde **[!UICONTROL DaysAgo (7)]** . Klik hiertoe op **[!UICONTROL Edit expression]** in het veld **[!UICONTROL Value]** . Selecteer **[!UICONTROL Formula type]** en **[!UICONTROL Process on dates]** in het **[!UICONTROL Current date minus n days]** -venster en geef &quot;7&quot; als een waarde.
 
      ![](assets/query_editor_nveau_37.png)
 

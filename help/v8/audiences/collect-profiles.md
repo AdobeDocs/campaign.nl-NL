@@ -2,10 +2,10 @@
 title: Profielen verzamelen en bijwerken met webformulieren
 description: Leer hoe u profielen kunt verzamelen en bijwerken met webformulieren
 feature: Audiences, Profiles, Web Forms
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
@@ -18,4 +18,4 @@ Met Campagne kunt u webformulieren maken en profielgegevens eenvoudig en effici√
 
 ![](assets/web-form-page.png)
 
-Leer hoe te om Webvormen in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=nl-NL){target="_blank"} tot stand te brengen.
+Leer hoe te om Webvormen in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"} tot stand te brengen.

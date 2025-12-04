@@ -3,10 +3,10 @@ audience: user
 user-guide-title: Handleiding Campagne Automation Guide
 user-guide-description: Handleiding Campagne Automation Guide
 feature: Overview
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 73%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 73%
       + [Workflowheatmap](workflow/heatmap.md)
    + Workflowactiviteiten {#wf-activities}
       + [Aan de slag met activiteiten](workflow/activities.md)
-      + Gerichte activiteiten {#targeting-activities}
+      + Targetingactiviteiten {#targeting-activities}
          + [Lijst van gerichte activiteiten](workflow/targeting-activities.md)
          + [Cellen](workflow/cells.md)
          + [Databron wijzigen](workflow/change-data-source.md)
@@ -56,7 +56,7 @@ ht-degree: 73%
          + [Lidmaatschapsservices](workflow/subscription-services.md)
          + [Samenvoegen](workflow/union.md)
          + [Gegevens bijwerken](workflow/update-data.md)
-      + Stroombeheeractiviteiten {#flow-control-activities}
+      + Workflowbeheeractiviteiten {#flow-control-activities}
          + [Lijst van activiteiten op het gebied van stroombeheersing](workflow/flow-control-activities.md)
          + [Melding](workflow/alert.md)
          + [AND-join](workflow/and-join.md)
@@ -70,7 +70,7 @@ ht-degree: 73%
          + [Testen](workflow/test.md)
          + [Tijdsbeperking](workflow/time-constraint.md)
          + [Wachten](workflow/wait.md)
-      + Acties {#action-activities}
+      + Actieactiviteiten {#action-activities}
          + [Lijst van activiteiten](workflow/action-activities.md)
          + [Contentmanagement](workflow/content-management.md)
          + [Doorlopende levering](workflow/continuous-delivery.md)
@@ -102,20 +102,20 @@ ht-degree: 73%
          + [Leveringscontent laden](workflow/load-delivery-content.md)
          + [Cross-channel leveringsworkflow](workflow/cross-channel-delivery-workflow.md)
          + [E-mailverrijking met aangepaste datumvelden](workflow/email-enrichment-with-custom-date-fields.md)
-      + Toezicht {#monitoring}
+      + Controle {#monitoring}
          + [Een rapport naar een lijst verzenden](workflow/send-a-report-to-a-list.md)
          + [Uw workflows controleren](workflow/workflow-supervision.md)
          + [Gepersonaliseerde waarschuwingen verzenden naar operatoren](workflow/send-alerts-to-operators.md)
-      + Gegevensbeheer {#data-management}
+      + Data management {#data-management}
          + [Gegevensupdates coördineren](workflow/coordinate-data-updates.md)
          + [Een overzichtslijst maken](workflow/create-a-summary-list.md)
          + [Gegevens verrijken](workflow/enrich-data.md)
          + [Aggregaten gebruiken](workflow/using-aggregates.md)
          + [De samenvoegfunctionaliteit van de deduplicatieactiviteit gebruiken](workflow/deduplication-merge.md)
          + [Een workflow instellen voor terugkerende importactiviteiten](workflow/recurring-import-workflow.md)
-      + Ontwerpquery&#39;s {#designing-queries}
+      + Query&#39;s ontwerpen {#designing-queries}
          + [Driemaandelijkse lijstupdate met een incrementele query](workflow/quarterly-list-update.md)
-      + Query en filter {#designing-queries}
+      + Query&#39;s uitvoeren en filteren {#designing-queries}
          + [Een query uitvoeren op de tabel met ontvangers](workflow/querying-recipient-table.md)
          + [Een query uitvoeren op de leveringssinformatie](workflow/query-delivery-info.md)
          + [Samengevoegde aggregaten berekenen](workflow/compute-aggregates.md)
@@ -166,4 +166,4 @@ ht-degree: 73%
    + [Campagnes openen](distributed-marketing/accessing-campaigns.md)
    + [Een campagne bijhouden](distributed-marketing/tracking-a-campaign.md)
    + [Gebruiksscenario’s](distributed-marketing/examples.md)
-+ [&lt; Terug naar de documentatie bij Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Terug naar de documentatie bij Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

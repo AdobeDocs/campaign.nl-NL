@@ -3,12 +3,12 @@ product: campaign
 title: Een query uitvoeren op de tabel met ontvangers
 description: Leer hoe u een query uitvoert op de tabel met ontvangers
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ In dit voorbeeld willen we de namen en e-mails herstellen van ontvangers wier e-
 
 * Welke tabel moeten we kiezen?
 
-  De tabel met ontvangers (nms:ontvanger)
+  De ontvankelijke lijst (nms :recipient)
 
 * Velden die moeten worden geselecteerd als uitvoerkolommen
 
@@ -37,7 +37,7 @@ In dit voorbeeld willen we de namen en e-mails herstellen van ontvangers wier e-
 
 U kunt dit voorbeeld maken door de volgende stappen toe te passen:
 
-1. Klik **[!UICONTROL Tools > Generic query editor...]** en kies de **Ontvangers** (**nms:ontvanger**) lijst. Klik vervolgens op **[!UICONTROL Next]**.
+1. Klik **[!UICONTROL Tools > Generic query editor...]** en kies de **Ontvangers** (**nms:recipient**) lijst. Klik vervolgens op **[!UICONTROL Next]**.
 1. Kies: **[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** en **[!UICONTROL Account number]** . Deze velden worden toegevoegd aan **[!UICONTROL Output columns]** . Klik vervolgens op **[!UICONTROL Next]**.
 
    ![](assets/query_editor_03.png)

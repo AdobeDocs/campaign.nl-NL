@@ -2,11 +2,11 @@
 title: Directe LIJNberichten verzenden met Adobe Campaign
 description: Aan de slag met REGELS
 feature: Line App
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 De LIJN is een toepassing voor vrij Onmiddellijk overseinen, stem en videovraag, beschikbaar op alle mobiele apparaten en op PC. U kunt Adobe Campaign gebruiken om LIJNberichten te verzenden.
 
-[!DNL LINE] kan ook worden gecombineerd met de module Transactiebericht om realtime berichten te verzenden via de [!DNL LINE] -app die is geïnstalleerd in mobiele apparaten voor consumenten. Voor meer op dit, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) in de documentatie van Campaign Classic v7.
+[!DNL LINE] kan ook worden gecombineerd met de module Transactiebericht om realtime berichten te verzenden via de [!DNL LINE] -app die is geïnstalleerd in mobiele apparaten voor consumenten. Voor meer op dit, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) in de documentatie van Campaign Classic v7.
 
 ![](assets/line_message.png)
 
@@ -34,7 +34,7 @@ Voordat u een [!DNL LINE] -account en een externe account maakt, moet het LINE-p
 
 U moet eerst een [!DNL LINE] -account maken, zodat u deze aan Adobe Campaign kunt koppelen. Vervolgens kunt u [!DNL LINE] -berichten verzenden naar gebruikers die uw [!DNL LINE] -account in hun mobiele toepassing hebben toegevoegd. Externe accounts en [!DNL LINE] -account kunnen alleen worden beheerd door de functionele beheerder van het platform.
 
-Om a [!DNL LINE] rekening tot stand te brengen en te vormen, zie [&#x200B; documentatie van de ontwikkelaars van de LIJN &#x200B;](https://developers.line.me/).
+Om a [!DNL LINE] rekening tot stand te brengen en te vormen, zie [ documentatie van de ontwikkelaars van de LIJN ](https://developers.line.me/).
 
 ### Creeer en vorm de dienst van de LIJN {#configure-line-service}
 
@@ -54,7 +54,7 @@ Uw [!DNL LINE] -service maken:
 
 1. Klik op **[!UICONTROL Save]**.
 
-Voor meer informatie over abonnementen en de diensten, zie [&#x200B; het Leiden abonnementen &#x200B;](../../start/subscriptions.md).
+Voor meer informatie over abonnementen en de diensten, zie [ het Leiden abonnementen ](../../start/subscriptions.md).
 
 ### Externe LINE-account configureren {#configure-line-external}
 
@@ -87,7 +87,7 @@ Nadat u de [!DNL LINE] -service hebt gemaakt, moet u de [!DNL LINE] externe acco
 
 >[!NOTE]
 >
->Wanneer u een [!DNL LINE] -levering voor het eerst naar een nieuwe ontvanger verzendt, moet u het officiële lijnbericht met betrekking tot de gebruiksvoorwaarden en de toestemming in de levering toevoegen. Het officiële bericht is beschikbaar bij [&#x200B; volgende verbinding &#x200B;](https://terms.line.me/OA_privacy/).
+>Wanneer u een [!DNL LINE] -levering voor het eerst naar een nieuwe ontvanger verzendt, moet u het officiële lijnbericht met betrekking tot de gebruiksvoorwaarden en de toestemming in de levering toevoegen. Het officiële bericht is beschikbaar bij [ volgende verbinding ](https://terms.line.me/OA_privacy/).
 
 Voer de volgende stappen uit om een levering van [!DNL LINE] te maken:
 
@@ -121,17 +121,17 @@ Voer de volgende stappen uit om een levering van [!DNL LINE] te maken:
 
 1. Klik in de leveringseditor op **[!UICONTROL Add]** om een of meerdere berichten toe te voegen en selecteer **[!UICONTROL Content type]** .
 
-   Voor meer informatie over verschillende **[!UICONTROL Content type]** beschikbaar, verwijs naar [&#x200B; bepaal het inhoudstype &#x200B;](#defining-the-content).
+   Voor meer informatie over verschillende **[!UICONTROL Content type]** beschikbaar, verwijs naar [ bepaal het inhoudstype ](#defining-the-content).
 
    ![](assets/line_message_11.png)
 
 1. Wanneer uw levering correct wordt gecreeerd en gevormd, kunt u het naar het vroeger bepaalde doel verzenden.
 
-   Voor meer informatie bij het verzenden van een levering, verwijs naar [&#x200B; verzenden berichten &#x200B;](../configure-and-send.md).
+   Voor meer informatie bij het verzenden van een levering, verwijs naar [ verzenden berichten ](../configure-and-send.md).
 
 1. Na het verzenden van uw bericht, heb toegang tot uw rapport om de doeltreffendheid van uw levering te meten.
 
-   Voor meer informatie over [!DNL LINE] rapporten, verwijs naar [&#x200B; de rapporten van de Toegang &#x200B;](#accessing-reports).
+   Voor meer informatie over [!DNL LINE] rapporten, verwijs naar [ de rapporten van de Toegang ](#accessing-reports).
 
 ## Het inhoudstype definiëren {#defining-the-content}
 
@@ -153,7 +153,7 @@ Een **[!UICONTROL Text message]** [!DNL LINE] -levering is een bericht dat in te
 
 ![](assets/line_message_02.png)
 
-De configuratie voor dit type berichten is vergelijkbaar met de configuratie van de **[!UICONTROL Text]** in een e-mail. Voor meer informatie, verwijs naar deze [&#x200B; pagina &#x200B;](../defining-the-email-content.md#message-content).
+De configuratie voor dit type berichten is vergelijkbaar met de configuratie van de **[!UICONTROL Text]** in een e-mail. Voor meer informatie, verwijs naar deze [ pagina ](../defining-the-email-content.md#message-content).
 
 ### Afbeelding en koppelingslevering configureren {#configuring-an-image-and-link-delivery}
 
@@ -235,7 +235,7 @@ In dit voorbeeld, gaan wij een tekstbericht en een beeld tot stand brengen en vo
 
 1. Selecteer in het configuratievenster van uw levering de doelpopulatie.
 
-   Voor meer informatie, verwijs naar [&#x200B; identificerend doelpopulaties &#x200B;](../../start/create-message.md#target-population).
+   Voor meer informatie, verwijs naar [ identificerend doelpopulaties ](../../start/create-message.md#target-population).
 
    ![](assets/line_usecase_02.png)
 

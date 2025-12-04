@@ -3,12 +3,12 @@ product: campaign
 title: Een query uitvoeren met behulp van groeperingsbeheer
 description: Leer hoe u query's uitvoert met behulp van groeperingsbeheer
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ In dit voorbeeld willen we een query uitvoeren om alle e-maildomeinen te zoeken 
 
 * Welke tabel moet worden geselecteerd?
 
-  De tabel met ontvangers (nms:ontvanger)
+  De ontvankelijke lijst (nms :recipient)
 
 * Velden die moeten worden geselecteerd in uitvoerkolommen?
 
@@ -33,7 +33,7 @@ In dit voorbeeld willen we een query uitvoeren om alle e-maildomeinen te zoeken 
 
 U kunt dit voorbeeld maken door de volgende stappen toe te passen:
 
-1. Open **[!UICONTROL Generic query editor]** en kies de Ontvankelijke lijst (**nms:ontvanger**).
+1. Open **[!UICONTROL Generic query editor]** en kies de Ontvankelijke lijst (**nms:recipient**).
 
    ![](assets/query_editor_02.png)
 
@@ -47,7 +47,7 @@ U kunt dit voorbeeld maken door de volgende stappen toe te passen:
 
    ![](assets/query_editor_nveau_70.png)
 
-1. Selecteer **[!UICONTROL Filtering conditions]** in **[!UICONTROL Data filtering]** . Ga naar het **[!UICONTROL Target elements]** -venster en klik op **[!UICONTROL Next]** .
+1. Selecteer **[!UICONTROL Data filtering]** in **[!UICONTROL Filtering conditions]** . Ga naar het **[!UICONTROL Target elements]** -venster en klik op **[!UICONTROL Next]** .
 1. Selecteer in het **[!UICONTROL Data grouping]** -venster de **[!UICONTROL Email domain]** door op **[!UICONTROL Add]** te klikken.
 
    Dit venster voor gegevensgroepering wordt alleen weergegeven als het vak **[!UICONTROL Handle groupings (GROUP BY + HAVING]** ) is ingeschakeld.

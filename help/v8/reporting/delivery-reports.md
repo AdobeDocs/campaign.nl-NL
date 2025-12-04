@@ -3,9 +3,9 @@ title: Geïntegreerde Adobe Campaign-leveringsrapporten
 description: Geïntegreerde Adobe Campaign-leveringsrapporten
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1019'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Volg onderstaande stappen om rapporten te openen:
 
 ## Trackingsindicatoren {#tracking-indicators}
 
-Dit rapport combineert de belangrijkste indicatoren voor het volgen van het gedrag van ontvangers bij het ontvangen van de levering. Het geeft toegang tot levering en ontvangststatistieken, open en klikthrough tarieven, geproduceerde klikstromen, Web het volgen en het delen van activiteiten aan sociale netwerken.
+Dit rapport combineert de belangrijkste indicatoren voor het volgen van het gedrag van ontvangers bij het ontvangen van de levering. Het geeft toegang tot levering en ontvangststatistieken, open en klikthrough tarieven, produceerde klikstromen, evenals het delen van activiteiten aan sociale netwerken.
 
 >[!NOTE]
 >
@@ -62,12 +62,12 @@ Dit rapport combineert de belangrijkste indicatoren voor het volgen van het gedr
 * **[!UICONTROL Distinct opens for the population reached]**: Schatting van het aantal ontvangers aan wie een bericht is gericht dat minstens één keer is geopend. Er wordt rekening gehouden met klikken op bijgehouden URL&#39;s omdat e-mails moeten worden geopend om op een koppeling te klikken.
 * **[!UICONTROL Sum of opens for the population reached]**: Schatting van het totale aantal dat door beoogde ontvangers wordt geopend.
 * **[!UICONTROL Clicks on opt-out link]**: Het aantal klikken op de koppeling voor het opzeggen van abonnementen.
-* **[!UICONTROL Clicks on the mirror page link]**: Aantal klikken op de verbinding aan de [&#x200B; spiegelpagina &#x200B;](../send/mirror-page.md). Om in aanmerking te worden genomen, moet de verbinding als dusdanig in de leveringstovenaar (bijgehouden URLs) worden bepaald.
+* **[!UICONTROL Clicks on the mirror page link]**: Aantal klikken op de verbinding aan de [ spiegelpagina ](../send/mirror-page.md). Om in aanmerking te worden genomen, moet de verbinding als dusdanig in de leveringstovenaar (bijgehouden URLs) worden bepaald.
 * **[!UICONTROL Estimation of forwards]**: schatting van het aantal e-mails dat door de beoogde ontvangers is doorgestuurd. Deze waarde wordt berekend door het aantal verschillende personen en het aantal verschillende ontvangers af te trekken die in de e-mail hebben geklikt.
 
   >[!NOTE]
   >
-  >Voor meer informatie over het verschil tussen verschillende mensen en gerichte ontvangers, verwijs naar [&#x200B; Gerichte personen/ontvangers &#x200B;](metrics-calculation.md#targeted-persons---recipients).
+  >Voor meer informatie over het verschil tussen verschillende mensen en gerichte ontvangers, verwijs naar [ Gerichte personen/ontvangers ](metrics-calculation.md#targeted-persons---recipients).
 
 **[!UICONTROL 3. Open and click-through rate]**
 
@@ -83,7 +83,7 @@ Deze waardetabel toont de uitsplitsing van leveringen, opent, klikt en ruwe reac
 >
 >De domeinnamen die in dit rapport worden weergegeven, worden gedefinieerd in de gespecificeerde lijst die op kubusniveau wordt gebruikt. Als u standaarddomeinen wilt wijzigen, toevoegen of verwijderen, bewerkt u de **[!UICONTROL Domains]** gespecificeerde lijst en wijzigt u waarden en aliassen. De categorie **[!UICONTROL Others]** bevat domeinnamen die niet tot een waarde in de opgegeven lijst behoren.
 >
->Leer om tot uw opsommingen in [&#x200B; toegang te hebben en te vormen deze pagina &#x200B;](../config/enumerations.md).
+>Leer om tot uw opsommingen in [ toegang te hebben en te vormen deze pagina ](../config/enumerations.md).
 
 
 **[!UICONTROL 4. Generated click streams]**

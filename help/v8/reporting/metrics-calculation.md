@@ -2,11 +2,11 @@
 title: Berekening van ingebouwde rapportcijfers
 description: Berekening van ingebouwde rapportcijfers
 feature: Reporting
-role: Data Engineer
+role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '3048'
+source-wordcount: '3025'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-Dit rapport is gebaseerd op de tabel **[!UICONTROL Consolidated tracking]** (nms:trackingStats). Deze geaggregeerde tabel wordt om prestatieredenen gebruikt bij het weergeven van rapporten, in de plaats van de tabel **[!UICONTROL Recipient tracking logs]** (nms:trackingLogRcp) en wordt niet in real-time berekend. De tabel wordt een paar minuten nadat de logbestanden voor bijhouden zijn opgehaald, gegenereerd. Als de indicatoren bijgewerkt zijn, zullen de resultaten het zelfde zijn zoals voor de indicatoren van het **Volgend indicatoren** rapport. De @totalclicks-indicator geeft het totale aantal klikken over een periode van 5 minuten aan.
+Dit rapport is gebaseerd op de **[!UICONTROL Consolidated tracking]** lijst (nms :trackingStats). Deze geaggregeerde tabel wordt gebruikt om prestatieredenen bij het weergeven van rapporten, in de plaats van de **[!UICONTROL Recipient tracking logs]** -tabel (nms :trackingLogRcp ) en wordt niet in real-time berekend. De tabel wordt een paar minuten nadat de logbestanden voor bijhouden zijn opgehaald, gegenereerd. Als de indicatoren bijgewerkt zijn, zullen de resultaten het zelfde zijn zoals voor de indicatoren van het **Volgend indicatoren** rapport. De @totalclicks-indicator geeft het totale aantal klikken over een periode van 5 minuten aan.
 
 ## Niet-leverbare items en niet-bezorgingen {#non-deliverables-and-bounces-1}
 
 **Uitsplitsing door foutentype**
 
-Dit rapport is gebaseerd op de tabel **[!UICONTROL Delivery and tracking statistics]** (nms:deliveryLogStats).
+Dit rapport is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]** lijst (nms :deliveryLogStats).
 
 <table> 
  <thead> 
@@ -133,7 +133,7 @@ In het tweede deel van het rapport wordt de uitsplitsing van mislukte berichten 
 
 ## Browsers {#browsers-1}
 
-Dit rapport is gebaseerd op de **[!UICONTROL Internet Browser Statistics]** lijst (nms:userAgentsStats).
+Dit rapport is gebaseerd op de **[!UICONTROL Internet Browser Statistics]** lijst (nms :userAgentsStats).
 
 **Globale statistieken**
 
@@ -203,7 +203,7 @@ Dit rapport is gebaseerd op de **[!UICONTROL Internet Browser Statistics]** lijs
 
 ## Delen naar sociale netwerken {#sharing-to-social-networks-1}
 
-Dit rapport is gebaseerd op de tabellen **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats) en **[!UICONTROL Web tracking]** (nms:webTrackingLog).
+Dit rapport is gebaseerd op **[!UICONTROL Delivery]** (nms :delivery), **[!UICONTROL Consolidated tracking]** (nms :trackingStats), en **[!UICONTROL Web tracking]** (nms :webTrackingLog) lijsten.
 
 <table> 
  <thead> 
@@ -340,7 +340,7 @@ Dit rapport is gebaseerd op de tabellen **[!UICONTROL Delivery]** (nms:delivery)
 
 ## Statistieken over de activiteiten voor het delen van diensten {#statistics-on-sharing-activities-1}
 
-Dit rapport is gebaseerd op de tabellen **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats) en **[!UICONTROL Web tracking]** (nms:webTrackingLog).
+Dit rapport is gebaseerd op **[!UICONTROL Delivery]** (nms :delivery), **[!UICONTROL Consolidated tracking]** (nms :trackingStats), en **[!UICONTROL Web tracking]** (nms :webTrackingLog) lijsten.
 
 <table> 
  <thead> 
@@ -375,7 +375,7 @@ Dit rapport is gebaseerd op de tabellen **[!UICONTROL Delivery]** (nms:delivery)
 
 ## Besturingssystemen {#operating-systems-1}
 
-Dit rapport is gebaseerd op de **[!UICONTROL Internet Browser Statistics]** lijst (nms:userAgentsStats).
+Dit rapport is gebaseerd op de **[!UICONTROL Internet Browser Statistics]** lijst (nms :userAgentsStats).
 
 **Globale statistieken**
 
@@ -445,7 +445,7 @@ Dit rapport is gebaseerd op de **[!UICONTROL Internet Browser Statistics]** lijs
 
 ## Abonnement bijhouden {#subscription-tracking-1}
 
-Dit rapport is gebaseerd op de tabel **[!UICONTROL Services]** (nms:service).
+Dit rapport is gebaseerd op de **[!UICONTROL Services]** lijst (nms :service).
 
 <table> 
  <thead> 
@@ -492,7 +492,7 @@ Dit rapport is gebaseerd op de tabel **[!UICONTROL Services]** (nms:service).
 
 ## Trackingsindicatoren {#tracking-indicators-1}
 
-Dit rapport is gebaseerd op de tabellen **[!UICONTROL Delivery and tracking statistics]** (nms:deliveryLogStats) en **[!UICONTROL Consolidated tracking]** (nms:trackingStats).
+Dit rapport is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]** (nms :deliveryLogStats) en **[!UICONTROL Consolidated tracking]** (nms :trackingStats) lijsten.
 
 <table> 
  <thead> 
@@ -689,7 +689,7 @@ Dit rapport is gebaseerd op de tabellen **[!UICONTROL Delivery and tracking stat
 
 ## URL&#39;s en klikpaden {#urls-and-click-streams-1}
 
-Dit rapport is gebaseerd op de tabel **[!UICONTROL Delivery]** (nms:delivery).
+Dit rapport is gebaseerd op de **[!UICONTROL Delivery]** lijst (nms :delivery).
 
 <table> 
  <thead> 
@@ -736,7 +736,7 @@ Dit rapport is gebaseerd op de tabel **[!UICONTROL Delivery]** (nms:delivery).
 
 ## Leveringsoverzicht {#delivery-summary-1}
 
-Dit rapport is gebaseerd op de tabel **[!UICONTROL Delivery]** (nms:delivery).
+Dit rapport is gebaseerd op de **[!UICONTROL Delivery]** lijst (nms :delivery).
 
 <table> 
  <thead> 
@@ -789,13 +789,13 @@ Dit rapport is gebaseerd op de tabel **[!UICONTROL Delivery]** (nms:delivery).
 
 ## Hot clicks {#hot-clicks-1}
 
-Dit rapport is gebaseerd op de tabellen Delivery(nms:delivery) en **[!UICONTROL Consolidated tracking]** (nms:trackingStats).
+Dit rapport is gebaseerd op de lijsten van de Levering (nms :delivery) en **[!UICONTROL Consolidated tracking]** (nms :trackingStats).
 
 Dit rapport toont de berichtinhoud (HTML en/of tekst) met, op elke verbinding, het percentage kliks op verbindingen. De belemmeringen van de verpersoonlijking unsubscription verbindingen en de verbindingen van de spiegelpagina worden in de totale gecumuleerde kliks in aanmerking genomen maar niet getoond in het rapport.
 
 ## Trackingstatistieken {#tracking-statistics-1}
 
-Dit rapport is gebaseerd op de tabel **[!UICONTROL Delivery]** (nms:delivery).
+Dit rapport is gebaseerd op de **[!UICONTROL Delivery]** lijst (nms :delivery).
 
 <table> 
  <thead> 
@@ -830,7 +830,7 @@ Dit rapport is gebaseerd op de tabel **[!UICONTROL Delivery]** (nms:delivery).
 
 ## Leveringsstatistieken {#delivery-statistics-1}
 
-Dit rapport is gebaseerd op de tabel **[!UICONTROL Delivery and tracking statistics]** (nms:deliveryLogStats).
+Dit rapport is gebaseerd op de **[!UICONTROL Delivery and tracking statistics]** lijst (nms :deliveryLogStats).
 
 <table> 
  <thead> 
@@ -889,7 +889,7 @@ Dit rapport is gebaseerd op de tabel **[!UICONTROL Delivery and tracking statist
 
 ## Indeling van openen {#breakdown-of-opens-1}
 
-Dit rapport is gebaseerd op **Leveringen** (nms:levering) en **het Volgen logboeken** (nms:trackingLogRcp) lijsten.
+Dit rapport is gebaseerd op **Leveringen** (nms :delivery) en **het Volgen logboeken** (nms :trackingLogRcp) lijsten.
 
 <table> 
  <thead> 
@@ -912,7 +912,7 @@ Dit rapport is gebaseerd op **Leveringen** (nms:levering) en **het Volgen logboe
 
 ## Overige indicatoren {#other-indicators}
 
-De **Verzonden** indicator (@verzonden), die via **wordt betreden levert (nms:levering) > de indicatoren** knoop beantwoordt aan het totale aantal SMS dat naar de dienstverlener wordt verzonden. Deze indicator wordt alleen gebruikt voor SMS-leveringen en mag niet worden gebruikt voor andere typen leveringen (niet te verwarren met de indicatoren **@success** en **@processed** ).
+De **Verzonden** indicator (@verzonden), die via **wordt betreden levert (nms :delivery) > de indicatoren** knoop beantwoordt aan het totale aantal SMS dat naar de dienstverlener wordt verzonden. Deze indicator wordt alleen gebruikt voor SMS-leveringen en mag niet worden gebruikt voor andere typen leveringen (niet te verwarren met de indicatoren **@success** en **@processed** ).
 
 ## Indicatorsynchronisatie {#indicator-synchronization}
 

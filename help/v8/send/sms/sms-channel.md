@@ -5,7 +5,7 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
-source-git-commit: 5c5d19c9b9b413bb630a4e5738c6697d2341665a
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze mogelijkheid is beschikbaar voor alle FDA-omgevingen voor campagnes. Het is **niet** beschikbaar voor de Plaatsingen van FFDA van de Campagne. Deze documentatie is van toepassing op Adobe Campaign v8.7.2 en hoger. Om van erfenis aan de nieuwe schakelaar van SMS over te schakelen, verwijs naar dit [&#x200B; technote &#x200B;](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
+>Deze mogelijkheid is beschikbaar voor alle FDA-omgevingen voor campagnes. Het is **niet** beschikbaar voor de Plaatsingen van FFDA van de Campagne. Deze documentatie is van toepassing op Adobe Campaign v8.7.2 en hoger. Om van erfenis aan de nieuwe schakelaar van SMS over te schakelen, verwijs naar dit [ technote ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Voor oudere versies, gelieve de [&#x200B; documentatie van Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
+>Voor oudere versies, gelieve de [ documentatie van Campaign Classic v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} te lezen.
 
 ## Typen SMS {#sms-types}
 
@@ -36,7 +36,7 @@ Zowel erkenningen als SR kunnen fouten teweegbrengen, die tussen beide het oplos
 
 Een SMS bevat meer informatie dan tekst. Hier een lijst van wat u in SMS kunt verwachten te vinden:
 
-* De tekst, die is beperkt tot 140 bytes, wat betekent tussen 70 en 160 karakters afhankelijk van de codering. Zie [&#x200B; tekst het coderen van SMS &#x200B;](#sms-text-encoding) hieronder voor details en beperkingen.
+* De tekst, die is beperkt tot 140 bytes, wat betekent tussen 70 en 160 karakters afhankelijk van de codering. Zie [ tekst het coderen van SMS ](#sms-text-encoding) hieronder voor details en beperkingen.
 * Een ontvankelijk adres, soms genoemd ADC of MSISDN (de technische naam voor &quot;telefoonaantal&quot;). Dat is het nummer van de mobiele telefoon die het SMS zal ontvangen.
 * Een afzenderadres, dat oADC of soms afzenderidentiteitskaart kan worden genoemd. Dat kan een telefoonaantal (in dagelijks gebruik), een korte code (wanneer verzonden door een leverancier) of een naam (dit is een facultatieve eigenschap, in dat geval kunt u niet op SMS antwoorden) zijn.
 * Een vlag om erop te wijzen of het bericht een flitsbericht is (een flitsbericht is een pop-up die niet in geheugen wordt opgeslagen)
@@ -52,7 +52,7 @@ Een SMS bevat meer informatie dan tekst. Hier een lijst van wat u in SMS kunt ve
 
 De eerste regel is **altijd contacteer de leverancier SMPP in het geval van het coderen problemen**. Alleen zij beschikken over nauwkeurige kennis van de codering die zij ondersteunen en speciale regels die van toepassing kunnen zijn vanwege beperkingen in hun technische platform. Laat ze controleren wat je ze stuurt en wat ze je terugsturen, het is de enige weg naar een succesvolle en stabiele verbinding.
 
-SMS-berichten gebruiken een speciale 7-bits codering, vaak de GSM7-codering genoemd.  Wikipedia heeft [&#x200B; een goed artikel over het (GSM 03.38 in het Engels) &#x200B;](https://en.wikipedia.org/wiki/GSM_03.38).
+SMS-berichten gebruiken een speciale 7-bits codering, vaak de GSM7-codering genoemd.  Wikipedia heeft [ een goed artikel over het (GSM 03.38 in het Engels) ](https://en.wikipedia.org/wiki/GSM_03.38).
 
 In het protocol SMPP, zal de tekst GSM7 tot 8 beetjes per karakter voor het gemakkelijkere oplossen van problemen worden uitgebreid. Het SMSC zal het in 7 beetjes per karakter verpakken alvorens het naar mobiel wordt verzonden. Dit betekent dat het short_message gebied van SMS tot 160 bytes lang in het kader kan zijn SMPP terwijl het tot 140 bytes wanneer verzonden op het mobiele netwerk (het meest significante beetje wordt eenvoudig verworpen) beperkt is.
 
@@ -70,7 +70,7 @@ Het *data_coding* gebied vertelt welke het coderen wordt gebruikt. Een belangrij
 De maximumgrootte van een bericht hangt van zijn codering af. In deze tabel worden alle relevante gegevens samengevat:
 
 | Codering | Gebruikelijke gegevens_codering | Berichtgrootte (tekens) | Onderdeelformaat voor SMS met meerdere onderdelen | Beschikbare tekens |
-|:-:|:-:|:-:|:-:|:-:|  
+|:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | GSM7 basis tekenset + extensie (uitgebreide tekens nemen 2 tekens in beslag) |
 | Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 UTF-16 | 8 | 70 | 67 | Unicode (varieert van telefoon tot telefoon) |

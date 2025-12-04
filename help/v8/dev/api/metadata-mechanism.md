@@ -4,10 +4,10 @@ description: Meer informatie over het mechanisme voor metagegevens.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 1%
@@ -33,7 +33,7 @@ De reactie retourneert de hoofdmetagegevens van de bron (alle andere velden zijn
      Als &quot;type&quot;met de waarde &quot;verbinding&quot;of &quot;inzameling&quot;wordt voltooid, is de resTarget waarde de naam van het middel dat door de verbinding wordt gericht.
 Als het &quot;type&quot;met de waarde &quot;opsomming&quot;wordt voltooid, wordt een &quot;waarden&quot;gebied toegevoegd en elke opsommingswaarde is gedetailleerd in de **waarden** knoop.
 
-* De **Filters** knoop keert URL terug om de bijbehorende filters terug te winnen. Voor meer op filters, verwijs naar [&#x200B; deze sectie &#x200B;](sorting.md#filtering) sectie.
+* De **Filters** knoop keert URL terug om de bijbehorende filters terug te winnen. Voor meer op filters, verwijs naar [ deze sectie ](sorting.md#filtering) sectie.
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N

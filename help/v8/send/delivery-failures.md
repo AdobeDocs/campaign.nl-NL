@@ -4,10 +4,11 @@ description: Begrijp mogelijke mislukkingen wanneer het verzenden van berichten 
 feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
+source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '3422'
 ht-degree: 2%
 
 ---
@@ -18,7 +19,7 @@ De grenzen zijn het resultaat van een leveringspoging en mislukking waar ISP ach
 
 Hierdoor wordt voorkomen dat systemen ongeldige e-mailadressen blijven verzenden. De grenzen zijn één van de belangrijkste stukken van gegevens die ISPs gebruikt om IP reputatie te bepalen. Het is belangrijk om deze maatstaf in de gaten te houden. &quot;Geleverd&quot; versus &quot;teruggestort&quot; is waarschijnlijk de meest gebruikelijke manier om de levering van marketingberichten te meten: hoe hoger het geleverde percentage, hoe beter.
 
-Als een bericht niet naar een profiel kan worden verzonden, verzendt de externe server automatisch een foutbericht naar Adobe Campaign. Deze fout is gekwalificeerd om te bepalen of het e-mailadres, het telefoonnummer of het apparaat in quarantaine moet worden geplaatst. Zie [&#x200B; stuiteren postbeheer &#x200B;](#bounce-mail-qualification).
+Als een bericht niet naar een profiel kan worden verzonden, verzendt de externe server automatisch een foutbericht naar Adobe Campaign. Deze fout is gekwalificeerd om te bepalen of het e-mailadres, het telefoonnummer of het apparaat in quarantaine moet worden geplaatst. Zie [ stuiteren postbeheer ](#bounce-mail-qualification).
 
 Zodra een bericht wordt verzonden, kunt u de leveringsstatus voor elk profiel en het bijbehorende mislukkingstype en de reden in de leveringslogboeken bekijken.
 
@@ -26,7 +27,7 @@ Wanneer een e-mailadres in quarantaine wordt geplaatst, of als een profiel op li
 
 ## Waarom is de berichtlevering mislukt {#delivery-failure-reasons}
 
-Er zijn twee typen fouten wanneer een bericht mislukt. Elk type van leveringsmislukking bepaalt als een adres wordt verzonden naar [&#x200B; quarantaine &#x200B;](quarantines.md#quarantine-reason) of niet.
+Er zijn twee typen fouten wanneer een bericht mislukt. Elk type van leveringsmislukking bepaalt als een adres wordt verzonden naar [ quarantaine ](quarantines.md#quarantine-reason) of niet.
 
 * **Harde grenzen**
 De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP een postingspoging aan een abonneeadres als niet te leveren niet bepaalt. In Adobe Campaign worden harde golven die als niet-leverbaar zijn gecategoriseerd, toegevoegd aan de quarantainelijst, wat betekent dat ze niet opnieuw zouden worden opgewekt. In sommige gevallen wordt een harde stuit genegeerd als de oorzaak van de fout onbekend is.
@@ -34,13 +35,13 @@ De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP 
   Hier zijn enkele voorbeelden van harde grenzen: Adres bestaat niet, Account uitgeschakeld, Onjuiste syntaxis, Onjuist domein
 
 * **Zachte grenzen**
-De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. De zachte mislukkingen zullen [&#x200B; veelvoudige tijden (met variantie afhankelijk van gebruik van douane of uit-van-doos leveringsmontages) opnieuw proberen om een succesvolle levering te proberen. &#x200B;](#retries) Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren.
+De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. De zachte mislukkingen zullen [ veelvoudige tijden (met variantie afhankelijk van gebruik van douane of uit-van-doos leveringsmontages) opnieuw proberen om een succesvolle levering te proberen. ](#retries) Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren.
 
   Sommige gemeenschappelijke oorzaken van zachte grenzen omvatten het volgende: De volledige brievenbus, Ontvangend e-mailserver neer, de kwesties van de de reputatie van de Afzender
 
 Het **genegeerde** type van fout is gekend om tijdelijk, zoals &quot;uit bureau&quot;te zijn, of een technische fout, bijvoorbeeld als het afzendertype &quot;postmaster&quot;is.
 
-De feedbacklus werkt als e-mailberichten stuiteren: wanneer een gebruiker een e-mailbericht kwalificeert als spam, kunt u e-mailregels in Adobe Campaign configureren om alle leveringen aan deze gebruiker te blokkeren. De adressen van deze gebruikers worden gevoegd op lijst van gewenste personen alhoewel zij niet de unsubscription verbinding klikten. De adressen worden toegevoegd aan (**NmsAddress**) quarantainelijst en niet aan (**NmsRecipient**) ontvankelijke lijst met de **[!UICONTROL Denylisted]** status. Leer meer over terugkoppel lusmechanisme in de [&#x200B; Gids van de Beste praktijken van de Levering van Adobe &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#feedback-loops){target="_blank"}.
+De feedbacklus werkt als e-mailberichten stuiteren: wanneer een gebruiker een e-mailbericht kwalificeert als spam, kunt u e-mailregels in Adobe Campaign configureren om alle leveringen aan deze gebruiker te blokkeren. De adressen van deze gebruikers worden gevoegd op lijst van gewenste personen alhoewel zij niet de unsubscription verbinding klikten. De adressen worden toegevoegd aan (**NmsAddress**) quarantainelijst en niet aan (**NmsRecipient**) ontvankelijke lijst met de **[!UICONTROL Denylisted]** status. Leer meer over terugkoppel lusmechanisme in de [ Gids van de Beste praktijken van de Levering van Adobe ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 ## Synchrone en asynchrone fouten {#synchronous-and-asynchronous-errors}
 
@@ -66,7 +67,7 @@ De manier waarop de postkwalificatie van de stuiterende in Adobe Campaign wordt 
 
 * **Synchrone fouten**: MTA bepaalt het stuitertype en de kwalificatie, en verzendt terug die informatie naar Campagne. De stuitkwalificaties in de **[!UICONTROL Delivery log qualification]** lijst worden niet gebruikt voor **synchrone** de foutenmeldingen van de leveringsmislukking.
 
-* **Asynchrone fouten**: De regels die door Campagne worden gebruikt om asynchrone leveringsmislukkingen te kwalificeren zijn vermeld in de **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knoop. Asynchrone stuiteringen worden door het inMail-proces via de **[!UICONTROL Inbound email]** -regels gekwalificeerd. Voor meer op dit, verwijs naar [&#x200B; de documentatie van Adobe Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=nl-NL#bounce-mail-qualification){target="_blank"}.
+* **Asynchrone fouten**: De regels die door Campagne worden gebruikt om asynchrone leveringsmislukkingen te kwalificeren zijn vermeld in de **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** knoop. Asynchrone stuiteringen worden door het inMail-proces via de **[!UICONTROL Inbound email]** -regels gekwalificeerd. Voor meer op dit, verwijs naar [ de documentatie van Adobe Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,12 +112,14 @@ Bijvoorbeeld, als de geldigheidsperiode aan de standaardwaarde van 5 dagen in Ca
 
 Zodra een bericht 3.5 dagen in de MTA rij is geweest en niet heeft geleverd, zal het uit tijd en zijn status van **[!UICONTROL Sent]** aan **[!UICONTROL Failed]** in de leveringslogboeken worden bijgewerkt.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=nl-NL#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## Typen e-mailfouten {#email-error-types}
 
 Voor het e-mailkanaal worden de mogelijke oorzaken van een leveringsfout hieronder vermeld.
+
++++ Klik om de volledige lijst met e-mailfouttypen weer te geven
 
 <table> 
  <tbody> 
@@ -249,7 +252,7 @@ Voor het e-mailkanaal worden de mogelijke oorzaken van een leveringsfout hierond
  </tbody> 
 </table>
 
-
++++
 
 ## Typen fouten in pushmeldingen {#push-error-types}
 
@@ -260,6 +263,8 @@ Voor het mobiele app-kanaal worden de mogelijke oorzaken van een leveringsfout h
 Met het HTTP/V2-protocol kunt u rechtstreeks feedback geven en de status van elke push-levering bepalen. Als de HTTP/V2-protocolconnector wordt gebruikt, wordt de feedbackservice niet meer aangeroepen door de **[!UICONTROL mobileAppOptOutMgt]** -workflow. Een token wordt als niet-geregistreerd beschouwd wanneer een mobiele toepassing wordt verwijderd of opnieuw wordt geïnstalleerd.
 
 Synchroon, als APNs een &quot;unregistered&quot;status voor een bericht terugkeert, zal het doelteken onmiddellijk in quarantaine worden geplaatst.
+
++++ Klik om iOS-quarantainescenario&#39;s weer te geven
 
 <table> 
  <tbody> 
@@ -346,6 +351,8 @@ Synchroon, als APNs een &quot;unregistered&quot;status voor een bericht terugkee
  </tbody> 
 </table>
 
++++
+
 ### Android quarantaine {#android-quarantine}
 
 **voor Android V1**
@@ -372,7 +379,9 @@ Tijdens de leveringsanalyse, worden alle apparaten die van het doel worden uitge
 
 **voor Android V2**
 
-Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. Hetzelfde geldt voor de abonnementen en uitsluitingen-update. Voor meer op dit verwijs naar [&#x200B; Android V1 &#x200B;](#android-quarantine) sectie.
+Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. Hetzelfde geldt voor de abonnementen en uitsluitingen-update. Voor meer op dit verwijs naar [ Android V1 ](#android-quarantine) sectie.
+
++++ Klik om Android V2-quarantainescenario&#39;s weer te geven
 
 <table> 
  <tbody> 
@@ -579,6 +588,8 @@ Het Android V2-quarantainemechanisme gebruikt hetzelfde proces als Android V1. H
  </tbody> 
 </table>
 
++++
+
 ## SMS-quarantines {#sms-quarantines}
 
 **voor standaardschakelaars**
@@ -588,6 +599,8 @@ De specifieke kenmerken van SMS-kanalen worden hieronder vermeld.
 >[!NOTE]
 >
 >De **[!UICONTROL Delivery log qualification]** lijst is niet op de **Uitgebreide generische schakelaar SMPP** van toepassing.
+
++++ Klik om de types van de fouten van SMS voor standaardschakelaars te bekijken
 
 <table> 
  <tbody> 
@@ -636,6 +649,8 @@ De specifieke kenmerken van SMS-kanalen worden hieronder vermeld.
  </tbody> 
 </table>
 
++++
+
 **voor de Uitgebreide generische schakelaar SMPP**
 
 Wanneer het gebruiken van het protocol SMPP om de berichten van SMS te verzenden, wordt het foutenbeheer verschillend behandeld.
@@ -670,8 +685,66 @@ Door gebrek, haalt regex de **staat:** gebied zoals die door de **wordt bepaald 
 
   Deze regex wordt opgegeven op het tabblad **[!UICONTROL SMSC specificities]** van de externe account.
 
-  Door gebrek, haalt regex **err:** gebied zoals die door de **wordt bepaald Bijlage B** sectie van de **4&rbrace; SMPP 3.4 specificatie**.
+  Door gebrek, haalt regex **err:** gebied zoals die door de **wordt bepaald Bijlage B** sectie van de **4} SMPP 3.4 specificatie**.
 
 * Alles wat na het buissymbool (|) komt wordt slechts getoond in de **[!UICONTROL First text]** kolom van de **[!UICONTROL Delivery log qualification]** lijst. Deze inhoud wordt altijd vervangen door **#MESSAGE#** nadat het bericht is genormaliseerd. Dit proces voorkomt het hebben van veelvoudige ingangen voor gelijkaardige fouten en is het zelfde als voor e-mail.
 
 De uitgebreide generische schakelaar SMPP past heuristisch toe om verstandige standaardwaarden te vinden: als de status met **LEVERT** begint, wordt het beschouwd als een succes omdat het de gemeenschappelijke statussen **LEVERT** of **LEVERDE** aanpast die door de meeste leveranciers worden gebruikt. Elke andere status leidt tot een harde fout.
+
+## Problemen met de levering oplossen {#troubleshooting}
+
+Deze sectie biedt richtlijnen voor het diagnosticeren en oplossen van veelvoorkomende problemen met leverfalen.
+
+### Mislukte status met personalisatiefouten {#personalization-errors}
+
+Als de status van een e-maillevering **[!UICONTROL Failed]** is, kan deze worden gekoppeld aan een uitgave met verpersoonlijkingsblokken. De blokken van de aanpassing in een levering kunnen fouten produceren wanneer de schema&#39;s niet de leveringsafbeelding aanpassen.
+
+Leveringslogboeken zijn essentieel om te leren waarom een levering is mislukt. Hier volgt een algemene fout:
+
+Ontvangersberichten ontbreken met een &quot;Onbereikbare&quot;fout die verklaart:
+
+```
+Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
+```
+
+**Oorzaak**: De verpersoonlijking binnen HTML probeert om op een lijst of een gebied te roepen dat niet is bepaald of in kaart gebracht in het stroomopwaartse richten of in de het doelafbeelding van de levering.
+
+**Resolutie**: Herzie het werkschema en de leveringsinhoud specifiek welke verpersoonlijking probeert om de lijst in kwestie te roepen. Verwijder vervolgens de aanroep naar deze tabel in de HTML of repareer de toewijzing aan de levering.
+
+Leer meer over verpersoonlijking in [ deze sectie ](personalize.md).
+
+### Fout met meerdere verpersoonlijkingswaarden {#multiple-values-error}
+
+Wanneer een levering mislukt, kan de volgende fout in de leveringslogboeken verschijnen:
+
+```
+DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
+```
+
+**Oorzaak**: Er is een verpersoonlijkingsgebied of een blok binnen e-mail dat meer dan één waarde voor de ontvanger heeft. Er wordt een verpersoonlijkingsblok gebruikt en het haalt meer dan één record op voor een bepaalde ontvanger.
+
+**Resolutie**: Controleer de gebruikte verpersoonlijkingsgegevens, en controleer dan het doel voor ontvangers die meer dan één ingang voor om het even welk van die gebieden hebben. U kunt ook een **[!UICONTROL Deduplication]** -activiteit gebruiken in de doelworkflow voordat u de levering uitvoert om er zeker van te zijn dat er slechts één personalisatieveld tegelijk is. Voor meer informatie over deduplicatie, verwijs naar de [ documentatie van het Werkschema ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}.
+
+### Automatische antwoordafhandeling {#auto-reply-handling}
+
+Sommige leveringen kunnen mislukken met een &quot;Onbereikbare&quot;fout die verklaart:
+
+```
+Inbound email bounce (rule 'Auto_replies' has matched this bounce).
+```
+
+**Uitleg**: Dit betekent dat de levering slaagde maar Adobe Campaign ontving een auto-antwoord van de ontvanger (b.v. een &quot;uit bureau&quot;antwoord) die &quot;Auto_responses&quot;binnenkomende e-mailregels aanpast.
+
+Het e-mailbericht met het automatische antwoord wordt genegeerd door Adobe Campaign en het adres van de ontvanger wordt niet verzonden naar quarantines. Dit wordt verwacht gedrag en wijst niet op een leveringsmislukking.
+
+## Verwante onderwerpen
+
+[ de statussen van de Levering ](delivery-statuses.md) verklaart de verschillende statussen een levering tijdens zijn levenscyclus kan hebben.
+
+[ de leveringen van de Monitor in Campagne UI ](delivery-dashboard.md) verstrekt raad bij het gebruiken van het leveringsdashboard om leveringsprestaties te volgen en kwesties te diagnostiseren.
+
+[ het beheer van de Quarantaine ](quarantines.md) verklaart hoe de Campagne quarantined adressen beheert om uw verzendende reputatie te beschermen.
+
+[ controleert uw leverability ](monitoring-deliverability.md) begeleiding bij het handhaven van goede leverbaarheid en afzenderreputatie.
+
+[ beste praktijken van de Levering ](../start/delivery-best-practices.md) behandelen beste praktijken voor het creëren van en het verzenden van leveringen in Campagne.

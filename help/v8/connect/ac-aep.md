@@ -2,10 +2,10 @@
 title: Soorten publiek en profielkenmerken delen en synchroniseren met Adobe Experience Platform
 description: Leer hoe u het publiek en de profielkenmerken van Adobe Experience Platform kunt synchroniseren met Campagne
 feature: Experience Platform Integration
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -23,7 +23,7 @@ De Adobe Campaign Managed Cloud Service Destination en Source connectors maken n
 
 De belangrijkste stappen voor het verzenden van een Adobe Experience Platform-publiek naar Adobe Campaign en het terugsturen van bezorgings- en trackinglogboeken zijn als volgt:
 
-* Gebruik een verbinding van de Bestemming van Adobe Campaign Managed Cloud Services **&#x200B;**&#x200B;om de segmenten van Experience Platform over naar Adobe Campaign te verzenden:
+* Gebruik een verbinding van de Bestemming van Adobe Campaign Managed Cloud Services **** om de segmenten van Experience Platform over naar Adobe Campaign te verzenden:
 
    1. Open de catalogus met Adobe Experience Platform-doelen en maak een nieuwe **[!UICONTROL Adobe Campaign Managed Cloud Services]** -verbinding.
    1. Geef informatie over de instantie Campagne die u wilt gebruiken en kies **[!UICONTROL Audience sync]** als het synchronisatietype.
@@ -36,11 +36,11 @@ De belangrijkste stappen voor het verzenden van een Adobe Experience Platform-pu
 
       ![](assets/aep-destination.png){width="800" align="center"}
 
-  De gedetailleerde informatie over hoe te om de bestemming te vormen is beschikbaar in [&#x200B; de verbindingsdocumentatie van Adobe Campaign Managed Cloud Services &#x200B;](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
+  De gedetailleerde informatie over hoe te om de bestemming te vormen is beschikbaar in [ de verbindingsdocumentatie van Adobe Campaign Managed Cloud Services ](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
 
 * Gebruik een verbinding van Adobe Campaign Managed Cloud Services **Source** om de levering van Adobe Campaign en het volgen logboeken over naar Adobe Experience Platform te verzenden:
 
-  Om dit te doen, vorm een nieuwe verbinding van Adobe Campaign Managed Cloud Services **Source** om de gebeurtenissen van de Campagne in Adobe Ervaren Platform in te nemen. Verstrek details over de instantie van de Campagne en het te gebruiken schema, selecteer een dataset waar de gegevens zouden moeten worden opgenomen, dan vormen de gebieden om terug te winnen. [&#x200B; Leer hoe te om een Adobe Campaign Managed Cloud Services bronverbinding tot stand te brengen &#x200B;](https://www.adobe.com/go/sources-campaign-ui-en)
+  Om dit te doen, vorm een nieuwe verbinding van Adobe Campaign Managed Cloud Services **Source** om de gebeurtenissen van de Campagne in Adobe Ervaren Platform in te nemen. Verstrek details over de instantie van de Campagne en het te gebruiken schema, selecteer een dataset waar de gegevens zouden moeten worden opgenomen, dan vormen de gebieden om terug te winnen. [ Leer hoe te om een Adobe Campaign Managed Cloud Services bronverbinding tot stand te brengen ](https://www.adobe.com/go/sources-campaign-ui-en)
 
   ![](assets/aep-logs.png){width="800" align="center"}
 
@@ -65,4 +65,4 @@ De belangrijkste stappen voor het synchroniseren van Adobe Experience Platform-p
 1. Configureer de profielkenmerken die u in Adobe Campaign wilt bijwerken.
 1. Zodra de stroom is gevormd, zullen de geselecteerde profielattributen met Adobe Campaign worden gesynchroniseerd en voor alle profielen bijgewerkt die door de segmenten worden gericht die in de bestemming worden gevormd.
 
-De gedetailleerde informatie over hoe te om de bestemming te vormen is beschikbaar in [&#x200B; de verbindingsdocumentatie van Adobe Campaign Managed Cloud Services &#x200B;](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
+De gedetailleerde informatie over hoe te om de bestemming te vormen is beschikbaar in [ de verbindingsdocumentatie van Adobe Campaign Managed Cloud Services ](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}

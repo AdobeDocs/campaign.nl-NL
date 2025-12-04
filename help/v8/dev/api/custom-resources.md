@@ -4,10 +4,10 @@ description: Meer informatie over het beheer van aangepaste bronnen met API's/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 2%
@@ -28,9 +28,9 @@ De middelen van de douane zijn toegankelijk door APIs gebruikend het **/profileA
 
 U kunt elke gewenste bewerking uitvoeren met aangepaste bronnen, mits deze zijn gekoppeld aan de tabel Profiel. Neem bijvoorbeeld de onderstaande tabelstructuur:
 
-![&#x200B; alt tekst &#x200B;](assets/cusresources.png)
+![ alt tekst ](assets/cusresources.png)
 
-In dat geval, zijn alle middelen van de **Transactie**, **TransactionDetails** en **de lijsten van het Product** beschikbaar zolang zij met de **7&rbrace; lijst van het Profiel &lbrace;verbonden zijn.**
+In dat geval, zijn alle middelen van de **Transactie**, **TransactionDetails** en **de lijsten van het Product** beschikbaar zolang zij met de **7} lijst van het Profiel {verbonden zijn.**
 
 <br/>
 

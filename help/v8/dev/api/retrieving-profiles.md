@@ -1,10 +1,10 @@
 ---
 title: Profielen ophalen
 description: Meer informatie over het ophalen van profielen met API's
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Het terugwinnen van profielen wordt uitgevoerd met a **GET** verzoek.
 
-Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Voor meer op dit, verwijs naar de [&#x200B; Aanvullende verrichtingen &#x200B;](sorting.md) sectie.
+Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Voor meer op dit, verwijs naar de [ Aanvullende verrichtingen ](sorting.md) sectie.
 
 Bovendien kunt u met Campaign Standard API&#39;s zoeken naar profielen op basis van een van deze velden: e-mail, voornaam, achternaam of een aangepast veld. Raadpleeg [deze sectie](#searching-field) voor meer informatie.
 

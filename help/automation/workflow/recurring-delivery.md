@@ -3,10 +3,10 @@ product: campaign
 title: Terugkerende levering
 description: Meer informatie over de activiteit van de workflow Terugkerende levering
 feature: Workflows
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 13%
@@ -33,7 +33,7 @@ Dit doet u als volgt:
 
 Het configuratieproces voor deze activiteit is gelijkaardig aan dat van het creëren van een leveringsmalplaatje in termen van de beschikbare opties.
 
-Voor een voorbeeld van deze activiteit die wordt gebruikt, verwijs naar deze [&#x200B; sectie &#x200B;](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+Voor een voorbeeld van deze activiteit die wordt gebruikt, verwijs naar deze [ sectie ](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## Hoe te opstelling terugkomende levering
 
@@ -55,4 +55,4 @@ Deze video verklaart hoe te om een terugkomende levering en een planneractivitei
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-De extra campagne hoe-aan video&#39;s is beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.
+De extra campagne hoe-aan video&#39;s is beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

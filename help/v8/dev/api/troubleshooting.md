@@ -1,11 +1,11 @@
 ---
 title: API-probleemoplossing
 description: Meer informatie over algemene problemen met betrekking tot Campaign Standard API's
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Uw token is ongeldig (onjuiste IMS-aanroep die wordt gebruikt om een token te ge
 
 * **ik zie mijn profiel na verwezenlijking niet**
 
-Afhankelijk van de instantieconfiguratie, moet het gecreeerde profiel aan een **orgUnit** worden geassocieerd. Om te begrijpen hoe te om dit gebied in uw verwezenlijking toe te voegen, raadpleeg [&#x200B; deze sectie &#x200B;](creating-profiles-api.md).
+Afhankelijk van de instantieconfiguratie, moet het gecreeerde profiel aan een **orgUnit** worden geassocieerd. Om te begrijpen hoe te om dit gebied in uw verwezenlijking toe te voegen, raadpleeg [ deze sectie ](creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
