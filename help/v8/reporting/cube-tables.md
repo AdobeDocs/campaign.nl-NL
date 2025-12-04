@@ -25,7 +25,7 @@ Gebruik kubussen om rapporten te maken en om gegevens in de database te identifi
 
 ### Stap 1 - creeer een rapport dat op een kubus wordt gebaseerd {#step-1---create-a-report-based-on-a-cube}
 
-Zodra de [&#x200B; kubus &#x200B;](cube-indicators.md) wordt gevormd, kan het als malplaatje worden gebruikt voor het creëren van een nieuw rapport.
+Zodra de [ kubus ](cube-indicators.md) wordt gevormd, kan het als malplaatje worden gebruikt voor het creëren van een nieuw rapport.
 
 Voer de volgende stappen uit om een rapport te maken dat is gebaseerd op een bestaande kubus:
 
@@ -63,7 +63,7 @@ Met de knoppen **[!UICONTROL Add]** op elke as kunt u afmetingen toevoegen.
 
    Deze parameters zijn afhankelijk van het gegevenstype van de geselecteerde dimensie.
 
-   Voor datums kunnen bijvoorbeeld verschillende niveaus beschikbaar zijn. Voor meer op dit, verwijs naar [&#x200B; de maatregelen van de Vertoning &#x200B;](customize-cubes.md#display-measures).
+   Voor datums kunnen bijvoorbeeld verschillende niveaus beschikbaar zijn. Voor meer op dit, verwijs naar [ de maatregelen van de Vertoning ](customize-cubes.md#display-measures).
 
    In dat geval zijn de volgende opties beschikbaar:
 
@@ -175,4 +175,4 @@ Volg onderstaande stappen om een tabel te maken en de gegevens in een kubus te v
 
    ![](assets/cube-selected-in-report.png)
 
-   Dit laat u het rapport bouwen dat moet worden getoond. Voor meer op dit, verwijs naar [&#x200B; Stap 2 - selecteer lijnen en kolommen &#x200B;](#step-2---select-lines-and-columns).
+   Dit laat u het rapport bouwen dat moet worden getoond. Voor meer op dit, verwijs naar [ Stap 2 - selecteer lijnen en kolommen ](#step-2---select-lines-and-columns).

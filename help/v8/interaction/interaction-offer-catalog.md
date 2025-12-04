@@ -18,7 +18,7 @@ Als **manager van de Aanbieding**, bent u verantwoordelijk voor het creëren van
 
 Een aanbiedingscatalogus is gekoppeld aan één bestaande omgeving. Aanbiedingen in deze catalogus kunnen alleen worden gekoppeld aan de ruimten die in dezelfde omgeving zijn opgegeven.
 
-Alvorens uw aanbiedingen tot stand te brengen, moet u een [&#x200B; milieu &#x200B;](interaction-env.md) eerst specificeren dat alle kenmerken (geschiktheid, beperkingen op het doel, presentatieregels) van een reeks aanbiedingen bevat, die in categorieën, evenals de lijst van hun ruimten wordt gesorteerd.
+Alvorens uw aanbiedingen tot stand te brengen, moet u een [ milieu ](interaction-env.md) eerst specificeren dat alle kenmerken (geschiktheid, beperkingen op het doel, presentatieregels) van een reeks aanbiedingen bevat, die in categorieën, evenals de lijst van hun ruimten wordt gesorteerd.
 
 ## Aanbiedingscategorieën maken{#creating-offer-categories}
 

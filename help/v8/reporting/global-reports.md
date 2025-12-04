@@ -25,19 +25,19 @@ Klik op de naam van de rapporten om deze weer te geven. De volgende rapporten zi
 >
 >In deze sectie worden alleen de rapporten weergegeven die betrekking hebben op leveringen.
 
-* **[!UICONTROL Delivery throughput]**: verwijs naar [&#x200B; productie van de Levering &#x200B;](#delivery-throughput).
-* **[!UICONTROL Browsers]**: verwijs naar [&#x200B; Browsers &#x200B;](#browsers).
-* **[!UICONTROL Sharing to social networks]**: verwijs naar [&#x200B; het Delen aan sociale netwerken &#x200B;](#sharing-to-social-networks).
-* **[!UICONTROL Statistics on sharing activities]**: verwijs naar [&#x200B; Statistieken over het delen van activiteiten &#x200B;](#statistics-on-sharing-activities).
-* **[!UICONTROL Operating systems]**: verwijs naar [&#x200B; Werkende systemen &#x200B;](#operating-systems).
-* **[!UICONTROL URLs and click streams]**: verwijs naar [&#x200B; URLs en klik stromen &#x200B;](delivery-reports.md#urls-and-click-streams).
-* **[!UICONTROL Tracking indicators]**: verwijs naar [&#x200B; het Volgen indicatoren &#x200B;](delivery-reports.md#tracking-indicators).
-* **[!UICONTROL Non-deliverables and bounces]**: verwijs naar [&#x200B; Niet-te leveren punten en stuitingen &#x200B;](#non-deliverables-and-bounces).
-* **[!UICONTROL User activities]**: verwijs naar [&#x200B; activiteiten van de Gebruiker &#x200B;](#user-activities).
-* **[!UICONTROL Subscription tracking]**: verwijs naar [&#x200B; het volgen van het Abonnement &#x200B;](#subscription-tracking).
-* **[!UICONTROL Delivery summary]**: verwijs naar [&#x200B; Overzicht van de Levering &#x200B;](delivery-reports.md#delivery-summary).
-* **[!UICONTROL Delivery statistics]**: verwijs naar [&#x200B; statistieken van de Levering &#x200B;](#delivery-statistics).
-* **[!UICONTROL Breakdown of opens]**: verwijs naar [&#x200B; Uitsplitsing van opent &#x200B;](#breakdown-of-opens).
+* **[!UICONTROL Delivery throughput]**: verwijs naar [ productie van de Levering ](#delivery-throughput).
+* **[!UICONTROL Browsers]**: verwijs naar [ Browsers ](#browsers).
+* **[!UICONTROL Sharing to social networks]**: verwijs naar [ het Delen aan sociale netwerken ](#sharing-to-social-networks).
+* **[!UICONTROL Statistics on sharing activities]**: verwijs naar [ Statistieken over het delen van activiteiten ](#statistics-on-sharing-activities).
+* **[!UICONTROL Operating systems]**: verwijs naar [ Werkende systemen ](#operating-systems).
+* **[!UICONTROL URLs and click streams]**: verwijs naar [ URLs en klik stromen ](delivery-reports.md#urls-and-click-streams).
+* **[!UICONTROL Tracking indicators]**: verwijs naar [ het Volgen indicatoren ](delivery-reports.md#tracking-indicators).
+* **[!UICONTROL Non-deliverables and bounces]**: verwijs naar [ Niet-te leveren punten en stuitingen ](#non-deliverables-and-bounces).
+* **[!UICONTROL User activities]**: verwijs naar [ activiteiten van de Gebruiker ](#user-activities).
+* **[!UICONTROL Subscription tracking]**: verwijs naar [ het volgen van het Abonnement ](#subscription-tracking).
+* **[!UICONTROL Delivery summary]**: verwijs naar [ Overzicht van de Levering ](delivery-reports.md#delivery-summary).
+* **[!UICONTROL Delivery statistics]**: verwijs naar [ statistieken van de Levering ](#delivery-statistics).
+* **[!UICONTROL Breakdown of opens]**: verwijs naar [ Uitsplitsing van opent ](#breakdown-of-opens).
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -49,7 +49,7 @@ U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen: een w
 
 >[!NOTE]
 >
->U kunt het aantal leveringen ook controleren die per uur gebruikend het [&#x200B; Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=nl-NL){target="_blank"} worden verzonden.
+>U kunt het aantal leveringen ook controleren die per uur gebruikend het [ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"} worden verzonden.
 >
 >Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel){target="_blank"}.
 >
@@ -76,7 +76,7 @@ Dit verslag geeft een overzicht van de niet-te leveren posten en een uitsplitsin
 
 >[!NOTE]
 >
->De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [&#x200B; het beheer van de quarantaine &#x200B;](../send/quarantines.md).
+>De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [ het beheer van de quarantaine ](../send/quarantines.md).
 
 In het eerste deel van dit verslag wordt de uitsplitsing van niet-te leveren producten in de vorm van een tabel van waarden en een grafiek weergegeven.
 
@@ -98,7 +98,7 @@ De volgende indicatoren worden gebruikt:
 
   >[!NOTE]
   >
-  >Deze indicator heeft op leveringen op [&#x200B; mobiele kanalen &#x200B;](../send/send.md) slechts betrekking.
+  >Deze indicator heeft op leveringen op [ mobiele kanalen ](../send/send.md) slechts betrekking.
 
   U kunt elke regel van de waardetabel openen door op het symbool `[+]` te klikken. Voor elk fouttype kunt u de indeling van foutberichten per domein weergeven.
 
@@ -118,7 +118,7 @@ U kunt elke lijn van de waardetabel openen door [ + ] te klikken symbool. Voor e
 
 >[!NOTE]
 >
->De domeinnamen die in dit rapport worden weergegeven, worden op kubusniveau gedefinieerd. Als u deze waarden wilt wijzigen, bewerkt u de kubus **[!UICONTROL Delivery logs (broadlogrcp)]** . Voor meer op dit, verwijs naar [&#x200B; deze sectie &#x200B;](gs-cubes.md). De categorie **[!UICONTROL Others]** bevat domeinnamen die niet tot een specifieke klasse behoren.
+>De domeinnamen die in dit rapport worden weergegeven, worden op kubusniveau gedefinieerd. Als u deze waarden wilt wijzigen, bewerkt u de kubus **[!UICONTROL Delivery logs (broadlogrcp)]** . Voor meer op dit, verwijs naar [ deze sectie ](gs-cubes.md). De categorie **[!UICONTROL Others]** bevat domeinnamen die niet tot een specifieke klasse behoren.
 
 ## Browsers {#browsers}
 
@@ -255,7 +255,7 @@ Met dit rapport kunt u abonnementen op informatieservices controleren. Er worden
 
 Deze kan voor een abonnement worden weergegeven door op het knooppunt **[!UICONTROL Profiles and targets > Services and subscriptions]** van de startpagina of de verkenner te klikken. Selecteer het gewenste abonnement en klik op de tab **[!UICONTROL Reports]** . Het rapport **[!UICONTROL Subscriptions tracking]** is standaard beschikbaar. Het laat u de abonnement en unsubscription tendensen en het loyaliteitstarief over een periode zien. U kunt de representatie van deze gegevens configureren via de vervolgkeuzelijst. Klik **[!UICONTROL Refresh]** om de geselecteerde configuratie te bevestigen.
 
-Voor verdere informatie, verwijs naar [&#x200B; deze pagina &#x200B;](../start/subscriptions.md).
+Voor verdere informatie, verwijs naar [ deze pagina ](../start/subscriptions.md).
 
 **[!UICONTROL Number subscribed to date]** vertegenwoordigt het totale aantal mensen momenteel geabonneerd.
 
@@ -288,7 +288,7 @@ De volgende indicatoren worden gebruikt:
 
   >[!NOTE]
   >
-  >Voor meer op harde en zachte grenzen, verwijs naar [&#x200B; deze pagina &#x200B;](../send/quarantines.md).
+  >Voor meer op harde en zachte grenzen, verwijs naar [ deze pagina ](../send/quarantines.md).
 
 * **[!UICONTROL Opens]**: percentage van het aantal beoogde ontvangers dat een bericht ten minste één keer heeft geopend in vergelijking met het aantal berichten dat met succes is verwerkt.
 * **[!UICONTROL Clicks]**: percentage van het aantal personen dat ten minste één keer in een levering heeft geklikt in vergelijking met het aantal berichten dat met succes is verwerkt.
@@ -298,7 +298,7 @@ De volgende indicatoren worden gebruikt:
 
 In dit rapport wordt de uitsplitsing van de openingen per besturingssysteem, apparaat en browser voor de betrokken periode weergegeven. Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten.
 
-Het aantal openingen komt overeen met het totale aantal geopende berichten. E-mails met tekstopmaak worden niet geteld. Voor meer informatie bij het Volgen opent, verwijs naar [&#x200B; deze sectie &#x200B;](metrics-calculation.md#tracking-opens-).
+Het aantal openingen komt overeen met het totale aantal geopende berichten. E-mails met tekstopmaak worden niet geteld. Voor meer informatie bij het Volgen opent, verwijs naar [ deze sectie ](metrics-calculation.md#tracking-opens-).
 
 ![](assets/user-agent-report.png)
 

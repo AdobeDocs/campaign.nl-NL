@@ -23,7 +23,7 @@ Adobe Campaign biedt u toegang tot de hieronder vermelde hulpmiddelen voor het l
 
 ### Inboxrendering {#inbox-rendering-tool}
 
-Het [&#x200B; Inbox teruggevend rapport &#x200B;](inbox-rendering.md) laat u toe om uw berichten op belangrijke e-mailcliënten voor te vertonen om inhoud en reputatie af te tasten.
+Het [ Inbox teruggevend rapport ](inbox-rendering.md) laat u toe om uw berichten op belangrijke e-mailcliënten voor te vertonen om inhoud en reputatie af te tasten.
 
 ### Leveringsdoorvoer {#throughput-reports}
 
@@ -41,7 +41,7 @@ Elke levering produceert een rapport van uitzendingsstatistieken voor de verschi
 
 ### Leveringsdashboard {#delivery-dashboard-monitoring}
 
-Meer over het algemeen, geeft het [&#x200B; leveringsdashboard &#x200B;](delivery-dashboard.md) u toegang tot:
+Meer over het algemeen, geeft het [ leveringsdashboard ](delivery-dashboard.md) u toegang tot:
 
 De leveringssamenvatting, die de details van het verzenden en het aantal berichten toont om te verzenden, te verwerken en met succes te verzenden.
 
@@ -51,15 +51,15 @@ De volgende logboeken, die het volgen informatie zoals opent tonen en klikt.
 
 ### SpamAssassin testen {#spam-testing}
 
-Gebruik [&#x200B; SpamAssassin &#x200B;](spamassassin.md) om uw e-mailinhoud te testen en het te scoren om te bepalen of een bericht het risico loopt om als spam door de anti-anti-spamhulpmiddelen worden beschouwd die op ontvangstbewijs worden gebruikt.
+Gebruik [ SpamAssassin ](spamassassin.md) om uw e-mailinhoud te testen en het te scoren om te bepalen of een bericht het risico loopt om als spam door de anti-anti-spamhulpmiddelen worden beschouwd die op ontvangstbewijs worden gebruikt.
 
 ### Configuratiescherm  {#control-panel-monitoring}
 
 >[!NOTE]
 >
->Het Configuratiescherm is beschikbaar voor gebruikers van beheerde Cloud Services voor campagne v8. Leer meer over [&#x200B; Controlebord &#x200B;](../config/self-service.md).
+>Het Configuratiescherm is beschikbaar voor gebruikers van beheerde Cloud Services voor campagne v8. Leer meer over [ Controlebord ](../config/self-service.md).
 
-Het Comité van de Controle van de campagne [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target="_blank"} verstrekt controlemogelijkheden voor levering, met inbegrip van subdomein en certificaatbeheer, actieve profielen die, en leveringsproductie en latentiemetriek controleren.
+Het Comité van de Controle van de campagne [ ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target="_blank"} verstrekt controlemogelijkheden voor levering, met inbegrip van subdomein en certificaatbeheer, actieve profielen die, en leveringsproductie en latentiemetriek controleren.
 
 ## Controlerichtlijnen {#monitoring-guidelines}
 
@@ -67,40 +67,40 @@ Hier volgen enkele aanvullende richtlijnen voor het controleren van de leverbaar
 
 ### Bewaking van de platformafvoer
 
-Controleer regelmatig de [&#x200B; leveringsproductie &#x200B;](../reporting/global-reports.md#delivery-throughput) voor het volledige platform om te verifiëren of het met de originele opstelling verenigbaar is.
+Controleer regelmatig de [ leveringsproductie ](../reporting/global-reports.md#delivery-throughput) voor het volledige platform om te verifiëren of het met de originele opstelling verenigbaar is.
 
 ### Configuratie opnieuw proberen
 
-Controle dat [&#x200B; opnieuw probeert &#x200B;](delivery-failures.md#retries) opstelling correct (30 minuten voor herbeproefperiode en meer dan 20 herpogingen) in leveringsmalplaatjes is.
+Controle dat [ opnieuw probeert ](delivery-failures.md#retries) opstelling correct (30 minuten voor herbeproefperiode en meer dan 20 herpogingen) in leveringsmalplaatjes is.
 
 ### Verificatie van postvak stuiteren
 
-Verifieer regelmatig dat de [&#x200B; stuiteren &#x200B;](delivery-failures.md#bounce-mail-qualification) brievenbus toegankelijk is en dat de rekening niet op het punt staat te verlopen.
+Verifieer regelmatig dat de [ stuiteren ](delivery-failures.md#bounce-mail-qualification) brievenbus toegankelijk is en dat de rekening niet op het punt staat te verlopen.
 
 ### Controles van de leveringsprestaties
 
-Controleer elke leveringsproductie, die van het [&#x200B; leveringsdashboard &#x200B;](delivery-dashboard.md) toegankelijk is, om ervoor te zorgen dat het met de geldigheid van de leveringsinhoud verenigbaar is (b.v. &quot;flitsverkoop&quot;zou in notulen, niet dagen moeten worden geleverd).
+Controleer elke leveringsproductie, die van het [ leveringsdashboard ](delivery-dashboard.md) toegankelijk is, om ervoor te zorgen dat het met de geldigheid van de leveringsinhoud verenigbaar is (b.v. &quot;flitsverkoop&quot;zou in notulen, niet dagen moeten worden geleverd).
 
 ### Validatie van golflengte
 
-Wanneer het gebruiken van [&#x200B; golven &#x200B;](configure-and-send.md#sending-using-multiple-waves), verifieer dat elke golf genoeg tijd heeft om te beëindigen alvorens volgende wordt teweeggebracht.
+Wanneer het gebruiken van [ golven ](configure-and-send.md#sending-using-multiple-waves), verifieer dat elke golf genoeg tijd heeft om te beëindigen alvorens volgende wordt teweeggebracht.
 
 ### Quarantaine-controle
 
-Controleer dat het aantal fouten en nieuwe [&#x200B; quarantines &#x200B;](quarantines.md) met andere leveringen verenigbaar zijn.
+Controleer dat het aantal fouten en nieuwe [ quarantines ](quarantines.md) met andere leveringen verenigbaar zijn.
 
 ### Analyse van het leveringslogboek
 
-Raadpleeg zorgvuldig de [&#x200B; leveringslogboeken &#x200B;](delivery-dashboard.md#delivery-logs-and-history) in detail om het soort fouten te controleren die worden benadrukt (lijsten van gewezen personen, DNS kwesties, anti-spamregels, enz.).
+Raadpleeg zorgvuldig de [ leveringslogboeken ](delivery-dashboard.md#delivery-logs-and-history) in detail om het soort fouten te controleren die worden benadrukt (lijsten van gewezen personen, DNS kwesties, anti-spamregels, enz.).
 
 ## Verwante onderwerpen
 
-{de Gids van de Beste praktijken van de Levering van Adobe 1} verstrekt uitvoerige begeleiding op leveringsstrategie, definitie, metriek, en beste praktijken.[&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}
+{de Gids van de Beste praktijken van de Levering van Adobe 1} verstrekt uitvoerige begeleiding op leveringsstrategie, definitie, metriek, en beste praktijken.[](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}
 
-[&#x200B; wat leverbaarheid &#x200B;](about-deliverability.md) is introduceert zeer belangrijke leveringsconcepten en hoe te om uw leverbaarheidstarief in Campagne te verbeteren.
+[ wat leverbaarheid ](about-deliverability.md) is introduceert zeer belangrijke leveringsconcepten en hoe te om uw leverbaarheidstarief in Campagne te verbeteren.
 
-[&#x200B; de mislukkingen en de stuitingen van de Levering &#x200B;](delivery-failures.md) beschrijft de verschillende types van leveringsmislukkingen, hoe de Campagne hen behandelt, en omvat het oplossen van problemenbegeleiding voor gemeenschappelijke kwesties.
+[ de mislukkingen en de stuitingen van de Levering ](delivery-failures.md) beschrijft de verschillende types van leveringsmislukkingen, hoe de Campagne hen behandelt, en omvat het oplossen van problemenbegeleiding voor gemeenschappelijke kwesties.
 
-[&#x200B; het beheer van de Quarantaine &#x200B;](quarantines.md) verklaart hoe de Campagne quarantined adressen beheert om uw verzendende reputatie te beschermen.
+[ het beheer van de Quarantaine ](quarantines.md) verklaart hoe de Campagne quarantined adressen beheert om uw verzendende reputatie te beschermen.
 
-[&#x200B; het berichtinhoud van de Controle &#x200B;](control-message-content.md) verstrekt begeleiding op hoe te om uw inhoud te verzekeren voor leverability wordt geoptimaliseerd.
+[ het berichtinhoud van de Controle ](control-message-content.md) verstrekt begeleiding op hoe te om uw inhoud te verzekeren voor leverability wordt geoptimaliseerd.

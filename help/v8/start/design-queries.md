@@ -1,13 +1,13 @@
 ---
 title: Ontwerpquery's in campagne v8
-description: Meer informatie over het maken van query's
+description: Leer hoe u query's maakt in de Campagne-clientconsole
 feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
+source-git-commit: edd495a377559007dad7158c9ab4a4917d89ae73
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -18,14 +18,14 @@ Vragen worden gemaakt met velden uit de geselecteerde tabel of met een formule.
 
 De stappen voor het bouwen van een vraag in Adobe Campaign zijn als volgt:
 
-1. [&#x200B; selecteer de het werklijst &#x200B;](#step-1---choose-a-table).
-1. [&#x200B; selecteer de gegevens om &#x200B;](#step-2---choose-data-to-extract) te halen.
-1. [&#x200B; bepaalt de gegevens sorterende wijze &#x200B;](#step-3---sort-data).
-1. [&#x200B; bepaalt gegevens het filtreren opties &#x200B;](#step-4---filter-data).
-1. [&#x200B; vorm gegevens het formatteren &#x200B;](#step-5---format-data).
-1. [&#x200B; Voorproef de resultaten van de vraag &#x200B;](#step-6---preview-data).
+1. [ selecteer de het werklijst ](#step-1---choose-a-table).
+1. [ selecteer de gegevens om ](#step-2---choose-data-to-extract) te halen.
+1. [ bepaalt de gegevens sorterende wijze ](#step-3---sort-data).
+1. [ bepaalt gegevens het filtreren opties ](#step-4---filter-data).
+1. [ vorm gegevens het formatteren ](#step-5---format-data).
+1. [ Voorproef de resultaten van de vraag ](#step-6---preview-data).
 
-Al deze stappen zijn beschikbaar in de [&#x200B; generische vraagredacteur &#x200B;](query-editor.md). Wanneer een query in een andere context wordt gemaakt, ontbreken mogelijk enkele stappen. Om meer over vragen te leren, zie ook de [&#x200B; documentatie van de de activiteitenvraag van de werkschemavraag &#x200B;](../../automation/workflow/query.md).
+Al deze stappen zijn beschikbaar in de [ generische vraagredacteur ](query-editor.md). Wanneer een query in een andere context wordt gemaakt, ontbreken mogelijk enkele stappen. Om meer over vragen te leren, zie ook de [ documentatie van de de activiteitenvraag van de werkschemavraag ](../../automation/workflow/query.md).
 
 
 ## Stap 1 - Kies een tabel {#step-1---choose-a-table}
@@ -48,7 +48,7 @@ U kunt een expressie wijzigen door een formule toe te voegen of door een proces 
 
 ![](assets/query_editor_nveau_97.png)
 
-U kunt de gegevens groeperen die in de outputkolommen worden getoond. Selecteer hiervoor **[!UICONTROL Yes]** in de kolom **[!UICONTROL Group]** van het **[!UICONTROL Data to extract]** -venster. De resultaten worden vervolgens samengevoegd op basis van de geselecteerde groeperingsas. Voor een voorbeeld van een vraag die groeperen gebruikt, zie [&#x200B; deze sectie &#x200B;](../../automation/workflow/query-delivery-info.md).
+U kunt de gegevens groeperen die in de outputkolommen worden getoond. Selecteer hiervoor **[!UICONTROL Yes]** in de kolom **[!UICONTROL Group]** van het **[!UICONTROL Data to extract]** -venster. De resultaten worden vervolgens samengevoegd op basis van de geselecteerde groeperingsas. Voor een voorbeeld van een vraag die groeperen gebruikt, zie [ deze sectie ](../../automation/workflow/query-delivery-info.md).
 
 ![](assets/query_editor_nveau_56.png)
 
@@ -77,7 +77,7 @@ De vraagredacteur staat u toe om gegevens te filtreren om uw resultaten te beper
 
 Nadat u **[!UICONTROL Filtering conditions]** hebt geselecteerd, wordt de sectie **[!UICONTROL Target elements]** geopend. Hier, kunt u de regels bepalen voor het filtreren van de te verzamelen gegevens.
 
-* Als u een nieuw filter wilt maken, kiest u de velden, operatoren en waarden die nodig zijn om de voorwaarde samen te stellen. U kunt veelvoudige voorwaarden ook combineren, zoals verklaard [&#x200B; op deze pagina &#x200B;](filter-conditions.md).
+* Als u een nieuw filter wilt maken, kiest u de velden, operatoren en waarden die nodig zijn om de voorwaarde samen te stellen. U kunt veelvoudige voorwaarden ook combineren, zoals verklaard [ op deze pagina ](filter-conditions.md).
 
 * Als u een bestaand filter opnieuw wilt gebruiken, klikt u op de knop **[!UICONTROL Add]** , selecteert u **[!UICONTROL Predefined filter]** en kiest u het gewenste filter.
 
@@ -87,7 +87,7 @@ Filters die in **[!UICONTROL Generic query editor]** worden gemaakt, kunnen opni
 
 >[!NOTE]
 >
->Voor meer bij het creëren van en het gebruiken van filters, verwijs naar [&#x200B; het Filtreren opties &#x200B;](filter-conditions.md).
+>Voor meer bij het creëren van en het gebruiken van filters, verwijs naar [ het Filtreren opties ](filter-conditions.md).
 
 Zoals aangetoond in het volgende voorbeeld, om alle Engels-sprekende ontvangers terug te krijgen, selecteer: &quot;ontvankelijke taal **gelijk aan** EN&quot;.
 
@@ -111,7 +111,7 @@ Nadat u de beperkingsfilters hebt geconfigureerd, wordt het venster **[!UICONTRO
 
 >[!NOTE]
 >
->Voor meer informatie over de types van berekende gebieden, verwijs naar [&#x200B; creeer berekende gebieden &#x200B;](filter-conditions.md#creating-calculated-fields).
+>Voor meer informatie over de types van berekende gebieden, verwijs naar [ creeer berekende gebieden ](filter-conditions.md#creating-calculated-fields).
 
 Niet-geselecteerde kolommen worden verborgen in het venster met gegevensvoorvertoning.
 

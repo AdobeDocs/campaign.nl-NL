@@ -42,7 +42,7 @@ Met kubussen kunt u:
 
   ![](assets/cube-in-a-report.png)
 
-  Voor meer op dit, verwijs naar [&#x200B; de gegevens in een rapport &#x200B;](cube-tables.md#explore-the-data-in-a-report) ontdekken.
+  Voor meer op dit, verwijs naar [ de gegevens in een rapport ](cube-tables.md#explore-the-data-in-a-report) ontdekken.
 
 
 >[!CAUTION]
@@ -93,7 +93,7 @@ Voer de volgende stappen uit om afmetingen te maken:
 
 Schakel de optie **[!UICONTROL Enable binning]** in om dit te doen. [Meer informatie](customize-cubes.md#data-binning).
 
-1. Voeg de dimensie van het a **type van de Datum** &lbrace;toe. Hier willen we datums weergeven waarop het ontvangende profiel is gemaakt. Klik hiertoe op **[!UICONTROL Add]** en selecteer het veld **[!UICONTROL Creation date]** in de tabel met ontvangers.
+1. Voeg de dimensie van het a **type van de Datum** {toe. Hier willen we datums weergeven waarop het ontvangende profiel is gemaakt. Klik hiertoe op **[!UICONTROL Add]** en selecteer het veld **[!UICONTROL Creation date]** in de tabel met ontvangers.
 U kunt de modus voor datumweergave aanpassen. Selecteer hiervoor de hiërarchie die u wilt gebruiken en de niveaus die u wilt genereren:
 
 ![](assets/cube-date-dimension.png)
@@ -102,7 +102,7 @@ In ons voorbeeld willen we alleen jaren, maanden en dagen weergeven. Merk op dat
 
 1. Maak een andere dimensie voor het analyseren van gegevens ten opzichte van de stad van de ontvanger. Hiervoor voegt u een nieuwe dimensie toe en selecteert u de plaats in het knooppunt **[!UICONTROL Location]** van het ontvangende schema.
 
-U kunt het binden toelaten om informatie het lezen gemakkelijker te maken en de waarden aan een [&#x200B; opsomming &#x200B;](../config/enumerations.md) te verbinden.
+U kunt het binden toelaten om informatie het lezen gemakkelijker te maken en de waarden aan een [ opsomming ](../config/enumerations.md) te verbinden.
 
 Selecteer de opsomming in de vervolgkeuzelijst. Deze opsomming moet worden gedefinieerd als **[!UICONTROL Reserved for binning]** .
 

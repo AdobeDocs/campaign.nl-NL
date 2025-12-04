@@ -23,7 +23,7 @@ Zodra de integratie wordt gevormd, kunt u:
 * Verzamel nieuwe contacten door de profielgegevens terug te krijgen, die u toelaat om het richten campagnes uit te voeren en, waar mogelijk, om kanaalstrategieën uit te voeren. Voor deze handeling is toestemming van de gebruiker vereist.
 
 
-De stappen van de configuratie om uw rekening van X met Adobe Campaign te integreren worden beschreven in [&#x200B; deze pagina &#x200B;](../connect/ac-tw.md).
+De stappen van de configuratie om uw rekening van X met Adobe Campaign te integreren worden beschreven in [ deze pagina ](../connect/ac-tw.md).
 
 ## Een X-bericht maken en publiceren {#publish-on-tw}
 
@@ -50,7 +50,7 @@ Voer de onderstaande stappen uit om een bericht op uw X-account te plaatsen:
 
    Op het tabblad **[!UICONTROL Target of the proofs]** kunt u de X-account definiëren die voor testleveringen moet worden gebruikt voordat de levering wordt voltooid.
 
-   Zoals gedetailleerd in de [&#x200B; configuratiestappen &#x200B;](../connect/ac-tw.md#tw-test-account), moet u een privé testX rekening tot stand brengen gewijd aan het verzenden van proeven.
+   Zoals gedetailleerd in de [ configuratiestappen ](../connect/ac-tw.md#tw-test-account), moet u een privé testX rekening tot stand brengen gewijd aan het verzenden van proeven.
 
    >[!NOTE]
    >
@@ -109,11 +109,11 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
       * Selecteer **[!UICONTROL Twitter subscribers]** om een direct bericht naar al uw volgers te verzenden.
 
-      * Selecteer **[!UICONTROL Filter conditions]** om een query te definiëren en het resultaat ervan weer te geven. Leer hoe te om een filter in [&#x200B; tot stand te brengen deze sectie &#x200B;](../audiences/create-filters.md#advanced-filters).
+      * Selecteer **[!UICONTROL Filter conditions]** om een query te definiëren en het resultaat ervan weer te geven. Leer hoe te om een filter in [ tot stand te brengen deze sectie ](../audiences/create-filters.md#advanced-filters).
 
 1. Selecteer het proefdrukdoel op het tabblad **[!UICONTROL Target of the proofs]** : op dit account wordt het proefdrukken van uw directe bericht weergegeven.
 
-   Zoals gedetailleerd in de [&#x200B; configuratiestappen &#x200B;](../connect/ac-tw.md#tw-test-account), moet u een privé testX rekening tot stand brengen gewijd aan het verzenden van proeven.
+   Zoals gedetailleerd in de [ configuratiestappen ](../connect/ac-tw.md#tw-test-account), moet u een privé testX rekening tot stand brengen gewijd aan het verzenden van proeven.
 
 
    >[!NOTE]
@@ -138,7 +138,7 @@ Volg onderstaande stappen om directe berichten naar uw volgers te verzenden:
 
 1. Een proef verzenden
 
-   Alvorens uw bericht te verzenden, zorg ervoor om het te bevestigen door [&#x200B; een proef naar een testrekening &#x200B;](../send/preview-and-proof.md) te verzenden: u kunt een nauwkeurige teruggave van het bericht op een privé rekening van X dan krijgen en inhoud en verpersoonlijking controleren.
+   Alvorens uw bericht te verzenden, zorg ervoor om het te bevestigen door [ een proef naar een testrekening ](../send/preview-and-proof.md) te verzenden: u kunt een nauwkeurige teruggave van het bericht op een privé rekening van X dan krijgen en inhoud en verpersoonlijking controleren.
 
 1. Het directe bericht verzenden
 
@@ -158,5 +158,5 @@ In de ingebouwde leveringssjabloon van **[!UICONTROL Tweet]** wordt het bijhoude
 
 Trackinggegevens kunnen worden weergegeven in de leveringsrapporten en op het tabblad **[!UICONTROL Edit > Tracking]** van de levering en de service.
 
-De volgende configuratie is het zelfde als voor een e-maillevering. Leer meer over [&#x200B; het volgen &#x200B;](tracking.md).
+De volgende configuratie is het zelfde als voor een e-maillevering. Leer meer over [ het volgen ](tracking.md).
 

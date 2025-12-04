@@ -20,7 +20,7 @@ Gebruik de mogelijkheden voor marketinganalyses om gegevens te analyseren en te 
 
 U kunt de mogelijkheden van databaseverkenning en -analyse uitbreiden terwijl het voor eindgebruikers gemakkelijker wordt om rapporten en tabellen te configureren. Alles wat gebruikers moeten doen is een bestaande (volledig geconfigureerde) kubus selecteren bij het maken van hun rapport of tabel om berekeningen, metingen en statistieken te verwerken.
 
-De kubussen worden gebruikt voor het produceren van bepaalde ingebouwde rapporten, met inbegrip van [&#x200B; leveringsrapporten &#x200B;](delivery-reports.md) (levering het volgen, klikt, opent, enz.).
+De kubussen worden gebruikt voor het produceren van bepaalde ingebouwde rapporten, met inbegrip van [ leveringsrapporten ](delivery-reports.md) (levering het volgen, klikt, opent, enz.).
 
 Zodra kubussen zijn gemaakt en geconfigureerd, worden ze gebruikt in vakken voor rapportquery’s en webapplicaties. Ze kunnen worden gebruikt en bewerkt binnen draaitabellen.
 
@@ -32,7 +32,7 @@ Met de module Campagne Marketing Analytics kunt u:
    * het gegevensvolume te verminderen dat betrokken is bij de verschillende berekeningen die voor rapporten en vragen worden gebruikt, zodat de berekeningstijden van de indicatoren aanzienlijk worden geoptimaliseerd;
    * de toegang tot gegevens te vereenvoudigen, gebruikers in staat te stellen gegevens (al dan niet vooraf geaggregeerd) afhankelijk van verschillende afmetingen te manipuleren.
 
-   Voor meer op dit, verwijs naar [&#x200B; creeer indicatoren &#x200B;](cube-indicators.md).
+   Voor meer op dit, verwijs naar [ creeer indicatoren ](cube-indicators.md).
 
 1. Draaitabellen maken en gegevens verkennen
 
@@ -41,7 +41,7 @@ Met de module Campagne Marketing Analytics kunt u:
    * de gebruikte maatregelen en indicatoren aan te passen;
    * bieden interactieve analysehulpmiddelen aan gebruikers met een niet-technische achtergrond.
 
-   Voor meer op dit, verwijs naar [&#x200B; kubussen van het Gebruik om gegevens &#x200B;](cube-tables.md) te onderzoeken.
+   Voor meer op dit, verwijs naar [ kubussen van het Gebruik om gegevens ](cube-tables.md) te onderzoeken.
 
 1. Bouw een vraag gebruikend gegevens die in een kubus worden berekend en worden samengevoegd.
 1. Identificeer populaties en verwijs hen in lijsten.

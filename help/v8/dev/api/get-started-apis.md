@@ -20,9 +20,9 @@ De REST APIs van de campagne wordt gericht op het laten van u **integraties** vo
 
 >[!AVAILABILITY]
 >
->* Dit vermogen is slechts beschikbaar op bestelling, voor alle [&#x200B; milieu&#39;s FDA van de Campagne &#x200B;](../../architecture/fda-deployment.md). Het is **niet** beschikbaar voor [&#x200B; de plaatsingen van de Onderneming (FFDA) &#x200B;](../../architecture/enterprise-deployment.md). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>* Dit vermogen is slechts beschikbaar op bestelling, voor alle [ milieu&#39;s FDA van de Campagne ](../../architecture/fda-deployment.md). Het is **niet** beschikbaar voor [ de plaatsingen van de Onderneming (FFDA) ](../../architecture/enterprise-deployment.md). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 >
->* Controleer voordat u API-aanroepen uitvoert, de schaalbeperkingen bij uw licentieovereenkomst. Voor meer op dit, verwijs naar de [&#x200B; Adobe Campaign v8 Beschrijving van het Product &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+>* Controleer voordat u API-aanroepen uitvoert, de schaalbeperkingen bij uw licentieovereenkomst. Voor meer op dit, verwijs naar de [ Adobe Campaign v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 
 Met de Adobe Campaign REST API&#39;s hebt u toegang tot de volgende functies:

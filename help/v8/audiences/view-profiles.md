@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Blader naar **[!UICONTROL Profiles and targets]** om toegang te krijgen tot ontvangers die zijn opgeslagen in de Adobe Campaign-database.
 
-Van deze pagina, kunt u [&#x200B; nieuwe ontvanger &#x200B;](create-profiles.md) tot stand brengen, een bestaande ontvanger uitgeven en tot zijn profieldetails toegang hebben.
+Van deze pagina, kunt u [ nieuwe ontvanger ](create-profiles.md) tot stand brengen, een bestaande ontvanger uitgeven en tot zijn profieldetails toegang hebben.
 
 ![](assets/profiles-and-targets.png)
 
@@ -73,11 +73,11 @@ Voor een standaard ingebouwde ontvanger hebt u toegang tot de volgende tabbladen
 
   ![](assets/subscription-tab.png)
 
-  Leer meer over Abonnementen [&#x200B; in deze sectie &#x200B;](../start/subscriptions.md).
+  Leer meer over Abonnementen [ in deze sectie ](../start/subscriptions.md).
 
 * **levert**, voor alle leveringslogboeken voor het geselecteerde profiel. Op dit tabblad hebt u via alle kanalen toegang tot de marketinggeschiedenis van de contactpersoon: labels, datums en status van alle leveringsacties die aan het profiel zijn gericht.
 
 
 * **het Volgen**, voor alle het volgen logboeken voor het geselecteerde profiel. Deze informatie wordt gebruikt om profielgedrag na leveringen te volgen. Dit tabblad geeft het cumulatieve totaal weer van alle URL&#39;s die in leveringen worden bijgehouden. De lijst is configureerbaar en bevat meestal: de URL waarop is geklikt, de datum en tijd waarop is geklikt en het document dat de URL bevatte
 
-  Leer meer over het Volgen [&#x200B; in deze sectie &#x200B;](../send/tracking.md).
+  Leer meer over het Volgen [ in deze sectie ](../send/tracking.md).

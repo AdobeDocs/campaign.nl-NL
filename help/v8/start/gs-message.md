@@ -25,21 +25,21 @@ Als u berichten wilt verzenden, moet u een levering maken. De wijze van de lever
 
 >[!NOTE]
 >
->Wanneer u een levering maakt, moet u een sjabloon selecteren. Voor elk kanaal zijn standaardsjablonen beschikbaar. Leer meer over leveringsmalplaatjes in [&#x200B; deze pagina &#x200B;](../send/create-templates.md).
+>Wanneer u een levering maakt, moet u een sjabloon selecteren. Voor elk kanaal zijn standaardsjablonen beschikbaar. Leer meer over leveringsmalplaatjes in [ deze pagina ](../send/create-templates.md).
 
-1. **One-shot berichten** - u kunt one-shot berichten naar een publiek verzenden. Leer hoe te om uw eerste bericht in [&#x200B; te verzenden deze sectie &#x200B;](create-message.md).
+1. **One-shot berichten** - u kunt one-shot berichten naar een publiek verzenden. Leer hoe te om uw eerste bericht in [ te verzenden deze sectie ](create-message.md).
 
    ![](assets/send-email.png)
 
-1. **Berichten in een marketing campagne** - u kunt berichten in de context van a [&#x200B; marketing campagne &#x200B;](campaigns.md) verzenden, een goedkeuringsproces bepalen, hen verzenden en volgen in een geconsolideerd dashboard. Leer hoe in [&#x200B; deze sectie &#x200B;](../../automation/campaigns/marketing-campaign-deliveries.md).
+1. **Berichten in een marketing campagne** - u kunt berichten in de context van a [ marketing campagne ](campaigns.md) verzenden, een goedkeuringsproces bepalen, hen verzenden en volgen in een geconsolideerd dashboard. Leer hoe in [ deze sectie ](../../automation/campaigns/marketing-campaign-deliveries.md).
 
    ![](assets/deliveries-in-a-campaign.png)
 
-1. **Berichten in een werkschema** - u kunt berichten via a [&#x200B; werkschema &#x200B;](../config/workflows.md) verzenden en uw leveringen automatiseren. Leer hoe in [&#x200B; deze pagina &#x200B;](../../automation/workflow/delivery.md).
+1. **Berichten in een werkschema** - u kunt berichten via a [ werkschema ](../config/workflows.md) verzenden en uw leveringen automatiseren. Leer hoe in [ deze pagina ](../../automation/workflow/delivery.md).
 
    ![](assets/send-in-a-wf.png)
 
-1. **teweeggebrachte berichten** - u kunt [&#x200B; Berichten &#x200B;](../send/transactional.md) van een gebeurtenis teweegbrengen. Transactioneel overseinen (het Centrum van het Bericht) is de module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. De stappen om transactionele berichten te vormen en te verzenden zijn gedetailleerd in [&#x200B; deze pagina &#x200B;](../send/transactional.md)
+1. **teweeggebrachte berichten** - u kunt [ Berichten ](../send/transactional.md) van een gebeurtenis teweegbrengen. Transactioneel overseinen (het Centrum van het Bericht) is de module van de Campagne die voor het beheren van trekkerberichten wordt ontworpen. De stappen om transactionele berichten te vormen en te verzenden zijn gedetailleerd in [ deze pagina ](../send/transactional.md)
 
 ## Communicatiekanalen {#gs-channel}
 
@@ -47,16 +47,16 @@ Adobe Campaign v8 wordt geleverd met de onderstaande leveringskanalen. Welke kan
 
 * **E-mailkanaal**: De e-mailleveringen laten u gepersonaliseerde e-mails naar de doelbevolking verzenden. [Meer informatie](../send/email.md)
 
-* **Mobiele kanalen**: de leveringen op mobiele kanalen laten u gepersonaliseerde berichten op mobiele apparaten naar de doelbevolking verzenden. U kunt [&#x200B; SMS &#x200B;](../send/sms/sms.md) verzenden en [&#x200B; LIJN &#x200B;](../send/line/line.md) berichten op mobiles.
+* **Mobiele kanalen**: de leveringen op mobiele kanalen laten u gepersonaliseerde berichten op mobiele apparaten naar de doelbevolking verzenden. U kunt [ SMS ](../send/sms/sms.md) verzenden en [ LIJN ](../send/line/line.md) berichten op mobiles.
 
-* **Mobiel toepassingskanaal**: U kunt Adobe Campaign gebruiken om gepersonaliseerde en gesegmenteerde [&#x200B; dupberichten &#x200B;](../send/push.md) op iOS en Android mobiele apparaten, door specifieke apps te verzenden. Nadat configuratie- en integratiestappen zijn uitgevoerd, kunnen iOS- en Android-leveringen worden gemaakt en verzonden met Adobe Campaign. U kunt ook uitgebreide berichten met afbeeldingen of video&#39;s ontwerpen en verzenden naar Android-apparaten.
+* **Mobiel toepassingskanaal**: U kunt Adobe Campaign gebruiken om gepersonaliseerde en gesegmenteerde [ dupberichten ](../send/push.md) op iOS en Android mobiele apparaten, door specifieke apps te verzenden. Nadat configuratie- en integratiestappen zijn uitgevoerd, kunnen iOS- en Android-leveringen worden gemaakt en verzonden met Adobe Campaign. U kunt ook uitgebreide berichten met afbeeldingen of video&#39;s ontwerpen en verzenden naar Android-apparaten.
 
-* **Directe postkanaal**: [&#x200B; Directe post &#x200B;](../send/direct-mail.md) is een off-line kanaal dat u toestaat om tot stand te brengen, te personaliseren en een extern dossier te produceren om met uw directe postleveranciers te delen. Gebruik dit kanaal om online en offline kanalen in uw klantenreizen te orkesteren.
+* **Directe postkanaal**: [ Directe post ](../send/direct-mail.md) is een off-line kanaal dat u toestaat om tot stand te brengen, te personaliseren en een extern dossier te produceren om met uw directe postleveranciers te delen. Gebruik dit kanaal om online en offline kanalen in uw klantenreizen te orkesteren.
 
   Wanneer u een direct-maillevering voorbereidt, genereert Adobe Campaign een bestand met alle doelprofielen en de gekozen contactinformatie (bijvoorbeeld postadres). U kunt dit bestand vervolgens naar uw directe-mailprovider sturen, die voor de verzending zal zorgen.
 
 
-* **Andere kanalen**: Adobe Campaign komt ook met een malplaatje van de levering van de Telefoon, dat wordt gebruikt om externe leveringen tot stand te brengen. Als u dit kanaal gebruikt, implementeert u speciale methoden voor het verwerken van uitvoerbestanden. De stappen van de configuratie zijn het zelfde als voor [&#x200B; Directe postkanaal &#x200B;](../send/direct-mail.md).
+* **Andere kanalen**: Adobe Campaign komt ook met een malplaatje van de levering van de Telefoon, dat wordt gebruikt om externe leveringen tot stand te brengen. Als u dit kanaal gebruikt, implementeert u speciale methoden voor het verwerken van uitvoerbestanden. De stappen van de configuratie zijn het zelfde als voor [ Directe postkanaal ](../send/direct-mail.md).
 
   >[!NOTE]
   >
@@ -74,15 +74,15 @@ Er zijn drie typen leveringsobjecten in campagne:
 
 A **levering** is een standalone leveringsvoorwerp dat eens wordt uitgevoerd. Het kan worden gedupliceerd, opnieuw worden bereid, maar zolang het in zijn definitieve staat (geannuleerd, gestopt, gebeëindigd) is, kan het niet opnieuw worden gebruikt.
 
-De leveringen kunnen of van de lijst van leveringen, of binnen een werkschema via de activiteit van de a [&#x200B; Levering &#x200B;](../../automation/workflow/delivery.md) worden gecreeerd.
+De leveringen kunnen of van de lijst van leveringen, of binnen een werkschema via de activiteit van de a [ Levering ](../../automation/workflow/delivery.md) worden gecreeerd.
 
-Workflows bieden ook specifieke leveringsactiviteiten op basis van het type kanaal dat u wilt gebruiken. Voor meer op deze activiteiten, verwijs naar [&#x200B; deze sectie &#x200B;](../../automation/workflow/cross-channel-deliveries.md).
+Workflows bieden ook specifieke leveringsactiviteiten op basis van het type kanaal dat u wilt gebruiken. Voor meer op deze activiteiten, verwijs naar [ deze sectie ](../../automation/workflow/cross-channel-deliveries.md).
 
 ### Terugkerende levering {#recurring-delivery}
 
 A **terugkomende levering** is beschikbaar in de context van een werkschema. Hiermee kunt u telkens een nieuwe levering maken wanneer de activiteit wordt uitgevoerd. Zo voorkomt u dat u een nieuwe levering moet maken voor terugkerende taken. Als u dit soort activiteiten bijvoorbeeld eens per maand uitvoert, krijgt u na een jaar 12 leveringen.
 
-De terugkomende leveringen worden gecreeerd binnen werkschema&#39;s via de [&#x200B; Terugkomende leveringsactiviteit &#x200B;](../../automation/workflow/recurring-delivery.md). Een voorbeeld van deze activiteit die wordt gebruikt wordt voorgesteld in deze sectie: [&#x200B; Creërend een terugkomende levering in een het richten werkschema &#x200B;](../../automation/workflow/send-a-birthday-email.md).
+De terugkomende leveringen worden gecreeerd binnen werkschema&#39;s via de [ Terugkomende leveringsactiviteit ](../../automation/workflow/recurring-delivery.md). Een voorbeeld van deze activiteit die wordt gebruikt wordt voorgesteld in deze sectie: [ Creërend een terugkomende levering in een het richten werkschema ](../../automation/workflow/send-a-birthday-email.md).
 
 ### Doorlopende levering {#continuous-delivery}
 
@@ -92,11 +92,11 @@ Als een informatie in de levering verandert (inhoud, naam, enz.), wordt een nieu
 
 Als voorbeeld, als u dit type van activiteit eens per maand in werking stelt, zult u eindigen met één enkele levering na een jaar (vooropgesteld u geen verandering in de levering).
 
-De ononderbroken leveringen worden gecreeerd binnen werkschema&#39;s via de [&#x200B; Ononderbroken leveringsactiviteit &#x200B;](../../automation/workflow/continuous-delivery.md).
+De ononderbroken leveringen worden gecreeerd binnen werkschema&#39;s via de [ Ononderbroken leveringsactiviteit ](../../automation/workflow/continuous-delivery.md).
 
 ## Personalization-mogelijkheden {#personalization}
 
-Berichten van Adobe Campaign kunnen op verschillende manieren worden gepersonaliseerd. [&#x200B; leer meer over verpersoonlijkingsmogelijkheden &#x200B;](../send/personalize.md)
+Berichten van Adobe Campaign kunnen op verschillende manieren worden gepersonaliseerd. [ leer meer over verpersoonlijkingsmogelijkheden ](../send/personalize.md)
 
 U kunt:
 
@@ -109,4 +109,4 @@ U kunt:
 
 Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken. U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
 
-Leer hoe te [&#x200B; uw leveringen &#x200B;](../send/tracking.md) volgen en controleren
+Leer hoe te [ uw leveringen ](../send/tracking.md) volgen en controleren

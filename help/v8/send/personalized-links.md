@@ -35,7 +35,7 @@ Deze instructie haalt de waarde van het veld `myField` op uit het object `myObje
 
 ## URL-detectie {#url-detection}
 
-Voor het volgen opsporing, bedt Adobe Campaign [&#x200B; Tidy &#x200B;](https://www.html-tidy.org/) in om de bron van HTML te ontleden en het patroon te ontdekken. Alle URL&#39;s van de inhoud worden weergegeven zodat ze afzonderlijk kunnen worden bijgehouden. Adobe Campaign gebruikt Tidy opnieuw om de URL (`http://myurl.com`) te vervangen door een URL die naar de Adobe Campaign-omleidingsserver wijst.
+Voor het volgen opsporing, bedt Adobe Campaign [ Tidy ](https://www.html-tidy.org/) in om de bron van HTML te ontleden en het patroon te ontdekken. Alle URL&#39;s van de inhoud worden weergegeven zodat ze afzonderlijk kunnen worden bijgehouden. Adobe Campaign gebruikt Tidy opnieuw om de URL (`http://myurl.com`) te vervangen door een URL die naar de Adobe Campaign-omleidingsserver wijst.
 
 In de eerste inhoud bijvoorbeeld: `http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>` wordt voor een bepaalde ontvanger vervangen door: `http://emailing.customer.com/r/?id=h617791,71ffa3,71ffa8&p1=CustomerName`
 
