@@ -22,7 +22,7 @@ Er zijn twee milieu&#39;s voor elke het richten dimensie die wordt gebruikt wann
 
   Categorieën kunnen ook handmatig worden gepubliceerd in de online omgeving.
 
-  Het proces om aanbiedingen goed te keuren is gedetailleerd [ in deze sectie ](interaction-offer.md#approve-offers).
+  Het proces om aanbiedingen goed te keuren is gedetailleerd [&#x200B; in deze sectie &#x200B;](interaction-offer.md#approve-offers).
 
 * A **levend** milieu waarin de goedgekeurde aanbiedingen van het ontwerpmilieu, evenals de diverse aanbiedingsruimten, filters, categorieën en regels die in het ontwerpmilieu worden gevormd allen kunnen worden gevonden. Tijdens een vraag aan de motor van de Aanbieding, zal de motor altijd aanbiedingen van het levende milieu gebruiken.
 
@@ -35,7 +35,7 @@ In de module Adobe Campaign Interaction worden twee soorten interactie voorgeste
 * **binnenkomende** interactie, die door een contact in werking wordt gesteld. [Meer informatie](interaction-present-offers.md)
 * **uitgaande** interactie, die door een manager van de Levering van de Campagne in werking wordt gesteld. [Meer informatie](interaction-send-offers.md)
 
-Deze twee soorten interactie kunnen of op **eenheidwijze** worden uitgevoerd (de aanbieding wordt berekend voor één enkel contact), of op **partijwijze** (de aanbieding wordt berekend voor een reeks contacten). Over het algemeen worden binnenkomende interacties uitgevoerd in monitaire modus en uitgaande interacties in batchmodus. Niettemin, kunnen er bepaalde uitzonderingen, voor [ transactionele berichten ](../send/transactional.md) bijvoorbeeld zijn, waarbij de uitgaande interactie op eenheidswijze wordt uitgevoerd.
+Deze twee soorten interactie kunnen of op **eenheidwijze** worden uitgevoerd (de aanbieding wordt berekend voor één enkel contact), of op **partijwijze** (de aanbieding wordt berekend voor een reeks contacten). Over het algemeen worden binnenkomende interacties uitgevoerd in monitaire modus en uitgaande interacties in batchmodus. Niettemin, kunnen er bepaalde uitzonderingen, voor [&#x200B; transactionele berichten &#x200B;](../send/transactional.md) bijvoorbeeld zijn, waarbij de uitgaande interactie op eenheidswijze wordt uitgevoerd.
 
 Zodra een aanbieding kan of moet worden voorgelegd (volgens de uitgevoerde configuraties), speelt de motor van de Aanbieding de intermediaire rol: het berekent automatisch de best mogelijke aanbieding voor een contact tussen beschikbare die door ontvangen gegevens over het contact en de verschillende regels te combineren die kunnen worden toegepast zoals gespecificeerd in de toepassing.
 
@@ -43,7 +43,7 @@ Zodra een aanbieding kan of moet worden voorgelegd (volgens de uitgevoerde confi
 
 ## Verdeelde architectuur
 
-Om scalability te kunnen steunen en de dienst 24/7 op het binnenkomende kanaal te verlenen, wordt de **module van de Interactie** uitgevoerd in een verdeelde architectuur. Dit type van architectuur wordt reeds gebruikt met [ Centrum van het Bericht ](../architecture/architecture.md#transac-msg-archi) en uit verscheidene instanties samengesteld:
+Om scalability te kunnen steunen en de dienst 24/7 op het binnenkomende kanaal te verlenen, wordt de **module van de Interactie** uitgevoerd in een verdeelde architectuur. Dit type van architectuur wordt reeds gebruikt met [&#x200B; Centrum van het Bericht &#x200B;](../architecture/architecture.md#transac-msg-archi) en uit verscheidene instanties samengesteld:
 
 * één of meerdere controleinstanties gewijd aan het uitgaande kanaal en die de marketing en de basis van het milieuontwerp bevatten
 * één of meerdere uitvoeringsinstanties specifiek voor het binnenkomende kanaal
@@ -84,7 +84,7 @@ Het **pakket van de Interactie** is geïnstalleerd op alle instanties (controle 
 
 >[!NOTE]
 >
->Wanneer het installeren van het pakket, worden de **lange** typegebieden van de **nms:proposition** lijst zoals proposition identiteitskaart, **int64** typegebieden. Dit type van gegevens wordt gedetailleerd in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Wanneer het installeren van het pakket, worden de **lange** typegebieden van de **nms:proposition** lijst zoals proposition identiteitskaart, **int64** typegebieden. Dit type van gegevens wordt gedetailleerd in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 De duur van het gegevensbehoud wordt gevormd op elke instantie (via het **[!UICONTROL Data purge]** venster in de plaatsingstovenaar). Bij uitvoering moet deze periode overeenstemmen met de historische diepte die nodig is voor de berekening van de typologische regels (verschuivingstermijn) en de subsidiabiliteitsregels.
 

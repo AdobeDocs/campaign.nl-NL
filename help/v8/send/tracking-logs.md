@@ -48,7 +48,7 @@ Op dit tabblad kunt u het volgende weergeven:
 
 >[!NOTE]
 >
->Als het tabblad **[!UICONTROL Tracking]** van een levering niet wordt weergegeven, betekent dit dat het bijhouden van gegevens niet is geactiveerd. Verwijs naar [ deze sectie ](tracked-links.md) te leren hoe te om het volgen te vormen.
+>Als het tabblad **[!UICONTROL Tracking]** van een levering niet wordt weergegeven, betekent dit dat het bijhouden van gegevens niet is geactiveerd. Verwijs naar [&#x200B; deze sectie &#x200B;](tracked-links.md) te leren hoe te om het volgen te vormen.
 
 ### De technische workflow voor bijhouden controleren {#check-tracking-workflow}
 

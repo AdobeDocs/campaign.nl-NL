@@ -28,13 +28,13 @@ U kunt het bijhouden van wijzigingen op spiegelpagina&#39;s, e-maillogboeken en 
 
 ## Stap 1: Maak een testlevering {#create-test-delivery}
 
-1. Maak een nieuwe e-maillevering die wordt gebruikt voor het testen. [ leren hoe te om een levering ](../start/create-message.md) tot stand te brengen
-1. Ontwerp uw e-mailinhoud met koppelingen die u wilt bijhouden. [ Leer over het ontwerp van e-mailinhoud ](defining-the-email-content.md)
-1. Voeg een het verpersoonlijkingsblok van de spiegelpagina in de e-mailinhoud toe. [ Leer over verpersoonlijkingsblokken ](personalization-blocks.md)
+1. Maak een nieuwe e-maillevering die wordt gebruikt voor het testen. [&#x200B; leren hoe te om een levering &#x200B;](../start/create-message.md) tot stand te brengen
+1. Ontwerp uw e-mailinhoud met koppelingen die u wilt bijhouden. [&#x200B; Leer over het ontwerp van e-mailinhoud &#x200B;](defining-the-email-content.md)
+1. Voeg een het verpersoonlijkingsblok van de spiegelpagina in de e-mailinhoud toe. [&#x200B; Leer over verpersoonlijkingsblokken &#x200B;](personalization-blocks.md)
 
    ![](assets/mirror-page-insert.png)
 
-1. Geef de gebruiker op die de e-mail zal ontvangen. Aangezien deze gebruiker het e-mailbericht moet openen en op de koppelingen moet klikken die het bevat, moet u een adres voor de testontvanger selecteren dat u beheert. [ leer over testprofielen ](../audiences/test-profiles.md)
+1. Geef de gebruiker op die de e-mail zal ontvangen. Aangezien deze gebruiker het e-mailbericht moet openen en op de koppelingen moet klikken die het bevat, moet u een adres voor de testontvanger selecteren dat u beheert. [&#x200B; leer over testprofielen &#x200B;](../audiences/test-profiles.md)
 
 ## Stap 2: Verzend de testlevering {#send-test}
 
@@ -48,13 +48,13 @@ U kunt het bijhouden van wijzigingen op spiegelpagina&#39;s, e-maillogboeken en 
 
 [Meer informatie over opties voor het bijhouden van URL&#39;s](url-tracking.md)
 
-1. Verzend de levering aan uw testontvanger. [ Leer over het verzenden van leveringen ](configure-and-send.md)
+1. Verzend de levering aan uw testontvanger. [&#x200B; Leer over het verzenden van leveringen &#x200B;](configure-and-send.md)
 
 ## Stap 3: functionaliteit voor bijhouden controleren {#verify-tracking}
 
-1. Nadat u het e-mailbericht hebt ontvangen, opent u het en klikt u op de koppeling naar de spiegelpagina. [ leren over spiegelpagina&#39;s ](mirror-page.md)
+1. Nadat u het e-mailbericht hebt ontvangen, opent u het en klikt u op de koppeling naar de spiegelpagina. [&#x200B; leren over spiegelpagina&#39;s &#x200B;](mirror-page.md)
 1. Klik op verschillende koppelingen in de e-mail om trackinggegevens te genereren.
-1. Nadat u correct naar de spiegelpagina wordt omgeleid, heb toegang tot de **[!UICONTROL Administration > Production > Technical workflows]** omslag. [ Leer over werkschema&#39;s ](../config/workflows.md)
+1. Nadat u correct naar de spiegelpagina wordt omgeleid, heb toegang tot de **[!UICONTROL Administration > Production > Technical workflows]** omslag. [&#x200B; Leer over werkschema&#39;s &#x200B;](../config/workflows.md)
 1. Open de **[!UICONTROL Tracking]** -workflow.
 1. Start de workflow of klik met de rechtermuisknop op de **[!UICONTROL Scheduler]** -activiteit en selecteer **[!UICONTROL Execute pending task now]** .
 1. Wacht ongeveer 30 seconden op de werkstroom om de volgende logboeken te verwerken.
@@ -69,10 +69,10 @@ U kunt het bijhouden van wijzigingen op spiegelpagina&#39;s, e-maillogboeken en 
 
 ## Stap 4: Het tabblad voor het bijhouden van ontvangers controleren {#check-recipient-tracking}
 
-1. Ga naar de profielpagina van de ontvanger u voor de test gebruikte. [ leer over het bekijken profielen ](../audiences/view-profiles.md)
+1. Ga naar de profielpagina van de ontvanger u voor de test gebruikte. [&#x200B; leer over het bekijken profielen &#x200B;](../audiences/view-profiles.md)
    * De profielpagina van de ontvanger bevindt zich standaard in de map **[!UICONTROL Profiles and Targets > Recipients]** .
 
-1. Selecteer het tabblad **[!UICONTROL Tracking]**. [ Leer meer over het volgen logboeken ](tracking-logs.md)
+1. Selecteer het tabblad **[!UICONTROL Tracking]**. [&#x200B; Leer meer over het volgen logboeken &#x200B;](tracking-logs.md)
 
    ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
@@ -85,15 +85,15 @@ U kunt het bijhouden van wijzigingen op spiegelpagina&#39;s, e-maillogboeken en 
 
 Als de trackinglogboeken niet worden weergegeven:
 
-1. **de leveringsmontages van de Controle**: Ga naar de levering en toegang tot zijn **[!UICONTROL Properties]** om ervoor te zorgen dat zowel **[!UICONTROL Activate tracking]** als **[!UICONTROL Opens tracking]** opties worden gecontroleerd. [ Leer meer over URL het volgen opties ](url-tracking.md)
+1. **de leveringsmontages van de Controle**: Ga naar de levering en toegang tot zijn **[!UICONTROL Properties]** om ervoor te zorgen dat zowel **[!UICONTROL Activate tracking]** als **[!UICONTROL Opens tracking]** opties worden gecontroleerd. [&#x200B; Leer meer over URL het volgen opties &#x200B;](url-tracking.md)
 
-1. **verifieer het Volgen werkschema**: Zorg ervoor het **[!UICONTROL Tracking]** technische werkschema zonder fouten loopt. [ Leer over het volgen werkschemaoplossen ](tracking-logs.md#check-tracking-workflow)
+1. **verifieer het Volgen werkschema**: Zorg ervoor het **[!UICONTROL Tracking]** technische werkschema zonder fouten loopt. [&#x200B; Leer over het volgen werkschemaoplossen &#x200B;](tracking-logs.md#check-tracking-workflow)
 
-1. **het formaat van de Controle URL**: Verifieer dat uw URLs correct geformatteerd en ingesloten in afbakeningen is. [ Leer meer over het vormen van bijgehouden verbindingen ](tracked-links.md)
+1. **het formaat van de Controle URL**: Verifieer dat uw URLs correct geformatteerd en ingesloten in afbakeningen is. [&#x200B; Leer meer over het vormen van bijgehouden verbindingen &#x200B;](tracked-links.md)
 
-1. **e-mailcliëntgedrag van het Overzicht**: Sommige e-mailcliënten kunnen het volgen pixel blokkeren of verbindingen wijzigen. Test het met verschillende e-mailclients. [ Leer over levering beste praktijken ](../start/delivery-best-practices.md)
+1. **e-mailcliëntgedrag van het Overzicht**: Sommige e-mailcliënten kunnen het volgen pixel blokkeren of verbindingen wijzigen. Test het met verschillende e-mailclients. [&#x200B; Leer over levering beste praktijken &#x200B;](../start/delivery-best-practices.md)
 
-1. **wacht op verwerking**: De het Volgen werkschemalooppas per uur door gebrek. Als u het handmatig activeert, moet u voldoende tijd toestaan voor de verwerking voordat u de resultaten controleert. [ Leer meer over het volgen logboeken ](tracking-logs.md)
+1. **wacht op verwerking**: De het Volgen werkschemalooppas per uur door gebrek. Als u het handmatig activeert, moet u voldoende tijd toestaan voor de verwerking voordat u de resultaten controleert. [&#x200B; Leer meer over het volgen logboeken &#x200B;](tracking-logs.md)
 
 ## Verwante onderwerpen {#related-topics}
 
