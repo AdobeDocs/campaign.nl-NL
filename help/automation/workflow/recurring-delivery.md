@@ -55,4 +55,4 @@ Deze video verklaart hoe te om een terugkomende levering en een planneractivitei
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-De extra campagne hoe-aan video&#39;s is beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+De extra campagne hoe-aan video&#39;s is beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=nl-NL){target="_blank"}.

@@ -17,7 +17,7 @@ ht-degree: 1%
 
 De LIJN is een toepassing voor vrij Onmiddellijk overseinen, stem en videovraag, beschikbaar op alle mobiele apparaten en op PC. U kunt Adobe Campaign gebruiken om LIJNberichten te verzenden.
 
-[!DNL LINE] kan ook worden gecombineerd met de module Transactiebericht om realtime berichten te verzenden via de [!DNL LINE] -app die is geïnstalleerd in mobiele apparaten voor consumenten. Voor meer op dit, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) in de documentatie van Campaign Classic v7.
+[!DNL LINE] kan ook worden gecombineerd met de module Transactiebericht om realtime berichten te verzenden via de [!DNL LINE] -app die is geïnstalleerd in mobiele apparaten voor consumenten. Voor meer op dit, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) in de documentatie van Campaign Classic v7.
 
 ![](assets/line_message.png)
 

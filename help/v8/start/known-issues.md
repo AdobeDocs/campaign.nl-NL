@@ -86,7 +86,7 @@ De oplossing is het gebruik van een oudere clientconsole. Vervolgens kunt u het 
 
 Als beheerder van de Campagne, kunt u Campagne v8.3.1 de Console van de Cliënt in [&#x200B; de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&layout by.sort=desc=list&p.offset=0&p.limit=4){target="_blank"} downloaden.
 
-Leer hoe te om tot de Distributie van de Software van Adobe [&#x200B; in deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"} toegang te hebben.
+Leer hoe te om tot de Distributie van de Software van Adobe [&#x200B; in deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=nl-NL){target="_blank"} toegang te hebben.
 
 Leer hoe te om uw Console van de Cliënt [&#x200B; in deze pagina te bevorderen &#x200B;](connect.md)
 

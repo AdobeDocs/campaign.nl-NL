@@ -60,7 +60,7 @@ Het is mogelijk de tabel voor ontvangers uit te breiden, maar niet om het aantal
 
 Leer hoe te om een bestaand schema in [&#x200B; uit te breiden deze sectie &#x200B;](extend-schema.md).
 
-Ontdek voorbeelden van ingebouwde ontvankelijke lijstuitbreidingen in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
+Ontdek voorbeelden van ingebouwde ontvankelijke lijstuitbreidingen in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=nl-NL#extending-a-table){target="_blank"}
 
 U kunt een verschillende ontvankelijke lijst ook gebruiken om beter met uw zaken of functionele vereisten te passen. Deze methode komt met beperkingen en wordt beschreven in [&#x200B; deze sectie &#x200B;](custom-recipient.md).
 

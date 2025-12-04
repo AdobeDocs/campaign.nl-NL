@@ -84,7 +84,7 @@ Het **pakket van de Interactie** is geïnstalleerd op alle instanties (controle 
 
 >[!NOTE]
 >
->Wanneer het installeren van het pakket, worden de **lange** typegebieden van de **nms:proposition** lijst zoals proposition identiteitskaart, **int64** typegebieden. Dit type van gegevens wordt gedetailleerd in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Wanneer het installeren van het pakket, worden de **lange** typegebieden van de **nms:proposition** lijst zoals proposition identiteitskaart, **int64** typegebieden. Dit type van gegevens wordt gedetailleerd in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=nl-NL#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 De duur van het gegevensbehoud wordt gevormd op elke instantie (via het **[!UICONTROL Data purge]** venster in de plaatsingstovenaar). Bij uitvoering moet deze periode overeenstemmen met de historische diepte die nodig is voor de berekening van de typologische regels (verschuivingstermijn) en de subsidiabiliteitsregels.
 

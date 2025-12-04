@@ -20,7 +20,7 @@ Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen.
 
 >[!IMPORTANT]
 >
->Om certificaten in [&#x200B; Adobe Developer &#x200B;](https://developer.adobe.com/) te beheren, zorg ervoor u **de beheerderrechten van het Systeem** op de organisatie of a [&#x200B; ontwikkelaarrekening &#x200B;](https://helpx.adobe.com/enterprise/using/manage-developers.html) in Admin Console hebt.
+>Om certificaten in [&#x200B; Adobe Developer &#x200B;](https://developer.adobe.com/) te beheren, zorg ervoor u **de beheerderrechten van het Systeem** op de organisatie of a [&#x200B; ontwikkelaarrekening &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html) in Admin Console hebt.
 
 1. **Controle u een digitaal certificaat** hebt, of creeer indien nodig. De openbare en persoonlijke sleutels die van het certificaat worden voorzien zijn vereist in de volgende stappen.
 1. **creeer een nieuwe integratie aan de Dienst van Adobe Campaign** in [&#x200B; Adobe Developer &#x200B;](https://developer.adobe.com/) en vorm het. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).

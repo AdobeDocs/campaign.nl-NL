@@ -26,7 +26,7 @@ Leer hoe te om vragen door gebruiksgevallen in [&#x200B; te bouwen deze sectie &
 
 >[!NOTE]
 >
->De gebruikersinterface van het Web van Adobe Campaign kenmerkt een krachtige vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd, die u toestaan om uw vraag tot stand te brengen en gemakkelijker te beheren. Meer over de modelleerling van de Vraag voor Web UI leren, gelieve te verwijzen naar de [&#x200B; documentatie van het Web UI van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
+>De gebruikersinterface van het Web van Adobe Campaign kenmerkt een krachtige vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd, die u toestaan om uw vraag tot stand te brengen en gemakkelijker te beheren. Meer over de modelleerling van de Vraag voor Web UI leren, gelieve te verwijzen naar de [&#x200B; documentatie van het Web UI van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
 
 Met de koppeling **[!UICONTROL Edit query...]** kunt u het doeltype, de beperkingen en de selectiecriteria voor de bevolking als volgt definiëren:
 

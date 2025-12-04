@@ -94,7 +94,7 @@ Als uw levering niet wordt verzonden en de status ervan **[!UICONTROL Pending]**
 
   De limiet van gelijktijdige campagnes wordt gedefinieerd in de optie **[!UICONTROL NmsOperation_LimitConcurrency]** . De standaardwaarde is 10.
 
-  Als gebruiker van Managed Cloud Services kunt u indien nodig met Adobe samenwerken om deze limiet aan te passen. Leer meer over opties in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}.
+  Als gebruiker van Managed Cloud Services kunt u indien nodig met Adobe samenwerken om deze limiet aan te passen. Leer meer over opties in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=nl-NL){target="_blank"}.
 
 * **de beschikbaarheidskwesties van het Middel**
 

@@ -36,7 +36,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Leer hoe te met Adobe Experience Cloud te verbinden, en tot de interface van het Web van Adobe Campaign [&#x200B; in deze pagina &#x200B;](campaign-ui.md#ac-web-ui) toegang te hebben.
 
-   Leer meer in de [&#x200B; gebruikersinterfacedocumentatie van het Web van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+   Leer meer in de [&#x200B; gebruikersinterfacedocumentatie van het Web van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
 1. **kan Campagne v8 op een op-gebouw of hybride milieu worden geïnstalleerd?**
 
@@ -48,7 +48,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Verwijs naar deze gids om [&#x200B; Aanbevolen Praktijken van de Levering te leren &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}
 
-   Leer hoe te om leverbaarheid in Campagne [&#x200B; in deze gids uit te voeren &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
+   Leer hoe te om leverbaarheid in Campagne [&#x200B; in deze gids uit te voeren &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=nl-NL){target="_blank"}
 
 1. **Hoe kan ik ervoor zorgen mijn levering zonder fouten wordt verzonden?**
 
@@ -58,7 +58,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
 1. **Kan ik werkschemauitvoering controleren?**
 
-   Begrijp hoe te om het werkschemauitvoering van de Campagne [&#x200B; te controleren deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html)
+   Begrijp hoe te om het werkschemauitvoering van de Campagne [&#x200B; te controleren deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=nl-NL)
 
 1. **Welke systemen en componentenCampagne v8 is compatibel met?**
 
@@ -86,7 +86,7 @@ Hebt u hulp nodig terwijl u met de campagne werkt? Lees de belangrijkste vragen/
 
    Als Admin gebruiker, heb toegang tot de Distributie van de Software van Adobe [&#x200B; &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}  om Adobe Campaign te downloaden.
 
-   Leer meer over het Centrum van de Distributie [&#x200B; in deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
+   Leer meer over het Centrum van de Distributie [&#x200B; in deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=nl-NL){target="_blank"}.
 
 1. **kan ik met de deskundigen van de Campagne verbinden?**
 

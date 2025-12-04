@@ -145,7 +145,7 @@ ht-degree: 29%
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Workflows {#workflows}
    + [Aan de slag met workflows](config/workflows.md)
-   + [&#x200B; Documentatie van het Werkschema > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [&#x200B; Documentatie van het Werkschema > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
 + Privacy en beveiliging {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
    + [Beveiligingsrichtlijnen](config/security.md)
@@ -197,7 +197,7 @@ ht-degree: 29%
       + [Query&#39;s ontwerpen](start/design-queries.md)
       + [Filtervoorwaarden definiëren](start/filter-conditions.md)
    + [Gegevens importeren](start/import.md)
-   + [&#x200B; Documentatie van het Werkschema > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [&#x200B; Documentatie van het Werkschema > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
 + Integraties {#connect}
    + [Campagne verbinden met andere oplossingen](connect/integration.md)
    + Campagne + Experience Platform {#ac-aep}
@@ -283,6 +283,6 @@ ht-degree: 29%
          + [Een workflow beheren](dev/api/controlling-a-workflow.md)
          + [Een signaalactiviteit activeren](dev/api/triggering-a-signal-activity.md)
 + Aanvullende bronnen {#resources}
-   + [&#x200B; de Technische Nota&#39;s van de Campagne > &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
-   + [&#x200B; Documentatie van het Gebruikersinterface van het Web van de Campagne > &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
+   + [&#x200B; de Technische Nota&#39;s van de Campagne > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/technotes-ac/technotes-home)
+   + [&#x200B; Documentatie van het Gebruikersinterface van het Web van de Campagne > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home)
 

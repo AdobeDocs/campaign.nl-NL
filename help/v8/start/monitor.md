@@ -51,11 +51,11 @@ Workflows zijn essentieel om uw marketingcampagnes en gegevensverwerking te auto
 
 **controleert de volgende werkschemaelementen:**
 
-**de uitvoeringsstatus van het Werkschema** - spoor of de werkschema&#39;s lopen, gepauzeerd, ontbroken, of voltooid zijn. [&#x200B; Leer meer over werkschemauitvoering &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+**de uitvoeringsstatus van het Werkschema** - spoor of de werkschema&#39;s lopen, gepauzeerd, ontbroken, of voltooid zijn. [&#x200B; Leer meer over werkschemauitvoering &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=nl-NL){target="_blank"}
 
 **de uitvoeringslogboeken van de Activiteit** - toegang gedetailleerde logboeken voor elke werkschemaactiviteit om kwesties problemen op te lossen en prestaties te optimaliseren.
 
-**hitmap van het Werkschema** - visualiseer de patronen van de werkschemauitvoering, identificeer knelpunten, en controleer gezamenlijke werkschema&#39;s. De workflow HeatMap is beschikbaar voor campagnebeheerders. [&#x200B; Leer meer over werkschemaritmap &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+**hitmap van het Werkschema** - visualiseer de patronen van de werkschemauitvoering, identificeer knelpunten, en controleer gezamenlijke werkschema&#39;s. De workflow HeatMap is beschikbaar voor campagnebeheerders. [&#x200B; Leer meer over werkschemaritmap &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=nl-NL){target="_blank"}
 
 **geschiedenis van het Werkschema** - spoor alle werkschemauitvoeringen en wijzigingen in tijd om werkschemagedrag en prestaties te begrijpen.
 
@@ -82,13 +82,13 @@ Leer meer over [&#x200B; spoor van de Controle &#x200B;](../reporting/audit-trai
 
 Campagne v8 biedt verschillende controlemogelijkheden om de prestaties van uw instantie te volgen en een optimale werking te garanderen:
 
-**controle van het Gegevensbestand** - het gegevensbestandgebruik en de capaciteit van de Monitor door Controlebord om optimale prestaties en opslagbeheer te verzekeren. [&#x200B; Leer meer over gegevensbestand controle &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+**controle van het Gegevensbestand** - het gegevensbestandgebruik en de capaciteit van de Monitor door Controlebord om optimale prestaties en opslagbeheer te verzekeren. [&#x200B; Leer meer over gegevensbestand controle &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html?lang=nl-NL){target="_blank"}
 
-**Actieve profielen die** controleren - spoor actief profielgebruik tegen uw contractuele grenzen om naleving te handhaven en middeltoewijzing te optimaliseren. [&#x200B; leer meer over actieve profielen &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
+**Actieve profielen die** controleren - spoor actief profielgebruik tegen uw contractuele grenzen om naleving te handhaven en middeltoewijzing te optimaliseren. [&#x200B; leer meer over actieve profielen &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=nl-NL){target="_blank"}
 
 **controle van het Werkschema** - de status van de werkschemauitvoering van de monitor om langdurige werkschema&#39;s te identificeren en alle technische werkschema&#39;s te verzekeren correct lopen. [&#x200B; leer meer over technische werkschema&#39;s &#x200B;](#technical-workflows)
 
-**Productie en latentie van de levering** - de leveringproductie van het spoor (berichten die per uur worden verzonden) en latentie voor transactionele mededelingen door Controlebord. [&#x200B; leer meer over productie controle &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
+**Productie en latentie van de levering** - de leveringproductie van het spoor (berichten die per uur worden verzonden) en latentie voor transactionele mededelingen door Controlebord. [&#x200B; leer meer over productie controle &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html?lang=nl-NL){target="_blank"}
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Technische workflows zijn essentiële processen die op de achtergrond worden uit
 | **de update van de Leverbaarheid** | Werkt leverbaarbaarheidsregels en spamfilterpatronen bij |
 | **Opschonen van het Gegevensbestand** | Oude bezorgings- en trackinglogboeken worden gewist |
 
-Leer meer over [&#x200B; technische werkschema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+Leer meer over [&#x200B; technische werkschema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=nl-NL){target="_blank"}
 
 ### Campaign-configuratiescherm {#control-panel}
 
