@@ -17,27 +17,27 @@ Adobe Campaign biedt een uitgebreide reeks mogelijkheden om uw processen, leveri
 
 >[!NOTE]
 >
->Als beheerder van de Campagne, kunt u [ Controlebord van de Campagne ](#control-panel) ook gebruiken om uw instanties te controleren, prestaties te beheren, en montages met zelfbediening mogelijkheden te vormen.
+>Als beheerder van de Campagne, kunt u [&#x200B; Controlebord van de Campagne &#x200B;](#control-panel) ook gebruiken om uw instanties te controleren, prestaties te beheren, en montages met zelfbediening mogelijkheden te vormen.
 
 ## Uw leveringen controleren {#monitor-deliveries}
 
 Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken. Na het verzenden van een levering, kunt u zijn status controleren en zeer belangrijke metriek in het leveringsdashboard volgen. Het dashboard verleent toegang tot leveringslogboeken, uitsluitingslogboeken, het volgen logboeken, en andere controlemogelijkheden om u te helpen uw leveringsprestaties over alle kanalen analyseren.
 
-**E-mailleveringen** - de status van de e-maillevering van de monitor, spoorzeer belangrijke metriek, en toegang gedetailleerde logboeken. Leer meer over [ controleleveringen in Campagne UI ](../send/delivery-dashboard.md), [ leveringsstatussen ](../send/delivery-statuses.md) en [ e-mailleveringscontrole ](../send/send.md#email-monitoring).
+**E-mailleveringen** - de status van de e-maillevering van de monitor, spoorzeer belangrijke metriek, en toegang gedetailleerde logboeken. Leer meer over [&#x200B; controleleveringen in Campagne UI &#x200B;](../send/delivery-dashboard.md), [&#x200B; leveringsstatussen &#x200B;](../send/delivery-statuses.md) en [&#x200B; e-mailleveringscontrole &#x200B;](../send/send.md#email-monitoring).
 
-{de leveringen van 0} SMS **- de leveringsstatus van het Sms van het Spoor en controleren zeer belangrijke metriek in het de leveringsdashboard van SMS.** Leer meer over [ controle van SMS ](../send/sms/sms-monitor.md).
+{de leveringen van 0} SMS **- de leveringsstatus van het Sms van het Spoor en controleren zeer belangrijke metriek in het de leveringsdashboard van SMS.** Leer meer over [&#x200B; controle van SMS &#x200B;](../send/sms/sms-monitor.md).
 
-**duw berichten** - de levering van het pushbericht van de Monitor om ervoor te zorgen zij uw mobiele app gebruikers effectief bereiken. Leer meer over [ duw- bericht controle ](../send/push.md#push-test).
+**duw berichten** - de levering van het pushbericht van de Monitor om ervoor te zorgen zij uw mobiele app gebruikers effectief bereiken. Leer meer over [&#x200B; duw- bericht controle &#x200B;](../send/push.md#push-test).
 
-**Transactionele berichten** - voor berichten die door gebeurtenissen worden teweeggebracht, de status van de gebeurtenisverwerking, berichtuitvoering en leveringsstatus controleren. Leer meer over [ transactiebericht controle ](../send/delivery-execution.md#monitor-messages).
+**Transactionele berichten** - voor berichten die door gebeurtenissen worden teweeggebracht, de status van de gebeurtenisverwerking, berichtuitvoering en leveringsstatus controleren. Leer meer over [&#x200B; transactiebericht controle &#x200B;](../send/delivery-execution.md#monitor-messages).
 
-**mislukkingen van de Levering** - Begrijpend waarom een mislukte levering kritiek is om een schoon gegevensbestand te handhaven en goede leverbaarheidstarieven te verzekeren. Leveringsfouten worden geclassificeerd in harde stuiteringen, zachte stuiteringen en genegeerde berichten. Leer meer over [ leveringsmislukkingen en quarantines ](../send/delivery-failures.md).
+**mislukkingen van de Levering** - Begrijpend waarom een mislukte levering kritiek is om een schoon gegevensbestand te handhaven en goede leverbaarheidstarieven te verzekeren. Leveringsfouten worden geclassificeerd in harde stuiteringen, zachte stuiteringen en genegeerde berichten. Leer meer over [&#x200B; leveringsmislukkingen en quarantines &#x200B;](../send/delivery-failures.md).
 
 ## Te leveren items bewaken {#monitor-deliverability}
 
 Dankzij de bewaking van de aflevering kunt u ervoor zorgen dat uw berichten de inboxes van de ontvangers bereiken en spamfilters voorkomen. Adobe Campaign biedt verschillende ingebouwde tools voor het bewaken en verbeteren van de leverbaarbaarheid, waaronder leveringsrapporten, inbox-rendering, SpamAssassin-tests en uitzendstatistieken. De volgende best practices op het gebied van leverbaarheid, zoals het bijhouden van een schone e-maillijst, het controleren van de reputatie van de afzender en het verifiëren van verzendende domeinen, zijn van essentieel belang voor het handhaven van goede leveringspercentages.
 
-Leer meer over [ de controlehulpmiddelen van de leverbaarheid ](../send/monitoring-deliverability.md) en [ best practices van de leverbaarheid ](../send/about-deliverability.md).
+Leer meer over [&#x200B; de controlehulpmiddelen van de leverbaarheid &#x200B;](../send/monitoring-deliverability.md) en [&#x200B; best practices van de leverbaarheid &#x200B;](../send/about-deliverability.md).
 
 ## Workflows bewaken {#monitor-workflows}
 
@@ -51,11 +51,11 @@ Workflows zijn essentieel om uw marketingcampagnes en gegevensverwerking te auto
 
 **controleert de volgende werkschemaelementen:**
 
-**de uitvoeringsstatus van het Werkschema** - spoor of de werkschema&#39;s lopen, gepauzeerd, ontbroken, of voltooid zijn. [ Leer meer over werkschemauitvoering ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+**de uitvoeringsstatus van het Werkschema** - spoor of de werkschema&#39;s lopen, gepauzeerd, ontbroken, of voltooid zijn. [&#x200B; Leer meer over werkschemauitvoering &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 **de uitvoeringslogboeken van de Activiteit** - toegang gedetailleerde logboeken voor elke werkschemaactiviteit om kwesties problemen op te lossen en prestaties te optimaliseren.
 
-**hitmap van het Werkschema** - visualiseer de patronen van de werkschemauitvoering, identificeer knelpunten, en controleer gezamenlijke werkschema&#39;s. De workflow HeatMap is beschikbaar voor campagnebeheerders. [ Leer meer over werkschemaritmap ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+**hitmap van het Werkschema** - visualiseer de patronen van de werkschemauitvoering, identificeer knelpunten, en controleer gezamenlijke werkschema&#39;s. De workflow HeatMap is beschikbaar voor campagnebeheerders. [&#x200B; Leer meer over werkschemaritmap &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
 
 **geschiedenis van het Werkschema** - spoor alle werkschemauitvoeringen en wijzigingen in tijd om werkschemagedrag en prestaties te begrijpen.
 
@@ -76,19 +76,19 @@ Met de zelfbedieningsinterface van het audittrail kunt u de wijzigingen in uw Ad
 
 Het spoor van de Controle is toegankelijk door de de cliëntconsole van de Campagne en verstrekt gedetailleerde informatie over acties die door gebruikers worden uitgevoerd.
 
-Leer meer over [ spoor van de Controle ](../reporting/audit-trail.md)
+Leer meer over [&#x200B; spoor van de Controle &#x200B;](../reporting/audit-trail.md)
 
 ### Prestatiebewaking {#performance-monitoring}
 
 Campagne v8 biedt verschillende controlemogelijkheden om de prestaties van uw instantie te volgen en een optimale werking te garanderen:
 
-**controle van het Gegevensbestand** - het gegevensbestandgebruik en de capaciteit van de Monitor door Controlebord om optimale prestaties en opslagbeheer te verzekeren. [ Leer meer over gegevensbestand controle ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+**controle van het Gegevensbestand** - het gegevensbestandgebruik en de capaciteit van de Monitor door Controlebord om optimale prestaties en opslagbeheer te verzekeren. [&#x200B; Leer meer over gegevensbestand controle &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
 
-**Actieve profielen die** controleren - spoor actief profielgebruik tegen uw contractuele grenzen om naleving te handhaven en middeltoewijzing te optimaliseren. [ leer meer over actieve profielen ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
+**Actieve profielen die** controleren - spoor actief profielgebruik tegen uw contractuele grenzen om naleving te handhaven en middeltoewijzing te optimaliseren. [&#x200B; leer meer over actieve profielen &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
 
-**controle van het Werkschema** - de status van de werkschemauitvoering van de monitor om langdurige werkschema&#39;s te identificeren en alle technische werkschema&#39;s te verzekeren correct lopen. [ leer meer over technische werkschema&#39;s ](#technical-workflows)
+**controle van het Werkschema** - de status van de werkschemauitvoering van de monitor om langdurige werkschema&#39;s te identificeren en alle technische werkschema&#39;s te verzekeren correct lopen. [&#x200B; leer meer over technische werkschema&#39;s &#x200B;](#technical-workflows)
 
-**Productie en latentie van de levering** - de leveringproductie van het spoor (berichten die per uur worden verzonden) en latentie voor transactionele mededelingen door Controlebord. [ leer meer over productie controle ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
+**Productie en latentie van de levering** - de leveringproductie van het spoor (berichten die per uur worden verzonden) en latentie voor transactionele mededelingen door Controlebord. [&#x200B; leer meer over productie controle &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Technische workflows zijn essentiële processen die op de achtergrond worden uit
 | **de update van de Leverbaarheid** | Werkt leverbaarbaarheidsregels en spamfilterpatronen bij |
 | **Opschonen van het Gegevensbestand** | Oude bezorgings- en trackinglogboeken worden gewist |
 
-Leer meer over [ technische werkschema&#39;s ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+Leer meer over [&#x200B; technische werkschema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
 ### Campaign-configuratiescherm {#control-panel}
 
@@ -125,7 +125,7 @@ Het Controlebord van de campagne voorziet beheerders van zelfbediening mogelijkh
 | **Infrastructuur** | SFTP-opslagcapaciteit bewaken, subdomeinconfiguratie volgen, verlopen van SSL-certificaten controleren, lijst met IP-adressen beheren |
 | **Instantie** | Builversie en geïnstalleerde pakketten weergeven, systeemconfiguratie controleren, geautoriseerde externe domeinen beheren |
 
-Leer meer over [ Controle ](../config/self-service.md) en [ de prestaties van het Controlebord controle ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl){target="_blank"}
+Leer meer over [&#x200B; Controle &#x200B;](../config/self-service.md) en [&#x200B; de prestaties van het Controlebord controle &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl){target="_blank"}
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Houd het gedrag van ontvangers bij en meet de doeltreffendheid van uw campagnes:
 * **Unsubscribes**: De verzoeken van de spooropt-out
 * **spiegel paginameningen**: Zie hoeveel ontvangers uw e-mail in browser bekijken
 
-Leer meer over [ bericht het volgen ](../send/tracking.md)
+Leer meer over [&#x200B; bericht het volgen &#x200B;](../send/tracking.md)
 
 ### Leveringsrapporten {#delivery-reports}
 
@@ -153,7 +153,7 @@ Adobe Campaign biedt een uitgebreide reeks rapporten om uw prestaties van de lev
 * **URLs en klik stromen**: De populairste verbindingen in uw leveringen
 * **Het klikt**: Visuele vertegenwoordiging van waar de ontvangers in uw e-mail klikte
 
-Leer meer over [ leveringsrapporten ](../reporting/delivery-reports.md)
+Leer meer over [&#x200B; leveringsrapporten &#x200B;](../reporting/delivery-reports.md)
 
 ### Algemene rapporten {#global-reports}
 
@@ -163,7 +163,7 @@ Toegang tot algemene rapporten om de prestaties in alle campagnes en leveringen 
 * **niet-te leveren items en stuitingen**: Analyse van ontbroken leveringen
 * **de activiteiten van de Gebruiker**: Opent, klikt, en unsubscript over alle campagnes
 
-Leer meer over [ globale rapporten ](../reporting/global-reports.md)
+Leer meer over [&#x200B; globale rapporten &#x200B;](../reporting/global-reports.md)
 
 ## Verwante onderwerpen {#related-topics}
 

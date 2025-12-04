@@ -18,7 +18,7 @@ Geavanceerde instellingen voor het bijhouden van berichten zijn toegankelijk via
 
 >[!NOTE]
 >
->Het beheer van afbeeldingen in e-mailberichten wordt ook in dit venster geconfigureerd. Zie [ beelden ](defining-the-email-content.md#adding-images) toevoegen.
+>Het beheer van afbeeldingen in e-mailberichten wordt ook in dit venster geconfigureerd. Zie [&#x200B; beelden &#x200B;](defining-the-email-content.md#adding-images) toevoegen.
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

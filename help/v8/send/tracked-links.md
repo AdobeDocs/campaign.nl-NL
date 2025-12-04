@@ -18,7 +18,7 @@ Voor elke levering kunt u de ontvangst van berichten en de activering van de kop
 
 >[!NOTE]
 >
->De koppelingen in e-mailinhoud die personalisatie bevatten, moeten specifiek worden gesynchroniseerd om te worden bijgehouden. Leer meer over hoe te om verbindingen in e-mails toe te voegen die kunnen worden gepersonaliseerd en die het volgen in [ deze sectie ](personalized-links.md) steunen.
+>De koppelingen in e-mailinhoud die personalisatie bevatten, moeten specifiek worden gesynchroniseerd om te worden bijgehouden. Leer meer over hoe te om verbindingen in e-mails toe te voegen die kunnen worden gepersonaliseerd en die het volgen in [&#x200B; deze sectie &#x200B;](personalized-links.md) steunen.
 
 Berichten bijhouden is standaard ingeschakeld. Volg onderstaande stappen om de manier waarop URL&#39;s worden bijgehouden aan te passen:
 
@@ -57,7 +57,7 @@ Berichten bijhouden is standaard ingeschakeld. Volg onderstaande stappen om de m
    * **[!UICONTROL Opt-out]**: beschouwt deze URL als een niet-geabonneerde of niet-geabonneerde URL.
    * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
 
-1. Bovendien kunt u een categorie selecteren voor elke bijgehouden URL in de vervolgkeuzelijst van de kolom **[!UICONTROL Category]** . Deze categorieën kunnen in rapporten, zoals bijvoorbeeld in het **[!UICONTROL URLs and click streams]** rapport worden getoond (zie [ deze sectie ](../reporting/delivery-reports.md#urls-and-click-streams)). Categorieën worden gedefinieerd in een specifieke opsomming: **[!UICONTROL urlCategory]** . Leer meer over hoe te met opsommingen in [ te werken deze sectie ](../config/enumerations.md).
+1. Bovendien kunt u een categorie selecteren voor elke bijgehouden URL in de vervolgkeuzelijst van de kolom **[!UICONTROL Category]** . Deze categorieën kunnen in rapporten, zoals bijvoorbeeld in het **[!UICONTROL URLs and click streams]** rapport worden getoond (zie [&#x200B; deze sectie &#x200B;](../reporting/delivery-reports.md#urls-and-click-streams)). Categorieën worden gedefinieerd in een specifieke opsomming: **[!UICONTROL urlCategory]** . Leer meer over hoe te met opsommingen in [&#x200B; te werken deze sectie &#x200B;](../config/enumerations.md).
 
 ## Aanbevolen procedures voor URL-scheidingstekens {#url-delimiters}
 

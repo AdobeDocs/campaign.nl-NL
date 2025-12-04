@@ -18,7 +18,7 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
 * **Dynamische rapportering**
 
-  Beschikbaar met het Web UI van de Campagne, verstrekt de Dynamische Rapportering volledig klantgerichte en real-time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Verwijs naar de [ documentatie van het Web UI v7 ](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}.
+  Beschikbaar met het Web UI van de Campagne, verstrekt de Dynamische Rapportering volledig klantgerichte en real-time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Verwijs naar de [&#x200B; documentatie van het Web UI v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}.
 
 * **Kubussen**
 
@@ -50,10 +50,10 @@ Adobe Campaign biedt een set rapportagegereedschappen die in deze pagina wordt v
 
   ![](assets/desc-analysis-report.png)
 
-  De beschrijvende analyse van de campagne rapporteert wordt voorgesteld in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
+  De beschrijvende analyse van de campagne rapporteert wordt voorgesteld in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
 * **de rapporten van de Douane**
 
   Gebruik Adobe Campaign om rapporten te maken over de gegevens in de database. Als deze eenmaal zijn gecreëerd, moet u ze in de juiste context toegankelijk maken.
 
-  De stappen om een rapport tot stand te brengen zijn gedetailleerd in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.
+  De stappen om een rapport tot stand te brengen zijn gedetailleerd in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Het gepersonaliseerde rapportverwezenlijking wordt gereserveerd aan gevorderde gebruikers.

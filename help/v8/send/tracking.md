@@ -78,7 +78,7 @@ Dit rapport bevat de lijst met bezochte pagina&#39;s na een levering.
 
 Met dit voorbeeld kunt u beter het verschil zien dat personen en ontvangers in Adobe Campaign kunnen bijhouden.
 
-Leer meer over persoon/mensen en ontvangers in [ Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}
+Leer meer over persoon/mensen en ontvangers in [&#x200B; Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}
 
 **Trackingsindicatoren**
 
