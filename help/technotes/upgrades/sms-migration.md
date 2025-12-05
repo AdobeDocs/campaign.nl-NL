@@ -25,4 +25,4 @@ Met Adobe Campaign Managed Cloud Services worden de serverconfiguratie en de mig
 
 Als u naar de nieuwe SMS-connector v2 moet migreren, neemt u contact op met uw Adobe-vertegenwoordiger of de klantenservice van Adobe. Zij zullen de noodzakelijke updates voor uw instantie plannen en uitvoeren.
 
-Voor meer informatie over het kanaal van SMS in Campagne v8, verwijs naar de [ documentatie van SMS ](../../v8/send/sms/sms.md).
+Voor meer informatie over het kanaal van SMS in Campagne v8, verwijs naar de [&#x200B; documentatie van SMS &#x200B;](../../v8/send/sms/sms.md).
