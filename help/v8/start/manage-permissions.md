@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
+source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Als productbeheerder, kunt u gebruikers toevoegen en toegang tot Campagne verlen
 
 Volg onderstaande stappen om een gebruiker toe te voegen:
 
-1. In de [&#x200B; Admin Console &#x200B;](https://adminconsole.adobe.com/enterprise){target="_blank"} homepage, uitgezochte **voegt Gebruikers** toe.
+1. In de [ Admin Console ](https://adminconsole.adobe.com/enterprise){target="_blank"} homepage, uitgezochte **voegt Gebruikers** toe.
 
    ![](assets/add-a-user.png)
 
@@ -30,15 +30,15 @@ Volg onderstaande stappen om een gebruiker toe te voegen:
 
    ![](assets/add-a-product-profile.png)
 
-   De ingebouwde productprofielen van de campagne zijn vermeld in [&#x200B; deze sectie &#x200B;](#ootb-productprofiles).
+   De ingebouwde productprofielen van de campagne zijn vermeld in [ deze sectie ](#ootb-productprofiles).
 
-   Leer hoe te om gebruikersgroepen in [&#x200B; tot stand te brengen deze sectie &#x200B;](#user-groups)
+   Leer hoe te om gebruikersgroepen in [ tot stand te brengen deze sectie ](#user-groups)
 
 1. Klik **sparen**. De gebruiker wordt toegevoegd en wordt weergegeven in de lijst Gebruikers. Als u een beheerdersrol of een productprofiel aan gebruikers toewijst, ontvangen zij een e-mailbericht. Gebruikers moeten de koppeling volgen om hun profiel te voltooien.
 
-Leer meer over gebruikersverwezenlijking in Admin Console in [&#x200B; deze pagina &#x200B;](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
+Leer meer over gebruikersverwezenlijking in Admin Console in [ deze pagina ](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
-Wanneer de nieuwe gebruikers [&#x200B; login aan Campagne &#x200B;](connect.md) met hun Adobe ID, worden zij toegevoegd aan de lijst van de exploitanten van de Campagne in de Console van de Cliënt. Campagneoperatoren worden opgeslagen in de map **[!UICONTROL Administration > Access management > Operators]** van de Campagneverkenner.
+Wanneer de nieuwe gebruikers [ login aan Campagne ](connect.md) met hun Adobe ID, worden zij toegevoegd aan de lijst van de exploitanten van de Campagne in de Console van de Cliënt. Campagneoperatoren worden opgeslagen in de map **[!UICONTROL Administration > Access management > Operators]** van de Campagneverkenner.
 
 ## Werken met productprofielen{#product-profiles}
 
@@ -71,20 +71,20 @@ Volg de onderstaande stappen om bijvoorbeeld een productprofiel voor &#39;reviso
 1. Verbind met Campagne, open de Ontdekkingsreiziger, en doorblader aan **[!UICONTROL Administration > Access management > Operator groups]**.
 1. Klik op **[!UICONTROL New]**, definieer de naam van de operatorgroep en stel de interne naam van de groep in (&#39;revisoren&#39;).
    ![](assets/new-op-group.png)
-1. Definieer de bijbehorende machtigingen door benoemde rechten te selecteren. De genoemde rechten zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](#use-named-rights)
+1. Definieer de bijbehorende machtigingen door benoemde rechten te selecteren. De genoemde rechten zijn gedetailleerd in [ deze sectie ](#use-named-rights)
 1. Sla de nieuwe operatorgroep op.
 
 #### Het productprofiel maken in de Admin Console{#create-profile-in-admin-console}
 
-1. Verbind met [&#x200B; Admin Console &#x200B;](https://adminconsole.adobe.com/enterprise){target="_blank"}.
+1. Verbind met [ Admin Console ](https://adminconsole.adobe.com/enterprise){target="_blank"}.
 1. Van het **Product en de diensten** sectie van de homepage, open product van de Campagne.
-1. Klik **Nieuw profiel** en ga de naam van het te creëren productprofiel in, met de nauwkeurige correcte syntaxis zoals verklaard [&#x200B; hier &#x200B;](#product-profiles). Voor ons voorbeeld voeren we het volgende in: campagne - `<your-instance-name>` - revisoren
+1. Klik **Nieuw profiel** en ga de naam van het te creëren productprofiel in, met de nauwkeurige correcte syntaxis zoals verklaard [ hier ](#product-profiles). Voor ons voorbeeld voeren we het volgende in: campagne - `<your-instance-name>` - revisoren
 
    ![](assets/new-product-profile-ui.png)
 
 1. Sla uw wijzigingen op.
 
-U kunt gebruikers aan dit nieuwe productprofiel nu toevoegen, zoals die in [&#x200B; wordt verklaard deze sectie &#x200B;](#add-users).
+U kunt gebruikers aan dit nieuwe productprofiel nu toevoegen, zoals die in [ wordt verklaard deze sectie ](#add-users).
 
 U kunt productprofielen het beste aan gebruikersgroepen toewijzen. Het beheren van machtigingen door gebruikers is geen duurzaam model.
 
@@ -95,7 +95,7 @@ Adobe Campaign komt met ingebouwde **productprofielen** die worden bepaald wanne
 
 ![](assets/ootb-product-profiles.png)
 
-Deze productprofielen passen met de exploitantgroepen van de Campagne **&#x200B;**&#x200B;aan. De standaardexploitantgroepen en hun [&#x200B; genoemde rechten &#x200B;](#use-named-rights) zijn hieronder vermeld:
+Deze productprofielen passen met de exploitantgroepen van de Campagne **** aan. De standaardexploitantgroepen en hun [ genoemde rechten ](#use-named-rights) zijn hieronder vermeld:
 
 1. **[!UICONTROL Administrator]** (admin)
 
@@ -104,6 +104,10 @@ Deze productprofielen passen met de exploitantgroepen van de Campagne **&#x200B;
    Deze groep bevat het volgende benoemde recht:
 
    * **[!UICONTROL ADMINISTRATION]**: het recht om objecten zoals workflow, levering, scripts, enzovoort uit te voeren, te maken, te bewerken/te verwijderen.
+
+   >[!IMPORTANT]
+   >
+   >De rol **[!UICONTROL Administrator]** verleent toegang tot het Controlebord van de Campagne. Elk productprofiel in de Adobe Admin Console dat het woord &quot;admin&quot; in zijn naam bevat (zoals &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; enz.) verleent toegang tot het regelpaneel. Leer meer over [ het leiden toegang van het Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
 
 1. **[!UICONTROL Delivery operators]** (levering)
 
@@ -133,7 +137,7 @@ Deze productprofielen passen met de exploitantgroepen van de Campagne **&#x200B;
 
 1. **[!UICONTROL Access to reports]** (rapport)
 
-   Deze groep wordt gereserveerd voor externe exploitanten, om tot de leveringsrapporten via de toegang van het Web van a [&#x200B; toegang te hebben &#x200B;](../start/campaign-ui.md#web-browser).
+   Deze groep wordt gereserveerd voor externe exploitanten, om tot de leveringsrapporten via de toegang van het Web van a [ toegang te hebben ](../start/campaign-ui.md#web-browser).
 
 1. **[!UICONTROL Workflow execution]** (workflow)
 
@@ -170,13 +174,13 @@ Deze productprofielen passen met de exploitantgroepen van de Campagne **&#x200B;
    >
    >**de managers van de Aanbieding** kunnen slechts een aanbieding goedkeuren als geen recensent wordt gespecificeerd, of als zij als recensenten in het aanbiedingsmalplaatje zijn geplaatst.
 
-   De matrijs van de beheertoestemming van het aanbod per milieu is beschikbaar in [&#x200B; deze pagina &#x200B;](../interaction/interaction-operators.md#recap-of-rights-according-to-operator).
+   De matrijs van de beheertoestemming van het aanbod per milieu is beschikbaar in [ deze pagina ](../interaction/interaction-operators.md#recap-of-rights-according-to-operator).
 
 ## Werken met gebruikersgroepen{#user-groups}
 
 U kunt de Admin Console gebruiken om gebruikersgroepen te maken en er gebruikers aan toe te wijzen.
 
-Een gebruikersgroep is een inzameling van verschillende gebruikers die een gedeelde reeks toestemmingen moeten worden gegeven. Leer hoe te om gebruikersgroepen in [&#x200B; tot stand te brengen deze sectie &#x200B;](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
+Een gebruikersgroep is een inzameling van verschillende gebruikers die een gedeelde reeks toestemmingen moeten worden gegeven. Leer hoe te om gebruikersgroepen in [ tot stand te brengen deze sectie ](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
 
 U kunt productprofielen toewijzen aan gebruikersgroepen. Alle gebruikers in die groep ontvangen dus dezelfde set productmachtigingen.
 
@@ -187,7 +191,7 @@ Adobe Campaign wordt geleverd met een reeks benoemde rechten waarmee u de machti
 Rechten verlenen machtigingen aan:
 
 * Bewerkingen uitvoeren
-Bijvoorbeeld, analyseert **&#x200B;**&#x200B;knoop in de redacteur van de Levering wordt geactiveerd voor leden van de **3&rbrace; groep van de Exploitant van de Levering die** Gelegde Levering **hebben**
+Bijvoorbeeld, analyseert **** knoop in de redacteur van de Levering wordt geactiveerd voor leden van de **3} groep van de Exploitant van de Levering die** Gelegde Levering **hebben**
 
 * Toegang tot mappen
 Lidmaatschap van groepen met operatoren kan toegangsrechten verlenen of beperken tot mappen door de beveiligingsinstellingen voor mappen te wijzigen. [Meer informatie](folder-permissions.md#restrict-access-to-a-folder).
@@ -196,9 +200,9 @@ Lidmaatschap van groepen met operatoren kan toegangsrechten verlenen of beperken
 
 Standaard benoemde rechten in Adobe Campaign zijn:
 
-* **[!UICONTROL ADMINISTRATION]**: operatoren met het **[!UICONTROL ADMINISTRATION]** -recht hebben volledige toegang tot de instantie. Beheerders kunnen elk object, zoals workflow, levering, scripts, enzovoort, uitvoeren, maken, bewerken of verwijderen.
+* **[!UICONTROL ADMINISTRATION]**: operatoren met het **[!UICONTROL ADMINISTRATION]** -recht hebben volledige toegang tot de instantie. Beheerders kunnen elk object, zoals workflow, levering, scripts, enzovoort, uitvoeren, maken, bewerken of verwijderen. **Nota:** Profielen van het Product in Adobe Admin Console die het woord &quot;admin&quot;verlenen toegang tot het Controlebord van de Campagne.
 
-* **[!UICONTROL APPROVAL ADMINISTRATION]**: U kunt meerdere goedkeuringsstappen instellen in workflows en leveringen om ervoor te zorgen dat het huidige frame is goedgekeurd door een toegewezen operator of groep. Gebruikers met de optie **[!UICONTROL APPROVAL ADMINISTRATION]** kunnen goedkeuringsstappen instellen en ook een operator of groep van operatoren toewijzen die deze stappen moeten goedkeuren.
+* **[!UICONTROL APPROVAL ADMINISTRATION]**: U kunt meerdere goedkeuringsstappen instellen in workflows en leveringen om ervoor te zorgen dat het huidige frame is goedgekeurd door een toegewezen operator of groep. Gebruikers met de optie **[!UICONTROL APPROVAL ADMINISTRATION]** kunnen goedkeuringsstappen instellen en ook een operator of groep van operatoren toewijzen die deze stappen moeten goedkeuren. **Nota:** Profielen van het Product die het woord &quot;admin&quot;(zoals &quot;goedkeurings admin&quot;bevatten) verlenen toegang tot het Controlebord van de Campagne.
 
 * **[!UICONTROL CENTRAL]**: Recht op centraal beheer (Distributed Marketing).
 
