@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Campagnebeheerders migreren naar Adobe Identity Management System (IMS) {#migrate-users-to-ims}
 
-Vanaf Campagne v8.6 wordt het verificatieproces naar Campagne v8 verbeterd. Alle exploitanten zullen [ het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} **slechts** gebruiken om met Campagne te verbinden. Verbinding maken met gebruiker/wachtwoord (ook wel native verificatie genoemd) is niet langer toegestaan. Adobe raadt aan deze migratie uit te voeren in Campagne v8.5.2 om probleemloos te kunnen migreren naar Campagne v8.6.
+Vanaf Campagne v8.6 wordt het verificatieproces naar Campagne v8 verbeterd. Alle exploitanten zullen [&#x200B; het Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} **slechts** gebruiken om met Campagne te verbinden. Verbinding maken met gebruiker/wachtwoord (ook wel native verificatie genoemd) is niet langer toegestaan. Adobe raadt aan deze migratie uit te voeren in Campagne v8.5.2 om probleemloos te kunnen migreren naar Campagne v8.6.
 
 Als klant van de beheerde services van Campaign Classic v7 geldt deze procedure ook voor u als u naar Campagne v8 migreert.
 
@@ -21,7 +21,7 @@ In dit artikel worden de stappen beschreven die nodig zijn om een technische ope
 
 Met Campaign v8 zouden alle gewone gebruikers al verbinding moeten maken met de Adobe Campaign-clientconsole via hun Adobe ID, via Adobe Identity Management System (IMS). Bij sommige oudere configuraties waren de gebruikers-/wachtwoordverbindingen echter nog steeds beschikbaar. **dit wordt niet meer toegelaten beginnende Campagne v8.6.**
 
-Daarnaast roept de Adobe Campaign-clienttoepassing als onderdeel van de inspanningen om het beveiligings- en verificatieproces te versterken nu de campagne-API&#39;s rechtstreeks aan met het token van de technische IMS-account. De migratie voor technische exploitanten is gedetailleerd in een specifiek artikel, beschikbaar in [ deze pagina ](ims-migration.md).
+Daarnaast roept de Adobe Campaign-clienttoepassing als onderdeel van de inspanningen om het beveiligings- en verificatieproces te versterken nu de campagne-API&#39;s rechtstreeks aan met het token van de technische IMS-account. De migratie voor technische exploitanten is gedetailleerd in een specifiek artikel, beschikbaar in [&#x200B; deze pagina &#x200B;](ims-migration.md).
 
 Deze verandering is van toepassing beginnend Campagne v8.5.2, en is **verplicht** beginnend Campagne v8.6.
 
@@ -29,7 +29,7 @@ Deze verandering is van toepassing beginnend Campagne v8.5.2, en is **verplicht*
 
 Als de exploitanten in uw organisatie met de cliëntconsole van de Campagne gebruikend hun login/wachtwoord verbinden (alias. (native verificatie), heeft dit invloed op u en moet u deze operator(s) migreren naar Adobe IMS, zoals hieronder beschreven.
 
-De migratie aan [ Identity Management Systeem van Adobe (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is een veiligheidsvereiste om uw milieu&#39;s veilig en gestandaardiseerd te maken, aangezien de meeste andere oplossingen en apps van Adobe Experience Cloud reeds op IMS zijn.
+De migratie aan [&#x200B; Identity Management Systeem van Adobe (IMS) &#x200B;](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is een veiligheidsvereiste om uw milieu&#39;s veilig en gestandaardiseerd te maken, aangezien de meeste andere oplossingen en apps van Adobe Experience Cloud reeds op IMS zijn.
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ De migratie aan [ Identity Management Systeem van Adobe (IMS) ](https://helpx.ad
 >
 >Wanneer u uw gebruikers naar IMS migreert, moet u er rekening mee houden dat elk productprofiel in de Adobe Admin Console dat het woord &quot;admin&quot; in de naam bevat (zoals &quot;Beheerders&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; enz.) automatisch toegang verleent tot het Configuratiescherm. Het Controlebord is een zelfbedienend hulpmiddel dat het aanbrengen van significante veranderingen in de instanties van de Campagne toestaat.
 >
->Controleer zorgvuldig de naamgevingsconventies van het productprofiel om ervoor te zorgen dat alleen geautoriseerde gebruikers toegang hebben tot het Configuratiescherm. Leer meer over het beheren van de toestemmingen van het Controlebord in de [ documentatie van het Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
+>Controleer zorgvuldig de naamgevingsconventies van het productprofiel om ervoor te zorgen dat alleen geautoriseerde gebruikers toegang hebben tot het Configuratiescherm. Leer meer over het beheren van de toestemmingen van het Controlebord in de [&#x200B; documentatie van het Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
 
 ## Hoe migreren?{#ims-migration-procedure}
 
@@ -51,11 +51,11 @@ De belangrijkste stappen voor deze migratie worden hieronder weergegeven:
 
 1. Adobe upgradet uw omgevingen naar Campagne v8.5.2.
 1. Na de upgrade kunt u nog steeds nieuwe gebruikers maken met beide methoden, als native gebruiker of met IMS.
-1. Uw interne beheerder van de Campagne moet unieke e-mails toevoegen aan alle native gebruikers op de Campagne clientconsole en zodra dit is gebeurd, aan uw Adobe Transition Manager bevestigen. Deze stap wordt gedetailleerd in [ deze sectie ](#ims-migration-id).
+1. Uw interne beheerder van de Campagne moet unieke e-mails toevoegen aan alle native gebruikers op de Campagne clientconsole en zodra dit is gebeurd, aan uw Adobe Transition Manager bevestigen. Deze stap wordt gedetailleerd in [&#x200B; deze sectie &#x200B;](#ims-migration-id).
 1. Werk samen met Adobe om een datum te beveiligen waarop Adobe de automatische migratie voor uw niet-technische gebruikers (operators) en productprofielen kan uitvoeren. Deze stap vereist een uurvenster zonder onderbreking aan om het even welk van uw instanties.
 1. Uw interne beheerder van de Campagne bevestigt deze veranderingen, en verstrekt aftekening. Na deze migratie moet u geen andere operator meer maken die wordt geverifieerd met zijn aanmeldingsnaam en wachtwoord.
 
-U kunt uw technische exploitant(s) nu migreren aan Adobe Developer Console zoals die in [ wordt gedetailleerd dit technologie ](ims-migration.md). Deze stap is verplicht als u campagne-API&#39;s gebruikt.
+U kunt uw technische exploitant(s) nu migreren aan Adobe Developer Console zoals die in [&#x200B; wordt gedetailleerd dit technologie &#x200B;](ims-migration.md). Deze stap is verplicht als u campagne-API&#39;s gebruikt.
 
 Zodra deze migratie is voltooid, bevestigt u dit aan uw Adobe Transition Manager: Adobe markeert de migratie als voltooid en blokkeert het maken van nieuwe native gebruikers en het aanmelden van native gebruikers. Uw omgeving wordt dan beveiligd en gestandaardiseerd.
 
@@ -63,13 +63,13 @@ Zodra deze migratie is voltooid, bevestigt u dit aan uw Adobe Transition Manager
 
 ### Wanneer kan ik de migratie starten? {#ims-migration-start}
 
-Een voorwaarde voor de migratie aan [ Adobe Identity Management Systeem (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} moet uw milieu bevorderen aan Campagne v8.5.2.
+Een voorwaarde voor de migratie aan [&#x200B; Adobe Identity Management Systeem (IMS) &#x200B;](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} moet uw milieu bevorderen aan Campagne v8.5.2.
 
 U kunt de migratie van IMS op uw werkgebiedomgeving starten zodra deze is bijgewerkt naar Campagne v8.5.2 en dienovereenkomstig plannen voor de productieomgeving.
 
 ### Wat gebeurt er na upgrade van de build naar Campagne v8.5.2? {#ims-migration-after-upgrade}
 
-Nadat uw milieu&#39;s aan Campagne v8.5.2 zijn bevorderd, kunt u uw overgang aan [ het Systeem van Adobe Identity Management (IMS) in werking stellen ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+Nadat uw milieu&#39;s aan Campagne v8.5.2 zijn bevorderd, kunt u uw overgang aan [&#x200B; het Systeem van Adobe Identity Management (IMS) in werking stellen &#x200B;](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 
 Het maken van nieuwe native gebruikers is nog steeds toegestaan totdat de IMS-migratie is voltooid.
 
@@ -84,7 +84,7 @@ Zodra de volledige IMS-migratie is voltooid, past Adobe de beperkingen toe die h
 
 Voor nieuwe klanten - het maken van nieuwe native gebruikers is niet vanaf het begin toegestaan.
 
-Als beheerder van de Campagne, kunt u toestemmingen aan de gebruikers van uw organisatie via Adobe Admin Console en de cliëntconsole van de Campagne verlenen. Gebruikers melden zich aan bij Adobe Campaign met hun Adobe ID. Leer meer in [ deze documentatie ](../../v8/start/gs-permissions.md).
+Als beheerder van de Campagne, kunt u toestemmingen aan de gebruikers van uw organisatie via Adobe Admin Console en de cliëntconsole van de Campagne verlenen. Gebruikers melden zich aan bij Adobe Campaign met hun Adobe ID. Leer meer in [&#x200B; deze documentatie &#x200B;](../../v8/start/gs-permissions.md).
 
 ### E-mails toevoegen voor huidige native gebruikers? {#ims-migration-id}
 
@@ -103,9 +103,9 @@ Voer de volgende stappen uit om een bulkupdate van uw native operatoren uit te v
 
 1. Maak een workflow om alle operatoren die verbinding maken met Campagne in de native verificatiemodus, uit te pakken in een CSV-bestand. Gebruik de activiteit van de a **Vraag** en de extractie van a **Gegevens (dossier)** activiteit om het Csv- dossier tot stand te brengen. Voor elke operator kunt u op basis van de profielgegevens de volgende kolommen exporteren: `Name, Label`.
 
-   Leer meer over de **activiteit van de Vraag** in [ deze pagina ](../../automation/workflow/query.md)
+   Leer meer over de **activiteit van de Vraag** in [&#x200B; deze pagina &#x200B;](../../automation/workflow/query.md)
 
-   Leer meer over de **extractie van Gegevens (dossier)** activiteit in [ deze pagina ](../../automation/workflow/extraction-file.md)
+   Leer meer over de **extractie van Gegevens (dossier)** activiteit in [&#x200B; deze pagina &#x200B;](../../automation/workflow/extraction-file.md)
 
 1. Werk het CSV-bestand bij met een nieuwe kolom die de e-mails van uw operatoren bevat.
 
@@ -117,13 +117,13 @@ Voer de volgende stappen uit om een bulkupdate van uw native operatoren uit te v
 
    ![](assets/data-loading-activity.png){width="70%"}
 
-   Leer meer over het **laden van Gegevens (dossier)** activiteit in [ deze pagina ](../../automation/workflow/data-loading-file.md)
+   Leer meer over het **laden van Gegevens (dossier)** activiteit in [&#x200B; deze pagina &#x200B;](../../automation/workflow/data-loading-file.md)
 
 1. Bewerk de **gegevens van de Update** activiteit en bepaal de montages zoals per de steekproef hieronder. Merk op dat de **Bijgewerkte afmeting** is veranderd in `Operators (xtk)`.
 
    ![](assets/update-data-activity.png){width="70%"}
 
-   Leer meer over de **gegevens van de Update** activiteit in [ deze pagina ](../../automation/workflow/update-data.md)
+   Leer meer over de **gegevens van de Update** activiteit in [&#x200B; deze pagina &#x200B;](../../automation/workflow/update-data.md)
 
 1. Voer de workflow uit en controleer de resultaten. Het e-mailadres is toegevoegd aan het profiel van de operator.
 
@@ -134,7 +134,7 @@ Voer de volgende stappen uit om een bulkupdate van uw native operatoren uit te v
 
 ### Hoe u zich via IMS aanmeldt bij Campaign? {#ims-migration-log}
 
-Leer hoe te met Campagne met uw Adobe ID in [ te verbinden deze sectie ](../../v8/start/connect.md).
+Leer hoe te met Campagne met uw Adobe ID in [&#x200B; te verbinden deze sectie &#x200B;](../../v8/start/connect.md).
 
 ### Zal er tijdens deze migratie een onderbreking plaatsvinden? {#ims-migration-downtime}
 
@@ -178,4 +178,4 @@ U kunt de lijst van uw **Operatoren** en hun **Type van Authentificatie** nu zie
 * [Verbinding maken met Adobe Campaign v8](../../v8/start/connect.md)
 * [Toegang en machtigingen in Adobe Campaign v8](../../v8/start/gs-permissions.md)
 * [Opmerkingen bij de release van Adobe Campaign v8](../../v8/start/release-notes.md)
-* [ wat is het Systeem van Adobe Identity Management (IMS) ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
+* [&#x200B; wat is het Systeem van Adobe Identity Management (IMS) &#x200B;](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}

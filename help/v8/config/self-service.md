@@ -24,7 +24,7 @@ Belangrijkste voordelen:
 
 U kunt ook Campagne Control Panel gebruiken om uw instantie-instellingen te configureren, zoals IP, maken vermelding, URL-machtigingen en ophalen informatie over uw instantie mogelijk.
 
-Leer meer in [ documentatie van het Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target="_blank"}.
+Leer meer in [&#x200B; documentatie van het Controlebord van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target="_blank"}.
 
 ## Hoe kan ik het configuratiescherm openen? {#ac-control-panel-access}
 
@@ -40,7 +40,7 @@ U kunt het configuratiescherm rechtstreeks openen vanuit Adobe Experience Cloud.
 
 ## Veelgestelde vragen over configuratiescherm {#ac-control-faq}
 
-[Klik hier ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"} om de veelgestelde vragen over het Campaign-configuratiescherm te openen. 
+[Klik hier &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"} om de veelgestelde vragen over het Campaign-configuratiescherm te openen. 
 
 ## SFTP-beheer {#ac-control-sftp}
 
@@ -52,17 +52,17 @@ Leer hoe u de subdomeinen en hun certificaten kunt controleren.
 
 * [Uw subdomeinen bewaken](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html){target="_blank"}
 * [Een nieuw subdomein instellen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl){target="_blank"}
-* [ Bewaking van SSL certificaten van uw subdomeinen ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl){target="_blank"}
+* [&#x200B; Bewaking van SSL certificaten van uw subdomeinen &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl){target="_blank"}
 
 ## Prestatiebewaking
 
-Het Configuratiescherm biedt verschillende functies waarmee u uw instanties kunt controleren en optimale prestaties kunt garanderen. [ klik hier ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl){target="_blank"}
+Het Configuratiescherm biedt verschillende functies waarmee u uw instanties kunt controleren en optimale prestaties kunt garanderen. [&#x200B; klik hier &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl){target="_blank"}
 
 
 ## Instantie-instellingen
 
 Leer hoe u de instellingen voor de campagneinstanties in het regelpaneel beheert.
-* [ IP op de lijst van gewenste personen ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html){target="_blank"}
+* [&#x200B; IP op de lijst van gewenste personen &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html){target="_blank"}
 * [URL-machtigingen](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=nl){target="_blank"}
 * [Instantiedetails](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html){target="_blank"}
 * [Beheer van GPG-sleutels](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=nl){target="_blank"}
