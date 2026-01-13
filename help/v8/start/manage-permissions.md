@@ -107,7 +107,7 @@ Deze productprofielen passen met de exploitantgroepen van de Campagne **&#x200B;
 
    >[!IMPORTANT]
    >
-   >De rol **[!UICONTROL Administrator]** verleent toegang tot het Controlebord van de Campagne. Elk productprofiel in de Adobe Admin Console dat het woord &quot;admin&quot; in zijn naam bevat (zoals &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; enz.) verleent toegang tot het regelpaneel. Leer meer over [&#x200B; het leiden toegang van het Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
+   >De rol **[!UICONTROL Administrator]** verleent toegang tot het Controlebord van de Campagne. Elk productprofiel in de Adobe Admin Console dat het woord &quot;admin&quot; in zijn naam bevat (zoals &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; enz.) verleent toegang tot het regelpaneel. Leer meer over [&#x200B; het leiden toegang van het Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl-NL){target="_blank"}.
 
 1. **[!UICONTROL Delivery operators]** (levering)
 
