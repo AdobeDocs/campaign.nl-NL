@@ -50,7 +50,7 @@ Schakel op OOTB-bestanden gebaseerde planning voor levering met berekende verzen
 
 **Context:** Klant-gedreven (H&amp;M), ACS aan ACC pariteit vereiste
 
-**Verwijzingen:** [&#x200B; documentatie ACS &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
+**Verwijzingen:** [&#x200B; documentatie ACS &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
 
 &#x200B;---
 
@@ -134,7 +134,7 @@ Dankzij de gestroomlijnde AEM-integratie kunt u met één muisklik persoonlijke 
 
 **Context:** vereiste van Microsoft, het werk dat aan het team van Himanshu wordt overgebracht
 
-**Verwijzingen:** [&#x200B; documentatie ACS &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
+**Verwijzingen:** [&#x200B; documentatie ACS &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html?lang=nl-NL)
 
 &#x200B;---
 
@@ -201,7 +201,7 @@ OOTB-mogelijkheid voor het uploaden van bestanden voor het maken van meertalige 
 
 **Context:** Klantgedreven (H&amp;M), ACS aan ACC pariteit, kritiek voor migratie
 
-**Verwijzingen:** [&#x200B; documentatie ACS &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
+**Verwijzingen:** [&#x200B; documentatie ACS &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
 
 &#x200B;---
 
@@ -278,7 +278,7 @@ Het beheer van het goedkeuringsproces dat bevestigingswerkschema&#39;s voor leve
 
 **Context:** Klantgedreven (Pierre Fabre), Microsoft vereiste, dev volledig en in test
 
-**Verwijzingen:** [&#x200B; Klassieke documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval), [&#x200B; Mocks van Figma &#x200B;](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
+**Verwijzingen:** [&#x200B; Klassieke documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval), [&#x200B; Mocks van Figma &#x200B;](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
 
 &#x200B;---
 
