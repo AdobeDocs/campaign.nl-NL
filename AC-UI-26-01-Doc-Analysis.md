@@ -13,20 +13,16 @@ Dit document analyseert product JIRAs voor AC-UI-26-01 en AC-UI-25-11 maandversi
 
 ### JIRA-filters
 
-1. **[wisselstroom-UI-26-01-Maandelijkse Artikelen ](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-26-01-Monthly%20and%20type%20%3D%20story%20order%20by%20status)** - de Hoofdversieverhalen
-2. **[NEO-92400 Verbeteringen ](https://jira.corp.adobe.com/issues/?jql=issueFunction%20in%20linkedIssuesOf(%27key%3DNEO-92400%27%2C%20%27is%20implemented%20by%27))** - De verbeteringen van de versie verbonden kwesties
-3. **[wisselstroom-UI-25-11-Maandelijkse Artikelen ](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20type%20%3D%20story%20order%20by%20status)** - Vorige versieoverdracht
-4. **[wisselstroom-UI-25-11 die 8.8.2 ](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20fixVersion%20!%3D%208.8.2%20en%20type%20%3D%20story%20order%20by%20status) uitsluiten** - Gegilterde vorige versie
+1. **[wisselstroom-UI-26-01-Maandelijkse Artikelen &#x200B;](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-26-01-Monthly%20and%20type%20%3D%20story%20order%20by%20status)** - de Hoofdversieverhalen
+2. **[NEO-92400 Verbeteringen &#x200B;](https://jira.corp.adobe.com/issues/?jql=issueFunction%20in%20linkedIssuesOf(%27key%3DNEO-92400%27%2C%20%27is%20implemented%20by%27))** - De verbeteringen van de versie verbonden kwesties
+3. **[wisselstroom-UI-25-11-Maandelijkse Artikelen &#x200B;](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20type%20%3D%20story%20order%20by%20status)** - Vorige versieoverdracht
+4. **[wisselstroom-UI-25-11 die 8.8.2 &#x200B;](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20fixVersion%20!%3D%208.8.2%20en%20type%20%3D%20story%20order%20by%20status) uitsluiten** - Gegilterde vorige versie
 
----
+&#x200B;---
 
 ## 🟢 DOCAC maken
 
-### [ NEO-91565 ](https://jira.corp.adobe.com/browse/NEO-91565) - voeg steun voor verpersoonlijkingsgebieden (de Geavanceerde Integratie van AEM) toe
-**Status:** Resolved\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** niets\
-**Actie:** creeer DOCAC
+### [&#x200B; NEO-91565 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91565) - voeg steun voor verpersoonlijkingsgebieden (de Geavanceerde Integratie van AEM) toe&#x200B;**Status:** Resolved\**vereiste Doc:** ja\**Bestaande DOCAC:** niets\**Actie:** creeer DOCAC
 
 **Reikwijdte:**
 - Documentondersteuning voor verpersoonlijkingsvelden in Geavanceerde AEM-integratie
@@ -38,15 +34,11 @@ Ondersteuning voor het toevoegen van verpersoonlijkingsvelden in leveringen met 
 
 **Context:** ACS aan ACC pariteit, MSFT-Specifiek vereiste
 
-**Verwijzingen:** [ meertalige wiki van AEM ](https://wiki.corp.adobe.com/pages/viewpage.action?pageId=2988189953)
+**Verwijzingen:** [&#x200B; meertalige wiki van AEM &#x200B;](https://wiki.corp.adobe.com/pages/viewpage.action?pageId=2988189953)
 
----
+&#x200B;---
 
-### [ NEO-93487 ](https://jira.corp.adobe.com/browse/NEO-93487) - Levering die verwerkt proces (pariteit ACS) plant
-**Status:** Nieuw\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** niets\
-**Actie:** creeer DOCAC
+### [&#x200B; NEO-93487 &#x200B;](https://jira.corp.adobe.com/browse/NEO-93487) - Levering die verwerkt proces (pariteit ACS) plant&#x200B;**Status:** Nieuw\**vereiste Doc:** ja\**Bestaande DOCAC:** niets\**Actie:** creeer DOCAC
 
 **Reikwijdte:**
 - De levering van het document plannend verwerkt proces voor dupberichten
@@ -58,17 +50,13 @@ Schakel op OOTB-bestanden gebaseerde planning voor levering met berekende verzen
 
 **Context:** Klant-gedreven (H&amp;M), ACS aan ACC pariteit vereiste
 
-**Verwijzingen:** [ documentatie ACS ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
+**Verwijzingen:** [&#x200B; documentatie ACS &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
 
----
+&#x200B;---
 
 ## 🔄 DOCAC bijwerken
 
-### [ NEO-80973 ](https://jira.corp.adobe.com/browse/NEO-80973) - Dynamische rapporteringsbeschikbaarheid voor alle gebruikers van Web UI
-**Status:** Bezig\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** [ DOCAC-11070 ](https://jira.corp.adobe.com/browse/DOCAC-11070) (Gesloten), [ DOCAC-13432 ](https://jira.corp.adobe.com/browse/DOCAC-13432) (Opgelost)\
-**Actie:** Overzicht DOCAC
+### [&#x200B; NEO-80973 &#x200B;](https://jira.corp.adobe.com/browse/NEO-80973) - Dynamische rapporteringsbeschikbaarheid voor alle gebruikers van Web UI&#x200B;**Status:** Bezig\**vereiste Doc:** ja\**Bestaande DOCAC:** [&#x200B; DOCAC-11070 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-11070) (Gesloten), [&#x200B; DOCAC-13432 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13432) (Opgelost)\**Actie:** Overzicht DOCAC
 
 **Reikwijdte:**
 - De beschikbaarheidsinformatie van de update (nu voor alle gebruikers van het Web UI, niet alleen 8.7)
@@ -80,15 +68,11 @@ De dynamische Rapportering is nu beschikbaar voor alle gebruikers van het Web UI
 
 **Context:** De uitbreiding van de Eigenschap, achterste bouwt gebiedsdeel (8.8.1)
 
-**Verwijzingen:** [ Wiki - de vergelijking van Rapporten ](https://wiki.corp.adobe.com/display/~kumarvishal/Reports+-+Client+console+vs+WebUI)
+**Verwijzingen:** [&#x200B; Wiki - de vergelijking van Rapporten &#x200B;](https://wiki.corp.adobe.com/display/~kumarvishal/Reports+-+Client+console+vs+WebUI)
 
----
+&#x200B;---
 
-### [ NEO-86754 ](https://jira.corp.adobe.com/browse/NEO-86754) - het Testen A/B
-**Status:** Bezig\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** [ DOCAC-13104 ](https://jira.corp.adobe.com/browse/DOCAC-13104) (Nieuw)\
-**Actie:** Update DOCAC
+### [&#x200B; NEO-86754 &#x200B;](https://jira.corp.adobe.com/browse/NEO-86754) - het Testen A/B&#x200B;**Status:** Bezig\**vereiste Doc:** ja\**Bestaande DOCAC:** [&#x200B; DOCAC-13104 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13104) (Nieuw)\**Actie:** Update DOCAC
 
 **Reikwijdte:**
 - Documentatie van de testworkflow voor A/B voltooien
@@ -101,15 +85,11 @@ Inhoud experimenteren en A/B testen op e-mailleveringen, zodat marketers verschi
 
 **Context:** het project van Europa, Microsoft vereiste, toegelaten eigenschapvlag
 
-**Verwijzingen:** [ Wiki ](https://wiki.corp.adobe.com/pages/viewpage.action?pageId=3017705719), [ Mocks van Figma ](https://www.figma.com/design/4EfXEaA6OIV0D8rauuXSWX/A-B-Testing)
+**Verwijzingen:** [&#x200B; Wiki &#x200B;](https://wiki.corp.adobe.com/pages/viewpage.action?pageId=3017705719), [&#x200B; Mocks van Figma &#x200B;](https://www.figma.com/design/4EfXEaA6OIV0D8rauuXSWX/A-B-Testing)
 
----
+&#x200B;---
 
-### [ NEO-76126 ](https://jira.corp.adobe.com/browse/NEO-76126) - het auteursrecht van Schema&#39;s (creeer nieuwe lijst, breid schema&#39;s, toegang externe OB uit)
-**Status:** Bezig\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** [ DOCAC-13826 ](https://jira.corp.adobe.com/browse/DOCAC-13826) (Nieuw)\
-**Actie:** Update DOCAC
+### [&#x200B; NEO-76126 &#x200B;](https://jira.corp.adobe.com/browse/NEO-76126) - het auteursrecht van Schema&#39;s (creeer nieuwe lijst, breid schema&#39;s, toegang externe OB uit)**Status:** Bezig\**vereiste Doc:** ja\**Bestaande DOCAC:** [&#x200B; DOCAC-13826 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13826) (Nieuw)\**Actie:** Update DOCAC
 
 **Reikwijdte:**
 - Ontwerpworkflow voor documentschema (alleen drie opties: tabel maken, schema uitbreiden, externe DB openen)
@@ -122,15 +102,11 @@ De auteursmogelijkheden van het schema in Web UI die beheerders toestaan om nieu
 
 **Context:** Microsoft vereiste, Europa project, gefaseerde levering (Fase 2 actief, Fase 3 Feb eind)
 
-**Verwijzingen:** [ PRD ](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=AC+Web+UI+-+Schemas+PRD), [ Cijfer ](https://www.figma.com/design/lZkJso2HvXPbNjG0TmQTrC/Schemas)
+**Verwijzingen:** [&#x200B; PRD &#x200B;](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=AC+Web+UI+-+Schemas+PRD), [&#x200B; Cijfer &#x200B;](https://www.figma.com/design/lZkJso2HvXPbNjG0TmQTrC/Schemas)
 
----
+&#x200B;---
 
-### [ NEO-92668 ](https://jira.corp.adobe.com/browse/NEO-92668) - de Analytics van het Web
-**Status:** Nieuw\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** niets\
-**Actie:** creeer DOCAC
+### [&#x200B; NEO-92668 &#x200B;](https://jira.corp.adobe.com/browse/NEO-92668) - de Analytics van het Web&#x200B;**Status:** Nieuw\**vereiste Doc:** ja\**Bestaande DOCAC:** niets\**Actie:** creeer DOCAC
 
 **Reikwijdte:**
 - Webanalyse externe accountconfiguratie
@@ -144,13 +120,9 @@ Integratie met Web Analytics maakt verbinding met webanalyseplatforms mogelijk v
 
 **Verwijzingen:** niets verstrekte
 
----
+&#x200B;---
 
-### [ NEO-86753 ](https://jira.corp.adobe.com/browse/NEO-86753) - de integratie van AEM voor Levende exemplaren/de exemplaren van de Taal
-**Status:** Nieuw\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** [ DOCAC-13829 ](https://jira.corp.adobe.com/browse/DOCAC-13829) (Opgelost)\
-**Actie:** Overzicht DOCAC
+### [&#x200B; NEO-86753 &#x200B;](https://jira.corp.adobe.com/browse/NEO-86753) - de integratie van AEM voor Levende exemplaren/de exemplaren van de Taal&#x200B;**Status:** Nieuw\**vereiste Doc:** ja\**Bestaande DOCAC:** [&#x200B; DOCAC-13829 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13829) (Opgelost)\**Actie:** Overzicht DOCAC
 
 **Reikwijdte:**
 - Door AEM geleverde templates bekijken
@@ -162,15 +134,11 @@ Dankzij de gestroomlijnde AEM-integratie kunt u met één muisklik persoonlijke 
 
 **Context:** vereiste van Microsoft, het werk dat aan het team van Himanshu wordt overgebracht
 
-**Verwijzingen:** [ documentatie ACS ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
+**Verwijzingen:** [&#x200B; documentatie ACS &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
 
----
+&#x200B;---
 
-### [ NEO-88838 ](https://jira.corp.adobe.com/browse/NEO-88838) - de Redacteur van de Inhoud: De themavariabelen van het gebruik in fragment
-**Status:** Nieuw\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** [ DOCAC-12941 ](https://jira.corp.adobe.com/browse/DOCAC-12941) (Nieuw)\
-**Actie:** Update DOCAC
+### [&#x200B; NEO-88838 &#x200B;](https://jira.corp.adobe.com/browse/NEO-88838) - de Redacteur van de Inhoud: De themavariabelen van het gebruik in fragment&#x200B;**Status:** Nieuw\**vereiste Doc:** ja\**Bestaande DOCAC:** [&#x200B; DOCAC-12941 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-12941) (Nieuw)\**Actie:** Update DOCAC
 
 **Reikwijdte:**
 - Themavariabelen in e-mailontwerper (Beta)
@@ -182,17 +150,13 @@ Ondersteuning voor het gebruik van themavariabelen in inhoudsfragmenten, waardoo
 
 **Context:** Op greep, de eigenschap van Acrite om worden herzien
 
-**Verwijzingen:** [ ATU-5460 ](https://jira.corp.adobe.com/browse/ATU-5460)
+**Verwijzingen:** [&#x200B; ATU-5460 &#x200B;](https://jira.corp.adobe.com/browse/ATU-5460)
 
----
+&#x200B;---
 
 ## ➕ DOCAC maken (verbeteringen)
 
-### [ NEO-92942 ](https://jira.corp.adobe.com/browse/NEO-92942) - Vooraf bepaalde filters - Gedeelde optie
-**Status:** Resolved\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** [ DOCAC-13697 ](https://jira.corp.adobe.com/browse/DOCAC-13697) (het Overzicht van de Code), [ DOCAC-13522 ](https://jira.corp.adobe.com/browse/DOCAC-13522) (Gesloten - Helper)\
-**Actie:** Overzicht DOCAC
+### [&#x200B; NEO-92942 &#x200B;](https://jira.corp.adobe.com/browse/NEO-92942) - Vooraf bepaalde filters - Gedeelde optie&#x200B;**Status:** Resolved\**vereiste Doc:** ja\**Bestaande DOCAC:** [&#x200B; DOCAC-13697 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13697) (het Overzicht van de Code), [&#x200B; DOCAC-13522 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13522) (Gesloten - Helper)\**Actie:** Overzicht DOCAC
 
 **Reikwijdte:**
 - Gedeelde optie voor vooraf gedefinieerde filters
@@ -204,15 +168,11 @@ Vooraf gedefinieerde filters kunnen nu worden gemarkeerd als ‘gedeeld’ om ze
 
 **Context:** de bouwerverbetering van de Regel, eigenschapvlag: toelaat-vraag-filter-gedeeld
 
-**Verwijzingen:** Verwant met [ NEO-88441 ](https://jira.corp.adobe.com/browse/NEO-88441)
+**Verwijzingen:** Verwant met [&#x200B; NEO-88441 &#x200B;](https://jira.corp.adobe.com/browse/NEO-88441)
 
----
+&#x200B;---
 
-### [ NEO-91299 ](https://jira.corp.adobe.com/browse/NEO-91299) - Ononderbroken leveringsactiviteit
-**Status:** Gesloten\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** [ DOCAC-13586 ](https://jira.corp.adobe.com/browse/DOCAC-13586) (Nieuw), [ DOCAC-13808 ](https://jira.corp.adobe.com/browse/DOCAC-13808) (Gesloten - contextuele hulp)\
-**Actie:** Update DOCAC
+### [&#x200B; NEO-91299 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91299) - Ononderbroken leveringsactiviteit&#x200B;**Status:** Gesloten\**vereiste Doc:** ja\**Bestaande DOCAC:** [&#x200B; DOCAC-13586 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13586) (Nieuw), [&#x200B; DOCAC-13808 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13808) (Gesloten - contextuele hulp)\**Actie:** Update DOCAC
 
 **Reikwijdte:**
 - Continue workflow voor levering
@@ -225,15 +185,11 @@ De ononderbroken leveringsactiviteit voor werkschema&#39;s laat terugkomende lev
 
 **Context:** markering van de Eigenschap: laat-ononderbroken-levering toe
 
-**Verwijzingen:** Verwante epische [ NEO-67972 ](https://jira.corp.adobe.com/browse/NEO-67972)
+**Verwijzingen:** Verwante epische [&#x200B; NEO-67972 &#x200B;](https://jira.corp.adobe.com/browse/NEO-67972)
 
----
+&#x200B;---
 
-### [ NEO-90130 ](https://jira.corp.adobe.com/browse/NEO-90130) - laat OTB Dossier toe uploadt voor Meertalige Push Meldingen
-**Status:** Gesloten\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** [ DOCAC-13606 ](https://jira.corp.adobe.com/browse/DOCAC-13606) (Nieuw)\
-**Actie:** Update DOCAC
+### [&#x200B; NEO-90130 &#x200B;](https://jira.corp.adobe.com/browse/NEO-90130) - laat OTB Dossier toe uploadt voor Meertalige Push Meldingen&#x200B;**Status:** Gesloten\**vereiste Doc:** ja\**Bestaande DOCAC:** [&#x200B; DOCAC-13606 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13606) (Nieuw)\**Actie:** Update DOCAC
 
 **Reikwijdte:**
 - Bestanden uploaden voor meertalige pushberichten (iOS en Android)
@@ -245,79 +201,55 @@ OOTB-mogelijkheid voor het uploaden van bestanden voor het maken van meertalige 
 
 **Context:** Klantgedreven (H&amp;M), ACS aan ACC pariteit, kritiek voor migratie
 
-**Verwijzingen:** [ documentatie ACS ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
+**Verwijzingen:** [&#x200B; documentatie ACS &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
 
----
+&#x200B;---
 
 ## ❌ Geannuleerd / Niet meer van toepassing
 
-### [ NEO-91566 ](https://jira.corp.adobe.com/browse/NEO-91566) - Steun voor het volgen van CTA in webui
-**Status:** Gesloten (niet meer van toepassing)\
-**vereiste Doc:** Nr.\
-**Bestaande DOCAC:** [ DOCAC-13821 ](https://jira.corp.adobe.com/browse/DOCAC-13821) (Nieuw)\
-**Actie:** Sluiten DOCAC
+### [&#x200B; NEO-91566 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91566) - Steun voor het volgen van CTA in webui&#x200B;**Status:** Gesloten (niet meer van toepassing)\**vereiste Doc:** Nr.\**Bestaande DOCAC:** [&#x200B; DOCAC-13821 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13821) (Nieuw)\**Actie:** Sluiten DOCAC
 
 **Reden:** Nieuwe eigenschap ACS om MSFT te steunen - niet begonnen, hangende info van MSFT, geen werk UI verwacht
 
 **Context:** Microsoft-Specifiek, het volgen van CTA vereiste
 
----
+&#x200B;---
 
-### [ NEO-91564 ](https://jira.corp.adobe.com/browse/NEO-91564) - de meertalige steun van de UI van AEM
-**Status:** Gesloten (niet meer van toepassing)\
-**vereiste Doc:** Nr.\
-**Bestaande DOCAC:** [ DOCAC-13822 ](https://jira.corp.adobe.com/browse/DOCAC-13822) (Nieuw)\
-**Actie:** Sluiten DOCAC
+### [&#x200B; NEO-91564 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91564) - de meertalige steun van de UI van AEM&#x200B;**Status:** Gesloten (niet meer van toepassing)\**vereiste Doc:** Nr.\**Bestaande DOCAC:** [&#x200B; DOCAC-13822 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13822) (Nieuw)\**Actie:** Sluiten DOCAC
 
 **Reden:** het werk UI dat door het team van Himanshu (verschillend verhaal) wordt geleid
 
 **Context:** vereiste van Microsoft, overgebracht werk
 
----
+&#x200B;---
 
-### [ NEO-91567 ](https://jira.corp.adobe.com/browse/NEO-91567) - voeg steun voor Eigenschap NRT toe
-**Status:** Resolved (past niet meer toe)\
-**vereiste Doc:** Nr.\
-**Bestaande DOCAC:** [ DOCAC-13824 ](https://jira.corp.adobe.com/browse/DOCAC-13824) (Nieuw)\
-**Actie:** Sluiten DOCAC
+### [&#x200B; NEO-91567 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91567) - voeg steun voor Eigenschap NRT toe&#x200B;**Status:** Resolved (past niet meer toe)\**vereiste Doc:** Nr.\**Bestaande DOCAC:** [&#x200B; DOCAC-13824 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13824) (Nieuw)\**Actie:** Sluiten DOCAC
 
 **Reden:** Nieuwe ACS specifieke eigenschap voor MSFT - specificatie beschikbaar maar geen Web UI effect
 
 **Context:** Microsoft vereiste, transactioneel overseinen
 
----
+&#x200B;---
 
-### [ NEO-91563 ](https://jira.corp.adobe.com/browse/NEO-91563) - Transactionele Rest API voor Profiel Gebaseerde Verrijking
-**Status:** Resolved (past niet meer toe)\
-**vereiste Doc:** Nr.\
-**Bestaande DOCAC:** [ DOCAC-13825 ](https://jira.corp.adobe.com/browse/DOCAC-13825) (Nieuw)\
-**Actie:** Sluiten DOCAC
+### [&#x200B; NEO-91563 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91563) - Transactionele Rest API voor Profiel Gebaseerde Verrijking&#x200B;**Status:** Resolved (past niet meer toe)\**vereiste Doc:** Nr.\**Bestaande DOCAC:** [&#x200B; DOCAC-13825 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13825) (Nieuw)\**Actie:** Sluiten DOCAC
 
 **Reden:** Geen het werk van Web UI, in afwachting van promotieinstantie, bouwt verplichte verbetering voor versie
 
 **Context:** REST API eindpunteigenschap
 
----
+&#x200B;---
 
-### [ NEO-92151 ](https://jira.corp.adobe.com/browse/NEO-92151) - Profiel gebaseerde Fase 2 van het Overseinen van de Transactionele Verrijking van het Profiel
-**Status:** Resolved (past niet meer toe)\
-**vereiste Doc:** Nr.\
-**Bestaande DOCAC:** [ DOCAC-13823 ](https://jira.corp.adobe.com/browse/DOCAC-13823) (Nieuw)\
-**Actie:** Sluiten DOCAC
+### [&#x200B; NEO-92151 &#x200B;](https://jira.corp.adobe.com/browse/NEO-92151) - Profiel gebaseerde Fase 2 van het Overseinen van de Transactionele Verrijking van het Profiel&#x200B;**Status:** Resolved (past niet meer toe)\**vereiste Doc:** Nr.\**Bestaande DOCAC:** [&#x200B; DOCAC-13823 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13823) (Nieuw)\**Actie:** Sluiten DOCAC
 
 **Reden:** het Artikel heeft geen taken, duidelijk als &quot;niet meer van toepassing is&quot;
 
 **Context:** Microsoft vereiste, project Europa
 
----
+&#x200B;---
 
 ## 🟢 Documentatie gereed (van AC-UI-25-11)
 
-### [ NEO-90183 ](https://jira.corp.adobe.com/browse/NEO-90183) - Meertalig Rich Push - UI
-**Status:** Gesloten\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** [ DOCAC-13565 ](https://jira.corp.adobe.com/browse/DOCAC-13565) (Nieuw)\
-**Actie:** Overzicht DOCAC
+### [&#x200B; NEO-90183 &#x200B;](https://jira.corp.adobe.com/browse/NEO-90183) - Meertalig Rich Push - UI&#x200B;**Status:** Gesloten\**vereiste Doc:** ja\**Bestaande DOCAC:** [&#x200B; DOCAC-13565 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13565) (Nieuw)\**Actie:** Overzicht DOCAC
 
 **Reikwijdte:**
 - Rijke pushvelden voor meertalige leveringen
@@ -329,15 +261,11 @@ Uitgebreide ondersteuning voor pushmeldingen met meertalige mogelijkheden, waard
 
 **Context:** Klantgedreven (H&amp;M), die in 25-11 wordt geleverd, voltooide achterste werk
 
-**Verwijzingen:** [ Wiki ](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=Rich+push+fields+in+multilingual)
+**Verwijzingen:** [&#x200B; Wiki &#x200B;](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=Rich+push+fields+in+multilingual)
 
----
+&#x200B;---
 
-### [ NEO-84916 ](https://jira.corp.adobe.com/browse/NEO-84916) - opstelling en beheer het goedkeuringsproces
-**Status:** Resolved\
-**vereiste Doc:** ja\
-**Bestaande DOCAC:** [ DOCAC-13827 ](https://jira.corp.adobe.com/browse/DOCAC-13827) (Nieuw)\
-**Actie:** Update DOCAC
+### [&#x200B; NEO-84916 &#x200B;](https://jira.corp.adobe.com/browse/NEO-84916) - opstelling en beheer het goedkeuringsproces&#x200B;**Status:** Resolved\**vereiste Doc:** ja\**Bestaande DOCAC:** [&#x200B; DOCAC-13827 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13827) (Nieuw)\**Actie:** Update DOCAC
 
 **Reikwijdte:**
 - Validatieoperatoren configureren in levering/campagne
@@ -350,9 +278,9 @@ Het beheer van het goedkeuringsproces dat bevestigingswerkschema&#39;s voor leve
 
 **Context:** Klantgedreven (Pierre Fabre), Microsoft vereiste, dev volledig en in test
 
-**Verwijzingen:** [ Klassieke documentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval), [ Mocks van Figma ](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
+**Verwijzingen:** [&#x200B; Klassieke documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval), [&#x200B; Mocks van Figma &#x200B;](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
 
----
+&#x200B;---
 
 ## 📊 Samenvatting door actie
 
@@ -364,7 +292,7 @@ Het beheer van het goedkeuringsproces dat bevestigingswerkschema&#39;s voor leve
 | ❌ DOCAC sluiten | 5 |
 | **Totaal** | **17** |
 
----
+&#x200B;---
 
 ## ⚠️ Vragen openen
 
@@ -374,7 +302,7 @@ Het beheer van het goedkeuringsproces dat bevestigingswerkschema&#39;s voor leve
 4. NEO-88838 - Themavariabelen - in afwachting van Acrite-functieherziening in behandeling
 5. Dynamische rapportering - verduidelijk conflicterende metriek vertoningsbegeleiding met erfenisrapportering
 
----
+&#x200B;---
 
 ## 🔗 Verwante objecten
 

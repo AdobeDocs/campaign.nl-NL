@@ -18,32 +18,32 @@ ht-degree: 3%
 | DOCAC controleren | 3 |
 | DOCAC sluiten | 5 |
 
----
+&#x200B;---
 
 ## 📋 Documentatieactieplan
 
 | Productticket | Doc vereist | Bestaand DOCAC | Actie |
 |----------------|--------------|----------------|--------|
-| [ NEO-91565 ](https://jira.corp.adobe.com/browse/NEO-91565) | 🟢 Ja | Geen | ➕ DOCAC maken |
-| [ NEO-93487 ](https://jira.corp.adobe.com/browse/NEO-93487) | 🟢 Ja | Geen | ➕ DOCAC maken |
-| [ NEO-92668 ](https://jira.corp.adobe.com/browse/NEO-92668) | 🟢 Ja | Geen | ➕ DOCAC maken |
-| [ NEO-80973 ](https://jira.corp.adobe.com/browse/NEO-80973) | 🟢 Ja | [ DOCAC-13432 ](https://jira.corp.adobe.com/browse/DOCAC-13432) | 🔄 Bijwerken |
-| [ NEO-86754 ](https://jira.corp.adobe.com/browse/NEO-86754) | 🟢 Ja | [ DOCAC-13104 ](https://jira.corp.adobe.com/browse/DOCAC-13104) | 🔄 Bijwerken |
-| [ NEO-76126 ](https://jira.corp.adobe.com/browse/NEO-76126) | 🟢 Ja | [ DOCAC-13826 ](https://jira.corp.adobe.com/browse/DOCAC-13826) | 🔄 Bijwerken |
-| [ NEO-86753 ](https://jira.corp.adobe.com/browse/NEO-86753) | 🟢 Ja | [ DOCAC-13829 ](https://jira.corp.adobe.com/browse/DOCAC-13829) | 🔄 Revisie |
-| [ NEO-88838 ](https://jira.corp.adobe.com/browse/NEO-88838) | 🟢 Ja | [ DOCAC-12941 ](https://jira.corp.adobe.com/browse/DOCAC-12941) | 🔄 Bijwerken |
-| [ NEO-92942 ](https://jira.corp.adobe.com/browse/NEO-92942) | 🟢 Ja | [ DOCAC-13697 ](https://jira.corp.adobe.com/browse/DOCAC-13697) | 🔄 Revisie |
-| [ NEO-91299 ](https://jira.corp.adobe.com/browse/NEO-91299) | 🟢 Ja | [ DOCAC-13586 ](https://jira.corp.adobe.com/browse/DOCAC-13586) | 🔄 Bijwerken |
-| [ NEO-90130 ](https://jira.corp.adobe.com/browse/NEO-90130) | 🟢 Ja | [ DOCAC-13606 ](https://jira.corp.adobe.com/browse/DOCAC-13606) | 🔄 Bijwerken |
-| [ NEO-90183 ](https://jira.corp.adobe.com/browse/NEO-90183) | 🟢 Ja | [ DOCAC-13565 ](https://jira.corp.adobe.com/browse/DOCAC-13565) | 🔄 Revisie |
-| [ NEO-84916 ](https://jira.corp.adobe.com/browse/NEO-84916) | 🟢 Ja | [ DOCAC-13827 ](https://jira.corp.adobe.com/browse/DOCAC-13827) | 🔄 Bijwerken |
-| [ NEO-91566 ](https://jira.corp.adobe.com/browse/NEO-91566) | 🔴 Nee | [ DOCAC-13821 ](https://jira.corp.adobe.com/browse/DOCAC-13821) | ❌ Sluiten |
-| [ NEO-91564 ](https://jira.corp.adobe.com/browse/NEO-91564) | 🔴 Nee | [ DOCAC-13822 ](https://jira.corp.adobe.com/browse/DOCAC-13822) | ❌ Sluiten |
-| [ NEO-91567 ](https://jira.corp.adobe.com/browse/NEO-91567) | 🔴 Nee | [ DOCAC-13824 ](https://jira.corp.adobe.com/browse/DOCAC-13824) | ❌ Sluiten |
-| [ NEO-91563 ](https://jira.corp.adobe.com/browse/NEO-91563) | 🔴 Nee | [ DOCAC-13825 ](https://jira.corp.adobe.com/browse/DOCAC-13825) | ❌ Sluiten |
-| [ NEO-92151 ](https://jira.corp.adobe.com/browse/NEO-92151) | 🔴 Nee | [ DOCAC-13823 ](https://jira.corp.adobe.com/browse/DOCAC-13823) | ❌ Sluiten |
+| [&#x200B; NEO-91565 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91565) | 🟢 Ja | Geen | ➕ DOCAC maken |
+| [&#x200B; NEO-93487 &#x200B;](https://jira.corp.adobe.com/browse/NEO-93487) | 🟢 Ja | Geen | ➕ DOCAC maken |
+| [&#x200B; NEO-92668 &#x200B;](https://jira.corp.adobe.com/browse/NEO-92668) | 🟢 Ja | Geen | ➕ DOCAC maken |
+| [&#x200B; NEO-80973 &#x200B;](https://jira.corp.adobe.com/browse/NEO-80973) | 🟢 Ja | [&#x200B; DOCAC-13432 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13432) | 🔄 Bijwerken |
+| [&#x200B; NEO-86754 &#x200B;](https://jira.corp.adobe.com/browse/NEO-86754) | 🟢 Ja | [&#x200B; DOCAC-13104 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13104) | 🔄 Bijwerken |
+| [&#x200B; NEO-76126 &#x200B;](https://jira.corp.adobe.com/browse/NEO-76126) | 🟢 Ja | [&#x200B; DOCAC-13826 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13826) | 🔄 Bijwerken |
+| [&#x200B; NEO-86753 &#x200B;](https://jira.corp.adobe.com/browse/NEO-86753) | 🟢 Ja | [&#x200B; DOCAC-13829 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13829) | 🔄 Revisie |
+| [&#x200B; NEO-88838 &#x200B;](https://jira.corp.adobe.com/browse/NEO-88838) | 🟢 Ja | [&#x200B; DOCAC-12941 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-12941) | 🔄 Bijwerken |
+| [&#x200B; NEO-92942 &#x200B;](https://jira.corp.adobe.com/browse/NEO-92942) | 🟢 Ja | [&#x200B; DOCAC-13697 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13697) | 🔄 Revisie |
+| [&#x200B; NEO-91299 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91299) | 🟢 Ja | [&#x200B; DOCAC-13586 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13586) | 🔄 Bijwerken |
+| [&#x200B; NEO-90130 &#x200B;](https://jira.corp.adobe.com/browse/NEO-90130) | 🟢 Ja | [&#x200B; DOCAC-13606 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13606) | 🔄 Bijwerken |
+| [&#x200B; NEO-90183 &#x200B;](https://jira.corp.adobe.com/browse/NEO-90183) | 🟢 Ja | [&#x200B; DOCAC-13565 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13565) | 🔄 Revisie |
+| [&#x200B; NEO-84916 &#x200B;](https://jira.corp.adobe.com/browse/NEO-84916) | 🟢 Ja | [&#x200B; DOCAC-13827 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13827) | 🔄 Bijwerken |
+| [&#x200B; NEO-91566 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91566) | 🔴 Nee | [&#x200B; DOCAC-13821 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13821) | ❌ Sluiten |
+| [&#x200B; NEO-91564 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91564) | 🔴 Nee | [&#x200B; DOCAC-13822 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13822) | ❌ Sluiten |
+| [&#x200B; NEO-91567 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91567) | 🔴 Nee | [&#x200B; DOCAC-13824 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13824) | ❌ Sluiten |
+| [&#x200B; NEO-91563 &#x200B;](https://jira.corp.adobe.com/browse/NEO-91563) | 🔴 Nee | [&#x200B; DOCAC-13825 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13825) | ❌ Sluiten |
+| [&#x200B; NEO-92151 &#x200B;](https://jira.corp.adobe.com/browse/NEO-92151) | 🔴 Nee | [&#x200B; DOCAC-13823 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13823) | ❌ Sluiten |
 
----
+&#x200B;---
 
 ## ⚠️ Let op
 
