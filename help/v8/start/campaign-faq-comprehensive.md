@@ -21,7 +21,7 @@ Geniet van snelle antwoorden op de meest voorkomende vragen over Adobe Campaign 
 **Heb hulp met versies nodig?** Controle [&#x200B; Verbeteringen &#x200B;](#upgrades) voor versieinformatie en verbeteringsprocessen.\
 **migrerend van v7 of Standaard?** zie [&#x200B; Campagne v8 vs Vorige Versies &#x200B;](#v7-differences) voor verschillen en overgangsbegeleiding.\
 **technische hulp nodig?** Controle [&#x200B; Ontwikkelaars &#x200B;](#developers) en [&#x200B; de Montages van de Campagne &#x200B;](#settings).\
-**Kan uw antwoord niet vinden?** Bezoek onze [&#x200B; Communautaire Forums &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} of [&#x200B; contactsteun &#x200B;](#get-help).
+**Kan uw antwoord niet vinden?** Bezoek onze [&#x200B; Communautaire Forums &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=nl){target="_blank"} of [&#x200B; contactsteun &#x200B;](#get-help).
 
 **Uiteinde:** Gebruik Ctrl+F (Cmd+F op Mac) om naar specifieke sleutelwoorden op deze pagina te zoeken. Klik op een vraag om het antwoord uit te vouwen.
 
@@ -161,7 +161,7 @@ Om de Steun van de Klant van Adobe te contacteren, verbind met [&#x200B; Adobe A
 
 Vereist afzonderlijke accounts met de juiste machtigingen. Als u zich niet kunt aanmelden, kunt u toegang aanvragen via Experience League. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
-Alternatief, sluit zich aan bij [&#x200B; Gemeenschap van de Campagne &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} aan onderzoek naar antwoorden of vraag deskundigen.
+Alternatief, sluit zich aan bij [&#x200B; Gemeenschap van de Campagne &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=nl){target="_blank"} aan onderzoek naar antwoorden of vraag deskundigen.
 
 +++
 
@@ -248,7 +248,7 @@ Houd via de volgende kanalen op de hoogte van nieuwe campagnereleases:
 * **vertegenwoordiger van Adobe** - Contacteert u direct wanneer een nieuwe versie beschikbaar is
 * **de Nota&#39;s van de Versie** - Alle versies en veranderingen die in [&#x200B; worden gedocumenteerd de Nota&#39;s van de Versie van de Campagne &#x200B;](release-notes.md)
 * **Updates van het Product van de Prioriteit van Adobe** - [&#x200B; Abonneren &#x200B;](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"} voor e-mailberichten
-* **Gemeenschap van de Campagne** - sluit zich aan bij [&#x200B; besprekingen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} voor vroege updates
+* **Gemeenschap van de Campagne** - sluit zich aan bij [&#x200B; besprekingen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=nl){target="_blank"} voor vroege updates
 
 Als gebruiker van Managed Cloud Services handelt Adobe upgrades en coördineert de timing met u.
 
@@ -384,7 +384,7 @@ Migratie naar Adobe Managed Services biedt een strategisch pad van &#39;on-premi
 
 **Begonnen het worden:** contacteer uw vertegenwoordiger van Adobe om uw milieu te beoordelen en een gedetailleerd migratieplan met Adobe Professional Services te ontwikkelen.
 
-Leer meer over [&#x200B; migrerend aan Managed Services &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"} met inbegrip van uitdagingen, beste praktijken, en gedetailleerde migratie roadmap.
+Leer meer over [&#x200B; migrerend aan Managed Services &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=nl){target="_blank"} met inbegrip van uitdagingen, beste praktijken, en gedetailleerde migratie roadmap.
 
 +++
 
@@ -1755,8 +1755,8 @@ Kun je niet vinden wat je zoekt? Hier zijn aanvullende bronnen om u te helpen sl
 
 Maak contact met andere campagnegebruikers en Adobe-experts om kennis te delen en antwoorden te krijgen.
 
-* **[Gemeenschap van Adobe Campaign &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}** - stel vragen, deel oplossingen, en verbind met de gemeenschap van de Campagne
-* **[Forums van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/){target="_blank"}** - doorblader besprekingen over alle producten van Adobe
+* **[Gemeenschap van Adobe Campaign &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=nl){target="_blank"}** - stel vragen, deel oplossingen, en verbind met de gemeenschap van de Campagne
+* **[Forums van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/?profile.language=nl){target="_blank"}** - doorblader besprekingen over alle producten van Adobe
 * **[de Uren van het Communautair Bureau van de Campagne &#x200B;](https://experienceleague.adobe.com/nl){target="_blank"}** - sluit zich aan bij levende zittingen met de deskundigen van Adobe
 
 ### Documentatie en leren

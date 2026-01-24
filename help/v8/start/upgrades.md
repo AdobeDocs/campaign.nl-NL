@@ -62,7 +62,7 @@ De nieuwe versies en welke veranderingen zij brengen zijn vermeld in de [&#x200B
 
 Om van nieuwe de oplossingsversies van Experience Cloud en hun inhoud op de hoogte te worden gebracht, onderteken aan de [&#128279;](https://www.adobe.com/nl/subscription/priority-product-update.html){target="_blank"} mededeling van de Updates van het Product van de Prioriteit van 0&rbrace; Adobe &lbrace;.
 
-U kunt [&#x200B; Gemeenschap van de Campagne &#x200B;](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} ook bezoeken om over versieupdates worden geïnformeerd.
+U kunt [&#x200B; Gemeenschap van de Campagne &#x200B;](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=nl&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} ook bezoeken om over versieupdates worden geïnformeerd.
 
 
 ### Waarom heeft mijn organisatie een upgrade nodig? {#upgrades-1}
