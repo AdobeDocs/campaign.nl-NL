@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ Voorbeeld met PushEvents:
 </urn:PushEvents>
 ```
 
-De elementen **`<rtevent>`** en **`<batchevent>`** hebben een set kenmerken en een verplicht onderliggend element: **`<ctx>`** voor het integreren van berichtgegevens.
+De elementen **`<rtevent>`** en **`<batchEvent>`** hebben een set kenmerken en een verplicht onderliggend element: **`<ctx>`** voor het integreren van berichtgegevens.
 
 >[!NOTE]
 >
->Met het element **`<batchevent>`** kunt u de gebeurtenis toevoegen aan de wachtrij met &#39;batch&#39;. De **`<rtevent>`** voegt de gebeurtenis toe aan de &quot;real-time&quot; wachtrij.
+>Met het element **`<batchEvent>`** kunt u de gebeurtenis toevoegen aan de wachtrij met &#39;batch&#39;. De **`<rtevent>`** voegt de gebeurtenis toe aan de &quot;real-time&quot; wachtrij.
 
-De verplichte kenmerken van de elementen **`<rtevent>`** en **`<batchevent>`** zijn @type en @email. De waarde van @type moet gelijk zijn aan de gespecificeerde lijstwaarde die wordt bepaald wanneer het vormen van de uitvoeringsinstantie. Met deze waarde kunt u de sjabloon definiëren die tijdens de levering aan de inhoud van de gebeurtenis moet worden gekoppeld.
+De verplichte kenmerken van de elementen **`<rtevent>`** en **`<batchEvent>`** zijn @type en @email. De waarde van @type moet gelijk zijn aan de gespecificeerde lijstwaarde die wordt bepaald wanneer het vormen van de uitvoeringsinstantie. Met deze waarde kunt u de sjabloon definiëren die tijdens de levering aan de inhoud van de gebeurtenis moet worden gekoppeld.
 
 `<rtevent> configuration example:`
 
