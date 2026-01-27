@@ -12,7 +12,7 @@ ht-degree: 14%
 
 # Laatste versies {#latest-release}
 
-Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke situaties die met Campagne v8 (console) **** komen meest recente versies. Leer meer over de versies, versies, en verbeteringen van de Campagne in [ deze pagina ](upgrades.md). Andere versies worden vermeld in de sectie Vorige releases van deze documentatie.
+Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke situaties die met Campagne v8 (console) **&#x200B;**&#x200B;komen meest recente versies. Leer meer over de versies, versies, en verbeteringen van de Campagne in [&#x200B; deze pagina &#x200B;](upgrades.md). Andere versies worden vermeld in de sectie Vorige releases van deze documentatie.
 
 ## Release 8.9.1 {#release-8-9-1}
 
@@ -24,7 +24,7 @@ _jan 27, 2026_
 
 ### Nieuwe functies {#new-8-9-1}
 
-De **nieuwe SMS verzendende schakelaar** is nu beschikbaar aan alle klanten (GA). Verwijs naar de [ gedetailleerde documentatie ](../send/sms/sms.md).
+De **nieuwe SMS verzendende schakelaar** is nu beschikbaar aan alle klanten (GA). Verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](../send/sms/sms.md).
 
 Deze versie wordt geleverd met een reeks functies die beschikbaar zijn in de gebruikersinterface van het Web van de Campagne:
 
@@ -34,7 +34,7 @@ Deze versie wordt geleverd met een reeks functies die beschikbaar zijn in de geb
 * Inhoudsexperimenten - A/B-tests
 * Continue leveringsactiviteit
 
-Verwijs naar UI van het Web van de Campagne [ versienota&#39;s ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
+Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
 
 ### Beveiligingsverbeteringen {#security-8-9-1}
 
