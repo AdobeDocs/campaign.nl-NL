@@ -34,7 +34,7 @@ Deze versie wordt geleverd met een reeks functies die beschikbaar zijn in de geb
 * Inhoudsexperimenten - A/B-tests
 * Continue leveringsactiviteit
 
-Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
+Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL){target="_blank"}
 
 ### Beveiligingsverbeteringen {#security-8-9-1}
 
