@@ -30,10 +30,10 @@ Deze versie wordt geleverd met een reeks functies die beschikbaar zijn in de geb
 
 * [&#x200B; Meertalige leveringsmogelijkheden (GA) &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=nl-NL){target="_blank"}
 * [&#x200B; de Verrijking van het Profiel in Transactionele Berichten (GA) &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=nl-NL){target="_blank"}
-* [&#x200B; levende Adobe Experience Manager en taalexemplaren &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
-* [&#x200B; experimenten van de Inhoud - het testen A/B &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html)
-* [&#x200B; Ononderbroken leveringsactiviteit &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html)
-* [&#x200B; het goedkeuringsbeheer van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html)
+* [&#x200B; levende Adobe Experience Manager en taalexemplaren &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=nl-NL){target="_blank"}
+* [&#x200B; experimenten van de Inhoud - het testen A/B &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=nl-NL)
+* [&#x200B; Ononderbroken leveringsactiviteit &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=nl-NL)
+* [&#x200B; het goedkeuringsbeheer van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=nl-NL)
 
 Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL){target="_blank"}
 
