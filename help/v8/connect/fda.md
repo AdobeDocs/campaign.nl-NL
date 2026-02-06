@@ -5,7 +5,7 @@ feature: Federated Data Access
 role: Admin
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 631c4986d24daeff870412566318adb170ce040f
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -18,11 +18,11 @@ Gebruik de Schakelaar FDA (Federated Toegang van Gegevens) om Campagne met één
 
 >[!NOTE]
 >
->* De compatibele gegevensbestanden voor Federatieve Toegang van Gegevens zijn vermeld in de [&#x200B; matrijs van de Verenigbaarheid &#x200B;](../start/compatibility-matrix.md).
+>* De compatibele gegevensbestanden voor Federatieve Toegang van Gegevens zijn vermeld in de [ matrijs van de Verenigbaarheid ](../start/compatibility-matrix.md).
 >
->* In de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../architecture/enterprise-deployment.md), is een specifieke externe rekening beschikbaar om mededeling tussen het lokale gegevensbestand van de Campagne en het wolkengegevensbestand van Snowflake te beheren. Deze externe rekening wordt opstelling voor u door Adobe en **moet niet** worden gewijzigd.
+>* In de context van een [ plaatsing van de Onderneming (FFDA) ](../../v8/architecture/enterprise-deployment.md), is een specifieke externe rekening beschikbaar om mededeling tussen het lokale gegevensbestand van de Campagne en het wolkengegevensbestand van Snowflake te beheren. Deze externe rekening wordt opstelling voor u door Adobe en **moet niet** worden gewijzigd.
 >
->* Als Beheerde gebruiker van de Diensten van de Wolk, [&#x200B; contacteer Adobe &#x200B;](../start/campaign-faq.md#support) om uw externe gegevensbestand (s) met Campagne te verbinden.
+>* Als Beheerde gebruiker van de Diensten van de Wolk, [ contacteer Adobe ](../start/campaign-faq.md#support) om uw externe gegevensbestand (s) met Campagne te verbinden.
 
 
 ## Best practices en beperkingen
