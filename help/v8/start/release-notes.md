@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
+source-git-commit: 981fa2029528cac5806da7c39aec3a2e6de0bf56
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 14%
+source-wordcount: '733'
+ht-degree: 13%
 
 ---
 
 # Laatste versies {#latest-release}
 
-Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke situaties die met Campagne v8 (console) **&#x200B;**&#x200B;komen meest recente versies. Leer meer over de versies, versies, en verbeteringen van de Campagne in [&#x200B; deze pagina &#x200B;](upgrades.md). Andere versies worden vermeld in de sectie Vorige releases van deze documentatie.
+Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke situaties die met Campagne v8 (console) **** komen meest recente versies. Leer meer over de versies, versies, en verbeteringen van de Campagne in [ deze pagina ](upgrades.md). Andere versies worden vermeld in de sectie Vorige releases van deze documentatie.
 
 ## Release 8.9.1 {#release-8-9-1}
 
@@ -24,18 +24,18 @@ _jan 27, 2026_
 
 ### Nieuwe functies {#new-8-9-1}
 
-De **nieuwe SMS verzendende schakelaar** is nu beschikbaar aan alle klanten (GA). Verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](../send/sms/sms.md).
+De **nieuwe SMS verzendende schakelaar** is nu beschikbaar aan alle klanten (GA). Verwijs naar de [ gedetailleerde documentatie ](../send/sms/sms.md).
 
 Deze versie wordt geleverd met een reeks functies die beschikbaar zijn in de gebruikersinterface van het Web van de Campagne:
 
-* [&#x200B; Meertalige leveringsmogelijkheden (GA) &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=nl-NL){target="_blank"}
-* [&#x200B; de Verrijking van het Profiel in Transactionele Berichten (GA) &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=nl-NL){target="_blank"}
-* [&#x200B; levende Adobe Experience Manager en taalexemplaren &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=nl-NL){target="_blank"}
-* [&#x200B; experimenten van de Inhoud - het testen A/B &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=nl-NL)
-* [&#x200B; Ononderbroken leveringsactiviteit &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=nl-NL)
-* [&#x200B; het goedkeuringsbeheer van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=nl-NL)
+* [ Meertalige leveringsmogelijkheden (GA) ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [ de Verrijking van het Profiel in Transactionele Berichten (GA) ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [ levende Adobe Experience Manager en taalexemplaren ](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [ experimenten van de Inhoud - het testen A/B ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [ Ononderbroken leveringsactiviteit ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [ het goedkeuringsbeheer van de Campagne ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL){target="_blank"}
+Verwijs naar UI van het Web van de Campagne [ versienota&#39;s ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
 
 ### Beveiligingsverbeteringen {#security-8-9-1}
 
@@ -84,3 +84,4 @@ Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;]
 * Geoptimaliseerde langzame vragen over de ontvankelijke lijst in plaatsingen FFDA. (NEO-89268)
 * Probleem verholpen waarbij incrementele query-activiteiten geconfigureerde planningen negeerden. (NEO-89317)
 * Toegangsfouten zijn opgelost bij het openen van campagnes in hybride omgevingen. (NEO-89320)
+* Oplossing voor discrepanties in de rapporten van de UI van het Web van de Campagne waar het volgen van statistieken verschillende waarden in vergelijking met de console toonde. De volgende Indicatoren, het Verzenden van Samenvatting, en URL klikken de rapporten van Streams tonen nu verenigbare metriek over beide interfaces. (NEO-82339)
