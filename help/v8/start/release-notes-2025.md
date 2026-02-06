@@ -12,9 +12,9 @@ ht-degree: 9%
 
 # Opmerkingen bij de release 2025 {#2025-rn}
 
-Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen, en moeilijke situaties die met **komen 2025 de Versies van de Campagne v8**. Voor de recentste versie, verwijs naar [ deze pagina ](release-notes.md).
+Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen, en moeilijke situaties die met **komen 2025 de Versies van de Campagne v8**. Voor de recentste versie, verwijs naar [&#x200B; deze pagina &#x200B;](release-notes.md).
 
-Voor om het even welke nieuwe implementatie of verbetering aan een bestaand milieu, installeer [ de recentste versie ](release-notes.md).
+Voor om het even welke nieuwe implementatie of verbetering aan een bestaand milieu, installeer [&#x200B; de recentste versie &#x200B;](release-notes.md).
 
 >[!BEGINSHADEBOX]
 
@@ -39,14 +39,14 @@ _9 okt, 2025_
 
 ### Nieuwe functies {#features-8-8-2}
 
-Het **nieuwe SMS verzenden schakelaar** is nu beschikbaar voor [ Plaatsingen FFDA van de Campagne ](../architecture/enterprise-deployment.md). Verwijs naar de [ gedetailleerde documentatie ](../send/sms/sms.md).
+Het **nieuwe SMS verzenden schakelaar** is nu beschikbaar voor [&#x200B; Plaatsingen FFDA van de Campagne &#x200B;](../architecture/enterprise-deployment.md). Verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](../send/sms/sms.md).
 
 Deze versie wordt ook geleverd met een set functies die beschikbaar zijn in de gebruikersinterface van Campagne Web:
 
-* [ de Verrijking van het Profiel in Transactionele Berichten ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
-* [ Meertalige Mogelijkheden voor Transactioneel Overseinen, de Berichten van de Duw en SMS ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [&#x200B; de Verrijking van het Profiel in Transactionele Berichten &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [&#x200B; Meertalige Mogelijkheden voor Transactioneel Overseinen, de Berichten van de Duw en SMS &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
-Verwijs naar UI van het Web van de Campagne [ versienota&#39;s ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
+Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
 
 ### Oplossingen {#fixes-8-8-2}
 
@@ -83,7 +83,7 @@ Eerder vrijgegeven voor een klein aantal klanten, is het volgende vermogen nu be
 
   >[!NOTE]
   >
-  >Deze eigenschap is **niet** beschikbaar voor [ Plaatsingen van de Campagne FFDA ](../architecture/enterprise-deployment.md).
+  >Deze eigenschap is **niet** beschikbaar voor [&#x200B; Plaatsingen van de Campagne FFDA &#x200B;](../architecture/enterprise-deployment.md).
 
 <!-- (from ACC rn, aleady in the product, to remove?) -->
 
@@ -140,7 +140,7 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 
   >[!NOTE]
   >
-  >Deze eigenschap is **niet** beschikbaar voor [ Plaatsingen van de Campagne FFDA ](../architecture/enterprise-deployment.md).
+  >Deze eigenschap is **niet** beschikbaar voor [&#x200B; Plaatsingen van de Campagne FFDA &#x200B;](../architecture/enterprise-deployment.md).
 
 * **één-Klik lijst-Unsubscribe** - met belangrijkste ISPs die afzenders vereisen om ontvangers toe te staan om uit met één enkele klik onmiddellijk te kiezen, kunt u de één-Klik lijst-Unsubscribe kopbal in het gebruikersinterface, direct van het e-mailmalplaatje of leveringseigenschappen nu toelaten. Deze optie is standaard ingeschakeld. [Meer informatie](../send/email-parameters.md#one-click-list-unsubscribe)
 
@@ -153,13 +153,13 @@ ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are
 
 Naast de hierboven vermelde functies wordt in deze release ook een set functies beschikbaar gesteld in de gebruikersinterface van Campagne Web:
 
-* [ Meertalige leveringsverwezenlijking ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery){target="_blank"}
-* [ levering alarmerend ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
-* [ het Bestaan van pagina&#39;s verbeteringen ](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html){target="_blank"}
-* [ Dynamische Rapportering ](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"} (op bestelling)
-* [ Gecentraliseerde Branding ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} (op bestelling, nieuwe implementaties)
+* [&#x200B; Meertalige leveringsverwezenlijking &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery){target="_blank"}
+* [&#x200B; levering alarmerend &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
+* [&#x200B; het Bestaan van pagina&#39;s verbeteringen &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html){target="_blank"}
+* [&#x200B; Dynamische Rapportering &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"} (op bestelling)
+* [&#x200B; Gecentraliseerde Branding &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} (op bestelling, nieuwe implementaties)
 
-Verwijs naar UI van het Web van de Campagne [ versienota&#39;s ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
+Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
 
 ### Algemene verbeteringen {#improvements-8-8-1}
 
@@ -303,7 +303,7 @@ _vrijdag 10 april 2025_
 >
 >Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [&#x200B; het document van het Webgebruikersinterface van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nieuwe functies {#features-8-7-4}
 
@@ -325,7 +325,7 @@ _feb 14, 2025_
 >
 >Deze versie is in **beperkte beschikbaarheid** (Limited Availability, ofwel LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 >
->Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [ het document van het Webgebruikersinterface van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer meer over deze overgang in [&#x200B; het document van het Webgebruikersinterface van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nieuwe functies {#features-8-7-3}
 
@@ -345,9 +345,9 @@ _jan 15, 2025_
 
 ### Algemene verbeteringen {#improvements-8-6-4}
 
-* De stabiliteit van de toepassing van de campagne is verbeterd tijdens leveringsanalyse in de context van een [ plaatsing van de Onderneming (FFDA) ](../../v8/architecture/enterprise-deployment.md).
+* De stabiliteit van de toepassing van de campagne is verbeterd tijdens leveringsanalyse in de context van een [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../../v8/architecture/enterprise-deployment.md).
 * Deze release wordt geleverd met verbeterde en verbeterde FFDA-architectuurmechanismen, waaronder sleutelbeheer, staging en gegevensreplicatie.
-* De nieuwe technische werkschema&#39;s zijn geïntroduceerd voor de [ plaatsing van de Onderneming (FFDA) ](../../v8/architecture/enterprise-deployment.md). Deze werkschema&#39;s repliceren levering en verwante gegevens door parallelle replicatieverzoeken op overeenkomstige lijsten te centraliseren. Deze workflow begint met `Replicate nms` . [Meer informatie](../architecture/replication.md)
+* De nieuwe technische werkschema&#39;s zijn geïntroduceerd voor de [&#x200B; plaatsing van de Onderneming (FFDA) &#x200B;](../../v8/architecture/enterprise-deployment.md). Deze werkschema&#39;s repliceren levering en verwante gegevens door parallelle replicatieverzoeken op overeenkomstige lijsten te centraliseren. Deze workflow begint met `Replicate nms` . [Meer informatie](../architecture/replication.md)
 * Een nieuwe **laat controleur van de controlehond toe om werkschema te houden dat permanent** optie loopt is nu beschikbaar in de werkschemaeigenschappen. Als deze optie is ingeschakeld, worden workflows na een fout automatisch opnieuw gestart. Het opnieuw opstarten gebeurt standaard elke 30 seconden als de werkstroom nog steeds een fout vertoont. Als u dit interval wilt aanpassen, maakt u een nieuwe optie `XtkWorkflow_WatchdogRestartTimerTimeout` en stelt u een gegevenstype Geheel getal in om de nieuwe vertraging op te geven. Deze optie moet alleen worden ingeschakeld in technische workflows. [Meer informatie](../../automation/workflow/workflow-properties.md#execution)
 
 ### Beveiligingsverbeteringen {#security-8-6-4}
@@ -363,7 +363,7 @@ De verbinding met Adobe-oplossingen en -toepassingen via het **[!UICONTROL Adobe
 
 ### Compatibiliteitsupdates {#comp-8-6-4}
 
-De volgende FDA-connectors zijn toegevoegd. Verwijs naar deze [ pagina ](compatibility-matrix.md#FederatedDataAccessFDA).
+De volgende FDA-connectors zijn toegevoegd. Verwijs naar deze [&#x200B; pagina &#x200B;](compatibility-matrix.md#FederatedDataAccessFDA).
 
 * Databases worden nu ondersteund als externe database met FDA (Adobe Campaign Federated Data Access).
 
