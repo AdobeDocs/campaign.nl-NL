@@ -44,7 +44,7 @@ Adobe Campaign gebruikt de volgende technische accounts om specifieke processen 
 
 De **Stuits post** externe rekening specificeert de externe POP3 rekening die moet worden gebruikt om met de e-maildienst te verbinden. Alle servers die voor POP3 toegang worden gevormd kunnen worden gebruikt om terugkeerpost te ontvangen.
 
-Leer meer over binnenkomende e-mails in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
+Leer meer over binnenkomende e-mails in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=nl-NL){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -101,7 +101,7 @@ Het **Externe gegevensbestand** type externe rekening wordt gebruikt om met een 
 >
 >De externe gegevensbestanden compatibel met Adobe Campaign v8 zijn vermeld in de [&#x200B; matrijs van de Verenigbaarheid &#x200B;](../start/compatibility-matrix.md). Voor FDA-verbindingen worden ODBC-stuurprogramma&#39;s gebruikt. Voor Adobe Campaign Managed Cloud Services worden het ODBC-stuurprogramma en de configuratie van de externe account door Adobe ingesteld.
 
-De instellingen voor externe accountconfiguratie zijn afhankelijk van de database-engine. Bij Adobe Campaign Managed Cloud Services wordt de configuratie van externe accounts uitgevoerd door Adobe. Leer meer over deze configuratie in [&#x200B; Adobe Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}.
+De instellingen voor externe accountconfiguratie zijn afhankelijk van de database-engine. Bij Adobe Campaign Managed Cloud Services wordt de configuratie van externe accounts uitgevoerd door Adobe. Leer meer over deze configuratie in [&#x200B; Adobe Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}.
 
 #### Externe account voor databases {#databricks-external-accounts}
 
@@ -137,7 +137,7 @@ Het **Twitter** type externe rekening wordt gebruikt om Campagne met uw rekening
 
 ## Externe rekeningen voor gegevensoverdracht {#transfer-data-external-accounts}
 
-Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** -workflowactiviteit. Leer meer over **overdracht van het Dossier** in werkschema&#39;s in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
+Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** -workflowactiviteit. Leer meer over **overdracht van het Dossier** in werkschema&#39;s in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=nl-NL){target="_blank"}.
 
 * **FTP en SFTP** - de **FTP** externe rekening laat u toegang tot een server buiten Adobe Campaign vormen en testen. Als u verbindingen wilt instellen met externe systemen, zoals SFTP- of FTP-servers die worden gebruikt voor bestandsoverdracht, kunt u uw eigen externe accounts maken.
 
@@ -145,7 +145,7 @@ Deze externe accounts kunnen worden gebruikt om gegevens te importeren of te exp
 
   >[!NOTE]
   >
-  >Vanaf versie 8.5 kunt u nu veilig verifiëren met een persoonlijke sleutel wanneer u uw SFTP-externe account configureert. [&#x200B; Leer meer op zeer belangrijk beheer &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
+  >Vanaf versie 8.5 kunt u nu veilig verifiëren met een persoonlijke sleutel wanneer u uw SFTP-externe account configureert. [&#x200B; Leer meer op zeer belangrijk beheer &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=nl-NL){target="_blank"}.
 
 * **de Eenvoudige Dienst van de Opslag van Amazon (S3)** - de **schakelaar van AWS S3** kan worden gebruikt om gegevens in te voeren of uit te voeren naar Adobe Campaign gebruikend de activiteit van het a **[!UICONTROL Transfer file]** werkschema. Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
 
