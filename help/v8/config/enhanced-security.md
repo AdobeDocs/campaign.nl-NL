@@ -1,19 +1,21 @@
 ---
 title: Invoegtoepassing uitgebreide beveiliging voor campagne
-description: Ga aan de slag met de uitgebreide beveiligingsinvoegtoepassing Campagne
+description: Veilige configuratiebegeleiding voor de Verbeterde veiligheidsuitvoeging van de Campagne
 feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 3f36d7c425dd5a9a13e1de7a77371b29a462dbea
+source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '743'
 ht-degree: 2%
 
 ---
 
 
 # Invoegtoepassing uitgebreide beveiliging voor campagne {#enhanced-security}
+
+Deze pagina maakt deel uit van Adobe [ openbaar beschikbare geadviseerde veilige configuratiebegeleiding ](security.md#public-guidance) voor Campagne v8.
 
 Om uw netwerkverbinding veiliger te maken en betere veiligheid voor uw middelen te verstrekken, [!DNL Adobe Campaign] biedt een nieuwe **Verbeterde veiligheid** toe:voegen-op aan.
 
@@ -45,13 +47,13 @@ Door de klant beheerde sleutels zijn Key Management Service (KMS)-sleutels in uw
 
 Voer de volgende stappen uit om de CMK-integratie met Campagne in te schakelen:
 
-1. Verbind met uw [&#x200B; Amazon Web Services (AWS) &#x200B;](https://aws.amazon.com/){target="_blank"} rekening.
+1. Verbind met uw [ Amazon Web Services (AWS) ](https://aws.amazon.com/){target="_blank"} rekening.
 
-1. Een sleutel met automatische rotatie genereren via de AWS Key Management Service (KMS). [&#x200B; leer hoe &#x200B;](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
+1. Een sleutel met automatische rotatie genereren via de AWS Key Management Service (KMS). [ leer hoe ](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
 
-1. Pas het beleid toe dat Adobe u biedt op uw AWS-account, zodat u toegang hebt tot uw bronnen. [&#x200B; leer meer &#x200B;](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
+1. Pas het beleid toe dat Adobe u biedt op uw AWS-account, zodat u toegang hebt tot uw bronnen. [ leer meer ](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
 
-1. Deel uw [&#x200B; Naam van het Middel van Amazon (zeer belangrijke ARN) &#x200B;](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} met [!DNL Adobe Campaign]. Neem hiervoor contact op met uw Adobe-vertegenwoordiger. <!--or Adobe transition manager?-->
+1. Deel uw [ Naam van het Middel van Amazon (zeer belangrijke ARN) ](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} met [!DNL Adobe Campaign]. Neem hiervoor contact op met uw Adobe-vertegenwoordiger. <!--or Adobe transition manager?-->
 
 1. Maak en test de Amazon EventBridge-regels om het controleren van uw sleutels door Adobe mogelijk te maken. &#x200B; [Meer informatie](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
@@ -60,15 +62,15 @@ Voer de volgende stappen uit om de CMK-integratie met Campagne in te schakelen:
 
 De volgende instructies en beperkingen zijn van toepassing op de CMK-integratie met Adobe Campaign v8:
 
-* Adobe verstrekt geen [&#x200B; Amazon Web Services (AWS) &#x200B;](https://aws.amazon.com/){target="_blank"} rekening. U moet uw eigen AWS-account hebben en deze instellen om uw sleutel te genereren en te delen met Adobe.
+* Adobe verstrekt geen [ Amazon Web Services (AWS) ](https://aws.amazon.com/){target="_blank"} rekening. U moet uw eigen AWS-account hebben en deze instellen om uw sleutel te genereren en te delen met Adobe.
 
-* Slechts worden de slechts [&#x200B; (KMS) sleutels van de Dienst van het Beheer van AWS Key gesteund. &#x200B;](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} Er kunnen geen door de klant gegenereerde sleutels buiten KMS worden gebruikt. &#x200B;
+* Slechts worden de slechts [ (KMS) sleutels van de Dienst van het Beheer van AWS Key gesteund. ](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} Er kunnen geen door de klant gegenereerde sleutels buiten KMS worden gebruikt. &#x200B;
 
 * Downtime wordt verwacht tijdens de eerste installatie. &#x200B;De downtime is afhankelijk van de grootte van de database.
 
 * Als klant hebt u de sleutel en houdt u deze bij. Je moet Adobe bereiken voor het geval je sleutel verandert. &#x200B;
 
-* U kunt uw sleutel controleren gebruikend [&#x200B; AWS CloudTrail &#x200B;](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} en het herroepen indien nodig. &#x200B;
+* U kunt uw sleutel controleren gebruikend [ AWS CloudTrail ](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} en het herroepen indien nodig. &#x200B;
 
 * Als u de sleutel intrekt, uitschakelt of verwijdert, zijn de gecodeerde bronnen en instanties pas toegankelijk als u de bijbehorende actie hebt teruggezet.
 
@@ -124,7 +126,7 @@ De volgende databases op locatie worden ondersteund:
 * Hadoop via HiveSQL
 * PostgreSQL
 
-Cloud-databases worden ondersteund. Verwijs naar de [&#x200B; verenigbaarheidsmatrijs &#x200B;](../start/compatibility-matrix.md#FederatedDataAccessFDA).
+Cloud-databases worden ondersteund. Verwijs naar de [ verenigbaarheidsmatrijs ](../start/compatibility-matrix.md#FederatedDataAccessFDA).
 
 >[!NOTE]
 >
