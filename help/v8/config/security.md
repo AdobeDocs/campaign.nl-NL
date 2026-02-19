@@ -6,10 +6,10 @@ role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+source-git-commit: da2274cfd19bb067fcc1e990360093f161d5638a
 workflow-type: tm+mt
-source-wordcount: '2167'
-ht-degree: 67%
+source-wordcount: '2810'
+ht-degree: 52%
 
 ---
 
@@ -19,9 +19,25 @@ In Adobe nemen we de veiligheid van je digitale ervaring zeer serieus. Beveiligi
 
 Bovendien helpen ons samenwerkingswerk met partners, toonaangevende onderzoekers, veiligheidsonderzoeksinstellingen en andere brancheorganisaties ons bij het up-to-date houden met de nieuwste dreigingen en kwetsbaarheden en wij nemen regelmatig geavanceerde veiligheidstechnieken op in de producten en diensten die wij aanbieden.
 
+>[!NOTE]
+>
+>**Campagne v8 Beheerde de Diensten van de Wolk:** de Infrastructuur (netwerk, server, TLS, het patching) wordt beheerd door Adobe. Deze pagina concentreert zich op huurder en toepassing-vlakke configuratie die u controleert: toegangsbeheer, authentificatie, instantiemontages, gegevensbescherming, codering, en operationele praktijken.
+
+## Beveiligingschecklist {#security-checklist}
+
+Gebruik deze controlelijst om uw configuratie met geadviseerde veilige gebreken te richten:
+
+* [ Toegangsbeheer ](#access-management): Creeer veiligheidsgroepen, wijs aangewezen rechten toe, beperk admin gebruik, één exploitant per gebruiker, overzicht periodiek
+* [ Authentificatie en zitting ](#authentication-and-session): Gebruik Adobe IMS, sterk identiteitsbeleid, zittingsonderbreking
+* [ Instantie en netwerkveiligheid ](#instance-and-network-security): IP lijst van gewenste personen, toestemmingen URL, sleutels GPG via Controlebord
+* [ Gegevens en bescherming PII ](#data-and-pii-protection): HTTPS, PII meningsbeperking, beperkte wachtwoorden, beschermt gevoelige pagina&#39;s
+* [ Coderende richtlijnen ](#coding-guidelines): Geen hard-gecodeerde geheimen, bevestigt input, parameterized SQL, captchas
+* [ Beperking van Gegevens ](#data-restriction): Beperk toegang tot wachtwoord en geheime gebieden in externe rekeningen
+* [ Operationeel en naleving ](#operational-and-compliance): Ben met deze basislijn periodiek vergelijkbaar, gebruiks controletraject
+
 ## Privacy
 
-Werk binnen de wetgeving die geldt voor de regio(’s) waar u actief bent om privacy en persoonsgegevens correct te behandelen en te beheren. De mogelijkheden van Adobe Campaign helpen u aan de verordeningen voldoen die in [&#x200B; worden vermeld deze pagina &#x200B;](../start/privacy.md)
+Werk binnen de wetgeving die geldt voor de regio(’s) waar u actief bent om privacy en persoonsgegevens correct te behandelen en te beheren. De mogelijkheden van Adobe Campaign helpen u aan de verordeningen voldoen die in [ worden vermeld deze pagina ](../start/privacy.md)
 
 ### Adobe Experience Cloud-privacy {#experience-cloud-privacy}
 
@@ -38,7 +54,7 @@ Adobe Campaign maakt deel uit van de Adobe Experience Cloud-oplossingen. De mani
 * **Hoe Adobe Experience Cloud wordt gebruikt om informatie te verzamelen**
 
    * Adobe Experience Cloud-oplossingen gebruiken cookies en vergelijkbare technologieën zoals webbakens (ook wel tags of pixels genoemd), waarmee u informatie kunt verzamelen. Zie [deze sectie](#tracking-capabilities) voor meer informatie over cookies en trackingmogelijkheden met Adobe Campaign.
-   * U kunt in uw mobiele apps ook Adobe Experience Cloud-technologieën gebruiken. Voor meer bij het verzenden van mobiele leveringen met Campagne, zie [&#x200B; het kanaal van SMS &#x200B;](../send/sms/sms-channel.md) en Mobiel app kanaal.
+   * U kunt in uw mobiele apps ook Adobe Experience Cloud-technologieën gebruiken. Voor meer bij het verzenden van mobiele leveringen met Campagne, zie [ het kanaal van SMS ](../send/sms/sms-channel.md) en Mobiel app kanaal.
 
 * **De privacyopties van uw gebruikers voor uw gebruik van Adobe Experience Cloud**
 
@@ -59,7 +75,7 @@ Bij privacybeheer is het belangrijk om te bepalen welke gegevens met zorg moeten
 * **Persoonsgegevens** omvatten informatie aan de hand waarvan een levende persoon direct of indirect kan worden geïdentificeerd.
 * **Gevoelige persoonsgegevens** zijn gegevens over etnische afkomst, politieke opvattingen, godsdienstige overtuiging, criminele achtergrond, genetische informatie, gezondheidsgegevens, seksuele voorkeur, biometrische informatie en lidmaatschap van een vakbond.
 
-Wanneer het integreren van Campagne met andere oplossingen van Experience Cloud waar het publiek van één systeem aan een andere, zoals [&#x200B; Adobe Analytics &#x200B;](../connect/ac-aa.md) kan worden overgebracht, [&#x200B; het Soorten van Experience Cloud &#x200B;](../start/shared-audiences.md), Campaign Standard, of met andere oplossingen door [&#x200B; Schakelaar van CRM &#x200B;](../../automation/workflow/crm-connector.md), moet u extra zorg aan persoonlijke gegevensbescherming betalen.
+Wanneer het integreren van Campagne met andere oplossingen van Experience Cloud waar het publiek van één systeem aan een andere, zoals [ Adobe Analytics ](../connect/ac-aa.md) kan worden overgebracht, [ het Soorten van Experience Cloud ](../start/shared-audiences.md), Campaign Standard, of met andere oplossingen door [ Schakelaar van CRM ](../../automation/workflow/crm-connector.md), moet u extra zorg aan persoonlijke gegevensbescherming betalen.
 
 De [belangrijkste verordeningen](#privacy-regulations) betreffen de verschillende entiteiten die gegevens als volgt beheren:
 
@@ -101,8 +117,8 @@ Hier volgt de algemene workflow voor dit gebruiksscenario:
 
 Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en gevoelige informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
 
-* Zorg ervoor dat ontvangers altijd toestemming geven voor het ontvangen van communicatie. Daarvoor moet u opt-outverzoeken altijd zo snel mogelijk verwerken en moet u toestemming controleren via een dubbele opt-inprocedure. Zie [Een lidmaatschapsformulier maken met dubbele opt-in](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank} voor meer informatie.
-* Importeer geen frauduleuze lijsten en gebruik seedadressen om te controleren of uw clientbestand niet onrechtmatig wordt gebruikt. Zie [Seedadressen](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank} voor meer informatie.
+* Zorg ervoor dat ontvangers altijd toestemming geven voor het ontvangen van communicatie. Daarvoor moet u opt-outverzoeken altijd zo snel mogelijk verwerken en moet u toestemming controleren via een dubbele opt-inprocedure. Zie [Een lidmaatschapsformulier maken met dubbele opt-in](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank} voor meer informatie.
+* Importeer geen frauduleuze lijsten en gebruik seedadressen om te controleren of uw clientbestand niet onrechtmatig wordt gebruikt. Zie [Seedadressen](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank} voor meer informatie.
 * Via toestemmings- en rechtenbeheer kunt u de voorkeuren van uw ontvangers bijhouden en beheren wie binnen uw organisatie toegang heeft tot welke gegevens. Zie [deze sectie](#consent)voor meer informatie.
 * Faciliteer en beheer de verzoeken om toegang tot persoonsgegevens van uw ontvangers. Zie [deze sectie](#privacy-requests)voor meer informatie.
 
@@ -123,7 +139,7 @@ Oorspronkelijk biedt Adobe Campaign belangrijke functies die essentieel zijn voo
 
 * **Toestemmingsbeheer**: via de procedure van abonnementsbeheer kunt u de voorkeuren van uw ontvangers beheren en bijhouden welke ontvangers zich hebben aangemeld voor welke soorten abonnementen. Zie [Lidmaatschappen](../../automation/workflow/subscription-services.md) voor meer informatie hierover.
 * **Dataretentie**: alle ingebouwde standaard logtabellen bevatten vooraf ingestelde retentieperioden, waarbij de gegevensopslag over het algemeen is beperkt tot 6 maanden of korter. Er kunnen extra retentieperioden worden ingesteld met workflows. Neem hiervoor contact op met de adviseurs van Adobe of met technische beheerders.
-* **Rights Management**: Adobe Campaign biedt u de mogelijkheid om via verschillende standaard of aangepaste rollen de rechten te beheren die aan de verschillende Campaign-operators zijn toegewezen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Zie [Toegangscontrole](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank} voor meer informatie.
+* **Rights Management**: Adobe Campaign biedt u de mogelijkheid om via verschillende standaard of aangepaste rollen de rechten te beheren die aan de verschillende Campaign-operators zijn toegewezen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Zie [Toegangscontrole](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank} voor meer informatie.
 
 ### Privacyverzoeken {#privacy-requests}
 
@@ -146,7 +162,7 @@ Dankzij de trackingfuncties van Adobe Campaign kunt u bijhouden hoe verzendingso
 * Een **sessiecookie**: de **nlid**-cookie bevat de id van de e-mail die is verzonden naar de contactpersoon (**broadlogId**) en de id van de berichtsjabloon (**deliveryId**). Deze wordt toegevoegd wanneer de contactpersoon op een URL klikt die is opgenomen in een e-mail die door Adobe Campaign wordt verzonden. Hiermee kunt u het gedrag van de contactpersoon op het web volgen. Deze sessiecookie wordt automatisch gewist wanneer de browser wordt gesloten. De contactpersoon kan zijn browser configureren om cookies te weigeren.
 
 * Twee **permanente** cookies:
-   * Het **UUID**-cookie (Universal Unique IDentifier) wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Dit wordt één keer ingesteld totdat het verdwijnt uit de clientbrowser wanneer een nieuwe waarde wordt gegenereerd. Met dit cookie kunt u de gebruikers identificeren die met de Experience Cloud-oplossingen werken wanneer ze een website bezoeken. Het kan worden geplaatst door een introductiepagina (om onbekende klantenactiviteiten aan een ontvanger te koppelen) of door een verzending. De beschrijving van dit cookie is beschikbaar op [deze pagina](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=nl-NL#ec-cookies).
+   * Het **UUID**-cookie (Universal Unique IDentifier) wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Dit wordt één keer ingesteld totdat het verdwijnt uit de clientbrowser wanneer een nieuwe waarde wordt gegenereerd. Met dit cookie kunt u de gebruikers identificeren die met de Experience Cloud-oplossingen werken wanneer ze een website bezoeken. Het kan worden geplaatst door een introductiepagina (om onbekende klantenactiviteiten aan een ontvanger te koppelen) of door een verzending. De beschrijving van dit cookie is beschikbaar op [deze pagina](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html#ec-cookies).
    * Het **nllastdelid**-cookie (geïntroduceerd in Campaign Classic 20.3) is een permanente cookie die de **deliveryId** bevat van de laatste verzending waarvan de gebruiker op de koppeling heeft geklikt. Deze cookie wordt gebruikt wanneer de sessiecookie ontbreekt om te identificeren welke trackingtabel moet worden gebruikt.
 
 In verordeningen zoals de Algemene verordening gegevensbescherming (AVG) wordt bepaald dat bedrijven de toestemming van webgebruikers nodig hebben voordat ze cookies mogen installeren.
@@ -155,53 +171,73 @@ In verordeningen zoals de Algemene verordening gegevensbescherming (AVG) wordt b
 
 ### Berichten tracken {#message-tracking}
 
-Met Adobe Campaign kunt u de verzonden e-mails en het gedrag van de ontvangers van de verzending bijhouden: het openen, het klikken op koppelingen, afmeldingen, enzovoort. Voor meer op dit, zie [&#x200B; Ongeveer berichten &#x200B;](../start/gs-message.md).
+Met Adobe Campaign kunt u de verzonden e-mails en het gedrag van de ontvangers van de verzending bijhouden: het openen, het klikken op koppelingen, afmeldingen, enzovoort. Voor meer op dit, zie [ Ongeveer berichten ](../start/gs-message.md).
 
-Om dit te doen, voeg bijgehouden verbindingen aan uw berichten toe om het effect van uw levering en ontvankelijk gedrag op het Te volgen lusje van het leveringsdashboard te meten. Trackinggegevens worden geïnterpreteerd in het rapport Tracking-indicatoren. Meer over het volgen leren, verwijs naar [&#x200B; deze pagina &#x200B;](../send/tracking.md).
+Om dit te doen, voeg bijgehouden verbindingen aan uw berichten toe om het effect van uw levering en ontvankelijk gedrag op het Te volgen lusje van het leveringsdashboard te meten. Trackinggegevens worden geïnterpreteerd in het rapport Tracking-indicatoren. Meer over het volgen leren, verwijs naar [ deze pagina ](../send/tracking.md).
 
 ### Webtracking {#web-tracking}
 
 >[!AVAILABILITY]
 >
->Webtracering is niet beschikbaar in Campagne v8. Leer meer over niet beschikbare eigenschappen in [&#x200B; deze pagina &#x200B;](../start/v7-to-v8.md#gs-unavailable-features).
+>Webtracering is niet beschikbaar in Campagne v8. Leer meer over niet beschikbare eigenschappen in [ deze pagina ](../start/v7-to-v8.md#gs-unavailable-features).
 
-<!--
-Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:
+## Beveiliging van gegevens en BI&#39;s {#data-and-pii-protection}
 
-* Protect your customer Personal Information (PI) by using HTTPS instead of HTTP
-* Use [PI view restriction](../dev/restrict-pi-view.md) to protect privacy and prevent data from being misused
-* Make sure that encrypted passwords are restricted
-* Protect the pages that might contain personal information such as mirror pages, web applications, etc.
--->
+De configuratie van de privacy en het verharden is een zeer belangrijk element van veiligheidsoptimalisering. Volg deze aanbevolen procedures:
+
+* **HTTPS van het Gebruik voor alle eindpunten** - verzeker alle eindpunten die door Campagne (het volgen, spiegelpagina, Webtoepassingen, APIs) worden gebruikt worden gediend over HTTPS.
+* **Beperk PII mening** - gebruik [ PII meningsbeperking ](../dev/restrict-pi-view.md) zodat slechts de erkende exploitanten gevoelige gebieden (b.v. e-mail, telefoon) in schema&#39;s en de schermen kunnen zien.
+* **Beperk toegang tot gecodeerde wachtwoorden** - Beperk toegang tot wachtwoord en geheime gebieden in externe rekeningen en andere schema&#39;s zodat slechts kunnen de beheerders of een minimale reeks exploitanten hen bekijken. Zie {de beperking van 0} Gegevens [ hieronder.](#data-restriction)
+* **beschermt gevoelige pagina&#39;s** - Beperk toegang tot spiegelpagina&#39;s, Webtoepassingen, en landende pagina&#39;s die tonen of PII verzamelen; gebruikexploitant en omslagtoestemmingen en, waar relevant, titels en toestemming.
 
 >[!NOTE]
 >
 >Als gebruiker van Managed Cloud Services werkt Adobe samen met u om deze configuraties in uw omgeving te implementeren.
 
+## Toegangsbeheer {#access-management}
 
-## Toegangsbeheer
+Toegangsbeheer is een belangrijk onderdeel van de beveiliging. Hier volgen de belangrijkste aanbevolen procedures:
 
-Toegangsbeheer is een belangrijk onderdeel van de beveiliging. Hier volgen enkele van de belangrijkste aanbevolen procedures:
+* **creeer genoeg veiligheidsgroepen** - bepaal exploitantgroepen die rollen aanpassen en slechts de rechten toewijzen elke rolbehoeften.
+* **Controle dat elke exploitant de aangewezen toegangsrechten** heeft - pas het beginsel van minste voorrecht toe; vermijd het verlenen van BEHEER of andere brede rechten door gebrek.
+* **vermijd gebruikend de adminexploitant en vermijd het hebben van teveel exploitanten in de admingroep** - deel niet de ingebouwde adminrekening; creeer één exploitant per fysieke gebruiker voor verantwoordingsplicht en controle.
+* **Één exploitant per fysieke gebruiker** - deel geen rekeningen. Maak één Campagneoperator (Adobe ID) per persoon, zodat audittrails en logboeken kunnen worden toegewezen.
+* **de grens hoog-voorrecht genoemde rechten** - het BEHEER van de Verlening ****, **UITVOERING VAN HET PROGRAMMA** (createProcess), en **SQL** slechts aan een klein aantal vertrouwde op exploitanten; document dat hen en waarom heeft.
+* **toegang van het Overzicht periodiek** - herziet Periodiek Operatoren, de groepen van de Exploitant, en omslagtoestemmingen; verwijder of verminder toegang wanneer de rollen veranderen of de mensen verlaten.
+* **de productprofielen van het Gebruik constant** - verkies het toewijzen van gebruikers aan productprofielen (exploitantgroepen) in Admin Console; houd het noemen verenigbaar (b.v. `campaign - <instance> - <group>`). Zie [ begonnen worden met toestemmingen ](../start/gs-permissions.md).
+* **toegang van het Controlebord** - in Campagne v8, productprofielen of genoemde rechten de waarvan naam &quot;admin&quot;bevat kan toegang tot het Controlebord van de Campagne verlenen. Vermijd het gebruik van &quot;admin&quot; in profiel- of groepsnamen, tenzij deze gebruikers toegang moeten hebben tot het Configuratiescherm.
 
-* Maak genoeg beveiligingsgroepen
-* Controleren of elke operator de juiste toegangsrechten heeft
+Leer meer over toestemmingen in [ deze sectie ](../start/gs-permissions.md).
 
-Leer meer over toestemmingen in [&#x200B; deze sectie &#x200B;](../start/gs-permissions.md)
+## Verificatie en sessie {#authentication-and-session}
 
-## Codeerrichtlijnen
+* **Gebruik Adobe IMS** - alle gebruikers zouden binnen met hun Adobe ID (IMS) moeten ondertekenen; baseer zich niet op erfenislogin/wachtwoord voor dagelijkse exploitanten.
+* **Vertrouw op sterk identiteit en wachtwoordbeleid** - gebruik Admin Console of uw identiteitsleverancier voor MFA en wachtwoordbeleid; zorg ervoor slechts de erkende gebruikers aan de profielen van het het productproduct van de Campagne worden toegewezen.
+* **vorm zittingsonderbreking** - waar configureerbaar (b.v. cliëntconsole), plaats een redelijke zittingsonderbreking en sluit het scherm wanneer het verlaten van het werkstation.
+
+## Instantie- en netwerkbeveiliging {#instance-and-network-security}
+
+Als het productbeheerder van de Campagne v8, gebruik [ Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target="_blank"} om instantie-vlakke veiligheid te beheren:
+
+* **IP lijst van gewenste personen** - beheer de IP lijst van gewenste personen voor instantietoegang; beperk tot bekende netwerken (b.v. bureau, VPN) en vermijd overdreven brede waaiers waar mogelijk.
+* **toestemmingen URL** - Beperk de toestemmingen URL tot de domeinen uw instantie (APIs, het volgen, de externe diensten) moet roepen om het risico van server-zijverzoekmisbruik te verminderen.
+* **GPG sleutels** - als u encryptie voor dossieroverdrachten of andere gebruiksgevallen gebruikt, de sleutels van GPG via Controlebord beheren en hen roteren volgens uw veiligheidsbeleid.
+
+## Codeerrichtlijnen {#coding-guidelines}
 
 Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) altijd de volgende richtlijnen:
 
-* **Scripting**: probeer om SQL verklaringen te vermijden, gebruik geparameterized functies in plaats van koordaaneenschakeling, vermijd SQL injectie door de SQL functies toe te voegen aan de lijst van gewenste personen te gebruiken.
+* **Scripting** - probeer om ruwe SQL te vermijden; gebruik geparameterialiseerde functies in plaats van koordaaneenschakeling. Vermijd SQL-injectie door alleen de SQL-functies toe te voegen die u aan de lijst van gewenste personen nodig hebt.
+* **Beveilig het gegevensmodel** - Gebruik genoemde rechten om exploitantacties te beperken en systeemfilters (sysFilter) toe te voegen.
+* **voegt kapitalen in Webtoepassingen** toe - voeg kapitalen aan openbare het landen pagina&#39;s en abonnementspagina&#39;s toe.
+* **niet hardcode geheimen** - gebruik geen hardcode wachtwoorden, API sleutels, of tekenen in werkschema&#39;s, JavaScript, of JSSP; gebruik externe rekeningen of veilige configuratie.
+* **bevestigt en ontsmet input** - Valideer en ontsmet gebruikersinput in Webtoepassingen en werkschemaparameters om injectie en risico&#39;s te verminderen XSS.
+* **Gebruik de lijst van gewenste personen voor SQL** - wanneer SQL of manuscriptuitvoering wordt vereist, gebruik de lijst van gewenste personen voor toegelaten SQL functies en vermijd bouwend vragen van gebruikersinput via koordaaneenschakeling.
 
-* **beveilig het gegevensmodel**: gebruik genoemde rechten om exploitantacties te beperken, systeemfilters (sysFilter) toe te voegen
-
-* **voegt kapitalen in Webtoepassingen** toe: voeg kapitalen in uw openbare het landen pagina&#39;s en abonnementspagina&#39;s toe.
-
-Leer meer in [&#x200B; Adobe Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=nl-NL#installing-campaign-classic){target="_blank"}.
+Leer meer in [ Adobe Campaign Classic v7 documentatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
 
 
-## Personalization
+## Personalisatie
 
 Wanneer u persoonlijke koppelingen toevoegt aan uw inhoud, moet u altijd geen persoonlijke instellingen opgeven in het gedeelte hostnaam van de URL om mogelijke beveiligingsproblemen te voorkomen. De volgende voorbeelden mogen nooit in alle URL-kenmerken &lt;`a href="">` of `<img src="">` worden gebruikt:
 
@@ -211,7 +247,7 @@ Wanneer u persoonlijke koppelingen toevoegt aan uw inhoud, moet u altijd geen pe
 * `https://<%= sub-domain >.domain.tld/path`
 * `https://sub.domain<%= main domain %>/path`
 
-## Gegevensbeperking
+## Gegevensbeperking {#data-restriction}
 
 U moet ervoor zorgen dat de gecodeerde wachtwoorden niet toegankelijk zijn voor gebruikers met lage bevoegdheden. Hiervoor zijn er twee manieren: de toegang tot alleen wachtwoordvelden of tot de gehele entiteit beperken.
 
@@ -273,24 +309,7 @@ Met deze beperking kunt u wachtwoordvelden verwijderen, maar de externe account 
    >
    >U kunt `$(loginId) = 0 or $(login) = 'admin'` vervangen door `hasNamedRight('admin')` zodat alle gebruikers met de juiste beheerdersrechten deze wachtwoorden kunnen zien.
 
+## Operationeel en conform {#operational-and-compliance}
 
-## Toegangsbeheer
-
-Toegangsbeheer is een belangrijk onderdeel van de beveiliging. Hier volgen enkele van de belangrijkste aanbevolen procedures:
-
-* Maak genoeg beveiligingsgroepen
-* Controleren of elke operator de juiste toegangsrechten heeft
-
-Leer meer over toestemmingen in [&#x200B; in deze sectie &#x200B;](../start/gs-permissions.md).
-
-## Codeerrichtlijnen
-
-Volg bij het ontwikkelen in Adobe Campaign (workflows, Javascript, JSSP, enz.) altijd de volgende richtlijnen:
-
-* **Scripting**: probeer om SQL verklaringen te vermijden, gebruik geparameterized functies in plaats van koordaaneenschakeling, vermijd SQL injectie door de SQL functies toe te voegen aan de lijst van gewenste personen te gebruiken.
-
-* **beveilig het gegevensmodel**: gebruik genoemde rechten om exploitantacties te beperken, systeemfilters (sysFilter) toe te voegen
-
-* **voegt kapitalen in Webtoepassingen** toe: voeg kapitalen in uw openbare het landen pagina&#39;s en abonnementspagina&#39;s toe.
-
-Leer meer in [&#x200B; Adobe Campaign Classic v7 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=nl-NL#installing-campaign-classic){target="_blank"}.
+* **vergelijkt om basislijn** te beveiligen - vergelijk periodiek uw exploitantgroepen, genoemde rechten, en omslagtoestemmingen aan de aanbevelingen in deze pagina (en, indien van toepassing, [ Verbeterde veiligheid toe:voegen-op ](enhanced-security.md)) om met geadviseerde veilige gebreken te richten.
+* **gebruik het controletraject** - Rust op het de controlespoor van de Campagne voor belangrijke veranderingen (b.v. werkschema&#39;s, leveringen, zeer belangrijke configuratie); behoud en herzie logboeken zoals vereist door uw naleving en behoudbeleid.
