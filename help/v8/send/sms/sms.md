@@ -5,10 +5,10 @@ feature: SMS
 role: User, Developer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 8%
+source-wordcount: '173'
+ht-degree: 10%
 
 ---
 
@@ -18,17 +18,16 @@ Gebruik Adobe Campaign om tekstberichten naar uw klanten op hun mobiele apparate
 
 Als u SMS wilt leveren aan mobiele apparaten met Adobe Campaign, hebt u het volgende nodig:
 
-* Een externe account die op het **[!UICONTROL Mobile (SMS)]** -kanaal is geconfigureerd. Leer hoe te om het kanaal van SMS op uw [&#x200B; midsourcing infrastructuur &#x200B;](sms-mid-sourcing.md) te vormen. Voor deze configuratie, moet u de [&#x200B; SMPP externe accountparameters &#x200B;](smpp-external-account.md) en de [&#x200B; het kanaalkenmerken van SMS &#x200B;](sms-channel.md) begrijpen.
+* Een externe account die op het **[!UICONTROL Mobile (SMS)]** -kanaal is geconfigureerd. Leer hoe te om het kanaal van SMS op uw [ midsourcing infrastructuur ](sms-mid-sourcing.md) te vormen. Voor deze configuratie, moet u de [ SMPP externe accountparameters ](smpp-external-account.md) en de [ het kanaalkenmerken van SMS ](sms-channel.md) begrijpen.
 Na deze opstelling, controleer uw verbinding SMPP en weet hoe te om het problemen op te lossen indien nodig. [Meer informatie](smpp-connection.md).
 
 * Een SMS-leveringssjabloon die correct is gekoppeld aan deze externe account.
 
+Adobe Campaign ondersteunt twee SMS-connectors die worden gebruikt voor het verzenden van SMS-berichten naar uw klanten. [Meer informatie](sms-connectors.md).
 
 >[!NOTE]
 >
->U kunt Adobe Campaign ook gebruiken om [&#x200B; duw berichten &#x200B;](../push.md) en [&#x200B; LIJN &#x200B;](../line/line.md) berichten naar mobiele apparaten te verzenden.
->
-> Voor klanten die de verouderde schakelaar van SMS gebruiken, blijft de bestaande implementatie gesteund. Nochtans, adviseren wij zich aan de nieuwe schakelaar te bewegen. Neem contact op met Adobe als u een overgang wilt maken.
+>U kunt Adobe Campaign ook gebruiken om [ duw berichten ](../push.md) en [ LIJN ](../line/line.md) berichten naar mobiele apparaten te verzenden.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
