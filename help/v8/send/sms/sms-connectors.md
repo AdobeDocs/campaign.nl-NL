@@ -24,7 +24,7 @@ De verouderde sms-aansluiting is de MTA-gebaseerde sms-aansluiting die in eerder
 
 Leren hoe te om van de v2 schakelaar te profiteren, verwijs naar de [&#x200B; sectie van de Activering &#x200B;](#activation).
 
-Voor gedetailleerde informatie over de de schakelaarconfiguratie en het gebruik van erfenisSMS, verwijs naar de [&#x200B; documentatie van Campaign Classic &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+Voor gedetailleerde informatie over de de schakelaarconfiguratie en het gebruik van erfenisSMS, verwijs naar de [&#x200B; documentatie van Campaign Classic &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## SMS-connector v2 {#sms-connector-v2}
 
