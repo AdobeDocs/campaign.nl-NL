@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign v8 (clientconsol
 title: Adobe Campaign v8-documentatie
 description: Campagne v8-documentatie
 breadcrumb-title: Documentatie voor Campaign v8
-source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
+source-git-commit: a81ec247d3c44c06aad977c0c58ad7916d6aa2a6
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '844'
 ht-degree: 29%
 
 ---
@@ -45,10 +45,10 @@ ht-degree: 29%
    + [Aan de slag met machtigingen](start/gs-permissions.md)
    + [Gebruikersmachtigingen beheren](start/manage-permissions.md)
    + [Machtigingen toevoegen aan mappen](start/folder-permissions.md)
-   + [Configuratiescherm &#x200B;](config/self-service.md)
+   + [Configuratiescherm ](config/self-service.md)
 + Campagnebeheer {#campaigns}
    + [Aan de slag met campagnes](start/campaigns.md)
-   + [&#x200B; Documentatie van het Orchestration van de Campagne > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=nl)
+   + [ Documentatie van het Orchestration van de Campagne > ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=nl)
 + Berichten verzenden {#send}
    + [Aan de slag met berichten](start/gs-message.md)
    + [Je eerste levering maken](start/create-message.md)
@@ -66,7 +66,7 @@ ht-degree: 29%
       + [Bestanden bijvoegen bij een e-mail](send/attaching-files.md)
    + Sms {#sms}
       + [Aan de slag met sms](send/sms/sms.md)
-      + [Sms-connectoren](send/sms/sms-connectors.md)
+      + [Informatie over typen SMS-connectors](send/sms/sms-connectors.md)
       + [Kenmerken van SMS-kanalen](send/sms/sms-channel.md)
       + [Een sms-levering maken](send/sms/create-sms.md)
       + [De inhoud definiëren](send/sms/sms-content.md)
@@ -75,11 +75,11 @@ ht-degree: 29%
       + [Verzenden naar het publiek](send/sms/sms-send.md)
       + [SMS controleren en volgen](send/sms/sms-monitor.md)
       + Sms-kanaal configureren {#config-sms}
-         + [&#x200B; de leveringsmontages van SMS &#x200B;](send/sms/sms-delivery-settings.md)
-         + [&#x200B; SMPP externe rekeningsmontages &#x200B;](send/sms/smpp-external-account.md)
-         + [&#x200B; Validerend een verbinding SMPP &#x200B;](send/sms/smpp-connection.md)
-         + [&#x200B; Standalone instantie &#x200B;](send/sms/sms-standalone-instance.md)
-         + [&#x200B; Midden-sourcing infrastructuur &#x200B;](send/sms/sms-mid-sourcing.md)
+         + [ de leveringsmontages van SMS ](send/sms/sms-delivery-settings.md)
+         + [ SMPP externe rekeningsmontages ](send/sms/smpp-external-account.md)
+         + [ Validerend een verbinding SMPP ](send/sms/smpp-connection.md)
+         + [ Standalone instantie ](send/sms/sms-standalone-instance.md)
+         + [ Midden-sourcing infrastructuur ](send/sms/sms-mid-sourcing.md)
          + [Beschrijving van SMPP-aansluiting](send/sms/smpp-connector-delivery.md)
    + Pushmeldingen {#push}
       + [Pushmeldingen maken en verzenden](send/push.md)
@@ -146,7 +146,7 @@ ht-degree: 29%
    + [Webtoepassingen en -formulieren ontwerpen](dev/webapps.md)
 + Workflows {#workflows}
    + [Aan de slag met workflows](config/workflows.md)
-   + [&#x200B; Documentatie van het Werkschema > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
+   + [ Documentatie van het Werkschema > ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Privacy en beveiliging {#privacy}
    + [Privacyverzoeken beheren](start/privacy.md)
    + [Beveiligingsrichtlijnen](config/security.md)
@@ -198,7 +198,7 @@ ht-degree: 29%
       + [Query&#39;s ontwerpen](start/design-queries.md)
       + [Filtervoorwaarden definiëren](start/filter-conditions.md)
    + [Gegevens importeren](start/import.md)
-   + [&#x200B; Documentatie van het Werkschema > &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=nl-NL)
+   + [ Documentatie van het Werkschema > ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integraties {#connect}
    + [Campagne verbinden met andere oplossingen](connect/integration.md)
    + Campagne + Experience Platform {#ac-aep}
@@ -284,6 +284,6 @@ ht-degree: 29%
          + [Een workflow beheren](dev/api/controlling-a-workflow.md)
          + [Een signaalactiviteit activeren](dev/api/triggering-a-signal-activity.md)
 + Aanvullende bronnen {#resources}
-   + [&#x200B; de Technische Nota&#39;s van de Campagne > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/technotes-ac/technotes-home)
-   + [&#x200B; Documentatie van het Gebruikersinterface van het Web van de Campagne > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home)
+   + [ de Technische Nota&#39;s van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
+   + [ Documentatie van het Gebruikersinterface van het Web van de Campagne > ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 
