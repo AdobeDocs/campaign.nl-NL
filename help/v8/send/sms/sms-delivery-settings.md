@@ -17,7 +17,7 @@ ht-degree: 0%
 De technische montages nodig voor een levering van SMS zijn:
 
 * De externe rekening SMPP voor het bericht dat verplettert. [Meer informatie](smpp-external-account.md#smpp-connection-settings)
-* Configureer het tabblad SMS. [ leer hoe ](#sms-tab)
+* Configureer het tabblad SMS. [&#x200B; leer hoe &#x200B;](#sms-tab)
 
 U kunt deze allemaal instellen in een leveringssjabloon om te voorkomen dat u de instellingen voor elk sms-leveringsproject hoeft uit te voeren.
 

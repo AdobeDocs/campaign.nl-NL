@@ -22,17 +22,17 @@ Adobe Campaign ondersteunt twee SMS-connectors die worden gebruikt voor het verz
 
 De verouderde sms-aansluiting is de MTA-gebaseerde sms-aansluiting die in eerdere versies van Adobe Campaign wordt gebruikt. Deze connector wordt nog steeds ondersteund voor bestaande implementaties, maar Adobe raadt u ten zeerste aan om de upgrade naar versie 8.9.1 of hoger uit te voeren om te profiteren van de verbeterde prestaties en betrouwbaarheid van de v2-connector.
 
-Leren hoe te om van de v2 schakelaar te profiteren, verwijs naar de [ sectie van de Activering ](#activation).
+Leren hoe te om van de v2 schakelaar te profiteren, verwijs naar de [&#x200B; sectie van de Activering &#x200B;](#activation).
 
-Voor gedetailleerde informatie over de de schakelaarconfiguratie en het gebruik van erfenisSMS, verwijs naar de [ documentatie van Campaign Classic ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+Voor gedetailleerde informatie over de de schakelaarconfiguratie en het gebruik van erfenisSMS, verwijs naar de [&#x200B; documentatie van Campaign Classic &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## SMS-connector v2 {#sms-connector-v2}
 
 De v2-connector is beschikbaar in GA vanaf v8.9.1 en biedt SMPP-verbindingen in de transceivermodus, permanente SMPP-verbindingen en betere compatibiliteit. Er is een speciale externe SMS-account beschikbaar voor alle SMS-implementaties die de v2-connector gebruiken.
 
-De v2-connector is standaard ingeschakeld voor nieuwe installaties. Als u een upgrade hebt uitgevoerd vanaf een vorige versie met behulp van de verouderde connector, moet u contact opnemen met uw Adobe-vertegenwoordiger om over te schakelen op de v2-connector. Zie de [ sectie van de Activering ](#activation).
+De v2-connector is standaard ingeschakeld voor nieuwe installaties. Als u een upgrade hebt uitgevoerd vanaf een vorige versie met behulp van de verouderde connector, moet u contact opnemen met uw Adobe-vertegenwoordiger om over te schakelen op de v2-connector. Zie de [&#x200B; sectie van de Activering &#x200B;](#activation).
 
-Leren hoe te om schakelaar v2 van SMS in Campagne v8 te gebruiken, verwijs naar de [ documentatie van SMS ](sms.md).
+Leren hoe te om schakelaar v2 van SMS in Campagne v8 te gebruiken, verwijs naar de [&#x200B; documentatie van SMS &#x200B;](sms.md).
 
 >[!NOTE]
 >
