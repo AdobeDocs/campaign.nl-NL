@@ -3,16 +3,34 @@ title: Opmerkingen bij de release Campagne v8
 description: Nieuwste versie van Campagne v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d18c876de44b367c79abb04a65fce0698ff6ff78
+source-git-commit: 3ce922319646fae03ad7f6757ffdd94804120144
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 12%
+source-wordcount: '1076'
+ht-degree: 13%
 
 ---
 
 # Laatste versies {#latest-release}
 
-Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke situaties die met Campagne v8 (console) **&#x200B;**&#x200B;komen meest recente versies. Leer meer over de versies, versies, en verbeteringen van de Campagne in [&#x200B; deze pagina &#x200B;](upgrades.md). Andere versies worden vermeld in de sectie Vorige releases van deze documentatie.
+Deze pagina maakt een lijst van nieuwe mogelijkheden, verbeteringen en moeilijke situaties die met Campagne v8 (console) **** komen meest recente versies. Leer meer over de versies, versies, en verbeteringen van de Campagne in [ deze pagina ](upgrades.md). Andere versies worden vermeld in de sectie Vorige releases van deze documentatie.
+
+## Release 8.9.2 {#release-8-9-2}
+
+_Mar 9, 2026_
+
+>[!CAUTION]
+>
+> De upgrade van Client Console is verplicht. Lees op deze [pagina](../start/connect.md#upgrade-ac-console) hoe u uw Client Console kunt upgraden.
+
+### Beveiligingsverbeteringen {#security-8-9-2}
+
+* Om optimale veiligheid, stabiliteit, en naleving te handhaven, zijn alle instanties bevorderd aan Debian 13 en PostgreSQL 17.
+
+### Oplossingen {#fixes-8-9-2}
+
+* Probleem verholpen waarbij gebeurtenisdatums in transactionele gebeurtenissen onjuist werden ingesteld vanwege een probleem met de conversie van gegevenstypen, waardoor onjuiste datums in dynamische rapportage werden veroorzaakt. (NEO-93923)
+* Probleem verholpen waarbij stille pushmeldingen voor Android en iOS mislukten tijdens de voorbereiding van de levering wanneer de velden voor titel en tekst leeg waren. (NEO-93739)
+* Probleem verholpen waarbij het taalveld niet kon worden vastgelegd voor Android-app-registratietokens vanwege onjuiste afstemmingssleutels. (NEO-93100)
 
 ## Release 8.9.1 {#release-8-9-1}
 
@@ -24,18 +42,18 @@ _jan 27, 2026_
 
 ### Nieuwe functies {#new-8-9-1}
 
-De **nieuwe SMS verzendende schakelaar** is nu beschikbaar aan alle klanten (GA). Verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](../send/sms/sms.md).
+De **nieuwe SMS verzendende schakelaar** is nu beschikbaar aan alle klanten (GA). Verwijs naar de [ gedetailleerde documentatie ](../send/sms/sms.md).
 
 Deze versie wordt geleverd met een reeks functies die beschikbaar zijn in de gebruikersinterface van het Web van de Campagne:
 
-* [&#x200B; Meertalige leveringsmogelijkheden (GA) &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=nl-NL){target="_blank"}
-* [&#x200B; de Verrijking van het Profiel in Transactionele Berichten (GA) &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=nl-NL){target="_blank"}
-* [&#x200B; levende Adobe Experience Manager en taalexemplaren &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=nl-NL){target="_blank"}
-* [&#x200B; experimenten van de Inhoud - het testen A/B &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=nl-NL){target="_blank"}
-* [&#x200B; Ononderbroken leveringsactiviteit &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=nl-NL){target="_blank"}
-* [&#x200B; het goedkeuringsbeheer van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=nl-NL){target="_blank"}
+* [ Meertalige leveringsmogelijkheden (GA) ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [ de Verrijking van het Profiel in Transactionele Berichten (GA) ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [ levende Adobe Experience Manager en taalexemplaren ](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [ experimenten van de Inhoud - het testen A/B ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [ Ononderbroken leveringsactiviteit ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [ het goedkeuringsbeheer van de Campagne ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Verwijs naar UI van het Web van de Campagne [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL){target="_blank"}
+Verwijs naar UI van het Web van de Campagne [ versienota&#39;s ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
 
 ### Beveiligingsverbeteringen {#security-8-9-1}
 
